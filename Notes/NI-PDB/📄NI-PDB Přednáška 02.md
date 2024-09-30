@@ -1,6 +1,6 @@
 ---
 created: 2024-09-30T16:25:16
-parent: "[[FIT]]"
+up: "[[📖NI-PDB]]"
 ---
 
 TARGET DECK: NI-PDB

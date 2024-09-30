@@ -27,8 +27,8 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
-  "announceUpdates": true,
-  "version": "0.14.0",
+  "announceUpdates": false,
+  "version": "1.11.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {
@@ -92,6 +92,6 @@
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
     "setVersionAfterUpdateModalRelease": true,
-    "addDefaultAIProviders": false
+    "addDefaultAIProviders": true
   }
 }

@@ -4,5 +4,7 @@
   "open-vscode",
   "quickadd",
   "vscode-editor",
-  "homepage"
+  "homepage",
+  "breadcrumbs",
+  "obsidian-reveal-active-file"
 ]

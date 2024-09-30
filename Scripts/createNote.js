@@ -26,10 +26,10 @@ module.exports = async (params) => {
 };
 
 async function createNote(app, note) {
-  const filePath = `Notes/${note.courseCode}/${note.courseCode} Přednáška ${note.lectureNumber}.md`;
+  const filePath = `Notes/${note.courseCode}/📄${note.courseCode} Přednáška ${note.lectureNumber}.md`;
   const content = `---
 created: ${getCurrentDateTimeISO()}
-up: "[[${note.courseCode}]]"
+up: "[[📖${note.courseCode}]]"
 ---
 
 TARGET DECK: ${note.courseCode}
@@ -90,7 +90,7 @@ async function initCourseFolder(app, courseCode) {
   const folderPath = `Notes/${courseCode}/`;
   await app.vault.createFolder(folderPath);
 
-  const filePath = `Notes/${courseCode}/${courseCode}.md`;
+  const filePath = `Notes/${courseCode}/📖${courseCode}.md`;
   const content = `---
 created: ${getCurrentDateTimeISO()}
 up: "[[FIT]]"
