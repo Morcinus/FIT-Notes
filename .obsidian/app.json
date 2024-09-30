@@ -5,5 +5,7 @@
   "spellcheck": false,
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showRibbon": false,
+  "defaultViewMode": "preview"
 }

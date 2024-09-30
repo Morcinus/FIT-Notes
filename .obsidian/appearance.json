@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "baseFontSize": 19
+  "baseFontSize": 19,
+  "enabledCssSnippets": [
+    "banners",
+    "properties"
+  ],
+  "cssTheme": "Atom"
 }
