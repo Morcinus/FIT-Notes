@@ -305,7 +305,7 @@ END
 
 ---
 
-### Merge join
+#### Merge join
 
 
 START
@@ -328,6 +328,7 @@ END
 
 ---
 
+#### Hash join
 
 START
 Basic

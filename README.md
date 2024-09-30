@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="./Assets/logo.png" width="200"></a>
+  <img src="./Assets/logo.png" width="200">
   <br>
   FIT Flashcards
   <br>
@@ -15,7 +15,10 @@
 
 ## Stahování kartiček
 
-_TBA_
+1. Je potřeba mít stáhlou nějakou verzi [Anki](https://apps.ankiweb.net/) nebo [AnkiDroidu](https://play.google.com/store/apps/details?id=com.ichi2.anki).
+2. Stáhni si nejnovější `[KÓD PŘEDMĚTU].apkg` soubor z [Releases](https://github.com/Morcinus/FIT-Notes/releases).
+3. Naimportuj balíček do Anki (File > Import).
+   - Při importu se nastavení nemusí měnit, stačí zmáčknout `Import`
 
 ## Vytváření kartiček
 
