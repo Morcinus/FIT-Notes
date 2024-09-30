@@ -22,7 +22,11 @@
 
 ## Vytváření kartiček
 
-_TBA_
+### Přidávání nových kartiček
+
+1. Zmáčknout `Ctrl+N`
+2. Vybrat `Add Lecture Note` a vyplnit formulář
+3. Přidávat flashcards pomocí `Ctrl+S` a vybráním flashcard templatu
 
 ---
 

@@ -8,5 +8,13 @@
       "key": "S"
     }
   ],
-  "file-explorer:new-file": []
+  "file-explorer:new-file": [],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ]
 }

@@ -1,6 +1,29 @@
 {
-  "choices": [],
-  "macros": [],
+  "choices": [
+    {
+      "id": "1a33c223-f2ee-4a8a-a8ac-1c0b27c02c75",
+      "name": "Add Lecture Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "cc2fbf37-3f1f-4f0b-82ee-3f9e6b68bb0d"
+    }
+  ],
+  "macros": [
+    {
+      "name": "CreateNote",
+      "id": "cc2fbf37-3f1f-4f0b-82ee-3f9e6b68bb0d",
+      "commands": [
+        {
+          "name": "createNote",
+          "type": "UserScript",
+          "id": "ec43ed4f-3be8-4d6c-b004-30181050a8a5",
+          "path": "Scripts/createNote.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
@@ -68,7 +91,7 @@
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
-    "setVersionAfterUpdateModalRelease": false,
+    "setVersionAfterUpdateModalRelease": true,
     "addDefaultAIProviders": false
   }
 }
