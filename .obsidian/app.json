@@ -6,6 +6,6 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
-  "showRibbon": false,
+  "showRibbon": true,
   "defaultViewMode": "preview"
 }

@@ -1,0 +1,49 @@
+.card {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.card.nightMode {
+  font-size: 20px;
+  text-align: center;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-header {
+  cursor: pointer;
+}
+
+.definice,
+.veta,
+.algoritmus,
+.lemma,
+.dusledek {
+  border: 1px solid #ededed;
+  background-color: white;
+  border-radius: 4px;
+  text-align: left;
+  margin: 0 auto 10px auto;
+}
+
+.definice h5 {
+  color: #597454;
+  background-color: #def0d8;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-size: large;
+  border-radius: 4px 4px 0 0;
+}
+.definice p {
+  padding: 0.5rem 1rem;
+  color: black;
+}
+.definice li {
+  color: black;
+}

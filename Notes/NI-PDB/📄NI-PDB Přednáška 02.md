@@ -6,9 +6,8 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: NI-PDB
 FILE TAGS: NI-PDB
 
-
 START
-Basic
+FIT-Card
 
 Kdy je dobré používat **B-tree** index?
 
@@ -18,13 +17,13 @@ Když je kardinalita dané hodnoty **vysoká**.
 
 Např. když mám string, tak tam je kardinalita vysoká
 
+<!--ID: 1728204724895-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Kdy je dobré používat **bitmapový** index?
 
@@ -34,6 +33,7 @@ Když je kardinalita **nízká**.
 
 Např. když mám pohlaví, tak tam je kardinalita nízká
 
+<!--ID: 1728204724899-->
 END
 
 ---
@@ -41,7 +41,7 @@ END
 ### Odhad ceny
 
 START
-Basic
+FIT-Card
 
 Jaká bude **cena** u **full table scanu** (když nemám index)?
 
@@ -53,13 +53,13 @@ Výsledek bude **pR** (počet bloků v tabulce)
 
 ![](../../Assets/Pasted%20image%2020240930164508.png)
 
+<!--ID: 1728204724902-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Co se v databázi **automaticky** udělá, když nějakou hodnotu nastavím jako **unikátní/primární klíč**?
 
@@ -67,13 +67,13 @@ Back:
 
 Automaticky se z toho udělá **index**, kde ta unikátní hodnota je klíč.
 
+<!--ID: 1728204724905-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jaká bude **cena** u **unique indexu na $R(A)$**?
 
@@ -87,13 +87,13 @@ Celkem tedy $cost = I(A,R)$
 
 ![](../../Assets/Pasted%20image%2020240930164748.png)
 
+<!--ID: 1728204724907-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jaká bude **cena** u **non-unique indexu na $R(A)$**?
 
@@ -107,13 +107,13 @@ Celkem tedy $cost = I(A,R) + n(R(A=\text{'x'}))$
 
 ![](../../Assets/Pasted%20image%2020240930165102.png)
 
+<!--ID: 1728204724910-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jaká bude **cena** u **indexu na $R(A,B)$**?
 
@@ -129,13 +129,13 @@ Vůbec nehledám v bázové tabulce, ale celý ten index vyhodnotíme nad indexe
 
 ![](../../Assets/Pasted%20image%2020240930165343.png)
 
+<!--ID: 1728204724913-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jaká bude **cena** u **indexu na $R(A,B)$**?
 
@@ -145,13 +145,13 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020240930165515.png)
 
+<!--ID: 1728204724916-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jaká bude **cena** u **bázové tabulky na $R(A,B)$**?
 
@@ -161,15 +161,15 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020240930165607.png)
 
+<!--ID: 1728204724919-->
 END
 
 ---
 
 #### Příklady
 
-
-
 ![](../../Assets/Pasted%20image%2020240930165711.png)
+
 - `V(sid,R)` - počet námořníků
 - `V(bid,R)` - počet lodí
 
@@ -177,9 +177,8 @@ END
 
 ### Odhad ceny s řazením
 
-
 START
-Basic
+FIT-Card
 
 Co se používá v databázi jako **algoritmus** pro řazení?
 
@@ -187,13 +186,13 @@ Back:
 
 **Merge Sort**
 
+<!--ID: 1728204724922-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 **Při jakých operacích** v databázi dochází k **řazení**?
 
@@ -201,28 +200,26 @@ Back:
 
 `DISTINCT, ORDER BY, HAVING` a množinové operace
 
+<!--ID: 1728204724924-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jaké **statistiky** si databázový engine uchovává **o řazení**?
 
 Back:
 
-- **Multi run sorting** - ukládá si statistiky o předchozím řazení, protože nemá dost paměti na to, aby udělal celé řazení najednou
-	- Když vidím, že má statisticky engine hodně multi run řazení, můžu mu navýšit nějaký parametry, aby byl efektivnější.
-
+- **Multi run sorting** - ukládá si statistiky o předchozím řazení, protože nemá dost paměti na to, aby udělal celé řazení najednou - Když vidím, že má statisticky engine hodně multi run řazení, můžu mu navýšit nějaký parametry, aby byl efektivnější.
+<!--ID: 1728204724927-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Příklad: **Jak seřadím tabulku pomocí 2-runs sortingu?**
 
@@ -239,19 +236,20 @@ Co když těch bloků bude fakt hodně ($5000$)?
 ![](../../Assets/Pasted%20image%2020240930171316.png)
 
 Další možnost:
+
 - pro první běh použiju prioritní frontu
 - díky tomu počet seřazených kousků prvního běhu bude méně
 - Pozn. **z tohohle zkoušet nebude**
-![](../../Assets/Pasted%20image%2020240930171633.png)
+  ![](../../Assets/Pasted%20image%2020240930171633.png)
+<!--ID: 1728204724930-->
 END
 
 ---
 
 ### Odhad ceny operací join
 
-
 START
-Basic
+FIT-Card
 
 Jaké jsou **3 (+1) metody**, kterými engine dělá operace `JOIN`?
 
@@ -264,13 +262,15 @@ Ta poslední je taková víc spešl.
 _Předpoklady:_
 ![](../../Assets/Pasted%20image%2020240930172307.png)
 
+<!--ID: 1728204724933-->
 END
 
 ---
 
 #### Nested loops join
+
 START
-Basic
+FIT-Card
 
 Jak funguje **nested loops join**?
 
@@ -287,13 +287,13 @@ Back:
 **Cena na základě velikosti paměti** (Tohle bych tipnul, že nemusíme umět)
 ![](../../Assets/Pasted%20image%2020240930172712.png)
 
+<!--ID: 1728204724936-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Kdy je dobrý použít **nested loop join**?
 
@@ -301,15 +301,16 @@ Back:
 
 Když jedna z relací je **malá** tak, že se mi **vejde do paměti**.
 
+
+<!--ID: 1728204724938-->
 END
 
 ---
 
 #### Merge join
 
-
 START
-Basic
+FIT-Card
 
 Jak funguje **merge join**?
 
@@ -324,6 +325,7 @@ Back:
 (Tohle bych tipnul, že nemusíme umět)
 ![](../../Assets/Pasted%20image%2020240930173135.png)
 
+<!--ID: 1728204724941-->
 END
 
 ---
@@ -331,13 +333,14 @@ END
 #### Hash join
 
 START
-Basic
+FIT-Card
 
 Jak funguje **hash join**?
 
 Back:
 
 Idea: snížit počet n-tic, které joinujeme
+
 1. Vybere se hashovací funkce
 2. Obě relace (tabulky) se zahešují
 3. Porovnávají se pouze prvky se stejným hešem
@@ -351,28 +354,27 @@ Máme šachovnici, a dál jsem to v přednášce nechytnul :)
 
 ![](../../Assets/Pasted%20image%2020240930173331.png)
 
+<!--ID: 1728204724944-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Jak bych měl obecně optimaliovat tabulku?
 
 Back:
 
 1. Sledovat statistiky, které sbírá databázový engine
-2. Vytvářet indexy a další věci pro zlepšení těch míst, kde to je pomalý 
-
+2. Vytvářet indexy a další věci pro zlepšení těch míst, kde to je pomalý
+<!--ID: 1728204724946-->
 END
 
 ---
 
-
 START
-Basic
+FIT-Card
 
 Měl by člověk obecně používat spíš SQL nebo NoSQL a jiné databáze?
 
@@ -382,6 +384,8 @@ Ve **většině případů** se hodí **SQL**.
 
 Pouze když mě pálí nějaký konkrétní problém v konkrétním projektu, pak teprve použít nějaký třeba NoSQL engine.
 
+<!--ID: 1728204724949-->
 END
 
 ---
+

@@ -1,0 +1,131 @@
+{{FrontSide}}
+
+<hr id="answer" />
+
+{{Back}}
+
+<script>
+  // Function to toggle accordion visibility
+  function toggleAccordion(accordionId) {
+    const content = document.getElementById(`${accordionId}-content`);
+    const icon = document.getElementById(`${accordionId}-icon`);
+
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      icon.textContent = "▶";
+    } else {
+      content.style.display = "block";
+      icon.textContent = "▼";
+    }
+  }
+
+  function wrapContentInAccordion(
+    accordionId,
+    accordionName,
+    nameStart,
+    nameEnd
+  ) {
+    // Get the specific parent element
+    const parentElement = document.getElementById("qa"); // Adjust this if needed
+
+    // Find the start and end comment nodes
+    const comments = Array.from(parentElement.childNodes).filter(
+      (node) =>
+        node.nodeType === Node.COMMENT_NODE &&
+        (node.nodeValue.trim() === nameStart ||
+          node.nodeValue.trim() === nameEnd)
+    );
+
+    // Check if both comments are found
+    if (comments.length === 2) {
+      const startComment = comments[0];
+      const endComment = comments[1];
+
+      // Create the accordion structure
+      const accordionWrapper = document.createElement("div");
+      accordionWrapper.className = "accordion";
+
+      const header = document.createElement("div");
+      header.className = "accordion-header";
+      header.setAttribute("onclick", `toggleAccordion(${accordionId})`);
+
+      const iconSpan = document.createElement("span");
+      iconSpan.className = "icon";
+      iconSpan.textContent = "▶"; // Change this to any icon representation as needed
+      iconSpan.id = `${accordionId}-icon`;
+
+      const titleSpan = document.createElement("span");
+      titleSpan.textContent = ` ${accordionName}`;
+
+      // Append icon and title to the header
+      header.appendChild(iconSpan);
+      header.appendChild(titleSpan);
+
+      const contentDiv = document.createElement("div");
+      contentDiv.className = "accordion-content";
+      contentDiv.id = `${accordionId}-content`;
+
+      // Collect the content between comments
+      let contentNode = startComment.nextSibling;
+
+      // Move the content nodes into the new accordion content until we reach the end comment
+      while (contentNode && contentNode !== endComment) {
+        const nextNode = contentNode.nextSibling; // Store the next sibling
+        if (contentNode.nodeType !== Node.COMMENT_NODE) {
+          contentDiv.appendChild(contentNode); // Append content to the accordion content
+        }
+        contentNode = nextNode; // Move to the next sibling
+      }
+
+      // Append the content div to the accordion wrapper
+      accordionWrapper.appendChild(header);
+      accordionWrapper.appendChild(contentDiv);
+
+      // Insert the new accordion wrapper into the parent element before the start comment
+      parentElement.insertBefore(accordionWrapper, startComment);
+
+      // Remove the start and end comments
+      parentElement.removeChild(startComment);
+      parentElement.removeChild(endComment);
+    } else {
+      console.log("Could not find both comments.");
+    }
+  }
+
+  // Use DOMContentLoaded to ensure the function runs after the DOM is fully loaded
+  new Promise((resolve) => {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", resolve);
+    } else {
+      resolve();
+    }
+  }).then(() => {
+    wrapContentInAccordion(1, "Například", "ExampleStart", "ExampleEnd");
+    wrapContentInAccordion(2, "Příklad", "ExerciseStart", "ExerciseEnd");
+    wrapContentInAccordion(3, "Důkaz", "ProofStart", "ProofEnd");
+    wrapContentInAccordion(
+      4,
+      "Dovysvětlení",
+      "ExplanationStart",
+      "ExplanationEnd"
+    );
+    wrapContentInAccordion(
+      5,
+      "Neformálně řečeno",
+      "InformallySaidStart",
+      "InformallySaidEnd"
+    );
+    wrapContentInAccordion(
+      6,
+      "Další informace",
+      "OtherInfoStart",
+      "OtherInfoEnd"
+    );
+    wrapContentInAccordion(
+      7,
+      "Detailní informace",
+      "DetailInfoStart",
+      "DetailInfoEnd"
+    );
+  });
+</script>

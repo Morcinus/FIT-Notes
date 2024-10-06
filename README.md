@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Všechny <a href="https://apps.ankiweb.net/" target="_blank">Anki</a na jednom místě. > flashcards z magisterského studia na jednom místě.</h4>
+<h4 align="center">Všechny <a href="https://apps.ankiweb.net/" target="_blank">Anki</a na jednom místě. > flashcards z magisterského studia FIT ČVUT na jednom místě.</h4>
 
 <p align="center">
   <a href="#stahování-kartiček">Stahování kartiček</a> •
