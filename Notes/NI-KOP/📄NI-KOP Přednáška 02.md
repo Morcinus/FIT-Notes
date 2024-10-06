@@ -29,10 +29,6 @@ END
 
 ---
 
-
-![](../../Assets/Pasted%20image%2020241006132512.png)
-
-
 START
 FIT-Card
 
