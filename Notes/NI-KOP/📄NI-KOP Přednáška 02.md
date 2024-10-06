@@ -57,7 +57,7 @@ Proč se často hodnotí algoritmy experimentálně?
 Back:
 
 Protože jsou algoritmy **často moc složité** na to, aby se jednoduše určovala horní mez a další vlastnosti.
-
+<!--ID: 1728241521223-->
 END
 
 ---
@@ -100,7 +100,7 @@ Mám otázku co chci zjistit, provedu
 4. **Interpretace výsledku** _(tzn. zobecním ta data)_
 
 Tím získám odpověď.
-
+<!--ID: 1728241521238-->
 END
 
 ---
@@ -123,7 +123,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241006183047.png)
 <!-- ImageEnd -->
-
+<!--ID: 1728241521244-->
 END
 
 ---
@@ -145,7 +145,7 @@ Například **počet vyhodnocených konfigurací**.
 ![](../../Assets/Pasted%20image%2020241006185004.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1728241521250-->
 END
 
 ---
@@ -162,7 +162,7 @@ Back:
 - Ty o kterých **nevíme** _(Např. poměr věcí v batohu vůči jejich cenám)_
 
 Ty co **nevíme** můžeme **objevovat**.
-
+<!--ID: 1728241521256-->
 END
 
 ---
@@ -176,7 +176,7 @@ Co je metrika **Fázový přechod**?
 Back:
 
 **Pravděpodobnost splnitelnosti formule v závislosti na poměru počtu klauzulí k počtu proměnných.**
-
+<!--ID: 1728241521262-->
 END
 
 ---
@@ -203,7 +203,7 @@ Když ohřívám led, tak je furt led (první fáze), dokud nedosáhne nad 0 stu
 
 ![](../../Assets/Pasted%20image%2020241006185826.png)
 <!-- ImageEnd -->
-
+<!--ID: 1728241521269-->
 END
 
 ---
@@ -220,7 +220,7 @@ Back:
 
 - **Generováním instancí** - _sám si je nageneruju_
 - **Sběrem instancí**
-
+<!--ID: 1728241521278-->
 END
 
 ---
@@ -234,7 +234,7 @@ Co musíme dodržet při **generování instancí** problému?
 Back:
 
 **Každá instance** se zadanou metrikou musí být **stejně pravděpodobná**.
-
+<!--ID: 1728241521285-->
 END
 
 ---
@@ -252,7 +252,7 @@ To jak moc se mi mohou lišit jednotlivé instance od sebe.
 <!-- ExampleStart -->
 Např. když chci mít graf s 5 uzlama, tak těch možností, jak ten graf bude vypadat je poměrně dost.
 <!-- ExampleEnd -->
-
+<!--ID: 1728241521293-->
 END
 
 ---
@@ -269,7 +269,7 @@ Tím, že nad **výstupními metrikami** z instancí provedu **statistické zpra
 <!-- ExampleStart -->
 Např. Když mám **velké množství** čísel, tak můžu statisticky získat **průměr** a nevadí mi tolik, jak moc se třeba čísla od sebe liší (tzn. jestli se zrovna vygenerovaly "hloupě" nebo "dobře").
 <!-- ExampleEnd -->
-
+<!--ID: 1728241521301-->
 END
 
 ---
@@ -291,7 +291,7 @@ Back:
 2. **Měřím výstupní metriku**
 3. Z výstupní metriky **udělám statistiku**, _abych potlačil varianci v instancích_
 4. Udělám **interpretaci** statistiky
-
+<!--ID: 1728241521306-->
 END
 
 ---
@@ -308,7 +308,7 @@ Back:
 
 - **průměr**
 - **medián**
-
+<!--ID: 1728241521313-->
 END
 
 ---
@@ -325,7 +325,7 @@ Back:
 2. Z toho pak **spočíst** **rozptyl** a **směrodatnou odchylku**.
 
 Díky tomu výsledky měření **zkomprimuju** do pár informací (rozložení, rozptyl, odchylka).
-
+<!--ID: 1728241521319-->
 END
 
 ---
@@ -339,7 +339,7 @@ K čemu mi je získaná **statistika** při **hodnocení algoritmu**?
 Back:
 
 Když mám dva algoritmy $A$ a $B$, tak je pak mohu srovnávat.
-
+<!--ID: 1728241521324-->
 END
 
 ---
@@ -364,7 +364,7 @@ Na základě **dominance**
 <!-- ExampleEnd -->
 
 Je možné, že **nevíme**. Pak je třeba hlubší analýza.
-
+<!--ID: 1728241521331-->
 END
 
 ---
@@ -394,7 +394,7 @@ Dále postupuju stejně jako u normálního algoritmu.
 ![](../../Assets/Pasted%20image%2020241006194252.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1728241521339-->
 END
 
 ---
@@ -413,7 +413,7 @@ Přímo měřené hodnoty.
 <!-- ExampleStart -->
 Čas běhu algoritmu.
 <!-- ExampleEnd -->
-
+<!--ID: 1728241521346-->
 END
 
 ---
@@ -431,7 +431,7 @@ To co získám statistickou metodou z primárních.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241006194753.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1728241521352-->
 END
 
 ---
@@ -445,7 +445,7 @@ Co je **vizualizace** výstupních metrik?
 Back:
 
 Různé grafy, histogramy atd.
-
+<!--ID: 1728241521360-->
 END
 
 ---
@@ -473,7 +473,7 @@ Na pravém grafu např. vidím, že jedna volba parametru je rychlejší pro hod
 
 ![](../../Assets/Pasted%20image%2020241006195737.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1728241521369-->
 END
 
 ---
@@ -494,7 +494,7 @@ Spočtu pravděpodobnost, že algoritmus **úspěšně skončil** nejvýše v to
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241006195706.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728241521376-->
 END
 
 ---
@@ -511,7 +511,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241006195900.png)
 <!-- ImageEnd -->
-
+<!--ID: 1728241521383-->
 END
 
 ---
@@ -531,7 +531,7 @@ Protože mám **dva zdroje variance**
 - Variance z jednotlivých instancí 
 
 Musím tedy provést **dvakrát potlačení variance**, tady provést "statistiku ze statistiky".
-
+<!--ID: 1728241521389-->
 END
 
 ---
@@ -547,7 +547,7 @@ Back:
 Buď zjistím, jestli mají výsledky stejné rozdělení (viz BI-PST).
 
 Nebo pro **každou instanci** spustím algoritmus **několikrát** _(např. 4x)_ a pak spočtu diferenci _(tzn. jak moc se od sebe výsledky liší)_
-
+<!--ID: 1728241521396-->
 END
 
 ---
@@ -576,7 +576,7 @@ Když SAT solveru na vstupu přeházím pořadí proměnných ve formuli (a Bool
 - Často je důvodem nerobustnosti reprezentace množin **vektorem**.
 - Když mám v algoritmu vybírat prvek pro zpracování, měl bych to vybírat **náhodně**
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728241521404-->
 END
 
 ---
@@ -591,7 +591,7 @@ Back:
 
 - Reprezentace množin **vektorem**.
 - Když mám v algoritmu vybírat prvek pro zpracování, měl bych to vybírat **náhodně**. _Jinak to může v určitých případech být nerobustní_.
-
+<!--ID: 1728241521409-->
 END
 
 ---
@@ -622,7 +622,7 @@ Pozor, všechny perturbace by měly být stejně pravděpodobný!
 ![](../../Assets/Pasted%20image%2020241006202913.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1728241521415-->
 END
 
 ---
@@ -645,7 +645,7 @@ Formálně protože "**nemůžeme eliminovat neznámé zdroje variance**"
 <!-- ExplanationStart -->
 Např. já si udělám statistiku na instancích, na kterých můj algoritmus běží rychle a někdo jiný si udělá statistiku na instancích, na kterých to běží pomalu. Porovnávání těch statistik pak nedává smysl.
 <!-- ExplanationEnd -->
-
+<!--ID: 1728241521421-->
 END
 
 ---
@@ -674,7 +674,7 @@ Když dělám pak algoritmus co se má používat v praxi, nemá třeba smysl ho
 
 Je tedy třeba vybrat **vhodnou sadu instancí**
 <!-- OtherInfoEnd -->
-
+<!--ID: 1728241521427-->
 END
 
 ---
@@ -692,7 +692,7 @@ Back:
 - **Sběr dat** musí umožnit **alternativní interpretaci** _(např. že algoritmus je hodně efektivní pro určitou podtřídu těch instancí)_
 - **Prezentace experimentu** musí budit **důvěru** ve výsledek
 	- Tzn. musí být kvalitní **návrh, interpretace** atd.
-
+<!--ID: 1728241521442-->
 END
 
 ---
@@ -706,7 +706,7 @@ Co je IMRaD?
 Back:
 
 Zaběhlý způsob **strukturování** experimentu
-
+<!--ID: 1728241521453-->
 END
 
 ---
@@ -741,7 +741,7 @@ Jak mít přesvědčivý experiment:
 ![](../../Assets/Pasted%20image%2020241006205714.png)
 ![](../../Assets/Pasted%20image%2020241006205726.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728241521460-->
 END
 
 ---

@@ -16,7 +16,6 @@ Back:
 Když je kardinalita dané hodnoty **vysoká**.
 
 Např. když mám string, tak tam je kardinalita vysoká
-
 <!--ID: 1728204724895-->
 END
 
@@ -32,7 +31,6 @@ Back:
 Když je kardinalita **nízká**.
 
 Např. když mám pohlaví, tak tam je kardinalita nízká
-
 <!--ID: 1728204724899-->
 END
 
@@ -52,7 +50,6 @@ Back:
 Výsledek bude **pR** (počet bloků v tabulce)
 
 ![](../../Assets/Pasted%20image%2020240930164508.png)
-
 <!--ID: 1728204724902-->
 END
 
@@ -66,7 +63,6 @@ Co se v databázi **automaticky** udělá, když nějakou hodnotu nastavím jako
 Back:
 
 Automaticky se z toho udělá **index**, kde ta unikátní hodnota je klíč.
-
 <!--ID: 1728204724905-->
 END
 
@@ -86,7 +82,6 @@ Projdu indexovým stromem dolu, dostanu `rowid` (pokud záznam existuje). Jakmil
 Celkem tedy $cost = I(A,R)$
 
 ![](../../Assets/Pasted%20image%2020240930164748.png)
-
 <!--ID: 1728204724907-->
 END
 
@@ -106,7 +101,6 @@ Projdu indexovým stromem dolu, dostanu se do listu, v něm bude **neunikátní*
 Celkem tedy $cost = I(A,R) + n(R(A=\text{'x'}))$
 
 ![](../../Assets/Pasted%20image%2020240930165102.png)
-
 <!--ID: 1728204724910-->
 END
 
@@ -128,7 +122,6 @@ Celkem tedy $cost = I(R,(A,B)) + n(R(A=\text{'x'}))/bl(A,B)-1$
 Vůbec nehledám v bázové tabulce, ale celý ten index vyhodnotíme nad indexem AB. Ta cena bude výrazně menší než když selectuju s `*`
 
 ![](../../Assets/Pasted%20image%2020240930165343.png)
-
 <!--ID: 1728204724913-->
 END
 
@@ -144,7 +137,6 @@ Jaká bude **cena** u **indexu na $R(A,B)$**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020240930165515.png)
-
 <!--ID: 1728204724916-->
 END
 
@@ -160,7 +152,6 @@ Jaká bude **cena** u **bázové tabulky na $R(A,B)$**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020240930165607.png)
-
 <!--ID: 1728204724919-->
 END
 
@@ -185,7 +176,6 @@ Co se používá v databázi jako **algoritmus** pro řazení?
 Back:
 
 **Merge Sort**
-
 <!--ID: 1728204724922-->
 END
 
@@ -199,7 +189,6 @@ FIT-Card
 Back:
 
 `DISTINCT, ORDER BY, HAVING` a množinové operace
-
 <!--ID: 1728204724924-->
 END
 
@@ -261,7 +250,6 @@ Ta poslední je taková víc spešl.
 
 _Předpoklady:_
 ![](../../Assets/Pasted%20image%2020240930172307.png)
-
 <!--ID: 1728204724933-->
 END
 
@@ -286,7 +274,6 @@ Back:
 
 **Cena na základě velikosti paměti** (Tohle bych tipnul, že nemusíme umět)
 ![](../../Assets/Pasted%20image%2020240930172712.png)
-
 <!--ID: 1728204724936-->
 END
 
@@ -300,7 +287,6 @@ Kdy je dobrý použít **nested loop join**?
 Back:
 
 Když jedna z relací je **malá** tak, že se mi **vejde do paměti**.
-
 
 <!--ID: 1728204724938-->
 END
@@ -324,7 +310,6 @@ Back:
 
 (Tohle bych tipnul, že nemusíme umět)
 ![](../../Assets/Pasted%20image%2020240930173135.png)
-
 <!--ID: 1728204724941-->
 END
 
@@ -353,7 +338,6 @@ Máme šachovnici, a dál jsem to v přednášce nechytnul :)
 ![](../../Assets/Pasted%20image%2020240930173704.png)
 
 ![](../../Assets/Pasted%20image%2020240930173331.png)
-
 <!--ID: 1728204724944-->
 END
 
@@ -383,7 +367,6 @@ Back:
 Ve **většině případů** se hodí **SQL**.
 
 Pouze když mě pálí nějaký konkrétní problém v konkrétním projektu, pak teprve použít nějaký třeba NoSQL engine.
-
 <!--ID: 1728204724949-->
 END
 
