@@ -6,6 +6,13 @@
       "type": "Macro",
       "command": false,
       "macroId": "cc2fbf37-3f1f-4f0b-82ee-3f9e6b68bb0d"
+    },
+    {
+      "id": "f1123cd8-2e35-4917-a47d-3d3836fbeb07",
+      "name": "Add Lab Note",
+      "type": "Macro",
+      "command": false,
+      "macroId": "99334676-f0a2-4e1d-bc94-fc657116a7d8"
     }
   ],
   "macros": [
@@ -18,6 +25,20 @@
           "type": "UserScript",
           "id": "ec43ed4f-3be8-4d6c-b004-30181050a8a5",
           "path": "Scripts/createNote.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "CreateLabNote",
+      "id": "99334676-f0a2-4e1d-bc94-fc657116a7d8",
+      "commands": [
+        {
+          "name": "createLabNote",
+          "type": "UserScript",
+          "id": "61049aaa-399f-4271-beaa-6dbc8b61b943",
+          "path": "Scripts/createLabNote.js",
           "settings": {}
         }
       ],
