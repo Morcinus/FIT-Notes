@@ -40,6 +40,22 @@ END
 START
 FIT-Card
 
+Jaké jsou **příklady big data**? (4)
+
+Back:
+
+- **Social media networks** - hromada dat
+- **Scientific instruments** - zpracování dat z teleskopů, výzkumů atd.
+- **Mobilní zařízení** - trackování úplně všeho
+- **Senzorové technologie** - IoT
+
+END
+
+---
+
+START
+FIT-Card
+
 Jaké jsou **7 hlavní charakteristiky big data**?
 
 Back:
@@ -65,23 +81,7 @@ END
 
 ---
 
-
-
-START
-FIT-Card
-
-Jaké jsou **příklady big data**? (4)
-
-Back:
-
-- **Social media networks** - hromada dat
-- **Scientific instruments** - zpracování dat z teleskopů, výzkumů atd.
-- **Mobilní zařízení** - trackování úplně všeho
-- **Senzorové technologie** - IoT
-
-END
-
----
+Skončil jsem 21:40
 
 ### NoSQL databases
 
