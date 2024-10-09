@@ -76,12 +76,9 @@ Back:
 ![](../../Assets/Pasted%20image%2020241008122821.png)
 <!-- DetailInfoEnd -->
 
-
 END
 
 ---
-
-Skončil jsem 21:40
 
 ### NoSQL databases
 
@@ -89,10 +86,52 @@ Skončil jsem 21:40
 START
 FIT-Card
 
-
+Čeho je zkratka **OLTP**?
 
 Back:
 
+**Online Transaction Processing**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Čeho je zkratka **OLAP**?
+
+Back:
+
+**Online Analytical Processing**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co znamená **NoSQL**?
+
+Back:
+
+**NoSQL movement** = hledání alternativ pro řešení problémů, pro které je SQL špatný
+
+<!-- ExampleStart -->
+Např. mám NoSQL, které se zaměřuje na grafy, škálování atd.
+<!-- ExampleEnd -->
+
+
+<!-- DetailInfoStart --> 
+Tohle je pro srovnání relační databáze
+![](../../Assets/Pasted%20image%2020241009142251.png)
+![](../../Assets/Pasted%20image%2020241009142331.png)
+![](../../Assets/Pasted%20image%2020241009142427.png)
+![](../../Assets/Pasted%20image%2020241009142507.png)
+<!-- DetailInfoEnd -->
 
 
 END
@@ -103,14 +142,53 @@ END
 START
 FIT-Card
 
-Co bude u žápočťáků/zkoušek?
+Jaké typické vlastnosti mají NoSQL databáze? (4)
 
 Back:
 
-Bude dotaz, úkolem bude vymyslet jeden nebo dva alternativní prováděcí plány a odhadnout jejich cenu na základě zadaných dat.
-
-Např. prý něco jako příklady ze cvika 2, např. sekce 3 `query Q1 plan P1`
+- **dobře horizontálně škálovatelné**
+- **schema free** - nemají striktní schéma
+- **eventually consistent** - není tam strong konzistence
+- **pro obrovská množství dat**
 
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jaké jsou **hlavní typy** NoSQL databází? (4)
+
+Back:
+
+- **key-value** databáze
+- **wide column** databáze
+- **document** databáze
+- **Graph** databáze
+
+Vedlejší typy
+- Objektové databáze
+- XML databáze
+- RDF
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou **key-value stores**?
+
+Back:
+
+Vyloženě to je triviální. Mám **klíče** a **hodnoty**.
+
+END
+
+---
+
+Skončil jsem 44:00
