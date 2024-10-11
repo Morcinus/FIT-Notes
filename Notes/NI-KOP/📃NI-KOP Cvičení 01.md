@@ -5,14 +5,6 @@ up: "[[📖NI-KOP]]"
 
 TARGET DECK: NI-KOP
 FILE TAGS: NI-KOP
-
-
-> "Co to tady leze? Jo to je navigace" - Fisher
-
-> "Tak tady máme.. jak tomu budeme nadávat.." 
-
-> "Když to je lehký, tak to jde jednoduše. Když to není lehký, tak to nejde jednoduše no."
-
 #### Vysvětlení SAT Generátor souborů
 - `c` - komentář
 - `p cnf [počet klauzulí] [počet řádků]`

@@ -20,8 +20,6 @@ END
 
 ---
 
-> "Kdo je z Brna? Nee já mám Brno rád." - Tomáš Vitvar
-
 
 START
 Basic
@@ -51,7 +49,5 @@ Např. místo toho, abych posílal data na server ve Frankfurtu, předzrpacuju s
 END
 
 ---
-
-> "Buď si dohledáte dokumentaci, nebo řeknete kámošovi, ať vám to napíše" - Tomáš Vitvar
 
 

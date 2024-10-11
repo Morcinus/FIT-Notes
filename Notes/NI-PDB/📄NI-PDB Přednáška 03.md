@@ -420,8 +420,6 @@ END
 
 ---
 
-> "Recenzenti vědeckého článku vždycky říkali ty vole, proč to nemáte v RDF. Tak jsem říkal no, protože bagr. Těm recenzentům se to blbě vysvětluje." - Michal Valenta :D
-
 #### Fičury NoSQL
 
 

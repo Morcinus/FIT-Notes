@@ -68,9 +68,6 @@ END
 
 ---
 
-> "Tady je kdyžtak únikovej východ, tak můžeme všichni zdrhnout tady." - Vitvar po tom, co pokračuje v přednášce i přes alarm :DD
-
-
 START
 Basic
 
