@@ -15,7 +15,7 @@ Back:
 
 **Princip** = něco obecného
 **Pattern** = konkrétní problém
-
+<!--ID: 1728921214948-->
 END
 
 ---
@@ -30,7 +30,7 @@ Back:
 - **Structural** - algoritmy
 - **OOP**
 - **Functional**
-
+<!--ID: 1728921214951-->
 END
 
 ---

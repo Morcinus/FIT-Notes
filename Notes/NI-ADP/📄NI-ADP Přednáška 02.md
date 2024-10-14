@@ -15,7 +15,7 @@ Má cenu přepisovat software, když je ta codebase špatná?
 Back:
 
 Ve většině případů ne, měla by to být ta poslední možnost
-
+<!--ID: 1728921214924-->
 END
 
 ---
@@ -37,7 +37,7 @@ Back:
 - Avoid premature optimization
 - The boy scout rule
 - Principle of least astonishment
-
+<!--ID: 1728921214927-->
 END
 
 ---
@@ -51,7 +51,7 @@ Jak využít DRY princip, když mám třídu Coffee a chci udělat Tea?
 Back:
 
 Typicky využít dědičnost, protože tam většina funkcí bude stejná
-
+<!--ID: 1728921214930-->
 END
 
 ---
@@ -67,7 +67,7 @@ Back:
 U testů bych např. neměl dělat funkce na setup toho testování, protože tím snižuju čitelnost těch testů.
 
 Když budu volat různé metody, tak tím snížím čitelnost těch testů!
-
+<!--ID: 1728921214933-->
 END
 
 ---
@@ -84,7 +84,7 @@ Back:
 - **Neměl** bych se vždy snažit "psát kód na méně řádků", protože to snižuje čitelnost
 
 Když např. mám kavárnu a vím, že nebudu prodávat čaj, nemusím dělat nutně abstrakce.
-
+<!--ID: 1728921214936-->
 END
 
 ---
@@ -100,7 +100,7 @@ Back:
 - Neměl bych se snažit do programu nacpat všechny ty cool nové věci (např. knihovny, zbytečný future proofing atd.)
 	- Pokud ta věc je o trošku dražší a potenciálně nám to v budoucnu hodně pomůže, tak to udělat
 	- Pokud ta věc je o dost dražší a potenciálně nám to v budoucnu hodně pomůže, kašlat na to
-
+<!--ID: 1728921214939-->
 END
 
 ---
@@ -123,7 +123,7 @@ Back:
 	- Všude kde používám rodiče můžu použít potomka
 - I - Interface segregation principle
 - D
-
+<!--ID: 1728921214942-->
 END
 
 ---

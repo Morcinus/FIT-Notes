@@ -19,7 +19,7 @@ Back:
 Parciálně zderivuju funkci v bodě, dostanu z toho zase funkci. Tu funkci pak znovu zderivuju podle jiné proměnné.
 <!-- InformallySaidEnd -->
 
-
+<!--ID: 1728921214784-->
 END
 
 ---
@@ -36,7 +36,7 @@ Back:
 
 **Neformálně:**
 Ukazuje, jak se mění sklon funkce ve všech směrech v daném bodě.
-
+<!--ID: 1728921214787-->
 END
 
 ---
@@ -55,7 +55,7 @@ Pozn. tehle případ platí velice často.
 
 Hessova matice je často symetrická - tzn. podle diagonály v matici.
 
-
+<!--ID: 1728921214789-->
 END
 
 ---
@@ -69,7 +69,7 @@ Definice: Druhá parciální derivace funkce $f$ ve směru v bodě $\textbf{b}$
 Back:
 
 ![[Pasted image 20240930133700.png]]
-
+<!--ID: 1728921214792-->
 END
 
 ---
@@ -111,7 +111,7 @@ Pozn. obecně určování definitnosti je takový pracný a člověk si to musí
 
 _Příklad indefinitního_:
 ![[Pasted image 20240930134809.png]]
-
+<!--ID: 1728921214796-->
 END
 
 ---
@@ -127,7 +127,7 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
 Back:
 
 ![[Pasted image 20240930135024.png]]
-
+<!--ID: 1728921214799-->
 END
 
 ---
@@ -142,7 +142,7 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
 Back:
 
 ![[Pasted image 20240930135029.png]]
-
+<!--ID: 1728921214801-->
 END
 
 ---
@@ -157,7 +157,7 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
 Back:
 
 ![[Pasted image 20240930135046.png]]
-
+<!--ID: 1728921214804-->
 END
 
 ---
@@ -172,7 +172,7 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
 Back:
 
 ![[Pasted image 20240930135050.png]]
-
+<!--ID: 1728921214807-->
 END
 
 ---
@@ -187,7 +187,7 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
 Back:
 
 ![[Pasted image 20240930135107.png]]
-
+<!--ID: 1728921214809-->
 END
 
 ---
@@ -201,7 +201,7 @@ Věta: **Sylvestrovo kritérium**
 Back:
 
 ![[Pasted image 20240930135304.png]]
-
+<!--ID: 1728921214813-->
 END
 
 ---
@@ -215,7 +215,7 @@ Věta: **diagonála matice** a **definitnost**
 Back:
 
 ![[Pasted image 20240930135505.png]]
-
+<!--ID: 1728921214815-->
 END
 
 ---
@@ -230,6 +230,7 @@ Back:
 
 ![[Pasted image 20240930135358.png]]
 ![[Pasted image 20240930140831.png]]
+<!--ID: 1728921214818-->
 END
 
 ---
@@ -243,7 +244,7 @@ Věta: Nutná podmínka existence lokálního extrému
 Back:
 
 ![[Pasted image 20240930140823.png]]
-
+<!--ID: 1728921214821-->
 END
 
 ---
@@ -257,7 +258,7 @@ Postup: Jak najít extrémy v 3D grafu?
 Back:
 
 ![[Pasted image 20240930140745.png]]
-
+<!--ID: 1728921214824-->
 END
 
 ---
@@ -272,7 +273,7 @@ Back:
 
 ![[Pasted image 20240930140715.png]]
 
-
+<!--ID: 1728921214826-->
 END
 
 ---
@@ -286,7 +287,7 @@ Doplň tvrzení: Lokální minimum konvexní funkce je $\dots$
 Back:
 
 Lokální minimum konvexní funkce je globálním minimem.
-
+<!--ID: 1728921214829-->
 END
 
 ---

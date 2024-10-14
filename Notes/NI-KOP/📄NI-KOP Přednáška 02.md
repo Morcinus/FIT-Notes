@@ -144,7 +144,6 @@ Například **počet vyhodnocených konfigurací**.
 
 ![](../../Assets/Pasted%20image%2020241006185004.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1728241521250-->
 END
 
@@ -393,7 +392,6 @@ Dále postupuju stejně jako u normálního algoritmu.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241006194252.png)
 <!-- ImageEnd -->
-
 <!--ID: 1728241521339-->
 END
 
@@ -621,7 +619,6 @@ Pozor, všechny perturbace by měly být stejně pravděpodobný!
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241006202913.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1728241521415-->
 END
 

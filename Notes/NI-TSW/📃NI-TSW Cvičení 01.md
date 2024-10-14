@@ -33,7 +33,7 @@ Back:
 - To aby to ti uživatelé dokázali dobře používat
 **Value**
 - Musíme řešit skutečný problém
-
+<!--ID: 1728921214623-->
 END
 
 ---
@@ -49,7 +49,7 @@ Back:
 - **Product Manager**
 - **Engineering** - řeší tu technickou stránku vývoje produktu
 - **Product Designer** - řeší design toho produktu (nejen vzhled, ale to jak funguje, a všechno ohledně toho produktu)
-
+<!--ID: 1728921214626-->
 END
 
 ---
@@ -65,7 +65,7 @@ Back:
 Je to jakoby širší pojem pro **UI/UX**, který řeší uživatelské rozhraní a použitelnost.
 
 Product designer je víc "trendy" a řeší ten produkt obecně.
-
+<!--ID: 1728921214629-->
 END
 
 ---

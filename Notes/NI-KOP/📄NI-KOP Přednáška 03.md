@@ -20,7 +20,7 @@ Back:
 
 - **výpočetní složitost** - čas výpočtu
 - **paměťová složitost** - spotřeba paměti
-
+<!--ID: 1728921215045-->
 END
 
 ---
@@ -35,7 +35,7 @@ Back:
 
 - **Hrubá míra** - počet prvků instance (uzlů, čísel, prvků množiny atd.)
 - **Jemná míra** - počet bitů nutných k zakódování instance
-
+<!--ID: 1728921215048-->
 END
 
 ---
@@ -50,7 +50,7 @@ Back:
 
 - počet "typických operací"
 - počet kroků **jednotného výpočetního modelu**
-
+<!--ID: 1728921215051-->
 END
 
 ---
@@ -66,7 +66,7 @@ Back:
 - **Turingův stroj**
 - **RAM stroj**
 - **Booleův obvod**
-
+<!--ID: 1728921215053-->
 END
 
 ---
@@ -90,7 +90,7 @@ Neomezená páska, mám tam zadaný program.
 ![](../../Assets/Pasted%20image%2020241011153757.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921215057-->
 END
 
 ---
@@ -106,7 +106,7 @@ Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154142.png)
-
+<!--ID: 1728921215060-->
 END
 
 ---
@@ -120,7 +120,7 @@ Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$ **v čase 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154225.png)
-
+<!--ID: 1728921215064-->
 END
 
 ---
@@ -133,7 +133,7 @@ Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$ **s pamět
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154230.png)
-
+<!--ID: 1728921215066-->
 END
 
 ---
@@ -158,7 +158,7 @@ Instance je řetězec $0$ a $1$ (tzn. $\set{0,1}^*$, problém je podmnožina tak
 ![](../../Assets/Pasted%20image%2020241011154627.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1728921215069-->
 END
 
 ---
@@ -173,7 +173,7 @@ Definice: Rozhodovací problém **patří do třídy P**, když $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154912.png)
-
+<!--ID: 1728921215072-->
 END
 
 ---
@@ -187,7 +187,7 @@ Definice: Rozhodovací problém **patří do třídy PSPACE**, když $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154938.png)
-
+<!--ID: 1728921215075-->
 END
 
 ---
@@ -201,7 +201,7 @@ Definice: Rozhodovací problém **patří do třídy EXPTIME**, když $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154951.png)
-
+<!--ID: 1728921215078-->
 END
 
 ---
@@ -215,7 +215,7 @@ Jaký je vztah tříd PSPACE a EXPTIME?
 Back:
 
 $\text{PSPACE} \subset \text{EXPTIME}$ 
-
+<!--ID: 1728921215081-->
 END
 
 ---
@@ -230,7 +230,7 @@ FIT-Card
 Back:
 
 **Nedeterministicky polynomiální**
-
+<!--ID: 1728921215084-->
 END
 
 ---
@@ -252,7 +252,7 @@ Jako Turingův stroj.
 <!-- InformallySaidStart -->
 ![](../../Assets/Pasted%20image%2020241011155542.png)
 <!-- InformallySaidEnd -->
-
+<!--ID: 1728921215087-->
 END
 
 ---
@@ -268,7 +268,7 @@ Definice: **nedeterministický Turingův stroj řeší rozhodovací problém $\P
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011155644.png)
-
+<!--ID: 1728921215090-->
 END
 
 ---
@@ -282,7 +282,7 @@ Věta: Pokud nedeterministický Turingův stroj řeší problém $\Pi$ v čase $
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011155932.png)
-
+<!--ID: 1728921215093-->
 END
 
 ---
@@ -298,7 +298,7 @@ Definice: Rozhodovací problém $\Pi$ **patří do třídy NP**, jesltiže $\dot
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011160026.png)
-
+<!--ID: 1728921215095-->
 END
 
 ---
@@ -313,6 +313,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241011160112.png)
 ![](../../Assets/Pasted%20image%2020241011160131.png)
+<!--ID: 1728921215099-->
 END
 
 ---
@@ -339,7 +340,7 @@ Vychází z této definice:
 
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921215102-->
 END
 
 ---
@@ -353,7 +354,7 @@ Do jaké třídy problémů spadá problém nalezení Hamiltonovy kružnice?
 Back:
 
 Do **třídy NP**
-
+<!--ID: 1728921215105-->
 END
 
 ---
@@ -374,7 +375,7 @@ Vychází z této definice:
 ![](../../Assets/Pasted%20image%2020241011160112.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921215107-->
 END
 
 ---
@@ -401,7 +402,7 @@ Tzn. pokud se něco splní v deterministickým stroji, lze to splnit i v nedeter
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241011161048.png)
 <!-- ImageEnd -->
-
+<!--ID: 1728921215113-->
 END
 
 ---
@@ -420,7 +421,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241011161321.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1728921215118-->
 END
 
 ---
@@ -440,7 +441,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241011161456.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1728921215121-->
 END
 
 ---
@@ -464,7 +465,7 @@ Např.
 ![](../../Assets/Pasted%20image%2020241011161812.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1728921215124-->
 END
 
 ---
@@ -480,7 +481,7 @@ Back:
 Pokud mám problém "Existuje..." $\exists \dots$, přehodím to na $\forall \dots$
 
 ![](../../Assets/Pasted%20image%2020241011161940.png)
-
+<!--ID: 1728921215127-->
 END
 
 ---
@@ -496,7 +497,7 @@ Co jsou **svědkové** u **NP problémů**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011162138.png)
-
+<!--ID: 1728921215129-->
 END
 
 ---
@@ -510,7 +511,7 @@ Co jsou **svědkové** u **co-NP problémů**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011162159.png)
-
+<!--ID: 1728921215132-->
 END
 
 ---
@@ -529,7 +530,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011162341.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728921215135-->
 END
 
 ---
@@ -544,7 +545,7 @@ Back:
 
 - **NP** - krátký svědek odpovědi ANO, dlouhý svědek odpovědi NE
 - **co-NP** - krátký svědek odpovědi NE, dlouhý svědek odpovědi ANO
-
+<!--ID: 1728921215138-->
 END
 
 ---
@@ -559,7 +560,7 @@ Jaký je vztah třídy **co-NP** a tříd **P** a **NP**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011162620.png)
-
+<!--ID: 1728921215141-->
 END
 
 ---
@@ -576,7 +577,7 @@ Back:
 Dáno celé číslo $N$, existuje jeho prvočinitel, jehož poslední číslice je $7$?
 
 ![](../../Assets/Pasted%20image%2020241011162546.png)
-
+<!--ID: 1728921215144-->
 END
 
 ---
@@ -595,7 +596,7 @@ $P = \text{co-P}$
 ![](../../Assets/Pasted%20image%2020241011162939.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921215147-->
 END
 
 ---
@@ -614,7 +615,7 @@ $P \subseteq NP \cap \text{co-NP}$
 ![](../../Assets/Pasted%20image%2020241011163033.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921215150-->
 END
 
 ---
@@ -628,7 +629,7 @@ Co platí, pokud $P = NP$ ?
 Back:
 
 $$P = NP \implies NP = \text{co-NP}$$
-
+<!--ID: 1728921215153-->
 END
 
 ---
@@ -645,7 +646,7 @@ $$P \neq NP$$
 ![](../../Assets/Pasted%20image%2020241011163209.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921215155-->
 END
 
 ---
@@ -666,7 +667,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241011163423.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1728921215158-->
 END
 
 ---
@@ -680,7 +681,7 @@ Co je $\text{QSAT}_k$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011163703.png)
-
+<!--ID: 1728921215161-->
 END
 
 ---
@@ -704,7 +705,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241011163840.png)
 <!-- ImageEnd -->
-
+<!--ID: 1728921215164-->
 END
 
 ---

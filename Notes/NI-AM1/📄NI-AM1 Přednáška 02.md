@@ -14,7 +14,7 @@ Definice: **architektura systému** (aka co mi definuje?)
 Back:
 
 Architektura určuje **strukturu** a **chování** sytému
-
+<!--ID: 1728921214979-->
 END
 
 ---
@@ -30,7 +30,7 @@ Back:
 - **Enterprise architektura** - základní, obecný pohled na podnik
 - **Konkrétní složky architektury**
 	- enterprise, data, funkcionální, procesní, software, hardware,...
-
+<!--ID: 1728921214981-->
 END
 
 ---
@@ -45,7 +45,7 @@ Back:
 
 - **Metodologie** - analýza, design, implementace, testování, údržba
 - **Aktéři** - architekti (navrhuje architekturu), uživatelé, vývojáři, administrátoři,..
-
+<!--ID: 1728921214984-->
 END
 
 ---
@@ -63,7 +63,7 @@ Back:
 - **fyzický**
 
 Pozn. tyhle 
-
+<!--ID: 1728921214987-->
 END
 
 ---
@@ -81,7 +81,7 @@ Back:
 **Doménově nezávislý**:
 - **softwarová** architektura (definuje softwarovou platformu)
 - **hardwarová** architektura (definuje infrastrukturu)
-
+<!--ID: 1728921214989-->
 END
 
 ---
@@ -96,7 +96,7 @@ Back:
 
 ![[Pasted image 20240930093046.png]]
 
-
+<!--ID: 1728921214992-->
 END
 
 ---
@@ -121,7 +121,7 @@ Back:
 - Řeší správu dokumentů, document management system
 
 ![[Pasted image 20240930093423.png]]
-
+<!--ID: 1728921214995-->
 END
 
 ---
@@ -135,7 +135,7 @@ Co je **integrační middleware**?
 Back:
 
 Řeší integraci více systémů. Propojuje mi to jednotlivé aplikace.
-
+<!--ID: 1728921214998-->
 END
 
 ---
@@ -155,7 +155,7 @@ Back:
 	- vyvíjí produkt podle potřeb trhu
 
 ![[Pasted image 20240930093901.png]]
-
+<!--ID: 1728921215000-->
 END
 
 ---
@@ -175,7 +175,7 @@ Back:
 **Enterprise architekt** - "vyšší vrstva solution architekta", má vyšší pohled ale taky víc do hloubky, hodně rozumí doméně
 
 ![[Pasted image 20240930094104.png]]
-
+<!--ID: 1728921215003-->
 END
 
 ---
@@ -189,7 +189,7 @@ Co je **process classification framework**?
 Back:
 
 Framework pro klasifikaci procesů
-
+<!--ID: 1728921215006-->
 END
 
 ---
@@ -236,7 +236,7 @@ Všechny tyto systémy musím propojit, aby
 Takhle potom třeba vypadá konkrétní proces napříč jednotlivými systémy:
 - tohle pak řeší ten technický architekt
 ![[Pasted image 20240930101202.png]]
-
+<!--ID: 1728921215009-->
 END
 
 ---
@@ -251,7 +251,7 @@ Back:
 
 - Java a XML je nejpoužívanější ve velkých organizacích, je to už trošičku přežitek
 - U nových systémů se používá JSON
-
+<!--ID: 1728921215011-->
 END
 
 ---
@@ -267,7 +267,7 @@ Back:
 XML a JSON se dají reprezentovat jako **strom**.
 
 Můžu potom vytvářet **pohledy** - tzn. píchnu prstem do určitého vrcholu a od něj dolů se budu na to dívat.
-
+<!--ID: 1728921215014-->
 END
 
 ---
@@ -284,7 +284,7 @@ Back:
 **Sémantika** - co přesně tam chci psát (tzn. např že tam chci element customer, co má určitý atributy)
 
 Např. tu sémantiku v JSONu se dá řešit pomocí JSONSchema standardu
-
+<!--ID: 1728921215017-->
 END
 
 ---
@@ -316,7 +316,7 @@ Ale můžu mít i následující strukturu:
 Tzn. já když designuju tu strukturu, tak přirozeně nějak chápu tu sémantiku, ale jiný člověk to může pochopit jinak. 
 
 -> Potřebuju sémantiku **jasně definovat**. 
-
+<!--ID: 1728921215020-->
 END
 
 ---
@@ -334,7 +334,7 @@ Jazyk, co definuje **sémantiku** vazeb v XML a JSONu atd.
 Tzn. můžu tím **jasně definovat sémantiku**.
 
 Je to standard, nadstavba RDF (resource description framework)
-
+<!--ID: 1728921215022-->
 END
 
 ---
@@ -350,7 +350,7 @@ Back:
 - **Intra-entreprise** integration - uvnitř organizace
 - **Inter-enterprise** integration - mezi organizacemi
 
-
+<!--ID: 1728921215025-->
 END
 
 ---
@@ -371,7 +371,7 @@ Každý interface má:
 - **technický detaily** (např. endpoint, ip adresa, atd.)
 
 ![[Pasted image 20240930104053.png]]
-
+<!--ID: 1728921215028-->
 END
 
 ---
@@ -402,7 +402,7 @@ Když chci potom používat tu funkci, tak to budu dělat podle toho procesu (di
 Problém je, že **není moc vynucovacích prostředků** na ten **proces**. Např. ve **Swaggeru** nemůžu nijak popsat ten proces.
 
 Je to podobný jako u **sémantiky u JSONu a XML**. Tam mě taky nic nenutí modelovat ten soubor určitým způsobem, ale někde bych to měl mít zapsaný, abych to modeloval podle toho.
-
+<!--ID: 1728921215031-->
 END
 
 ---
@@ -429,7 +429,7 @@ Back:
 Fun fact:
 - Skype fungoval tak, že když člověk nepotřebuje komunikovat se serverem. Když člověk byl na veřejné síti, tak vpodstatě fungoval jako relay pro ostatní uživatele -> komunikace šla přes ostatní uživatele.
 	- Teď už to není, dřív to tak bylo.
-
+<!--ID: 1728921215034-->
 END
 
 ---
@@ -445,7 +445,7 @@ Back:
 Systém je vrstvenej. Mezi vrstvami mohu definovat **interface**/rozhraní.
 
 ![[Pasted image 20240930103530.png]]
-
+<!--ID: 1728921215036-->
 END
 
 ---
@@ -468,7 +468,7 @@ Pokud tu "smlouvu" chci změnit, musím to verzovat. Nemůžu to jen tak měnit 
 
 Např.
 ![[Pasted image 20240930104117.png]]
-
+<!--ID: 1728921215039-->
 END
 
 ---
@@ -486,7 +486,7 @@ Back:
 - **Dominantní techologie** - např. když oracle dominuje market, tak se to typicky bude dělat podle nich
 
 Co nejvíce bych se měl opírat o globální **standardy**. Neměl bych si vymýšlet něco svýho.
-
+<!--ID: 1728921215042-->
 END
 
 ---

@@ -31,7 +31,7 @@ Big data jsou **velké množství** dat, která **rychle nabývají** a jsou **r
 <!-- OtherInfoStart -->
 ![](../../Assets/Pasted%20image%2020241008121202.png)
 <!-- OtherInfoEnd -->
-
+<!--ID: 1728921214687-->
 END
 
 ---
@@ -48,7 +48,7 @@ Back:
 - **Scientific instruments** - zpracování dat z teleskopů, výzkumů atd.
 - **Mobilní zařízení** - trackování úplně všeho
 - **Senzorové technologie** - IoT
-
+<!--ID: 1728921214689-->
 END
 
 ---
@@ -75,7 +75,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241008122821.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728921214692-->
 END
 
 ---
@@ -91,7 +91,7 @@ FIT-Card
 Back:
 
 **Online Transaction Processing**
-
+<!--ID: 1728921214695-->
 END
 
 ---
@@ -105,7 +105,7 @@ FIT-Card
 Back:
 
 **Online Analytical Processing**
-
+<!--ID: 1728921214697-->
 END
 
 ---
@@ -133,7 +133,7 @@ Tohle je pro srovnání relační databáze
 ![](../../Assets/Pasted%20image%2020241009142507.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214701-->
 END
 
 ---
@@ -150,7 +150,7 @@ Back:
 - **schema free** - nemají striktní schéma
 - **eventually consistent** - není tam strong konzistence
 - **pro obrovská množství dat**
-
+<!--ID: 1728921214704-->
 END
 
 ---
@@ -172,7 +172,7 @@ Vedlejší typy
 - XML databáze
 - Objektové databáze
 - RDF
-
+<!--ID: 1728921214706-->
 END
 
 ---
@@ -193,7 +193,7 @@ Díky tomu si můžu použít několik databázových modelů přesně na ta dat
 Dá se to taky řešit tak, že mám prostě více databází - to je v reálných projektech dost časté.
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1728921214709-->
 END
 
 ---
@@ -215,7 +215,7 @@ Je to hrozně jednoduchý a díky tomu dobře škálovatelný.
 ![](../../Assets/Pasted%20image%2020241011102321.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214712-->
 END
 
 ---
@@ -240,7 +240,7 @@ Obecně na data, ke kterým potřebuju jen přistupovat pomocí **klíče** a ne
 ![](../../Assets/Pasted%20image%2020241011102425.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214715-->
 END
 
 ---
@@ -257,7 +257,7 @@ Back:
 
 Mám **hierarchickou strukturu dokumentů** (typicky JSON a XML).
 - Každý dokument má unique identifier
-
+<!--ID: 1728921214718-->
 END
 
 ---
@@ -281,7 +281,7 @@ Event logging, content management systems, web analytics, e-commerce application
 ![](../../Assets/Pasted%20image%2020241011103239.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214721-->
 END
 
 ---
@@ -305,7 +305,7 @@ Máme **column family** (table).
 ![](../../Assets/Pasted%20image%2020241011103622.png)
 ![](../../Assets/Pasted%20image%2020241011103658.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728921214724-->
 END
 
 ---
@@ -324,7 +324,7 @@ Pro data, která mají podobná schémata, ale nevyžadují ACID a komplexní qu
 ![](../../Assets/Pasted%20image%2020241011103929.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1728921214727-->
 END
 
 ---
@@ -344,7 +344,7 @@ Modelované jako **graf**:
 - **Relationships** (hrany).
 
 Uzly i hrany mohou mít **properties**.
-
+<!--ID: 1728921214730-->
 END
 
 ---
@@ -372,7 +372,7 @@ Prostě vhodné pro grafové struktury.
 ![](../../Assets/Pasted%20image%2020241011104257.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214733-->
 END
 
 ---
@@ -392,7 +392,7 @@ Podobné jako **document storage**, ale pomocí XML
 ![](../../Assets/Pasted%20image%2020241011104826.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214736-->
 END
 
 ---
@@ -415,7 +415,7 @@ Mám **komponenty** složené z:
 Každý komponent reprezentuje **tvrzení** o reálném světě.
 
 Pak to reprezentuje graf.
-
+<!--ID: 1728921214739-->
 END
 
 ---
@@ -435,7 +435,7 @@ Datová jednotka s komplexní strukturou.
 <!-- ExampleStart -->
 V dokumentových databázích to je například daný dokument. U relačních databází to je řádek (n-tice).
 <!-- ExampleEnd -->
-
+<!--ID: 1728921214741-->
 END
 
 ---
@@ -455,7 +455,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241011105443.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214745-->
 END
 
 ---
@@ -470,7 +470,7 @@ Back:
 
 - **horizontální** - koupim další node, který zařadím do sítě
 - **vertikální** (nahoru) - koupím silnější hardware (nebo větší množství místa atd.) 
-
+<!--ID: 1728921214748-->
 END
 
 ---
@@ -496,7 +496,7 @@ Výhodou je pak zvýšený výkon.
 
 ![](../../Assets/Pasted%20image%2020241011105820.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728921214751-->
 END
 
 ---
@@ -515,7 +515,7 @@ Snaha všechno **automatizovat**, aby se nemuseli trénovat administrátoři pro
 ![](../../Assets/Pasted%20image%2020241011105956.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214753-->
 END
 
 ---
@@ -534,7 +534,7 @@ Není nutné, aby byla data furt konzistentní (ACID), ale jsou eventually konzi
 ![](../../Assets/Pasted%20image%2020241011110101.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1728921214756-->
 END
 
 ---
@@ -558,7 +558,7 @@ Ano, můžu validovat JSON pomocí JSON schema, ale nemusím.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011110203.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1728921214759-->
 END
 
 ---
@@ -576,7 +576,7 @@ Back:
 2. Pak vytvořit **Community Edition** za free a placenou **Enterprise Edition**
 
 Takhle můžu prorazit s novou technologií, ostatními způsoby to prakticky moc nejde.
-
+<!--ID: 1728921214761-->
 END
 
 ---
@@ -594,7 +594,7 @@ Back:
 - **Administrátoři** - nejsou tolik potřeba, protože se vše automatizuje
 - **Economics** - o neco levnější než klasické SQL
 - **Flexibility** - nejsou striktní data schemata 
-
+<!--ID: 1728921214764-->
 END
 
 ---
@@ -612,7 +612,7 @@ Back:
 - **Administrace** - občas obtížné na instalaci a údržbu
 - **Analytiky** - není taková podpora jako u SQL
 - **Expertise** - malé množství expertů
-
+<!--ID: 1728921214767-->
 END
 
 ---

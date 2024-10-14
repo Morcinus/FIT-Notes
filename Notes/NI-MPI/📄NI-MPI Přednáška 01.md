@@ -16,7 +16,7 @@ Back:
 ![[Pasted image 20240923125214.png]]
 
 Norma každému bodu přiřadí vzdálenost od počátku souřadnic.
-
+<!--ID: 1728921214832-->
 END
 
 ---
@@ -37,7 +37,7 @@ Důkaz:
 1. Plyne z (1) věty o normě
 2. Plyne z (2) věty o normě
 3. $$d(x,z) = ||x-z||=||(x-y)(y-z)||\leq ||x-y||+||y-z||=d(x,y)+d(y,z)$$
-
+<!--ID: 1728921214835-->
 END
 
 ---
@@ -56,7 +56,7 @@ Vysvětlení součtový normy:
 - Prostě jako kdybych se ve městě se silnicemi jako je mřížka snažil dostat z jednoho bodu do druhého. Nemůžu diagonálně, tak prostě sečtu jednotlivé hrany.
 
 Maximová norma - každý vektor má maximální souřadici 1
-
+<!--ID: 1728921214838-->
 END
 
 ---
@@ -71,7 +71,7 @@ Back:
 
 $$||\textbf{x}||_2=\sqrt[2]{\sum_{i=1}^n |x_i|^2}$$
 ![[Pasted image 20240923133757.png]]
-
+<!--ID: 1728921214841-->
 END
 
 ---
@@ -88,7 +88,7 @@ Back:
 ![[Pasted image 20240923133817.png]]
 
 Prostě "koule" kolem bodu
-
+<!--ID: 1728921214844-->
 END
 
 ---
@@ -109,7 +109,7 @@ Ať vezmu libovolně malinký okolí kolem toho bodu a odstraním z toho ten bod
 _Např. hromadný bod_ bod na "kraji" množiny je hromadný bod, protože část jeho okolí bude v té množině.
 
 _Např. bod co není hromadný_ Pokud ten bod je mimo množinu, tak nemůže být hromadným bodem, protože můžu najít malinkatý okolí, pro které to neplatí (tzn. průnik toho okolí s tou množinou M je prázdný).
-
+<!--ID: 1728921214846-->
 END
 
 ---
@@ -123,7 +123,7 @@ Definice: Posloupnost má limitu, pokud ...
 Back:
 
 ![[Pasted image 20240923125438.png]]
-
+<!--ID: 1728921214849-->
 END
 
 ---
@@ -143,7 +143,7 @@ Každému vektoru přiřadí nějaké číslo.
 Např. $\mathbb{R}^2$ model terénu mám 2D plochu a každému bodu přiřadím výšku
 
 Např. $\mathbb{R}^3$ model místnosti, kde každému bodu je přiřazena teplota v tom bodě
-
+<!--ID: 1728921214852-->
 END
 
 ---
@@ -159,7 +159,7 @@ Back:
 ![[Pasted image 20240923125538.png]]
 
 Např. mám 2D plochu a každému bodu, chci každému přiřadit hodnotu -> vznikne mi z toho 3D graf
-
+<!--ID: 1728921214855-->
 END
 
 ---
@@ -175,7 +175,7 @@ Back:
 ![[Pasted image 20240923125601.png]]
 
 Je to hormadný bod, protože kdyby byl izolovaný, tak by vůbec nemělo smysl se o tom bavit - nebylo by "z čeho" udělat tu limitu.
-
+<!--ID: 1728921214857-->
 END
 
 ---
@@ -191,7 +191,7 @@ Věta: Kdy má funkce $f$ v hromadném bodě $\textbf{b}$ množiny $D_f \Leftrig
 Back:
 
 ![[Pasted image 20240923125855.png]]
-
+<!--ID: 1728921214864-->
 END
 
 ---
@@ -207,7 +207,7 @@ Back:
 ![[Pasted image 20240923125929.png]]
 
 Jako když mám plachtu a jeden bod by byl o 5 metrů nad ní a nebyl by na plachtě, nebylo by to tam spojitý.. Prostě analogicky jako v reálných číslech.
-
+<!--ID: 1728921214869-->
 END
 
 ---
@@ -223,7 +223,7 @@ Back:
 ![[Pasted image 20240923140916.png]]
 
 Analogicky jako u normálních funkcí
-
+<!--ID: 1728921214871-->
 END
 
 ---
@@ -237,7 +237,7 @@ Definice: Omezená, otevřená, uzavřená množina
 Back:
 
 ![[Pasted image 20240923130106.png]]
-
+<!--ID: 1728921214874-->
 END
 
 ---
@@ -251,7 +251,7 @@ Věta: Kdy má funkce globální minimu a maxium
 Back:
 
 ![[Pasted image 20240923130131.png]]
-
+<!--ID: 1728921214877-->
 END
 
 ---
@@ -273,7 +273,7 @@ $$\frac{\partial f}{\partial x}$$
 - V tom grafu pak provedu derivaci​
 
 ![[Pasted image 20240923130229.png]]
-
+<!--ID: 1728921214879-->
 END
 
 ---
@@ -294,7 +294,7 @@ V daném bodě to je směr nejvyššího růstu.
 ![[Pasted image 20240923130304.png]]
 
 
-
+<!--ID: 1728921214882-->
 END
 
 ---
@@ -315,7 +315,7 @@ Tzn. u tohohle je ta levá strana nejvyšší?
 Neformálně: "Směr **nejvyššího růstu** funkce".
 
 ![[Pasted image 20240930131042.png]]
-
+<!--ID: 1728921214885-->
 END
 
 ---
@@ -331,7 +331,7 @@ Back:
 ![[Pasted image 20240923130329.png]]
 
 V nějakém bodě $\textbf{b}$ se vychýlím o h a spočtu tu derivaci.
-
+<!--ID: 1728921214887-->
 END
 
 ---
@@ -348,7 +348,7 @@ Back:
 ![[Pasted image 20240930131445.png]]
 
 Pomocí gradientu spočtu derivaci funkce ve směru. Ten směr (v) beru jednotkovej.
-
+<!--ID: 1728921214890-->
 END
 
 ---
@@ -372,7 +372,7 @@ Ta nadrovina je popsaná pomocí $(x_1,x_2,\dots,x_n, z)$.
 ![[Pasted image 20240923130551.png]]
 
 
-
+<!--ID: 1728921214893-->
 END
 
 ---
@@ -392,7 +392,7 @@ _Vysvětlení_
 Je to analogicky jako u 2D grafů. Aby tam byl extrém, tak tam musí být nulová derivace. Tady ve 3D tam musí být derivace nulová ve všech směrech, tzn. všechny parciální derivace (gradient) musí být v bodě nulový.
 
 Tzn. **gradient musí být nulový** - na každou stranu se nezvednu vůbec
-
+<!--ID: 1728921214895-->
 END
 
 ---
@@ -408,7 +408,7 @@ Důkaz věty (tohle na přednášce skipnuli):
 Back:
 
 ![[Pasted image 20240923130727.png]]
-
+<!--ID: 1728921214898-->
 END
 
 ---
@@ -425,7 +425,7 @@ Body, kde je gradient **nulový**.
 
 ![[Pasted image 20240923130823.png]]
 ![[Pasted image 20240923130829.png]]
-
+<!--ID: 1728921214901-->
 END
 
 ---
@@ -441,7 +441,7 @@ Back:
 Body ve kterých je **gradient nulový** nebo tam **neexistuje**.
 
 ![[Pasted image 20240923130959.png]]
-
+<!--ID: 1728921214904-->
 END
 
 ---
@@ -455,7 +455,7 @@ V jakých směrech je parciální derivace ve směru?
 Back:
 
 Ve směru $x$ nebo $y$ osy.
-
+<!--ID: 1728921214907-->
 END
 
 ---
