@@ -6,6 +6,10 @@ up: "[[📖NI-PDB]]"
 
 TARGET DECK: NI-PDB
 FILE TAGS: NI-PDB
+
+> [!info] Další užitečné materiály
+> Podrobnější informace o advanced dotazování atd. zde: https://courses.fit.cvut.cz/NI-PDB/lectures/04-mongodb/index.html
+
 ### JSON
 
 START
