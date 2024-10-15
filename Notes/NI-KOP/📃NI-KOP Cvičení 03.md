@@ -41,3 +41,10 @@ END
 ---
 
 > "Ty experimenty běží dost dlouho no.. Chvilku na to budete čumět a nic nedělat a odpočívat." - Fisher
+
+### Distribuční funkce
+- $n$ vzorků
+- čitatel - kolik vzorků doběhlo do $i$tý iterace
+- jmenovatl - všechny ty vzorky
+
+Když chcem porovnávat algoritmy, můžem pak porovnávat jejich distribuční funkce.
