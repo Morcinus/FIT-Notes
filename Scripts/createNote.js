@@ -17,9 +17,17 @@ module.exports = async (params) => {
     return;
   }
 
+  const lectureName = await inputPrompt("📖 Název přednášky (Např. MongoDB)");
+
+    if (lectureName === undefined) {
+    console.log("Flashcard creation cancelled.");
+    return;
+  }
+
   const note = {
     courseCode,
     lectureNumber,
+    lectureName,
   };
 
   createNote(app, note);
@@ -29,6 +37,7 @@ async function createNote(app, note) {
   const filePath = `Notes/${note.courseCode}/📄${note.courseCode} Přednáška ${note.lectureNumber}.md`;
   const content = `---
 created: ${getCurrentDateTimeISO()}
+title: "${note.lectureName}"
 up: "[[📖${note.courseCode}]]"
 ---
 
