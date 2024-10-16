@@ -1,5 +1,7 @@
 ---
 created: 2024-11-10T19:31:04
+aliases:
+  - Quotes
 ---
 
 ### Hlášky
@@ -12,6 +14,8 @@ created: 2024-11-10T19:31:04
 > "Když to je lehký, tak to jde jednoduše. Když to není lehký, tak to nejde jednoduše no." - Fisher
 
 > "No je to makačka na bednu." - Fisher
+
+> "Problém je fň bž těžký, když se efektivní řešení všech problémů ze třídy fň bž dá zredukovat na efektivní řešení toho problému pí." - doc. Ing. Jan Schmidt, Ph.D.
 
 ### NI-MPI
 > *Dovysvětlí na příklady na složitých 4D grafech* "...Jo? Vypadáte trochu smutně :D" - Spěvák
