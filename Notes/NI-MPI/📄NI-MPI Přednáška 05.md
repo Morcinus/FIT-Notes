@@ -13,13 +13,15 @@ FILE TAGS: NI-MPI
 ![](../../Assets/Pasted%20image%2020241017092358.png)
 
 ### Cvičení 10.3a
+
 ![](../../Assets/Pasted%20image%2020241017100307.png)
 ![](../../Assets/Pasted%20image%2020241017100433.png)
 
->[!info] Poznámka
->V tomto případě, jelikož je funkce v rovině rovnoběžné s osou $x$, můžu za $y$ jednoduše do rovnice dosadit $y=1$ a spočíst to jakoby ve $2D$ jako jednoduchou funkci $f(x)$ o jedné proměnné. 
+> [!info] Poznámka
+> V tomto případě, jelikož je funkce v rovině rovnoběžné s osou $x$, můžu za $y$ jednoduše do rovnice dosadit $y=1$ a spočíst to jakoby ve $2D$ jako jednoduchou funkci $f(x)$ o jedné proměnné.
 
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{1. Najdeme body podezřelé z extrému pomocí L} \\
@@ -49,13 +51,16 @@ $$
 & v = (a,0) \quad a \in \mathbb{R}  \\
 & \text{\small{Musíme pronásobit to L těmi vektory}} \\
 & \left( a , 0 \right) \begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix} \begin{pmatrix} a \\ 0 \end{pmatrix} = -2a^2 < 0 \\
-& -2a^2 <0 \Rightarrow \text{\small{f v bodě nabývá ostrého lokálního maxima vzhledem k vazbě g}} 
+& -2a^2 <0 \Rightarrow \text{\small{f v bodě nabývá ostrého lokálního maxima vzhledem k vazbě g}}
 \end{align*}
 $$
 
 ### Cvičení 10.3b
+
 ![](../../Assets/Pasted%20image%2020241017145332.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & L\left( x , y , \lambda  \right) =\frac{x^3 }{3} -x+ y^2 + \lambda (y) \\
@@ -72,10 +77,12 @@ $$
 $$
 
 ### Cvičení 10.3c
+
 > [!info] Poznámka
 > V tomto cvičení by nám dali na výběr nějaké body a nechtěli by po nás ty stacionární body hledat.
 
 <!-- Latex Equation -->
+
 $$
 \begin{align*} \\
 & \nabla _{x}L\left( x , y , \lambda  \right) =\left( x^2 - 1 + 2 \lambda x+ 2 \lambda  , 2 y+ 2 \lambda y \right)  \\
@@ -83,25 +90,19 @@ $$
 & \left( 0 , 0 , \tfrac{1}{2} \right),\left( - 2 , 0 , \tfrac{3}{2}  \right),\left( -1 , 1 , -1 \right) ,\left( -1 , -1,  -1\right)  \\
 &  \\
 & \text{\small{Spočteme Hessovu Matici}} \\
-& \nabla ^2 _{x}L\left( x , y , \lambda  \right) =\begin{pmatrix} 2x+2\lambda  & 0 \\ 0 & 2+2\lambda  \end{pmatrix}  \\
-& \nabla ^2 _{x}L\left( 0 , 0 , \tfrac{1}{2} \right) = \begin{pmatrix} 1  & 0 \\ 0  & 3  \end{pmatrix} \Rightarrow \left( 0 , 0 \right) \text{\small{ je lok. min. vzhledem k g}} \\
-& \nabla ^2 _{x}L\left( - 2  , 0  , \tfrac{3}{2} \right) = \begin{pmatrix} - 1  & 0  \\ 0  & 5  \end{pmatrix} \quad \text{\small{Musíme spočíst gradient}} \\
+& \nabla ^2 _{x}L\left( x , y , \lambda  \right) =\begin{pmatrix} 2x+2\lambda  & 0 \\ 0 & 2+2\lambda \\ \end{pmatrix}  \\
+& \nabla ^2 _{x}L\left( 0 , 0 , \tfrac{1}{2} \right) = \begin{pmatrix} 1  & 0 \\ 0  & 3 \\ \end{pmatrix} \Rightarrow \left( 0 , 0 \right) \text{\small{ je lok. min. vzhledem k g}} \\
+& \nabla ^2 _{x}L\left( - 2  , 0  , \tfrac{3}{2} \right) = \begin{pmatrix} - 1  & 0  \\ 0  & 5 \\ \end{pmatrix} \quad \text{\small{Musíme spočíst gradient}} \\
 & \nabla g\left( x , y \right) = \left( 2 x+ 2 , 2 y \right)  \\
 & \nabla g\left( -2 , 0 \right) = \left( -2 , 0 \right)  \\
 & \left(a,b \right) \cdot \left(-2,0 \right) =-2a+0b=0 \\
-& \left( 0 , b \right) \begin{pmatrix} - 1  & 0  \\ 0  & 5  \\\end{pmatrix} \begin{pmatrix} 0  \\ b \end{pmatrix} =5 b^2 >0 \text{\small{ pro }}  b \neq 0 \Rightarrow \text{\small{ostr. lok.min.}}  \\
+& \left( 0 , b \right) \begin{pmatrix} - 1  & 0  \\ 0  & 5  \\ \end{pmatrix} \begin{pmatrix} 0  \\ b \\ \end{pmatrix} =5 b^2 >0 \text{\small{ pro }}  b \neq 0 \Rightarrow \text{\small{ostr. lok.min.}}  \\
 &  \\
 &  \\
-& \nabla ^2 _{x}L\left( - 1  , 1  , - 1  \right) =\begin{pmatrix} - 4  & 0  \\ 0  & 0  \end{pmatrix} \\
-& \dots \text{\small{atd. stejně pro další body}} 
+& \nabla ^2 _{x}L\left( - 1  , 1  , - 1  \right) =\begin{pmatrix} - 4  & 0  \\ 0  & 0 \\  \end{pmatrix} \\
+& \dots \text{\small{atd. stejně pro další body}}
 \end{align*}
 $$
-
-
-
-
-
-
 
 START
 FIT-Card
@@ -124,8 +125,11 @@ END
 ---
 
 ### Cvičení 11.1
+
 ![](../../Assets/Pasted%20image%2020241017153209.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{Zadání} \\
@@ -158,16 +162,19 @@ $$
 & \text{\small{Je pozitivně definitní}} \land \text{\small{multiplikátor (ten třetí prvek) je kladný}} \\
 & \Rightarrow \text{\small{Je to ostré lokální minimum}}  \\
 & \nabla ^2_{x}L\left( \pm \tfrac{\sqrt{15}}{4}, \tfrac{1}{4}, -2 \right)=\begin{pmatrix} 0 & 0 \\ 0 & 4 \end{pmatrix}  \\
-& \dots 
+& \dots
 \end{align*}
 $$
 
 ### Cvičení 11.2
->[!info] Poznámka
->Tento příklad je zajímavý v tom, že nám tam vyjdou ty 4 body + ten stacionární bod je uprostřed jako sedlo a ten budeme muset vyloučit.
+
+> [!info] Poznámka
+> Tento příklad je zajímavý v tom, že nám tam vyjdou ty 4 body + ten stacionární bod je uprostřed jako sedlo a ten budeme muset vyloučit.
 
 ![](../../Assets/Pasted%20image%2020241017155638.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{Zadání} \\
@@ -194,14 +201,14 @@ $$
 & \nabla ^2_{x}L(-1,0)=\begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix}  \\
 & \Rightarrow \text{\small{Vidíme, že to je indefinitní matice}}  \\
 & \Rightarrow \text{\small{Když jsem uvnitř vazby a dostaneme sedlový bod,}}  \\
-& \text{\small{ tak automaticky víme, že to není minimum nebo maximum!}} 
+& \text{\small{ tak automaticky víme, že to není minimum nebo maximum!}}
 \end{align*}
 $$
 
 START
 FIT-Card
 
-Když při **hledání extrémů** **nemáme aktivní vazbu** a vyjde nám **indefinitní matice**, co to znamená? Jaký **závěr** z toho můžeme vyvodit? 
+Když při **hledání extrémů** **nemáme aktivní vazbu** a vyjde nám **indefinitní matice**, co to znamená? Jaký **závěr** z toho můžeme vyvodit?
 $$\nabla ^2_{x}L(-1,0)=\begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix}$$
 
 Back:
@@ -209,6 +216,7 @@ Back:
 Vidíme, že matice je **indefinitní**. Jelikož je mimo aktivní vazbu (je uvnitř), znamená to, že to je **sedlový bod** a kvůli tomu to **nemůže** být **minimum** ani **maximum**.
 
 <!-- ExplanationStart -->
+
 Je to protože budou existovat body, které jsou **výše** nebo **níže**.
 ![](../../Assets/Pasted%20image%2020241017162130.png)
 
@@ -217,9 +225,6 @@ Je to protože budou existovat body, které jsou **výše** nebo **níže**.
 
 <!-- ExplanationEnd -->
 
-
 END
 
 ---
-
-
