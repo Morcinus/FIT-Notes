@@ -347,11 +347,19 @@ Back:
 ![](../../Assets/Pasted%20image%2020241011133657.png)
 
 <!-- ExplanationStart -->
-(aktivní a neaktivní vazby) = buď je multiplikátor nulový nebo jsem na hranici té vazby
-(2. derivace) = opět to potřebuju jen ve směrech mých vazeb
-- U rovnostní vazby mi stačí aby to bylo ve směru té vazby
-- U nerovnostních vazeb to musí platit v případě, že je ta vazba aktivní
-(správný "směr" od hranice $\cal{M}$) = Tento bod mi to omezí tak abych vybíral jen body uvnitř té vazby (viz obrázek).
+1. **(0. derivace)** bod $x^*$ musí být uvnitř nějaké té vazby.
+2. **(1. derivace)** podle $x$-ových proměnných toho bodu musí být rovna $0$
+3. **(aktivní a neaktivní vazby)**
+	1. **aktivní vazba** = bod je na té vazbě (tzn. na "hranici" té množiny)
+		1. $h_k(x^*)=0$ - jsme na "hranici" té množiny
+	2. **neaktivní vazba** = bod je mimo tu vazbu (tzn. uvnitř té množiny)
+		1. $k\in \hat{p}, \mu_k = 0$ - tzn. jsme "uvnitř" té množiny
+4. **(2. derivace)** = opět to potřebuju jen ve směrech mých vazeb
+	1. $v^T\cdot  \nabla g_j(x^*)=0$ - Vektor je **kolmý na gradient** té naší vazby (tzn.)
+	2. $v^T\cdot  \nabla h_k(x^*)=0, \ \mu_k^* \neq 0$ - U nerovnostních vazeb to musí platit v případě, že je ta vazba aktivní
+	3. Z Lagrangeovy funkce $L$ uděláme **Hessovu matici** pouze podle $x$-ových proměnných. Tu pak pronásobíme s vektory $v$ a $v^T$, které jsou na těch našich vazbách. Tzn. jsou **kolmé** na gradient každé té vazby - viz. první dva body (2. derivace).
+5. **(správný "směr" od hranice $\cal{M}$)** = Tento bod mi to omezí tak abych vybíral jen body uvnitř té vazby (viz obrázek).
+	- Zařídí mi to, abych pro lokální minimum bral v potaz ty body, co jsou "směrem dovnitř" té vazby (protože tam může být to minimum, i když není na hranici té vazby).
 
 ![](../../Assets/Pasted%20image%2020241011151014.png)
 
@@ -370,6 +378,10 @@ FIT-Card
 Věta: **Postačující podmínka existence ostrého lokálního maxima**
 
 Back:
+
+Jediné, v čem se liší od **hledání minima je**:
+- **(2. derivace):** $v^T \cdot \nabla_x^2L(x^*,\lambda^*,\mu^*)\cdot v<0$ - změna $>$ na $<$
+- **(správný směr od hranice $\cal{M}$):** $\mu^*_k \leq 0$ - změna $\geq$ na $\leq$
 
 ![](../../Assets/Pasted%20image%2020241011133716.png)
 
