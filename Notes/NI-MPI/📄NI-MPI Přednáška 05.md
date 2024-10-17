@@ -21,7 +21,7 @@ FILE TAGS: NI-MPI
 
 <!-- Latex Equation -->
 $$
-\begin{flalign*}
+\begin{align*}
 & \text{1. Najdeme body podezřelé z extrému pomocí L} \\
 & L\left( x , y , \lambda  \right) = \frac{x^3 }{3} - x+ y^2 + \lambda \left(y- 1  \right) \\ \\
 & \text{\small{U rovnostních vazeb mi odpadá 3. a 5. bod definice.}} \\
@@ -50,7 +50,7 @@ $$
 & \text{\small{Musíme pronásobit to L těmi vektory}} \\
 & \left( a , 0 \right) \begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix} \begin{pmatrix} a \\ 0 \end{pmatrix} = -2a^2 < 0 \\
 & -2a^2 <0 \Rightarrow \text{\small{f v bodě nabývá ostrého lokálního maxima vzhledem k vazbě g}} 
-\end{flalign*}
+\end{align*}
 $$
 
 ### Cvičení 10.3b
