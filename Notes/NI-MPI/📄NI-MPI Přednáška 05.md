@@ -75,6 +75,34 @@ $$
 > [!info] Poznámka
 > V tomto cvičení by nám dali na výběr nějaké body a nechtěli by po nás ty stacionární body hledat.
 
+<!-- Latex Equation -->
+$$
+\begin{align*} \\
+& \nabla _{x}L\left( x , y , \lambda  \right) =\left( x^2 - 1 + 2 \lambda x+ 2 \lambda  , 2 y+ 2 \lambda y \right)  \\
+& \text{\small{Máme následující kritické body:}}  \\
+& \left( 0 , 0 , \tfrac{1}{2} \right),\left( - 2 , 0 , \tfrac{3}{2}  \right),\left( -1 , 1 , -1 \right) ,\left( -1 , -1,  -1\right)  \\
+&  \\
+& \text{\small{Spočteme Hessovu Matici}} \\
+& \nabla ^2 _{x}L\left( x , y , \lambda  \right) =\begin{pmatrix} 2x+2\lambda  & 0 \\ 0 & 2+2\lambda  \end{pmatrix}  \\
+& \nabla ^2 _{x}L\left( 0 , 0 , \tfrac{1}{2} \right) = \begin{pmatrix} 1  & 0 \\ 0  & 3  \end{pmatrix} \Rightarrow \left( 0 , 0 \right) \text{\small{ je lok. min. vzhledem k g}} \\
+& \nabla ^2 _{x}L\left( - 2  , 0  , \tfrac{3}{2} \right) = \begin{pmatrix} - 1  & 0  \\ 0  & 5  \end{pmatrix} \quad \text{\small{Musíme spočíst gradient}} \\
+& \nabla g\left( x , y \right) = \left( 2 x+ 2 , 2 y \right)  \\
+& \nabla g\left( -2 , 0 \right) = \left( -2 , 0 \right)  \\
+& \left(a,b \right) \cdot \left(-2,0 \right) =-2a+0b=0 \\
+& \left( 0 , b \right) \begin{pmatrix} - 1  & 0  \\ 0  & 5  \\\end{pmatrix} \begin{pmatrix} 0  \\ b \end{pmatrix} =5 b^2 >0 \text{\small{ pro }}  b \neq 0 \Rightarrow \text{\small{ostr. lok.min.}}  \\
+&  \\
+&  \\
+& \nabla ^2 _{x}L\left( - 1  , 1  , - 1  \right) =\begin{pmatrix} - 4  & 0  \\ 0  & 0  \end{pmatrix} \\
+& \dots \text{\small{atd. stejně pro další body}} 
+\end{align*}
+$$
+
+
+
+
+
+
+
 START
 FIT-Card
 
@@ -95,6 +123,103 @@ END
 
 ---
 
+### Cvičení 11.1
+![](../../Assets/Pasted%20image%2020241017153209.png)
+<!-- Latex Equation -->
+$$
+\begin{align*}
+& \text{Zadání} \\
+& f(x,y)=2x^2 + y \\
+& h(x,y)=x^2 + y^2 -1 \leq 0  \\
+& \\
+& \text{Řešení} \\
+& L(x,y,\mu) = 2x^2 + y+ \mu \left(x^2 + y^2 + 1  \right)  \\
+& \tfrac{\delta L}{\delta x} = 4 x+ 2 \mu x \\
+& \tfrac{\delta L}{\delta y} = 1 + 2 y\mu  \\
+&  \\
+& 2x(2+\mu ) = 0 \begin{cases} x=0 \\ \mu = - 2 \end{cases}   \\ \\
+& 1+2y\mu =0  \\
+& \text{\small{Platí: }} \mu = 0 \lor x^2 + y^2 = 1 \\
+& \text{\small{a) Varianta }} x = 0 \\
+& \text{\small{Dostáváme z toho body:}}  \\
+& \left( 0 , 1 , -\tfrac{1}{2} \right) \\
+& \left( 0  , - 1  , \tfrac{1 }{2 }  \right) \\
+& \text{\small{b) Varianta }} \mu =-2 \\
+& \text{\small{Dostáváme z toho bod:}}  \\
+& \left( \pm \tfrac{\sqrt{15}}{4}, \tfrac{1}{4}, -2 \right)  \\
+& \\
+& \\
+& \text{Spočteme Hessovu Matici} \\
+& \nabla ^2 _{x}L\left( x , y , \mu  \right) =\begin{pmatrix} 4 + 2 \mu  & 0  \\ 0  & 2 \mu  \end{pmatrix}  \\
+& \\
+& \text{Dosadíme body} \\
+& \nabla ^2 _{x}\left( 0 , 1 , -\tfrac{1}{2}  \right) =\begin{pmatrix} 3  & 0 \\ 0  & - 1  \end{pmatrix}  \\
+& \nabla ^2_{x}L\left( 0  , - 1  , \tfrac{1 }{2 }  \right)  =\begin{pmatrix} 5  & 0  \\ 0  & 1  \end{pmatrix} \\
+& \text{\small{Je pozitivně definitní}} \land \text{\small{multiplikátor (ten třetí prvek) je kladný}} \\
+& \Rightarrow \text{\small{Je to ostré lokální minimum}}  \\
+& \nabla ^2_{x}L\left( \pm \tfrac{\sqrt{15}}{4}, \tfrac{1}{4}, -2 \right)=\begin{pmatrix} 0 & 0 \\ 0 & 4 \end{pmatrix}  \\
+& \dots 
+\end{align*}
+$$
 
+### Cvičení 11.2
+>[!info] Poznámka
+>Tento příklad je zajímavý v tom, že nám tam vyjdou ty 4 body + ten stacionární bod je uprostřed jako sedlo a ten budeme muset vyloučit.
+
+![](../../Assets/Pasted%20image%2020241017155638.png)
+<!-- Latex Equation -->
+$$
+\begin{align*}
+& \text{Zadání} \\
+& f(x,y)=\tfrac{x^3 }{3 } - x+ y^2  \\
+& h(x,y)=x^2 + 2 x+ y^2 \leq 0  \\
+& \\
+& \text{Řešení} \\
+& L\left( x , y , \mu  \right) = \tfrac{x^3 }{3 } - x+ y^2 + \mu \left(x^2 + 2 x+ y^2 \right) \\ \\
+& \text{Když je vazba aktivní} \\
+& \text{\small{Pro }} h(x,y)=0 \text{\small{ už máme body nalezené z předchozích úloh}} \\
+& \left( x^{*} , y^{*}  , \mu ^{*}  \right) \in \set{\left( 0 , 0 , \tfrac{1}{2} \right),\left( -2 , 0 , \tfrac{3}{2}  \right) \left( -1 , 1 , -1 \right),\left( -1 , -1 , -1 \right)  } \\
+& \\
+& \text{Když vazba není aktivní} \\
+& \text{\small{Je to to samý, jako kdybychom řešili tu úkolu \textbf{bez} té vazby.}}  \\
+& \nabla_{x} L\left( x , y , 0 \right) = 0 \Leftrightarrow \begin{cases} x^2 - 1 = 0  && x= \pm 0  \\ 2 y= 0 && y= 0  \\
+\end{cases}  \\
+& \text{\small{Z toho dostanu body:}}  \\
+& \left( 1 , 0 \right)  \\
+& \left( -1 , 0 \right)  \\
+& \text{\small{Musím ověřit že body splňují vazební podmínku }} h(x,y) \\
+& \left( 1 , 0 \right) \quad \text{\small{Nesplňuje}} \\
+& \left( -1 , 0 \right) \quad \text{\small{Splňuje}} \\
+& \nabla ^2_{x}L(x,y)=\begin{pmatrix} 2 x & 0  \\ 0  & 2  \end{pmatrix}  \\
+& \nabla ^2_{x}L(-1,0)=\begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix}  \\
+& \Rightarrow \text{\small{Vidíme, že to je indefinitní matice}}  \\
+& \Rightarrow \text{\small{Když jsem uvnitř vazby a dostaneme sedlový bod,}}  \\
+& \text{\small{ tak automaticky víme, že to není minimum nebo maximum!}} 
+\end{align*}
+$$
+
+START
+FIT-Card
+
+Když při **hledání extrémů** **nemáme aktivní vazbu** a vyjde nám **indefinitní matice**, co to znamená? Jaký **závěr** z toho můžeme vyvodit? 
+$$\nabla ^2_{x}L(-1,0)=\begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix}$$
+
+Back:
+
+Vidíme, že matice je **indefinitní**. Jelikož je mimo aktivní vazbu (je uvnitř), znamená to, že to je **sedlový bod** a kvůli tomu to **nemůže** být **minimum** ani **maximum**.
+
+<!-- ExplanationStart -->
+Je to protože budou existovat body, které jsou **výše** nebo **níže**.
+![](../../Assets/Pasted%20image%2020241017162130.png)
+
+**Červený** je ten stacionární bod, kde je matice **indefinitní**.
+**Zelený** jsou ty ostatní stacionární body.
+
+<!-- ExplanationEnd -->
+
+
+END
+
+---
 
 
