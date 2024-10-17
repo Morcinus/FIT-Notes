@@ -162,7 +162,15 @@ $$
 & \text{\small{Je pozitivně definitní}} \land \text{\small{multiplikátor (ten třetí prvek) je kladný}} \\
 & \Rightarrow \text{\small{Je to ostré lokální minimum}}  \\
 & \nabla ^2_{x}L\left( \pm \tfrac{\sqrt{15}}{4}, \tfrac{1}{4}, -2 \right)=\begin{pmatrix} 0 & 0 \\ 0 & 4 \end{pmatrix}  \\
-& \dots
+& \dots \\
+&  \\
+& \nabla ^2_{x}\left( 0 , 1 , -\tfrac{1}{2}  \right) =\begin{pmatrix} 3 & 0 \\ 0 & -1 \end{pmatrix}  \\
+& \nabla h(x,y) = \left(2x,2y \right)  \\
+& \nabla h(0,1) = (0,2)  \quad (a,0) \\
+& \left( a , 0 \right) \begin{pmatrix} 3 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} a \\ 0 \end{pmatrix} 3a^2 >0  \quad \text{\small{pro }} a \neq 0 \\
+& \text{\small{Máme podezření na ostré lokální minimum}}  \\
+& \text{\small{\textbf{Pozor!} Máme nerovnostní vazbu a musíme zkontrolovat znaménko multiplikátoru}} \\
+& \text{\small{Multiplikátor je záporný, jsem na špatné straně hranice a \textbf{není}  to tedy minimum!}} 
 \end{align*}
 $$
 
