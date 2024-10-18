@@ -4,7 +4,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP cviceni03 status-toReview
 
 ### Parametry gsat2
 - `-i` - MAX_FLIPS
@@ -35,7 +35,7 @@ Back:
 Když mám $(a \land b \land c)$, tak to bude nepravdivý, pouze pro jedno (z devíti) ohodnocení když to je $(0 \land 0 \land 0)$.
 
 Celkem je **9 možných ohodnocení**, tedy je **šance $\frac{8}{9}$**,  že při běhu programu najdem **pravdivé ohodnocení**
-
+<!--ID: 1729237386248-->
 END
 
 ---

@@ -4,7 +4,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP prednaska03 status-toReview
 
 # Výpočetní modely
 
@@ -89,7 +89,6 @@ Neomezená páska, mám tam zadaný program.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011153757.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921215057-->
 END
 
@@ -157,7 +156,6 @@ Instance je řetězec $0$ a $1$ (tzn. $\set{0,1}^*$, problém je podmnožina tak
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241011154627.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1728921215069-->
 END
 
@@ -339,7 +337,6 @@ Vychází z této definice:
 ![](../../Assets/Pasted%20image%2020241011160026.png)
 
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921215102-->
 END
 
@@ -374,7 +371,6 @@ Back:
 Vychází z této definice:
 ![](../../Assets/Pasted%20image%2020241011160112.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921215107-->
 END
 
@@ -420,7 +416,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241011161321.png)
 <!-- ImageEnd -->
-
 <!--ID: 1728921215118-->
 END
 
@@ -440,7 +435,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241011161456.png)
 <!-- ImageEnd -->
-
 <!--ID: 1728921215121-->
 END
 
@@ -595,7 +589,6 @@ $P = \text{co-P}$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011162939.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921215147-->
 END
 
@@ -614,7 +607,6 @@ $P \subseteq NP \cap \text{co-NP}$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011163033.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921215150-->
 END
 
@@ -645,7 +637,6 @@ $$P \neq NP$$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011163209.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921215155-->
 END
 
@@ -666,7 +657,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241011163423.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1728921215158-->
 END
 

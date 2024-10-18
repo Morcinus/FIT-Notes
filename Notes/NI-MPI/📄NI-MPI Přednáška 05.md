@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI
+FILE TAGS: NI-MPI prednaska05 status-toReview
 
 ![](../../Assets/Pasted%20image%2020241017092333.png)
 ![](../../Assets/Pasted%20image%2020241017092348.png)
@@ -119,7 +119,7 @@ Back:
 Tzn. **dosadíme body do té soustavy rovnic** a najdeme $\lambda$, aby ta soustava platila.
 
 Nemusíme to hledat, ale jen to dopočítáme (čímž se to ulehčí).
-
+<!--ID: 1729236692597-->
 END
 
 ---
@@ -232,7 +232,7 @@ Je to protože budou existovat body, které jsou **výše** nebo **níže**.
 **Zelený** jsou ty ostatní stacionární body.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1729236692608-->
 END
 
 ---

@@ -4,7 +4,7 @@ up: "[[📖NI-PDB]]"
 ---
 
 TARGET DECK: NI-PDB
-FILE TAGS: NI-PDB
+FILE TAGS: NI-PDB prednaska03 status-toReview
 
 ### Big Data
 
@@ -132,7 +132,6 @@ Tohle je pro srovnání relační databáze
 ![](../../Assets/Pasted%20image%2020241009142427.png)
 ![](../../Assets/Pasted%20image%2020241009142507.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214701-->
 END
 
@@ -192,7 +191,6 @@ Díky tomu si můžu použít několik databázových modelů přesně na ta dat
 
 Dá se to taky řešit tak, že mám prostě více databází - to je v reálných projektech dost časté.
 <!-- ExplanationEnd -->
-
 <!--ID: 1728921214709-->
 END
 
@@ -214,7 +212,6 @@ Je to hrozně jednoduchý a díky tomu dobře škálovatelný.
 
 ![](../../Assets/Pasted%20image%2020241011102321.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214712-->
 END
 
@@ -239,7 +236,6 @@ Obecně na data, ke kterým potřebuju jen přistupovat pomocí **klíče** a ne
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011102425.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214715-->
 END
 
@@ -280,7 +276,6 @@ Event logging, content management systems, web analytics, e-commerce application
 ![](../../Assets/Pasted%20image%2020241011103230.png)
 ![](../../Assets/Pasted%20image%2020241011103239.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214721-->
 END
 
@@ -323,7 +318,6 @@ Pro data, která mají podobná schémata, ale nevyžadují ACID a komplexní qu
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241011103929.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1728921214727-->
 END
 
@@ -371,7 +365,6 @@ Prostě vhodné pro grafové struktury.
 ![](../../Assets/Pasted%20image%2020241011104638.png)
 ![](../../Assets/Pasted%20image%2020241011104257.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214733-->
 END
 
@@ -391,7 +384,6 @@ Podobné jako **document storage**, ale pomocí XML
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011104826.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214736-->
 END
 
@@ -454,7 +446,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011105443.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214745-->
 END
 
@@ -514,7 +505,6 @@ Snaha všechno **automatizovat**, aby se nemuseli trénovat administrátoři pro
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011105956.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214753-->
 END
 
@@ -533,7 +523,6 @@ Není nutné, aby byla data furt konzistentní (ACID), ale jsou eventually konzi
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011110101.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214756-->
 END
 

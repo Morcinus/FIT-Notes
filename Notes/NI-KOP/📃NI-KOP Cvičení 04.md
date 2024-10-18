@@ -4,7 +4,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP cviceni04 status-toReview
 
 ### Domácí úloha info
 > "Je to strašně jednoduchý, ale zadání je prakticky nulový."

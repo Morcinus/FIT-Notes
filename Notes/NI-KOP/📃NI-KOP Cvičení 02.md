@@ -4,7 +4,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP cviceni02 status-toReview
 
 START
 Basic
@@ -101,8 +101,6 @@ $2^n$ možností
 
 
 Back:
-
-
 <!--ID: 1728921215295-->
 END
 
@@ -141,7 +139,6 @@ ano
 ano
 třeba rekurzí
 2! možností
-
 <!--ID: 1728921215300-->
 END
 
@@ -180,7 +177,6 @@ Konfigurace - kam ty věci naházim.
 - 
 ![[Pasted image 20241001164833.png]]
 - 
-
 <!--ID: 1728921215306-->
 END
 
@@ -197,8 +193,6 @@ Např. mám $n$ věcí co chci rozházet do co nejméně $m$ popelnic.
 Nemá pak smysl mít $m > n$, protože to logicky nebude to nejlepší řešení.
 
 Back:
-
-
 <!--ID: 1728921215309-->
 END
 
@@ -288,7 +282,6 @@ Konfigurace:
 
 ![[Pasted image 20241001171917.png]]
 ![[Pasted image 20241001172113.png]]
-
 <!--ID: 1728921215318-->
 END
 
@@ -355,8 +348,6 @@ Basic
 - **2. Když mám odvodit konfigurační proměnný, tak mě optimalizační kritérium vůbec nezajímá!**
 
 Back:
-
-
 <!--ID: 1728921215329-->
 END
 

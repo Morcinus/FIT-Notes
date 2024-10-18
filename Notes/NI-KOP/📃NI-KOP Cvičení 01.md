@@ -4,7 +4,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP cviceni01 status-toReview
 #### Vysvětlení SAT Generátor souborů
 - `c` - komentář
 - `p cnf [počet klauzulí] [počet řádků]`

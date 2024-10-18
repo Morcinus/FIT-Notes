@@ -4,7 +4,7 @@ up: "[[📖NI-TSW]]"
 ---
 
 TARGET DECK: NI-TSW
-FILE TAGS: NI-TSW
+FILE TAGS: NI-TSW prednaska02 status-toReview
 
 
 START
@@ -36,8 +36,7 @@ Scope není MVP, scope je ten "ideální finální produkt" - spousta fičur, ni
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241009094436.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1729237386280-->
 END
 
 ---
@@ -59,7 +58,7 @@ Dělí se na
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241009094410.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729237386283-->
 END
 
 ---
@@ -87,7 +86,7 @@ Jinak řekne "mně to přijde blbý, mně to nefunguje, já to nechci" a mám po
 
 Proto je důležitý **školit a přesvědčovat** ty lidi, že to je dobrý systém, který jim dobře změní život.
 <!-- ExampleEnd -->
-
+<!--ID: 1729237386286-->
 END
 
 ---
@@ -118,7 +117,7 @@ Cíl je potřeba všem poslat a **shodnout se** na tom cíli. Je absolutně **nu
 <!-- ExampleStart -->
 Každý zákazník má ty požadavky zadefinovaný jinak. Někdo ví přesně co chce, někdo to téměř neví a je třeba s ním hodně pracovat.
 <!-- ExampleEnd -->
-
+<!--ID: 1729237386289-->
 END
 
 ---
@@ -141,7 +140,7 @@ U Mona Lisy můžu dělat:
 
 **Většinou se to kombinuje**. Např. můžu mít 2 iterace a pak mám teprve ten inkrementální výstup.
 <!-- ExampleEnd -->
-
+<!--ID: 1729237386292-->
 END
 
 ---
@@ -156,7 +155,7 @@ Co je **kritická cesta**? (3. princip projektového řízení)
 Back:
 
 **Snaha zvládnout projekt co nejdříve**. Jsme ale omezeni zdrojema.
-
+<!--ID: 1729237386295-->
 END
 
 ---
@@ -180,8 +179,7 @@ Dává se minimálně na **5 let**.
 <!-- ExampleStart -->
 FIT a ČVUT mají veřejné strategie: https://fit.cvut.cz/veda-a-vyzkum/aktuality/2023-04-26-prsz-2023.pdf
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729237386298-->
 END
 
 ---
@@ -203,7 +201,7 @@ Je to všechno možný, co je potřeba udělat. Jsou to spíš "nápady". Nemá 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241009100636.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729237386302-->
 END
 
 ---
@@ -224,7 +222,7 @@ Celkem je teda:
 - Z toho plyne **portfolio**
 - Z toho plyne **program**
 <!-- ExplanationEnd -->
-
+<!--ID: 1729237386305-->
 END
 
 ---
@@ -252,8 +250,7 @@ Seznam pravidel, **jak se ve firmě komunikuje**
 <!-- DetailInfoStart -->
 Maticí je myšlena prostě tabulka.
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386307-->
 END
 
 ---
@@ -276,7 +273,7 @@ Back:
 8. **Chybí projektová metodika**
 9. **Nedostatečné řízení zainteresovaných stran**
 10. **Technické požadavky jsou příliš vysoké**
-
+<!--ID: 1729237386310-->
 END
 
 ---
@@ -296,8 +293,7 @@ Protože díky tomu například vím, **jaký ten zákazník je**, což je extr�
 - Ministerstva komunikují **pomalu**
 - Někteří zákazníci komunikují **neformálně**
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729237386313-->
 END
 
 ---
@@ -321,8 +317,7 @@ Back:
 **Řídící výbor**
 - Jsou tam **sponzoři**, **manažeři**, někdo kdo "drží prachy" aka ovládá **budget** firmy, někdo kdo zodpovídá za zákazníka, atd.
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729237386316-->
 END
 
 ---
@@ -347,7 +342,7 @@ Jinak v tom je pak bordel - nikdo neví, kdo je za co zodpovědný, co kdo děl�
 
 ![](../../Assets/Pasted%20image%2020241009104303.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729237386319-->
 END
 
 ---
@@ -366,7 +361,7 @@ Určuje co kdo je za co zodpovědný
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241009104455.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729237386322-->
 END
 
 ---
@@ -384,7 +379,7 @@ Role, které jednotliví lidé mají:
 - **Accountable** - ručitel (osoba, co za to ručí) - ten má hlavu na špalku
 - **Consulted** - osoba, která by se k danému plnění měla vyjádřit (např. bezpečáci)
 - **Informed** - kdo všechno by měl dostat informace o plnění daného výsledku
-
+<!--ID: 1729237386325-->
 END
 
 ---

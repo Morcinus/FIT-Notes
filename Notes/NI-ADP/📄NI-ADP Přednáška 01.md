@@ -4,7 +4,7 @@ up: "[[📖NI-ADP]]"
 ---
 
 TARGET DECK: NI-ADP
-FILE TAGS: NI-ADP
+FILE TAGS: NI-ADP prednaska01 status-toReview
 
 START
 Basic

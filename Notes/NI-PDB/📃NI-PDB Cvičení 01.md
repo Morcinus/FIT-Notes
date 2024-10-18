@@ -4,7 +4,7 @@ up: "[[📖NI-PDB]]"
 ---
 
 TARGET DECK: NI-PDB
-FILE TAGS: NI-PDB
+FILE TAGS: NI-PDB cviceni01 status-toReview
 
 
 START

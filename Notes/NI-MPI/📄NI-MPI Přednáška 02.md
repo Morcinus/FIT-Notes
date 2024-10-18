@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI
+FILE TAGS: NI-MPI prednaska02 status-toReview
 
 START
 Basic
@@ -18,7 +18,6 @@ Back:
 <!-- InformallySaidStart -->
 Parciálně zderivuju funkci v bodě, dostanu z toho zase funkci. Tu funkci pak znovu zderivuju podle jiné proměnné.
 <!-- InformallySaidEnd -->
-
 <!--ID: 1728921214784-->
 END
 
@@ -54,7 +53,6 @@ Back:
 Pozn. tehle případ platí velice často.
 
 Hessova matice je často symetrická - tzn. podle diagonály v matici.
-
 <!--ID: 1728921214789-->
 END
 
@@ -272,7 +270,6 @@ Definice: **konvexní a konkávní funkce**
 Back:
 
 ![[Pasted image 20240930140715.png]]
-
 <!--ID: 1728921214826-->
 END
 

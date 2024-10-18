@@ -4,7 +4,7 @@ up: "[[📖NI-PDB]]"
 ---
 
 TARGET DECK: NI-PDB
-FILE TAGS: NI-PDB
+FILE TAGS: NI-PDB prednaska02 status-toReview
 
 
 START
@@ -90,7 +90,6 @@ Oracle si u tabulek/stromů drží různé statistiky - např. počet hodnot atd
 
 ![[Pasted image 20240923173735.png]]
 ![[Pasted image 20240923174138.png]]
-
 <!--ID: 1728921214681-->
 END
 

@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI
+FILE TAGS: NI-MPI prednaska03 status-toReview
 
 
 START
@@ -26,8 +26,7 @@ Back:
 1. Hledat kritické body je samo o sobě **velice obtížné** a není jednotný algoritmus, co by to jednoduše vyřešil. Najít přesné body je proto velice těžké. Samozřejmě ty řešení, co máme na tomto předmětu, jsou jednoduché.
 <!-- DetailInfoEnd -->
 
-
-
+<!--ID: 1729237386264-->
 END
 
 ---
@@ -51,7 +50,7 @@ $f(x,y) = x^2-y^2$
 $f(x,y) = xy$
 $f(x,y) = (x+y)^2$
 <!-- ExampleEnd -->
-
+<!--ID: 1729237386267-->
 END
 
 ---
@@ -68,8 +67,7 @@ definitní nebo indefinitní
 
 Back:
 
-
-
+<!--ID: 1729237386270-->
 END
 
 ---
@@ -86,7 +84,7 @@ Back:
 Pak není **pozitivně definitní** ani **negativně definitní**
 
 (Může být semidefinitní nebo indefinitní)
-
+<!--ID: 1729237386273-->
 END
 
 ---
@@ -106,7 +104,7 @@ Když $a$ (levý horní roh matice) je kladný, je pozitivně definitní. Když 
 Když determinant vyjde záporný, tak je matice indefinitní
 
 Když determinant vyjde rovno nula, tak je semidefinitní
-
+<!--ID: 1729237386276-->
 END
 
 ---

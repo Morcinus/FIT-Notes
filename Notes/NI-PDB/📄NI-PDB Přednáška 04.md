@@ -5,7 +5,7 @@ up: "[[📖NI-PDB]]"
 ---
 
 TARGET DECK: NI-PDB
-FILE TAGS: NI-PDB
+FILE TAGS: NI-PDB prednaska04 status-toReview
 
 > [!info] Další užitečné materiály
 > Podrobnější informace o advanced dotazování atd. zde: https://courses.fit.cvut.cz/NI-PDB/lectures/04-mongodb/index.html
@@ -20,7 +20,7 @@ Co je **JSON**?
 Back:
 
 **Otevřený standard pro strukturu dat.**
-
+<!--ID: 1729236692764-->
 END
 
 ---
@@ -37,7 +37,7 @@ Back:
 <!-- DetailInfoStart -->
 Prakticky ale většina věcí jde udělat v JSONu, proto je dnes častěji používanější.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692774-->
 END
 
 ---
@@ -51,7 +51,7 @@ Má **objekt** v JSONu **setřízený** atributy nebo ne?
 Back:
 
 Atributy jsou **nesetřízené**.
-
+<!--ID: 1729236692786-->
 END
 
 ---
@@ -65,7 +65,7 @@ Má **array** v JSONu **setřízené atributy** nebo ne?
 Back:
 
 Atributy jsou **setřízené**.
-
+<!--ID: 1729236692794-->
 END
 
 ---
@@ -84,7 +84,7 @@ Back:
 - `null`
 - `array`
 - `object`
-
+<!--ID: 1729236692803-->
 END
 
 ---
@@ -98,7 +98,7 @@ Může mít **JSON** hodnotu atributu `undefined`?
 Back:
 
 Ne, hodnoty, které jsou `undefined` jsou při vytváření JSONu ignorovány.
-
+<!--ID: 1729236692814-->
 END
 
 ---
@@ -118,8 +118,7 @@ Prý se to nepoužívá ve 100% případů, protože vlastností JSONu je, že j
 
 Samozřejmě v mnoha případech je potřeba to schéma validovat a tam se to používá.
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692823-->
 END
 
 ---
@@ -142,7 +141,7 @@ Back:
 <!-- ExplanationStart -->
 Díky tomu je ten soubor pak menší. 
 <!-- ExplanationEnd -->
-
+<!--ID: 1729236692831-->
 END
 
 ---
@@ -161,7 +160,7 @@ Back:
 - Podle Michala Valenty je dost profláklý a používaný
 - Bylo to založeno v roce 2009 a podle Michala Valenty to už je mature projekt
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692841-->
 END
 
 ---
@@ -175,7 +174,7 @@ S jakými dokumenty pracuje **MongoDB**?
 Back:
 
 S kolekcemi **JSON dokumentů**
-
+<!--ID: 1729236692851-->
 END
 
 ---
@@ -191,7 +190,7 @@ Back:
 - **Database**
 - **Collection**
 - **Document**
-
+<!--ID: 1729236692860-->
 END
 
 ---
@@ -209,8 +208,7 @@ Musí být **unikátní** v rámci dané **kolekce**.
 <!-- DetailInfoStart -->
 Klíče (id) jsou **immutable**
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692868-->
 END
 
 ---
@@ -230,8 +228,7 @@ Např. number, string,...
 
 V 99% případů se používá **ObjectId** (ten je default) neboo UUID
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236692877-->
 END
 
 ---
@@ -245,7 +242,7 @@ Proč se v MongoDB **nedoporučuje** přidělovat IDčka **autoinkrementem**, al
 Back:
 
 Protože ta databáze může být naškálovaná (na více místech), potom přidělování IDček bude složité.
-
+<!--ID: 1729236692887-->
 END
 
 ---
@@ -266,7 +263,7 @@ Back:
 - Je velice rychlý na vygenerování
 - "Likely unique" - tzn. když vytvořím dva dokumenty v jeden čas, je velice malá pravděpodobnost, že by měly stejné id
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692896-->
 END
 
 ---
@@ -284,7 +281,7 @@ Označuje query operátor.
 <!-- ExampleStart -->
 `$gt` - greater than
 <!-- ExampleEnd -->
-
+<!--ID: 1729236692905-->
 END
 
 ---
@@ -311,7 +308,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241015093540.png)
 ![](../../Assets/Pasted%20image%2020241015093549.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692914-->
 END
 
 ---
@@ -331,8 +328,7 @@ Dotazuje se nad **jednou kolekcí**, **jedním příkazem** (případně celým 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241015093917.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692926-->
 END
 
 ---
@@ -350,9 +346,7 @@ Back:
 - **update** (`updateOne`, `updateMany`) - aktualizuje dokument
 - **remove** (`deletOne`, `deleteMany`) - odstraní dokument
 - **find** (`find`) - najde dokumenty v kolekci
-
-
-
+<!--ID: 1729236692935-->
 END
 
 ---
@@ -366,7 +360,7 @@ Jak funguje vytváření kolekcí v MongoDB?
 Back:
 
 Můžu si kolekci vytvořit sám příkazem, ale dělá se to typicky tak, že normálně použiju **insert** a pokud ta kolekce neexistuje, tak ji MongoDB samo vytvoří. 
-
+<!--ID: 1729236692945-->
 END
 
 ---
@@ -382,7 +376,7 @@ Back:
 Normálně se to nedělá, MongoDB si vygeneruje idčko samo.
 
 _(ale samozřejmě můžu)_
-
+<!--ID: 1729236692953-->
 END
 
 ---
@@ -399,7 +393,7 @@ Back:
 Protože je **rychlejší**, než update.
 
 Proto pokud chci přepsat celý dokument, měl bych použít replace.
-
+<!--ID: 1729236692961-->
 END
 
 ---
@@ -422,7 +416,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241015095246.png)
 ![](../../Assets/Pasted%20image%2020241015095252.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692970-->
 END
 
 ---
@@ -442,7 +436,7 @@ Pokud je `true`, tak v případě že neexistuje daný dokument, tak se záznam 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241015095508.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1729236692981-->
 END
 
 ---
@@ -479,8 +473,7 @@ Nad hodnotami:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241015100318.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236692990-->
 END
 
 ---
@@ -498,8 +491,7 @@ Pokud se nenajde daný dokument, tak se vyrobí.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241015100329.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692999-->
 END
 
 ---
@@ -541,7 +533,7 @@ db.movies.find(
 ![](../../Assets/Pasted%20image%2020241015101520.png)
 ![](../../Assets/Pasted%20image%2020241015101526.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1729236693007-->
 END
 
 ---
@@ -565,8 +557,7 @@ Pozor! **Záleží** na pořadí.
 Toto taky nejsou stejné dotazy:
 ![](../../Assets/Pasted%20image%2020241015101130.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236693015-->
 END
 
 ---
@@ -586,7 +577,7 @@ Měl bych se dotazovat tím druhým způsobem.
 ![](../../Assets/Pasted%20image%2020241015101210.png)
 ![](../../Assets/Pasted%20image%2020241015101452.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1729236693023-->
 END
 
 ---
@@ -614,8 +605,7 @@ Ta čárka je ořítko, kvůli tomu tam máme i $1$ a $4$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241015102007.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236693034-->
 END
 
 ---
@@ -642,8 +632,7 @@ Pozn. můžu například i slicovat array nebo brát rovnou první element, co m
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241015102419.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236693042-->
 END
 
 ---
@@ -667,7 +656,7 @@ Umožňují mi modifikovat danou query.
 ![](../../Assets/Pasted%20image%2020241015102650.png)
 ![](../../Assets/Pasted%20image%2020241015102655.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1729236693050-->
 END
 
 ---
@@ -685,7 +674,7 @@ Back:
 `$aggregate` můžu použít místo find a udělat tak komplexnější query
 
 V rámci toho pak můžu použít `$lookup` a `$unwind`, které mi umožňí např. vyhledat podle reference daný dokument v jiné kolekci.
-
+<!--ID: 1729236693058-->
 END
 
 ---

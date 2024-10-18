@@ -4,7 +4,7 @@ up: "[[📖NI-AM1]]"
 ---
 
 TARGET DECK: NI-AM1
-FILE TAGS: NI-AM1
+FILE TAGS: NI-AM1 prednaska01 status-toReview
 
 
 START

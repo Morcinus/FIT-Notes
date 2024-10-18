@@ -33,7 +33,7 @@ up: "[[📖${note.courseCode}]]"
 ---
 
 TARGET DECK: ${note.courseCode}
-FILE TAGS: ${note.courseCode}
+FILE TAGS: ${note.courseCode} cviceni${note.lectureNumber} status-toReview
 
 
 \n`;

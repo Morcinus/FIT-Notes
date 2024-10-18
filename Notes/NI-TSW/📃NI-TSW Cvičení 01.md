@@ -4,7 +4,7 @@ up: "[[📖NI-TSW]]"
 ---
 
 TARGET DECK: NI-TSW
-FILE TAGS: NI-TSW
+FILE TAGS: NI-TSW cviceni01 status-toReview
 ### Lean Canvas
 ![[Pasted image 20240926170928.png]]
 

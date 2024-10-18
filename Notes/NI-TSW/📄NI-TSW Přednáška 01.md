@@ -4,7 +4,7 @@ up: "[[📖NI-TSW]]"
 ---
 
 TARGET DECK: NI-TSW
-FILE TAGS: NI-TSW
+FILE TAGS: NI-TSW prednaska01 status-toReview
 
 
 START

@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI
+FILE TAGS: NI-MPI prednaska04 status-toReview
 
 ### Věta o implicitní funkci
 
@@ -45,8 +45,7 @@ Máme následující 3D graf a já na něm chci na 2D ploše udělat **vrstevnic
 
 ![](../../Assets/Pasted%20image%2020241011120135.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236692620-->
 END
 
 ---
@@ -57,13 +56,13 @@ END
 START
 FIT-Card
 
-???
+Co obecně (vlastními slovy) děláme v **úlohách vázaného extrému** na funkcích o dvou proměnných?
 
 Back:
 
-<!-- ExampleStart -->
-Máme daný 3D graf (jakoby terén) a nakreslíme na něm cestu. Na tého cestě pak hledáme extrémy.
+Máme **graf funkce** (jakoby 3D terén) a máme **vazbu** (která definuje "cestu" na tom grafu). Ta té "cestě" pak hledáme lokální **minima** a **maxima**.
 
+<!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241011120811.png)
 Červená elipsa vpravo je například ta cesta.
 
@@ -72,8 +71,7 @@ Další příklady:
 ![](../../Assets/Pasted%20image%2020241011121005.png)
 
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236692630-->
 END
 
 ---
@@ -100,8 +98,7 @@ Máme $p$ **nerovnostních vazeb (=vnitřky vrstevnic)** (určených funkcemi $h
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011123820.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692638-->
 END
 
 ---
@@ -123,7 +120,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011123605.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692651-->
 END
 
 ---
@@ -160,7 +157,7 @@ $D_f$ je zde rovina určená osami $y$ a $x$
 <!-- OtherInfoStart -->
 Analogicky se definuje maximum a ostré extrémy.
 <!-- OtherInfoEnd -->
-
+<!--ID: 1729236692661-->
 END
 
 ---
@@ -171,7 +168,7 @@ END
 START
 FIT-Card
 
-K čemu slouží Lagrangeova funkce?
+K čemu slouží **Lagrangeova funkce**?
 
 Back:
 **Popis příkladu:**
@@ -187,7 +184,7 @@ To že se dotýkám vrstevnice zjistím z toho, že cesta a vrstevnice mají ste
 Když spočtem $\nabla L$ (gradient Lagrangeovy funkce) a budeme zkoumat, je gradient roven nule, tedy kdy mají jsou ty gradienty $f$ a $g$ rovnoběžné, tedy nacházíme body podezřelé z extrému. .
 
 ![](../../Assets/Pasted%20image%2020241011135242.png)
-
+<!--ID: 1729236692670-->
 END
 
 ---
@@ -206,8 +203,7 @@ Back:
 <!-- ExplanationStart -->
 Lagrangeova funkce má $n+m$ proměnnch ($\textbf{x}$ je vektor o $n$, $\lambda$ je vektor o $m$ proměnných). Je definovaná jako funkce $f(\textbf{x})$ plus ty lambdy vynásobené těmi funkcemi $g_j$.
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692679-->
 END
 
 ---
@@ -223,7 +219,7 @@ Definice: **Lagrangeovy multiplikátory**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011133509.png)
-
+<!--ID: 1729236692690-->
 END
 
 ---
@@ -250,8 +246,7 @@ Když jsou splňeny ty podmínky $x^*$, tak je pak lokální minimum.
 
 Ta podmínka (2) mi zeslabuje tu finální nerovnici
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692701-->
 END
 
 ---
@@ -269,7 +264,7 @@ Back:
 3. Rovnice vyřešíme
 4. Koukneme se na všechny směry, co jsou kolmé na gradienty všech těch vazeb a spočteme $v^T\cdot \nabla^2_xL(x^*;\lambda^*)\cdot v$
 5. Když to bude kladné, máme lokální maximum
-
+<!--ID: 1729236692711-->
 END
 
 ---
@@ -288,7 +283,7 @@ Mám nějakou cestu (vazbu), když jsem uvnitř ní (např. v tom kruhu), hledá
 
 Samotná vazba (ta kružnice) mě pak při výpočtech nezajímá.
 ![](../../Assets/Pasted%20image%2020241011144008.png)
-
+<!--ID: 1729236692717-->
 END
 
 ---
@@ -302,7 +297,7 @@ Definice: **Lagrangeova funkce** (i pro nerovnostní vazby)
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011144059.png)
-
+<!--ID: 1729236692727-->
 END
 
 ---
@@ -326,8 +321,7 @@ Např. když si vezmu bod na elipse, tak pro něj je ta vazba aktivní. Když si
 
 ![](../../Assets/Pasted%20image%2020241011144507.png)
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692737-->
 END
 
 ---
@@ -365,8 +359,7 @@ Back:
 
 Ta podmínka (2) mi zeslabuje tu finální nerovnici
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692746-->
 END
 
 ---
@@ -384,7 +377,7 @@ Jediné, v čem se liší od **hledání minima je**:
 - **(správný směr od hranice $\cal{M}$):** $\mu^*_k \leq 0$ - změna $\geq$ na $\leq$
 
 ![](../../Assets/Pasted%20image%2020241011133716.png)
-
+<!--ID: 1729236692755-->
 END
 
 ---

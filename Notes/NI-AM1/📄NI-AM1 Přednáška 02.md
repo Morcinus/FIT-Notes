@@ -4,7 +4,7 @@ up: "[[📖NI-AM1]]"
 ---
 
 TARGET DECK: NI-AM1
-FILE TAGS: NI-AM1
+FILE TAGS: NI-AM1 prednaska02 status-toReview
 
 START
 Basic
@@ -95,7 +95,6 @@ Jaké jsou části Enterprise Architektury? (přehled)
 Back:
 
 ![[Pasted image 20240930093046.png]]
-
 <!--ID: 1728921214992-->
 END
 
@@ -349,7 +348,6 @@ Back:
 
 - **Intra-entreprise** integration - uvnitř organizace
 - **Inter-enterprise** integration - mezi organizacemi
-
 <!--ID: 1728921215025-->
 END
 

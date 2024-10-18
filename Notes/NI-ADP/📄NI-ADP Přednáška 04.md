@@ -5,7 +5,7 @@ up: "[[📖NI-ADP]]"
 ---
 
 TARGET DECK: NI-ADP
-FILE TAGS: NI-ADP
+FILE TAGS: NI-ADP prednaska04 status-toReview
 ## Structrual design patterns
 
 
@@ -23,7 +23,7 @@ Back:
 - Facade
 - Bridge
 - Decorator
-
+<!--ID: 1729237386333-->
 END
 
 ---
@@ -42,8 +42,7 @@ V aplikaci používám DocumentXML a chci to změnit na JSON.
 
 Tak si udělám JSONToXMLAdapter, který bude dodržovat stejné rozhraní jako ta DocumentXML classa a budu ho tedy moct použít tam kde používám tu classu.
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729237386336-->
 END
 
 ---
@@ -73,7 +72,7 @@ Jak to je naimplementované:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241015185322.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729237386339-->
 END
 
 ---
@@ -101,8 +100,7 @@ Je to hlavně kvůli čitelnosti kódu. Fasáda nám sdružuje dotazy a volání
 ![](../../Assets/Pasted%20image%2020241015190755.png)
 <!-- DetailInfoEnd -->
 
-
-
+<!--ID: 1729237386342-->
 END
 
 ---
@@ -116,7 +114,7 @@ Dávají se názvy design patternů do názvů tříd?
 Back:
 
 Není to nutný, ale je to většinou fajn, protože to zvyšuje čitelnost.
-
+<!--ID: 1729237386345-->
 END
 
 ---
@@ -140,8 +138,7 @@ Nemusím házet všechny položky do pole a sčítat to, ale můžu na každém 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241015191939.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1729237386348-->
 END
 
 ---
@@ -157,7 +154,7 @@ Jak funguje **flyweight** design pattern?
 Back:
 
 Hodně objektů sdílí stejnou classu.
-
+<!--ID: 1729237386351-->
 END
 
 ---

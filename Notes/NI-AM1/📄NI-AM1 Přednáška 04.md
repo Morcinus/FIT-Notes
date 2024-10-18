@@ -4,7 +4,7 @@ up: "[[📖NI-AM1]]"
 ---
 
 TARGET DECK: NI-AM1
-FILE TAGS: NI-AM1
+FILE TAGS: NI-AM1 prednaska04 status-toReview
 
 ### Přístupy integrací
 
@@ -63,8 +63,6 @@ Kdy takový stav může například nastat:
 ![](../../Assets/Pasted%20image%2020241014173734.png)
 
 <!-- ExplanationEnd -->
-
-
 <!--ID: 1728921214956-->
 END
 
@@ -143,7 +141,7 @@ Poskytuje SOA **web services** nebo **ETL** integraci?
 Back:
 
 **Obojí**
-
+<!--ID: 1729236693071-->
 END
 
 ---
@@ -163,7 +161,6 @@ Proces, kdy se nějaká informace propíše pomocí integračního middlewaru do
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241014180037.png)
 <!-- ImageEnd -->
-
 <!--ID: 1728921214967-->
 END
 
@@ -180,7 +177,7 @@ Back:
 Proces, co zkontroluje, jeslti jsou všechny systémy správně synchronizované.
 
 Tento proces se spouští například jednou za den.
-
+<!--ID: 1729236693079-->
 END
 
 ---
@@ -196,7 +193,7 @@ Co je **Enterprise Service Bus**?
 Back:
 
 Aplikace, která běží na aplikačním serveru. Pomocí integračních vzorů v ní můžu vytvářet integrační procesy.
-
+<!--ID: 1729236693087-->
 END
 
 ---
@@ -218,7 +215,7 @@ Back:
 Další vzory:
 ![](../../Assets/Pasted%20image%2020241014180425.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236693096-->
 END
 
 ---
@@ -251,7 +248,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241014182721.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236693105-->
 END
 
 ---
@@ -267,7 +264,7 @@ Back:
 Destination NAT - překládání komunikace na routeru, když vím adresu nějakého zařízení v privátní síti a chci s ním komunikovat z veřejné sítě.
 
 Funguje na nižších vrstvách OSY modelu. Není to aplikační vrstva
-
+<!--ID: 1729236693114-->
 END
 
 ---
@@ -293,7 +290,7 @@ Máme prostředníka, co má u sebe dvě fronty (request queue a response queue)
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241014183234.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729236693124-->
 END
 
 ---
@@ -308,7 +305,7 @@ Back:
 
 - **Message Queue** - jeden klient, jeden server
 - **Publish/Subscribe** - jeden klient, z queue čte více serverů _(každý např. zaměřený na určitý task)_
-
+<!--ID: 1729236693138-->
 END
 
 ---
@@ -355,7 +352,7 @@ Back:
 Server si u sebe chvíli podrží ten request klienta, díky čemuž zamezí tomu, aby se furt klient dotazoval na status monitor.
 
 Tzn. server si tím reguluje zátěž, protože schválně na každý request odpoví po nějakém čase.
-
+<!--ID: 1729236693152-->
 END
 
 ---
@@ -374,7 +371,7 @@ Back:
 	- Je to legacy (vznikli v roce 2005), už se toho lidi spíš zbavují
 - **Mikroslužby** - relativně nový, populární
 - **Kubernetes** - v tom běží (mimo jiné) mikroslužby
-
+<!--ID: 1729236693163-->
 END
 
 ---
@@ -396,7 +393,7 @@ Vyobrazení škálování:
 	- mám několik oddělených databází (jedna má např. záznamy od A-J, druhá od J-Z), mám systém, co mi rozhazuje data do těch databází, čímž opět rozložím zátěž
 - **Osa Y** - **mikroservisy**
 	- oddělím určitou funkci aplikace, čímž dělám "dekompozici funkcí"
-
+<!--ID: 1729236693173-->
 END
 
 ---

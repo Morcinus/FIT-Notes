@@ -4,7 +4,7 @@ up: "[[📖NI-ADP]]"
 ---
 
 TARGET DECK: NI-ADP
-FILE TAGS: NI-ADP
+FILE TAGS: NI-ADP cviceni02 status-toReview
 
 ### MVC
 
@@ -23,7 +23,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241011175342.png)
 <!-- ImageEnd -->
-
 <!--ID: 1728921214945-->
 END
 

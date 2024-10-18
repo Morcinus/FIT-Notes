@@ -5,7 +5,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP prednaska04 status-toReview
 
 ### Srovnávání problémů ve třídě
 START
@@ -22,8 +22,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241016095433.png)
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692285-->
 END
 
 ---
@@ -42,7 +41,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241016100249.png)
 ![](../../Assets/Pasted%20image%2020241016095433.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1729236692295-->
 END
 
 ---
@@ -65,7 +64,7 @@ Potom:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241016095740.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729236692302-->
 END
 
 ---
@@ -83,7 +82,7 @@ Nejtěžší problém je **ten, na který jdou převést všechny ostatní**.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241016100104.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729236692310-->
 END
 
 ---
@@ -97,7 +96,7 @@ Co je **redukce** problému?
 Back:
 
 Převod instance problému $\Pi_1$ na instanci jiného problému $\Pi_2$ 
-
+<!--ID: 1729236692320-->
 END
 
 ---
@@ -120,8 +119,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241016100804.png)
 ![](../../Assets/Pasted%20image%2020241016100814.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236692327-->
 END
 
 ---
@@ -135,7 +133,7 @@ Definice: $\Pi_1$ a $\Pi_2$ jsou **polynomiálně ekvivalentní**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016100617.png)
-
+<!--ID: 1729236692338-->
 END
 
 ---
@@ -153,8 +151,7 @@ Back:
 <!-- InformallySaidStart -->
 Když umím převést  $\Pi_1$ na $\Pi_2$  a $\Pi_2$ na $\Pi_3$, tak umím převést $\Pi_1$ na $\Pi_3$.
 <!-- InformallySaidEnd -->
-
-
+<!--ID: 1729236692346-->
 END
 
 ---
@@ -170,7 +167,7 @@ Definice: Problém je NP-těžký
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016101357.png)
-
+<!--ID: 1729236692356-->
 END
 
 ---
@@ -184,7 +181,7 @@ Definice: Problém je NP-úplný
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016101418.png)
-
+<!--ID: 1729236692365-->
 END
 
 ---
@@ -202,8 +199,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241016105745.png)
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692372-->
 END
 
 ---
@@ -221,8 +217,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241016105826.png)
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729236692381-->
 END
 
 ---
@@ -248,7 +243,7 @@ Důsledky:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241016110547.png)
 <!-- ProofEnd -->
-
+<!--ID: 1729236692389-->
 END
 
 ---
@@ -262,7 +257,7 @@ Jaké jsou vztahy tříd $P, NP, NPC, NPH$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016110101.png)
-
+<!--ID: 1729236692399-->
 END
 
 ---
@@ -276,7 +271,7 @@ Definice: co-NP těžký a co-NP úplný
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016110201.png)
-
+<!--ID: 1729236692407-->
 END
 
 ---
@@ -296,7 +291,7 @@ Back:
 
 **Nevýhody**:
 - **Problém je v NPC** - exaktní řešení, v nejhorším případě, může být časově neúnostné
-
+<!--ID: 1729236692416-->
 END
 
 ---
@@ -330,8 +325,7 @@ Příklad 2
 Fun fact: Takhle v historii postupovaly důkazy
 ![](../../Assets/Pasted%20image%2020241016111339.png) 
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692426-->
 END
 
 ---
@@ -351,7 +345,7 @@ Back:
 - **Obecná formule**
 
 ![](../../Assets/Pasted%20image%2020241016111738.png)
-
+<!--ID: 1729236692433-->
 END
 
 ---
@@ -369,7 +363,7 @@ Back:
 <!-- ExplanationStart -->
 částečné uspořádání = vím, která operace následuje za kterou
 <!-- ExplanationEnd -->
-
+<!--ID: 1729236692442-->
 END
 
 ---
@@ -384,7 +378,7 @@ Definice: Program $M$ pro deterministický Turingův stroj **řeší optimaliza�
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016112730.png)
-
+<!--ID: 1729236692452-->
 END
 
 ---
@@ -398,7 +392,7 @@ Definice: Program $M$ pro deterministický Turingův stroj **počítá optimaliz
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016112758.png)
-
+<!--ID: 1729236692460-->
 END
 
 ---
@@ -417,8 +411,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241016112918.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1729236692468-->
 END
 
 ---
@@ -438,7 +431,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241016113010.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1729236692476-->
 END
 
 ---
@@ -460,8 +453,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241016113250.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692483-->
 END
 
 ---
@@ -477,7 +469,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241016113319.png)
 
 ![](../../Assets/Pasted%20image%2020241016113324.png)
-
+<!--ID: 1729236692492-->
 END
 
 ---
@@ -491,7 +483,7 @@ Jaký je vztah tříd $P, NP, NPC, PO, NPO, NPH$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016113425.png)
-
+<!--ID: 1729236692500-->
 END
 
 ---
@@ -523,7 +515,7 @@ Jsou **ekvivalentní** z hlediska Truingovy redukce v polynomiálním čase.
 ![](../../Assets/Pasted%20image%2020241016114039.png)
 
 <!-- ProofEnd -->
-
+<!--ID: 1729236692508-->
 END
 
 ---
@@ -541,7 +533,7 @@ Back:
 Jsou **disjunktní**.
 
 ![](../../Assets/Pasted%20image%2020241016114520.png)
-
+<!--ID: 1729236692517-->
 END
 
 ---
@@ -556,7 +548,7 @@ Back:
 $\text{NPH} = \text{co-NPH}$
 
 ![](../../Assets/Pasted%20image%2020241016114549.png)
-
+<!--ID: 1729236692525-->
 END
 
 ---
@@ -570,7 +562,7 @@ Jaký je vztah tříd $P, NP, co-NP, NPH, co-NPH$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016114750.png)
-
+<!--ID: 1729236692533-->
 END
 
 ---
@@ -591,8 +583,7 @@ Dobré:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241016115217.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692544-->
 END
 
 ---
@@ -611,8 +602,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241016115304.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729236692555-->
 END
 
 ---
@@ -632,7 +622,7 @@ Problémy, které nemohou mít polynomiální algoritmus (nemohou být v $P$) a 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241016115504.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729236692565-->
 END
 
 ---
@@ -650,7 +640,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241016115745.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1729236692575-->
 END
 
 ---
@@ -668,7 +658,7 @@ Problémy, pro které neumíme ani nalézt polynomiální algoritmus, ani na ně
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241016115504.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729236692586-->
 END
 
 ---

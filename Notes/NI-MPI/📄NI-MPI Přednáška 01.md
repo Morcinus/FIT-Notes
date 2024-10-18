@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI
+FILE TAGS: NI-MPI prednaska01 status-toReview
 
 START
 Basic
@@ -292,8 +292,6 @@ Neformálně:
 V daném bodě to je směr nejvyššího růstu.
 
 ![[Pasted image 20240923130304.png]]
-
-
 <!--ID: 1728921214882-->
 END
 
@@ -370,8 +368,6 @@ Dovysvětlení:
 Ta nadrovina je popsaná pomocí $(x_1,x_2,\dots,x_n, z)$.
 
 ![[Pasted image 20240923130551.png]]
-
-
 <!--ID: 1728921214893-->
 END
 

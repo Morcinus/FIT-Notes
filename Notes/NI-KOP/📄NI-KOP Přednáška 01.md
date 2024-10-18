@@ -4,7 +4,7 @@ up: "[[📖NI-KOP]]"
 ---
 
 TARGET DECK: NI-KOP
-FILE TAGS: NI-KOP
+FILE TAGS: NI-KOP prednaska01 status-toReview
 
 START
 Basic
@@ -199,7 +199,6 @@ Back:
 ![[Pasted image 20240923184558.png]]
 ![[Pasted image 20240923185102.png]]
 ![[Pasted image 20240923185111.png]]
-
 <!--ID: 1728921215200-->
 END
 
@@ -535,7 +534,6 @@ Back:
 
 ![[Pasted image 20240923191647.png]]
 ![[Pasted image 20240923191704.png]]
-
 <!--ID: 1728921215270-->
 END
 
@@ -555,7 +553,6 @@ Back:
 ![[Pasted image 20240923191907.png]]
 ![[Pasted image 20240923191915.png]]
 ![[Pasted image 20240923191927.png]]
-
 <!--ID: 1728921215273-->
 END
 

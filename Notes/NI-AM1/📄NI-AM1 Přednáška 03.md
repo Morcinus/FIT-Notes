@@ -4,7 +4,7 @@ up: "[[📖NI-AM1]]"
 ---
 
 TARGET DECK: NI-AM1
-FILE TAGS: NI-AM1
+FILE TAGS: NI-AM1 prednaska03 status-toReview
 
 ## Dokončení přednášky 02
 ### Softwarové architektury
@@ -21,7 +21,7 @@ Back:
 - Three-tier client/server
 - Mutli-tier client/server
 - Client/server (microservices)
-
+<!--ID: 1729237386393-->
 END
 
 ---
@@ -46,8 +46,7 @@ Např. desktopové aplikace
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007092310.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386396-->
 END
 
 ---
@@ -71,8 +70,7 @@ Tzv. **tlustý klient**
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007092429.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386398-->
 END
 
 ---
@@ -88,7 +86,7 @@ Back:
 
 - **Není sjednocená aplikační logika** - každý klient může mít u sebe jinou verzi aplikační vrstvy
 - **Hůř se dělají upgrady aplikace** - klient si musí sám stáhnout aktualizaci, nebo tam musím vytvořit automatické aktualizace
-
+<!--ID: 1729237386401-->
 END
 
 ---
@@ -111,8 +109,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007092723.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386404-->
 END
 
 ---
@@ -130,8 +127,7 @@ Je třeba řešit **škálovatelnost**.
 <!-- ExplanationStart -->
 Oproti two-tier, kde si každý prostě stáhne program k sobě, tady musím rozkládat zátěž na servery, protože uživatel vždy používá server.
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729237386407-->
 END
 
 ---
@@ -154,7 +150,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007093040.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729237386409-->
 END
 
 ---
@@ -176,7 +172,7 @@ Backend mám rozdělený do více **komponentů**, kde každý běží jako **sa
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007093318.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729237386412-->
 END
 
 ---
@@ -190,7 +186,7 @@ Proč firmy nerefaktorují celé aplikace na microservice architekture? Jaké je
 Back:
 
 Protože to je často **nákladné překódit** celou codebase.
-
+<!--ID: 1729237386415-->
 END
 
 ---
@@ -214,7 +210,7 @@ Má to výhody a je to podobné microservices, ale **není** to microservice arc
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007094458.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1729237386418-->
 END
 
 ---
@@ -232,7 +228,7 @@ Back:
 - **škálovatelnost** - messaging servers, load balancers, proxy serves
 - **functional** - integrace (propojování) severů a částí aplikace, repozitáře,...
 - **security** - firewally, gateways,...
-
+<!--ID: 1729237386420-->
 END
 
 ---
@@ -252,7 +248,7 @@ Back:
 - logical view
 - software architecture view
 - technology architecture view
-
+<!--ID: 1729237386423-->
 END
 
 ---
@@ -266,7 +262,7 @@ Co je **business view** náhled na architekturu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241007095748.png)
-
+<!--ID: 1729237386426-->
 END
 
 ---
@@ -280,7 +276,7 @@ Co je **conceptual view** náhled na architekturu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241007095755.png)
-
+<!--ID: 1729237386429-->
 END
 
 ---
@@ -306,8 +302,7 @@ Back:
 	- např. mám na rozhraní konkrétní metodu "createCustomer"
 	- nevýhoda: je potřeba zavést nějaký standard pro vytváření metod, aby v tom nebyl chaos
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386432-->
 END
 
 ---
@@ -321,7 +316,7 @@ Co je **software architecture view** náhled na architekturu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241007095811.png)
-
+<!--ID: 1729237386434-->
 END
 
 ---
@@ -335,7 +330,7 @@ Co je **technology architecture view** náhled na architekturu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241007095820.png)
-
+<!--ID: 1729237386437-->
 END
 
 ---
@@ -353,8 +348,7 @@ Můžu pak mít **více implementací** daného rozhraní (např. v jiných jazy
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241007100632.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1729237386440-->
 END
 
 ---
@@ -373,8 +367,7 @@ Návrh **rozhraní** service
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007100716.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386443-->
 END
 
 ---
@@ -388,7 +381,7 @@ Pomocí jakého **diagramu** se modeluje **fungování dané service**?
 Back:
 
 Pomocí **stavového diagramu**.
-
+<!--ID: 1729237386445-->
 END
 
 ---
@@ -412,7 +405,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241007101250.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729237386448-->
 END
 
 ---
@@ -437,8 +430,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241007102911.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1729237386451-->
 END
 
 ---
@@ -466,7 +458,7 @@ Analogie:
 - Mám HTML, v něm mám tagy s URL odkazama, ty odkazují na další dokumenty. Tím vytvářím jakoby "stavový prostor", kde každý HTML document reprezentuje jeden stav.
 	- Odkazy - přechody ve stavovém diagramu
 		- Každý odkaz můžu volat s různou metodou GET, POST atd.
-
+<!--ID: 1729237386454-->
 END
 
 ---
@@ -486,7 +478,7 @@ Když dělám API, měl bych ho navrhovat tak, jako kdyby s ním v budoucnu komu
 
 Samozřejmě je v tom tradeoff. Čím víc reusable to dělám, tím víc fičur tam musím dát, tím víc času mi to zabere.
 <!-- ExampleEnd -->
-
+<!--ID: 1729237386456-->
 END
 
 ---
@@ -500,7 +492,7 @@ Co je **SOA**?
 Back:
 
 **Service Oriented architecture**
-
+<!--ID: 1729237386459-->
 END
 
 ---
@@ -514,7 +506,7 @@ Co je **ESB**?
 Back:
 
 **Enterprise Service Bus** - systém komunikace mezi services
-
+<!--ID: 1729237386462-->
 END
 
 ---
@@ -534,8 +526,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007103247.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386465-->
 END
 
 ---
@@ -559,8 +550,7 @@ Pozn. je to trochu legacy, ale velké firmy ČEZ, banky atd. to používají.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007103545.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386468-->
 END
 
 ---
@@ -582,8 +572,7 @@ Mám hromadu systémy/services, komunikují vždy **jedna na jednu**.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007103657.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386471-->
 END
 
 ---
@@ -603,7 +592,7 @@ _To se pak nazývá špagetová architektura :D_
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241007103648.png)
 <!-- ImageEnd -->
-
+<!--ID: 1729237386474-->
 END
 
 ---
@@ -627,8 +616,7 @@ Vytvoří se **Enterprise Service Bus** (ESB), který je middlewarem mezi jednot
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241007104148.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1729237386477-->
 END
 
 ---
@@ -646,8 +634,7 @@ Protože se tam často ten chaos zůstane, akorát se rodělí do menších pod�
 <!-- ExplanationStart -->
 Tzn. ten hlavní workflow je spořádaný. Ale můůže být 
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1729237386480-->
 END
 
 ---
