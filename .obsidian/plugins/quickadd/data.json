@@ -13,6 +13,20 @@
       "type": "Macro",
       "command": false,
       "macroId": "99334676-f0a2-4e1d-bc94-fc657116a7d8"
+    },
+    {
+      "id": "d62151ba-9ef7-4a62-a4cb-1e8063650345",
+      "name": "Backup",
+      "type": "Macro",
+      "command": false,
+      "macroId": "ff876cac-f4eb-4d71-b09e-0b4dd14768d0"
+    },
+    {
+      "id": "36d58f77-a7b4-420f-b8b2-f19421853922",
+      "name": "Backup and Close",
+      "type": "Macro",
+      "command": false,
+      "macroId": "ee2ed812-35bf-4b11-ad72-d780c04a70fb"
     }
   ],
   "macros": [
@@ -40,6 +54,32 @@
           "id": "61049aaa-399f-4271-beaa-6dbc8b61b943",
           "path": "Scripts/createLabNote.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Backup",
+      "id": "ff876cac-f4eb-4d71-b09e-0b4dd14768d0",
+      "commands": [
+        {
+          "name": "Git: Commit-and-sync",
+          "type": "Obsidian",
+          "id": "2170bd43-69ff-4e10-9b14-139b6ec4d3ec",
+          "commandId": "obsidian-git:push"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Backup and Close",
+      "id": "ee2ed812-35bf-4b11-ad72-d780c04a70fb",
+      "commands": [
+        {
+          "name": "Git: Commit-and-sync and then close Obsidian",
+          "type": "Obsidian",
+          "id": "0c1558bf-5729-4d81-a746-b213793b102d",
+          "commandId": "obsidian-git:backup-and-close"
         }
       ],
       "runOnStartup": false

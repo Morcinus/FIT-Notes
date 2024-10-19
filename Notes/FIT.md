@@ -7,12 +7,11 @@ cssclasses:
 ![[fit-logo.png##bannericonl]]
 
 ### Předměty
+### Obsah
 ```breadcrumbs
 type: tree
-dir: down
-title: false
-collapse: true
-depth: 0-1
+fields: [down]
+depth: [0, 0]
 ```
 
 ### Návod na přidávání kartiček

@@ -108,10 +108,8 @@ up: "[[FIT]]"
 ### Notes
 \`\`\`breadcrumbs
 type: tree
-dir: down
-title: false
-collapse: true
-depth: 0-1
+fields: [down]
+depth: [0, 0]
 \`\`\`
 
 \n`;

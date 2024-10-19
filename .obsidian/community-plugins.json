@@ -5,7 +5,8 @@
   "quickadd",
   "vscode-editor",
   "homepage",
-  "breadcrumbs",
   "obsidian-reveal-active-file",
-  "omnisearch"
+  "omnisearch",
+  "obsidian42-brat",
+  "breadcrumbs"
 ]
