@@ -3,7 +3,8 @@
   "baseFontSize": 19,
   "enabledCssSnippets": [
     "banners",
-    "properties"
+    "properties",
+    "breadcrumbs"
   ],
   "cssTheme": "Atom"
 }
