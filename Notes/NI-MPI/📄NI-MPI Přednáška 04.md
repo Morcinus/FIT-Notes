@@ -157,6 +157,14 @@ $D_f$ je zde rovina určená osami $y$ a $x$
 <!-- OtherInfoStart -->
 Analogicky se definuje maximum a ostré extrémy.
 <!-- OtherInfoEnd -->
+
+Související Marasty pro procvičení:
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241028154759.png)
+![](../../Assets/Pasted%20image%2020241028154812.png)
+<!-- DetailInfoEnd -->
+
+
 <!--ID: 1729236692661-->
 END
 

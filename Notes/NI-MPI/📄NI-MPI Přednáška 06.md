@@ -303,6 +303,13 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020172145.png)
 <!-- ExplanationEnd -->
 
+Související Marast:
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020241028155937.png)
+![](../../Assets/Pasted%20image%2020241028155944.png)
+<!-- ExampleEnd -->
+
+
 END
 
 ---
