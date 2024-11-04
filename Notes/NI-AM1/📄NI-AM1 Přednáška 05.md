@@ -306,11 +306,81 @@ Jaké dva mechanismy se používají na snížení latence při three way handsh
 Back:
 
 - **HTTP Keep-alive**
-- **HTTP pipelining**
+- **HTTP pipelining** - nepoužívá se, ze začátku byl pouze experimentální
 - **TCP fast open**
 
 <!-- ExampleStart -->
 Tím řeším ten problém, když navazuju hodně spojení, tak abych neměl tak dlouhou odezvu
+<!-- ExampleEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje **HTTP Keep-alive**?
+
+Back:
+
+Jeden TCP socket se využije na více requestů.
+
+V klientovi se vytvoří request queue, kde čekají requesty na poslání přes to TCP spojení.
+
+<!-- ExampleStart -->
+Např. v request queue bude nejdřív HTML soubor, potom CSS soubor, potom obrázky atd.
+<!-- ExampleEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje HTTP **pipelining**?
+
+Back:
+
+Ta fronta na requesty, co je na klientovi se jakoby přesune na server.
+
+1. Udělá se three way handshake
+2. Potom naposílám requesty najednou, nečekám na response.
+3. Sever si drží frontu, potom postupně posílá requesty
+
+<!-- ExampleStart -->
+Normálně, když nedělám pipelining, mám na klientovi frontu requestů a postupně posílám requesty a posílám response.
+
+![](../../Assets/Pasted%20image%2020241104100352.png)
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+Tento způsob se v dnešní době nepoužívá.
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **pipeline locking**?
+
+Back:
+
+Mám něco ve frontě a ten první prvek mi blokuje ty ostatní.
+
+Tento problém nastává u HTTP pipeliningu.
+
+<!-- ExampleStart -->
+Mám velký request jako první, ostatní už jsem zpracoval, ale musím je poslat popořadě, tudíž mi to ten první blokuje
 <!-- ExampleEnd -->
 
 
@@ -339,19 +409,6 @@ END
 ---
 
 
-START
-FIT-Card
-
-Jak funguje **HTTP Keep-alive**?
-
-Back:
-
-Jeden TCP socket se využije na více requestů.
-
-END
-
----
-
 
 START
 FIT-Card
@@ -375,6 +432,29 @@ V HTTP 2.0 je změna, že se navazuje **pouze jedno** TCP spojení a dělá se t
 END
 
 ---
+
+
+START
+FIT-Card
+
+Kolik TCP spojení může prohlížeč vytvořit na jeden origin?
+
+Back:
+
+Maximálně **šest**.
+
+<!-- ExampleStart -->
+Když si stahuju v HTTP 1 sto obrázků, tak se bude vytvářet 6 spojení najednou.
+
+V HTTP 2 by se vytvořil jeden a díky multiplexingu by se vše posílalo přes to persistentní spojení.
+<!-- ExampleEnd -->
+
+
+
+END
+
+---
+
 
 
 START
