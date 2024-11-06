@@ -379,12 +379,195 @@ Role, které jednotliví lidé mají:
 - **Accountable** - ručitel (osoba, co za to ručí) - ten má hlavu na špalku
 - **Consulted** - osoba, která by se k danému plnění měla vyjádřit (např. bezpečáci)
 - **Informed** - kdo všechno by měl dostat informace o plnění daného výsledku
+
+<!-- DetailInfoStart -->
+Dá se to používat i například na poradách - aby bylo jasný, kdo má co dělat. 
+<!-- DetailInfoEnd -->
+
+
 <!--ID: 1729237386325-->
 END
 
 ---
 
+### Sestavování týmu
 
-### Otázky
-- Jak se člověk vůbec dostane do pozice produktového manažera? Dává smysl climbovat jako po normálních pracech, nebo rovnou se nějak cpát do managementu?
-- Je dobrý nápad učit takhle na vejšce a do toho mít normálně kariéru?
+
+START
+FIT-Card
+
+Jaké 3 vlastnosti by měl mít tým?
+
+Back:
+
+- **samoorganizace** - tým by měl být schopný sám řešit problémy bez externího manažera
+- **rozvíjející/seberealizační** - každý má pocit osobního rozvoje během práce v týmu
+- **synergický** - výsledek je větší něž pouhý součet jeho částí
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou týmové role podle M. Belbina (9)
+
+Back:
+
+Je potřeba mít v týmu různé zastoupení těchto rolí. Díky tomu se ten tým může doplňovat.
+
+![](../../Assets/Pasted%20image%2020241106094645.png)
+
+Pozn. Belbinův test je to, co jsme dělali na TISech a podle čeho jsme sestavovali ty týmy
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **paradox nenahraditelnosti**?
+
+Back:
+
+To že se manažer ve firmě pozicuje do stavu, kdy je těžko nahraditelný. 
+
+Je to nežádoucí, pak je ten systém méně stabilní a flexibilní.
+
+<!-- ExampleStart -->
+- Když manažer pak odejde, tak se celý systém rozsype, protože na něm záviselo moc věcí
+- Když manažer onemocní, tak se celý systém sesype
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+Je potřeba to v týmech hlídat, aby tam nevznikaly nenahraditelní lidé.
+
+Někteří šéfové například mají tendenci nabírat hloupější lidi, aby ty podřízení nebyli lepší než on.
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **paradox řízení**?
+
+Back:
+
+Kvalitní manažer má dobře fungující tým a tudíž není jeho řízení potřeba.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké funkce má manažer?
+
+Back:
+
+- **Odstraňuje komunikační mezery**
+- **Řeší konflikty**
+- **Odměňuje a trestá**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Na co je pořeba dělat, když mám takovouhle komunikační strukturu v projektu?
+
+![](../../Assets/Pasted%20image%2020241106102132.png)
+
+Back:
+
+Musím si dát pozor, aby ten člověk, přes kterého jde komunikace, aby ji **neblokoval**. Je fajn to co nejvíc nastavit tak, aby se komunikovalo napřímo bez zbytečných uzlů
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou typy manažera?
+
+Back:
+
+- **Direktivní**
+- **Liberální**
+- **Demokratický**
+
+![](../../Assets/Pasted%20image%2020241106102403.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou **hlavní problémy** u manažera?
+
+Back:
+
+- **Nesdílení informací**
+- **Přenášení zátěže na tým** - když má něco vyřešit manažer, tak to občas přenáší na členy týmu, což není správně (typicky když nechce dělat tu práci)
+- **Kult osobnosti**
+- **Odmítavý postoj k názorům týmu**
+- **Bossing** - systematická šikana ze strany vedoucího
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou **hlavní problémy komunikace** u členů týmu (vůči manažerovi)?
+
+Back:
+
+- **Kritizování nadřízenýho** - že si člověk z něj dělá srandu, atd.
+- **Dělání si srandy na účet manažera**
+- **Neochota komunikace**
+- **Diskriminace**
+- **Vzájemná nedůvěra**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Čím vším mohou být lidé motivovaní v práci?
+
+Back:
+
+- **Peníze** - "peníze je dobrý"
+- **Motivace společným cílem** - cílem týmu nebo projektu
+- **Social status** - někdo touží po tom se cítit důležitý, má touhu po společenském postavení
+- **Volný čas** - někdo chce hodně volného času
+
+Měl bych motivovat lidi tím, co je motivuje.
+
+END
+
+---
