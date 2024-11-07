@@ -22,7 +22,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241020170156.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1730978212945-->
 END
 
 ---
@@ -40,7 +40,7 @@ Back:
 <!-- InformallySaidStart -->
 Supremum je "nejmenší hodnota, která je vyšší než všechny ostatní".
 <!-- InformallySaidEnd -->
-
+<!--ID: 1730978212948-->
 END
 
 ---
@@ -59,7 +59,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020170737.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212952-->
 END
 
 ---
@@ -73,7 +73,7 @@ Věta: normální posloupnost rozdělení $\implies \ ?$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020170810.png)
-
+<!--ID: 1730978212956-->
 END
 
 ---
@@ -87,7 +87,7 @@ Věta: **aditivita integrálu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020170829.png)
-
+<!--ID: 1730978212960-->
 END
 
 ---
@@ -101,7 +101,7 @@ Věta: **multiplikativita integrálu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020170844.png)
-
+<!--ID: 1730978212963-->
 END
 
 ---
@@ -115,7 +115,7 @@ Definice: **primitivní funkce**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020170900.png)
-
+<!--ID: 1730978212967-->
 END
 
 ---
@@ -129,7 +129,7 @@ Definice: **Newtonova formule**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020170922.png)
-
+<!--ID: 1730978212970-->
 END
 
 ---
@@ -148,7 +148,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020171007.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1730978212973-->
 END
 
 ---
@@ -167,7 +167,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020171037.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1730978212977-->
 END
 
 ---
@@ -187,7 +187,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241020171220.png)
 <!-- ImageEnd -->
-
+<!--ID: 1730978212980-->
 END
 
 ---
@@ -208,7 +208,7 @@ Back:
 Ty dvě závorky s $x$ a $y$ mi vždy říkají **obsah toho obdélníku** a násobím to tím $M_{i,j}$, což je pod tím grafem to supremum, čímž získávám **objem** toho kvádru. Pak ty všechny kvádry v grafu sečtu.
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1730978212983-->
 END
 
 ---
@@ -223,7 +223,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241020171530.png)
 ![](../../Assets/Pasted%20image%2020241020171456.png)
-
+<!--ID: 1730978212986-->
 END
 
 ---
@@ -237,7 +237,7 @@ Definice: **Horní Darbouxův integrál (funkce $f$ na $D$)**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020171620.png)
-
+<!--ID: 1730978212990-->
 END
 
 ---
@@ -251,7 +251,7 @@ Definice: **Dolní Darbouxův integrál (funkce $f$ na $D$)**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020171626.png)
-
+<!--ID: 1730978212993-->
 END
 
 ---
@@ -270,7 +270,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020172015.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212996-->
 END
 
 ---
@@ -284,7 +284,7 @@ Definice: **normální rozdělení $\sigma_n$**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020172031.png)
-
+<!--ID: 1730978213000-->
 END
 
 ---
@@ -309,7 +309,7 @@ Související Marast:
 ![](../../Assets/Pasted%20image%2020241028155944.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978213003-->
 END
 
 ---
@@ -330,7 +330,7 @@ Máme nějakou oblast a když jsme schopný ji uzavřít do obdélníka abcd.
 ![](../../Assets/Pasted%20image%2020241020173002.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1730978213007-->
 END
 
 ---
@@ -353,7 +353,7 @@ Neformálně: Jakoby snižuju furt velikosti obdélníčků. Když to najdu pro 
 ![](../../Assets/Pasted%20image%2020241020173254.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1730978213010-->
 END
 
 ---
@@ -372,7 +372,7 @@ Množiny míry nula mají tu vlastnost, že jsou pro hodnotu integrálu "zanedba
 Protože ty $\varepsilon$ jsem schopný zvolit tak malý, že to je vlastně zanedbatelný.
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1730978213014-->
 END
 
 ---
@@ -391,7 +391,7 @@ Graf spojité funkce $\varphi : [a,b] \rightarrow \mathbb{R}$ má míru nula.
 ![](../../Assets/Pasted%20image%2020241020173754.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1730978213018-->
 END
 
 ---
@@ -410,7 +410,7 @@ Back:
 Můžeme říct:
 Funkce $f$ a $g$ jsou rovny skoro všude, pokud množina $\set {x \in \mathbb{R}^2 : f(x) \neq g(x)}$ má míru nula.
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213021-->
 END
 
 ---
@@ -431,7 +431,7 @@ Back:
 xDD
 
 <!-- ImageEnd -->
-
+<!--ID: 1730978213025-->
 END
 
 ---
@@ -445,7 +445,7 @@ Co je **hranice množiny**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020174536.png)
-
+<!--ID: 1730978213028-->
 END
 
 ---
@@ -459,7 +459,7 @@ Důsledek: omezená množina a integrabilita
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020174659.png)
-
+<!--ID: 1730978213032-->
 END
 
 ---
@@ -473,7 +473,7 @@ Definice: **Vlastnosti dvojného integrálu** (3)
 Back:
 
 ![](../../Assets/Pasted%20image%2020241020174900.png)
-
+<!--ID: 1730978213035-->
 END
 
 ---

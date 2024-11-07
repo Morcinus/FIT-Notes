@@ -23,7 +23,7 @@ Orientovaný nebo neorientovaný graf:
 <!-- DetailInfoStart -->
 Uzly i hrany mohou mít properties (proto se to jmenuje property graph).
 <!-- DetailInfoEnd -->
-
+<!--ID: 1730978212849-->
 END
 
 ---
@@ -39,7 +39,7 @@ Back:
 Mají data jako **graf**
 - Jsou tam **efektivní grafové algoritmy** a průchody grafem
 - Umí vytvářet **subgraph queries**
-
+<!--ID: 1730978212854-->
 END
 
 ---
@@ -61,7 +61,7 @@ Byla první, která dlouhodobě vydržela. Ostatní grafové databáze se přest
 Vznikla v roce 2007.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212857-->
 END
 
 ---
@@ -75,7 +75,7 @@ Jaká je struktura Neo4j databáze?
 Back:
 
 Instance -> databáze -> graf
-
+<!--ID: 1730978212861-->
 END
 
 ---
@@ -94,7 +94,7 @@ Property graph = **directed labeled multigraph**
 	- Díky tomu se literally dá modelovat OntoUML
 	- Můžeme tak třeba říct, že uzel je typu "Movie" nebo "Actor"
 - **multigraph** - mezi dvěma uzlama může být víc hran
-
+<!--ID: 1730978212864-->
 END
 
 ---
@@ -108,7 +108,7 @@ Jaké části má **node** v Neo4j databázi?
 Back:
 
 
-
+<!--ID: 1730978212868-->
 END
 
 ---
@@ -126,7 +126,7 @@ Má
 - **id**
 - **směr** (ale dá se přecházet přes hrany v obou směrech)
 - **nejvýše jeden label**
-
+<!--ID: 1730978212871-->
 END
 
 ---
@@ -156,7 +156,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104163238.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978212875-->
 END
 
 ---
@@ -172,7 +172,7 @@ Vysvětli následující kód v Neo4j (cypher)
 Back:
 - Pomocí $m1,...$ a $a1,...$ vytvářím nodes s danými identifikátory
 - V druhém kódu se vytváří relationships mezi danými nodes
-
+<!--ID: 1730978212880-->
 END
 
 ---
@@ -188,7 +188,7 @@ Back:
 1. Udělat open source software
 2. Vybudovat komunitu
 3. Splitnout to na community edition a enterprise edition
-
+<!--ID: 1730978212883-->
 END
 
 ---
@@ -204,7 +204,7 @@ Co je **Cypher**?
 Back:
 
 Deklarativní **jazyk** pro dotazování nad **grafovými databázemi** (např. nad Neo4j)
-
+<!--ID: 1730978212886-->
 END
 
 ---
@@ -219,7 +219,7 @@ Back:
 
 - **Nodes** - `()`
 - **Relationships** - `<--, --, -->`
-
+<!--ID: 1730978212890-->
 END
 
 ---
@@ -242,7 +242,7 @@ Napíšu co chci dostat za data (podobně jako se to dělá v SQL), databáze mi
 ![](../../Assets/Pasted%20image%2020241104164610.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978212894-->
 END
 
 ---
@@ -265,7 +265,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104164750.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212897-->
 END
 
 ---
@@ -285,7 +285,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104164848.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212901-->
 END
 
 ---
@@ -308,7 +308,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241104165011.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1730978212905-->
 END
 
 ---
@@ -331,7 +331,7 @@ Díky tomu jsem schopný snadně dělat hodně komplikovaný dotazy.
 ![](../../Assets/Pasted%20image%2020241104165156.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212909-->
 END
 
 ---
@@ -353,7 +353,7 @@ Je to kvůli tomu, aby se to při dotazování nezacyklilo.
 ![](../../Assets/Pasted%20image%2020241104165438.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1730978212912-->
 END
 
 ---
@@ -395,7 +395,7 @@ Pak tam můžou být i exists, kvantifikátory atd.
 ![](../../Assets/Pasted%20image%2020241104170446.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212916-->
 END
 
 ---
@@ -418,7 +418,7 @@ Dělá to jakoby left outer join. Optionally mi to do výsledku dá ještě něc
 ![](../../Assets/Pasted%20image%2020241104170503.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212919-->
 END
 
 ---
@@ -447,7 +447,7 @@ Pozn. v tom returnu můžeme mít i kostruktor. Ten `SIZE` mi najde pro vybrané
 ![](../../Assets/Pasted%20image%2020241104170831.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978212923-->
 END
 
 ---
@@ -467,7 +467,7 @@ V returnu použiju agregační funkci podobně jako se to používá v SQLku (vi
 ![](../../Assets/Pasted%20image%2020241104171228.png)
 ![](../../Assets/Pasted%20image%2020241104171236.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1730978212926-->
 END
 
 ---
@@ -488,7 +488,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104171856.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978212930-->
 END
 
 ---
@@ -508,7 +508,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104171935.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212933-->
 END
 
 ---
@@ -527,7 +527,7 @@ Umožňuje mi kombinovat multi-part queries.
 ![](../../Assets/Pasted%20image%2020241104172011.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978212936-->
 END
 
 ---
@@ -547,7 +547,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104172102.png)
 ![](../../Assets/Pasted%20image%2020241104172106.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1730978212940-->
 END
 
 ---

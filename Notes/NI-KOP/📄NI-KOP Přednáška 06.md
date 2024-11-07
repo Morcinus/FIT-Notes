@@ -22,7 +22,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241107103412.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978213040-->
 END
 
 ---
@@ -41,7 +41,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241107103447.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978213044-->
 END
 
 ---
@@ -60,7 +60,7 @@ Sousedé konfigurace, kam jsem schopný se dostat jedním krokem.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241107103735.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213048-->
 END
 
 ---
@@ -88,7 +88,7 @@ Kompletní graf pak vypadá takhle:
 ![](../../Assets/Pasted%20image%2020241107104027.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213052-->
 END
 
 ---
@@ -104,7 +104,7 @@ Back:
 Stav je **ohodnocení konfiguračních proměnných**
 
 ![](../../Assets/Pasted%20image%2020241107104804.png)
-
+<!--ID: 1730978213055-->
 END
 
 ---
@@ -118,7 +118,7 @@ Definice: **operátory a stavový prostor**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107104840.png)
-
+<!--ID: 1730978213059-->
 END
 
 ---
@@ -132,7 +132,7 @@ Definice: **Akce** ve stavovém prostoru
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107104918.png)
-
+<!--ID: 1730978213063-->
 END
 
 ---
@@ -146,7 +146,7 @@ Definice: **graf stavového prostoru algoritmu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107104935.png)
-
+<!--ID: 1730978213066-->
 END
 
 ---
@@ -160,7 +160,7 @@ Definice: **okolí stavu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107104951.png)
-
+<!--ID: 1730978213070-->
 END
 
 ---
@@ -174,7 +174,7 @@ Definice: **$k$-okolí stavu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107105010.png)
-
+<!--ID: 1730978213074-->
 END
 
 ---
@@ -188,7 +188,7 @@ Definice: **sousední stavy (sousedé)**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107105038.png)
-
+<!--ID: 1730978213077-->
 END
 
 ---
@@ -206,7 +206,7 @@ Operátory, který jde opačným směrem než původní operátor
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241107105542.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213081-->
 END
 
 ---
@@ -225,7 +225,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241107105951.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1730978213084-->
 END
 
 ---
@@ -239,7 +239,7 @@ Definice: **Vzdálenost uzlu $s_2$ od $s_1$**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107110030.png)
-
+<!--ID: 1730978213088-->
 END
 
 ---
@@ -255,7 +255,7 @@ Back:
 Z každého stavu se dá dostat do každého stavu
 
 ![](../../Assets/Pasted%20image%2020241107110135.png)
-
+<!--ID: 1730978213092-->
 END
 
 ---
@@ -271,7 +271,7 @@ Back:
 Z každého stavu se do každého dostanu po stejně dlouhé cestě
 
 ![](../../Assets/Pasted%20image%2020241107110149.png)
-
+<!--ID: 1730978213096-->
 END
 
 ---
@@ -307,7 +307,7 @@ Ten vzorec je typicky **součet** (nikoliv násobek)
 ![](../../Assets/Pasted%20image%2020241107111556.png)
 ![](../../Assets/Pasted%20image%2020241107111602.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213099-->
 END
 
 ---
@@ -325,7 +325,7 @@ Povolíme neplatný řešení a nějak je **penalizujeme** konstantní hodnotou.
 <!-- ExampleStart -->
 Např. každému neplatnému stavu nastavíme hodnotu na nula.
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213103-->
 END
 
 ---
@@ -351,7 +351,7 @@ Každému bodu prostoru prohledávání odpovíd oblast stavového prostoru.
 ![](../../Assets/Pasted%20image%2020241107112155.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978213106-->
 END
 
 ---
@@ -369,7 +369,7 @@ Back:
 - **Aktuální stav** - konfigurace příslušející aktuálnímu stavu
 - **Transformace** aktuálního stavu pomocí operátorů
 - **Strategie prohledávání** - to jaké transformace aplikuju (např. v jakém pořadí)
-
+<!--ID: 1730978213109-->
 END
 
 ---
@@ -388,7 +388,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241107112714.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978213113-->
 END
 
 ---
@@ -402,7 +402,7 @@ Definice: **Systematické strategie**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107112603.png)
-
+<!--ID: 1730978213117-->
 END
 
 ---
@@ -421,7 +421,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241107112740.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1730978213120-->
 END
 
 ---
@@ -443,7 +443,7 @@ Algoritmus:
 ![](../../Assets/Pasted%20image%2020241107113155.png)
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1730978213123-->
 END
 
 ---
@@ -458,7 +458,7 @@ Back:
 
 - **Výhoda**: Naleznou **optimální řešení**, existuje-li
 - **Nevýhoda**: Bez prořezávání má v nejhorším případě složitost rovnou **hrubé síle**
-
+<!--ID: 1730978213126-->
 END
 
 ---
@@ -474,7 +474,7 @@ Co je **lokální heuristika** v **systematické strategii**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241107113835.png)
-
+<!--ID: 1730978213130-->
 END
 
 ---
@@ -491,7 +491,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241107113923.png)
 
 Je to "nejmíň odfláknutá lokální heuristika".
-
+<!--ID: 1730978213133-->
 END
 
 ---
@@ -507,7 +507,7 @@ Back:
 Jakmile se najde soused, který je lepším řešením, řekne, že to je ten kandidát na nejlepší řešení.
 
 ![](../../Assets/Pasted%20image%2020241107114138.png)
-
+<!--ID: 1730978213137-->
 END
 
 ---
@@ -523,7 +523,7 @@ Back:
 Při procházení preferuje ty stavy, které jsou nejblíže počátečnímu (resp. ty operátory).
 
 To v některých algoritmech dělá neplechu, protože by výsledek algoritmu neměl záviset na uspořádání jednotlivých stavů/operátorů.
-
+<!--ID: 1730978213141-->
 END
 
 ---
@@ -542,7 +542,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241107114531.png)
 <!-- ImageEnd -->
-
+<!--ID: 1730978213145-->
 END
 
 ---
@@ -560,7 +560,7 @@ Prohledává se stavový prostor jedním směrem (jako větev DFS), potom se z c
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241107114946.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1730978213481-->
 END
 
 ---
@@ -575,7 +575,7 @@ Co je **backtracking v prohledávacím prostoru**?
 Back:
 
 Možnost alogritmu se **vrátit v prohledávacím prostoru** (= odvolat nastavení proměnné), **aniž bych musel mít zadefinované inverzní operátory**, abych mohl skákat  potřeboval "skákat zpět".
-
+<!--ID: 1730978213543-->
 END
 
 ---
@@ -589,7 +589,7 @@ Back:
 
 1. vyber **proměnnou**
 2. vyber **hodnotu** proměnné
-
+<!--ID: 1730978213605-->
 END
 
 ---
@@ -603,7 +603,7 @@ Na co se vztahuje **prořezávání** v prohledávacím prostoru?
 Back:
 
 Prořezávání se vztahuje na **oblast stavového prostoru**
-
+<!--ID: 1730978213610-->
 END
 
 ---
@@ -626,7 +626,7 @@ Když jsem došel do stavu, kdy už mám přeplněný batoh, tak nedává smysl 
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1730978213614-->
 END
 
 ---
@@ -646,7 +646,7 @@ Tzn. nejsem v celých číslech, ale v racionálních.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241107120736.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1730978213617-->
 END
 
 ---
@@ -667,7 +667,7 @@ Pro každého souseda spočítám cenu celkového řešení zlomkového batohu. 
 ![](../../Assets/Pasted%20image%2020241107121014.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1730978213621-->
 END
 
 ---
@@ -695,7 +695,7 @@ Funguje podobně jako u prohledávacího prostoru.
 ![](../../Assets/Pasted%20image%2020241107121246.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1730978213625-->
 END
 
 ---

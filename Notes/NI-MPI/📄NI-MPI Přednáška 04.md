@@ -164,7 +164,6 @@ Související Marasty pro procvičení:
 ![](../../Assets/Pasted%20image%2020241028154812.png)
 <!-- DetailInfoEnd -->
 
-
 <!--ID: 1729236692661-->
 END
 

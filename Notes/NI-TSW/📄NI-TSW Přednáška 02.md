@@ -384,7 +384,6 @@ Role, které jednotliví lidé mají:
 Dá se to používat i například na poradách - aby bylo jasný, kdo má co dělat. 
 <!-- DetailInfoEnd -->
 
-
 <!--ID: 1729237386325-->
 END
 

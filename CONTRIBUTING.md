@@ -6,6 +6,8 @@
 
 Jinak totiž hrozí to, že plugin vytvoří konflikty s kartičkama a bude se to muset manuálně opravovat (což je pain).
 
+Ano, je to dementní, ale bohužel nemám čas ty releases automatizovat v pipelině :D
+
 ## 📖 Vytváření nových výpisků a kartiček
 
 - Všechny **výpisky z přednášek a cvik** vytvářet pomocí zkratky `Ctrl+N`.
