@@ -15,6 +15,15 @@ Ano, je to dementní, ale bohužel nemám čas ty releases automatizovat v pipel
 - **Kartičky** vytvářet pomocí specifikovaného templatu v `Templates/Flashcard.md`
   - V rámci kartiček lze také používat ostatní templates (např. `Accordion`).
 
+## 📖 Exportování Anki decku
+
+1. Kliknout na deck > `Export`
+   - Zaškrtnout:
+     - Include deck presets
+     - Include media
+     - Support older Anki versions
+2. Zmáčknout `Export`
+
 ## 🔍 Reporting a opravování chyb
 
 - **Jednoduché chyby** a vylepšení je možné opravit rovnou přímo v Obsidianu bez jakýchkoliv otázek (např. typos, zlepšení formátování, přidání příkladů, přidání dovysvětlení atd.).
