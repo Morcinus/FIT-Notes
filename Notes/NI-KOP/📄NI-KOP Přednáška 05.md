@@ -20,7 +20,6 @@ Algoritmy, co vypadají, jako že řeší NP těžký problém v polynomiálním
 Problém batohu s dekompozicí podle váhy
 
 <!-- ExampleEnd -->
-
 <!--ID: 1731143142207-->
 END
 
@@ -39,7 +38,6 @@ Back:
 V té matici, pokud se podívám na nějaké místo a už tam číslo je, tak ta čísla porovnám a zapíšu tam to lepší.
 
 ![](../../Assets/Pasted%20image%2020241024120634.png)
-
 <!--ID: 1731143142210-->
 END
 
@@ -98,7 +96,6 @@ APR-KNAP (aproximativní algoritmus pro probém batohu)
 
 ![](../../Assets/Pasted%20image%2020241024121708.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1731143142218-->
 END
 
@@ -171,7 +168,6 @@ Problém je, že na hraně AB to najde AB, i když optimum je A
 
 
 <!-- ExampleEnd -->
-
 <!--ID: 1731143142226-->
 END
 
@@ -219,7 +215,6 @@ Back:
 Tzn. nejsme u $R$ v nekonečnu ani u v jedničce $\varepsilon$
 ![](../../Assets/Pasted%20image%2020241024123121.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1731143142234-->
 END
 
@@ -240,7 +235,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241024125944.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1731143142236-->
 END
 
@@ -264,7 +258,7 @@ END
 START
 FIT-Card
 
-Definice: FPTAS
+Definice: **FPTAS**
 
 Back:
 
@@ -283,7 +277,7 @@ END
 START
 FIT-Card
 
-Definice: Problém patří do třídy FPTAS
+Definice: Problém patří do třídy **FPTAS**
 
 Back:
 
@@ -313,7 +307,6 @@ Back:
 Začíná to vlevo nahoře, pak podle šipek.
 
 <!-- ExplanationEnd -->
-
 <!--ID: 1731143142246-->
 END
 
@@ -323,7 +316,7 @@ END
 START
 FIT-Card
 
-Jakou vlastnost má APX redukce?
+Jakou vlastnost má **APX redukce**?
 
 Back:
 
@@ -337,7 +330,7 @@ END
 START
 FIT-Card
 
-Jak se značí APX redukce?
+Jak se značí **APX redukce**?
 
 Back:
 
@@ -351,7 +344,7 @@ END
 START
 FIT-Card
 
-Co platí pro APX redukci?
+Co platí pro **APX redukci**?
 
 ![](../../Assets/Pasted%20image%2020241024131513.png)
 
@@ -367,7 +360,7 @@ END
 START
 FIT-Card
 
-Co platí pro APX redukci?
+Co platí pro **APX redukci**?
 ![](../../Assets/Pasted%20image%2020241024131536.png)
 
 Back:
@@ -439,7 +432,6 @@ Back:
 Pozn. tohle nevím, jestli je APX-úplný nebo APX-těžký.. Na přednášce o tom začal mluvit a pak odběhnul od tématu.
 ![](../../Assets/Pasted%20image%2020241024132210.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1731143142268-->
 END
 
@@ -458,7 +450,6 @@ APX redukce je Turingova redukce v polynomiálním čase
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241024132011.png)
 <!-- ImageEnd -->
-
 <!--ID: 1731143142270-->
 END
 

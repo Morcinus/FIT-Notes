@@ -19,7 +19,7 @@ Jaký je rozdíl mezi URI a URL?
 Back:
 
 URI 
-
+<!--ID: 1731175818737-->
 END
 
 ---
@@ -38,7 +38,7 @@ To, že server může poslat response klientovi, aniž by klient poslal request.
 Mometálně se to moc nepoužívá kvůli výkonu
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1731175818739-->
 END
 
 ---
@@ -58,7 +58,7 @@ K tomu propojení slouží **hypertext**, díky kterému jsem schopný udržovat
 
 V HTTP 2 můžu např. udržovat stav pomocí cookies.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1731175818742-->
 END
 
 ---
@@ -82,7 +82,7 @@ Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku)
 ![](../../Assets/Pasted%20image%2020241104094028.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1731175818744-->
 END
 
 ---
@@ -106,7 +106,7 @@ http-version response-code [ message ] <crlf>
 Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku)
 ![](../../Assets/Pasted%20image%2020241104094028.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1731175818747-->
 END
 
 ---
@@ -120,7 +120,7 @@ Jakou novinku přináší HTTP 2?
 Back:
 
 Data se nyní přenáší v **binární podobě**. Díky tomu to je efektivnější.
-
+<!--ID: 1731175818749-->
 END
 
 ---
@@ -143,7 +143,7 @@ Pro úvodní načtení průměrně 90 requestů.
 - Other - 5 requestů
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1731175818752-->
 END
 
 ---
@@ -171,7 +171,7 @@ Na serveru si pak vytvořím virtual host, aby mi to pro ty poddomény zpracová
 ![](../../Assets/Pasted%20image%2020241104101248.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1731175818754-->
 END
 
 ---
@@ -185,7 +185,7 @@ Jaká hlavička porušuje stateless protokol?
 Back:
 
 `Authorization` hlavička, ve které klient posílá tokeny pro autorizaci.
-
+<!--ID: 1731175818757-->
 END
 
 ---
@@ -200,7 +200,7 @@ Back:
 
 - **Cookies** (+ session tabulky na serveru)
 - **Hypertext**
-
+<!--ID: 1731175818759-->
 END
 
 ---
@@ -229,7 +229,7 @@ Ta tabulka je uložena v paměti (RAMce). Když vypadne server, tak se zruší v
 ![](../../Assets/Pasted%20image%2020241104102716.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1731175818762-->
 END
 
 ---
@@ -245,7 +245,7 @@ Back:
 Ukládá se do RAM paměti.
 
 Když vypadne server, zruší se tím všechny session.
-
+<!--ID: 1731175818765-->
 END
 
 ---
@@ -259,7 +259,7 @@ Jak se dá předejít tomu, aby se nesmazala session tabulka, když vypadne serv
 Back:
 
 Můžu si sessions ukládat do databáze (perzistentního uložiště).
-
+<!--ID: 1731175818767-->
 END
 
 ---
@@ -273,7 +273,7 @@ Co je **stateful server**?
 Back:
 
 Server, který si uchovává stav například pomocí cookies a session tabulky (uložené v RAM nebo v databázi).
-
+<!--ID: 1731175818770-->
 END
 
 ---
@@ -287,7 +287,7 @@ Používá se v praxi HATEOAS?
 Back:
 
 Je to fajn koncept, ale reálně se to moc nepoužívá, protože je prostě jednodušší si držet stav na serveru (pomocí sessions). 
-
+<!--ID: 1731175818772-->
 END
 
 ---
@@ -304,7 +304,7 @@ Back:
 
 - **Message-level security**
 - **Transport-level security**
-
+<!--ID: 1731175818775-->
 END
 
 ---
@@ -318,7 +318,7 @@ Co je "Authz"?
 Back:
 
 To že řešíme i **autentizaci** (že to jsem já) i **autorizaci** (že mám právo něco dělat)
-
+<!--ID: 1731175818777-->
 END
 
 ---
@@ -333,7 +333,7 @@ Back:
 
 - **Jméno heslo**
 - **Certifikát**
-
+<!--ID: 1731175818780-->
 END
 
 ---
@@ -347,7 +347,7 @@ Jakými způsoby se řeší **autorizace**?
 Back:
 
 Např. role
-
+<!--ID: 1731175818782-->
 END
 
 ---
@@ -369,7 +369,7 @@ Back:
 <!-- DetailInfoStart -->
 Da non-repudation je zajímavá v tom, že si hodně systémů prostě drží "stopy" a data o tom, co uživatelé dělají -> je těžký být anonymní na internetu, protože se všechno možný loguje.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1731175818785-->
 END
 
 ---
@@ -400,7 +400,7 @@ Jméno a heslo se zakódují base64 (nikoliv zašifrují)! Tedy kdokoliv kdo by 
 
 ![](../../Assets/Pasted%20image%2020241104104219.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1731175818787-->
 END
 
 ---
@@ -418,7 +418,7 @@ Mezi klientem a serverem se **neposílá heslo**, ale jeho **hash**. **Ani serve
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241104104358.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1731175818790-->
 END
 
 ---

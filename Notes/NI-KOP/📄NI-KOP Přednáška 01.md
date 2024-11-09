@@ -30,11 +30,11 @@ END
 START
 Basic
 
-Co je **kombinatorický problém**?
+Co je **kombinatorický problém**? (svými slovy)
 
 Back:
 
-Problém co můžu vyřešit **zkoušením těch možností**.
+Problém co můžu vyřešit **zkoušením různých možností**.
 <!--ID: 1728921215170-->
 END
 
@@ -43,7 +43,7 @@ END
 START
 Basic
 
-Co je **heuristika**?
+Co je **heuristika**? (svými slovy)
 
 Back:
 
@@ -86,9 +86,9 @@ Back:
 
 - **vstupní proměnné**
 - **výstupní proměnné**
-- **konfigurační proměnné**
-- **omezení**
-- **optimalizační kritérium**, pokud je třeba
+- **konfigurační proměnné** - parametry co ovlivňují strategii hledání řešení (např. maximální počet iterací v algoritmu - po 100 se to vypne)
+- **omezení** - definuje co musí být splněno, aby řešení bylo považováno za správné (např. že nesmí přetéct batoh)
+- (optional) **optimalizační kritérium** - definuje, které řešení je nejlepší. Typicky chceme něco minimalizovat nebo maximalizovat (např. maximalizace ceny věcí v batohu)
 
 Např. u desky:
 ![[Pasted image 20240923184136.png]]
@@ -108,6 +108,16 @@ Back:
 - **ohodnocení vstupních proměnných**
 
 ![[Pasted image 20240923184125.png]]
+
+<!-- ExampleStart -->
+Například u **problému batohu**:
+- **proměnná**: "seznam věcí v batohu"
+- **ohodnocení proměnných**: seznam věcí s konkretními cenami a váhami
+
+Je to jako kdybych definoval funkci v programování:
+- **proměnná** - to co je v parametru funkce
+- **ohodnocení vstupní proměnné** - argument - to co konkrétně dávám do té funkce
+<!-- ExampleEnd -->
 <!--ID: 1728921215182-->
 END
 
@@ -121,6 +131,15 @@ Definice: **Konfigurační proměnné** (jaké mají 3 vlastnosti)
 Back:
 
 ![[Pasted image 20240923184452.png]]
+
+<!-- ExampleStart -->
+**Konfiguraní proměnná** - např. maximální počet iterací v algoritmu - potom se algoritmus zastaví
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+Žádoucí vlastnosti konfiguračních proměnných:
+![[Pasted image 20240923185826.png]]
+<!-- DetailInfoEnd -->
 <!--ID: 1728921215185-->
 END
 
@@ -135,6 +154,14 @@ Definice: **Konfigurace**
 Back:
 
 ![[Pasted image 20240923184508.png]]
+
+<!-- ExplanationStart -->
+**Konfigurace** je například množina věcí, kterou vložíme do batohu.
+
+Každá konfigurace je **možné řešení** (to se uvidí, když se to ověří **omezením**)
+
+Když spouštím ten algoritmus, tak to prochází jednotlivýma konfiguracema (kombinacema).
+<!-- ExplanationEnd -->
 <!--ID: 1728921215188-->
 END
 
@@ -157,7 +184,7 @@ END
 START
 Basic
 
-Musí mít problém vždy omezující kritéria?
+Musí mít problém vždy **omezující kritéria**?
 
 Back:
 
@@ -174,31 +201,23 @@ END
 START
 Basic
 
-Co říká **problém batohu**? (obecně)
-
-Back:
-
-Jsem zloděj, vejdu do baráku a mám batoh, co mám omezenou kapacitu. Každá věc v baráku má cenu a váhu. Snažím se vybrat věci za největší cenu.
-<!--ID: 1728921215196-->
-END
-
----
-
-
-START
-Basic
-
-Co je **problém batohu**? (obecně)
+Co je **problém batohu**?
 
 Back:
 
 ![[Pasted image 20241001163035.png]]
 
+<!-- InformallySaidStart -->
+Jsem zloděj, vejdu do baráku a mám batoh, co mám omezenou kapacitu. Každá věc v baráku má cenu a váhu. Snažím se vybrat věci za největší cenu.
+<!-- InformallySaidEnd -->
+
+<!-- DetailInfoStart -->
 ![[Pasted image 20240923185901.png]]
 ![[Pasted image 20240923184550.png]]
 ![[Pasted image 20240923184558.png]]
 ![[Pasted image 20240923185102.png]]
 ![[Pasted image 20240923185111.png]]
+<!-- DetailInfoEnd -->
 <!--ID: 1728921215200-->
 END
 
@@ -207,7 +226,7 @@ END
 START
 Basic
 
-Jakou složitost má konstrukční problém batohu?
+Jakou **složitost** má **konstrukční problém batohu**?
 
 Back:
 
@@ -223,11 +242,28 @@ END
 START
 Basic
 
-Co je **problém obdélníkového pokrytí**?
+Co je **problém obdélníkového pokrytí**? (rectangle tiling problem)
 
 Back:
 
-![[Pasted image 20240923185344.png]]
+**Vstupní proměnné**:
+- Máme $n \times n$ matici, kde je na každé pozici kladné číslo.
+- Máme $p$ - počet obdélníků
+
+**Omezení**:
+- zakreslit do matice obdélníky, které se nepřekrývají
+
+**Optimalizační kritérium**
+- Váha obdélníku je součet čísel v obdélníku
+- **Optimální řešení** je takové, kde **největší váha z obdélníků** je co **nejmenší**
+
+<!-- DetailInfoStart -->
+![[Pasted image 20241001165737.png]]
+![[Pasted image 20241001170140.png]]
+
+<!-- DetailInfoEnd -->
+
+
 <!--ID: 1728921215207-->
 END
 
@@ -279,64 +315,24 @@ END
 START
 Basic
 
-Jaké jsou **žádoucí vlastnosti konfiguračních proměnných**? (4)
-
-Back:
-
-![[Pasted image 20240923185826.png]]
-<!--ID: 1728921215221-->
-END
-
----
-
-
-START
-Basic
-
-Jaké jsou **verze problému batohu**? (5)
-
-Back:
-
-![[Pasted image 20240923190016.png]]
-![[Pasted image 20240923190421.png]]
-<!--ID: 1728921215224-->
-END
-
----
-
-
-START
-Basic
-
-Co je **Rozhodovací problém**, konstruktivní problém, enumerační problém, početní problém?
+Co je **rozhodovací problém**, **konstruktivní problém**, **enumerační problém**, **početní problém**?
 
 Back:
 
 ![[Pasted image 20240923190452.png]]
+
+<!-- DetailInfoStart -->
+![[Pasted image 20240923190537.png]]
+<!-- DetailInfoEnd -->
 <!--ID: 1728921215227-->
 END
 
 ---
 
-
 START
 Basic
 
-Co musí umět konfigurační proměnné popsat?
-
-Back:
-
-![[Pasted image 20240923190537.png]]
-<!--ID: 1728921215230-->
-END
-
----
-
-
-START
-Basic
-
-Co je optmalizační konstruktivní problém?
+Co je **optmalizační konstruktivní problém**?
 
 Back:
 
@@ -350,11 +346,18 @@ END
 START
 Basic
 
-Co je optimalizační evaluační problém?
+Co je **optimalizační evaluační problém**?
 
 Back:
 
 ![[Pasted image 20240923190631.png]]
+
+<!-- ExampleStart -->
+Např. snažíme se najít **délku** nejkratší cesty v grafu.
+
+$C(Y)$ - délka cesty
+$R(I,Y)$ - omezení na to, co považuju za cestu od toho jednoho uzlu k druhému
+<!-- ExampleEnd -->
 <!--ID: 1728921215235-->
 END
 
@@ -364,7 +367,7 @@ END
 START
 Basic
 
-Co je optimalizační rozhodovací problém?
+Co je **optimalizační rozhodovací problém**?
 
 Back:
 
@@ -378,7 +381,7 @@ END
 START
 Basic
 
-Co je optimalizační početní problém?
+Co je **optimalizační početní problém**?
 
 Back:
 
@@ -392,7 +395,7 @@ END
 START
 Basic
 
-Co je optimalizační enumerační problém?
+Co je **optimalizační enumerační problém**?
 
 Back:
 
@@ -406,7 +409,7 @@ END
 START
 Basic
 
-Jak souvisí rozhodovací problémy a jazyky?
+Jak souvisí **rozhodovací problémy a jazyky**?
 
 Back:
 
@@ -439,12 +442,17 @@ END
 START
 Basic
 
-Co je problém Booleovy formule (k-SAT)?
+Co je problém Booleovy formule ($k$-SAT)?
 
 Back:
 
-![[Pasted image 20240923190907.png]]
-![[Pasted image 20240923191126.png]]
+SAT, kde je formule v konjunktivní normální formě a každá klauzule má **právě $k$ literálů**
+
+Např. 2-SAT, 3-SAT atd.
+
+<!-- ExampleStart -->
+**2-SAT** bude řešit například tohle: $(x_1 \lor \neg x_2) \land (\neg x_1 \lor x_2)$
+<!-- ExampleEnd -->
 <!--ID: 1728921215253-->
 END
 
@@ -472,7 +480,7 @@ Co je na výstupu, pokud řeším **konstruktivní problém**?
 
 Back:
 
-**Vykonstruované řešení**
+**Vykonstruované řešení** (konkrétní **konfigurace**)
 <!--ID: 1728921215258-->
 END
 
@@ -482,15 +490,19 @@ END
 START
 Basic
 
-Co znamenají jednotlivé verze ohodnocení SAT?
-- Rozhodovací verze
-- Konstruktivní verze
-- Enumerační verze
-- Početní verze
+Vysvětli, co dělají jednotlivé verze SATu:
+- **Rozhodovací verze**
+- **Konstruktivní verze**
+- **Enumerační verze**
+- **Početní verze**
 
 Back:
 
 ![[Pasted image 20240923191404.png]]
+
+<!-- DetailInfoStart -->
+![[Pasted image 20240923191522.png]]
+<!-- DetailInfoEnd -->
 <!--ID: 1728921215262-->
 END
 
@@ -500,26 +512,19 @@ END
 START
 Basic
 
-Jaké jsou 3 optimalizační verze SAT a co znamenají?
+Vysvětli, co dělají jednotlivé optimalizační verze SATu:
+- **optimalizační rozhodovací verze**
+- **optimalizační konstruktivní verze**
+- **optimalizační enumerační verze**
 
 Back:
 
 ![[Pasted image 20240923191453.png]]
-<!--ID: 1728921215265-->
-END
 
----
-
-
-START
-Basic
-
-Jaké jsou verze SATu?
-
-Back:
-
+<!-- DetailInfoStart -->
 ![[Pasted image 20240923191522.png]]
-<!--ID: 1728921215267-->
+<!-- DetailInfoEnd -->
+<!--ID: 1728921215265-->
 END
 
 ---
@@ -532,6 +537,9 @@ Co je **max-weighted sat a max sat?**
 
 Back:
 
+- **Max weighted SAT** - snaží se maximalizovat počet splněných klauzulí, nezajímá ho splnění celé formule
+- **Max SAT** - maximalizuje počet jedniček v řešení při splnění celé formule
+
 ![[Pasted image 20240923191647.png]]
 ![[Pasted image 20240923191704.png]]
 <!--ID: 1728921215270-->
@@ -543,26 +551,7 @@ END
 START
 Basic
 
-Existují problémy, které nevypadají jako kombinatorické?
-
-Back:
-
-**Ano**
-
-![[Pasted image 20240923191845.png]]
-![[Pasted image 20240923191907.png]]
-![[Pasted image 20240923191915.png]]
-![[Pasted image 20240923191927.png]]
-<!--ID: 1728921215273-->
-END
-
----
-
-
-START
-Basic
-
-Co je off-line a on-line optimalizace?
+Co je **off-line** a **on-line** optimalizace?
 
 Back:
 
@@ -579,6 +568,11 @@ Basic
 Co je **multikriteriální optimalizace** a **multimodální optimalizace**?
 
 Back:
+
+- **multikriteriální optimalizace** - mám více kritérií a chci vybírat různé možnosti
+	- Např. spotřeba paliva v autobuse vs spokojení zákazníci
+- **multimodální optimalizace** - hledám různá suboptimální řešení
+	- Např. různé trasy pro plánování MHD řidičů, aby nebyli v práci znuděný (i když by bylo efektivnější, kdyby každý řidič jezdil furt tu samou trasu)
 
 ![[Pasted image 20240923192147.png]]
 <!--ID: 1728921215279-->

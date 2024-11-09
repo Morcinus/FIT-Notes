@@ -65,7 +65,6 @@ END
 
 ### Stavový prostor
 
-
 START
 FIT-Card
 
@@ -250,9 +249,11 @@ Co je **dostupný** graf?
 
 Back:
 
-Z každého stavu se dá dostat do každého stavu
+Mezi **každými dvěma** uzly musí **existovat cesta**.
 
-![](../../Assets/Pasted%20image%2020241107110135.png)
+<!-- InformallySaidStart -->
+Z každého stavu se dá dostat do každého stavu
+<!-- InformallySaidEnd -->
 <!--ID: 1730978213092-->
 END
 
@@ -262,11 +263,11 @@ END
 START
 FIT-Card
 
-Co je **syetrický** graf?
+Co je **symetrický** graf?
 
 Back:
 
-Z každého stavu se do každého dostanu po stejně dlouhé cestě
+Z **každého stavu** se do **každého stavu** dostanu po **stejně dlouhé cestě**.
 
 ![](../../Assets/Pasted%20image%2020241107110149.png)
 <!--ID: 1730978213096-->
@@ -334,11 +335,11 @@ END
 START
 FIT-Card
 
-Jaký je vztah stavového prostoru a prostoru prohledávání?
+Jaký je vztah **stavového prostoru** a **prostoru prohledávání**?
 
 Back:
 
-Každému bodu prostoru prohledávání odpovíd oblast stavového prostoru.
+Každému bodu prostoru prohledávání odpovídá oblast stavového prostoru.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241107112141.png)
@@ -468,7 +469,10 @@ Co je **lokální heuristika** v **systematické strategii**?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020241107113835.png)
+Lokální heuristika je funkce `try(state)`, která pomáhá najít nejlepšího kandidáta (stav) pro porovnání s best stavem v další iteraci.
+
+Takto vypadá algoritmus využívající lokální heuristiku:
+![](../../Assets/Pasted%20image%2020241109155157.png)
 <!--ID: 1730978213130-->
 END
 
@@ -482,11 +486,30 @@ Jak funguje **best only** lokální heurisitika u **systematické strategie**?
 
 Back:
 
+Jak funguje:
+- Vybere **nejlepšího souseda daného stavu**.
+- Pokud **žádný soused** není lepší než daný stav, **vrátí $\emptyset$**
+
 ![](../../Assets/Pasted%20image%2020241107113911.png)
 ![](../../Assets/Pasted%20image%2020241107113923.png)
 
 Je to "nejmíň odfláknutá lokální heuristika".
 <!--ID: 1730978213133-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Záleží u **first improvement** a **best only** lokální heuristiky na pořadí procházení sousedů? Ovlivní to výsledek
+
+Back:
+
+- U **best only** na tom nezáleží, neovlivní to výsledek (pokud nejlepších stavů není více!)
+- U **first improvement** na tom záleží, ovlivní to výsledek (-> je to víc randomizovaný)
+<!--ID: 1731175818734-->
 END
 
 ---
@@ -611,7 +634,7 @@ Jak funguje **prořezávání** v **prohledávacím prostoru**?
 
 Back:
 
-Prořezávání znamená, že **odstraním podstromy** v prohledávacím prostoru, které nemá smysl procházet.
+Prořezávání znamená, že **odstraním podprostory** v prohledávacím prostoru, které nemá smysl procházet.
 
 <!-- ExampleStart -->
 Problém batohu:
@@ -649,13 +672,17 @@ END
 START
 FIT-Card
 
-Jak funguje prohledávání v prohledávacím prostoru problému zlomkového batohu? 
+Jak funguje **prohledávání** v prohledávacím prostoru **problému zlomkového batohu**?
 
 Back:
 
-Pro každého souseda spočítám cenu celkového řešení zlomkového batohu. To použiju jako horní mez.
-- Tzn. z tohoto souseda můžu dostat nejvýše takovou cenu.
-- Díky tomu rychle zjistím, jestli má cenu uvažovat daného souseda nebo ne.
+_Pozn. tímhle si nejsem úplně jistý, jestli jsem ten algoritmus správně pochopil/popsal (ale dávalo by mi to takhle největší smysl) -Morčín_
+
+1. Pro každého souseda: 
+	1. Naplním batoh co nejvíce tím sousedem (tou věcí)
+	2. Spočtu cenu toho batohu
+2. Ze všech sousedů vyberu toho co naplnil batoh největší cenou
+3. Jako novou velikost batohu označím velikost zbývajícího prostoru v batohu
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241107121014.png)
@@ -671,7 +698,7 @@ END
 START
 FIT-Card
 
-Jak funguje obecně prořezávání stavového prostoru?
+Jak funguje obecně **prořezávání stavového prostoru**?
 
 Back:
 
