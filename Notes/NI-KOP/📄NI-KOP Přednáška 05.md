@@ -7,7 +7,6 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: NI-KOP
 FILE TAGS: NI-KOP prednaska05 status-toReview
 
-
 START
 FIT-Card
 
@@ -22,7 +21,7 @@ Problém batohu s dekompozicí podle váhy
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1731143142207-->
 END
 
 ---
@@ -41,7 +40,7 @@ V té matici, pokud se podívám na nějaké místo a už tam číslo je, tak ta
 
 ![](../../Assets/Pasted%20image%2020241024120634.png)
 
-
+<!--ID: 1731143142210-->
 END
 
 ---
@@ -62,7 +61,7 @@ V té matici, pokud se podívám na nějaké místo a už tam číslo je, tak ta
 ![](../../Assets/Pasted%20image%2020241024121208.png)
 
 Té sumy v prvním bodě se zbavím tak, že prostě řeknu, že budu nkrát brát tu největší hodnotu.
-
+<!--ID: 1731143142213-->
 END
 
 ---
@@ -77,7 +76,7 @@ Definice: **pseudopolynomiální algoritmus**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024121331.png)
-
+<!--ID: 1731143142215-->
 END
 
 ---
@@ -100,7 +99,7 @@ APR-KNAP (aproximativní algoritmus pro probém batohu)
 ![](../../Assets/Pasted%20image%2020241024121708.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1731143142218-->
 END
 
 ---
@@ -120,7 +119,7 @@ APR = aproximativní algoritmus
 $\forall \ I$ znamená pro všechny instance, které mohou existovat
 ![](../../Assets/Pasted%20image%2020241024121911.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1731143142221-->
 END
 
 ---
@@ -140,7 +139,7 @@ APR = aproximativní algoritmus
 $\forall \ I$ znamená pro všechny instance, které mohou existovat
 ![](../../Assets/Pasted%20image%2020241024121911.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1731143142223-->
 END
 
 ---
@@ -173,7 +172,7 @@ Problém je, že na hraně AB to najde AB, i když optimum je A
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1731143142226-->
 END
 
 ---
@@ -187,7 +186,7 @@ Definice: APR je $R$-aproximativní
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024122522.png)
-
+<!--ID: 1731143142229-->
 END
 
 ---
@@ -201,7 +200,7 @@ Definice: Optimalizační problém je $R$-aproximativní
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024122904.png)
-
+<!--ID: 1731143142231-->
 END
 
 ---
@@ -221,7 +220,7 @@ Tzn. nejsme u $R$ v nekonečnu ani u v jedničce $\varepsilon$
 ![](../../Assets/Pasted%20image%2020241024123121.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1731143142234-->
 END
 
 ---
@@ -242,7 +241,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241024125944.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1731143142236-->
 END
 
 ---
@@ -256,7 +255,7 @@ Definice: Problém patří do třídy PTAS
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024125909.png)
-
+<!--ID: 1731143142239-->
 END
 
 ---
@@ -275,7 +274,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241024130315.png)
 ![](../../Assets/Pasted%20image%2020241024130615.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1731143142241-->
 END
 
 ---
@@ -293,7 +292,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241024130233.png)
 <!-- ImageEnd -->
-
+<!--ID: 1731143142244-->
 END
 
 ---
@@ -315,7 +314,7 @@ Začíná to vlevo nahoře, pak podle šipek.
 
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1731143142246-->
 END
 
 ---
@@ -329,7 +328,7 @@ Jakou vlastnost má APX redukce?
 Back:
 
 Zachovává relativní kvalitu až na nějaký koeficient.
-
+<!--ID: 1731143142249-->
 END
 
 ---
@@ -343,7 +342,7 @@ Jak se značí APX redukce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024131445.png)
-
+<!--ID: 1731143142251-->
 END
 
 ---
@@ -359,7 +358,7 @@ Co platí pro APX redukci?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024131524.png)
-
+<!--ID: 1731143142254-->
 END
 
 ---
@@ -374,7 +373,7 @@ Co platí pro APX redukci?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024131541.png)
-
+<!--ID: 1731143142257-->
 END
 
 ---
@@ -388,7 +387,7 @@ Definice: Problém je $\Pi$ je **NPO-těžký**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024131752.png)
-
+<!--ID: 1731143142260-->
 END
 
 ---
@@ -405,7 +404,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241024132024.png)
 <!-- ImageEnd -->
-
+<!--ID: 1731143142263-->
 END
 
 ---
@@ -418,7 +417,7 @@ Definice: Problém je $\Pi$ je **APX-těžký**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241024131807.png)
-
+<!--ID: 1731143142265-->
 END
 
 ---
@@ -441,7 +440,7 @@ Pozn. tohle nevím, jestli je APX-úplný nebo APX-těžký.. Na přednášce o 
 ![](../../Assets/Pasted%20image%2020241024132210.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1731143142268-->
 END
 
 ---
@@ -460,7 +459,7 @@ APX redukce je Turingova redukce v polynomiálním čase
 ![](../../Assets/Pasted%20image%2020241024132011.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1731143142270-->
 END
 
 ---
@@ -476,7 +475,7 @@ Do jaké třídy patří problém **min. uzlové pokrytí**?
 Back:
 
 APX-úplný
-
+<!--ID: 1731143142273-->
 END
 
 ---
@@ -489,7 +488,7 @@ Do jaké třídy patří problém **min. (unátní) pokrytí množiny S**?
 Back:
 
 Není v APX
-
+<!--ID: 1731143142275-->
 END
 
 ---
@@ -503,7 +502,7 @@ Do jaké třídy patří problém **MAX SAT**?
 Back:
 
 APX-úplný
-
+<!--ID: 1731143142278-->
 END
 
 ---
@@ -515,7 +514,7 @@ Do jaké třídy patří problém **MAX WEIGHTED SAT**?
 Back:
 
 NPO-úplný
-
+<!--ID: 1731143142281-->
 END
 
 ---
@@ -528,7 +527,7 @@ Do jaké třídy patří problém **BATOH**?
 Back:
 
 FPTAS
-
+<!--ID: 1731143142284-->
 END
 
 ---
@@ -541,7 +540,7 @@ Do jaké třídy patří problém **TSO**? (obchodní cestující)
 Back:
 
 NPO-úplný
-
+<!--ID: 1731143142286-->
 END
 
 ---
@@ -553,7 +552,7 @@ Do jaké třídy patří problém **$\Delta$ TSO**? (metrický TSO)
 Back:
 
 APX-úplný
-
+<!--ID: 1731143142289-->
 END
 
 ---
@@ -566,7 +565,7 @@ Do jaké třídy patří problém **Geometrický TSO** s **celočíselnými** so
 Back:
 
 PTAS
-
+<!--ID: 1731143142292-->
 END
 
 ---
@@ -579,7 +578,7 @@ Do jaké třídy patří problém **Geometrický TSO** s **racionálními** sou�
 Back:
 
 APX-úplný
-
+<!--ID: 1731143142294-->
 END
 
 ---

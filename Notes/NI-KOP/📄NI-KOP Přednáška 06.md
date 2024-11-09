@@ -21,7 +21,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241107103412.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978213040-->
 END
 
@@ -40,7 +39,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241107103447.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978213044-->
 END
 
@@ -225,7 +223,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241107105951.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978213084-->
 END
 
@@ -351,7 +348,6 @@ Každému bodu prostoru prohledávání odpovíd oblast stavového prostoru.
 ![](../../Assets/Pasted%20image%2020241107112150.png)
 ![](../../Assets/Pasted%20image%2020241107112155.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978213106-->
 END
 
@@ -388,7 +384,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241107112714.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978213113-->
 END
 
@@ -421,7 +416,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241107112740.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978213120-->
 END
 
@@ -626,7 +620,6 @@ Když jsem došel do stavu, kdy už mám přeplněný batoh, tak nedává smysl 
 ![](../../Assets/Pasted%20image%2020241107120318.png)
 
 <!-- ExampleEnd -->
-
 <!--ID: 1730978213614-->
 END
 
@@ -667,7 +660,6 @@ Pro každého souseda spočítám cenu celkového řešení zlomkového batohu. 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241107121014.png)
 <!-- ImageEnd -->
-
 <!--ID: 1730978213621-->
 END
 
