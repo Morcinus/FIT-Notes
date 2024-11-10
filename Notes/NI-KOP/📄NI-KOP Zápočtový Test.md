@@ -19,7 +19,7 @@ Back:
 
 - Výstupní proměnné dávají odpověď na zadání daného problému.
 - Liší se když to je rozhodovací problém. Potom je výstupní proměnná **ano/ne**.
-- Liší se když je je enumerační problém. Potom je výstupní proměnná **číslo** (např. kolik existuje řešení)
+- Liší se když je je početní problém. Potom je výstupní proměnná **číslo** (např. kolik existuje řešení).
 <!--ID: 1731175818386-->
 END
 
@@ -66,21 +66,6 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818394-->
-END
-
----
-
-START
-FIT-Card
-
-Platí následující tvrzení (za předpokladu, že platí $NP \neq P$)?
-
-$NHO \cap NPH = \emptyset$
-
-Back:
-
-❌**Neplatí**
-<!--ID: 1731175818397-->
 END
 
 ---
@@ -175,8 +160,10 @@ Jak lze dokázat, že daný problém patří do třídy NP (za předpokladu, že
 
 Back:
 
-1. dokazeme, ze pro kazdou instanci problemu je mozne overit jeji certifikat v polynomialnim case
-2. nalezneme nedeterministicky Turinguv stroj takovy, ktery problem rozhoduje v polynomialnim case
+1. Z definice nalezneme nedeterministický Turingův stroj, který každou instanci $I \in \Pi_{ANO}$ řeší v polynomiálním čase (z definice).
+2. Dokážeme, že pro každou instanci $I \in \Pi_{ANO}$ problému existuje konfigurace $Y$ taková, že kontrola, zda je $Y$ řešením patří do $P$
+
+Obě dvě varianty jsou z definice (každá z jiné)
 <!--ID: 1731175818413-->
 END
 
@@ -195,24 +182,17 @@ c) Dokažte nebo vyvraťte, že tento problém patří do třídy NP.
 
 Back:
 
-a) seznam kontejneru, a pro kazdy kontejner mnozina veci, ktere v nej jsou umisteny
+**Konfigurační proměnné**:
+- Seznam kontejnerů, v každém kontejneru množina věcí, které v něm jsou umístěny.
 
-b)
+**Omezení**:
+- V kontejneru nesmí věci překročit kapacitu
+- Kontejnerů je maximálně K
+- Každá věc je umístěna právě jednou (ne méně, ne více)
 
-- kapacita zadneho kontejneru neni prekrocena
-- kontejneru je maximalne K
-- umisteno je presne n veci (ani vice, ani mene)
-
-c)
-potrebujeme dokazat, ze certifikat reseni overime v polynomialnim case
-certifikat = ohodnoceni konfiguracnich promennych = senzam kontejneru, a pro kazdy kontejner mnozina veci
-pocet kontejneru = O(K)
-prochazeni vsech veci v kontejnerech = O(n)
-kontrola, ze kapacita neni nikde prekrocena = O(K)
-kontrola, ze kontejneru je < K = O(K)
-kontrola, ze je umisteno presne n veci = O(n)
-=> kontrola certifikatu je polynamialni
-=> problem patri do NP
+**Důkaz:**
+- Je NP, pokud správnost každé konfigurace lze ověřit v polynomiálním čase
+- To zde platí, protože projít všechny kontejnery a zkontrolovat omezení je polynomiální složitost
 <!--ID: 1731175818415-->
 END
 
@@ -495,8 +475,10 @@ Jak lze dokázat, že daný problém patří do třídy NPC (za předpokladu, ž
 
 Back:
 
-1. ???
-2. Dokážu, že můj problém je NPH a že lze jeho certifikát ověřit v polynomiálním čase na DTS
+Jsou 3 možnosti:
+- Z definice - dokážu že je NP a že lze všechny NP problémy zredukovat na tento
+- Zvláštní případ - Nějaký NP úplný problém je zvláštním případem toho mýho problému
+- Převodem SATu - Když zvládnu zredukovat SAT na $\Pi$, je $\Pi$ NP-úplný 
 <!--ID: 1731175818467-->
 END
 
@@ -507,7 +489,7 @@ FIT-Card
 
 Je dána rozhodovací verze problému obchodního cestujícího:
 
-_„Lze nalézt uzavřenou túru procházející všemi městy právějednou, délky k?"_
+_„Lze nalézt uzavřenou túru procházející všemi městy právě jednou, délky k?"_
 
 a) Navrhněte konfigurační proměnné pro tento problém.
 b) Jaká jsou omezení (constraints) pro tento problém?
@@ -519,9 +501,7 @@ a) Vektor mést, který určuje pořadí, ve kterém byla navštívena
 
 b) Každé město musí být navštíveno právé jednou
 
-c) Kontrola omezení lze provést v polynomiálním čase, výpočet délky túry lze také vypočítat v polynomiálním
-čase (pro obě operace stačí jednou projít konfig. proměnné) -> lze ověřit certifikát v polynomiálním čase na DTS
--> problémje NP
+c) Kontrolu, že konfigurace splňuje omezení, můžeme provést v polynomiálním čase (stačí proiterovat seznam navštívených měst). Toto ověření je problém třídy P, problém je tedy NP.
 <!--ID: 1731175818470-->
 END
 
@@ -769,40 +749,6 @@ Back:
 - ❌ Je to třida těžších problémů, je NP.
 - ✅ **Patří do ní problémy, které nejsou ani v P, ani v NPC.**
 <!--ID: 1731175818513-->
-END
-
----
-
-START
-FIT-Card
-
-Pro všechny problémy ve třídě NP platí (za předpokladu, že platí $NP \neq P$):
-
-- Jsou tešitelné v polynomiálnim čase nedeterministickým Turingovým strojem.
-- Nejsou řešitelné v polynomiálním čase deterministickým Turingovým strojem.
-- Jejich certifikát se dá zkontrolovat v polynomiálním čase deterministickým Turingovým strojem.
-
-Back:
-
-- ✅**Jsou tešitelné v polynomiálnim čase nedeterministickým Turingovým strojem.**
-- ❌Nejsou řešitelné v polynomiálním čase deterministickým Turingovým strojem.
-- ✅**Jejich certifikát se dá zkontrolovat v polynomiálním čase deterministickým Turingovým strojem.**
-<!--ID: 1731175818515-->
-END
-
----
-
-START
-FIT-Card
-
-Jak lze dokázat, že daný problém patří do třídy NPC (za předpokladu, že platí NP P)? Napište alespoň 2 principiálně odlišné možnosti.
-
-Back:
-
-Dokážeme, že je v NP (každá ANO-instance problému má polynomiálně ověřitelný certifikát) a že je v NP-Hard (všechny problémy z NP jsou na něj Karp-redukovatelné).
-
-Dokážeme, že náš problém je Karp ekvivalentní s nějakým NPC problémem
-<!--ID: 1731175818518-->
 END
 
 ---
@@ -1058,20 +1004,6 @@ Back:
 - ✅ **Je to třída pouze rozhodovacích problémů.**
 - ✅ **Certifikát všech problémů z této třídy lze ověřit v polynomiálním čase**
 <!--ID: 1731175818563-->
-END
-
----
-
-START
-FIT-Card
-
-Jak lze dokázat, že daný problém patří do třídy NPC (za předpokladu, že platí NP P)? Napište alespoň principiálně odlišné možnosti.
-
-Back:
-
-???
-
-<!--ID: 1731175818566-->
 END
 
 ---
@@ -1797,25 +1729,6 @@ Back:
 
 - ✅ **Jsou podmnožinou NPO problémů**
 <!--ID: 1731175818663-->
-END
-
----
-
-START
-FIT-Card
-
-Pro všechny problémy ve třídě NP platí:
-
-- Jsou řešitelné v polynomiálním čase nedeterministickým Turingovým strojem.
-- Nejsou řešitelné v polynomiálním čase deterministickým Turingovým strojem.
-- Jejich certifikát se dá zkontrolovat v polynomiálním čase deterministickým Turingovým strojem.
-
-Back:
-
-- ✅ **Jsou řešitelné v polynomiálním čase nedeterministickým Turingovým strojem**
-- ❌ Nejsou řešitelné v polynomiálním čase deterministickým Turingovým strojem
-- ✅ **Jejich certifikát se dá zkontrolovat v polynomiálním čase deterministickým Turingovým strojem**
-<!--ID: 1731175818666-->
 END
 
 ---

@@ -78,8 +78,6 @@ Back:
 
 Otázky jsou typicky **závislost něčeho na něčem**
 - Např. výpočetní čas na velikosti instance
-
-Text nahoře
 <!--ID: 1728222348180-->
 END
 

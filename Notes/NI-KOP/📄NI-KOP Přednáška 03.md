@@ -100,7 +100,7 @@ END
 START
 FIT-Card
 
-Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$ 
+Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém $\Pi$ 
 
 Back:
 
@@ -114,7 +114,7 @@ END
 START
 FIT-Card
 
-Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$ **v čase $t$**
+Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém $\Pi$ **v čase $t$**
 
 Back:
 
@@ -171,6 +171,10 @@ Definice: Rozhodovací problém **patří do třídy P**, když $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154912.png)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020241110101356.png)
+<!-- ImageEnd -->
 <!--ID: 1728921215072-->
 END
 
@@ -185,6 +189,10 @@ Definice: Rozhodovací problém **patří do třídy PSPACE**, když $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154938.png)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020241110101356.png)
+<!-- ImageEnd -->
 <!--ID: 1728921215075-->
 END
 
@@ -199,6 +207,10 @@ Definice: Rozhodovací problém **patří do třídy EXPTIME**, když $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011154951.png)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020241110101356.png)
+<!-- ImageEnd -->
 <!--ID: 1728921215078-->
 END
 
@@ -213,6 +225,10 @@ Jaký je vztah tříd PSPACE a EXPTIME?
 Back:
 
 $\text{PSPACE} \subset \text{EXPTIME}$ 
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020241110101356.png)
+<!-- ImageEnd -->
 <!--ID: 1728921215081-->
 END
 
@@ -241,7 +257,7 @@ Jak funguje **nedeterministický Turingův stroj**?
 
 Back:
 
-Jako Turingův stroj.
+Jako Turingův stroj, akorát to rozhodování dělá **nedeterministický automat**.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011155407.png)
@@ -275,7 +291,7 @@ END
 START
 FIT-Card
 
-Věta: Pokud nedeterministický Turingův stroj řeší problém $\Pi$ v čase $T(n)$, $\dots$
+Věta: Pokud **nedeterministický Turingův stroj** řeší problém $\Pi$ v čase $T(n)$, $\dots$
 
 Back:
 
@@ -296,6 +312,10 @@ Definice: Rozhodovací problém $\Pi$ **patří do třídy NP**, jesltiže $\dot
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011160026.png)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020241110101356.png)
+<!-- ImageEnd -->
 <!--ID: 1728921215095-->
 END
 
@@ -305,7 +325,7 @@ END
 START
 FIT-Card
 
-Definice: Rozhodovací problém $\Pi$ **patří do třídy NP**, jesltiže $\dots$ (instance problému)
+Definice: Rozhodovací problém $\Pi$ **patří do třídy NP**, jesltiže $\dots$ (certifikát/svědek)
 
 Back:
 
@@ -315,6 +335,25 @@ Back:
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jak lze dokázat, že problém patří do třídy NP? (2)
+
+Back:
+
+1. Z definice nalezneme nedeterministický Turingův stroj, který každou instanci $I \in \Pi_{ANO}$ řeší v polynomiálním čase (z definice).
+2. Dokážeme, že pro každou instanci $I \in \Pi_{ANO}$ problému existuje konfigurace $Y$ taková, že kontrola, zda je $Y$ řešením patří do $P$
+
+Obě dvě varianty jsou z definice (každá z jiné)
+<!--ID: 1731258463498-->
+END
+
+---
+
+
 
 #### Hamiltonova kružnice
 
@@ -365,9 +404,14 @@ Jak se provede polynomiální kontrola certifikátu u problému Hamiltonovy kru�
 
 Back:
 
-![](../../Assets/Pasted%20image%2020241011160725.png)
+Jednoduše proiteruju uzly a hrany a zjistím, jestli tam není žádný uzel dvakrát.
+
+To je problém se složitostí $O(|V|)$, tedy dle věty (viz níže) to je certifikát pro to, že Hamiltonova kružnice patří do NP.
 
 <!-- DetailInfoStart -->
+
+![](../../Assets/Pasted%20image%2020241011160725.png)
+
 Vychází z této definice:
 ![](../../Assets/Pasted%20image%2020241011160112.png)
 <!-- DetailInfoEnd -->
@@ -378,7 +422,6 @@ END
 
 ### Vztah tříd P a NP
 
-
 START
 FIT-Card
 
@@ -386,8 +429,10 @@ Jaký je vztah **nedeterministickýho** a **deterministickýho Turingova stroje*
 
 Back:
 
-- **nedeterministický** - má přechodovou relaci
-- **deterministický** - má přechodovou funkci
+Deterministický je zvláštním případem nedeterministického.
+
+- **deterministický** - má přechodovou **funkci** (vždy max jeden následník)
+- **nedeterministický** - má přechodovou **relaci** (může mít více následníků)
 
 <!-- ExplanationStart -->
 Deterministický stroj je zvláštním případem nedeterministického, kde následníkem každého stavu je nejvýše jeden stav.
@@ -411,10 +456,13 @@ Jaký je vztah problémů třídy P a NP?
 
 Back:
 
-**Každý problém třídy P je zároveň i ve třídě NP**
+$P \subset NP$
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241011161321.png)
+
+![](../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215118-->
 END
@@ -425,7 +473,7 @@ END
 START
 FIT-Card
 
-Jaké další problémy jsou mimo NP?
+Jaké další problémy jsou mimo NP? (v rámci PSPACE)
 
 Back:
 
@@ -468,13 +516,19 @@ END
 START
 FIT-Card
 
-Jak lze zkonstruovat komplementární problém?
+Jak lze zkonstruovat **komplementární problém**?
 
 Back:
 
 Pokud mám problém "Existuje..." $\exists \dots$, přehodím to na $\forall \dots$
 
+$\exists Y, R(I,Y) \Rightarrow \forall Y, \neg R(I,Y)$.
+- vstupní proměnné zůstávají
+- vytvoříme doplněk omezení (dle predikátové logiky)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011161940.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1728921215127-->
 END
 
@@ -482,15 +536,21 @@ END
 
 ### Svědkové
 
-
 START
 FIT-Card
 
-Co jsou **svědkové** u **NP problémů**?
+Jaké svědky mají **NP problémy**?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020241011162138.png)
+Na otázku "Existuje konfigurace, která ..."
+- Odpověď **ANO** - **krátký** svědek (**$\exists$-svědek**)
+- Odpověď **NE** - **dlouhý** svědek
+
+<!-- ExplanationStart -->
+- Odpověď **ANO** - stačí mi najít tu konfiguraci (řeší se krátce)
+- Odpověď **NE** - musím projít všechny konfigurace (řeší se dlouze)
+<!-- ExplanationEnd -->
 <!--ID: 1728921215129-->
 END
 
@@ -500,46 +560,19 @@ END
 START
 FIT-Card
 
-Co jsou **svědkové** u **co-NP problémů**?
+Jaké svědky mají **co-NP problémy**?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020241011162159.png)
+Na otázku "Pro všechny konfigurace platí, že ..."
+- Odpověď **ANO** - **dlouhý** svědek **($\forall$-svědek)**
+- Odpověď **NE** - **krátký** svědek
+
+<!-- ExplanationStart -->
+- Odpověď **ANO** - musím projít všechny konfigurace (řeší se dlouze)
+- Odpověď **NE** - stačí mi najít tu konfiguraci, co je protipříkladem (řeší se krátce)
+<!-- ExplanationEnd -->
 <!--ID: 1728921215132-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jaký je rozdíl mezi **krátkým svědkem** a **dlouhým svědkem**?
-
-Back:
-
-- **krátký** = polynomiálně vyhodnotitelný
-- **dlouhý** = množina konfigurací, každou jsem schopný zkontrolovat v polynomiálním čase
-
-<!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020241011162341.png)
-<!-- DetailInfoEnd -->
-<!--ID: 1728921215135-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jaké svědky mají problémy NP a co-NP?
-
-Back:
-
-- **NP** - krátký svědek odpovědi ANO, dlouhý svědek odpovědi NE
-- **co-NP** - krátký svědek odpovědi NE, dlouhý svědek odpovědi ANO
-<!--ID: 1728921215138-->
 END
 
 ---
@@ -549,11 +582,15 @@ END
 START
 FIT-Card
 
-Jaký je vztah třídy **co-NP** a tříd **P** a **NP**?
+Jaký je vztah třídy **co-NP** a tříd **P** a **NP**? (popiš jak se protínají množiny na obrázku)
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011162620.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241110101356.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1728921215141-->
 END
 
@@ -563,7 +600,7 @@ END
 START
 FIT-Card
 
-Jaký problém je zároveň ve **třídě NP** a zároveň v **co-NP**?
+Jaký problém je například zároveň ve **třídě NP** a zároveň v **co-NP**?
 
 Back:
 

@@ -73,7 +73,7 @@ END
 START
 FIT-Card
 
-Jak získám **nejtěžší problém** v nějaké třídě?
+Co je obecně **nejtěžší problém** v nějaké třídě?
 
 Back:
 
@@ -133,6 +133,8 @@ Definice: $\Pi_1$ a $\Pi_2$ jsou **polynomiálně ekvivalentní**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241016100617.png)
+
+Neboli dají se na sebe převést Karpovou redukcí.
 <!--ID: 1729236692338-->
 END
 
@@ -176,7 +178,7 @@ END
 START
 FIT-Card
 
-Definice: Problém je NP-úplný
+Definice: Problém je NP-úplný (je ve třídě NPC)
 
 Back:
 
@@ -232,13 +234,12 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241016105841.png)
 
-<!-- ExplanationStart -->
 Toto je velice silná věta. Znamená to, že můžu libovolný NP problém převést na problém SATu. Proto se furt řeší v tomto předmětu SAT solvery.
-<!-- ExplanationEnd -->
 
-
+<!-- DetailInfoStart -->
 Důsledky:
 ![](../../Assets/Pasted%20image%2020241016105850.png)
+<!-- DetailInfoEnd -->
 
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241016110547.png)
@@ -300,7 +301,7 @@ END
 START
 FIT-Card
 
-Jak lze dokázat, že nějaký problém $\Pi$ je **NP-úplný**? (3)
+Jak lze dokázat, že nějaký problém $\Pi$ je **NP-úplný** (NPC)? (3)
 
 Back:
 
@@ -336,7 +337,7 @@ END
 START
 FIT-Card
 
-Jaké jsou **varianty** SATu?
+Jaké jsou **varianty** SATu? (co se týče $X$-úplnosti a $\exists$ a $\forall$)
 
 Back:
 
@@ -530,7 +531,7 @@ Jaký vztah je **NPH** a **co-NPH** v Karpově redukci?
 
 Back:
 
-Jsou **disjunktní**.
+Jsou **disjunktní**. Tedy nemůžeme převést $\Pi$ z NPH do co-NPH a obráceně.
 
 ![](../../Assets/Pasted%20image%2020241016114520.png)
 <!--ID: 1729236692517-->
