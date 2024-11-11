@@ -542,7 +542,7 @@ END
 START
 FIT-Card
 
-Jaký vztah je **NPH** a **co-NPH** v Turingově redukci?
+Jaký vztah je **NPH** a **co-NPH** v Turingově redukci v polynomiálním čase?
 
 Back:
 
@@ -558,7 +558,7 @@ END
 START
 FIT-Card
 
-Jaký je vztah tříd $P, NP, co-NP, NPH, co-NPH$?
+Jaký je vztah tříd $P, NP, co-NP, NPC, co-NPC, NPH$?
 
 Back:
 

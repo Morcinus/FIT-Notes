@@ -226,7 +226,7 @@ END
 START
 FIT-Card
 
-Definice: PTAS
+Definice: **Polynomiální aproximační schéma** problému
 
 Back:
 
@@ -258,7 +258,7 @@ END
 START
 FIT-Card
 
-Definice: **FPTAS**
+Definice: **plně polynomiální aproximační schéma**
 
 Back:
 
@@ -454,6 +454,22 @@ APX redukce je Turingova redukce v polynomiálním čase
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jak jsou v sobě množinově třídy 
+$PO, NPH, APX, NPO, PTAS, FPTAS, NPO-úplný, APX-úplný$?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241024132011.png)
+<!--ID: 1731329425624-->
+END
+
+---
+
 
 ![](../../Assets/Pasted%20image%2020241024132531.png)
 

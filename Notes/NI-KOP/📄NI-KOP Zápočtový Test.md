@@ -191,7 +191,7 @@ Back:
 - Každá věc je umístěna právě jednou (ne méně, ne více)
 
 **Důkaz:**
-- Je NP, pokud správnost každé konfigurace lze ověřit v polynomiálním čase
+- Je NP, pokud správnost nějaké konfigurace u každé instance lze ověřit v polynomiálním čase
 - To zde platí, protože projít všechny kontejnery a zkontrolovat omezení je polynomiální složitost
 <!--ID: 1731175818415-->
 END
@@ -768,12 +768,14 @@ Back:
 
 **Konfigurační proměnné**: bitové pole vybraných vrcholů
 
-**Omezení**: Všechny vrcholy musí být navzájem sousední (jedná se o úplný podgraf) a počet vybraných vrcholů k (nebo k, pokud bychom chtěli zjistit existenci kliky o velikosti alespoň k).
+Omezení:
+- Podgraf musí být úplný
+- Podgraf musí mít právě V vrcholů
 
-Patří do NP, protože každá ANO-instance má polynomiálně ověřitelný certifikát:
+Důkaz:
+Problém patří do NP, pokud lze v polynomiálním čase ověřit, že každá konfigurace splňuje řešení.
 
-- zkontrolujeme počet vybraných vrcholů ($O(n)$)
-- zkontrolujeme, že jsou navzájem sousední ($O(n^2)$)
+Zde stačí proiterovat 2D pole -> patří do NP.
 <!--ID: 1731175818521-->
 END
 
@@ -996,46 +998,6 @@ END
 START
 FIT-Card
 
-Pro třídu NP platí (za předpokladu, že platí $NP \neq P$):
-
-Back:
-
-- ❌ Je to třída všech nejtěžších kombinatorických problémů.
-- ✅ **Je to třída pouze rozhodovacích problémů.**
-- ✅ **Certifikát všech problémů z této třídy lze ověřit v polynomiálním čase**
-<!--ID: 1731175818563-->
-END
-
----
-
-START
-FIT-Card
-
-Je dána rozhodovací verze problému nalezení maximální kliky:
-
-_"Existuje klika (úplný podgraf) v grafu G(V, E) o velikosti k |V|?”_
-
-a) Navrhněte konfigurační proměnné pro tento problém.
-b) Jaká jsou omezení (constraints) pro tento problém?
-c) Dokažte nebo vyvratte, že tento problém patří do třídy NP.
-
-Back:
-
-a) vektor vrcholů, které patří do kliky
-b) K je menší nebo rovno počtu vrcholů, každý vrchol musí být propojený hranou se všemi ostatními vrcholy.
-c) Zkontrolovat, zda každý vrchol má hranu do všech ostatních vrcholů lze v Pol. čase na DTS. -> patří do NP. Lze převést na SAT.
-
-Komentář:
-Podmnožina uzlů. Uspořádání nehraje roli
-<!--ID: 1731175818568-->
-END
-
----
-
-
-START
-FIT-Card
-
 Pomocí polynomiální Turingovy (Cookovy) redukce je možné:
 
 Převést každou instanci libovolného NPC problému na instanci nějakého P problému v exponenciálním Čase.
@@ -1111,7 +1073,7 @@ FIT-Card
 Zaškrtněte platnost tvrzení (za předpokladu, že platí NP != P):
 
 - P ⊂ NPH
-- co-NP ∩ NP =
+- co-NP ∩ NP = $\emptyset$
 - NPC ⊂ NP
 - NPI ⊂ NPC
 - APX-úplné problémy mohou mít aproximační algoritmus
@@ -1120,7 +1082,7 @@ Zaškrtněte platnost tvrzení (za předpokladu, že platí NP != P):
 Back:
 
 ❌ P ⊂ NPH  
-❌ co-NP ∩ NP =  
+❌ co-NP ∩ NP =  $\emptyset$
 ✅ **NPC ⊂ NP**  
 ❌ NPI ⊂ NPC  
 ✅ **APX-úplné problémy mohou mít aproximační algoritmus**  
@@ -1135,7 +1097,7 @@ FIT-Card
 
 Zaškrtněte platnost tvrzení (za předpokladu, že platí NP != P):
 
-- P ∩ NPC =
+- P ∩ NPC = $\emptyset$
 - co-NP ⊂ EXPTIME
 - NP ⊂ NPH
 - NPC = NP ∩ NPH
@@ -1162,17 +1124,17 @@ Zaškrtněte platnost tvrzení (za předpokladu, že platí NP != P):
 
 - P ⊂ NPH
 - co-NP ⊂ EXPTIME
-- NPI ∩ NPC =
+- NPI ∩ NPC = $\emptyset$
 - NPH ⊂ PSPACE
 - NPC = NP ∩ NPH
 - APX-úplné problémy mohou mít polynomiální aproximační algoritmus
 
 Back:
 
-❌ P ⊂ NPH  
-✅ **co-NP ⊂ EXPTIME**  
-✅ **NPI ∩ NPC =**  
-❌ NPH ⊂ PSPACE  
+❌ P ⊂ NPH
+✅ **co-NP ⊂ EXPTIME**
+✅ **NPI ∩ NPC =**  $\emptyset$
+✅ NPH ⊂ PSPACE
 ✅ **NPC = NP ∩ NPH**  
 ✅ **APX-úplné problémy mohou mít polynomiální aproximační algoritmus**
 <!--ID: 1731175818588-->
@@ -1185,14 +1147,14 @@ FIT-Card
 
 Zaškrtněte správná tvrzení (za předpokladu, že platí NP != P):
 
-- co-NP ⊂ NPCAP
+- co-NP ⊂ NPC
 - NP ⊂ PSPACE
 - NPC ⊂ NPH
 - APX-úplné problémy mohou mít polynomiální aproximační algoritmus
 
 Back:
 
-❌ co-NP ⊂ NPCAP  
+❌ co-NP ⊂ NPC
 ✅ **NP ⊂ PSPACE**  
 ✅ **NPC ⊂ NPH**  
 ✅ **APX-úplné problémy mohou mít polynomiální aproximační algoritmus**
@@ -1227,7 +1189,7 @@ FIT-Card
 
 Zaškrtněte správná tvrzení (za předpokladu, že platí NP != P):
 
-- NPI ∩ NPC =
+- NPI ∩ NPC = $\emptyset$
 - NPC = NP ∩ NPH
 - co-NP ⊂ NPC
 - P ⊂ NP
@@ -1257,7 +1219,7 @@ Zaškrtněte správná tvrzení (za předpokladu, že platí NP != P):
 - NP ∩ NPC = $\emptyset$
 - NPO ⊂ NPH
 - P ⊂ co-NP
-- NP = NPC ∪ NPI+
+- NP = NPC ∪ NPI
 - PTAS ⊂ NPO
 - APX-úplné problémy jsou aproximativní
 
@@ -1266,7 +1228,7 @@ Back:
 ❌ NP ∩ NPC = $\emptyset$  
 ❌ NPO ⊂ NPH  
 ✅ **P ⊂ co-NP**  
-❌ NP = NPC ∪ NPI+  
+❌ NP = NPC ∪ NPI
 ✅ **PTAS ⊂ NPO**  
 ✅ **APX-úplné problémy jsou aproximativní**
 <!--ID: 1731175818600-->
@@ -1332,7 +1294,7 @@ END
 START
 FIT-Card
 
-Pomocí polynomiální Turingovy redukce (a.k.a. Karpova redukce) není možné převést instanci kombinatorického problému Π1 na instanci komb. problému Π2, pokud:
+Pomocí polynomiální Turingovy redukce **není možné** převést instanci kombinatorického problému Π1 na instanci kombinatorického problému Π2, pokud:
 
 - Π1 je NPO optimalizační konstruktivní problém, Π2 je NPC rozhodovací problém.
 - Π1 je NPC rozhodovací problém, Π2 je libovolný rozhodovací problém.
@@ -1342,7 +1304,7 @@ Back:
 
 ❌ Π1 je NPO optimalizační konstruktivní problém, Π2 je NPC rozhodovací problém.  
 ✅ **Π1 je NPC rozhodovací problém, Π2 je libovolný rozhodovací problém.**  
-❌ Π1 je NPC rozhodovací problém, Π2 je NPO optimalizační konstruktivní problém.
+✅ Π1 je NPC rozhodovací problém, Π2 je NPO optimalizační konstruktivní problém.
 <!--ID: 1731175818611-->
 END
 
@@ -1409,7 +1371,7 @@ Back:
 ✅ **Převést instanci NPC rozhodovacího problému na instanci NPH konstruktivního optimalizačního problému**  
 ✅ **Převést instanci NPH konstruktivního optimalizačního problému na instanci NPC rozhodovacího problému**  
 ✅ **Převést každou instanci libovolného NPC problému na instanci nějakého NP problému.**  
-✅ **Převést každou instanci libovolného NPC problému na instanci P problému v exponenciálním čase.**  
+❌ **Převést každou instanci libovolného NPC problému na instanci P problému v exponenciálním čase.**  
 ✅ **Převést P problém na jiný P problém v polynomiálním čase**
 <!--ID: 1731175818616-->
 END
@@ -1689,7 +1651,7 @@ Back:
 - ✅ **Existuje pro ně polynomiální aproximativní algoritmus**
 - ❌ Lze je vyřešit s libovolně malou (nenulovou) chybou $\varepsilon$, za nutnou cenu exponenciálního růstu času s klesajícím $\varepsilon$
 - ✅ **Lze pro ně najít APX redukci na nějaký PTAS problém**
-- ❌ Lze pro ně najít APX redukci na nějaký FPTAS problém
+- ✅ **Lze pro ně najít APX redukci na nějaký FPTAS problém**
 - ❌ Rozhodovací verze těchto problémů lze vyřešit v polynomiálním čase (det. T.S.)
 - ❌ Vždy patří do NPH
 <!--ID: 1731175818658-->
@@ -2144,56 +2106,6 @@ END
 START
 FIT-Card
 
-Randomizovaná iterativní lokální heuristika při náhodných restartech dochází k výsledkům velice lišící se kvality (ceny). Potom:
-
-- Lepších výsledku dosáhnu, pokud zmenším prohledávané okolí
-- Má pravděpodobně velkou iterativní sílu
-- Má tendenci uváznout v lokálním optimu
-- Pro nápravu zvětším prohledávané okolí.
-- Lze se domnívat, že funguje dobře
-
-Back:
-
-- ❌ Lepších výsledku dosáhnu, pokud zmenším prohledávané okolí
-- ❌ Má pravděpodobně velkou iterativní sílu
-- ✅ **Má tendenci uváznout v lokálním optimu**
-- ✅ **Pro nápravu zvětším prohledávané okolí.**
-- ❌ Lze se domnívat, že funguje dobře
-<!--ID: 1731175818721-->
-END
-
----
-
-START
-FIT-Card
-
-Randomizovaná iterativní lokální heuristika při náhodných restartech pro jednu instanci vždy dojde k výsledku podobné kvality (ceny). Potom:
-
-- Má prokazatelně malou iterativní sílu.
-- Má pravděpodobně malou iterativní sílu.
-- Má tendenci uváznout v lokálním optimu
-- Pro nápravu zvětším prohledávané okolí.
-- Lze se domnívat že funguje dobře.
-- Pravděpodobně prohledává jen malou část stavového prostoru.
-- Lepších výsledků dosáhne, pokud zmenším prohledávané okolí
-
-Back:
-
-- ❌ Má prokazatelně malou iterativní sílu.
-- ❌ Má pravděpodobně malou iterativní sílu.
-- ❌ Má tendenci uváznout v lokálním optimu
-- ❌ Pro nápravu zvětším prohledávané okolí.
-- ✅ **Lze se domnívat že funguje dobře.**
-- ❌ Pravděpodobně prohledává jen malou část stavového prostoru.
-- ❌ Lepších výsledků dosáhne, pokud zmenším prohledávané okolí
-<!--ID: 1731175818723-->
-END
-
----
-
-START
-FIT-Card
-
 Zjistím, že moje jednoduchá lokální metoda rychle uvázne v lokálním minimu. Problém řeším tím, že prohledávané okolí:
 
 - Zmenším
@@ -2221,21 +2133,6 @@ Back:
 - ❌ Při náhodných restartech vždy dojde ke stejnému výsledku
 - ✅ **Při náhodných restartech dosažený výsledek příliš závisí na počátečním stavu.**
 <!--ID: 1731175818728-->
-END
-
----
-
-START
-FIT-Card
-
-Třída obvodové složitosti $AC^0$ umí vypočítat:
-
-- Paritu
-
-Back:
-
-- ❌ Paritu
-<!--ID: 1731175818731-->
 END
 
 ---
