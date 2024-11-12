@@ -244,7 +244,7 @@ END
 START
 FIT-Card
 
-Definice: Problém patří do třídy PTAS
+Definice: Problém patří do třídy **PTAS**
 
 Back:
 

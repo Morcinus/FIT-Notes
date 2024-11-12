@@ -263,7 +263,7 @@ FIT-Card
 
 Navrhněte souvislý symetrický stavový prostor pro problém „Minimum Multiprocessor Scheduling Problem“. Co jsou zde stavy? Navrhněte konfigurační proměnné. Navrhněte operátory pro tento stavový prostor.
 
-Formulace problému: „Dána množina $T$ úloh, m procesorů, doba trvání $l(t, i) ∈ Z$ pro každou úlohu $t ∈ T$ a procesor $i ∈ [1..m]$. Nalezněte mprocesorový plán pro $T$, tj. funkci f: $T→[1..m]$. Minimalizujte čas dokončení plánu, tj. maximum ze sum dob trvání $l(t, i)$ úloh naplánovaných na procesor, přes všechny procesory $i ∈ [1..m]$.”
+Formulace problému: „Dána množina $T$ úloh, m procesorů, doba trvání $l(t, i) ∈ Z$ pro každou úlohu $t ∈ T$ a procesor $i \in [1..m]$. Nalezněte mprocesorový plán pro $T$, tj. funkci f: $T→[1..m]$. Minimalizujte čas dokončení plánu, tj. maximum ze sum dob trvání $l(t, i)$ úloh naplánovaných na procesor, přes všechny procesory $i ∈ [1..m]$.”
 
 Back:
 
@@ -768,11 +768,11 @@ Back:
 
 **Konfigurační proměnné**: bitové pole vybraných vrcholů
 
-Omezení:
+**Omezení**:
 - Podgraf musí být úplný
 - Podgraf musí mít právě V vrcholů
 
-Důkaz:
+**Důkaz**:
 Problém patří do NP, pokud lze v polynomiálním čase ověřit, že každá konfigurace splňuje řešení.
 
 Zde stačí proiterovat 2D pole -> patří do NP.
