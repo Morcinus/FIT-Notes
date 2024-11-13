@@ -317,7 +317,7 @@ Co je "Authz"?
 
 Back:
 
-To že řešíme i **autentizaci** (že to jsem já) i **autorizaci** (že mám právo něco dělat)
+To že řešíme **autorizaci** (že mám právo něco dělat)
 <!--ID: 1731175818777-->
 END
 
