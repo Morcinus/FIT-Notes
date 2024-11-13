@@ -1,0 +1,358 @@
+---
+created: 2024-11-13T11:01:13
+title: "Strojová čísla"
+up: "[[📖NI-MPI]]"
+---
+
+TARGET DECK: NI-MPI
+FILE TAGS: NI-MPI prednaska09 status-toReview
+
+
+START
+FIT-Card
+
+Jaké jsou typy chyb v matematice? (4)
+
+Back:
+
+- chyba **modelu** - řešíme to moc zjednodušeně (např. zanedbáváme tření)
+- chyba **dat** - vstupní data nejsou přesná
+- chyba **algoritmu** - nemusíme mít algoritmus, který v konečném počtu kroků najde přesné řešení
+- **zaokrouhlovací** chyba - při výpočtu dochází k chybám (např. při aritmetických operacích) 
+
+END
+
+---
+
+### Zaokrouhlovací chyby
+
+START
+FIT-Card
+
+Co je vědecký zápis čísel?
+
+Back:
+
+Zápis ve tvaru:
+$$x = \pm \textcolor{Cerulean}q \cdot2^\textcolor{Orange}e$$
+
+- $\textcolor{Cerulean}q$ - **signifikant** (mantisa)
+- $\textcolor{Orange}e$ - **exponent**
+
+<!-- ExplanationStart -->
+![](../../Assets/Pasted%20image%2020241113111445.png)
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou typy zápisu vědeckého zápisu čísla (dle IEE-754)?
+
+Back:
+
+- **poloviční** (binary 16, half precision)
+- **jednoduchá** (binary 32, single precision)
+- **dvojitá** (binary 64, double precision)
+- **čtyřnásobná** (binary 128, quadruple precision)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241113111846.png)
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Pokud $e = 2^d-1$ a $m \neq 0$, tak $x = \ ?$
+
+Back:
+
+$$x = \text{NaN}$$
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Pokud $e = 2^d-1$ a $m = 0$, tak $x = \ ?$
+
+Back:
+
+$$x = (-1)^s \cdot \text{Inf}$$
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Pokud $0 <e < 2^d-1$, tak $x = \ ?$
+
+Back:
+
+$$x = (-1)^s \cdot (1.m_2)_2 \cdot 2^{e-b}$$
+
+(tzv. **normalizovaná čísla**)
+
+END
+
+---
+
+START
+FIT-Card
+
+Pokud $e = 0$ a $m \neq 0$, tak $x = \ ?$
+
+Back:
+
+$$x = (-1)^s \cdot (0.m_2)_2 \cdot 2^{1-b}$$
+
+(tzv. **subnormální čísla**)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Pokud $e = 0$ a $m = 0$, tak $x = \ ?$
+
+Back:
+
+$$x = (-1)^s \cdot 0$$
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je skrytá jednička?
+
+Back:
+
+Neukládáme první jedničku v mantise, protože je jasné, že tam musí být.
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241113112321.png)
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou **strojová čísla**?
+
+Back:
+
+Reálná čísla, která lze reprezentovat podle standardu IEEE-754 (znaménko, mantisa, exponent) se nazývají **strojová čísla**.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020241113112511.png)
+![](../../Assets/Pasted%20image%2020241113112534.png)
+
+<!-- ExampleEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **strojová přesnost**?
+
+Back:
+
+Strojová přesnost $\varepsilon_F$ je vzdálenost $1$ a nejbližšího většího čísla.
+
+<!-- ExplanationStart -->
+To mi jakoby říká jak přesný je ten můj zápis čísla.
+
+Neformálně "jak velké jsou mezery mezi čísly" na té reálné ose, kterou ukládám.
+
+![](../../Assets/Pasted%20image%2020241113112923.png)
+<!-- ExplanationEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je funkce `fl`?
+
+Back:
+
+Zobrazení $\mathbb{R} \rightarrow F$, které přiřadí každému $x \in \mathbb{R}$ "nejbližší" strojové číslo.
+
+<!-- DetailInfoStart -->
+Nejbližší je určeno podle vybrané strategie:
+- k nejbližšímu
+- k $\pm$ nekonečnu
+- náhodně
+- usekávání (zaokrouhlování směrem k nule)
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **přetečení a podtečení**?
+
+Back:
+
+Pokud chci reprezentovat číslo mimo rozsah, dochází k **přetečení** nebo **podtečení**.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **absolutní chyba** a **relativní chyba**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241113113306.png)
+
+<!-- ExerciseStart -->
+![](../../Assets/Pasted%20image%2020241113113335.png)
+<!-- ExerciseEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **zaokrouhlovací jednotka**?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241113113706.png)
+![](../../Assets/Pasted%20image%2020241113113721.png)
+![](../../Assets/Pasted%20image%2020241113113731.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Tvrzení: $\text{fl}(x) = \ ?$
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241113113814.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Tvrzení: operace sčítání, odčítání, násobení a dělení
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241113114019.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241113114028.png)
+<!-- DetailInfoEnd -->
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020241113114332.png)
+![](../../Assets/Pasted%20image%2020241113114339.png)
+<!-- ExampleEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **krácení** v kontextu chyb?
+
+Back:
+
+Tím že při výpočtu nemám dostatek cifer pro výpočet, tak je mantisa výsledku méně přesná.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020241113114748.png)
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241113115123.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Tvrzení: počet ztracených bitů při odečítání
+
+(pozn. tohle asi není tak důležitý umět)
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241113114919.png)
+
+<!-- ExplanationStart -->
+Říká nám to, kolik bitů ztratíme, když se stane **krácení**.
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+![](../../Assets/Pasted%20image%2020241113115144.png)
