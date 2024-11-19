@@ -460,3 +460,26 @@ Funguje to na základě mechanismu push-promise.
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jak přesně funguje **server push**?
+
+Back:
+
+1. Server klientovi pošle `PUSH_PROMISE` frame - ten obsahuje informace o tom, co chce klientovi pushnout
+2. Klient může odmítnout pushnutí pomocí framu `RST_STREAM`
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241118150602.png)
+![](../../Assets/Pasted%20image%2020241118150617.png)
+![](../../Assets/Pasted%20image%2020241118150700.png)
+
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
