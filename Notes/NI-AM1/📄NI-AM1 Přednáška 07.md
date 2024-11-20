@@ -433,7 +433,6 @@ END
 
 ### Server push
 
-
 START
 FIT-Card
 
@@ -476,10 +475,46 @@ Back:
 ![](../../Assets/Pasted%20image%2020241118150602.png)
 ![](../../Assets/Pasted%20image%2020241118150617.png)
 ![](../../Assets/Pasted%20image%2020241118150700.png)
-
+BDP = kolik dat jsem v jednu chvíli schopný mít v 
 <!-- DetailInfoEnd -->
-
 
 END
 
 ---
+
+
+START
+FIT-Card
+
+Co je **BDP**?
+
+Back:
+
+_Bandwidth-delay product_ = kolik dat jsem v jednu chvíli schopný mít v přenosu
+
+<!-- InformallySaidStart -->
+Když si spojení představím jako rouru, tak kolik dat jsem schopný narvat celkem do té roury.
+<!-- InformallySaidEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak podle BDP poznám jeslti se mi vyplatí použít server-push?
+
+Back:
+
+Pokud množství dat je menší než BDP (tzn jsem schopný do té roury nacpat ještě data), vyplatí se mi to. Pokud je větší, nevyplatí se mi to.
+
+<!-- DetailInfoStart -->
+Ve většině případů se to nevyplatí.
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
