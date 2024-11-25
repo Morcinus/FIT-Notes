@@ -186,9 +186,9 @@ Omezení:
 - Client-server architektura
 - Statelessnes - stav se neudržuje na serveru, ale v těch datech, co se přenáší
 	- Stavy jsou data, přechody jsou linky (např. v HTML, nebo endpointy RESTu)
-- Cacheability
+- Cacheability - requesty by mělo jít cachovat
 - Layered system
-- Uniform interface
+- Uniform interface - operace CRUD jsou doménově nezávislé (tzn. nemám funkci `createOrder`, ale `POST /orders`)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120151248.png)
