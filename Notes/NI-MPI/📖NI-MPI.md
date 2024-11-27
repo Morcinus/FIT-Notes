@@ -1,6 +1,9 @@
 ---
 created: 2024-10-07T13:59:30
-up: "[[FIT]]"
+up:
+  - "[[FIT]]"
+aliases:
+  - NI-MPI
 ---
 
 ### Notes

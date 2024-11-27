@@ -1,6 +1,9 @@
 ---
 created: 2024-10-08T18:12:17
-up: "[[FIT]]"
+up:
+  - "[[FIT]]"
+aliases:
+  - NI-ADP
 ---
 
 ### Notes

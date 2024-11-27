@@ -1,6 +1,9 @@
 ---
 created: 2024-10-06T10:20:35
-up: "[[FIT]]"
+up:
+  - "[[FIT]]"
+aliases:
+  - NI-KOP
 ---
 
 ### Notes

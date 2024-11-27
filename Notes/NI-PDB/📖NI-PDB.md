@@ -1,6 +1,9 @@
 ---
 created: 2024-09-30T19:51:11
-up: "[[FIT]]"
+up:
+  - "[[FIT]]"
+aliases:
+  - NI-PDB
 ---
 
 ### Notes
