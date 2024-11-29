@@ -170,6 +170,11 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241127135129.png)
 
+<!-- InformallySaidStart -->
+Homomorfismus = je jedno jeslti operaci provedu v definičním oboru nebo v tom obrazu
+Izomorfismus = je navíc bijekcí
+<!-- InformallySaidEnd -->
+
 END
 
 ---
