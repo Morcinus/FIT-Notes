@@ -7,5 +7,12 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "showRibbon": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 85
+  }
 }
