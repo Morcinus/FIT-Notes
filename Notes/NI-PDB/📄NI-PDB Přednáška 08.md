@@ -782,7 +782,7 @@ Jak vypadá data model v Cassandře?
 
 Back:
 
-Instance -> keyspaces -> tables -> rows -> columns
+**Instance** -> **keyspaces** -> **tables** -> **rows** -> **columns**
 
 - keyspaces
 - table
@@ -882,7 +882,7 @@ Back:
 
 `CREATE TABLE`
 
-Na rozdíl od SQL musím specifikovat primární klíč
+Na rozdíl od SQL musím specifikovat **primární klíč** té tabulky.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127182706.png)
@@ -905,6 +905,184 @@ Back:
 - **Primární klíče**
 	- **Partition key** - aspoň jeden sloupeček
 	- **Clustering columns** -
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Mohu v Cassandře dělat JOINy?
+
+Back:
+
+Ne. V Cassandře se můžu dotazovat jen nad jednou tabulkou.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou 2 části primary keys v cassandře?
+
+Back:
+
+- **parition key** - nějaké sloupečky, prostě to co si člověk představí pod primary key
+- **clustering column** (optional) - definuje pořadí jednotlivých řádků
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208130222.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se v Cassandře definuje list?
+
+Back:
+
+`[item1, item2]`
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208130619.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se v Cassandře definují Tuples?
+
+Back:
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208130701.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se v Cassandře definují sety?
+
+Back:
+
+Pomocí `{}`
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208130645.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se v Cassandře definují maps?
+
+Back:
+
+Pomocí `{}`
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208130726.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se píše v Cassandře select?
+
+Back:
+
+Je to podobné jako u SQL:
+```
+SELECT ...
+FROM ...
+WHERE ...
+```
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208130806.png)
+![](../../Assets/Pasted%20image%2020241208130811.png)
+![](../../Assets/Pasted%20image%2020241208130816.png)
+![](../../Assets/Pasted%20image%2020241208130821.png)
+![](../../Assets/Pasted%20image%2020241208130827.png)
+![](../../Assets/Pasted%20image%2020241208130832.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je TTL v Cassandře?
+
+Back:
+
+Můžu to nastavit u daného řádku, říká mi, po jaké době se má záznam smazat.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se používá UPDATE v Cassandře?
+
+Back:
+
+```
+UPDATE ...
+SET ...
+WHERE ...
+```
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020241208131457.png)
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241208131513.png)
+![](../../Assets/Pasted%20image%2020241208131517.png)
+<!-- DetailInfoEnd -->
 
 END
 
