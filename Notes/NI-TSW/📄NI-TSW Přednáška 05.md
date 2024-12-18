@@ -357,6 +357,20 @@ END
 START
 FIT-Card
 
+Je TQM v rámci projektu nebo firmy?
+
+Back:
+
+V rámci celé firmy, není to jen testování softwaru.
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Jaké jsou nástroje pro řízení kvality? (3)
 
 Back:
@@ -370,6 +384,166 @@ Back:
 	- Koordinace postupů podle plánu řízení kvality
 - **Kontrola kvality**
 	- Inspekce, měření a audity kvality
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou základní koncepty managementu kvality?
+
+Back:
+
+- **Firemní politika** poskytování kvality
+- **Cíle** pro kvalitu - stanovení parametrů a ukazatelů pro kontrolu a hodnocení
+- **Proces zajištění kvality** - musím mít stanovené kdy se zadávají metriky kvality, kdy se kontrolují atd.
+	- Měly by všechny strany chápat kvalitu stejně. Někdo chápe kvalitu jako to že se to dostalo do produkce. Někdo ale kvalitu chápe podle jiných metrik.
+- **Kontrola kvality** - monitorování, identifikace problémů, zvýšení efektivnosti procesů atd.
+- **Audit kvality** - nezávislé ověření kvality, např aby člověk splňoval certifikace, chodí na to kontroly
+- **Programový plán kvality tvořen manažerem projektu**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je rozdíl mezi quality assurance a quality control?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241218101738.png)
+
+![](../../Assets/Pasted%20image%2020241218101906.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Podle čeho se řídí kvalita?
+
+Back:
+
+Podle ISO norem, jsou placné..
+
+U softwarových projektů se to používá jak kdy.. Např. u medicíny nebo projektování baráků to je víc
+
+![](../../Assets/Pasted%20image%2020241218101916.png)
+
+END
+
+---
+
+### Testování
+
+START
+FIT-Card
+
+Co je součástí testování?
+
+Back:
+
+1. **Testovací plán** - navržení a rozplánování testů
+	- Jestli testy děláme my nebo zákazník.. Jaké testy se budou dělat, kolik se jim dá zdrojů atd.
+	- I bezpečnostní testy
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241218102857.png)
+<!-- DetailInfoEnd -->
+
+
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou klasifikace chyb?
+
+Back:
+
+- **A chyby** - systém nefunguje
+	- Tohle nesmí být žádný
+- **B chyby** - závažné chyby
+	- Je možné chybu obejít a pokračovat
+	- Např. nefunguje mi tisk, ale pořád můžu udělat rezervaci, co
+- **C chyby** - drobné chyby - UI
+
+Mělo by to být přesně ve smlouvě, co je co.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je monkey testing? Co se s tím dělá špatně?
+
+Back:
+
+**Monkey testing** = člověk si spustí aplikaci na náhodně si tam kliká
+
+Chyba: nemělo by se to používat jako akceptační testy, protože pak si tam zákazník navymýšlí hromadu chyb a změn atd.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou nejčastější chyby při testování?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241218102711.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy testovat automatizovaně?
+
+Back:
+
+Např. signup page se bude testovat při každém releasu, je dobrý to testovat automatizovaně. 
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **systém testovacích nápadů**?
+
+Back:
+
+**Seznam testovacích nápadů** nebo myšlenek (test idea list)
+- dokument, do kterého si testeří píšou svoje návrhy na testy, které by stálo za to udělat
+- Testovací nápady jsou rozdělené do kategorií
+- Testeři tak mají velký pool nápadů, kam můžou psát nápady na věci, co je třeba u každého use casu otestovat (např. dělení nulou atd.)
 
 END
 
