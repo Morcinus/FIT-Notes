@@ -156,7 +156,22 @@ END
 
 ---
 
+
 ### TPC-E
+
+
+START
+FIT-Card
+
+Na jaké téma je zaměřený TPC-E? 
+
+Back:
+
+Jako příklad je obchodování společnosti, která se zabývá obchodováním s akciema a managování uživatelských účtů.
+
+END
+
+---
 
 
 START
@@ -166,8 +181,92 @@ Jaké metriky se sledují u benchmarku TPC-E?
 
 Back:
 
-- TPsE - transactions per second u jakékoliv transakce
-- Price/TPsE
+- $TPsE$ - transactions per second u **jakékoliv** transakce
+- $Price/TPsE$
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se liší TPC-E od TPC-C?
+
+Back:
+
+TPC-E je složitější, je tam větší rozmanitost transakcí atd.
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241220111540.png)
+![](../../Assets/Pasted%20image%2020241220111612.png)
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+> "V podstatě, když se o tom budeme bavit, ať už u zkoušky nebo nebo u státnic, tak mi jde o to, abyste věděli, proč máme komplexní benchmarky, že ty komplexní benchmarky mají nějakej příběh, abyste dokázali popsat vlastně jak to zhruba vypadá? Jo, to znamená zhruba tu. Datovou sadu, jak se to škáluje zhruba ty transakce a že tam je někde nějakej treshold, kterej je vyjádřený tím, že fajn, když ta odezva toho databázového systému na nějakej typ transakce už je větší než tahleta než těhle těch třeba 5 vteřin, tak to znamená, že už jsme dosáhli saturace jo v týhle chvíli se odečítají ty výsledky. Tohle mě bohatě stačí, když budete k těm benchmarkům vědět." - Valenta, poslední přednáška, 17. minuta
+
+
+START
+FIT-Card
+
+Jaká je nevýhoda TPC-C
+
+Back:
+
+
+
+END
+
+---
+
+### TPC-H
+START
+FIT-Card
+
+Jaký je příklad OLAP benchmarku?
+
+Back:
+
+$TPC-H$
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je velký rozdíl TPC-H benchmarku oproti těm ostatním?
+
+Back:
+
+Máme databázi fixní velikosti
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké metriky se měří u TPC-H bechmarku?
+
+Back:
+
+- $QphH@Size$ - Composite Query-perHour performance metric
+- $\$/QphH@Size$ - Price/Performance metric
+
+$Size$ je velikost databáze.
+
+<!-- DetailInfoStart -->
+Size typicky jsou desítky GB až 1 TB cca
+<!-- DetailInfoEnd -->
 
 END
 
