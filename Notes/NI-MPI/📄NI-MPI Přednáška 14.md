@@ -230,3 +230,137 @@ Back:
 END
 
 ---
+
+
+START
+FIT-Card
+
+Věta: Pokud pro $a,b$ z tělesa $T$ platí $ab =0$, potom $\dots$
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221091852.png)
+
+<!-- ProofStart -->
+![](../../Assets/Pasted%20image%2020241221091859.png)
+<!-- ProofEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Homomorfismus okruhů**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092010.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Homomorfismus těles**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092014.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Izomorfismus okruhů**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092021.png)
+
+Předchozí část definice:
+![](../../Assets/Pasted%20image%2020241221092040.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **izomorfní těleso**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092117.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: Polynom nad okruhem
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092135.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: **Okruh polynomů**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092158.png)
+
+END
+
+---
+
+START
+FIT-Card
+
+Lemma: **o násobení polynomů**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092231.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Lemma: **o dělení polynomů**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241221092247.png)
+
+END
+
+---
+
