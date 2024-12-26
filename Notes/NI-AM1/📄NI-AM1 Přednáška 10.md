@@ -18,7 +18,7 @@ FIT-Card
 Back:
 
 Hypertext as the Engine for Application State
-
+<!--ID: 1735205749921-->
 END
 
 ---
@@ -39,7 +39,7 @@ Klient může aplikovat metody na daném linku (PUT, POST, DELETE...) aby se př
 Když mám HTML stránku, tak každý link v ní je linkem an jinou HTML stránku. To jakou stránku mám načtenou je ten stav.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749924-->
 END
 
 ---
@@ -65,7 +65,7 @@ Jak vypadá **stateless API** (klient si pamatuje svůj stav):
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749926-->
 END
 
 ---
@@ -87,7 +87,7 @@ Standard v rámci kterého jsou tzv. **Atom Links**: Ty se skládají z následu
 Pozn. toto je příklad v XML, jde to i v JSONu
 ![](../../Assets/Pasted%20image%2020241204160829.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749929-->
 END
 
 ---
@@ -111,7 +111,7 @@ Zde mám:
 
 ![](../../Assets/Pasted%20image%2020241204160958.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749932-->
 END
 
 ---
@@ -133,7 +133,7 @@ Tohle je důležitý chápat. Jako server můžu nabídnout klientovi rovnou dat
 <!-- ExplanationEnd -->
 
 
-
+<!--ID: 1735205749934-->
 END
 
 ---
@@ -157,7 +157,7 @@ Na serveru tedy můžu **dopředu eliminovat přechody**, které vím, že nejso
 
 Díky tomu se nemůže stát, že by klient např. vybral platební metodu a pak teprve zjistil, že je ve stavech ve "slepé uličce", protože ta metodu metodu nelze použít.
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749937-->
 END
 
 ---
@@ -173,7 +173,7 @@ Back:
 - location transparency
 - loose coupling
 - statelessness and cloud
-
+<!--ID: 1735205749939-->
 END
 
 ---
@@ -193,7 +193,7 @@ Jak toho docílíme:
 - Publishnu světu jenom **vstupní stav** (entry.level link)
 - Klient si pak naviguje po mém API díky metodám, které mu API dynamicky nabízí pomocí HATEOAS
 	- Díky můžu více měnit backend, aniž bych tím ovlivňoval klienta 
-
+<!--ID: 1735205749942-->
 END
 
 ---
@@ -207,7 +207,7 @@ Co je princip **loose coupling** v HATEOAS?
 Back:
 
 Zajišťujeme nezávislost klienta na serveru tím, že mu dávám **dynamicky** ty linky
-
+<!--ID: 1735205749947-->
 END
 
 ---
@@ -221,7 +221,7 @@ Co je princip **statelessness and cloud** v HATEOAS?
 Back:
 
 Tím, že je HATEOAS stateless na serveru, tak má lepší **škálovatelnost**.
-
+<!--ID: 1735205749952-->
 END
 
 ---
@@ -238,7 +238,7 @@ Back:
 
 - Zvýšení **škálovatelnosti**
 - **Snížení zátěže** sítě
-
+<!--ID: 1735205749954-->
 END
 
 ---
@@ -260,7 +260,7 @@ Máme klienta, server a proxy. Proxy zajišťuje cachování.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241204162855.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749957-->
 END
 
 ---
@@ -285,6 +285,7 @@ Back:
 - `no-store` - nesmí se vůbec cachovat
 - `no-transform` - nesmí transformovat cachovací data (např. komprese)
 - `max-age`, `s-maxage` - kolik sekund se můžou data cachovat
+<!--ID: 1735205749959-->
 END
 
 ---
@@ -307,7 +308,7 @@ Reprezentuje to poslední změnu zdroje:
 ![](../../Assets/Pasted%20image%2020241204163817.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749962-->
 END
 
 ---
@@ -327,7 +328,7 @@ Hlavičky, co posílá klient serveru:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241204163817.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749964-->
 END
 
 ---
@@ -348,7 +349,7 @@ Klient pak posílá hlavičku `If-None-Match`.
 ![](../../Assets/Pasted%20image%2020241204164245.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749967-->
 END
 
 ---
@@ -363,7 +364,7 @@ Back:
 
 - weak
 - strong
-
+<!--ID: 1735205749969-->
 END
 
 ---
@@ -383,7 +384,7 @@ Reprezentuje zdroj "sémanticky" - tzn. na základě významu nějaké hodnoty.
 Například můžu se rozhodnout, že lekce v kurzu se změnila pouze, pokud se změnil její nadpis, ale úpravy popisu lekce detekovat nebudu.
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749972-->
 END
 
 ---
@@ -401,7 +402,7 @@ Reprezentuje kompletně celý zdroj "bit by bit"
 <!-- ExplanationStart -->
 Tzn. ať už změním cokoliv ve zdroji, tak se tím změní hodnota ETagu. 
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749974-->
 END
 
 ---
@@ -426,7 +427,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241204165317.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749977-->
 END
 
 ---
@@ -440,7 +441,7 @@ Jaká je výhoda ETagů oproti last modified?
 Back:
 
 Můžu (např. pomocí weak ETagů) mít detailnější kontrolu nad tím, kdy považuju data za změněná.
-
+<!--ID: 1735205749979-->
 END
 
 ---
@@ -461,7 +462,7 @@ Back:
 V databázích se například zamkne zdroj, když k němu někdo přistupuje, aby to někdo jiný mezitím nezměnil. 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749982-->
 END
 
 ---
@@ -477,7 +478,7 @@ Back:
 Předpokládáme, že když více klientů mění data, že s největší pravděpodobností nedojde ke konfliktu.
 
 Pokud ke konfliktu dojde, tak ho detekuju a dokážu s ním nějak pracovat.
-
+<!--ID: 1735205749984-->
 END
 
 ---
@@ -491,7 +492,7 @@ Jaký je vztah concurrency control a cachování?
 Back:
 
 Concurrency control je jakoby nadstavba protokolů pro cachování.
-
+<!--ID: 1735205749987-->
 END
 
 ---
@@ -505,7 +506,7 @@ Jaké hlavičky se používají u concurrency control?
 Back:
 
 `If-Unmodified-Since` a `If-Match`
-
+<!--ID: 1735205749989-->
 END
 
 ---
@@ -526,7 +527,7 @@ Back:
 	- Zdroj ale nebude změněn a dostane odpověď
 	- Server odpoví `412 Precondition Failed`
 	- Klient $B$ tak musí znovu udělat `GET` a pak teprve změnit zdroj
-
+<!--ID: 1735205749992-->
 END
 
 ---
@@ -542,7 +543,7 @@ Co je **Richardson Maturity Model**?
 Back:
 
 Model vyspělosti/kvality RESTového API.
-
+<!--ID: 1735205749994-->
 END
 
 ---
@@ -566,7 +567,7 @@ Back:
 	- Používáme HATEOAS
 
 Nemusím nutně používat co nejvyšší level, ale měl bych rozumět tomu, proč danou úroveň používám. Je např. okay použít Level 0, když vím, že mám omezené zdroje a mám k tomu legitimní důvod.
-
+<!--ID: 1735205749997-->
 END
 
 ---

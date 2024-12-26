@@ -24,7 +24,7 @@ Dosažený výsledek je náhodná proměnná, čas běhu pevný pro danou instan
 ![](../../Assets/Pasted%20image%2020241113142517.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749736-->
 END
 
 ---
@@ -45,7 +45,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241113142517.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749738-->
 END
 
 ---
@@ -59,7 +59,7 @@ Jak funguje Monte Carlo algoritmus pro SAT?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241113143046.png)
-
+<!--ID: 1735205749741-->
 END
 
 ---
@@ -77,7 +77,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113143556.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749743-->
 END
 
 ---
@@ -95,7 +95,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113144045.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749746-->
 END
 
 ---
@@ -109,7 +109,7 @@ Jaké jsou výhody randomizovaných algoritmů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241113144126.png)
-
+<!--ID: 1735205749748-->
 END
 
 ---
@@ -130,7 +130,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113144340.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749751-->
 END
 
 ---
@@ -144,7 +144,7 @@ Co jsou **primární** a **sekundární** metriky u randomizovaných algoritmů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241113144618.png)
-
+<!--ID: 1735205749753-->
 END
 
 ---

@@ -18,7 +18,7 @@ Co je TLS?
 Back:
 
 Transport Level Security
-
+<!--ID: 1735205750026-->
 END
 
 ---
@@ -34,7 +34,7 @@ Back:
 - Encryption
 - Autentizaci
 - Integritu
-
+<!--ID: 1735205750029-->
 END
 
 ---
@@ -48,7 +48,7 @@ Co se využívá v rámci šifrování (encryption) v TLS?
 Back:
 
 **TLS handshake**
-
+<!--ID: 1735205750031-->
 END
 
 ---
@@ -62,7 +62,7 @@ Co se využívá v rámci integrity v TLS?
 Back:
 
 MAC - Message Authentication Code
-
+<!--ID: 1735205750033-->
 END
 
 ---
@@ -89,7 +89,7 @@ Back:
 
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205750036-->
 END
 
 ---
@@ -112,7 +112,7 @@ Toho se dá prakticky využít:
 	- Díky tomu můžu na jednom portu provozovat dvě různé služby
 		- Pomocí té ALPN hlavičky pak poznám, na kterou službu přesměrovat tu komunikaci
 <!-- ExampleEnd -->
-
+<!--ID: 1735205750039-->
 END
 
 ---
@@ -134,7 +134,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113174229.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205750042-->
 END
 
 ---
@@ -153,7 +153,7 @@ Komunikace mezi klientem a middlewarem je zabezpečená pomocí TLS.
 Komunikace mezi middleware a serverem zabezpečená není.
 
 Pozn. toto se často používá, protože middleware je často brána do vnitřní zabezpečené infrastruktury, kde to nemusím mít tolik zabezpečený. Tohle ale není best practice, protože útok může přijít i zevnitř. Proto existuje např. TLS Bridging
-
+<!--ID: 1735205750044-->
 END
 
 ---
@@ -170,7 +170,7 @@ Mezi klientem a middlewarem je jedno TLS spojení.
 Mezi middlewarem a serverem je druhé TLS spojení.
 
 Mám celkem tedy dvě.
-
+<!--ID: 1735205750047-->
 END
 
 ---
@@ -186,7 +186,7 @@ Back:
 Mám spojení klient-server-middleware a ta TLS session je mezi klientem a serverem. Middleware přeposílá tu komunikaci.
 
 Middleware si při TLS handshake může přečíst data a číst si tak potom i probíhající komunikaci.
-
+<!--ID: 1735205750049-->
 END
 
 ---
@@ -202,7 +202,7 @@ Back:
 Prvek, co rozděluje zátěž.
 - Může využívat TLS offloading nebo TLS bridging
 - Může využívat TLS pass-though s pomocí SNI
-
+<!--ID: 1735205750052-->
 END
 
 ---
@@ -220,7 +220,7 @@ Back:
 Mění způsob přenosu dat, nemění sémantiku.
 
 V HTTP 2 se přenáší data binárně, ale requesty se zapisují stejně
-
+<!--ID: 1735205750054-->
 END
 
 ---
@@ -237,7 +237,7 @@ Back:
 - **Umožnění multiplexingu** - stačí jedno TCP spojení
 - **Optimalizace hlaviček** - aby byly menší, lepší komprese
 - **Prioritizace requestů a responses** (aby prohlížeč věděl, které requesty jsou důležitější)
-
+<!--ID: 1735205750057-->
 END
 
 ---
@@ -252,7 +252,7 @@ Back:
 
 1. Nejdříve se naváže TLS a ALPN connection
 2. Potom se odesílají data pomocí HTTP/2
-
+<!--ID: 1735205750059-->
 END
 
 ---
@@ -273,7 +273,7 @@ V aplikační vrstvě je **binary framing** - způsob formátu request response 
 ![](../../Assets/Pasted%20image%2020241113180011.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205750062-->
 END
 
 ---
@@ -294,7 +294,7 @@ Každá dvojice request-response je považována za jeden stream.
 ![](../../Assets/Pasted%20image%2020241113180235.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205750064-->
 END
 
 ---
@@ -314,7 +314,7 @@ Je to to, co se přenáší v rámci streamu
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113180235.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205750067-->
 END
 
 ---
@@ -334,7 +334,7 @@ Např. hlavička je ve framu, data jsou ve framu
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113180235.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205750069-->
 END
 
 ---
@@ -355,7 +355,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113180730.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205750072-->
 END
 
 ---
@@ -373,7 +373,7 @@ Protože javascript může modifikovat DOM/CSSOM a je potřeba, aby byl DOM/CSSO
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113181453.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205750074-->
 END
 
 ---
@@ -395,7 +395,7 @@ To ovlivňuje jejich prioritu.
 ![](../../Assets/Pasted%20image%2020241113181802.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205750077-->
 END
 
 ---
@@ -426,7 +426,7 @@ Např. když sleduju video a klient ho pausne nebo stopne, chci notifikovat serv
 ![](../../Assets/Pasted%20image%2020241113182009.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205750079-->
 END
 
 ---
@@ -455,7 +455,7 @@ Funguje to na základě mechanismu push-promise.
 - Pokud klient výslovně neřekne, že to nechce (např. protože to má v cachi), tak mu to automaticky posílám.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205750081-->
 END
 
 ---
@@ -477,7 +477,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241118150700.png)
 BDP = kolik dat jsem v jednu chvíli schopný mít v 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205750084-->
 END
 
 ---
@@ -495,7 +495,7 @@ _Bandwidth-delay product_ = kolik dat jsem v jednu chvíli schopný mít v přen
 <!-- InformallySaidStart -->
 Když si spojení představím jako rouru, tak kolik dat jsem schopný narvat celkem do té roury.
 <!-- InformallySaidEnd -->
-
+<!--ID: 1735205750087-->
 END
 
 ---
@@ -513,7 +513,7 @@ Pokud množství dat je menší než BDP (tzn jsem schopný do té roury nacpat 
 <!-- DetailInfoStart -->
 Ve většině případů se to nevyplatí.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205750089-->
 END
 
 ---

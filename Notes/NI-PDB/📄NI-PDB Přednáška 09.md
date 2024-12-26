@@ -19,7 +19,7 @@ Back:
 
 - **microbenchmark** - zaměřuje se na konkrétní aspekt databázového systému (např. práce s cache, jenom insert příkazy, jenom update příkazy)
 - **komplexní benchmarky**
-
+<!--ID: 1735205748903-->
 END
 
 ---
@@ -39,7 +39,7 @@ Transaction Processing Council (něco jako W3C ale pro databáze)
 Členové jsou např. Microsoft, Lenovo, Cisco, Nvidia, AMD atd.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205748906-->
 END
 
 ---
@@ -68,7 +68,7 @@ Následně:
 ![](../../Assets/Pasted%20image%2020241208133101.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205748908-->
 END
 
 ---
@@ -83,7 +83,7 @@ Back:
 
 - $tpmC$ - new-order transaction rate = při maximálním zatížení databáze, kolik jsem schopný zpracovat nových objednávek
 - $\$/tpmC$ - kolik mě jedna nová objednávka stojí peněz 
-
+<!--ID: 1735205748911-->
 END
 
 ---
@@ -101,7 +101,7 @@ Back:
 - delivery
 - order-status
 - stock-level
-
+<!--ID: 1735205748913-->
 END
 
 ---
@@ -123,7 +123,7 @@ Mám různé transakce (new-order) atd. Mám simulaci zákazníka (terminál), t
 ![](../../Assets/Pasted%20image%2020241208133525.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205748916-->
 END
 
 ---
@@ -137,7 +137,7 @@ Jaká je kritika TPC-C benchmarku?
 Back:
 
 Že je moc jednoduchý a nepřesný.
-
+<!--ID: 1735205748918-->
 END
 
 ---
@@ -151,7 +151,7 @@ Na co slouží benchmarky TPC-E a TPC-C? Na OLTP nebo OLAP?
 Back:
 
 Na **OLTP**
-
+<!--ID: 1735205748921-->
 END
 
 ---
@@ -168,7 +168,7 @@ Na jaké téma je zaměřený TPC-E?
 Back:
 
 Jako příklad je obchodování společnosti, která se zabývá obchodováním s akciema a managování uživatelských účtů.
-
+<!--ID: 1735205748923-->
 END
 
 ---
@@ -183,7 +183,7 @@ Back:
 
 - $TPsE$ - transactions per second u **jakékoliv** transakce
 - $Price/TPsE$
-
+<!--ID: 1735205748926-->
 END
 
 ---
@@ -202,7 +202,7 @@ TPC-E je složitější, je tam větší rozmanitost transakcí atd.
 ![](../../Assets/Pasted%20image%2020241220111540.png)
 ![](../../Assets/Pasted%20image%2020241220111612.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748929-->
 END
 
 ---
@@ -218,7 +218,7 @@ Jaká je nevýhoda TPC-C
 Back:
 
 
-
+<!--ID: 1735205748931-->
 END
 
 ---
@@ -232,7 +232,7 @@ Jaký je příklad OLAP benchmarku?
 Back:
 
 $TPC-H$
-
+<!--ID: 1735205748934-->
 END
 
 ---
@@ -246,7 +246,7 @@ Jaký je velký rozdíl TPC-H benchmarku oproti těm ostatním?
 Back:
 
 Máme databázi fixní velikosti
-
+<!--ID: 1735205748936-->
 END
 
 ---
@@ -267,7 +267,7 @@ $Size$ je velikost databáze.
 <!-- DetailInfoStart -->
 Size typicky jsou desítky GB až 1 TB cca
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748939-->
 END
 
 ---

@@ -20,7 +20,7 @@ Back:
 - indexy
 - transakce (zámky, journal)
 - triggery
-
+<!--ID: 1735205748941-->
 END
 
 ---
@@ -38,7 +38,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241220113253.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748944-->
 END
 
 ---
@@ -52,7 +52,7 @@ Co je Data lieage?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241220114844.png)
-
+<!--ID: 1735205748946-->
 END
 
 ---

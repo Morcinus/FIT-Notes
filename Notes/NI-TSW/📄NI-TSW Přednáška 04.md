@@ -27,7 +27,7 @@ Back:
 - **Ukončení**
 	- Musí být jasně specifikovaný, kde je ten projekt dokončený
 		- Třeba specifikace na A4
-
+<!--ID: 1735205748882-->
 END
 
 ---
@@ -45,7 +45,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241120101054.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205748884-->
 END
 
 ---
@@ -60,7 +60,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241120101205.png)
 ![](../../Assets/Pasted%20image%2020241120101214.png)
-
+<!--ID: 1735205748887-->
 END
 
 ---
@@ -91,7 +91,7 @@ Výhoda je, že pak nezabřednu do detailu, když začnu dělat Gantt charty atd
 Meetingy s uživatelema, vytvoření reportu atd.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205748890-->
 END
 
 ---
@@ -112,7 +112,7 @@ Back:
 Scrum se dá dělat i s více lidmi, potom to je scrum of scrums.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205748893-->
 END
 
 ---
@@ -128,7 +128,7 @@ Back:
 - Hlídá, že se jede podle scrumu
 - Řeší problémy týmu
 	- Když chybí člověk, vyřeší. Když chybí kafe, dodá kafe. Když se někdo hádá v týmu, tak to vyřeší. Když zákazník nedodržuje scrum, řeší to
-
+<!--ID: 1735205748895-->
 END
 
 ---
@@ -145,7 +145,7 @@ Back:
 - Ten, co říká, jaký ten produkt má být
 - Určuje priority projektu v product backlogu
 - Komunikuje se zákazníkem
-
+<!--ID: 1735205748898-->
 END
 
 ---
@@ -178,7 +178,7 @@ Nastavuje se to pomocí:
 - T-shirt sizing
 	- S, M, XXL, XXXL
 	- Lehká, těžší, složitá, nejsložitější
-
+<!--ID: 1735205748900-->
 END
 
 ---

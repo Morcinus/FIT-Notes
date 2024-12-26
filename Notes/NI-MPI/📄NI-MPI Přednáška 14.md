@@ -24,6 +24,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241129143604.png)
 <!-- ExampleEnd -->
 
+Tags: algebra3
+<!--ID: 1735205749248-->
 END
 
 ---
@@ -42,6 +44,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241129143635.png)
 <!-- ProofEnd -->
 
+Tags: algebra3
+<!--ID: 1735205749250-->
 END
 
 ---
@@ -56,6 +60,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129143723.png)
 
+Tags: algebra3
+<!--ID: 1735205749252-->
 END
 
 ---
@@ -74,7 +80,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241129144244.png)
 <!-- ProofEnd -->
 
-
+Tags: algebra3
+<!--ID: 1735205749255-->
 END
 
 ---
@@ -91,6 +98,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129144326.png)
 
+Tags: algebra3
+<!--ID: 1735205749257-->
 END
 
 ---
@@ -106,6 +115,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129144331.png)
 
+Tags: algebra3
+<!--ID: 1735205749260-->
 END
 
 ---
@@ -125,6 +136,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129150534.png)
 
+Tags: algebra4
+<!--ID: 1735205749262-->
 END
 
 ---
@@ -141,6 +154,8 @@ Buď $R = (M, +, \cdot)$ okruh.
 
 Je-li $\cdot$ komutativní, je $R$ **komutativní okruh**.
 
+Tags: algebra4
+<!--ID: 1735205749265-->
 END
 
 ---
@@ -157,6 +172,8 @@ Buď $R = (M, +, \cdot)$ okruh.
 
 $(M, +)$ se nazývá **aditivní grupa** okruhu $R$ 
 
+Tags: algebra4
+<!--ID: 1735205749268-->
 END
 
 ---
@@ -172,6 +189,8 @@ Buď $R = (M, +, \cdot)$ okruh.
 
 $(M, \cdot)$ se nazývá **multiplikativní monoid** okruhu $R$ 
 
+Tags: algebra4
+<!--ID: 1735205749270-->
 END
 
 ---
@@ -186,6 +205,8 @@ Back:
 
 Neutrální prvek grupy $(M, +)$ se nazývá **nulový prvek**
 
+Tags: algebra4
+<!--ID: 1735205749273-->
 END
 
 ---
@@ -199,6 +220,8 @@ Back:
 
 Neutrální prvek multiplikativního monoidu $(M, \cdot)$ se nazývá **jednička** a značí se $1$
 
+Tags: algebra4
+<!--ID: 1735205749275-->
 END
 
 ---
@@ -213,6 +236,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129151040.png)
 
+Tags: algebra4
+<!--ID: 1735205749277-->
 END
 
 ---
@@ -227,6 +252,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129151056.png)
 
+Tags: algebra4
+<!--ID: 1735205749280-->
 END
 
 ---
@@ -245,7 +272,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221091859.png)
 <!-- ProofEnd -->
 
-
+Tags: algebra4
+<!--ID: 1735205749282-->
 END
 
 ---
@@ -260,6 +288,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092010.png)
 
+Tags: algebra4
+<!--ID: 1735205749285-->
 END
 
 ---
@@ -274,6 +304,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092014.png)
 
+Tags: algebra4
+<!--ID: 1735205749287-->
 END
 
 ---
@@ -291,6 +323,8 @@ Back:
 Předchozí část definice:
 ![](../../Assets/Pasted%20image%2020241221092040.png)
 
+Tags: algebra4
+<!--ID: 1735205749290-->
 END
 
 ---
@@ -305,6 +339,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092117.png)
 
+Tags: algebra4
+<!--ID: 1735205749292-->
 END
 
 ---
@@ -319,6 +355,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092135.png)
 
+Tags: algebra4
+<!--ID: 1735205749294-->
 END
 
 ---
@@ -333,6 +371,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092158.png)
 
+Tags: algebra4
+<!--ID: 1735205749297-->
 END
 
 ---
@@ -346,6 +386,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092231.png)
 
+Tags: algebra4
+<!--ID: 1735205749300-->
 END
 
 ---
@@ -360,6 +402,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092247.png)
 
+Tags: algebra4
+<!--ID: 1735205749302-->
 END
 
 ---

@@ -25,7 +25,7 @@ Díky header compression můžu uložit informace v hlavičkách a v request/res
 ![](../../Assets/Pasted%20image%2020241120144110.png)
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205750000-->
 END
 
 ---
@@ -41,7 +41,7 @@ V čem spočítá analýza v HTTP/2?
 Back:
 
 Čtu si jednotlivé packety, mám třeba klíč, můžu si pak číst ty requesty.
-
+<!--ID: 1735205750002-->
 END
 
 ---
@@ -59,7 +59,7 @@ Back:
 HTTP/2 drawbacks
 - U TCP se může stát, že segment nedoputuje na druhou stranu. V HTTP/2 to funguje tak, že pokud nedorazí packet, pošle se znovu. Do té doby ostatní segmenty musí čekat, než se doručí.
 - TLS handshake musí být vždy po TCP handshake
-
+<!--ID: 1735205750004-->
 END
 
 ---
@@ -82,7 +82,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120144916.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205750007-->
 END
 
 ---
@@ -102,7 +102,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120145145.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205750010-->
 END
 
 ---
@@ -116,7 +116,7 @@ Co je Network Switching?
 Back:
 
 Např. když chodím po kampusu, tak se mobil přepíná na různé wifiny. QUIC s tímhle dokáže výrazně lépe pracovat.
-
+<!--ID: 1735205750012-->
 END
 
 ---
@@ -132,7 +132,7 @@ FIT-Card
 Back:
 
 Representational State Transfer
-
+<!--ID: 1735205750015-->
 END
 
 ---
@@ -152,7 +152,7 @@ Např.
 - RPC - vstupní data, operace, výstupní data (funkce)
 	- **endpointy** mají názvy operace
 	- operace jsou doménově závislé (CreateCustomer)
-
+<!--ID: 1735205750018-->
 END
 
 ---
@@ -168,7 +168,7 @@ Back:
 - **Identifikace**: univerzální identifikace zdrojů pomocí URI
 - **Interakce**: protokoly pro získávání zdrojů - HTTP
 - **Formáty**: reprezentace zdrojů (data a metadata)
-
+<!--ID: 1735205750020-->
 END
 
 ---
@@ -195,7 +195,7 @@ Omezení:
 <!-- DetailInfoEnd -->
 
 
-
+<!--ID: 1735205750023-->
 END
 
 ---

@@ -6,7 +6,7 @@ up:
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska12 status-toReview
+FILE TAGS: NI-MPI prednaska12 status-toReview algebra2
 
 
 START
@@ -21,8 +21,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241125153849.png)
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1735205749412-->
 END
 
 ---
@@ -36,7 +35,7 @@ Značení: multiplikativní a aditivní značení inverzních prvků
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125153949.png)
-
+<!--ID: 1735205749415-->
 END
 
 ---
@@ -51,7 +50,7 @@ Jak funguje Cayleyova tabulka?
 
 Back:
 
-Mám grupu, zachytím výsledky binární operace do tabulky.
+Mám **grupu** a zachytím výsledky té binární operace $\circ$ do tabulky.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241125154217.png)
@@ -60,7 +59,7 @@ Mám grupu, zachytím výsledky binární operace do tabulky.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125154232.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749417-->
 END
 
 ---
@@ -73,13 +72,12 @@ Jak se z Cayleyovy tabulky pozná **uzavřenost**?
 
 Back:
 
-Nadpisy řádků a sloupců jsou stejné a v tabulce vidím pouze tato čísla.
+Všechny pole tabulky obsahují prvky z množiny $M$.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125154407.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1735205749420-->
 END
 
 ---
@@ -91,13 +89,12 @@ Jak se z Cayleyovy tabulky pozná **asociativita**?
 
 Back:
 
-Z tabulky nepoznáme :)
+Z tabulky nepoznáme, musíme si vypsat všechny trojice prvků a ověřit to manuálně.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125154415.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1735205749422-->
 END
 
 ---
@@ -111,12 +108,14 @@ Back:
 
 V "jeho" řádcích a sloupcích se přesně opakují označení řádku a sloupce tabulky.
 
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020241226114417.png)
+<!-- ImageEnd -->
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125154428.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1735205749425-->
 END
 
 ---
@@ -130,6 +129,12 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241125154446.png)
 
+<!-- ExampleStart -->
+Např. zde máme neutrální prvek $0$ a pro $3$ bude zde inverzní prvek $1$
+![](../../Assets/Pasted%20image%2020241226114547.png)
+<!-- ExampleEnd -->
+
+<!--ID: 1735205749428-->
 END
 
 ---
@@ -137,12 +142,12 @@ END
 START
 FIT-Card
 
-Jak se z Cayleyovy tabulky pozná **komutativitu**?
+Jak se z Cayleyovy tabulky pozná **komutativita**?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125154603.png)
-
+<!--ID: 1735205749430-->
 END
 
 ---
@@ -160,8 +165,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241125154809.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749433-->
 END
 
 ---
@@ -179,8 +183,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241125154755.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749435-->
 END
 
 ---
@@ -203,7 +206,7 @@ Orientovaný graf, kde operace jsou hrany
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241125155229.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205749437-->
 END
 
 ---
@@ -217,7 +220,7 @@ Definice: Podgrupa
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125160404.png)
-
+<!--ID: 1735205749440-->
 END
 
 ---
@@ -231,7 +234,7 @@ Definice: triviální a vlastní podgrupy
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125160629.png)
-
+<!--ID: 1735205749442-->
 END
 
 ---
@@ -249,7 +252,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241125161203.png)
 <!-- ProofEnd -->
-
+<!--ID: 1735205749445-->
 END
 
 ---
@@ -267,8 +270,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241125161245.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749447-->
 END
 
 ---
@@ -277,17 +279,12 @@ END
 START
 FIT-Card
 
-Definice: Řád grupy
+Definice: **Řád grupy**
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125161306.png)
-
-<!-- ExampleStart -->
-![](../../Assets/Pasted%20image%2020241125161314.png)
-<!-- ExampleEnd -->
-
-
+<!--ID: 1735205749450-->
 END
 
 ---
@@ -296,12 +293,16 @@ END
 START
 FIT-Card
 
-Věta: Lagrangeova
+Věta: **Lagrangeova**
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125161335.png)
 
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020241125161314.png)
+<!-- ExampleEnd -->
+<!--ID: 1735205749452-->
 END
 
 ---
@@ -315,7 +316,7 @@ Věta: Sylowova
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125161906.png)
-
+<!--ID: 1735205749454-->
 END
 
 ---
@@ -330,11 +331,21 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241125161945.png)
 
+$⟨N⟩$ je průnik všech podgrup $G$, které obsahují $N$
+
+<!-- ExplanationStart -->
+$N$ je nějaká podgrupa
+$⟨N⟩$ je průnik všech podgrup, které obsahují $N$
+Věta nám pak říká, že $⟨N⟩$ **je také podgrupou**.
+
+![](../../Assets/Pasted%20image%2020241226133334.png)
+<!-- ExplanationEnd -->
+
+
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241125161952.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749457-->
 END
 
 ---
@@ -352,12 +363,10 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241125162047.png)
 
-
-
+<!--ID: 1735205749459-->
 END
 
 ---
-
 
 START
 FIT-Card
@@ -371,8 +380,7 @@ Back:
 <!-- InformallySaidStart -->
 Vezmu všechny prvky z množiny N a nakombinuju je tak, abych si byl jistý, že tam všechno co potřebuju včetně těch inverzních prvků (proto tam je $\mathbb{Z}$).
 <!-- InformallySaidEnd -->
-
-
+<!--ID: 1735205749462-->
 END
 
 ---
@@ -385,7 +393,7 @@ Věta: jak generovat $\mathbb{Z}_n^+$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125162851.png)
-
+<!--ID: 1735205749464-->
 END
 
 ---

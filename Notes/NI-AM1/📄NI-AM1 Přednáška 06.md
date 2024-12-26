@@ -37,7 +37,6 @@ To, že server může poslat response klientovi, aniž by klient poslal request.
 <!-- DetailInfoStart -->
 Mometálně se to moc nepoužívá kvůli výkonu
 <!-- DetailInfoEnd -->
-
 <!--ID: 1731175818739-->
 END
 
@@ -81,7 +80,6 @@ method uri http-version <crlf>
 Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku) 
 ![](../../Assets/Pasted%20image%2020241104094028.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1731175818744-->
 END
 
@@ -142,7 +140,6 @@ Pro úvodní načtení průměrně 90 requestů.
 - CSS - 5 requestů
 - Other - 5 requestů
 <!-- DetailInfoEnd -->
-
 <!--ID: 1731175818752-->
 END
 
@@ -228,7 +225,6 @@ Ta tabulka je uložena v paměti (RAMce). Když vypadne server, tak se zruší v
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241104102716.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1731175818762-->
 END
 

@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska13 status-toReview
+FILE TAGS: NI-MPI prednaska13 status-toReview algebra3
 
 
 START
@@ -16,7 +16,7 @@ Co platí pro inverzní prvek generátoru grupy?
 Back:
 
 je také generátor
-
+<!--ID: 1735205749355-->
 END
 
 ---
@@ -25,12 +25,34 @@ END
 START
 FIT-Card
 
-Definice: řád prvku grupy
+Definice: řád prvku grupy ($\text{ord}(g)$)
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127130510.png)
 
+<!-- InformallySaidStart -->
+Jinými slovy řád prvku mi říká, kolikrát musím prvek "umocnit", abych dostal neutrální prvek.
+<!-- InformallySaidEnd -->
+<!--ID: 1735205749357-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: Cyklická grupa
+
+Back:
+
+![](../../Assets/Pasted%20image%2020241226141743.png)
+
+<!-- InformallySaidStart -->
+Jinými slovy, pokud má grupa generátor, je cyklická.
+<!-- InformallySaidEnd -->
+<!--ID: 1735219298335-->
 END
 
 ---
@@ -48,8 +70,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241127130603.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1735205749360-->
 END
 
 ---
@@ -68,7 +89,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127131625.png)
 ![](../../Assets/Pasted%20image%2020241127131630.png)
 <!-- ProofEnd -->
-
+<!--ID: 1735205749362-->
 END
 
 ---
@@ -86,8 +107,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127132235.png)
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1735205749365-->
 END
 
 ---
@@ -101,7 +121,7 @@ Kolik generátorů má grupa $\mathbb{Z}_p^\times$, kde $p$ je prvočíslo?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127132308.png)
-
+<!--ID: 1735205749367-->
 END
 
 ---
@@ -119,8 +139,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241127132335.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749370-->
 END
 
 ---
@@ -138,8 +157,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241127132421.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749372-->
 END
 
 ---
@@ -154,6 +172,12 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241127132436.png)
 
+<!-- DetailInfoStart -->
+Je to důsledek (jakoby konkrétnější případ) této věty:
+![](../../Assets/Pasted%20image%2020241127132413.png)
+<!-- DetailInfoEnd -->
+
+<!--ID: 1735205749375-->
 END
 
 ---
@@ -174,10 +198,79 @@ Back:
 Homomorfismus = je jedno jeslti operaci provedu v definičním oboru nebo v tom obrazu
 Izomorfismus = je navíc bijekcí
 <!-- InformallySaidEnd -->
-
+<!--ID: 1735205749377-->
 END
 
 ---
+
+
+START
+FIT-Card
+
+Definice: **monomorfismus**
+
+Back:
+
+Homomorfismus, který je **injektivní**.
+
+<!-- ExplanationStart -->
+Připomenutí (neformálně): $A \rightarrow B$
+Injektivní znamená, že každý prvek z $A$ se zobrazí na jiný prvek z $B$.
+
+($x \neq x' \implies f(x) \neq f(x')$)
+
+![](../../Assets/Pasted%20image%2020241226152740.png)
+
+<!-- ExplanationEnd -->
+<!--ID: 1735223297369-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **epimorfismus**
+
+Back:
+
+Homomorfismus, který je **surjektivní**.
+
+<!-- ExplanationStart -->
+Připomenutí (neformálně): $A \rightarrow B$
+Surjektivní znamená, že zobrazení "pokryje" celou množinu $B$
+
+![](../../Assets/Pasted%20image%2020241226152749.png)
+
+<!-- ExplanationEnd -->
+<!--ID: 1735223297372-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **izomorfismus**
+
+Back:
+
+Homomorfismus, který je **bijektivní**.
+
+<!-- ExplanationStart -->
+Připomenutí (neformálně): $A \rightarrow B$
+Bijektivní znamená, že každému prvku z $A$ odpovídá právě jeden prvek z množiny $B$ (neboli je injektivní a surjektivní zároveň).
+
+![](../../Assets/Pasted%20image%2020241226152728.png)
+
+<!-- ExplanationEnd -->
+<!--ID: 1735223297374-->
+END
+
+---
+
 
 
 START
@@ -188,7 +281,7 @@ Definice: izomorfní grupy
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127135144.png)
-
+<!--ID: 1735205749379-->
 END
 
 ---
@@ -206,8 +299,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241127135251.png)
 <!-- ProofEnd -->
-
-
+<!--ID: 1735205749382-->
 END
 
 ---

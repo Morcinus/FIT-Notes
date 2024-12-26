@@ -17,7 +17,7 @@ Jaká je max délka sprintu ve Scrumu?
 Back:
 
 Max měsíc. pak už to není agilní
-
+<!--ID: 1735205748801-->
 END
 
 ---
@@ -43,7 +43,7 @@ Back:
 	- Např. málo kafe, stories byly přepálený, blbě naplánovaný story pointy atd.
 
 Tímto procesem se dělají postupné inkrementy.
-
+<!--ID: 1735205748805-->
 END
 
 ---
@@ -63,7 +63,7 @@ Např. když je sprint 2 týdenní, tak dává smysl to mít třeba 3x týdně.
 <!-- DetailInfoStart -->
 Díky tomu to pomůže scrum masterovi mít přehled o stavu projektu a členům týmu to umožní mít přehled o tom, co dělají ostatní 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748807-->
 END
 
 ---
@@ -78,7 +78,7 @@ Back:
 
 - Každý by měl mít slovo tak 2 min max
 - Celkem by meeting měl trvat třeba 15m max
-
+<!--ID: 1735205748810-->
 END
 
 ---
@@ -92,7 +92,7 @@ Co má každý říct při scrum standupu?
 Back:
 
 Co jsem dělal včera, co budu dělat dneska, jaký mám problém
-
+<!--ID: 1735205748813-->
 END
 
 ---
@@ -108,7 +108,7 @@ Back:
 Nemělo by se to řešit na tom meetingu!
 
 Měl by to pak manager sám vyřešit
-
+<!--ID: 1735205748815-->
 END
 
 ---
@@ -134,7 +134,7 @@ I v agilitě je třeba zafixovat požadavky (minimálně ty core funkcionality).
 
 Pozn. change management je zaznamenaný v ČSN ISO 10 007 (směrnice managementu konfigurace)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748818-->
 END
 
 ---
@@ -148,7 +148,7 @@ Je agilita rychlejší než waterfall?
 Back:
 
 Ne, je to cca stejně rychlý, jen to je jinak poskládaný.
-
+<!--ID: 1735205748821-->
 END
 
 ---
@@ -164,7 +164,7 @@ Back:
 Protože můžu pak člověku dát hodinovku a odhad ceny té změny a zákazník si to může měnit jak chce.
 
 Když mám fixed time fixed price, je tam dost stres, aby se to stihlo atd., takže jakákoliv změna je pain.
-
+<!--ID: 1735205748823-->
 END
 
 ---
@@ -180,7 +180,7 @@ Back:
 1. **Identifikace změny**
 2. **Implementace schválené změny**
 3. **Ukončení**
-
+<!--ID: 1735205748826-->
 END
 
 ---
@@ -200,7 +200,7 @@ Back:
 Pro tip: literally si zapisovat do tabulky "dobré skutky", co jsme udělali klientovi. Když s ním pak debatuju, můžu mu říct, co jsem pro něj udělal a aby udělal něco pro mě.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205748829-->
 END
 
 ---
@@ -221,7 +221,7 @@ Tím pokryju ty věci jako:
 - spálený čas tím, že dělám nabídky, které nejsou přijmuty
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205748832-->
 END
 
 ---
@@ -237,7 +237,7 @@ Back:
 Information Technology Infrastructure Library
 - veřejně dostupný standard
 - informace a best practices o tom, jak správně řídit služby a operation, change management, stategy management atd.
-
+<!--ID: 1735205748834-->
 END
 
 ---
@@ -254,7 +254,7 @@ Back:
 - Změny jsou analyzovány a plánovány bez účasti pracovníků, kteří budou změny zavádět - měl by o tom vědět ten tým hned na začátku. Ne až po domluvě se zákazníkem
 - O změně nejsou včas informováni lidé pracující na projektu
 - Změna není schválena odpovědným orgánem (projektový manažer změnu nepředloží ke schválení)
-
+<!--ID: 1735205748837-->
 END
 
 ---
@@ -279,7 +279,7 @@ Na různé části projektu mám různé peníze:
 Když se škrtají peníze, tak se nedá moc škrtat provoz.
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748839-->
 END
 
 ---
@@ -296,7 +296,7 @@ Back:
 
 - dobře sepsané cíle projektu
 - dobře udělaná analýza
-
+<!--ID: 1735205748842-->
 END
 
 ---
@@ -313,7 +313,7 @@ Back:
 - kvalita produktu projektu
 	- u každé story by měly být sepsaný akceptační kritéria - díky tomu vím, co přesně musím splnit
 		- např. prostě zadání z use casu
-
+<!--ID: 1735205748844-->
 END
 
 ---
@@ -327,7 +327,7 @@ Podle čeho je specifikována kvalita?
 Back:
 
 Hodně podle ISO norem. Např. ISO 10 004 atd. Můžu si najít další.
-
+<!--ID: 1735205748847-->
 END
 
 ---
@@ -348,7 +348,7 @@ Total Quality Management
 ![](../../Assets/Pasted%20image%2020241127104234.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205748849-->
 END
 
 ---
@@ -362,7 +362,7 @@ Je TQM v rámci projektu nebo firmy?
 Back:
 
 V rámci celé firmy, není to jen testování softwaru.
-
+<!--ID: 1735205748852-->
 END
 
 ---
@@ -384,7 +384,7 @@ Back:
 	- Koordinace postupů podle plánu řízení kvality
 - **Kontrola kvality**
 	- Inspekce, měření a audity kvality
-
+<!--ID: 1735205748855-->
 END
 
 ---
@@ -404,7 +404,7 @@ Back:
 - **Kontrola kvality** - monitorování, identifikace problémů, zvýšení efektivnosti procesů atd.
 - **Audit kvality** - nezávislé ověření kvality, např aby člověk splňoval certifikace, chodí na to kontroly
 - **Programový plán kvality tvořen manažerem projektu**
-
+<!--ID: 1735205748857-->
 END
 
 ---
@@ -420,7 +420,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241218101738.png)
 
 ![](../../Assets/Pasted%20image%2020241218101906.png)
-
+<!--ID: 1735205748860-->
 END
 
 ---
@@ -438,7 +438,7 @@ Podle ISO norem, jsou placné..
 U softwarových projektů se to používá jak kdy.. Např. u medicíny nebo projektování baráků to je víc
 
 ![](../../Assets/Pasted%20image%2020241218101916.png)
-
+<!--ID: 1735205748863-->
 END
 
 ---
@@ -462,7 +462,7 @@ Back:
 
 
 
-
+<!--ID: 1735205748865-->
 END
 
 ---
@@ -483,7 +483,7 @@ Back:
 - **C chyby** - drobné chyby - UI
 
 Mělo by to být přesně ve smlouvě, co je co.
-
+<!--ID: 1735205748868-->
 END
 
 ---
@@ -499,7 +499,7 @@ Back:
 **Monkey testing** = člověk si spustí aplikaci na náhodně si tam kliká
 
 Chyba: nemělo by se to používat jako akceptační testy, protože pak si tam zákazník navymýšlí hromadu chyb a změn atd.
-
+<!--ID: 1735205748871-->
 END
 
 ---
@@ -513,7 +513,7 @@ Jaké jsou nejčastější chyby při testování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241218102711.png)
-
+<!--ID: 1735205748873-->
 END
 
 ---
@@ -527,7 +527,7 @@ Kdy testovat automatizovaně?
 Back:
 
 Např. signup page se bude testovat při každém releasu, je dobrý to testovat automatizovaně. 
-
+<!--ID: 1735205748876-->
 END
 
 ---
@@ -544,7 +544,7 @@ Back:
 - dokument, do kterého si testeří píšou svoje návrhy na testy, které by stálo za to udělat
 - Testovací nápady jsou rozdělené do kategorií
 - Testeři tak mají velký pool nápadů, kam můžou psát nápady na věci, co je třeba u každého use casu otestovat (např. dělení nulou atd.)
-
+<!--ID: 1735205748879-->
 END
 
 ---

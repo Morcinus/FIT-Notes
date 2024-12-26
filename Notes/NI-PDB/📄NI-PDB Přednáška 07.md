@@ -30,7 +30,7 @@ Zatímco v XML musím udělat:
 <movie>Medvídek</movie>
 ```
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748949-->
 END
 
 ---
@@ -55,7 +55,7 @@ Splňuje pravidla, že všechny tagy jsou uzavřené.
 <movie>Medvídek
 ```
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748952-->
 END
 
 ---
@@ -69,7 +69,7 @@ Na co se používají escape sequences v XML?
 Back:
 
 Typicky např. na `<`, `>`, `"`,...
-
+<!--ID: 1735205748954-->
 END
 
 ---
@@ -86,7 +86,7 @@ Back:
 - SVG
 - SOAP
 - XHTML atd.
-
+<!--ID: 1735205748957-->
 END
 
 ---
@@ -106,7 +106,7 @@ Začíná lomítkem
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241114102046.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205748960-->
 END
 
 ---
@@ -120,7 +120,7 @@ Co je XDM?
 Back:
 
 Sjednocení data modelu XQuery a XPath
-
+<!--ID: 1735205748962-->
 END
 
 ---
@@ -139,7 +139,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241114102046.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205748965-->
 END
 
 ---
@@ -164,7 +164,7 @@ Může být
 
 ![](../../Assets/Pasted%20image%2020241114102521.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748968-->
 END
 
 ---
@@ -178,7 +178,7 @@ Co je výsledkem XPath výrazu aplikovaného na XML dokument?
 Back:
 
 **Sekvence**
-
+<!--ID: 1735205748970-->
 END
 
 ---
@@ -203,7 +203,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241114102642.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748973-->
 END
 
 ---
@@ -220,7 +220,7 @@ Back:
 2. Potom to vyhodnotí první krok na té cestě, do kontextu to něco dá
 3. Potom na základě kontextu to vyhodnotí další věc
 4. Výsledkem celého dotazu je to, co je v kontextu
-
+<!--ID: 1735205748975-->
 END
 
 ---
@@ -241,7 +241,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114103129.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205748978-->
 END
 
 ---
@@ -272,7 +272,7 @@ Tento obrázek to hezky ukazuje:
 
 
 
-
+<!--ID: 1735205748981-->
 END
 
 ---
@@ -297,7 +297,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114103610.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205748984-->
 END
 
 ---
@@ -319,7 +319,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114103912.png)
 ![](../../Assets/Pasted%20image%2020241114103916.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748987-->
 END
 
 ---
@@ -344,7 +344,7 @@ Do hranatých závorek napíšu nějakou podmínku.
 ![](../../Assets/Pasted%20image%2020241114104059.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748989-->
 END
 
 ---
@@ -367,7 +367,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114104106.png)
 ![](../../Assets/Pasted%20image%2020241114104112.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748992-->
 END
 
 ---
@@ -396,7 +396,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114104756.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205748994-->
 END
 
 ---
@@ -425,7 +425,7 @@ Podmínka se vyhodnotí jako **true**, když najdeme alespoň jednu kombinaci el
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241114104756.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205748997-->
 END
 
 ---
@@ -447,7 +447,7 @@ Vyhodnocují se pouze singleton sequence. U ostatních to hodí error
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241114105214.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205748999-->
 END
 
 ---
@@ -474,7 +474,7 @@ Konkrétně:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241114105713.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749002-->
 END
 
 ---
@@ -489,7 +489,7 @@ Back:
 
 - **XPath** - jazyk který aplikujeme na XML dokument a on nám vrátí sekvenci elementů
 - **XQuery** - XPath + další rozšíření navíc
-
+<!--ID: 1735205749004-->
 END
 
 ---
@@ -515,7 +515,7 @@ Back:
 	- `and, or, not`
 - **Primary** expressions
 	- **constructors**, literals, variable references, function calls,...
-
+<!--ID: 1735205749007-->
 END
 
 ---
@@ -534,7 +534,7 @@ Můžeme vytvářet **nové nodes** a obalovat tak například výstupy z XPath.
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749009-->
 END
 
 ---
@@ -563,7 +563,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114110450.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749012-->
 END
 
 ---
@@ -583,7 +583,7 @@ Používá se
 - **jq** - jako XPath v command lině (je to fakt super)
 
 Existuje i JSONiq, což je něco jako XQuery pro JSON, ale je to hodně specifický use case a tolik se to nepoužívá.
-
+<!--ID: 1735205749014-->
 END
 
 ---
@@ -614,7 +614,7 @@ Umožňují mi dělat `for, let, where, orderby, return`
 ![](../../Assets/Pasted%20image%2020241114111459.png)
 ![](../../Assets/Pasted%20image%2020241114111505.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749017-->
 END
 
 ---
@@ -628,7 +628,7 @@ Jak fungují **conditional expressions** v XQuery?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241114111617.png)
-
+<!--ID: 1735205749023-->
 END
 
 ---
@@ -646,7 +646,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241114112002.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749028-->
 END
 
 ---
@@ -663,7 +663,7 @@ Používá se XQuery na velké databáze?
 Back:
 
 Ne, spíš se používá pro XML dokumenty.
-
+<!--ID: 1735205749030-->
 END
 
 ---

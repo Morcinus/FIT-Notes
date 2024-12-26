@@ -21,7 +21,7 @@ Back:
 - **Typ 1** - $D = \set {(x,y) \in \mathbb{R}^2: x \in <a,b> \land \varphi_1(\lambda) \leq y \leq \varphi_2(\lambda)}$
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205889362-->
 END
 
 ---
@@ -42,7 +42,7 @@ Máme nějaký tvar na 2D ploše a chceme spočíst objem toho tělesa od té ro
 ![](../../Assets/Pasted%20image%2020241023151316.png)
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205889366-->
 END
 
 ---
@@ -73,8 +73,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241023150357.png)
 
 <!-- ExampleEnd -->
-
-
+<!--ID: 1735205889369-->
 END
 
 ---
@@ -89,7 +88,7 @@ Jak lze spočíst povrch grafu $f(x,y)$ nad $D$?
 Back:
 
  ![](../../Assets/Pasted%20image%2020241023150357.png)
-
+<!--ID: 1735205889372-->
 END
 
 ---
@@ -108,7 +107,7 @@ Analogicky jako dvojný integrál.
 ![](../../Assets/Pasted%20image%2020241023150507.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205889374-->
 END
 
 ---
@@ -130,7 +129,7 @@ Každému vektoru se přiřadá nějaká matice.
 ![](../../Assets/Pasted%20image%2020241023154135.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205889377-->
 END
 
 ---
@@ -148,7 +147,7 @@ Back:
 <!-- ExplanationStart -->
 Může se stát, že ta část napravo se počítá jednoduššeji, než ta část nalevo. Proto se to používá.
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205889380-->
 END
 
 ---

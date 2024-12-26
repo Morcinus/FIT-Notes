@@ -16,7 +16,7 @@ Jak obecně funguje key-value data model?
 Back:
 
 Mám klíč (id) a pomocí něho přistupuju k value.
-
+<!--ID: 1735205749033-->
 END
 
 ---
@@ -31,7 +31,7 @@ Back:
 
 - real-world identifikátory - email, login name atd.
 - automaticky generované - např. auto increment
-
+<!--ID: 1735205749035-->
 END
 
 ---
@@ -45,7 +45,7 @@ Co je expirace key v key-value databázi?
 Back:
 
 Můžu danému key nastavit expiraci. Po vypršení expirace se objekt automaticky smaže.
-
+<!--ID: 1735205749038-->
 END
 
 ---
@@ -59,7 +59,7 @@ Jaký je například key-value store?
 Back:
 
 RiakKV (tím se zde zabýváme)
-
+<!--ID: 1735205749041-->
 END
 
 ---
@@ -77,7 +77,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127173101.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749043-->
 END
 
 ---
@@ -91,7 +91,7 @@ Co je bucket type v key-value databázi?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127173128.png)
-
+<!--ID: 1735205749045-->
 END
 
 ---
@@ -105,7 +105,7 @@ Co je bucket v key-value databázi?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127173142.png)
-
+<!--ID: 1735205749048-->
 END
 
 ---
@@ -119,7 +119,7 @@ Co je objekt v key-value databázi?
 Back:
 
 Key-value pár.
-
+<!--ID: 1735205749050-->
 END
 
 ---
@@ -133,7 +133,7 @@ Co bývá u objektů uloženo v key-value databázi kromě key-value?
 Back:
 
 metadata (např. MIME - content type)
-
+<!--ID: 1735205749053-->
 END
 
 ---
@@ -153,7 +153,7 @@ Single bucket - vše v jednom. Zde se potom typicky před klíč dává typ toho
 ![](../../Assets/Pasted%20image%2020241127173418.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749055-->
 END
 
 ---
@@ -169,7 +169,7 @@ Pomocí čeho se komunikuje s Riak databází?
 Back:
 
 Hlavně pomocí **HTTP API**
-
+<!--ID: 1735205749057-->
 END
 
 ---
@@ -187,7 +187,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127173724.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749060-->
 END
 
 ---
@@ -205,7 +205,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127173724.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749062-->
 END
 
 ---
@@ -223,7 +223,7 @@ GET
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127173833.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749065-->
 END
 
 ---
@@ -241,7 +241,7 @@ DELETE
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127173904.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749068-->
 END
 
 ---
@@ -260,7 +260,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127174019.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749070-->
 END
 
 ---
@@ -280,7 +280,7 @@ Pozn. tenhle JSON může být dost obrovskej.
 ![](../../Assets/Pasted%20image%2020241127174114.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749072-->
 END
 
 ---
@@ -303,7 +303,7 @@ Pomocí GET, PUT, DELETE  na `/buckets/[:bucket]/props`
 ![](../../Assets/Pasted%20image%2020241127174247.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749075-->
 END
 
 ---
@@ -326,7 +326,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127174416.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749077-->
 END
 
 ---
@@ -340,7 +340,7 @@ Jaký typ systému je Riak?
 Back:
 
 AP systém -> mohou vznikat konflikty
-
+<!--ID: 1735205749080-->
 END
 
 ---
@@ -355,7 +355,7 @@ Back:
 
 Convergent Replicated Data Types
 - Zavedeme datové typy a konkrétní povolené operace a v případě konfliktů jak se to má resolvenout
-
+<!--ID: 1735205749082-->
 END
 
 ---
@@ -369,7 +369,7 @@ Jaké CRDT typy implementuje Riak?
 Back:
 
 Counter, set, map, register, flag,...
-
+<!--ID: 1735205749084-->
 END
 
 ---
@@ -393,7 +393,7 @@ Konvergenční pravidlo:
 ![](../../Assets/Pasted%20image%2020241127174746.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749087-->
 END
 
 ---
@@ -415,7 +415,7 @@ Konvergenční pravidlo:
 ![](../../Assets/Pasted%20image%2020241127174937.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749089-->
 END
 
 ---
@@ -437,7 +437,7 @@ Konvergenční pravidlo:
 ![](../../Assets/Pasted%20image%2020241127174928.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749092-->
 END
 
 ---
@@ -459,7 +459,7 @@ Konvergenční pravidlo:
 ![](../../Assets/Pasted%20image%2020241127175049.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749094-->
 END
 
 ---
@@ -481,7 +481,7 @@ Konvergenční pravidlo:
 ![](../../Assets/Pasted%20image%2020241127175116.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749097-->
 END
 
 ---
@@ -504,7 +504,7 @@ Pomocí `/types/[:type]/buckets/[:bucket]/datatypes/[:key]`
 ![](../../Assets/Pasted%20image%2020241127175354.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749099-->
 END
 
 ---
@@ -520,7 +520,7 @@ Co je Search 2.0 v Riaku?
 Back:
 
 Možnost vyrobit si full-text indexy.
-
+<!--ID: 1735205749102-->
 END
 
 ---
@@ -540,7 +540,7 @@ Když se pak dotazuju, Solr mi vrátí danou response
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127175627.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749104-->
 END
 
 ---
@@ -560,7 +560,7 @@ Např. JSON extractor je parser pro JSON
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127175727.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749107-->
 END
 
 ---
@@ -582,7 +582,7 @@ Data se ukládají jako text. To samé funguje např. pro JSON nebo XML.
 ![](../../Assets/Pasted%20image%2020241127175828.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749109-->
 END
 
 ---
@@ -605,7 +605,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127175939.png)
 ![](../../Assets/Pasted%20image%2020241127180056.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749112-->
 END
 
 ---
@@ -631,7 +631,7 @@ Jak pak vypadá search request:
 ![](../../Assets/Pasted%20image%2020241127180420.png)
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749115-->
 END
 
 ---
@@ -652,7 +652,7 @@ je to AP systém (tedy availability + partition tolerance)
 ![](../../Assets/Pasted%20image%2020241127180532.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749117-->
 END
 
 ---
@@ -678,7 +678,7 @@ Podle toho se umisťují repliky záznamů tak, aby byl rovnoměrně rozdělené
 ![](../../Assets/Pasted%20image%2020241127180601.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205749119-->
 END
 
 ---
@@ -694,7 +694,7 @@ Jaký je například databázový engine pro wide column databáze?
 Back:
 
 Cassandra
-
+<!--ID: 1735205749122-->
 END
 
 ---
@@ -708,7 +708,7 @@ Co je obecně pointa wide column databáze?
 Back:
 
 Je to databáze určená pro velké množství dat a pro velký množství uživatelských přístupů.
-
+<!--ID: 1735205749125-->
 END
 
 ---
@@ -728,7 +728,7 @@ Tabulka, která je kolekcí **podobných řádek**
 ![](../../Assets/Pasted%20image%2020241127182325.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749127-->
 END
 
 ---
@@ -748,7 +748,7 @@ Každý má row key
 ![](../../Assets/Pasted%20image%2020241127182256.png)
 ![](../../Assets/Pasted%20image%2020241127182325.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749130-->
 END
 
 ---
@@ -769,7 +769,7 @@ Pozn. hodnoty zde mohou být i např. sets, lists, maps. Nemusí to být atomick
 ![](../../Assets/Pasted%20image%2020241127182256.png)
 ![](../../Assets/Pasted%20image%2020241127182325.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749132-->
 END
 
 ---
@@ -792,7 +792,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127181500.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749135-->
 END
 
 ---
@@ -810,7 +810,7 @@ Všechno možný - text, integers, lists, tuples, maps, sets atd.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127182204.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749137-->
 END
 
 ---
@@ -829,7 +829,7 @@ Např. time to live, timestamps atd.
 ![](../../Assets/Pasted%20image%2020241127182432.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749140-->
 END
 
 ---
@@ -845,7 +845,7 @@ Jaké jsou jazyky pro komunikaci s Cassandrou?
 Back:
 
 Jazyk **CQL** a command line shell **CQLSH**
-
+<!--ID: 1735205749142-->
 END
 
 ---
@@ -867,7 +867,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127182644.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749145-->
 END
 
 ---
@@ -889,7 +889,7 @@ Na rozdíl od SQL musím specifikovat **primární klíč** té tabulky.
 ![](../../Assets/Pasted%20image%2020241127182722.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749147-->
 END
 
 ---
@@ -905,7 +905,7 @@ Back:
 - **Primární klíče**
 	- **Partition key** - aspoň jeden sloupeček
 	- **Clustering columns** -
-
+<!--ID: 1735205749150-->
 END
 
 ---
@@ -919,7 +919,7 @@ Mohu v Cassandře dělat JOINy?
 Back:
 
 Ne. V Cassandře se můžu dotazovat jen nad jednou tabulkou.
-
+<!--ID: 1735205749152-->
 END
 
 ---
@@ -939,7 +939,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208130222.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749154-->
 END
 
 ---
@@ -958,7 +958,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208130619.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749157-->
 END
 
 ---
@@ -975,7 +975,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208130701.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749160-->
 END
 
 ---
@@ -994,7 +994,7 @@ Pomocí `{}`
 ![](../../Assets/Pasted%20image%2020241208130645.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749163-->
 END
 
 ---
@@ -1013,7 +1013,7 @@ Pomocí `{}`
 ![](../../Assets/Pasted%20image%2020241208130726.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749165-->
 END
 
 ---
@@ -1042,7 +1042,7 @@ WHERE ...
 ![](../../Assets/Pasted%20image%2020241208130832.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749167-->
 END
 
 ---
@@ -1056,7 +1056,7 @@ Co je TTL v Cassandře?
 Back:
 
 Můžu to nastavit u daného řádku, říká mi, po jaké době se má záznam smazat.
-
+<!--ID: 1735205749170-->
 END
 
 ---
@@ -1083,7 +1083,7 @@ WHERE ...
 ![](../../Assets/Pasted%20image%2020241208131513.png)
 ![](../../Assets/Pasted%20image%2020241208131517.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749172-->
 END
 
 ---

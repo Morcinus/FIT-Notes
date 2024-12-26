@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska15 status-toReview
+FILE TAGS: NI-MPI prednaska15 status-toReview algebra4
 
 
 START
@@ -18,7 +18,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221092619.png)
 
 Pozor, největší společný dělitel $h(x)$ není jednoznačný, těch polynomů může být více.
-
+<!--ID: 1735205749305-->
 END
 
 ---
@@ -37,7 +37,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221092340.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749307-->
 END
 
 ---
@@ -51,7 +51,7 @@ Jak najdu Bezoutovy koeficiety u $\gcd(f(x), g(x))$?
 Back:
 
 Pustím na to rozšířený Eukleidův algoritmus.
-
+<!--ID: 1735205749310-->
 END
 
 ---
@@ -71,7 +71,7 @@ Kořen = když to dosadím, tak se polynom bude rovnat nule.
 ![](../../Assets/Pasted%20image%2020241221093714.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749312-->
 END
 
 ---
@@ -98,7 +98,7 @@ $x^2-10$ nad $\mathbb{Q}$ - nevyrobím dva polynomy tak, aby to byl součin dvou
 Např. nad $\mathbb{R}$ není ireducibilní.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749315-->
 END
 
 ---
@@ -116,7 +116,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221092443.png)
 ![](../../Assets/Pasted%20image%2020241221094415.png)
 
-
+<!--ID: 1735205749317-->
 END
 
 ---
@@ -141,7 +141,7 @@ $\mathbb{Z}_p$ kde $p$ je prvočíslo je např. konečné těleso, se kterým ne
 ![](../../Assets/Pasted%20image%2020241221092516.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749320-->
 END
 
 ---
@@ -160,7 +160,7 @@ Ne! Jakmile $n$ není prvočíslo, potom $\mathbb{Z}_n$ nemůže být těleso.
 ![](../../Assets/Pasted%20image%2020241221095323.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749322-->
 END
 
 ---
@@ -179,7 +179,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221101100.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1735205749325-->
 END
 
 ---
@@ -210,7 +210,7 @@ Hledám $h(x)^{-1}, h(x) \in F$
 ![](../../Assets/Pasted%20image%2020241221100849.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749327-->
 END
 
 ---
@@ -225,7 +225,7 @@ Back:
 
 Najdu jeho kořen.
 
-
+<!--ID: 1735205749330-->
 END
 
 ---
@@ -239,7 +239,7 @@ Jak se sčítají polynomy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221101441.png)
-
+<!--ID: 1735205749332-->
 END
 
 ---
@@ -257,7 +257,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221101455.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749335-->
 END
 
 ---
@@ -271,7 +271,7 @@ Věta: Řádem konečného tělesa musí být $\dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221102012.png)
-
+<!--ID: 1735205749337-->
 END
 
 ---
@@ -284,7 +284,7 @@ Důsledek: tělesa jakých řádů neexistují? (na tohle se ptají u zkoušky)
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221102416.png)
-
+<!--ID: 1735205749340-->
 END
 
 ---
@@ -298,7 +298,7 @@ Definice: Galoisovo těleso
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221102029.png)
-
+<!--ID: 1735205749342-->
 END
 
 ---
@@ -313,7 +313,7 @@ Back:
 
 - Aditivní: $p^n$
 - Multiplikativní: $p^{n}-1$
-
+<!--ID: 1735205749345-->
 END
 
 ---
@@ -328,7 +328,7 @@ Back:
 
 - Aditivní: $0=00\dots 0 = 0^n$
 - Multiplikativní: $00 \dots 1 = 0^{n-1}1$
-
+<!--ID: 1735205749347-->
 END
 
 ---
@@ -343,7 +343,7 @@ Back:
 
 - Aditivní: inverze prvku $b_1b_2 \dots b_n$ je $(p-b_1)(p-b_2) \dots (p-b_n)$
 - Multiplikativní: pomocí EEA v polynomiálním čase
-
+<!--ID: 1735205749350-->
 END
 
 ---
@@ -358,7 +358,7 @@ Back:
 
 - Aditivní: pro $n>1$ není cyklická, platí $\forall v : (p+1) \times v = v$ resp. $p \times v = 0$
 - Multiplikativní: je vždy cyklická
-
+<!--ID: 1735205749352-->
 END
 
 ---

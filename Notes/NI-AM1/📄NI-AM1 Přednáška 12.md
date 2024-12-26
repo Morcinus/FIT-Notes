@@ -28,7 +28,7 @@ Klient tak pošle jeden request na reverzní proxy a proxy pak např. pošle 3 r
 ![](../../Assets/Pasted%20image%2020241220131902.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749881-->
 END
 
 ---
@@ -46,7 +46,7 @@ Když mám servery které nejsou stateless, tak na reverse proxy musím přepos�
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241220131915.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749883-->
 END
 
 ---
@@ -68,7 +68,7 @@ Health checking je obecně důležitý mechanismus. Můžu health měnit i na z�
 ![](../../Assets/Pasted%20image%2020241220133326.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749886-->
 END
 
 ---
@@ -88,7 +88,7 @@ Máme index a seznam serverů. Postupně rozesílám
 	- Pokud tam není, pošlu ho na server podle momentálního indexu a zařadím `sessionId` do `sticky sessions`
 
 ![](../../Assets/Pasted%20image%2020241220134549.png)
-
+<!--ID: 1735205749889-->
 END
 
 ---
@@ -102,7 +102,7 @@ Jaká je nevýhoda Round-Robin algoritmu?
 Back:
 
 Nevím, jak moc jsou servery zatížený. Každý server může být např. jinak silný, co se týče CPU. Round robin tak zatěžuje servery rovnoměrně, což ale není ideální. 
-
+<!--ID: 1735205749891-->
 END
 
 ---
@@ -116,7 +116,7 @@ Co je **Least Connections** algoritmus na load balanceru?
 Back:
 
 Zjistím, jak jsou servery zatížené podle **počtu aktivních requestů**. Např. když nějaký server má 30 aktivních requestů (na které se čeká) a druhý 10, tak to pošlu na ten se 10, protože vím, že ten není tak zatížený.
-
+<!--ID: 1735205749893-->
 END
 
 ---
@@ -130,7 +130,7 @@ Co je **Least Time** algoritmus na load balanceru?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241220134132.png)
-
+<!--ID: 1735205749896-->
 END
 
 ---
@@ -144,7 +144,7 @@ Jaké jsou 3 další možnosti, jak lze vybírat servery na Load Balanceru?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241220134357.png)
-
+<!--ID: 1735205749898-->
 END
 
 ---
@@ -164,7 +164,7 @@ Máme router, který je ve stejné síti jako ty load balancery. Pomocí ARP pro
 
 Díky tomu ARP protokolu se to přepne, když jeden server vypadne.
 
-
+<!--ID: 1735205749901-->
 END
 
 ---
@@ -180,7 +180,7 @@ Back:
 Když mám jeden load balancer, tak mám single point of failure. Proto typicky třeba mám více load balancerů. Potom je ale potřeba tu session neuchovávat na load balanceru.
 
 Proto tu **session** uchovávám někde **jinde**.
-
+<!--ID: 1735205749903-->
 END
 
 ---
@@ -199,7 +199,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241220135717.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749906-->
 END
 
 ---
@@ -221,7 +221,7 @@ Když se zakládá session, zkopíruje se vždy ta informace rovnou k druhému l
 ![](../../Assets/Pasted%20image%2020241220150912.png)
 ![](../../Assets/Pasted%20image%2020241220150906.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749909-->
 END
 
 ---
@@ -238,7 +238,7 @@ Back:
 Využiju to, když:
 1. Něco nefunguje a potřebuju **rychle identifikovat**, kde je problém (např. že je zahlcený spoj s databází)
 2. Typicky se mi třeba postupně něco zpomaluje tím, jak mi narůstají data nebo uživatelé. Já potřebuju mít **historii**, abych mohl sledovat trendy v mé databázi. Pak můžu např. sledovat, že se mi postupně zvyšuje latence. To nejsem schopný zjistit, když nemám dlouhodobý monitoring 
-
+<!--ID: 1735205749911-->
 END
 
 ---
@@ -254,7 +254,7 @@ Back:
 1. **Sběr dat**
 2. **Uložení**
 3. **Zobrazení**
-
+<!--ID: 1735205749914-->
 END
 
 ---
@@ -270,7 +270,7 @@ Back:
 1. **Aplikační server** - log files
 2. **Operační systém** - otevřené sockety, paměť, context switching, I/O performance, CPU usage
 3. **Databáze** - SQL skripty pro sběr metrik
-
+<!--ID: 1735205749916-->
 END
 
 ---
@@ -290,7 +290,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241220153229.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749919-->
 END
 
 ---

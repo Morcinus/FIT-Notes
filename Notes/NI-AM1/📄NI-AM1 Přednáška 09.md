@@ -16,7 +16,7 @@ Jaký je vztah RESTu a HTTP?
 Back:
 
 Protokol HTTP je konkrétní implementací standardu REST.
-
+<!--ID: 1735205749814-->
 END
 
 ---
@@ -35,7 +35,7 @@ Back:
 	- Identifikátor
 	- Data
 	- Metadata
-
+<!--ID: 1735205749817-->
 END
 
 ---
@@ -51,7 +51,7 @@ Back:
 Unified Resource Identifier = identifikuje zdroj
 
 (může být )
-
+<!--ID: 1735205749820-->
 END
 
 ---
@@ -65,7 +65,7 @@ Co je URL?
 Back:
 
 Uniform Resource Locator = identifikuje zdroj + obsahuje jeho lokaci
-
+<!--ID: 1735205749823-->
 END
 
 ---
@@ -79,7 +79,7 @@ Co je URN?
 Back:
 
 Uniform Resource Name = název, který je globálně unikátní
-
+<!--ID: 1735205749825-->
 END
 
 ---
@@ -95,7 +95,7 @@ Jaké jsou části URI?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125122945.png)
-
+<!--ID: 1735205749828-->
 END
 
 ---
@@ -120,7 +120,7 @@ Např. když mám orders, tak se k tomu můžu dostat mnoha způsoby. Tomu se po
 ![](../../Assets/Pasted%20image%2020241125123343.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749830-->
 END
 
 ---
@@ -141,7 +141,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241125123518.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749833-->
 END
 
 ---
@@ -159,7 +159,7 @@ Používá se hash, znamená to "subresource". Díky tomu mohu odkazovat na konk
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125123814.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749836-->
 END
 
 ---
@@ -177,7 +177,7 @@ Back:
 - URI Opacity - když jako součást URI mám i formát
 - Resource versions - když mi URI definuje i verzi toho zdroje
 - Persistent URL - adresa by měla být validní i když zdroj už neexistuje (neměl bych smazat URI, ale třeba přesměrovat člověka na novou URI) 
-
+<!--ID: 1735205749838-->
 END
 
 ---
@@ -200,7 +200,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241125124338.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749841-->
 END
 
 ---
@@ -219,7 +219,7 @@ Např. `text/plain`, `text/html`, `application/json` atd.
 
 `-x` znamená, že to není standard `application/x-latex`. Můžu si tak definovat vlastní hlavičky atd.
 `vnd.` znamená, že si to zadefinovala nějaká společnost `application/vnd.ms-excel` 
-
+<!--ID: 1735205749843-->
 END
 
 ---
@@ -244,7 +244,7 @@ Tzn. když čtu data z REST zdroje, získám tím momentální **stav** toho zdr
 ![](../../Assets/Pasted%20image%2020241125125052.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749846-->
 END
 
 ---
@@ -261,7 +261,7 @@ Back:
 
 - Mám omezené množství operací (POST, GET,...)
 - Operace jsou doménově nezávislé
-
+<!--ID: 1735205749848-->
 END
 
 ---
@@ -295,7 +295,7 @@ Idempotence:
 ![](../../Assets/Pasted%20image%2020241125125930.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749851-->
 END
 
 ---
@@ -317,7 +317,7 @@ Efekt = objednávka neexistuje
 Výsledek = nic jsme nesmazali
 
 Tzn. **idempotence** je závislá na **efektu** a ne na výsledku.
-
+<!--ID: 1735205749854-->
 END
 
 ---
@@ -333,7 +333,7 @@ Back:
 
 - GET, PUT, DELETE jsou idempotentní
 - POST **není** idempotentní!
-
+<!--ID: 1735205749856-->
 END
 
 ---
@@ -358,7 +358,7 @@ Když mám např. formulář a provedu POST, a pak ho vyplním datama, ze server
 Správně by se měl provést POST, v tom by měl být odkaz na zdroj a klient si pak znovu fetchne pomocí GET. Díky tomu se POST provede pouze jednou.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749859-->
 END
 
 ---
@@ -382,7 +382,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241125150154.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749862-->
 END
 
 ---
@@ -403,7 +403,7 @@ Updatuje celý resource.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150145.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749865-->
 END
 
 ---
@@ -421,7 +421,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241125150219.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749867-->
 END
 
 ---
@@ -440,7 +440,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150314.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749870-->
 END
 
 ---
@@ -460,7 +460,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241125150340.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749872-->
 END
 
 ---
@@ -480,7 +480,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241125150802.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749875-->
 END
 
 ---
@@ -506,7 +506,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241125151104.png)
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749877-->
 END
 
 ---

@@ -17,7 +17,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241127151314.png)
 ![](../../Assets/Pasted%20image%2020241127151350.png)
-
+<!--ID: 1735205749650-->
 END
 
 ---
@@ -32,7 +32,7 @@ Jak vypadá proces simulované evoluce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127151531.png)
-
+<!--ID: 1735205749653-->
 END
 
 ---
@@ -49,7 +49,7 @@ Back:
 - Interakce stavů: nový stav je kombinací reprezentací
 - Prostředky diverzifikace: mutace atd.
 - Prostředky intenzifikace: selekce pro rekombinaci, selekce pro další generaci
-
+<!--ID: 1735205749655-->
 END
 
 ---
@@ -64,7 +64,7 @@ Jaká je reprezentace, křížení a mutace u **genetického algoritmu**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127152336.png)
-
+<!--ID: 1735205749658-->
 END
 
 ---
@@ -79,7 +79,7 @@ Back:
 
 Strategie, reprezentace, křížení, mutace:
 ![](../../Assets/Pasted%20image%2020241127152420.png)
-
+<!--ID: 1735205749660-->
 END
 
 ---
@@ -94,7 +94,7 @@ Back:
 
 Strategie, reprezentace, křížení, mutace:
 ![](../../Assets/Pasted%20image%2020241127152444.png)
-
+<!--ID: 1735205749663-->
 END
 
 ---
@@ -109,7 +109,7 @@ Back:
 
 Strategie, reprezentace, křížení, mutace:
 ![](../../Assets/Pasted%20image%2020241127152503.png)
-
+<!--ID: 1735205749665-->
 END
 
 ---
@@ -127,7 +127,7 @@ Back:
 - **náhrada** = nová generace nahradí starou
 - **náhrada s elitismem** = nová generace nahradí starou, ale pár elitních jedinců zůstává
 	- soutěž $\mu$ rodičů a $\lambda$ potomků, vyberu $\mu$ nových jedinců
-
+<!--ID: 1735205749668-->
 END
 
 ---
@@ -150,7 +150,7 @@ Back:
 - evoluční strategie - z rodičů odvodím víc potomků
 - evoluční programování - z rodičů odvodím víc potomků
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749670-->
 END
 
 ---
@@ -168,7 +168,7 @@ Jak se reprezentují jedinci v genetických algoritmech?
 Back:
 
 Kódujou se pomocí binárního řetězce.
-
+<!--ID: 1735205749673-->
 END
 
 ---
@@ -187,7 +187,7 @@ Vezmu si bod v binární reprezentaci a vezmu jednu část z jednoho jedince a d
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127153426.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749675-->
 END
 
 ---
@@ -206,7 +206,7 @@ Náhodně zvolím dva body a mezi nimi tam vložím gen druhého jedince
 ![](../../Assets/Pasted%20image%2020241127153504.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749678-->
 END
 
 ---
@@ -224,7 +224,7 @@ Udělám si mapu, co budu brát ze kterého jedince.
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127153749.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749680-->
 END
 
 ---
@@ -251,7 +251,7 @@ Zde:
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749683-->
 END
 
 ---
@@ -265,7 +265,7 @@ Jak funguje inverze v genetice?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127154327.png)
-
+<!--ID: 1735205749685-->
 END
 
 ---
@@ -286,7 +286,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127154527.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749688-->
 END
 
 ---
@@ -308,7 +308,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127154658.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749690-->
 END
 
 ---
@@ -327,7 +327,7 @@ Selekční tlak mi určuje pravděpodobnost výběru nejlepšího jedince.
 ![](../../Assets/Pasted%20image%2020241127154846.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749693-->
 END
 
 ---
@@ -346,7 +346,7 @@ Pomocí selekce ztrácím určité informace. Mutace mi to trochu kompenzuje, ab
 ![](../../Assets/Pasted%20image%2020241127154930.png)
 ![](../../Assets/Pasted%20image%2020241127155539.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205749695-->
 END
 
 ---
@@ -369,7 +369,7 @@ Je nebezpeční degenerace populace (lokální optima).
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127155259.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749698-->
 END
 
 ---
@@ -390,7 +390,7 @@ Hrozí i **divergence populace** - tzn. když budu mutovat tak moc, že mi to p�
 ![](../../Assets/Pasted%20image%2020241127155259.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749700-->
 END
 
 ---
@@ -409,7 +409,7 @@ Každému prvku dám pravděpodobnost výběru a roztočím ruletu a zvolím tí
 ![](../../Assets/Pasted%20image%2020241127155711.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205749703-->
 END
 
 ---
@@ -428,7 +428,7 @@ Mírná úprava ruletového výběru, aby to dávalo lepší výsledky
 ![](../../Assets/Pasted%20image%2020241127155821.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205749708-->
 END
 
 ---
@@ -448,7 +448,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127160029.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749713-->
 END
 
 ---
@@ -471,7 +471,7 @@ Lineární škálování je funkce, která mi přepočítá zdatnosti jedinců t
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241127160520.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749716-->
 END
 
 ---
@@ -490,7 +490,7 @@ $$c = \frac{Z_2}{nZ_{avg}}$$
 ![](../../Assets/Pasted%20image%2020241127160915.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749718-->
 END
 
 ---
@@ -513,7 +513,7 @@ Zdatnost spočtu pomocí $Z = a \cdot z + b$
 ![](../../Assets/Pasted%20image%2020241127161047.png)
 ![](../../Assets/Pasted%20image%2020241127161053.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749720-->
 END
 
 ---
@@ -534,7 +534,7 @@ Funguje to tak, že si nastavím nějakou čáru a zdatnosti přeškáluju tak, 
 ![](../../Assets/Pasted%20image%2020241127161525.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1735205749723-->
 END
 
 ---
@@ -558,7 +558,7 @@ Je to méně přesné než ostatní možnosti.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127161632.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749725-->
 END
 
 ---
@@ -580,7 +580,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127161852.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749728-->
 END
 
 ---
@@ -595,7 +595,7 @@ Back:
 
 - Pevný počet generací
 - Příznaky konvergence
-
+<!--ID: 1735205749730-->
 END
 
 ---
@@ -617,7 +617,7 @@ Standardní
 Specifické
 - **doménové operátory** - udělají mi z permutace zase permutaci, z kružnice zase kružnici atd.
 - **doménové reprezentace** a dekódery
-
+<!--ID: 1735205749733-->
 END
 
 ---

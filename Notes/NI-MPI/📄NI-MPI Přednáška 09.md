@@ -19,7 +19,7 @@ Back:
 - chyba **dat** - vstupní data nejsou přesná
 - chyba **algoritmu** - nemusíme mít algoritmus, který v konečném počtu kroků najde přesné řešení
 - **zaokrouhlovací** chyba - při výpočtu dochází k chybám (např. při aritmetických operacích) 
-
+<!--ID: 1735205749507-->
 END
 
 ---
@@ -42,7 +42,7 @@ $$x = \pm \textcolor{Cerulean}q \cdot2^\textcolor{Orange}e$$
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241113111445.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749509-->
 END
 
 ---
@@ -63,7 +63,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113111846.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749512-->
 END
 
 ---
@@ -77,7 +77,7 @@ Pokud $e = 2^d-1$ a $m \neq 0$, tak $x = \ ?$
 Back:
 
 $$x = \text{NaN}$$
-
+<!--ID: 1735205749514-->
 END
 
 ---
@@ -91,7 +91,7 @@ Pokud $e = 2^d-1$ a $m = 0$, tak $x = \ ?$
 Back:
 
 $$x = (-1)^s \cdot \text{Inf}$$
-
+<!--ID: 1735205749517-->
 END
 
 ---
@@ -107,7 +107,7 @@ Back:
 $$x = (-1)^s \cdot (1.m_2)_2 \cdot 2^{e-b}$$
 
 (tzv. **normalizovaná čísla**)
-
+<!--ID: 1735205749519-->
 END
 
 ---
@@ -122,7 +122,7 @@ Back:
 $$x = (-1)^s \cdot (0.m_2)_2 \cdot 2^{1-b}$$
 
 (tzv. **subnormální čísla**)
-
+<!--ID: 1735205749522-->
 END
 
 ---
@@ -136,7 +136,7 @@ Pokud $e = 0$ a $m = 0$, tak $x = \ ?$
 Back:
 
 $$x = (-1)^s \cdot 0$$
-
+<!--ID: 1735205749524-->
 END
 
 ---
@@ -154,7 +154,7 @@ Neukládáme první jedničku v mantise, protože je jasné, že tam musí být.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113112321.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749527-->
 END
 
 ---
@@ -175,7 +175,7 @@ Reálná čísla, která lze reprezentovat podle standardu IEEE-754 (znaménko, 
 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749530-->
 END
 
 ---
@@ -198,7 +198,7 @@ Neformálně "jak velké jsou mezery mezi čísly" na té reálné ose, kterou u
 ![](../../Assets/Pasted%20image%2020241113112923.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749532-->
 END
 
 ---
@@ -220,7 +220,7 @@ Nejbližší je určeno podle vybrané strategie:
 - náhodně
 - usekávání (zaokrouhlování směrem k nule)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749534-->
 END
 
 ---
@@ -234,7 +234,7 @@ Co je **přetečení a podtečení**?
 Back:
 
 Pokud chci reprezentovat číslo mimo rozsah, dochází k **přetečení** nebo **podtečení**.
-
+<!--ID: 1735205749537-->
 END
 
 ---
@@ -253,7 +253,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113113335.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1735205749539-->
 END
 
 ---
@@ -269,7 +269,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113113706.png)
 ![](../../Assets/Pasted%20image%2020241113113721.png)
 ![](../../Assets/Pasted%20image%2020241113113731.png)
-
+<!--ID: 1735205749542-->
 END
 
 ---
@@ -283,7 +283,7 @@ Tvrzení: $\text{fl}(x) = \ ?$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241113113814.png)
-
+<!--ID: 1735205749544-->
 END
 
 ---
@@ -307,7 +307,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113114339.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749547-->
 END
 
 ---
@@ -330,7 +330,7 @@ Tím že při výpočtu nemám dostatek cifer pro výpočet, tak je mantisa výs
 ![](../../Assets/Pasted%20image%2020241113115123.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749549-->
 END
 
 ---
@@ -350,7 +350,7 @@ Back:
 <!-- ExplanationStart -->
 Říká nám to, kolik bitů ztratíme, když se stane **krácení**.
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749552-->
 END
 
 ---

@@ -20,7 +20,7 @@ Back:
 
 - Použijeme ji, pokud máme jako konfiguraci vektor **reálných čísel**
 - Máme parametry, které řídí **mutaci** (velikost kroků, standardní odchylky atd.)
-
+<!--ID: 1735205749556-->
 END
 
 ---
@@ -34,7 +34,7 @@ Jak se řídí populace při nasazení evoluční strategie?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208141020.png)
-
+<!--ID: 1735205749558-->
 END
 
 ---
@@ -56,7 +56,7 @@ Mám 3 možnosti:
 ![](../../Assets/Pasted%20image%2020241208141044.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749560-->
 END
 
 ---
@@ -72,7 +72,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208141342.png)
 ![](../../Assets/Pasted%20image%2020241208141351.png)
 
-
+<!--ID: 1735205749563-->
 END
 
 ---
@@ -87,7 +87,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241208141522.png)
 ![](../../Assets/Pasted%20image%2020241208141527.png)
-
+<!--ID: 1735205749565-->
 END
 
 ---
@@ -110,7 +110,7 @@ Několik možností:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208141551.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749568-->
 END
 
 ---
@@ -131,7 +131,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208141645.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749570-->
 END
 
 ---
@@ -149,7 +149,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208142755.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749573-->
 END
 
 ---
@@ -163,7 +163,7 @@ Jaká je kostra genetického programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208142809.png)
-
+<!--ID: 1735205749576-->
 END
 
 ---
@@ -177,7 +177,7 @@ Jak funguje stromová reprezentace v genetickém programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208142952.png)
-
+<!--ID: 1735205749578-->
 END
 
 ---
@@ -191,7 +191,7 @@ Jak funguje inicializace stromové reprezentace v genetickém programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143012.png)
-
+<!--ID: 1735205749581-->
 END
 
 ---
@@ -205,7 +205,7 @@ Jak funguje křížení stromové reprezentace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143031.png)
-
+<!--ID: 1735205749583-->
 END
 
 ---
@@ -219,7 +219,7 @@ Jak funguje mutace stromové reprezentace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143048.png)
-
+<!--ID: 1735205749586-->
 END
 
 ---
@@ -233,7 +233,7 @@ Co jsou automaticky definované funkce v genetickém programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143117.png)
-
+<!--ID: 1735205749588-->
 END
 
 ---
@@ -248,7 +248,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241208143139.png)
 ![](../../Assets/Pasted%20image%2020241208143145.png)
-
+<!--ID: 1735205749591-->
 END
 
 ---
@@ -264,7 +264,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208143209.png)
 
 ![](../../Assets/Pasted%20image%2020241208143227.png)
-
+<!--ID: 1735205749594-->
 END
 
 ---
@@ -281,7 +281,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208143253.png)
 ![](../../Assets/Pasted%20image%2020241208143257.png)
 ![](../../Assets/Pasted%20image%2020241208143302.png)
-
+<!--ID: 1735205749596-->
 END
 
 ---

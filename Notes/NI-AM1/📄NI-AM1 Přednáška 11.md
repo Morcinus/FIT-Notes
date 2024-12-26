@@ -16,7 +16,7 @@ Co z pohledu uživatele znamená výkon aplikace?
 Back:
 
 Uživatel by neměl pocítit změnu ve výkonu aplikace nezávisle na počtu requestů/uživatelů.
-
+<!--ID: 1735205749757-->
 END
 
 ---
@@ -32,7 +32,7 @@ Back:
 - **Infrastruktura** - škálovatelnost, failover, cluster architectures
 - **Ladění výkonu** (performance tuning) - Aplikační server, operační systém, správa paměti...
 - **Service configuration** - paralelní processing, optimalizace procesů
-
+<!--ID: 1735205749759-->
 END
 
 ---
@@ -48,7 +48,7 @@ Back:
 Nastavím aplikaci tak, aby omezovala počet requestů, které je ochotná přijmout. Zbytek prostě nepřijme.
 
 Říkám tím, že aplikace byla vytvořna na maximálně daný počet requestů
-
+<!--ID: 1735205749762-->
 END
 
 ---
@@ -63,7 +63,7 @@ Back:
 
 - **škálovatelnost** - schopnost systému se nafouknout
 - **availability** - dostupnost (např. $99.9987\%$ - cca 44 sekund downtime za rok)
-
+<!--ID: 1735205749764-->
 END
 
 ---
@@ -82,7 +82,7 @@ Back:
 <!-- DetailInfoStart -->
 Vertikální může být složitější, protože když např. přidám nové CPU, musím systém restartovat, což někdy může být problém
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749766-->
 END
 
 ---
@@ -100,7 +100,7 @@ Service Level Agreement - garantuju availability
 <!-- DetailInfoStart -->
 Pokud to nedodržím, zákazník např. dostane slevu
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749769-->
 END
 
 ---
@@ -119,7 +119,7 @@ Systém je sám schopný reagovat na chyby a incidenty.
 Když spadne instance serveru, aplikace pokračuje a např. se to automaticky nahodí zpátky.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749771-->
 END
 
 ---
@@ -133,7 +133,7 @@ Co je **application failover**?
 Back:
 
 Když instance aplikace failne a není dostupná, kopie failnutý aplikace dokončí tu práci. 
-
+<!--ID: 1735205749774-->
 END
 
 ---
@@ -147,7 +147,7 @@ Co je **load balancing**?
 Back:
 
 Distribuují se requesty na několik instancí serveru
-
+<!--ID: 1735205749776-->
 END
 
 ---
@@ -166,7 +166,7 @@ Back:
 - **QPS** - queries/requests per second
 	- počet requestů, které přichází do systému za sekundu
 	- dá se zlepšit cachováním
-
+<!--ID: 1735205749779-->
 END
 
 ---
@@ -197,7 +197,7 @@ Problém:
 <!-- DetailInfoEnd -->
 
 
-
+<!--ID: 1735205749781-->
 END
 
 ---
@@ -217,7 +217,7 @@ Potom vytvořím tolik **vláken**. Můžu potom třeba udělat to, že budou m�
 <!-- ExampleStart -->
 Mám 20 requestů za sekundu, rozběhnu si 20 vláken, 1 thread pool do databáze s 20 vlákny.
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749784-->
 END
 
 ---
@@ -235,7 +235,7 @@ Když se mi najednou zpomalí databáze (kterou já nemám pod kontrolou, ale sp
 <!-- DetailInfoStart -->
 Mohl bych teoreticky navýšit počet spojení do databáze, ale to nemůžu dělat neomezeně.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749786-->
 END
 
 ---
@@ -249,7 +249,7 @@ Jak se dá vyřešit to, když mám synchronní přístup do databáze ale ta da
 Back:
 
 Nastavím tam **timeout**. Díky tomu mi request vypadne s nějakou chybou a přestane to **blokovat** ostatní requesty.
-
+<!--ID: 1735205749789-->
 END
 
 ---
@@ -266,7 +266,7 @@ Back:
 2. Zařadí se do fronty (např. s kapacitou 100)
 3. Request čeká na to, až mu bude přiřazeno vlákno pro přístup do databáze.
 4. Pokud je kapacita fronty plná, rovnou se requesty odmítají (díky čemuž to je rychlejší, protože se nezatěžuje ten systém, když vím, že bych to stejně nestíhal zpracovávat)
-
+<!--ID: 1735205749792-->
 END
 
 ---
@@ -292,7 +292,7 @@ Např.
 ![](../../Assets/Pasted%20image%2020241209101321.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749794-->
 END
 
 ---
@@ -308,7 +308,7 @@ Back:
 Na **outbound connections** umožňuje dělat asynchronní IO.
 
 Používají se k tomu callback funkce. Když vlákno dokončí operaci, zavolá mezitím jinou funkci.
-
+<!--ID: 1735205749796-->
 END
 
 ---
@@ -329,7 +329,7 @@ Back:
 	- **hogging** - vlákno zpracovává IO operaci
 	- **stuck** - vlákno čeká déle než povolenou dobu na IO operaci
 - **Work manager** - konfigurace maximálního počtu vláken a kapacity 
-
+<!--ID: 1735205749799-->
 END
 
 ---
@@ -344,7 +344,7 @@ Co je load balancer?
 Back:
 
 Prvek, co rozděluje požadavky na nějakou množinu instancí serveru
-
+<!--ID: 1735205749801-->
 END
 
 ---
@@ -365,7 +365,7 @@ Back:
 	- Např. nginx, JSession
 - **Client-side load balancer**
 	- Klient sám rozposílá requesty na různé servery
-
+<!--ID: 1735205749804-->
 END
 
 ---
@@ -382,7 +382,7 @@ Funguje principem DNAT - na úrovni síťové vrstvy přepisuje destinations jed
 
 - **SNAT** - "source NAT" - přepisuje zdrojovou adresu zdroje
 - **DNAT** - "destination NAT" - přepisuje zdrojovou adresu cíle
-
+<!--ID: 1735205749806-->
 END
 
 ---
@@ -398,7 +398,7 @@ Back:
 Využívá se DNS Round Robin
 - DNS record má hodně IP adres
 - DNS postupně střídá IP adresy v odpovědích
-
+<!--ID: 1735205749809-->
 END
 
 ---
@@ -423,7 +423,7 @@ Ve firmě můžu mít nakonfigurovanou proxy, aby omezovala přístup do interne
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241209104338.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749812-->
 END
 
 ---

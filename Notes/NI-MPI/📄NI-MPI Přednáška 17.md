@@ -27,7 +27,7 @@ Máme teoretický ($V$) a naimplementovaný algoritmus ($V^*)$ a chci je porovna
 $d$ je nějaký vstup
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749188-->
 END
 
 ---
@@ -49,7 +49,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241221133521.png)
 <!-- ImageEnd -->
-
+<!--ID: 1735205749191-->
 END
 
 ---
@@ -63,7 +63,7 @@ Definice: **podmíněnost** úlohy
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221133641.png)
-
+<!--ID: 1735205749194-->
 END
 
 ---
@@ -91,7 +91,7 @@ Např. do vstupu mi může jít výstup jiného algoritmu (už s chybou). Můžu
 ![](../../Assets/Pasted%20image%2020241221134456.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749196-->
 END
 
 ---
@@ -105,7 +105,7 @@ Definice: **dobře a špatně podmíněná** úloha
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221133722.png)
-
+<!--ID: 1735205749199-->
 END
 
 ---
@@ -119,7 +119,7 @@ Definice: soustava lineárních rovnic
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221134234.png)
-
+<!--ID: 1735205749201-->
 END
 
 ---
@@ -138,7 +138,7 @@ Je "samoopravující se", v každém kroku se řešení zlepší víc, než se z
 ![](../../Assets/Pasted%20image%2020241221134409.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749204-->
 END
 
 ---
@@ -161,7 +161,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221134956.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749206-->
 END
 
 ---
@@ -182,7 +182,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221135305.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1735205749209-->
 END
 
 ---
@@ -208,7 +208,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221135717.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749211-->
 END
 
 ---
@@ -222,7 +222,7 @@ Definice: **vektor chyby**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221135931.png)
-
+<!--ID: 1735205749213-->
 END
 
 ---
@@ -236,7 +236,7 @@ Definice: spektrální poloměr
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221140136.png)
-
+<!--ID: 1735205749216-->
 END
 
 ---
@@ -250,7 +250,7 @@ Věta: co platí pro spektrální poloměr
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221140115.png)
-
+<!--ID: 1735205749218-->
 END
 
 ---
@@ -264,7 +264,7 @@ Důsledek: iterační metoda konverguje $\Leftrightarrow \dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221140153.png)
-
+<!--ID: 1735205749221-->
 END
 
 ---
@@ -282,7 +282,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221140502.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749223-->
 END
 
 ---
@@ -304,7 +304,7 @@ Back:
 <!-- DetailInfoEnd -->
 
 
-
+<!--ID: 1735205749226-->
 END
 
 ---
@@ -318,7 +318,7 @@ Jak lze volit matici $Q$ v iterační metodě? (3)
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221141155.png)
-
+<!--ID: 1735205749228-->
 END
 
 ---
@@ -337,7 +337,7 @@ Za $Q$ se dá jednotková matice.
 ![](../../Assets/Pasted%20image%2020241221141222.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749231-->
 END
 
 ---
@@ -356,7 +356,7 @@ Za $Q$ se dosadí diagonála
 ![](../../Assets/Pasted%20image%2020241221141247.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749233-->
 END
 
 ---
@@ -375,7 +375,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221141336.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1735205749235-->
 END
 
 ---
@@ -393,7 +393,7 @@ $Q = \frac{1}{\omega}D+L$ kde $\omega \in \mathbb{R} \setminus \set 0$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221141349.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749238-->
 END
 
 ---
@@ -407,7 +407,7 @@ Algoritmus: **Iterativní metoda**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221141630.png)
-
+<!--ID: 1735205749243-->
 END
 
 ---

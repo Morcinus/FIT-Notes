@@ -23,7 +23,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120162137.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749600-->
 END
 
 ---
@@ -39,7 +39,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120162156.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749602-->
 END
 
 ---
@@ -68,7 +68,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120162430.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749605-->
 END
 
 ---
@@ -88,7 +88,7 @@ Máme nějaký systém:
 	- Ze začátku algoritmus víc "skáče" po stavovém prostoru a hledá všude možně a čím dál tím víc se mu zakazuje se dostávat se do zhoršujících stavů 
 
 ![](../../Assets/Pasted%20image%2020241120163056.png)
-
+<!--ID: 1735205749607-->
 END
 
 ---
@@ -114,7 +114,7 @@ Dovysvětlení:
 ![](../../Assets/Pasted%20image%2020241120163335.png)
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1735205749609-->
 END
 
 ---
@@ -135,7 +135,7 @@ Back:
 Více o jednotlivých funkcích v dalších kartičkách.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1735205749612-->
 END
 
 ---
@@ -151,7 +151,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120163930.png)
 
 Problém ale je, jak máme vědět hloubku lokálních optim?
-
+<!--ID: 1735205749614-->
 END
 
 ---
@@ -170,7 +170,7 @@ Rozvrh ochlazování:
 - `cool(T,...)`
 - `frozen(T,...)`
 - `equilibrium(...)`
-
+<!--ID: 1735205749617-->
 END
 
 ---
@@ -187,7 +187,7 @@ Back:
 Je třeba tu hodnotu **normalizovat** tak, aby hodnoty `cost()` měly **stejný rozsah pro každou instanci**
 
 ![](../../Assets/Pasted%20image%2020241120164427.png)
-
+<!--ID: 1735205749619-->
 END
 
 ---
@@ -203,7 +203,7 @@ Back:
 Typicky teplotu přenásobím nějakou konstantou.
 
 ![](../../Assets/Pasted%20image%2020241120164524.png)
-
+<!--ID: 1735205749622-->
 END
 
 ---
@@ -217,7 +217,7 @@ Jak funguje funkce `equilibrium()` v simulovaném ochlazování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120164552.png)
-
+<!--ID: 1735205749625-->
 END
 
 ---
@@ -243,7 +243,7 @@ Ve vzorečku mi vypadlo N -> nezávisí na tom, v jakém kroku se momentálně n
 
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749628-->
 END
 
 ---
@@ -257,7 +257,7 @@ Jak nastavit vhodně počáteční teplotu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120165059.png)
-
+<!--ID: 1735205749631-->
 END
 
 ---
@@ -273,7 +273,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120165122.png)
 ![](../../Assets/Pasted%20image%2020241120165131.png)
 
-
+<!--ID: 1735205749633-->
 END
 
 ---
@@ -295,7 +295,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120165427.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735205749636-->
 END
 
 ---
@@ -309,7 +309,7 @@ Jaké vlastnosti má mít stavový prostor při simulovaném ochlazování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120165630.png)
-
+<!--ID: 1735205749639-->
 END
 
 ---
@@ -323,7 +323,7 @@ Jak se nastavují omezující podmínky při simulovaném ochlazování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120165712.png)
-
+<!--ID: 1735205749642-->
 END
 
 ---
@@ -337,7 +337,7 @@ Jaké jsou 2 možnosti počátečního řešení v simulovaném ochlazování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120165738.png)
-
+<!--ID: 1735205749645-->
 END
 
 ---
@@ -358,7 +358,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120165915.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1735205749647-->
 END
 
 ---

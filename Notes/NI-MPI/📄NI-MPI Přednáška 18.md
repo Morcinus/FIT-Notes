@@ -21,8 +21,7 @@ Značení:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221143245.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1735205889347-->
 END
 
 ---

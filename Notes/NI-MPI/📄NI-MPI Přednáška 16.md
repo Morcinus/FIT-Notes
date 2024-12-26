@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska16 status-toReview
+FILE TAGS: NI-MPI prednaska16 status-toReview algebra4
 
 
 START
@@ -18,7 +18,7 @@ Back:
 Nechť $p(x)$ je ireducibilní polynom nad $\mathbb{Z}_p$ stupně $n$.
 
 ![](../../Assets/Pasted%20image%2020241221112332.png)
-
+<!--ID: 1735205749175-->
 END
 
 ---
@@ -36,7 +36,7 @@ Back:
 Pomocí EEA získám Bezoutovu rovnost.
 
 ![](../../Assets/Pasted%20image%2020241221114159.png)
-
+<!--ID: 1735205749178-->
 END
 
 ---
@@ -63,7 +63,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221115609.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1735205749181-->
 END
 
 ---
@@ -88,7 +88,7 @@ Možnost 2: Budem upravovat rovnici:
 ![](../../Assets/Pasted%20image%2020241221121015.png)
 ![](../../Assets/Pasted%20image%2020241221121306.png)
 
-
+<!--ID: 1735205749183-->
 END
 
 ---
@@ -108,7 +108,7 @@ a) Pomocí EEA s polynomy
 ![](../../Assets/Pasted%20image%2020241221122110.png)
 ![](../../Assets/Pasted%20image%2020241221122425.png)
 
-
+<!--ID: 1735205749185-->
 END
 
 ---
