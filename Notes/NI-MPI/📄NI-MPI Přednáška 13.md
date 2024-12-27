@@ -176,7 +176,6 @@ Back:
 Je to důsledek (jakoby konkrétnější případ) této věty:
 ![](../../Assets/Pasted%20image%2020241127132413.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749375-->
 END
 
@@ -290,7 +289,7 @@ END
 START
 FIT-Card
 
-Věta: homomorfismus grupy do grupoidu $\Leftrightarrow \dots$ 
+Věta: homomorfismus grupy do grupoidu $\implies \dots$ 
 
 Back:
 

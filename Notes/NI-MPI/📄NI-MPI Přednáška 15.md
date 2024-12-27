@@ -36,7 +36,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221092340.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749307-->
 END
 
@@ -60,7 +59,7 @@ END
 START
 FIT-Card
 
-Věta: Polynomial factor theorem
+Věta: Polynomial factor theorem (aneb prvek je kořen polynomu $\Leftrightarrow \dots$)
 
 Back:
 
@@ -70,7 +69,6 @@ Back:
 Kořen = když to dosadím, tak se polynom bude rovnat nule.
 ![](../../Assets/Pasted%20image%2020241221093714.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749312-->
 END
 
@@ -97,7 +95,6 @@ $x^2-10$ nad $\mathbb{Q}$ - nevyrobím dva polynomy tak, aby to byl součin dvou
 
 Např. nad $\mathbb{R}$ není ireducibilní.
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749315-->
 END
 
@@ -115,7 +112,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092443.png)
 ![](../../Assets/Pasted%20image%2020241221094415.png)
-
 <!--ID: 1735205749317-->
 END
 
@@ -140,7 +136,6 @@ $\mathbb{Z}_p$ kde $p$ je prvočíslo je např. konečné těleso, se kterým ne
 ![](../../Assets/Pasted%20image%2020241221092510.png)
 ![](../../Assets/Pasted%20image%2020241221092516.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749320-->
 END
 
@@ -159,7 +154,6 @@ Ne! Jakmile $n$ není prvočíslo, potom $\mathbb{Z}_n$ nemůže být těleso.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221095323.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749322-->
 END
 
@@ -178,7 +172,6 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020241221101100.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1735205749325-->
 END
 
@@ -209,7 +202,6 @@ Hledám $h(x)^{-1}, h(x) \in F$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221100849.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749327-->
 END
 
@@ -223,8 +215,13 @@ Jak mohu zjistit, že je polynom ireducibilní?
 
 Back:
 
-Najdu jeho kořen.
+Zkusím najít jeho kořen. Pokud ho najdu, tak není ireducibilní.
 
+<!-- ExplanationStart -->
+Pokud najdu jeho kořen, znamená to, že lze ten polynom rozložit na dva polynomy nenulového stupně, kvůli čemuž z definice původní polynom není ireducibilní.
+
+![](../../Assets/Pasted%20image%2020241221092421.png)
+<!-- ExplanationEnd -->
 <!--ID: 1735205749330-->
 END
 
@@ -238,6 +235,8 @@ Jak se sčítají polynomy?
 
 Back:
 
+Jenom stačí posčítat ty jednotlivé koeficienty $a_i$ a $b_i$.
+
 ![](../../Assets/Pasted%20image%2020241221101441.png)
 <!--ID: 1735205749332-->
 END
@@ -248,10 +247,23 @@ END
 START
 FIT-Card
 
-Jak se násobí polynomy?
+Jak se **násobí polynomy** mod $P(x)$?
+
+Např.
+$R(x)=x^3+x^2+1$
+$S(x)=x^2+x$
+
+Ireducibilní polynom $P(x)=x^4+x+1$
 
 Back:
 
+1. Vynásobíme polynomy ($1101$ a $0110$), vyjde nám $x^5+x^3+x^2+x$
+2. Zmodulíme výsledek polynomem $P(x)$
+	1. Položíme $P(x) = 0$ (protože když bych to modulil $P(x)$, tak to bude $0$) a vyjádříme nejvyšší mocninu (zde $x^4=-x^2-1$)
+	2. Tu rovnici pak mohu násobit $x$ a tím získávat vyjádření polynomů o vyšších mocninách (např. $x^5=-x^2-x$)
+	3. To jsem pak budu dosazovat do výsledku, dokud nedostanu polynom, co je v tom daném tělese $T$ 
+
+![](../../Assets/Pasted%20image%2020241227135810.png)
 ![](../../Assets/Pasted%20image%2020241221101735.png)
 
 <!-- DetailInfoStart -->
@@ -293,7 +305,7 @@ END
 START
 FIT-Card
 
-Definice: Galoisovo těleso
+Definice: Galoisovo těleso, charakteristika tělesa
 
 Back:
 

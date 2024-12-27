@@ -236,6 +236,15 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129151040.png)
 
+<!-- ExampleStart -->
+**Co je obor integrity:**
+$\mathbb{R}, \mathbb{Q}, \mathbb{C}, \mathbb{Z}$ jsou obory integrity, protože neexistují nenuloví dělitelé nuly, tj. pokud $a \cdot b = 0$, pak $a=0$ nebo $b=0$.
+
+**Co není obor integrity**:
+Maticový okruh $M_{2}(\mathbb{R})$ (2x2 maticed nad $\mathbb{R}$)
+$$A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \quad B=\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$$
+$$A \cdot B = 0, \quad  A \neq 0, \quad B \neq 0 $$
+
 Tags: algebra4
 <!--ID: 1735205749277-->
 END
@@ -314,14 +323,15 @@ END
 START
 FIT-Card
 
-Definice: **Izomorfismus okruhů**
+Definice: **Izomorfismus okruhů/těles**
 
 Back:
 
-![](../../Assets/Pasted%20image%2020241221092021.png)
+**Homomorfismus**, který je **bijekcí** se nazývá izomorfismus okruhů (resp. těles)
 
-Předchozí část definice:
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221092040.png)
+<!-- DetailInfoEnd -->
 
 Tags: algebra4
 <!--ID: 1735205749290-->
@@ -333,7 +343,7 @@ END
 START
 FIT-Card
 
-Definice: **izomorfní těleso**
+Definice: **izomorfní tělesa**
 
 Back:
 
@@ -354,6 +364,10 @@ Definice: Polynom nad okruhem
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221092135.png)
+
+<!-- InformallySaidStart -->
+Stejně jako v $\mathbb{R}$ máme polynomy, tak tohle je to samé, ale s prvky nějakého obecného okruhu.
+<!-- InformallySaidEnd -->
 
 Tags: algebra4
 <!--ID: 1735205749294-->
@@ -380,7 +394,7 @@ END
 START
 FIT-Card
 
-Lemma: **o násobení polynomů**
+Lemma: **o násobení polynomů** (aneb jaký stupeň mají polynomy po násobení)
 
 Back:
 

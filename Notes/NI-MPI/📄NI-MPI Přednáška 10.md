@@ -1,6 +1,6 @@
 ---
 created: 2024-11-13T12:04:25
-title: "Mocninná metoda a QR algoritmus"
+title: "Vlastní čísla Mocninná metoda a QR algoritmus"
 up: "[[📖NI-MPI]]"
 ---
 
@@ -20,7 +20,6 @@ Metoda, co v **konečném počtu kroků** vrátí řešení.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113120616.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749467-->
 END
 
@@ -41,7 +40,6 @@ Ta metoda jakoby postupně "vylepšuje/zpřesňuje" to řešení.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113120820.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749469-->
 END
 
@@ -203,7 +201,6 @@ Vezmu nějaký původní vektor a iterativně ho násobím maticí $M$.
 
 Proto jsem schopný to napsat ve tvaru $M^k$ - odtud název mocninná metoda.
 <!-- InformallySaidEnd -->
-
 <!--ID: 1735205749499-->
 END
 
@@ -222,7 +219,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113125159.png)
 ![](../../Assets/Pasted%20image%2020241113125205.png)
 ![](../../Assets/Pasted%20image%2020241113125211.png)
-
 <!--ID: 1735205749502-->
 END
 

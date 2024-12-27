@@ -133,7 +133,6 @@ Back:
 Např. zde máme neutrální prvek $0$ a pro $3$ bude zde inverzní prvek $1$
 ![](../../Assets/Pasted%20image%2020241226114547.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749428-->
 END
 
@@ -362,7 +361,6 @@ Definice:
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125162047.png)
-
 <!--ID: 1735205749459-->
 END
 
@@ -388,7 +386,7 @@ END
 START
 FIT-Card
 
-Věta: jak generovat $\mathbb{Z}_n^+$
+Věta: $\mathbb{Z}_n^+$ je rovno $⟨k⟩ \Leftrightarrow \dots$
 
 Back:
 
