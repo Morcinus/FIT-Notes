@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska01 status-toReview
+FILE TAGS: NI-MPI prednaska01 status-toReview analyza1
 
 START
 Basic
@@ -80,8 +80,8 @@ END
 START
 Basic
 
-Definice: **Okolí bodu**
-
+Definice: **$\delta-$okolí bodu**
+ 
 Back:
 
 ![[Pasted image 20240923125350.png]]
@@ -103,12 +103,15 @@ Back:
 
 ![[Pasted image 20240923125332.png]]
 
+<!-- ExplanationStart -->
 _Jinými slovy:_
-Ať vezmu libovolně malinký okolí kolem toho bodu a odstraním z toho ten bod, furt tam najdu nějaké body z té množiny M.
+Ať vezmu libovolně malinký okolí kolem bodu $x$ (bez $x$), vždy v tom okolí najdu nějaké body z té množiny $M$.
 
 _Např. hromadný bod_ bod na "kraji" množiny je hromadný bod, protože část jeho okolí bude v té množině.
 
 _Např. bod co není hromadný_ Pokud ten bod je mimo množinu, tak nemůže být hromadným bodem, protože můžu najít malinkatý okolí, pro které to neplatí (tzn. průnik toho okolí s tou množinou M je prázdný).
+<!-- ExplanationEnd -->
+
 <!--ID: 1728921214846-->
 END
 
@@ -184,7 +187,7 @@ END
 START
 Basic
 
-Věta: Kdy má funkce $f$ v hromadném bodě $\textbf{b}$ množiny $D_f \Leftrightarrow$ 
+Věta: Funkce $f$ má v hromadném bodě $\textbf{b}$ množiny $D_f$ limitu $L$ $\Leftrightarrow$  
 
 (v praxi to asi nebude potřeba)
 
@@ -237,6 +240,15 @@ Definice: Omezená, otevřená, uzavřená množina
 Back:
 
 ![[Pasted image 20240923130106.png]]
+<!-- ExplanationStart -->
+Je to podobné jako u intervalů v $\mathbb{R}$.
+- omezená - jakoby "není nekonečná"
+- otevřená - není tam "hranice" té množiny
+- uzavřená - jsou tam i hraniční body té množiny
+<!-- ExplanationEnd -->
+
+
+
 <!--ID: 1728921214874-->
 END
 
@@ -397,13 +409,13 @@ END
 START
 Basic
 
-Důkaz věty (tohle na přednášce skipnuli): 
-
-![[Pasted image 20240923130621.png]]
+smazat
 
 Back:
 
-![[Pasted image 20240923130727.png]]
+smazat
+
+DELETE
 <!--ID: 1728921214898-->
 END
 
@@ -419,7 +431,10 @@ Back:
 
 Body, kde je gradient **nulový**.
 
+<!-- DetailInfoStart -->
 ![[Pasted image 20240923130823.png]]
+<!-- DetailInfoEnd -->
+
 ![[Pasted image 20240923130829.png]]
 <!--ID: 1728921214901-->
 END
@@ -434,23 +449,40 @@ Definice: **kritické body**
 
 Back:
 
-Body ve kterých je **gradient nulový** nebo tam **neexistuje**.
+**Kritické body** = body podezřelé z extrému.
 
+Jsou to body, ve kterých je **gradient nulový** nebo tam **neexistuje**.
+
+<!-- DetailInfoStart -->
 ![[Pasted image 20240923130959.png]]
+<!-- DetailInfoEnd -->
+
 <!--ID: 1728921214904-->
 END
 
 ---
 
-
 START
 Basic
 
-V jakých směrech je parciální derivace ve směru?
+Jaký je hlavní rozdíl mezi:
+- parciální derivací v bodě ve směru
+- derivací v bodě ve směru?
 
 Back:
 
-Ve směru $x$ nebo $y$ osy.
+**Parciální derivace** je pouze ve směru nějaké osy ($x,y, \dots$) - zafixujeme všechny souřadnice (až na jednu) a derivujeme v jednom směru.
+
+**Derivace v bodě ve směru** derivuje v libovolném směru určeném vektorem $v$. To dělá tak, že kombinuje všechny parciální derivace podle směru vektoru.
+
+<!-- DetailInfoStart -->
+**Parciální derivace**
+![[Pasted image 20240923130201.png]]
+![[Pasted image 20240923130229.png]]
+**Derivace**
+![[Pasted image 20240923130329.png]]
+<!-- DetailInfoEnd -->
+
 <!--ID: 1728921214907-->
 END
 

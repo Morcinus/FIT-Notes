@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska03 status-toReview
+FILE TAGS: NI-MPI prednaska03 status-toReview analyza2
 
 
 START
@@ -25,7 +25,6 @@ Back:
 <!-- DetailInfoStart -->
 1. Hledat kritické body je samo o sobě **velice obtížné** a není jednotný algoritmus, co by to jednoduše vyřešil. Najít přesné body je proto velice těžké. Samozřejmě ty řešení, co máme na tomto předmětu, jsou jednoduché.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1729237386264-->
 END
 
@@ -66,7 +65,6 @@ Je **Hessova matice**
 definitní nebo indefinitní
 
 Back:
-
 <!--ID: 1729237386270-->
 END
 

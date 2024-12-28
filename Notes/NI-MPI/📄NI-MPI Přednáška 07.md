@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska07 status-toReview
+FILE TAGS: NI-MPI prednaska07 status-toReview analyza4
 
 
 START
@@ -20,7 +20,6 @@ Back:
 <!-- DetailInfoStart -->
 - **Typ 1** - $D = \set {(x,y) \in \mathbb{R}^2: x \in <a,b> \land \varphi_1(\lambda) \leq y \leq \varphi_2(\lambda)}$
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205889362-->
 END
 
@@ -106,7 +105,6 @@ Analogicky jako dvojný integrál.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241023150507.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205889374-->
 END
 
@@ -128,7 +126,6 @@ Matice aproximuje zobrazení.
 Každému vektoru se přiřadá nějaká matice.
 ![](../../Assets/Pasted%20image%2020241023154135.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205889377-->
 END
 

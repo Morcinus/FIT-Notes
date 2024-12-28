@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska05 status-toReview
+FILE TAGS: NI-MPI prednaska05 status-toReview analyza3
 
 ![](../../Assets/Pasted%20image%2020241017092333.png)
 ![](../../Assets/Pasted%20image%2020241017092348.png)

@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska06 status-toReview
+FILE TAGS: NI-MPI prednaska06 status-toReview analyza4
 
 ### Připomenutí analýzy
 
@@ -58,7 +58,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241020170737.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212952-->
 END
 
@@ -147,7 +146,6 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020241020171007.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1730978212973-->
 END
 
@@ -166,7 +164,6 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020241020171037.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1730978212977-->
 END
 
@@ -207,7 +204,6 @@ Back:
 <!-- ExplanationStart -->
 Ty dvě závorky s $x$ a $y$ mi vždy říkají **obsah toho obdélníku** a násobím to tím $M_{i,j}$, což je pod tím grafem to supremum, čímž získávám **objem** toho kvádru. Pak ty všechny kvádry v grafu sečtu.
 <!-- ExplanationEnd -->
-
 <!--ID: 1730978212983-->
 END
 
@@ -269,7 +265,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241020172015.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212996-->
 END
 
@@ -308,7 +303,6 @@ Související Marast:
 ![](../../Assets/Pasted%20image%2020241028155937.png)
 ![](../../Assets/Pasted%20image%2020241028155944.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978213003-->
 END
 
@@ -329,7 +323,6 @@ Máme nějakou oblast a když jsme schopný ji uzavřít do obdélníka abcd.
 
 ![](../../Assets/Pasted%20image%2020241020173002.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1730978213007-->
 END
 
@@ -352,7 +345,6 @@ Neformálně: Jakoby snižuju furt velikosti obdélníčků. Když to najdu pro 
 
 ![](../../Assets/Pasted%20image%2020241020173254.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1730978213010-->
 END
 
@@ -371,7 +363,6 @@ Množiny míry nula mají tu vlastnost, že jsou pro hodnotu integrálu "zanedba
 <!-- ExplanationStart -->
 Protože ty $\varepsilon$ jsem schopný zvolit tak malý, že to je vlastně zanedbatelný.
 <!-- ExplanationEnd -->
-
 <!--ID: 1730978213014-->
 END
 
@@ -390,7 +381,6 @@ Graf spojité funkce $\varphi : [a,b] \rightarrow \mathbb{R}$ má míru nula.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241020173754.png)
 <!-- ImageEnd -->
-
 <!--ID: 1730978213018-->
 END
 

@@ -4,7 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska02 status-toReview
+FILE TAGS: NI-MPI prednaska02 status-toReview analyza2
 
 START
 Basic

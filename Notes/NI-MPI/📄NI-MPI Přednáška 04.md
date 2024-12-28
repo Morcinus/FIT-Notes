@@ -4,8 +4,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska04 status-toReview
-
+FILE TAGS: NI-MPI prednaska04 status-toReview analyza3
 ### Věta o implicitní funkci
 
 START
@@ -163,7 +162,6 @@ Související Marasty pro procvičení:
 ![](../../Assets/Pasted%20image%2020241028154759.png)
 ![](../../Assets/Pasted%20image%2020241028154812.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1729236692661-->
 END
 
