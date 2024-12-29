@@ -10,22 +10,13 @@ FILE TAGS: NI-MPI prednaska03 status-toReview analyza2
 START
 FIT-Card
 
-Postup: Jak najít extrémy funkce více proměnných?
+smaz
 
 Back:
 
-1. Najdu **kritické body** (stacionární + ty, kde alespoň jedna parciální derivace neexistuje)
-2. Pokud jsou **všechny 2. parciální derivace** v okolí stacionárního bodu $\textbf{b}$ spojité, najít **Hessovu matici**. Pokud je matice
-	1. **pozitivně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **minima** 
-	2. **negativně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **maxima**
-	3. **indefinitní**, pak je bod $\textbf{b}$ sedlovým bodem (tj. není extrém)
+smaz
 
 
-
-<!-- DetailInfoStart -->
-1. Hledat kritické body je samo o sobě **velice obtížné** a není jednotný algoritmus, co by to jednoduše vyřešil. Najít přesné body je proto velice těžké. Samozřejmě ty řešení, co máme na tomto předmětu, jsou jednoduché.
-<!-- DetailInfoEnd -->
-<!--ID: 1729237386264-->
 END
 
 ---
@@ -60,16 +51,16 @@ END
 START
 FIT-Card
 
-Je **Hessova matice**
-
-definitní nebo indefinitní
+smaz
 
 Back:
-<!--ID: 1729237386270-->
+
+smaz
+
+
 END
 
 ---
-
 
 
 START
@@ -91,17 +82,15 @@ END
 START
 FIT-Card
 
-Jak souvisí determinant s definitností
+Jak souvisí determinant $A$ s definitností?
+
+Pozn. touhle kartičkou si nejsem moc jistý. Něco takového tvrdil Spěvák, ale trochu mi to nesedělo s definicema..
 
 Back:
 
-Když determinant vyjde pozitivní, tak je definitní
-
-Když $a$ (levý horní roh matice) je kladný, je pozitivně definitní. Když je záporný, tak je negativně definitní.
-
-Když determinant vyjde záporný, tak je matice indefinitní
-
-Když determinant vyjde rovno nula, tak je semidefinitní
+- Když je determinant **kladný**, tak je matice **definitní** nebo **indefinitní**
+- Když je determinant **nula**, tak je matice **semidefinitní** nebo **indefinitní**
+- Když je determinant **záporný**, tak je matice **indefinitní**
 <!--ID: 1729237386276-->
 END
 

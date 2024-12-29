@@ -49,13 +49,18 @@ Basic
 Jak se dá spočítat norma?
 
 Back:
+Pro $\textbf{x} = (x_1, x_2, \dots x_n) \in \mathbb{R}^n$ nebo ($\mathbb{C}^n$)
+$$||\textbf{x}||_p=\sqrt[p]{\sum_{i=1}^n |x_i|^p}$$
 
+<!-- DetailInfoStart -->
 ![[Pasted image 20240923132932.png]]
 
 Vysvětlení součtový normy:
 - Prostě jako kdybych se ve městě se silnicemi jako je mřížka snažil dostat z jednoho bodu do druhého. Nemůžu diagonálně, tak prostě sečtu jednotlivé hrany.
 
 Maximová norma - každý vektor má maximální souřadici 1
+<!-- DetailInfoEnd -->
+
 <!--ID: 1728921214838-->
 END
 
@@ -111,7 +116,6 @@ _Např. hromadný bod_ bod na "kraji" množiny je hromadný bod, protože část
 
 _Např. bod co není hromadný_ Pokud ten bod je mimo množinu, tak nemůže být hromadným bodem, protože můžu najít malinkatý okolí, pro které to neplatí (tzn. průnik toho okolí s tou množinou M je prázdný).
 <!-- ExplanationEnd -->
-
 <!--ID: 1728921214846-->
 END
 
@@ -248,7 +252,6 @@ Je to podobné jako u intervalů v $\mathbb{R}$.
 <!-- ExplanationEnd -->
 
 
-
 <!--ID: 1728921214874-->
 END
 
@@ -367,7 +370,7 @@ END
 START
 Basic
 
-Tečná nadrovina funkce v bodě
+Co je **tečná nadrovina** funkce v bodě? Jak vypadá její rovnice?
 
 Back:
 
@@ -415,8 +418,7 @@ Back:
 
 smazat
 
-DELETE
-<!--ID: 1728921214898-->
+
 END
 
 ---
@@ -456,7 +458,6 @@ Jsou to body, ve kterých je **gradient nulový** nebo tam **neexistuje**.
 <!-- DetailInfoStart -->
 ![[Pasted image 20240923130959.png]]
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214904-->
 END
 
@@ -482,7 +483,6 @@ Back:
 **Derivace**
 ![[Pasted image 20240923130329.png]]
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214907-->
 END
 

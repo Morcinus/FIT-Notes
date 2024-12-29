@@ -17,8 +17,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241011111708.png)
 
 <!-- ExplanationStart -->
-**implicitní** = automaticky to existuje, ale není to 
-
 Obecně v té větě jakoby "vykresluju vrstevnici" toho 3D grafu.
 
 Máme funkci $f$ dvou proměnných a následující předpoklady:
@@ -50,8 +48,6 @@ END
 ---
 
 #### Cesta a implicitní funkce
-
-
 START
 FIT-Card
 
@@ -112,9 +108,9 @@ Jak se nazývají $f$, $g_j$ a $h_k$ v **úloze vázaného extrému minima**?
 
 Back:
 
-- $f$ - objektiovní/účelová/minimalizovaná/optimalizovaná funkce
-- $g_j$ - rovnostní podmínka/vazba
-- $h_k$ - nerovnostní podmínka/vazba
+- $f$ - objektivní/účelová/minimalizovaná/**optimalizovaná funkce**
+- $g_j$ - **rovnostní podmínka**/vazba
+- $h_k$ - **nerovnostní podmínka**/vazba
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241011123605.png)
@@ -186,7 +182,7 @@ Tedy lokální extém na cestě může nastat pouze v místech, kde se dotýkám
 
 To že se dotýkám vrstevnice zjistím z toho, že cesta a vrstevnice mají stejnou tečnu. Tečny jsou kolmý na gradient. Neboli musím najít body takové, kde gradienty funkce $f$ a funkce $g$ jsou rovnoběžné. To jsou pak body podezřelé z extrému.
 
-Když spočtem $\nabla L$ (gradient Lagrangeovy funkce) a budeme zkoumat, je gradient roven nule, tedy kdy mají jsou ty gradienty $f$ a $g$ rovnoběžné, tedy nacházíme body podezřelé z extrému. .
+**Multiplikátory Lagrangeovy funkce nám pak umožní zjistit, kdy jsou gradienty těchto funkcí rovnoběžné.**
 
 ![](../../Assets/Pasted%20image%2020241011135242.png)
 <!--ID: 1729236692670-->
@@ -199,7 +195,7 @@ END
 START
 FIT-Card
 
-Definice: **Lagrangeova funkce**
+Definice: **Lagrangeova funkce** (pro rovnostní vazby)
 
 Back:
 
@@ -260,7 +256,7 @@ END
 START
 FIT-Card
 
-Jak se obecně používá Lagrangeova funkce?
+Jak se obecně používá Lagrangeova funkce? (při hledání lokálního extrému)
 
 Back:
 
@@ -268,7 +264,7 @@ Back:
 2. Zderivujeme ji podle všech proměnných, čímž získáme $n+m$ rovnic
 3. Rovnice vyřešíme
 4. Koukneme se na všechny směry, co jsou kolmé na gradienty všech těch vazeb a spočteme $v^T\cdot \nabla^2_xL(x^*;\lambda^*)\cdot v$
-5. Když to bude kladné, máme lokální maximum
+5. Když to bude kladné, máme lokální minimum
 <!--ID: 1729236692711-->
 END
 
@@ -280,19 +276,17 @@ END
 START
 FIT-Card
 
-Co řeší metoda řešení při rovnostních vazbách i nerovnostních vazbách?
+Čím se zabývá "metoda řešení při rovnostních i nerovnostních vazbách"?
 
 Back:
 
 Mám nějakou cestu (vazbu), když jsem uvnitř ní (např. v tom kruhu), hledám minimum v daném okolí, které je také uvnitř té vazby.
 
-Samotná vazba (ta kružnice) mě pak při výpočtech nezajímá.
 ![](../../Assets/Pasted%20image%2020241011144008.png)
 <!--ID: 1729236692717-->
 END
 
 ---
-
 
 START
 FIT-Card

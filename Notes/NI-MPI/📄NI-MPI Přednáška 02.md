@@ -44,7 +44,7 @@ END
 START
 Basic
 
-Věta: 
+Věta: pořadí parciálního derivování 
 
 Back:
 
@@ -76,19 +76,19 @@ END
 START
 Basic
 
-Věta: 
+Věta: Jak se spočte druhá parciální derivace $f$ ve směru $v$ v bodě $b$
 
 Back:
 
 ![[Pasted image 20240930133710.png]]
 
+Jak se to používá:
 ![[Pasted image 20240930134257.png]]
-
 Můžu potom provádět "ruské násobení":
 1. Napíšu si vektor a tu matici
 2. Vynásobím je a dostanu vektor
 3. ten vektor potom pronásobím s dalším vektorem
-
+<!--ID: 1735463085834-->
 END
 
 ---
@@ -251,11 +251,24 @@ END
 START
 Basic
 
-Postup: Jak najít extrémy v 3D grafu?
+Postup: Jak najít extrémy funkce více proměnných?
 
 Back:
 
+1. Najdu **kritické body** (stacionární + ty, kde alespoň jedna parciální derivace neexistuje)
+2. Pokud jsou **všechny 2. parciální derivace** v okolí stacionárního bodu $\textbf{b}$ spojité, najít **Hessovu matici**. Pokud je matice
+	1. **pozitivně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **minima** 
+	2. **negativně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **maxima**
+	3. **indefinitní**, pak je bod $\textbf{b}$ sedlovým bodem (tj. není extrém)
+
+<!-- DetailInfoStart -->
+Pozn. Hledat kritické body je samo o sobě **velice obtížné** a není jednotný algoritmus, co by to jednoduše vyřešil. Najít přesné body je proto velice těžké. Samozřejmě ty řešení, co máme na tomto předmětu, jsou jednoduché.
+
 ![[Pasted image 20240930140745.png]]
+<!-- DetailInfoEnd -->
+
+
+
 <!--ID: 1728921214824-->
 END
 

@@ -416,6 +416,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020174504.png)
 
 <!-- ImageStart -->
+Umění pana Spěváka:
 ![](../../Assets/Pasted%20image%2020241020174401.png)
 ![](../../Assets/Pasted%20image%2020241020174442.png)
 xDD
