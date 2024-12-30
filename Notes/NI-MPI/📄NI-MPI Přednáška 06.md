@@ -49,7 +49,7 @@ END
 START
 FIT-Card
 
-Definice: Horní resp. dolní Darbouxův ("Darbuúv") integrál
+Definice: Darbouxův ("Darbuúv") integrál + horní a dolní
 
 Back:
 
@@ -67,7 +67,7 @@ END
 START
 FIT-Card
 
-Věta: normální posloupnost rozdělení $\implies \ ?$
+Věta: kdy se $\lim_{n \rightarrow \infty}s_f(\sigma_n)$ a $\lim_{n \rightarrow \infty}S_f(\sigma_n)$ rovnají integrálu?
 
 Back:
 
@@ -137,7 +137,7 @@ END
 START
 FIT-Card
 
-Věta: Per partes pro určitý integrál
+Věta: **Per partes pro určitý integrál**
 
 Back:
 
@@ -274,7 +274,7 @@ END
 START
 FIT-Card
 
-Definice: **normální rozdělení $\sigma_n$**
+Definice: **normální rozdělení $\sigma_n$** + kdy se $\lim_{n \rightarrow \infty}s_f(\sigma_n)$ a $\lim_{n \rightarrow \infty}S_f(\sigma_n)$ rovnají integrálu? (u funkce dvou proměnných)
 
 Back:
 
@@ -319,7 +319,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241020172211.png)
 
 <!-- ExplanationStart -->
-Máme nějakou oblast a když jsme schopný ji uzavřít do obdélníka abcd.
+Máme nějakou oblast (smajlík). Když jsme schopný ji uzavřít do obdélníka abcd, tak můžeme vyjádřit ten její Darbouxův integrál tak, že si dodefinujeme místa mimo toho smajlíka jako samé nuly.
 
 ![](../../Assets/Pasted%20image%2020241020173002.png)
 <!-- ExplanationEnd -->

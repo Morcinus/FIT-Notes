@@ -29,7 +29,7 @@ END
 START
 FIT-Card
 
-Jak lze spočíst dvojný integrál nad obecnou oblastí?
+Jak lze obecně spočíst dvojný integrál nad obecnou oblastí?
 
 Back:
 
@@ -114,7 +114,7 @@ END
 START
 FIT-Card
 
-Definice: Jacobiho matice
+Definice: **Jacobiho matice**
 
 Back:
 
@@ -135,7 +135,7 @@ END
 START
 FIT-Card
 
-Věta: **o substituci**
+Věta: **o substituci** (zobecněná pro funkci $f: D \rightarrow \mathbb{R}$)
 
 Back:
 

@@ -60,7 +60,6 @@ Vysvětlení součtový normy:
 
 Maximová norma - každý vektor má maximální souřadici 1
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214838-->
 END
 
@@ -251,7 +250,6 @@ Je to podobné jako u intervalů v $\mathbb{R}$.
 - uzavřená - jsou tam i hraniční body té množiny
 <!-- ExplanationEnd -->
 
-
 <!--ID: 1728921214874-->
 END
 
@@ -418,7 +416,7 @@ Back:
 
 smazat
 
-
+<!--ID: 1735549740242-->
 END
 
 ---

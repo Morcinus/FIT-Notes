@@ -118,7 +118,7 @@ END
 START
 Basic
 
-Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
+Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
 ![[Pasted image 20240930135010.png]]
 
@@ -133,7 +133,7 @@ END
 START
 Basic
 
-Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
+Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
 ![[Pasted image 20240930135037.png]]
 
@@ -148,7 +148,7 @@ END
 START
 Basic
 
-Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
+Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
 ![[Pasted image 20240930135042.png]]
 
@@ -163,7 +163,7 @@ END
 START
 Basic
 
-Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
+Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
 ![[Pasted image 20240930135055.png]]
 
@@ -178,7 +178,7 @@ END
 START
 Basic
 
-Buď $\textbf{A} \in \mathbb{R}^{n,n}$. Potom platí následující:
+Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
 ![[Pasted image 20240930135103.png]]
 
