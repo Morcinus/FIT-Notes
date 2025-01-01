@@ -7,6 +7,23 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: NI-MPI
 FILE TAGS: NI-MPI
 
+
+START
+FIT-Card
+
+Jak se spočte řád grupy $Z_n^{\times}$?
+
+Back:
+
+Řád grupy je $\varphi(n)$ - Eulerova funkce.
+
+Tags: algebra3
+
+END
+
+---
+
+
 START
 FIT-Card
 
@@ -15,6 +32,8 @@ Jak se spočte eulerova funkce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241230141551.png)
+
+Tags: algebra4
 
 END
 

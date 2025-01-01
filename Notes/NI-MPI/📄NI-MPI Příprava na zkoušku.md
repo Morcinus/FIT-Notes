@@ -9,7 +9,7 @@ up: "[[📖NI-MPI)"
 Tady je seznam všech příkladů, co jsem vyhrabal na fitwiki.
 
 - Příklady s ✔️ mají ověřený výsledek
-- U příkladů s ❔si nejsem s řešením moc jistý
+- U příkladů s❔si nejsem s řešením moc jistý
 - Příklady s ⭐ jsou trošičku těžší, nebo tam je nějaký chyták
 
 Pozn. příklady, co se v testech opakují jsem sem dal jen jednou.
@@ -30,7 +30,7 @@ Pozn. příklady, co se v testech opakují jsem sem dal jen jednou.
 - [20. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-1-20 "škola:předměty:mi-mpi:mpi_zkouska_2021-1-20") ✔️ (oddělení palec)
 - [27. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-1-27 "škola:předměty:mi-mpi:mpi_zkouska_2021-1-27") ✔️(oddělení turbomotorka nebo co to sakra je :D)
 - [3. 2. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-2-3 "škola:předměty:mi-mpi:mpi_zkouska_2021-2-3") ✔️ (oddělení nůžky)
-- [10. 2. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-2-10 "škola:předměty:mi-mpi:mpi_zkouska_2021-2-10")
+- [10. 2. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-2-10 "škola:předměty:mi-mpi:mpi_zkouska_2021-2-10") ✔️ (magická hůlka Voldemorta)
 
 ### Malé příklady
 
@@ -45,7 +45,7 @@ Pozn. příklady, co se v testech opakují jsem sem dal jen jednou.
 1. spočtu gradient
 2. Dosadím do rovnice pro derivaci funkce ($\nabla_vf(x)=\nabla f(x) \cdot v$)
 3. Vyjde $(E)$
-##### Otázka - 1. derivace počítání 2
+##### ✔️Otázka - 1. derivace počítání 2
 
 ![](../../Assets/Pasted%20image%2020241231165637.png)
 
@@ -60,11 +60,11 @@ Pozn. příklady, co se v testech opakují jsem sem dal jen jednou.
 
 D
 
-##### Otázka - ✔️2. derivace počítání 2
+##### ✔️Otázka - 2. derivace počítání 2
 ![](../../Assets/Pasted%20image%2020250101143309.png)
 ###### Výsledek
 **(C)**
-##### ✔️⭐ Otázka 2
+##### ✔️Otázka - definitnost matice 1
 
 ![](../../Assets/Pasted%20image%2020241230143437.png)
 
@@ -75,13 +75,19 @@ D
 2. Mám kvadratickou rovnici $\lambda^2-2\lambda-3$, tedy vlastní čísla budou $3, -1, 0, 0, \dots$
 3. Vlastní čísla se liší, tedy je indefinitní
 
-##### ✔️❔Otázka 3
+##### ✔️Otázka - definitnost matice 2
+![](../../Assets/Pasted%20image%2020250101162613.png)
+
+###### Výsledek
+Vlastní čísla vyjdou $4, 0, 0, \dots$
+Tzn. je **pozitivně semidefinitní**
+**(C)** je správně
+##### ✔️Otázka 3
 
 ![](../../Assets/Pasted%20image%2020241230145025.png)
 
 ###### Výsledek
-
-(A) - Tohle je správně podle asi 3 lidí na fitwiki, mně to moc nedává smysl protože $he_i$ je číslo a ne vektor, tím pádem mi to nedává smysl. Ale musí to být správně, když to tak má literally každý na fitwiki.
+**(A)** - Vpodstatě přímo definice, jen trochu jinak zapsaný vnitřek té závorky
 
 ##### ✔️Otázka 4
 
@@ -95,17 +101,17 @@ c) NE - závisí to na vlastních číslech
 d) NE
 e) NE - jeden nulový prvek nemusí nutně ovlivnit definitnost
 
-##### ✔️⭐ Otázka
+##### ✔️⭐ Otázka - lokální minimum
 
 ![](../../Assets/Pasted%20image%2020241230160828.png)
 
 ###### Výsledek
 
-A)
+A) 
 B) NE - matice by musela být pozitivně definitní
 **C) ANO** - znamená to (asi), že tím pádem Hessova matice musí být pozitivně definitní, což splňuje tu podmínku
-D)
-E)
+D) 
+E) NE - musí být kladná
 
 ##### ✔️❔Otázka - 2. derivace
 
@@ -119,7 +125,7 @@ C) NE??
 D) Neee
 E) Ptfuj ani náhodou
 
-##### Otázka - ✔️⭐2. derivace 2
+##### ✔️⭐Otázka - 2. derivace 2
 ![](../../Assets/Pasted%20image%2020250101131842.png)
 
 ###### Výsledek
@@ -151,9 +157,18 @@ C) NE
 **D) ANO**
 E) NE
 
+##### ✔️⭐Otázka - parciální derivace
+![](../../Assets/Pasted%20image%2020250101163957.png)
+###### Výsledek
+A) NE
+B) NE - Musel by tam být předpoklad, že v tom bodě existuje ta parciální derivace (dle věty 3.1)
+C) **ANO** - Ten vektor standardní báze mi "vybere" z toho gradientu tu i-tou derivaci.
+D) NE - v jiném směru to nemusí být kladné
+E) NE - a nevím proč
+
 #### Algebra
 
-##### ✔️Otázka 1
+##### ✔️Otázka 1 - počítání řádu grupy
 
 ![](../../Assets/Pasted%20image%2020241230140811.png)
 
@@ -163,14 +178,15 @@ E) NE
 ![](../../Assets/Pasted%20image%2020241230141154.png)
 
 Výsledek: (A) 100
-
-##### ✔️⭐❔Otázka 2
-
+##### ✔️⭐❔Otázka - cyklická grupa 1
 ![](../../Assets/Pasted%20image%2020241230145712.png)
 
 ###### Výsledek
-
-(C) podle fitwiki - ale nevím proč
+A) Ne - $a^n = e$ platí pro každý prvek v grupě
+B) Ne - může to být i $2$ 
+C) ❔**ANO** - Ale nevím moc proč tbh
+D) Ne - inverzní prvek tam např. u generátoru je
+E) Ne - neplatí to pro všechny prvky
 
 ##### ✔️⭐Otázka - grupa 1
 
@@ -194,20 +210,19 @@ E) ANO - obal $a$ bude nějaká podgrupa. Když to je podgrupa, je to grupa. Kdy
 A) Nope, muselo by to být $a^{2+n}$
 B) Nope, protože $a^n$ je neutrální prvek
 C) Ne?
-D) Ano, protože $a^{n-1}=a^n \cdot a^{-1} = a^{-1}$. Platí, že inverzní prvek generátoru grupy je taky generátor té grupy. Tedy se to rovná.
+D) **Ano**, protože $a^{n-1}=a^n \cdot a^{-1} = a^{-1}$. Platí, že inverzní prvek generátoru grupy je taky generátor té grupy. Tedy se to rovná.
 E) Ne, to nedává smysl
-##### ✔️Otázka
+##### ✔️Otázka - okruh polynomů
 
 ![](../../Assets/Pasted%20image%2020241230151334.png)
 
 ###### Výsledek
 
-a) NE - nenapadá mě nic, proč by to tak mělo být
+a) NE - ?
 b) NE - Okruh může mít nekonečný počet prvků nad tělesem, který má konečné množství prvků.
 c) NE - nesplňuje podmínku uzavřenosti (grupoid), protože násobením dvou polynomů dostanu polynom vyššího stupně
-d) ANO
-
-(D)
+d) **ANO** - nenapadá mě, jak by se v $F[x]$ vzaly dělitelé nuly, když v $F$ nejsou
+e) NE
 
 ##### ✔️Otázka
 
@@ -242,7 +257,7 @@ d) NE - analogicky jako v a)
 
 A) správně (i podle fitwiki i podle mě i podle chatgpt)
 
-##### Otázka
+##### ✔️Otázka
 
 ![](../../Assets/Pasted%20image%2020241231163153.png)
 
@@ -267,7 +282,7 @@ C) NE - to je blbost, autor asi upadnul na hlavu
 D) ANO - Je to kombinace několika vět: 1. Podgrupa má řád $p$, každá grupa prvočíselného řádu je cyklická 2. Všechny cyklické grupy stejného řádu jsou izomorfní.
 E) NE
 
-##### ✅Otázka
+##### ✔️Otázka
 
 Mějme okruh R s operacemi + a · (v tomto pořadí), který má alespoň 2 prvky. Prvek 0 je neutrální vůči + a 1 vůči ·. Které z následujících tvrzení není pravdivé?
 ![](../../Assets/Pasted%20image%2020241231152732.png)
@@ -312,7 +327,7 @@ C) NE - bullshit
 D) NE - je to obráceně
 E) NE - bullshit. Tohle platí u izomorfismů, ale není to definice
 
-##### ⭐Otázka - homomorfismus 2
+##### ✔️⭐Otázka - homomorfismus 2
 ![](../../Assets/Pasted%20image%2020250101134321.png)
 ###### Výsledek
 A) ANO - vlastní podgrupa bude mít řád menší než $n$
@@ -337,7 +352,6 @@ $119\cdot k \equiv 107 \pmod {122}$
 Správně: **(C)**
 #### Strojová čísla
 ##### ✔️Otázka - převod do binárky
-
 ![](../../Assets/Pasted%20image%2020241231153222.png)
 
 ###### Výsledek
@@ -355,18 +369,14 @@ $$
 - Správná odpověď: **(E)**
 
 
-##### Otázka - převod do binárky
-
+##### ✔️Otázka - převod do binárky 2
 ![](../../Assets/Pasted%20image%2020241230140315.png)
-
-##### Otázka - převod do binárky
-
-![](../../Assets/Pasted%20image%2020241230152916.png)
-
 ###### Výsledek
-Dle fitwiki E
-
-
+(**D**)
+##### ✔️Otázka - převod do binárky
+![](../../Assets/Pasted%20image%2020241230152916.png)
+###### Výsledek
+(**E**)
 ##### ✔️Otázka - poznej strojové číslo 1
 ![](../../Assets/Pasted%20image%2020250101144315.png)
 ###### Výsledek
