@@ -319,7 +319,9 @@ END
 START
 FIT-Card
 
-Jaký řád má aditivní a multiplikativní grupa tělesa $GF(p^n)$?
+Jaký řád má aditivní a multiplikativní grupa konečného tělesa ($GF(p^n)$)?
+
+(tohle bylo třeba u zkoušky!)
 
 Back:
 

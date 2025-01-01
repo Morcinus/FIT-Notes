@@ -7,7 +7,6 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: NI-MPI
 FILE TAGS: NI-MPI
 
-
 START
 FIT-Card
 
@@ -21,6 +20,26 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Jak se pozná, že má zlomek konečný desetinný rozvoj? Např. $\frac{3}{10}$
+
+(tohle se hodí k jedné otázce z rozstřelové části)
+
+Back:
+
+Jmenovatel má ve faktorizaci pouze mocniny $2^n$.
+
+<!-- ExampleStart -->
+- $\frac{5}{8} \quad 8=2^3$ má konečný zápis
+- $\frac{3}{10}$ nemá konečný zápis 
+<!-- ExampleEnd -->
+
+END
+
+---
 
 
 

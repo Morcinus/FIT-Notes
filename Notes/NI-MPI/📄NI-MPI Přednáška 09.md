@@ -68,6 +68,48 @@ END
 
 ---
 
+START
+FIT-Card
+
+Kolik bitů má poloviční přesnost (single precision) u $m,e$?
+
+Back:
+
+- $m = 10$
+- $e = 5$
+
+END
+
+---
+
+START
+FIT-Card
+
+Kolik bitů má jednoduchá přesnost (single precision) u $m,e$?
+
+Back:
+
+- $m = 23$
+- $e = 8$
+
+END
+
+---
+
+START
+FIT-Card
+
+Kolik bitů má dvojitá přesnost (single precision) u $m,e$?
+
+Back:
+
+- $m = 52$
+- $e = 11$
+
+END
+
+---
+
 
 START
 FIT-Card
@@ -168,6 +210,8 @@ Co jsou **strojová čísla**?
 Back:
 
 Reálná čísla, která lze reprezentovat podle standardu IEEE-754 (znaménko, mantisa, exponent) se nazývají **strojová čísla**.
+
+Tzn. jsou to reálná čísla, co mají **konečný** binární rozvoj.
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241113112511.png)

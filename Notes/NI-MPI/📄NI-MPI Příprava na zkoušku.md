@@ -12,30 +12,31 @@ Tady je seznam všech příkladů, co jsem vyhrabal na fitwiki.
 - U příkladů s ❔si nejsem s řešením moc jistý
 - Příklady s ⭐ jsou trošičku těžší, nebo tam je nějaký chyták
 
+Pozn. příklady, co se v testech opakují jsem sem dal jen jednou.
+
 > Kdybyste našli chybu nebo něco, tak prosím řekněte :D
 
-> P.S. stránka je work in progress - postupně budu přidávat další příklady
+> Stránka je work in progress - postupně budu přidávat další příklady
 
 ### Vypsané testy
 
 ✔️ - testy, u kterých jsem sem vypsal příklady
 
 2021:
-
 - [6. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-1-6 "škola:předměty:mi-mpi:mpi_zkouska_2021-1-6") ✔️ (oddělení kladivo)
 - [13. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-1-13 "škola:předměty:mi-mpi:mpi_zkouska_2021-1-13")
   - skupina 1 ✔️ (oddělení oko)
-  - skupina 2 ✔️ (oddělení raketa)
+  - skupina 2 ✔️ (oddělení letadlo)
 - [20. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-1-20 "škola:předměty:mi-mpi:mpi_zkouska_2021-1-20") ✔️ (oddělení palec)
 - [27. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-1-27 "škola:předměty:mi-mpi:mpi_zkouska_2021-1-27") ✔️(oddělení turbomotorka nebo co to sakra je :D)
-- [3. 2. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-2-3 "škola:předměty:mi-mpi:mpi_zkouska_2021-2-3")
+- [3. 2. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-2-3 "škola:předměty:mi-mpi:mpi_zkouska_2021-2-3") ✔️ (oddělení nůžky)
 - [10. 2. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-mpi/mpi_zkouska_2021-2-10 "škola:předměty:mi-mpi:mpi_zkouska_2021-2-10")
 
 ### Malé příklady
 
 #### Analýza
 
-##### ✔️Otázka 1
+##### ✔️Otázka - 1. derivace počítání 1
 
 ![](../../Assets/Pasted%20image%2020241230142339.png)
 
@@ -44,8 +45,14 @@ Tady je seznam všech příkladů, co jsem vyhrabal na fitwiki.
 1. spočtu gradient
 2. Dosadím do rovnice pro derivaci funkce ($\nabla_vf(x)=\nabla f(x) \cdot v$)
 3. Vyjde $(E)$
+##### Otázka - 1. derivace počítání 2
 
-##### ✔️Otázka
+![](../../Assets/Pasted%20image%2020241231165637.png)
+
+###### Výsledek
+(A)
+
+##### ✔️Otázka - 2. derivace počítání 2
 
 ![](../../Assets/Pasted%20image%2020241230160718.png)
 
@@ -53,6 +60,10 @@ Tady je seznam všech příkladů, co jsem vyhrabal na fitwiki.
 
 D
 
+##### Otázka - ✔️2. derivace počítání 2
+![](../../Assets/Pasted%20image%2020250101143309.png)
+###### Výsledek
+**(C)**
 ##### ✔️⭐ Otázka 2
 
 ![](../../Assets/Pasted%20image%2020241230143437.png)
@@ -96,7 +107,7 @@ B) NE - matice by musela být pozitivně definitní
 D)
 E)
 
-##### ✔️❔Otázka
+##### ✔️❔Otázka - 2. derivace
 
 ![](../../Assets/Pasted%20image%2020241231155030.png)
 
@@ -108,7 +119,17 @@ C) NE??
 D) Neee
 E) Ptfuj ani náhodou
 
-##### ✔️Otázka
+##### Otázka - ✔️⭐2. derivace 2
+![](../../Assets/Pasted%20image%2020250101131842.png)
+
+###### Výsledek
+A) ANO
+B) NE
+C) Ne, musela by tam být Hessova matice, ne gradient
+D) Ne
+E) Ne
+
+##### ✔️Otázka - nadrovina 1
 
 Mějme funkci f : R 3 → R mající spojité všechny parciální derivace (a def. obor R 3 ). Jaký výrok o tečné nadrovině P na graf funkce f v bodě (a, b, c) ∈ R 3 je vždy pravdivý?
 ![](../../Assets/Pasted%20image%2020241231153324.png)
@@ -121,11 +142,14 @@ B) BULLSHIT
 D) NE - takhle ta rovnice nevypadá
 E) NE
 
-##### Otázka
-
-![](../../Assets/Pasted%20image%2020241231165637.png)
-
+##### ✔️Otázka - nadrovina 2
+![](../../Assets/Pasted%20image%2020250101131137.png)
 ###### Výsledek
+A) Nope, musela by tam být $-1$
+B) NE
+C) NE
+**D) ANO**
+E) NE
 
 #### Algebra
 
@@ -148,7 +172,7 @@ Výsledek: (A) 100
 
 (C) podle fitwiki - ale nevím proč
 
-##### ✔️⭐Otázka
+##### ✔️⭐Otázka - grupa 1
 
 ![](../../Assets/Pasted%20image%2020241230160935.png)
 
@@ -160,7 +184,19 @@ C) NE - trochu to naráží na větu 32.1, ale imo to neplatí
 D) NE
 E) ANO - obal $a$ bude nějaká podgrupa. Když to je podgrupa, je to grupa. Když je to grupa, z věty 32.1, plyne, že musí existovat $k$ takové, že $a^k=e$
 
-##### ✔️ Otázka
+##### ✔️❔Otázka - grupa 2
+![](../../Assets/Pasted%20image%2020250101141429.png)
+
+###### Výsledek
+
+> Tady si nejsem moc jistý spíš jsem pro D. Na fitwiki se lidi hádají, protože většina dala (D), ale nějaký frajer tvrdí, že to má být (C), protože prý u nekonečné grupy to nejsme schopni jednoznačně říct.
+
+A) Nope, muselo by to být $a^{2+n}$
+B) Nope, protože $a^n$ je neutrální prvek
+C) Ne?
+D) Ano, protože $a^{n-1}=a^n \cdot a^{-1} = a^{-1}$. Platí, že inverzní prvek generátoru grupy je taky generátor té grupy. Tedy se to rovná.
+E) Ne, to nedává smysl
+##### ✔️Otázka
 
 ![](../../Assets/Pasted%20image%2020241230151334.png)
 
@@ -244,13 +280,26 @@ C) PLATÍ
 D) NEPLATÍ - Tohle obecně platí u těles, ne u okruhů
 E) Např. $a=0$
 
-##### Otázka (todo)
+##### ✔️Otázka - těleso
 
 ![](../../Assets/Pasted%20image%2020241231165606.png)
 
 ###### Výsledek
+A) NE - řád multiplikativní grupy tělesa je $n-1$
+**B) ANO**
+C) NE
+D) NE - viz věta 35.4
+E) NE - tohle bylo u věty, že $\mathbb{Z}_n^\times$ je cyklická
 
-##### Otázka
+##### ✔️Otázka - těleso 2
+![](../../Assets/Pasted%20image%2020250101133727.png)
+###### Výsledek
+A) NE
+B) NE
+**C) ANO**
+D) NE
+E) NE
+##### ✔️Otázka - homomorfismus 1
 
 Nechť G = (M, ◦G) a H = (N, ◦H) jsou dvě grupy. Zobrazení φ : M → N je izomorfizmem grup G a H právě tehdy, když
 ![](../../Assets/Pasted%20image%2020241231154617.png)
@@ -263,45 +312,84 @@ C) NE - bullshit
 D) NE - je to obráceně
 E) NE - bullshit. Tohle platí u izomorfismů, ale není to definice
 
+##### ⭐Otázka - homomorfismus 2
+![](../../Assets/Pasted%20image%2020250101134321.png)
+###### Výsledek
+A) ANO - vlastní podgrupa bude mít řád menší než $n$
+B) NE
+C) NE - může to být surjektivní zobrazení
+D) NE nutně
+E) NE, grupy by musely být cyklické, aby se vůbec dalo na podobně hříšné myšlenky pomyslet
+
+##### ✔️Otázka - diskrétní logaritmus (+)
+![](../../Assets/Pasted%20image%2020250101134625.png)
+###### Výsledek
+1. Upravíme rovnici:
+$119\cdot k \equiv 107 \pmod {122}$
+
+2. Zjistíme inverzní prvek 119: Spočtem $119\cdot x \equiv 1 \pmod {122}$, tedy $\gcd(119,122)$ pomocí Eukleidova algoritmu, vyjde $x = 81$
+3. Vynásobíme rovnici inverzním prvkem:
+	- $k \equiv 107 \cdot 119^{-1} \pmod {122}$
+	- $k \equiv 107 \cdot 81 \pmod {122}$
+	- $k \equiv 8667 \pmod {122}$
+- Zmodulíme a dostaneme zbytek po dělení 112: $k = 5$
+
+Správně: **(C)**
 #### Strojová čísla
-
-##### Otázka 1
-
-![](../../Assets/Pasted%20image%2020241230140315.png)
-
-##### Otázka 2
-
-![](../../Assets/Pasted%20image%2020241230152440.png)
-
-###### Výsledek
-
-##### Otázka
-
-![](../../Assets/Pasted%20image%2020241230152916.png)
-
-###### Výsledek
-
-##### Otázka
+##### ✔️Otázka - převod do binárky
 
 ![](../../Assets/Pasted%20image%2020241231153222.png)
 
 ###### Výsledek
+$$
+\begin{align*}
+& \frac{4}{3} = 1 + \frac{1}{3} \\
+& \tfrac{1}{3} \cdot 2 = \tfrac{2}{3}  \quad 0 \\
+& \tfrac{2}{3} \cdot 2 = \tfrac{1}{3}  \quad 1 \\
+& \dots \\
+& \frac{4}{3} =1.\overline{01}_{2} 
+\end{align*}
+$$
+- Po normalizaci první jednička zmizí
+- Normalizovaná mantisa končí $1010$ a následovala by $1$. Kvůli tomu je třeba zaokrouhlit podle pravidla v zadání - zaokrouhluje se směrem od nuly, tedy poslední 4 číslice budou $1011$
+- Správná odpověď: **(E)**
 
-##### Otázka
+
+##### Otázka - převod do binárky
+
+![](../../Assets/Pasted%20image%2020241230140315.png)
+
+##### Otázka - převod do binárky
+
+![](../../Assets/Pasted%20image%2020241230152916.png)
+
+###### Výsledek
+Dle fitwiki E
+
+
+##### ✔️Otázka - poznej strojové číslo 1
+![](../../Assets/Pasted%20image%2020250101144315.png)
+###### Výsledek
+Strojová čísla je konečná podmnožina **racionálních** (ne reálných) čísel. Tzn. neobsahuje např. čísla která mají nekonečný zápis (např. $1/3, \sqrt 2, \pi$)
+**(B)**
+
+##### ✔️Otázka - poznej strojové číslo 2
+![](../../Assets/Pasted%20image%2020241230152440.png)
+
+###### Výsledek
+**B**
+##### ✔️Otázka - poznej strojové číslo 3
 
 ![](../../Assets/Pasted%20image%2020241230152955.png)
 
 ###### Výsledek
-
-##### Otázka
+**A**
+##### ✔️Otázka - poznej strojové číslo 3
 
 ![](../../Assets/Pasted%20image%2020241231154933.png)
 
 ###### Výsledek
-
-#### Vlastní čísla
-
-#### Algoritmy a soustavy lin. rovnic
+**A**
 
 ### Velké příklady
 
@@ -331,6 +419,11 @@ E) NE - bullshit. Tohle platí u izomorfismů, ale není to definice
 
 ###### Výsledek
 
+##### Otázka
+![](../../Assets/Pasted%20image%2020250101144934.png)
+
+###### Výsledek
+
 #### Algebra
 
 ##### Otázka
@@ -354,5 +447,10 @@ E) NE - bullshit. Tohle platí u izomorfismů, ale není to definice
 ##### Otázka
 
 ![](../../Assets/Pasted%20image%2020241231165713.png)
+
+###### Výsledek
+
+##### Otázka
+![](../../Assets/Pasted%20image%2020250101144918.png)
 
 ###### Výsledek
