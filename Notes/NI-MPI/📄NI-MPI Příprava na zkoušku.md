@@ -464,7 +464,14 @@ Idk.
 ###### Výsledek a)❔❌⭐
 Víme, že řád podgrupy bude buď $2$ nebo $13$ na základě Lagrangeovy věty.
 
-Podgrupa řádu 2 bude vypadat takto $\set {1, ?}$. Nevím, jak efektivně najít ten druhý prvek, aniž by to člověk bruteforcoval.
+Podgrupa řádu $2$ bude vypadat takto $\set {1, ?}$ (protože tam musí být neutrální prvek).
+
+Jelikož jsme v $\mathbb{Z}_2$, nabízí se vyzkoušet třeba $2$ a hle, dvojka splňuje podmínku, že $2\cdot 2 = 1$.
+
+Podgrupa má tedy prvky $\set {1,2}$. Když máme zdůvodnit, že jde o grupu, měli bychom nejspíš správně dokázat všechny vlastnosti z definice, tzn.:
+- Jde o podmnožinu původních prvků - platí
+- Jde o grupu - tam bychom ukázali, že platí vlastnosti:
+	- grupoidu, pologrupy, monoidu a grupy.
 
 ###### Výsledek b) TODO
 
