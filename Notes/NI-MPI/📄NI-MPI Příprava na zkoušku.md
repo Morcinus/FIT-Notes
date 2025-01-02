@@ -402,12 +402,18 @@ Strojová čísla je konečná podmnožina **racionálních** (ne reálných) č
 
 #### Analýza
 
-##### Otázka
+##### ✔️ Otázka
 
 ![](../../Assets/Pasted%20image%2020241230152521.png)
 
 ###### Výsledek
-
+Desmos graf: https://www.desmos.com/calculator/7t8g20f0el
+Je třeba sestavit směrnice:
+$$y_1 = \frac{z}{3}(x+2)$$
+$$y_2 = \frac{z-2}{3}(x+2)+2$$
+Integrál a výsledek pak vypadají takto:
+$$\int_{-2}^{1}\int_{\tfrac{z}{3}(x+2)}^{\tfrac{z-2}{3}(x+2)+2}(x-3y)\,dy\,dx = -3(z+3)$$
+(ověřeno Wolframem a fitwiki)
 ##### Otázka
 
 ![](../../Assets/Pasted%20image%2020241230161016.png)
@@ -433,11 +439,23 @@ Strojová čísla je konečná podmnožina **racionálních** (ne reálných) č
 
 #### Algebra
 
-##### Otázka
+##### ✔️⭐❔Otázka
 
 ![](../../Assets/Pasted%20image%2020241230152755.png)
 
-###### Výsledek fold
+###### Výsledek a)
+![](../../Assets/Pasted%20image%2020241221092421.png)
+###### Výsledek b)
+$n-1 = 3^4-1=80$
+###### Výsledek c) ⭐❔
+Tady nevím, jak zjednodušit ten polynom. Došel jsem k tomuhle:
+$(2x)^{192}=(2x)^{80}\cdot(2x)^{80}\cdot(2x)^{32}=1\cdot1\cdot(2x)^{32} \pmod{x^4+2x^3+2}$
+dál nevím, jak to jednoduše udělat, ale dle fitwiki má vyjít $2x^3+x+2$
+
+Potom pomocí REA má vyjít 221, ale vycházelo mi to fakt nechutně a počítá se to tak hodinu..
+
+###### Výsledek d) ⭐❔
+Idk.
 
 ##### Otázka
 
@@ -445,19 +463,135 @@ Strojová čísla je konečná podmnožina **racionálních** (ne reálných) č
 
 ###### Výsledek
 
-##### Otázka
+##### ✔️Otázka
 
 ![](../../Assets/Pasted%20image%2020241231154328.png)
 
-###### Výsledek
+###### Výsledek a)✔️
+Prvků $n-1=26$
+Generátorů $\varphi(n)=\varphi(26)=12$
 
-##### Otázka
+Výsledek: $12$
 
+###### Výsledek b)✔️
+_Lepší postup:_
+Lepší způsob je si uvědomit, že z Lagrangeovy věty pokud má mít prvek řád, znamená to, že se po nějaké době "zacyklí" (dostane se na neutrální prvek).
+
+Tzn. vygeneruje mi to nějakou cyklickou podgrupu, tzn. dle Lagrangeovy musí řád podgrupy dělit řád grupy. Tzn. bude to buď $13$ nebo $2$. U tohoto prvku to $2$ určitě nebude, protože po dvou krocích jsme se nedostali na neutrální prvek.
+
+Pro 13 si můžu uvědomit, že platí $x^{26} = 1 \mod x^{3}+ 2x+ 1$, což shodou okolností přesně sedí u našeho prvku $(x^{2})^{13}=1 \mod x^{3}+ 2x+ 1$.
+
+Díky tomu jsme ověřili, že po $13$ krocích se to dostane na neutrální prvek. Dříve se to stát nemůže, protože pro $2$ to neplatí a ostatní generátory podgrupa nemůže mít. 
+
+_Horší postup:_ Jde to bruteforcem vygenerovat všechny prvky, což ale zabere hodně času:
+$$
+\begin{align*}
+& (x^{2})^{m}=1 \mod x^{3}+ 2x+ 1\\
+& m=1: \quad  x^{2} \neq 1 \\
+& m=2: \quad  x^{4} = x^{2} +2 \neq 1 \\
+& m=3: \quad x^{6}  = x^{3}x^{3} = (x+2)^{2} = x^{2}+x+1 \neq 1 \\
+& m=4: \quad x^{8} = x^{4}x^{4}  
+\end{align*}
+$$
+
+###### Výsledek c) ✔️❔
+Pomocí REA vyjde $2x^2+2x+1$, ale poslední nenulový řádek není 1, tzn. gcd není $1$, tzn $x^2$ **nemá inverzi**, asi?
+
+##### ✔️Otázka
 ![](../../Assets/Pasted%20image%2020241231165713.png)
 
-###### Výsledek
+###### Výsledek a) ✔️
+Nemá generátory, protože **není cyklická**. Z přednášky "Aditivní grupa $GF(p^n)$ není cyklická pro $n>1$".
 
-##### Otázka
+###### Výsledek b) ✔️
+Multiplikativní grupa bude mít řád $n-1 = 7$. Tato grupa bude cyklická. Bude tedy mít $\phi(7)=6$ generátorů.
+
+Z $7$ prvků nám tedy stačí najít ten jeden, který není generátorem. Triviálně platí, že to bude $1$, protože když budu neustále násobit $1$, tak se nikam nedostanu. Stačí tedy vypsat všechny ostatní prvky: $010, 011, 100,101,110,111$ (nebude tam 000 a 001).
+
+Inverze se dá počítat např. pro $x$:
+
+**Pro aditivní grupu** triviálně platí, že inverze se počítá takto:
+$1101-0010 = x^3+x^2+1-(x)=(x^2+1)+x^2+1-x=x$
+Nebo si stačí uvědomit, že inverze k $x$ bude $x$ čistě z toho, že se pohybujeme v mod $2$.
+
+**Pro multiplikativní grupu** použijeme REA a vyjde: $x^2+x$
+
+**Výsledek tedy je:**
+- generátory: $010, 011, 100,101,110,111$
+- inverze v aditivní: $x$
+- inverze v multiplikativní: $x^2+x$
+
+###### Výsledek c) ⭐✔️
+$001$ se mi musí zobrazit na neutrální prvek $0$.
+
+Zaprvé, pro řád $r$ prvku $g$ z první grupy platí následující. Pro aditivní grupu platí druhé rovnítko.
+$\phi(g^r)=\phi(g)^r= r \times \phi(g)$
+
+Zadruhé, pro každý prvek homomorfismu musí platit, že řád $\varphi(a)$ musí dělit řád $a$. Aby bylo $\varphi(a)$ řádem v aditivní grupě, musí platit, že $\varphi(a) = 0$.
+
+Když poskládáme podmínky dohromady, získáme následující rovnici:
+Musí platit, že $7 \times \varphi(a) = 0$.
+
+Všechny prvky krom $001$ mají řád $7$ (protože jsou generátory). 
+
+Ověříme rovnici:
+$$
+\begin{align*} \\
+& 7 \times 0 \pmod{10} = 0 \\
+& 7 \times 1 \pmod{10} \neq 0 \\
+& 7 \times 2 \pmod{10}\neq 0 \\
+& 7 \times 3 \pmod{10}\neq 0 \\
+& 7 \times 4 \pmod{10}\neq 0  \\
+& \dots \\
+& 7 \times 9 \pmod{10}\neq 0 \\
+\end{align*}
+$$
+Tzn. jediný prvek, který to splňuje je $0$. Tzn. jediný homomorfismus, který existuje je takový, že se všechny prvky zobrazí do $0$. Je jediný, protože ostatní nesplňují podmínku.
+##### ✔️Otázka
 ![](../../Assets/Pasted%20image%2020250101144918.png)
 
-###### Výsledek
+###### Výsledek a)
+Postupně počítat mocniny x, dokud se nedostanu na neutrální prvek
+
+<!-- Latex Equation -->
+$$
+\begin{align*}
+& x^{m} \equiv 1 \mod x^{2}+1 \\
+& x^{1} \equiv x \mod x^{2}+1 \\
+& x^{2} = -1 =2  \\
+& x^{3} \equiv x^{2+1}\equiv2x  \mod x^{2}+1 \\
+& x^{4} \equiv x^{2+2}\equiv2 \cdot 2 \equiv 1 \mod x^{2}+1 \\
+& m = 4
+\end{align*}
+$$
+
+Výsledek je $4$.
+###### Výsledek b)
+REA s $x^2+1$ a $x$, výsledek vyjde $2x$.
+
+Výsledek je $2x$
+
+###### Výsledek c)
+Vypsat všechny prvky:
+00,01,02,10,11,12,20,21,22
+
+U každého zkusit vynásobit:
+<!-- Latex Equation -->
+$$
+\begin{align*}
+& x^2 =2 \\
+& x^3 = x^2x = 2x \\
+& 00: 0^2 \cdot  x = 0 \quad \text{\small{NE}} \\
+& 01: 1^{2}  \cdot  x = x \quad \text{\small{NE}} \\
+& 02: 2^{2} \cdot x = x \quad \text{\small{NE}} \\
+& 10: x^2 \cdot x = 2x \quad \text{\small{NE}} \\
+& 11: (x+1)^2 x = x^3 +2x^2 +x = 2x+ 4 + x = 3x+4 = 1 \quad \text{\small{ANO}} \\
+& \dots \\
+& 22: (2x+2)^2 x = 1 \quad \text{\small{ANO}} \\
+\end{align*}
+$$
+
+Výsledek: 
+Platí pro:
+$z = 11$ a $z = 22$
+

@@ -1204,7 +1204,8 @@
     "../../Assets/Pasted image 20241226152740.png",
     "../../Assets/Pasted image 20241226152749.png",
     "../../Assets/Pasted image 20241226152728.png",
-    "../../Assets/Pasted image 20241227135810.png"
+    "../../Assets/Pasted image 20241227135810.png",
+    "../../Assets/Pasted image 20241230141551.png"
   ],
   "File Hashes": {
     "Templates/Flashcard.md": "ceb5ce01f17ea992f3be10a5d24f7ee7",
@@ -1231,7 +1232,7 @@
     "Notes/NI-PDB/📄NI-PDB Přednáška 03.md": "6f24bd8e10dbdb12f903134ae9aa26ef",
     "Notes/NI-PDB/📃NI-PDB Cvičení 02.md": "b2c1ba5eb67056e508101715d38f5238",
     "Notes/NI-PDB/📃NI-PDB Cvičení 01.md": "4c0ca9a80c8c3b8b5cf70d8512c380a3",
-    "Notes/NI-MPI/📄NI-MPI Přednáška 02.md": "4268d21cceae6e730ff6a801c1e6896a",
+    "Notes/NI-MPI/📄NI-MPI Přednáška 02.md": "d468b49d1f6c3759bd9c6c9d01e812b9",
     "Notes/NI-MPI/📄NI-MPI Přednáška 01.md": "595ae3fd2ce66d4a79a2eee7dd85fd74",
     "Notes/NI-MPI/📖NI-MPI.md": "205e53b3868f4876c7d2e1446bcd008e",
     "Notes/NI-MPI/📄NI-MPI Přednáška 04.md": "a54b3462f9e0d3ebf8d68ee9bc554df8",
@@ -1266,8 +1267,8 @@
     "Notes/NI-PDB/📄NI-PDB Přednáška 06.md": "61e68e87088260cfb55941682b4bc621",
     "Notes/NI-MPI/📄NI-MPI Přednáška 08.md": "3fafc42c79a112439aa1829424733543",
     "Notes/NI-MPI/📃NI-MPI Cvičení 07.md": "10f5ebae173771ed051bdeb0b5e3fbee",
-    "Notes/NI-MPI/📄NI-MPI Přednáška 07.md": "46114650159d2df64dd904c66989af1b",
-    "Notes/NI-MPI/📄NI-MPI Přednáška 06.md": "d9ec93ffdfd4d9e92b0de0420011bb81",
+    "Notes/NI-MPI/📄NI-MPI Přednáška 07.md": "ee7036754ed7c87b79349758f87a92f3",
+    "Notes/NI-MPI/📄NI-MPI Přednáška 06.md": "e54b8a95867a2d74f1d5c4f22fbca042",
     "Notes/NI-MPI/📃NI-MPI Cvičení 06.md": "35ebc5ec04906d24dbb82f14ce9d2a59",
     "Notes/NI-KOP/📄NI-KOP Přednáška 06.md": "f6b9b3e51ff52a0132797969cb7b6c49",
     "Notes/NI-KOP/📃NI-KOP Cvičení 07.md": "c7317d41fc180fd9baa880bbf155fc46",
@@ -1287,12 +1288,12 @@
     "Notes/NI-MPI/📄NI-MPI Přednáška 18.md": "f328f15724a6b566169ddf0b11e56fb1",
     "Notes/NI-MPI/📄NI-MPI Přednáška 17.md": "57afa360cb8538792ab0117e64889daa",
     "Notes/NI-MPI/📄NI-MPI Přednáška 14.md": "56451c7f2cd25fbb44ea5ab8cc6ebb24",
-    "Notes/NI-MPI/📄NI-MPI Přednáška 15.md": "a8b3e0347538af3708739427c41374e8",
+    "Notes/NI-MPI/📄NI-MPI Přednáška 15.md": "bcab149c8a30e2da0a41af0584d9ad95",
     "Notes/NI-MPI/📄NI-MPI Přednáška 13.md": "b214aa902a6e21a5bc700c0211921a6b",
     "Notes/NI-MPI/📄NI-MPI Přednáška 11.md": "505118dc7acf0fcf1a1295038beabac6",
     "Notes/NI-MPI/📄NI-MPI Přednáška 12.md": "e9e9e2e31c93744ec0c0d1bfcca6b3a1",
     "Notes/NI-MPI/📄NI-MPI Přednáška 10.md": "ec5253b7d677645dc6f10a96a44367bb",
-    "Notes/NI-MPI/📄NI-MPI Přednáška 09.md": "05873676f05c29f6741712b1b18a4998",
+    "Notes/NI-MPI/📄NI-MPI Přednáška 09.md": "78f60bf89830199d8cc7656d67f7579f",
     "Notes/NI-MPI/📃NI-MPI Cvičení 10.md": "7c5e3d98f7f089a11fe55912c1548fae",
     "Notes/NI-MPI/📃NI-MPI Cvičení 13.md": "f532a393bbcc882f53508e594edfde1f",
     "Notes/NI-MPI/📃NI-MPI Cvičení 08.md": "072e168c7b2c60416e90cf6df6e7a23a",
@@ -1319,7 +1320,9 @@
     "Notes/NI-ADP/📄NI-ADP Přednáška 10.md": "7db2ad3e1fe3b37f24d42209d100ac5e",
     "Notes/NI-ADP/📄NI-ADP Přednáška 09.md": "5d8ea4dc4a33b8b3a1e13d31cb60a66d",
     "Notes/NI-ADP/📄NI-ADP Přednáška 08.md": "26d61417536fb504295d96594579ac04",
-    "Notes/NI-ADP/NI-ADP Architektura.md": "67bc8f742549afb22377e4c17dd32490"
+    "Notes/NI-ADP/NI-ADP Architektura.md": "67bc8f742549afb22377e4c17dd32490",
+    "Notes/NI-MPI/📄NI-MPI Příprava na zkoušku.md": "dff44450fe618d8e2443f54d0e45daca",
+    "Notes/NI-MPI/📄NI-MPI Dodatečné flashcards.md": "65be19d61401ecf941809e7f281d85a3"
   },
   "fields_dict": {
     "Basic": [

@@ -268,7 +268,6 @@ Pozn. Hledat kritické body je samo o sobě **velice obtížné** a není jednot
 <!-- DetailInfoEnd -->
 
 
-
 <!--ID: 1728921214824-->
 END
 

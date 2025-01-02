@@ -326,7 +326,7 @@ Jaký řád má aditivní a multiplikativní grupa konečného tělesa ($GF(p^n)
 Back:
 
 - Aditivní: $p^n$
-- Multiplikativní: $p^{n}-1$
+- Multiplikativní: $p^{n}-1$ (nebude tam nula)
 <!--ID: 1735205749345-->
 END
 
@@ -337,6 +337,8 @@ START
 FIT-Card
 
 Jaké neutrální prvky mají aditivní a multiplikativní grupa tělesa $GF(p^n)$?
+
+(tohle bylo třeba u zkoušky!)
 
 Back:
 
@@ -353,6 +355,8 @@ FIT-Card
 
 Jak se spočte inverze k prvku v aditivní a multiplikativní grupě tělesa $GF(p^n)$?
 
+(tohle bylo třeba u zkoušky!)
+
 Back:
 
 - Aditivní: inverze prvku $b_1b_2 \dots b_n$ je $(p-b_1)(p-b_2) \dots (p-b_n)$
@@ -367,6 +371,8 @@ START
 FIT-Card
 
 Je aditivní a multiplikativní grupa tělesa $GF(p_n)$ cyklická?
+
+(tohle bylo třeba u zkoušky!)
 
 Back:
 

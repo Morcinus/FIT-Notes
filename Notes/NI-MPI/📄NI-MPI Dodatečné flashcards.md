@@ -11,14 +11,22 @@ FILE TAGS: NI-MPI
 START
 FIT-Card
 
-Jak se spočte řád grupy $Z_n^{\times}$?
+Jak se spočte řád grup:
+
+- $GF(p^n)$ - multiplikativní
+- $GF(p^n)$ - aditivní
+- $Z_n^{+}$
+- $Z_n^{\times}$
 
 Back:
 
-Řád grupy je $\varphi(n)$ - Eulerova funkce.
+- $GF(p^n)$ - $n-1$
+- $GF(p^n)$ - $n$
+- $Z_n^{+}$ - $n$
+- $Z_n^{\times}$ - $\varphi(n)$ - Eulerova funkce.
 
 Tags: algebra3
-
+<!--ID: 1735812207577-->
 END
 
 ---
@@ -34,7 +42,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241230141551.png)
 
 Tags: algebra4
-
+<!--ID: 1735812207579-->
 END
 
 ---
@@ -55,7 +63,7 @@ Jmenovatel má ve faktorizaci pouze mocniny $2^n$.
 - $\frac{5}{8} \quad 8=2^3$ má konečný zápis
 - $\frac{3}{10}$ nemá konečný zápis 
 <!-- ExampleEnd -->
-
+<!--ID: 1735812207582-->
 END
 
 ---
