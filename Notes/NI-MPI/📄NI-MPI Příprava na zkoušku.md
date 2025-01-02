@@ -406,7 +406,7 @@ Strojová čísla je konečná podmnožina **racionálních** (ne reálných) č
 
 ![](../../Assets/Pasted%20image%2020241230152521.png)
 
-###### Výsledek
+###### Výsledek ✔️
 Desmos graf: https://www.desmos.com/calculator/7t8g20f0el
 Je třeba sestavit směrnice:
 $$y_1 = \frac{z}{3}(x+2)$$
@@ -443,9 +443,9 @@ $$\int_{-2}^{1}\int_{\tfrac{z}{3}(x+2)}^{\tfrac{z-2}{3}(x+2)+2}(x-3y)\,dy\,dx = 
 
 ![](../../Assets/Pasted%20image%2020241230152755.png)
 
-###### Výsledek a)
+###### Výsledek a) ✔️
 ![](../../Assets/Pasted%20image%2020241221092421.png)
-###### Výsledek b)
+###### Výsledek b) ✔️
 $n-1 = 3^4-1=80$
 ###### Výsledek c) ⭐❔
 Tady nevím, jak zjednodušit ten polynom. Došel jsem k tomuhle:
@@ -461,7 +461,13 @@ Idk.
 
 ![](../../Assets/Pasted%20image%2020241230161004.png)
 
-###### Výsledek
+###### Výsledek a)❔❌⭐
+Víme, že řád podgrupy bude buď $2$ nebo $13$ na základě Lagrangeovy věty.
+
+Podgrupa řádu 2 bude vypadat takto $\set {1, ?}$. Nevím, jak efektivně najít ten druhý prvek, aniž by to člověk bruteforcoval.
+
+###### Výsledek b) TODO
+
 
 ##### ✔️Otázka
 
@@ -550,7 +556,7 @@ Tzn. jediný prvek, který to splňuje je $0$. Tzn. jediný homomorfismus, kter�
 ##### ✔️Otázka
 ![](../../Assets/Pasted%20image%2020250101144918.png)
 
-###### Výsledek a)
+###### Výsledek a) ✔️
 Postupně počítat mocniny x, dokud se nedostanu na neutrální prvek
 
 <!-- Latex Equation -->
@@ -566,12 +572,12 @@ $$
 $$
 
 Výsledek je $4$.
-###### Výsledek b)
+###### Výsledek b) ✔️
 REA s $x^2+1$ a $x$, výsledek vyjde $2x$.
 
 Výsledek je $2x$
 
-###### Výsledek c)
+###### Výsledek c) ✔️
 Vypsat všechny prvky:
 00,01,02,10,11,12,20,21,22
 
