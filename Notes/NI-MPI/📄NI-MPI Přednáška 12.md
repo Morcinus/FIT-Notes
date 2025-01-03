@@ -219,6 +219,8 @@ Definice: Podgrupa
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125160404.png)
+
+Tags: core
 <!--ID: 1735205749440-->
 END
 
@@ -301,6 +303,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241125161314.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749452-->
 END
 
@@ -315,6 +319,8 @@ Věta: Sylowova
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125161906.png)
+
+Tags: core
 <!--ID: 1735205749454-->
 END
 

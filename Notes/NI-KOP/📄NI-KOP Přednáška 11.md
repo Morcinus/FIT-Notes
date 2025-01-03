@@ -18,7 +18,7 @@ Co je Hypotéza stavebních bloků?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221154048.png)
-
+<!--ID: 1735922645590-->
 END
 
 ---
@@ -33,7 +33,7 @@ Back:
 
 Pracuje se s mnoužinou schémat
 ![](../../Assets/Pasted%20image%2020241221154632.png)
-
+<!--ID: 1735922645593-->
 END
 
 ---
@@ -48,7 +48,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221154358.png)
 ![](../../Assets/Pasted%20image%2020241221154407.png)
-
+<!--ID: 1735922645597-->
 END
 
 ---
@@ -63,7 +63,7 @@ Věta: **o schématech**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221154656.png)
-
+<!--ID: 1735922645600-->
 END
 
 ---
@@ -82,7 +82,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221155234.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735922645602-->
 END
 
 ---
@@ -96,7 +96,7 @@ Co zpracovává uniformní křížení ve schématech?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221155317.png)
-
+<!--ID: 1735922645605-->
 END
 
 ---
@@ -110,7 +110,7 @@ Jaké dvě věci je třeba udělat u uniformního křížení ve schématech?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221155343.png)
-
+<!--ID: 1735922645608-->
 END
 
 ---
@@ -125,7 +125,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221155504.png)
 ![](../../Assets/Pasted%20image%2020241221155521.png)
-
+<!--ID: 1735922645612-->
 END
 
 ---
@@ -146,7 +146,7 @@ Máme např. minimalizační problém, kde optimalizační kritérium je počet 
 ![](../../Assets/Pasted%20image%2020241221155741.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1735922645615-->
 END
 
 ---
@@ -164,7 +164,7 @@ Takový, který zachází se stavebníma blokama:
 - pracuje s pravděpodobnostním modelem vazeb
 
 ![](../../Assets/Pasted%20image%2020241221160016.png)
-
+<!--ID: 1735922645618-->
 END
 
 ---
@@ -184,7 +184,7 @@ Postupně se zvyšuje řád stavebních bloků $k$.
 3. Křížením a mutacema z toho zkoušíme udělat novou sbírku stavebních bloků.
 
 ![](../../Assets/Pasted%20image%2020241221160208.png)
-
+<!--ID: 1735922645621-->
 END
 
 ---
@@ -200,7 +200,7 @@ Back:
 Na první pozici je místo, na druhé pozici je hodnota
 
 ![](../../Assets/Pasted%20image%2020241221160412.png)
-
+<!--ID: 1735922645624-->
 END
 
 ---
@@ -218,7 +218,7 @@ Dvě možnosti:
 - Přespecifikované geny
 
 ![](../../Assets/Pasted%20image%2020241221160611.png)
-
+<!--ID: 1735922645628-->
 END
 
 ---
@@ -237,7 +237,7 @@ Stochastické generování:
 	- Tzn. snažím se ze stavebního bloku vyššího řádu vyříznout nějaký lepší blok nižšího řádu
 
 ![](../../Assets/Pasted%20image%2020241221160736.png)
-
+<!--ID: 1735922645631-->
 END
 
 ---
@@ -250,7 +250,7 @@ Jak funguje **filtrace schémat**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221160849.png)
-
+<!--ID: 1735922645634-->
 END
 
 ---
@@ -268,7 +268,7 @@ Jsou tam dvě operace:
 - spojení (splice) - spojím rozdělené fragmenty 
 
 ![](../../Assets/Pasted%20image%2020241221161051.png)
-
+<!--ID: 1735922645637-->
 END
 
 ---
@@ -285,7 +285,7 @@ Back:
 Máme generace a zkoušíme udělat statistický odhad, co mi dává optima.
 
 ![](../../Assets/Pasted%20image%2020241221161141.png)
-
+<!--ID: 1735922645641-->
 END
 
 ---
@@ -301,7 +301,7 @@ Back:
 Mám pravděpodobnosti jevů v tabulce. Obecně to je orientovaný acyklický graf. Každá proměnní je uzel v tom grafu.:
 ![](../../Assets/Pasted%20image%2020241221161403.png)
 ![](../../Assets/Pasted%20image%2020241221161447.png)
-
+<!--ID: 1735922645644-->
 END
 
 ---
@@ -316,7 +316,7 @@ Back:
 
 V orientovaném grafu se pak můžu ptát na různé otázky:
 ![](../../Assets/Pasted%20image%2020241221161604.png)
-
+<!--ID: 1735922645647-->
 END
 
 ---
@@ -332,7 +332,7 @@ Back:
 V cyklu algoritmu sestavuju bayesovskou síť. 
 
 ![](../../Assets/Pasted%20image%2020241221161621.png)
-
+<!--ID: 1735922645650-->
 END
 
 ---
@@ -346,7 +346,7 @@ Jak funguje hledání modelů v Bayesovské síti?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221161741.png)
-
+<!--ID: 1735922645653-->
 END
 
 ---
@@ -364,7 +364,7 @@ Back:
 - **Jedna aktuální generace na procesor**
 
 ![](../../Assets/Pasted%20image%2020241221161857.png)
-
+<!--ID: 1735922645656-->
 END
 
 ---

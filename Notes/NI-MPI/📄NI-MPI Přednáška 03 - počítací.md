@@ -6,21 +6,6 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: NI-MPI
 FILE TAGS: NI-MPI prednaska03 status-toReview analyza2
 
-
-START
-FIT-Card
-
-smaz
-
-Back:
-
-smaz
-
-
-END
-
----
-
 ![](../../Assets/Pasted%20image%2020241007144131.png)
 
 
@@ -51,21 +36,6 @@ END
 START
 FIT-Card
 
-smaz
-
-Back:
-
-smaz
-
-
-END
-
----
-
-
-START
-FIT-Card
-
 Co platí, když má **Hessova matice** na diagonále nulu?
 
 Back:
@@ -77,7 +47,6 @@ Pak není **pozitivně definitní** ani **negativně definitní**
 END
 
 ---
-
 
 START
 FIT-Card

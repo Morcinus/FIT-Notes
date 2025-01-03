@@ -25,7 +25,7 @@ Back:
 - $Z_n^{+}$ - $n$
 - $Z_n^{\times}$ - $\varphi(n)$ - Eulerova funkce.
 
-Tags: algebra3
+Tags: algebra3 core
 <!--ID: 1735812207577-->
 END
 
@@ -41,7 +41,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241230141551.png)
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735812207579-->
 END
 
@@ -63,6 +63,8 @@ Jmenovatel má ve faktorizaci pouze mocniny $2^n$.
 - $\frac{5}{8} \quad 8=2^3$ má konečný zápis
 - $\frac{3}{10}$ nemá konečný zápis 
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735812207582-->
 END
 
@@ -101,8 +103,8 @@ Back:
 
 Hint: V kroku (2. derivace) můžu zkusit na Hessovu matici uplatnit Sylvestrovo kritérium. Pak to je rovnou lok. minimum, resp. maximum.
 
-Tags: analyza3
-
+Tags: analyza3 core
+<!--ID: 1735922645583-->
 END
 
 ---
@@ -118,7 +120,7 @@ Back:
 1. Vyjádříme Lagrangeovu funkci $L(x^*, \lambda) = \dots$
 2. Spočteme gradient $\nabla L(x^*,\lambda^*) = 0$, čímž dostaneme soustavu rovnic a najdeme jednotlivé složky $x$ a $\lambda$
 3. Spočteme Hessovu matici
-
+<!--ID: 1735922645587-->
 END
 
 ---

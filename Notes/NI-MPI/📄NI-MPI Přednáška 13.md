@@ -34,6 +34,8 @@ Back:
 <!-- InformallySaidStart -->
 Jinými slovy řád prvku mi říká, kolikrát musím prvek "umocnit", abych dostal neutrální prvek.
 <!-- InformallySaidEnd -->
+
+Tags: core
 <!--ID: 1735205749357-->
 END
 
@@ -61,7 +63,7 @@ END
 START
 FIT-Card
 
-Věta: $\mathbb{Z}_n^\times$ je cyklická $\Leftrightarrow \dots$
+Věta: Jaký řád musí mít $\mathbb{Z}_n^\times$, aby byla cyklická?
 
 Back:
 
@@ -70,6 +72,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241127130603.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749360-->
 END
 
@@ -89,6 +93,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127131625.png)
 ![](../../Assets/Pasted%20image%2020241127131630.png)
 <!-- ProofEnd -->
+
+Tags: core
 <!--ID: 1735205749362-->
 END
 
@@ -107,6 +113,8 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127132235.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749365-->
 END
 
@@ -121,6 +129,8 @@ Kolik generátorů má grupa $\mathbb{Z}_p^\times$, kde $p$ je prvočíslo?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127132308.png)
+
+Tags: core
 <!--ID: 1735205749367-->
 END
 
@@ -139,6 +149,8 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241127132335.png)
 <!-- ProofEnd -->
+
+Tags: core
 <!--ID: 1735205749370-->
 END
 
@@ -157,6 +169,8 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241127132421.png)
 <!-- ProofEnd -->
+
+Tags: core
 <!--ID: 1735205749372-->
 END
 
@@ -176,14 +190,14 @@ Back:
 Je to důsledek (jakoby konkrétnější případ) této věty:
 ![](../../Assets/Pasted%20image%2020241127132413.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749375-->
 END
 
 ---
 
 ### Homomorfismy a isomorfismy
-
-
 START
 FIT-Card
 
@@ -197,6 +211,8 @@ Back:
 Homomorfismus = je jedno jeslti operaci provedu v definičním oboru nebo v tom obrazu
 Izomorfismus = je navíc bijekcí
 <!-- InformallySaidEnd -->
+
+Tags: core
 <!--ID: 1735205749377-->
 END
 
@@ -265,6 +281,8 @@ Bijektivní znamená, že každému prvku z $A$ odpovídá právě jeden prvek z
 ![](../../Assets/Pasted%20image%2020241226152728.png)
 
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735223297374-->
 END
 
@@ -298,6 +316,8 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020241127135251.png)
 <!-- ProofEnd -->
+
+Tags: core
 <!--ID: 1735205749382-->
 END
 

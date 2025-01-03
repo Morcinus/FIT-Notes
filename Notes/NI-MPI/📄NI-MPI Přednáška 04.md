@@ -247,6 +247,8 @@ Když jsou splňeny ty podmínky $x^*$, tak je pak lokální minimum.
 
 Ta podmínka (2) mi zeslabuje tu finální nerovnici
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1729236692701-->
 END
 
@@ -296,6 +298,8 @@ Definice: **Lagrangeova funkce** (i pro nerovnostní vazby)
 Back:
 
 ![](../../Assets/Pasted%20image%2020241011144059.png)
+
+Tags: core
 <!--ID: 1729236692727-->
 END
 
@@ -358,6 +362,8 @@ Back:
 
 Ta podmínka (2) mi zeslabuje tu finální nerovnici
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1729236692746-->
 END
 
@@ -376,6 +382,8 @@ Jediné, v čem se liší od **hledání minima je**:
 - **(správný směr od hranice $\cal{M}$):** $\mu^*_k \leq 0$ - změna $\geq$ na $\leq$
 
 ![](../../Assets/Pasted%20image%2020241011133716.png)
+
+Tags: core
 <!--ID: 1729236692755-->
 END
 

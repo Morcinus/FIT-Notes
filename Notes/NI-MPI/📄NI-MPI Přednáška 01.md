@@ -229,6 +229,8 @@ Back:
 ![[Pasted image 20240923140916.png]]
 
 Analogicky jako u normálních funkcí
+
+Tags: core
 <!--ID: 1728921214871-->
 END
 
@@ -249,7 +251,6 @@ Je to podobné jako u intervalů v $\mathbb{R}$.
 - otevřená - není tam "hranice" té množiny
 - uzavřená - jsou tam i hraniční body té množiny
 <!-- ExplanationEnd -->
-
 <!--ID: 1728921214874-->
 END
 
@@ -286,6 +287,8 @@ $$\frac{\partial f}{\partial x}$$
 - V tom grafu pak provedu derivaci​
 
 ![[Pasted image 20240923130229.png]]
+
+Tags: core
 <!--ID: 1728921214879-->
 END
 
@@ -305,6 +308,8 @@ Neformálně:
 V daném bodě to je směr nejvyššího růstu.
 
 ![[Pasted image 20240923130304.png]]
+
+Tags: core
 <!--ID: 1728921214882-->
 END
 
@@ -342,6 +347,8 @@ Back:
 ![[Pasted image 20240923130329.png]]
 
 V nějakém bodě $\textbf{b}$ se vychýlím o h a spočtu tu derivaci.
+
+Tags: core
 <!--ID: 1728921214887-->
 END
 
@@ -381,6 +388,8 @@ Dovysvětlení:
 Ta nadrovina je popsaná pomocí $(x_1,x_2,\dots,x_n, z)$.
 
 ![[Pasted image 20240923130551.png]]
+
+Tags: core
 <!--ID: 1728921214893-->
 END
 
@@ -401,26 +410,12 @@ _Vysvětlení_
 Je to analogicky jako u 2D grafů. Aby tam byl extrém, tak tam musí být nulová derivace. Tady ve 3D tam musí být derivace nulová ve všech směrech, tzn. všechny parciální derivace (gradient) musí být v bodě nulový.
 
 Tzn. **gradient musí být nulový** - na každou stranu se nezvednu vůbec
+
+Tags: core
 <!--ID: 1728921214895-->
 END
 
 ---
-
-
-START
-Basic
-
-smazat
-
-Back:
-
-smazat
-
-<!--ID: 1735549740242-->
-END
-
----
-
 
 START
 Basic
@@ -481,6 +476,7 @@ Back:
 **Derivace**
 ![[Pasted image 20240923130329.png]]
 <!-- DetailInfoEnd -->
+
 <!--ID: 1728921214907-->
 END
 
