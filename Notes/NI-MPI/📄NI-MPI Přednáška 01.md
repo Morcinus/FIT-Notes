@@ -476,7 +476,6 @@ Back:
 **Derivace**
 ![[Pasted image 20240923130329.png]]
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214907-->
 END
 
