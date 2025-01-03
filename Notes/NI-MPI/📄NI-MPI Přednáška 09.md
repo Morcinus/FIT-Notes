@@ -71,7 +71,7 @@ END
 START
 FIT-Card
 
-Kolik bitů má poloviční přesnost (single precision) u $m,e$?
+Kolik bitů má poloviční přesnost (half precision) u $m,e$?
 
 Back:
 
@@ -99,7 +99,7 @@ END
 START
 FIT-Card
 
-Kolik bitů má dvojitá přesnost (single precision) u $m,e$?
+Kolik bitů má dvojitá přesnost (double precision) u $m,e$?
 
 Back:
 

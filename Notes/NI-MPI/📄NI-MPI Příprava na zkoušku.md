@@ -414,23 +414,51 @@ $$y_2 = \frac{z-2}{3}(x+2)+2$$
 Integrál a výsledek pak vypadají takto:
 $$\int_{-2}^{1}\int_{\tfrac{z}{3}(x+2)}^{\tfrac{z-2}{3}(x+2)+2}(x-3y)\,dy\,dx = -3(z+3)$$
 (ověřeno Wolframem a fitwiki)
-##### Otázka
+##### ⭐Otázka
 
 ![](../../Assets/Pasted%20image%2020241230161016.png)
 
-###### Výsledek
+###### Výsledek a)
+![](../../Assets/Pasted%20image%2020241011133549.png)
+###### Výsledek b) ⭐ TODO
+Vychází to fakt hnusně, vyjde:
+$$
+\begin{align*}
+& \lambda = -\tfrac{5}{16}, x=\tfrac{5}{2}, y=\tfrac{3}{2} \\
+& \lambda = -\tfrac{3}{16}, x=-\tfrac{3}{2}, y= -\tfrac{5}{2} \\
+\end{align*}
+$$
+To se pak dosadí do Hessovy matice a vyjde, že oba body jsou lokálním maximem, protože matice 
 
-##### Otázka
-
+###### Výsledek b) ⭐ TODO
+##### ✔️Otázka
 ![](../../Assets/Pasted%20image%2020241231154342.png)
 
 ###### Výsledek
+Řešení od Spěváka
+https://youtu.be/joPRkNN1rwA?si=2XTn57CpaG-S4qS6&t=3027
 
+- a) Není extrém (failuje 2. derivace)
+- b) Není extrém (failuje 1. derivace)
+- c) Je ostré lokální maximum
+- d) Je ostré lokální minimum (tip: jde použít Sylvestr)
 ##### Otázka
-
 ![](../../Assets/Pasted%20image%2020241231165656.png)
 
-###### Výsledek
+###### Výsledek a) ✔️
+$$
+\begin{align*}
+& J_{\Psi}=\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}  \\
+& \det J_{\Psi} = 2 
+\end{align*}
+$$
+###### Výsledek b) ✔️
+1. Pomocí dosazení bodů do rovnic pro $x,y$ získáme souřadnice bodů po substituci (obrázek: https://www.geogebra.org/calculator/gzxsrr2b)
+2. Potom sestrojíme integrál a dopočítáme ([Wolfram](https://www.wolframalpha.com/input?i2d=true&i=Integrate%5BIntegrate%5B%5C%2840%29Power%5B%5C%2840%29u%2Bv%5C%2841%29%2C2%5D-Power%5B%5C%2840%29u-v%5C%2841%29%2C2%5D%5C%2841%292%2C%7Bu%2CDivide%5Bv%2C2%5D-1%2C1-Divide%5Bv%2C2%5D%7D%5D%2C%7Bv%2C0%2C2%7D%5D))
+3. **Výsledek je 0**
+
+Postup frajera na fitwiki:
+![](../../Assets/Pasted%20image%2020250103173002.png)
 
 ##### Otázka
 ![](../../Assets/Pasted%20image%2020250101144934.png)
@@ -461,7 +489,7 @@ Idk.
 
 ![](../../Assets/Pasted%20image%2020241230161004.png)
 
-###### Výsledek a)❔❌⭐
+###### Výsledek a)✔️
 Víme, že řád podgrupy bude buď $2$ nebo $13$ na základě Lagrangeovy věty.
 
 Podgrupa řádu $2$ bude vypadat takto $\set {1, ?}$ (protože tam musí být neutrální prvek).
@@ -473,8 +501,17 @@ Podgrupa má tedy prvky $\set {1,2}$. Když máme zdůvodnit, že jde o grupu, m
 - Jde o grupu - tam bychom ukázali, že platí vlastnosti:
 	- grupoidu, pologrupy, monoidu a grupy.
 
-###### Výsledek b) TODO
+###### Výsledek b) ✔️
+Tady nevím, jak to myslí s tím že to je izomorfismus "okruhů", když $T$ je těleso. Znamená to, že z $T$ "udělám okruh" tak, že do multiplikativní grupy musím přidat zpátky nulu?
 
+**Řešení, co mi dává smysl, ale asi nebude správně:**
+Pokud bychom tam nulu nepřidávali (což by mi asi dávalo víc smysl), tak bychom mohli jednoduše argumentovat, že to nemůže být izomorfismus, protože to zobrazení nebude bijektivní, protože multiplikativní monoidy mají jiný počet prvků ($T$ má $26$ a $\mathbb{Z}_{27}$ má $27$.)
+
+Jenže nevím co myslí tím "okruhem $T$", takže je možný, že tohle nepůjde říct.
+
+**Řešení co asi bude správně:**
+Ověříme že platí homomorfismus z definice (tohle je řešení nějakého týpka na fitwiki):
+![](../../Assets/Pasted%20image%2020250103111817.png)
 
 ##### ✔️Otázka
 
@@ -549,7 +586,7 @@ Všechny prvky krom $001$ mají řád $7$ (protože jsou generátory).
 
 Ověříme rovnici:
 $$
-\begin{align*} \\
+\begin{align*}
 & 7 \times 0 \pmod{10} = 0 \\
 & 7 \times 1 \pmod{10} \neq 0 \\
 & 7 \times 2 \pmod{10}\neq 0 \\
@@ -608,3 +645,6 @@ Výsledek:
 Platí pro:
 $z = 11$ a $z = 22$
 
+##### Otázka TODO
+![](../../Assets/Pasted%20image%2020250103173928.png)
+###### Výsledek

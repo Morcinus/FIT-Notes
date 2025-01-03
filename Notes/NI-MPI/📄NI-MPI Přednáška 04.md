@@ -331,7 +331,7 @@ END
 START
 FIT-Card
 
-Věta: **Postačující podmínka existence ostrého lokálního minima** 
+Věta: **Postačující podmínka existence ostrého lokálního minima** (rovnostní i nerovnostní vazby)
 
 (tohle určitě prý bude u zkoušky)
 
@@ -367,7 +367,7 @@ END
 START
 FIT-Card
 
-Věta: **Postačující podmínka existence ostrého lokálního maxima**
+Věta: **Postačující podmínka existence ostrého lokálního maxima** (rovnostní i nerovnostní vazby)
 
 Back:
 
