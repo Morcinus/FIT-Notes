@@ -259,7 +259,7 @@ END
 START
 Basic
 
-Věta: Nutná podmínka existence lokálního extrému
+Věta: Nutná podmínka existence lokálního extrému (2)
 
 Back:
 

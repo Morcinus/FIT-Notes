@@ -320,6 +320,14 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241125161906.png)
 
+<!-- ExplanationStart -->
+Tzn. když udělám faktorizaci řádu, tak jednotlivé faktory (a jejich mocniny) mi určují jaké tam budou podgrupy.
+
+Např.
+Pro grupu $n=12 = 2^2\cdot 3$ tam budou podgrupy řádu $2$, $3$, $4$.
+<!-- ExplanationEnd -->
+
+
 Tags: core
 <!--ID: 1735205749454-->
 END

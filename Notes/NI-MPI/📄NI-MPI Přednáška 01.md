@@ -375,7 +375,9 @@ END
 START
 Basic
 
-Co je **tečná nadrovina** funkce v bodě? Jak vypadá její rovnice?
+Co je **tečná nadrovina** funkce v bodě? Jak vypadá její **rovnice** a **normálový vektor**?
+
+(Tohle bylo v malých otázkách ve zkoušce)
 
 Back:
 
@@ -400,7 +402,7 @@ END
 START
 Basic
 
-Věta: Nutná podmínka lokálnínho extrému
+Věta: Nutná podmínka lokálního extrému (1)
 
 Back:
 

@@ -265,7 +265,7 @@ Back:
 
 - A) Ne - $a^n = e$ platí pro každý prvek v grupě
 - B) Ne - může to být i $2$ 
-- C) ❔**ANO** - Ale nevím moc proč tbh
+- C) ❔**ANO** - $a^k=e$, platí pro $k=n$ a může to platit i pro menší $k$, když se to cyklí dřív, takže pro $k|n$ kde $k \neq 1$
 - D) Ne - inverzní prvek tam např. u generátoru je
 - E) Ne - neplatí to pro všechny prvky
 <!--ID: 1735925651129-->
@@ -387,6 +387,14 @@ FIT-Card
 ![](../../Assets/Pasted%20image%2020241231163153.png)
 
 Back:
+
+Použijeme Eulerovu větu:
+$a^{\varphi(n)} \equiv 1 \mod n$
+1.  $\varphi(22)= 10$
+2. $19^{10} \equiv 1 \mod 22$
+3. dostaneme $19^4 \mod 22$
+4. Pak je třeba to ručně vydělit
+- **(D)**
 
 ![](../../Assets/Pasted%20image%2020241231165459.png)
 ![](../../Assets/Pasted%20image%2020241231165511.png)
@@ -561,8 +569,8 @@ FIT-Card
 ![](../../Assets/Pasted%20image%2020241230140315.png)
 
 Back:
+- (**C**)
 
-- (**D**)
 <!--ID: 1735925651171-->
 END
 

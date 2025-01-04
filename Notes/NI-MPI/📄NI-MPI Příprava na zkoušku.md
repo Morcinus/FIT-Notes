@@ -181,9 +181,11 @@ Výsledek:
 ###### Výsledek
 - A) Ne - $a^n = e$ platí pro každý prvek v grupě
 - B) Ne - může to být i $2$ 
-- C) ❔**ANO** - Ale nevím moc proč tbh
+- C) ❔**ANO** - $a^k=e$, platí pro $k=n$ a může to platit i pro menší $k$, když se to cyklí dřív, takže pro $k|n$ kde $k \neq 1$
 - D) Ne - inverzní prvek tam např. u generátoru je
 - E) Ne - neplatí to pro všechny prvky
+
+![](../../Assets/Pasted%20image%2020250104150403.png)
 
 ##### ✔️⭐Otázka - grupa 1
 
@@ -260,6 +262,13 @@ Výsledek:
 
 ###### Výsledek
 
+Použijeme Eulerovu větu:
+$a^{\varphi(n)} \equiv 1 \mod n$
+1.  $\varphi(22)= 10$
+2. $19^{10} \equiv 1 \mod 22$
+3. dostaneme $19^4 \mod 22$
+4. Pak je třeba to ručně vydělit
+
 ![](../../Assets/Pasted%20image%2020241231165459.png)
 ![](../../Assets/Pasted%20image%2020241231165511.png)
 ![](../../Assets/Pasted%20image%2020241231165524.png)
@@ -285,7 +294,6 @@ Mějme okruh R s operacemi + a · (v tomto pořadí), který má alespoň 2 prvk
 ![](../../Assets/Pasted%20image%2020241231152732.png)
 
 ###### Výsledek
-
 - A) PLATÍ
 - B) PLATÍ
 - C) PLATÍ
@@ -369,7 +377,7 @@ $$
 ##### ✔️Otázka - převod do binárky 2
 ![](../../Assets/Pasted%20image%2020241230140315.png)
 ###### Výsledek
-- (**D**)
+- (**C**)
 ##### ✔️Otázka - převod do binárky
 ![](../../Assets/Pasted%20image%2020241230152916.png)
 ###### Výsledek
@@ -420,7 +428,8 @@ $$\int_{-2}^{1}\int_{\tfrac{z}{3}(x+2)}^{\tfrac{z-2}{3}(x+2)+2}(x-3y)\,dy\,dx = 
 
 ###### Výsledek a)
 ![](../../Assets/Pasted%20image%2020241011133549.png)
-###### Výsledek b) ⭐ TODO
+###### Výsledek b) ⭐
+![](../../Assets/Pasted%20image%2020250104184013.png)
 Vychází to fakt hnusně, vyjde:
 $$
 \begin{align*}
@@ -480,10 +489,10 @@ Tady nevím, jak zjednodušit ten polynom. Došel jsem k tomuhle:
 $(2x)^{192}=(2x)^{80}\cdot(2x)^{80}\cdot(2x)^{32}=1\cdot1\cdot(2x)^{32} \pmod{x^4+2x^3+2}$
 dál nevím, jak to jednoduše udělat, ale dle fitwiki má vyjít $2x^3+x+2$
 
-Potom pomocí REA má vyjít 221, ale vycházelo mi to fakt nechutně a počítá se to tak hodinu..
+Potom pomocí REA má vyjít $221$, ale vycházelo mi to fakt nechutně a počítá se to tak hodinu..
 
 ###### Výsledek d) ⭐❔
-Idk.
+![](../../Assets/Pasted%20image%2020250104180836.png)
 
 ##### Otázka
 
