@@ -938,8 +938,8 @@ $$
 \end{align*}
 $$
 
-###### Výsledek c) ✔️❔
-Pomocí REA vyjde $2x^2+2x+1$, ale poslední nenulový řádek není 1, tzn. gcd není $1$, tzn $x^2$ **nemá inverzi**, asi?
+###### Výsledek c) ✔️
+Vyjde $2x^2+2x+1$
 
 Tags: velky
 <!--ID: 1735925651207-->

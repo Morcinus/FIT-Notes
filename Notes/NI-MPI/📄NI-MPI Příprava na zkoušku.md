@@ -203,9 +203,6 @@ Výsledek:
 ![](../../Assets/Pasted%20image%2020250101141429.png)
 
 ###### Výsledek
-
-> Tady si nejsem moc jistý spíš jsem pro D. Na fitwiki se lidi hádají, protože většina dala (D), ale nějaký frajer tvrdí, že to má být (C), protože prý u nekonečné grupy to nejsme schopni jednoznačně říct.
-
 - A) Nope, muselo by to být $a^{2+n}$
 - B) Nope, protože $a^n$ je neutrální prvek
 - C) Ne?
@@ -554,8 +551,8 @@ $$
 \end{align*}
 $$
 
-###### Výsledek c) ✔️❔
-Pomocí REA vyjde $2x^2+2x+1$, ale poslední nenulový řádek není 1, tzn. gcd není $1$, tzn $x^2$ **nemá inverzi**, asi?
+###### Výsledek c) ✔️
+Vyjde $2x^2+2x+1$
 
 ##### ✔️Otázka
 ![](../../Assets/Pasted%20image%2020241231165713.png)
