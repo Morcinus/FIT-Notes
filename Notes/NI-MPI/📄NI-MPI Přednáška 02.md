@@ -290,7 +290,6 @@ Pozn. Hledat kritické body je samo o sobě **velice obtížné** a není jednot
 
 ![[Pasted image 20240930140745.png]]
 <!-- DetailInfoEnd -->
-
 <!--ID: 1728921214824-->
 END
 

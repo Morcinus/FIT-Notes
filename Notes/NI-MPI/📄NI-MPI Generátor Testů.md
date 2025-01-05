@@ -17,6 +17,8 @@ Back:
 1. spočtu gradient
 2. Dosadím do rovnice pro derivaci funkce ($\nabla_vf(x)=\nabla f(x) \cdot v$)
 3. Vyjde $(E)$
+
+Tags: maly
 <!--ID: 1735925651079-->
 END
 
@@ -31,6 +33,8 @@ FIT-Card
 Back:
 
 - (A)
+
+Tags: maly
 <!--ID: 1735925651093-->
 END
 
@@ -45,6 +49,8 @@ FIT-Card
 Back:
 
 - D
+
+Tags: maly
 <!--ID: 1735925651095-->
 END
 
@@ -59,6 +65,8 @@ FIT-Card
 Back:
 
 - **(C)**
+
+Tags: maly
 <!--ID: 1735925651098-->
 END
 
@@ -76,6 +84,8 @@ Back:
    - Determinant matice, kde diagonály odečtu $\lambda$, vyjádřím $\lambda$
 2. Mám kvadratickou rovnici $\lambda^2-2\lambda-3$, tedy vlastní čísla budou $3, -1, 0, 0, \dots$
 3. Vlastní čísla se liší, tedy je **indefinitní** (A)
+
+Tags: maly
 <!--ID: 1735925651100-->
 END
 
@@ -92,6 +102,8 @@ Back:
 Vlastní čísla vyjdou $4, 0, 0, \dots$
 Tzn. je **pozitivně semidefinitní**
 - **(C)** je správně
+
+Tags: maly
 <!--ID: 1735925651103-->
 END
 
@@ -106,6 +118,8 @@ FIT-Card
 Back:
 
 - **(A)** - Vpodstatě přímo definice, jen trochu jinak zapsaný vnitřek té závorky
+
+Tags: maly
 <!--ID: 1735925651106-->
 END
 
@@ -124,6 +138,8 @@ Back:
 - c) NE - závisí to na vlastních číslech
 - d) NE
 - e) NE - jeden nulový prvek nemusí nutně ovlivnit definitnost
+
+Tags: maly
 <!--ID: 1735925651108-->
 END
 
@@ -139,9 +155,11 @@ Back:
 
 - A) 
 - B) NE - matice by musela být pozitivně definitní
-- **C) ANO** - znamená to (asi), že tím pádem Hessova matice musí být pozitivně definitní, což splňuje tu podmínku
+- **C) ANO**
 - D) 
 - E) NE - musí být kladná
+
+Tags: maly
 <!--ID: 1735925651111-->
 END
 
@@ -155,11 +173,13 @@ FIT-Card
 
 Back:
 
-- A) ANO?! - Tohle je údajně podle několika lidí na fitwiki správně, ale moc nevím proč.. Spíš mi přišlo, že by to mělo být pozitivně semidefinitní ale idk
+- A) ANO - Triviálně plyne z definice negativní semidefinitnosti
 - B) Ptfuj, tam má být Hessova matice
 - C) NE??
 - D) Neee
 - E) Ptfuj ani náhodou
+
+Tags: maly
 <!--ID: 1735925651114-->
 END
 
@@ -173,11 +193,13 @@ FIT-Card
 
 Back:
 
-- A) ANO
+- A) NE
 - B) NE
 - C) Ne, musela by tam být Hessova matice, ne gradient
 - D) Ne
-- E) Ne
+- E) ANO
+
+Tags: maly
 <!--ID: 1735925651116-->
 END
 
@@ -196,6 +218,8 @@ Back:
 - **C) ANO** - Tohle je dle definice
 - D) NE - takhle ta rovnice nevypadá
 - E) NE
+
+Tags: maly
 <!--ID: 1735925651119-->
 END
 
@@ -214,6 +238,8 @@ Back:
 - C) NE
 - **D) ANO**
 - E) NE
+
+Tags: maly
 <!--ID: 1735925651121-->
 END
 
@@ -232,6 +258,8 @@ Back:
 - C) **ANO** - Ten vektor standardní báze mi "vybere" z toho gradientu tu i-tou derivaci.
 - D) NE - v jiném směru to nemusí být kladné
 - E) NE - a nevím proč
+
+Tags: maly
 <!--ID: 1735925651124-->
 END
 
@@ -250,6 +278,8 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241230141154.png)
 <!-- ExplanationEnd -->
+
+Tags: maly
 <!--ID: 1735925651127-->
 END
 
@@ -265,9 +295,11 @@ Back:
 
 - A) Ne - $a^n = e$ platí pro každý prvek v grupě
 - B) Ne - může to být i $2$ 
-- C) ❔**ANO** - $a^k=e$, platí pro $k=n$ a může to platit i pro menší $k$, když se to cyklí dřív, takže pro $k|n$ kde $k \neq 1$
+- C) ❔**ANO** - Buď $a$ bude generátor, pak bude $\gcd$ větší než $1$, protože řád generátoru musí dělit řád grupy. Pokud není generátor, tak bude platit $a^n=e$, tedy $\gcd(n,n) = n > 1$
 - D) Ne - inverzní prvek tam např. u generátoru je
 - E) Ne - neplatí to pro všechny prvky
+
+Tags: maly
 <!--ID: 1735925651129-->
 END
 
@@ -286,6 +318,8 @@ Back:
 - C) NE - trochu to naráží na větu 32.1, ale imo to neplatí
 - D) NE
 - E) ANO - obal $a$ bude nějaká podgrupa. Když to je podgrupa, je to grupa. Když je to grupa, z věty 32.1, plyne, že musí existovat $k$ takové, že $a^k=e$
+
+Tags: maly
 <!--ID: 1735925651132-->
 END
 
@@ -304,6 +338,8 @@ Back:
 - C) Ne?
 - D) **Ano**, protože $a^{n-1}=a^n \cdot a^{-1} = a^{-1}$. Platí, že inverzní prvek generátoru grupy je taky generátor té grupy. Tedy se to rovná.
 - E) Ne, to nedává smysl
+
+Tags: maly
 <!--ID: 1735925651134-->
 END
 
@@ -322,6 +358,8 @@ Back:
 - c) NE - nesplňuje podmínku uzavřenosti (grupoid), protože násobením dvou polynomů dostanu polynom vyššího stupně
 - d) **ANO** - nenapadá mě, jak by se v $F[x]$ vzaly dělitelé nuly, když v $F$ nejsou
 - e) NE
+
+Tags: maly
 <!--ID: 1735925651137-->
 END
 
@@ -338,6 +376,8 @@ Back:
 1. Spočtu řád grupy pomocí eulerovy funkce = $30$
 2. Dle Lagrangeovy věty, řád podgrupy musí dělit řád grupy, tedy můžou existovat $1, 2,3,5,6,10,15,30$
 3. Tzn. **(C)**
+
+Tags: maly
 <!--ID: 1735925651139-->
 END
 
@@ -356,6 +396,8 @@ Back:
 - **c) ANO** ![](../../Assets/Pasted%20image%2020241230160631.png)
 - e) NE -
 - d) NE - analogicky jako v a)
+
+Tags: maly
 <!--ID: 1735925651142-->
 END
 
@@ -375,6 +417,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241231162838.png)
 ![](../../Assets/Pasted%20image%2020241231162846.png)
 <!-- ExplanationEnd -->
+
+Tags: maly
 <!--ID: 1735925651145-->
 END
 
@@ -400,6 +444,8 @@ $a^{\varphi(n)} \equiv 1 \mod n$
 ![](../../Assets/Pasted%20image%2020241231165511.png)
 ![](../../Assets/Pasted%20image%2020241231165524.png)
 ![](../../Assets/Pasted%20image%2020241231165532.png)
+
+Tags: maly
 <!--ID: 1735925651147-->
 END
 
@@ -418,6 +464,8 @@ Back:
 - C) NE - to je blbost, autor asi upadnul na hlavu
 - D) ANO - Je to kombinace několika vět: 1. Podgrupa má řád $p$, každá grupa prvočíselného řádu je cyklická 2. Všechny cyklické grupy stejného řádu jsou izomorfní.
 - E) NE
+
+Tags: maly
 <!--ID: 1735925651150-->
 END
 
@@ -436,6 +484,8 @@ Back:
 - C) PLATÍ
 - D) NEPLATÍ - Tohle obecně platí u těles, ne u okruhů
 - E) Např. $a=0$
+
+Tags: maly
 <!--ID: 1735925651152-->
 END
 
@@ -454,6 +504,8 @@ Back:
 - C) NE
 - D) NE - viz věta 35.4
 - E) NE - tohle bylo u věty, že $\mathbb{Z}_n^\times$ je cyklická
+
+Tags: maly
 <!--ID: 1735925651155-->
 END
 
@@ -472,6 +524,8 @@ Back:
 - **C) ANO**
 - D) NE
 - E) NE
+
+Tags: maly
 <!--ID: 1735925651158-->
 END
 
@@ -490,6 +544,8 @@ Back:
 - C) NE - bullshit
 - D) NE - je to obráceně
 - E) NE - bullshit. Tohle platí u izomorfismů, ale není to definice
+
+Tags: maly
 <!--ID: 1735925651160-->
 END
 
@@ -503,11 +559,15 @@ FIT-Card
 
 Back:
 
+**TADY JE NEJSPÍŠ CHYBA V ZADÁNÍ - VŠECHNY JSOU ASI ŠPATNĚ**
+
 - A) ANO - vlastní podgrupa bude mít řád menší než $n$
 - B) NE
 - C) NE - může to být surjektivní zobrazení
-- D) NE nutně
+- D) NE - můžu homomorfismus udělat ještě do menší podmnožiny H
 - E) NE, grupy by musely být cyklické, aby se vůbec dalo na podobně hříšné myšlenky pomyslet
+
+Tags: maly
 <!--ID: 1735925651163-->
 END
 
@@ -532,6 +592,8 @@ $119\cdot k \equiv 107 \pmod {122}$
 - Zmodulíme a dostaneme zbytek po dělení 112: $k = 5$
 
 Správně: **(C)**
+
+Tags: maly
 <!--ID: 1735925651165-->
 END
 
@@ -557,6 +619,8 @@ $$
 - Po normalizaci první jednička zmizí
 - Normalizovaná mantisa končí $1010$ a následovala by $1$. Kvůli tomu je třeba zaokrouhlit podle pravidla v zadání - zaokrouhluje se směrem od nuly, tedy poslední 4 číslice budou $1011$
 - Správná odpověď: **(E)**
+
+Tags: maly
 <!--ID: 1735925651168-->
 END
 
@@ -571,6 +635,7 @@ FIT-Card
 Back:
 - (**C**)
 
+Tags: maly
 <!--ID: 1735925651171-->
 END
 
@@ -585,6 +650,8 @@ FIT-Card
 Back:
 
 - (**E**)
+
+Tags: maly
 <!--ID: 1735925651173-->
 END
 
@@ -600,6 +667,8 @@ Back:
 
 Strojová čísla je konečná podmnožina **racionálních** (ne reálných) čísel. Tzn. neobsahuje např. čísla která mají nekonečný zápis (např. $1/3, \sqrt 2, \pi$)
 - **(B)**
+
+Tags: maly
 <!--ID: 1735925651177-->
 END
 
@@ -614,6 +683,8 @@ FIT-Card
 Back:
 
 - **B**
+
+Tags: maly
 <!--ID: 1735925651180-->
 END
 
@@ -628,6 +699,8 @@ FIT-Card
 Back:
 
 - **A**
+
+Tags: maly
 <!--ID: 1735925651182-->
 END
 
@@ -642,6 +715,8 @@ FIT-Card
 Back:
 
 - **A**
+
+Tags: maly
 <!--ID: 1735925651185-->
 END
 
@@ -662,6 +737,8 @@ $$y_2 = \frac{z-2}{3}(x+2)+2$$
 Integrál a výsledek pak vypadají takto:
 $$\int_{-2}^{1}\int_{\tfrac{z}{3}(x+2)}^{\tfrac{z-2}{3}(x+2)+2}(x-3y)\,dy\,dx = -3(z+3)$$
 (ověřeno Wolframem a fitwiki)
+
+Tags: velky
 <!--ID: 1735925651188-->
 END
 
@@ -688,6 +765,8 @@ $$
 To se pak dosadí do Hessovy matice a vyjde, že oba body jsou lokálním maximem, protože matice 
 
 ###### Výsledek b) ⭐ TODO
+
+Tags: velky
 <!--ID: 1735925651190-->
 END
 
@@ -708,6 +787,8 @@ https://youtu.be/joPRkNN1rwA?si=2XTn57CpaG-S4qS6&t=3027
 - b) Není extrém (failuje 1. derivace)
 - c) Je ostré lokální maximum
 - d) Je ostré lokální minimum (tip: jde použít Sylvestr)
+
+Tags: velky
 <!--ID: 1735925651193-->
 END
 
@@ -734,6 +815,8 @@ $$
 
 Postup frajera na fitwiki:
 ![](../../Assets/Pasted%20image%2020250103173002.png)
+
+Tags: velky
 <!--ID: 1735925651196-->
 END
 
@@ -748,6 +831,8 @@ FIT-Card
 Back:
 
 TODO
+
+Tags: velky
 <!--ID: 1735925651198-->
 END
 
@@ -773,6 +858,8 @@ Potom pomocí REA má vyjít 221, ale vycházelo mi to fakt nechutně a počít�
 
 ###### Výsledek d) ⭐❔
 Idk.
+
+Tags: velky
 <!--ID: 1735925651201-->
 END
 
@@ -808,6 +895,8 @@ Jenže nevím co myslí tím "okruhem $T$", takže je možný, že tohle nepůjd
 **Řešení co asi bude správně:**
 Ověříme že platí homomorfismus z definice (tohle je řešení nějakého týpka na fitwiki):
 ![](../../Assets/Pasted%20image%2020250103111817.png)
+
+Tags: velky
 <!--ID: 1735925651204-->
 END
 
@@ -851,6 +940,8 @@ $$
 
 ###### Výsledek c) ✔️❔
 Pomocí REA vyjde $2x^2+2x+1$, ale poslední nenulový řádek není 1, tzn. gcd není $1$, tzn $x^2$ **nemá inverzi**, asi?
+
+Tags: velky
 <!--ID: 1735925651207-->
 END
 
@@ -912,6 +1003,8 @@ $$
 \end{align*}
 $$
 Tzn. jediný prvek, který to splňuje je $0$. Tzn. jediný homomorfismus, který existuje je takový, že se všechny prvky zobrazí do $0$. Je jediný, protože ostatní nesplňují podmínku.
+
+Tags: velky
 <!--ID: 1735925651209-->
 END
 
@@ -924,8 +1017,6 @@ FIT-Card
 ![](../../Assets/Pasted%20image%2020250101144918.png)
 
 Back:
-
-
 ###### Výsledek a) ✔️
 Postupně počítat mocniny x, dokud se nedostanu na neutrální prvek
 
@@ -968,6 +1059,8 @@ $$
 Výsledek: 
 Platí pro:
 $z = 11$ a $z = 22$
+
+Tags: velky
 <!--ID: 1735925651212-->
 END
 
@@ -982,6 +1075,8 @@ FIT-Card
 Back:
 
 TODO
+
+Tags: velky
 <!--ID: 1735925651215-->
 END
 

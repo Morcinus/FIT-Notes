@@ -106,7 +106,7 @@ Tzn. je **pozitivně semidefinitní**
 ###### Výsledek
 - A) 
 - B) NE - matice by musela být pozitivně definitní
-- **C) ANO** - znamená to (asi), že tím pádem Hessova matice musí být pozitivně definitní, což splňuje tu podmínku
+- **C) ANO**
 - D) 
 - E) NE - musí být kladná
 
@@ -115,9 +115,9 @@ Tzn. je **pozitivně semidefinitní**
 ![](../../Assets/Pasted%20image%2020241231155030.png)
 
 ###### Výsledek
-- A) ANO?! - Tohle je údajně podle několika lidí na fitwiki správně, ale moc nevím proč.. Spíš mi přišlo, že by to mělo být pozitivně semidefinitní ale idk
+- A) ANO - Triviálně plyne z definice negativní semidefinitnosti
 - B) Ptfuj, tam má být Hessova matice
-- C) NE??
+- C) NE
 - D) Neee
 - E) Ptfuj ani náhodou
 
@@ -125,11 +125,11 @@ Tzn. je **pozitivně semidefinitní**
 ![](../../Assets/Pasted%20image%2020250101131842.png)
 
 ###### Výsledek
-- A) ANO
+- A) NE
 - B) NE
 - C) Ne, musela by tam být Hessova matice, ne gradient
 - D) Ne
-- E) Ne
+- E) ANO
 
 ##### ✔️Otázka - nadrovina 1
 
@@ -335,6 +335,7 @@ Nechť G = (M, ◦G) a H = (N, ◦H) jsou dvě grupy. Zobrazení φ : M → N je
 ##### ✔️⭐Otázka - homomorfismus 2
 ![](../../Assets/Pasted%20image%2020250101134321.png)
 ###### Výsledek
+**TADY JE NEJSPÍŠ CHYBA V ZADÁNÍ - VŠECHNY JSOU ASI ŠPATNĚ**
 - A) ANO - vlastní podgrupa bude mít řád menší než $n$
 - B) NE
 - C) NE - může to být surjektivní zobrazení
