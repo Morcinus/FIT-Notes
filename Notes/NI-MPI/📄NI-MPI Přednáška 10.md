@@ -5,8 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska10 status-toReview
-
+FILE TAGS: NI-MPI prednaska10 status-toReview numerika1
 
 START
 FIT-Card
