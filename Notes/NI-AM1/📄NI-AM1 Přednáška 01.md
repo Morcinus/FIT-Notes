@@ -6,21 +6,6 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: NI-AM1
 FILE TAGS: NI-AM1 prednaska01 status-toReview
 
-
-START
-Basic
-
-Co je **middleware**?
-
-Back:
-
-todo
-<!--ID: 1728921214970-->
-END
-
----
-
-
 START
 Basic
 
