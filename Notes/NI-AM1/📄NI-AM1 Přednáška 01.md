@@ -23,13 +23,15 @@ END
 START
 Basic
 
-Co je edge computing?
+Co je **edge computing**?
 
 Back:
 
 Některý části zpracování dat dělám na úrovni cloudu.
 
-Např. místo toho, abych posílal data na server ve Frankfurtu, předzrpacuju si je někde lokálně kde data sbírám a pošlu pak méně dat.
+<!-- ExampleStart -->
+Např. místo toho, abych posílal data na server ve Frankfurtu, předzpracuju si je někde lokálně kde data sbírám a pošlu pak méně dat.
+<!-- ExampleEnd -->
 <!--ID: 1728921214975-->
 END
 

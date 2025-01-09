@@ -9,11 +9,11 @@ FILE TAGS: NI-AM1 prednaska02 status-toReview
 START
 Basic
 
-Definice: **architektura systému** (aka co mi definuje?)
+Definice: **architektura systému** (aka co mi určuje?)
 
 Back:
 
-Architektura určuje **strukturu** a **chování** sytému
+Architektura určuje **strukturu** a **chování** sytému.
 <!--ID: 1728921214979-->
 END
 
@@ -39,7 +39,7 @@ END
 START
 Basic
 
-Jaké jsou **součásti vývoje** v architektuře?
+Jaké jsou **součásti vývoje** v architektuře? (2)
 
 Back:
 
@@ -61,8 +61,6 @@ Back:
 - **konceptuální** - obecný, nezávislý na technologii
 - **logický** - návrh pro konkrétní technologie
 - **fyzický**
-
-Pozn. tyhle 
 <!--ID: 1728921214987-->
 END
 
@@ -71,7 +69,7 @@ END
 START
 Basic
 
-Co je **doménově závislý** a **nezávislý**?
+Jaké části softwarů jsou **doménově závislé** a **doménově nezávislé**?
 
 Back:
 
@@ -104,20 +102,15 @@ END
 START
 Basic
 
-Jaké jsou části **reprezentace enterprise architektury**?
+Jaké jsou části **reprezentace enterprise architektury**? (5)
 
 Back:
 
-**EIS** (enterprise information systems) 
-- systémy pro řízení pro manažery
-**BSS** (business support systems) 
-- systémy, co působí v jednotlivých odděleních (např. hr, finance, marketing,...) - každé oddělení může mít vlastní systém
-**OSS** (operational support systems) 
-- řeší to kde firma působí v dané oblasti - (např. u telefonního operátora pro ovládání té sítě)
-**B2B** (business to business)
-- Zajišťuje integraci s externíma sysémama, dalšíma firmama (např. automatická komunikace se zákazníkama, dodavatelema, veřejnou správou atd.)
-**OIS** (office information systems)
-- Řeší správu dokumentů, document management system
+- **EIS** (executive information systems)
+- **BSS** (business support systems)
+- **OSS** (operational support systems) 
+- **B2B** (business to business)
+- **OIS** (office information systems)
 
 ![[Pasted image 20240930093423.png]]
 <!--ID: 1728921214995-->
@@ -125,6 +118,100 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Co jsou **EIS** systémy?
+
+Back:
+
+**EIS** (executive information systems): 
+systémy pro řízení pro manažery
+
+<!-- ImageStart -->
+![[Pasted image 20240930093423.png]]
+<!-- ImageEnd -->
+<!--ID: 1736418422039-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou **BSS** systémy?
+
+Back:
+
+**BSS** (business support systems):
+systémy, co působí v jednotlivých odděleních (např. hr, finance, marketing,...) - každé oddělení může mít vlastní systém
+
+<!-- ImageStart -->
+![[Pasted image 20240930093423.png]]
+<!-- ImageEnd -->
+<!--ID: 1736418422051-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou **OSS** systémy?
+
+Back:
+
+**OSS** (operational support systems):
+řeší to kde firma působí v dané oblasti - (např. u telefonního operátora pro ovládání té sítě)
+
+<!-- ImageStart -->
+![[Pasted image 20240930093423.png]]
+<!-- ImageEnd -->
+<!--ID: 1736418422054-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou **B2B** systémy?
+
+Back:
+
+**B2B** (business to business):
+Zajišťuje integraci s externíma sysémama, dalšíma firmama (např. automatická komunikace se zákazníkama, dodavatelema, veřejnou správou atd.)
+
+<!-- ImageStart -->
+![[Pasted image 20240930093423.png]]
+<!-- ImageEnd -->
+<!--ID: 1736418422057-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou **OIS** systémy?
+
+Back:
+
+**OIS** (office information systems):
+Řeší správu dokumentů, document management system
+
+<!-- ImageStart -->
+![[Pasted image 20240930093423.png]]
+<!-- ImageEnd -->
+<!--ID: 1736418422060-->
+END
+
+---
 
 START
 Basic
@@ -142,16 +229,17 @@ END
 START
 Basic
 
-Jaké jsou **typy organizací**, co používají architektury co se týče vývoje?
+Jaké jsou **typy organizací**, co používají architektury co se týče vývoje? (3)
 
 Back:
 
 - **Zákazník** - to, pro koho dodávám systém
 	- definuje business requirements
-- **Supplier**
+- **Supplier** (dodavatel)
 	- Dělá vývoj softwaru na zakázku
 - **Vendor** (technologický provider)
-	- vyvíjí produkt podle potřeb trhu
+	- vyvíjí produkt podle potřeb trhu, prodává hotové produkty
+	- Např. Azure, Excel,...
 
 ![[Pasted image 20240930093901.png]]
 <!--ID: 1728921215000-->
@@ -163,15 +251,15 @@ END
 START
 Basic
 
-Jaké jsou typy architektonických funkcí (typy architektů)?
+Jaké jsou typy architektonických funkcí (typy architektů)? (3)
 
 Back:
 
-**Technický architekt** - nemá moc znalostí o doméně, ale dokáže dobře nastavit ten systém atd.
-- konfiguruje systém
-**Solution architect** - zná dobře doménu, navrhuje strukturu a chování systému
-- designuje funkce, data, procesy
-**Enterprise architekt** - "vyšší vrstva solution architekta", má vyšší pohled ale taky víc do hloubky, hodně rozumí doméně
+- **Enterprise architekt** - "vyšší vrstva solution architekta", má vyšší pohled ale taky víc do hloubky, hodně rozumí doméně
+- **Solution architect** - zná dobře doménu, navrhuje strukturu a chování systému
+	- designuje funkce, data, procesy
+- **Technický architekt** - nemá moc znalostí o doméně, ale dokáže dobře nastavit ten systém atd.
+	- konfiguruje systém
 
 ![[Pasted image 20240930094104.png]]
 <!--ID: 1728921215003-->
@@ -183,11 +271,11 @@ END
 START
 Basic
 
-Co je **process classification framework**?
+Co je **process classification framework** (PCF)?
 
 Back:
 
-Framework pro klasifikaci procesů
+PCF je **standard** - říká mi jakoby seznam obecných požadavků, co je dobrý implementovat v systémech. Když budu dělat systém, podívám se do standardu a on mi řekne, co všechno bych měl v systému vytvořit za funkcionality.
 <!--ID: 1728921215006-->
 END
 
@@ -201,8 +289,6 @@ Basic
 Jaké levely má **process classification framework**?
 
 Back:
-
-PCF je **standard** - říká mi jakoby seznam obecných požadavků, co je dobrý implementovat v systémech. Když budu dělat systém, podívám se do standardu a on mi řekne, co všechno bych měl v systému vytvořit za funkcionality.
 
 Podle PCF standardu:
 - **Level 0** - obecné funkce co jsou potřeba
@@ -244,12 +330,12 @@ END
 START
 Basic
 
-Co se většinou používá pro integrační middleware v organizacích?
+Jaké **programovací jazyky** a **formáty dat** se používají pro integrační middleware v organizacích?
 
 Back:
 
-- Java a XML je nejpoužívanější ve velkých organizacích, je to už trošičku přežitek
-- U nových systémů se používá JSON
+- **Java** a **XML** je nejpoužívanější ve **velkých organizacích**, je to už trošičku přežitek
+- U nových systémů se používá **JSON** a **modernější programovací jazyky**
 <!--ID: 1728921215011-->
 END
 
@@ -279,10 +365,10 @@ Jak se řeší **syntax** a **sémantika** v XML a JSONech?
 
 Back:
 
-**Syntax** - to jak se píše XML a JSON
-**Sémantika** - co přesně tam chci psát (tzn. např že tam chci element customer, co má určitý atributy)
+- **Syntax** - to jak se obecně píše XML a JSON
+- **Sémantika** - jak konkrétně vypadá struktura XML/JSONu pro daný problém
 
-Např. tu sémantiku v JSONu se dá řešit pomocí JSONSchema standardu
+**Syntax** mi jasně definuje ten standard, **sémantiku** si musím zadefinovat sám např. pomocí **RDFS** nebo **JSONSchema**.
 <!--ID: 1728921215017-->
 END
 
@@ -292,7 +378,7 @@ END
 START
 Basic
 
-Proč je důležité jasně definovat sémantiku v XML a JSONu?
+Proč je důležité jasně **definovat sémantiku** v XML a JSONu?
 
 Back:
 
@@ -328,11 +414,9 @@ Co je jazyk **RDFS**?
 
 Back:
 
-Jazyk, co definuje **sémantiku** vazeb v XML a JSONu atd.
+**RDFS** (Resource Description Framework Schema):
 
-Tzn. můžu tím **jasně definovat sémantiku**.
-
-Je to standard, nadstavba RDF (resource description framework)
+Standard (jazyk), který je nadstavbou **RDF** a umožňuje mi jasně definovat **sémantiku** XML a JSONu.
 <!--ID: 1728921215022-->
 END
 
@@ -365,7 +449,7 @@ Back:
 Každý interface má:
 - **data** - tohle mi definuje payload (přenášená data)
 - **funkce** - operace, co můžu volat (např REST endpoint)
-- **proces** - určuje, jakým způsobem můžu s funkcemi pracovat (viz níže!)
+- **proces** - určuje stavy a přechody (jakým způsobem můžu s funkcemi pracovat)
 - **technický detaily** (např. endpoint, ip adresa, atd.)
 
 ![[Pasted image 20240930104053.png]]
@@ -378,12 +462,15 @@ END
 START
 Basic
 
-Jak přesně funguje **proces** v **interfacech**?
+Jak přesně funguje **proces** v **interfacech**? Co se používá pro jeho **modelování**?
 
 Back:
 
-**Popisuje mi, jak mám používat jednotlivé funkce**.
+Popisuje mi, **jak** mám používat jednotlivé funkce (např. **v jakém pořadí** - viz vysvětlení).
 
+Na modelování procesů se používá **stavový diagram**.
+
+<!-- ExplanationStart -->
 Např.
 Mám košík v obchodě:
 - `open` - vyberu si košík
@@ -393,13 +480,12 @@ Mám košík v obchodě:
 
 Jednotlivé operace jsou **funkce**. Proces je **POŘADÍ těch funkcí** (např. udělám jednu operaci, pak furt opakuju druhou, pak přejdu na další atd.).
 
-Na modelování procesů se používá **stavový diagram**.
-
 Když chci potom používat tu funkci, tak to budu dělat podle toho procesu (diagramu).
 
 Problém je, že **není moc vynucovacích prostředků** na ten **proces**. Např. ve **Swaggeru** nemůžu nijak popsat ten proces.
 
 Je to podobný jako u **sémantiky u JSONu a XML**. Tam mě taky nic nenutí modelovat ten soubor určitým způsobem, ale někde bych to měl mít zapsaný, abych to modeloval podle toho.
+<!-- ExplanationEnd -->
 <!--ID: 1728921215031-->
 END
 
@@ -411,7 +497,7 @@ END
 START
 Basic
 
-Jaké jsou **typy softwarové architektury**?
+Jaké jsou **typy softwarové architektury** (dle centralizovanosti)? (2)
 
 Back:
 
@@ -475,7 +561,7 @@ END
 START
 Basic
 
-Jak může být **dosaženo contractu/interfacu**?
+Jak může být **dosaženo contractu/interfacu**? (3)
 
 Back:
 
