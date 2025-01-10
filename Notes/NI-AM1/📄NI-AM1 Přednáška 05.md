@@ -23,7 +23,7 @@ Back:
 - **scaling up** = to co se typicky chápe pod pojmem škálování
 - **scaling down** = když se mi např. snižují počty uživatelů, tak nemá cenu mít obrovský systém, protože tím vyhazuju peníze.
 <!-- ExplanationEnd -->
-
+<!--ID: 1736496141940-->
 END
 
 ---
@@ -39,7 +39,7 @@ Back:
 - **Data, procesy, funkce**
 - **Software**
 - **Hardware**
-
+<!--ID: 1736496141945-->
 END
 
 ---
@@ -71,9 +71,7 @@ V monolitické aplikaci mám celou aplikaci jako jeden proces.
 ![](../../Assets/Pasted%20image%2020241021121921.png)
 
 <!-- DetailInfoEnd -->
-
-
-
+<!--ID: 1736496141948-->
 END
 
 ---
@@ -94,7 +92,7 @@ Když pak jedna ta funkce (mikroslužba) bude volat druhou, tak to už nebudu d�
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241021122430.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736496141951-->
 END
 
 ---
@@ -111,7 +109,7 @@ Back:
 - Každou mikroslužbu musím managovat jako zvláštní proces, což je zase **nákladnější a komplikovanější** 
 
 V architektuře mikroslužeb proto **musím dělat mikroslužby pouze tam, kde to dává smysl**.
-
+<!--ID: 1736496141953-->
 END
 
 ---
@@ -136,7 +134,7 @@ Když by mi dvě mikroslužby pak potřebovaly využívat stejnou funkcionalitu,
 - Výhoda: je to všechno přehledný a funguje to dobře.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736496141956-->
 END
 
 ---
@@ -166,7 +164,7 @@ Nevýhoda toho je, že pak nastává "**ping pong**" game, kde si ty oddělení 
 
 Ten novější přístup je právě pomocí menších týmů, který obsáhne celý development cycle, tudíž je jasný, kdo má za co zodpovědnost a nedochází k tomuhle přehazování.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1736496141960-->
 END
 
 ---
@@ -184,7 +182,7 @@ Back:
 "All people seem to need data processing"
 
 ![](../../Assets/Pasted%20image%2020241021125455.png)
-
+<!--ID: 1736496141963-->
 END
 
 ---
@@ -199,7 +197,7 @@ Back:
 
 - **HTTP 1.1** - data uložena textově
 - **HTTP 2.0** - data uložena binárně
-
+<!--ID: 1736496141965-->
 END
 
 ---
@@ -215,7 +213,7 @@ Např. když vyvíjím appku pro Česko, proč bych neměl mít server v USA?
 Back:
 
 Protože např. mezi Evropou a USA to zabere 84ms, než se udělá three way handshake a než dostanu data. Pokud budu mít hodně requestů, aplikace bude o dost pomalejší.
-
+<!--ID: 1736496141968-->
 END
 
 ---
@@ -229,7 +227,7 @@ Co je latence?
 Back:
 
 Jak dlouho na síti trvá přenos elementárních dat (malých dat).
-
+<!--ID: 1736496141971-->
 END
 
 ---
@@ -245,7 +243,7 @@ Back:
 Round trip time. Čas než po síti přejde požadavek a odpověď.
 
 Je to $2 \times \text{latence}$
-
+<!--ID: 1736496141974-->
 END
 
 ---
@@ -259,7 +257,7 @@ Co je RPT?
 Back:
 
 Request processing time - jak dlouho trvá zpracování požadvku na serveru.
-
+<!--ID: 1736496141976-->
 END
 
 ---
@@ -273,7 +271,7 @@ Co je výsledkem three way handshaku?
 Back:
 
 Vytvoří se TCP socket
-
+<!--ID: 1736496141979-->
 END
 
 ---
@@ -292,7 +290,7 @@ Back:
 - **cílová port** (serveru)
 
 Tím je jednoznačně identifikovaný každý TCP socket na internetu
-
+<!--ID: 1736496141982-->
 END
 
 ---
@@ -313,7 +311,7 @@ Back:
 Tím řeším ten problém, když navazuju hodně spojení, tak abych neměl tak dlouhou odezvu
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736496141984-->
 END
 
 ---
@@ -334,7 +332,7 @@ V klientovi se vytvoří request queue, kde čekají requesty na poslání přes
 Např. v request queue bude nejdřív HTML soubor, potom CSS soubor, potom obrázky atd.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736496141987-->
 END
 
 ---
@@ -362,7 +360,7 @@ Normálně, když nedělám pipelining, mám na klientovi frontu requestů a pos
 <!-- DetailInfoStart -->
 Tento způsob se v dnešní době nepoužívá.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1736496141990-->
 END
 
 ---
@@ -383,7 +381,7 @@ Tento problém nastává u HTTP pipeliningu.
 Mám velký request jako první, ostatní už jsem zpracoval, ale musím je poslat popořadě, tudíž mi to ten první blokuje
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736496141993-->
 END
 
 ---
@@ -403,7 +401,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241021131825.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736496141996-->
 END
 
 ---
@@ -428,7 +426,7 @@ Origin je na klientovi, každý origin může mít až 6 TCP socketů najednou. 
 V HTTP 2.0 je změna, že se navazuje **pouze jedno** TCP spojení a dělá se tzv. prokládání, což znamená, že skrze jeden socket se přenáší všechny ty soubory.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736496141998-->
 END
 
 ---
@@ -450,7 +448,7 @@ V HTTP 2 by se vytvořil jeden a díky multiplexingu by se vše posílalo přes 
 <!-- ExampleEnd -->
 
 
-
+<!--ID: 1736496142001-->
 END
 
 ---
@@ -469,7 +467,7 @@ Server name information, hodnota hlavičky, kde je uložena adresa _(např. exam
 <!-- ExplanationStart -->
 Je to to samý jako `Host` v hlavičce, ale **není to šifrovaný**, takže si to může přečíst kdokoliv, na té cestě toho streamu
 <!-- ExplanationEnd -->
-
+<!--ID: 1736496142004-->
 END
 
 ---
