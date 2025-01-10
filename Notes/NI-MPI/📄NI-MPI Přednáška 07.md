@@ -72,6 +72,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020241023150357.png)
 
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205889369-->
 END
 
@@ -126,6 +128,8 @@ Matice aproximuje zobrazení.
 Každému vektoru se přiřadá nějaká matice.
 ![](../../Assets/Pasted%20image%2020241023154135.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205889377-->
 END
 
@@ -144,6 +148,8 @@ Back:
 <!-- ExplanationStart -->
 Může se stát, že ta část napravo se počítá jednoduššeji, než ta část nalevo. Proto se to používá.
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205889380-->
 END
 

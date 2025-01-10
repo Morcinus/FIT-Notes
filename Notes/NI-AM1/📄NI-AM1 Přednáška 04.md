@@ -275,7 +275,7 @@ END
 START
 FIT-Card
 
-Co je **asynchronní komunikace přes prostředníka**?
+Jak funguje **asynchronní komunikace přes prostředníka**?
 
 Back:
 
@@ -299,7 +299,7 @@ END
 START
 FIT-Card
 
-Jaké dva režimy **asynchronní komunikace přes prostředníka**?
+Jaké jsou 2 režimy **asynchronní komunikace přes prostředníka**?
 
 Back:
 

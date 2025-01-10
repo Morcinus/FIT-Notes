@@ -24,7 +24,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241129143604.png)
 <!-- ExampleEnd -->
 
-Tags: algebra3
+Tags: algebra3 core
 <!--ID: 1735205749248-->
 END
 
@@ -44,7 +44,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241129143635.png)
 <!-- ProofEnd -->
 
-Tags: algebra3
+Tags: algebra3 core
 <!--ID: 1735205749250-->
 END
 
@@ -136,7 +136,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129150534.png)
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749262-->
 END
 
@@ -245,7 +245,7 @@ Maticový okruh $M_{2}(\mathbb{R})$ (2x2 maticed nad $\mathbb{R}$)
 $$A = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \quad B=\begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix}$$
 $$A \cdot B = 0, \quad  A \neq 0, \quad B \neq 0 $$
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749277-->
 END
 
@@ -261,7 +261,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241129151056.png)
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749280-->
 END
 
@@ -281,7 +281,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241221091859.png)
 <!-- ProofEnd -->
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749282-->
 END
 
@@ -297,7 +297,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092010.png)
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749285-->
 END
 
@@ -313,7 +313,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092014.png)
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749287-->
 END
 
@@ -400,7 +400,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221092231.png)
 
-Tags: algebra4
+Tags: algebra4 core
 <!--ID: 1735205749300-->
 END
 

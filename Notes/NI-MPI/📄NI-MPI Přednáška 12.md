@@ -219,6 +219,8 @@ Definice: Podgrupa
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125160404.png)
+
+Tags: core
 <!--ID: 1735205749440-->
 END
 
@@ -301,6 +303,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241125161314.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749452-->
 END
 
@@ -315,6 +319,16 @@ Věta: Sylowova
 Back:
 
 ![](../../Assets/Pasted%20image%2020241125161906.png)
+
+<!-- ExplanationStart -->
+Tzn. když udělám faktorizaci řádu, tak jednotlivé faktory (a jejich mocniny) mi určují jaké tam budou podgrupy.
+
+Např.
+Pro grupu $n=12 = 2^2\cdot 3$ tam budou podgrupy řádu $2$, $3$, $4$.
+<!-- ExplanationEnd -->
+
+
+Tags: core
 <!--ID: 1735205749454-->
 END
 

@@ -35,6 +35,8 @@ Back:
 
 **Neformálně:**
 Ukazuje, jak se mění sklon funkce ve všech směrech v daném bodě.
+
+Tags: core
 <!--ID: 1728921214787-->
 END
 
@@ -88,6 +90,8 @@ Můžu potom provádět "ruské násobení":
 1. Napíšu si vektor a tu matici
 2. Vynásobím je a dostanu vektor
 3. ten vektor potom pronásobím s dalším vektorem
+
+Tags: core
 <!--ID: 1735463085834-->
 END
 
@@ -109,6 +113,8 @@ Pozn. obecně určování definitnosti je takový pracný a člověk si to musí
 
 _Příklad indefinitního_:
 ![[Pasted image 20240930134809.png]]
+
+Tags: core
 <!--ID: 1728921214796-->
 END
 
@@ -125,6 +131,8 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí nás
 Back:
 
 ![[Pasted image 20240930135024.png]]
+
+Tags: core
 <!--ID: 1728921214799-->
 END
 
@@ -140,6 +148,8 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí nás
 Back:
 
 ![[Pasted image 20240930135029.png]]
+
+Tags: core
 <!--ID: 1728921214801-->
 END
 
@@ -155,6 +165,8 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí nás
 Back:
 
 ![[Pasted image 20240930135046.png]]
+
+Tags: core
 <!--ID: 1728921214804-->
 END
 
@@ -170,6 +182,8 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí nás
 Back:
 
 ![[Pasted image 20240930135050.png]]
+
+Tags: core
 <!--ID: 1728921214807-->
 END
 
@@ -185,6 +199,8 @@ Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí nás
 Back:
 
 ![[Pasted image 20240930135107.png]]
+
+Tags: core
 <!--ID: 1728921214809-->
 END
 
@@ -199,6 +215,8 @@ Věta: **Sylvestrovo kritérium**
 Back:
 
 ![[Pasted image 20240930135304.png]]
+
+Tags: core
 <!--ID: 1728921214813-->
 END
 
@@ -213,6 +231,8 @@ Věta: **diagonála matice** a **definitnost**
 Back:
 
 ![[Pasted image 20240930135505.png]]
+
+Tags: core
 <!--ID: 1728921214815-->
 END
 
@@ -228,6 +248,8 @@ Back:
 
 ![[Pasted image 20240930135358.png]]
 ![[Pasted image 20240930140831.png]]
+
+Tags: core
 <!--ID: 1728921214818-->
 END
 
@@ -237,11 +259,13 @@ END
 START
 Basic
 
-Věta: Nutná podmínka existence lokálního extrému
+Věta: Nutná podmínka existence lokálního extrému (2)
 
 Back:
 
 ![[Pasted image 20240930140823.png]]
+
+Tags: core
 <!--ID: 1728921214821-->
 END
 
@@ -266,9 +290,6 @@ Pozn. Hledat kritické body je samo o sobě **velice obtížné** a není jednot
 
 ![[Pasted image 20240930140745.png]]
 <!-- DetailInfoEnd -->
-
-
-
 <!--ID: 1728921214824-->
 END
 

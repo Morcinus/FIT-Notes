@@ -50,6 +50,8 @@ Jak najdu Bezoutovy koeficiety u $\gcd(f(x), g(x))$?
 Back:
 
 Pustím na to rozšířený Eukleidův algoritmus.
+
+Tags: core
 <!--ID: 1735205749310-->
 END
 
@@ -69,6 +71,8 @@ Back:
 Kořen = když to dosadím, tak se polynom bude rovnat nule.
 ![](../../Assets/Pasted%20image%2020241221093714.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749312-->
 END
 
@@ -95,6 +99,8 @@ $x^2-10$ nad $\mathbb{Q}$ - nevyrobím dva polynomy tak, aby to byl součin dvou
 
 Např. nad $\mathbb{R}$ není ireducibilní.
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749315-->
 END
 
@@ -154,6 +160,8 @@ Ne! Jakmile $n$ není prvočíslo, potom $\mathbb{Z}_n$ nemůže být těleso.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221095323.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749322-->
 END
 
@@ -181,7 +189,7 @@ END
 START
 FIT-Card
 
-Jak zistím, jeslti existuje inverzní prvek vůči násobení pro $h(x)$?
+Postup: Jak najdu inverzní prvek vůči násobení pro polynom $h(x)$ modulo $P(x)$?
 
 Back:
 
@@ -202,6 +210,8 @@ Hledám $h(x)^{-1}, h(x) \in F$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221100849.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749327-->
 END
 
@@ -222,6 +232,8 @@ Pokud najdu jeho kořen, znamená to, že lze ten polynom rozložit na dva polyn
 
 ![](../../Assets/Pasted%20image%2020241221092421.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749330-->
 END
 
@@ -238,6 +250,8 @@ Back:
 Jenom stačí posčítat ty jednotlivé koeficienty $a_i$ a $b_i$.
 
 ![](../../Assets/Pasted%20image%2020241221101441.png)
+
+Tags: core
 <!--ID: 1735205749332-->
 END
 
@@ -269,6 +283,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221101455.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749335-->
 END
 
@@ -278,9 +294,11 @@ END
 START
 FIT-Card
 
-Věta: Řádem konečného tělesa musí být $\dots$
+Věta: Jaký řád musí mít konečné těleso?
 
 Back:
+
+$p^n$, kde $p$ je prvočíslo a $n$ je kladné celé číslo.
 
 ![](../../Assets/Pasted%20image%2020241221102012.png)
 <!--ID: 1735205749337-->
@@ -310,6 +328,8 @@ Definice: Galoisovo těleso, charakteristika tělesa
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221102029.png)
+
+Tags: core
 <!--ID: 1735205749342-->
 END
 
@@ -319,12 +339,16 @@ END
 START
 FIT-Card
 
-Jaký řád má aditivní a multiplikativní grupa tělesa $GF(p^n)$?
+Jaký řád má aditivní a multiplikativní grupa konečného tělesa ($GF(p^n)$)?
+
+(tohle bylo třeba u zkoušky!)
 
 Back:
 
 - Aditivní: $p^n$
-- Multiplikativní: $p^{n}-1$
+- Multiplikativní: $p^{n}-1$ (nebude tam nula)
+
+Tags: core
 <!--ID: 1735205749345-->
 END
 
@@ -336,10 +360,16 @@ FIT-Card
 
 Jaké neutrální prvky mají aditivní a multiplikativní grupa tělesa $GF(p^n)$?
 
+(tohle bylo třeba u zkoušky!)
+
 Back:
 
 - Aditivní: $0=00\dots 0 = 0^n$
+	- Např. $000$
 - Multiplikativní: $00 \dots 1 = 0^{n-1}1$
+	- Např. $001$
+
+Tags: core
 <!--ID: 1735205749347-->
 END
 
@@ -351,10 +381,15 @@ FIT-Card
 
 Jak se spočte inverze k prvku v aditivní a multiplikativní grupě tělesa $GF(p^n)$?
 
+(tohle bylo třeba u zkoušky!)
+
 Back:
 
 - Aditivní: inverze prvku $b_1b_2 \dots b_n$ je $(p-b_1)(p-b_2) \dots (p-b_n)$
-- Multiplikativní: pomocí EEA v polynomiálním čase
+	- Např v $(\mathbb{Z}_3^+)^3 : 333-101 = 232$  
+- Multiplikativní: pomocí REA v polynomiálním čase
+
+Tags: core
 <!--ID: 1735205749350-->
 END
 
@@ -366,10 +401,14 @@ FIT-Card
 
 Je aditivní a multiplikativní grupa tělesa $GF(p_n)$ cyklická?
 
+(tohle bylo třeba u zkoušky!)
+
 Back:
 
-- Aditivní: pro $n>1$ není cyklická, platí $\forall v : (p+1) \times v = v$ resp. $p \times v = 0$
-- Multiplikativní: je vždy cyklická
+- Aditivní: **pro $n>1$ není cyklická**, platí $\forall v : (p+1) \times v = v$ resp. $p \times v = 0$
+- Multiplikativní: **je vždy cyklická**
+
+Tags: core
 <!--ID: 1735205749352-->
 END
 

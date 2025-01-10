@@ -45,6 +45,8 @@ Back:
 - **grupa** = existují inverzní prvek
 - **abelovská grupa** = operace je komutativní
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749387-->
 END
 
@@ -63,6 +65,8 @@ Back:
 <!-- ExplanationStart -->
 Tzn. operace je uzavřená
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749389-->
 END
 
@@ -77,6 +81,8 @@ Definice: **Pologrupa**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120180839.png)
+
+Tags: core
 <!--ID: 1735205749392-->
 END
 
@@ -91,6 +97,8 @@ Definice: **Monoid**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120180834.png)
+
+Tags: core
 <!--ID: 1735205749394-->
 END
 
@@ -105,6 +113,8 @@ Definice: **Grupa**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120180830.png)
+
+Tags: core
 <!--ID: 1735208319427-->
 END
 
@@ -119,6 +129,8 @@ Definice: **Komutativní (abelovská) grupa**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120180824.png)
+
+Tags: core
 <!--ID: 1735205749397-->
 END
 

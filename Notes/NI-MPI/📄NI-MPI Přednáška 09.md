@@ -5,7 +5,7 @@ up: "[[📖NI-MPI]]"
 ---
 
 TARGET DECK: NI-MPI
-FILE TAGS: NI-MPI prednaska09 status-toReview
+FILE TAGS: NI-MPI prednaska09 status-toReview numerika1
 
 
 START
@@ -64,6 +64,54 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113111846.png)
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749512-->
+END
+
+---
+
+START
+FIT-Card
+
+Kolik bitů má poloviční přesnost (half precision) u $m,e$?
+
+Back:
+
+- $m = 10$
+- $e = 5$
+
+Tags: core
+<!--ID: 1735812207565-->
+END
+
+---
+
+START
+FIT-Card
+
+Kolik bitů má jednoduchá přesnost (single precision) u $m,e$?
+
+Back:
+
+- $m = 23$
+- $e = 8$
+
+Tags: core
+<!--ID: 1735812207571-->
+END
+
+---
+
+START
+FIT-Card
+
+Kolik bitů má dvojitá přesnost (double precision) u $m,e$?
+
+Back:
+
+- $m = 52$
+- $e = 11$
+
+Tags: core
+<!--ID: 1735812207573-->
 END
 
 ---
@@ -169,12 +217,13 @@ Back:
 
 Reálná čísla, která lze reprezentovat podle standardu IEEE-754 (znaménko, mantisa, exponent) se nazývají **strojová čísla**.
 
+Tzn. jsou to reálná čísla, co mají **konečný** binární rozvoj.
+
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241113112511.png)
 ![](../../Assets/Pasted%20image%2020241113112534.png)
 
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749530-->
 END
 
@@ -197,7 +246,6 @@ Neformálně "jak velké jsou mezery mezi čísly" na té reálné ose, kterou u
 
 ![](../../Assets/Pasted%20image%2020241113112923.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749532-->
 END
 
@@ -252,7 +300,6 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020241113113335.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1735205749539-->
 END
 
@@ -306,7 +353,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241113114332.png)
 ![](../../Assets/Pasted%20image%2020241113114339.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749547-->
 END
 
@@ -329,7 +375,6 @@ Tím že při výpočtu nemám dostatek cifer pro výpočet, tak je mantisa výs
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113115123.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749549-->
 END
 
