@@ -76,7 +76,7 @@ END
 START
 Basic
 
-Věta: Jak se spočte druhá parciální derivace $f$ ve směru $v$ v bodě $b$
+Věta: Výpočet **druhé** derivace ve směru v bodě
 
 Back:
 

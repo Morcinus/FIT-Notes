@@ -351,14 +351,18 @@ END
 START
 Basic
 
-Věta: Jsou-li všechny parciální derivace funkce $f$ na nějakém okolí bodu $\textbf{b}$ spojité
+Věta: **Výpočet derivace funkce** ve směru v bodě
 
 Back:
 
 ![[Pasted image 20240923130408.png]]
 ![[Pasted image 20240930131445.png]]
 
-Pomocí gradientu spočtu derivaci funkce ve směru. Ten směr (v) beru jednotkovej.
+Postup výpočtu:
+1. Spočtu si gradient (pomocí parciálních derivací)
+2. Vynásobím gradient se směrovým vektorem
+3. Tím dostanu první derivaci
+
 <!--ID: 1728921214890-->
 END
 
@@ -368,7 +372,9 @@ END
 START
 Basic
 
-Co je **tečná nadrovina** funkce v bodě? Jak vypadá její rovnice?
+Co je **tečná nadrovina** funkce v bodě? Jak vypadá její **rovnice**? Jak vypadá její **normálový vektor**?
+
+(tohle bylo třeba v jedné rozstřelové otázce u zkoušky)
 
 Back:
 
