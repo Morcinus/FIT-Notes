@@ -40,7 +40,7 @@ V čem spočítá analýza v HTTP/2?
 
 Back:
 
-Čtu si jednotlivé packety, mám třeba klíč, můžu si pak číst ty requesty.
+Mám třeba klíč a díky tomu si můžu číst jednotlivé requesty.
 <!--ID: 1735205750002-->
 END
 
@@ -52,13 +52,13 @@ END
 START
 FIT-Card
 
-Co hlavně řeší HTTP/3?
+Co hlavně řeší HTTP/3 oproti HTTP/2?
 
 Back:
 
 HTTP/2 drawbacks
-- U TCP se může stát, že segment nedoputuje na druhou stranu. V HTTP/2 to funguje tak, že pokud nedorazí packet, pošle se znovu. Do té doby ostatní segmenty musí čekat, než se doručí.
-- TLS handshake musí být vždy po TCP handshake
+- U TCP se může stát, že segment **nedoputuje na druhou stranu**. V HTTP/2 to funguje tak, že pokud nedorazí packet, pošle se znovu. Do té doby ostatní **segmenty musí čekat**, než se doručí.
+- **TLS handshake musí být vždy po TCP handshake**
 <!--ID: 1735205750004-->
 END
 
@@ -68,7 +68,7 @@ END
 START
 FIT-Card
 
-Jaké transportní protokoly používají jednotlivé verze HTTP?
+Jaké transportní protokoly používají jednotlivé verze HTTP (1.1, 2 a 3)?
 
 Back:
 
@@ -81,7 +81,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241120144907.png)
 ![](../../Assets/Pasted%20image%2020241120144916.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205750007-->
 END
 
@@ -101,7 +100,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120145145.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205750010-->
 END
 
@@ -141,7 +139,7 @@ END
 START
 FIT-Card
 
-Co je Web Service Architecture?
+Jaké jsou základní 2 standardy ve Web Service Architectuře?
 
 Back:
 
@@ -161,7 +159,7 @@ END
 START
 FIT-Card
 
-Z čeho se skládá web architektura?
+Z jakých částí se skládá webová architektura? (3)
 
 Back:
 
@@ -178,23 +176,20 @@ END
 START
 FIT-Card
 
-Jaké jsou základní principy RESTu?
+Jaké jsou základní principy/omezení RESTu? (5)
 
 Back:
 
-Omezení:
-- Client-server architektura
-- Statelessnes - stav se neudržuje na serveru, ale v těch datech, co se přenáší
+- **Client-server architektura**
+- **Statelessnes** - stav se neudržuje na serveru, ale v těch datech, co se přenáší
 	- Stavy jsou data, přechody jsou linky (např. v HTML, nebo endpointy RESTu)
-- Cacheability - requesty by mělo jít cachovat
-- Layered system
-- Uniform interface - operace CRUD jsou doménově nezávislé (tzn. nemám funkci `createOrder`, ale `POST /orders`)
+- **Cacheability** - requesty by mělo jít cachovat
+- **Layered system**
+- **Uniform interface** - operace CRUD jsou doménově nezávislé (tzn. nemám funkci `createOrder`, ale `POST /orders`)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120151248.png)
 <!-- DetailInfoEnd -->
-
-
 <!--ID: 1735205750023-->
 END
 

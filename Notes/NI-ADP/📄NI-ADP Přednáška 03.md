@@ -70,7 +70,6 @@ Protože se "bavím s objektama, které sám přímo neznám".
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241008190605.png)
 <!-- ImageEnd -->
-
 <!--ID: 1729237386360-->
 END
 

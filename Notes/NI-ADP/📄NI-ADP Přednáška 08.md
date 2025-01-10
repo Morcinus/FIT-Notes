@@ -24,7 +24,7 @@ Je to zhruba to co bys čekal (:
 ![](../../Assets/Pasted%20image%2020241112185753.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489428-->
 END
 
 ---
@@ -39,7 +39,7 @@ Back:
 
 **Tenký klient** nemá logiku, spíše pouze zobrazuje data
 **Tlustý klient** = má i logiku např. pro práci s DB
-
+<!--ID: 1736497489433-->
 END
 
 ---
@@ -64,7 +64,7 @@ Je message queue a máme někoho, kdo tam vkládá messages a někoho, kdo ji zp
 ![](../../Assets/Pasted%20image%2020241112192055.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489438-->
 END
 
 ---

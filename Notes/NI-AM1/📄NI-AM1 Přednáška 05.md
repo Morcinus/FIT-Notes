@@ -80,7 +80,7 @@ END
 START
 FIT-Card
 
-Jak funguje navrhování mikroslužeb?
+Jaké jsou **kroky navrhování mikroslužeb**? (2)
 
 Back:
 
@@ -123,17 +123,16 @@ Co jsou 3 základní pojmy (začínající na $M$, které) se používají v arc
 Back:
 
 - **Monolit** - mám 1 proces, v něm je všechno
-- **Mikroslužba** - druhý extrém, mám systém rozkouskovaný co nejvíce do mikroslužeb
+- **Mikroslužby** - druhý extrém, mám systém rozkouskovaný co nejvíce do mikroslužeb
 - **Modulit** - "zlatá střední cesta", rozdělím systém do pár větších mikroslužeb, ale nedělám to pro každou minifunkcionalitu.
 
-Když děláme architekturu mikroslužeb, tak se snažíme vytvářed **modulit** (architekturu modulitu).
+Když děláme architekturu mikroslužeb, tak se snažíme vytvářet **modulit** (architekturu modulitu).
 
 <!-- DetailInfoStart -->
 Když by mi dvě mikroslužby pak potřebovaly využívat stejnou funkcionalitu, tak z té funkcionality udělám **knihovnu**. Díky tomu to pak můžu používat v různých mikroslužbách.
 - Nevýhoda: mám duplicitní kód v systému (několik mikroslužeb má nainstalováno stejnou knihovnu -> snižuje to výkon)
 - Výhoda: je to všechno přehledný a funguje to dobře.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736496141956-->
 END
 
@@ -143,7 +142,7 @@ END
 START
 FIT-Card
 
-Jaké jsou vlastnosti mikroslužeb? (5)
+Jaké jsou vlastnosti mikroslužeb? (6)
 
 Back:
 
@@ -191,7 +190,7 @@ END
 START
 FIT-Card
 
-Jaký je rozdíl mezi **HTTP 1.1** a **2.0**?
+Jak jsou uložena data v **HTTP 1.1** a **2.0**?
 
 Back:
 
@@ -280,7 +279,7 @@ END
 START
 FIT-Card
 
-Čím je definovaný TCP socket?
+Čím je definovaný TCP socket? (4)
 
 Back:
 
@@ -299,7 +298,7 @@ END
 START
 FIT-Card
 
-Jaké dva mechanismy se používají na snížení latence při three way handshaku?
+Jaké mechanismy se používají na snížení latence při three way handshaku? (3)
 
 Back:
 
@@ -310,7 +309,6 @@ Back:
 <!-- ExampleStart -->
 Tím řeším ten problém, když navazuju hodně spojení, tak abych neměl tak dlouhou odezvu
 <!-- ExampleEnd -->
-
 <!--ID: 1736496141984-->
 END
 
@@ -331,7 +329,6 @@ V klientovi se vytvoří request queue, kde čekají requesty na poslání přes
 <!-- ExampleStart -->
 Např. v request queue bude nejdřív HTML soubor, potom CSS soubor, potom obrázky atd.
 <!-- ExampleEnd -->
-
 <!--ID: 1736496141987-->
 END
 
@@ -349,7 +346,7 @@ Ta fronta na requesty, co je na klientovi se jakoby přesune na server.
 
 1. Udělá se three way handshake
 2. Potom naposílám requesty najednou, nečekám na response.
-3. Sever si drží frontu, potom postupně posílá requesty
+3. Sever si drží frontu, potom postupně posílá odpovědi na requesty
 
 <!-- ExampleStart -->
 Normálně, když nedělám pipelining, mám na klientovi frontu requestů a postupně posílám requesty a posílám response.
@@ -380,7 +377,6 @@ Tento problém nastává u HTTP pipeliningu.
 <!-- ExampleStart -->
 Mám velký request jako první, ostatní už jsem zpracoval, ale musím je poslat popořadě, tudíž mi to ten první blokuje
 <!-- ExampleEnd -->
-
 <!--ID: 1736496141993-->
 END
 
@@ -425,7 +421,6 @@ Origin je na klientovi, každý origin může mít až 6 TCP socketů najednou. 
 
 V HTTP 2.0 je změna, že se navazuje **pouze jedno** TCP spojení a dělá se tzv. prokládání, což znamená, že skrze jeden socket se přenáší všechny ty soubory.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736496141998-->
 END
 
@@ -446,8 +441,6 @@ Když si stahuju v HTTP 1 sto obrázků, tak se bude vytvářet 6 spojení najed
 
 V HTTP 2 by se vytvořil jeden a díky multiplexingu by se vše posílalo přes to persistentní spojení.
 <!-- ExampleEnd -->
-
-
 <!--ID: 1736496142001-->
 END
 

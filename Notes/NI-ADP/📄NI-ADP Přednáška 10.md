@@ -15,7 +15,7 @@ Co je information a data privacy?
 Back:
 
 Individuals should have some control over the collection and use of information/data.
-
+<!--ID: 1736497489445-->
 END
 
 ---
@@ -33,7 +33,7 @@ Back:
 3. **Access/participation** - uživatelé by si měli moct zobrazit data, co se zpracovávají
 4. **Security/integrity** - data by měla být uložena bezpečně
 5. **Enforcement** - privacy by měla být vynutitelná - ten co ukládá data by za to měl být zodpovědný
-
+<!--ID: 1736497489449-->
 END
 
 ---
@@ -48,7 +48,7 @@ Back:
 
 - security = data jsou bezpečně uložena 
 - privacy = jde hlavně o řízení přístupu
-
+<!--ID: 1736497489454-->
 END
 
 ---
@@ -66,7 +66,7 @@ Něco jako GDPR v Americe.
 <!-- DetailInfoStart -->
 Vztahuje se to na velké firmy. GDPR se vztahuje na každého.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1736497489459-->
 END
 
 ---
@@ -88,7 +88,7 @@ Když mám Gmail, tak Google je controller i processor?
 Když si koupím GSuite do firmy, tak Google už je jen processor a moje firma je controller.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736497489463-->
 END
 
 ---
@@ -102,7 +102,7 @@ Jaká může být pokuta za to když člověk nesplňuje GDPR?
 Back:
 
 4% z company revenue (což je faakt hodně)
-
+<!--ID: 1736497489467-->
 END
 
 ---
@@ -121,7 +121,7 @@ Back:
 4. vital interests
 5. public interests
 6. legitimate business interests - např. když používám
-
+<!--ID: 1736497489472-->
 END
 
 ---
@@ -136,7 +136,7 @@ Back:
 
 - Shrems 1 - zákaz firmám podnikat v zemích, pokud nedodržují jejich podmínky
 - Shrems 2 - to samé + pokud mám data uložená např. v USA, tak musím zajistit, že k tomu nemůže přijít ani FBI a CIA atd.
-
+<!--ID: 1736497489476-->
 END
 
 ---
@@ -157,7 +157,7 @@ Např. vyvíjím novou fičuru, tak provedu Privacy Impact Assessment a tím zji
 
 Nebo např. když vláda chce něco začít používat, tak udělá assessment jestli používat produkt od Microsoftu nebo Googlu.
 <!-- ExampleEnd -->
-
+<!--ID: 1736497489480-->
 END
 
 ---
@@ -173,7 +173,7 @@ Back:
 - Co za informace je uloženo?
 - Kdo sbírá informace a za jakým účelem?
 - Jak dlouho jsou informace uloženy? (kdy se to smaže)
-
+<!--ID: 1736497489485-->
 END
 
 ---
@@ -198,7 +198,7 @@ Namodeluju si, kam se jaká data přesouvají
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241126190018.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736497489490-->
 END
 
 ---
@@ -213,7 +213,7 @@ Back:
 
 - assessment = před tím, než začnu ten projekt dělat
 - audit = už mám projekt hotový a chci zkontrolovat, jeslti to dodržuju
-
+<!--ID: 1736497489494-->
 END
 
 ---
@@ -231,7 +231,7 @@ Back:
 Měl bych na privacy myslet v průběhu vývoje, ne až potom.
 
 Např. před schválením fičury bych měl udělat privacy assessment. 
-
+<!--ID: 1736497489499-->
 END
 
 ---
@@ -252,7 +252,7 @@ Back:
 5. End-To-End Security - full lifecycle protection
 6. Visibility and Transparency - Keep it open
 7. Respect for User Privacy - Keep it user-centric
-
+<!--ID: 1736497489503-->
 END
 
 ---
@@ -283,7 +283,7 @@ Inform - informovat ostatní
 Enforce - vynucovat
 
 Demonstrate
-
+<!--ID: 1736497489509-->
 END
 
 ---

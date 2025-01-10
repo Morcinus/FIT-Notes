@@ -99,7 +99,6 @@ Je to hlavně kvůli čitelnosti kódu. Fasáda nám sdružuje dotazy a volání
 
 ![](../../Assets/Pasted%20image%2020241015190755.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1729237386342-->
 END
 

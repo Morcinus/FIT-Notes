@@ -38,7 +38,6 @@ Klient může aplikovat metody na daném linku (PUT, POST, DELETE...) aby se př
 <!-- ExampleStart -->
 Když mám HTML stránku, tak každý link v ní je linkem an jinou HTML stránku. To jakou stránku mám načtenou je ten stav.
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749924-->
 END
 
@@ -64,7 +63,6 @@ Jak vypadá **stateless API** (klient si pamatuje svůj stav):
 ![](../../Assets/Pasted%20image%2020241204155840.png)
 
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749926-->
 END
 
@@ -131,7 +129,6 @@ HATEOAS má dvě podmínky
 <!-- ExplanationStart -->
 Tohle je důležitý chápat. Jako server můžu nabídnout klientovi rovnou data tak, aby z každého
 <!-- ExplanationEnd -->
-
 
 <!--ID: 1735205749934-->
 END
@@ -307,7 +304,6 @@ Reprezentuje to poslední změnu zdroje:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241204163817.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749962-->
 END
 
@@ -348,7 +344,6 @@ Klient pak posílá hlavičku `If-None-Match`.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241204164245.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749967-->
 END
 
@@ -383,7 +378,6 @@ Reprezentuje zdroj "sémanticky" - tzn. na základě významu nějaké hodnoty.
 <!-- ExplanationStart -->
 Například můžu se rozhodnout, že lekce v kurzu se změnila pouze, pokud se změnil její nadpis, ale úpravy popisu lekce detekovat nebudu.
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749972-->
 END
 
@@ -426,7 +420,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241204165317.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749977-->
 END
 
@@ -461,7 +454,6 @@ Back:
 <!-- ExampleStart -->
 V databázích se například zamkne zdroj, když k němu někdo přistupuje, aby to někdo jiný mezitím nezměnil. 
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749982-->
 END
 

@@ -67,7 +67,6 @@ Health checking je obecně důležitý mechanismus. Můžu health měnit i na z�
 
 ![](../../Assets/Pasted%20image%2020241220133326.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749886-->
 END
 
@@ -163,7 +162,6 @@ Jak to funguje:
 Máme router, který je ve stejné síti jako ty load balancery. Pomocí ARP protokolu se zjišťuje, na jakou MAC adresu se mají posílat requesty co jdou na danou IP adresu.
 
 Díky tomu ARP protokolu se to přepne, když jeden server vypadne.
-
 <!--ID: 1735205749901-->
 END
 

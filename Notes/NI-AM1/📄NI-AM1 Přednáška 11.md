@@ -118,7 +118,6 @@ Systém je sám schopný reagovat na chyby a incidenty.
 <!-- ExampleStart -->
 Když spadne instance serveru, aplikace pokračuje a např. se to automaticky nahodí zpátky.
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749771-->
 END
 
@@ -195,7 +194,6 @@ Problém:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241209101338.png)
 <!-- DetailInfoEnd -->
-
 
 <!--ID: 1735205749781-->
 END
@@ -291,7 +289,6 @@ Např.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241209101321.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749794-->
 END
 

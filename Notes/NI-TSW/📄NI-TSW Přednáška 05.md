@@ -199,7 +199,6 @@ Back:
 <!-- DetailInfoStart -->
 Pro tip: literally si zapisovat do tabulky "dobré skutky", co jsme udělali klientovi. Když s ním pak debatuju, můžu mu říct, co jsem pro něj udělal a aby udělal něco pro mě.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205748829-->
 END
 
@@ -220,7 +219,6 @@ Tím pokryju ty věci jako:
 - spálený čas tím že se dohaduju o změnách, které pak nejsou implementované
 - spálený čas tím, že dělám nabídky, které nejsou přijmuty
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205748832-->
 END
 
@@ -347,7 +345,6 @@ Total Quality Management
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127104234.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205748849-->
 END
 
@@ -459,7 +456,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241218102857.png)
 <!-- DetailInfoEnd -->
-
 
 
 <!--ID: 1735205748865-->

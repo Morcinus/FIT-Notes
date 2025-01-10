@@ -27,7 +27,7 @@ Potom když podědím tu classu, tak si doimplementuju ty dané kroky (nebo tu a
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241029182052.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1736497489570-->
 END
 
 ---
@@ -41,7 +41,7 @@ Jaký typ design patternu je **Template method** pattern?
 Back:
 
 **Behavioral pattern**
-
+<!--ID: 1736497489575-->
 END
 
 ---
@@ -79,7 +79,7 @@ Obrázek chaosu :D
 ❌ Over time a mediator can evolve into a [God Object](https://courses.fit.cvut.cz/antipatterns/god-object).
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489580-->
 END
 
 ---
@@ -102,7 +102,7 @@ Např. autorizace, bezpečnost, validace, cachování atd.
 ![](../../Assets/Pasted%20image%2020241029182820.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489586-->
 END
 
 ---
@@ -116,7 +116,7 @@ Jaký je rozdíl mezi **Chain of responsibility a proxy**?
 Back:
 
 U chain of responsibility mám hodně těch class za sebou. Proxy mám jen jednu.
-
+<!--ID: 1736497489591-->
 END
 
 ---
@@ -130,7 +130,7 @@ Posílá se v **chain of reponsibilty** ten stejný typ objektu nebo ten jiný?
 Back:
 
 Je stejný objekt napříč všema handlerama.
-
+<!--ID: 1736497489596-->
 END
 
 ---
@@ -147,7 +147,7 @@ Back:
 Ano, ale ne nutně vždy. Může to být i jako strom!
 
 Např. když mám UI, můžu mít jednotlivé komponenty (handlery) ve stromové struktuře.
-
+<!--ID: 1736497489602-->
 END
 
 ---
@@ -170,7 +170,7 @@ Když nastane ta událost, tak notifikuje všechny listeners.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241029185939.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736497489608-->
 END
 
 ---
@@ -195,7 +195,7 @@ Umožňuje mi vytvářet různé strategie k vykonání dané činnosti.
 ![](../../Assets/Pasted%20image%2020241029190419.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489613-->
 END
 
 ---
@@ -222,7 +222,7 @@ Reprezentuju nějaký příkaz classou, pak mám jeho invoker a receiver.
 
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489617-->
 END
 
 ---
@@ -247,7 +247,7 @@ Reprezentuje stavový automat. V jednotlivých stavech (třídách) mám
 ![](../../Assets/Pasted%20image%2020241029191949.png)
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1736497489621-->
 END
 
 ---
@@ -268,7 +268,7 @@ Todo doplnit
 ![](../../Assets/Pasted%20image%2020241029192122.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489625-->
 END
 
 ---

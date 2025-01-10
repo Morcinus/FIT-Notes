@@ -152,7 +152,6 @@ Single bucket - vše v jednom. Zde se potom typicky před klíč dává typ toho
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127173418.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749055-->
 END
 
@@ -259,7 +258,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127174019.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749070-->
 END
 
@@ -279,7 +277,6 @@ Back:
 Pozn. tenhle JSON může být dost obrovskej.
 ![](../../Assets/Pasted%20image%2020241127174114.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749072-->
 END
 
@@ -302,7 +299,6 @@ Pomocí GET, PUT, DELETE  na `/buckets/[:bucket]/props`
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241127174247.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749075-->
 END
 
@@ -325,7 +321,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127174416.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749077-->
 END
 
@@ -392,7 +387,6 @@ Konvergenční pravidlo:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127174746.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749087-->
 END
 
@@ -414,7 +408,6 @@ Konvergenční pravidlo:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127174937.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749089-->
 END
 
@@ -436,7 +429,6 @@ Konvergenční pravidlo:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127174928.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749092-->
 END
 
@@ -458,7 +450,6 @@ Konvergenční pravidlo:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127175049.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749094-->
 END
 
@@ -480,7 +471,6 @@ Konvergenční pravidlo:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127175116.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749097-->
 END
 
@@ -503,7 +493,6 @@ Pomocí `/types/[:type]/buckets/[:bucket]/datatypes/[:key]`
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241127175354.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749099-->
 END
 
@@ -581,7 +570,6 @@ Data se ukládají jako text. To samé funguje např. pro JSON nebo XML.
 ![](../../Assets/Pasted%20image%2020241127175824.png)
 ![](../../Assets/Pasted%20image%2020241127175828.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749109-->
 END
 
@@ -651,7 +639,6 @@ je to AP systém (tedy availability + partition tolerance)
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127180532.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749117-->
 END
 
@@ -677,7 +664,6 @@ Podle toho se umisťují repliky záznamů tak, aby byl rovnoměrně rozdělené
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127180601.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205749119-->
 END
 
@@ -727,7 +713,6 @@ Tabulka, která je kolekcí **podobných řádek**
 ![](../../Assets/Pasted%20image%2020241127182256.png)
 ![](../../Assets/Pasted%20image%2020241127182325.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749127-->
 END
 
@@ -828,7 +813,6 @@ Např. time to live, timestamps atd.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127182432.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749140-->
 END
 
@@ -866,7 +850,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241127182635.png)
 ![](../../Assets/Pasted%20image%2020241127182644.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749145-->
 END
 
@@ -888,7 +871,6 @@ Na rozdíl od SQL musím specifikovat **primární klíč** té tabulky.
 ![](../../Assets/Pasted%20image%2020241127182706.png)
 ![](../../Assets/Pasted%20image%2020241127182722.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749147-->
 END
 
@@ -938,7 +920,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208130222.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749154-->
 END
 
@@ -957,7 +938,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208130619.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749157-->
 END
 
@@ -974,7 +954,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208130701.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749160-->
 END
 
@@ -993,7 +972,6 @@ Pomocí `{}`
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208130645.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749163-->
 END
 
@@ -1012,7 +990,6 @@ Pomocí `{}`
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208130726.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749165-->
 END
 
@@ -1041,7 +1018,6 @@ WHERE ...
 ![](../../Assets/Pasted%20image%2020241208130827.png)
 ![](../../Assets/Pasted%20image%2020241208130832.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749167-->
 END
 

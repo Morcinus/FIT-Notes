@@ -22,7 +22,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120162137.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749600-->
 END
 
@@ -67,7 +66,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120162430.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749605-->
 END
 
@@ -242,7 +240,6 @@ Ve vzorečku mi vypadlo N -> nezávisí na tom, v jakém kroku se momentálně n
 ![](../../Assets/Pasted%20image%2020241120164848.png)
 
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749628-->
 END
 
@@ -272,7 +269,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241120165122.png)
 ![](../../Assets/Pasted%20image%2020241120165131.png)
-
 <!--ID: 1735205749633-->
 END
 
@@ -294,7 +290,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120165427.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749636-->
 END
 

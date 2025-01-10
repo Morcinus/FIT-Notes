@@ -16,7 +16,6 @@ Back:
 ![[Pasted image 20240923125214.png]]
 
 Norma každému bodu přiřadí vzdálenost od počátku souřadnic.
-
 <!--ID: 1728921214832-->
 
 END
@@ -79,7 +78,6 @@ Back:
 
 $$||\textbf{x}||_2=\sqrt[2]{\sum_{i=1}^n |x_i|^2}$$
 ![[Pasted image 20240923133757.png]]
-
 <!--ID: 1728921214841-->
 
 END
@@ -97,7 +95,6 @@ Back:
 ![[Pasted image 20240923133817.png]]
 
 Prostě "koule" kolem bodu
-
 <!--ID: 1728921214844-->
 
 END
@@ -137,7 +134,6 @@ Definice: Posloupnost má limitu, pokud ...
 Back:
 
 ![[Pasted image 20240923125438.png]]
-
 <!--ID: 1728921214849-->
 
 END
@@ -158,7 +154,6 @@ Každému vektoru přiřadí nějaké číslo.
 Např. $\mathbb{R}^2$ model terénu mám 2D plochu a každému bodu přiřadím výšku
 
 Např. $\mathbb{R}^3$ model místnosti, kde každému bodu je přiřazena teplota v tom bodě
-
 <!--ID: 1728921214852-->
 
 END
@@ -175,7 +170,6 @@ Back:
 ![[Pasted image 20240923125538.png]]
 
 Např. mám 2D plochu a každému bodu, chci každému přiřadit hodnotu -> vznikne mi z toho 3D graf
-
 <!--ID: 1728921214855-->
 
 END
@@ -192,7 +186,6 @@ Back:
 ![[Pasted image 20240923125601.png]]
 
 Je to hormadný bod, protože kdyby byl izolovaný, tak by vůbec nemělo smysl se o tom bavit - nebylo by "z čeho" udělat tu limitu.
-
 <!--ID: 1728921214857-->
 
 END
@@ -209,7 +202,6 @@ Věta: Funkce $f$ má v hromadném bodě $\textbf{b}$ množiny $D_f$ limitu $L$ 
 Back:
 
 ![[Pasted image 20240923125855.png]]
-
 <!--ID: 1728921214864-->
 
 END
@@ -226,7 +218,6 @@ Back:
 ![[Pasted image 20240923125929.png]]
 
 Jako když mám plachtu a jeden bod by byl o 5 metrů nad ní a nebyl by na plachtě, nebylo by to tam spojitý.. Prostě analogicky jako v reálných číslech.
-
 <!--ID: 1728921214869-->
 
 END
@@ -245,7 +236,6 @@ Back:
 Analogicky jako u normálních funkcí
 
 Tags: core
-
 <!--ID: 1728921214871-->
 
 END
@@ -282,7 +272,6 @@ Věta: Kdy má funkce globální minimu a maxium
 Back:
 
 ![[Pasted image 20240923130131.png]]
-
 <!--ID: 1728921214877-->
 
 END
@@ -309,7 +298,6 @@ $$\frac{\partial f}{\partial x}$$
 ![[Pasted image 20240923130229.png]]
 
 Tags: core
-
 <!--ID: 1728921214879-->
 
 END
@@ -331,7 +319,6 @@ V daném bodě to je směr nejvyššího růstu.
 ![[Pasted image 20240923130304.png]]
 
 Tags: core
-
 <!--ID: 1728921214882-->
 
 END
@@ -353,7 +340,6 @@ Tzn. u tohohle je ta levá strana nejvyšší?
 Neformálně: "Směr **nejvyššího růstu** funkce".
 
 ![[Pasted image 20240930131042.png]]
-
 <!--ID: 1728921214885-->
 
 END
@@ -372,7 +358,6 @@ Back:
 V nějakém bodě $\textbf{b}$ se vychýlím o h a spočtu tu derivaci.
 
 Tags: core
-
 <!--ID: 1728921214887-->
 
 END
@@ -394,7 +379,6 @@ Postup výpočtu:
 1. Spočtu si gradient (pomocí parciálních derivací)
 2. Vynásobím gradient se směrovým vektorem
 3. Tím dostanu první derivaci
-
 <!--ID: 1728921214890-->
 
 END
@@ -421,7 +405,6 @@ Ta nadrovina je popsaná pomocí $(x_1,x_2,\dots,x_n, z)$.
 ![[Pasted image 20240923130551.png]]
 
 Tags: core
-
 <!--ID: 1728921214893-->
 
 END
@@ -445,7 +428,6 @@ Je to analogicky jako u 2D grafů. Aby tam byl extrém, tak tam musí být nulov
 Tzn. **gradient musí být nulový** - na každou stranu se nezvednu vůbec
 
 Tags: core
-
 <!--ID: 1728921214895-->
 
 END
@@ -468,7 +450,6 @@ Body, kde je gradient **nulový**.
 <!-- DetailInfoEnd -->
 
 ![[Pasted image 20240923130829.png]]
-
 <!--ID: 1728921214901-->
 
 END

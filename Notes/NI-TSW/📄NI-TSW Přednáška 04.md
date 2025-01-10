@@ -90,7 +90,6 @@ Výhoda je, že pak nezabřednu do detailu, když začnu dělat Gantt charty atd
 <!-- ExampleStart -->
 Meetingy s uživatelema, vytvoření reportu atd.
 <!-- ExampleEnd -->
-
 <!--ID: 1735205748890-->
 END
 
@@ -111,7 +110,6 @@ Back:
 <!-- DetailInfoStart -->
 Scrum se dá dělat i s více lidmi, potom to je scrum of scrums.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205748893-->
 END
 

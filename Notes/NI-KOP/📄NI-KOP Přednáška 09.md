@@ -205,7 +205,6 @@ Náhodně zvolím dva body a mezi nimi tam vložím gen druhého jedince
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127153504.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749678-->
 END
 
@@ -250,7 +249,6 @@ Zde:
 - Ze sedmičky udělám dvojku (a obráceně), z devítky trojku (a obráceně), atd.
 
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749683-->
 END
 
@@ -307,7 +305,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127154658.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749690-->
 END
 
@@ -326,7 +323,6 @@ Selekční tlak mi určuje pravděpodobnost výběru nejlepšího jedince.
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127154846.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749693-->
 END
 
@@ -389,7 +385,6 @@ Hrozí i **divergence populace** - tzn. když budu mutovat tak moc, že mi to p�
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127155259.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749700-->
 END
 
@@ -408,7 +403,6 @@ Každému prvku dám pravděpodobnost výběru a roztočím ruletu a zvolím tí
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127155711.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205749703-->
 END
 
@@ -427,7 +421,6 @@ Mírná úprava ruletového výběru, aby to dávalo lepší výsledky
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127155821.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205749708-->
 END
 
@@ -489,7 +482,6 @@ $$c = \frac{Z_2}{nZ_{avg}}$$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127160915.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749718-->
 END
 
@@ -533,7 +525,6 @@ Funguje to tak, že si nastavím nějakou čáru a zdatnosti přeškáluju tak, 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127161525.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205749723-->
 END
 
@@ -579,7 +570,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127161852.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749728-->
 END
 

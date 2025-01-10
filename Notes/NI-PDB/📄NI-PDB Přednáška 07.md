@@ -240,7 +240,6 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241114103129.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205748978-->
 END
 
@@ -271,7 +270,6 @@ Tento obrázek to hezky ukazuje:
 <!-- DetailInfoEnd -->
 
 
-
 <!--ID: 1735205748981-->
 END
 
@@ -296,7 +294,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241114103605.png)
 ![](../../Assets/Pasted%20image%2020241114103610.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205748984-->
 END
 
@@ -395,7 +392,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241114104756.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205748994-->
 END
 
@@ -533,7 +529,6 @@ Můžeme vytvářet **nové nodes** a obalovat tak například výstupy z XPath.
 <!-- ExampleStart -->
 
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749009-->
 END
 
@@ -562,7 +557,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241114110450.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749012-->
 END
 

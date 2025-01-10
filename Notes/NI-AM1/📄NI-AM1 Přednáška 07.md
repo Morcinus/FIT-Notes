@@ -77,18 +77,21 @@ Jak funguje TLS handshake?
 
 Back:
 
-1. Client hello message - pošle klient serveru
-2. Server hello - pošle server klientovi
-3. Výměna klíčů pomocí RSA nebo Diffie-Hellmana
-4. Kontrola integrity zpráv, pošle se "finished" zpráva
-5. Dešifruje se zpráva, mohou se začít posílat data
+(Před tím se provede TCP handshake)
+
+1. **ClientHello**: Klient pošle zprávu serveru
+2. **ServerHello**: Server pošle zprávu klientovi + certifikát
+3. **Poslání klíče**: Klient pošle serveru klíč (RSA nebo Diffie-Hellman)
+4. **Kontrola integrity** zprávy - server pošle "finished" zašifrovanou zprávu klientovi
+5. **Dešifrování** - klient si dešifruje zprávu
+
+Pak se můžou začít posílat data.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113173436.png)
 ![](../../Assets/Pasted%20image%2020241113173449.png)
 
 <!-- ImageEnd -->
-
 <!--ID: 1735205750036-->
 END
 
@@ -133,7 +136,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113174229.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205750042-->
 END
 
@@ -209,23 +211,6 @@ END
 
 ## HTTP v2
 
-
-START
-FIT-Card
-
-Co mění HTTP 2 oproti HTTP 1
-
-Back:
-
-Mění způsob přenosu dat, nemění sémantiku.
-
-V HTTP 2 se přenáší data binárně, ale requesty se zapisují stejně
-<!--ID: 1735205750054-->
-END
-
----
-
-
 START
 FIT-Card
 
@@ -267,12 +252,11 @@ Co je **binary framing layer**?
 
 Back:
 
-V aplikační vrstvě je **binary framing** - způsob formátu request response v binárních framech.
+Je v **aplikační vrstvě** a definuje, jak se ukládají requesty/responses a jejich headery a data v **binární podobě**.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113180011.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205750062-->
 END
 
@@ -293,7 +277,6 @@ Každá dvojice request-response je považována za jeden stream.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113180235.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205750064-->
 END
 
@@ -394,7 +377,6 @@ To ovlivňuje jejich prioritu.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241113181802.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205750077-->
 END
 
@@ -404,15 +386,17 @@ END
 START
 FIT-Card
 
-Co je **Flow control** v HTTP/2?
+Co je a jak funguje **Flow control** v HTTP/2?
 
 Back:
 
-Pokud se naplní buffer dat, systém mi zastaví to odesílání dat, aby se systém nezahltil.
+Např. když se streamuje video ze serveru na klienta:
 
-Funguje to tak, že při komunikaci klient-server se posílá `WINDOW_UPDATE` frame spolu s responses, který poskytuje informaci o velikosti bufferu na druhé straně (např. na straně klienta).
+V rámci streamu si příjemce i odesílatel drží counter "velikost okna příjemce". Odesílatel posílá data a snižuje si svůj counter (pokud se dostane na nulu, tak se zastaví). Příjemce po tom, co zpracuje data, pošle `WINDOW_UPDATE` **frame** odesílateli, čímž mu zvýší counter. Odesílatel tak může zase posílat dál.
 
-Např. když sleduju video a klient ho pausne nebo stopne, chci notifikovat server, aby data dál neposílal.
+Díky tomu např. když člověk sleduje video, tak se mu dopředu načtou určité snímky (dokud se to vejde do window size).
+
+Ty **window size** si drží **klient i server** (pro oba směry komunikace).
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113181909.png)
@@ -425,7 +409,6 @@ Např. když sleduju video a klient ho pausne nebo stopne, chci notifikovat serv
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241113182009.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205750079-->
 END
 
@@ -454,7 +437,6 @@ Proto rovnou můžu udělat to, že tomu klientovi rovnou pushnu ten obrázek.
 Funguje to na základě mechanismu push-promise.
 - Pokud klient výslovně neřekne, že to nechce (např. protože to má v cachi), tak mu to automaticky posílám.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205750081-->
 END
 

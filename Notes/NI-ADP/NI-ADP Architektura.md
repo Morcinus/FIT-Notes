@@ -22,7 +22,7 @@ Jak funguje MVVM architektura?
 Back:
 
 
-
+<!--ID: 1736497489637-->
 END
 
 ---

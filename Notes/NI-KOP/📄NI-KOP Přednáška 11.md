@@ -81,7 +81,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221155234.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735922645602-->
 END
 
@@ -145,7 +144,6 @@ Máme např. minimalizační problém, kde optimalizační kritérium je počet 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221155741.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735922645615-->
 END
 

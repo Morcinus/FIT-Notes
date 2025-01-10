@@ -16,7 +16,7 @@ Co jsou globální metody?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221171844.png)
-
+<!--ID: 1736497489301-->
 END
 
 ---
@@ -40,7 +40,7 @@ Rozdělím problém na menší problémy, ty vyřeším a pak to seskládám zp�
 ![](../../Assets/Pasted%20image%2020241221172601.png)
 ![](../../Assets/Pasted%20image%2020241221172706.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1736497489307-->
 END
 
 ---
@@ -57,7 +57,7 @@ Back:
 - Když nějaká menší instance toho problému nemá řešení, tak to celkově nemá řešení
 
 ![](../../Assets/Pasted%20image%2020241221172901.png)
-
+<!--ID: 1736497489311-->
 END
 
 ---
@@ -76,7 +76,7 @@ Jakým způsobem rozděluju tu instanci.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241221173107.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1736497489315-->
 END
 
 ---
@@ -92,7 +92,7 @@ Back:
 Když máme optimální řešení dílčích problémů, potom jsme schopni sestavit celkové řešení.
 
 ![](../../Assets/Pasted%20image%2020241221173234.png)
-
+<!--ID: 1736497489320-->
 END
 
 ---
@@ -108,7 +108,7 @@ Back:
 Když mám optimální řešení těch instancí, tak zvládnu sestavit **optimální** řešení celé instance. (tzn. zachovává se ta optimálnost)
 
 ![](../../Assets/Pasted%20image%2020241221173301.png)
-
+<!--ID: 1736497489325-->
 END
 
 ---
@@ -122,7 +122,7 @@ Co je přesná dekompozice?
 Back:
 
 Když mám všechny řešení podinstancí, tak z toho získám všechny optimální řešení celkových instancí. (Tzn. nejen že zachovávám optimálnost, ale najdu všechny ty optimální řešení)
-
+<!--ID: 1736497489330-->
 END
 
 ---
@@ -138,7 +138,7 @@ Jaké jsou rozdíly mezi:
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221173617.png)
-
+<!--ID: 1736497489334-->
 END
 
 ---
@@ -162,7 +162,7 @@ Jako složitost průchodu tím stromem volání.
 ![](../../Assets/Pasted%20image%2020241221174031.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736497489339-->
 END
 
 ---
@@ -178,7 +178,7 @@ Back:
 Dekompozice, kde ten podproblém je vždy jen "o jedno menší". Tzn. ten strom volání je dost nevyvážený (např. protože to je jen jedna větev)
 
 ![](../../Assets/Pasted%20image%2020241221174230.png)
-
+<!--ID: 1736497489345-->
 END
 
 ---
@@ -194,7 +194,7 @@ Back:
 Je založené na čisté dekompozici.
 
 ![](../../Assets/Pasted%20image%2020241221174250.png)
-
+<!--ID: 1736497489349-->
 END
 
 ---
@@ -208,6 +208,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221174337.png)
 ![](../../Assets/Pasted%20image%2020241221174500.png)
+<!--ID: 1736497489354-->
 END
 
 ---
@@ -221,7 +222,7 @@ Jaké jsou 2 formulace dynamického programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221174520.png)
-
+<!--ID: 1736497489359-->
 END
 
 ---
@@ -235,7 +236,7 @@ U jakých problémů se vyplatí používat dynamické programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221174615.png)
-
+<!--ID: 1736497489364-->
 END
 
 ---
@@ -249,7 +250,7 @@ Na čem obecně závisí složistost dopředného výpočtu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221174731.png)
-
+<!--ID: 1736497489368-->
 END
 
 ---
@@ -265,7 +266,7 @@ Back:
 Jsou to algoritmy založené na **přibližné dekompozici**
 
 ![](../../Assets/Pasted%20image%2020241221175647.png)
-
+<!--ID: 1736497489374-->
 END
 
 ---
@@ -279,7 +280,7 @@ Jaké výsledky jsou, když použijeme globální metody složené z různých d
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221175920.png)
-
+<!--ID: 1736497489379-->
 END
 
 ---
@@ -293,7 +294,7 @@ Co je splitting rule u dekompozice DPLL?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221180743.png)
-
+<!--ID: 1736497489383-->
 END
 
 ---
@@ -307,7 +308,7 @@ Co je unity propagation u dekompozice DPLL?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221180810.png)
-
+<!--ID: 1736497489387-->
 END
 
 ---

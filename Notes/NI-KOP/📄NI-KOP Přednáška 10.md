@@ -55,7 +55,6 @@ Mám 3 možnosti:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208141044.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749560-->
 END
 
@@ -71,7 +70,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241208141342.png)
 ![](../../Assets/Pasted%20image%2020241208141351.png)
-
 <!--ID: 1735205749563-->
 END
 
@@ -130,7 +128,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241208141640.png)
 ![](../../Assets/Pasted%20image%2020241208141645.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749570-->
 END
 

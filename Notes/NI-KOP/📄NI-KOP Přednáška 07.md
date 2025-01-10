@@ -23,7 +23,6 @@ Dosažený výsledek je náhodná proměnná, čas běhu pevný pro danou instan
 
 ![](../../Assets/Pasted%20image%2020241113142517.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749736-->
 END
 
@@ -129,7 +128,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113144340.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749751-->
 END
 

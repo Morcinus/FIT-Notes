@@ -31,10 +31,10 @@ Na co se dělí REST?
 
 Back:
 
-- Zdroj (resource)
-	- Identifikátor
-	- Data
-	- Metadata
+- **Zdroje** (resource)
+	- **Identifikátor**
+	- **Data**
+	- **Metadata**
 <!--ID: 1735205749817-->
 END
 
@@ -49,8 +49,6 @@ Co je URI?
 Back:
 
 Unified Resource Identifier = identifikuje zdroj
-
-(může být )
 <!--ID: 1735205749820-->
 END
 
@@ -90,9 +88,14 @@ END
 START
 FIT-Card
 
-Jaké jsou části URI?
+Jaké jsou části URI? (4)
 
 Back:
+
+- `scheme` - např. http, ftp (pozor, schéma není protokol!)
+- `authority` - doménové jméno nebo adresa serveru (např. example.com)
+- `path and query` - např. `/users?page=1`
+- `fragment` - odkazuje na sekundární zdroj (např. odstavec v html)
 
 ![](../../Assets/Pasted%20image%2020241125122945.png)
 <!--ID: 1735205749828-->
@@ -119,7 +122,6 @@ Např. když mám orders, tak se k tomu můžu dostat mnoha způsoby. Tomu se po
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125123343.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749830-->
 END
 
@@ -129,7 +131,7 @@ END
 START
 FIT-Card
 
-K čemu se používá **query** v RESTu?
+K čemu se používá **query** v RESTu? (3)
 
 Back:
 
@@ -168,15 +170,15 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní charakteristiky URI?
+Jaké jsou hlavní charakteristiky URI? (5)
 
 Back:
 
-- Capability URL
-- URL Alias - více pohledů nad jedním zdrojem
-- URI Opacity - když jako součást URI mám i formát
-- Resource versions - když mi URI definuje i verzi toho zdroje
-- Persistent URL - adresa by měla být validní i když zdroj už neexistuje (neměl bych smazat URI, ale třeba přesměrovat člověka na novou URI) 
+- **Capability URL**
+- **URL Alias** - více pohledů nad jedním zdrojem
+- **URI Opacity** - když jako součást URI mám i formát
+- **Resource versions** - když mi URI definuje i verzi toho zdroje
+- **Persistent URL** - adresa by měla být validní i když zdroj už neexistuje (neměl bych smazat URI, ale třeba přesměrovat člověka na novou URI) 
 <!--ID: 1735205749838-->
 END
 
@@ -187,19 +189,18 @@ END
 START
 FIT-Card
 
-Z čeho se skládají zdroje v RESTu?
+Z čeho se skládají zdroje v RESTu? (3)
 
 Back:
 
-- Reprezentace - JSON, XML, ...
-- Data
-- Metadata - v hlavičkách,
+- **Reprezentace** - JSON, XML, ...
+- **Data**
+- **Metadata** - v hlavičkách, např. kdy byl resource vytvořen atd.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125124328.png)
 ![](../../Assets/Pasted%20image%2020241125124338.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749841-->
 END
 
@@ -209,7 +210,7 @@ END
 START
 FIT-Card
 
-Co jsou media types a co u nich znamená `x-` a `.vnd`?
+Co jsou media types a co u nich znamená `x-` a `vnd.`?
 
 Back:
 
@@ -243,7 +244,6 @@ Tzn. když čtu data z REST zdroje, získám tím momentální **stav** toho zdr
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241125125052.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749846-->
 END
 
@@ -260,7 +260,7 @@ Co znamená že má REST uniform interface?
 Back:
 
 - Mám omezené množství operací (POST, GET,...)
-- Operace jsou doménově nezávislé
+- Operace jsou **doménově nezávislé**
 <!--ID: 1735205749848-->
 END
 
@@ -270,14 +270,15 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti mají operace RESTu?
+Jaké vlastnosti mají operace RESTu? (4)
 
 Back:
 
-Safeness
+Safeness:
 - **Safe** - operace nemění stav (např. GET)
 - **Unsafe** - mohou měnit stav (např. POST, PUT, DELETE)
-Idempotence
+
+Idempotence:
 - **Idempotent** - Když zavolám metodu na zdroji (na stejných datech/vstupech), bude výsledek vždy stejný (GET, PUT, DELETE)
 	- Pozn. idempotence má obecně dost výhod - je to spolehlivější a předvídatelnější
 - **Non-idempotent** - Když zavolám metodu na zdroji (na stejných datech/vstupech), může být stav jiný (POST)
@@ -285,7 +286,6 @@ Idempotence
 Pozn. u idempotence se jedná o **state change**. Tzn. není stejný **výsledek** (data), ale změna **stavu**.
 
 <!-- ExampleStart -->
-
 Idempotence:
 - Funkce, co mi vždy naplní databázi danými testovacími daty je idempotentní. Vím, že to např. smaže všechna data a naplní to databázi danými daty. Vím, že výsledek té funkce bude furt stejný.
 <!-- ExampleEnd -->
@@ -294,7 +294,6 @@ Idempotence:
 ![](../../Assets/Pasted%20image%2020241125125926.png)
 ![](../../Assets/Pasted%20image%2020241125125930.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749851-->
 END
 
@@ -308,15 +307,21 @@ Jaký je rozdíl mezi efektem a výsledkem v idempotenci?
 
 Back:
 
+- **efekt** = jak se změní stav zdroje
+- **výsledek** = co je výsledkem operace
+
+**Idempotence** je závislá na **efektu** a ne na výsledku.
+
+<!-- ExplanationStart -->
 Např. když udělám `DELETE /orders/1`
-Efekt (stav) = objednávka neexistuje
-Výsledek = smazali jsme objednávku
+**Efekt** (stav) = objednávka neexistuje
+**Výsledek** = smazali jsme objednávku
 
 Delete je idempotentní, takže když to udělám znovu:
-Efekt = objednávka neexistuje
-Výsledek = nic jsme nesmazali
+**Efekt** = objednávka neexistuje
+**Výsledek** = nic jsme nesmazali
+<!-- ExplanationEnd -->
 
-Tzn. **idempotence** je závislá na **efektu** a ne na výsledku.
 <!--ID: 1735205749854-->
 END
 
@@ -333,6 +338,14 @@ Back:
 
 - GET, PUT, DELETE jsou idempotentní
 - POST **není** idempotentní!
+
+<!-- ExplanationStart -->
+Např. u POSTu se může v databázi vytvořit nový záznam, který má random vygenerované idčko, tzn. když vícekrát zavolám POST, tak ten efekt může být jiný.
+
+U GET, PUT a DELETE furt pracuju s těmi samými daty, takže v tom není problém a je to idempotentní.
+<!-- ExplanationEnd -->
+
+
 <!--ID: 1735205749856-->
 END
 
@@ -357,7 +370,6 @@ Když mám např. formulář a provedu POST, a pak ho vyplním datama, ze server
 
 Správně by se měl provést POST, v tom by měl být odkaz na zdroj a klient si pak znovu fetchne pomocí GET. Díky tomu se POST provede pouze jednou.
 <!-- ExampleEnd -->
-
 <!--ID: 1735205749859-->
 END
 
@@ -369,9 +381,7 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má GET?
-- safe/unsafe
-- idempotentní/non-idempotentní
+Jaké vlastnosti má GET? (safeness a idempotence)
 
 Back:
 
@@ -381,7 +391,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150154.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749862-->
 END
 
@@ -391,11 +400,11 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má PUT?
+Jaké vlastnosti má PUT? (safeness a idempotence)
 
 Back:
 
-- Je **not safe**
+- Je **unsafe**
 - Je **idempotent**
 
 Updatuje celý resource.
@@ -412,15 +421,16 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má PATCH?
+Jaké vlastnosti má PATCH? (safeness a idempotence)
 
 Back:
 
+- Je **unsafe**
+- Je **idempotent
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150219.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749867-->
 END
 
@@ -430,12 +440,12 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má POST?
+Jaké vlastnosti má POST? (safeness a idempotence)
 
 Back:
 
-- Je **not safe**
-- Je **not idempotent**
+- Je **unsafe**
+- Je **not-idempotent**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150314.png)
@@ -449,17 +459,16 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má DELETE?
+Jaké vlastnosti má DELETE? (safeness a idempotence)
 
 Back:
 
-- **not safe**
-- **idempotent**
+- Je **unsafe**
+- Je **idempotent**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150340.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749872-->
 END
 
@@ -469,25 +478,22 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti mají HEAD a OPTIONS?
+Jaké vlastnosti mají HEAD a OPTIONS? (safeness a idempotence)
 
 Back:
 
-- safe
-- idempotentní
+- Je **safe**
+- Je **idempotentní**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150802.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749875-->
 END
 
 ---
 
 ### Status kódy
-
-
 START
 FIT-Card
 

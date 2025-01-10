@@ -17,7 +17,7 @@ Co je škálovatelnnost?
 Back:
 
 Schopnost systému se vyrovnat s narůstajícím množstvím dat nebo požadavků.
-
+<!--ID: 1736497489067-->
 END
 
 ---
@@ -36,7 +36,7 @@ Snažíme se posílit **jeden server** (jeden node), co už máme tím, že nav�
 Přidáme procesory, ramky.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736497489075-->
 END
 
 ---
@@ -52,7 +52,7 @@ Back:
 - Je to **dražší** - výdaje se zvyšují exponenciálně
 - **Vendor lock** - je jen pár společností, co se tím zabývá (např Oracle)
 - **Performance limits** - i silnější mašiny mají své limity
-
+<!--ID: 1736497489080-->
 END
 
 ---
@@ -71,7 +71,7 @@ Když už ten hardware mám a neočekávám exponenciální růst.
 Třeba na čvutu vím, že počet studentů nebude růst exponenciálně -> dává smysl škálovat vertikálně 
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736497489085-->
 END
 
 ---
@@ -85,7 +85,7 @@ Co je horizontální škálování?
 Back:
 
 Zasadíme do systému více uzlů (nodes).
-
+<!--ID: 1736497489090-->
 END
 
 ---
@@ -99,7 +99,7 @@ Co za typ databází se typicky používá na hoizontální škálování?
 Back:
 
 NoSQL
-
+<!--ID: 1736497489095-->
 END
 
 ---
@@ -122,7 +122,7 @@ Musí se řešit datová konzistence, zotavování z chyb, distribuce dat atd. V
 ![](../../Assets/Pasted%20image%2020241022095614.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489100-->
 END
 
 ---
@@ -141,7 +141,7 @@ Množina **nodes**, založená na **shared-nothing** architektuře
 **shared-nothing** = každý node má vlastní operační systém, vlastní hardware a komunikuje s ostatními nody pomocí zpráv
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1736497489104-->
 END
 
 ---
@@ -162,7 +162,7 @@ Back:
 Ta replikace se udělá typicky třeba na 3 nodech
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489109-->
 END
 
 ---
@@ -176,7 +176,7 @@ Jak se typicky rozdělí data v shardování?
 Back:
 
 Typicky související data, ke kterým se přistupuje najednou, by měly být uchovány na stejné node
-
+<!--ID: 1736497489113-->
 END
 
 ---
@@ -192,7 +192,7 @@ Back:
 - Přístupy ke každé node by měly být vybalancovaný
 - Balanced workload (read and write requests)
 - Respect physical location _(např. data pro američany dám na server do ameriky)_
-
+<!--ID: 1736497489117-->
 END
 
 ---
@@ -212,7 +212,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241022101216.png)
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1736497489122-->
 END
 
 ---
@@ -228,7 +228,7 @@ Back:
 - Pro read i write requesty musíme rozhodnout, ke které shardě se přistoupí
 - Občas vypadne nějaký node
 
-
+<!--ID: 1736497489127-->
 END
 
 ---
@@ -244,7 +244,7 @@ Back:
 
 - **Master-slave**
 - **Peer-to-peer**
-
+<!--ID: 1736497489132-->
 END
 
 ---
@@ -258,7 +258,7 @@ Co je **replikační faktor**?
 Back:
 
 Počet kopií u replikace. Typicky je nízký (třeba 3 nody)
-
+<!--ID: 1736497489137-->
 END
 
 ---
@@ -280,7 +280,7 @@ Z mastera se to automaticky popíše do slaves
 ![](../../Assets/Pasted%20image%2020241022101613.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489142-->
 END
 
 ---
@@ -295,7 +295,7 @@ Back:
 
 - Než se změna zpropaguje do slaves, je tam okno, kde klient nezíská aktuální data.
 - Když vypadne master node, je to průšvih
-
+<!--ID: 1736497489147-->
 END
 
 ---
@@ -309,7 +309,7 @@ Co je peer-to-peer architektura?
 Back:
 
 Máme několik uzlů, u všech lze zapisovat i číst.
-
+<!--ID: 1736497489152-->
 END
 
 ---
@@ -323,7 +323,7 @@ Jaké jsou nevýhody u peer to peer architektury?
 Back:
 
 **Konzistence** - je třeba dobrá synchronizace, aby nedocházelo ke konfliktům.
-
+<!--ID: 1736497489157-->
 END
 
 ---
@@ -347,7 +347,7 @@ Ano!
 ![](../../Assets/Pasted%20image%2020241022102647.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489163-->
 END
 
 ---
@@ -364,7 +364,7 @@ Back:
 
 - Musí se jednat o distribuovaný systém se shardingem a replikací
 - Read a write operace jsou dělány na jednom agregátu
-
+<!--ID: 1736497489168-->
 END
 
 ---
@@ -380,7 +380,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241022102913.png)
 
 CAP = Consistency, Availability, Partition tolerance
-
+<!--ID: 1736497489172-->
 END
 
 ---
@@ -399,7 +399,7 @@ Back:
 s![](../../Assets/Pasted%20image%2020241022103146.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489177-->
 END
 
 ---
@@ -418,7 +418,7 @@ Pokud noda běží, musí odpovídat na requesty
 ![](../../Assets/Pasted%20image%2020241022103235.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489182-->
 END
 
 ---
@@ -432,7 +432,7 @@ Co je partition tolerance v CAP theoremu?
 Back:
 
 Je možný, že nějaká node na chvíli vypadne. Distribuovaný systém by měl být vůči tomuhle odolný,
-
+<!--ID: 1736497489187-->
 END
 
 ---
@@ -456,7 +456,7 @@ Vždy se zaměřím na dvě vlastnosti:
 ![](../../Assets/Pasted%20image%2020241022103559.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489192-->
 END
 
 ---
@@ -470,7 +470,7 @@ Co je ACID?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241022103618.png)
-
+<!--ID: 1736497489198-->
 END
 
 ---
@@ -489,7 +489,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241022103752.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1736497489203-->
 END
 
 ---
@@ -503,7 +503,7 @@ Co je consistency?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241022103910.png)
-
+<!--ID: 1736497489209-->
 END
 
 ---
@@ -517,7 +517,7 @@ Co je write consistency?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241022103926.png)
-
+<!--ID: 1736497489213-->
 END
 
 ---
@@ -531,7 +531,7 @@ Co je read consistency?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241022103948.png)
-
+<!--ID: 1736497489219-->
 END
 
 ---
@@ -550,7 +550,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020241022104335.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736497489224-->
 END
 
 ---

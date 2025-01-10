@@ -60,7 +60,6 @@ Byla první, která dlouhodobě vydržela. Ostatní grafové databáze se přest
 
 Vznikla v roce 2007.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212857-->
 END
 
@@ -106,7 +105,6 @@ FIT-Card
 Jaké části má **node** v Neo4j databázi?
 
 Back:
-
 
 <!--ID: 1730978212868-->
 END
@@ -155,7 +153,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241104163238.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978212875-->
 END
 
@@ -241,7 +238,6 @@ Napíšu co chci dostat za data (podobně jako se to dělá v SQL), databáze mi
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241104164610.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978212894-->
 END
 
@@ -264,7 +260,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241104164750.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212897-->
 END
 
@@ -284,7 +279,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241104164848.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212901-->
 END
 
@@ -330,7 +324,6 @@ Díky tomu jsem schopný snadně dělat hodně komplikovaný dotazy.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241104165156.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212909-->
 END
 
@@ -352,7 +345,6 @@ Je to kvůli tomu, aby se to při dotazování nezacyklilo.
 
 ![](../../Assets/Pasted%20image%2020241104165438.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1730978212912-->
 END
 
@@ -394,7 +386,6 @@ Pak tam můžou být i exists, kvantifikátory atd.
 ![](../../Assets/Pasted%20image%2020241104170453.png)
 ![](../../Assets/Pasted%20image%2020241104170446.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212916-->
 END
 
@@ -417,7 +408,6 @@ Dělá to jakoby left outer join. Optionally mi to do výsledku dá ještě něc
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241104170503.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212919-->
 END
 
@@ -446,7 +436,6 @@ Na rozdíl od SQLka, kde máme projekci, tak zde se používá RETURN, abychom n
 Pozn. v tom returnu můžeme mít i kostruktor. Ten `SIZE` mi najde pro vybraného herce množinu filmů, ve kterých hraje a označí to m. Pak to vrátí sekvenci těch filmů a na to to aplikuje tu funkci SIZE, která zjistí velikost té sekvence.
 ![](../../Assets/Pasted%20image%2020241104170831.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978212923-->
 END
 
@@ -487,7 +476,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241104171856.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1730978212930-->
 END
 
@@ -507,7 +495,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020241104171931.png)
 ![](../../Assets/Pasted%20image%2020241104171935.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212933-->
 END
 
@@ -526,7 +513,6 @@ Umožňuje mi kombinovat multi-part queries.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241104172011.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1730978212936-->
 END
 

@@ -25,7 +25,7 @@ Iterátor má typicky funkci next, kterou jsem schopný přeskákat přes všech
 ![](../../Assets/Pasted%20image%2020241105182717.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489515-->
 END
 
 ---
@@ -49,7 +49,7 @@ Např. v Google dokumentech se mi to každou minutu uloží a můžu to do toho 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241105183029.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736497489520-->
 END
 
 ---
@@ -71,7 +71,7 @@ Tohle se obecně moc nepoužívá
 Zero-one-infinity princip:
 - Buď bych měl možnost mít nula instancí
 <!-- DetailInfoEnd -->
-
+<!--ID: 1736497489525-->
 END
 
 ---
@@ -94,7 +94,7 @@ U databází typicky bývá několik vláken kterýma tam můžu přistupovat
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241105184112.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736497489530-->
 END
 
 ---
@@ -113,7 +113,7 @@ Objekty, co implementují stejný interface, ale mockují ho.
 <!-- DetailInfoStart -->
 Dají se takhle mockovat APIčka, databáze, systémy atd.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1736497489535-->
 END
 
 ---
@@ -139,7 +139,7 @@ Jak lze docílit **dependency injection**?
 ![](../../Assets/Pasted%20image%2020241105185111.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1736497489540-->
 END
 
 ---
@@ -157,7 +157,7 @@ Back:
 Službu nevytvářím při startu programu, ale až když ji potřebuju.
 
 Nebo např. infinite scroll na frontendu. Uživateli načítám data až když se obrazovkou přiblíží k tomu contentu. Např. stránkování.
-
+<!--ID: 1736497489544-->
 END
 
 ---
@@ -176,7 +176,7 @@ Když nechci používat null, tak si vytvořím null object. Nemusím pak dělat
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241105185623.png)
 <!-- ImageEnd -->
-
+<!--ID: 1736497489548-->
 END
 
 ---
@@ -198,7 +198,7 @@ Např. `Serializable`
 
 ![](../../Assets/Pasted%20image%2020241105185923.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1736497489553-->
 END
 
 ---
@@ -222,7 +222,7 @@ Snaha je vyvtářet závislosti směrem do centra toho programu.
 
 ![](../../Assets/Pasted%20image%2020241105190549.png)
 
-
+<!--ID: 1736497489558-->
 END
 
 ---
@@ -250,7 +250,7 @@ Máme porty (interfacy) a adaptéry (implementace interfaců). Tyhle dvě věci 
 ![](../../Assets/Pasted%20image%2020241105191243.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1736497489563-->
 END
 
 ---

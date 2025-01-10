@@ -10,21 +10,6 @@ FILE TAGS: NI-AM1 prednaska06 status-toReview
 
 ## Úvod HTTP
 
-
-START
-FIT-Card
-
-Jaký je rozdíl mezi URI a URL?
-
-Back:
-
-URI 
-<!--ID: 1731175818737-->
-END
-
----
-
-
 START
 FIT-Card
 
@@ -80,6 +65,15 @@ method uri http-version <crlf>
 Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku) 
 ![](../../Assets/Pasted%20image%2020241104094028.png)
 <!-- DetailInfoEnd -->
+
+<!-- ExampleStart -->
+```
+GET /users HTTP/1.1
+header: value
+
+body
+```
+<!-- ExampleEnd -->
 <!--ID: 1731175818744-->
 END
 
@@ -96,7 +90,7 @@ Back:
 ```
 http-version response-code [ message ] <crlf>
 (header : value
-<crlf>
+<crlf>)*
 [ data ]
 ```
 
@@ -104,25 +98,19 @@ http-version response-code [ message ] <crlf>
 Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku)
 ![](../../Assets/Pasted%20image%2020241104094028.png)
 <!-- DetailInfoEnd -->
+
+<!-- ExampleStart -->
+```
+HTTP/1.1 200 Success
+header: value
+
+body
+```
+<!-- ExampleEnd -->
 <!--ID: 1731175818747-->
 END
 
 ---
-
-
-START
-FIT-Card
-
-Jakou novinku přináší HTTP 2?
-
-Back:
-
-Data se nyní přenáší v **binární podobě**. Díky tomu to je efektivnější.
-<!--ID: 1731175818749-->
-END
-
----
-
 
 START
 FIT-Card
@@ -196,7 +184,7 @@ Jakými způsoby lze udržovat stav na klientovi, když je HTTP stateless?
 Back:
 
 - **Cookies** (+ session tabulky na serveru)
-- **Hypertext**
+- **Hypertext** (HATEOAS)
 <!--ID: 1731175818759-->
 END
 
@@ -205,7 +193,7 @@ END
 START
 FIT-Card
 
-Jak fungují **cookies**?
+Jak fungují **sessions** pomocí **cookies**?
 
 Back:
 
@@ -294,7 +282,7 @@ END
 START
 FIT-Card
 
-Jaké dvě části má bezpečnost u komunikace přes internet? (v AM1 :D)
+Z jakých částí se skládá **bezpečnost** komunikace přes internet? (2)
 
 Back:
 
@@ -358,12 +346,12 @@ Back:
 
 - **Autentizaci** - to že to jsem já
 - **Autorizaci** - to že mám právo něco udělat
-- **Message Confidentiality** - to že nikdo nepřečte moji zprávu
-- **Message Integrity** - to že nikdo nezmění zprávu
-- **Non-repudiation** - to že nejsem schopný popřít, že jsem udělal určitou akci
+- **Důvěrnost zprávy** - to že nikdo nepřečte moji zprávu
+- **Integrita zprávy** - to že nikdo nezmění zprávu
+- **Nepopiratelnost** - to že nejsem schopný popřít, že jsem udělal určitou akci
 
 <!-- DetailInfoStart -->
-Da non-repudation je zajímavá v tom, že si hodně systémů prostě drží "stopy" a data o tom, co uživatelé dělají -> je těžký být anonymní na internetu, protože se všechno možný loguje.
+Ta nepopiratelnost je zajímavá v tom, že si hodně systémů prostě drží "stopy" a data o tom, co uživatelé dělají -> je těžký být anonymní na internetu, protože se všechno možný loguje.
 <!-- DetailInfoEnd -->
 <!--ID: 1731175818785-->
 END

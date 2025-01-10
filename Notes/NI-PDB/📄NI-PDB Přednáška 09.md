@@ -38,7 +38,6 @@ Transaction Processing Council (něco jako W3C ale pro databáze)
 <!-- ExampleStart -->
 Členové jsou např. Microsoft, Lenovo, Cisco, Nvidia, AMD atd.
 <!-- ExampleEnd -->
-
 <!--ID: 1735205748906-->
 END
 
@@ -67,7 +66,6 @@ Následně:
 
 ![](../../Assets/Pasted%20image%2020241208133101.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205748908-->
 END
 
@@ -122,7 +120,6 @@ Mám různé transakce (new-order) atd. Mám simulaci zákazníka (terminál), t
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241208133525.png)
 <!-- ImageEnd -->
-
 <!--ID: 1735205748916-->
 END
 
@@ -216,7 +213,6 @@ FIT-Card
 Jaká je nevýhoda TPC-C
 
 Back:
-
 
 <!--ID: 1735205748931-->
 END
