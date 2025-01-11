@@ -412,9 +412,9 @@ Co je **origin**?
 Back:
 
 Je definovaný těmito hodnotami:
-- **Doména**
-- **Potokol**
-- **Port**
+- **Doména** - např. `example.com`
+- **Scéma** (méně správně protokol) - např. `https`
+- **Port** - např 443
 
 <!-- DetailInfoStart -->
 Origin je na klientovi, každý origin může mít až 6 TCP socketů najednou. Např. když bych v HTTP 1.1 načítal webovky, tak přes jeden socket půjde html, přes druhý CSS, přes třetí obrázek atd.

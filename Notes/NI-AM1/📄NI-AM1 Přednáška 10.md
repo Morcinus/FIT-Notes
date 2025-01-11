@@ -125,7 +125,6 @@ Back:
 HATEOAS má dvě podmínky
 - **preconditions** - musí být splněny ve stavu než spustím nějakou operaci (předchod do dalšího stavu)
 - **effects** - musí být splněny po vykonání nějaké operace (přechodu do jiného stavu)
-
 <!--ID: 1735205749934-->
 END
 
@@ -371,6 +370,8 @@ Back:
 
 Reprezentuje zdroj "sémanticky" - tzn. na základě významu nějaké hodnoty.
 
+Např. `ETag: "w\..."`
+
 <!-- ExplanationStart -->
 Například můžu se rozhodnout, že lekce v kurzu se změnila pouze, pokud se změnil její nadpis, ale úpravy popisu lekce detekovat nebudu.
 <!-- ExplanationEnd -->
@@ -540,18 +541,18 @@ END
 START
 FIT-Card
 
-Jaké jsou úrovně **Richardson Maturity Model**?
+Jaké jsou úrovně **Richardson Maturity Model**? (4)
 
 Back:
 
-0. Level 0 - The Swamp of POX
+0. Level 0 - **The Swamp of POX**
 	- Používáme REST čistě jako mechanismus pro RPC styl
-1. Level 1 - Resources
+1. Level 1 - **Resources**
 	- Pracujeme se zdrojema, endpointama
 	- Pořád ale nerespektuju metody (např. na vše používáme POST)
-1. Level 2 - HTTP Verbs
+1. Level 2 - **HTTP Verbs**
 	- Respektujeme i metody a jejich sémantiku (POST, GET, PUT, atd.)
-2. Level 3 - Hypermedia Controls
+2. Level 3 - **Hypermedia Controls**
 	- Používáme HATEOAS
 
 Nemusím nutně používat co nejvyšší level, ale měl bych rozumět tomu, proč danou úroveň používám. Je např. okay použít Level 0, když vím, že mám omezené zdroje a mám k tomu legitimní důvod.

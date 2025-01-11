@@ -141,7 +141,7 @@ Co je sharding? Jak funguje?
 
 Back:
 
-Origin je hostname, protokol a port.
+Origin je hostname, protokol (správněji schéma) a port.
 
 V aplikaci můžu uměle vytořit více originů pomocí shardů tím, že si vytvořím na doméně více poddomén -> mám jiné hostnames.
 

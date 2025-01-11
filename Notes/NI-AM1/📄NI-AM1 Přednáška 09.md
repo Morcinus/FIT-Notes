@@ -174,7 +174,7 @@ Jaké jsou hlavní charakteristiky URI? (5)
 
 Back:
 
-- **Capability URL**
+- **Capability URL** - krátkodobá URL, která obsahuje i nějaký key, který slouží k autentizaci/verifikaci - například v emailu se odesílá URL na změnu hesla
 - **URL Alias** - více pohledů nad jedním zdrojem
 - **URI Opacity** - když jako součást URI mám i formát
 - **Resource versions** - když mi URI definuje i verzi toho zdroje

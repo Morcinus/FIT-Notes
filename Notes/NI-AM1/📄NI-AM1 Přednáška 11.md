@@ -25,7 +25,7 @@ END
 START
 FIT-Card
 
-Jak lze dosáhnout dobrého výkonu aplikace?
+Jak lze dosáhnout **dobrého výkonu** aplikace? (3)
 
 Back:
 
@@ -176,7 +176,7 @@ END
 START
 FIT-Card
 
-Co je model synchronní IO? Jaké 2 typy existují?
+Co je model **synchronní IO**? Jaké **2 typy connnections** existují?
 
 Back:
 
@@ -255,7 +255,7 @@ END
 START
 FIT-Card
 
-Jak funguje fronta před přiřazení vláken requestů?
+Jak funguje **fronta requestů** před tím než se jim přiřadí vlákna?
 
 Back:
 
@@ -314,7 +314,7 @@ END
 START
 FIT-Card
 
-Jak funguje zpracovávání požadavky v synchronním IO? (Na tohle se nebude ptát - na ty pojmy.. chce spíš znát ten princip, což je už na jiných kartičkách)
+Jak funguje zpracovávání požadavků v synchronním IO? (Na tohle se nebude ptát - na ty pojmy.. chce spíš znát ten princip, což je už na jiných kartičkách)
 
 Back:
 
@@ -331,20 +331,6 @@ END
 ---
 
 ### Load balancing
-
-START
-FIT-Card
-
-Co je load balancer?
-
-Back:
-
-Prvek, co rozděluje požadavky na nějakou množinu instancí serveru
-<!--ID: 1735205749801-->
-END
-
----
-
 
 START
 FIT-Card

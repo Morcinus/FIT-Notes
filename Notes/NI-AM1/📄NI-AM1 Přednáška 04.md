@@ -241,6 +241,8 @@ Back:
 	- Tohle nemůžu dělat na client-serveru, protože by client musel taky otevřít server a poslouchat, jestli nepřišel response na nějaký jeho endpoint. Slouží to pro server-server komunikaci
 		- Asynchronní integrace se takto přímo nedělá, dělá se to jinými způsoby (viz další kartičky)
 
+![](../../Assets/Pasted%20image%2020250111182953.png)
+
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241014182713.png)
 <!-- ImageEnd -->
@@ -286,6 +288,8 @@ Máme prostředníka, co má u sebe dvě fronty (request queue a response queue)
 3. Server zpracuje požadavek
 4. Server uloží response do response queue
 5. Klient si z response queue vyzvedne response
+
+
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241014183234.png)

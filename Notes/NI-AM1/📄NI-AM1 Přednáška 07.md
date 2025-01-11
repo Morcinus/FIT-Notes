@@ -68,8 +68,6 @@ END
 ---
 
 #### TLS handshake
-
-
 START
 FIT-Card
 
@@ -187,7 +185,7 @@ Back:
 
 Mám spojení klient-server-middleware a ta TLS session je mezi klientem a serverem. Middleware přeposílá tu komunikaci.
 
-Middleware si při TLS handshake může přečíst data a číst si tak potom i probíhající komunikaci.
+Middleware si při TLS handshake může přečíst pouze nezašifrované části packetů.
 <!--ID: 1735205750049-->
 END
 

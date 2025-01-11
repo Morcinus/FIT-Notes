@@ -437,6 +437,8 @@ Back:
 - **composability** - služby lze skládat do komplexnějších služeb
 - **discoverability** - služba musí být ideálně popsaná nějakým standardním jazykem (openapi, swagger)
 
+Pomůcka: CLEARCD nebo LCDRACE
+
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241007102911.png)
 <!-- ImageEnd -->
