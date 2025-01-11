@@ -87,7 +87,6 @@ Když mám Gmail, tak Google je controller i processor?
 
 Když si koupím GSuite do firmy, tak Google už je jen processor a moje firma je controller.
 <!-- ExampleEnd -->
-
 <!--ID: 1736497489463-->
 END
 

@@ -321,7 +321,6 @@ Delete je idempotentní, takže když to udělám znovu:
 **Efekt** = objednávka neexistuje
 **Výsledek** = nic jsme nesmazali
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749854-->
 END
 
@@ -344,7 +343,6 @@ Např. u POSTu se může v databázi vytvořit nový záznam, který má random 
 
 U GET, PUT a DELETE furt pracuju s těmi samými daty, takže v tom není problém a je to idempotentní.
 <!-- ExplanationEnd -->
-
 
 <!--ID: 1735205749856-->
 END

@@ -23,7 +23,6 @@ Je to zhruba to co bys čekal (:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241112185753.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489428-->
 END
 
@@ -63,7 +62,6 @@ Je message queue a máme někoho, kdo tam vkládá messages a někoho, kdo ji zp
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241112192055.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489438-->
 END
 

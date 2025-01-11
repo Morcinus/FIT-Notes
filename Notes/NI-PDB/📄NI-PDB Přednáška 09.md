@@ -213,7 +213,6 @@ FIT-Card
 Jaká je nevýhoda TPC-C
 
 Back:
-
 <!--ID: 1735205748931-->
 END
 

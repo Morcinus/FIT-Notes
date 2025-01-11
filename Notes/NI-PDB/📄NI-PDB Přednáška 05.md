@@ -35,7 +35,6 @@ Snažíme se posílit **jeden server** (jeden node), co už máme tím, že nav�
 <!-- ExampleStart -->
 Přidáme procesory, ramky.
 <!-- ExampleEnd -->
-
 <!--ID: 1736497489075-->
 END
 
@@ -70,7 +69,6 @@ Když už ten hardware mám a neočekávám exponenciální růst.
 <!-- ExampleStart -->
 Třeba na čvutu vím, že počet studentů nebude růst exponenciálně -> dává smysl škálovat vertikálně 
 <!-- ExampleEnd -->
-
 <!--ID: 1736497489085-->
 END
 
@@ -121,7 +119,6 @@ Musí se řešit datová konzistence, zotavování z chyb, distribuce dat atd. V
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241022095614.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489100-->
 END
 
@@ -140,7 +137,6 @@ Množina **nodes**, založená na **shared-nothing** architektuře
 <!-- ExplanationStart -->
 **shared-nothing** = každý node má vlastní operační systém, vlastní hardware a komunikuje s ostatními nody pomocí zpráv
 <!-- ExplanationEnd -->
-
 <!--ID: 1736497489104-->
 END
 
@@ -161,7 +157,6 @@ Back:
 <!-- DetailInfoStart -->
 Ta replikace se udělá typicky třeba na 3 nodech
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489109-->
 END
 
@@ -211,7 +206,6 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241022101216.png)
 <!-- ExplanationEnd -->
-
 <!--ID: 1736497489122-->
 END
 
@@ -227,7 +221,6 @@ Back:
 
 - Pro read i write requesty musíme rozhodnout, ke které shardě se přistoupí
 - Občas vypadne nějaký node
-
 <!--ID: 1736497489127-->
 END
 
@@ -279,7 +272,6 @@ Z mastera se to automaticky popíše do slaves
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241022101613.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489142-->
 END
 
@@ -346,7 +338,6 @@ Ano!
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241022102647.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489163-->
 END
 
@@ -398,7 +389,6 @@ Back:
 <!-- DetailInfoStart -->
 s![](../../Assets/Pasted%20image%2020241022103146.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489177-->
 END
 
@@ -417,7 +407,6 @@ Pokud noda běží, musí odpovídat na requesty
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241022103235.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489182-->
 END
 
@@ -455,7 +444,6 @@ Vždy se zaměřím na dvě vlastnosti:
 ![](../../Assets/Pasted%20image%2020241022103437.png)
 ![](../../Assets/Pasted%20image%2020241022103559.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489192-->
 END
 
@@ -488,7 +476,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241022103752.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489203-->
 END
 
@@ -549,7 +536,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241022104335.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1736497489224-->
 END
 

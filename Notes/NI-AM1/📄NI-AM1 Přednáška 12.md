@@ -5,9 +5,7 @@ up: "[[📖NI-AM1]]"
 ---
 
 TARGET DECK: NI-AM1
-FILE TAGS: NI-AM1 prednaska11 status-toReview
-
-
+FILE TAGS: NI-AM1 prednaska12 status-toReview
 
 START
 FIT-Card

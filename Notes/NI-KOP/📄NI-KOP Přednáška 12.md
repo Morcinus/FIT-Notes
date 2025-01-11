@@ -161,7 +161,6 @@ Jako složitost průchodu tím stromem volání.
 ![](../../Assets/Pasted%20image%2020241221173825.png)
 ![](../../Assets/Pasted%20image%2020241221174031.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1736497489339-->
 END
 

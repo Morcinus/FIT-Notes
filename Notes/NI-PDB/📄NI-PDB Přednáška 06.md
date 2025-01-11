@@ -105,7 +105,6 @@ FIT-Card
 Jaké části má **node** v Neo4j databázi?
 
 Back:
-
 <!--ID: 1730978212868-->
 END
 

@@ -24,7 +24,6 @@ Iterátor má typicky funkci next, kterou jsem schopný přeskákat přes všech
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241105182717.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489515-->
 END
 
@@ -138,7 +137,6 @@ Jak lze docílit **dependency injection**?
 ![](../../Assets/Pasted%20image%2020241105185103.png)
 ![](../../Assets/Pasted%20image%2020241105185111.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1736497489540-->
 END
 
@@ -221,7 +219,6 @@ Snaha je vyvtářet závislosti směrem do centra toho programu.
 - **frameworks and drivers** - 
 
 ![](../../Assets/Pasted%20image%2020241105190549.png)
-
 <!--ID: 1736497489558-->
 END
 
@@ -249,7 +246,6 @@ Máme porty (interfacy) a adaptéry (implementace interfaců). Tyhle dvě věci 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241105191243.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489563-->
 END
 

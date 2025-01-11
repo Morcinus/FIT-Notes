@@ -126,10 +126,6 @@ HATEOAS má dvě podmínky
 - **preconditions** - musí být splněny ve stavu než spustím nějakou operaci (předchod do dalšího stavu)
 - **effects** - musí být splněny po vykonání nějaké operace (přechodu do jiného stavu)
 
-<!-- ExplanationStart -->
-Tohle je důležitý chápat. Jako server můžu nabídnout klientovi rovnou data tak, aby z každého
-<!-- ExplanationEnd -->
-
 <!--ID: 1735205749934-->
 END
 
@@ -163,13 +159,13 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní 3 výhody HATEOAS?
+Jaké jsou hlavní 3 výhody/principy HATEOAS?
 
 Back:
 
-- location transparency
-- loose coupling
-- statelessness and cloud
+- **location transparency**
+- **loose coupling**
+- **statelessness and cloud**
 <!--ID: 1735205749939-->
 END
 

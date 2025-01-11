@@ -194,7 +194,6 @@ Problém:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241209101338.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749781-->
 END
 

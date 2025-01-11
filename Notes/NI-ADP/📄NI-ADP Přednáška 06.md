@@ -78,7 +78,6 @@ Obrázek chaosu :D
 
 ❌ Over time a mediator can evolve into a [God Object](https://courses.fit.cvut.cz/antipatterns/god-object).
 <!-- DetailInfoEnd -->
-
 <!--ID: 1736497489580-->
 END
 
@@ -101,7 +100,6 @@ Např. autorizace, bezpečnost, validace, cachování atd.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241029182820.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489586-->
 END
 
@@ -194,7 +192,6 @@ Umožňuje mi vytvářet různé strategie k vykonání dané činnosti.
 
 ![](../../Assets/Pasted%20image%2020241029190419.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489613-->
 END
 
@@ -221,7 +218,6 @@ Reprezentuju nějaký příkaz classou, pak mám jeho invoker a receiver.
 5. The **Client** creates and configures concrete command objects. The client must pass all of the request parameters, including a receiver instance, into the command’s constructor. After that, the resulting command may be associated with one or multiple senders.
 
 <!-- ImageEnd -->
-
 <!--ID: 1736497489617-->
 END
 
@@ -267,7 +263,6 @@ Todo doplnit
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241029192122.png)
 <!-- ImageEnd -->
-
 <!--ID: 1736497489625-->
 END
 
