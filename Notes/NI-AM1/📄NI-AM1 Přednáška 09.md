@@ -15,7 +15,9 @@ Jaký je vztah RESTu a HTTP?
 
 Back:
 
-Protokol HTTP je konkrétní implementací standardu REST.
+Protokol HTTP je podle Vitvara "konkrétní implementací" standardu REST. 
+
+(Čímž nejspíš myslel, že s využitím HTTP se dá implementovat REST)
 <!--ID: 1735205749814-->
 END
 

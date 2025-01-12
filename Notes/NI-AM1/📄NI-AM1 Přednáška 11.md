@@ -241,7 +241,7 @@ END
 START
 FIT-Card
 
-Jak se dá vyřešit to, když mám synchronní přístup do databáze ale ta databáze je pomalá?
+Jak se dá vyřešit to, když mám synchronní přístup do databáze ale ta databáze je pomalá (a my nemáme kontrolu nad tou databází)?
 
 Back:
 
@@ -340,7 +340,7 @@ Jaké jsou typy loadbalancerů?
 Back:
 
 - **DNS-based** load balancer
-- **NAT-based** load balancer - pracují na síťové vrstvě
+- **NAT-based** load balancer - pracují na síťové vrstvě (nebo možná transportní, tohle nevíme)
 	- Tohle používá Kubernetes
 - **Reverse-proxy load balancer**
 	- Běží na aplikační vrstvě

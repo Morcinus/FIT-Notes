@@ -58,6 +58,7 @@ Back:
 ```
 method uri http-version <crlf>
 (header : value <crlf>)*
+<crlf>
 [ data ]
 ```
 
@@ -89,8 +90,8 @@ Back:
 
 ```
 http-version response-code [ message ] <crlf>
-(header : value
-<crlf>)*
+(header : value<crlf>)*
+<crlf>
 [ data ]
 ```
 
