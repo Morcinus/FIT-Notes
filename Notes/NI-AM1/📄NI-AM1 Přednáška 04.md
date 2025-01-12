@@ -320,7 +320,7 @@ END
 START
 FIT-Card
 
-Co je **asynchronní komunikace přes prostředníka**?
+Co je **asynchronní komunikace přes polling**?
 
 Back:
 
@@ -339,8 +339,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241014184223.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1736674205790-->
 END
 
 ---

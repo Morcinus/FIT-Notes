@@ -180,7 +180,7 @@ Back:
 - **URL Alias** - více pohledů nad jedním zdrojem
 - **URI Opacity** - když jako součást URI mám i formát
 - **Resource versions** - když mi URI definuje i verzi toho zdroje
-- **Persistent URL** - adresa by měla být validní i když zdroj už neexistuje (neměl bych smazat URI, ale třeba přesměrovat člověka na novou URI) 
+- **Persistent URL** - adresa by měla být validní i když zdroj už neexistuje (neměl bych smazat URI, ale třeba přesměrovat člověka na novou URI)
 <!--ID: 1735205749838-->
 END
 
@@ -272,7 +272,7 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti mají operace RESTu? (4)
+Jaké vlastnosti mají operace RESTu? (2)
 
 Back:
 
@@ -345,7 +345,6 @@ Např. u POSTu se může v databázi vytvořit nový záznam, který má random 
 
 U GET, PUT a DELETE furt pracuju s těmi samými daty, takže v tom není problém a je to idempotentní.
 <!-- ExplanationEnd -->
-
 <!--ID: 1735205749856-->
 END
 
@@ -426,7 +425,7 @@ Jaké vlastnosti má PATCH? (safeness a idempotence)
 Back:
 
 - Je **unsafe**
-- Je **idempotent
+- Je **idempotent**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241125150219.png)

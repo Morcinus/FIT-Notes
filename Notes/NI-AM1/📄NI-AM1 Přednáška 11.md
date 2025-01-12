@@ -340,7 +340,7 @@ Jaké jsou typy loadbalancerů?
 Back:
 
 - **DNS-based** load balancer
-- **NAT-based** load balancer - pracují na síťové vrstvě (nebo možná transportní, tohle nevíme)
+- **NAT-based** load balancer - pracují na transportní vrstvě
 	- Tohle používá Kubernetes
 - **Reverse-proxy load balancer**
 	- Běží na aplikační vrstvě
@@ -359,7 +359,7 @@ FIT-Card
 Jak funguje NAT-based load balancer?
 
 Back:
-
+ 
 Funguje principem DNAT - na úrovni síťové vrstvy přepisuje destinations jednotlivých paketů, díky tomu takhle rozhazuje pakety mezi několik serverů.
 
 - **SNAT** - "source NAT" - přepisuje zdrojovou adresu zdroje

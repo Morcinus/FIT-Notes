@@ -36,7 +36,7 @@ END
 START
 FIT-Card
 
-V čem spočítá analýza v HTTP/2?
+V čem spočívá analýza v HTTP/2?
 
 Back:
 
@@ -52,13 +52,15 @@ END
 START
 FIT-Card
 
-Co hlavně řeší HTTP/3 oproti HTTP/2?
+Jaké 2 novinky přináší HTTP/3 oproti HTTP/2? 
+
+(=nevýhody HTTP/2, které HTTP/3 řeší)
 
 Back:
 
-HTTP/2 drawbacks
-- U TCP se může stát, že segment **nedoputuje na druhou stranu**. V HTTP/2 to funguje tak, že pokud nedorazí packet, pošle se znovu. Do té doby ostatní **segmenty musí čekat**, než se doručí.
-- **TLS handshake musí být vždy po TCP handshake**
+- U TCP spojení se může stát, že segment **nedoputuje na druhou stranu**. V HTTP/2 to funguje tak, že pokud nedorazí segment, pošle se znovu. Do té doby ostatní **segmenty musí čekat**, než se doručí.
+	- V HTTP/3 na to jsou mechanismy, aby se chybějící segmenty dopočítaly z ostatních.
+- U HTTP/2 musí být **TLS handshake** vždy po **TCP handshake**. U HTTP/3 se to provede najednou.
 <!--ID: 1735205750004-->
 END
 
