@@ -596,16 +596,26 @@ Uveďte a vysvětlete **CAP theorém**.
 
 Back:
 
-Předpoklady
+**Předpoklady**: máme
+- Distribuovaný systém se **shardingem a replikací**
+- Operace čtení a zápisu **pouze na jednom agregátu**
 
-- Distribuovaný systém se shardingem a replikací
-- Operace čtení a zápisu pouze na jednom agregátu
-
-Tvrdí, že pro distribuovaný systém nemůže poskytovat více jak dvě záruky z těchto tří:
-
+**CAP vlastnosti:**
 - **konzistence** (Consistency): Operace pro čtení a zápis musí být spouštěny atomicky (po operaci zápisu vidí všechny readery stejná data)
 - **dostupnost** (Availability): Pokud node funguje, musí reagovat na požadavky
-- **odolnost k přerušení** (Partition tolerance): systém musí fungovat, i když se izolují dvě  nebo více sad uzlů
+- **odolnost k přerušení** (Partition tolerance): systém musí fungovat, i když se izolují dvě nebo více sad uzlů (když mi třeba vypadne uzel)
+
+**CAP theorém říká:**
+Není možné, aby distribuovaný systém poskytoval záruku všech tří vlastností (consistency, availability, partition tolerance) zároveň. Vždy může garantovat nejvýše 2 z těchto vlastností.
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250118123624.png)
+![](../../Assets/Pasted%20image%2020250118123629.png)
+![](../../Assets/Pasted%20image%2020250118123635.png)
+![](../../Assets/Pasted%20image%2020250118123642.png)
+<!-- DetailInfoEnd -->
+
+
 <!--ID: 1737106145151-->
 END
 
@@ -618,18 +628,28 @@ Vysvětlete rozdíly mezi koncepcí **ACID a BASE**.
 
 Back:
 
-- ACID se zaměřuje na: Consistency + Availability (from CAP Theorem, Consistency over Availability, Pessimistic approach)
+**Rozdíly:**
+- **ACID**:
+	- **Konzistence je důležitější než availability**
+	- Pesimistický přístup
+	- Typický pro **relačních databázích**
+- **BASE**
+	- **Availibility je důležitější než konzistence**
+	- Optimistický přístup
+	- Typický pro **NoSQL databáze**
+	- Umožňuje **lepší škálovatelnost**, která není s ACIDem možná
 
-  - **Atomicity** - Transakce se úspěšně provede celá nebo vůbec.
-  - **Consistency** - Zápis pouze pokud jsou splněna všechna omezení a podmínky (transakce převádí db z jednoho validního stavu do druhého validního stavu).
-  - **Isolation** (Independence) - Operace uvnitř transakce neovlivní ostatní transakce.
-  - **Durability** - Provedené změny jsou bezpečně (perzistentně) uloženy.
+**ACID**:
+- **Atomicity** - Transakce se úspěšně provede celá nebo vůbec.
+- **Consistency** - Před transakcí a po ní je databáze v konzistentním (validním) stavu
+- **Isolation** (Independence) - Operace uvnitř transakce neovlivní ostatní transakce.
+- **Durability** - Provedené změny jsou bezpečně (perzistentně) uloženy.
 
-- BASE se zaměřuje na: Availability + Partition Tolerance (from CAP Theorem, Availability over Consistency, Optimistic approach)
-  - **Basically Available** - Systém jako celek je neustále dostupný.
-  - **Soft-state** - Systém není plně deterministický a je v toku (nestabilní), po zápisu mohou nějakou dobu číst starou hodnotu
-  - **Eventually consistent** - Systém bude za nějaký čas konzistentní (obvykle v řádu milisekund).
-  - **Strong consistency vs. Weak/Eventual consistency** – Strong je vždy konzistentní, ve weak ale existuje nějaký okno, kdy dva lidi mužou přečíst něco jiného.
+**BASE**:
+- **Basically Available** - Systém jako celek je neustále dostupný.
+- **Soft-state** - Systém není plně deterministický a je v toku (nestabilní), po zápisu mohou nějakou dobu číst starou hodnotu
+- **Eventually consistent** - Systém bude za nějaký čas konzistentní (obvykle v řádu milisekund).
+
 <!--ID: 1737106145154-->
 END
 
@@ -642,25 +662,19 @@ Co je to **horizontální a co vertikální škálování** databáze a jak so
 
 Back:
 
-**Vertikalne**: updown, jeden node ako engine a pridávame vypocetnu silu.
-dobre pre silnu konzistenciu
-ma svoje limity; HW! Malo predavacov, je to specificke
+**Vertikální**:
+- **Přidávání zdrojů** k jednomu uzlu v systému (CPU, RAM, disky,...)
+- Výhoda: **Jednoduché na provedení**
+- Nevýhody: **limitované škálování** (hardwarem), **dražší**, **single point of failure**
 
-- **Výhody**
-  - netřeba řešit propojení více strojů a problémy s tím spojeny
-- **Nevýhody**
-  - upgrade mnohdy dražší, než koupě dalšího stroje
-  - potenciální vendor lock-in (výkonné servery, infrastrukturu dělá jen pár výrobců)
-  - nelze škálovat donekonečna
+**Horizontální:**
+- **Přidávání uzlů** v systému
+- Výhoda: **levnější, neomezené škálování (teoreticky), flexibilní škálování**
+- Nevýhoda: hodně navyšuje komplexitu systému (synchronizace uzlů, konzistence dat atd.)
 
-**Horizontalne**: skal. Smerom von - viac uzlov pridavame. Cenovo vyhodnejsie, flexibilnejsie ALE distribucia dat., komplexita clusteru, konzistencia, synchronizacia,
+**Jak souvisí s CAP**:
+- CAP nám popisuje vlastnosti distribuovaných systémů při horizontálním škálování
 
-- **Výhody**
-  - možné použít běžné stroje
-  - nezávislost na výrobci
-  - teoreticky neomezené škálování (ale stejně narazí na problémy s rychlostí sítě apod.)
-- **Nevýhody**
-  - nutné řešit synchronizaci strojů, problémy se sítí apod.
 <!--ID: 1737106145157-->
 END
 
@@ -674,23 +688,20 @@ Jak lze použít **CAP theorém ke klasifikaci databázových strojů**? Uveďt
 Back:
 
 **CA** (Consistency-Availablility)
-
-- zachovávají ACID vlastnosti
-- mohou nastat výpadky
+- **zachovávají ACID vlastnosti**
+- mohou nastat výpadky (bez partition tolerance)
 - klasické relační databáze
-- MySQL, BigTable, PostgreSQL
+- **MySQL, PostgreSQL**, BigTable
 
 **CP** (Consistency-Partition Tolerance)
-
 - upřednostňují konzistenci nad dostupností => distributed locking
 - typicky maximalizují i dostupnost (vysoce dostupné DB)
-- MongoDB, HyperTable, MemcacheDB, Redis
+- **MongoDB**, Redis
 
 **AP** (Availability-Partition Tolerance)
-
-- upřednostňují dostupnost nad konzistencí = BASE vlastnosti
+- upřednostňují dostupnost nad konzistencí = **BASE vlastnosti**
 - data jsou typicky konzistentní v řádu milisekund → eventuálně konzistentní DB
-- Cassandra, SimpleDB, CouchDB, RiakKV, Web Cache, DNS
+- **Cassandra**, **RiakKV**
 
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch_NVqX68_B8u5AQy3l8by3XsopfRNwxO1hp6BhLioQvxUt9p_47lPdT8Twxicf8Kp_J2ZA7KPhTTggIPE-Up6X6T4wgJ2fkAqmOx7oSL2Kzebw24m1MI13JGR6wCbRzwiwY9KVp5f1hRg6CEutcU4V3Y?key=MR9RTuBxYyWmpndNFWTOiQ)**
 <!--ID: 1737106145159-->
@@ -705,17 +716,17 @@ Jaký je **rozdíl mezi replikací a technikou sharding**? Jsou to techniky, kt
 
 Back:
 
-**Sharding**: rozdelim do casti a kazdy server ma na starosti nejaku cast dat. Aj agregacie
+**Sharding:**
+- rozdělím systém na různé části (uzly)
+- každý uzel má na starost jinou část dat
+- Cíl: **zvýšit množství dat**, **zvýšit performance**
 
-- (diff data on diff nodes)
+**Replikace:**
+- stejná data na různých uzlech
+- Cíl: **zvýšit performace**, **zvýšit toleranci vůči failu** (zamezit single point of failure)
 
-protirecenie: uniformne rozlozenie dat, balancovana zataz, respektovanie fyzickych lokalit
+**Obě techniky mohou být použity zároveň**. NoSQL systémy typicky automaticky dělají oboje.
 
-**Replication**: niekolko kopii data na niekolkych serveroch. Chcem rozdelit pre viac uzivatelov
-
-- (Same data on diff nodes)
-
-**Ano, tyto techniky se doplňují (například v MongoDB)**
 <!--ID: 1737106145162-->
 END
 
@@ -728,14 +739,13 @@ Co je to **silná a slabá konsistence** v NoSQL databázích? Jak souvisí s 
 
 Back:
 
-**Slabá konzistence** - nebo také případná konzistence. Každý kdo čte z databáze nemusí vidět vždy správně zapsaná všechna data.
+**Silná konzistence** - používá přístup ACID, data musí být **vždy** ve validním stavu před transakcí i po transakci
 
-**Silná konzistence**  - používá přístup ACID (Atomicity, Consistency, isolation, durability)
+**Slabá konzistence** - typicky bývá "eventually consistent". Když se provede změna, to může trvat, než uživatelé tu změnu uvidí.
 
-CAP:
-
-- Upřednostnění dostupnosti nad konzistencí => slabá konzistence
-- Upřednostnění konzistence nad dostupností => silná konzistence
+**CAP**:
+- U AP - slabá konzistence
+- U CA, CP - silná konzistence
 <!--ID: 1737106145165-->
 END
 
@@ -748,17 +758,25 @@ Vysvětlete co je **"quorum"** a jak se používá k zajištění silné či s
 
 Back:
 
-nfQuorum-based voting can be used as a replica control method, as well as a commit method to ensure transaction atomicity in the presence of network partitioning.
+Řekněme, že máme distribuovaný systém s uzly.
+- Quorum je číslo, které určuje, kolik uzlů musí být zapojeno do čtení/zápisu pro zpracování daného požadavku.
+- **Čím vyšší quorum, tím víc se blížím k silné konzistenci.**
 
-Quorum určuje počet nodů, které musí “potvrdit” resp. odpovědět na požadavek čtení nebo zápisu. Je to jeden ze způsobů, jak lze řídit úroveň konzistence, jak pro čtení, tak pro zápis.
+Mějme $N$ nodů.
 
-Pro zajištění silné konzistence:
+**Write quorum**:
+- Idea: jeden write request se propíše na $W$ nodů (na většinu nodů)
+- Typicky $W > N/2$
+	- $W$ - počet nodů, kam se zapíše
+	- $N$ celkem nodů
 
-Write quorum (W > N/2): Jednoduše stačí, aby zápis získal nadpoloviční většinu hlasů. Jelikož každý node má právě jeden hlas, nemůže na různých strojích dojít k různým zápisům.
+**Read quorum**:
+- Idea: přečte se $R$ nodů, vybere se nejnovější výsledek
+- Typicky $R > N - W$
 
-Read quorum (R > N - W): R + W > N, tedy alespoň jeden node z množiny R má aktuální data (náleží i do W). Jelikož díky předchozí podmínce nemůže proběhnout několik zápisů najednou, stačí podle časového razítka vrátit aktuálnější verzi dostupnou nodům v R.
+Proč to tak funguje:
+- Kvůli podmínce u write quora bude vždy při čtení mít alespoň jeden node aktuální verzi záznamu.
 
-Pokud nenastalo quorum, požadavek nemůže být proveden. [[1]](https://www.ksi.mff.cuni.cz/~svoboda/courses/231-NIE-PDB/lectures/NIEPDB-Lecture-05-Principles.pdf#page=45) [[2]](https://stackoverflow.com/a/7823201)
 <!--ID: 1737106145167-->
 END
 
@@ -771,29 +789,20 @@ Jak jsou charakterizována **BigData** (3V+)?
 
 Back:
 
-Nie je definicia, z historie je to buzzword. Non-relational databaza
+Hlavní 4V:
+- **Volume** - množství dat se zvyšuje exponenciálně (ne lineárně)
+- **Variety** - data mají různé formáty, typy a struktury
+- **Velocity** - nová data přibývají rychle a je třeba je rychle zpracovávat
+- **Veracity** - data jsou často nekonzistentní, nekompletní, nepřesný
 
-Nosql - nova generacia databaz, kde relacne db sa nehodia.
-distribuovane, skalovatelne (hori, vert), snadná replikacia
+Další:
+- **Value** - data jsou potenciálně hodnotná pro byznys
+- **Validity** - správnost a přesnost dat
+- **Volatility** - doba, po jakou by měla být data uchovávána a spravována 
+- Cardinality
+- Continuity
+- Complexity
 
-- **Volume** (Scale)
-  - Data volume is increasing exponentially, not linearly
-  - Even large amounts of small data can result into Big Data
-- **Variety** (Complexity)
-  - Various formats, types, and structures (from semi-structured XML to unstructured multimedia)
-- **Velocity** (Speed)
-  - Data is being generated fast and needs to be processed fast
-- **Veracity** (Uncertainty)
-  - Uncertainty due to inconsistency, incompleteness, latency, ambiguities, or approximations
-- **Value**
-  - Business value of the data (needs to be revealed)
-- **Validity**
-  - Data correctness and accuracy with respect to the intended use
-- **Volatility**
-  - Period of time the data is valid and should be maintained
-- **Cardinality**
-- **Continuity**
-- **Complexity**
 <!--ID: 1737106145170-->
 END
 
