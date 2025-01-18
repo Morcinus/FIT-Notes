@@ -7,7 +7,7 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: NI-PDB-Exam
 FILE TAGS: NI-PDB
 
-### Optmailizace SQL
+### Optmalizace SQL
 
 START
 FIT-Card
@@ -33,6 +33,7 @@ Například pokud statistika nad indexem napovídá, že v převážná většin
 ![](../../Assets/Pasted%20image%2020250118101326.png)
 <!-- DetailInfoEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145101-->
 END
 
@@ -66,6 +67,7 @@ Back:
 
 Pozn. hodně věcí, co se dá optimalizovat ve fázi optimalizace logicky ovlivní i fázi execution.
 
+Tags: reviewed
 <!--ID: 1737106145106-->
 END
 
@@ -96,6 +98,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250118104305.png)
 <!-- ImageEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145109-->
 END
 
@@ -134,6 +137,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250118105226.png)
 <!-- ImageEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145112-->
 END
 
@@ -172,6 +176,7 @@ Když pak například spustím `SELECT` dle roku výroby, stačí jen vybrat ř�
 ![](../../Assets/Pasted%20image%2020250118110005.png)
 <!-- ImageEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145114-->
 END
 
@@ -208,6 +213,7 @@ Připomenutí: DML = Data Manipulation Language
 ![](../../Assets/Pasted%20image%2020250118110951.png)
 <!-- DetailInfoEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145117-->
 END
 
@@ -233,6 +239,8 @@ Máme relaci $R$ s klíčem $A$:
 - Neaktuální statistiky způsobují nesprávný výpočet ceny dotazů
 - Statistiky se nikdy živě nemění při DML operacích (to by příliš zatěžovalo stroj)
 - Automaticky se přepočítávají enginem když databáze není busy (idle time)
+
+Tags: reviewed
 <!--ID: 1737106145120-->
 END
 
@@ -279,7 +287,7 @@ Tady je imo špatně ten dotaz. Mělo by tam být víc podmínek:
 ![](../../Assets/Pasted%20image%2020250118113508.png)
 <!-- DetailInfoEnd -->
 
-
+Tags: reviewed
 <!--ID: 1737106145122-->
 END
 
@@ -318,6 +326,7 @@ Předpokládejme relaci $R$ a $S$ s atributem $a$ a dotaz:
 - Např. když $a$ je v $S$ klíčem, udělá se lookup řádku s $a$ podle **indexu**. Potom se jen proiteruje $R$
 - atd. těhlech speciálních případů je hodně
 
+Tags: reviewed
 <!--ID: 1737106145125-->
 END
 
@@ -342,6 +351,7 @@ Back:
 - **u složitých dotazů** nad hodně tabulkami, kde vytváření plánu zabírá moc času
 - **pokud se data příliš nemění**, plán bude pravděpodobně stále efektivní
 
+Tags: reviewed
 <!--ID: 1737106145128-->
 END
 
@@ -370,6 +380,7 @@ Back:
 	- Když je **tabulka malá**
 	- Když dotaz vrací **většinu řádků tabulky** (např. 20-30%)
 
+Tags: reviewed
 <!--ID: 1737106145130-->
 END
 
@@ -399,6 +410,7 @@ Statistiky sortění, které jsou důležité pro systém:
 ![](../../Assets/Pasted%20image%2020250118121653.png)
 <!-- DetailInfoEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145133-->
 END
 
@@ -423,6 +435,7 @@ Back:
 Zdroj: https://courses.fit.cvut.cz/NI-PDB/lectures/10-benchmarks-acid-tuning/index.html#_db-server-tuning
 <!-- DetailInfoEnd -->
 
+Tags: reviewed
 <!--ID: 1737106145135-->
 END
 
@@ -615,7 +628,7 @@ Není možné, aby distribuovaný systém poskytoval záruku všech tří vlastn
 ![](../../Assets/Pasted%20image%2020250118123642.png)
 <!-- DetailInfoEnd -->
 
-
+Tags: reviewed
 <!--ID: 1737106145151-->
 END
 
@@ -650,6 +663,7 @@ Back:
 - **Soft-state** - Systém není plně deterministický a je v toku (nestabilní), po zápisu mohou nějakou dobu číst starou hodnotu
 - **Eventually consistent** - Systém bude za nějaký čas konzistentní (obvykle v řádu milisekund).
 
+Tags: reviewed
 <!--ID: 1737106145154-->
 END
 
@@ -675,6 +689,7 @@ Back:
 **Jak souvisí s CAP**:
 - CAP nám popisuje vlastnosti distribuovaných systémů při horizontálním škálování
 
+Tags: reviewed
 <!--ID: 1737106145157-->
 END
 
@@ -704,6 +719,8 @@ Back:
 - **Cassandra**, **RiakKV**
 
 **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch_NVqX68_B8u5AQy3l8by3XsopfRNwxO1hp6BhLioQvxUt9p_47lPdT8Twxicf8Kp_J2ZA7KPhTTggIPE-Up6X6T4wgJ2fkAqmOx7oSL2Kzebw24m1MI13JGR6wCbRzwiwY9KVp5f1hRg6CEutcU4V3Y?key=MR9RTuBxYyWmpndNFWTOiQ)**
+
+Tags: reviewed
 <!--ID: 1737106145159-->
 END
 
@@ -727,6 +744,7 @@ Back:
 
 **Obě techniky mohou být použity zároveň**. NoSQL systémy typicky automaticky dělají oboje.
 
+Tags: reviewed
 <!--ID: 1737106145162-->
 END
 
@@ -746,6 +764,8 @@ Back:
 **CAP**:
 - U AP - slabá konzistence
 - U CA, CP - silná konzistence
+
+Tags: reviewed
 <!--ID: 1737106145165-->
 END
 
@@ -777,6 +797,7 @@ Mějme $N$ nodů.
 Proč to tak funguje:
 - Kvůli podmínce u write quora bude vždy při čtení mít alespoň jeden node aktuální verzi záznamu.
 
+Tags: reviewed
 <!--ID: 1737106145167-->
 END
 
@@ -803,6 +824,7 @@ Další:
 - Continuity
 - Complexity
 
+Tags: reviewed
 <!--ID: 1737106145170-->
 END
 
