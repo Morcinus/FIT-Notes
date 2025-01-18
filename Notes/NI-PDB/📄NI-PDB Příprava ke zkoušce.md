@@ -16,9 +16,23 @@ Co je to **cost-based optimalizace** a jak se využijí **statistiky o datab�
 
 Back:
 
-DB pro každý dotaz vytvoří prováděcí plány. Operace v plánu mají cenu (cost - typicky počet nutných I/O bloků - operací). Pro každý plán se vypočítá jeho celková cena. Vybere se plán s nejnižší cenou.
+**Co je cost-based optimalizace:**
+- Na základě struktury dotazu se udělá **execution plan** (strom operací)
+- Každý plán má **cost** - počet I/O bloků k procesování
+- Optimalizace = hledání **nejlepšího plánu** (spočtení costs a vybrání nejlepšího)
 
-Statistiky slouží k odhadu/výpočtu ceny na jednotlivé operace a celý plán provádění (cena se počítá na základě statistik a každý db stroj si ji počítá jinak). Například pokud statistika nad indexem napovídá, že v převážná většina řádků má hledanou hodnotu, může být index ignorován, protože sekvenční průchod může být rychlejší než náhodný průchod (z důvodu doby vystavování hlaviček disků) (například výpis mužů, pokud ve firmě pracují téměř výhradně muži)
+**Využití statistik:**
+- Slouží k **odhadu/výpočtu** ceny **operací** a pak **celkového plánu**
+
+<!-- ExampleStart -->
+**Statistiky:**
+Například pokud statistika nad indexem napovídá, že v převážná většina řádků má hledanou hodnotu, může být index ignorován, protože sekvenční průchod může být rychlejší než náhodný průchod (z důvodu doby vystavování hlaviček disků).
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250118101326.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1737106145101-->
 END
 
@@ -29,54 +43,29 @@ FIT-Card
 
 Jak vypadá **zpracování SQL dotazu** (fáze zpracování dotazu, kde a jak se při nich dá optimalizovat)?
 
+Pozn. fáze zpracovávání dotazu jsem nikde nenašel - plz pokud někdo tušíte, co by to mohlo být, tak mi to napište a já to fixnu.
+
 Back:
 
-**Parse** - syntaktická a sémantická analýza, kontrola práv, výsledek prováděcí plán (v této fázi se optimalizuje)
-**Bind** - namapování
-**Execute** - provedení
-**Fetch** - získání výsledku
+**Fáze:** (tohle je částečně z ChatGPT:)
+- **Parsing** - provede se syntaktická a sémantická analýza, výsledkem je abstract syntaxt tree (AST)
+- **Optimalizace** - výstupem je optimalizovaný prováděcí plán
+- **Execution** - vykoná se dotaz
+- **Formátování výsledku** - zformátuje se a pošle se výsledek
 
-- najskor spravi prevadzaci plan - strom (list -> koren) <- znamená vyberie najlepsi  plan - cost-based optimalizaciu
-- Datove zdroje & pristupove metody
-- operacie selekcia, projekcia, join,
-- Neskor updatuje statistiky (o tabulkach a indexoch)
+**Kde se dá optimalizovat**:
+- **Fáze Optimalizace**:
+	- **indexy** - jejich přidání/upravování
+	- **sledování systémových statistik** a úprava konfigurace podle nich
+	- "hinty" pro optimaliztor (např. jaký join algoritmus použít)
+- **Fáze Execution**:
+	- **paralelní zpracování**
+	- **uložení dat** - partitioning, clustery atd.
+	- **caching**
+	- **materializované pohledy**
 
-Velakrat staci obycajny podporny index nad inym stlpcom v tabulke.
+Pozn. hodně věcí, co se dá optimalizovat ve fázi optimalizace logicky ovlivní i fázi execution.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgEbTAQzyhuD_nZgIetYc6a2dmueSxc9oDlrjCAwBU9r3hlf-evXj6aDz8ewrLEf-l4qnmTCB87JHnIIzQ_7Q-q-MvNSvhJImTWP5atJfvaN7U3Njh1-lZI0v7JzTypECrhGOSPI-hPLZSWgBuTQ_Zc0T7?key=MR9RTuBxYyWmpndNFWTOiQ)
-
-ChatGPT poradil:
-
-Vyhýbejte se poddotazům, které mohou být přepsány na efektivnější JOINy nebo CTE.
-
-Parse fáze:
-
-- Indexy: Zajistěte, že na sloupech používaných v podmínkách WHERE, JOIN nebo GROUP BY jsou vytvořeny správné indexy.
-- Statistiky: Udržujte aktuální statistiky databázového systému, které optimalizátor využívá pro odhad objemu dat (ceny).
-- Hinty: Některé databáze umožňují přidat "hinty", které optimalizátoru říkají, jaké strategie použít (např. jaký JOIN algoritmus preferovat).
-
-Execute fáze:
-
-- Partitioning: Rozdělení tabulek na části (partitions), což může zrychlit přístup k datům.
-- Caching: Pokud je dotaz často spouštěn, výsledky lze uložit do mezipaměti.
-- Paralelismus: Využijte paralelní exekuci, pokud ji databáze podporuje.
-
-Přednáška č. 10:
-
-optimalizace vybraných SQL příkazů
-
-- ladění/optimalizace může být provedena na různých úrovních
-- základem je porozumění provaděcímu plánu nebo sledování systémových statistik
-- porozumění prováděcímu plánu
-- v drtivé většině úprava/přidání indexů
-- úprava uložení dat - clustery, IOT
-- "hinty" pro optimaliztor
-- techniky pro optimáalizaci (neplatí obecně, např. Oracle)
-- sledování systémových statistik
-- úpravy konfigurace serveru (buffer cache, redolog cache, …​
-- fyzická reorganizace (typicky paměť, disky, řadiče, …​)
-- další možnosti
-- materializované pohledy
 <!--ID: 1737106145106-->
 END
 
@@ -89,21 +78,24 @@ Vysvětlete rozdíl mezi **heap table** a **index-organized table**.
 
 Back:
 
-Otázka je na index-organized table: Tá má podobnú štruktúru ako index ale s tým rozdielom, že v zázname obsahuje celý riadok. Pri Heap Table záznam v indexu obsahuje okrem index hodnoty (+ možno niečo interné) len ROWID, podľa ktorého následne musíme spracovať iný DB blok.
+**Heap table**:
+- sama o sobě nemá **žádný index**
+- pořadí bloků je vpodstatě náhodné
+- nové záznamy vyplňují prázdná místa
+- pokud máme "heap table with index", tak má v listech ROWID, podle kterého se najde datový blok a řádek
 
-Výhody IOT: menší počet IO operácií
+**Index-organized table**:
+- Funguje podobně jako index, ale má v listech rovnou **celé řádky**.
 
-Nevýhody IOT: pokiaľ nechceme duplikáciu dát, tak je možné mať len jeden index
+**Srovnání**:
+- IOT může být rychlejší (menší počet I/O operací)
 
-Lepší vysvětlení je zde: [https://docs.oracle.com/cd/A97630_01/appdev.920/a96590/adg07iot.htm#10072](https://docs.oracle.com/cd/A97630_01/appdev.920/a96590/adg07iot.htm#10072)  
-Je to od Oraclu ale myslím si, že je to obecný koncept.
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250118104335.png)
+![](../../Assets/Pasted%20image%2020250118104321.png)
+![](../../Assets/Pasted%20image%2020250118104305.png)
+<!-- ImageEnd -->
 
-Vysvetleni z odkazu vys:
-
-- Řádek v běžné tabulce má stabilní fyzické umístění. Jakmile je toto umístění stanoveno, řada se nikdy zcela nepohne. I když je částečně přesunuta přidáním nových dat, vždy existuje kus řádku na původní fyzické adrese - identifikovaný původním fyzickým rowid - ze kterého systém může najít zbytek řádku. Dokud řádek existuje, jeho fyzický rowid se nemění. Index v běžné tabulce ukládá data sloupců i rowid.
-- Řádek v tabulce uspořádané podle indexu nemá stabilní fyzické umístění. Uchovává data v seřazeném pořadí v listech indexu B*-stromu postaveného na primárním klíči tabulky. Tyto řádky se mohou pohybovat, aby se zachovalo seřazené pořadí. Vložení může například způsobit přesun existujícího řádku do jiného slotu nebo dokonce do jiného bloku. Listy indexu B*-tree obsahují primární klíč a skutečná data řádku. Změny v datech tabulky – například přidání nových řádků nebo aktualizace či odstranění existujících řádků – vedou pouze k aktualizaci indexu.
-
-**![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXegulIM9veZgOkmIGQ0YFjkyEptxLaKG5Eq4yrFGTBQcDWj5WoQGdJcAd5PZGItbX2htD-Lvf_OFm5jmiZGxlMPcnD_Io2dVJurURlMpUaDD-1vTaiEut81a1XSEyPBRNiJ8nBnmw?key=MR9RTuBxYyWmpndNFWTOiQ)**
 <!--ID: 1737106145109-->
 END
 
@@ -116,22 +108,32 @@ Vysvětlete rozdíl mezi **heap table** a **cluster**.
 
 Back:
 
-Heap table: záznamy v tabulce nejsou seřazené, pokud k tabulce například přistoupíme přes index, může se stát, že pro jeden klíč budeme muset přečíst více bloků (je to proste klasicka tabulka).
+**Heap table**:
+- pořadí bloků je vpodstatě náhodné (nemají žádné pořadí/organizaci)
+- nové záznamy vyplňují prázdná místa
+- Může být heap table with index
 
-Clustered table: podobne data ulozene spolu, efektivnejsie (caste dotazovanie na dept a emp.)
+**Cluster**
+- Řádky z jedné nebo více tabulek, které spolu souvisí, jsou **uloženy u sebe** ve stejném bloku.
+- K řádkům se pak přistupuje pomocí **cluster key**
+- Díky tomu je rychlejší dotazování
 
-Neklastrovana tabulka: podobne data ulozene dalej od seba, zaberaju viac miesta
+**Srovnání**:
+- Cluster může být rychlejší, protože např. data, co se často joinují jsou fyzicky u sebe.
 
-Z [https://docs.oracle.com/database/121/CNCPT/tablecls.htm#CNCPT608](https://docs.oracle.com/database/121/CNCPT/tablecls.htm#CNCPT608):
+<!-- ExampleStart -->
+- **Heap Table with Index:**
+	- A table of customers with an index on `customer_id`.
+	- To find a customer, the database looks up the index to locate the row in the table.
+- **Cluster:**
+	- A cluster that stores `customers` and `orders` tables based on the `customer_id`.
+	- Rows for a customer and their orders are stored physically close, so joining or querying them is faster.
+<!-- ExampleEnd -->
 
-Cluster tabulek je skupina tabulek, které sdílejí společné sloupce a ukládají související data do stejných bloků.
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250118105226.png)
+<!-- ImageEnd -->
 
-Když jsou tabulky seskupeny, může jeden datový blok obsahovat řádky z více tabulek. Blok může například ukládat řádky z tabulek zaměstnanců i oddělení, nikoli pouze z jedné tabulky.
-
-Klíč clusteru je sloupec nebo sloupce, které mají společné tabulky z clusteru. Například tabulky zaměstnanců a oddělení sdílejí sloupec department_id. Klíč klastru zadáváte při vytváření klastru tabulek a při vytváření každé tabulky přidané do klastru tabulek.
-
-Cluster ([https://docs.oracle.com/cd/E18283_01/server.112/e17120/clustrs001.htm](https://docs.oracle.com/cd/E18283_01/server.112/e17120/clustrs001.htm)):
-\*\*![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfQ-7LR7FvTu2TaEEED3GXRTjqzIeA983xlp0cQth-CUCqmlDpvIKggdvJWusP6JycjX0UMDDfan_wYmHridG0D3G8ILhibrCcGP7FKmRkkpIcatK2cp-1vtKG_sKYQBA5FPlAqDIf4m27vWcmKCNj5J8vy?key=MR9RTuBxYyWmpndNFWTOiQ)
 <!--ID: 1737106145112-->
 END
 
@@ -144,21 +146,32 @@ Vysvětlete rozdíl mezi **B-tree** a **bitmap** indexem, příklady vhodné
 
 Back:
 
-#### B-Tree Index:
+**B-Tree index**_:
+- Vyvážený strom, v listu je klíč a adresa řádku s daty
+- Vyvažování stromu dělá DBMS na pozadí
+- DML operace jsou drahé
+- Vhodné využití:
+	- Sloupce s **vysokou kardinalitou** (např. jména)
+	- **Vhodné pro OLTP**
 
-- Hierarchická struktura stromu (Balanced Tree).
-- Hodnoty jsou uspořádané ve stromové struktuře, což umožňuje efektivní vyhledávání, vložení a mazání.
-- Každý uzel obsahuje klíče a ukazatele na potomky, přičemž listové uzly obsahují ukazatele na fyzická data.
-- Hodí se, když je hodně různých hodnot ve sloupci (vysoká kardinalita) - např. ID, jméno
+**Bitmap:**
+- bitmapa = binární matice všech záznamů a všech možných indexovaných hodnot
+- Pro platné kombinace je v buňce jednička, jinak nula (viz obrázek)
+- DML operace jsou velmi drahé
+- Vhodné využití:
+	- Sloupce s **nízkou kardinalitou** (např. pohlaví, kategorie)
+	- Vhodné pro **datové sklady**
 
-#### Bitmapový Index:
+<!-- ImageStart -->
+**B-Tree**
+![](../../Assets/Pasted%20image%2020250118105604.png)
 
-- Ukládá data ve formě bitových map, kde každý bit označuje přítomnost nebo nepřítomnost konkrétní hodnoty v určitém řádku.
-- Každá jedinečná hodnota sloupce má svou vlastní bitovou mapu. T.j. pro bitmap index na sloupci se vytvoří 2D mapa.
-- Struktura je plochá a není hierarchická.
-- Hodí se, když je málo různých hodnot ve sloupci (nízká kardinalita) - např. pohlaví, kategorie
+**Bitmap**
+![](../../Assets/Pasted%20image%2020250118105945.png)
+Když pak například spustím `SELECT` dle roku výroby, stačí jen vybrat řádky, kde je hodnota nastavená na `1`:
+![](../../Assets/Pasted%20image%2020250118110005.png)
+<!-- ImageEnd -->
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcF145SpYQerBBWGth3WYwh7HOx7R4eTzA61VYsvM_rneIQWew3hCaJs8gnWVWDHLmo2oTR8u-fjaDVEMVZi_X4OW4qieF2aUtMJ-m8SJCrIzZe84WXrYoIT7AB5nygsQoPcUKIhzx7zRI3Hz8TRFk73y_Z?key=MR9RTuBxYyWmpndNFWTOiQ)
 <!--ID: 1737106145114-->
 END
 
@@ -171,21 +184,30 @@ Jaké jsou **typické statistiky pro tabulky** v relační databázi a jak se 
 
 Back:
 
-Připomenutí: DML = Data Manipulation Language (třeba SQL)
+**Statistiky:**
+Základní:
+- `nR` - počet řádků v relaci $R$
+- `V(A,R)` - počet různých hodnot $A$ v relaci $R$
+- `pR` - počet stránek v relaci $R$
+- `bR` - block factor - průměrný počet řádků, co se vejdou do jednoho bloku
 
-**Heap table:**
-
-- nR - number of rows or relation (R)
-- pR - number of blocks/pages to store relation (R)
-- V(A, R) - pocet rozdílných hodnot A v relaci R (tabulce)
-- bR - Block factor - průměrný počet řádek, které se vejdou do jednoho bloku/stránky
-- rozsirene: min/max values, histogramy
+Rozšířené:
+- min and max values
+- histogramy
 
 **Udržování při změně dat:**
-
 - Neaktuální statistiky způsobují nesprávný výpočet ceny dotazů
 - Statistiky se nikdy živě nemění při DML operacích (to by příliš zatěžovalo stroj)
-- Automaticky se přepočítávají démonem když databáze není busy (idle time)
+- Automaticky se přepočítávají enginem když databáze není busy (idle time)
+
+<!-- DetailInfoStart -->
+Připomenutí: DML = Data Manipulation Language
+
+![](../../Assets/Pasted%20image%2020250118110727.png)
+![](../../Assets/Pasted%20image%2020250118110721.png)
+![](../../Assets/Pasted%20image%2020250118110951.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1737106145117-->
 END
 
@@ -198,18 +220,19 @@ Jaké jsou **typické statistiky pro B-tree indexy** a jak se udržují když 
 
 Back:
 
-B-tree stats (index on relation R with key A):
+**Statistiky:**
+Máme relaci $R$ s klíčem $A$:
+- `f(A,R)` - faktor větvení - průměrný počet potomků vnitřního uzlu (typicky 50-150)
+- `I(A,R)` - hloubka stromu (typicky 2-3)
+- `p(A,R)` - počet listových bloků
 
-- I(A, R) - hloubka B-stromu (typicky 2-3)
-- f(A, R) - Faktor vetveni (typicky 50-150) - Faktor větvení je maximální počet ukazatelů (větví) v každém vnitřním uzlu B-stromu.
-- p(A, R) - počet listových bloků
-- rozsirene: Clustering factor: pocet blokov co musim navstivit, aby som mal roztriedene bloky podla klucu indexu (nízký při datech seřazených podle indexu)
+**Rozšířené statistiky**:
+- **Clustering factor** - počet bloků, co se musí přečíst, abych získal sesortěná data (podle klíče indexu)
 
-Udržování při změně dat:
-
+**Udržování při změně dat**: (stejné jako u tabulek)
 - Neaktuální statistiky způsobují nesprávný výpočet ceny dotazů
 - Statistiky se nikdy živě nemění při DML operacích (to by příliš zatěžovalo stroj)
-- Automaticky se přepočítávají démonem když databáze není busy (idle time)
+- Automaticky se přepočítávají enginem když databáze není busy (idle time)
 <!--ID: 1737106145120-->
 END
 
@@ -222,23 +245,41 @@ Co jsou to přístupové cesty (**access paths**) při vyhodnocování SQL dotaz
 
 Back:
 
-An access path specifies the path chosen by a database management system to retrieve the requested tuples from a relation.
+**Co jsou access paths**:
+- Specifikují **cestu**, jak databázový stroj přistoupí k datům v tabulkách/indexech při provádění dotazu.
 
-An access path may be either a sequential scan of the data file or an index scan with a matching selection condition when there are indexes that match the selection conditions in the query.
+**Příklady**:
+- **no-index** (full-table scan) - Databáze čte všechny řádky v tabulce, aby našla data odpovídající dotazu.
+- **unique index** - pokud existuje unikátní index na sloupci
+- **non-unique index** - pokud neexistuje unikátní index na sloupci, najdou se všechny řádky splňující danou podmínku
+- **composed index** - skládá se z více sloupců
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxqRKWIFM5petoI9JKd2txeYfDbreaWO3UHDTKXZtN5h_8PW_6lsWUMdn8xjJmZBs7rAPJIpVK3cePXyDuqYogXmOtHOf2Spxkc47KIeNdDHGOutzxcUKUtMAGESVP6J7m9WSBCZ7RZ8tFdQZ5gI6zaV0?key=MR9RTuBxYyWmpndNFWTOiQ)
+Potom jsou ještě index query only a base table query u nerovnostních dotazů, ale to mi přišlo jako už moc velký detail.
 
-Select \* from R where A = ‘x’ 
-ak nemam index, tak to bude pocet bloko, v kt. Je ulozeny. <- Full Table scan
-Ak unikatny index, tak pR/2
-Ak neunikatny index: zavisi na clustering factor I(R, A) + n(A=x)
+<!-- ExampleStart -->
+**no-index**: 
+`SELECT * FROM zamestnanci WHERE jmeno = 'Karel';`
 
-Select B from R where A = ‘x’
-Composed index na R(A,B): cena hlbky stromu + pocet riadkov kdx na R(A,B), A uniq: I(R, (A,B)) <- hlbka idx. stromu
-e hodnota riadku j;  -1
-comp. id
-Ak mam vacsitka/mensitka:
-Listy su zretazene, takze sa to znizi. Ak ‘X’ je v strede, tak je to /2
+**unique index**:
+`SELECT * FROM zamestnanci WHERE id_zamestnance = 101;`
+
+**non-unique index**:
+`SELECT * FROM zamestnanci WHERE oddeleni = 'IT';`
+
+**composite index**:
+`SELECT * FROM zamestnanci WHERE oddeleni = 'IT' AND jmeno = 'Karel';`
+
+<!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250118113443.png)
+
+Tady je imo špatně ten dotaz. Mělo by tam být víc podmínek:
+![](../../Assets/Pasted%20image%2020250118113501.png)
+![](../../Assets/Pasted%20image%2020250118113508.png)
+<!-- DetailInfoEnd -->
+
+
 <!--ID: 1737106145122-->
 END
 
@@ -251,42 +292,32 @@ Jaké znáte **metody vyhodnocení spojení (join)** v relačních databázíc
 
 Back:
 
-V typickém případě jsou spojované relace větší, než dostupná operační paměť (M). Čím více je dostupné paměti, tím méně I/O operací je potřeba.
+**Metody:**
+- **nested loop join**
+- **merge join**
+- **hash join**
+- **join s využitím speciálních struktur**
 
-(Block) Nested loop join: naprosto klasické vnořené cykly
+Předpokládejme relaci $R$ a $S$ s atributem $a$ a dotaz:
+`select * from R join S on (R.a=S.a);`
 
-Pokud pR = 2, pS = 3, M = 3, pak čteme do bloku M_1 první blok z R (1), v bloku M_2 iterujeme S (+ 3), opět načteme do bloku M_1 další blok z R (+ 1), v bloku M_2 opět iterujeme S (+ 3 = 6 I/O reads). I/O writes závisí i na blokovacích faktorech.
+**Nested Loop Join:**
+- Dva cykly v sobě s danou podmínkou
 
-Pokud máme více dostupné operační paměti než 3 bloky, je nejefektivnější vybrat pro vnější smyčku menší tabulku, tu iterovat po (M-2) blocích a ve vnitřní smyčce iterovat větší tabulku po 1 bloku (zbývající 1 blok je vždy použit na výstup).
+**Merge join:**
+1. Sortne se $R$ podle $a$
+2. Sortne se $S$ podle $a$
+3. merge - čtou se postupně sesortěné řádky, pokud $R.a = S.a$, skončí se
 
-Merge join: zalezi na poctu behov
+**Hash join:**
+1. Vybere se hash funkce (např.$\mod(k)$)
+2. Na obě relace se aplikuje hash funkce
+3. porovnají se pouze skupiny z $R$ a $S$, které mají stejný hash
 
-select \* from R join S on (R.a=S.a);
+**Join s využitím speciálních struktur:**
+- Např. když $a$ je v $S$ klíčem, udělá se lookup řádku s $a$ podle **indexu**. Potom se jen proiteruje $R$
+- atd. těhlech speciálních případů je hodně
 
-1. seřaď R podle a
-2. seřaď S podle a
-3. merge: čti seřazené relace, pokud R.a=S.a pak poskladej vysledek
-
-(malokedy sa vojde do pamati) <- viac behov
-ak pamati dost: 3\*(pR+pS) <- heuristiky
-ak pamati nie dost: priority queue
-Multi-run sort: rozdelit na kusky a sortovat a matchovat
-
-Hash join
-
-aplikuj hash func. Na atribut na kt. robim join.
-
-urob partitions (chlieviky) <- potom NLJoin
-
-snazime sa znizit pocet vzajomnych porovnani
-
-- choose a hash function (usually mod(k))
-- apply hash function to both relations (to join attribute)
-- compare only groups from R and S with the same hash value
-
-[https://bertwagner.com/wp-content/uploads/2018/12/Hash-Match-Join-Looping-1.gif](https://bertwagner.com/wp-content/uploads/2018/12/Hash-Match-Join-Looping-1.gif)
-
-Special (idx lookup, common cluster)
 <!--ID: 1737106145125-->
 END
 
@@ -299,13 +330,18 @@ Co to je **prováděcí plán (execution plan)**, jak vypadá a kdy vzniká? Vy
 
 Back:
 
-Vznika pri kazdom selecte/dotaze, je to strom toho, co stroj vykona - operacie selekcia, projekcia, join, sort, …
+**Prováděcí plán**:
+- Stromová struktura, kde:
+	- **listy** jsou **zdroje dat** (tabulky, indexy) nad kterými se použije nějaká **přístupová metoda**
+	- **vnitřní uzly** jsou **základní relační operace**
+	- **kořen** reprezentuje celý SELECT dotaz
+- Vzniká u SELECT dotazů v **optimalizační fázi** před tím, než se dotaz spustí
 
-Kdy je vhodné cachovat prováděcí plán?
+**Ano, vyplatí se cachovat pokud**:
+- **opakovaně spouštíme stejný dotaz**
+- **u složitých dotazů** nad hodně tabulkami, kde vytváření plánu zabírá moc času
+- **pokud se data příliš nemění**, plán bude pravděpodobně stále efektivní
 
-- Pokud je stejný dotaz (nebo dotaz se stejnou strukturou) prováděn opakovaně, cache může výrazně snížit režii optimalizace. Nebo například mnoho uživatelů naraz se dotazuje na to stejné.
-- U velmi složitých dotazů s více tabulkami a složitou logikou, kde vytváření prováděcího plánu zabírá značné množství času.
-- Pokud se datové distribuce v tabulkách příliš nemění, plán bude pravděpodobně stále efektivní
 <!--ID: 1737106145128-->
 END
 
@@ -316,42 +352,24 @@ FIT-Card
 
 Jaká je základní **strategie pro tvorbu prováděcího plánu**? Jsou situace, kdy se vyplatí spíše full-table scan přístup namísto index-based? Případně uveďte.
 
+Pozn. tuhle kartičku jsem si trochu vycucal z prstu (a fitwiki a chatgpt), protože v přednáškách se o tom nic nepíše.
+
 Back:
 
-Optimalizátor dotazu (Query Optimizer) v databázovém systému analyzuje různé možné strategie pro provedení SQL dotazu a vybere tu nejefektivnější na základě:
+**Strategie:**
+1. Analýza dotazu - rozložení dotazu do stromové struktury
+2. Strom se sestaví na základě:
+	- **Výběru strategie přístupu k datům** - (index based, full table scan atd.)
+	- **Výběr strategie JOINování** - nested loop, hash, merge
+	- **Použití podmínek z dotazu** - filtry, rozsahy atd.
+	- **Zohlednění statistik** - např. velikost tabulky atd. 
+	- **Použití hintů** - můžeme vynutit v konfiguraci určitou strategii
 
-1. Statistiky dat:
-   - Počet řádků v tabulce, počet jedinečných hodnot, distribuce dat, velikost tabulky apod.
-1. Indexy:
-   - Typy indexů, jejich selektivita a velikost.
-1. Podmínky dotazu:
-   - Použití filtrů, rozsahových podmínek, typy JOIN operací apod.
-1. Náklady operací:
-   - Náklady na čtení dat z disku (I/O), CPU náklady na zpracování, paměťové nároky atd.
+**Jsou situace, kdy se vyplatí full-table scan?**
+- Ano, například: (podle chatgpt a fitwiki)
+	- Když je **tabulka malá**
+	- Když dotaz vrací **většinu řádků tabulky** (např. 20-30%)
 
-Optimalizátor generuje více možných prováděcích plánů (případně všechny relevantní kombinace) a na základě odhadů nákladů vybere ten s nejnižšími náklady.
-
-Selektivita dotazu (vyjadřuje procento řádků z celkového počtu řádků tabulky, které vyhovují predikátům v podmínce WHERE):
-
-- Nízká selektivita: Velká část záznamů odpovídá dotazu (např. 80 %). → Vhodnější je full-table scan, protože většina dat musí být tak jako tak přečtena.
-- Vysoká selektivita: Malá část záznamů odpovídá dotazu (např. 1 %). → Vhodnější je index scan, protože přes index lze efektivně nalézt jen potřebné záznamy.
-
-Velikost tabulky:
-
-- Malé tabulky → FTS - index je zbytečnej overhead
-- Velké tabulky → Index, pokud je dotaz selektivní.
-
-V prednáške bol tuším príklad, kde síce bol index nad tabuľkou, ale porovnanie v dotaze bolo blízko maxima (WHERE x < skoro MAX) a DBS si vybral full-table namiesto index-based.
-
-Pokud máme heap s indexem a dotaz s WHERE A < x, pak se podle mě často vyplatí full table scan. V indexu jsou pouze rowid, musím si potom načíst příslušnou stránku z tabulky. Tabulka není seřazená, index je. Při procházení indexu budu muset opakovaně načítat stejné bloky tabulky, protože řádky, které jsou v tabulce vedle sebe, nejsou v indexu vedle sebe.
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFmvya1m_u0_MKPt17tv8U0vDUBEZnDuMwFadov4nKelAbrCF0jRrdWnzHNKTLicAexLdEEClB2IuXW_5tfuslbNmrdheSWhrfjHQV2fbxTts-1OG7sHiwhYg3nMs0RmdGZux3T1sctPa3By-73jCfCJg?key=MR9RTuBxYyWmpndNFWTOiQ)
-
-Ten statnicovy priklad mi prijde divny, proc by se mela lisit operace < a > ? [Tady](https://dba.stackexchange.com/questions/11679/when-is-a-full-table-scan-better-than-index-scan) uvadi duvody:
-
-- Tabulka je mala
-- Selektivita je nízká (stejne by se vratila vetsina tabulky)
-- Pokud vracim hodne radku, musim delat lookup do tabulky a FTS muze byt levnejsi (podobne jako bod 2, a je to to, co jsem psal vyse nad “statnicema”)
 <!--ID: 1737106145130-->
 END
 
@@ -364,21 +382,23 @@ FIT-Card
 
 Back:
 
-Použití - operace DISTINCT, ORDER BY, HAVING, set operations, joiny atd.
+**Používá se například u:**
+- merge joinu
+- taky pro `DISTINCT`, `ORDER BY`, `HAVING`, set operace
 
-Při operacích nad relacemi je typické, že se celé relace nevejdou do operační paměti. Tento problém řeší tzv. External sorting algoritmy, my jsme si ukazovali Multi-run sort (na Wikipedii nazývaný jako [External Merge Sort](https://en.wikipedia.org/wiki/External_sorting#External_merge_sort), přičemž z tohoto názvu by mělo být očividné, jak funguje).
+**Parametry:**
+- pR - počet stránek v relaci
+- M - počet bloků, které se vejdou do paměti (RAM) při sortění
 
-Jako parametry sa používá velikost paměti M, počet bloků řazené relace.
+Statistiky sortění, které jsou důležité pro systém:
+- počet **in memory sortů**
+- počet **2 run sortů**
+- počet **multi run**
 
-Keby chcem LEN zoradit (distinct, order by, having, set operations)
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250118121653.png)
+<!-- DetailInfoEnd -->
 
-Rozdelim na kusky, podla toho kolko je “multi”
-
-Merge join zavisi na tom, ako to usortim
-
-Ked v dotaze chcem dostat < alebo > ako nejaka hodnota.
-
-Odhad: podla indexov, mnozstva zaznamov a kuskov toho sortu
 <!--ID: 1737106145133-->
 END
 
@@ -391,35 +411,18 @@ FIT-Card
 
 Back:
 
-- je třeba začít hledáním **typické zátěže**
-  - je třeba ji získat při **běžném zatížení** tedy až po "zahřátí" databáze
-  - existuje mnoho podpůrných nástrojů specifických pro konkrétní DBMS
-    - PostgreSQL: stačí nastavit logování příkazů v configu (je tam prahová hodnota, delší příkazy se logují, default je 200ms)
-    - MySQL: podobně jako PostgreSQL
-    - Oracle: od verze 10g víceméně povinný diagnostický a sběrný nástroj Automated Workload Repository (AWR), pár detailů [zde](https://courses.fit.cvut.cz/NI-PDB/media/tutorials/oracle-monitoring-tuning.pdf).
-- analýza získaných dat a vytipování problematických SQL příkazů
-  - **pravidlo "90:10"** You can get 90 percent improvement with only 10 percent effort, but realizing that final 10 percent performance gain will take 90 percent of your tuning efforts.
-  - Různé RDBMS poskytují různé prostředky:
-    - PostgreSQL projekt [pgBadger](https://github.com/darold/pgbadger). Umožňuje analýzu četnosti SQL příkazů, různá řazení atd.
-    - Oracle ADDM infrastruktura (Atomatic Database Diagnostic Monitor) a řada navázaných specializovaných nástrojů typu "Wizard"
-- optimalizace vybraných SQL příkazů
-  - postupovat po jednom
-  - stanovit si měřitelné metriky, aby byl prokazatelný přínos
-  - ladění/optimalizace může být provedena na různých úrovních
-  - základem je **porozumění provaděcímu plánu** nebo **sledování systémových statistik**
-    - porozumění prováděcímu plánu
-      - v drtivé většině úprava/přidání indexů
-      - úprava uložení dat - clustery, IOT
-      - "hinty" pro optimalizátor
-      - techniky pro optimalizaci (neplatí obecně, např. Oracle)
-    - sledování systémových statistik
-      - úpravy konfigurace serveru (buffer cache, redolog cache, …​)
-      - fyzická reorganizace (typicky paměť, disky, řadiče, …​)
-      - další možnosti
-      - materializované pohledy
-      - …​.
+1. **Sběr dat** - databáze se zatíží běžným provozem, logují se statistiky
+2. **Analýza dat** - hledá se např. četnost SQL dotazů, řazení, atd.
+3. **Optimalizace vybraných SQL příkazů**
+	1. **Stanoví se základní metriky** před optimalizací 
+	2. Je třeba porozumět **prováděcímu plánu** a **statistikám**
+	3. **Provedou se optimalizace** - typicky úprava/přidání indexů, úprava uložení dat, hinty pro optimalizátor, materializované pohledy
+	4. Změří se, jestli se **metriky zlepšily**
 
-Viz [https://courses.fit.cvut.cz/NI-PDB/lectures/10-benchmark  s-acid-tuning/index.html#\_db-server-tuning](https://courses.fit.cvut.cz/NI-PDB/lectures/10-benchmarks-acid-tuning/index.html#_db-server-tuning)\*\*
+<!-- DetailInfoStart -->
+Zdroj: https://courses.fit.cvut.cz/NI-PDB/lectures/10-benchmarks-acid-tuning/index.html#_db-server-tuning
+<!-- DetailInfoEnd -->
+
 <!--ID: 1737106145135-->
 END
 
