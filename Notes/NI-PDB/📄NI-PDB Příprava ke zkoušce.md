@@ -44,7 +44,7 @@ FIT-Card
 
 Jak vypadá **zpracování SQL dotazu** (fáze zpracování dotazu, kde a jak se při nich dá optimalizovat)?
 
-Pozn. fáze zpracovávání dotazu jsem nikde nenašel - plz pokud někdo tušíte, co by to mohlo být, tak mi to napište a já to fixnu.
+Pozn. fáze zpracovávání dotazu jsem nikde v přednášce nenašel - pokud někdo víte, jak by to mělo správně být, tak napište a já to fixnu.
 
 Back:
 
@@ -87,10 +87,10 @@ Back:
 - pokud máme "heap table with index", tak má v listech ROWID, podle kterého se najde datový blok a řádek
 
 **Index-organized table**:
-- Funguje podobně jako index, ale má v listech rovnou **celé řádky**.
+- Funguje podobně jako index, ale má v listech rovnou **celé řádky**
 
 **Srovnání**:
-- IOT může být rychlejší (menší počet I/O operací)
+- Index-organized table může být rychlejší (menší počet I/O operací, protože jsou data rovnou ve stromu)
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250118104335.png)
@@ -150,7 +150,7 @@ Vysvětlete rozdíl mezi **B-tree** a **bitmap** indexem, příklady vhodné
 
 Back:
 
-**B-Tree index**_:
+**B-Tree index**:
 - Vyvážený strom, v listu je klíč a adresa řádku s daty
 - Vyvažování stromu dělá DBMS na pozadí
 - DML operace jsou drahé
@@ -450,20 +450,18 @@ Vysvětlete rozdíly mezi **OLTP a OLAP** databází.
 
 Back:
 
-**OLTP: online transaction processing**
+Obě jsou technologie uložení dat v databázi.
 
-- je technologie uložení dat v databázi, která umožňuje jejich co nejsnadnější a nejbezpečnější modifikaci v mnoha uživatelském prostředí. Jedná se o přístup používaný v současné době v převážné většině databázových aplikací (historicky ještě poměrně nedávno dokonce ve všech databázových aplikacích).
-- Např. eshop, kos – současně pracuje mnoho uživatelů, transakční aktivita uživatelů je nízká, transakce jsou náhodné a krátké
-- SQL dotazy jsou stejné, liší se pouze v parametrech
-- provadeci plan sa cachuje
-- data vetsinou v 3NF
+**OLTP** - online transaction processing
+- Většina aplikací.
+- Hodně uživatelů **čte** a **mění** data.
+- Systémy optimalizované pro rychlé, krátké transakce, např. vkládání, aktualizace a mazání dat.
+- Např. e-shop, kos
 
-**OLAP: online analytical processing**
-
-- je technologie uložení dat v databázi, která umožňuje uspořádat velké objemy dat tak, aby byla data přístupná a srozumitelná uživatelům zabývajícím se analýzou obchodních trendů a výsledků (Business Intelligence).
-- OLAP nepoužívá na rozdíl od OLTP normalizované uložení dat v 3NF formě – data jsou v uložena tak, aby umožňovala rychlou realizaci složitých dotazů, časté je zdvojené (redundantní) uložení, které by v případě OLTP komplikovalo provádění změn v datech,
-- OLAP používá podstatně více indexů než OLTP – opět to souvisí se zaměřením, kde indexy umožňují rychlé provedení složitých dotazů,
-- OLAP na rozdíl od OLTP často používá předpočítané agregované a odvozené hodnoty.
+**OLAP** - online analytical processing
+- Systémy optimalizované pro analytické zpracovávání, zaměřené na efektivní **čtení a analýzu** velkého množství dat.
+- Data nebývají "hezky" uspořádána (podle 3NF).. Typicky tam bývá hodně redundance, díky čemuž je čtení vysoce efektivní (ale zápis je pain in the ass)  
+- Např. business intelligence, reportování, analytické systémy
 <!--ID: 1737106145138-->
 END
 
@@ -476,29 +474,15 @@ Vysvětlete, případně uveďte na příkladech hlavní **přínos objektově 
 
 Back:
 
-Je to rozšíření klasického relačního modelu o objektové prvky (databáze umí pracovat s objekty, existují v ní uživatelsky definované datové typy apod.).
+Je to rozšíření klasického relačního modelu o **objektové prvky** (databáze umí pracovat s objekty, existují v ní uživatelsky definované datové typy apod.).
 
-\*\*
-
-RDBMS pros
-
-- powerful OLTP processing
-- availability
-- access rights
-- administration tools
-- standardized language (DML, DDL)
-- concurrency
-- integrity
-
-OODBMS pros
-
-- complex objects processing
-- recursive structures
-- abstract data types
-- API to OO languages
-- complex (long-time) transactions
-
-Viz. [https://courses.fit.cvut.cz/NI-PDB/tutorials/01-opakovani-a-ordbms/ordbms/index.html](https://courses.fit.cvut.cz/NI-PDB/tutorials/01-opakovani-a-ordbms/ordbms/index.html)\*\*
+**Hlavní přínosy OODMBS** (oproti RDBMS):
+- **Komplexnější datové typy** (objekty) často lépe reflektují real-world entity
+- **Rekurzivní struktury** - dobře se ukládají datové struktury (stromy, grafy)
+- **Abstraktní datové typy** - Je možné vytvářet vlastní typy a jejich metody
+- **API pro OOP jazyky** - velice dobře se používá s OOP jazykama
+- **Komplexní (dlouhé) transakce** - lépe je zpracovává než RDBMS
+ 
 <!--ID: 1737106145141-->
 END
 
@@ -511,18 +495,13 @@ Vysvětlete co je **reference na objekt (typ REF)** v objektově-relačních d
 
 Back:
 
-A REF is a logical pointer or reference to a row object that you can construct from an object identifier (OID).
+**REF** - reference na objekt
+- **Ukazatel** na **celý objekt** (jako pointer v OOP)
+- **Nevyžaduje spojování tabulek**, protože odkazuje přímo na celý objekt.
 
-You can use the REF to obtain, examine, or update the object. You can change a REF so that it points to a different object of the same object type hierarchy or assign it a null value.
-
-REFs are Oracle Database built-in data types. REFs and collections of REFs model associations among objects, particularly many-to-one relationships, thus reducing the need for foreign keys. REFs provide an easy mechanism for navigating between objects.
-
-- REF je podobný ukazateli v programovacích jazycích, protože neodkazuje pouze na hodnotu, ale na konkrétní objekt jako celek.
-- Foreign key - Odkazuje na konkrétní hodnotu primárního klíče v jiné (nebo téže) tabulce.
-
-[https://docs.oracle.com/database/121/JJDBC/oraoor .htm#JJDBC28567](https://docs.oracle.com/database/121/JJDBC/oraoor.htm#JJDBC28567)
-
-**[![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQIU3HPMZDtOiQBOJTPyp5WEy9jvtiQtVqrV6M5lU6mK3syW_F651m6yLaaYfTtQg-vHU0NhU3Jm7M-8a-Sej5HcqISPGck9NyyAebR97-1LFv2wSEQudHKPmn2OkhyyTOi2mqVWYp2VSVWL6_ELy3FMY?key=MR9RTuBxYyWmpndNFWTOiQ)](https://docs.oracle.com/database/121/JJDBC/oraoor.htm#JJDBC28567)**
+**Cizí klíč**
+- **Hodnota** jiného primárního klíče (není to ukazatel)
+- **Vyžaduje JOIN** operaci pro získání souvisejících dat.
 <!--ID: 1737106145144-->
 END
 
@@ -535,19 +514,17 @@ Vysvětlete rozdíl mezi relační tabulkou obsahující **uživatelem definova
 
 Back:
 
-**Uživatelem definovaný datový typ** může být vícehodnotový atribut, strukturovaný atribut nebo jejich kombinace. Také mohou mít členské metody.  
-(Object types and other user-defined data types allow you to define data types that model the structure and behavior of the data in their applications.)
+**Uživatelsky definovaný datový typ v relační tabulce**:
+- Je to **vícehodnotový atribut** (je to jakoby další tabulka, kde sloupce jsou atributy toho komplexnějšího typu)
+- **Nemá metody** ani chování
+- Data jsou uložena v **řádcích a sloupcích**
+- **Výhoda**: je to jednodušší, než mít další tabulku, kterou bych musel JOINovat.
 
-[https://docs.oracle.com/cd/A91034_01/DOC/server.901/a88856/c14ordb.htm](https://docs.oracle.com/cd/A91034_01/DOC/server.901/a88856/c14ordb.htm)
+**Objektová tabulka:** (v ORDBMS)
+- Každý řádek reprezentuje nějaký objekt, který může mít nejen data, ale i **metody**
+- Objekty mohou mít mezi sebou **pointery**
 
-**Relační tabulka** obsahuje sloupce, jejich typ může být buď předdefinovaný typ nebo uživatelem definovaný datový typ.  
-(Objects that are stored as columns of a relational table, or are attributes of other objects, are called [column object](https://docs.oracle.com/database/121/ADOBJ/glossary.htm#CHDGJBJH)s. [Example 1-2](https://docs.oracle.com/database/121/ADOBJ/adobjint.htm#CIHCBDHG) shows the contacts table which stores an instance of the person_typ object.)
-
-**Objektová tabulka** obsahuje pouze objekty - instance uživatelem definovaného datového typu. ([object table](https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/glossary.htm#CHDGBJDA) - A table in which each row represents an object, which is referred to as a [row object](https://docs.oracle.com/database/121/ADOBJ/glossary.htm#CHDCGBAB). See ["Creating and Using Object Tables"](https://docs.oracle.com/database/121/ADOBJ/adobjint.htm#CHDHIEFH))
-
-The key difference is that an object table can optionally contain an additional object identifier (OID) column and index.[[...]](https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/adobjdes.htm#i443361)
-
-Objects that have meaning outside of the relational database in which they are contained, or objects that are shared among more than one relational database object, should be made referenceable as row objects. That is, such objects should be stored as a row object in an object table instead of in a column of a relational table. [[...]](https://docs.oracle.com/database/121/ADOBJ/adobjint.htm#ADOBJ7025)\*\*
+Objektová tabulka je obecně více flexibilní, umožňuje ukládat nejen objekty, ale i určité metody/chování.
 <!--ID: 1737106145146-->
 END
 
@@ -560,41 +537,24 @@ V jakém jsou vztahu **objektově-relační databázový stroj** a **ORM (obj
 
 Back:
 
-Obě se snaží umožnit přímé ukládání objektů do databáze (resp. umožnit pracovat s uloženými daty jako s objekty)
+**Co řeší:**
+- Oboje umožňuje pracovat s databází jako s nějakou kolekcí objektů.
 
-**ORDBMS**
+**ORM**:
+- Máme relační databázi a řádky tabulky se mapují (transformují) na objekty v nějakém OOP jazyce. Díky tomu můžu s databází pracovat jako s kolekcí objektů.
+- Objekty jsou uloženy pouze jako **řádky tabulky**
+- **Vhodné:**
+	- Pro věšinu aplikací, tradiční relační databáze
+	- Rychlý vývoj
+	- Jednodušší data a dotazy
 
-- rozšíření klasického relačního modelu o objektové prvky (databáze umí pracovat s objekty, existují v ní uživatelsky definované datové typy apod.)
-- Umožňuje přirozené uložení a manipulaci s objekty přímo v databázi (např. složité datové typy, dědičnost, metody na úrovni databáze).
-- Primárně se snaží **minimalizovat nesoulad** mezi objekty v aplikaci a tabulkami v databázi tím, že databáze podporuje nativně objekty a jejich vztahy.
-
-**ORM**
-
-- mapování objektů na klasické relační tabulky
-- software převede objekt na tabulková data, která následně uloží v relační databázi
-- při čtení software z databáze získá tabulková data a na jejich základě instanciuje objekty
-- v DB nejsou objekty, ale obyčejné tabulky → ORM vlastně s DB vůbec nesouvisí
-- Umožňuje mapovat třídy a jejich atributy na tabulky a sloupce, takže vývojář může pracovat s databází prostřednictvím objektů, aniž by musel psát přímo SQL dotazy.
-
-Kdy je co vhodné?
-
-**Použití ORDBMS:**
-
-- Složité datové modely: Potřebujete pracovat s komplexními typy dat (např. multimédia, geografická data, hierarchické struktury).
-- Lepší výkon: Potřebujete zpracovat logiku přímo na úrovni databáze (např. metody, funkce nebo složité indexy na objektové typy).
-
-**Nevýhody**:
-
-- Vyšší složitost správy databáze.
-
-**Použití ORM**:
-
-- Rychlý vývoj aplikací: Pokud je potřeba rychle vytvořit aplikaci a pracovat s daty bez psaní SQL.
-- Tradiční relační databáze: Když vaše aplikace používá klasický RDBMS a databáze není připravena na práci s objekty.
-
-**Nevýhody**:
-
-- Výkonnostní režie, zvláště u složitých dotazů.
+**ORDBMS**:
+- **Přímo v databázi** jsou uloženy **objekty**, složené datové typy, metody, dědičnost,..
+- **Vhodné**:
+	- Pro komplexní typy dat
+	- Lepší výkon pro složité typy
+- **Nevýhoda:**
+	- Komplexnější práce s databází
 <!--ID: 1737106145149-->
 END
 
@@ -614,9 +574,9 @@ Back:
 - Operace čtení a zápisu **pouze na jednom agregátu**
 
 **CAP vlastnosti:**
-- **konzistence** (Consistency): Operace pro čtení a zápis musí být spouštěny atomicky (po operaci zápisu vidí všechny readery stejná data)
+- **konzistence** (Consistency): Každý read (nad celým systémem) vrátí nejnovější data nebo error. (pozor, je to jiné než consistency v ACIDu!)
 - **dostupnost** (Availability): Pokud node funguje, musí reagovat na požadavky
-- **odolnost k přerušení** (Partition tolerance): systém musí fungovat, i když se izolují dvě nebo více sad uzlů (když mi třeba vypadne uzel)
+- **odolnost k přerušení** (Partition tolerance): systém musí fungovat, i přes výpadky v síti (např. že se nějaké zprávy mezi nodama nedoručují)
 
 **CAP theorém říká:**
 Není možné, aby distribuovaný systém poskytoval záruku všech tří vlastností (consistency, availability, partition tolerance) zároveň. Vždy může garantovat nejvýše 2 z těchto vlastností.
@@ -839,34 +799,29 @@ Uveďte podstatné rozdíly (výhody a nevýhody) **relační a dokumentové da
 
 Back:
 
-Dokument:
+**Relační**:
+- Data jsou uložena v **tabulkách** (relacích) s **pevně definovanými schématy**
+- Dodržuje se **ACID**
+- Data se **normalizují** (snižuje se redundance, rozděluje se na menší tabulky)
+- **Výhoda:**
+	- Konzistence dat, přesné "deterministické" chování
+	- Jednoduše se s nimi pracuje
+- **Nevýhoda:**
+	- Špatně horizontálně škálovatelné
+	- Nízká flexibilita (mám striktní schéma) - nevhodné pro méně strukturovaná data (např. v datových skladech)
 
-- je samopopisná, hierarchická stromová struktura (JSON, XML)
-- je identifikovaný unikátním klíčem, dokumenty jsou organizovane do kolekcí
-
-dotaz. Pattern: Create Update Remove a document
-
-Klady:
-
-- Schema-less
-- Faster creation and care
-- No foreign keys
-- Open formats
-- Built-in versioning
-
-Zápory:
-
-- Consistency-Check Limitations
-- Atomicity weaknesses
-- Security
-
-Příklady: MongoDB, Couchbase, DynamoDB
-
-ANO: logging, blogy, weby, analytika, e-commerce (struktury s podobnou schemou)
-
-NE: množinové operace s množstvím dokumentů, nebo pokud se často mění schéma
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKBQeuP6EDxkkvi8kRLPI3iSSAqkR_F230KX3De_5EQ-Mw57GCuxPwm94H0-rXWARnvlRoezvbLdcyxCRzO6wgRXQ5GG3hQQ7YiboVv0pKbQ5-FtlVUtuzSWl4Lq8z-nB0swEHd6HCynsvbkXeAeWVj2Hx?key=MR9RTuBxYyWmpndNFWTOiQ)
+**Dokumentová**:
+- Data uložena v **dokumentech**, které mají hierarchickou strukturu
+- Typicky dodržuje **BASE**
+- **Výhoda:**
+	- Škálovatelnost
+	- Flexibilní schéma
+	- Rychlost
+	- Vhodné pro velké množství jednoduchých dotazů
+	- Vhodné pro hierarchická data
+- **Nevýhoda:**
+	- Nekonzistence dat - kvůli BASE
+	- Složité dotazy jsou méně efektivní než u relačních DB 
 <!--ID: 1737106145172-->
 END
 
@@ -879,26 +834,27 @@ Uveďte podstatné rozdíly (výhody a nevýhody) **relační a XML-nativní da
 
 Back:
 
-XMLka, stromova struktura, dokumenty ako kolekcie
-Xpath, XQuery (nadstavba xpath),
-Hodí se na malé a středně velké databáze
-Nehodí se na hodně propojená data a bigdata
+**Relační**:
+- Data jsou uložena v **tabulkách** (relacích) s **pevně definovanými schématy**
+- Dodržuje se **ACID**
+- Data se **normalizují** (snižuje se redundance, rozděluje se na menší tabulky)
+- **Výhoda:**
+	- Konzistence dat, přesné "deterministické" chování
+	- Jednoduše se s nimi pracuje
+- **Nevýhoda:**
+	- Špatně horizontálně škálovatelné
+	- Nízká flexibilita (mám striktní schéma) - nevhodné pro méně strukturovaná data (např. v datových skladech)
 
-#### suitable for
-
-- small and middle size documents
-- collections (set of documents)
-- data exchange
-- validation of input/output
-- data pipeline processing
-- data processed by machines and humans
-
-#### not suitable for
-
-- big data
-- fast data transfer huge pieces of data
-- highly connected data
-- Aplikace ktera požaduje strong consistency
+**XML**
+- Data jsou uložena v XML formátu -> vhodné pro aplikace, co pracují s XML
+- **Výhoda**:
+	- Flexibilní schéma
+	- Lepší škálování
+	- Vhodné pro aplikace, které používají XML formát
+	- Vhodné pro hierarchická data
+- **Nevýhoda:**
+	- Nekonzistence dat - kvůli BASE
+	- Složité dotazy jsou méně efektivní než u relačních DB 
 <!--ID: 1737106145175-->
 END
 
@@ -911,27 +867,28 @@ Uveďte podstatné rozdíly (výhody a nevýhody) **relační a key-value datab
 
 Back:
 
-KV: key-value pary. O value nevie stroj nic, Kluc identifikuje.
-Skvely vykon, dobre sa skaluje, ale nemozem sa ale pytat podla value, len podla key
-K-v páry mohou být po určité době automaticky z db smazány (TTL) – user session, eshop
+**Relační**:
+- Data jsou uložena v **tabulkách** (relacích) s **pevně definovanými schématy**
+- Dodržuje se **ACID**
+- Data se **normalizují** (snižuje se redundance, rozděluje se na menší tabulky)
+- **Výhoda:**
+	- Konzistence dat, přesné "deterministické" chování
+	- Jednoduše se s nimi pracuje
+- **Nevýhoda:**
+	- Špatně horizontálně škálovatelné
+	- Nízká flexibilita (mám striktní schéma) - nevhodné pro méně strukturovaná data (např. v datových skladech)
 
-ANO: session, profily, preferencie, kosiky nakupne
-NIE: relacie - vztahy medzi entitami, vyhladavat podla value.
+**Key-value:**
+- Velmi jednoduchá struktura, data jsou uložena jako páry klíč-hodnota
+- **Výhoda:**
+	- Fakt hodně rychlý - operace čato v O(1)
+	- Velmi dobré škálování
+	- Flexibilní schéma
+- **Nevýhoda:**
+	- Žádné komplexní dotazy (žádné JOINy nebo agregace)
+	- Určeno pro jednoduchá data, s komplexními daty/dotazy se hodně špatně pracuje
 
-Key-Value
-
-- velmi dobře škálovatelná a rychla
-- „jednoúčelová“ - podle klíče vrátí hodnotu - velmi optimalizovaná
-- neumožňuje složitější dotazy pracující s hodnotami (hodnoty jsou black box)
-- nehodí se na vztahy mezi hodnotami, množinové operace apod.
-
-Relační
-
-- „univerzální“, vhodná pro většinu použití
-- špatně se škáluje
-- umožňuje joiny a složitější dotazy, agregace atd.
-
-Redis, RiakKV
+Obecně je **key-value** databáze taková hodně specifická. Extrémní **rychlost** a **škálovatelnost** ale pouze pro **jednoduchá data**.
 <!--ID: 1737106145178-->
 END
 
@@ -944,32 +901,28 @@ Uveďte podstatné rozdíly (výhody a nevýhody) **relační a grafové datab�
 
 Back:
 
-Grafy - vrchol a hrana
-Snazi sa popisat realitu
-Non-transact - malo velkych grafov
-Transactional - vela malych gr. (Problematicke, horsie jak strom)
-Grafove algoritmy, traverzovanie, base query
+**Relační**:
+- Data jsou uložena v **tabulkách** (relacích) s **pevně definovanými schématy**
+- Dodržuje se **ACID**
+- Data se **normalizují** (snižuje se redundance, rozděluje se na menší tabulky)
+- **Výhoda:**
+	- Konzistence dat, přesné "deterministické" chování
+	- Jednoduše se s nimi pracuje
+- **Nevýhoda:**
+	- Špatně horizontálně škálovatelné
+	- Nízká flexibilita (mám striktní schéma) - nevhodné pro méně strukturovaná data (např. v datových skladech)
 
-**Traversal Framework**
-
-- Najdu si uzel a pak udělám nějakou operaci od toho uzlu.
-- Java API, práce s objekty.
-- Procházení do hloubky, do šířky.
-
-**Property Graph**
-
-- orientovaný, labeled (= jak uzly tak hrany mají labely), multigraph (= mezi dvěma uzly může být více hran)
-- **Uzel**
-  - Má unikátní identifikátor.
-  - Může mít více labels.
-  - Má set vlastností (key → value).
-- **Hrana**
-  - Má unikátní identifikátor.
-  - Může mít jenom jeden label.
-  - Má set vlastností (key → value).
-
-**ANO**: social network routing, location-based service, recommendation, chemi
-**NIE**: batch, velke grafy
+**Grafové**:
+- Data jsou uložena ve formě grafu (uzly, hrany)
+- **Výhoda:**
+	- Hodí se pro modelování určitých struktur (např. znalosti, sociální sítě, doporučovací systémy atd.)
+	- Flexibilní modelování vztahů a struktur
+	- Optimalizované dotazy pro grafové struktury (např. vybírání podgrafů, hledání cest atd.)
+	- Dobrá škálovatelnost
+- **Nevýhoda:**
+	- Méně efektivní pro "tabulková data"
+	- Nižší podpora pro ACID
+	- Prostě takový specifický use case
 <!--ID: 1737106145180-->
 END
 
@@ -982,27 +935,29 @@ Uveďte podstatné rozdíly (výhody a nevýhody) **relační a sloupcové (wid
 
 Back:
 
-Jsou podobné relačním databázím, mají řádky identifikované rowkey. Jednotlivé řádky však nemusí mít stejné sloupce, a mohou obsahovat komplexnější data: (Tuples, Lists, Sets, Maps, User-defined Types, …) [[obrázek]](https://www.ksi.mff.cuni.cz/~svoboda/courses/201-MIE-PDB/lectures/MIEPDB16-Lecture-11-Cassandra.pdf#page=10)
+**Relační**:
+- Data jsou uložena v **tabulkách** (relacích) s **pevně definovanými schématy**
+- Dodržuje se **ACID**
+- Data se **normalizují** (snižuje se redundance, rozděluje se na menší tabulky)
+- **Výhoda:**
+	- Konzistence dat, přesné "deterministické" chování
+	- Jednoduše se s nimi pracuje
+- **Nevýhoda:**
+	- Špatně horizontálně škálovatelné
+	- Nízká flexibilita (mám striktní schéma) - nevhodné pro méně strukturovaná data (např. v datových skladech)
 
-Column family - kolekcia riadkov, kt. su podobne ale nie identicke
-
-Stlpce do skupin - col name, col val, TS, …
-
-Např. Cassandra
-
-**ANO**: paralelne spracovanie - select sa prelozi na job paralelny (MapReduce), logging, content management, blog,…
-
-**NIE**: rozsirene relacne aj ked sa zda, nie moc na joiny, transakcne spracovania, ACID, agregace
-
-Advantages:
-
-- Scalability
-- Compression
-- Very responsive
-  Disadvantages:
-- Online transactional processing is usually not as good
-- Incremental data loading
-- Row-specific queries are usually bad (wide columns are hard/impossible to index)
+**Wide column**
+- Řádky mají hromadu různých sloupců, každý řádek může obsahovat pouze některé sloupce
+- **Výhody:**
+	- Ideální pro čtení a analýzy
+	- Flexibilní schéma
+	- Vysoká škálovatelnost
+	- Výborný výkon (pro zápis i čtení)
+	- Vhodné pro big data, datové sklady
+- **Nevýhody:**
+	- Horší výkon pro kompexní dotazy
+	- Omezená podpora pro ACID
+	- Nevhodné pro OLTP (ale super pro OLAP)
 <!--ID: 1737106145183-->
 END
 
@@ -1015,25 +970,21 @@ Uveďte výhody a nevýhody přístupů **schema-free a schema aware databází
 
 Back:
 
-**schema-aware**
-
-- **výhody**
-  - definice uložených dat - víme, co v DB může být
-  - pokročilé indexování, optimalizace → možnost vytváření efektivních dotazů
-  - kontrola validity (integrity) dat
-  - Query by Example - můžeme zjistit, jak vypadá obsah databáze
-- **Nevýhody**
-  - nutné vytvořit a udržovat schéma (a aplikace, které s DB pracují) → menší flexibilita
+**schema-aware** (např PostgreSQL):
+- **Výhody**:
+	- Přesně definovaná datová struktura, vysoká konzistence a validita
+	- **Jednoduchost práce s databází**, protože v tom není takový chaos
+	- Efektivnější dotazování u složitých dotazů
+- **Nevýhody**:
+	- Změny ve schématu jsou složité a časově náročné → menší flexibilita
 
 **schema-free**
-
-- **výhody**
-  - flexibilita
-  - snadnost použití a údržby (ale s tou údržbou to není úplně pravda, zase když je třeba něco globálně změnit, schéma by se hodilo)
-- **nevýhody**
-  - nevíme, co je v db (struktura dat není určena) → zmatenost
-  - db nekontroluje integritu dat
-  - chybí pokročilé optimalizace dotazů
+- **Výhody**
+	- Flexibilní schéma, dá se jednoduššeji měnit
+	- V určitých ohledech jednodušší údržba (jednodušší migrace a změny ve struktuře dat)
+- **Nevýhody:**
+	- Vyžaduje to více pečlivosti při práci s databází (konvence, dodržovat určitý pravidla) - jinak v tom může jednoduše vzniknout zmatená databáze
+	- Horší optimalizace komplexních dotazů
 <!--ID: 1737106145185-->
 END
 
@@ -1048,16 +999,22 @@ Vysvětlete koncepci databázového stroje **MongoDB**. Uveďte jeho silné str
 
 Back:
 
-Popis JSON (k-v) : array, object, string, …
-BSON: zapise sa do binary kodu
-Data model: Dokumenty do kolekcii
-ObjectID, sort, CRUD nad kolekciou, MR, indexy
-Sharding a master-slave replikacia
-
-ANO: Open-source, high availability, eventual consistency, good data manipulation, dobre pre web, sharding, scalability
-NIE: data redundancia (problem s konzistenciou), transactions, joins, indexing, limited data size, duplicates, high memory usage
-
-[https://www.knowledgenile.com/blogs/pros-and-cons-of-mongodb/](https://www.knowledgenile.com/blogs/pros-and-cons-of-mongodb/)
+**MongoDB**
+- NoSQL dokumentová databáze
+- Data uložena v BSON (binární JSON)
+- **Silné stránky**:
+	- Vhodné pro **škálování** (Mongo podporuje sharding i replikaci)
+	- Flexibilita
+	- Vysoká dostupnost
+	- Vysoký výkon
+- **Vhodné použití**:
+	- Aplikace, kde se často mění schéma dat (např. přidávání polí do dokumentů)
+	- Aplikace s **mnoha daty** a **jednoduchými operacemi**
+	- Např. mobilní aplikace, content management systémy, ...
+- **Nevhodné použití**
+	- Aplikace se složitými vztahy a dotazy (lepší je SQL)
+	- Aplikace s méně daty (lepší je SQL)
+	- Aplikace, které vyžadují hodně stabilitu a přesnost (lepší je SQL s ACID)
 <!--ID: 1737106145188-->
 END
 
@@ -1070,31 +1027,19 @@ Vysvětlete koncepci databázového stroje **Cassandra**. Uveďte jeho silné s
 
 Back:
 
-Cassandra má uživatelsky definované datové typy. U každého řádku můžete nastavit jeho životnost. Každý řádek má Timestamp poslední modifikace.
-
-Cassandra is a NoSQL database and a wide-column store. It is a distributed database management system designed to handle large amounts of data across multiple data centers or in the cloud.
-
-Cassandra offers a solution to manage the continued massive write-data growth while ensuring greater flexibility, performance, scalability, and reliability.
-
-Cassandra will be the best option in the following cases:
-
-- You have to work with a massive amount of data.
-- You have a lot of write operations
-- There is a need for a distributed application.
-- There are fewer secondary index needs.
-- There is no need for connections or aggregates.
-
-**Cons**:
-
-- Cassandra does not support aggregates and complex queries.
-- It doesn't fit for transactional data.
-- Scanning data: Cassandra reads data pretty well. But it’s good at reading as long as you know the primary key of the data you want. If you don’t, Cassandra will have to scan all nodes to find what you need, which will take a while. And if the latency threshold is exceeded, the scan will not be completed at all
-- When you want a lot of different types of queries or you can’t predict your data usage
-- When you want strong ACID compliance
-- When you want many-to-many mappings or join table
-- When you don’t want a rigid schema
-
-[https://medium.com/geekculture/system-design-solutions-when-to-use-cassandra-and-when-not-to-496ba51ef07a](https://medium.com/geekculture/system-design-solutions-when-to-use-cassandra-and-when-not-to-496ba51ef07a)
+**Cassandra**
+- Wide column databáze
+- **Vhodné použití**:
+	- Pro **obří množství jednoduchých dat** (big data)
+	- Pro jednoduché dotazování
+	- Když je třeba hodně škálovat
+	- Když je třeba Flexibilní datový model
+	- Když je třeba rychle zapisovat jednoduchá data
+	- Např. **velké distribuované systémy** (Amazon to používá), **globální e-commerce platformy**, real-time analýzy, sledování aktivit
+- **Nevhodné použití**:
+	- Komplexní dotazy a vztahy (Lepší SQL)
+	- Když máme nízký objem dat (lepší SQL nebo Mongo)
+	- Když potřebujeme přesnost ve schématu (lepší SQL)
 <!--ID: 1737106145190-->
 END
 
@@ -1107,24 +1052,17 @@ Vysvětlete koncepci databázového stroje **Neo4j**. Uveďte jeho silné strá
 
 Back:
 
-- Neo4j pracuje nad grafy a jejich hranami, kterým lze přidat properties
-- Hodí se například na sociální sítě nebo propojená data kde lze i využít jeho traversal framework
-- Nehodí se na data kde jsou potřeba agregace, sortování apod
-- Cílem je aby to bylo ACID.
-- Je to zaběhlý tech. → 10 let.
-- Vlastní deklarativní dotazovací jazyk Cypher
-- Umožňuje mít **schema**. Postavená kolem konceptu **labels**.
-- Taky dovoluje mít constraints. (Bacha, zavedení constraintu je blokující nad celou databází!)
-- **Indexy**: no má je ![LOL](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUOm8t3W1G9hMiB3rHP374xE53ENLLmNZ8JCBaAfGI29_LM3offGzeUYuwmA3Ct62nDvSg94D2FnUDpPQEfIcRYrl0K50WSPU5ukbpbCMX0lLSx-jPkCKBBgqN9kXcM3oOlEdj8NvvsNzl-w4ZYzF-JqY?key=MR9RTuBxYyWmpndNFWTOiQ) – Dělají se nad properties.
-- The database is scalable through data partitioning into pieces known as shards.
-- High availability provided through continuous backups and rolling upgrades.
-- Multiple instances of databases are separable while remaining on one dedicated server, providing a high level of security.
-- Neo4j uses the Cypher graph query language, which is programmer friendly.
-- Query speed only dependent on the number of concrete relationships, and not on the amount of data
-- Clear and manageable representation of relationships
-- Flexible and agile structures
-- Viz . [https://www.ionos.com/digitalguide/hosting/technical-matters/graph-database/](https://www.ionos.com/digitalguide/hosting/technical-matters/graph-database/)
-- [https://phoenixnap.com/kb/graph-database](https://phoenixnap.com/kb/graph-database)
+**Neo4j**:
+- Pracuje se nad grafy (uzly + hrany)
+- Hodí se na data, která mají komplexní vztahy, které lze reprezentovat grafy
+- **Vhodné:**
+	- Když máme data s **komplexními vztahy**
+	- Když chceme **komplexní dotazy v grafu** (cesty, stromy, podstromy, ...)
+	- Např. sociální sítě, doporučovací systémy, detekce podvodů (v bankovních transakcích), znalosti
+- **Nevhodné:**
+	- Pro aplikace **bez komplexních vztahů**
+	- Pro **velké transakční systémy**
+	- Pro **velké množství dat** s jednoduchými vztahy
 <!--ID: 1737106145193-->
 END
 
@@ -1137,32 +1075,19 @@ Uveďte koncepci databázového stroje **RiakKV**. Uveďte jeho silné stránky
 
 Back:
 
-- key-value store distributed database
-- Stores keys into buckets = a namespace for key
-- Je dobrý například pro data ze senzorů, která velmi rychle rostou a jsou high read/write nebo pro ukládání uživatelů a jejich preferencí
-- Key-value store by šlo také použít jako cache (redis cache)
-- Není dobrý pokud je potřeba data agregovat, třídit nebo s jejich hodnotu jakkoli více pracovat (protože value je black box)
-
-[http://www.ksi.mff.cuni.cz/~svoboda/courses/2015-2-MIE-PDB/lectures/Lecture-12-Key-Value-Databases-Riak-Redis.pdf#page=8](http://www.ksi.mff.cuni.cz/~svoboda/courses/2015-2-MIE-PDB/lectures/Lecture-12-Key-Value-Databases-Riak-Redis.pdf#page=8)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLpyr3BItPDrvFaVKEnESF34sleCqKsyCy5t9R4vSTwZ1_8XEhmlKwNrMyiPSPzB_x49w2fIHZ2pg6Flc5t9sUk6z_crqNAKsWbmG-VlpTUAJIow7M-oQpd6uYHwGtRREBsV354EGqqwZ66D6QiSzh0YM?key=MR9RTuBxYyWmpndNFWTOiQ)
-
-Data model
-• The most simple NoSQL database type
-Works as a simple hash table (mapping)
-• **Key‐value pairs**
-
-Key (id, identifier, primary key)
-
-- Value: binary object, black box for the database system  
-  Query patterns
-- Create,update or remove value for a given key
-- Get Value For Given Key Characteristics
-- Simple Model ⇒ great performance, easily scaled,...
-- Simple Model ⇒ not for complex queries for complex data
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfHOUD8JKPGJl9x-xH7qH9bEDzXjUw5Htg6rM83491lLaftfsByyA9ft-UyEfTjCcgjVkPSIseaF_IcqmF4MqU5oEsu-zgbmzE2EzdXsBUOG-gRuRwLVdV-j6dnEGSMeGiasAYg5freEv23LO7q55zx6xw?key=MR9RTuBxYyWmpndNFWTOiQ)
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBkYg-nVK7G7eTQd1lDPcOPEtVn8PSaq3XsRx9pApQfdHXHJFFyTN3OY9q_qyR-aCE7d8PmnfhJI3NEdAo6BsmxoN1b4tw13XUulTcNdtRDJE8fWGEs8hOGSYyR06dRvK52h7d8LtqNHS2JR6DUpCvQvs?key=MR9RTuBxYyWmpndNFWTOiQ)
+**RiakKV**:
+- key-value store
+- máme buckety, v nich hodnoty key-value
+- **Vhodné**:
+	- Pro data s jednoduchou strukturou a jednoduchými vztahy
+	- Pro vysokou škálovatelnost
+	- Vhodné pro vysokou flexibilitu
+	- Vhodné pro systémy, které vyžadují vysokou dostupnost a odolnost
+	- Např. velké e-commerce, sociální sítě, systémy pro analýzu dat v reálném čase
+- **Nevhodné**:
+	- Pro aplikace vyžadující silnou konzistenci
+	- Aplikace se složitými dotazy nad strukturovanými daty
+	- Pro složité datové typy
 <!--ID: 1737106145196-->
 END
 
@@ -1177,18 +1102,20 @@ Krátce popište, případně vysvětlete na vhodných příkladech dotazovací 
 
 Back:
 
-- dotazování a updatování nad grafovou databází Neo4j
-- deklarativní (popisujeme co chceme), inspirováno SQL
-- Zaklad - subgraph pattern matching
-- ASCII art inspired syntax
-- () - nodes
-- <--, --, --> - relationships
-- Klauzule se daji temer libovolne retezit (chaining)
-- START, MATCH, WHERE, RETURN, CREATE, DELETE, SET
+Cypher slouží pro dotazování nad grafovými databázemi, zejména nad Neo4j.
+- Má deklarativní přístup, inspirováno SQL
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcfsyUuHIX44rdpqQqIThDodsiATene3QL5wCQzAuv0W8mruoJ7aCH51Nq6gLXUqaGUV2JDX-8b_GJFPwhyVllb2giV0Wp4x4oTq3w2Q_YWcq-jSXdOEEFFXiJT4sZplCFDjIWh24f6e5WhstjVXQGr56k?key=MR9RTuBxYyWmpndNFWTOiQ)
+Dotazovací jazyk:
+- Vybíráme podgrafy splňující určité podmínky
+- `()` reprezentuje node
+- `<--, --, -->` reprezentuje vztah
+- Používá se MATCH, RETURN, WHERE, WITH
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFEa_zpNLvqbAvnAMAg_6BTNPTMswdwdyoO-c5azFBCyJXWzoZfizbyz3dkgGyMpm8-zDzVgkvD_PfnkqkzH9x_2uhlNZyrt14XaHxPy-oapXwXiMEobISWT3qig4AMHdbEPomkKlOgX5_44ddfYISrBA?key=MR9RTuBxYyWmpndNFWTOiQ)
+Např. najde movie, kde hrál nějaký herec
+```
+MATCH (m:MOVIE)-[:PLAY]->(:ACTOR)
+RETURN DISTINCT m;
+```
 <!--ID: 1737106145198-->
 END
 
@@ -1201,19 +1128,17 @@ Krátce popište, případně vysvětlete na vhodných příkladech dotazovací 
 
 Back:
 
-- XQuery operuje nad stromovou strukturou xml dokumentů nebo relačních databází
-- Je nadstavba XPath umožňující složitější konstrukty
-- Velmi komplexní dotazovací XML jazyk. Jsou v něm obsaženy téměř všechny konstrukce XPathu (používají se XPathové výrazy na dotazování uzlů).
-- Nové jazykové konstrukce v XQuery (oproti XPathu):
-  - konstruktory
-  - FLWOR (For, Let, Where, Order by, Return)
-  - Kvantifikátory (some|every … in … satisfies …)
-  - If-then-else
-  - effective boolean value
+XQuery slouží k dotazování nad stromovou strukturou XML dokumentu.
+- Je nadstavba XPath umožňující složitější konstrukty:
+	- FLWOR - For, Let, Where, Order by, Return
+	- Kvantifikátory - some, every, ...
+	- If-then-else
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnor2e8KEbdVkQbkllQRld1Ni5rDECIR_ALkkRXkZXIHVTPe81zwlIvDW63tyeyrLq2tdhzydkZl8Dl52Zb4T4mLIv89LAWtSN3kxw616oqGVPLAH1zIylpjr-gNTUQukRzmtgdFyaE-Zap_fdQj8wVrw?key=MR9RTuBxYyWmpndNFWTOiQ)
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeRg48m-JB3fYFSZOCvdvw8xUVs1Fic-5w_NiBOfZGWNw6KhWMgqAfwN4VlppbvKoQm_ncGn1nWW95TKCweNnufeqoLIz3GjoQzmTAeNDWxsGCgZyqD_EH7ScOglmiKL6gxwNlArn8lLtEeDBxesNo6_w?key=MR9RTuBxYyWmpndNFWTOiQ)
+**Např.** výběr všech elementů s tagem `<book>`
+```xquery
+for $book in doc("books.xml")//book 
+return $book
+```
 <!--ID: 1737106145201-->
 END
 
@@ -1226,8 +1151,7 @@ Krátce popište, případně vysvětlete na vhodných příkladech dotazovací 
 
 Back:
 
-- vychází z JavaScriptu, tečková notace
-- umí CRUD  (Create, Read, Update, Delete), MapReduce
+- Vychází z JavaScriptu, tečková notace
 - db - handle na databázové spojení
 - movies - kolekce
 - **find(selekce, projekce)** - metoda (jako SELECT), může být například update atd.
@@ -1236,7 +1160,7 @@ Back:
 - **sort(key_obj)** - řazení, 1 = ASC, -1 = DESC
 - **pretty()** - jen formátuje výstup, aby byl čitelnější (řádky, odsazení)
 
-```
+```javascript
 db.movies.find(
     {
         year: { $gte: 2000, $lte: 2005 },
@@ -1245,39 +1169,7 @@ db.movies.find(
     { _id: 1 }
 ).sort(
     { rating: -1, year: 1 }
-).pretty();
-
-```
-
-Advanced querying in MongoDB: aggregate()
-
-- Syntax: db.collection.aggregate(pipeline, options)
-- pipeline: array, a sequence of data aggregation operations or stages, see [here](https://www.mongodb.com/docs/manual/reference/operator/aggregation-pipeline#).
-- options: optional argument, document, for specifying options, for example: collation, comment, read/write concern and others.
-- A full list of aggregation operators for reference: [aggregation operators](https://www.mongodb.com/docs/manual/reference/operator/aggregation/).
-
-Example: calculate the totals of shipped orders per customer and sort them in descending order:
-
-```
-db.orders.aggregate([
-{ $match: { status: "shipped" } },
-{ $group: { _id: "$cust_id", total: { $sum: "$amount" } } },
-{ $sort: { total: -1 } }
-])
-```
-
-- Aggregate() can be used to perform "join". In this case [$lookup](https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/#mongodb-pipeline-pipe.-lookup) stage is used, syntax:
-
-```
-{
-   $lookup:
-     {
-       from: <collection to join>,
-       localField: <field from the input documents>,
-       foreignField: <field from the documents of the "from" collection>,
-       as: <output array field>
-     }
-}
+);
 ```
 <!--ID: 1737106145203-->
 END
@@ -1293,9 +1185,29 @@ Charakterizujte rozdíly mezi tzv. **micro a complex benchmarkem** v databáz�
 
 Back:
 
-Micro-benchmarking uses artificial workloads that test a particular type of operation, for example, performing a single type of file system I/O, database query, CPU instruction, or system call. The advantage is the simplicity: narrowing the number of components and code paths involved results in an easier target to study and allows performance differences to be root-caused quickly. Tests are also usually repeatable, because variation from other components is factored out as much as possible. Micro-benchmarks are also usually quick to test on different systems. And because they are deliberately artificial, micro-benchmarks are not easily confused with real workload sim
+**Micro**:
+- **Testované aspekty:**
+    - Rychlost jednotlivých operací (např. čas potřebný k vložení jednoho záznamu, čtení z databáze, atd.).
+    - Latence a propustnost při konkrétních operacích.
+- **Výhody:**
+    - Poskytuje detailní informace o výkonu jednotlivých operací nebo komponent databázového systému.
+    - Usnadňuje porovnání výkonu mezi různými implementacemi nebo konfiguracemi pro konkrétní operace.
+- **Nevýhody:**
+    - Výsledky jsou často vysoce specifické a nemusí odrážet skutečný výkon systému v reálných aplikacích.
+    - Nezohledňuje komplexní interakce mezi více operacemi nebo systémy.
 
-Complex benchmark testují výkon databáze v “real-world” podmínkách jako celek za určitých podmínek a situací viz další otázky níže.
+**Complex**:
+- **Testované aspekty:**
+    - Výkon při běhu celé aplikace nebo systému.
+    - Zátěžová testování při vysokém počtu uživatelů nebo požadavků.
+    - Dlouhodobá stabilita a odolnost systému.
+    - Měření latence a propustnosti v reálných podmínkách.
+- **Výhody:**
+    - Poskytuje ucelený pohled na výkon databázového systému v reálných podmínkách.
+    - Zohledňuje vliv více operací a interakcí mezi součástmi systému.
+- **Nevýhody:**
+    - Může být složitější na nastavení a vyžaduje složitější testovací scénáře.
+    - Výsledky mohou být ovlivněny externími faktory, jako jsou konfigurace hardwaru, síťové podmínky a další.
 <!--ID: 1737106145206-->
 END
 
@@ -1321,22 +1233,19 @@ Vysvětlete princip benchmarku **TPC-C**. Co je výstupem benchmarku?
 
 Back:
 
-- Metoda pro měření a porovnávání výkonu OLTP (Online Transaction Processing = běžná práce s daty - vytváření, úprava..) systémů (= testuje hardware i software).
-- Metriky: new-order transactions per minute (tpmC) a price/performance ($/tpmC)
-- simuluje kompletní výpočetní prostředí, ve kterém lidé vykonávají transakce proti databázi kolem aktivit (transakcí) objednávkového prostředí
-- benchmark simuluje aktivitu dodavatele, ale TPC-C není limitován na tento segment byznysu, ale vhodně reprezentuje firmy spravující, prodávající a distribuující produkty nebo služby
-- 5 typů transakcí (pravděpodobnost výběru)
-- New-order: nová objednávka
-- Payment: aktualizace účtu zákazníka
-- Delivery: doručení objednávek (batch transakce)
-- Order-status: zjištění stavu poslední zákazníkovy objednávky
-- Stock-level: monitoring stavu skladu
-- 9 tabulek, různá velikost, atributy, vztahy (viz [schéma](http://www.tpc.org/information/sessions/sigmod/sld009.htm))
-- UPDATE, INSERT, DELETE, ABORT; přístup přes primární a sekundární klíč
-- požadavky na čas odpovědi: 90 % transakcí ⇐5s, stav skladu ⇐20s
-- online i odložené transakce
-- více terminálových sessions (definuje fullscreen uživatelské rozhraní)
-- dodržování ACID transakcí
+Slouží na **OLTP**:
+- Máme nějaký obchod s databází
+- Nad ním máme jasně zadefinované operace a transakce
+- Je definovaná zátěž té databáze a jednotlivá data
+
+Následně:
+- Spustí se simulace, která to bude škálovat a zatěžovat
+	- Tím postupně získávám informace o tom, jak moc lze databázi škálovat atd.
+- Jakmile naškáluju až do limitu mého hardwaru, nechám to chvíli bežet a zaznamenám výsledky benchmarku
+
+Metriky:
+- $tpmC$ - new-order transaction rate = při maximálním zatížení databáze, kolik jsem schopný zpracovat nových objednávek
+- $\$/tpmC$ - kolik mě jedna nová objednávka stojí peněz 
 <!--ID: 1737106145212-->
 END
 
@@ -1349,17 +1258,15 @@ Vysvětlete princip benchmarku **TPC-E**. Co je výstupem benchmarku?
 
 Back:
 
-- Metoda pro simulaci zatížení OLTP (Online Transaction Processing = běžná práce s daty - vytváření, úprava..) aplikace u makléřské firmy/obchod na burze
-- Motivace: TPC-C byl příliš jednoduchý, měřil na příliš málo tabulek, data vypadala uměle, používal málo typů transakcí
-- Metriky: transakce zpracované serverem za vteřinu (tpsE) a price/tpsE
-- OLTP benchmark používá databázi k simulaci makléřské firmy se zákazníky generujícími transakce o obchodech, dotazy na účty, průzkumy trhu, vykonává objednávky pro zákazníky a aktualizuje údaje o účtech
-- škálovatelný pro potřeby konkrétního prostředí, definuje potřebný počet transakcí na systém
-- navrženo pro podporu široké škály OLTP systémů, nejen makléřské firmy
-- Používá pseudoreálná data
-- Aplikuje integritní omezení na úrovni DB
-- Celý benchmark se zaměřuje na centrální databázi, která provádí operace vztahující se ke klientským účtům dané firmy. TPC-E modeluje aktivitu firmy, která musí spravovat klientské účty, provádět obchodní operace klientů a být odpovědná za interakce zákazníků s finančními trhy. Ačkoli je model metody TPC-E zaměřen na makléřskou firmu, tak databázové schéma, transakce i implementační pravidla byly navrženy tak, aby reprezentovaly širokou variaci moderních OLTP systémů.
-- 33 tabulek
-- [Specifikace](https://www.tpc.org/tpc_documents_current_versions/current_specifications5.asp)
+Slouží na **OLTP**:
+
+Jako příklad je obchodování společnosti, která se zabývá obchodováním s akciema a managování uživatelských účtů.
+
+TPC-E je složitější, je tam větší rozmanitost transakcí atd.
+
+Metriky:
+- $TPsE$ - transactions per second u **jakékoliv** transakce
+- $Price/TPsE$
 <!--ID: 1737106145214-->
 END
 
@@ -1372,22 +1279,13 @@ Vysvětlete princip benchmarku **TPC-H**. Co je výstupem benchmarku?
 
 Back:
 
-- benchmark pro databáze k podpoře rozhodování, práce s velkými objemy dat, vysoce komplexní dotazy; periodické aktualizace, provoz databáze 24/7
-- OLAP (Online Analytical Processing = málo transakcí, zejména SELECT, složité dotazy, agregace) benchmark
-- byznysově orientované ad-hoc dotazy, konkurentní modifikace dat
-- dotazy a data v databázi vybrané pro široké průmyslové užití
-- Metriky: Composite Query-per-Hour (QphH@Size), reflektuje více aspektů možností systému ke zpracování dotazů a $/QphH@Size
-- velikost databáze proti vykonávaným dotazům, výkon při zpracování sekvenčně a paralelně
-- Velikost db je fixní
+Slouží pro OLAP
+Máme databázi fixní velikosti
 
-Hodnota výsledku reflektuje několik různých aspektů jak je systém schopen provést  požadovaný dotaz. Tyto aspekty zahrnují:
-
-- zvolenou velikost databáze oproti zvoleným dotazům
-- výpočetní výkon na jednom stream
-- propustnost dotazu pro více uživatelů najednou
-  Obecně platí, že čím vyšší číslo, tím lepší.
-
-Doplnení: Bylo by super kouknout na [https://www.fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-pdb/pdb_vzor_2011-05-10](https://www.fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-pdb/pdb_vzor_2011-05-10)\*\*
+Máme tyto metriky:
+- $QphH@Size$ - Composite Query-perHour performance metric
+- $\$/QphH@Size$ - Price/Performance metric
+$Size$ je velikost databáze.
 <!--ID: 1737106145217-->
 END
 
