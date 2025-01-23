@@ -26,14 +26,14 @@ FILE TAGS: NI-KOP
 - [3. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-03 "škola:předměty:mi-paa:paa_zkouska_2023-02-03")✔️
 - [10. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-10 "škola:předměty:mi-paa:paa_zkouska_2023-02-10")✔️
 #### 2022
-- [6. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-06 "škola:předměty:mi-paa:paa_zkouska_2021-01-06")
-- [11. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-11 "škola:předměty:mi-paa:paa_zkouska_2021-01-11")
-- [24. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-24 "škola:předměty:mi-paa:paa_zkouska_2021-01-24")
-- [25. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-25 "škola:předměty:mi-paa:paa_zkouska_2021-01-25")
-- [3. 2. 2022 14:30](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-02-03_14_30 "škola:předměty:mi-paa:paa_zkouska_2021-02-03_14_30")
+- [6. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-06 "škola:předměty:mi-paa:paa_zkouska_2021-01-06")✔️
+- [11. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-11 "škola:předměty:mi-paa:paa_zkouska_2021-01-11")✔️
+- [24. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-24 "škola:předměty:mi-paa:paa_zkouska_2021-01-24") ✔️
+- [25. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-25 "škola:předměty:mi-paa:paa_zkouska_2021-01-25")✔️
+- [3. 2. 2022 14:30](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-02-03_14_30 "škola:předměty:mi-paa:paa_zkouska_2021-02-03_14_30")✔️
 #### 2021
-- [8. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-08 "škola:předměty:mi-paa:paa_zkouska_2021-01-08")
-- [12. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-12 "škola:předměty:mi-paa:paa_zkouska_2021-01-12")
+- [8. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-08 "škola:předměty:mi-paa:paa_zkouska_2021-01-08")✔️
+- [12. 1. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-12 "škola:předměty:mi-paa:paa_zkouska_2021-01-12")✔️
 
 ### Otázky
 
@@ -82,7 +82,6 @@ END
 ---
 
 
-
 START
 FIT-Card
 
@@ -100,7 +99,6 @@ A) ❌má za úkol opravit konfiguraci tak, aby byla řešením
 B) ❌typicky nahrazuje optimalizační kritérium stanovenou konstantní pokutou
 C) ❌v případě 3-SAT, spočívá ve snížení počtu klauzulí instance
 D) ✅**zlepšuje dosažitelnost ve stavovém prostoru**
-
 
 END
 
@@ -154,6 +152,27 @@ END
 START
 FIT-Card
 
+Relaxace v iterativních lokálních heuristikách
+
+A) nezávisí na vlastnostech konkrétní konfigurace, vyjadřuje pouze fakt, že řešením není
+B) zhoršuje dosažitelnost ve stavovém prostoru
+C) spočívá v použití snadných instancí pro závěrečné vyhodnocení
+
+Back:
+
+A) ❌nezávisí na vlastnostech konkrétní konfigurace, vyjadřuje pouze fakt, že řešením není
+B) ❌zhoršuje dosažitelnost ve stavovém prostoru
+C) ❌spočívá v použití snadných instancí pro závěrečné vyhodnocení
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
 Srovnáváte dva deterministické algoritmy A a B, za účelem teoretického poznání závislosti počtu kroků na velikosti instance. Pro algoritmus B, různé instance jedné velikosti vykazují velký rozptyl v počtu kroků.
 
 A) Počet kroků pro algoritmus B zprůměrujete, protože rozptyl není součástí hodnocení.
@@ -183,6 +202,8 @@ B) Pokud zjistíte, že B je třikrát rychlejší než A (tedy se dá za noc sp
 C) Použijete primárně náhodně generované instance.
 D) Použijete přednostně instance „nachytané" při předchozím manuálním řízení.
 E) Pro každou instanci srovnáte dosažené optimalizační kritérium jedním během algoritmů A a B. 
+F) Jako jedno spuštění algoritmu lze teoreticky uvažovat tolik běhů každého algoritmu, aby byl naplněn časový limit, a výběr nejlepšího řešení z nich.
+
 
 Back:
 
@@ -191,14 +212,100 @@ B) ✅**Pokud zjistíte, že B je třikrát rychlejší než A (tedy se dá za n
 C) ❌Použijete primárně náhodně generované instance.
 D) ✅**Použijete přednostně instance „nachytané" při předchozím manuálním řízení.**
 E) ❌Pro každou instanci srovnáte dosažené optimalizační kritérium jedním během algoritmů A a B. 
+F) ✅**Jako jedno spuštění algoritmu lze teoreticky uvažovat tolik běhů každého algoritmu, aby byl naplněn časový limit, a výběr nejlepšího řešení z nich.**
 
 END
 
 ---
 
 
-#### Simulované ochlazování
+START
+FIT-Card
 
+Podle teorie stavebních bloků,
+A) složitější schemata (vyššího řádu) přežívají lépe
+B) schemata, jejichž proměnné jsou rozptýleny po celém genotypu, přežívají hůře
+C) mutace zhoršuje přežívání všech schemat (i když ne všech stejně)
+D) uvažované jednobodové křížení má za následek závislost přežívání na délce schematu
+
+Back:
+
+A) ❌složitější schemata (vyššího řádu) přežívají lépe
+B) ✅**schemata, jejichž proměnné jsou rozptýleny po celém genotypu, přežívají hůře**
+C) ✅**mutace zhoršuje přežívání všech schemat (i když ne všech stejně)**
+D) ✅**uvažované jednobodové křížení má za následek závislost přežívání na délce schematu**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Máte experimentálně vyhodnotit, zda randomizovaný algoritmus, který vyvíjíte, je citlivý na určitou charakteristiku instancí
+
+A) Použijete přednostně instance „nachytané” při provozu podobného algoritmu v praxi, i když zkoumanou charakteristiku u nich nelze spolehlivě
+B) Použijete přednostně instance vygenerované se známými vlastnostmi.
+C) Použijete instance různých vlastností tak, aby bylo možné srovnání podobných instancí, avšak s či bez zkoumané charakteristiky.
+D) Výpočet spustíte opakovaně pro každou instanci.
+
+Back:
+
+A) ❌Použijete přednostně instance „nachytané” při provozu podobného algoritmu v praxi, i když zkoumanou charakteristiku u nich nelze spolehlivě
+B) ✅**Použijete přednostně instance vygenerované se známými vlastnostmi.**
+C) ✅**Použijete instance různých vlastností tak, aby bylo možné srovnání podobných instancí, avšak s či bez zkoumané charakteristiky.**
+D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Globální metoda je aplikována na grafový problém. Instance je graf, velikost instance n se měří počtem uzlů grafu. Dekompozice produkuje v čase $O(n)$
+dvě podinstance, které obsahují vždy poloviční počet uzlů (nevíme které uzly) a hrany mezi nimi. Kompozice a řešení triviálních instancí je v konstantním
+čase. Algoritmus
+
+A) dá nutně optimální řešení
+B) je $O(n^2)$
+C) je pseudopolynomiální
+D) je polynomiální ve velikosti instance
+
+Back:
+
+A) ❔❔❔ dá nutně optimální řešení
+B) ❔❔❔je $O(n^2)$
+C) ❔❔❔je pseudopolynomiální
+D) ❔❔❔je polynomiální ve velikosti instance
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Reprezentace stavu v tabu prohledáváni je Hamiltonova kružnice v grafu. Tah je dvojzáména na hranách (odebereme z kružnice dvé hrany a přidáme dvě jiné tak, aby výsledek byla opět Hamiltonova kružnice). Tah je tabu, pokud některá hrana cílové dvojice se často v konfiguraci vyskytovala. Pokud však zlepšeni opt. kritéria Je vetší než určitý práh, tabu je prolomeno. Toto poslední opatteni je
+
+A) diverzifikace
+B) intenzifikace
+C) aspirace
+
+Back:
+
+A) ❌diverzifikace
+B) ✅**intenzifikace**
+C) ❌aspirace
+
+END
+
+---
+
+#### Simulované ochlazování
 
 START
 FIT-Card
@@ -223,6 +330,28 @@ B) ✅**Použijete instance různé velikosti.**
 C) ✅**Použijete instance s rozdílnou hloubkou lokálních minim**.
 D) ❌Problému se vyhnete převzetím algoritmu, který fungoval
 uspokojivě na jiném kombinatorickém optimalizačním problému.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Máte experimentálné vyhodnotit, zda Vámi navržené nastavení simulovaného ochlazováni má dostatečnou iterativní sílu.
+
+A) Budete métit závislost času vypočtu na velikosti instance.
+B) Budete méiit kvalitu výsledku pro více různých počátečních tešení.
+C) Soubor zkušebních instancí můžete omezit na menší instance.
+D) Výpočet spustíte opakované pro každou instanci a počáteční řešení
+
+Back:
+
+A) ❌Budete métit závislost času vypočtu na velikosti instance.
+B) ✅**Budete méiit kvalitu výsledku pro více různých počátečních tešení.**
+C) ❌Soubor zkušebních instancí můžete omezit na menší instance.
+D) ✅**Výpočet spustíte opakované pro každou instanci a počáteční řešení**
 
 END
 
@@ -314,6 +443,73 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Máte experimentálně vyhodnotit, zda chování algoritmu, který automaticky nastavuje počáteční teplotu simulovaného ochlazování, odpovídá teorii, kterou jste vymysleli, a která zahrnuje několik parametrů instance. Zajímá vás také, zda tyto parametry stačí k charakterizaci instance z hlediska práce algoritmu.
+
+A) Použijete vygenerované instance se stejnými hodnotami parametrů, o kterých se hovoří ve Vaší teorii, ale různé velikosti.
+B) Použijete vygenerované instance s různými hodnotami parametrů, o kterých se hovoří ve Vaší teorii.
+C) Použijete reprezentativní mix praktických instancí.
+D) Výpočet spustíte opakovaně pro každou instanci.
+
+Back:
+
+A) ✅**Použijete vygenerované instance se stejnými hodnotami parametrů, o kterých se hovoří ve Vaší teorii, ale různé velikosti.**
+B) ✅**Použijete vygenerované instance s různými hodnotami parametrů, o kterých se hovoří ve Vaší teorii.**
+C) ❌Použijete reprezentativní mix praktických instancí.
+D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Volba počáteční teploty v simulovaném ochlazování
+
+A) pro dosažení nejlepšlho výsledku, může vyžadovat odpovídající volbu
+koeficientu ochlazování
+B) závisí na obtížnosti konkrétní instance
+C) závisí na rozsahu optimalizačního kritéria dané instance
+
+Back:
+
+A) ✅**pro dosažení nejlepšlho výsledku, může vyžadovat odpovídající volbu**
+**koeficientu ochlazování**
+B) ✅**závisí na obtížnosti konkrétní instance**
+C) ✅**závisí na rozsahu optimalizačního kritéria dané instance**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Máte simulované ochlazování s automatickým nastavováním počáteční teploty. Jak ověříte správnost nastavování počáteční teploty?
+
+A) Pustim na instance ruznych velikosti  
+B) Pustim na instance ruznych hloubek  
+C) Pustim na mnoho malych instanci, abych to urychlil  
+D) Vypocet spustite opakovane pro kazdou instanci
+
+Back:
+
+A) ✅**Pustim na instance ruznych velikosti**  
+B) ✅**Pustim na instance ruznych hloubek**  
+C) ❌Pustim na mnoho malych instanci, abych to urychlil  
+D) ✅**Vypocet spustite opakovane pro kazdou instanci**
+
+END
+
+---
+
+
 #### Evoluční/genetické programování
 
 
@@ -332,6 +528,28 @@ A) ❌vektoru reálných Čísel
 B) ❌rozkladového stromu 'Úrazu
 C) ❌binárního řetězu
 D) ✅**automatu**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Evoluční programování pracuje nad
+
+A) stromovou reprezentací programu
+B) reprezentací automatu
+C) lineární reprezentací strojového kódu
+D) orientovaným acyklickým grafem datových závislostí
+
+Back:
+
+A) ❌stromovou reprezentací programu
+B) ✅reprezentací automatu
+C) ❌lineární reprezentací strojového kódu
+D) ❌orientovaným acyklickým grafem datových závislostí
 
 END
 
@@ -373,6 +591,26 @@ Back:
 A) ❌pravděpodobnost aplikace operátoru „cut and splice"
 B) ✅**konstanty lineárního škálování**
 C) ✅**konstanty rankingu**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s výběrem ruletou, může přímo nastavovat
+
+A) konstanty převodu ranku (pořadí zdatnosti) na pravděpodobnost výběru
+B) konstanty lineárního škálování
+C) pravděpodobnost aplikace operátoru „Cut and splice”
+
+Back:
+
+A) ❔❔❔konstanty převodu ranku (pořadí zdatnosti) na pravděpodobnost výběru
+B) ✅**konstanty lineárního škálování**
+C) ❌pravděpodobnost aplikace operátoru „Cut and splice”
 
 END
 
@@ -476,7 +714,7 @@ Back:
 
 A) ✅**povaha stavového prostoru („landscape") se v okolí globálnłho minima prudce mění**
 B) ❌pracujeme s přiliš malou pravděpodobností mutace
-C)❔❔❔adaptace selekčního tlaku nepracuje dostatečně dobře
+C) ✅adaptace selekčního tlaku nepracuje dostatečně dobře
 
 END
 
@@ -686,7 +924,6 @@ END
 
 ---
 
-
 #### Konkrétní problémy
 
 START
@@ -783,6 +1020,147 @@ END
 
 ---
 
+#### Dynamické programování
+
+START
+FIT-Card
+
+Dynamické programování je aplikováno na grafový problém. Používá jako klíč k výběru z paměti řešení podinstancí dvojici diskrétních proměnných (p, q), kde p je index uzlu a q index hrany. Velikost instance se měří počtem uzlů. Složitost kompozice a dekompozice je konstantní. Algoritmus
+
+A) má exponenciální dolní asymptotickou mez složitosti
+B) je pseudopolynomiální
+C) má kubickou horní asymptotickou mez složitosti
+D) pokud se nepoužijí stupně, paměť vyžaduje kubické množství řešení podinstancí
+
+Back:
+
+A) ❔❔❔má exponenciální dolní asymptotickou mez složitosti
+B) ❌je pseudopolynomiální
+C) ❔❔❔má kubickou horní asymptotickou mez složitosti
+D) ❔❔❔pokud se nepoužijí stupně, paměť vyžaduje kubické množství řešení podinstancí
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Dynamické programování je aplikováno na grafový problém. Velikost instance n se měří počtem uzlů. Používá jako klíč k výběru z paměti řešení podinstancí dvojici diskrétních proměnných $(p, q)$, kde $p$ je index uzlu a $q$ index hrany. Všechny podinstance je třeba řešit. Dekompozice a kompozice má složitost $O(n)$, kde $n$ je velikost původní instance. Algoritmus
+
+A) má složitost rostoucí nejméně se čtvrtou mocninou velikosti instance
+B) má složitost rostoucí nejvýše se třetí mocninou velikosti instance
+C) je pseudopolynomiálnĺ
+D) pokud nepoužíváme rozdělení na stupně, paměť podinstancí roste nejméně se třetí mocninou velikosti instance
+E) je globální metoda
+
+Back:
+
+A) ✅**má složitost rostoucí nejméně se čtvrtou mocninou velikosti instance**
+B) ❌má složitost rostoucí nejvýše se třetí mocninou velikosti instance
+C) ❌je pseudopolynomiálnĺ
+D) ✅**pokud nepoužíváme rozdělení na stupně, paměť podinstancí roste nejméně se třetí mocninou velikosti instance**
+E) ✅**je globální metoda**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Dynamické programování je aplikováno na problém, kde konfigurační proměnné zobrazují graf s hranami očíslovanými $1 ... m$, kde m je počet hran instance.
+Velikost instance se měří počtem uzlů $n$. Kompozice má složitost $\Theta(m)$, kde $m$ je počet hran právě dekomponované podinstance. Podinstance jsou tvořené
+nějakými $m — 1$ hranami, každá je vypočítána. Algoritmus
+
+A) má složitost rostoucí nejvýše s druhou mocninou velikosti instance
+B) má složitost rostoucí nejvýše se čtvrtou mocninou velikosti instance
+C) má složitost nejméně exponenciální ve velikosti instance
+D) je pseudopolynomiální
+
+Back:
+
+A) ❔❔❔má složitost rostoucí nejvýše s druhou mocninou velikosti instance
+B) ❌má složitost rostoucí nejvýše se čtvrtou mocninou velikosti instance
+C) ✅**má složitost nejméně exponenciální ve velikosti instance**
+D) ❔❔❔je pseudopolynomiální
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Dynamické programování používá jako klíč $k$ výběru z paměti řešení podinstancí k-tici binárních proměnných, kde $k = log N$ a $N$ je velikost instance. Postup výpočtu je od triviálních podinstancĺ k finálnímu řešení, každou hodnotu je třeba vypočíst. Složitost kompozice a dekompozice je konstantní. Algoritmus je
+
+A) lineární
+B) pseudopolynomiálnĺ
+C) polynomiální
+D) exaktní metoda
+
+Back:
+
+A) ✅**lineární**
+B) ❌pseudopolynomiálnĺ
+C) ✅**polynomiální**
+D) ✅**exaktní metoda**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Dynamické programování je aplikováno na problém, kde vstupní proměnné zobrazují graf s uzly očíslovanými $1 ... n$, kde $n$ je velikost instance a dále kladné číslo $K$. Podinstance je tvořena prvními $m - 1$ hranami, kde mje počet hran právě dekomponované instance, každá podinstance může mit jiné $K$, nejvýše rovné $log K$
+právě dekomponované instance. Kompozice a dekompozice mají složitost $\Theta(log M)$. Existují instance, kde je třeba vyřešit všechny podinstance. Algoritmus
+
+A) má lineární horní asymptotickou mez složitosti
+B) má exponenciální dolní asymptotickou mez složitosti
+C) má polynomiální horní asymptotickou mez složitosti
+D) je pseudopolynomiální
+
+Nápověda: připomeňte si jemnou míru velikosti instance.
+
+Back:
+
+A) ❌má lineární horní asymptotickou mez složitosti
+B) ❌má exponenciální dolní asymptotickou mez složitosti
+C) ✅**má polynomiální horní asymptotickou mez složitosti**
+D) ❌je pseudopolynomiální
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Dynamické programováni Je aplikováno na grafový problém. Velikost instance Je charakterizována počtem uzlů. Podłnstance je charakterizována podgrafem grafu zadaného v instanci o nejvýše n/2 uzlech, kde n je velikost instance. Kompozice a dekompozice mají lineární složitost. Algoritmus je
+
+A) exponenciální
+B) pseudopolynomiální
+C) polynomiální
+D) globální metoda
+
+Back:
+
+A) ❌exponenciální
+B) ❌pseudopolynomiální
+C) ✅**polynomiální**
+D) ❌globální metoda
+
+END
+
+---
+
+
 #### Las Vegas, Messy, Monte carlo
 
 
@@ -807,6 +1185,29 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Genetické operátory Fast Messy GA algoritmu pracují nad
+
+A) reprezentací individua
+B) zdatností individua
+C) množinami hodnot genů
+D) reprezentací individua, kde některé geny nejsou ohodnoceny a některé jsou
+ohodnoceny víckrát
+
+Back:
+
+A) ❌reprezentací individua
+B) ❌zdatností individua
+C) ✅**množinami hodnot genů**
+D) ❌reprezentací individua, kde některé geny nejsou ohodnoceny a některé jsou
+ohodnoceny víckrát
+
+END
+
+---
 
 START
 FIT-Card
@@ -887,7 +1288,7 @@ D) Výpočet spustíte opakovaně pro každou instanci.
 Back:
 
 A) ❌Použijete instance „nachytané" z praxe.
-B) ❔❔❔Použijete instance vygenerované tak, aby každá instance zadané velikosti byla stejné pravděpodobná.
+B) ✅Použijete instance vygenerované tak, aby každá instance zadané velikosti byla stejné pravděpodobná.
 C) ❌Použijete instance jedné velikosti.
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
 
@@ -991,6 +1392,130 @@ END
 ---
 
 
+START
+FIT-Card
+
+Reprezentace stavu v tabu prohledávání je binární řetěz konstantní délky. Tah je tabu, pokud se výsledný stav liší ve více než v $K$ bitech. Potřebujete zvýšit diverzifikaci.
+
+A) snížíte $K$
+B) zvýšíte $K$
+C) K nemá na diverzifikaci vliv
+
+Back:
+
+A) ❌snížíte $K$
+B) ✅**zvýšíte $K$**
+C) ❌K nemá na diverzifikaci vliv
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Reprezentace stavu v tabu prohledávání je cesta v grafu. Tabu pravidla směřují k diverzifikaci. Dlouhodobá paměť dává četnost použití každého uzlu v kandidátní cestě. I když je daný tah tabu, provede se, jestliže tato četnost je nižší než k procent průměru. Potřebujete zvýšit intenzifikaci.
+
+A) snížíte $k$
+B) zvýšíte $k$
+C) $k$ nemá na intenzifikaci vliv
+
+Back:
+
+A) ✅**snížíte $k$**
+B) ❌zvýšíte $k$
+C) ❌$k$ nemá na intenzifikaci vliv
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
+Reprezentace stavu v tabu prohledávání je cesta v grafu. Dlouhodobá paměť dává četnost použití každého uzlu v kandidátní cestě. I když je daný tah tabu, provede
+se, jestliže tato četnost je nižší než 0,05 průměru. Toto opatření je
+
+A) diverzifikace
+B) intenzifikace
+C) aspirace
+
+Back:
+
+A)✅**diverzifikace**
+B) ❌intenzifikace
+C) ✅**aspirace**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Reprezentace stavu v tabu prohledávání je binární retéz konstantní délky. Tah je tabu, pokud se výsledný stav liší ve více než polovině bitů, Nicméně se
+provede, jestliže se nastaví do 1 nebo 0 bit, který tak dosud nastaven nebyl. Toto poslední opatiení je
+
+A) diverzifikace
+B) intenzifikace
+C) aspirace
+
+Back:
+
+A) ❔❔❔diverzifikace
+B) ❔❔❔intenzifikace
+C) ❔❔❔aspirace
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
+Tabu prohledávání konverguje velmi pomalu, i když s dobrými výsledky. K nápravě
+
+A) přidáme aspirační kritérium, spouštěné dosud nejlepším řešením
+B) přidáme aspirační kritérium, spouštěné malou frekvencí atributů tahu
+C) k optimalizačnímu kritériu přidáme odměnu za malou frekvenci atributů tahu
+
+Back:
+
+A) ✅**přidáme aspirační kritérium, spouštěné dosud nejlepším řešením**
+B) ❌přidáme aspirační kritérium, spouštěné malou frekvencí atributů tahu
+C) ❌k optimalizačnímu kritériu přidáme odměnu za malou frekvenci atributů tahu
+
+END
+
+---
+
+
+START
+FIT-Card
+
+V tabu algoritmu je řešení reprezentováno binárním vektorem. V dlouhodobé paměti máme uložen pro každý bit dosavadní četnost nastavení do 1. Jestliže definujeme aspirační kritérium, které prolomí tabu při nastavení určitého bitu do 1 pro zaznamenanou četnost větší než 0.7 nebo při nastavení do 0 pro zaznamenanou četnost menší než 0.3, je to
+
+A) diverzifikace
+B) intenzifikace
+C) omezení okolí
+
+Back:
+
+A) ❌diverzifikace
+B) ✅**intenzifikace**
+C) ❌omezení okolí
+
+END
+
+---
+
+
 #### Otevřené otázky
 
 
@@ -1045,9 +1570,9 @@ Problém minimální transformace stromu
 
 Back:
 
-Týpek dostal 8/10b
+Autor dostal 12/12b
 
-![](../../Assets/Pasted%20image%2020250123144625.png)
+![](../../Assets/Pasted%20image%2020250123180432.png)
 
 END
 
@@ -1059,7 +1584,7 @@ FIT-Card
 
 Problém kvadratického přiřazení
 
-![](../../Assets/Pasted%20image%2020250123154344.png)
+![](../../Assets/Pasted%20image%2020250123182553.png)
 
 Back:
 
@@ -1212,7 +1737,8 @@ Problém nejkratšího pojezdu jeřábu
 
 Back:
 
-TODO doplnit
+Autor dostal 12/12b
+![](../../Assets/Pasted%20image%2020250123181727.png)
 
 END
 
@@ -1247,6 +1773,38 @@ Back:
 Autor dostal 7/10b
 ![](../../Assets/Pasted%20image%2020250123174315.png)
 ![](../../Assets/Pasted%20image%2020250123174322.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Problém celočíselných multikomoditních toků ve stromu
+
+![](../../Assets/Pasted%20image%2020250123175328.png)
+
+Back:
+
+TODO doplnit
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Problém minimálního routování
+![](../../Assets/Pasted%20image%2020250123181120.png)
+
+Back:
+
+Řešení 12/12b
+![](../../Assets/Pasted%20image%2020250123181129.png)
 
 END
 
