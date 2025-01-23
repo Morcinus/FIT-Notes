@@ -19,11 +19,11 @@ FILE TAGS: NI-KOP
 - [1. 2. 2024](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2024-02-01 "škola:předměty:mi-paa:paa_zkouska_2024-02-01")✔️
 #### 2023
 - [19. 12. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2022-12-19 "škola:předměty:mi-paa:paa_zkouska_2022-12-19") ✔️
-- [19. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-19 "škola:předměty:mi-paa:paa_zkouska_2023-01-19")
-- [24. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-24 "škola:předměty:mi-paa:paa_zkouska_2023-01-24")
-- [27. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-27 "škola:předměty:mi-paa:paa_zkouska_2023-01-27")
-- [1. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-01 "škola:předměty:mi-paa:paa_zkouska_2023-02-01")
-- [3. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-03 "škola:předměty:mi-paa:paa_zkouska_2023-02-03")
+- [19. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-19 "škola:předměty:mi-paa:paa_zkouska_2023-01-19") ✔️
+- [24. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-24 "škola:předměty:mi-paa:paa_zkouska_2023-01-24") ✔️
+- [27. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-27 "škola:předměty:mi-paa:paa_zkouska_2023-01-27") ✔️
+- [1. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-01 "škola:předměty:mi-paa:paa_zkouska_2023-02-01") ✔️
+- [3. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-03 "škola:předměty:mi-paa:paa_zkouska_2023-02-03")✔️
 - [10. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-10 "škola:předměty:mi-paa:paa_zkouska_2023-02-10")
 #### 2022
 - [6. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-06 "škola:předměty:mi-paa:paa_zkouska_2021-01-06")
@@ -66,20 +66,17 @@ FIT-Card
 Relaxace v iterativních lokálních heuristikách:
 
 A) má za úkol opravit konfiguraci tak, aby byla řešením
-B) typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a odhadu vzdálenosti konfigurace od řešení
-C) typicky nahrazuje optimalizační kritérium stanovenou konstantní pokutou
-D) v případě 3-SAT, spočívá ve snížení počtu klauzulí instance
-E) zlepšuje dosažitelnost ve stavovém prostoru
-F) má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením
+B) typicky nahrazuje optimalizační kritérium stanovenou konstantní pokutou
+C) v případě 3-SAT, spočívá ve snížení počtu klauzulí instance
+D) zlepšuje dosažitelnost ve stavovém prostoru
+
 
 Back:
 
 A) ❌má za úkol opravit konfiguraci tak, aby byla řešením
-B) ❔❔❔typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a odhadu vzdálenosti konfigurace od řešení
-C) ❌typicky nahrazuje optimalizační kritérium stanovenou konstantní pokutou
-D) ❌v případě 3-SAT, spočívá ve snížení počtu klauzulí instance
-E) ✅**zlepšuje dosažitelnost ve stavovém prostoru**
-F) ✅**má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením**
+B) ❌typicky nahrazuje optimalizační kritérium stanovenou konstantní pokutou
+C) ❌v případě 3-SAT, spočívá ve snížení počtu klauzulí instance
+D) ✅**zlepšuje dosažitelnost ve stavovém prostoru**
 
 
 END
@@ -108,6 +105,27 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Relaxace v iterativních lokálních heuristikách:
+
+A) má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením
+B) spočívá v použití malých instancí
+C) slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
+D) typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
+
+Back:
+
+A) ✅**má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením**
+B) ❌spočívá v použití malých instancí
+C) ❔❔❔slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
+D) ❔❔❔typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
+
+END
+
+---
 
 
 START
@@ -189,6 +207,52 @@ END
 START
 FIT-Card
 
+Máte experimentálně vyhodnotit, zda algoritmus, který automaticky nastavuje
+počáteční teplotu simulovaného ochlazování, pracuje uspokojivě.
+
+A) Použijete větší počet lehkých instancí k urychlení.
+B) Výpočet spustíte opakovaně pro každou instanci
+C) Zvolíme jednotnou velikost instance pro všechny experimenty
+D) ❔❔❔Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
+
+Back:
+
+A) ❌Použijete větší počet lehkých instancí k urychlení.
+B) ✅**Výpočet spustíte opakovaně pro každou instanci**
+C) ❌Zvolíme jednotnou velikost instance pro všechny experimenty
+D) ❔❔❔Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Máte udělat závěrečné experimentální vyhodnocení, zda algoritmus, který automaticky nastavuje počáteční teplotu simulovaného ochlazování, pracuje uspokojivé pro praktické nasazení.
+
+A) Použijete vygenerované instance stejné velikosti.
+B) Použijete praktické instance stejné velikosti.
+C) Použijete reprezentativní mix praktických instancí.
+D) Výpočet spustíte opakovaně pro každou instanci.
+
+Back:
+
+A) ❌Použijete vygenerované instance stejné velikosti.
+B) ❌Použijete praktické instance stejné velikosti.
+C) ✅**Použijete reprezentativní mix praktických instancí**.
+D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
 Heuristika, která nastavuje parametry simulovaného ochlazování
 
 A) má vždy brát v úvahu rozsah optimalizačního kritéria nebo jej normovat
@@ -205,6 +269,25 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Koncová teplota v simulovaném ochlazování
+
+A) je-li přiliš vysoká, omezuje prohledávanou část stavového prostoru
+B) vždy musí zůstat konstantní, pokud se mění počáteční teplota
+C) dá se s výhodou určovat za běhu sledováním konvergence
+
+Back:
+
+A) ❔❔❔je-li přiliš vysoká, omezuje prohledávanou část stavového prostoru
+B) ❌vždy musí zůstat konstantní, pokud se mění počáteční teplota
+C) ✅**dá se s výhodou určovat za běhu sledováním konvergence**
+
+END
+
+---
 
 #### Evoluční/genetické programování
 
@@ -295,7 +378,7 @@ END
 START
 FIT-Card
 
-Máte experimentálně vyhodnotit, zda algoritmus, který automaticky udržuje selekční tlak v genetickém algoritmu, pracuje uspokojivé. Provedete následující:
+Máte experimentálně vyhodnotit, zda algoritmus, který automaticky udržuje selekční tlak v genetickém algoritmu, pracuje uspokojivě. Provedete následující:
 
 A) Budete měřit četnost mutace v závislosti na poměrné zdatnosti.
 B) Budete měřit četnost výběru (selekce) v zavislosti na poměrné zdatnosti.
@@ -306,7 +389,7 @@ Back:
 
 A) ❌Budete měřit četnost mutace v závislosti na poměrné zdatnosti.
 B) ✅Budete měřit četnost výběru (selekce) v zavislosti na poměrné zdatnosti.
-C) ❌Pro každou velikost instance zvolite jednu Instanci.
+C) ❌Pro každou velikost instance zvolite jednu instanci.
 D) ❌Zvolite pouze jednu velikost instance a použijete instance rozdílné obtížnosti.
 
 END
@@ -319,16 +402,36 @@ FIT-Card
 
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s lineárním škálováním, bude **přímo** nastavovat
 
-A) Neplatí pravděpodobnost mutace
-B) Nevím konstanty přepočtu zdatnosti platí
-C) Neplatí pravděpodobnost výběru nejlepšího jedince
+A) pravděpodobnost mutace
+B) konstanty přepočtu zdatnosti platí
+C) pravděpodobnost výběru nejlepšího jedince
 
 Back:
 
-A) ❌Neplatí pravděpodobnost mutace
-B) ✅**Nevím konstanty přepočtu zdatnosti platí**
-C) ❌Neplatí pravděpodobnost výběru nejlepšího jedince
+A) ❌pravděpodobnost mutace
+B) ✅**konstanty přepočtu zdatnosti platí**
+C) ❌pravděpodobnost výběru nejlepšího jedince
 
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu používajícím lineární škálování a ruletový výběr, bude **přímo** nastavovat
+
+A) pravděpodobnost mutace
+B) výseče rulety
+C) koeficienty lineárnłho škálování
+
+Back:
+
+A) ❌pravděpodobnost mutace
+B) ❌výseče rulety
+C) ✅**koeficienty lineárnłho škálování**
 
 END
 
@@ -457,6 +560,68 @@ END
 ---
 
 
+START
+FIT-Card
+
+Genetický algoritmus tvoří novou generaci stylem $\mu + \lambda$, tj. ke generaci $\circ \ \mu$ jedincích se přidá $\lambda$ nových a z celku se vybere opět $\mu$ nejlepších jedinců. Pro $\mu = \lambda = 1$ je tento algoritmus vlastně
+
+A) metodou nejlepší nejdříve
+B) metodou prvé zlepšení
+C) náhodnou procházkou
+
+Back:
+
+A) ❌metodou nejlepší nejdříve
+B) ✅**metodou prvé zlepšení**
+C) ❌náhodnou procházkou
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Evoluční strategie pracuje nad reprezentací
+
+A) vektoru reálných čísel a odchylek
+B) rozkladového stromu výrazu
+C) binárního řetězu
+D) automatu
+
+Back:
+
+A) ✅**vektoru reálných čísel a odchylek**
+B) ❌rozkladového stromu výrazu
+C) ❌binárního řetězu
+D) ❌automatu
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Genetický algoritmus je aplikován v situaci, kdy některé části stavového prostoru mají výrazně větší hloubku lokálních minim než jiné. Využijeme
+
+A) konstantní poměrně vysokou míru mutace, aby se populace snáze dostala do „vlídnějších končin"
+B) některých vlastností lineárního škálování
+C) některé metody automatického řízení selekčního tlaku
+
+Back:
+
+A) ❌konstantní poměrně vysokou míru mutace, aby se populace snáze dostala do „vlídnějších končin"
+B) ✅**některých vlastností lineárního škálování**
+C) ❔některé metody automatického řízení selekčního tlaku
+
+END
+
+---
+
+
 #### Konkrétní problémy
 
 START
@@ -486,6 +651,31 @@ END
 START
 FIT-Card
 
+Problém minimálního obdélníkového pokrytí
+
+![](../../Assets/Pasted%20image%2020250123172716.png)
+
+A) Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s K.
+B) Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s n a m.
+C) Pro každý prvek matice, operátory generují okolí velikosti mn.
+D) Pro každý prvek matice, operátory generují okolí velikosti K.
+
+Back:
+
+A) ❔❔❔Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s K.
+B) ❔❔❔Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s n a m.
+C) ❔❔❔Pro každý prvek matice, operátory generují okolí velikosti mn.
+D) ❔❔❔Pro každý prvek matice, operátory generují okolí velikosti K.
+
+END
+
+---
+
+START
+FIT-Card
+
+Problém diskrétního rozmístění
+
 ![](../../Assets/Pasted%20image%2020250123162235.png)
 
 Nasazovaný algoritmus je iterativní. Pokud pro pozici $p$ neexistuje modul $k$, který by tam byl rozmístěn, chápe se to jako prázdný modul na pozici $p$.
@@ -495,13 +685,38 @@ B) Jestliže jediný operátor je párová změna na pozicích, tj. moduly na po
 
 Back:
 
-A) ❔❔(asi platí)❔❔Jestliže jediný operátor je párová záměna na modulech, tj. moduly $k_i$ a $k_j$, $1 \leq i \leq n$, $1 \leq j \leq n$, $i \neq j$ si vymění pozice, pak stavový prostor není souvislý.
+A) ✅Jestliže jediný operátor je párová záměna na modulech, tj. moduly $k_i$ a $k_j$, $1 \leq i \leq n$, $1 \leq j \leq n$, $i \neq j$ si vymění pozice, pak stavový prostor není souvislý.
 B) ❌Jestliže jediný operátor je párová změna na pozicích, tj. moduly na pozicích $p_i$ a $p_j$,  $1 \leq i \leq m$, $1 \leq j \leq m$, $i \neq j$ si vymění pozice, pak stavový prostor není souvislý.
 
 END
 
 ---
 
+
+START
+FIT-Card
+
+Problém diskrétního rozmístění
+
+![](../../Assets/Pasted%20image%2020250123172210.png)
+
+Konfigurační proměnné jsou formulovány jako index pozice pro každý modul. Stav je tvořen pouze ohodnocením konfiguračních proměnných. Nasazovaná heuristika pracuje s prohledávacím prostorem. Jeden krok je ohodnocení jedné proměnné. Nemá možnost odvolat ani změnit rozhodnuté ohodnocení konfigurační proměnné.
+
+A) Prohledávací prostor je vždy orientovaným stromem.
+B) Prohledávací prostor je acyklický.
+C) Heuristika skončí po n krocích.
+D) Heuristika skončí po m krocích.
+
+Back:
+
+A) ❔❔❔Prohledávací prostor je vždy orientovaným stromem.
+B) ✅**Prohledávací prostor je acyklický.**
+C) ✅**Heuristika skončí po $n$ krocích.**
+D) ❌Heuristika skončí po $m$ krocích.
+
+END
+
+---
 
 #### Las Vegas, Messy, Monte carlo
 
@@ -543,6 +758,50 @@ A) ❌stanovení fenotypu přímo z hodnot genů daného jedince a následný v�
 B) ❌výpočet odlišnosti genotypu jedince od referenčního jedince
 C) ❌založena na průměrné délce fragmentu v dané generaci
 D) ✅**dosazení hodnot fragmentů do referenčního jedince a výpočet jeho zdatnosti**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Stavební blok Fast Messy GA je vždy
+
+A) reprezentace individua
+B) ohodnocení podmnožiny genů
+C) fenotyp individua
+D) podmnožina genů referenčnłho individua
+
+Back:
+
+A) ❔❔❔reprezentace individua
+B) ✅ohodnocení podmnožiny genů
+C) ❌fenotyp individua
+D) ❔❔❔podmnožina genů referenčnłho individua
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Vnější cyklus fmGA postupně zvyšuje
+
+A) složitost referenčního individua
+B) cílovou velikost fragmentů po generování
+C) délku referenčního individua
+D) selekční tlak
+
+Back:
+
+A) ❌složitost referenčního individua
+B) ✅**cílovou velikost fragmentů po generování**
+C) ❌délku referenčního individua
+D) ❔selekční tlak
 
 END
 
@@ -797,7 +1056,8 @@ Problém nejkratšího plánu robota
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250123160642.png)
+Řešení za 10/10b
+![](../../Assets/Pasted%20image%2020250123164049.png)
 
 END
 
@@ -832,6 +1092,76 @@ Problém minimálního rozhodovacího stromu
 Back:
 
 TODO dopsat
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Problém minimální šířky pásma
+
+![](../../Assets/Pasted%20image%2020250123170510.png)
+
+Back:
+
+Pozn. řešení psal nějaký maďar a dostal 7/10b a asi to nemá úplně správně.
+
+![](../../Assets/Pasted%20image%2020250123170536.png)
+![](../../Assets/Pasted%20image%2020250123170547.png)
+![](../../Assets/Pasted%20image%2020250123170629.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Problém minimálního regulárního výrazu
+
+![](../../Assets/Pasted%20image%2020250123171432.png)
+
+Back:
+
+TODO doplnit
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Problém nejkratšího pojezdu jeřábu
+
+![](../../Assets/Pasted%20image%2020250123171945.png)
+
+Back:
+
+TODO doplnit
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Problém minimální Booleovy formule
+
+![](../../Assets/Pasted%20image%2020250123173744.png)
+
+Back:
+
+Autor dostal 9/10b
+
+![](../../Assets/Pasted%20image%2020250123173750.png)
 
 END
 
