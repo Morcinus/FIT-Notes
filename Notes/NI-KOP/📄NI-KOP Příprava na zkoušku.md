@@ -24,7 +24,7 @@ FILE TAGS: NI-KOP
 - [27. 1. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-01-27 "škola:předměty:mi-paa:paa_zkouska_2023-01-27") ✔️
 - [1. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-01 "škola:předměty:mi-paa:paa_zkouska_2023-02-01") ✔️
 - [3. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-03 "škola:předměty:mi-paa:paa_zkouska_2023-02-03")✔️
-- [10. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-10 "škola:předměty:mi-paa:paa_zkouska_2023-02-10")
+- [10. 2. 2023](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2023-02-10 "škola:předměty:mi-paa:paa_zkouska_2023-02-10")✔️
 #### 2022
 - [6. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-06 "škola:předměty:mi-paa:paa_zkouska_2021-01-06")
 - [11. 1. 2022](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-paa/paa_zkouska_2021-01-11 "škola:předměty:mi-paa:paa_zkouska_2021-01-11")
@@ -58,6 +58,29 @@ D) ✅**statistický model závislostí mezi proměnnými**
 END
 
 ---
+
+
+START
+FIT-Card
+
+Nová generace v bayesovské optimalizaci vzniká
+
+A) křížením
+B) rozdělením a spojením fragmentů genetické informace
+C) generováním podle stochastického modelu
+D) ruletovým výběrem
+
+Back:
+
+A) ❌křížením
+B) ❌rozdělením a spojením fragmentů genetické informace
+C) ✅generováním podle stochastického modelu
+D) ❌ruletovým výběrem
+
+END
+
+---
+
 
 
 START
@@ -120,8 +143,8 @@ Back:
 
 A) ✅**má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením**
 B) ❌spočívá v použití malých instancí
-C) ❔❔❔slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
-D) ❔❔❔typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
+C) ❌slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
+D) ❌typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
 
 END
 
@@ -159,6 +182,7 @@ A) Pro každou instanci srovnáte průměrnou hodnotu opt. kritéria pro několi
 B) Pokud zjistíte, že B je třikrát rychlejší než A (tedy se dá za noc spočítat třikrát), vezmete, pro každou instanci, z každých tří výsledků ten nejlepší.
 C) Použijete primárně náhodně generované instance.
 D) Použijete přednostně instance „nachytané" při předchozím manuálním řízení.
+E) Pro každou instanci srovnáte dosažené optimalizační kritérium jedním během algoritmů A a B. 
 
 Back:
 
@@ -166,6 +190,7 @@ A) ✅**Pro každou instanci srovnáte průměrnou hodnotu opt. kritéria pro n�
 B) ✅**Pokud zjistíte, že B je třikrát rychlejší než A (tedy se dá za noc spočítat třikrát), vezmete, pro každou instanci, z každých tří výsledků ten nejlepší.**
 C) ❌Použijete primárně náhodně generované instance.
 D) ✅**Použijete přednostně instance „nachytané" při předchozím manuálním řízení.**
+E) ❌Pro každou instanci srovnáte dosažené optimalizační kritérium jedním během algoritmů A a B. 
 
 END
 
@@ -622,6 +647,46 @@ END
 ---
 
 
+START
+FIT-Card
+
+V genetickém algoritmu je třeba zpomalit konvergenci. Možností je upravit pravděpodobnost mutace a nebo upravit selekční tlak. Platí
+
+A) přednostně snížíme selekční tlak
+B) přednostně zvýšíme pravděpodobnost mutace
+C) pokud snížíme selekční tlak, může dojít k divergenci a je třeba snížit i pravděpodobnost mutace
+
+Back:
+
+A) ✅**přednostně snížíme selekční tlak**
+B) ❌přednostně zvýšíme pravděpodobnost mutace
+C) ✅**pokud snížíme selekční tlak, může dojít k divergenci a je třeba snížit i pravděpodobnost mutace**
+
+END
+
+---
+
+
+START
+FIT-Card
+
+V genetickém algoritmu používáme operátor inverze, jestliže
+
+A) chceme potlačit statistickou nevyváženost uniformního křížení
+B) chceme potlačit statistickou nevyváženost jednobodového křížení
+C) současně používáme uniformní stochastický výběr
+
+Back:
+
+A) ❌chceme potlačit statistickou nevyváženost uniformního křížení
+B) ✅**chceme potlačit statistickou nevyváženost jednobodového křížení**
+C) ❌současně používáme uniformní stochastický výběr
+
+END
+
+---
+
+
 #### Konkrétní problémy
 
 START
@@ -998,6 +1063,10 @@ Problém kvadratického přiřazení
 
 Back:
 
+Za tohle borec měl 10/10b
+![](../../Assets/Pasted%20image%2020250123174808.png)
+
+Řešení 2:
 Pozn. borec za tohle mel 9/10b
 
 Konfiguracni promenne
@@ -1162,6 +1231,22 @@ Back:
 Autor dostal 9/10b
 
 ![](../../Assets/Pasted%20image%2020250123173750.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+![](../../Assets/Pasted%20image%2020250123174259.png)
+
+Back:
+
+Autor dostal 7/10b
+![](../../Assets/Pasted%20image%2020250123174315.png)
+![](../../Assets/Pasted%20image%2020250123174322.png)
 
 END
 
