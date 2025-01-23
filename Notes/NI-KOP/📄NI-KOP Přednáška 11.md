@@ -4,7 +4,7 @@ title: "Simulovaná evoluce 3"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska11 status-toReview
 
 ### Proč genetické algoritmy fungují

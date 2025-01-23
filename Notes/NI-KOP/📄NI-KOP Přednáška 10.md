@@ -5,7 +5,7 @@ up:
   - "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska10 status-toReview
 
 ### Evoluční strategie

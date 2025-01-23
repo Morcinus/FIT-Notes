@@ -4,7 +4,7 @@ title: "Globální metody"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska12 status-toReview
 
 

@@ -4,7 +4,7 @@ title: "Simulovaná evoluce 1"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska09 status-toReview
 
 

@@ -44,28 +44,24 @@ FIT-Card
 
 Jak vypadá **zpracování SQL dotazu** (fáze zpracování dotazu, kde a jak se při nich dá optimalizovat)?
 
-Pozn. fáze zpracovávání dotazu jsem nikde v přednášce nenašel - pokud někdo víte, jak by to mělo správně být, tak napište a já to fixnu.
-
 Back:
 
 **Fáze:** (tohle je částečně z ChatGPT:)
-- **Parsing** - provede se syntaktická a sémantická analýza, výsledkem je abstract syntaxt tree (AST)
-- **Optimalizace** - výstupem je optimalizovaný prováděcí plán
-- **Execution** - vykoná se dotaz
-- **Formátování výsledku** - zformátuje se a pošle se výsledek
+- **Parsing** - syntaktická a sémantická analýza, kontrola práv, výsledek prováděcí plán
+- **Bind** - přiřazení konkrétních hodnot parametrům
+- **Execution** - vykoná se prováděcí plán
+- **Fetch** - získá se výsledek a předá se aplikaci
 
 **Kde se dá optimalizovat**:
-- **Fáze Optimalizace**:
+- **Fáze Parsing**:
 	- **indexy** - jejich přidání/upravování
 	- **sledování systémových statistik** a úprava konfigurace podle nich
 	- "hinty" pro optimaliztor (např. jaký join algoritmus použít)
 - **Fáze Execution**:
+	- **Uložení dat dat** - partitioning, clustery atd.
 	- **paralelní zpracování**
-	- **uložení dat** - partitioning, clustery atd.
 	- **caching**
 	- **materializované pohledy**
-
-Pozn. hodně věcí, co se dá optimalizovat ve fázi optimalizace logicky ovlivní i fázi execution.
 
 Tags: reviewed
 <!--ID: 1737106145106-->
@@ -1162,14 +1158,14 @@ Back:
 
 ```javascript
 db.movies.find(
-    {
-        year: { $gte: 2000, $lte: 2005 },
-        director: { $exists: 1 }
-    },
-    { _id: 1 }
+	{
+		year: {$gte: 2000, $lte 2005},
+		director: { $exists: 1 }
+	},
+	{ _id: 1 }
 ).sort(
-    { rating: -1, year: 1 }
-);
+	{ rating: -1, year: 1 }
+)
 ```
 <!--ID: 1737106145203-->
 END
@@ -1245,7 +1241,7 @@ Následně:
 
 Metriky:
 - $tpmC$ - new-order transaction rate = při maximálním zatížení databáze, kolik jsem schopný zpracovat nových objednávek
-- $\$/tpmC$ - kolik mě jedna nová objednávka stojí peněz 
+- $Price/tpmC$ - kolik mě jedna nová objednávka stojí peněz (za Price byl v názvu dosazený dolar)
 <!--ID: 1737106145212-->
 END
 
@@ -1284,7 +1280,7 @@ Máme databázi fixní velikosti
 
 Máme tyto metriky:
 - $QphH@Size$ - Composite Query-perHour performance metric
-- $\$/QphH@Size$ - Price/Performance metric
+- $Price/QphH@Size$ - Price/Performance metric (za Price byl v názvu dosazený dolar)
 $Size$ je velikost databáze.
 <!--ID: 1737106145217-->
 END
