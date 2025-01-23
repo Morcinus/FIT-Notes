@@ -54,7 +54,7 @@ A) ❌dvojice `[identifikace proměnné, hodnota]`
 B) ❌pravděpodobnost selekce individua
 C) ❌binární řetěz
 D) ✅**statistický model závislostí mezi proměnnými**
-
+<!--ID: 1737654642281-->
 END
 
 ---
@@ -76,7 +76,7 @@ A) ❌křížením
 B) ❌rozdělením a spojením fragmentů genetické informace
 C) ✅generováním podle stochastického modelu
 D) ❌ruletovým výběrem
-
+<!--ID: 1737654642285-->
 END
 
 ---
@@ -99,7 +99,7 @@ A) ❌má za úkol opravit konfiguraci tak, aby byla řešením
 B) ❌typicky nahrazuje optimalizační kritérium stanovenou konstantní pokutou
 C) ❌v případě 3-SAT, spočívá ve snížení počtu klauzulí instance
 D) ✅**zlepšuje dosažitelnost ve stavovém prostoru**
-
+<!--ID: 1737654642288-->
 END
 
 ---
@@ -121,7 +121,7 @@ A) ✅**obvykle obsahuje numerický parametr, který je nutno experimentálně n
 B) ❌přiřazuje všem konfiguracím, které nejsou řešením, hodnotu konstantní pro danou instanci
 C) ❌typicky nahrazuje optimalizační kritérium pouze odhadem vzdálenosti konfigurace od řešení
 D) ✅**typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a odhadu vzdálenosti konfigurace od řešení**
-
+<!--ID: 1737654642290-->
 END
 
 ---
@@ -143,7 +143,7 @@ A) ✅**má za úkol vést iterace od konfigurací, které řešením nejsou, k 
 B) ❌spočívá v použití malých instancí
 C) ❌slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
 D) ❌typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
-
+<!--ID: 1737654642293-->
 END
 
 ---
@@ -163,7 +163,7 @@ Back:
 A) ❌nezávisí na vlastnostech konkrétní konfigurace, vyjadřuje pouze fakt, že řešením není
 B) ❌zhoršuje dosažitelnost ve stavovém prostoru
 C) ❌spočívá v použití snadných instancí pro závěrečné vyhodnocení
-
+<!--ID: 1737654642296-->
 END
 
 ---
@@ -186,7 +186,7 @@ A) ❌Počet kroků pro algoritmus B zprůměrujete, protože rozptyl není sou�
 B) ✅**Zjistíte statistické rozložení počtu kroků a pokud je symetrické, použijete průměr.**
 C) ✅**Zjistíte statistické rozložení počtu kroků pro oba algoritmy a vyhodnotíte, zda se překrývají a jak mnoho.**
 D) ✅**Pokusíte se zjistit, jaká další charakteristika instancí má vliv na počet kroků.**
-
+<!--ID: 1737654642298-->
 END
 
 ---
@@ -213,7 +213,7 @@ C) ❌Použijete primárně náhodně generované instance.
 D) ✅**Použijete přednostně instance „nachytané" při předchozím manuálním řízení.**
 E) ❌Pro každou instanci srovnáte dosažené optimalizační kritérium jedním během algoritmů A a B. 
 F) ✅**Jako jedno spuštění algoritmu lze teoreticky uvažovat tolik běhů každého algoritmu, aby byl naplněn časový limit, a výběr nejlepšího řešení z nich.**
-
+<!--ID: 1737654642301-->
 END
 
 ---
@@ -234,7 +234,7 @@ A) ❌složitější schemata (vyššího řádu) přežívají lépe
 B) ✅**schemata, jejichž proměnné jsou rozptýleny po celém genotypu, přežívají hůře**
 C) ✅**mutace zhoršuje přežívání všech schemat (i když ne všech stejně)**
 D) ✅**uvažované jednobodové křížení má za následek závislost přežívání na délce schematu**
-
+<!--ID: 1737654642304-->
 END
 
 ---
@@ -256,7 +256,7 @@ A) ❌Použijete přednostně instance „nachytané” při provozu podobného 
 B) ✅**Použijete přednostně instance vygenerované se známými vlastnostmi.**
 C) ✅**Použijete instance různých vlastností tak, aby bylo možné srovnání podobných instancí, avšak s či bez zkoumané charakteristiky.**
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
-
+<!--ID: 1737654642307-->
 END
 
 ---
@@ -280,7 +280,7 @@ A) ❔❔❔ dá nutně optimální řešení
 B) ❔❔❔je $O(n^2)$
 C) ❔❔❔je pseudopolynomiální
 D) ❔❔❔je polynomiální ve velikosti instance
-
+<!--ID: 1737654642309-->
 END
 
 ---
@@ -300,7 +300,7 @@ Back:
 A) ❌diverzifikace
 B) ✅**intenzifikace**
 C) ❌aspirace
-
+<!--ID: 1737654642312-->
 END
 
 ---
@@ -330,7 +330,7 @@ B) ✅**Použijete instance různé velikosti.**
 C) ✅**Použijete instance s rozdílnou hloubkou lokálních minim**.
 D) ❌Problému se vyhnete převzetím algoritmu, který fungoval
 uspokojivě na jiném kombinatorickém optimalizačním problému.
-
+<!--ID: 1737654642315-->
 END
 
 ---
@@ -352,7 +352,7 @@ A) ❌Budete métit závislost času vypočtu na velikosti instance.
 B) ✅**Budete méiit kvalitu výsledku pro více různých počátečních tešení.**
 C) ❌Soubor zkušebních instancí můžete omezit na menší instance.
 D) ✅**Výpočet spustíte opakované pro každou instanci a počáteční řešení**
-
+<!--ID: 1737654642317-->
 END
 
 ---
@@ -375,7 +375,7 @@ A) ❌Použijete větší počet lehkých instancí k urychlení.
 B) ✅**Výpočet spustíte opakovaně pro každou instanci**
 C) ❌Zvolíme jednotnou velikost instance pro všechny experimenty
 D) ❔❔❔Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
-
+<!--ID: 1737654642320-->
 END
 
 ---
@@ -397,7 +397,7 @@ A) ❌Použijete vygenerované instance stejné velikosti.
 B) ❌Použijete praktické instance stejné velikosti.
 C) ✅**Použijete reprezentativní mix praktických instancí**.
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
-
+<!--ID: 1737654642322-->
 END
 
 ---
@@ -418,7 +418,7 @@ Back:
 A) ✅**má vždy brát v úvahu rozsah optimalizačního kritéria nebo jej normovat**
 B) ✅**pokud zjistí hloubku lokálních minim, dá se tato hodnota využít**
 C) ✅**efekt, dosažený manipulací s hloubkou ekvilibria, se dá dosáhnout manipulací s koeficientem ochlazování**
-
+<!--ID: 1737654642325-->
 END
 
 ---
@@ -438,7 +438,7 @@ Back:
 A) ❔❔❔je-li přiliš vysoká, omezuje prohledávanou část stavového prostoru
 B) ❌vždy musí zůstat konstantní, pokud se mění počáteční teplota
 C) ✅**dá se s výhodou určovat za běhu sledováním konvergence**
-
+<!--ID: 1737654642328-->
 END
 
 ---
@@ -460,7 +460,7 @@ A) ✅**Použijete vygenerované instance se stejnými hodnotami parametrů, o k
 B) ✅**Použijete vygenerované instance s různými hodnotami parametrů, o kterých se hovoří ve Vaší teorii.**
 C) ❌Použijete reprezentativní mix praktických instancí.
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
-
+<!--ID: 1737654642330-->
 END
 
 ---
@@ -482,7 +482,7 @@ A) ✅**pro dosažení nejlepšlho výsledku, může vyžadovat odpovídající 
 **koeficientu ochlazování**
 B) ✅**závisí na obtížnosti konkrétní instance**
 C) ✅**závisí na rozsahu optimalizačního kritéria dané instance**
-
+<!--ID: 1737654642333-->
 END
 
 ---
@@ -504,7 +504,7 @@ A) ✅**Pustim na instance ruznych velikosti**
 B) ✅**Pustim na instance ruznych hloubek**  
 C) ❌Pustim na mnoho malych instanci, abych to urychlil  
 D) ✅**Vypocet spustite opakovane pro kazdou instanci**
-
+<!--ID: 1737654642335-->
 END
 
 ---
@@ -528,7 +528,7 @@ A) ❌vektoru reálných Čísel
 B) ❌rozkladového stromu 'Úrazu
 C) ❌binárního řetězu
 D) ✅**automatu**
-
+<!--ID: 1737654642338-->
 END
 
 ---
@@ -550,7 +550,7 @@ A) ❌stromovou reprezentací programu
 B) ✅reprezentací automatu
 C) ❌lineární reprezentací strojového kódu
 D) ❌orientovaným acyklickým grafem datových závislostí
-
+<!--ID: 1737654642341-->
 END
 
 ---
@@ -570,7 +570,7 @@ Back:
 A) ✅**diverzity (rozdílnosti) jedinců**
 B) ✅**změny průměrné zdatnosti mezi generacemi**
 C) ✅**poměru zdatnosti např. nejzdatnějšího jedince a jedince v polovině pořadí**
-
+<!--ID: 1737654642343-->
 END
 
 ---
@@ -591,7 +591,7 @@ Back:
 A) ❌pravděpodobnost aplikace operátoru „cut and splice"
 B) ✅**konstanty lineárního škálování**
 C) ✅**konstanty rankingu**
-
+<!--ID: 1737654642346-->
 END
 
 ---
@@ -611,7 +611,7 @@ Back:
 A) ❔❔❔konstanty převodu ranku (pořadí zdatnosti) na pravděpodobnost výběru
 B) ✅**konstanty lineárního škálování**
 C) ❌pravděpodobnost aplikace operátoru „Cut and splice”
-
+<!--ID: 1737654642348-->
 END
 
 ---
@@ -632,7 +632,7 @@ A) ✅**Budete sledovat vývoj průměrné, minimální a maximální zdatnosti 
 B) ✅**Použijete lehké i těžké instance.**
 C) ❌Musíte měřit závislost výpočetního času na počtu generací.
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
-
+<!--ID: 1737654642351-->
 END
 
 ---
@@ -654,7 +654,7 @@ A) ❌Budete měřit četnost mutace v závislosti na poměrné zdatnosti.
 B) ✅Budete měřit četnost výběru (selekce) v zavislosti na poměrné zdatnosti.
 C) ❌Pro každou velikost instance zvolite jednu instanci.
 D) ❌Zvolite pouze jednu velikost instance a použijete instance rozdílné obtížnosti.
-
+<!--ID: 1737654642354-->
 END
 
 ---
@@ -675,7 +675,7 @@ A) ❌pravděpodobnost mutace
 B) ✅**konstanty přepočtu zdatnosti platí**
 C) ❌pravděpodobnost výběru nejlepšího jedince
 
-
+<!--ID: 1737654642356-->
 END
 
 ---
@@ -695,7 +695,7 @@ Back:
 A) ❌pravděpodobnost mutace
 B) ❌výseče rulety
 C) ✅**koeficienty lineárnłho škálování**
-
+<!--ID: 1737654642359-->
 END
 
 ---
@@ -715,7 +715,7 @@ Back:
 A) ✅**povaha stavového prostoru („landscape") se v okolí globálnłho minima prudce mění**
 B) ❌pracujeme s přiliš malou pravděpodobností mutace
 C) ✅adaptace selekčního tlaku nepracuje dostatečně dobře
-
+<!--ID: 1737654642362-->
 END
 
 ---
@@ -735,7 +735,7 @@ Back:
 A) ❌metodu pouze nejlepší
 B) ❌náhodnou procházku
 C) ❔❔❔zaujatou náhodnou procházku
-
+<!--ID: 1737654642364-->
 END
 
 ---
@@ -757,7 +757,7 @@ A) ❌nastavuje velikost turnaje
 B) ✅**ovlivní pravděpodobnost výběru nejzdatnějšího jedince**
 C) ✅**v dané generaci, může způsobit zmenšení selekčního tlaku**
 D) ✅**v dané generaci, může způsobit zvětšení selekčního tlaku**
-
+<!--ID: 1737654642367-->
 END
 
 ---
@@ -777,7 +777,7 @@ Back:
 A) ❌pravděpodobnost mutace
 B) ✅**velikost turnaje**
 C) ❌pravděpodobnost výběru nejlepšího jedince
-
+<!--ID: 1737654642369-->
 END
 
 ---
@@ -797,7 +797,7 @@ Back:
 A) ✅**je omezena hrozbou divergence při malém selekčnímu tlaku**
 B) ✅**závisí na obtížnosti instance, obtížnější instance vyžadují pomalejší konvergenci**
 C) ✅**může vyžadovat odpovídající nastavení pravděpodobnosti mutace**
-
+<!--ID: 1737654642372-->
 END
 
 ---
@@ -817,7 +817,7 @@ Back:
 A) ✅**upravit koeficienty lineárního škálování, pokud je použito**
 B) ❌přejít od výběru ruletou k výběru turnajem při zachování selekčního tlaku
 C) ❌zvětšit velikost turnaje, pokud je použit
-
+<!--ID: 1737654642374-->
 END
 
 ---
@@ -837,7 +837,7 @@ Back:
 A) ❌metodou nejlepší nejdříve
 B) ✅**metodou prvé zlepšení**
 C) ❌náhodnou procházkou
-
+<!--ID: 1737654642377-->
 END
 
 ---
@@ -859,7 +859,7 @@ A) ✅**vektoru reálných čísel a odchylek**
 B) ❌rozkladového stromu výrazu
 C) ❌binárního řetězu
 D) ❌automatu
-
+<!--ID: 1737654642379-->
 END
 
 ---
@@ -879,7 +879,7 @@ Back:
 A) ❌konstantní poměrně vysokou míru mutace, aby se populace snáze dostala do „vlídnějších končin"
 B) ✅**některých vlastností lineárního škálování**
 C) ❔některé metody automatického řízení selekčního tlaku
-
+<!--ID: 1737654642382-->
 END
 
 ---
@@ -899,7 +899,7 @@ Back:
 A) ✅**přednostně snížíme selekční tlak**
 B) ❌přednostně zvýšíme pravděpodobnost mutace
 C) ✅**pokud snížíme selekční tlak, může dojít k divergenci a je třeba snížit i pravděpodobnost mutace**
-
+<!--ID: 1737654642385-->
 END
 
 ---
@@ -919,7 +919,7 @@ Back:
 A) ❌chceme potlačit statistickou nevyváženost uniformního křížení
 B) ✅**chceme potlačit statistickou nevyváženost jednobodového křížení**
 C) ❌současně používáme uniformní stochastický výběr
-
+<!--ID: 1737654642388-->
 END
 
 ---
@@ -944,7 +944,7 @@ A) ✅**Asymptotická horní mez velikosti stavového prostoru roste exponenciá
 B) ❌Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s $n$ a $m$.
 C) ❌Pro operátor odebrání/přidánĺ prvku do obdélníku, okolí má velikost $mn$.
 D) ✅**Pro operátor odebrání/přidání prvku do obdélnłku, okolí má velikost $K$.**
-
+<!--ID: 1737654642391-->
 END
 
 ---
@@ -968,7 +968,7 @@ A) ❔❔❔Asymptotická horní mez velikosti stavového prostoru roste exponen
 B) ❔❔❔Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s n a m.
 C) ❔❔❔Pro každý prvek matice, operátory generují okolí velikosti mn.
 D) ❔❔❔Pro každý prvek matice, operátory generují okolí velikosti K.
-
+<!--ID: 1737654642393-->
 END
 
 ---
@@ -989,7 +989,7 @@ Back:
 
 A) ✅Jestliže jediný operátor je párová záměna na modulech, tj. moduly $k_i$ a $k_j$, $1 \leq i \leq n$, $1 \leq j \leq n$, $i \neq j$ si vymění pozice, pak stavový prostor není souvislý.
 B) ❌Jestliže jediný operátor je párová změna na pozicích, tj. moduly na pozicích $p_i$ a $p_j$,  $1 \leq i \leq m$, $1 \leq j \leq m$, $i \neq j$ si vymění pozice, pak stavový prostor není souvislý.
-
+<!--ID: 1737654642396-->
 END
 
 ---
@@ -1015,7 +1015,7 @@ A) ❔❔❔Prohledávací prostor je vždy orientovaným stromem.
 B) ✅**Prohledávací prostor je acyklický.**
 C) ✅**Heuristika skončí po $n$ krocích.**
 D) ❌Heuristika skončí po $m$ krocích.
-
+<!--ID: 1737654642399-->
 END
 
 ---
@@ -1038,7 +1038,7 @@ A) ❔❔❔má exponenciální dolní asymptotickou mez složitosti
 B) ❌je pseudopolynomiální
 C) ❔❔❔má kubickou horní asymptotickou mez složitosti
 D) ❔❔❔pokud se nepoužijí stupně, paměť vyžaduje kubické množství řešení podinstancí
-
+<!--ID: 1737654642401-->
 END
 
 ---
@@ -1062,7 +1062,7 @@ B) ❌má složitost rostoucí nejvýše se třetí mocninou velikosti instance
 C) ❌je pseudopolynomiálnĺ
 D) ✅**pokud nepoužíváme rozdělení na stupně, paměť podinstancí roste nejméně se třetí mocninou velikosti instance**
 E) ✅**je globální metoda**
-
+<!--ID: 1737654642404-->
 END
 
 ---
@@ -1086,7 +1086,7 @@ A) ❔❔❔má složitost rostoucí nejvýše s druhou mocninou velikosti insta
 B) ❌má složitost rostoucí nejvýše se čtvrtou mocninou velikosti instance
 C) ✅**má složitost nejméně exponenciální ve velikosti instance**
 D) ❔❔❔je pseudopolynomiální
-
+<!--ID: 1737654642406-->
 END
 
 ---
@@ -1108,7 +1108,7 @@ A) ✅**lineární**
 B) ❌pseudopolynomiálnĺ
 C) ✅**polynomiální**
 D) ✅**exaktní metoda**
-
+<!--ID: 1737654642409-->
 END
 
 ---
@@ -1133,7 +1133,7 @@ A) ❌má lineární horní asymptotickou mez složitosti
 B) ❌má exponenciální dolní asymptotickou mez složitosti
 C) ✅**má polynomiální horní asymptotickou mez složitosti**
 D) ❌je pseudopolynomiální
-
+<!--ID: 1737654642411-->
 END
 
 ---
@@ -1155,7 +1155,7 @@ A) ❌exponenciální
 B) ❌pseudopolynomiální
 C) ✅**polynomiální**
 D) ❌globální metoda
-
+<!--ID: 1737654642414-->
 END
 
 ---
@@ -1180,7 +1180,7 @@ A) ❌reprezentací individua
 B) ✅**podmnožinami genů**
 C) ❌fenotypem individua
 D) ❌zdatností individua
-
+<!--ID: 1737654642416-->
 END
 
 ---
@@ -1204,7 +1204,7 @@ B) ❌zdatností individua
 C) ✅**množinami hodnot genů**
 D) ❌reprezentací individua, kde některé geny nejsou ohodnoceny a některé jsou
 ohodnoceny víckrát
-
+<!--ID: 1737654642419-->
 END
 
 ---
@@ -1224,7 +1224,7 @@ A) ❌stanovení fenotypu přímo z hodnot genů daného jedince a následný v�
 B) ❌výpočet odlišnosti genotypu jedince od referenčního jedince
 C) ❌založena na průměrné délce fragmentu v dané generaci
 D) ✅**dosazení hodnot fragmentů do referenčního jedince a výpočet jeho zdatnosti**
-
+<!--ID: 1737654642421-->
 END
 
 ---
@@ -1246,7 +1246,7 @@ A) ❔❔❔reprezentace individua
 B) ✅ohodnocení podmnožiny genů
 C) ❌fenotyp individua
 D) ❔❔❔podmnožina genů referenčnłho individua
-
+<!--ID: 1737654642424-->
 END
 
 ---
@@ -1268,7 +1268,7 @@ A) ❌složitost referenčního individua
 B) ✅**cílovou velikost fragmentů po generování**
 C) ❌délku referenčního individua
 D) ❔selekční tlak
-
+<!--ID: 1737654642426-->
 END
 
 ---
@@ -1291,7 +1291,7 @@ A) ❌Použijete instance „nachytané" z praxe.
 B) ✅Použijete instance vygenerované tak, aby každá instance zadané velikosti byla stejné pravděpodobná.
 C) ❌Použijete instance jedné velikosti.
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
-
+<!--ID: 1737654642429-->
 END
 
 ---
@@ -1313,7 +1313,7 @@ A) ❌Použijete instance „nachytané” z praxe.
 B) ✅**Budete potřebovat exaktní řešení (nebo to budete muset nějak obejít)**
 C) ✅**Použijete instance vygenerované tak, aby každá instance zadané velikosti byla stejně pravděpodobná.**
 D) ❌Výpočet spustíte jednou pro každou instanci.
-
+<!--ID: 1737654642432-->
 END
 
 ---
@@ -1338,7 +1338,7 @@ A) ❌Stavový prostor má $n^d$ stavů.
 B) ✅**Stavový prostor má $d^n$ stavů.**
 C) ✅**Prostor prohledávání má $(d+1)^n$ stavů.**
 D) ❌Prostor prohledávání má $d^{2n}$ stavů.
-
+<!--ID: 1737654642435-->
 END
 
 ---
@@ -1360,7 +1360,7 @@ A) ✅**Stavový prostor má silné souvislý graf.**
 B) ❌Stavow prostor má $5^2 = 25$ stavů
 C) ✅**Okolí každého stavu má velikost $5$.**
 D) ❌Okolí každého stavu má velikost $10$.
-
+<!--ID: 1737654642437-->
 END
 
 ---
@@ -1386,7 +1386,7 @@ C) ✅**Může to být simulované ochlazování, silná souvislost je jednou**
 **z podmínek úspěšného nasazení simulovaného ochlazování**
 D) ❌Musí používat systematickou strategii pohybu stavovým
 prostorem
-
+<!--ID: 1737654642440-->
 END
 
 ---
@@ -1406,7 +1406,7 @@ Back:
 A) ❌snížíte $K$
 B) ✅**zvýšíte $K$**
 C) ❌K nemá na diverzifikaci vliv
-
+<!--ID: 1737654642442-->
 END
 
 ---
@@ -1426,7 +1426,7 @@ Back:
 A) ✅**snížíte $k$**
 B) ❌zvýšíte $k$
 C) ❌$k$ nemá na intenzifikaci vliv
-
+<!--ID: 1737654642445-->
 END
 
 ---
@@ -1448,7 +1448,7 @@ Back:
 A)✅**diverzifikace**
 B) ❌intenzifikace
 C) ✅**aspirace**
-
+<!--ID: 1737654642447-->
 END
 
 ---
@@ -1469,7 +1469,7 @@ Back:
 A) ❔❔❔diverzifikace
 B) ❔❔❔intenzifikace
 C) ❔❔❔aspirace
-
+<!--ID: 1737654642450-->
 END
 
 ---
@@ -1490,7 +1490,7 @@ Back:
 A) ✅**přidáme aspirační kritérium, spouštěné dosud nejlepším řešením**
 B) ❌přidáme aspirační kritérium, spouštěné malou frekvencí atributů tahu
 C) ❌k optimalizačnímu kritériu přidáme odměnu za malou frekvenci atributů tahu
-
+<!--ID: 1737654642453-->
 END
 
 ---
@@ -1510,7 +1510,7 @@ Back:
 A) ❌diverzifikace
 B) ✅**intenzifikace**
 C) ❌omezení okolí
-
+<!--ID: 1737654642455-->
 END
 
 ---
@@ -1556,7 +1556,7 @@ Stavový prostor je silně souvislý, pro každé rozmístění modulů je možn
 4)
 
 Můžeme generovat náhodně, tedy vytvořit náhodnou permutaci pozic z P, přiřadit prvních n pozic do seznamu na indexy 1 až n (zbylé pozice budou v počátečním řešení nevyužité). Případně triviálně přiřadit p_1 na první index seznamu, p_2 na druhý, …, až do n. Při kvalitním nastavení simulovaného ochlazování by neměla kvalita výsledného řešení na volbě počátečního řešení záviset.
-
+<!--ID: 1737654642458-->
 END
 
 ---
@@ -1573,7 +1573,7 @@ Back:
 Autor dostal 12/12b
 
 ![](../../Assets/Pasted%20image%2020250123180432.png)
-
+<!--ID: 1737654642460-->
 END
 
 ---
@@ -1598,7 +1598,7 @@ Konfiguracni promenne
 Jedinec bude definovan vektorem o velikosti n, kde na i-tem indexu bude k_i modul z K, hodnoty, ktere budeme prirazovat z P, je treba si ale pohlídat, ze kazda hodnota z P je pouzita pravejednou abychom splnili podmínku proste prirazeni, obor hodnot jsou vsechny permutace techto vektoru rozlozeni, ktere splnuji zminenou podminku
 
 ![](../../Assets/Pasted%20image%2020250123154516.png)
-
+<!--ID: 1737654642463-->
 END
 
 ---
@@ -1617,7 +1617,7 @@ Pozn. autor dostal 9/10b.
 
 ![](../../Assets/Pasted%20image%2020250123155338.png)
 ![](../../Assets/Pasted%20image%2020250123155344.png)
-
+<!--ID: 1737654642465-->
 END
 
 ---
@@ -1635,7 +1635,7 @@ Back:
 10/10b
 
 ![](../../Assets/Pasted%20image%2020250123155951.png)
-
+<!--ID: 1737654642468-->
 END
 
 ---
@@ -1652,7 +1652,7 @@ Back:
 
 Řešení za 10/10b
 ![](../../Assets/Pasted%20image%2020250123164049.png)
-
+<!--ID: 1737654642471-->
 END
 
 ---
@@ -1670,7 +1670,7 @@ Back:
 Pozn. týpek (kromě toho, že má naprosto retardovaný barvy moodlu), dostal 9/10b.
 
 ![](../../Assets/Pasted%20image%2020250123162020.png)
-
+<!--ID: 1737654642473-->
 END
 
 ---
@@ -1686,7 +1686,7 @@ Problém minimálního rozhodovacího stromu
 Back:
 
 TODO dopsat
-
+<!--ID: 1737654642476-->
 END
 
 ---
@@ -1706,7 +1706,7 @@ Pozn. řešení psal nějaký maďar a dostal 7/10b a asi to nemá úplně sprá
 ![](../../Assets/Pasted%20image%2020250123170536.png)
 ![](../../Assets/Pasted%20image%2020250123170547.png)
 ![](../../Assets/Pasted%20image%2020250123170629.png)
-
+<!--ID: 1737654642478-->
 END
 
 ---
@@ -1722,7 +1722,7 @@ Problém minimálního regulárního výrazu
 Back:
 
 TODO doplnit
-
+<!--ID: 1737654642481-->
 END
 
 ---
@@ -1739,7 +1739,7 @@ Back:
 
 Autor dostal 12/12b
 ![](../../Assets/Pasted%20image%2020250123181727.png)
-
+<!--ID: 1737654642483-->
 END
 
 ---
@@ -1757,7 +1757,7 @@ Back:
 Autor dostal 9/10b
 
 ![](../../Assets/Pasted%20image%2020250123173750.png)
-
+<!--ID: 1737654642486-->
 END
 
 ---
@@ -1773,7 +1773,7 @@ Back:
 Autor dostal 7/10b
 ![](../../Assets/Pasted%20image%2020250123174315.png)
 ![](../../Assets/Pasted%20image%2020250123174322.png)
-
+<!--ID: 1737654642488-->
 END
 
 ---
@@ -1789,7 +1789,7 @@ Problém celočíselných multikomoditních toků ve stromu
 Back:
 
 TODO doplnit
-
+<!--ID: 1737654642490-->
 END
 
 ---
@@ -1805,7 +1805,7 @@ Back:
 
 Řešení 12/12b
 ![](../../Assets/Pasted%20image%2020250123181129.png)
-
+<!--ID: 1737654642493-->
 END
 
 ---
