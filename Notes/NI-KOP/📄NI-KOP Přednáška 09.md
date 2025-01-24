@@ -67,6 +67,24 @@ END
 
 ### Evoluční algoritmy
 
+
+START
+FIT-Card
+
+Jaké jsou **4 hlavní strategie u simulované** evoluce?
+
+Back:
+
+- **genetický algoritmus**
+- **genetické programování**
+- **evoluční strategie**
+- **evoluční programování**
+<!--ID: 1737735239322-->
+END
+
+---
+
+
 START
 FIT-Card
 
@@ -98,7 +116,7 @@ Nad jakou reprezentací pracuje **genetické programování**?
 
 Back:
 
-Nad programem, **DFG** = data flow graph
+Nad **stromama**, programem, DFG (data flow graph)
 
 Tags: core
 <!--ID: 1735205749660-->
@@ -110,7 +128,7 @@ END
 START
 FIT-Card
 
-Jaká je reprezentace, křížení a mutace u **evoluční strategie**?
+Nad jakou reprezentací pracuje **evoluční strategie**?
 
 (tohle bude u zkoušky)
 
@@ -128,7 +146,7 @@ END
 START
 FIT-Card
 
-Jaká je reprezentace, křížení a mutace u **evolučního programování**?
+Nad jakou reprezentací pracuje **evolučního programování**?
 
 (tohle bude u zkoušky)
 
@@ -148,7 +166,7 @@ END
 START
 FIT-Card
 
-Jak se typicky zachází s potomky u evolučních algoritmů?
+Jakými způsoby lze nahradit starou generaci novou generací? (2)
 
 Back:
 
@@ -166,7 +184,7 @@ END
 START
 FIT-Card
 
-Jak se typicky zachází s potomky u těchto algoritmů:
+Jak se typicky zachází s potomky u těchto strategií:
 - **genetický algoritmus**
 - **genetické programování**
 - **evoluční strategie**
@@ -174,12 +192,14 @@ Jak se typicky zachází s potomky u těchto algoritmů:
 
 Back:
 
-![](../../Assets/Pasted%20image%2020241127152948.png)
+- **genetický algoritmus** - náhrada
+- **genetické programování** - libovolné
+- **evoluční strategie** - získám víc potomků, než jsem měl rodičů ($\lambda > \mu$)
+- **evoluční programování** - získám víc potomků, než jsem měl rodičů ($\lambda > \mu$)
 
-<!-- ExplanationStart -->
-- evoluční strategie - z rodičů odvodím víc potomků
-- evoluční programování - z rodičů odvodím víc potomků
-<!-- ExplanationEnd -->
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020241127152948.png)
+<!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749670-->
@@ -201,7 +221,7 @@ Back:
 
 Kódujou se pomocí binárního řetězce.
 
-
+<!--ID: 1737735239334-->
 END
 
 ---
@@ -321,8 +341,10 @@ Jak funguje **mutace**?
 
 Back:
 
-1. Dám si všechny nuly a jedničky vedle sebe. 
-2. Zvolím si několik náhodných indexů, dokud mi to nenaplní pravděpodobnost tak jak chci. Daný bit vždy změním
+1. Dám si všechny jedince vedle sebe (nuly a jedničky)
+2. Zvolím náhodně několik indexů v celém řetězci a na nich flipnu bit.
+
+Řídím si, kolik indexů vyberu a díky tomu řídím pravděpodobnost, že mi daný jedinec zmutuje.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127154527.png)
@@ -406,7 +428,7 @@ Co se stane, když mám velký selekční tlak?
 
 Back:
 
-Je nebezpeční degenerace populace (lokální optima).
+Je nebezpečná degenerace populace (zasekne se v lokálním optimu).
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127155539.png)
@@ -492,9 +514,9 @@ Jaké jsou 3 **techniky u řízení selekčního tlaku pro ruletový výběr**?
 
 Back:
 
-- **scaling** - Přepočítání zdatnosti lineární funkcí
+- **lineární škálování** - Přepočítání zdatnosti lineární funkcí
 - **ranking** - Použití pořadí ve zdatnosti místo zdatnosti
-- **truncastion selection** - Prahování, zkrácený výběr
+- **zkrácený výběr** - Prahování, zkrácený výběr
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127160029.png)
@@ -673,6 +695,7 @@ Standardní
 - **trest smrti** - zmarněná práce konstrukce
 - **oprava individua** - vnáší předpojatost
 - **relaxace**
+
 Specifické
 - **doménové operátory** - udělají mi z permutace zase permutaci, z kružnice zase kružnici atd.
 - **doménové reprezentace** a dekódery

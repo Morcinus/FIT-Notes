@@ -44,7 +44,7 @@ END
 START
 FIT-Card
 
-Jak funguje rekombinace při nasazení evolční strategie?
+Jak funguje rekombinace při nasazení evoluční strategie?
 
 Back:
 
@@ -101,7 +101,7 @@ END
 START
 FIT-Card
 
-Jak funguje **výběr pro mutaci** při nasazení evoluční strategie? (2)
+Jak se vybírají jedinci **pro mutaci** při nasazení **evoluční strategie**? (2)
 
 Back:
 
@@ -110,7 +110,6 @@ Několik možností:
 	- Výhoda, že to je deterministický
 	- Musím v následující selekci používat zdatnost
 - **vyberu závisle na zdatnosti**
-
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208141551.png)
@@ -148,9 +147,15 @@ END
 START
 FIT-Card
 
-Jak funguje **genetické programování**?
+Jak funguje **genetické programování**? Jaké jsou 3 reprezentace?
 
 Back:
+
+- určeno k produkci spustitelných programů
+- Reprezentace:
+	- **strom výpočtu (výrazu)** - genetické programování
+	- **řetěz jazyka** - lineární genetické programování
+	- **orientovaný acyklický graf** - kartézské programování
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208142755.png)

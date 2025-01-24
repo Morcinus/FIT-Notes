@@ -15,7 +15,8 @@ Co je **Monte Carlo** randomizovaný algoritmus?
 Back:
 
 **Monte Carlo algoritmy**
-Dosažený výsledek je náhodná proměnná, čas běhu pevný pro danou instanci
+- Dosažený **výsledek je náhodná proměnná** (např. odpověď ano s 100% jistotou, odpověď ne s jistotou závislou na "effortu" a velikosti instance - viz příklad)
+- **čas běhu pevný** pro danou instanci
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241113142545.png)
@@ -94,6 +95,9 @@ Jak funguje randomizovaný B+ algoritmus (uzlové pokrytí)?
 
 Back:
 
+Problém:
+Snažíme se najít minimální uzlové pokrytí, tzn. nejmenší množinu vrcholů, kde každá hrana grafu má alespoň jeden koncový uzel v této množině.
+
 ![](../../Assets/Pasted%20image%2020241113143723.png)
 
 <!-- DetailInfoStart -->
@@ -149,8 +153,6 @@ Co jsou **primární** a **sekundární** metriky u randomizovaných algoritmů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241113144618.png)
-
-Tags: core
 <!--ID: 1735205749753-->
 END
 

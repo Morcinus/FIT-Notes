@@ -42,49 +42,6 @@ FILE TAGS: NI-KOP
 START
 FIT-Card
 
-Základní jednotkou reprezentace, se kterou pracuje bayesovská optimalizace je
-A) dvojice `[identifikace proměnné, hodnota]`
-B) pravděpodobnost selekce individua
-C) binární řetěz
-D) statistický model závislostí mezi proměnnými
-
-Back:
-
-A) ❌dvojice `[identifikace proměnné, hodnota]`
-B) ❌pravděpodobnost selekce individua
-C) ❌binární řetěz
-D) ✅**statistický model závislostí mezi proměnnými**
-<!--ID: 1737654642281-->
-END
-
----
-
-
-START
-FIT-Card
-
-Nová generace v bayesovské optimalizaci vzniká
-
-A) křížením
-B) rozdělením a spojením fragmentů genetické informace
-C) generováním podle stochastického modelu
-D) ruletovým výběrem
-
-Back:
-
-A) ❌křížením
-B) ❌rozdělením a spojením fragmentů genetické informace
-C) ✅generováním podle stochastického modelu
-D) ❌ruletovým výběrem
-<!--ID: 1737654642285-->
-END
-
----
-
-
-START
-FIT-Card
-
 Relaxace v iterativních lokálních heuristikách:
 
 A) má za úkol opravit konfiguraci tak, aby byla řešením
@@ -276,10 +233,10 @@ D) je polynomiální ve velikosti instance
 
 Back:
 
-A) ❔(imo ❌) dá nutně optimální řešení
-B) ❔(imo ❌) je $O(n^2)$
-C) ❔(imo ❌) je pseudopolynomiální
-D) ❔(imo ✅) je polynomiální ve velikosti instance
+A) ❌ dá nutně optimální řešení
+B) ✅ je $O(n^2)$
+C) ❌ je pseudopolynomiální
+D) ✅ je polynomiální ve velikosti instance
 <!--ID: 1737654642309-->
 END
 
@@ -288,6 +245,8 @@ END
 
 START
 FIT-Card
+
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
 
 Reprezentace stavu v tabu prohledávání je Hamiltonova kružnice v grafu. Tah je dvojzáměna na hranách (odebereme z kružnice dvě hrany a přidáme dvě jiné tak, aby výsledek byla opět Hamiltonova kružnice). Tah je tabu, pokud některá hrana cílové dvojice se často v konfiguraci vyskytovala. Pokud však zlepšení opt. kritéria je vetší než určitý práh, tabu je prolomeno. Toto poslední opatření je
 
@@ -471,14 +430,14 @@ FIT-Card
 
 Volba počáteční teploty v simulovaném ochlazování
 
-A) pro dosažení nejlepšlho výsledku, může vyžadovat odpovídající volbu
+A) pro dosažení nejlepšího výsledku, může vyžadovat odpovídající volbu
 koeficientu ochlazování
 B) závisí na obtížnosti konkrétní instance
 C) závisí na rozsahu optimalizačního kritéria dané instance
 
 Back:
 
-A) ✅**pro dosažení nejlepšlho výsledku, může vyžadovat odpovídající volbu**
+A) ✅**pro dosažení nejlepšího výsledku, může vyžadovat odpovídající volbu**
 **koeficientu ochlazování**
 B) ✅**závisí na obtížnosti konkrétní instance**
 C) ✅**závisí na rozsahu optimalizačního kritéria dané instance**
@@ -609,7 +568,7 @@ C) pravděpodobnost aplikace operátoru „Cut and splice”
 
 Back:
 
-A) ❔❔❔konstanty převodu ranku (pořadí zdatnosti) na pravděpodobnost výběru
+A) ✅**konstanty převodu ranku (pořadí zdatnosti) na pravděpodobnost výběru**
 B) ✅**konstanty lineárního škálování**
 C) ❌pravděpodobnost aplikace operátoru „Cut and splice”
 <!--ID: 1737654642348-->
@@ -622,10 +581,11 @@ START
 FIT-Card
 
 Máte experimentálně vyhodnotit, zda Vaše aplikace genetického algoritmu správně zachází se selekčním tlakem.
+
 A) Budete sledovat vývoj průměrné, minimální a maximální zdatnosti jednotlivých generací.
 B) Použijete lehké i těžké instance.
 C) Musíte měřit závislost výpočetního času na počtu generací.
-D)Výpočet spustíte opakovaně pro každou instanci.
+D) Výpočet spustíte opakovaně pro každou instanci.
 
 Back:
 
@@ -646,14 +606,14 @@ Máte experimentálně vyhodnotit, zda algoritmus, který automaticky udržuje s
 
 A) Budete měřit četnost mutace v závislosti na poměrné zdatnosti.
 B) Budete měřit četnost výběru (selekce) v zavislosti na poměrné zdatnosti.
-C) Pro každou velikost instance zvolite jednu Instanci.
+C) Pro každou velikost instance zvolíte jednu instanci.
 D) Zvolite pouze jednu velikost instance a použijete instance rozdílné obtížnosti.
 
 Back:
 
 A) ❌Budete měřit četnost mutace v závislosti na poměrné zdatnosti.
 B) ✅Budete měřit četnost výběru (selekce) v zavislosti na poměrné zdatnosti.
-C) ❌Pro každou velikost instance zvolite jednu instanci.
+C) ❌Pro každou velikost instance zvolíte jednu instanci.
 D) ❌Zvolite pouze jednu velikost instance a použijete instance rozdílné obtížnosti.
 <!--ID: 1737654642354-->
 END
@@ -667,13 +627,13 @@ FIT-Card
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s lineárním škálováním, bude **přímo** nastavovat
 
 A) pravděpodobnost mutace
-B) konstanty přepočtu zdatnosti platí
+B) konstanty přepočtu zdatnosti
 C) pravděpodobnost výběru nejlepšího jedince
 
 Back:
 
 A) ❌pravděpodobnost mutace
-B) ✅**konstanty přepočtu zdatnosti platí**
+B) ✅**konstanty přepočtu zdatnosti**
 C) ❌pravděpodobnost výběru nejlepšího jedince
 <!--ID: 1737654642356-->
 END
@@ -688,13 +648,13 @@ Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritm
 
 A) pravděpodobnost mutace
 B) výseče rulety
-C) koeficienty lineárnłho škálování
+C) koeficienty lineárního škálování
 
 Back:
 
 A) ❌pravděpodobnost mutace
 B) ❌výseče rulety
-C) ✅**koeficienty lineárnłho škálování**
+C) ✅**koeficienty lineárního škálování**
 <!--ID: 1737654642359-->
 END
 
@@ -706,13 +666,13 @@ FIT-Card
 
 Genetický algoritmus dobře konverguje až do určité vzdálenosti od předpokládaného globálního minima, pak začne divergovat. Příčina může být:
 
-A) povaha stavového prostoru („landscape") se v okolí globálnłho minima prudce mění
+A) povaha stavového prostoru („landscape") se v okolí globálního minima prudce mění
 B) pracujeme s přiliš malou pravděpodobností mutace
-C) adaptace selekčnłho tlaku nepracuje dostatečně dobře
+C) adaptace selekčního tlaku nepracuje dostatečně dobře
 
 Back:
 
-A) ✅**povaha stavového prostoru („landscape") se v okolí globálnłho minima prudce mění**
+A) ✅**povaha stavového prostoru („landscape") se v okolí globálního minima prudce mění**
 B) ❌pracujeme s přiliš malou pravděpodobností mutace
 C) ✅adaptace selekčního tlaku nepracuje dostatečně dobře
 <!--ID: 1737654642362-->
@@ -733,8 +693,8 @@ C) zaujatou náhodnou procházku
 Back:
 
 A) ❌metodu pouze nejlepší
-B) ❌náhodnou procházku
-C) ❔❔❔zaujatou náhodnou procházku
+B) ✅náhodnou procházku
+C) ❌zaujatou náhodnou procházku
 <!--ID: 1737654642364-->
 END
 
@@ -761,7 +721,6 @@ D) ✅**v dané generaci, může způsobit zvětšení selekčního tlaku**
 END
 
 ---
-
 
 START
 FIT-Card
@@ -878,7 +837,7 @@ Back:
 
 A) ❌konstantní poměrně vysokou míru mutace, aby se populace snáze dostala do „vlídnějších končin"
 B) ✅**některých vlastností lineárního škálování**
-C) ❔některé metody automatického řízení selekčního tlaku
+C) ✅**některé metody automatického řízení selekčního tlaku**
 <!--ID: 1737654642382-->
 END
 
@@ -924,6 +883,97 @@ END
 
 ---
 
+#### Bayesovská optimalizace
+
+START
+FIT-Card
+
+Základní jednotkou reprezentace, se kterou pracuje bayesovská optimalizace je
+A) dvojice `[identifikace proměnné, hodnota]`
+B) pravděpodobnost selekce individua
+C) binární řetěz
+D) statistický model závislostí mezi proměnnými
+
+Back:
+
+A) ❌dvojice `[identifikace proměnné, hodnota]`
+B) ❌pravděpodobnost selekce individua
+C) ❌binární řetěz
+D) ✅**statistický model závislostí mezi proměnnými**
+
+<!--ID: 1737654642281-->
+END
+
+---
+
+START
+FIT-Card
+
+Nová generace v bayesovské optimalizaci vzniká
+
+A) křížením
+B) rozdělením a spojením fragmentů genetické informace
+C) generováním podle stochastického modelu
+D) ruletovým výběrem
+
+Back:
+
+A) ❌křížením
+B) ❌rozdělením a spojením fragmentů genetické informace
+C) ✅generováním podle stochastického modelu
+D) ❌ruletovým výběrem
+<!--ID: 1737654642285-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Stochastický model v bayesovská optimalizaci vzniká:
+
+A) tak, aby vystihoval žádané vlastnosti řešení
+B) tak, aby vystihoval vlastnosti aktuální generace
+C) křížením z předchozí generace
+D) stochastickým výběrem
+
+Back:
+
+A) tak, aby vystihoval žádané vlastnosti řešení
+B) ✅ **tak, aby vystihoval vlastnosti aktuální generace**
+C) křížením z předchozí generace
+D) stochastickým výběrem
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Stochastický model v bayesovská optimalizaci vzniká:
+
+A) podle vlastností aktuální generace
+B) podle žádaných vlastností řešení
+C) křížením z předchozí generace
+D) stochastickým výběrem
+
+
+Back:
+
+A) ✅ **podle vlastností aktuální generace**
+B) podle žádaných vlastností řešení
+C) křížením z předchozí generace
+D) stochastickým výběrem
+
+END
+
+---
+
+
+
 #### Konkrétní problémy
 
 START
@@ -936,14 +986,14 @@ Heuristika řešící tento problém používá jako stav seznam obdélníků, p
 A) Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s $K$.
 B) Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s $n$ a $m$.
 C) Pro operátor odebrání/přidánĺ prvku do obdélníku, okolí má velikost $mn$.
-D) Pro operátor odebrání/přidání prvku do obdélnłku, okolí má velikost $K$.
+D) Pro operátor odebrání/přidání prvku do obdélníku, okolí má velikost $K$.
 
 Back:
 
 A) ✅**Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s $K$.**
 B) ❌Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s $n$ a $m$.
 C) ❌Pro operátor odebrání/přidánĺ prvku do obdélníku, okolí má velikost $mn$.
-D) ✅**Pro operátor odebrání/přidání prvku do obdélnłku, okolí má velikost $K$.**
+D) ✅**Pro operátor odebrání/přidání prvku do obdélníku, okolí má velikost $K$.**
 <!--ID: 1737654642391-->
 END
 
@@ -957,17 +1007,17 @@ Problém minimálního obdélníkového pokrytí
 
 ![](../../Assets/Pasted%20image%2020250123172716.png)
 
-A) Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s K.
-B) Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s n a m.
-C) Pro každý prvek matice, operátory generují okolí velikosti mn.
-D) Pro každý prvek matice, operátory generují okolí velikosti K.
+A) Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s $K$.
+B) Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s $n$ a $m$.
+C) Pro operátor odebrání/přidání prvku do obdélníku, okolí má velikost $mn$.
+D) Pro operátor odebrání/přidání prvku do obdélníku, okolí má velikost $K$.
 
 Back:
 
-A) ❔❔❔Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s K.
-B) ❔❔❔Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s n a m.
-C) ❔❔❔Pro každý prvek matice, operátory generují okolí velikosti mn.
-D) ❔❔❔Pro každý prvek matice, operátory generují okolí velikosti K.
+A) ✅**Asymptotická horní mez velikosti stavového prostoru roste exponenciálně s $K$.**
+B) ❌Asymptotická horní mez velikosti stavového prostoru roste kvadraticky s $n$ a $m$.
+C) ❌Pro operátor odebrání/přidání prvku do obdélníku, okolí má velikost $mn$.
+D) ✅**Pro operátor odebrání/přidání prvku do obdélníku, okolí má velikost $K$.
 <!--ID: 1737654642393-->
 END
 
@@ -1021,6 +1071,28 @@ END
 ---
 
 #### Dynamické programování
+
+
+START
+FIT-Card
+
+Dynamické programování může:
+
+A) uváznout v lokálním minimu
+B) potřebovat velikost paměti, kterou nelze odvodit jen z velikosti instance
+C) potřebovat velikost paměti, omezenou polynomem ve velikosti instance
+D) divergovat
+
+Back:
+
+A) uváznout v lokálním minimu
+B) ✅ **potřebovat velikost paměti, kterou nelze odvodit jen z velikosti instance**
+C) ✅ **potřebovat velikost paměti, omezenou polynomem ve velikosti instance**
+D) divergovat
+
+END
+
+---
 
 START
 FIT-Card
@@ -1164,6 +1236,30 @@ END
 #### Las Vegas, Messy, Monte carlo
 
 
+
+START
+FIT-Card
+
+Vyhodnocení zdatnosti ve Fast Messy GA algoritmu je založeno na:
+
+A) reprezentaci individua
+B) výpočtu, který pomocí dalších informací vrátí zdatnost libovolné podmnožiny genů
+C) fenotypu individua
+D) použití referenčního individua
+
+Back:
+
+A) reprezentaci individua
+B) ✅**výpočtu, který pomocí dalších informací vrátí zdatnost libovolné podmnožiny genů**
+C) fenotypu individua
+D) ✅**použití referenčního individua**
+
+END
+
+---
+
+
+
 START
 FIT-Card
 
@@ -1202,8 +1298,7 @@ Back:
 A) ❌reprezentací individua
 B) ❌zdatností individua
 C) ✅**množinami hodnot genů**
-D) ❌reprezentací individua, kde některé geny nejsou ohodnoceny a některé jsou
-ohodnoceny víckrát
+D) ✅**reprezentací individua, kde některé geny nejsou ohodnoceny a některé jsou ohodnoceny víckrát**
 <!--ID: 1737654642419-->
 END
 
@@ -1395,6 +1490,8 @@ END
 START
 FIT-Card
 
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
+
 Reprezentace stavu v tabu prohledávání je binární řetěz konstantní délky. Tah je tabu, pokud se výsledný stav liší ve více než v $K$ bitech. Potřebujete zvýšit diverzifikaci.
 
 A) snížíte $K$
@@ -1406,6 +1503,8 @@ Back:
 A) ❌snížíte $K$
 B) ✅**zvýšíte $K$**
 C) ❌K nemá na diverzifikaci vliv
+
+DELETE
 <!--ID: 1737654642442-->
 END
 
@@ -1414,6 +1513,8 @@ END
 
 START
 FIT-Card
+
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
 
 Reprezentace stavu v tabu prohledávání je cesta v grafu. Tabu pravidla směřují k diverzifikaci. Dlouhodobá paměť dává četnost použití každého uzlu v kandidátní cestě. I když je daný tah tabu, provede se, jestliže tato četnost je nižší než k procent průměru. Potřebujete zvýšit intenzifikaci.
 
@@ -1436,6 +1537,8 @@ END
 START
 FIT-Card
 
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
+
 Reprezentace stavu v tabu prohledávání je cesta v grafu. Dlouhodobá paměť dává četnost použití každého uzlu v kandidátní cestě. I když je daný tah tabu, provede
 se, jestliže tato četnost je nižší než 0,05 průměru. Toto opatření je
 
@@ -1456,6 +1559,8 @@ END
 
 START
 FIT-Card
+
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
 
 Reprezentace stavu v tabu prohledávání je binární retéz konstantní délky. Tah je tabu, pokud se výsledný stav liší ve více než polovině bitů, Nicméně se
 provede, jestliže se nastaví do 1 nebo 0 bit, který tak dosud nastaven nebyl. Toto poslední opatiení je
@@ -1479,6 +1584,8 @@ END
 START
 FIT-Card
 
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
+
 Tabu prohledávání konverguje velmi pomalu, i když s dobrými výsledky. K nápravě
 
 A) přidáme aspirační kritérium, spouštěné dosud nejlepším řešením
@@ -1499,6 +1606,8 @@ END
 START
 FIT-Card
 
+Pozn. tabu jsme nebrali, takže by to u zkoušky nemělo být.
+
 V tabu algoritmu je řešení reprezentováno binárním vektorem. V dlouhodobé paměti máme uložen pro každý bit dosavadní četnost nastavení do 1. Jestliže definujeme aspirační kritérium, které prolomí tabu při nastavení určitého bitu do 1 pro zaznamenanou četnost větší než 0.7 nebo při nastavení do 0 pro zaznamenanou četnost menší než 0.3, je to
 
 A) diverzifikace
@@ -1515,10 +1624,7 @@ END
 
 ---
 
-
 #### Otevřené otázky
-
-
 START
 FIT-Card
 
