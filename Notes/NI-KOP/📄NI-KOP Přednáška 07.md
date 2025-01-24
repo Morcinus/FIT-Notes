@@ -7,7 +7,6 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska07 status-toReview
 
-
 START
 FIT-Card
 
@@ -23,6 +22,8 @@ Dosažený výsledek je náhodná proměnná, čas běhu pevný pro danou instan
 
 ![](../../Assets/Pasted%20image%2020241113142517.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749736-->
 END
 
@@ -44,6 +45,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241113142517.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749738-->
 END
 
@@ -76,6 +79,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113143556.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749743-->
 END
 
@@ -94,6 +99,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113144045.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749746-->
 END
 
@@ -142,6 +149,8 @@ Co jsou **primární** a **sekundární** metriky u randomizovaných algoritmů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241113144618.png)
+
+Tags: core
 <!--ID: 1735205749753-->
 END
 

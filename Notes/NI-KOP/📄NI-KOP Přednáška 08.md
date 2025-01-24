@@ -7,21 +7,25 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska08 status-toReview
 
-
-
 START
 FIT-Card
 
-Jaké jsou 2 řešení úniku lokálních optim?
+Jaké jsou **řešení úniku lokálních optim** u simulovaného ochlazování? (2)
 
 Back:
 
-- Diverzifikace
-- Intenzifikace
+- **Diverzifikace**
+	- snažíme se rovnoměrně prozkoumávat stavový prostor
+	- moc velká ochota připustit akci => horší řešení 
+- **Intenzifikace**
+	- snažíme se více zkonvergovat k finálnímu řešení
+	- moc malá ochota připustit akci => horší řešení
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120162137.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749600-->
 END
 
@@ -38,6 +42,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120162156.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749602-->
 END
 
@@ -66,6 +72,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120162430.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749605-->
 END
 
@@ -85,7 +93,11 @@ Máme nějaký systém:
 - "teplota" je nějaký řídící parametr, který řídí diverzifikaci. Říká mi, jak moc jsem ochotný přijmout zhoršující stav (ten co mi zhorší hodnotu optimalizačního kritéria), když procházím stavový prostor.
 	- Ze začátku algoritmus víc "skáče" po stavovém prostoru a hledá všude možně a čím dál tím víc se mu zakazuje se dostávat se do zhoršujících stavů 
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120163056.png)
+<!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749607-->
 END
 
@@ -112,6 +124,8 @@ Dovysvětlení:
 ![](../../Assets/Pasted%20image%2020241120163335.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749609-->
 END
 
@@ -133,6 +147,8 @@ Back:
 Více o jednotlivých funkcích v dalších kartičkách.
 
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749612-->
 END
 
@@ -185,6 +201,8 @@ Back:
 Je třeba tu hodnotu **normalizovat** tak, aby hodnoty `cost()` měly **stejný rozsah pro každou instanci**
 
 ![](../../Assets/Pasted%20image%2020241120164427.png)
+
+Tags: core
 <!--ID: 1735205749619-->
 END
 
@@ -198,9 +216,9 @@ Jak funguje funkce `cool()` v simulovaném ochlazování?
 
 Back:
 
-Typicky teplotu přenásobím nějakou konstantou.
+Typicky teplotu přenásobím nějakou konstantou $\alpha$, kde $0.8 < \alpha < 0.999$
 
-![](../../Assets/Pasted%20image%2020241120164524.png)
+Tags: core
 <!--ID: 1735205749622-->
 END
 
@@ -215,6 +233,8 @@ Jak funguje funkce `equilibrium()` v simulovaném ochlazování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241120164552.png)
+
+Tags: core
 <!--ID: 1735205749625-->
 END
 
@@ -230,8 +250,6 @@ Back:
 
 Různým nastavením můžu dosáhnout stejného výsledku.
 
-
-
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120164723.png)
 ![](../../Assets/Pasted%20image%2020241120164729.png)
@@ -240,6 +258,8 @@ Ve vzorečku mi vypadlo N -> nezávisí na tom, v jakém kroku se momentálně n
 ![](../../Assets/Pasted%20image%2020241120164848.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749628-->
 END
 
@@ -249,11 +269,18 @@ END
 START
 FIT-Card
 
-Jak nastavit vhodně počáteční teplotu?
+Podle jakých metrik se dynamicky nastavuje počáteční teplota? (2)
 
 Back:
 
+- **Podle obtížnosti/velikosti instance**
+- **Podle rozsahu optimalizačního kritéria**
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120165059.png)
+<!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749631-->
 END
 
@@ -278,18 +305,20 @@ END
 START
 FIT-Card
 
-Kdy se zastaví simulované ochlazování?
+Kdy se zastaví simulované ochlazování? (3)
 
 Back:
 
-- pevná mez teploty
+- **pevná mez teploty**
 - nebo stagnace:
-	- četnost změn klesla pod nastavenou mez
-	- četnost změn k lepšímu klesla pod nastavenou mez
+	- **četnost změn klesla pod nastavenou mez**
+	- **četnost změn k lepšímu klesla pod nastavenou mez**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241120165427.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749636-->
 END
 

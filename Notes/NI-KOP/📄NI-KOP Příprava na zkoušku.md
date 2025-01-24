@@ -135,14 +135,14 @@ Relaxace v iterativních lokálních heuristikách:
 A) má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením
 B) spočívá v použití malých instancí
 C) slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
-D) typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
+D) typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokuty za ne-řešení, která je pro danou instanci konstantní
 
 Back:
 
 A) ✅**má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením**
 B) ❌spočívá v použití malých instancí
 C) ❌slouží pouze při porovnání konfigurací pro přijetí tahu; neužívá se v případě zhoršujícího tahu
-D) ❌typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokudy za ne-řešení, která je pro danou instanci konstantní
+D) ❌typicky nahrazuje optimalizační kritérium heuristickou kombinací původního opt. kritéria a pokuty za ne-řešení, která je pro danou instanci konstantní
 <!--ID: 1737654642293-->
 END
 
@@ -245,14 +245,14 @@ FIT-Card
 
 Máte experimentálně vyhodnotit, zda randomizovaný algoritmus, který vyvíjíte, je citlivý na určitou charakteristiku instancí
 
-A) Použijete přednostně instance „nachytané” při provozu podobného algoritmu v praxi, i když zkoumanou charakteristiku u nich nelze spolehlivě
+A) Použijete přednostně instance „nachytané” při provozu podobného algoritmu v praxi, i když zkoumanou charakteristiku u nich nelze spolehlivě určit
 B) Použijete přednostně instance vygenerované se známými vlastnostmi.
 C) Použijete instance různých vlastností tak, aby bylo možné srovnání podobných instancí, avšak s či bez zkoumané charakteristiky.
 D) Výpočet spustíte opakovaně pro každou instanci.
 
 Back:
 
-A) ❌Použijete přednostně instance „nachytané” při provozu podobného algoritmu v praxi, i když zkoumanou charakteristiku u nich nelze spolehlivě
+A) ❌Použijete přednostně instance „nachytané” při provozu podobného algoritmu v praxi, i když zkoumanou charakteristiku u nich nelze spolehlivě určit
 B) ✅**Použijete přednostně instance vygenerované se známými vlastnostmi.**
 C) ✅**Použijete instance různých vlastností tak, aby bylo možné srovnání podobných instancí, avšak s či bez zkoumané charakteristiky.**
 D) ✅**Výpočet spustíte opakovaně pro každou instanci.**
@@ -265,7 +265,7 @@ END
 START
 FIT-Card
 
-Globální metoda je aplikována na grafový problém. Instance je graf, velikost instance n se měří počtem uzlů grafu. Dekompozice produkuje v čase $O(n)$
+Globální metoda je aplikována na grafový problém. Instance je graf, velikost instance $n$ se měří počtem uzlů grafu. Dekompozice produkuje v čase $O(n)$
 dvě podinstance, které obsahují vždy poloviční počet uzlů (nevíme které uzly) a hrany mezi nimi. Kompozice a řešení triviálních instancí je v konstantním
 čase. Algoritmus
 
@@ -276,10 +276,10 @@ D) je polynomiální ve velikosti instance
 
 Back:
 
-A) ❔❔❔ dá nutně optimální řešení
-B) ❔❔❔je $O(n^2)$
-C) ❔❔❔je pseudopolynomiální
-D) ❔❔❔je polynomiální ve velikosti instance
+A) ❔(imo ❌) dá nutně optimální řešení
+B) ❔(imo ❌) je $O(n^2)$
+C) ❔(imo ❌) je pseudopolynomiální
+D) ❔(imo ✅) je polynomiální ve velikosti instance
 <!--ID: 1737654642309-->
 END
 
@@ -289,7 +289,7 @@ END
 START
 FIT-Card
 
-Reprezentace stavu v tabu prohledáváni je Hamiltonova kružnice v grafu. Tah je dvojzáména na hranách (odebereme z kružnice dvé hrany a přidáme dvě jiné tak, aby výsledek byla opět Hamiltonova kružnice). Tah je tabu, pokud některá hrana cílové dvojice se často v konfiguraci vyskytovala. Pokud však zlepšeni opt. kritéria Je vetší než určitý práh, tabu je prolomeno. Toto poslední opatteni je
+Reprezentace stavu v tabu prohledávání je Hamiltonova kružnice v grafu. Tah je dvojzáměna na hranách (odebereme z kružnice dvě hrany a přidáme dvě jiné tak, aby výsledek byla opět Hamiltonova kružnice). Tah je tabu, pokud některá hrana cílové dvojice se často v konfiguraci vyskytovala. Pokud však zlepšení opt. kritéria je vetší než určitý práh, tabu je prolomeno. Toto poslední opatření je
 
 A) diverzifikace
 B) intenzifikace
@@ -341,15 +341,15 @@ FIT-Card
 
 Máte experimentálné vyhodnotit, zda Vámi navržené nastavení simulovaného ochlazováni má dostatečnou iterativní sílu.
 
-A) Budete métit závislost času vypočtu na velikosti instance.
-B) Budete méiit kvalitu výsledku pro více různých počátečních tešení.
+A) Budete měřit závislost času vypočtu na velikosti instance.
+B) Budete měřit kvalitu výsledku pro více různých počátečních řešení.
 C) Soubor zkušebních instancí můžete omezit na menší instance.
 D) Výpočet spustíte opakované pro každou instanci a počáteční řešení
 
 Back:
 
-A) ❌Budete métit závislost času vypočtu na velikosti instance.
-B) ✅**Budete méiit kvalitu výsledku pro více různých počátečních tešení.**
+A) ❌Budete měřit závislost času vypočtu na velikosti instance.
+B) ✅**Budete měřit kvalitu výsledku pro více různých počátečních řešení.**
 C) ❌Soubor zkušebních instancí můžete omezit na menší instance.
 D) ✅**Výpočet spustíte opakované pro každou instanci a počáteční řešení**
 <!--ID: 1737654642317-->
@@ -367,14 +367,14 @@ počáteční teplotu simulovaného ochlazování, pracuje uspokojivě.
 A) Použijete větší počet lehkých instancí k urychlení.
 B) Výpočet spustíte opakovaně pro každou instanci
 C) Zvolíme jednotnou velikost instance pro všechny experimenty
-D) ❔❔❔Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
+D) Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
 
 Back:
 
 A) ❌Použijete větší počet lehkých instancí k urychlení.
 B) ✅**Výpočet spustíte opakovaně pro každou instanci**
 C) ❌Zvolíme jednotnou velikost instance pro všechny experimenty
-D) ❔❔❔Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
+D) ❔(imo ❌) Zvolíme jednu průměrnou hloubkou lokálních minim pro všechny experimenty.
 <!--ID: 1737654642320-->
 END
 
@@ -435,7 +435,7 @@ C) dá se s výhodou určovat za běhu sledováním konvergence
 
 Back:
 
-A) ❔❔❔je-li přiliš vysoká, omezuje prohledávanou část stavového prostoru
+A) ❔(imo ❌) je-li přiliš vysoká, omezuje prohledávanou část stavového prostoru
 B) ❌vždy musí zůstat konstantní, pokud se mění počáteční teplota
 C) ✅**dá se s výhodou určovat za běhu sledováním konvergence**
 <!--ID: 1737654642328-->
@@ -493,16 +493,16 @@ FIT-Card
 
 Máte simulované ochlazování s automatickým nastavováním počáteční teploty. Jak ověříte správnost nastavování počáteční teploty?
 
-A) Pustim na instance ruznych velikosti  
-B) Pustim na instance ruznych hloubek  
-C) Pustim na mnoho malych instanci, abych to urychlil  
+A) Pustím na instance ruznych velikosti  
+B) Pustím na instance ruznych hloubek  
+C) Pustím na mnoho malých instanci, abych to urychlil  
 D) Vypocet spustite opakovane pro kazdou instanci
 
 Back:
 
-A) ✅**Pustim na instance ruznych velikosti**  
-B) ✅**Pustim na instance ruznych hloubek**  
-C) ❌Pustim na mnoho malych instanci, abych to urychlil  
+A) ✅**Pustím na instance ruznych velikosti**  
+B) ✅**Pustím na instance ruznych hloubek**  
+C) ❌Pustím na mnoho malých instanci, abych to urychlil  
 D) ✅**Vypocet spustite opakovane pro kazdou instanci**
 <!--ID: 1737654642335-->
 END
@@ -517,15 +517,16 @@ START
 FIT-Card
 
 Evoluční programování pracuje nad reprezentací:
+
 A) vektoru reálných čísel
-B) rozkladového stromu 'Úrazu
+B) rozkladového stromu výrazu
 C) binárního řetězu
 D) automatu
 
 Back:
 
-A) ❌vektoru reálných Čísel
-B) ❌rozkladového stromu 'Úrazu
+A) ❌vektoru reálných čísel
+B) ❌rozkladového stromu výrazu
 C) ❌binárního řetězu
 D) ✅**automatu**
 <!--ID: 1737654642338-->
@@ -674,7 +675,6 @@ Back:
 A) ❌pravděpodobnost mutace
 B) ✅**konstanty přepočtu zdatnosti platí**
 C) ❌pravděpodobnost výběru nejlepšího jedince
-
 <!--ID: 1737654642356-->
 END
 

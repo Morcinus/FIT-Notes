@@ -7,16 +7,17 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska09 status-toReview
 
-
 START
 FIT-Card
 
-Jaká je analogie simulované evoluce (biologický systém a optimalizační problém)?
+Jaká je analogie **simulované evoluce** (biologický systém a optimalizační problém)?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127151314.png)
 ![](../../Assets/Pasted%20image%2020241127151350.png)
+
+Tags: core
 <!--ID: 1735205749650-->
 END
 
@@ -31,7 +32,17 @@ Jak vypadá proces simulované evoluce?
 
 Back:
 
+1. Máme populaci
+2. **Selekce** - tím provedeme **intenzifikaci**, zvýšíme podíl **zdatných** jedinců
+3. **Křížení** - zkombinujeme genetickou informaci do nových jedinců
+4. **Mutace** - přidáme náhodný zdroj nové genetické informace -> **diverzifikace**
+5. Máme populaci, můžeme skončit nebo pokračovat celé znovu
+
+<!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127151531.png)
+<!-- ImageEnd -->
+
+Tags: core
 <!--ID: 1735205749653-->
 END
 
@@ -41,14 +52,14 @@ END
 START
 FIT-Card
 
-Jaké jsou společné rysy evolučních algoritmů?
+Jaké jsou prostředky **diverzifikace** a **intenzifikace** v simulované evoluci?
 
 Back:
 
-- Mají více stavů
-- Interakce stavů: nový stav je kombinací reprezentací
-- Prostředky diverzifikace: mutace atd.
-- Prostředky intenzifikace: selekce pro rekombinaci, selekce pro další generaci
+- Prostředky **diverzifikace**: **mutace**
+- Prostředky **intenzifikace**: **selekce**
+
+Tags: core
 <!--ID: 1735205749655-->
 END
 
@@ -59,11 +70,19 @@ END
 START
 FIT-Card
 
-Jaká je reprezentace, křížení a mutace u **genetického algoritmu**?
+Nad jakou reprezentací pracuje **genetický algoritmus**?
+
+(tohle bude u zkoušky)
 
 Back:
 
+Nad **binárním řetěžcem**
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127152336.png)
+<!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749658-->
 END
 
@@ -73,12 +92,15 @@ END
 START
 FIT-Card
 
-Jaká je reprezentace, křížení a mutace u **genetického programování**?
+Nad jakou reprezentací pracuje **genetické programování**?
+
+(tohle bude u zkoušky)
 
 Back:
 
-Strategie, reprezentace, křížení, mutace:
-![](../../Assets/Pasted%20image%2020241127152420.png)
+Nad programem, **DFG** = data flow graph
+
+Tags: core
 <!--ID: 1735205749660-->
 END
 
@@ -90,10 +112,13 @@ FIT-Card
 
 Jaká je reprezentace, křížení a mutace u **evoluční strategie**?
 
+(tohle bude u zkoušky)
+
 Back:
 
-Strategie, reprezentace, křížení, mutace:
-![](../../Assets/Pasted%20image%2020241127152444.png)
+Nad **vektorem reálných čísel a odchylek**
+
+Tags: core
 <!--ID: 1735205749663-->
 END
 
@@ -105,10 +130,13 @@ FIT-Card
 
 Jaká je reprezentace, křížení a mutace u **evolučního programování**?
 
+(tohle bude u zkoušky)
+
 Back:
 
-Strategie, reprezentace, křížení, mutace:
-![](../../Assets/Pasted%20image%2020241127152503.png)
+Nad reprezentací **automatu**.
+
+Tags: core
 <!--ID: 1735205749665-->
 END
 
@@ -127,6 +155,8 @@ Back:
 - **náhrada** = nová generace nahradí starou
 - **náhrada s elitismem** = nová generace nahradí starou, ale pár elitních jedinců zůstává
 	- soutěž $\mu$ rodičů a $\lambda$ potomků, vyberu $\mu$ nových jedinců
+
+Tags: core
 <!--ID: 1735205749668-->
 END
 
@@ -137,10 +167,10 @@ START
 FIT-Card
 
 Jak se typicky zachází s potomky u těchto algoritmů:
-- genetický algoritmus
-- genetické programování
-- evoluční strategie
-- evoluční programování
+- **genetický algoritmus**
+- **genetické programování**
+- **evoluční strategie**
+- **evoluční programování**
 
 Back:
 
@@ -150,6 +180,8 @@ Back:
 - evoluční strategie - z rodičů odvodím víc potomků
 - evoluční programování - z rodičů odvodím víc potomků
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749670-->
 END
 
@@ -168,7 +200,8 @@ Jak se reprezentují jedinci v genetických algoritmech?
 Back:
 
 Kódujou se pomocí binárního řetězce.
-<!--ID: 1735205749673-->
+
+
 END
 
 ---
@@ -187,6 +220,8 @@ Vezmu si bod v binární reprezentaci a vezmu jednu část z jednoho jedince a d
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127153426.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749675-->
 END
 
@@ -205,6 +240,8 @@ Náhodně zvolím dva body a mezi nimi tam vložím gen druhého jedince
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127153504.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749678-->
 END
 
@@ -223,6 +260,8 @@ Udělám si mapu, co budu brát ze kterého jedince.
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127153749.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749680-->
 END
 
@@ -249,6 +288,8 @@ Zde:
 - Ze sedmičky udělám dvojku (a obráceně), z devítky trojku (a obráceně), atd.
 
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749683-->
 END
 
@@ -263,6 +304,8 @@ Jak funguje inverze v genetice?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241127154327.png)
+
+Tags: core
 <!--ID: 1735205749685-->
 END
 
@@ -274,7 +317,7 @@ END
 START
 FIT-Card
 
-Jak funguje mutace?
+Jak funguje **mutace**?
 
 Back:
 
@@ -284,6 +327,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127154527.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749688-->
 END
 
@@ -305,6 +350,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127154658.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749690-->
 END
 
@@ -323,6 +370,8 @@ Selekční tlak mi určuje pravděpodobnost výběru nejlepšího jedince.
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020241127154846.png)
 <!-- ExplanationEnd -->
+
+Tags: core
 <!--ID: 1735205749693-->
 END
 
@@ -342,6 +391,8 @@ Pomocí selekce ztrácím určité informace. Mutace mi to trochu kompenzuje, ab
 ![](../../Assets/Pasted%20image%2020241127154930.png)
 ![](../../Assets/Pasted%20image%2020241127155539.png)
 <!-- ImageEnd -->
+
+Tags: core
 <!--ID: 1735205749695-->
 END
 
@@ -361,10 +412,11 @@ Je nebezpeční degenerace populace (lokální optima).
 ![](../../Assets/Pasted%20image%2020241127155539.png)
 <!-- ImageEnd -->
 
-
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127155259.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749698-->
 END
 
@@ -385,6 +437,8 @@ Hrozí i **divergence populace** - tzn. když budu mutovat tak moc, že mi to p�
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127155259.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749700-->
 END
 
@@ -394,7 +448,7 @@ END
 START
 FIT-Card
 
-Jak funguje ruletový výběr? (v selekčním tlaku)
+Jak funguje **ruletový výběr**? (v selekčním tlaku)
 
 Back:
 
@@ -403,6 +457,8 @@ Každému prvku dám pravděpodobnost výběru a roztočím ruletu a zvolím tí
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127155711.png)
 <!-- ImageEnd -->
+
+Tags: core
 <!--ID: 1735205749703-->
 END
 
@@ -412,7 +468,7 @@ END
 START
 FIT-Card
 
-Co je univerzální stochastické vzorkování? (v selekčním tlaku)
+Co je **univerzální stochastické vzorkování**? (v selekčním tlaku)
 
 Back:
 
@@ -421,6 +477,8 @@ Mírná úprava ruletového výběru, aby to dávalo lepší výsledky
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127155821.png)
 <!-- ImageEnd -->
+
+Tags: core
 <!--ID: 1735205749708-->
 END
 
@@ -430,7 +488,7 @@ END
 START
 FIT-Card
 
-Jaké jsou 3 techniky u řízení selekčního tlaku pro ruletový výběr?
+Jaké jsou 3 **techniky u řízení selekčního tlaku pro ruletový výběr**?
 
 Back:
 
@@ -441,6 +499,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127160029.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749713-->
 END
 
@@ -450,7 +510,7 @@ END
 START
 FIT-Card
 
-Jak funguje lineární škálování? (**Scaling**)
+Jak funguje **lineární škálování**? (**Scaling**)
 
 Back:
 
@@ -464,6 +524,8 @@ Lineární škálování je funkce, která mi přepočítá zdatnosti jedinců t
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020241127160520.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1735205749716-->
 END
 
@@ -525,6 +587,8 @@ Funguje to tak, že si nastavím nějakou čáru a zdatnosti přeškáluju tak, 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241127161525.png)
 <!-- ImageEnd -->
+
+Tags: core
 <!--ID: 1735205749723-->
 END
 
@@ -534,7 +598,7 @@ END
 START
 FIT-Card
 
-Jak funguje zkrácený výběr? (truncation selection)
+Jak funguje **zkrácený výběr**? (truncation selection)
 
 Back:
 
@@ -549,6 +613,8 @@ Je to méně přesné než ostatní možnosti.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127161632.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749725-->
 END
 
@@ -560,7 +626,7 @@ END
 START
 FIT-Card
 
-Co je Turnajový výběr?
+Co je **Turnajový výběr**?
 
 Back:
 
@@ -570,6 +636,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241127161852.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749728-->
 END
 
@@ -579,19 +647,20 @@ END
 START
 FIT-Card
 
-Jaké jsou různé podmínky ukončení genetického algoritmu? (aka jak rozhodnu, kdy algoritmus skončí)?
+Jaké jsou různé **podmínky ukončení genetického algoritmu**? (aka jak rozhodnu, kdy algoritmus skončí)?
 
 Back:
 
 - Pevný počet generací
 - Příznaky konvergence
+
+Tags: core
 <!--ID: 1735205749730-->
 END
 
 ---
 
 ### Omezující podmínky
-
 
 START
 FIT-Card
@@ -607,6 +676,8 @@ Standardní
 Specifické
 - **doménové operátory** - udělají mi z permutace zase permutaci, z kružnice zase kružnici atd.
 - **doménové reprezentace** a dekódery
+
+Tags: core
 <!--ID: 1735205749733-->
 END
 

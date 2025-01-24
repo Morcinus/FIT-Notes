@@ -13,11 +13,13 @@ FILE TAGS: NI-KOP prednaska11 status-toReview
 START
 FIT-Card
 
-Co je Hypotéza stavebních bloků?
+Co je **Hypotéza stavebních bloků**?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221154048.png)
+
+Tags: core
 <!--ID: 1735922645590-->
 END
 
@@ -31,8 +33,10 @@ Jak se dá jinak dívat na genetické algoritmy?
 
 Back:
 
-Pracuje se s mnoužinou schémat
+Pracuje se s množinou schémat
 ![](../../Assets/Pasted%20image%2020241221154632.png)
+
+Tags: core
 <!--ID: 1735922645593-->
 END
 
@@ -48,6 +52,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221154358.png)
 ![](../../Assets/Pasted%20image%2020241221154407.png)
+
+Tags: core
 <!--ID: 1735922645597-->
 END
 
@@ -63,6 +69,8 @@ Věta: **o schématech**
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221154656.png)
+
+Tags: core
 <!--ID: 1735922645600-->
 END
 
@@ -81,6 +89,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221155234.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735922645602-->
 END
 
@@ -109,6 +119,8 @@ Jaké dvě věci je třeba udělat u uniformního křížení ve schématech?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221155343.png)
+
+Tags: core
 <!--ID: 1735922645608-->
 END
 
@@ -124,6 +136,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020241221155504.png)
 ![](../../Assets/Pasted%20image%2020241221155521.png)
+
+Tags: core
 <!--ID: 1735922645612-->
 END
 
@@ -139,8 +153,6 @@ Back:
 
 Máme např. minimalizační problém, kde optimalizační kritérium je počet jedniček v chromozomu.
 
-
-
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241221155741.png)
 <!-- DetailInfoEnd -->
@@ -153,7 +165,7 @@ END
 START
 FIT-Card
 
-Co je Kompetentní genetický algoritmus?
+Co je **Kompetentní** genetický algoritmus?
 
 Back:
 
@@ -162,6 +174,8 @@ Takový, který zachází se stavebníma blokama:
 - pracuje s pravděpodobnostním modelem vazeb
 
 ![](../../Assets/Pasted%20image%2020241221160016.png)
+
+Tags: core
 <!--ID: 1735922645618-->
 END
 
@@ -182,6 +196,8 @@ Postupně se zvyšuje řád stavebních bloků $k$.
 3. Křížením a mutacema z toho zkoušíme udělat novou sbírku stavebních bloků.
 
 ![](../../Assets/Pasted%20image%2020241221160208.png)
+
+Tags: core
 <!--ID: 1735922645621-->
 END
 
@@ -198,6 +214,8 @@ Back:
 Na první pozici je místo, na druhé pozici je hodnota
 
 ![](../../Assets/Pasted%20image%2020241221160412.png)
+
+Tags: core
 <!--ID: 1735922645624-->
 END
 
@@ -262,10 +280,12 @@ Jak funguje Rekombinace schémat?
 Back:
 
 Jsou tam dvě operace:
-- rozdělení (cut) - rozdělení obou rodičů v náhodných bodech
-- spojení (splice) - spojím rozdělené fragmenty 
+- **rozdělení** (cut) - rozdělení obou rodičů v náhodných bodech
+- **spojení** (splice) - spojím rozdělené fragmenty 
 
 ![](../../Assets/Pasted%20image%2020241221161051.png)
+
+Tags: core
 <!--ID: 1735922645637-->
 END
 
@@ -299,6 +319,8 @@ Back:
 Mám pravděpodobnosti jevů v tabulce. Obecně to je orientovaný acyklický graf. Každá proměnní je uzel v tom grafu.:
 ![](../../Assets/Pasted%20image%2020241221161403.png)
 ![](../../Assets/Pasted%20image%2020241221161447.png)
+
+Tags: core
 <!--ID: 1735922645644-->
 END
 
@@ -314,6 +336,8 @@ Back:
 
 V orientovaném grafu se pak můžu ptát na různé otázky:
 ![](../../Assets/Pasted%20image%2020241221161604.png)
+
+Tags: core
 <!--ID: 1735922645647-->
 END
 
@@ -330,6 +354,8 @@ Back:
 V cyklu algoritmu sestavuju bayesovskou síť. 
 
 ![](../../Assets/Pasted%20image%2020241221161621.png)
+
+Tags: core
 <!--ID: 1735922645650-->
 END
 
@@ -344,6 +370,8 @@ Jak funguje hledání modelů v Bayesovské síti?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221161741.png)
+
+Tags: core
 <!--ID: 1735922645653-->
 END
 
