@@ -126,7 +126,9 @@ Co je přesná dekompozice?
 
 Back:
 
-Když mám všechny řešení podinstancí, tak z toho získám všechny optimální řešení celkových instancí. (Tzn. nejen že zachovávám optimálnost, ale najdu všechny ty optimální řešení)
+Když mám všechny řešení podinstancí, tak z toho získám **všechny** optimální řešení celkových instancí. (Tzn. nejen že zachovávám optimálnost, ale najdu všechny ty optimální řešení)
+
+Tags: core
 <!--ID: 1736497489330-->
 END
 
