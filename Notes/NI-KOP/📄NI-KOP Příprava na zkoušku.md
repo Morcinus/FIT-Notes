@@ -3037,17 +3037,11 @@ END
 START
 FIT-Card
 
-Máme problém zakódovaný binárním vektorem. Definujeme určitou hranici na vzdálenost operace (Hammingova vzdálenost = počet bitů, které se oproti současnému stavu změní). Všechny stavy, které jsou pod hranicí, označíme jako tabu v tabu prohledávání. Toto je:
-
-A) Diverzifikace
-B) Intenzifikace
-C) Omezení prostoru
+Tuto kartičku ignorujte :)
 
 Back:
 
-A) ✅**Diverzifikace**
-B) ❌Intenzifikace
-C) ✅**Omezení prostoru**
+aaaaaaaaaaaaaaaaaaaaaaaaaaa
 <!--ID: 1737799483134-->
 END
 
@@ -3246,7 +3240,7 @@ FIT-Card
 V genetickém algoritmu používáme operátor inverze, jestliže:
 
 A) chceme potlačit statistickou nevyváženost uniformního křížení
-B) **chceme potlačit statistickou nevyváženost jednobodového křížení**
+B) chceme potlačit statistickou nevyváženost jednobodového křížení
 C) současně používáme uniformní stochastický výběr
 
 Back:
