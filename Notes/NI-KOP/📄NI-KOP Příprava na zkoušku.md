@@ -1730,6 +1730,11 @@ A) ✅**lineární**
 B) ❌pseudopolynomiálnĺ
 C) ✅**polynomiální**
 D) ✅**exaktní metoda**
+
+<!-- ExplanationStart -->
+Je třeba si uvědomit, že to je $2^{\log N} = N$, takže to je lineární.
+<!-- ExplanationEnd -->
+
 <!--ID: 1737654642409-->
 END
 
