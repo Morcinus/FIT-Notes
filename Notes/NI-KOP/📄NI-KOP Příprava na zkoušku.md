@@ -3284,34 +3284,38 @@ Problém diskrétního rozmístění v rovině
 
 Back:
 
-Pozn. tohle psal někdo z fitwiki, neručím za správnost (ale dostal za to 10/10b)
+Pozn. tohle by mělo být řešení za 10/10b
 
-1)
-Konfigurační proměnnou bude prosté přiřazení modulů z K na pozice z P.
+**1) Konfigurační proměnné a obor**
+Mějme moduly označené indexy $i = 0, \dots, n$.
 
-Reprezentujeme ho jako seznam délky n (počet modulů), v každé buňce seznamu zapsána nějaká souřadnice z P. Zaznamenaná souřadnice na i-tém indexu seznamu odpovídá tomu, že modul k_i byl přiřazen na tuto souřadnici. V takovém seznamu se každá souřadnice z P se smí každá souřadnice vyskytnout nejvýše jednou, aby byla splněna prostost.
+_Konfigurační proměnné:_
+Seznam pozic délky $n$ (počet modulů), kde v $i$-té buňce seznamu bude uložena souřadnice, na kterou bude přiřazen $i$-tý modul. Souřadnice se může v seznamu vyskytnout nejvýše jednou.
 
-Oborem každého záznamu v seznamu je tedy hodnota z množiny P taková, aby se v rámci seznamu neopakovala.
+_Obor:_ Hodnota $P$ taková, že může být v seznamu nejvýše jednou.
 
-2)
+**2) Stavový prostor**
+_Stavy_: 
+Ohodnocení konfigurační proměnné, tedy konkrétní přiřazení všech modulů z $K$ na dané souřadnice z $P$
 
-Stavy: ohodnocení konfigurační proměnné, tedy konkrétní přiřazení všech modulů z K na navzájem různé pozice z P.
+_Operátory:_
+- Prohození dvou modulů (resp. jejich souřadnic)
+- Přesunutí modulu na prázdnou souřadnici
 
-Operátory:
+_Optimalizační kritérium:_
+Vychází ze zadání, "součet ohodnocení $W(R, \nu)$ přes všechny spoje", tedy každý stav produkuje nějaké (i když potenciálně neoptimální) řešení, není tedy potřeba relaxace.
 
-- prohození dvou souřadnic/pozic přiřazeným dvěma různým modulům (tedy pro celá i,j z [1, n], i != j, výměna hodnot v seznamu na indexech i a j)
+**3) Vlastnosti stavového prostoru**
 
-- přesun modulu na neobsazenou souřadnici/pozici (tedy pro i z [1, n] a souřadnici r z P, přepsání hodnoty i-tého indexu seznamu na r, pokud r již není v seznamu obsaženo)
+Stavový prostor je silně souvislý, pro každý stav je možné se pomocí posloupnosti operátorů dostat do libovolného jiného stavu. Všechny stavy jsou tak dosažitelné.
 
-Optimalizační kritérium: viz zadání, každý stav produkuje nějaké (i když potenciálně neoptimální) řešení, není tedy potřeba relaxace.
+**4) Počáteční řešení**
 
-3)
+Počáteční stavy dává smysl generovat generovat náhodně, tedy postupně každému modulu z $K$ přiřadit náhodnou ještě nepřiřazenou souřadnici z $P$.
 
-Stavový prostor je silně souvislý, pro každé rozmístění modulů je možné pomocí posloupnosti aplikace operátorů transformovat na každé jiné rozmístění. Všechny stavy jsou tedy navzájem dosažitelné.
+Druhou možností je jednoduše postupně modulům z $K$ přiřadit posloupnost prvních $n$ souřadnic z $P$.
 
-4)
-
-Můžeme generovat náhodně, tedy vytvořit náhodnou permutaci pozic z P, přiřadit prvních n pozic do seznamu na indexy 1 až n (zbylé pozice budou v počátečním řešení nevyužité). Případně triviálně přiřadit p_1 na první index seznamu, p_2 na druhý, …, až do n. Při kvalitním nastavení simulovaného ochlazování by neměla kvalita výsledného řešení na volbě počátečního řešení záviset.
+Při kvalitním nastavení simulovaného ochlazování by neměla mít volba počátečního stavu na výsledné řešení velký vliv.
 
 Tags: otevrene
 <!--ID: 1737654642458-->
@@ -3328,9 +3332,39 @@ Problém minimální transformace stromu
 
 Back:
 
-Autor dostal 12/12b
+**1) Konfigurační proměnné**
 
+Nechť operace je definovaná jako uspořádaná trojice `(hrana, podstrom vrcholu u, podstrom vrcholu v)`. Každá operace tedy náleží $o \in E \times \set {Left, Right} \times \set {Left, Right}$.
+
+_Konfigurační proměnné:_ 
+Seznam dosud provedených operací, pořadí operací určuje, v jakém pořadí byly provedeny.
+
+_Obor_: posloupnost konkrétních operací popsaných výše
+
+**2) Druh simulované evoluce** ❔
+
+_Druh simulované evoluce:_ 
+Nejvhodnější by nejspíš byl genetický algoritmus, který pracuje nad binárními řetězci. V konfiguraci bychom mohli pomocí 0 a 1 zvolit, který podstrom by se vybral. Dále bychom mohli určit index hrany z $E$ tak, že ho (jakožto přirozené číslo) binárně zakódujeme. Takto bychom dostali reprezentaci dané operace. Tyto operace bychom mohli vkládat za sebe a tím vytvořit jejich řetězec, tedy stav.
+
+**3) Reprezentace individua**
+
+Binární řetězec, skládající se z mnoha 8 bitových bloků, prvních 6 bitů by byla binární reprezentace indexu hrany z $E$, další 2 bity by reprezentovaly, jaký podstrom vrcholů $u$ a $v$ se vybere. Díky tomu bychom měli seznam operací.
+
+**4) Genetické operátory**
+
+- Mutace: náhodné flipnutí několika bitů v rámci všech jedinců
+- Křížení: jednobodové křížení
+
+**5) Generování počáteční generace** ❔
+
+Vytvoření náhodných jedinců různé délky.
+
+<!-- DetailInfoStart -->
+
+Autor dostal 12/12b, ale přijde mi, že popisoval trošku jiné zadání..
 ![](../../Assets/Pasted%20image%2020250123180432.png)
+
+<!-- DetailInfoEnd -->
 
 Tags: otevrene
 <!--ID: 1737654642460-->
@@ -3348,16 +3382,42 @@ Problém kvadratického přiřazení
 
 Back:
 
-Za tohle borec měl 10/10b
-![](../../Assets/Pasted%20image%2020250123174808.png)
+**1) Konfigurační proměnné**
+Budeme mít pozice z $P$ fixně seřazené.
 
-Řešení 2:
+_Konfigurační proměnné_:
+Vektor $n$ modulů. Každá hodnota indexu odpovídá nějaké pozici z $P$. Různé stavy budou tedy permutace tohoto vektoru.
+
+_Obor:_
+Všechny permutace vektoru $n$.
+
+**2) Druh simulované evoluce**
+Genetický algoritmus.
+
+**3) Reprezentace individua**
+Řetězec $n$ čísel, kde každé číslo reprezentuje identifikátor daného modulu z $K$. Pořadí čísel určuje rozmístění na dané pozice.
+
+**4) Genetické operátory**
+- Mutace - prohodíme libovolné dvě hodnoty
+- Křížení - Permutační křížení (PMX) - vyberou se dva body, udělá se z nich tabulka, podle ní se nahradí prvky. Díky tomu se zachová permutace.
+
+**5) Počáteční generace**
+Náhodně vygenerované permutace.
+
+<!-- DetailInfoStart -->
 Pozn. borec za tohle mel 9/10b
 
 Konfiguracni promenne
 Jedinec bude definovan vektorem o velikosti n, kde na i-tem indexu bude k_i modul z K, hodnoty, ktere budeme prirazovat z P, je treba si ale pohlídat, ze kazda hodnota z P je pouzita pravejednou abychom splnili podmínku proste prirazeni, obor hodnot jsou vsechny permutace techto vektoru rozlozeni, ktere splnuji zminenou podminku
 
 ![](../../Assets/Pasted%20image%2020250123154516.png)
+
+**Pro simulované ochlazování:**
+
+Za tohle borec měl 10/10b
+![](../../Assets/Pasted%20image%2020250123174808.png)
+
+<!-- DetailInfoEnd -->
 
 Tags: otevrene
 <!--ID: 1737654642463-->
@@ -3375,10 +3435,30 @@ Problém minimální gramatiky
 
 Back:
 
-Pozn. autor dostal 9/10b.
+**1) Konfigurační proměnné**
+Potřebujeme tím reprezentovat gramatiku. Stačí nám tedy množina daných pravidel - dvojic $(v, str)$, kde $v$ je neterminál a $str$ je řetězec terminálů nebo neterminálů.
+
+Musíme navíc zaručit, že znaky z $V$ se nebudou vyskytovat v $\Sigma$, tedy že tyto dvě množiny mají prázdný průnik
+
+**2) Druh simulované evoluce**
+Genetický algoritmus - kvůli práci nad acyklickým grafem
+
+**3) Reprezentace individua**
+Množina pravidel viz (1).
+
+**4) Genetické operátory**
+- Mutace - Odebere se nebo se přidá náhodné pravidlo (náhodná levá strana, náhodná pravá). Pokud pravidlo "koliduje" s existujícím, tak ho nahradí.
+- Křížení - Například jednobodové - prohodíme nějakou část pravidel.
+
+**5) Počáteční generace**
+Náhodně vygenerované gramatiky (resp. sady pravidel).
+
+<!-- DetailInfoStart -->
+Jiné řešení, autor dostal 9/10b.
 
 ![](../../Assets/Pasted%20image%2020250123155338.png)
 ![](../../Assets/Pasted%20image%2020250123155344.png)
+<!-- DetailInfoEnd -->
 
 Tags: otevrene
 <!--ID: 1737654642465-->
@@ -3396,9 +3476,31 @@ Problém minimální sčítací procedury
 
 Back:
 
+**1) Konfigurační proměnné**
+_Konfigurační proměnné:_
+Reprezentace $A$ - Seznam přirozených čísel s nejvyšší povolenou délkou rovnou největšímu prvku z $N$. Tento seznam musí být seřazen vzestupně, každé číslo tam může být nejvýše jednou, nejvyšší číslo nesmí být vyšší než nejvyšší číslo z $N$.
+
+_Obor:_
+Libovolná posloupnost (vzestupný seznam) přirozených čísel s nejvyšší povolenou délkou rovnou největšímu prvku z $N$ a nejvyšší povolenou hodnotou také rovnou nejvyššímu prvku z $N$.
+
+**2) Stavový prostor**
+
+_Stavy:_ Ohodnocení konfiguračních proměnných (viz výše) - tedy posloupnosti přirozených čísel.
+
+_Operátory:_
+Přidání / odebrání přirozeného čísla (menšího než max z $N$) na odpovídající pozici ve vzestupném seznamu. Je zakázáno odebírat nebo přidávat čísla z $N$.
+
+_Optimalizační kritérium:_
+Viz zadání, délka seznamu.
+
+**4) Počáteční řešení**
+Vektor naplňený pouze prvky z $N$.
+
+<!-- DetailInfoStart -->
 10/10b
 
 ![](../../Assets/Pasted%20image%2020250123155951.png)
+<!-- DetailInfoEnd -->
 
 Tags: otevrene
 <!--ID: 1737654642468-->
@@ -3435,9 +3537,31 @@ Problém maxima disjunktních cest
 
 Back:
 
+**1) Konfigurační proměnné**
+Můžeme oindexovat hrany z $E$ a sestavit vektor, který ve kterém by v $i$-tém prvku byl uložen identifikátor cesty ($1, \dots, k$), ke které hrana přísluší. Může se stát, že hrana nebude náležet žádné cestě v takovém případě bude hodnota $0$. Díky tomuto vektoru bude zároveň zajištěno, že hrana bude náležet nejvýše jedné cestě.
+
+_Obor:_ Libovolné přiřazení hran jednotlivým cestám.
+
+**2) Druh simulované evoluce**
+Genetický algoritmus, protože to je ve všech odpovědích ( ͡° ͜ʖ ͡°).
+
+**3) Reprezentace individua:**
+Vektor čísel, kde každé číslo odpovídá nějaké cestě. Pozice čísla odpovídá nějaké hraně z $E$.
+
+**4) Genetické operátory**:
+1. Mutace - výběr náhodného prvku a změna čísla na libovolnou jinou hodnotu ($0, \dots, k$)
+2. Křížení - například jednobodové, kde se prohodí hodnoty vektoru
+
+**5) Počáteční generace**
+Náhodně generované vektory čísel $0, \dots, k$
+
+<!-- DetailInfoStart -->
+
 Pozn. týpek (kromě toho, že má naprosto retardovaný barvy moodlu), dostal 9/10b.
 
 ![](../../Assets/Pasted%20image%2020250123162020.png)
+
+<!-- DetailInfoEnd -->
 
 Tags: otevrene
 <!--ID: 1737654642473-->
