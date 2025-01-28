@@ -335,7 +335,7 @@ END
 START
 FIT-Card
 
-Jaké jsou typy loadbalancerů?
+Jaké jsou typy loadbalancerů? (4)
 
 Back:
 
@@ -362,8 +362,8 @@ Back:
 
 Funguje principem DNAT - na úrovni síťové vrstvy přepisuje destinations jednotlivých paketů, díky tomu takhle rozhazuje pakety mezi několik serverů.
 
-- **SNAT** - "source NAT" - přepisuje zdrojovou adresu zdroje
-- **DNAT** - "destination NAT" - přepisuje zdrojovou adresu cíle
+- **SNAT** - "source NAT" - přepisuje adresu zdroje
+- **DNAT** - "destination NAT" - přepisuje adresu cíle
 <!--ID: 1735205749806-->
 END
 

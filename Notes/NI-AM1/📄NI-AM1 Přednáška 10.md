@@ -438,7 +438,6 @@ END
 
 #### Concurrency Control
 
-
 START
 FIT-Card
 

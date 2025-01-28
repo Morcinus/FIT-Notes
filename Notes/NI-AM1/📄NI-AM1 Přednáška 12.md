@@ -74,7 +74,7 @@ END
 START
 FIT-Card
 
-Jak funguje **Round-Robin** algoritmus?
+Jak funguje **Round-Robin** algoritmus u sticky sessions?
 
 Back:
 
@@ -126,7 +126,12 @@ Co je **Least Time** algoritmus na load balanceru?
 
 Back:
 
+Request se pošle na server, který má nejnižší average response time a nejnižší počet active connections
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241220134132.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1735205749896-->
 END
 
@@ -136,9 +141,13 @@ END
 START
 FIT-Card
 
-Jaké jsou 3 další možnosti, jak lze vybírat servery na Load Balanceru?
+Jaké jsou další možnosti, jak lze vybírat servery na Load Balanceru? (3)
 
 Back:
+
+- **Limitování počtu connections** - u každého serveru nastavím maximální počet connections
+- **Hash** - requesty se posílají např. na základě client IP nebo jiné hodnoty
+- **Server Slow-Start** - při zapínání serveru se postupně navyšuje zátěž, aby se nepřetížil
 
 ![](../../Assets/Pasted%20image%2020241220134357.png)
 <!--ID: 1735205749898-->
@@ -190,7 +199,7 @@ Jak lze zajistit **session persistance**?
 Back:
 
 - Buď pomocí **Session DB persistance** - session se uloží do databáze, když load balancer vypadne, druhý si to načte z DB
-- Nebo pomocí **In-memory replication** - session je jako cookie
+- Nebo pomocí **In-memory replication** - session se kopíruje na záložní load balancer vždy když se změní data
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241220135717.png)

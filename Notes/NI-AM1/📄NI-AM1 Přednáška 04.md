@@ -289,8 +289,6 @@ Máme prostředníka, co má u sebe dvě fronty (request queue a response queue)
 4. Server uloží response do response queue
 5. Klient si z response queue vyzvedne response
 
-
-
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020241014183234.png)
 <!-- ImageEnd -->

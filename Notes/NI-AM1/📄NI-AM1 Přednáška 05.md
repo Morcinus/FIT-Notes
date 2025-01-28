@@ -170,7 +170,6 @@ END
 
 ### Komunikační protokoly
 
-
 START
 FIT-Card
 
