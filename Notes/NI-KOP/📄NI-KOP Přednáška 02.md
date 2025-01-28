@@ -3,7 +3,7 @@ created: 2024-10-06T10:20:35
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska02 status-toReview
 
 START

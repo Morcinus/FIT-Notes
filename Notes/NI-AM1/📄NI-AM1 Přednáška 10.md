@@ -332,7 +332,7 @@ Jak funguje cachování pomocí Entity Tagu?
 
 Back:
 
-Kromě `Last-Modified` (ten se posílá vždy) pošle server i `ETag`, což je např. hash obsahu.
+Server při response pošle `ETag`, což je např. hash obsahu.
 
 Klient pak posílá hlavičku `If-None-Match`.
 

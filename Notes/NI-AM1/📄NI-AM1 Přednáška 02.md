@@ -71,6 +71,8 @@ Basic
 
 Jaké části softwarů jsou **doménově závislé** a **doménově nezávislé**?
 
+(data, funkce, procesy, softwarová architektura, hardwarová architektura)
+
 Back:
 
 **Doménově závislý**:
@@ -184,7 +186,7 @@ Co jsou **B2B** systémy?
 Back:
 
 **B2B** (business to business):
-Zajišťuje integraci s externíma sysémama, dalšíma firmama (např. automatická komunikace se zákazníkama, dodavatelema, veřejnou správou atd.)
+Zajišťuje integraci s externíma systémama, dalšíma firmama (např. automatická komunikace se zákazníkama, dodavatelema, veřejnou správou atd.)
 
 <!-- ImageStart -->
 ![[Pasted image 20240930093423.png]]
@@ -426,7 +428,7 @@ END
 START
 Basic
 
-Jaké jsou 2 typy integrací?
+Jaké jsou 2 typy integrací (podle toho jestli jsou uvnitř organizace nebo ne)?
 
 Back:
 
@@ -447,7 +449,7 @@ Co je **interface** v integracích? Co **obsahuje**? (4)
 Back:
 
 Každý interface má:
-- **data** - tohle mi definuje payload (přenášená data)
+- **data** - tohle mi definuje payload (syntax, sémantiku)
 - **funkce** - operace, co můžu volat (např REST endpoint)
 - **proces** - určuje stavy a přechody (jakým způsobem můžu s funkcemi pracovat)
 - **technický detaily** (např. endpoint, ip adresa, atd.)

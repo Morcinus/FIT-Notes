@@ -43,7 +43,7 @@ END
 START
 FIT-Card
 
-Co se využívá v rámci šifrování (encryption) v TLS?
+Co se využívá v rámci šifrování (encryption) v TLS na začátku spojení?
 
 Back:
 
@@ -124,12 +124,12 @@ END
 START
 FIT-Card
 
-Jaké jsou 2 výměny klíčů?
+Jaké jsou 2 **hlavní metody pro výměny klíčů**?
 
 Back:
 
-- RSA key exchange
-- Diffie Hellman - prakticky se v dnešní době používá
+- **RSA key exchange**
+- **Diffie-Hellman** - prakticky se v dnešní době používá
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241113174229.png)
@@ -140,6 +140,21 @@ END
 ---
 
 #### Užitečné části TLS
+
+START
+FIT-Card
+
+Jaké jsou typy spojení mezi klientem, middlewarem a serverem, co se týče **TLS**? (3)
+
+Back:
+
+- **TLS Offloading**
+- **TLS Bridging**
+- **TLS Pass-through** (end-to-end TLS) 
+<!--ID: 1736677615828-->
+END
+
+---
 
 
 START

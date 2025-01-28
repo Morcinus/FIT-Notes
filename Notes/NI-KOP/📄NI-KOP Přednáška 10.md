@@ -5,21 +5,22 @@ up:
   - "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska10 status-toReview
 
 ### Evoluční strategie
 
-
 START
 FIT-Card
 
-Jak principielně funguje nasazení evoluční strategie?
+Jak principielně funguje nasazení **evoluční strategie**?
 
 Back:
 
 - Použijeme ji, pokud máme jako konfiguraci vektor **reálných čísel**
 - Máme parametry, které řídí **mutaci** (velikost kroků, standardní odchylky atd.)
+
+Tags: core
 <!--ID: 1735205749556-->
 END
 
@@ -43,7 +44,7 @@ END
 START
 FIT-Card
 
-Jak funguje rekombinace při nasazení evolční strategie?
+Jak funguje rekombinace při nasazení evoluční strategie?
 
 Back:
 
@@ -55,6 +56,8 @@ Mám 3 možnosti:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208141044.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749560-->
 END
 
@@ -64,12 +67,14 @@ END
 START
 FIT-Card
 
-Co je centroid při nasazení evoluční strategie?
+Co je **centroid** při nasazení evoluční strategie?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208141342.png)
 ![](../../Assets/Pasted%20image%2020241208141351.png)
+
+Tags: core
 <!--ID: 1735205749563-->
 END
 
@@ -79,12 +84,14 @@ END
 START
 FIT-Card
 
-Jak funguje mutace u evoluční strategie?
+Jak funguje **mutace** u evoluční strategie?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208141522.png)
 ![](../../Assets/Pasted%20image%2020241208141527.png)
+
+Tags: core
 <!--ID: 1735205749565-->
 END
 
@@ -94,7 +101,7 @@ END
 START
 FIT-Card
 
-Jak funguje výběr pro mutaci při nasazení evoluční strategie? (2)
+Jak se vybírají jedinci **pro mutaci** při nasazení **evoluční strategie**? (2)
 
 Back:
 
@@ -104,10 +111,11 @@ Několik možností:
 	- Musím v následující selekci používat zdatnost
 - **vyberu závisle na zdatnosti**
 
-
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208141551.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749568-->
 END
 
@@ -139,13 +147,21 @@ END
 START
 FIT-Card
 
-Jak funguje genetické programování?
+Jak funguje **genetické programování**? Jaké jsou 3 reprezentace?
 
 Back:
+
+- určeno k produkci spustitelných programů
+- Reprezentace:
+	- **strom výpočtu (výrazu)** - genetické programování
+	- **řetěz jazyka** - lineární genetické programování
+	- **orientovaný acyklický graf** - kartézské programování
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241208142755.png)
 <!-- DetailInfoEnd -->
+
+Tags: core
 <!--ID: 1735205749573-->
 END
 
@@ -160,6 +176,8 @@ Jaká je kostra genetického programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208142809.png)
+
+Tags: core
 <!--ID: 1735205749576-->
 END
 
@@ -174,6 +192,8 @@ Jak funguje stromová reprezentace v genetickém programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208142952.png)
+
+Tags: core
 <!--ID: 1735205749578-->
 END
 
@@ -183,11 +203,13 @@ END
 START
 FIT-Card
 
-Jak funguje inicializace stromové reprezentace v genetickém programování?
+Jak funguje **inicializace stromové reprezentace** v genetickém programování?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143012.png)
+
+Tags: core
 <!--ID: 1735205749581-->
 END
 
@@ -197,11 +219,13 @@ END
 START
 FIT-Card
 
-Jak funguje křížení stromové reprezentace?
+Jak funguje **křížení stromové reprezentace** v genetickém programování?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143031.png)
+
+Tags: core
 <!--ID: 1735205749583-->
 END
 
@@ -211,11 +235,13 @@ END
 START
 FIT-Card
 
-Jak funguje mutace stromové reprezentace?
+Jak funguje **mutace stromové reprezentace** v genetickém programování?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143048.png)
+
+Tags: core
 <!--ID: 1735205749586-->
 END
 
@@ -271,13 +297,15 @@ END
 START
 FIT-Card
 
-Jak funguje evoluční programování?
+Jak **funguje evoluční programování**?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020241208143253.png)
 ![](../../Assets/Pasted%20image%2020241208143257.png)
 ![](../../Assets/Pasted%20image%2020241208143302.png)
+
+Tags: core
 <!--ID: 1735205749596-->
 END
 

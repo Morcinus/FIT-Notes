@@ -341,7 +341,7 @@ END
 START
 FIT-Card
 
-Co se snažíme v bezpečnosti komunikace přes internet zajistit?
+Co se snažíme v bezpečnosti komunikace přes internet zajistit v rámci **message-level security**? (5)
 
 Back:
 

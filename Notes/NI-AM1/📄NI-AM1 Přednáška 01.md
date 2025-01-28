@@ -9,7 +9,7 @@ FILE TAGS: NI-AM1 prednaska01 status-toReview
 START
 Basic
 
-Co je **MOM**?
+Čeho je zkratka **MOM**?
 
 Back:
 

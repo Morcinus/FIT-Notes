@@ -4,9 +4,8 @@ title: "Globální metody"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: NI-KOP-2
 FILE TAGS: NI-KOP prednaska12 status-toReview
-
 
 START
 FIT-Card
@@ -16,6 +15,8 @@ Co jsou globální metody?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221171844.png)
+
+Tags: core
 <!--ID: 1736497489301-->
 END
 
@@ -40,6 +41,8 @@ Rozdělím problém na menší problémy, ty vyřeším a pak to seskládám zp�
 ![](../../Assets/Pasted%20image%2020241221172601.png)
 ![](../../Assets/Pasted%20image%2020241221172706.png)
 <!-- ExampleEnd -->
+
+Tags: core
 <!--ID: 1736497489307-->
 END
 
@@ -108,6 +111,8 @@ Back:
 Když mám optimální řešení těch instancí, tak zvládnu sestavit **optimální** řešení celé instance. (tzn. zachovává se ta optimálnost)
 
 ![](../../Assets/Pasted%20image%2020241221173301.png)
+
+Tags: core
 <!--ID: 1736497489325-->
 END
 
@@ -121,7 +126,9 @@ Co je přesná dekompozice?
 
 Back:
 
-Když mám všechny řešení podinstancí, tak z toho získám všechny optimální řešení celkových instancí. (Tzn. nejen že zachovávám optimálnost, ale najdu všechny ty optimální řešení)
+Když mám všechny řešení podinstancí, tak z toho získám **všechny** optimální řešení celkových instancí. (Tzn. nejen že zachovávám optimálnost, ale najdu všechny ty optimální řešení)
+
+Tags: core
 <!--ID: 1736497489330-->
 END
 
@@ -193,6 +200,8 @@ Back:
 Je založené na čisté dekompozici.
 
 ![](../../Assets/Pasted%20image%2020241221174250.png)
+
+Tags: core
 <!--ID: 1736497489349-->
 END
 
@@ -221,6 +230,8 @@ Jaké jsou 2 formulace dynamického programování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020241221174520.png)
+
+Tags: core
 <!--ID: 1736497489359-->
 END
 
@@ -265,6 +276,8 @@ Back:
 Jsou to algoritmy založené na **přibližné dekompozici**
 
 ![](../../Assets/Pasted%20image%2020241221175647.png)
+
+Tags: core
 <!--ID: 1736497489374-->
 END
 

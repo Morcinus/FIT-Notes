@@ -299,3 +299,90 @@ Back:
 END
 
 ---
+
+### Doplňující informace
+
+
+START
+FIT-Card
+
+Jaký status kód je pro "`Unauthorized`"?
+
+Back:
+
+`401`
+<!--ID: 1736674205778-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký status kód je pro `Accepted`?
+
+Back:
+
+`202`
+<!--ID: 1736674205782-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký **status kód a message** je pro to, když chce v rámci concurrency control server odmítnout klienta, že klient nemá aktuální data (na základě if-unmodified-since nebo if-match)?
+
+Back:
+
+`412 Precondition Failed`
+<!--ID: 1736674205785-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký **status kód a message** je pro to, když server chce říct klientovi, že se resource nezměnil (na základě etagu nebo last modified)?
+
+Back:
+
+`304 Not Modified`
+<!--ID: 1736674205788-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaké **headery** dává typicky **server** do response pro **cachování**? (3)
+
+Back:
+
+- `Cache-Control` - nastavení cachování
+- `Last-Modified`
+- `ETag`
+<!--ID: 1736676401156-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaké **headery** dává typicky **klient** do requestu pro **cachování**? (2)
+
+Back:
+
+- `If-Modified-Since`
+- `If-None-Match`
+<!--ID: 1736676401170-->
+END
+
+---
