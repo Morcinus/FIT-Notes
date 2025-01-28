@@ -7,9 +7,7 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: NI-ADP-Exam
 FILE TAGS: NI-ADP status-toReview
 
-## NI-SI-1
-### Design Principles
-
+### NI-SI-1 - Design Principles
 #### DRY
 START
 FIT-Card
@@ -264,7 +262,7 @@ END
 
 ---
 
-### POLA
+#### POLA
 START
 FIT-Card
 
@@ -282,7 +280,7 @@ END
 
 ---
 
-### TBSR
+#### TBSR
 
 START
 FIT-Card
@@ -300,7 +298,7 @@ Back:
 END
 
 ---
-### Tech debt
+#### Tech debt
 
 START
 FIT-Card
@@ -328,7 +326,7 @@ END
 
 ---
 
-### Separation of Concerns
+#### Separation of Concerns
 START
 FIT-Card
 
@@ -383,7 +381,7 @@ END
 
 ---
 
-### APO
+#### APO
 START
 FIT-Card
 
@@ -409,9 +407,54 @@ END
 ---
 
 
-### Design patterns
+### NI-SI-2 - Creational design patterns
 
-### Architectures
+
+START
+FIT-Card
+
+Jaké jsou **creational design patterns**? (5)
+
+Back:
+
+- Abstract factory
+- Builder
+- Factory method
+- Prototype
+- Singleton
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Vysvětli **Abstract factory** design pattern.
+
+Back:
+
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Abstract factory** design patternu?
+
+Back:
+
+
+
+END
+
+---
+
 
 
 
