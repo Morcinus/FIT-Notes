@@ -910,3 +910,631 @@ END
 
 ---
 
+
+### Adapter
+
+START
+FIT-Card
+
+K čemu slouží **Adapter** design pattern?
+
+Back:
+
+**Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
+![](../../Assets/Pasted%20image%2020250130105353.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+Imagine that you’re creating a stock market monitoring app. The app downloads the stock data from multiple sources in XML format and then displays nice-looking charts and diagrams for the user.
+
+At some point, you decide to improve the app by integrating a smart 3rd-party analytics library. But there’s a catch: the analytics library only works with data in JSON format.
+
+![](../../Assets/Pasted%20image%2020250130105404.png)
+
+You could change the library to work with XML. However, this might break some existing code that relies on the library. And worse, you might not have access to the library’s source code in the first place, making this approach impossible.
+
+**SOLUTION:**
+You can create an _adapter_. This is a special object that converts the interface of one object so that another object can understand it.
+
+An adapter wraps one of the objects to hide the complexity of conversion happening behind the scenes. The wrapped object isn’t even aware of the adapter. For example, you can wrap an object that operates in meters and kilometers with an adapter that converts all of the data to imperial units such as feet and miles.
+
+Adapters can not only convert data into various formats but can also help objects with different interfaces collaborate. Here’s how it works:
+
+1. The adapter gets an interface, compatible with one of the existing objects.
+2. Using this interface, the existing object can safely call the adapter’s methods.
+3. Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects.
+
+Sometimes it’s even possible to create a two-way adapter that can convert the calls in both directions.
+
+![](../../Assets/Pasted%20image%2020250130105429.png)
+
+Let’s get back to our stock market app. To solve the dilemma of incompatible formats, you can create XML-to-JSON adapters for every class of the analytics library that your code works with directly. Then you adjust your code to communicate with the library only via these adapters. When an adapter receives a call, it translates the incoming XML data into a JSON structure and passes the call to the appropriate methods of a wrapped analytics object.
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je **Object adapter** struktura **Adapter** design patternu?
+
+Back:
+
+This implementation uses the object composition principle: the adapter implements the interface of one object and wraps the other one. It can be implemented in all popular programming languages.
+![](../../Assets/Pasted%20image%2020250130105441.png)
+
+1. The **Client** is a class that contains the existing business logic of the program.
+2. The **Client Interface** describes a protocol that other classes must follow to be able to collaborate with the client code.
+3. The **Service** is some useful class (usually 3rd-party or legacy). The client can’t use this class directly because it has an incompatible interface.
+4. The **Adapter** is a class that’s able to work with both the client and the service: it implements the client interface, while wrapping the service object. The adapter receives calls from the client via the adapter interface and translates them into calls to the wrapped service object in a format it can understand.
+5. The client code doesn’t get coupled to the concrete adapter class as long as it works with the adapter via the client interface. Thanks to this, you can introduce new types of adapters into the program without breaking the existing client code. This can be useful when the interface of the service class gets changed or replaced: you can just create a new adapter class without changing the client code.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130105657.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je **Class adapter** struktura **Adapter** design patternu?
+
+Back:
+
+This implementation uses inheritance: the adapter inherits interfaces from both objects at the same time. Note that this approach can only be implemented in programming languages that support multiple inheritance, such as C++.
+
+![](../../Assets/Pasted%20image%2020250130105641.png)
+
+1. The **Class Adapter** doesn’t need to wrap any objects because it inherits behaviors from both the client and the service. The adaptation happens within the overridden methods. The resulting adapter can be used in place of an existing client class.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Adapter** design patternu? (2 + 1)
+
+Back:
+
+✅ _Single Responsibility Principle_. You can separate the interface or data conversion code from the primary business logic of the program.
+
+✅ _Open/Closed Principle_. You can introduce new types of adapters into the program without breaking the existing client code, as long as they work with the adapters through the client interface.
+
+❌ The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes it’s simpler just to change the service class so that it matches the rest of your code.
+
+END
+
+---
+
+
+### Bridge
+
+START
+FIT-Card
+
+K čemu slouží **Bridge** design pattern?
+
+Back:
+
+**Bridge** is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+
+![](../../Assets/Pasted%20image%2020250130105740.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+_Abstraction?_ _Implementation?_ Sound scary? Stay calm and let’s consider a simple example.
+
+Say you have a geometric `Shape` class with a pair of subclasses: `Circle` and `Square`. You want to extend this class hierarchy to incorporate colors, so you plan to create `Red` and `Blue` shape subclasses. However, since you already have two subclasses, you’ll need to create four class combinations such as `BlueCircle` and `RedSquare`.
+
+![](../../Assets/Pasted%20image%2020250130105756.png)
+
+Adding new shape types and colors to the hierarchy will grow it exponentially. For example, to add a triangle shape you’d need to introduce two subclasses, one for each color. And after that, adding a new color would require creating three subclasses, one for each shape type. The further we go, the worse it becomes.
+
+**SOLUTION:**
+This problem occurs because we’re trying to extend the shape classes in two independent dimensions: by form and by color. That’s a very common issue with class inheritance.
+
+The Bridge pattern attempts to solve this problem by switching from inheritance to the object composition. What this means is that you extract one of the dimensions into a separate class hierarchy, so that the original classes will reference an object of the new hierarchy, instead of having all of its state and behaviors within one class.
+
+![](../../Assets/Pasted%20image%2020250130105831.png)
+
+Following this approach, we can extract the color-related code into its own class with two subclasses: `Red` and `Blue`. The `Shape` class then gets a reference field pointing to one of the color objects. Now the shape can delegate any color-related work to the linked color object. That reference will act as a bridge between the `Shape` and `Color` classes. From now on, adding new colors won’t require changing the shape hierarchy, and vice versa.
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je struktura **Bridge** design patternu?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250130105847.png)
+
+1. The **Abstraction** provides high-level control logic. It relies on the implementation object to do the actual low-level work.
+2. The **Implementation** declares the interface that’s common for all concrete implementations. An abstraction can only communicate with an implementation object via methods that are declared here.
+	- The abstraction may list the same methods as the implementation, but usually the abstraction declares some complex behaviors that rely on a wide variety of primitive operations declared by the implementation.
+3. **Concrete Implementations** contain platform-specific code.
+4. **Refined Abstractions** provide variants of control logic. Like their parent, they work with different implementations via the general implementation interface.
+5. Usually, the **Client** is only interested in working with the abstraction. However, it’s the client’s job to link the abstraction object with one of the implementation objects.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130105910.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Bridge** design patternu? (4 + 1)
+
+Back:
+
+✅ You can create platform-independent classes and apps.
+
+✅ The client code works with high-level abstractions. It isn’t exposed to the platform details.
+
+✅ _Open/Closed Principle_. You can introduce new abstractions and implementations independently from each other.
+
+✅ _Single Responsibility Principle_. You can focus on high-level logic in the abstraction and on platform details in the implementation.
+
+❌ You might make the code more complicated by applying the pattern to a highly cohesive class.
+
+END
+
+---
+
+
+### Composite
+
+START
+FIT-Card
+
+K čemu slouží **Composite** design pattern?
+
+Back:
+
+**Composite** is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+
+![](../../Assets/Pasted%20image%2020250130110008.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+Using the Composite pattern makes sense only when the core model of your app can be represented as a tree.
+
+For example, imagine that you have two types of objects: `Products` and `Boxes`. A `Box` can contain several `Products` as well as a number of smaller `Boxes`. These little `Boxes` can also hold some `Products` or even smaller `Boxes`, and so on.
+
+Say you decide to create an ordering system that uses these classes. Orders could contain simple products without any wrapping, as well as boxes stuffed with products…and other boxes. How would you determine the total price of such an order?
+
+![](../../Assets/Pasted%20image%2020250130110018.png)
+
+You could try the direct approach: unwrap all the boxes, go over all the products and then calculate the total. That would be doable in the real world; but in a program, it’s not as simple as running a loop. You have to know the classes of `Products` and `Boxes` you’re going through, the nesting level of the boxes and other nasty details beforehand. All of this makes the direct approach either too awkward or even impossible.
+
+**SOLUTION:**
+The Composite pattern suggests that you work with `Products` and `Boxes` through a common interface which declares a method for calculating the total price.
+
+How would this method work? For a product, it’d simply return the product’s price. For a box, it’d go over each item the box contains, ask its price and then return a total for this box. If one of these items were a smaller box, that box would also start going over its contents and so on, until the prices of all inner components were calculated. A box could even add some extra cost to the final price, such as packaging cost.
+
+![](../../Assets/Pasted%20image%2020250130110030.png)
+
+The greatest benefit of this approach is that you don’t need to care about the concrete classes of objects that compose the tree. You don’t need to know whether an object is a simple product or a sophisticated box. You can treat them all the same via the common interface. When you call a method, the objects themselves pass the request down the tree.
+
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je struktura **Composite** design patternu?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250130110036.png)
+
+1. The **Component** interface describes operations that are common to both simple and complex elements of the tree.
+2. The **Leaf** is a basic element of a tree that doesn’t have sub-elements.
+	- Usually, leaf components end up doing most of the real work, since they don’t have anyone to delegate the work to.
+3. The **Container** (aka _composite_) is an element that has sub-elements: leaves or other containers. A container doesn’t know the concrete classes of its children. It works with all sub-elements only via the component interface.
+	- Upon receiving a request, a container delegates the work to its sub-elements, processes intermediate results and then returns the final result to the client.
+4. The **Client** works with all elements through the component interface. As a result, the client can work in the same way with both simple or complex elements of the tree.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130110100.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Composite** design patternu? (2 + 1)
+
+Back:
+
+✅ You can work with complex tree structures more conveniently: use polymorphism and recursion to your advantage.
+
+✅ _Open/Closed Principle_. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
+
+❌ It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you’d need to overgeneralize the component interface, making it harder to comprehend.
+
+END
+
+---
+
+
+### Decorator
+
+START
+FIT-Card
+
+K čemu slouží **Decorator** design pattern?
+
+Back:
+
+**Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
+![](../../Assets/Pasted%20image%2020250130110144.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+Imagine that you’re working on a notification library which lets other programs notify their users about important events.
+
+The initial version of the library was based on the `Notifier` class that had only a few fields, a constructor and a single `send` method. The method could accept a message argument from a client and send the message to a list of emails that were passed to the notifier via its constructor. A third-party app which acted as a client was supposed to create and configure the notifier object once, and then use it each time something important happened.
+
+![](../../Assets/Pasted%20image%2020250130110207.png)
+
+At some point, you realize that users of the library expect more than just email notifications. Many of them would like to receive an SMS about critical issues. Others would like to be notified on Facebook and, of course, the corporate users would love to get Slack notifications.
+
+![](../../Assets/Pasted%20image%2020250130110237.png)
+
+How hard can that be? You extended the `Notifier` class and put the additional notification methods into new subclasses. Now the client was supposed to instantiate the desired notification class and use it for all further notifications.
+
+But then someone reasonably asked you, “Why can’t you use several notification types at once? If your house is on fire, you’d probably want to be informed through every channel.”
+
+You tried to address that problem by creating special subclasses which combined several notification methods within one class. However, it quickly became apparent that this approach would bloat the code immensely, not only the library code but the client code as well.
+
+![](../../Assets/Pasted%20image%2020250130110242.png)
+
+You have to find some other way to structure notifications classes so that their number won’t accidentally break some Guinness record.
+
+**SOLUTION:**
+Extending a class is the first thing that comes to mind when you need to alter an object’s behavior. However, inheritance has several serious caveats that you need to be aware of.
+
+- Inheritance is static. You can’t alter the behavior of an existing object at runtime. You can only replace the whole object with another one that’s created from a different subclass.
+- Subclasses can have just one parent class. In most languages, inheritance doesn’t let a class inherit behaviors of multiple classes at the same time.
+
+One of the ways to overcome these caveats is by using _Aggregation_ or _Composition_ _Aggregation_: object A contains objects B; B can live without A.  
+_Composition_: object A consists of objects B; A manages life cycle of B; B can’t live without A. instead of _ Inheritance_. Both of the alternatives work almost the same way: one object _has a_ reference to another and delegates it some work, whereas with inheritance, the object itself _is_ able to do that work, inheriting the behavior from its superclass.
+
+With this new approach you can easily substitute the linked “helper” object with another, changing the behavior of the container at runtime. An object can use the behavior of various classes, having references to multiple objects and delegating them all kinds of work. Aggregation/composition is the key principle behind many design patterns, including Decorator. On that note, let’s return to the pattern discussion.
+
+![](../../Assets/Pasted%20image%2020250130110302.png)
+
+“Wrapper” is the alternative nickname for the Decorator pattern that clearly expresses the main idea of the pattern. A _ wrapper_ is an object that can be linked with some _target_ object. The wrapper contains the same set of methods as the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing something either before or after it passes the request to the target.
+
+When does a simple wrapper become the real decorator? As I mentioned, the wrapper implements the same interface as the wrapped object. That’s why from the client’s perspective these objects are identical. Make the wrapper’s reference field accept any object that follows that interface. This will let you cover an object in multiple wrappers, adding the combined behavior of all the wrappers to it.
+
+In our notifications example, let’s leave the simple email notification behavior inside the base `Notifier` class, but turn all other notification methods into decorators.
+
+![](../../Assets/Pasted%20image%2020250130110307.png)
+
+The client code would need to wrap a basic notifier object into a set of decorators that match the client’s preferences. The resulting objects will be structured as a stack.
+
+![](../../Assets/Pasted%20image%2020250130110315.png)
+
+The last decorator in the stack would be the object that the client actually works with. Since all decorators implement the same interface as the base notifier, the rest of the client code won’t care whether it works with the “pure” notifier object or the decorated one.
+
+We could apply the same approach to other behaviors such as formatting messages or composing the recipient list. The client can decorate the object with any custom decorators, as long as they follow the same interface as the others.
+
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je struktura **Decorator** design patternu?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250130110322.png)
+
+1. The **Component** declares the common interface for both wrappers and wrapped objects.
+2. **Concrete Component** is a class of objects being wrapped. It defines the basic behavior, which can be altered by decorators.
+3. The **Base Decorator** class has a field for referencing a wrapped object. The field’s type should be declared as the component interface so it can contain both concrete components and decorators. The base decorator delegates all operations to the wrapped object.
+4. **Concrete Decorators** define extra behaviors that can be added to components dynamically. Concrete decorators override methods of the base decorator and execute their behavior either before or after calling the parent method.
+5. The **Client** can wrap components in multiple layers of decorators, as long as it works with all objects via the component interface.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130110336.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Decorator** design patternu? (4 + 3)
+
+Back:
+
+✅ You can extend an object’s behavior without making a new subclass.
+
+✅ You can add or remove responsibilities from an object at runtime.
+
+✅ You can combine several behaviors by wrapping an object into multiple decorators.
+
+✅ _Single Responsibility Principle_. You can divide a monolithic class that implements many possible variants of behavior into several smaller classes.
+
+❌ It’s hard to remove a specific wrapper from the wrappers stack.
+
+❌ It’s hard to implement a decorator in such a way that its behavior doesn’t depend on the order in the decorators stack.
+
+❌ The initial configuration code of layers might look pretty ugly.
+
+END
+
+---
+
+
+### Facade
+
+START
+FIT-Card
+
+K čemu slouží **Facade** design pattern?
+
+Back:
+
+**Facade** is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
+![](../../Assets/Pasted%20image%2020250130110418.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+Imagine that you must make your code work with a broad set of objects that belong to a sophisticated library or framework. Ordinarily, you’d need to initialize all of those objects, keep track of dependencies, execute methods in the correct order, and so on.
+
+As a result, the business logic of your classes would become tightly coupled to the implementation details of 3rd-party classes, making it hard to comprehend and maintain.
+
+**SOLUTION:**
+A facade is a class that provides a simple interface to a complex subsystem which contains lots of moving parts. A facade might provide limited functionality in comparison to working with the subsystem directly. However, it includes only those features that clients really care about.
+
+Having a facade is handy when you need to integrate your app with a sophisticated library that has dozens of features, but you just need a tiny bit of its functionality.
+
+For instance, an app that uploads short funny videos with cats to social media could potentially use a professional video conversion library. However, all that it really needs is a class with the single method `encode(filename, format)` . After creating such a class and connecting it with the video conversion library, you’ll have your first facade.
+
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je struktura **Facade** design patternu?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250130110443.png)
+
+1. The **Facade** provides convenient access to a particular part of the subsystem’s functionality. It knows where to direct the client’s request and how to operate all the moving parts.
+2. An **Additional Facade** class can be created to prevent polluting a single facade with unrelated features that might make it yet another complex structure. Additional facades can be used by both clients and other facades.
+3. The **Complex Subsystem** consists of dozens of various objects. To make them all do something meaningful, you have to dive deep into the subsystem’s implementation details, such as initializing objects in the correct order and supplying them with data in the proper format.
+	- Subsystem classes aren’t aware of the facade’s existence. They operate within the system and work with each other directly.
+4. The **Client** uses the facade instead of calling the subsystem objects directly.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130110500.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Facade** design patternu? (1 + 1)
+
+Back:
+
+✅ You can isolate your code from the complexity of a subsystem.
+
+❌ A facade can become [a god object](https://courses.fit.cvut.cz/antipatterns/god-object) coupled to all classes of an app.
+
+END
+
+---
+
+
+### Flyweight
+
+START
+FIT-Card
+
+K čemu slouží **Flyweight** design pattern?
+
+Back:
+
+**Flyweight** is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+
+![](../../Assets/Pasted%20image%2020250130110545.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+To have some fun after long working hours, you decided to create a simple video game: players would be moving around a map and shooting each other. You chose to implement a realistic particle system and make it a distinctive feature of the game. Vast quantities of bullets, missiles, and shrapnel from explosions should fly all over the map and deliver a thrilling experience to the player.
+
+Upon its completion, you pushed the last commit, built the game and sent it to your friend for a test drive. Although the game was running flawlessly on your machine, your friend wasn’t able to play for long. On his computer, the game kept crashing after a few minutes of gameplay. After spending several hours digging through debug logs, you discovered that the game crashed because of an insufficient amount of RAM. It turned out that your friend’s rig was much less powerful than your own computer, and that’s why the problem emerged so quickly on his machine.
+
+The actual problem was related to your particle system. Each particle, such as a bullet, a missile or a piece of shrapnel was represented by a separate object containing plenty of data. At some point, when the carnage on a player’s screen reached its climax, newly created particles no longer fit into the remaining RAM, so the program crashed.
+
+![](../../Assets/Pasted%20image%2020250130110558.png)
+
+**SOLUTION:**
+On closer inspection of the `Particle` class, you may notice that the color and sprite fields consume a lot more memory than other fields. What’s worse is that these two fields store almost identical data across all particles. For example, all bullets have the same color and sprite.
+
+![](../../Assets/Pasted%20image%2020250130110631.png)
+
+Other parts of a particle’s state, such as coordinates, movement vector and speed, are unique to each particle. After all, the values of these fields change over time. This data represents the always changing context in which the particle exists, while the color and sprite remain constant for each particle.
+
+This constant data of an object is usually called the _intrinsic state_. It lives within the object; other objects can only read it, not change it. The rest of the object’s state, often altered “from the outside” by other objects, is called the _extrinsic state_.
+
+The Flyweight pattern suggests that you stop storing the extrinsic state inside the object. Instead, you should pass this state to specific methods which rely on it. Only the intrinsic state stays within the object, letting you reuse it in different contexts. As a result, you’d need fewer of these objects since they only differ in the intrinsic state, which has much fewer variations than the extrinsic.
+
+![](../../Assets/Pasted%20image%2020250130110645.png)
+
+Let’s return to our game. Assuming that we had extracted the extrinsic state from our particle class, only three different objects would suffice to represent all particles in the game: a bullet, a missile, and a piece of shrapnel. As you’ve probably guessed by now, an object that only stores the intrinsic state is called a flyweight.
+
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je struktura **Flyweight** design patternu?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250130110652.png)
+
+1. The Flyweight pattern is merely an optimization. Before applying it, make sure your program does have the RAM consumption problem related to having a massive number of similar objects in memory at the same time. Make sure that this problem can’t be solved in any other meaningful way.
+2. The **Flyweight** class contains the portion of the original object’s state that can be shared between multiple objects. The same flyweight object can be used in many different contexts. The state stored inside a flyweight is called _intrinsic._ The state passed to the flyweight’s methods is called _extrinsic._
+3. The **Context** class contains the extrinsic state, unique across all original objects. When a context is paired with one of the flyweight objects, it represents the full state of the original object.
+4. Usually, the behavior of the original object remains in the flyweight class. In this case, whoever calls a flyweight’s method must also pass appropriate bits of the extrinsic state into the method’s parameters. On the other hand, the behavior can be moved to the context class, which would use the linked flyweight merely as a data object.
+5. The **Client** calculates or stores the extrinsic state of flyweights. From the client’s perspective, a flyweight is a template object which can be configured at runtime by passing some contextual data into parameters of its methods.
+6. The **Flyweight Factory** manages a pool of existing flyweights. With the factory, clients don’t create flyweights directly. Instead, they call the factory, passing it bits of the intrinsic state of the desired flyweight. The factory looks over previously created flyweights and either returns an existing one that matches search criteria or creates a new one if nothing is found.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130110709.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Flyweight** design patternu? (1 + 2)
+
+Back:
+
+✅ You can save lots of RAM, assuming your program has tons of similar objects.
+
+❌ You might be trading RAM over CPU cycles when some of the context data needs to be recalculated each time somebody calls a flyweight method.
+
+❌ The code becomes much more complicated. New team members will always be wondering why the state of an entity was separated in such a way.
+
+END
+
+---
+
+
+### Proxy
+
+START
+FIT-Card
+
+K čemu slouží **Proxy** design pattern?
+
+Back:
+
+**Proxy** is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+
+![](../../Assets/Pasted%20image%2020250130110748.png)
+
+<!-- ExplanationStart -->
+**PROBLEM:**
+Why would you want to control access to an object? Here is an example: you have a massive object that consumes a vast amount of system resources. You need it from time to time, but not always.
+
+![](../../Assets/Pasted%20image%2020250130110758.png)
+
+You could implement lazy initialization: create this object only when it’s actually needed. All of the object’s clients would need to execute some deferred initialization code. Unfortunately, this would probably cause a lot of code duplication.
+
+In an ideal world, we’d want to put this code directly into our object’s class, but that isn’t always possible. For instance, the class may be part of a closed 3rd-party library.
+
+**SOLUTION:**
+The Proxy pattern suggests that you create a new proxy class with the same interface as an original service object. Then you update your app so that it passes the proxy object to all of the original object’s clients. Upon receiving a request from a client, the proxy creates a real service object and delegates all the work to it.
+
+![](../../Assets/Pasted%20image%2020250130110809.png)
+
+But what’s the benefit? If you need to execute something either before or after the primary logic of the class, the proxy lets you do this without changing that class. Since the proxy implements the same interface as the original class, it can be passed to any client that expects a real service object.
+
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je struktura **Proxy** design patternu?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250130110815.png)
+
+1. The **Service Interface** declares the interface of the Service. The proxy must follow this interface to be able to disguise itself as a service object.
+2. The **Service** is a class that provides some useful business logic.
+3. The **Proxy** class has a reference field that points to a service object. After the proxy finishes its processing ( e.g., lazy initialization, logging, access control, caching, etc.), it passes the request to the service object.
+4. The **Client** should work with both services and proxies via the same interface. This way you can pass a proxy into any code that expects a service object.
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250130110831.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jaké jsou výhody a nevýhody **Proxy** design patternu? (4 + 2)
+
+Back:
+
+✅ You can control the service object without clients knowing about it.
+
+✅ You can manage the lifecycle of the service object when clients don’t care about it.
+
+✅ The proxy works even if the service object isn’t ready or is not available.
+
+✅ _Open/Closed Principle_. You can introduce new proxies without changing the service or clients.
+
+❌ The code may become more complicated since you need to introduce a lot of new classes.
+
+❌ The response from the service might get delayed.
+
+END
+
+---
+
