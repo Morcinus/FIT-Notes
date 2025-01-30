@@ -406,7 +406,6 @@ END
 
 ---
 
-
 ## NI-SI-2 - Vytvářecí návrhové vzory
 
 START
