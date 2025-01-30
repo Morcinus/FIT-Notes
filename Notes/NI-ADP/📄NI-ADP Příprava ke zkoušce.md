@@ -102,7 +102,7 @@ Vysvětli **Single Responsibility** princip (ze SOLID) - co to znamená a proč 
 Back:
 
 **Single Responsibility**
-= třída by měla mít jednu zodpovědnost
+= třída/metoda by měla mít jednu zodpovědnost
 
 **Proč:**
 - Méně bugů - když se vyskytne bug, tak se pak bude týkat konkrétní (izolované) části programu
@@ -1649,7 +1649,6 @@ Back:
 END
 
 ---
-
 
 ### Proxy
 
