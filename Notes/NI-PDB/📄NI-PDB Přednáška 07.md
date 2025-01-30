@@ -268,7 +268,6 @@ Tento obrázek to hezky ukazuje:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241114103230.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205748981-->
 END
 

@@ -184,7 +184,6 @@ If the **child** Class doesn’t meet these requirements, it means the **chil
 This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.
 
 <!-- DetailInfoEnd -->
-
 <!--ID: 1738239851901-->
 END
 
@@ -256,7 +255,6 @@ It also says that both the Class and the interface should not know how the tool 
 
 This principle aims at reducing the dependency of a high-level Class on the low-level Class by introducing an interface.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1738239851906-->
 END
 
@@ -434,7 +432,8 @@ K čemu slouží **Abstract factory** design pattern?
 
 Back:
 
-**Abstract Factory** is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+Umožňuje vytvářet rodiny souvisejících objektů bez specifikování konkrétních tříd.
+
 
 ![](../../Assets/Pasted%20image%2020250130104609.png)
 
@@ -518,7 +517,8 @@ K čemu slouží **Builder** design pattern?
 
 Back:
 
-**Builder** is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+Umožňuje postupně vytvářet objekty, které mají hodně optional parametrů.
+
 
 ![](../../Assets/Pasted%20image%2020250130104618.png)
 
@@ -563,6 +563,7 @@ Having a director class in your program isn’t strictly necessary. You can alwa
 
 In addition, the director class completely hides the details of product construction from the client code. The client only needs to associate a builder with a director, launch the construction with the director, and get the result from the builder.
 <!-- ExplanationEnd -->
+
 <!--ID: 1738239851935-->
 END
 
@@ -620,9 +621,19 @@ K čemu slouží **Factory method** design pattern?
 
 Back:
 
-**Factory Method** is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+Třídá má **factory method** a podtřídy si pak tu metodu mohou implementovat podle sebe. 
+
 
 ![](../../Assets/Pasted%20image%2020250130104630.png)
+
+<!-- ExampleStart -->
+Třída `Logistics` má metodu `createTransport`, co vrací objekt typu `Transport`. Tato metoda může být abstraktní nebo může implementovat nějaký defaultní chování.
+
+Podtřída `BoatLogistics` pak může přepsat tuto metodu `createTransport` a upravit ji tak, aby vracela objekt typu `BoatTransport`.
+
+![](../../Assets/Pasted%20image%2020250130104000.png)
+![](../../Assets/Pasted%20image%2020250130104013.png)
+<!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
 **PROBLEM:**
@@ -710,7 +721,7 @@ K čemu slouží **Prototype** design pattern?
 
 Back:
 
-**Prototype** is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+Umožňuje vytvářet kopie existujících objektů, aniž by byl kód závislý na jejich třídách.
 
 ![](../../Assets/Pasted%20image%2020250130104639.png)
 
@@ -809,7 +820,7 @@ K čemu slouží **Singleton** design pattern?
 
 Back:
 
-**Singleton** is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+Umožňuje mít **jednu globální** instanci dané třídy.
 
 ![](../../Assets/Pasted%20image%2020250130104553.png)
 
@@ -919,26 +930,19 @@ Jak funguje **Double-checked locking**?
 
 Back:
 
-This pattern reduces the number of lock acquisitions by simply checking the locking condition beforehand. As a result of this, there’s usually a performance boost.
+Cílem je **snížit počet volání locku** (např. mutexu) tak, že zkontroluju danou podmínku ještě před zavoláním mutexu.
 
-```java
-public class Singleton {
-
-    private Singleton() {} 
-
-    private static volatile Singleton INSTANCE;
-    public static Singleton getInstance() {
-        if (INSTANCE == null) {
-            synchronized (Singleton.class) {
-                if (INSTANCE == null) {
-                    INSTANCE = new Singleton();
-                }
-            }
-        }
-        return INSTANCE;
-    }
+Příklad u singletonu:
+```
+if(ins == null) {
+	mutex_lock()
+	if(ins == null) {
+		ins = new Ins()
+	}
+	mutex_unlock()
 }
 ```
+
 <!--ID: 1738239851971-->
 END
 
@@ -952,10 +956,11 @@ Proč by člověk měl používat **Double-checked locking**?
 
 Back:
 
-- If there would be just one check, another thread can create new instance during instance creation actual thread.
-- If there would be just two checks, it would be the same like with just one check.
-- If there would be check and then lock, you could check for null, then you would try to lock critical part of that code but lock could by acquired at that specific moment so after acquiring the lock, you would overwrite existing instance.
-- If you would first lock and then check, it would work but locking it every time is expensive.
+- **Performance boost**: Kdyby člověk používal jen `lock + check`, tak by to bylo pomalé, protože by člověk musel vždy locknout.
+- (Kdyby člověk nelockoval vůbec, tak by si to vlákna přepisovala)
+
+Proto je fajn to nejdřív checknout, potom locknout a potom checknout znovu.
+
 <!--ID: 1738239851973-->
 END
 
@@ -966,22 +971,22 @@ END
 START
 FIT-Card
 
-Jak funguje **Thread pool**?
+Jak funguje **Thread pool** a proč je dobré ho používat?
 
 Back:
 
+1. Máme např. databázi a máme k dispozici thread pool o 10 vláknech.
+2. Dále máme nějakou **task queue**, která čeká na volná vlákna.
+3. Jakmile se nějaké vlákno uvolní, je přiřazeno nějakému tasku z task queue.
+4. Jakmile se task dokončí, je vlákno uvolněno a je k dispozici dalším taskům.
+
+**Proč je vhodný:**
+- **Performance boost**: Nemusím furt vytvářet a ničit vlákna, jen je přiřazuju jiným taskům.
+
+<!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250130113831.png)
+<!-- ImageEnd -->
 
-A Thread Pool is a design pattern which consists of a number N of threads running a number M of jobs concurrently. The main motivation behind using the pattern is to avoid the overhead associated with creating and destroying threads. The more straight-forward approach of handling M independent jobs would be to spawn a thread for each job and destroy the thread once the job is executed. However, in some use-cases, such as when the number M of jobs is big, and the jobs are relatively small, too many threads will be generated. In modern operating systems creating a thread or a process is an expensive operation, so avoiding it in those use-cases will improve the performance of the system as well as guarantee that the system won’t spawn too many processes. Instead of creating a thread for each task, thread pool normally creates threads one time at the beginning, and maintains the threads in running/sleeping condition throughout its lifetime. Tasks are passed to the worker threads one by one only when a worker thread is finished with the previous task and can accept a task.
-
-**Performance**
-
-The number of threads may be dynamically adjusted during the lifetime of an application based on the number of waiting tasks. For example, a web server can add threads if numerous web page requests come in and can remove threads when those requests taper down. The cost of having a larger thread pool is increased resource usage. The algorithm used to determine when to create or destroy threads affects the overall performance:
-
-- Creating too many threads wastes resources and costs time creating the unused threads.
-- Destroying too many threads requires more time later when creating them again.
-- Creating threads too slowly might result in poor client performance (long wait times).
-- Destroying threads too slowly may starve other processes of resources.
 <!--ID: 1738239851976-->
 END
 
@@ -995,7 +1000,7 @@ Jak funguje **Mock object**?
 
 Back:
 
-A Mock Object is an object that substitutes for a real object. In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways.
+Objekt, který je náhradou za nějaký reálný objekt, simuluje jeho chování. Typicky se používá pro testování.
 
 ![](../../Assets/Pasted%20image%2020250130113938.png)
 <!--ID: 1738239851978-->
@@ -1010,40 +1015,11 @@ Proč by člověk měl používat **Mock object**?
 
 Back:
 
-To break a dependency, and in so doing make the dependant object more easily testable.
+- **Šetří čas při testování** - nemusíme například vytvářet databázi, stačí si udělat mock object
+- **Usnadňuje testování** - některé situace jsou velice těžké na testování (network connection atd.)
+- **Když neexistuje implementace** - můžeme mocknout něco, co ještě neexistuje. Díky tomu můžeme vyvíjet bez dané části systému
+- **Když reálný objekt vrací nedeterministické výsledky** - např. čas, seed atd.
 
-We prefer to test one behavior at a time. Tests which test many behaviors at once are complex, and do not give very valuable information when they fail.
-
-A tests must always test all those things which are not under its control, and therefore we must bring under the test’s control all those things which we do not wish to test.
-
-- A test should have a single reason to fail. If we do not break dependencies, then a test can fail when one or more of the dependencies fail, even though the thing we want to test is working fine.
-- A test should run fast, so it can be run frequently. A test with heavyweight dependencies cannot run fast.
-- A test that requires a lot of objects to be instantiated will tend to be complex. Tests should be kept as simple as possible.
-
-When is useful to use mock instead of real object:
-- when the object supplies non-deterministic results (e.g. the current time or the current temperature)
-- when it has states that are difficult to create or reproduce (e.g. a network error)
-- when it is slow (e.g. a complete database, which would have to be initialized before the test)
-- when it does not yet exist or may change behavior
-
-<!-- ExampleStart -->
-Mocks can be hand-crafted, or created by an automated tool. Here is an example of a hand-crafted mock.
-
-The simplest form of a mock is one that returns a hard-coded value, or a value that is set via its constructor
-
-![](../../Assets/Pasted%20image%2020250130114047.png)
-
-This sort of mock is not _conditionable_ (the test cannot change the return value) and thus cannot be used to test various scenarios. Also, it is not _inspectable_ and therefore cannot be used to test workflows. But it may be adequate for a simple scenario. A slightly more capable mock would have methods for _conditioning_ and _inspection_.
-
-![](../../Assets/Pasted%20image%2020250130114055.png)
-
-One potential difficulty with creating mocks through direct inheritance, as shown above, is that it means the original dependency object will be instantiated at test-time, even though the ClassUnderTest will not be given a reference to it. This is due to the inherent behavior of the class loader; base classes are always instantiated to support the derived class when it is instantiated.
-
-If this causes concern (the original dependency makes a heavyweight connection to a resource or is otherwise undesirable for testing), then an Interface or Abstract class should be used to represent the dependency, with the Mock as a totally separate implementation:
-
-![](../../Assets/Pasted%20image%2020250130114102.png)
-
-<!-- ExampleEnd -->
 <!--ID: 1738239851981-->
 END
 
@@ -1053,16 +1029,21 @@ END
 START
 FIT-Card
 
-Jak funguje **Null object**?
+Jak funguje **Null object** a proč je dobré ho používat? (2)
 
 Back:
 
-The Null object pattern is a design pattern that simplifies the use of dependencies that can be undefined. This is achieved by using instances of a concrete class that implements a known interface, instead of null references. We create an abstract class specifying various operations to be done, concrete classes extending this class and a null object class providing do nothing implementation of this class and will be used seamlessly where we need to check null value.
+Máme objekt, který nic nedělá a reprezentuje `null` hodnotu. 
+Typicky je Singleton.
 
+Díky tomu:
+- Nemusím používat `null` (což je považováno za bad practice)
+- Umožňuje mi to např. jednoduššeji udělat ukončující podmínku když iteruju přes struktury.
+
+<!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250130114134.png)
+<!-- ImageEnd -->
 
-
-The Null Object class is often implemented as a Singleton. Since a null object usually does not have any state, its state can’t change, so multiple instances are identical. Rather than use multiple identical instances, the system can just use a single instance repeatedly.
 <!--ID: 1738239851983-->
 END
 
@@ -1100,9 +1081,14 @@ K čemu slouží **Adapter** design pattern?
 
 Back:
 
-**Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+Umožňuje, aby spolu komunikovaly objekty, které mají nekompatibilní rozhraní.
 
 ![](../../Assets/Pasted%20image%2020250130105353.png)
+<!-- ExampleStart -->
+Například `XMLToJSONAdapter`
+![](../../Assets/Pasted%20image%2020250130105429.png)
+<!-- ExampleEnd -->
+
 
 <!-- ExplanationStart -->
 **PROBLEM:**
@@ -1143,7 +1129,7 @@ Jaká je **Object adapter** struktura **Adapter** design patternu?
 
 Back:
 
-This implementation uses the object composition principle: the adapter implements the interface of one object and wraps the other one. It can be implemented in all popular programming languages.
+Adapter implementuje nějaké rozhraní.
 ![](../../Assets/Pasted%20image%2020250130105441.png)
 
 1. The **Client** is a class that contains the existing business logic of the program.
@@ -1168,7 +1154,7 @@ Jaká je **Class adapter** struktura **Adapter** design patternu?
 
 Back:
 
-This implementation uses inheritance: the adapter inherits interfaces from both objects at the same time. Note that this approach can only be implemented in programming languages that support multiple inheritance, such as C++.
+Adapter dědí z dané classy a servicy. Toto lze využít pouze u jazyků, co umožňují multiple inheritance.
 
 ![](../../Assets/Pasted%20image%2020250130105641.png)
 
@@ -1206,9 +1192,23 @@ K čemu slouží **Bridge** design pattern?
 
 Back:
 
-**Bridge** is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+Umožňuje to rozdělit nějakou velkou classu do více malých class, které spolu souvisí.
+
+Tím rozdělím velkou třídu do dvou hierarchií - abstrakce a implementace.
 
 ![](../../Assets/Pasted%20image%2020250130105740.png)
+
+<!-- ExampleStart -->
+Např. kdybychom měli třídu, která má dané vlastnosti, můžeme ty vlastnosti vytvořit jako vlastní třídy.
+
+Např. zde bych musel vytvářet zbytečně moc tříd:
+![](../../Assets/Pasted%20image%2020250130105756.png)
+
+Můžu to změnit následovně:
+![](../../Assets/Pasted%20image%2020250130105831.png)
+`Shape` je **abstrakce**, `Color` je **implementace**.
+
+<!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
 **PROBLEM:**
@@ -1289,9 +1289,16 @@ K čemu slouží **Composite** design pattern?
 
 Back:
 
-**Composite** is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
-
+Umožňuje uspořádávat objekty do stromové struktury a pak s daným stromem pracovat jako kdyby to byl daný objekt.
 ![](../../Assets/Pasted%20image%2020250130110008.png)
+<!-- ExampleStart -->
+- V listech můžu mít produkty `Product`.
+- Ve vnitřních uzlech můžu mít `Composite` objekty, které se skládají buď z `Product` nebo dalších `Composite` objektů.
+
+`Product` i `Composite` dědí z nějakého rozhraní. Každý pak má na sobě např. metodu `calculatePrice`. Díky tomu pak můžu na vrcholu té stromové struktury zavolat `calculatePrice` a ono mi to samo rekurzivně vypočítá cenu celého stromu.
+
+Tzn. s celým stromem můžu zacházet jako s jedním objektem.
+<!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
 **PROBLEM:**
@@ -1371,7 +1378,7 @@ K čemu slouží **Decorator** design pattern?
 
 Back:
 
-**Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+Umožňuje přidávat objektům chování tak, že je obalí v dalším objektu.
 
 ![](../../Assets/Pasted%20image%2020250130110144.png)
 
@@ -1490,7 +1497,10 @@ K čemu slouží **Facade** design pattern?
 
 Back:
 
-**Facade** is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
+Zprostředkovává komunikaci mezi klientem a nějakým komplexnějším systémem (frameworkem, knihovnou, sadou tříd atd.)
+
+Díky tomu poskytuje jednoduché "rozhraní", skrze které lze komunikovat se složitějším systémem.
+
 ![](../../Assets/Pasted%20image%2020250130110418.png)
 
 <!-- ExplanationStart -->
@@ -1544,7 +1554,7 @@ Back:
 
 ✅ You can isolate your code from the complexity of a subsystem.
 
-❌ A facade can become [a god object](https://courses.fit.cvut.cz/antipatterns/god-object) coupled to all classes of an app.
+❌ A facade can become a god object coupled to all classes of an app.
 <!--ID: 1738239852029-->
 END
 
@@ -1560,9 +1570,13 @@ K čemu slouží **Flyweight** design pattern?
 
 Back:
 
-**Flyweight** is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+Umožňuje mi sdílet paměť pro stejné části objektů, místo toho, aby byla každá část uložena v každém objektu zvlášť. Díky tomu mohu šetřit místo v paměti.
 
 ![](../../Assets/Pasted%20image%2020250130110545.png)
+
+<!-- ExampleStart -->
+U her mám jedno místo pro texturu a herní objekty jen odkazují na tu texturu, než aby ji měl každý uložený u sebe. Díky tomu ušetřím opravdu hodně paměti.
+<!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
 **PROBLEM:**
@@ -1646,7 +1660,9 @@ K čemu slouží **Proxy** design pattern?
 
 Back:
 
-**Proxy** is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+Umožňuje udělat náhradu za původní objekt a například kontrolovat komunikaci mezi daným objektem a vnějším prostředím.
+
+Pro klienta to tedy vypadá jako že komunikuju přímo s tím objektem, ale při tom tam můžu mít několik vrstev proxy.
 
 ![](../../Assets/Pasted%20image%2020250130110748.png)
 
@@ -1729,15 +1745,16 @@ Jak funguje **Lazy loading**?
 
 Back:
 
-Lazy loading is the practice of delaying load or initialization of resources or objects until they’re actually needed to improve performance and save system resources. For example, if a web page has an image that the user has to scroll down to see, you can display a placeholder and lazy load the full image only when the user arrives to its location. It also aims to reduce unnecessary work in an application that loads objects from a database, while avoiding loading aspects of the object that the application does not use.
+Funguje tak, že se data nezačnou načítat, dokud nejsou skutečně potřeba.
 
-The benefits of lazy loading include:
+<!-- ExampleStart -->
+Na webových stránkách se načtou obrázky, až když k nim uživatel doscrolluje dostatečně blízko.
+<!-- ExampleEnd -->
 
-- Reduces initial load time – Lazy loading a webpage reduces page weight, allowing for a quicker page load time. Or loading
-- Bandwidth conservation – Lazy loading conserves bandwidth by delivering content to users only if it’s requested.
-- System resource conservation – Lazy loading conserves both server and client resources, because only some of the images, JavaScript and other code actually needs to be rendered or executed.
+**Výhody:**
+- **Snižuje to initial load time**
+- **Šetří to komunikaci a zdroje** - nepřistupuje se tak moc do databáze, neposílá se tolik requestů
 
-![](../../Assets/Pasted%20image%2020250130114401.png)
 <!--ID: 1738239852047-->
 END
 
@@ -1751,10 +1768,11 @@ Jakými způsoby lze implementovat **lazy loading**? (4)
 
 Back:
 
-- **Lazy initialization** – This method sets objects to null. Object data is loaded only after and whenever invoking them, check if null, and if so, load object data.
-- **Virtual proxy** – when accessing an object, call a virtual object with same interface as the real object. When the virtual object is called, load the real object, then delegate to it.
-- **Ghost** – load an object in partial state, only using an identifier. The first time a property on the object is called, load the full data.
-- **Value holder** – create a generic object that handles lazy loading behavior. This object should appear in place of an object’s data fields.
+- **Lazy initialization** - objekt se nastaví na null, až když je požadován, tak se zkontroluje jestli je null a pokud ano, tak se loadne.
+- **Virtual proxy** - při přístupu k objektu se zavolá virtuální objekt se stejným rozhraním. Ten pak načte daný objekt a přepošle mu požadavek.
+- **Ghost** - loadne se objekt s částečným stavem (např. placeholder), když je to potřeba, objekt vyplní svoje data
+- **Value holder** - generický objekt se stará o lazy loading, tento objekt se používá místo nějaké proměnné data objektu
+
 <!--ID: 1738239852050-->
 END
 
@@ -1770,6 +1788,12 @@ Jak funguje **Dependency Injection**?
 
 Back:
 
+Závislosti mezi 2 třídami mohou být vytvořeny následovně:
+1. **Tight coupling**: Třída vytvoří objekt, který potřebuje.
+2. **Získání odjinud**: Třída si získá objekt z nějakého frameworku
+3. **Dependency injection**: Třída dostane objekt v parametrech konstruktoru nebo metody.
+
+<!-- DetailInfoStart -->
 Classes often require references to other classes. For example, a `Car` class might need a reference to an `Engine` class. These required classes are called dependencies, and in this example the `Car` class is dependent on having an instance of the `Engine` class to run.
 
 There are three ways for a class to get an object it needs:
@@ -1778,7 +1802,6 @@ There are three ways for a class to get an object it needs:
 2. Grab it from somewhere else. Frameworks and libraries can provide created instances of its classes.
 3. Have it supplied as a parameter. The app can provide these dependencies when the class is constructed or pass them in to the functions that need each dependency. In the example above, the `Car` constructor would receive `Engine` as a parameter. The third option is dependency injection! With this approach you take the dependencies of a class and provide them rather than having the class instance obtain them itself.
 
-<!-- ExampleStart -->
 Here’s an example. Without dependency injection, representing a `Car` that creates its own `Engine` dependency in code looks like this:
 
 ```java
@@ -1867,7 +1890,8 @@ class MyApp {
   }
 }
 ```
-<!-- ExampleEnd -->
+<!-- DetailInfoEnd -->
+
 <!--ID: 1738239852053-->
 END
 
@@ -1881,16 +1905,21 @@ Jak funguje **automatizovaná dependency injection**?
 
 Back:
 
+To, že používáme nějaký framework k tomu, aby injektoval dependencies za nás.
+
+<!-- DetailInfoStart -->
+
 In the previous example, you created, provided, and managed the dependencies of the different classes yourself, without relying on a library. This is called _dependency injection by hand_, or _manual dependency injection_. In the `Car` example, there was only one dependency, but more dependencies and classes can make manual injection of dependencies more tedious. Manual dependency injection also presents several problems:
 
 - For big apps, taking all the dependencies and connecting them correctly can require a large amount of boilerplate code. In a multi-layered architecture, in order to create an object for a top layer, you have to provide all the dependencies of the layers below it. As a concrete example, to build a real car you might need an engine, a transmission, a chassis, and other parts; and an engine in turn needs cylinders and spark plugs.
 - When you’re not able to construct dependencies before passing them in — for example when using lazy initializations or scoping objects to flows of your app — you need to write and maintain a custom container (or graph of dependencies) that manages the lifetimes of your dependencies in memory.
-    
 
 There are libraries that solve this problem by automating the process of creating and providing dependencies. They fit into two categories:
 
 - Reflection-based solutions that connect dependencies at runtime.
 - Static solutions that generate the code to connect dependencies at compile time.
+<!-- DetailInfoEnd -->
+
 <!--ID: 1738239852055-->
 END
 
@@ -3314,7 +3343,6 @@ Tight coupling with Publish-subscribe architecture
 
 ![](../../Assets/Pasted%20image%2020250130124107.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1738239852182-->
 END
 
@@ -3441,7 +3469,6 @@ Rule-based architectures provide a means of codifying the problem-solving knowho
 
 ![](../../Assets/Pasted%20image%2020250130124758.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1738239852192-->
 END
 

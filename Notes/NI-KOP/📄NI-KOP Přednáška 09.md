@@ -220,7 +220,6 @@ Jak se reprezentují jedinci v genetických algoritmech?
 Back:
 
 Kódujou se pomocí binárního řetězce.
-
 <!--ID: 1737735239334-->
 END
 
