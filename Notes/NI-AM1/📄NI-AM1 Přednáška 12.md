@@ -131,7 +131,6 @@ Request se pošle na server, který má nejnižší average response time a nejn
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020241220134132.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1735205749896-->
 END
 

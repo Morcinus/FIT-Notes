@@ -5,7 +5,7 @@ up: "[[📖NI-ADP]]"
 ---
 
 TARGET DECK: NI-ADP-Exam
-FILE TAGS: NI-ADP status-toReview
+FILE TAGS: NI-ADP
 
 ## NI-SI-1 - Design Principles
 ### DRY
@@ -23,7 +23,7 @@ Back:
 - Zvyšuje to náročnost údržby
 - Zvyšuje to výskyt bugů
 - Znemožňuje to efektivně dělat změny v kódu
-
+<!--ID: 1738239851883-->
 END
 
 ---
@@ -46,7 +46,7 @@ Back:
 <!-- ExampleStart -->
 Například se dá kód rozpadnout do menších částí.
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851887-->
 END
 
 ---
@@ -69,7 +69,7 @@ Back:
 	- **cost of delay** = zpomalíme tím projekt, protože jsme se mohli věnovat něčemu jinému
 	- **cost of carry** = budeme mít od začátku složitější systém, což je horší na údržbu, debuggování, rozšiřování atd.
 	- **cost of repairs** = v době, kdy to bude potřeba, pravděpodobně daná funkcionalita stejně bude mít hodně technical debt
-
+<!--ID: 1738239851890-->
 END
 
 ---
@@ -88,7 +88,7 @@ Back:
 - **Liskov Substitution** = pokud $S$ je podtypem $T$, potom všude kde se používá objekt $T$, můžu použít bez změny programu i objekt $S$
 - **Interface Segregation** = Klienti by neměli být nuceni záviset na metodách, které nepoužívají.
 - **Dependency Inversion** = High-level moduly by neměly záviset na low-level modulech. Obojí by mělo záviset na abstrakci.
-
+<!--ID: 1738239851893-->
 END
 
 ---
@@ -117,7 +117,7 @@ If a Class has many responsibilities, it increases the possibility of bugs becau
 
 This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other unrelated behaviours.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1738239851895-->
 END
 
 ---
@@ -147,7 +147,7 @@ If you want the Class to perform more functions, the ideal approach is to add to
 
 This principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class. This is to avoid causing bugs wherever the Class is being used.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1738239851898-->
 END
 
 ---
@@ -185,7 +185,7 @@ This principle aims to enforce consistency so that the parent Class or its child
 
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1738239851901-->
 END
 
 ---
@@ -215,7 +215,7 @@ A Class should perform only actions that are needed to fulfil its role. Any othe
 
 This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1738239851903-->
 END
 
 ---
@@ -257,7 +257,7 @@ It also says that both the Class and the interface should not know how the tool 
 This principle aims at reducing the dependency of a high-level Class on the low-level Class by introducing an interface.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1738239851906-->
 END
 
 ---
@@ -275,7 +275,7 @@ Back:
 
 **Proč:**
 - S kódem se lépe pracuje, když je předvídatelný
-
+<!--ID: 1738239851909-->
 END
 
 ---
@@ -294,7 +294,7 @@ Back:
 
 **Proč:**
 - Díky tomu se postupně zbavujeme tech debtu, aniž bychom museli stopnout veškerou práci a dělat obří refaktoring
-
+<!--ID: 1738239851911-->
 END
 
 ---
@@ -321,7 +321,7 @@ Např.
 - Úmyslný a rozumný - "Neuděláme to, ale počítáme s dopady"
 - Neúmyslný a lehkovážný - "Co je layering?"
 - Neúmyslný a rozumný - "Teď víme, že jsme to měli udělat jinak" (např. najdeme lepší řešení až po tom, co jsme to udělali)
-
+<!--ID: 1738239851914-->
 END
 
 ---
@@ -344,7 +344,7 @@ Např.
 
 **Proč:**
 - Systém je tak přehlednější, lépe se udržuje, debuguje atd.
-
+<!--ID: 1738239851917-->
 END
 
 ---
@@ -376,7 +376,7 @@ An object can call methods that are apart of:
 - an object it owns
 - a global variable
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851920-->
 END
 
 ---
@@ -401,18 +401,18 @@ Místo toho bychom měli nejdříve vyvinout funkční kód, pak až zjistit, kt
 <!-- ExampleStart -->
 - Vývojáři mají tendenci být perfekcionisti a snažit se udělat "perfektní/bezchybný kód"
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851922-->
 END
 
 ---
 
 
-## NI-SI-2 - Creational design patterns
+## NI-SI-2 - Vytvářecí návrhové vzory
 
 START
 FIT-Card
 
-Jaké jsou **creational design patterns**? (5)
+Jaké jsou **Vytvářecí návrhové vzory**? (5)
 
 Back:
 
@@ -421,11 +421,10 @@ Back:
 - **Factory method**
 - **Prototype**
 - **Singleton**
-
+<!--ID: 1738239851925-->
 END
 
 ---
-
 
 ### Abstract factory
 
@@ -463,7 +462,7 @@ Say the client wants a factory to produce a chair. The client doesn’t have to 
 There’s one more thing left to clarify: if the client is only exposed to the abstract interfaces, what creates the actual factory objects? Usually, the application creates a concrete factory object at the initialization stage. Just before that, the app must select the factory type depending on the configuration or the environment settings.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851927-->
 END
 
 ---
@@ -486,7 +485,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130101325.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851930-->
 END
 
 ---
@@ -505,7 +504,7 @@ Back:
 ✅ _Open/Closed Principle_. You can introduce new variants of products without breaking existing client code.
 
 ❌ The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
-
+<!--ID: 1738239851933-->
 END
 
 ---
@@ -565,7 +564,7 @@ Having a director class in your program isn’t strictly necessary. You can alwa
 
 In addition, the director class completely hides the details of product construction from the client code. The client only needs to associate a builder with a director, launch the construction with the director, and get the result from the builder.
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851935-->
 END
 
 ---
@@ -588,7 +587,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130103736.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851938-->
 END
 
 ---
@@ -607,7 +606,7 @@ Back:
 ✅ _Single Responsibility Principle_. You can isolate complex construction code from the business logic of the product.
 
 ❌ The overall complexity of the code increases since the pattern requires creating multiple new classes.
-
+<!--ID: 1738239851940-->
 END
 
 ---
@@ -653,7 +652,7 @@ For example, both `Truck` and `Ship` classes should implement the `Transpor
 
 The code that uses the factory method (often called the _client_ code) doesn’t see a difference between the actual products returned by various subclasses. The client treats all the products as abstract `Transport`. The client knows that all transport objects are supposed to have the `deliver` method, but exactly how it works isn’t important to the client.
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851942-->
 END
 
 ---
@@ -678,7 +677,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130104130.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851945-->
 END
 
 ---
@@ -697,7 +696,7 @@ Back:
 ✅ _Open/Closed Principle_. You can introduce new types of products into the program without breaking existing client code.
 
 ❌ The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best case scenario is when you’re introducing the pattern into an existing hierarchy of creator classes.
-
+<!--ID: 1738239851947-->
 END
 
 ---
@@ -737,7 +736,7 @@ An object that supports cloning is called a _prototype_. When your objects have
 
 Here’s how it works: you create a set of objects, configured in various ways. When you need an object like the one you’ve configured, you just clone a prototype instead of constructing a new object from scratch.
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851950-->
 END
 
 ---
@@ -758,7 +757,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130104437.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851952-->
 END
 
 ---
@@ -774,7 +773,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250130104444.png)
 
 1. The **Prototype Registry** provides an easy way to access frequently-used prototypes. It stores a set of pre-built objects that are ready to be copied. The simplest prototype registry is a `name → prototype` hash map. However, if you need better search criteria than a simple name, you can build a much more robust version of the registry.
-
+<!--ID: 1738239851955-->
 END
 
 ---
@@ -796,7 +795,7 @@ Back:
 ✅ You get an alternative to inheritance when dealing with configuration presets for complex objects.
 
 ❌ Cloning complex objects that have circular references might be very tricky.
-
+<!--ID: 1738239851958-->
 END
 
 ---
@@ -842,7 +841,7 @@ All implementations of the Singleton have these two steps in common:
 
 If your code has access to the Singleton class, then it’s able to call the Singleton’s static method. So whenever that method is called, the same object is always returned.
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851961-->
 END
 
 ---
@@ -859,7 +858,7 @@ Back:
 1. The **Singleton** class declares the static method `getInstance` that returns the same instance of its own class.
 
 The Singleton’s constructor should be hidden from the client code. Calling the `getInstance` method should be the only way of getting the Singleton object.
-
+<!--ID: 1738239851963-->
 END
 
 ---
@@ -884,7 +883,7 @@ Back:
 ❌ The pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times.
 
 ❌ It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects. Since the constructor of the singleton class is private and overriding static methods is impossible in most languages, you will need to think of a creative way to mock the singleton. Or just don’t write the tests. Or don’t use the Singleton pattern.
-
+<!--ID: 1738239851966-->
 END
 
 ---
@@ -906,7 +905,7 @@ Back:
 - **Multiton**
 - **Null object**
 - **Thread pool**
-
+<!--ID: 1738239851968-->
 END
 
 ---
@@ -941,7 +940,7 @@ public class Singleton {
     }
 }
 ```
-
+<!--ID: 1738239851971-->
 END
 
 ---
@@ -958,7 +957,7 @@ Back:
 - If there would be just two checks, it would be the same like with just one check.
 - If there would be check and then lock, you could check for null, then you would try to lock critical part of that code but lock could by acquired at that specific moment so after acquiring the lock, you would overwrite existing instance.
 - If you would first lock and then check, it would work but locking it every time is expensive.
-
+<!--ID: 1738239851973-->
 END
 
 ---
@@ -984,7 +983,7 @@ The number of threads may be dynamically adjusted during the lifetime of an appl
 - Destroying too many threads requires more time later when creating them again.
 - Creating threads too slowly might result in poor client performance (long wait times).
 - Destroying threads too slowly may starve other processes of resources.
-
+<!--ID: 1738239851976-->
 END
 
 ---
@@ -1000,7 +999,7 @@ Back:
 A Mock Object is an object that substitutes for a real object. In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways.
 
 ![](../../Assets/Pasted%20image%2020250130113938.png)
-
+<!--ID: 1738239851978-->
 END
 
 ---
@@ -1046,7 +1045,7 @@ If this causes concern (the original dependency makes a heavyweight connection t
 ![](../../Assets/Pasted%20image%2020250130114102.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851981-->
 END
 
 ---
@@ -1065,7 +1064,7 @@ The Null object pattern is a design pattern that simplifies the use of dependenc
 
 
 The Null Object class is often implemented as a Singleton. Since a null object usually does not have any state, its state can’t change, so multiple instances are identical. Rather than use multiple identical instances, the system can just use a single instance repeatedly.
-
+<!--ID: 1738239851983-->
 END
 
 ---
@@ -1087,7 +1086,7 @@ Back:
 - **Facade**
 - **Flyweight**
 - **Proxy**
-
+<!--ID: 1738239851986-->
 END
 
 ---
@@ -1133,7 +1132,7 @@ Sometimes it’s even possible to create a two-way adapter that can convert the 
 
 Let’s get back to our stock market app. To solve the dilemma of incompatible formats, you can create XML-to-JSON adapters for every class of the analytics library that your code works with directly. Then you adjust your code to communicate with the library only via these adapters. When an adapter receives a call, it translates the incoming XML data into a JSON structure and passes the call to the appropriate methods of a wrapped analytics object.
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851988-->
 END
 
 ---
@@ -1157,7 +1156,7 @@ This implementation uses the object composition principle: the adapter implement
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130105657.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239851991-->
 END
 
 ---
@@ -1175,7 +1174,7 @@ This implementation uses inheritance: the adapter inherits interfaces from both 
 ![](../../Assets/Pasted%20image%2020250130105641.png)
 
 1. The **Class Adapter** doesn’t need to wrap any objects because it inherits behaviors from both the client and the service. The adaptation happens within the overridden methods. The resulting adapter can be used in place of an existing client class.
-
+<!--ID: 1738239851994-->
 END
 
 ---
@@ -1193,7 +1192,7 @@ Back:
 ✅ _Open/Closed Principle_. You can introduce new types of adapters into the program without breaking the existing client code, as long as they work with the adapters through the client interface.
 
 ❌ The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes it’s simpler just to change the service class so that it matches the rest of your code.
-
+<!--ID: 1738239851996-->
 END
 
 ---
@@ -1231,7 +1230,7 @@ The Bridge pattern attempts to solve this problem by switching from inheritance 
 
 Following this approach, we can extract the color-related code into its own class with two subclasses: `Red` and `Blue`. The `Shape` class then gets a reference field pointing to one of the color objects. Now the shape can delegate any color-related work to the linked color object. That reference will act as a bridge between the `Shape` and `Color` classes. From now on, adding new colors won’t require changing the shape hierarchy, and vice versa.
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239851999-->
 END
 
 ---
@@ -1255,7 +1254,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130105910.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852001-->
 END
 
 ---
@@ -1276,7 +1275,7 @@ Back:
 ✅ _Single Responsibility Principle_. You can focus on high-level logic in the abstraction and on platform details in the implementation.
 
 ❌ You might make the code more complicated by applying the pattern to a highly cohesive class.
-
+<!--ID: 1738239852004-->
 END
 
 ---
@@ -1317,7 +1316,7 @@ How would this method work? For a product, it’d simply return the product’s 
 The greatest benefit of this approach is that you don’t need to care about the concrete classes of objects that compose the tree. You don’t need to know whether an object is a simple product or a sophisticated box. You can treat them all the same via the common interface. When you call a method, the objects themselves pass the request down the tree.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852007-->
 END
 
 ---
@@ -1341,7 +1340,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110100.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852009-->
 END
 
 ---
@@ -1358,7 +1357,7 @@ Back:
 ✅ _Open/Closed Principle_. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
 
 ❌ It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you’d need to overgeneralize the component interface, making it harder to comprehend.
-
+<!--ID: 1738239852011-->
 END
 
 ---
@@ -1429,7 +1428,7 @@ The last decorator in the stack would be the object that the client actually wor
 We could apply the same approach to other behaviors such as formatting messages or composing the recipient list. The client can decorate the object with any custom decorators, as long as they follow the same interface as the others.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852014-->
 END
 
 ---
@@ -1452,7 +1451,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110336.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852017-->
 END
 
 ---
@@ -1477,7 +1476,7 @@ Back:
 ❌ It’s hard to implement a decorator in such a way that its behavior doesn’t depend on the order in the decorators stack.
 
 ❌ The initial configuration code of layers might look pretty ugly.
-
+<!--ID: 1738239852020-->
 END
 
 ---
@@ -1509,7 +1508,7 @@ Having a facade is handy when you need to integrate your app with a sophisticate
 For instance, an app that uploads short funny videos with cats to social media could potentially use a professional video conversion library. However, all that it really needs is a class with the single method `encode(filename, format)` . After creating such a class and connecting it with the video conversion library, you’ll have your first facade.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852023-->
 END
 
 ---
@@ -1532,7 +1531,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110500.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852026-->
 END
 
 ---
@@ -1547,7 +1546,7 @@ Back:
 ✅ You can isolate your code from the complexity of a subsystem.
 
 ❌ A facade can become [a god object](https://courses.fit.cvut.cz/antipatterns/god-object) coupled to all classes of an app.
-
+<!--ID: 1738239852029-->
 END
 
 ---
@@ -1592,7 +1591,7 @@ The Flyweight pattern suggests that you stop storing the extrinsic state inside 
 Let’s return to our game. Assuming that we had extracted the extrinsic state from our particle class, only three different objects would suffice to represent all particles in the game: a bullet, a missile, and a piece of shrapnel. As you’ve probably guessed by now, an object that only stores the intrinsic state is called a flyweight.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852031-->
 END
 
 ---
@@ -1616,7 +1615,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110709.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852034-->
 END
 
 ---
@@ -1633,7 +1632,7 @@ Back:
 ❌ You might be trading RAM over CPU cycles when some of the context data needs to be recalculated each time somebody calls a flyweight method.
 
 ❌ The code becomes much more complicated. New team members will always be wondering why the state of an entity was separated in such a way.
-
+<!--ID: 1738239852036-->
 END
 
 ---
@@ -1670,7 +1669,7 @@ The Proxy pattern suggests that you create a new proxy class with the same inter
 But what’s the benefit? If you need to execute something either before or after the primary logic of the class, the proxy lets you do this without changing that class. Since the proxy implements the same interface as the original class, it can be passed to any client that expects a real service object.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852039-->
 END
 
 ---
@@ -1692,7 +1691,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110831.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852041-->
 END
 
 ---
@@ -1715,7 +1714,7 @@ Back:
 ❌ The code may become more complicated since you need to introduce a lot of new classes.
 
 ❌ The response from the service might get delayed.
-
+<!--ID: 1738239852044-->
 END
 
 ---
@@ -1740,7 +1739,7 @@ The benefits of lazy loading include:
 - System resource conservation – Lazy loading conserves both server and client resources, because only some of the images, JavaScript and other code actually needs to be rendered or executed.
 
 ![](../../Assets/Pasted%20image%2020250130114401.png)
-
+<!--ID: 1738239852047-->
 END
 
 ---
@@ -1757,7 +1756,7 @@ Back:
 - **Virtual proxy** – when accessing an object, call a virtual object with same interface as the real object. When the virtual object is called, load the real object, then delegate to it.
 - **Ghost** – load an object in partial state, only using an identifier. The first time a property on the object is called, load the full data.
 - **Value holder** – create a generic object that handles lazy loading behavior. This object should appear in place of an object’s data fields.
-
+<!--ID: 1738239852050-->
 END
 
 ---
@@ -1870,7 +1869,7 @@ class MyApp {
 }
 ```
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852053-->
 END
 
 ---
@@ -1893,7 +1892,7 @@ There are libraries that solve this problem by automating the process of creatin
 
 - Reflection-based solutions that connect dependencies at runtime.
 - Static solutions that generate the code to connect dependencies at compile time.
-
+<!--ID: 1738239852055-->
 END
 
 ---
@@ -1920,7 +1919,7 @@ Back:
 - **Strategy**
 - **Template Method**
 - **Visitor**
-
+<!--ID: 1738239852058-->
 END
 
 ---
@@ -1985,7 +1984,7 @@ Other GUI elements, such as menus, shortcuts or entire dialogs, can be implement
 As a result, commands become a convenient middle layer that reduces coupling between the GUI and business logic layers. And that’s only a fraction of the benefits that the Command pattern can offer!
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852060-->
 END
 
 ---
@@ -2009,7 +2008,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111234.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852063-->
 END
 
 ---
@@ -2032,7 +2031,7 @@ Back:
 ✅ You can assemble a set of simple commands into a complex one.
 
 ❌ The code may become more complicated since you’re introducing a whole new layer between senders and receivers.
-
+<!--ID: 1738239852065-->
 END
 
 ---
@@ -2090,7 +2089,7 @@ For instance, when a user clicks a button, the event propagates through the chai
 It’s crucial that all handler classes implement the same interface. Each concrete handler should only care about the following one having the `execute` method. This way you can compose chains at runtime, using various handlers without coupling your code to their concrete classes.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852068-->
 END
 
 ---
@@ -2114,7 +2113,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111435.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852071-->
 END
 
 ---
@@ -2133,7 +2132,7 @@ Back:
 ✅ _Open/Closed Principle_. You can introduce new handlers into the app without breaking the existing client code.
 
 ❌ Some requests may end up unhandled.
-
+<!--ID: 1738239852073-->
 END
 
 ---
@@ -2161,7 +2160,7 @@ The Interpreter pattern discusses: defining a domain language (i.e. problem char
 An abstract base class specifies the method `interpret()`. Each concrete subclass implements `interpret()` by accepting (as an argument) the current state of the language stream, and adding its contribution to the problem solving process.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852076-->
 END
 
 ---
@@ -2180,7 +2179,7 @@ Interpreter suggests modeling the domain with a recursive grammar. Each rule in 
 <!-- ExampleStart -->
 PSEUDOCODE_IMAGE_HERE
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852078-->
 END
 
 ---
@@ -2195,7 +2194,7 @@ Back:
 ✅ The interpreter design pattern is great for relatively simple grammar interpretation, which doesn’t need to evolve and extend much.
 
 ❌ When the grammar is getting more complex, it becomes harder to maintain.
-
+<!--ID: 1738239852081-->
 END
 
 ---
@@ -2244,7 +2243,7 @@ Usually, iterators provide one primary method for fetching elements of the colle
 All iterators must implement the same interface. This makes the client code compatible with any collection type or any traversal algorithm as long as there’s a proper iterator. If you need a special way to traverse a collection, you just create a new iterator class, without having to change the collection or the client.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852083-->
 END
 
 ---
@@ -2268,7 +2267,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111745.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852086-->
 END
 
 ---
@@ -2291,7 +2290,7 @@ Back:
 ❌ Applying the pattern can be an overkill if your app only works with simple collections.
 
 ❌ Using an iterator may be less efficient than going through elements of some specialized collections directly.
-
+<!--ID: 1738239852089-->
 END
 
 ---
@@ -2336,7 +2335,7 @@ You can go further and make the dependency even looser by extracting the common 
 This way, the Mediator pattern lets you encapsulate a complex web of relations between various objects inside a single mediator object. The fewer dependencies a class has, the easier it becomes to modify, extend or reuse that class.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852092-->
 END
 
 ---
@@ -2359,7 +2358,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111934.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852094-->
 END
 
 ---
@@ -2380,7 +2379,7 @@ Back:
 ✅ You can reuse individual components more easily.
 
 ❌ Over time a mediator can evolve into a [God Object](https://courses.fit.cvut.cz/antipatterns/god-object).
-
+<!--ID: 1738239852097-->
 END
 
 ---
@@ -2435,7 +2434,7 @@ In our text editor example, we can create a separate history class to act as the
 When a user triggers the undo, the history grabs the most recent memento from the stack and passes it back to the editor, requesting a roll-back. Since the editor has full access to the memento, it changes its own state with the values taken from the memento.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852099-->
 END
 
 ---
@@ -2459,7 +2458,7 @@ The classic implementation of the pattern relies on support for nested classes, 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130112208.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852102-->
 END
 
 ---
@@ -2478,7 +2477,7 @@ There’s an alternative implementation, suitable for programming languages that
 
 1. In the absence of nested classes, you can restrict access to the memento’s fields by establishing a convention that caretakers can work with a memento only through an explicitly declared intermediary interface, which would only declare methods related to the memento’s metadata.
 2. On the other hand, originators can work with a memento object directly, accessing fields and methods declared in the memento class. The downside of this approach is that you need to declare all members of the memento public.
-
+<!--ID: 1738239852105-->
 END
 
 ---
@@ -2497,7 +2496,7 @@ There’s another implementation which is useful when you don’t want to leave 
 1. This implementation allows having multiple types of originators and mementos. Each originator works with a corresponding memento class. Neither originators nor mementos expose their state to anyone.
 2. Caretakers are now explicitly restricted from changing the state stored in mementos. Moreover, the caretaker class becomes independent from the originator because the restoration method is now defined in the memento class.
 3. Each memento becomes linked to the originator that produced it. The originator passes itself to the memento’s constructor, along with the values of its state. Thanks to the close relationship between these classes, a memento can restore the state of its originator, given that the latter has defined the appropriate setters.
-
+<!--ID: 1738239852107-->
 END
 
 ---
@@ -2519,7 +2518,7 @@ Back:
 ❌ Caretakers should track the originator’s lifecycle to be able to destroy obsolete mementos.
 
 ❌ Most dynamic programming languages, such as PHP, Python and JavaScript, can’t guarantee that the state within the memento stays untouched.
-
+<!--ID: 1738239852110-->
 END
 
 ---
@@ -2568,7 +2567,7 @@ That’s why it’s crucial that all subscribers implement the same interface an
 If your app has several different types of publishers and you want to make your subscribers compatible with all of them, you can go even further and make all publishers follow the same interface. This interface would only need to describe a few subscription methods. The interface would allow subscribers to observe publishers’ states without coupling to their concrete classes.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852113-->
 END
 
 ---
@@ -2592,7 +2591,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130112440.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852116-->
 END
 
 ---
@@ -2609,7 +2608,7 @@ Back:
 ✅ You can establish relations between objects at runtime.
 
 ❌ Subscribers are notified in random order.
-
+<!--ID: 1738239852123-->
 END
 
 ---
@@ -2681,7 +2680,7 @@ To transition the context into another state, replace the active state object wi
 This structure may look similar to the [Strategy](https://courses.fit.cvut.cz/NI-ADP/materials/design-patterns/behavioral-patterns/strategy.html) pattern, but there’s one key difference. In the State pattern, the particular states may be aware of each other and initiate transitions from one state to another, whereas strategies almost never know about each other.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852127-->
 END
 
 ---
@@ -2704,7 +2703,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130112651.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852130-->
 END
 
 ---
@@ -2723,7 +2722,7 @@ Back:
 ✅ Simplify the code of the context by eliminating bulky state machine conditionals.
 
 ❌ Applying the pattern can be overkill if a state machine has only a few states or rarely changes.
-
+<!--ID: 1738239852132-->
 END
 
 ---
@@ -2776,7 +2775,7 @@ In our navigation app, each routing algorithm can be extracted to its own class 
 Even though given the same arguments, each routing class might build a different route, the main navigator class doesn’t really care which algorithm is selected since its primary job is to render a set of checkpoints on the map. The class has a method for switching the active routing strategy, so its clients, such as the buttons in the user interface, can replace the currently selected routing behavior with another one.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852134-->
 END
 
 ---
@@ -2795,7 +2794,7 @@ Back:
 3. **Concrete Strategies** implement different variations of an algorithm the context uses.
 4. The context calls the execution method on the linked strategy object each time it needs to run the algorithm. The context doesn’t know what type of strategy it works with or how the algorithm is executed.
 5. The **Client** creates a specific strategy object and passes it to the context. The context exposes a setter which lets clients replace the strategy associated with the context at runtime.
-
+<!--ID: 1738239852137-->
 END
 
 ---
@@ -2820,7 +2819,7 @@ Back:
 ❌ Clients must be aware of the differences between strategies to be able to select a proper one.
 
 ❌ A lot of modern programming languages have functional type support that lets you implement different versions of an algorithm inside a set of anonymous functions. Then you could use these functions exactly as you’d have used the strategy objects, but without bloating your code with extra classes and interfaces.
-
+<!--ID: 1738239852140-->
 END
 
 ---
@@ -2869,7 +2868,7 @@ As you can see, we’ve got two types of steps:
 There’s another type of step, called _hooks_. A hook is an optional step with an empty body. A template method would work even if a hook isn’t overridden. Usually, hooks are placed before and after crucial steps of algorithms, providing subclasses with additional extension points for an algorithm.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852142-->
 END
 
 ---
@@ -2889,7 +2888,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130113014.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852145-->
 END
 
 ---
@@ -2910,7 +2909,7 @@ Back:
 ❌ You might violate the _Liskov Substitution Principle_ by suppressing a default step implementation via a subclass.
 
 ❌ Template methods tend to be harder to maintain the more steps they have.
-
+<!--ID: 1738239852147-->
 END
 
 ---
@@ -2997,7 +2996,7 @@ I confess. We had to change the node classes after all. But at least the change 
 Now, if we extract a common interface for all visitors, all existing nodes can work with any visitor you introduce into the app. If you find yourself introducing a new behavior related to nodes, all you have to do is implement a new visitor class.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852150-->
 END
 
 ---
@@ -3020,7 +3019,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130113259.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852152-->
 END
 
 ---
@@ -3041,7 +3040,7 @@ Back:
 ❌ You need to update all visitors each time a class gets added to or removed from the element hierarchy.
 
 ❌ Visitors might lack the necessary access to the private fields and methods of the elements that they’re supposed to work with.
-
+<!--ID: 1738239852155-->
 END
 
 ---
@@ -3088,7 +3087,7 @@ This part of application is responsible for handling user’s input and updating
 This layer contains displaying logic. Typically it’s GUI but it doesn’t have to be. It could be just some interface user can communicate with.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852157-->
 END
 
 ---
@@ -3108,7 +3107,7 @@ One way how MVC can be implemented is that **Controller** updates **View** w
 Another way of implementation MVC is with **Model** telling **View** to update when changes has been made. This implementation usually uses [Observer pattern](https://courses.fit.cvut.cz/NI-ADP/materials/design-patterns/behavioral-patterns/observer.html), so **View** which is subscribed to **Model** gets updates whenever it is required.
 
 ![](../../Assets/Pasted%20image%2020250130115146.png)
-
+<!--ID: 1738239852159-->
 END
 
 ---
@@ -3127,7 +3126,7 @@ Back:
 ✅ We can have multiple **Views** for one **Model** and **Controller**.
 
 ❌ Tight coupling of **View** and **Controller**. That makes testing harder.
-
+<!--ID: 1738239852162-->
 END
 
 ---
@@ -3159,7 +3158,7 @@ The Presenter is responsible to act as the middleman between View and Model. It 
 The only thing that the view will do is to call a method from the Presenter every time there is an interface action. It is only responsible for presenting data in a way decided by the presenter. The functionality of view is typically reduced to a minimum such as simple validation, and it’s made as a passive component, by moving the business logic to the presenter. The view is also shielded from the model by delegating all the interaction to happen through the middleman presenter.
 
 <!-- ExplanationEnd -->
-
+<!--ID: 1738239852164-->
 END
 
 ---
@@ -3177,7 +3176,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250130115309.png)
 ![](../../Assets/Pasted%20image%2020250130115313.png)
-
+<!--ID: 1738239852167-->
 END
 
 ---
@@ -3197,7 +3196,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250130115455.png)
 
 This architecture is more similar to [MVP](https://courses.fit.cvut.cz/NI-ADP/materials/architectures/MVP.html) rather than [MVC](https://courses.fit.cvut.cz/NI-ADP/materials/architectures/MVC.html). It separates **View** from **Model** and they both communicates only with **ViewModel**. In comparison with [MVP](https://courses.fit.cvut.cz/NI-ADP/materials/architectures/MVP.html), **ViewModel** doesn’t know anything about **View**. It just provides data for **View** in a way, that **View** can subscribe to them so it knows, when changes has been made and that it should re-render itself.
-
+<!--ID: 1738239852169-->
 END
 
 ---
@@ -3220,7 +3219,7 @@ For these regular updates are usually used:
 This is example of **MVVM** how it is used in android programming.
 ![](../../Assets/Pasted%20image%2020250130115556.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852172-->
 END
 
 ---
@@ -3238,7 +3237,7 @@ Back:
 In client-server architecture, the client and the server are typically connected over a network, such as the internet. The client initiates a request to the server, which can be a request for data or a request to perform an action. The server receives the request, processes it, and sends back a response.
 
 ![](../../Assets/Pasted%20image%2020250130115951.png)
-
+<!--ID: 1738239852174-->
 END
 
 ---
@@ -3257,7 +3256,7 @@ Another benefit is that it allows for scalability. If the server is designed to 
 
 **Nevýhody:**
 There are also some challenges to using client-server architecture. One challenge is that it requires a network connection between the client and the server, which can introduce latency and other issues. Another challenge is that the server may be a single point of failure, meaning that if the server goes down, the entire application may become unavailable.
-
+<!--ID: 1738239852177-->
 END
 
 ---
@@ -3274,7 +3273,7 @@ Back:
 - **Desktop Applications**: In this case, the client is the desktop application running on the user’s computer, and the server is a remote server that stores data and performs backend tasks. The desktop application sends requests to the server to retrieve data or perform actions, and the server responds with the appropriate data or result.
 - **Mobile Apps**: Same as desktop applications, only the client is the mobile app running on the user’s device.
 - **Online Games**: Online games often use client-server architecture to support multiplayer gameplay. In this case, the client is the game running on the user’s device, and the server is a game server that manages the game world and handles communication between players.
-
+<!--ID: 1738239852180-->
 END
 
 ---
@@ -3317,7 +3316,7 @@ Tight coupling with Publish-subscribe architecture
 ![](../../Assets/Pasted%20image%2020250130124107.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1738239852182-->
 END
 
 ---
@@ -3337,7 +3336,7 @@ Back:
 **Cons**
 - Bus/Broker maintenance
 - Many inter-application communications have an intrinsically synchronous aspect => a need for facilities to group a request and a response as a single pseudo-synchronous transaction
-
+<!--ID: 1738239852185-->
 END
 
 ---
@@ -3388,7 +3387,7 @@ _StackOverflow is pretty much a Blackboard system, with developers as agents, sh
 ![](../../Assets/Pasted%20image%2020250130124453.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852187-->
 END
 
 ---
@@ -3411,7 +3410,7 @@ Ne, už se to nepoužívá, protože to bylo špatně škálovatelné na tehdej�
     - Most problems using blackboards are inherently NP-hard, so resist tractable solution by any algorithm in the large size limit
     - Blackboard was outperformed by statistical pattern recognition techniques, most notably by simple Hidden Markov Models
 <!-- DetailInfoEnd -->
-
+<!--ID: 1738239852189-->
 END
 
 ---
@@ -3444,7 +3443,7 @@ Rule-based architectures provide a means of codifying the problem-solving knowho
 ![](../../Assets/Pasted%20image%2020250130124758.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1738239852192-->
 END
 
 ---
@@ -3466,7 +3465,7 @@ Back:
         - An instantiation of a rule is an ordered list of working megnory elements that satisfies the left-hand side of the production.
     - **Conflict-Resolution**: In this second phase, one of the rule instantiations in the conflict set is chosen for execution. If no rules are satisfied, the interpreter halts.
     - **Act**: In this third phase, the actions of the rule selected in the conflict-resolution phase are executed. These actions may change the contents o% working memory. At the end of this phase, execution returns to the first phase.
-
+<!--ID: 1738239852194-->
 END
 
 ---
@@ -3488,7 +3487,7 @@ Publishers categorize published messages. Subscribers express interest in messag
 Tight coupling with Asynchronous messaging
 
 ![](../../Assets/Pasted%20image%2020250130124958.png)
-
+<!--ID: 1738239852197-->
 END
 
 ---
@@ -3511,7 +3510,7 @@ Back:
 
 - each publisher and subscriber in the pub/sub system shares meta-data about each other via IP multicast.
 - the publisher and the subscribers cache this information locally and route messages based on the discovery of each other in the shared cognizance
-
+<!--ID: 1738239852199-->
 END
 
 ---
@@ -3541,7 +3540,7 @@ Back:
     - For example: there are frameworks and software products using XML configuration files to register subscribers during system initialization
 - Runtime
     - For example: database triggers, mailing lists, and RSS
-
+<!--ID: 1738239852202-->
 END
 
 ---
@@ -3558,7 +3557,7 @@ Back:
 - **Limited maximum scalability of a pub/sub network**
     - Load surges: periods when subscriber requests saturate network throughput followed by periods of low message volume (underutilized network bandwidth)
     - Slowdowns: as more and more applications use the system (even if they are communicating on separate pub/sub channels) the message volume flow to an individual subscriber will slow
-
+<!--ID: 1738239852204-->
 END
 
 ---
@@ -3589,7 +3588,7 @@ public interface Serializable {
 ```
 
 Another example in Java is **Cloneable**.
-
+<!--ID: 1738239852207-->
 END
 
 ---
@@ -3609,7 +3608,7 @@ Multiton pattern ensures there are a predefined amount of instances available gl
 
 **Kdy se používá:**
 There must be a specific number of instances of a class, and they must be accessible to clients from a well-known access point.
-
+<!--ID: 1738239852209-->
 END
 
 ---
@@ -3693,7 +3692,7 @@ For example, many database frameworks return a convenient data format in respons
 
 So when we pass data across a boundary, it is always in the form that is most convenient for the inner circle.
 <!-- DetailInfoEnd -->
-
+<!--ID: 1738239852212-->
 END
 
 ---
@@ -3714,7 +3713,7 @@ Peer-to-Peer (P2P) architecture is a decentralized network architecture where ea
 2. **Bitcoin**: A well-known cryptocurrency that operates on a P2P network for transaction verification and ledger maintenance.
 3. **Skype**: Utilizes P2P technology for voice and video calls.
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852214-->
 END
 
 ---
@@ -3732,7 +3731,7 @@ Back:
 3. **Grid Computing**: P2P can be used for grid computing where the processing power of several computers is combined to work on complex tasks.
 4. **Communication**: Applications like Skype and VoIP services utilize P2P for direct peer-to-peer communication.
 5. **Content Distribution**: P2P networks are used by content delivery networks (CDNs) to distribute large files efficiently.
-
+<!--ID: 1738239852217-->
 END
 
 ---
@@ -3757,7 +3756,7 @@ Nevýhody:
 2. **Inconsistent Performance**: The performance can vary depending on the peers’ capabilities and availability.
 3. **Legal and Ethical Issues**: P2P networks can be misused for distributing pirated or illegal content.
 4. **Complex Management**: Managing and troubleshooting a P2P network can be more complex than traditional networks.
-
+<!--ID: 1738239852220-->
 END
 
 ---
@@ -3785,7 +3784,7 @@ Konkrétní examples:
 - **MySQL Replication**: Implements master-slave replication for database redundancy.
 - **Distributed Computing Frameworks**: Like Apache Spark, where the master node manages task distribution to worker nodes.
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852222-->
 END
 
 ---
@@ -3806,7 +3805,7 @@ Back:
 1. **Single Point of Failure**: If the master fails, the entire system can become inoperative.
 2. **Complexity**: Managing communication and synchronization between master and slaves can be complex.
 3. **Scalability Limits**: The architecture can become bottlenecked by the master’s capacity.
-
+<!--ID: 1738239852225-->
 END
 
 ---
@@ -3836,7 +3835,7 @@ Konkrétní příklady:
 3. **Data Analytics Pipeline:** In data analytics, filters can be used for cleansing, transforming, and aggregating data before analysis.
 4. **Audio Processing:** In audio engineering, a series of filters are used for equalization, compression, and effects like reverb.
 <!-- ExampleEnd -->
-
+<!--ID: 1738239852227-->
 END
 
 ---
@@ -3859,7 +3858,7 @@ Back:
 2. **Complexity in State Management:** Managing state across filters can be challenging, particularly in stateful filters.
 3. **Debugging Difficulty:** Debugging can be difficult due to the distributed nature of processing.
 4. **Limited Interactivity:** Not well-suited for interactive applications where immediate feedback is required, as data must pass through the entire pipeline.
-
+<!--ID: 1738239852230-->
 END
 
 ---
@@ -3882,7 +3881,7 @@ An event can be defined as “a significant change in state”. For example, whe
 This architectural pattern may be applied by the design and implementation of applications and systems that transmit events among loosely coupled software components and services. An event-driven system typically consists of event emitters (or agents), event consumers (or sinks), and event channels. Emitters have the responsibility to detect, gather, and transfer events. An Event Emitter does not know the consumers of the event, it does not even know if a consumer exists, and in case it exists, it does not know how the event is used or further processed. Sinks have the responsibility of applying a reaction as soon as an event is presented. The reaction might or might not be completely provided by the sink itself. For instance, the sink might just have the responsibility to filter, transform and forward the event to another component or it might provide a self-contained reaction to such event. Event channels are conduits in which events are transmitted from event emitters to event consumers. The knowledge of the correct distribution of events is exclusively present within the event channel. The physical implementation of event channels can be based on traditional components such as message-oriented middleware or point-to-point communication which might require a more appropriate transactional executive framework.
 
 Building systems around an event-driven architecture simplifies horizontal scalability in distributed computing models and makes them more resilient to failure. This is because application state can be copied across multiple parallel snapshots for high-availability. New events can be initiated anywhere, but more importantly propagate across the network of data stores updating each as they arrive. Adding extra nodes becomes trivial as well: you can simply take a copy of the application state, feed it a stream of events and run with it.
-
+<!--ID: 1738239852233-->
 END
 
 ---
@@ -3906,7 +3905,7 @@ This topology is useful for events that have multiple steps and require some lev
 Broker topology is useful when you have a relatively simple event processing flow and you do not want (or need) central event orchestration. The message flow is distributed across the event processor components in a chain-like fashion through a lightweight message broker.
 
 ![](../../Assets/Pasted%20image%2020250130130718.png)
-
+<!--ID: 1738239852235-->
 END
 
 ---
@@ -3934,7 +3933,7 @@ Back:
 **Nevýhody:**
 - Tightly coupled to the semantics of the underlying event schema and values
 	- The high degree of semantic heterogeneity of events makes it difficult to develop and maintain event-based systems.
-
+<!--ID: 1738239852238-->
 END
 
 ---
@@ -3971,7 +3970,7 @@ A microservices architecture provides this flexibility, as different engineering
 **Continuous Improvement**
 
 DevOps thrives on incremental improvements derived from real-time user feedback, technology changes, use cases, and other sources. As you’ll see in the section below on DevOps components, this is a continuous process based on CI/CD principles.
-
+<!--ID: 1738239852240-->
 END
 
 ---
@@ -4014,7 +4013,7 @@ Continuous deployment is the ultimate goal of DevOps, since automating most proc
 Monitoring isn’t just the last step in the DevOps process flow. Teams should be monitoring their workflows all of the time in order to catch bugs before releasing the code to production.
 
 DevOps engineers use various tools that increase observability of the way architecture components work over time to tackle issues that elude manual and automated testing processes. These tools detect and report anomalies automatically, so that teams can correct the code before users encounter issues.
-
+<!--ID: 1738239852243-->
 END
 
 ---
