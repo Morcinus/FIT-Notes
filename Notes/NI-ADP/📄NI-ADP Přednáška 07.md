@@ -236,8 +236,6 @@ Back:
 
 Máme porty (interfacy) a adaptéry (implementace interfaců). Tyhle dvě věci komunikují s okolním světem aplikace.
 
-
-
 **Tohle je důležitý obrázek:**
 - Pointa je, že aplikaci jsem schopný rozdělit do výřezů (na obrázku component). Každý výřez má pak vnější rozhraní pro komunikaci s okolním světem.
 	- Když pak chci používat nějakou část aplikace, měl bych to používat pomocí toho rozhraní pro komunikaci s vnějším světem. Díky tomu pak nemám šílený dependencies napříč aplikací, ale se vším komunikuju "zvenku". 

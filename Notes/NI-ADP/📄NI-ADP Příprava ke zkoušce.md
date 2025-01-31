@@ -483,6 +483,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130101325.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239851930-->
 END
 
@@ -563,7 +565,6 @@ Having a director class in your program isn’t strictly necessary. You can alwa
 
 In addition, the director class completely hides the details of product construction from the client code. The client only needs to associate a builder with a director, launch the construction with the director, and get the result from the builder.
 <!-- ExplanationEnd -->
-
 <!--ID: 1738239851935-->
 END
 
@@ -587,6 +588,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130103736.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239851938-->
 END
 
@@ -687,6 +690,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130104130.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239851945-->
 END
 
@@ -767,6 +772,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130104437.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239851952-->
 END
 
@@ -783,6 +790,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250130104444.png)
 
 1. The **Prototype Registry** provides an easy way to access frequently-used prototypes. It stores a set of pre-built objects that are ready to be copied. The simplest prototype registry is a `name → prototype` hash map. However, if you need better search criteria than a simple name, you can build a much more robust version of the registry.
+
+Tags: diagram
 <!--ID: 1738239851955-->
 END
 
@@ -868,6 +877,8 @@ Back:
 1. The **Singleton** class declares the static method `getInstance` that returns the same instance of its own class.
 
 The Singleton’s constructor should be hidden from the client code. Calling the `getInstance` method should be the only way of getting the Singleton object.
+
+Tags: diagram
 <!--ID: 1738239851963-->
 END
 
@@ -942,7 +953,6 @@ if(ins == null) {
 	mutex_unlock()
 }
 ```
-
 <!--ID: 1738239851971-->
 END
 
@@ -960,7 +970,6 @@ Back:
 - (Kdyby člověk nelockoval vůbec, tak by si to vlákna přepisovala)
 
 Proto je fajn to nejdřív checknout, potom locknout a potom checknout znovu.
-
 <!--ID: 1738239851973-->
 END
 
@@ -986,7 +995,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250130113831.png)
 <!-- ImageEnd -->
-
 <!--ID: 1738239851976-->
 END
 
@@ -1019,7 +1027,6 @@ Back:
 - **Usnadňuje testování** - některé situace jsou velice těžké na testování (network connection atd.)
 - **Když neexistuje implementace** - můžeme mocknout něco, co ještě neexistuje. Díky tomu můžeme vyvíjet bez dané části systému
 - **Když reálný objekt vrací nedeterministické výsledky** - např. čas, seed atd.
-
 <!--ID: 1738239851981-->
 END
 
@@ -1043,7 +1050,6 @@ Díky tomu:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250130114134.png)
 <!-- ImageEnd -->
-
 <!--ID: 1738239851983-->
 END
 
@@ -1141,6 +1147,8 @@ Adapter implementuje nějaké rozhraní.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130105657.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239851991-->
 END
 
@@ -1159,6 +1167,8 @@ Adapter dědí z dané classy a servicy. Toto lze využít pouze u jazyků, co u
 ![](../../Assets/Pasted%20image%2020250130105641.png)
 
 1. The **Class Adapter** doesn’t need to wrap any objects because it inherits behaviors from both the client and the service. The adaptation happens within the overridden methods. The resulting adapter can be used in place of an existing client class.
+
+Tags: diagram
 <!--ID: 1738239851994-->
 END
 
@@ -1253,6 +1263,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130105910.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852001-->
 END
 
@@ -1346,6 +1358,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110100.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852009-->
 END
 
@@ -1457,6 +1471,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110336.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852017-->
 END
 
@@ -1540,6 +1556,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110500.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852026-->
 END
 
@@ -1628,6 +1646,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110709.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852034-->
 END
 
@@ -1705,6 +1725,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130110831.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852041-->
 END
 
@@ -1753,7 +1775,6 @@ Na webových stránkách se načtou obrázky, až když k nim uživatel doscroll
 **Výhody:**
 - **Snižuje to initial load time**
 - **Šetří to komunikaci a zdroje** - nepřistupuje se tak moc do databáze, neposílá se tolik requestů
-
 <!--ID: 1738239852047-->
 END
 
@@ -1771,7 +1792,6 @@ Back:
 - **Virtual proxy** - při přístupu k objektu se zavolá virtuální objekt se stejným rozhraním. Ten pak načte daný objekt a přepošle mu požadavek.
 - **Ghost** - loadne se objekt s částečným stavem (např. placeholder), když je to potřeba, objekt vyplní svoje data
 - **Value holder** - generický objekt se stará o lazy loading, tento objekt se používá místo nějaké proměnné data objektu
-
 <!--ID: 1738239852050-->
 END
 
@@ -1890,7 +1910,6 @@ class MyApp {
 }
 ```
 <!-- DetailInfoEnd -->
-
 <!--ID: 1738239852053-->
 END
 
@@ -1918,7 +1937,6 @@ There are libraries that solve this problem by automating the process of creatin
 - Reflection-based solutions that connect dependencies at runtime.
 - Static solutions that generate the code to connect dependencies at compile time.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1738239852055-->
 END
 
@@ -2035,6 +2053,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111234.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852063-->
 END
 
@@ -2140,6 +2160,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111435.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852071-->
 END
 
@@ -2208,9 +2230,7 @@ Back:
 
 Interpreter suggests modeling the domain with a recursive grammar. Each rule in the grammar is either a ‘composite’ (a rule that references other rules) or a terminal (a leaf node in a tree structure). Interpreter relies on the recursive traversal of the Composite pattern to interpret the ‘sentences’ it is asked to process.
 
-<!-- ExampleStart -->
-PSEUDOCODE_IMAGE_HERE
-<!-- ExampleEnd -->
+Tags: diagram
 <!--ID: 1738239852078-->
 END
 
@@ -2299,6 +2319,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111745.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852086-->
 END
 
@@ -2391,6 +2413,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130111934.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852094-->
 END
 
@@ -2491,6 +2515,8 @@ The classic implementation of the pattern relies on support for nested classes, 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130112208.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852102-->
 END
 
@@ -2510,6 +2536,8 @@ There’s an alternative implementation, suitable for programming languages that
 
 1. In the absence of nested classes, you can restrict access to the memento’s fields by establishing a convention that caretakers can work with a memento only through an explicitly declared intermediary interface, which would only declare methods related to the memento’s metadata.
 2. On the other hand, originators can work with a memento object directly, accessing fields and methods declared in the memento class. The downside of this approach is that you need to declare all members of the memento public.
+
+Tags: diagram
 <!--ID: 1738239852105-->
 END
 
@@ -2529,6 +2557,8 @@ There’s another implementation which is useful when you don’t want to leave 
 1. This implementation allows having multiple types of originators and mementos. Each originator works with a corresponding memento class. Neither originators nor mementos expose their state to anyone.
 2. Caretakers are now explicitly restricted from changing the state stored in mementos. Moreover, the caretaker class becomes independent from the originator because the restoration method is now defined in the memento class.
 3. Each memento becomes linked to the originator that produced it. The originator passes itself to the memento’s constructor, along with the values of its state. Thanks to the close relationship between these classes, a memento can restore the state of its originator, given that the latter has defined the appropriate setters.
+
+Tags: diagram
 <!--ID: 1738239852107-->
 END
 
@@ -2624,6 +2654,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130112440.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852116-->
 END
 
@@ -2736,6 +2768,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130112651.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852130-->
 END
 
@@ -2827,6 +2861,8 @@ Back:
 3. **Concrete Strategies** implement different variations of an algorithm the context uses.
 4. The context calls the execution method on the linked strategy object each time it needs to run the algorithm. The context doesn’t know what type of strategy it works with or how the algorithm is executed.
 5. The **Client** creates a specific strategy object and passes it to the context. The context exposes a setter which lets clients replace the strategy associated with the context at runtime.
+
+Tags: diagram
 <!--ID: 1738239852137-->
 END
 
@@ -2923,6 +2959,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130113014.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852145-->
 END
 
@@ -3054,6 +3092,8 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250130113259.png)
 <!-- ExampleEnd -->
+
+Tags: diagram
 <!--ID: 1738239852152-->
 END
 
@@ -3232,7 +3272,6 @@ Back:
 Oproti MVP je View "chytřejší" protože se samo updatuje a observuje změny v ViewModelu.
 
 ![](../../Assets/Pasted%20image%2020250130115455.png)
-
 <!--ID: 1738239852169-->
 END
 
@@ -3539,7 +3578,6 @@ Back:
 **Data Distribution Service (DDS)**
 - Každý publisher a subscriber o sobě sdílí meta-data přes IP multicast (tzn. všichni o sobě vědí), tyto informace si každý publisher/subscriber cachuje
 - Podle meta-dat publisher rovnou posílá informace subscriberovi
-
 <!--ID: 1738239852199-->
 END
 
@@ -3645,21 +3683,19 @@ END
 
 ### Architektury
 
+#### Clean architecture
 
 START
 FIT-Card
 
-Jak funguje **Clean architecture** architektura?
+Jaké jsou vrstvy **Clean Architektury**?
 
 Back:
 
-This architecture is similar to lot of other architectures. They vary in details but main idea behind it stays the same, which is separation of concerns by dividing software into layers.
-
-- **Independent of Frameworks.** The architecture does not depend on the existence of some library of feature laden software. This allows you to use such frameworks as tools, rather than having to cram your system into their limited constraints.
-- **Testable.** The business rules can be tested without the UI, Database, Web Server, or any other external element.
-- **Independent of UI.** The UI can change easily, without changing the rest of the system. A Web UI could be replaced with a console UI, for example, without changing the business rules.
-- **Independent of Database.** You can swap out Oracle or SQL Server, for Mongo, BigTable, CouchDB, or something else. Your business rules are not bound to the database.
-- **Independent of any external agency.** In fact your business rules simply don’t know anything at all about the outside world.
+- **Entities** - doménové modely dat
+- **Use cases** - byznys logika
+- **Interface adapters** - rozhraní mezi byznys logikou a externím systémem. Controllers, Presenters, Gateways,... 
+- **Frameworks and drivers** - Externí dependencies (databáze, frameworky)
 
 ![](../../Assets/Pasted%20image%2020250130125527.png)
 
@@ -3727,16 +3763,36 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Jaké jsou principy **Clean Architektury**? (5)
+
+Back:
+
+- **Independent of Frameworks** - Frameworky by měly být v nejvyšší vrstvě a žádné vnitřní vrstvy by neměly na daném frameworku přímo záviset.
+- **Testable** - Business pravidla by měla být testovatelná bez UI, databáze, web serveru nebo jakýchkoliv externích elementů
+- **Independent of UI** - Měl bych být schopný změnit UI bez zásahu do byznys logiky
+- **Independent of Database** - Business pravidla by neměla být závislá na konkrétní databázi, měl bych být schopný ji jednoduše měnit.
+- **Independent of any external agency** - business pravidla by neměla vědět nic o vnějším světě.
+<!--ID: 1738333522807-->
+END
+
+---
+
 #### Peer-to-peer
 
 START
 FIT-Card
 
-K čemu slouží **Peer-to-peer** architektura?
+Jak funguje **Peer-to-peer** architektura?
 
 Back:
 
-Peer-to-Peer (P2P) architecture is a decentralized network architecture where each participant (peer) shares a part of their resources such as processing power, storage space, or network bandwidth, directly with other network participants. This architecture is unique because it does not require a central server; instead, each peer acts both as a client and a server. This design allows for direct sharing of files, data, or resources between peers.
+Je to decentralizovaná architektura, kde každé zařízení (peer) sdílí část svých výpočetních zdrojů, místa a network bandwidth s ostatními účastníky.
+
+Nepotřebuje to centrální server, každý účastník se chová jako klient a server.
 
 <!-- ExampleStart -->
 1. **BitTorrent**: A popular file-sharing protocol that uses P2P for distributing large amounts of data.
@@ -3800,7 +3856,8 @@ K čemu slouží **Master-slave** architektura?
 
 Back:
 
-The Master-Slave architecture is architecture where a master component controls one or more slave components. The master component sends requests or commands to the slave components, which execute these instructions and return results to the master. This architecture is commonly used to simplify complex processes, distribute workloads, and manage tasks efficiently.
+- **Master** - nějaký komponent, co na základě požadavku deleguje komplexní práci na slaves.
+- **Slave** - nějaký komponent, který plní práci od Mastera
 
 ![](../../Assets/Pasted%20image%2020250130130002.png)
 
