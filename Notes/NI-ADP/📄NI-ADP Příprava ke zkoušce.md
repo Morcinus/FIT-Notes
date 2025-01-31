@@ -1961,7 +1961,7 @@ K čemu slouží **Command** design pattern?
 
 Back:
 
-**Command** is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This transformation lets you pass requests as a method arguments, delay or queue a request’s execution, and support undoable operations.
+Pro nějakou akci/request/příkaz vytvoří samostatnou třídu, která obsahuje relevantní informace o dané akci. Díky tomu je možné akce například dávat do fronty, lze je ukládat a předávat si je v rámci programu. 
 
 ![](../../Assets/Pasted%20image%2020250130111117.png)
 
@@ -2073,7 +2073,7 @@ K čemu slouží **Chain of Responsibility** design pattern?
 
 Back:
 
-**Chain of Responsibility** is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+Umožňuje vytvořit řetězec handlerů, kterým se pošle nějaký request. Každý handler pak buď zprocesuje request a nebo ho pošle dál.
 
 ![](../../Assets/Pasted%20image%2020250130111323.png)
 
@@ -2174,10 +2174,15 @@ K čemu slouží **Interpreter** design pattern?
 
 Back:
 
+Slouží k vyhodnocování vět v nějakém jazyce podle dané gramatiky. Základní myšlenkou je pro každý terminál a neterminál gramatiky vytvořit třídu. 
+
+Následně je možné každou větu jazyka reprezentovat jako abstraktní syntaktický strom terminálů a neterminálů. Ten strom pak mohu vyhodnotit.
+
+
+<!-- ExplanationStart -->
 - Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 - Map a domain to a language, the language to a grammar, and the grammar to a hierarchical object-oriented design.
 
-<!-- ExplanationStart -->
 **PROBLEM:**
 A class of problems occurs repeatedly in a well-defined and well-understood domain. If the domain were characterized with a “language”, then problems could be easily solved with an interpretation “engine”.
 
@@ -2236,7 +2241,7 @@ K čemu slouží **Iterator** design pattern?
 
 Back:
 
-**Iterator** is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
+Umožňuje se pohybovat po prvcích nějaké datové struktury, aniž by exposoval tu samotnou strukturu (např. seznam, strom, atd.).
 
 ![](../../Assets/Pasted%20image%2020250130111638.png)
 
@@ -2332,7 +2337,8 @@ K čemu slouží **Mediator** design pattern?
 
 Back:
 
-**Mediator** is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
+Umožňuje sprostředkovávat komunikaci mezi objekty skrze mediatora. Díky tomu nebudou tak chaotické dependencies, protože objekty nebudou komunikovat napřímo.
+
 
 ![](../../Assets/Pasted%20image%2020250130111821.png)
 
@@ -2421,7 +2427,7 @@ K čemu slouží **Memento** design pattern?
 
 Back:
 
-**Memento** is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
+Umožňuje ukládat a načítat stav objektu, aniž bychom museli znát jeho vnitřní reprezentaci.
 
 ![](../../Assets/Pasted%20image%2020250130112002.png)
 
@@ -2560,7 +2566,7 @@ K čemu slouží **Observer** design pattern?
 
 Back:
 
-**Observer** is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+Umožňuje definovat subscribtion mechanismus, kde jsou objekty notifikovány, pokud nastane nějaká událost na objektu, který observují.
 
 ![](../../Assets/Pasted%20image%2020250130112355.png)
 
@@ -2650,7 +2656,7 @@ K čemu slouží **State** design pattern?
 
 Back:
 
-**State** is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
+Umožňuje měnit chování objektu na základě jeho vnitřního stavu. Stav je reprezentovaný třídou.
 
 ![](../../Assets/Pasted%20image%2020250130112522.png)
 
@@ -2764,7 +2770,7 @@ K čemu slouží **Strategy** design pattern?
 
 Back:
 
-**Strategy** is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+Umožňuje mi zadefinovat různé strategie/algoritmy v oddělených třídách. Díky tomu pak můžu tyto strategie různě prohazovat a vybírat.
 
 ![](../../Assets/Pasted%20image%2020250130112736.png)
 
@@ -2860,7 +2866,9 @@ K čemu slouží **Template Method** design pattern?
 
 Back:
 
-**Template Method** is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+Umožňuje vytvořit funkci, která definuje strukturu nějakého algoritmu a volá nějaké metody, které reprezentují kroky daného algoritmu. Tyto metody potom mohou být přepsány v podtřídách.
+
+Díky tomu takto vznikne "kostra" algoritmu a mohu v podtřídách přepisovat jednotlivé kroky algoritmu.
 
 ![](../../Assets/Pasted%20image%2020250130112928.png)
 
@@ -2951,7 +2959,7 @@ K čemu slouží **Visitor** design pattern?
 
 Back:
 
-**Visitor** is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+Umožňuje mi oddělit algoritmy od objektů, na kterých pracují.
 
 ![](../../Assets/Pasted%20image%2020250130113142.png)
 
@@ -3078,19 +3086,15 @@ END
 START
 FIT-Card
 
-K čemu slouží **MVC** architektura?
+Co je **MVC** architektura?
 
 Back:
 
-**Model - View - Controller**
+**Model - View - Controller:**
 
-MVC can be used as design pattern as well as architecture. First it appeared as design patters when first GUI appeared. Later it became popular and people started to use the idea in “bigger picture” so it became architecture as well.
-
-Basic idea is to split code into three parts based on their responsibilities:
-
-- **Model**
-- **View**
-- **Controller**
+- **Model** - stará se o data a byznys logiku aplikace
+- **Controller** - zpracovává vstup uživatele a updatuje model
+- **View** - zobrazuje data, typicky GUI nebo API
 
 ![](../../Assets/Pasted%20image%2020250130115027.png)
 
@@ -3127,12 +3131,11 @@ Jaká je struktura **MVC** architektury? (2 možnosti)
 Back:
 
 **Možnost 1:**
-One way how MVC can be implemented is that **Controller** updates **View** when changes has been made.
+**Controller** zavolá update na **View**, když byly provedeny změny v modelu.
 ![](../../Assets/Pasted%20image%2020250130115125.png)
 
 **Možnost 2:**
-Another way of implementation MVC is with **Model** telling **View** to update when changes has been made. This implementation usually uses [Observer pattern](https://courses.fit.cvut.cz/NI-ADP/materials/design-patterns/behavioral-patterns/observer.html), so **View** which is subscribed to **Model** gets updates whenever it is required.
-
+**Model** zavolá update na **View**, když se změní. Toto používá typicky Observer pattern, kdy View observuje změny v Modelu.
 ![](../../Assets/Pasted%20image%2020250130115146.png)
 <!--ID: 1738239852159-->
 END
@@ -3163,13 +3166,15 @@ END
 START
 FIT-Card
 
-K čemu slouží **MVP** architektura?
+Co je **MVP** architektura?
 
 Back:
 
-**Model - View - Presenter**
+**Model - View - Presenter**:
 
-Model View Presenter (MVP) is an evolution of the traditional Model View Controller (MVC) to improve the separation of concerns and facilitate the automatic unit testing.
+- **Model** - stará se o data a byznys logiku aplikace
+- **Presenter** - prostředník mezi View a Modelem
+- **View** - volá funkce z presentera, je velice jednoduchý
 
 The typical interactions taking place in MVP architecture can be understood through the following:
 ![](../../Assets/Pasted%20image%2020250130115225.png)
@@ -3197,9 +3202,10 @@ Jaké jsou výhody **MVP** architektury? (3)
 
 Back:
 
-- Clear separation of responsibilities between components. This separation allows for an easier understanding and maintenance of the code base.
-- Modularity. Modularity allows you to e.g. switch to a different implementation of view component in order to completely change application’s UI, while all other components remain intact.
-- Easier testing. Since there are well defined boundaries between components, it becomes much easier to test each component in isolation (by e.g. mocking other components).
+- **Lepší seperation of concerns**
+- **Modularita** - můžu prohazovat různé implementace view
+- **Lehčí testování** - tím, že jsou jasně definované meze mezi komponenty, můžu je jednoduše mockovat a testovat 
+
 
 ![](../../Assets/Pasted%20image%2020250130115309.png)
 ![](../../Assets/Pasted%20image%2020250130115313.png)
@@ -3218,11 +3224,15 @@ K čemu slouží **MVVM** architektura?
 
 Back:
 
-**Model - View - ViewModel**
+**Model - View - ViewModel**:
+- **Model** - byznys logika a data
+- **ViewModel** - něco jako presenter, ale neví nic o view, jen poskytuje data. View může subscribnout do ViewModelu, aby vědělo, kdy se data updatnula
+- **View** - zobrazuje data, sám se přerenderovává
+
+Oproti MVP je View "chytřejší" protože se samo updatuje a observuje změny v ViewModelu.
 
 ![](../../Assets/Pasted%20image%2020250130115455.png)
 
-This architecture is more similar to [MVP](https://courses.fit.cvut.cz/NI-ADP/materials/architectures/MVP.html) rather than [MVC](https://courses.fit.cvut.cz/NI-ADP/materials/architectures/MVC.html). It separates **View** from **Model** and they both communicates only with **ViewModel**. In comparison with [MVP](https://courses.fit.cvut.cz/NI-ADP/materials/architectures/MVP.html), **ViewModel** doesn’t know anything about **View**. It just provides data for **View** in a way, that **View** can subscribe to them so it knows, when changes has been made and that it should re-render itself.
 <!--ID: 1738239852169-->
 END
 
@@ -3504,12 +3514,9 @@ K čemu slouží **Publish-subscribe** architektura?
 
 Back:
 
-Publishers categorize published messages. Subscribers express interest in messages from a category and only receive messages that are of interest, without knowledge of publishers.
-
-- subscribers typically receive only a subset of the total messages published
-- the process of selecting messages for reception and processing is called filtering
-
-Tight coupling with Asynchronous messaging
+- **Publisher** - odesílá zprávy určitého typu
+- **Middleware** - má u sebe seznam subscribers a rozesílá zprávy podle typu
+- **Subscriber** - může se u middlewaru zaregistrovat tak, aby přijímal určité typy zpráv
 
 ![](../../Assets/Pasted%20image%2020250130124958.png)
 <!--ID: 1738239852197-->
@@ -3525,16 +3532,14 @@ Jaké jsou 2 topologie **Publish-subscribe** architektury?
 Back:
 
 **Bus/Broker**
-
-- publishers post messages to an intermediary message broker or event bus
-- subscribers register subscriptions with that broker
-- the broker performs the filtering and routing
-- the broker may prioritize messages in a queue before routing
+- publishers odesílají zprávy do message brokeru nebo event busu
+- subscribers se zaregistrují v daném brokeru
+- broker provádí filtraci a routing zpráv (příp. prioritizaci)
 
 **Data Distribution Service (DDS)**
+- Každý publisher a subscriber o sobě sdílí meta-data přes IP multicast (tzn. všichni o sobě vědí), tyto informace si každý publisher/subscriber cachuje
+- Podle meta-dat publisher rovnou posílá informace subscriberovi
 
-- each publisher and subscriber in the pub/sub system shares meta-data about each other via IP multicast.
-- the publisher and the subscribers cache this information locally and route messages based on the discovery of each other in the shared cognizance
 <!--ID: 1738239852199-->
 END
 
@@ -3543,7 +3548,7 @@ END
 START
 FIT-Card
 
-Jaká je struktura **Publish-subscribe** architektury?
+Jaká je struktura **Publish-subscribe** architektury? (todo smazat tuhle kartičku)
 
 Back:
 

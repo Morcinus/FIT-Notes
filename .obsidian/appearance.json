@@ -6,5 +6,6 @@
     "properties",
     "breadcrumbs"
   ],
-  "cssTheme": "Atom"
+  "cssTheme": "Atom",
+  "showRibbon": true
 }

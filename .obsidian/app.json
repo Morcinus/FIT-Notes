@@ -6,7 +6,6 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
-  "showRibbon": true,
   "defaultViewMode": "preview",
   "pdfExportSettings": {
     "includeName": true,
