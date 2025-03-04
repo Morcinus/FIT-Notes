@@ -473,6 +473,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304103458.png)
 
+K čemu jsou tyhle transformace
+
 END
 
 ---
@@ -487,8 +489,25 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304103521.png)
 
+Konečné druhé momenty = umím najít střední hodnotu $X_i^2$
 
 ![](../../Assets/Pasted%20image%2020250304103531.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadá varianční matice? Co je na diagonále a co mimo ni?
+
+Back:
+
+Na diagonále jsou **variance**, mimo diagonálu jsou **kovariance**.
+
+![](../../Assets/Pasted%20image%2020250304124723.png)
 
 END
 
@@ -520,6 +539,14 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304103714.png)
 
+Je to jako ekvivalentní tohoto v jednorozměrném prostoru:
+![](../../Assets/Pasted%20image%2020250304130110.png)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250304130235.png)
+<!-- ImageEnd -->
+
+
 END
 
 ---
@@ -538,11 +565,11 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304103852.png)
 <!-- DetailInfoEnd -->
 
+Pozitivní semidefinitnost mi říká, že se s pravděpodobností 1 trefím do nějaké přímky (tzn do nějaké množiny o dimenzi míň).
 
 END
 
 ---
-
 
 START
 FIT-Card

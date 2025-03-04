@@ -38,6 +38,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304104107.png)
 
+Jinými slovy lineární transformace nemá vliv na charakter normálního rozdělení. Bude to zase normální rozdělení.
+
 END
 
 ---
@@ -50,7 +52,9 @@ Definice: $n$-**rozměrné normální rozdělení**
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250304104142.png)
+![](../../Assets/Pasted%20image%2020250304104142.png) 
+
+Ta důležitá vlastnost je ta poslední část, že pokud udělám "řez" tím n-rozměrným rozdělením, tak ten ten řez bude mít taky normální rozdělení. 
 
 END
 
@@ -60,7 +64,9 @@ END
 START
 FIT-Card
 
-Věta: hustota rozdělení $X$ pokud áme symetrickou a pozitivně definitní matici 
+Věta: hustota rozdělení $X$ pokud máme symetrickou a pozitivně definitní matici
+
+Pozn. Toto si nemusíme pamatovat!
 
 Back:
 
@@ -100,6 +106,10 @@ Věta: Vícerozměrné normální rozdělení je invarianzní vůči lineárním
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304104356.png)
+
+Říká nám to, že pokud máme vícerozměrné normální rozdělení, tak potom lineární transformace má zase **vícerozměrné rozdělení**.
+
+Ta důležitá informace je, že to výsledné rozdělení je zase **vícerozměrné normální**.
 
 END
 
