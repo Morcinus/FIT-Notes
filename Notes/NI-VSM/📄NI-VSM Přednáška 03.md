@@ -452,6 +452,11 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304123800.png)
 Jen tam jednoduše počítám lineární transformaci na prvcích té matice.
 
+<!-- ProofStart -->
+![](../../Assets/Pasted%20image%2020250304124114.png)
+<!-- ProofEnd -->
+
+
 END
 
 ---
