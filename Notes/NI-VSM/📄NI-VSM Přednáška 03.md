@@ -472,3 +472,37 @@ Back:
 END
 
 ---
+
+
+START
+FIT-Card
+
+Věta: **symetričnost** a **definitnost** variační matice
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250304103804.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250304103852.png)
+<!-- DetailInfoEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Variační matice je symetrická právě když ...
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250304103837.png)
+
+END
+
+---
+
