@@ -58,6 +58,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304102451.png)
 
+![](../../Assets/Pasted%20image%2020250304112121.png)
+
 END
 
 ---
@@ -66,11 +68,13 @@ END
 START
 FIT-Card
 
-Věta: Střední hodnota funkce náhodného vektoru (pro diskrétní rozdělení)
+Věta: **Střední hodnota funkce** náhodného vektoru (pro diskrétní rozdělení)
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102527.png)
+
+Např. když mám náhodné veličiny výšku a váhu, tak můžu spočíst BMI index. Potom budu zkoumat rozdělení toho BMI indexu - například tu střední hodnotu.
 
 END
 
@@ -115,6 +119,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304102634.png)
 
+Znaménko kovariance určuje, jeslti vztah těch náhodných veličin je "čím víc, tím míň" nebo "čím víc, tím víc"
+
 END
 
 ---
@@ -128,6 +134,9 @@ Definice: **korelační koeficient**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102647.png)
+
+- Když to je 0, tak jsou nekorelované.
+- Je to vždy mezi $-1$ a $1$
 
 END
 
@@ -201,11 +210,13 @@ END
 START
 FIT-Card
 
-Vlastnost kovariance:
+Vlastnost korelace:
 Nechť $X$ a $Y$ jsou náhodné veličiny s konečnými druhými momenty. Potom platí
 ![](../../Assets/Pasted%20image%2020250304102849.png)
 
 Back:
+
+Prostě to je vždy mezi -1 a 1
 
 ![](../../Assets/Pasted%20image%2020250304102838.png)
 
@@ -225,6 +236,10 @@ Nechť $X$ a $Y$ jsou náhodné veličiny s konečnými druhými momenty. Potom 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102855.png)
+
+Toto je prý důležitý.
+
+Např. když měřím teplotu celsiích a změnu délky v metrech, tak pokud bych přecházel ke fahrenheitům a stopám, tak jen u obou veličin uděláme lineární transformaci a ten korelační koeficient zůstane stejný.
 
 END
 
@@ -257,6 +272,14 @@ Věta: nezávislost a nekorelovanost $X$ a $Y$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103007.png)
+
+Tzn. korelace je 0
+
+Pozor: Korelace odhaduje zejména **lineární závislost**. Může tam ale být jiná závislost a korelace to nemusí odhalit.
+
+Kdyby ta závislost byla kvadratická, tak korelace mi řekne, že mezi tím není závislost.
+![](../../Assets/Pasted%20image%2020250304113520.png)
+
 
 END
 
@@ -303,6 +326,26 @@ Definice: **podmíněná distribuční funkce**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103118.png)
+
+Např. zkoumám váhu studentů, kteří mají 180 cm.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je rozdíl mezi **průměrem** a **střední** hodnotou?
+
+Back:
+
+Průměr je odhadem střední hodnoty.
+
+Pokud vezmeme všechny jedince, tak teprve potom dostanu střední hodnotu.
+
+Např. měřím výšku lidí na ČVUTu (získám průměr) to je pouze odhad. Pokud bych změřil všechny lidi, tak teprve získám střední hodnotu.
 
 END
 
@@ -405,6 +448,9 @@ Věta: **Linearita střední hodnoty**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103436.png)
+
+![](../../Assets/Pasted%20image%2020250304123800.png)
+
 
 END
 

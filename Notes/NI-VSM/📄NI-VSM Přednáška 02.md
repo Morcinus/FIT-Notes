@@ -1114,6 +1114,10 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250220125202.png)
 
+Marginální rozdělení jakoby říká, že jsem změřil nějaké hodnoty (např. 10 různých veličin) a já si z toho vyberuj jen nějaké (např 2)
+
+Marginální rozdělení nám jakoby říká souvislost těch dvou náhodných veličin
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220125228.png)
 <!-- DetailInfoEnd -->
