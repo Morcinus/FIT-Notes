@@ -509,7 +509,7 @@ END
 START
 FIT-Card
 
-Co je socket management?
+Co je **socket management**?
 
 Back:
 
