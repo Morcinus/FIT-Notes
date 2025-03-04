@@ -450,7 +450,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304103436.png)
 
 ![](../../Assets/Pasted%20image%2020250304123800.png)
-
+Jen tam jednoduše počítám lineární transformaci na prvcích té matice.
 
 END
 
