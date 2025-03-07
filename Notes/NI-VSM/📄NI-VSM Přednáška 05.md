@@ -41,6 +41,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250307125549.png)
 
+b je báze toho logaritmu
+
 END
 
 ---
@@ -82,6 +84,11 @@ Definice: **sdružená entropie**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125720.png)
+
+<!-- ExplanationStart -->
+Je to vyloženě to samý jako u normální entropie, jen prostě se pohybuju na vícerozměrném prostoru (mám více náhodných veličin).
+<!-- ExplanationEnd -->
+
 
 END
 
@@ -134,6 +141,14 @@ Definice: **relativní entropie**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125823.png)
+
+Pozor, tato vzdálenost není symetrická!
+Tzn.  $D(p||q) \neq D(q||p)$
+
+<!-- ExplanationStart -->
+Mám 2 rozdělení na jedné možině p a q. Díky tomuto můžu zkoumat rozdíly mezi těmi rozděleními
+<!-- ExplanationEnd -->
+
 
 END
 

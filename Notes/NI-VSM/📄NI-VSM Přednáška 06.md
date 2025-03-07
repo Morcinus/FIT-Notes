@@ -136,6 +136,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250307130602.png)
 
+Tzn. Zobrazení z množiny zpráv do množiny zakódovaných zpráv.
+
 END
 
 ---
@@ -225,11 +227,59 @@ END
 START
 FIT-Card
 
-Věta: **Střední délka kódu**
+Věta: **Dolní mez délky instantního kódu**
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130827.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: **Střední délka optimálního kódu**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250307155922.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Algoritmus: **Huffmanovo kódování**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250307155942.png)
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250307155959.png)
+![](../../Assets/Pasted%20image%2020250307160010.png)
+<!-- ExampleEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: **Optimalita Huffmanova kódu**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250307160038.png)
 
 END
 
