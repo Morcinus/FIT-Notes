@@ -575,6 +575,8 @@ Jak rychlé je COO pro CSR, schedule(dynamic,16)?
 
 Back:
 
+> "Nebuďte z toho smutný. Tyhle algoritmy budou vždycky pomalý. Běžte se proběhnout na Letnou. Užívejte si jara." - Tvrdík :D
+
 ![](../../Assets/Pasted%20image%2020250313111131.png)
 ![](../../Assets/Pasted%20image%2020250313111507.png)
 
