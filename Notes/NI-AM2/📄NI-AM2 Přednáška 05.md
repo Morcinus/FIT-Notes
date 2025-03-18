@@ -260,3 +260,119 @@ Back:
 END
 
 ---
+
+### Streaming a Long-polling
+
+
+START
+FIT-Card
+
+Proč nemůže server normálně začínat komunikaci s klientem přes HTTP?
+
+Back:
+
+Protože HTTP je **request-response protokol**.
+![](../../Assets/Pasted%20image%2020250318122401.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je rozdíl mezi Pushing a Polling?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122310.png)
+![](../../Assets/Pasted%20image%2020250318122306.png)
+
+END
+
+---
+
+START
+FIT-Card
+
+Jak funguje HTTP streaming?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122429.png)
+
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
+Co je Chunked Response?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122449.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je rozdíl mezi Chunks a Events?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122525.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je Client Buffering?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122555.png)
+
+END
+
+---
+
+START
+FIT-Card
+
+Co je XHR Polling?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122609.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je XHR Long Polling?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250318122622.png)
+
+END
+
+---
