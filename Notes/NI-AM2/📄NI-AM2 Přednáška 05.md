@@ -231,6 +231,40 @@ END
 
 ---
 
+
+
+START
+FIT-Card
+
+Kdo může číst a měnit JWT token?
+
+Back:
+
+- číst - kdokoliv
+- měnit - pouze server
+
+Tzn. nemůžu si jako hacker změnit v tokenu "admin: true", protože tam je ta signature, která by byla porušená
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Kde bych měl mít uložený JWT token?
+
+Back:
+
+Jako nejlepší by bylo ho mít uložený na serveru a na klientovi ho nemít uložený vůbec.
+
+Jde ale o to, že tak jako tak musím mít na klientovi něco, co mi umožní
+
+END
+
+---
+
 ### OpenID Connect
 
 START
@@ -262,6 +296,25 @@ END
 ---
 
 ### Streaming a Long-polling
+
+
+START
+FIT-Card
+
+Jaké jsou základní 4 protokoly pro komunikaci přes síť?
+
+Back:
+
+- XHR
+- Fetch API
+- Server-Sent Evens
+- WebSocket
+
+![](../../Assets/Pasted%20image%2020250318144234.png)
+
+END
+
+---
 
 
 START
