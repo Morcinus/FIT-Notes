@@ -53,7 +53,7 @@ END
 START
 FIT-Card
 
-Co platí pro invariant quicksortu?
+Jak funguje Lomutova varianta partitioningu v QuickSortu?
 
 Back:
 
@@ -135,6 +135,9 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250321134900.png)
 
+- Koncová rekurze - je to "zadarmo", stačí jen přeuspořádat kód
+- Zavedení prahu - ke konci rekurze nemá cenu to počítat rekurzivně
+
 END
 
 ---
@@ -186,7 +189,7 @@ END
 START
 FIT-Card
 
-Jak vypadá Hoareova varianta quicksortu?
+Jak vypadá Hoareova varianta quicksortu (partitioningu)?
 
 Back:
 
@@ -203,6 +206,8 @@ FIT-Card
 
 Jak se dá optimalizovat quicksort optimalizací pořadí vyhodnocení podmínek?
 
+(tohle je v optimalizaci trochu detail)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135205.png)
@@ -215,9 +220,15 @@ END
 START
 FIT-Card
 
-Jak lze paralelizovat quicksort algoritmus?
+Jak lze paralelizovat quicksort algoritmus (Hoareova)?
 
 Back:
+
+Pozn. vlákna mi budou zpracovávat různé části toho pole je velice důležitý, abych si pohlídal, aby mi nezpracovávali danou dvojici čísel najednou, jinak by došlo ke kolizi.
+
+Hlavní myšlenka:
+- Budeme mít globální i a j a vždy když si nějaké vlákno načte tyto prvky, updatne indexy tak, aby to už nečetlo jiné vlákno
+	- Žádná dvě vlákna nesmí mít stejný 
 
 ![](../../Assets/Pasted%20image%2020250321135234.png)
 ![](../../Assets/Pasted%20image%2020250321135241.png)
@@ -241,13 +252,11 @@ Proč není tento quicksort algoritmus korektní?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250321135328.png)
+Musíme zajistit, aby zapisování do sdílených proměnných bylo atomické.
 
-<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250321135328.png)
 ![](../../Assets/Pasted%20image%2020250321135341.png)
 ![](../../Assets/Pasted%20image%2020250321135347.png)
-<!-- DetailInfoEnd -->
-
 
 END
 
@@ -260,6 +269,10 @@ FIT-Card
 Proč je algoritmus par_partition_2 neefektivní?
 
 Back:
+
+Protože se tam furt lockují ty globální proměnné - volají se stovky atomic capute. Ta režie je obří.
+
+Když už si nějaké vlákno "vysoutěží" přístup k té sdílené paměti, tak jim nedáme jeden prvek, ale rovnou $K$ prvků, ať může chvíli pracovat a nejde zase do té paměti.
 
 ![](../../Assets/Pasted%20image%2020250321135415.png)
 
@@ -498,6 +511,16 @@ Jak funguje slučování v merge sortu pomocí paralelního **2-cestného** slu�
 
 Back:
 
+- Ta matice je virtuální - reálně ji nekonstruujeme
+- Je tam 0, když ten prvek nahoře je menší, je tam 1 když ten prvek nahoře je větší
+- Potřebujeme spočítat nějaké oddělovače, kde:
+	- každé vlákno dostane stejné množství čísel ke slučování
+	- první vlákno dostane první chunk, druhé vlákno druhý atd.
+- Každé vlákno si spočte svůj oddělovač
+	- Každé vlákno si spočítá, kde jeho vedlejší diagonála (ty červený) protíná tu modrou čáru
+- Potom mě zajímají místa, kde se 0 mění na 1 v té matici
+- Jelikož jsou diagonály ekvidistantní (mají mezi sebou stejnou vzdálenost), je mezi nimi stejný počet průsečíků modré čáry
+
 ![](../../Assets/Pasted%20image%2020250321140150.png)
 ![](../../Assets/Pasted%20image%2020250321140158.png)
 ![](../../Assets/Pasted%20image%2020250321140204.png)
@@ -514,9 +537,18 @@ Jak funguje slučování v merge sortu pomocí paralelního **p-cestného** slu�
 
 Back:
 
+- Myšlenka je rozdělit vstup do $n/p$ částí - každá pro jedno vlákno
+- Každé vlákno si to pak sesortí a pak se řeší "slévání" těch sesortěných polí (prostě "máme zapomenout, jak funguje normální merge sort a přemýšlet o tom takhle")
+
 ![](../../Assets/Pasted%20image%2020250321140228.png)
 ![](../../Assets/Pasted%20image%2020250321140233.png)
 ![](../../Assets/Pasted%20image%2020250321140238.png)
+1. Nahoře je vstup
+2. Potom si to každé vlákno seřadí
+3. ???
+4. Profit
+
+Ehm na přednášce to vysvětlil dost rychle, takže jsem to nestihnul popsat vlastními slovy :D 
 
 END
 

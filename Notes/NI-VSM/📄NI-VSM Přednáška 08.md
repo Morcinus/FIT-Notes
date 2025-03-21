@@ -102,11 +102,15 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250320104058.png)
 
+Jinými slovy:
+"Když mám velký počet pozorování, tak mi to konverguje ke střední hodnotě"
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250320104107.png)
 <!-- DetailInfoEnd -->
 
 <!-- ImageStart -->
+Cauchyho rozdělení nemá tuto střední hodnotu, ke které to konverguje. Proto se to chová dost random
 ![](../../Assets/Pasted%20image%2020250320104116.png)
 <!-- ImageEnd -->
 
@@ -358,7 +362,7 @@ END
 START
 FIT-Card
 
-Algoritmus: Metoda momentů
+Algoritmus: Metoda momentů (tohle ve VSM asi prý dělat nebudem)
 
 Back:
 
@@ -372,7 +376,7 @@ END
 START
 FIT-Card
 
-Algoritmus: Metoda maximální věrohodnosti
+Algoritmus: Metoda maximální věrohodnosti (tohle ve VSM asi prý dělat nebudem)
 
 Back:
 
@@ -430,6 +434,8 @@ FIT-Card
 
 Definice: intervaly spolehlivosti pro střední hodnotu se **známým rozptylem**
 
+(tohle **bude** možná u zkoušky)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320105002.png)
@@ -449,6 +455,8 @@ FIT-Card
 
 Definice: intervaly spolehlivosti pro střední hodnotu s **neznámým rozptylem**
 
+(tohle **bude** možná u zkoušky)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320105028.png)
@@ -466,7 +474,9 @@ END
 START
 FIT-Card
 
-Definice: intervaly spolehlivosti pro rozptyl
+Definice: intervaly spolehlivosti pro rozptyl 
+
+(toto prý po nás **nebudou** chtít u zkoušky)
 
 Back:
 
@@ -491,8 +501,13 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250320105209.png)
 
+Alternativní hypotézu typicky dávám to co mi vadí. Např. když testuju střední hodnotu spotřeby paliva, tak mi nevadí, když to bude míň, ale vadí mi, když to bude víc.
+
 Pozn.
 ![](../../Assets/Pasted%20image%2020250320105219.png)
+
+zamítneme = jsme si jistí s určitou pravděpodobností
+nezamítneme = nemáme tolik dat abychom mohli zamítnout
 
 END
 
@@ -507,6 +522,14 @@ Jaké jsou chyby při testování hypotéz?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320105240.png)
+
+Vysvětlení:
+- Testujeme člověka na covid a můžou se stát dvě chyby:
+	- Má covid a my ho do karantény nedáme - to je ta horší varianta (chyba prvního druhu)
+	- Nemá covid a dáme ho do karantény - furt chyba, ale není tak hrozná (chyba druhého druhu)
+
+Tzn. dobrý postup je:
+- Předpokládáme, že je nemocný a pouze pokud bude mít dost protilátek, tak ho prohlásíme za zdravého
 
 END
 
