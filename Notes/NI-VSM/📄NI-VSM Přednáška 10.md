@@ -15,6 +15,15 @@ Jak funguje Testování hypotéz pomocí testových statistik?
 
 Back:
 
+![](../../Assets/Pasted%20image%2020250322113810.png)
+
+Základní idea je, že naměřené výsledky dáme do funkce $T$, u které při platnosti nulové hypotézy známe její rozdělení. Tuto statistiku ($T$) nazýváme testovou statistikou.
+
+Zadefinuju si kritickou sekci/oblast $S_\alpha$. Pokud se ta statistika trefí tam, tak to zamítneme.
+
+Statistikou může být například průměr.
+
+![](../../Assets/Pasted%20image%2020250322100849.png)
 ![](../../Assets/Pasted%20image%2020250322080446.png)
 
 END
@@ -29,12 +38,46 @@ Jak funguje Testování hypotéz pomocí testových statistik pro **Střední ho
 
 Back:
 
+1. Sestavíme testovou statistiku $T$
+2. Pak můžeme provést test
+
 ![](../../Assets/Pasted%20image%2020250322080544.png)
 ![](../../Assets/Pasted%20image%2020250322080555.png)
 
 END
 
 ---
+
+
+START
+FIT-Card
+
+Kde se na grafu nachází p hodnota?
+
+(na tohle se prý můžou ptát u zkoušky)
+
+Back:
+
+Těsně na hranici zamítnutí a nezamítnutí (je to plocha)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je rozdíl mezi normálním testováním a testování pomocí statistiky?
+
+Back:
+
+Je to v zásadě to samé, testování pomocí statistiky nám umožňuje to jednodušeji porovnávat, je to takové přehlednější
+
+END
+
+---
+
 
 
 START
@@ -58,6 +101,8 @@ Jak funguje test o střední hodnotě na hladině významnosti $\alpha$ s **test
 
 Back:
 
+![](../../Assets/Pasted%20image%2020250322113921.png)
+
 ![](../../Assets/Pasted%20image%2020250322080717.png)
 
 <!-- ExerciseStart -->
@@ -76,6 +121,8 @@ FIT-Card
 Jak funguje test o střední hodnotě na hladině významnosti $\alpha$ s **testovou statistikou a kritickými obory při neznámém rozptylu**?
 
 Back:
+
+![](../../Assets/Pasted%20image%2020250322113932.png)
 
 ![](../../Assets/Pasted%20image%2020250322080731.png)
 
@@ -107,6 +154,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250322080839.png)
 
+Pozn. párový t-test dává smysl používat u subjektů, které se nemění. Např. tlak **stejného** pacienta před operací a po operaci.
+
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322080846.png)
 <!-- ExerciseEnd -->
@@ -124,6 +173,8 @@ Jak funguje Dvouvýběrový t-test?
 
 Back:
 
+Chceme testovat jestli 2 výběry mají stejné střední hodnoty. Tady na rozdíl od párového t-testu máme nezávislý výběr (tzn. náhodně vybíráme) - pozor, může být ale stejný.
+
 ![](../../Assets/Pasted%20image%2020250322080904.png)
 
 END
@@ -138,7 +189,13 @@ Jak funguje Dvouvýběrový t-test pro **stejné rozptyly**?
 
 Back:
 
+![](../../Assets/Pasted%20image%2020250322114002.png)
+
+Pozn. Když zkoumám rovnost, tak vždy $H_0$ je rovnost a $H_A$ je nerovnost.
+
 ![](../../Assets/Pasted%20image%2020250322080926.png)
+
+Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
 
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322081003.png)
@@ -157,7 +214,27 @@ Jak funguje Dvouvýběrový t-test pro **různé rozptyly**?
 
 Back:
 
+![](../../Assets/Pasted%20image%2020250322114023.png)
+
 ![](../../Assets/Pasted%20image%2020250322080940.png)
+
+Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy bych měl použít párový vs dvouvýběrový test?
+
+Back:
+
+Pokud mám dva výběry, které mají **stejnou délku** a ta data jsou párová, tedy jsou nad stejnými subjekty, je lepší použít **párový test**. Dvouvýběrový je obecně méně přesný.
+
+Pokud by ta data ovšem nebyla párová, je třeba použít vždy ten dvouvýběrový. Jinak to je chyba.
 
 END
 
@@ -168,6 +245,8 @@ START
 FIT-Card
 
 Jak funguje $F$-test rovnosti rozptylů?
+
+Tohle nemusíme umět!
 
 Back:
 
