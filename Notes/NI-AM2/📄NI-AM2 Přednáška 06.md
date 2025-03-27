@@ -136,6 +136,8 @@ Co je XHR Long Polling?
 
 Back:
 
+Je to jako polling, ale server chvíli podrží request na serveru. Pokud se data na serveru změní, okamžitě se pošlou klientovi. Pokud se za tu dobu držení requestu nic nezmění, tak se po vypršení requestu pošle prázdná odpověď.
+
 ![](../../Assets/Pasted%20image%2020250318122622.png)
 
 END
