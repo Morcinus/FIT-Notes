@@ -29,6 +29,48 @@ END
 START
 FIT-Card
 
+Jak se spočte $EN_i$ u multinomického rozdělení?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250329103530.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se spočte $\text{var} N_i$ multinomického rozdělení?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250329103559.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se spočte $\text{cov }(N_i, N_j)$ multinomikého rozdělení?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250329103627.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Věta: Pearsonova statistika
 
 Back:
