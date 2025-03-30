@@ -177,6 +177,21 @@ END
 START
 FIT-Card
 
+Co dělá funkce MPI_Init_thread?
+
+Back:
+
+"Očuchá" systém a zjistí, co je k dispozici.
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
 Jak se dá přeložit MPI+OpenMP program?
 
 Back:
