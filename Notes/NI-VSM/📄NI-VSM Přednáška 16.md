@@ -14,6 +14,11 @@ Co je cílem pravděpodobností pohlcení?
 
 Back:
 
+- $U_{ij}$ - Vezmu libovolný přechodný stav a chci zjistit pravděpodobnost, že první stav z $C$ (trvalých stavů) bude zrovna stav $j$
+- $N_{ik}$ - střední počet přechodného stavu k, když začnu ve stavu i
+	- Kolik času strávím ve stavu $k$ (kolikrát tam budu), než bude řetězec pohlcen v $C$
+- $N_i$ - střední doba, jak dlouho trvá, než se pohltím do nějakého stavu
+
 ![](../../Assets/Pasted%20image%2020250411112710.png)
 
 <!-- DetailInfoStart -->
@@ -38,6 +43,8 @@ Definice: čas absorbce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411112735.png)
+
+Označuje to čas, kdy přejdu z množiny přechodných stavů do trvalých.
 
 END
 
@@ -69,6 +76,8 @@ Back:
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411112835.png)
+
+![](../../Assets/Pasted%20image%2020250411130234.png)
 <!-- DetailInfoEnd -->
 
 
@@ -99,6 +108,9 @@ Věta: Matice pravděpodobností pohlcení $U$ je řešením rovnice ...
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411112906.png)
+
+$R$ - matice přechodu mezi přechodnými a trvalými
+$T$ - matice přechodu mezi přechodnými a přechodnými
 
 END
 
@@ -140,7 +152,27 @@ END
 START
 FIT-Card
 
+Jak invertovat matici 2x2?
+
+(pozn. hledání inverze se prý bude očas vyskytovat u zkoušky)
+
+Back:
+
+Stačí prohodit prvky diagonály `\` a omínusovat prvky diagonály `/` a pak to pronásobit:
+
+![](../../Assets/Pasted%20image%2020250411131531.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Definice: **počet návštěv stavu**
+
+(na tohle se prý u zkoušky ptát nebudou, ale je fajn vědět co to cca je)
 
 Back:
 
