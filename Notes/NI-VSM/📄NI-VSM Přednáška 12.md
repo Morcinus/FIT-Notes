@@ -217,3 +217,21 @@ Posadím na každý bod "jádro" - nějakou funkci (třeba normální rozdělen�
 END
 
 ---
+
+
+START
+FIT-Card
+
+Co jsou Gaussovské směsi?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250411135458.png)
+
+<!-- ExerciseStart -->
+![](../../Assets/Pasted%20image%2020250411135510.png)
+<!-- ExerciseEnd -->
+
+END
+
+---
