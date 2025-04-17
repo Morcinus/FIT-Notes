@@ -65,9 +65,10 @@ Back:
 2. **Stage** - mám data v jedné databázi na jednom místě
 3. **Stage-Mart** - máme vrstvu nad Stagem, která např. předpřipravuje reporty
 4. **Classic DWH** - klasická data warehouse (je tým lidí, co ho spravují)
+	- Typicky jádro datového skladu se vytváří nezávisle na externích systémech, abych neměl různé formáty dat, když si třeba změním CRM nebo jiný systém
 5. **Hybrid DWH** - část je v cloudu
-6. **Analytical & BI Platform**
-7. **Universal Data Platform**
+6. **Analytical & BI Platform** - 
+7. **Universal Data Platform** - 
 
 END
 
@@ -83,9 +84,9 @@ Back:
 
 Analogie s dopravou:
 
-- Data Warehousing - spolehlivý, vše na jednom místě
-- Analytika a Data Lakes - 
-- Provozní zpracování dat
+- **Data Warehousing** - spolehlivý, vše na jednom místě
+- **Analytika a Data Lakes (data mesh)** - nižší úroveň kontroly, daleko větší flexibilita, umožňuje více experimentovat s datama - slouží pro Business Intelligence
+- **Provozní zpracování dat** - klasický provozní účely, typicky propojování aplikací (integrace), dále taky např. statistické modely, co dělají predikce
 
 END
 
@@ -118,6 +119,20 @@ Kdy je datová kvalita dostatečná?
 Back:
 
 Když si nikdo nestěžuje :D
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je historizace dat?
+
+Back:
+
+Dělají se "snímky" dat  
 
 END
 
