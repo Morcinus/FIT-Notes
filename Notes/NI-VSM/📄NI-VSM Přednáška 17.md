@@ -246,3 +246,39 @@ Back:
 END
 
 ---
+
+
+START
+FIT-Card
+
+Definice: Matice skokových intenzit
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250419140610.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250419140619.png)
+<!-- DetailInfoEnd -->
+
+<!-- ExampleStart -->
+![](../../Assets/Pasted%20image%2020250419140637.png)
+<!-- ExampleEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: **Simulace procesu pomocí skokových intenzit**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250419140652.png)
+
+END
+
+---
