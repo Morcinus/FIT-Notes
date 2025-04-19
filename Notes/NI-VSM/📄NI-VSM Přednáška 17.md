@@ -34,6 +34,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419135912.png)
 
+Počítá mi kolik událostí nastalo do daného času
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419135922.png)
 <!-- DetailInfoEnd -->
