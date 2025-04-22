@@ -48,19 +48,3 @@ Back:
 END
 
 ---
-
-### Přednáška 20
-
-
-START
-FIT-Card
-
-Věta: **Kolmogorova rovnice**
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250419141051.png)
-
-END
-
----
