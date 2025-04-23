@@ -283,133 +283,6 @@ END
 
 ---
 
-
-START
-FIT-Card
-
-Jak vypadá pravděpodobnost nejméně 2 událostí?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093443.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak vypadá pravděpodobnost že nenastane žádná událost?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093516.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak vypadá pravděpodobnost že nastane právě jedna událost?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093542.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jaká je pravděpodobnost přeskoku o víc než jedna?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093625.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jaká je pravděpodobnost přeskoku o jedna?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093639.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak vypadá pravděpodobnost setrvání?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093655.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak vypadá matice intenzit pro $k \geq 2$?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093728.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak vypadá matice intenzit pro přeskok jedna?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093743.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak vypadá matice intenzit pro setrvání?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250422093801.png)
-
-END
-
----
-
-
 START
 FIT-Card
 
@@ -419,14 +292,19 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250422093838.png)
 
+Pozn. Co po nás podle Hrabáka budou chtít:
+- Buď dostanem matici přechodu za čas T
+	- Např. Rozdělení v čase 17,5 když známe rozdělení v čase 2 (stačí jen vynásobit maticí vývoje za čas - tzn. P(17,5-2))
+- Nebo dostanem diagram. Z toho uděláme matici skokových intenzit
+	- Z toho třeba budou chtít sestavit diferenciální rovnice
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250422093849.png)
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250422093905.png)
-![](../../Assets/Pasted%20image%2020250422093914.png)
-![](../../Assets/Pasted%20image%2020250422093922.png)
+
 <!-- ExampleEnd -->
 
 END

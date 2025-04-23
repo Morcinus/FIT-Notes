@@ -12,11 +12,15 @@ FILE TAGS: NI-VSM prednaska20 status-toReview
 START
 FIT-Card
 
-Jak vypadá obecně model hromadné obsluhy?
+Definice: Model hromadné obsluhy
 
 Back:
 
+Nezapomenout na nezávislost - je to důležitý!
+
 ![](../../Assets/Pasted%20image%2020250423090622.png)
+
+Pozn. takhle to chtějí popsat u zkoušky a u státnic.
 
 END
 
@@ -32,9 +36,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250423090638.png)
 
-<!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020250423090654.png)
-<!-- DetailInfoEnd -->
 
 END
 
@@ -44,7 +45,25 @@ END
 START
 FIT-Card
 
-Definice: Kandallova notace
+Co je $\varrho$ v systému hromadné obsluhy? Jak se spočte?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250423100453.png)
+
+Je to jakoby hustota obsluhy.
+
+Když je hustota 1, tak to je přesně na hranici toho, že to ten systém stíhá. Když to bude víc, tak to přehltí systém. (Když jsem na 1, tak ten systém bude hodně citlivý na nějaký mini přetížení).
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Kandallova notace** ($A|S|c$ notace)
 
 Back:
 
@@ -96,6 +115,8 @@ START
 FIT-Card
 
 Stacionární vlastnosti $M|M|1$
+
+Na tohle se nás prý můžou zeptat (ty střední hodnoty)
 
 Back:
 
