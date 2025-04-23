@@ -1,7 +1,8 @@
 ---
 created: 2025-04-22T09:22:37
-title: "Markovské řetězce se spojitým časem"
-up: "[[📖NI-VSM]]"
+title: Konstrukce řetězců se spojitým časem
+up:
+  - "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
