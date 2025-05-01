@@ -1,0 +1,169 @@
+---
+created: 2025-05-01T15:39:33
+title: "Hromadná obsluha v síti"
+up: "[[📖NI-VSM]]"
+---
+
+TARGET DECK: NI-VSM
+FILE TAGS: NI-VSM prednaska22 status-toReview
+
+
+START
+FIT-Card
+
+Čím se zabývá hromadná obsluha v síti?
+
+Back:
+
+Hlavní myšlenka: dáme dva servery do série za sebe, každý má nějakou frontu
+
+![](../../Assets/Pasted%20image%2020250501154047.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: Systém hromadné obsluhy $M|M|c$, pak proces odchodů
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154125.png)
+
+ve stacionárním stavu = rozdělení v každém čase je stacionární
+
+<!-- ExplanationStart -->
+![](../../Assets/Pasted%20image%2020250501154149.png)
+<!-- ExplanationEnd -->
+
+END
+
+---
+
+START
+FIT-Card
+
+Jak vypadají dva servery v sérii (stacionární stav)?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154213.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadají dva servery $M|M|1$ v sérii (stacionární rozdělení)
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154245.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadají intenzity přechodu pro dva servery $M|M|1$?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154311.png)
+
+Např. na prvním serveru mám $m-1$ zákazníků a na druhém $n$ a pak mi přijde zákazník na první server a jsem v $(m,n)$ - první horizontální šipka.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: stacionární rozdělení pro dva servery $M|M|1$
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154419.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: stacionární rozdělení pro **uzavřenou** soustavu $L$ serverů
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154451.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250501154501.png)
+![](../../Assets/Pasted%20image%2020250501154508.png)
+![](../../Assets/Pasted%20image%2020250501154526.png)
+<!-- DetailInfoEnd -->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadá otevřená soustava serverů?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154549.png)
+![](../../Assets/Pasted%20image%2020250501154558.png)
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: co platí pro **otevřenou** soustavu $L$ serverů
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154622.png)
+
+<!-- ExerciseStart -->
+![](../../Assets/Pasted%20image%2020250501154635.png)
+![](../../Assets/Pasted%20image%2020250501154642.png)
+<!-- ExerciseEnd -->
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké stacionární vlastnosti má otevřená soustava serverů? 
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250501154714.png)
+
+END
+
+---
