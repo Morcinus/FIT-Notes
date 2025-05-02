@@ -15,6 +15,10 @@ Definice: Reálný náhodný proces
 
 Back:
 
+POZN. OD TÉTO KARTIČKY DÁL (včetně - Kapitola konstrukce náhodných procesů) ASI NEBUDE LÁTKA VE ZKOUŠCE
+
+Resp. Hrabák říkal "Nebudem tuhle část ani zkoušet, jen nám to přišlo důležitý, abyste si to spojili s těma markovskýma řetězcema".
+
 ![](../../Assets/Pasted%20image%2020250501160909.png)
 
 END
@@ -296,10 +300,6 @@ FIT-Card
 Definice: systém distribučních funkcí je konzistentní
 
 Back:
-
-POZN. OD TÉTO KARTIČKY DÁL (včetně - Kapitola konstrukce náhodných procesů) ASI NEBUDE LÁTKA VE ZKOUŠCE
-
-Resp. Hrabák říkal "Nebudem tuhle část ani zkoušet, jen nám to přišlo důležitý, abyste si to spojili s těma markovskýma řetězcema".
 
 ![](../../Assets/Pasted%20image%2020250501162525.png)
 
