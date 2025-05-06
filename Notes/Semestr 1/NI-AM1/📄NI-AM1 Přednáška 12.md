@@ -4,7 +4,7 @@ title: "xxx"
 up: "[[📖NI-AM1]]"
 ---
 
-TARGET DECK: NI-AM1
+TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska12 status-toReview
 
 START
@@ -19,18 +19,21 @@ Dělá requesty na back-end systémy "jménem klienta".
 Klient tak pošle jeden request na reverzní proxy a proxy pak např. pošle 3 requesty do systémů a pošle klientovi odpověď.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220131832.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220131902.png)
 
 <!-- ExampleEnd -->
 <!--ID: 1735205749881-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -42,14 +45,15 @@ Back:
 Když mám servery které nejsou stateless, tak na reverse proxy musím přeposílat requesty klientů furt na ty samé servery (pokud jsou stateful, tak to je jedno).
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220131915.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749883-->
+
 END
 
 ---
-
-
 
 START
 FIT-Card
@@ -61,15 +65,17 @@ Back:
 Jednou za čas zkontroluju, jestli beží daný server. Pokud neběží, tak ho vyřadím ze seznamu serverů, kam přeposílám requesty.
 
 <!-- DetailInfoStart -->
+
 Health checking je obecně důležitý mechanismus. Můžu health měnit i na základě vnitřního stavu aplikace (např. v aplikaci nefunguje něco úplně ideálně, tak nechci, aby se mi posílalo tolik requestů -> nastavím nižší health služby).
 
 ![](../../../Assets/Pasted%20image%2020241220133326.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749886-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -78,18 +84,18 @@ Jak funguje **Round-Robin** algoritmus u sticky sessions?
 
 Back:
 
-Máme index a seznam serverů. Postupně rozesílám 
+Máme index a seznam serverů. Postupně rozesílám
 
 1. Přijde request, přečtu `sessionId`
 2. Pokud `sessionId` je v `sticky sessions` array, pošlu request na daný server
-	- Pokud tam není, pošlu ho na server podle momentálního indexu a zařadím `sessionId` do `sticky sessions`
+   - Pokud tam není, pošlu ho na server podle momentálního indexu a zařadím `sessionId` do `sticky sessions`
 
 ![](../../../Assets/Pasted%20image%2020241220134549.png)
 <!--ID: 1735205749889-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -98,12 +104,12 @@ Jaká je nevýhoda Round-Robin algoritmu?
 
 Back:
 
-Nevím, jak moc jsou servery zatížený. Každý server může být např. jinak silný, co se týče CPU. Round robin tak zatěžuje servery rovnoměrně, což ale není ideální. 
+Nevím, jak moc jsou servery zatížený. Každý server může být např. jinak silný, co se týče CPU. Round robin tak zatěžuje servery rovnoměrně, což ale není ideální.
 <!--ID: 1735205749891-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -114,10 +120,10 @@ Back:
 
 Zjistím, jak jsou servery zatížené podle **počtu aktivních requestů**. Např. když nějaký server má 30 aktivních requestů (na které se čeká) a druhý 10, tak to pošlu na ten se 10, protože vím, že ten není tak zatížený.
 <!--ID: 1735205749893-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -129,13 +135,15 @@ Back:
 Request se pošle na server, který má nejnižší average response time a nejnižší počet active connections
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220134132.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749896-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -150,10 +158,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241220134357.png)
 <!--ID: 1735205749898-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -169,10 +177,10 @@ Máme router, který je ve stejné síti jako ty load balancery. Pomocí ARP pro
 
 Díky tomu ARP protokolu se to přepne, když jeden server vypadne.
 <!--ID: 1735205749901-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -185,10 +193,10 @@ Když mám jeden load balancer, tak mám single point of failure. Proto typicky 
 
 Proto tu **session** uchovávám někde **jinde**.
 <!--ID: 1735205749903-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -201,13 +209,15 @@ Back:
 - Nebo pomocí **In-memory replication** - session se kopíruje na záložní load balancer vždy když se změní data
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220135717.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749906-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -222,10 +232,13 @@ Když se zakládá session, zkopíruje se vždy ta informace rovnou k druhému l
 2. Server 2 se hned nastaví jako hlavní, sessions se opět začnou replikovat na nějaký další server...
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220150912.png)
 ![](../../../Assets/Pasted%20image%2020241220150906.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749909-->
+
 END
 
 ---
@@ -240,13 +253,13 @@ Proč je důležitý mít hodně přesný monitoring systému?
 Back:
 
 Využiju to, když:
+
 1. Něco nefunguje a potřebuju **rychle identifikovat**, kde je problém (např. že je zahlcený spoj s databází)
-2. Typicky se mi třeba postupně něco zpomaluje tím, jak mi narůstají data nebo uživatelé. Já potřebuju mít **historii**, abych mohl sledovat trendy v mé databázi. Pak můžu např. sledovat, že se mi postupně zvyšuje latence. To nejsem schopný zjistit, když nemám dlouhodobý monitoring 
-<!--ID: 1735205749911-->
-END
+2. Typicky se mi třeba postupně něco zpomaluje tím, jak mi narůstají data nebo uživatelé. Já potřebuju mít **historii**, abych mohl sledovat trendy v mé databázi. Pak můžu např. sledovat, že se mi postupně zvyšuje latence. To nejsem schopný zjistit, když nemám dlouhodobý monitoring
+   <!--ID: 1735205749911-->
+   END
 
 ---
-
 
 START
 FIT-Card
@@ -258,11 +271,10 @@ Back:
 1. **Sběr dat**
 2. **Uložení**
 3. **Zobrazení**
-<!--ID: 1735205749914-->
-END
+   <!--ID: 1735205749914-->
+   END
 
 ---
-
 
 START
 FIT-Card
@@ -274,11 +286,10 @@ Back:
 1. **Aplikační server** - log files
 2. **Operační systém** - otevřené sockety, paměť, context switching, I/O performance, CPU usage
 3. **Databáze** - SQL skripty pro sběr metrik
-<!--ID: 1735205749916-->
-END
+   <!--ID: 1735205749916-->
+   END
 
 ---
-
 
 START
 FIT-Card
@@ -292,15 +303,17 @@ Back:
 - Google stackdriver, Amazon AWS CloudWatch
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220153229.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749919-->
+
 END
 
 ---
 
 ### Doplňující informace
-
 
 START
 FIT-Card
@@ -311,10 +324,10 @@ Back:
 
 `401`
 <!--ID: 1736674205778-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -325,10 +338,10 @@ Back:
 
 `202`
 <!--ID: 1736674205782-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -339,10 +352,10 @@ Back:
 
 `412 Precondition Failed`
 <!--ID: 1736674205785-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -353,6 +366,7 @@ Back:
 
 `304 Not Modified`
 <!--ID: 1736674205788-->
+
 END
 
 ---
@@ -367,8 +381,8 @@ Back:
 - `Cache-Control` - nastavení cachování
 - `Last-Modified`
 - `ETag`
-<!--ID: 1736676401156-->
-END
+  <!--ID: 1736676401156-->
+  END
 
 ---
 
@@ -381,7 +395,7 @@ Back:
 
 - `If-Modified-Since`
 - `If-None-Match`
-<!--ID: 1736676401170-->
-END
+  <!--ID: 1736676401170-->
+  END
 
 ---

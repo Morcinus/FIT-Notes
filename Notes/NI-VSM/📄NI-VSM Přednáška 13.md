@@ -22,7 +22,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411135624.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518364752-->
 END
 
 ---
@@ -39,8 +39,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411135657.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364754-->
 END
 
 ---
@@ -62,7 +61,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411135753.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518364757-->
 END
 
 ---
@@ -76,7 +75,7 @@ Definice: Markovský řetězec s diskrétním časem
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411135848.png)
-
+<!--ID: 1746518364760-->
 END
 
 ---
@@ -90,7 +89,7 @@ Podmínky ekvivalentní markovské podmínce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411135913.png)
-
+<!--ID: 1746518364762-->
 END
 
 ---
@@ -104,7 +103,7 @@ Věta: Náhodný proces je markovský $\Leftrightarrow \dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411135941.png)
-
+<!--ID: 1746518364765-->
 END
 
 ---
@@ -118,7 +117,7 @@ Věta: Chapman-Kolmogorova rovnice
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411135956.png)
-
+<!--ID: 1746518364768-->
 END
 
 ---
@@ -132,7 +131,7 @@ Definice: **homogenní markovský řetězec** + jeho matice přechodu
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140017.png)
-
+<!--ID: 1746518364771-->
 END
 
 ---
@@ -146,7 +145,7 @@ Důsledek: Co platí pro homogenní markovský řetězec?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140037.png)
-
+<!--ID: 1746518364774-->
 END
 
 ---
@@ -164,8 +163,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411140130.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518364777-->
 END
 
 ---
@@ -183,8 +181,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411140157.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364779-->
 END
 
 ---
@@ -198,7 +195,7 @@ Lemma: Matice přechodu $P$ je stochastická matice
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140220.png)
-
+<!--ID: 1746518364782-->
 END
 
 ---
@@ -212,7 +209,7 @@ Lemma: součin stochastických matic
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140232.png)
-
+<!--ID: 1746518364788-->
 END
 
 ---
@@ -230,7 +227,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411140301.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518364793-->
 END
 
 ---
@@ -248,8 +245,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411140356.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364796-->
 END
 
 ---

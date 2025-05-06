@@ -3,7 +3,7 @@ created: 2024-10-11T09:44:28
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska02 status-toReview analyza2
 
 START
@@ -16,13 +16,15 @@ Back:
 ![[Pasted image 20240930133125.png]]
 
 <!-- InformallySaidStart -->
+
 Parciálně zderivuju funkci v bodě, dostanu z toho zase funkci. Tu funkci pak znovu zderivuju podle jiné proměnné.
+
 <!-- InformallySaidEnd -->
 <!--ID: 1728921214784-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -38,15 +40,15 @@ Ukazuje, jak se mění sklon funkce ve všech směrech v daném bodě.
 
 Tags: core
 <!--ID: 1728921214787-->
+
 END
 
 ---
 
-
 START
 Basic
 
-Věta: pořadí parciálního derivování 
+Věta: pořadí parciálního derivování
 
 Back:
 
@@ -56,10 +58,10 @@ Pozn. tehle případ platí velice často.
 
 Hessova matice je často symetrická - tzn. podle diagonály v matici.
 <!--ID: 1728921214789-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -70,10 +72,10 @@ Back:
 
 ![[Pasted image 20240930133700.png]]
 <!--ID: 1728921214792-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -87,16 +89,17 @@ Back:
 Jak se to používá:
 ![[Pasted image 20240930134257.png]]
 Můžu potom provádět "ruské násobení":
+
 1. Napíšu si vektor a tu matici
 2. Vynásobím je a dostanu vektor
 3. ten vektor potom pronásobím s dalším vektorem
 
 Tags: core
 <!--ID: 1735463085834-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -116,10 +119,10 @@ _Příklad indefinitního_:
 
 Tags: core
 <!--ID: 1728921214796-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -134,6 +137,7 @@ Back:
 
 Tags: core
 <!--ID: 1728921214799-->
+
 END
 
 ---
@@ -151,6 +155,7 @@ Back:
 
 Tags: core
 <!--ID: 1728921214801-->
+
 END
 
 ---
@@ -168,6 +173,7 @@ Back:
 
 Tags: core
 <!--ID: 1728921214804-->
+
 END
 
 ---
@@ -185,6 +191,7 @@ Back:
 
 Tags: core
 <!--ID: 1728921214807-->
+
 END
 
 ---
@@ -202,10 +209,10 @@ Back:
 
 Tags: core
 <!--ID: 1728921214809-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -218,10 +225,10 @@ Back:
 
 Tags: core
 <!--ID: 1728921214813-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -234,10 +241,10 @@ Back:
 
 Tags: core
 <!--ID: 1728921214815-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -251,10 +258,10 @@ Back:
 
 Tags: core
 <!--ID: 1728921214818-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -267,10 +274,10 @@ Back:
 
 Tags: core
 <!--ID: 1728921214821-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -281,20 +288,22 @@ Back:
 
 1. Najdu **kritické body** (stacionární + ty, kde alespoň jedna parciální derivace neexistuje)
 2. Pokud jsou **všechny 2. parciální derivace** v okolí stacionárního bodu $\textbf{b}$ spojité, najít **Hessovu matici**. Pokud je matice
-	1. **pozitivně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **minima** 
-	2. **negativně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **maxima**
-	3. **indefinitní**, pak je bod $\textbf{b}$ sedlovým bodem (tj. není extrém)
+   1. **pozitivně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **minima**
+   2. **negativně definitní**, pak je bod $\textbf{b}$ bodem ostrého lokálního **maxima**
+   3. **indefinitní**, pak je bod $\textbf{b}$ sedlovým bodem (tj. není extrém)
 
 <!-- DetailInfoStart -->
+
 Pozn. Hledat kritické body je samo o sobě **velice obtížné** a není jednotný algoritmus, co by to jednoduše vyřešil. Najít přesné body je proto velice těžké. Samozřejmě ty řešení, co máme na tomto předmětu, jsou jednoduché.
 
 ![[Pasted image 20240930140745.png]]
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921214824-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -305,10 +314,10 @@ Back:
 
 ![[Pasted image 20240930140715.png]]
 <!--ID: 1728921214826-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -319,8 +328,7 @@ Back:
 
 Lokální minimum konvexní funkce je globálním minimem.
 <!--ID: 1728921214829-->
+
 END
 
 ---
-
-

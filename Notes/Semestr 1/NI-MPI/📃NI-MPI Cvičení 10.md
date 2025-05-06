@@ -3,11 +3,13 @@ created: 2024-11-26T14:33:42
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni10 status-toReview
 
 ### Cvičení 17.2
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(Q \setminus \set{0} , \cdot  \right) \\
@@ -20,19 +22,22 @@ $$
 $$
 
 ### Cvičení 17.2b
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & N = \set{2k+1, k \in \mathbb{Z}} \\
 & \text{\small{1) }} N \subset M \\
 & \text{\small{2) }} (N,\cdot ) \\
-& \text{\small{Chybí in verze vzhledem k násobení, není podgrupa}} 
+& \text{\small{Chybí in verze vzhledem k násobení, není podgrupa}}
 \end{align*}
 $$
 
-
 ### Cvičení 17.2c
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & N = \set{2^k, n \in \mathbb{Z}} \\
@@ -44,12 +49,14 @@ $$
 & \text{\small{d) }} a=2^{m}  \quad q^{-1} = 2^{-m} \in N \\
 & a^{-1} \cdot a = 2^{-m} \cdot 2^{m} =2^{0} =1=e \\
 & \text{\small{e) komutativní}}  \\
-& \Rightarrow (N,\cdot ) \text{\small{ je podgrupou}} 
+& \Rightarrow (N,\cdot ) \text{\small{ je podgrupou}}
 \end{align*}
 $$
 
 ### Cvičení 17.2d
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & N=\set{2^{n}\cdot 3^{m} ; n,m \in \mathbb{Z}  }  \\
@@ -62,21 +69,24 @@ $$
 & \text{\small{b) asociativnost platí}}  \\
 & \text{\small{c) }} 1 = 2^{0}3^{0} \in N \\
 & \text{\small{d) }} a^{-1}=2^{-n}3^{-m}   \\
-& \Rightarrow (N, \cdot ) \text{\small{ je podgrupou}} 
+& \Rightarrow (N, \cdot ) \text{\small{ je podgrupou}}
 \end{align*}
 $$
 
 ### Cvičení 17.2e
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & N = \set{\tfrac{1+2n}{1+2m} : n,m \in \mathbb{Z} }  \\
 & \text{\small{1) }} N \subset M \\
 & \text{\small{2) }}  \\
 & \dots \\
-& \Rightarrow \text{\small{Je podgrupa}} 
+& \Rightarrow \text{\small{Je podgrupa}}
 \end{align*}
 $$
+
 ### Cvičení 17.3
 
 |     | a   | b   | c   | d   |
@@ -85,7 +95,9 @@ $$
 | b   | b   | a   | d   | c   |
 | c   | c   | d   | a   | b   |
 | d   | d   | c   | b   | a   |
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \\
@@ -102,8 +114,11 @@ $$
 & \text{\small{Žádnou podgrupu nenajdem}} \\
 \end{align*}
 $$
+
 ### Cvičení 17.4
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & G = \set{a+b\sqrt{2} ; a,b \in \mathbb{Q} , q \neq 0 \lor b \neq 0}  \\
@@ -128,7 +143,9 @@ $$
 $$
 
 ### Cvičení 17.5
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & (M, \circ ) \\
@@ -153,8 +170,11 @@ $$
 $$
 
 ### Cvičení 18.1
+
 ![](../../../Assets/Pasted%20image%2020241126153003.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \mathbb{Z}_{15}^{+} = (M,+_{15}) \\
@@ -173,13 +193,16 @@ $$
 & \varphi(15) = \varphi(5) \varphi(3) = (5^1 -5^{0})(3^{1}-3^{0})=4\cdot 2=8 \\
 & \\
 & \text{Inverzní prvky:} \\
-& a^{-1}=15-a\\ 
+& a^{-1}=15-a\\
 \end{align*}
 $$
 
 ### Cvičení 18.2
+
 ![](../../../Assets/Pasted%20image%2020241126153024.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{\small{řády }} 3, 5, 7 \\
@@ -190,42 +213,52 @@ $$
 & \text{\small{podgrupa řádu 7: }} \set{0,15,30,45,60,75,90}  \\
 \end{align*}
 $$
+
 ### Cvičení 18.3a
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\mathbb{Z,+}  \right)  \quad  \text{\small{množina }} \set{2}  \\
 & \\
 & \text{Řešení} \\
-& (M, +) \quad M=\set{2k, k \in \mathbb{Z}} 
+& (M, +) \quad M=\set{2k, k \in \mathbb{Z}}
 \end{align*}
 $$
 
 ### Cvičení 18.3b
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\mathbb{Z,+}  \right)  \quad  \text{\small{množina }} \set{2,3}  \\
 & \\
 & \text{Řešení} \\
 & 2^{-1} \circ 3^{1} =1 \quad \text{\small{je generátor }} \left(\mathbb{Z,+}  \right)\\
-& M = \mathbb{Z} 
+& M = \mathbb{Z}
 \end{align*}
 $$
 
 ### Cvičení 18.3c
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\mathbb{Z,+}  \right)  \quad  \text{\small{množina }} \set{2,5}  \\
 & \\
 & \text{Řešení} \\
 & 2^{-2} \circ 5^{1} =1 \quad \text{\small{je generátor }} \left(\mathbb{Z,+}  \right)\\
-& M = \mathbb{Z} 
+& M = \mathbb{Z}
 \end{align*}
 $$
+
 ### Cvičení 18.3d
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\mathbb{Z,+}  \right)  \quad  \text{\small{množina }} \set{6,15}  \\
@@ -233,11 +266,14 @@ $$
 & \text{Řešení} \\
 & \text{\small{nevyrobím }} 1 \text{\small{ ani }} -1 \\
 & 6^{-2} \circ 15^{1} =3=\gcd{(6,15)} \\
-& M = \set{3k, k \in \mathbb{Z}} 
+& M = \set{3k, k \in \mathbb{Z}}
 \end{align*}
 $$
+
 ### Cvičení 18.3e
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\mathbb{Z,+}  \right)  \quad  \text{\small{množina }} \set{n,m}, n \neq m  \\
@@ -246,19 +282,26 @@ $$
 & N=\set{a \cdot k, k \in \mathbb{Z}, a = \gcd{(n,m)}}  \\
 \end{align*}
 $$
+
 ### Cvičení 18.4
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\mathbb{Z},+ \right)  \\
 & N = \set{a\cdot k, a \in \mathbb{Z}, k \in \mathbb{Z}} \quad \text{\small{Řešení}} \\
-& 
+&
 \end{align*}
 $$
+
 ### Cvičení 18.5
+
 ![](../../../Assets/Pasted%20image%2020241126154838.png)
 ![](../../../Assets/Pasted%20image%2020241126155651.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \mathbb{Z}_{11}^{\times} = (M, \times_{11} ) \\

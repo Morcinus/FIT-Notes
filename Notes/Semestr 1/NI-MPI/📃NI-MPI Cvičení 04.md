@@ -3,15 +3,17 @@ created: 2024-10-15T14:31:16
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni03 status-toReview
-
 
 ### Cvičení 10.1
 
 #### Zadání
+
 <!-- Latex Equation -->
+
 Najít minimum na kružnici o poloměru $2$
+
 $$
 \begin{align*}
 f(x,y) = 3x-4y+3 && \text{rovina} \\
@@ -20,9 +22,12 @@ x^2+y ^2=4 && \text{kružnice}
 $$
 
 #### Řešení
+
 Tohle je jakoby promítnutí té kružnice z té roviny
 ![](../../../Assets/Pasted%20image%2020241015144053.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 \nabla f = (3,-4) \\
@@ -38,7 +43,9 @@ $$
 #### b) Parametrizace
 
 Zavedu parametr $\varphi$
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 x=2 \cos(\varphi) \\
@@ -66,9 +73,10 @@ f''(A) < 0 && \text{ostré lokální maximum} \\
 \end{align*}
 $$
 
-
 ### Cvičení 10.2
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 \text{1 sestavíme Lagrangeovu funkci} \\
@@ -104,9 +112,10 @@ v = \left(\frac{16}{5}, \frac{12}{5}\right)\\
 \end{align*}
 $$
 
-
 ### Cvičení 10.4
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 \\ \text{Zadání} \\
@@ -124,12 +133,13 @@ $$![](../../Assets/Pasted%20image%2020241015152706.png)
 
 <!-- Latex Equation -->
 $$
-\begin{align*}
+
+\begin{align\*}
 \\ \text{2. spočteme potřebné věci} \\
 L(x,y,\lambda) = xy + \lambda(x+y-1)\\
 \frac{\delta L}{\delta x} = y + \lambda \\
 \frac{\delta L}{\delta y} = x + \lambda \\
-\nabla _x ^2 L = \begin{pmatrix}0 & 1 \\1 & 0\end{pmatrix} \\
+\nabla \_x ^2 L = \begin{pmatrix}0 & 1 \\1 & 0\end{pmatrix} \\
 
 \\ \text{Doplníme podmínky} \\
 \frac{\delta L}{\delta x} = 0 && \rightarrow y + \lambda= 0 && y = -\lambda \\
@@ -144,11 +154,11 @@ A = \left[ \frac{1}{2}, \frac{1}{2} , - \frac{1}{2}\right]
 v = \left(1, -1 \right) && \text{kolmý vektor na ten předchozí} \\
 
 \\ \text{4. Zjistíme, jeslti to je maximum nebo minimum} \\
-v ^{T} \nabla ^2 _xL(A) v = -2 < 0 \\
+v ^{T} \nabla ^2 \_xL(A) v = -2 < 0 \\
 \implies \text{ostré lokální maximum}
 
+\end{align\*}
 
-\end{align*}
 $$
 
 
@@ -158,6 +168,7 @@ Tento příklad je poměrně pracný, ale je zajímavý jak se sestavuje $L$ fun
 Tohle by se v ruce napapíře ne počítalo, to by bylo pro počítač
 <!-- Latex Equation -->
 $$
+
 \begin{align*}
 L(x,y,z, \lambda_1, \lambda_2) =\\
 xyz + \lambda_1 (x +y +z -5)+\lambda_2 (xy +yz +xz -8)
@@ -165,6 +176,7 @@ xyz + \lambda_1 (x +y +z -5)+\lambda_2 (xy +yz +xz -8)
 
 \nabla g_1 = (1,1,1) \\
 \nabla g_2 = (y+z,x+z,x+y)
+
 $$
 
 
@@ -173,18 +185,19 @@ Chceme zjistit, že když se pohybuju po té vrstevnici, tak ten gradient $\nabl
 
 <!-- Latex Equation -->
 $$
-\begin{align*}
+
+\begin{align\*}
 f: \mathbb{R} ^2 \rightarrow \mathbb{R} \\
 V = \set{(x,v(x))} \\
 \forall(x,y) \in V: f(x,y) = c \\
 
 \\ \text{Vytvoříme funkci h, která bude popisovat množinu V} \\
-h: \mathbb{R} \rightarrow \mathbb{R}^2 && x \rightarrow (x, v(x))  \\
+h: \mathbb{R} \rightarrow \mathbb{R}^2 && x \rightarrow (x, v(x)) \\
 
 Df = (\frac{\delta f}{\delta x}, \frac{\delta f}{\delta y}) \\
 Dg = (1, v'(x)) \\
 
-\frac{d f}{d x} = Df(g(x)) \cdot Dg(x)  \\
+\frac{d f}{d x} = Df(g(x)) \cdot Dg(x) \\
 = (\frac{\delta f}{\delta x}, \frac{\delta f}{\delta y}) \cdot (1, v'(x)) && \text{viz dole} \\
 = \frac{\delta f}{\delta x} \cdot 1 + \frac{\delta f}{\delta y} \cdot v'(x) \\
 =0 \\
@@ -193,7 +206,9 @@ Dg = (1, v'(x)) \\
 (\frac{\delta f}{\delta x}, \frac{\delta f}{\delta y}) = \nabla f \\
 (1, v'(x)) = \nabla f
 
+\end{align\*}
 
-\end{align*}
 $$
 
+
+$$

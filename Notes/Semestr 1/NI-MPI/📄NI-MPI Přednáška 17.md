@@ -4,7 +4,7 @@ title: "Numerické algoritmy"
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska17 status-toReview numerika2
 
 START

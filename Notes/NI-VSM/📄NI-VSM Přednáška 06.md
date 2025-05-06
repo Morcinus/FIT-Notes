@@ -17,7 +17,7 @@ Věta: **Informační nerovnost**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130216.png)
-
+<!--ID: 1746518364889-->
 END
 
 ---
@@ -31,7 +31,7 @@ Věta: **Nezápornost vzájemné informace**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130230.png)
-
+<!--ID: 1746518364892-->
 END
 
 ---
@@ -45,7 +45,7 @@ Věta: **maximalizace entropie**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130246.png)
-
+<!--ID: 1746518364895-->
 END
 
 ---
@@ -63,7 +63,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250307130316.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746518364898-->
 END
 
 ---
@@ -87,8 +87,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250307130507.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364901-->
 END
 
 ---
@@ -106,8 +105,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250307130536.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364903-->
 END
 
 ---
@@ -121,7 +119,7 @@ Definice: nesingulární kód
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130549.png)
-
+<!--ID: 1746518364906-->
 END
 
 ---
@@ -137,7 +135,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307130602.png)
 
 Tzn. Zobrazení z množiny zpráv do množiny zakódovaných zpráv.
-
+<!--ID: 1746518364909-->
 END
 
 ---
@@ -151,7 +149,7 @@ Definice: **jednoznačně dekódovatelný kód**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130625.png)
-
+<!--ID: 1746518364911-->
 END
 
 ---
@@ -165,7 +163,7 @@ Definice: **instantní kód**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130636.png)
-
+<!--ID: 1746518364914-->
 END
 
 ---
@@ -187,8 +185,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250307130725.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364917-->
 END
 
 ---
@@ -202,7 +199,7 @@ Věta: **Kraftova nerovnost**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130740.png)
-
+<!--ID: 1746518364920-->
 END
 
 ---
@@ -218,7 +215,7 @@ Věta: **McMillan**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130753.png)
-
+<!--ID: 1746518364923-->
 END
 
 ---
@@ -232,7 +229,7 @@ Věta: **Dolní mez délky instantního kódu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130827.png)
-
+<!--ID: 1746518364926-->
 END
 
 ---
@@ -246,7 +243,7 @@ Věta: **Střední délka optimálního kódu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307155922.png)
-
+<!--ID: 1746518364928-->
 END
 
 ---
@@ -265,8 +262,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307155959.png)
 ![](../../Assets/Pasted%20image%2020250307160010.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364931-->
 END
 
 ---
@@ -280,7 +276,7 @@ Věta: **Optimalita Huffmanova kódu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307160038.png)
-
+<!--ID: 1746518364934-->
 END
 
 ---

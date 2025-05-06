@@ -5,9 +5,8 @@ up:
   - "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska14 status-toReview
-
 
 START
 FIT-Card
@@ -21,15 +20,17 @@ Back:
 - Je-li $h$ homomorfismus grupy $G$ do $H$, pak $h(G)$ je podgrupa v $H$.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241129143604.png)
+
 <!-- ExampleEnd -->
 
 Tags: algebra3 core
 <!--ID: 1735205749248-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -41,15 +42,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241129143626.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241129143635.png)
+
 <!-- ProofEnd -->
 
 Tags: algebra3 core
 <!--ID: 1735205749250-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -62,10 +65,10 @@ Back:
 
 Tags: algebra3
 <!--ID: 1735205749252-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -77,15 +80,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241129144237.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241129144244.png)
+
 <!-- ProofEnd -->
 
 Tags: algebra3
 <!--ID: 1735205749255-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -100,6 +105,7 @@ Back:
 
 Tags: algebra3
 <!--ID: 1735205749257-->
+
 END
 
 ---
@@ -117,15 +123,16 @@ Back:
 
 Tags: algebra3
 <!--ID: 1735205749260-->
+
 END
 
 ---
+
 ## Algebra 4
 
 ### Množiny se dvěmi binárními operacemi
 
 #### Okruh
-
 
 START
 FIT-Card
@@ -138,10 +145,10 @@ Back:
 
 Tags: algebra4 core
 <!--ID: 1735205749262-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -156,10 +163,10 @@ Je-li $\cdot$ komutativní, je $R$ **komutativní okruh**.
 
 Tags: algebra4
 <!--ID: 1735205749265-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -170,10 +177,11 @@ Back:
 
 Buď $R = (M, +, \cdot)$ okruh.
 
-$(M, +)$ se nazývá **aditivní grupa** okruhu $R$ 
+$(M, +)$ se nazývá **aditivní grupa** okruhu $R$
 
 Tags: algebra4
 <!--ID: 1735205749268-->
+
 END
 
 ---
@@ -187,14 +195,14 @@ Back:
 
 Buď $R = (M, +, \cdot)$ okruh.
 
-$(M, \cdot)$ se nazývá **multiplikativní monoid** okruhu $R$ 
+$(M, \cdot)$ se nazývá **multiplikativní monoid** okruhu $R$
 
 Tags: algebra4
 <!--ID: 1735205749270-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -207,6 +215,7 @@ Neutrální prvek grupy $(M, +)$ se nazývá **nulový prvek**
 
 Tags: algebra4
 <!--ID: 1735205749273-->
+
 END
 
 ---
@@ -222,10 +231,10 @@ Neutrální prvek multiplikativního monoidu $(M, \cdot)$ se nazývá **jedničk
 
 Tags: algebra4
 <!--ID: 1735205749275-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -237,6 +246,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241129151040.png)
 
 <!-- ExampleStart -->
+
 **Co je obor integrity:**
 $\mathbb{R}, \mathbb{Q}, \mathbb{C}, \mathbb{Z}$ jsou obory integrity, protože neexistují nenuloví dělitelé nuly, tj. pokud $a \cdot b = 0$, pak $a=0$ nebo $b=0$.
 
@@ -247,10 +257,10 @@ $$A \cdot B = 0, \quad  A \neq 0, \quad B \neq 0 $$
 
 Tags: algebra4 core
 <!--ID: 1735205749277-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -263,10 +273,10 @@ Back:
 
 Tags: algebra4 core
 <!--ID: 1735205749280-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -278,15 +288,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241221091852.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221091859.png)
+
 <!-- ProofEnd -->
 
 Tags: algebra4 core
 <!--ID: 1735205749282-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -299,10 +311,10 @@ Back:
 
 Tags: algebra4 core
 <!--ID: 1735205749285-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -315,10 +327,10 @@ Back:
 
 Tags: algebra4 core
 <!--ID: 1735205749287-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -330,15 +342,17 @@ Back:
 **Homomorfismus**, který je **bijekcí** se nazývá izomorfismus okruhů (resp. těles)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221092040.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: algebra4
 <!--ID: 1735205749290-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -351,10 +365,10 @@ Back:
 
 Tags: algebra4
 <!--ID: 1735205749292-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -366,15 +380,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241221092135.png)
 
 <!-- InformallySaidStart -->
+
 Stejně jako v $\mathbb{R}$ máme polynomy, tak tohle je to samé, ale s prvky nějakého obecného okruhu.
+
 <!-- InformallySaidEnd -->
 
 Tags: algebra4
 <!--ID: 1735205749294-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -387,6 +403,7 @@ Back:
 
 Tags: algebra4
 <!--ID: 1735205749297-->
+
 END
 
 ---
@@ -402,10 +419,10 @@ Back:
 
 Tags: algebra4 core
 <!--ID: 1735205749300-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -418,7 +435,7 @@ Back:
 
 Tags: algebra4
 <!--ID: 1735205749302-->
+
 END
 
 ---
-

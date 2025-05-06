@@ -4,7 +4,7 @@ title: "Numerika příklady"
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska18 status-toReview numerika2
 
 START
@@ -17,10 +17,14 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241221143009.png)
 
 Značení:
+
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221143245.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205889347-->
+
 END
 
 ---

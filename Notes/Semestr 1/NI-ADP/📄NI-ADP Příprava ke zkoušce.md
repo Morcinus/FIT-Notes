@@ -4,11 +4,13 @@ title: "Příprava ke zkoušce"
 up: "[[📖NI-ADP]]"
 ---
 
-TARGET DECK: NI-ADP-Exam
+TARGET DECK: archive
 FILE TAGS: NI-ADP
 
 ## NI-SI-1 - Design Principles
+
 ### DRY
+
 START
 FIT-Card
 
@@ -20,15 +22,17 @@ Back:
 = neopakovat se v kódu, dokumentaci a testech.
 
 **Proč:**
+
 - Zvyšuje to náročnost údržby
 - Zvyšuje to výskyt bugů
 - Znemožňuje to efektivně dělat změny v kódu
-<!--ID: 1738239851883-->
-END
+  <!--ID: 1738239851883-->
+  END
 
 ---
 
 ### KISS
+
 START
 FIT-Card
 
@@ -40,18 +44,23 @@ Back:
 = Kód by se měl být co nejjednodušší
 
 **Proč:**
+
 - Lépe se v kódu orientuje (není potřeba tolik znalostí o codebase), díky tomu je např. možné jednoduššeji zařadit nové lidi do daného projektu
 - Komplexní kód se hůř testuje, debuguje, udržuje, rozšiřuje
 
 <!-- ExampleStart -->
+
 Například se dá kód rozpadnout do menších částí.
+
 <!-- ExampleEnd -->
 <!--ID: 1738239851887-->
+
 END
 
 ---
 
 ### YAGNI
+
 START
 FIT-Card
 
@@ -63,18 +72,16 @@ Back:
 = Měli bychom programovat pouze věci, které jsou momentálně potřeba nebo 100% víme, že budou potřeba.
 
 **Proč:**
+
 - Špatně se odhaduje, co bude potřeba v budoucnu, požadavky se hodně mění. To co si myslíme, že bude potřeba teď, nemusí být potřeba později.
-- Costs:
-	- **cost of building** = strávíme čas na něčem co možná ani nevyužijeme
-	- **cost of delay** = zpomalíme tím projekt, protože jsme se mohli věnovat něčemu jinému
-	- **cost of carry** = budeme mít od začátku složitější systém, což je horší na údržbu, debuggování, rozšiřování atd.
-	- **cost of repairs** = v době, kdy to bude potřeba, pravděpodobně daná funkcionalita stejně bude mít hodně technical debt
-<!--ID: 1738239851890-->
-END
+- Costs: - **cost of building** = strávíme čas na něčem co možná ani nevyužijeme - **cost of delay** = zpomalíme tím projekt, protože jsme se mohli věnovat něčemu jinému - **cost of carry** = budeme mít od začátku složitější systém, což je horší na údržbu, debuggování, rozšiřování atd. - **cost of repairs** = v době, kdy to bude potřeba, pravděpodobně daná funkcionalita stejně bude mít hodně technical debt
+  <!--ID: 1738239851890-->
+  END
 
 ---
 
 ### SOLID
+
 START
 FIT-Card
 
@@ -83,17 +90,19 @@ Vysvětli design princip **SOLID** - z jakých pojmů se to skládá?
 Back:
 
 **SOLID**
+
 - **Single responsibility** = třída by měla mít jednu zodpovědnost
 - **Open-closed** = třídy by měly být otevřené pro rozšíření, uzavřené pro modifikaci
 - **Liskov Substitution** = pokud $S$ je podtypem $T$, potom všude kde se používá objekt $T$, můžu použít bez změny programu i objekt $S$
 - **Interface Segregation** = Klienti by neměli být nuceni záviset na metodách, které nepoužívají.
 - **Dependency Inversion** = High-level moduly by neměly záviset na low-level modulech. Obojí by mělo záviset na abstrakci.
-<!--ID: 1738239851893-->
-END
+  <!--ID: 1738239851893-->
+  END
 
 ---
 
 #### Single Responsibility
+
 START
 FIT-Card
 
@@ -105,10 +114,12 @@ Back:
 = třída/metoda by měla mít jednu zodpovědnost
 
 **Proč:**
+
 - Méně bugů - když se vyskytne bug, tak se pak bude týkat konkrétní (izolované) části programu
 - Jednodušší úpravy, údržba,...
 
 <!-- DetailInfoStart -->
+
 Z courses:
 ![](../../../Assets/Pasted%20image%2020250128131429.png)
 If a Class has many responsibilities, it increases the possibility of bugs because making changes to one of its responsibilities, could affect the other ones without you knowing.
@@ -116,13 +127,16 @@ If a Class has many responsibilities, it increases the possibility of bugs becau
 **Goal**
 
 This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other unrelated behaviours.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1738239851895-->
+
 END
 
 ---
 
 #### Open-closed
+
 START
 FIT-Card
 
@@ -134,9 +148,11 @@ Back:
 = třídy by měly být otevřené pro rozšíření, uzavřené pro modifikaci
 
 **Proč:**
+
 - když přidáváme fičury, tak spíš neuděláme bugy ve starých
 
 <!-- DetailInfoStart -->
+
 Z courses:
 ![](../../../Assets/Pasted%20image%2020250128131647.png)
 Changing the current behaviour of a Class will affect all the systems using that Class.
@@ -146,13 +162,16 @@ If you want the Class to perform more functions, the ideal approach is to add to
 **Goal**
 
 This principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class. This is to avoid causing bugs wherever the Class is being used.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1738239851898-->
+
 END
 
 ---
 
 #### Liskov Substitution
+
 START
 FIT-Card
 
@@ -164,9 +183,11 @@ Back:
 = pokud $S$ je podtypem $T$, potom všude kde se používá objekt $T$, můžu použít bez změny programu i objekt $S$
 
 **Proč:**
+
 - Cílem je vynutit konzistenci tak, aby rodiče a potomci mohli být použiti stejným způsobem
 
 <!-- DetailInfoStart -->
+
 Z courses
 ![](../../../Assets/Pasted%20image%2020250128131830.png)
 When a **child** Class cannot perform the same actions as its **parent** Class, this can cause bugs.
@@ -185,11 +206,13 @@ This principle aims to enforce consistency so that the parent Class or its child
 
 <!-- DetailInfoEnd -->
 <!--ID: 1738239851901-->
+
 END
 
 ---
 
 #### Interface Segregation
+
 START
 FIT-Card
 
@@ -201,10 +224,12 @@ Back:
 = Klienti by neměli být nuceni záviset na metodách, které nepoužívají.
 
 **Proč:**
+
 - Funkcionality by měly být rozděleny do menších částí tak, aby třída používala _pouze_ to, co skutečně potřebuje
 - Díky tomu méně bugů, menší komplexita kódu
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250128132217.png)
 When a Class is required to perform actions that are not useful, it is wasteful and may produce unexpected bugs if the Class does not have the ability to perform those actions.
 
@@ -213,13 +238,16 @@ A Class should perform only actions that are needed to fulfil its role. Any othe
 **Goal**
 
 This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1738239851903-->
+
 END
 
 ---
 
 #### Dependency Inversion
+
 START
 FIT-Card
 
@@ -228,13 +256,16 @@ Vysvětli **Dependency Inversion** princip (ze SOLID) - co to znamená a proč b
 Back:
 
 **Dependency Inversion**
+
 1. High-level moduly by neměly záviset na low-level modulech. Obojí by mělo záviset na abstrakci.
 2. Abstrakce by neměly záviset na detailech. Detaily by měly záviset na abstrakcích (viz vysvětlení).
 
 **Proč:**
+
 - Cílem je aby třídy závisely na rozhraních a ne přímo na dalších třídách. Díky tomu je jednodušší kód měnit.
 
 <!-- DetailInfoStart -->
+
 Z courses:
 ![](../../../Assets/Pasted%20image%2020250128132632.png)
 Firstly, let’s define the terms used here more simply
@@ -254,13 +285,16 @@ It also says that both the Class and the interface should not know how the tool 
 **Goal**
 
 This principle aims at reducing the dependency of a high-level Class on the low-level Class by introducing an interface.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1738239851906-->
+
 END
 
 ---
 
 ### POLA
+
 START
 FIT-Card
 
@@ -272,9 +306,10 @@ Back:
 = Výsledky dané funkce by měly být jasný. konzistentní a předvídatelný podle názvu funkce a dalších informací
 
 **Proč:**
+
 - S kódem se lépe pracuje, když je předvídatelný
-<!--ID: 1738239851909-->
-END
+  <!--ID: 1738239851909-->
+  END
 
 ---
 
@@ -291,11 +326,13 @@ Back:
 = Nechat kód lepší než jsme ho našli
 
 **Proč:**
+
 - Díky tomu se postupně zbavujeme tech debtu, aniž bychom museli stopnout veškerou práci a dělat obří refaktoring
-<!--ID: 1738239851911-->
-END
+  <!--ID: 1738239851911-->
+  END
 
 ---
+
 ### Tech debt
 
 START
@@ -311,20 +348,23 @@ Back:
 Pozn. tech debt se může vytvářet i sám (tím že zastarávají technologie atd.) - není to nutně to, že jsme "odfláknuli práci".
 
 **Kvadranty:**
+
 - Úmyslný/Neúmyslný
 - Lehkovážný/Rozumný
 
 Např.
+
 - Úmyslný a lehkovážný - "Nemáme čas na design"
 - Úmyslný a rozumný - "Neuděláme to, ale počítáme s dopady"
 - Neúmyslný a lehkovážný - "Co je layering?"
 - Neúmyslný a rozumný - "Teď víme, že jsme to měli udělat jinak" (např. najdeme lepší řešení až po tom, co jsme to udělali)
-<!--ID: 1738239851914-->
-END
+  <!--ID: 1738239851914-->
+  END
 
 ---
 
 ### Separation of Concerns
+
 START
 FIT-Card
 
@@ -336,17 +376,18 @@ Back:
 = části systému by měly být roděleny podle jejich účelu
 
 Např.
+
 - Layered architecture
 - HTML/CSS/JavaScript
 - Třídy - single responsibility principle
 
 **Proč:**
+
 - Systém je tak přehlednější, lépe se udržuje, debuguje atd.
-<!--ID: 1738239851917-->
-END
+  <!--ID: 1738239851917-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -359,13 +400,17 @@ Back:
 = Objekty by měly volat metody na třídách, které přímo používají. Neměli by volat metody "ob jednu" třídu (viz obrázek).
 
 **Proč:**
+
 - Dělá to kód míň komplikovaným
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250128140241.png)
+
 <!-- ImageEnd -->
 
 <!-- ExplanationStart -->
+
 An object can call methods that are apart of:
 
 - the same object
@@ -373,13 +418,14 @@ An object can call methods that are apart of:
 - an object created within its method
 - an object it owns
 - a global variable
-<!-- ExplanationEnd -->
-<!--ID: 1738239851920-->
-END
+  <!-- ExplanationEnd -->
+  <!--ID: 1738239851920-->
+  END
 
 ---
 
 ### APO
+
 START
 FIT-Card
 
@@ -393,14 +439,16 @@ Back:
 Místo toho bychom měli nejdříve vyvinout funkční kód, pak až zjistit, které části potřebují optimalizaci.
 
 **Proč:**
+
 - Plýtváme zdroji na něčem co nevíme jeslti bude potřeba
 - Zvyšujeme zbytečně komplexitu kódu
 
 <!-- ExampleStart -->
+
 - Vývojáři mají tendenci být perfekcionisti a snažit se udělat "perfektní/bezchybný kód"
-<!-- ExampleEnd -->
-<!--ID: 1738239851922-->
-END
+  <!-- ExampleEnd -->
+  <!--ID: 1738239851922-->
+  END
 
 ---
 
@@ -418,8 +466,8 @@ Back:
 - **Factory method**
 - **Prototype**
 - **Singleton**
-<!--ID: 1738239851925-->
-END
+  <!--ID: 1738239851925-->
+  END
 
 ---
 
@@ -434,18 +482,19 @@ Back:
 
 Umožňuje vytvářet rodiny souvisejících objektů bez specifikování konkrétních tříd.
 
-
 ![](../../../Assets/Pasted%20image%2020250130104609.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re creating a furniture shop simulator. Your code consists of classes that represent:
+
 1. A family of related products, say: `Chair` + `Sofa` + `CoffeeTable`.
 2. Several variants of this family. For example, products `Chair` + `Sofa` + `CoffeeTable` are available in these variants: `Modern`, `Victorian`, `ArtDeco`.
-![](../../../Assets/Pasted%20image%2020250130101347.png)
-You need a way to create individual furniture objects so that they match other objects of the same family. Customers get quite mad when they receive non-matching furniture.
-![](../../../Assets/Pasted%20image%2020250130101404.png)
-Also, you don’t want to change existing code when adding new products or families of products to the program. Furniture vendors update their catalogs very often, and you wouldn’t want to change the core code each time it happens.
+   ![](../../../Assets/Pasted%20image%2020250130101347.png)
+   You need a way to create individual furniture objects so that they match other objects of the same family. Customers get quite mad when they receive non-matching furniture.
+   ![](../../../Assets/Pasted%20image%2020250130101404.png)
+   Also, you don’t want to change existing code when adding new products or families of products to the program. Furniture vendors update their catalogs very often, and you wouldn’t want to change the core code each time it happens.
 
 **SOLUTION:**
 The first thing the Abstract Factory pattern suggests is to explicitly declare interfaces for each distinct product of the product family (e.g., chair, sofa or coffee table). Then you can make all variants of products follow those interfaces. For example, all chair variants can implement the `Chair` interface; all coffee table variants can implement the `CoffeeTable` interface, and so on.
@@ -461,6 +510,7 @@ There’s one more thing left to clarify: if the client is only exposed to the a
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239851927-->
+
 END
 
 ---
@@ -478,18 +528,20 @@ Back:
 2. **Concrete Products** are various implementations of abstract products, grouped by variants. Each abstract product ( chair/sofa) must be implemented in all given variants (Victorian/Modern).
 3. The **Abstract Factory** interface declares a set of methods for creating each of the abstract products.
 4. **Concrete Factories** implement creation methods of the abstract factory. Each concrete factory corresponds to a specific variant of products and creates only those product variants.
-5. Although concrete factories instantiate concrete products, signatures of their creation methods must return corresponding _abstract_ products. This way the client code that uses a factory doesn’t get coupled to the specific variant of the product it gets from a factory. The **Client** can work with any concrete factory/product variant, as long as it communicates with their objects via abstract interfaces.
+5. Although concrete factories instantiate concrete products, signatures of their creation methods must return corresponding *abstract* products. This way the client code that uses a factory doesn’t get coupled to the specific variant of the product it gets from a factory. The **Client** can work with any concrete factory/product variant, as long as it communicates with their objects via abstract interfaces.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130101325.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239851930-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -500,15 +552,15 @@ Back:
 
 ✅ You can be sure that the products you’re getting from a factory are compatible with each other.
 ✅ You avoid tight coupling between concrete products and client code.
-✅ _Single Responsibility Principle_. You can extract the product creation code into one place, making the code easier to support.
-✅ _Open/Closed Principle_. You can introduce new variants of products without breaking existing client code.
+✅ *Single Responsibility Principle*. You can extract the product creation code into one place, making the code easier to support.
+✅ *Open/Closed Principle*. You can introduce new variants of products without breaking existing client code.
 
 ❌ The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
 <!--ID: 1738239851933-->
+
 END
 
 ---
-
 
 ### Builder
 
@@ -521,10 +573,10 @@ Back:
 
 Umožňuje postupně vytvářet objekty, které mají hodně optional parametrů.
 
-
 ![](../../../Assets/Pasted%20image%2020250130104618.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 
 Imagine a complex object that requires laborious, step-by-step initialization of many fields and nested objects. Such initialization code is usually buried inside a monstrous constructor with lots of parameters. Or even worse: scattered all over the client code.
@@ -543,7 +595,7 @@ In most cases most of the parameters will be unused, making the constructor call
 
 **SOLUTION:**
 
-The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called _builders_.
+The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called *builders*.
 
 ![](../../../Assets/Pasted%20image%2020250130103548.png)
 
@@ -559,13 +611,15 @@ For example, imagine a builder that builds everything from wood and glass, a sec
 
 **Director**
 
-You can go further and extract a series of calls to the builder steps you use to construct a product into a separate class called _director_. The director class defines the order in which to execute the building steps, while the builder provides the implementation for those steps.
+You can go further and extract a series of calls to the builder steps you use to construct a product into a separate class called *director*. The director class defines the order in which to execute the building steps, while the builder provides the implementation for those steps.
 
 Having a director class in your program isn’t strictly necessary. You can always call the building steps in a specific order directly from the client code. However, the director class might be a good place to put various construction routines so you can reuse them across your program.
 
 In addition, the director class completely hides the details of product construction from the client code. The client only needs to associate a builder with a director, launch the construction with the director, and get the result from the builder.
+
 <!-- ExplanationEnd -->
 <!--ID: 1738239851935-->
+
 END
 
 ---
@@ -586,11 +640,14 @@ Back:
 5. The **Client** must associate one of the builder objects with the director. Usually, it’s done just once, via parameters of the director’s constructor. Then the director uses that builder object for all further construction. However, there’s an alternative approach for when the client passes the builder object to the production method of the director. In this case, you can use a different builder each time you produce something with the director.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130103736.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239851938-->
+
 END
 
 ---
@@ -606,14 +663,14 @@ Back:
 
 ✅ You can reuse the same construction code when building various representations of products.
 
-✅ _Single Responsibility Principle_. You can isolate complex construction code from the business logic of the product.
+✅ *Single Responsibility Principle*. You can isolate complex construction code from the business logic of the product.
 
 ❌ The overall complexity of the code increases since the pattern requires creating multiple new classes.
 <!--ID: 1738239851940-->
+
 END
 
 ---
-
 
 ### Factory method
 
@@ -624,21 +681,23 @@ K čemu slouží **Factory method** design pattern?
 
 Back:
 
-Třídá má **factory method** a podtřídy si pak tu metodu mohou implementovat podle sebe. 
-
+Třídá má **factory method** a podtřídy si pak tu metodu mohou implementovat podle sebe.
 
 ![](../../../Assets/Pasted%20image%2020250130104630.png)
 
 <!-- ExampleStart -->
+
 Třída `Logistics` má metodu `createTransport`, co vrací objekt typu `Transport`. Tato metoda může být abstraktní nebo může implementovat nějaký defaultní chování.
 
 Podtřída `BoatLogistics` pak může přepsat tuto metodu `createTransport` a upravit ji tak, aby vracela objekt typu `BoatTransport`.
 
 ![](../../../Assets/Pasted%20image%2020250130104000.png)
 ![](../../../Assets/Pasted%20image%2020250130104013.png)
+
 <!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re creating a logistics management application. The first version of your app can only handle transportation by trucks, so the bulk of your code lives inside the `Truck` class.
 
@@ -651,7 +710,7 @@ Great news, right? But how about the code? At present, most of your code is coup
 As a result, you will end up with pretty nasty code, riddled with conditionals that switch the app’s behavior depending on the class of transportation objects.
 
 **SOLUTION:**
-The Factory Method pattern suggests that you replace direct object construction calls (using the `new` operator) with calls to a special _factory_ method. Don’t worry: the objects are still created via the `new` operator, but it’s being called from within the factory method. Objects returned by a factory method are often referred to as _products._
+The Factory Method pattern suggests that you replace direct object construction calls (using the `new` operator) with calls to a special *factory* method. Don’t worry: the objects are still created via the `new` operator, but it’s being called from within the factory method. Objects returned by a factory method are often referred to as *products.*
 ![](../../../Assets/Pasted%20image%2020250130104000.png)
 
 At first glance, this change may look pointless: we just moved the constructor call from one part of the program to another. However, consider this: now you can override the factory method in a subclass and change the class of products being created by the method.
@@ -663,9 +722,11 @@ For example, both `Truck` and `Ship` classes should implement the `Transpor
 
 ![](../../../Assets/Pasted%20image%2020250130104027.png)
 
-The code that uses the factory method (often called the _client_ code) doesn’t see a difference between the actual products returned by various subclasses. The client treats all the products as abstract `Transport`. The client knows that all transport objects are supposed to have the `deliver` method, but exactly how it works isn’t important to the client.
+The code that uses the factory method (often called the *client* code) doesn’t see a difference between the actual products returned by various subclasses. The client treats all the products as abstract `Transport`. The client knows that all transport objects are supposed to have the `deliver` method, but exactly how it works isn’t important to the client.
+
 <!-- ExplanationEnd -->
 <!--ID: 1738239851942-->
+
 END
 
 ---
@@ -682,17 +743,20 @@ Back:
 1. The **Product** declares the interface, which is common to all objects that can be produced by the creator and its subclasses.
 2. **Concrete Products** are different implementations of the product interface.
 3. The **Creator** class declares the factory method that returns new product objects. It’s important that the return type of this method matches the product interface.
-	- You can declare the factory method as `abstract` to force all subclasses to implement their own versions of the method. As an alternative, the base factory method can return some default product type.
-	- Note, despite its name, product creation is **not** the primary responsibility of the creator. Usually, the creator class already has some core business logic related to products. The factory method helps to decouple this logic from the concrete product classes. Here is an analogy: a large software development company can have a training department for programmers. However, the primary function of the company as a whole is still writing code, not producing programmers.
-1. **Concrete Creators** override the base factory method so it returns a different type of product.
-	- Note that the factory method doesn’t have to **create** new instances all the time. It can also return existing objects from a cache, an object pool, or another source.
+   - You can declare the factory method as `abstract` to force all subclasses to implement their own versions of the method. As an alternative, the base factory method can return some default product type.
+   - Note, despite its name, product creation is **not** the primary responsibility of the creator. Usually, the creator class already has some core business logic related to products. The factory method helps to decouple this logic from the concrete product classes. Here is an analogy: a large software development company can have a training department for programmers. However, the primary function of the company as a whole is still writing code, not producing programmers.
+4. **Concrete Creators** override the base factory method so it returns a different type of product.
+   - Note that the factory method doesn’t have to **create** new instances all the time. It can also return existing objects from a cache, an object pool, or another source.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130104130.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239851945-->
+
 END
 
 ---
@@ -706,16 +770,16 @@ Back:
 
 ✅ You avoid tight coupling between the creator and the concrete products.
 
-✅ _Single Responsibility Principle_. You can move the product creation code into one place in the program, making the code easier to support.
+✅ *Single Responsibility Principle*. You can move the product creation code into one place in the program, making the code easier to support.
 
-✅ _Open/Closed Principle_. You can introduce new types of products into the program without breaking existing client code.
+✅ *Open/Closed Principle*. You can introduce new types of products into the program without breaking existing client code.
 
 ❌ The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best case scenario is when you’re introducing the pattern into an existing hierarchy of creator classes.
 <!--ID: 1738239851947-->
+
 END
 
 ---
-
 
 ### Prototype
 
@@ -731,6 +795,7 @@ Umožňuje vytvářet kopie existujících objektů, aniž by byl kód závislý
 ![](../../../Assets/Pasted%20image%2020250130104639.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Say you have an object, and you want to create an exact copy of it. How would you do it? First, you have to create a new object of the same class. Then you have to go through all the fields of the original object and copy their values over to the new object.
 
@@ -745,13 +810,15 @@ The Prototype pattern delegates the cloning process to the actual objects that a
 
 The implementation of the `clone` method is very similar in all classes. The method creates an object of the current class and carries over all of the field values of the old object into the new one. You can even copy private fields because most programming languages let objects access private fields of other objects that belong to the same class.
 
-An object that supports cloning is called a _prototype_. When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.
+An object that supports cloning is called a *prototype*. When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.
 
 ![](../../../Assets/Pasted%20image%2020250130104301.png)
 
 Here’s how it works: you create a set of objects, configured in various ways. When you need an object like the one you’ve configured, you just clone a prototype instead of constructing a new object from scratch.
+
 <!-- ExplanationEnd -->
 <!--ID: 1738239851950-->
+
 END
 
 ---
@@ -770,15 +837,17 @@ Back:
 3. The **Client** can produce a copy of any object that follows the prototype interface.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130104437.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239851952-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -793,10 +862,10 @@ Back:
 
 Tags: diagram
 <!--ID: 1738239851955-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -815,10 +884,10 @@ Back:
 
 ❌ Cloning complex objects that have circular references might be very tricky.
 <!--ID: 1738239851958-->
+
 END
 
 ---
-
 
 ### Singleton
 
@@ -834,8 +903,9 @@ Umožňuje mít **jednu globální** instanci dané třídy.
 ![](../../../Assets/Pasted%20image%2020250130104553.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
-The Singleton pattern solves two problems at the same time, violating the _Single Responsibility Principle_:
+The Singleton pattern solves two problems at the same time, violating the *Single Responsibility Principle*:
 
 **Ensure that a class has just a single instance**. Why would anyone want to control how many instances a class has? The most common reason for this is to control access to some shared resource—for example, a database or a file.
 
@@ -850,7 +920,7 @@ Just like a global variable, the Singleton pattern lets you access some object f
 
 There’s another side to this problem: you don’t want the code that solves problem #1 to be scattered all over your program. It’s much better to have it within one class, especially if the rest of your code already depends on it.
 
-Nowadays, the Singleton pattern has become so popular that people may call something a _singleton_ even if it solves just one of the listed problems.
+Nowadays, the Singleton pattern has become so popular that people may call something a *singleton* even if it solves just one of the listed problems.
 
 **SOLUTION:**
 All implementations of the Singleton have these two steps in common:
@@ -859,8 +929,10 @@ All implementations of the Singleton have these two steps in common:
 - Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
 
 If your code has access to the Singleton class, then it’s able to call the Singleton’s static method. So whenever that method is called, the same object is always returned.
+
 <!-- ExplanationEnd -->
 <!--ID: 1738239851961-->
+
 END
 
 ---
@@ -880,6 +952,7 @@ The Singleton’s constructor should be hidden from the client code. Calling the
 
 Tags: diagram
 <!--ID: 1738239851963-->
+
 END
 
 ---
@@ -897,7 +970,7 @@ Back:
 
 ✅ The singleton object is initialized only when it’s requested for the first time.
 
-❌ Violates the _Single Responsibility Principle_. The pattern solves two problems at the time.
+❌ Violates the *Single Responsibility Principle*. The pattern solves two problems at the time.
 
 ❌ The Singleton pattern can mask bad design, for instance, when the components of the program know too much about each other.
 
@@ -905,6 +978,7 @@ Back:
 
 ❌ It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects. Since the constructor of the singleton class is private and overriding static methods is impossible in most languages, you will need to think of a creative way to mock the singleton. Or just don’t write the tests. Or don’t use the Singleton pattern.
 <!--ID: 1738239851966-->
+
 END
 
 ---
@@ -926,11 +1000,10 @@ Back:
 - **Multiton**
 - **Null object**
 - **Thread pool**
-<!--ID: 1738239851968-->
-END
+  <!--ID: 1738239851968-->
+  END
 
 ---
-
 
 #### Double-checked locking
 
@@ -944,6 +1017,7 @@ Back:
 Cílem je **snížit počet volání locku** (např. mutexu) tak, že zkontroluju danou podmínku ještě před zavoláním mutexu.
 
 Příklad u singletonu:
+
 ```
 if(ins == null) {
 	mutex_lock()
@@ -954,10 +1028,10 @@ if(ins == null) {
 }
 ```
 <!--ID: 1738239851971-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -971,6 +1045,7 @@ Back:
 
 Proto je fajn to nejdřív checknout, potom locknout a potom checknout znovu.
 <!--ID: 1738239851973-->
+
 END
 
 ---
@@ -990,17 +1065,22 @@ Back:
 4. Jakmile se task dokončí, je vlákno uvolněno a je k dispozici dalším taskům.
 
 **Proč je vhodný:**
+
 - **Performance boost**: Nemusím furt vytvářet a ničit vlákna, jen je přiřazuju jiným taskům.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130113831.png)
+
 <!-- ImageEnd -->
 <!--ID: 1738239851976-->
+
 END
 
 ---
 
 #### Mock object
+
 START
 FIT-Card
 
@@ -1012,6 +1092,7 @@ Objekt, který je náhradou za nějaký reálný objekt, simuluje jeho chování
 
 ![](../../../Assets/Pasted%20image%2020250130113938.png)
 <!--ID: 1738239851978-->
+
 END
 
 ---
@@ -1027,12 +1108,13 @@ Back:
 - **Usnadňuje testování** - některé situace jsou velice těžké na testování (network connection atd.)
 - **Když neexistuje implementace** - můžeme mocknout něco, co ještě neexistuje. Díky tomu můžeme vyvíjet bez dané části systému
 - **Když reálný objekt vrací nedeterministické výsledky** - např. čas, seed atd.
-<!--ID: 1738239851981-->
-END
+  <!--ID: 1738239851981-->
+  END
 
 ---
 
 #### Null object
+
 START
 FIT-Card
 
@@ -1040,21 +1122,24 @@ Jak funguje **Null object** a proč je dobré ho používat? (2)
 
 Back:
 
-Máme objekt, který nic nedělá a reprezentuje `null` hodnotu. 
+Máme objekt, který nic nedělá a reprezentuje `null` hodnotu.
 Typicky je Singleton.
 
 Díky tomu:
+
 - Nemusím používat `null` (což je považováno za bad practice)
 - Umožňuje mi to např. jednoduššeji udělat ukončující podmínku když iteruju přes struktury.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130114134.png)
+
 <!-- ImageEnd -->
 <!--ID: 1738239851983-->
+
 END
 
 ---
-
 
 ## NI-SI-3 Strukturální návrhové vzory
 
@@ -1072,11 +1157,10 @@ Back:
 - **Facade**
 - **Flyweight**
 - **Proxy**
-<!--ID: 1738239851986-->
-END
+  <!--ID: 1738239851986-->
+  END
 
 ---
-
 
 ### Adapter
 
@@ -1090,13 +1174,16 @@ Back:
 Umožňuje, aby spolu komunikovaly objekty, které mají nekompatibilní rozhraní.
 
 ![](../../../Assets/Pasted%20image%2020250130105353.png)
+
 <!-- ExampleStart -->
+
 Například `XMLToJSONAdapter`
 ![](../../../Assets/Pasted%20image%2020250130105429.png)
+
 <!-- ExampleEnd -->
 
-
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re creating a stock market monitoring app. The app downloads the stock data from multiple sources in XML format and then displays nice-looking charts and diagrams for the user.
 
@@ -1107,7 +1194,7 @@ At some point, you decide to improve the app by integrating a smart 3rd-party an
 You could change the library to work with XML. However, this might break some existing code that relies on the library. And worse, you might not have access to the library’s source code in the first place, making this approach impossible.
 
 **SOLUTION:**
-You can create an _adapter_. This is a special object that converts the interface of one object so that another object can understand it.
+You can create an *adapter*. This is a special object that converts the interface of one object so that another object can understand it.
 
 An adapter wraps one of the objects to hide the complexity of conversion happening behind the scenes. The wrapped object isn’t even aware of the adapter. For example, you can wrap an object that operates in meters and kilometers with an adapter that converts all of the data to imperial units such as feet and miles.
 
@@ -1122,8 +1209,10 @@ Sometimes it’s even possible to create a two-way adapter that can convert the 
 ![](../../../Assets/Pasted%20image%2020250130105429.png)
 
 Let’s get back to our stock market app. To solve the dilemma of incompatible formats, you can create XML-to-JSON adapters for every class of the analytics library that your code works with directly. Then you adjust your code to communicate with the library only via these adapters. When an adapter receives a call, it translates the incoming XML data into a JSON structure and passes the call to the appropriate methods of a wrapped analytics object.
+
 <!-- ExplanationEnd -->
 <!--ID: 1738239851988-->
+
 END
 
 ---
@@ -1145,15 +1234,17 @@ Adapter implementuje nějaké rozhraní.
 5. The client code doesn’t get coupled to the concrete adapter class as long as it works with the adapter via the client interface. Thanks to this, you can introduce new types of adapters into the program without breaking the existing client code. This can be useful when the interface of the service class gets changed or replaced: you can just create a new adapter class without changing the client code.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130105657.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239851991-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -1170,10 +1261,10 @@ Adapter dědí z dané classy a servicy. Toto lze využít pouze u jazyků, co u
 
 Tags: diagram
 <!--ID: 1738239851994-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -1182,16 +1273,16 @@ Jaké jsou výhody a nevýhody **Adapter** design patternu? (2 + 1)
 
 Back:
 
-✅ _Single Responsibility Principle_. You can separate the interface or data conversion code from the primary business logic of the program.
+✅ *Single Responsibility Principle*. You can separate the interface or data conversion code from the primary business logic of the program.
 
-✅ _Open/Closed Principle_. You can introduce new types of adapters into the program without breaking the existing client code, as long as they work with the adapters through the client interface.
+✅ *Open/Closed Principle*. You can introduce new types of adapters into the program without breaking the existing client code, as long as they work with the adapters through the client interface.
 
 ❌ The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes it’s simpler just to change the service class so that it matches the rest of your code.
 <!--ID: 1738239851996-->
+
 END
 
 ---
-
 
 ### Bridge
 
@@ -1209,6 +1300,7 @@ Tím rozdělím velkou třídu do dvou hierarchií - abstrakce a implementace.
 ![](../../../Assets/Pasted%20image%2020250130105740.png)
 
 <!-- ExampleStart -->
+
 Např. kdybychom měli třídu, která má dané vlastnosti, můžeme ty vlastnosti vytvořit jako vlastní třídy.
 
 Např. zde bych musel vytvářet zbytečně moc tříd:
@@ -1221,8 +1313,9 @@ Můžu to změnit následovně:
 <!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
-_Abstraction?_ _Implementation?_ Sound scary? Stay calm and let’s consider a simple example.
+*Abstraction?* *Implementation?* Sound scary? Stay calm and let’s consider a simple example.
 
 Say you have a geometric `Shape` class with a pair of subclasses: `Circle` and `Square`. You want to extend this class hierarchy to incorporate colors, so you plan to create `Red` and `Blue` shape subclasses. However, since you already have two subclasses, you’ll need to create four class combinations such as `BlueCircle` and `RedSquare`.
 
@@ -1238,8 +1331,10 @@ The Bridge pattern attempts to solve this problem by switching from inheritance 
 ![](../../../Assets/Pasted%20image%2020250130105831.png)
 
 Following this approach, we can extract the color-related code into its own class with two subclasses: `Red` and `Blue`. The `Shape` class then gets a reference field pointing to one of the color objects. Now the shape can delegate any color-related work to the linked color object. That reference will act as a bridge between the `Shape` and `Color` classes. From now on, adding new colors won’t require changing the shape hierarchy, and vice versa.
+
 <!-- ExplanationEnd -->
 <!--ID: 1738239851999-->
+
 END
 
 ---
@@ -1255,17 +1350,20 @@ Back:
 
 1. The **Abstraction** provides high-level control logic. It relies on the implementation object to do the actual low-level work.
 2. The **Implementation** declares the interface that’s common for all concrete implementations. An abstraction can only communicate with an implementation object via methods that are declared here.
-	- The abstraction may list the same methods as the implementation, but usually the abstraction declares some complex behaviors that rely on a wide variety of primitive operations declared by the implementation.
+   - The abstraction may list the same methods as the implementation, but usually the abstraction declares some complex behaviors that rely on a wide variety of primitive operations declared by the implementation.
 3. **Concrete Implementations** contain platform-specific code.
 4. **Refined Abstractions** provide variants of control logic. Like their parent, they work with different implementations via the general implementation interface.
 5. Usually, the **Client** is only interested in working with the abstraction. However, it’s the client’s job to link the abstraction object with one of the implementation objects.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130105910.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852001-->
+
 END
 
 ---
@@ -1281,16 +1379,16 @@ Back:
 
 ✅ The client code works with high-level abstractions. It isn’t exposed to the platform details.
 
-✅ _Open/Closed Principle_. You can introduce new abstractions and implementations independently from each other.
+✅ *Open/Closed Principle*. You can introduce new abstractions and implementations independently from each other.
 
-✅ _Single Responsibility Principle_. You can focus on high-level logic in the abstraction and on platform details in the implementation.
+✅ *Single Responsibility Principle*. You can focus on high-level logic in the abstraction and on platform details in the implementation.
 
 ❌ You might make the code more complicated by applying the pattern to a highly cohesive class.
 <!--ID: 1738239852004-->
+
 END
 
 ---
-
 
 ### Composite
 
@@ -1303,16 +1401,20 @@ Back:
 
 Umožňuje uspořádávat objekty do stromové struktury a pak s daným stromem pracovat jako kdyby to byl daný objekt.
 ![](../../../Assets/Pasted%20image%2020250130110008.png)
+
 <!-- ExampleStart -->
+
 - V listech můžu mít produkty `Product`.
 - Ve vnitřních uzlech můžu mít `Composite` objekty, které se skládají buď z `Product` nebo dalších `Composite` objektů.
 
 `Product` i `Composite` dědí z nějakého rozhraní. Každý pak má na sobě např. metodu `calculatePrice`. Díky tomu pak můžu na vrcholu té stromové struktury zavolat `calculatePrice` a ono mi to samo rekurzivně vypočítá cenu celého stromu.
 
 Tzn. s celým stromem můžu zacházet jako s jedním objektem.
+
 <!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Using the Composite pattern makes sense only when the core model of your app can be represented as a tree.
 
@@ -1335,6 +1437,7 @@ The greatest benefit of this approach is that you don’t need to care about the
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852007-->
+
 END
 
 ---
@@ -1350,17 +1453,20 @@ Back:
 
 1. The **Component** interface describes operations that are common to both simple and complex elements of the tree.
 2. The **Leaf** is a basic element of a tree that doesn’t have sub-elements.
-	- Usually, leaf components end up doing most of the real work, since they don’t have anyone to delegate the work to.
-3. The **Container** (aka _composite_) is an element that has sub-elements: leaves or other containers. A container doesn’t know the concrete classes of its children. It works with all sub-elements only via the component interface.
-	- Upon receiving a request, a container delegates the work to its sub-elements, processes intermediate results and then returns the final result to the client.
+   - Usually, leaf components end up doing most of the real work, since they don’t have anyone to delegate the work to.
+3. The **Container** (aka *composite*) is an element that has sub-elements: leaves or other containers. A container doesn’t know the concrete classes of its children. It works with all sub-elements only via the component interface.
+   - Upon receiving a request, a container delegates the work to its sub-elements, processes intermediate results and then returns the final result to the client.
 4. The **Client** works with all elements through the component interface. As a result, the client can work in the same way with both simple or complex elements of the tree.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130110100.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852009-->
+
 END
 
 ---
@@ -1374,14 +1480,14 @@ Back:
 
 ✅ You can work with complex tree structures more conveniently: use polymorphism and recursion to your advantage.
 
-✅ _Open/Closed Principle_. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
+✅ *Open/Closed Principle*. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
 
 ❌ It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you’d need to overgeneralize the component interface, making it harder to comprehend.
 <!--ID: 1738239852011-->
+
 END
 
 ---
-
 
 ### Decorator
 
@@ -1397,6 +1503,7 @@ Umožňuje přidávat objektům chování tak, že je obalí v dalším objektu.
 ![](../../../Assets/Pasted%20image%2020250130110144.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re working on a notification library which lets other programs notify their users about important events.
 
@@ -1424,14 +1531,14 @@ Extending a class is the first thing that comes to mind when you need to alter a
 - Inheritance is static. You can’t alter the behavior of an existing object at runtime. You can only replace the whole object with another one that’s created from a different subclass.
 - Subclasses can have just one parent class. In most languages, inheritance doesn’t let a class inherit behaviors of multiple classes at the same time.
 
-One of the ways to overcome these caveats is by using _Aggregation_ or _Composition_ _Aggregation_: object A contains objects B; B can live without A.  
-_Composition_: object A consists of objects B; A manages life cycle of B; B can’t live without A. instead of _ Inheritance_. Both of the alternatives work almost the same way: one object _has a_ reference to another and delegates it some work, whereas with inheritance, the object itself _is_ able to do that work, inheriting the behavior from its superclass.
+One of the ways to overcome these caveats is by using *Aggregation* or *Composition* *Aggregation*: object A contains objects B; B can live without A.  
+_Composition_: object A consists of objects B; A manages life cycle of B; B can’t live without A. instead of _ Inheritance_. Both of the alternatives work almost the same way: one object *has a* reference to another and delegates it some work, whereas with inheritance, the object itself *is* able to do that work, inheriting the behavior from its superclass.
 
 With this new approach you can easily substitute the linked “helper” object with another, changing the behavior of the container at runtime. An object can use the behavior of various classes, having references to multiple objects and delegating them all kinds of work. Aggregation/composition is the key principle behind many design patterns, including Decorator. On that note, let’s return to the pattern discussion.
 
 ![](../../../Assets/Pasted%20image%2020250130110302.png)
 
-“Wrapper” is the alternative nickname for the Decorator pattern that clearly expresses the main idea of the pattern. A _ wrapper_ is an object that can be linked with some _target_ object. The wrapper contains the same set of methods as the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing something either before or after it passes the request to the target.
+“Wrapper” is the alternative nickname for the Decorator pattern that clearly expresses the main idea of the pattern. A _ wrapper_ is an object that can be linked with some *target* object. The wrapper contains the same set of methods as the target and delegates to it all requests it receives. However, the wrapper may alter the result by doing something either before or after it passes the request to the target.
 
 When does a simple wrapper become the real decorator? As I mentioned, the wrapper implements the same interface as the wrapped object. That’s why from the client’s perspective these objects are identical. Make the wrapper’s reference field accept any object that follows that interface. This will let you cover an object in multiple wrappers, adding the combined behavior of all the wrappers to it.
 
@@ -1449,6 +1556,7 @@ We could apply the same approach to other behaviors such as formatting messages 
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852014-->
+
 END
 
 ---
@@ -1469,11 +1577,14 @@ Back:
 5. The **Client** can wrap components in multiple layers of decorators, as long as it works with all objects via the component interface.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130110336.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852017-->
+
 END
 
 ---
@@ -1491,7 +1602,7 @@ Back:
 
 ✅ You can combine several behaviors by wrapping an object into multiple decorators.
 
-✅ _Single Responsibility Principle_. You can divide a monolithic class that implements many possible variants of behavior into several smaller classes.
+✅ *Single Responsibility Principle*. You can divide a monolithic class that implements many possible variants of behavior into several smaller classes.
 
 ❌ It’s hard to remove a specific wrapper from the wrappers stack.
 
@@ -1499,10 +1610,10 @@ Back:
 
 ❌ The initial configuration code of layers might look pretty ugly.
 <!--ID: 1738239852020-->
+
 END
 
 ---
-
 
 ### Facade
 
@@ -1520,6 +1631,7 @@ Díky tomu poskytuje jednoduché "rozhraní", skrze které lze komunikovat se sl
 ![](../../../Assets/Pasted%20image%2020250130110418.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you must make your code work with a broad set of objects that belong to a sophisticated library or framework. Ordinarily, you’d need to initialize all of those objects, keep track of dependencies, execute methods in the correct order, and so on.
 
@@ -1534,6 +1646,7 @@ For instance, an app that uploads short funny videos with cats to social media c
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852023-->
+
 END
 
 ---
@@ -1550,15 +1663,18 @@ Back:
 1. The **Facade** provides convenient access to a particular part of the subsystem’s functionality. It knows where to direct the client’s request and how to operate all the moving parts.
 2. An **Additional Facade** class can be created to prevent polluting a single facade with unrelated features that might make it yet another complex structure. Additional facades can be used by both clients and other facades.
 3. The **Complex Subsystem** consists of dozens of various objects. To make them all do something meaningful, you have to dive deep into the subsystem’s implementation details, such as initializing objects in the correct order and supplying them with data in the proper format.
-	- Subsystem classes aren’t aware of the facade’s existence. They operate within the system and work with each other directly.
+   - Subsystem classes aren’t aware of the facade’s existence. They operate within the system and work with each other directly.
 4. The **Client** uses the facade instead of calling the subsystem objects directly.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130110500.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852026-->
+
 END
 
 ---
@@ -1574,10 +1690,10 @@ Back:
 
 ❌ A facade can become a god object coupled to all classes of an app.
 <!--ID: 1738239852029-->
+
 END
 
 ---
-
 
 ### Flyweight
 
@@ -1593,10 +1709,13 @@ Umožňuje mi sdílet paměť pro stejné části objektů, místo toho, aby byl
 ![](../../../Assets/Pasted%20image%2020250130110545.png)
 
 <!-- ExampleStart -->
+
 U her mám jedno místo pro texturu a herní objekty jen odkazují na tu texturu, než aby ji měl každý uložený u sebe. Díky tomu ušetřím opravdu hodně paměti.
+
 <!-- ExampleEnd -->
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 To have some fun after long working hours, you decided to create a simple video game: players would be moving around a map and shooting each other. You chose to implement a realistic particle system and make it a distinctive feature of the game. Vast quantities of bullets, missiles, and shrapnel from explosions should fly all over the map and deliver a thrilling experience to the player.
 
@@ -1613,7 +1732,7 @@ On closer inspection of the `Particle` class, you may notice that the color an
 
 Other parts of a particle’s state, such as coordinates, movement vector and speed, are unique to each particle. After all, the values of these fields change over time. This data represents the always changing context in which the particle exists, while the color and sprite remain constant for each particle.
 
-This constant data of an object is usually called the _intrinsic state_. It lives within the object; other objects can only read it, not change it. The rest of the object’s state, often altered “from the outside” by other objects, is called the _extrinsic state_.
+This constant data of an object is usually called the *intrinsic state*. It lives within the object; other objects can only read it, not change it. The rest of the object’s state, often altered “from the outside” by other objects, is called the *extrinsic state*.
 
 The Flyweight pattern suggests that you stop storing the extrinsic state inside the object. Instead, you should pass this state to specific methods which rely on it. Only the intrinsic state stays within the object, letting you reuse it in different contexts. As a result, you’d need fewer of these objects since they only differ in the intrinsic state, which has much fewer variations than the extrinsic.
 
@@ -1623,6 +1742,7 @@ Let’s return to our game. Assuming that we had extracted the extrinsic state f
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852031-->
+
 END
 
 ---
@@ -1637,18 +1757,21 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250130110652.png)
 
 1. The Flyweight pattern is merely an optimization. Before applying it, make sure your program does have the RAM consumption problem related to having a massive number of similar objects in memory at the same time. Make sure that this problem can’t be solved in any other meaningful way.
-2. The **Flyweight** class contains the portion of the original object’s state that can be shared between multiple objects. The same flyweight object can be used in many different contexts. The state stored inside a flyweight is called _intrinsic._ The state passed to the flyweight’s methods is called _extrinsic._
+2. The **Flyweight** class contains the portion of the original object’s state that can be shared between multiple objects. The same flyweight object can be used in many different contexts. The state stored inside a flyweight is called *intrinsic.* The state passed to the flyweight’s methods is called *extrinsic.*
 3. The **Context** class contains the extrinsic state, unique across all original objects. When a context is paired with one of the flyweight objects, it represents the full state of the original object.
 4. Usually, the behavior of the original object remains in the flyweight class. In this case, whoever calls a flyweight’s method must also pass appropriate bits of the extrinsic state into the method’s parameters. On the other hand, the behavior can be moved to the context class, which would use the linked flyweight merely as a data object.
 5. The **Client** calculates or stores the extrinsic state of flyweights. From the client’s perspective, a flyweight is a template object which can be configured at runtime by passing some contextual data into parameters of its methods.
 6. The **Flyweight Factory** manages a pool of existing flyweights. With the factory, clients don’t create flyweights directly. Instead, they call the factory, passing it bits of the intrinsic state of the desired flyweight. The factory looks over previously created flyweights and either returns an existing one that matches search criteria or creates a new one if nothing is found.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130110709.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852034-->
+
 END
 
 ---
@@ -1666,6 +1789,7 @@ Back:
 
 ❌ The code becomes much more complicated. New team members will always be wondering why the state of an entity was separated in such a way.
 <!--ID: 1738239852036-->
+
 END
 
 ---
@@ -1686,6 +1810,7 @@ Pro klienta to tedy vypadá jako že komunikuju přímo s tím objektem, ale př
 ![](../../../Assets/Pasted%20image%2020250130110748.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Why would you want to control access to an object? Here is an example: you have a massive object that consumes a vast amount of system resources. You need it from time to time, but not always.
 
@@ -1704,6 +1829,7 @@ But what’s the benefit? If you need to execute something either before or afte
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852039-->
+
 END
 
 ---
@@ -1723,11 +1849,14 @@ Back:
 4. The **Client** should work with both services and proxies via the same interface. This way you can pass a proxy into any code that expects a service object.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130110831.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852041-->
+
 END
 
 ---
@@ -1745,12 +1874,13 @@ Back:
 
 ✅ The proxy works even if the service object isn’t ready or is not available.
 
-✅ _Open/Closed Principle_. You can introduce new proxies without changing the service or clients.
+✅ *Open/Closed Principle*. You can introduce new proxies without changing the service or clients.
 
 ❌ The code may become more complicated since you need to introduce a lot of new classes.
 
 ❌ The response from the service might get delayed.
 <!--ID: 1738239852044-->
+
 END
 
 ---
@@ -1769,17 +1899,19 @@ Back:
 Funguje tak, že se data nezačnou načítat, dokud nejsou skutečně potřeba.
 
 <!-- ExampleStart -->
+
 Na webových stránkách se načtou obrázky, až když k nim uživatel doscrolluje dostatečně blízko.
+
 <!-- ExampleEnd -->
 
 **Výhody:**
+
 - **Snižuje to initial load time**
 - **Šetří to komunikaci a zdroje** - nepřistupuje se tak moc do databáze, neposílá se tolik requestů
-<!--ID: 1738239852047-->
-END
+  <!--ID: 1738239852047-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -1792,13 +1924,12 @@ Back:
 - **Virtual proxy** - při přístupu k objektu se zavolá virtuální objekt se stejným rozhraním. Ten pak načte daný objekt a přepošle mu požadavek.
 - **Ghost** - loadne se objekt s částečným stavem (např. placeholder), když je to potřeba, objekt vyplní svoje data
 - **Value holder** - generický objekt se stará o lazy loading, tento objekt se používá místo nějaké proměnné data objektu
-<!--ID: 1738239852050-->
-END
+  <!--ID: 1738239852050-->
+  END
 
 ---
 
 #### Dependency injection
-
 
 START
 FIT-Card
@@ -1808,11 +1939,13 @@ Jak funguje **Dependency Injection**?
 Back:
 
 Závislosti mezi 2 třídami mohou být vytvořeny následovně:
+
 1. **Tight coupling**: Třída vytvoří objekt, který potřebuje.
 2. **Získání odjinud**: Třída si získá objekt z nějakého frameworku
 3. **Dependency injection**: Třída dostane objekt v parametrech konstruktoru nebo metody.
 
 <!-- DetailInfoStart -->
+
 Classes often require references to other classes. For example, a `Car` class might need a reference to an `Engine` class. These required classes are called dependencies, and in this example the `Car` class is dependent on having an instance of the `Engine` class to run.
 
 There are three ways for a class to get an object it needs:
@@ -1844,9 +1977,7 @@ class MyApp {
 This is not an example of dependency injection because the `Car` class is constructing its own `Engine`. This can be problematic because:
 
 - `Car` and `Engine` are tightly coupled - an instance of `Car` uses one type of `Engine`, and no subclasses or alternative implementations can easily be used. If the `Car` were to construct its own `Engine`, you would have to create two types of `Car` instead of just reusing the same `Car` for engines of type `Gas` and `Electric`.
-    
 - The hard dependency on `Engine` makes testing more difficult. `Car` uses a real instance of `Engine`, thus preventing you from using a mock to modify `Engine` for different test cases.
-    
 
 What does the code look like with dependency injection? Instead of each instance of `Car` constructing its own `Engine` object on initialization, it receives an `Engine` object as a parameter in its constructor:
 
@@ -1876,16 +2007,12 @@ class MyApp {
 The main function uses `Car`. Because `Car` depends on `Engine`, the app creates an instance of `Engine` and then uses it to construct an instance of `Car`. The benefits of this DI-based approach are:
 
 - Reusability of `Car`. You can pass in different implementations of `Engine` to `Car`. For example, you might define a new subclass of `Engine` called `ElectricEngine` that you want `Car` to use. If you use DI, all you need to do is pass in an instance of the updated `ElectricEngine` subclass, and `Car` still works without any further changes.
-    
 - Easy testing of `Car`. You can pass in test doubles to test your different scenarios. For example, you might create a test double of `Engine` called `FakeEngine` and configure it for different tests.
-    
 
 There are two major ways to do dependency injection:
 
 - **Constructor Injection**. This is the way described above. You pass the dependencies of a class to its constructor.
-    
 - **Field Injection (or Setter Injection)**. With field injection, dependencies are instantiated after the class is created. The code would look like this:
-    
 
 ```java
 class Car {
@@ -1909,12 +2036,13 @@ class MyApp {
   }
 }
 ```
+
 <!-- DetailInfoEnd -->
 <!--ID: 1738239852053-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -1927,7 +2055,7 @@ To, že používáme nějaký framework k tomu, aby injektoval dependencies za n
 
 <!-- DetailInfoStart -->
 
-In the previous example, you created, provided, and managed the dependencies of the different classes yourself, without relying on a library. This is called _dependency injection by hand_, or _manual dependency injection_. In the `Car` example, there was only one dependency, but more dependencies and classes can make manual injection of dependencies more tedious. Manual dependency injection also presents several problems:
+In the previous example, you created, provided, and managed the dependencies of the different classes yourself, without relying on a library. This is called *dependency injection by hand*, or *manual dependency injection*. In the `Car` example, there was only one dependency, but more dependencies and classes can make manual injection of dependencies more tedious. Manual dependency injection also presents several problems:
 
 - For big apps, taking all the dependencies and connecting them correctly can require a large amount of boilerplate code. In a multi-layered architecture, in order to create an object for a top layer, you have to provide all the dependencies of the layers below it. As a concrete example, to build a real car you might need an engine, a transmission, a chassis, and other parts; and an engine in turn needs cylinders and spark plugs.
 - When you’re not able to construct dependencies before passing them in — for example when using lazy initializations or scoping objects to flows of your app — you need to write and maintain a custom container (or graph of dependencies) that manages the lifetimes of your dependencies in memory.
@@ -1936,15 +2064,13 @@ There are libraries that solve this problem by automating the process of creatin
 
 - Reflection-based solutions that connect dependencies at runtime.
 - Static solutions that generate the code to connect dependencies at compile time.
-<!-- DetailInfoEnd -->
-<!--ID: 1738239852055-->
-END
+  <!-- DetailInfoEnd -->
+  <!--ID: 1738239852055-->
+  END
 
 ---
 
-
 ## NI-SI-4 Vzory pro chování objektů
-
 
 START
 FIT-Card
@@ -1964,11 +2090,10 @@ Back:
 - **Strategy**
 - **Template Method**
 - **Visitor**
-<!--ID: 1738239852058-->
-END
+  <!--ID: 1738239852058-->
+  END
 
 ---
-
 
 ### Command
 
@@ -1979,11 +2104,12 @@ K čemu slouží **Command** design pattern?
 
 Back:
 
-Pro nějakou akci/request/příkaz vytvoří samostatnou třídu, která obsahuje relevantní informace o dané akci. Díky tomu je možné akce například dávat do fronty, lze je ukládat a předávat si je v rámci programu. 
+Pro nějakou akci/request/příkaz vytvoří samostatnou třídu, která obsahuje relevantní informace o dané akci. Díky tomu je možné akce například dávat do fronty, lze je ukládat a předávat si je v rámci programu.
 
 ![](../../../Assets/Pasted%20image%2020250130111117.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re working on a new text-editor app. Your current task is to create a toolbar with a bunch of buttons for various operations of the editor. You created a very neat `Button` class that can be used for buttons on the toolbar, as well as for generic buttons in various dialogs.
 
@@ -2002,9 +2128,9 @@ And here’s the ugliest part. Some operations, such as copying/pasting text, wo
 Initially, when our app only had the toolbar, it was okay to place the implementation of various operations into the button subclasses. In other words, having the code for copying text inside the `CopyButton` subclass was fine. But then, when you implement context menus, shortcuts, and other stuff, you have to either duplicate the operation’s code in many classes or make menus dependent on buttons, which is an even worse option.
 
 **SOLUTION:**
-Good software design is often based on the _principle of separation of concerns_, which usually results in breaking an app into layers. The most common example: a layer for the graphical user interface and another layer for the business logic. The GUI layer is responsible for rendering a beautiful picture on the screen, capturing any input and showing results of what the user and the app are doing. However, when it comes to doing something important, like calculating the trajectory of the moon or composing an annual report, the GUI layer delegates the work to the underlying layer of business logic.
+Good software design is often based on the *principle of separation of concerns*, which usually results in breaking an app into layers. The most common example: a layer for the graphical user interface and another layer for the business logic. The GUI layer is responsible for rendering a beautiful picture on the screen, capturing any input and showing results of what the user and the app are doing. However, when it comes to doing something important, like calculating the trajectory of the moon or composing an annual report, the GUI layer delegates the work to the underlying layer of business logic.
 
-In the code it might look like this: a GUI object calls a method of a business logic object, passing it some arguments. This process is usually described as one object sending another a _request_.
+In the code it might look like this: a GUI object calls a method of a business logic object, passing it some arguments. This process is usually described as one object sending another a *request*.
 
 ![](../../../Assets/Pasted%20image%2020250130111158.png)
 
@@ -2030,6 +2156,7 @@ As a result, commands become a convenient middle layer that reduces coupling bet
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852060-->
+
 END
 
 ---
@@ -2043,19 +2170,22 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250130111213.png)
 
-1. The **Sender** class (aka _invoker_) is responsible for initiating requests. This class must have a field for storing a reference to a command object. The sender triggers that command instead of sending the request directly to the receiver. Note that the sender isn’t responsible for creating the command object. Usually, it gets a pre-created command from the client via the constructor.
+1. The **Sender** class (aka *invoker*) is responsible for initiating requests. This class must have a field for storing a reference to a command object. The sender triggers that command instead of sending the request directly to the receiver. Note that the sender isn’t responsible for creating the command object. Usually, it gets a pre-created command from the client via the constructor.
 2. The **Command** interface usually declares just a single method for executing the command.
 3. **Concrete Commands** implement various kinds of requests. A concrete command isn’t supposed to perform the work on its own, but rather to pass the call to one of the business logic objects. However, for the sake of simplifying the code, these classes can be merged.
-	- Parameters required to execute a method on a receiving object can be declared as fields in the concrete command. You can make command objects immutable by only allowing the initialization of these fields via the constructor.
+   - Parameters required to execute a method on a receiving object can be declared as fields in the concrete command. You can make command objects immutable by only allowing the initialization of these fields via the constructor.
 4. The **Receiver** class contains some business logic. Almost any object may act as a receiver. Most commands only handle the details of how a request is passed to the receiver, while the receiver itself does the actual work.
 5. The **Client** creates and configures concrete command objects. The client must pass all of the request parameters, including a receiver instance, into the command’s constructor. After that, the resulting command may be associated with one or multiple senders.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130111234.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852063-->
+
 END
 
 ---
@@ -2067,9 +2197,9 @@ Jaké jsou výhody a nevýhody **Command** design patternu? (5 + 1)
 
 Back:
 
-✅ _Single Responsibility Principle_. You can decouple classes that invoke operations from classes that perform these operations.
+✅ *Single Responsibility Principle*. You can decouple classes that invoke operations from classes that perform these operations.
 
-✅ _Open/Closed Principle_. You can introduce new commands into the app without breaking existing client code.
+✅ *Open/Closed Principle*. You can introduce new commands into the app without breaking existing client code.
 
 ✅ You can implement undo/redo.
 
@@ -2079,10 +2209,10 @@ Back:
 
 ❌ The code may become more complicated since you’re introducing a whole new layer between senders and receivers.
 <!--ID: 1738239852065-->
+
 END
 
 ---
-
 
 ### Chain of Responsibility
 
@@ -2098,6 +2228,7 @@ Umožňuje vytvořit řetězec handlerů, kterým se pošle nějaký request. Ka
 ![](../../../Assets/Pasted%20image%2020250130111323.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re working on an online ordering system. You want to restrict access to the system so only authenticated users can create orders. Also, users who have administrative permissions must have full access to all orders.
 
@@ -2106,6 +2237,7 @@ After a bit of planning, you realized that these checks must be performed sequen
 ![](../../../Assets/Pasted%20image%2020250130111336.png)
 
 During the next few months, you implemented several more of those sequential checks.
+
 - One of your colleagues suggested that it’s unsafe to pass raw data straight to the ordering system. So you added an extra validation step to sanitize the data in a request.
 - Later, somebody noticed that the system is vulnerable to brute force password cracking. To negate this, you promptly added a check that filters repeated failed requests coming from the same IP address.
 - Someone else suggested that you could speed up the system by returning cached results on repeated requests containing the same data. Hence, you added another check which lets the request pass through to the system only if there’s no suitable cached response.
@@ -2117,7 +2249,7 @@ The code of the checks, which had already looked like a mess, became more and mo
 The system became very hard to comprehend and expensive to maintain. You struggled with the code for a while, until one day you decided to refactor the whole thing.
 
 **SOLUTION:**
-Like many other behavioral design patterns, the **Chain of Responsibility** relies on transforming particular behaviors into stand-alone objects called _handlers_. In our case, each check should be extracted to its own class with a single method that performs the check. The request, along with its data, is passed to this method as an argument.
+Like many other behavioral design patterns, the **Chain of Responsibility** relies on transforming particular behaviors into stand-alone objects called *handlers*. In our case, each check should be extracted to its own class with a single method that performs the check. The request, along with its data, is passed to this method as an argument.
 
 The pattern suggests that you link these handlers into a chain. Each linked handler has a field for storing a reference to the next handler in the chain. In addition to processing a request, handlers pass the request further along the chain. The request travels along the chain until all handlers have had a chance to process it.
 
@@ -2137,6 +2269,7 @@ It’s crucial that all handler classes implement the same interface. Each concr
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852068-->
+
 END
 
 ---
@@ -2152,17 +2285,20 @@ Back:
 
 1. The **Handler** declares the interface, common for all concrete handlers. It usually contains just a single method for handling requests, but sometimes it may also have another method for setting the next handler on the chain.
 2. The **Base Handler** is an optional class where you can put the boilerplate code that’s common to all handler classes.
-	- Usually, this class defines a field for storing a reference to the next handler. The clients can build a chain by passing a handler to the constructor or setter of the previous handler. The class may also implement the default handling behavior: it can pass execution to the next handler after checking for its existence.
+   - Usually, this class defines a field for storing a reference to the next handler. The clients can build a chain by passing a handler to the constructor or setter of the previous handler. The class may also implement the default handling behavior: it can pass execution to the next handler after checking for its existence.
 3. **Concrete Handlers** contain the actual code for processing requests. Upon receiving a request, each handler must decide whether to process it and, additionally, whether to pass it along the chain.
-	- Handlers are usually self-contained and immutable, accepting all necessary data just once via the constructor.
+   - Handlers are usually self-contained and immutable, accepting all necessary data just once via the constructor.
 4. The **Client** may compose chains just once or compose them dynamically, depending on the application’s logic. Note that a request can be sent to any handler in the chain—it doesn’t have to be the first one.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130111435.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852071-->
+
 END
 
 ---
@@ -2176,16 +2312,16 @@ Back:
 
 ✅ You can control the order of request handling.
 
-✅ _Single Responsibility Principle_. You can decouple classes that invoke operations from classes that perform operations.
+✅ *Single Responsibility Principle*. You can decouple classes that invoke operations from classes that perform operations.
 
-✅ _Open/Closed Principle_. You can introduce new handlers into the app without breaking the existing client code.
+✅ *Open/Closed Principle*. You can introduce new handlers into the app without breaking the existing client code.
 
 ❌ Some requests may end up unhandled.
 <!--ID: 1738239852073-->
+
 END
 
 ---
-
 
 ### Interpreter
 
@@ -2196,12 +2332,12 @@ K čemu slouží **Interpreter** design pattern?
 
 Back:
 
-Slouží k vyhodnocování vět v nějakém jazyce podle dané gramatiky. Základní myšlenkou je pro každý terminál a neterminál gramatiky vytvořit třídu. 
+Slouží k vyhodnocování vět v nějakém jazyce podle dané gramatiky. Základní myšlenkou je pro každý terminál a neterminál gramatiky vytvořit třídu.
 
 Následně je možné každou větu jazyka reprezentovat jako abstraktní syntaktický strom terminálů a neterminálů. Ten strom pak mohu vyhodnotit.
 
-
 <!-- ExplanationStart -->
+
 - Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 - Map a domain to a language, the language to a grammar, and the grammar to a hierarchical object-oriented design.
 
@@ -2215,6 +2351,7 @@ An abstract base class specifies the method `interpret()`. Each concrete subcla
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852076-->
+
 END
 
 ---
@@ -2232,6 +2369,7 @@ Interpreter suggests modeling the domain with a recursive grammar. Each rule in 
 
 Tags: diagram
 <!--ID: 1738239852078-->
+
 END
 
 ---
@@ -2247,10 +2385,10 @@ Back:
 
 ❌ When the grammar is getting more complex, it becomes harder to maintain.
 <!--ID: 1738239852081-->
+
 END
 
 ---
-
 
 ### Iterator
 
@@ -2266,6 +2404,7 @@ Umožňuje se pohybovat po prvcích nějaké datové struktury, aniž by exposov
 ![](../../../Assets/Pasted%20image%2020250130111638.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Collections are one of the most used data types in programming. Nonetheless, a collection is just a container for a group of objects.
 
@@ -2284,7 +2423,7 @@ Adding more and more traversal algorithms to the collection gradually blurs its 
 On the other hand, the client code that’s supposed to work with various collections may not even care how they store their elements. However, since collections all provide different ways of accessing their elements, you have no option other than to couple your code to the specific collection classes.
 
 **SOLUTION:**
-The main idea of the Iterator pattern is to extract the traversal behavior of a collection into a separate object called an _iterator_.
+The main idea of the Iterator pattern is to extract the traversal behavior of a collection into a separate object called an *iterator*.
 
 ![](../../../Assets/Pasted%20image%2020250130111706.png)
 
@@ -2296,6 +2435,7 @@ All iterators must implement the same interface. This makes the client code comp
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852083-->
+
 END
 
 ---
@@ -2314,14 +2454,17 @@ Back:
 3. The **Collection** interface declares one or multiple methods for getting iterators compatible with the collection. Note that the return type of the methods must be declared as the iterator interface so that the concrete collections can return various kinds of iterators.
 4. **Concrete Collections** return new instances of a particular concrete iterator class each time the client requests one. You might be wondering, where’s the rest of the collection’s code? Don’t worry, it should be in the same class. It’s just that these details aren’t crucial to the actual pattern, so we’re omitting them.
 5. The **Client** works with both collections and iterators via their interfaces. This way the client isn’t coupled to concrete classes, allowing you to use various collections and iterators with the same client code.
-	- Typically, clients don’t create iterators on their own, but instead get them from collections. Yet, in certain cases, the client can create one directly; for example, when the client defines its own special iterator.
+   - Typically, clients don’t create iterators on their own, but instead get them from collections. Yet, in certain cases, the client can create one directly; for example, when the client defines its own special iterator.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130111745.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852086-->
+
 END
 
 ---
@@ -2333,9 +2476,9 @@ Jaké jsou výhody a nevýhody **Iterator** design patternu? (4 + 2)
 
 Back:
 
-✅ _Single Responsibility Principle_. You can clean up the client code and the collections by extracting bulky traversal algorithms into separate classes.
+✅ *Single Responsibility Principle*. You can clean up the client code and the collections by extracting bulky traversal algorithms into separate classes.
 
-✅ _Open/Closed Principle_. You can implement new types of collections and iterators and pass them to existing code without breaking anything.
+✅ *Open/Closed Principle*. You can implement new types of collections and iterators and pass them to existing code without breaking anything.
 
 ✅ You can iterate over the same collection in parallel because each iterator object contains its own iteration state.
 
@@ -2345,10 +2488,10 @@ Back:
 
 ❌ Using an iterator may be less efficient than going through elements of some specialized collections directly.
 <!--ID: 1738239852089-->
+
 END
 
 ---
-
 
 ### Mediator
 
@@ -2361,10 +2504,10 @@ Back:
 
 Umožňuje sprostředkovávat komunikaci mezi objekty skrze mediatora. Díky tomu nebudou tak chaotické dependencies, protože objekty nebudou komunikovat napřímo.
 
-
 ![](../../../Assets/Pasted%20image%2020250130111821.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Say you have a dialog for creating and editing customer profiles. It consists of various form controls such as text fields, checkboxes, buttons, etc.
 
@@ -2391,6 +2534,7 @@ This way, the Mediator pattern lets you encapsulate a complex web of relations b
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852092-->
+
 END
 
 ---
@@ -2408,14 +2552,17 @@ Back:
 2. The **Mediator** interface declares methods of communication with components, which usually include just a single notification method. Components may pass any context as arguments of this method, including their own objects, but only in such a way that no coupling occurs between a receiving component and the sender’s class.
 3. **Concrete Mediators** encapsulate relations between various components. Concrete mediators often keep references to all components they manage and sometimes even manage their lifecycle.
 4. Components must not be aware of other components. If something important happens within or to a component, it must only notify the mediator. When the mediator receives the notification, it can easily identify the sender, which might be just enough to decide what component should be triggered in return.
-	- From a component’s perspective, it all looks like a total black box. The sender doesn’t know who’ll end up handling its request, and the receiver doesn’t know who sent the request in the first place.
+   - From a component’s perspective, it all looks like a total black box. The sender doesn’t know who’ll end up handling its request, and the receiver doesn’t know who sent the request in the first place.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130111934.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852094-->
+
 END
 
 ---
@@ -2427,9 +2574,9 @@ Jaké jsou výhody a nevýhody **Mediator** design patternu? (4 + 1)
 
 Back:
 
-✅ _Single Responsibility Principle_. You can extract the communications between various components into a single place, making it easier to comprehend and maintain.
+✅ *Single Responsibility Principle*. You can extract the communications between various components into a single place, making it easier to comprehend and maintain.
 
-✅ _Open/Closed Principle_. You can introduce new mediators without having to change the actual components.
+✅ *Open/Closed Principle*. You can introduce new mediators without having to change the actual components.
 
 ✅ You can reduce coupling between various components of a program.
 
@@ -2437,10 +2584,10 @@ Back:
 
 ❌ Over time a mediator can evolve into a [God Object](https://courses.fit.cvut.cz/antipatterns/god-object).
 <!--ID: 1738239852097-->
+
 END
 
 ---
-
 
 ### Memento
 
@@ -2456,6 +2603,7 @@ Umožňuje ukládat a načítat stav objektu, aniž bychom museli znát jeho vni
 ![](../../../Assets/Pasted%20image%2020250130112002.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re creating a text editor app. In addition to simple text editing, your editor can format text, insert inline images, etc.
 
@@ -2478,13 +2626,13 @@ It looks like we’ve reached a dead end: you either expose all internal details
 **SOLUTION:**
 All problems that we’ve just experienced are caused by broken encapsulation. Some objects try to do more than they are supposed to. To collect the data required to perform some action, they invade the private space of other objects instead of letting these objects perform the actual action.
 
-The Memento pattern delegates creating the state snapshots to the actual owner of that state, the _originator_ object. Hence, instead of other objects trying to copy the editor’s state from the “outside,” the editor class itself can make the snapshot since it has full access to its own state.
+The Memento pattern delegates creating the state snapshots to the actual owner of that state, the *originator* object. Hence, instead of other objects trying to copy the editor’s state from the “outside,” the editor class itself can make the snapshot since it has full access to its own state.
 
-The pattern suggests storing the copy of the object’s state in a special object called _memento_. The contents of the memento aren’t accessible to any other object except the one that produced it. Other objects must communicate with mementos using a limited interface which may allow fetching the snapshot’s metadata (creation time, the name of the performed operation, etc.), but not the original object’s state contained in the snapshot.
+The pattern suggests storing the copy of the object’s state in a special object called *memento*. The contents of the memento aren’t accessible to any other object except the one that produced it. Other objects must communicate with mementos using a limited interface which may allow fetching the snapshot’s metadata (creation time, the name of the performed operation, etc.), but not the original object’s state contained in the snapshot.
 
 ![](../../../Assets/Pasted%20image%2020250130112039.png)
 
-Such a restrictive policy lets you store mementos inside other objects, usually called _caretakers_. Since the caretaker works with the memento only via the limited interface, it’s not able to tamper with the state stored inside the memento. At the same time, the originator has access to all fields inside the memento, allowing it to restore its previous state at will.
+Such a restrictive policy lets you store mementos inside other objects, usually called *caretakers*. Since the caretaker works with the memento only via the limited interface, it’s not able to tamper with the state stored inside the memento. At the same time, the originator has access to all fields inside the memento, allowing it to restore its previous state at will.
 
 In our text editor example, we can create a separate history class to act as the caretaker. A stack of mementos stored inside the caretaker will grow each time the editor is about to execute an operation. You could even render this stack within the app’s UI, displaying the history of previously performed operations to a user.
 
@@ -2492,6 +2640,7 @@ When a user triggers the undo, the history grabs the most recent memento from th
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852099-->
+
 END
 
 ---
@@ -2509,19 +2658,21 @@ The classic implementation of the pattern relies on support for nested classes, 
 1. The **Originator** class can produce snapshots of its own state, as well as restore its state from snapshots when needed.
 2. The **Memento** is a value object that acts as a snapshot of the originator’s state. It’s a common practice to make the memento immutable and pass it the data only once, via the constructor.
 3. The **Caretaker** knows not only “when” and “why” to capture the originator’s state, but also when the state should be restored.
-	- A caretaker can keep track of the originator’s history by storing a stack of mementos. When the originator has to travel back in history, the caretaker fetches the topmost memento from the stack and passes it to the originator’s restoration method.
+   - A caretaker can keep track of the originator’s history by storing a stack of mementos. When the originator has to travel back in history, the caretaker fetches the topmost memento from the stack and passes it to the originator’s restoration method.
 4. In this implementation, the memento class is nested inside the originator. This lets the originator access the fields and methods of the memento, even though they’re declared private. On the other hand, the caretaker has very limited access to the memento’s fields and methods, which lets it store mementos in a stack but not tamper with their state.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130112208.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852102-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -2539,6 +2690,7 @@ There’s an alternative implementation, suitable for programming languages that
 
 Tags: diagram
 <!--ID: 1738239852105-->
+
 END
 
 ---
@@ -2560,10 +2712,10 @@ There’s another implementation which is useful when you don’t want to leave 
 
 Tags: diagram
 <!--ID: 1738239852107-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -2582,10 +2734,10 @@ Back:
 
 ❌ Most dynamic programming languages, such as PHP, Python and JavaScript, can’t guarantee that the state within the memento stays untouched.
 <!--ID: 1738239852110-->
+
 END
 
 ---
-
 
 ### Observer
 
@@ -2601,6 +2753,7 @@ Umožňuje definovat subscribtion mechanismus, kde jsou objekty notifikovány, p
 ![](../../../Assets/Pasted%20image%2020250130112355.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you have two types of objects: a `Customer` and a `Store`. The customer is very interested in a particular brand of product (say, it’s a new model of the iPhone) which should become available in the store very soon.
 
@@ -2613,7 +2766,7 @@ On the other hand, the store could send tons of emails (which might be considere
 It looks like we’ve got a conflict. Either the customer wastes time checking product availability or the store wastes resources notifying the wrong customers.
 
 **SOLUTION:**
-The object that has some interesting state is often called _subject_, but since it’s also going to notify other objects about the changes to its state, we’ll call it _publisher_. All other objects that want to track changes to the publisher’s state are called _subscribers_.
+The object that has some interesting state is often called *subject*, but since it’s also going to notify other objects about the changes to its state, we’ll call it *publisher*. All other objects that want to track changes to the publisher’s state are called *subscribers*.
 
 The Observer pattern suggests that you add a subscription mechanism to the publisher class so individual objects can subscribe to or unsubscribe from a stream of events coming from that publisher. Fear not! Everything isn’t as complicated as it sounds. In reality, this mechanism consists of 1) an array field for storing a list of references to subscriber objects and 2) several public methods which allow adding subscribers to and removing them from that list.
 
@@ -2631,6 +2784,7 @@ If your app has several different types of publishers and you want to make your 
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852113-->
+
 END
 
 ---
@@ -2652,11 +2806,14 @@ Back:
 6. The **Client** creates publisher and subscriber objects separately and then registers subscribers for publisher updates.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130112440.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852116-->
+
 END
 
 ---
@@ -2668,16 +2825,16 @@ Jaké jsou výhody a nevýhody **Observer** design patternu? (2 + 1)
 
 Back:
 
-✅ _Open/Closed Principle_. You can introduce new subscriber classes without having to change the publisher’s code (and vice versa if there’s a publisher interface).
+✅ *Open/Closed Principle*. You can introduce new subscriber classes without having to change the publisher’s code (and vice versa if there’s a publisher interface).
 
 ✅ You can establish relations between objects at runtime.
 
 ❌ Subscribers are notified in random order.
 <!--ID: 1738239852123-->
+
 END
 
 ---
-
 
 ### State
 
@@ -2693,12 +2850,13 @@ Umožňuje měnit chování objektu na základě jeho vnitřního stavu. Stav je
 ![](../../../Assets/Pasted%20image%2020250130112522.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
-The State pattern is closely related to the concept of a _Finite-State Machine_.
+The State pattern is closely related to the concept of a *Finite-State Machine*.
 
 ![](../../../Assets/Pasted%20image%2020250130112600.png)
 
-The main idea is that, at any given moment, there’s a _finite_ number of _states_ which a program can be in. Within any unique state, the program behaves differently, and the program can be switched from one state to another instantaneously. However, depending on a current state, the program may or may not switch to certain other states. These switching rules, called _transitions_, are also finite and predetermined.
+The main idea is that, at any given moment, there’s a *finite* number of *states* which a program can be in. Within any unique state, the program behaves differently, and the program can be switched from one state to another instantaneously. However, depending on a current state, the program may or may not switch to certain other states. These switching rules, called *transitions*, are also finite and predetermined.
 
 You can also apply this approach to objects. Imagine that we have a `Document` class. A document can be in one of three states: `Draft`, `Moderation` and `Published`. The `publish` method of the document works a little bit differently in each state:
 
@@ -2736,7 +2894,7 @@ The problem tends to get bigger as a project evolves. It’s quite difficult to 
 **SOLUTION:**
 The State pattern suggests that you create new classes for all possible states of an object and extract all state-specific behaviors into these classes.
 
-Instead of implementing all behaviors on its own, the original object, called _context_, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
+Instead of implementing all behaviors on its own, the original object, called *context*, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
 
 ![](../../../Assets/Pasted%20image%2020250130112627.png)
 
@@ -2746,6 +2904,7 @@ This structure may look similar to the [Strategy](https://courses.fit.cvut.cz/N
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852127-->
+
 END
 
 ---
@@ -2762,15 +2921,18 @@ Back:
 1. **Context** stores a reference to one of the concrete state objects and delegates to it all state-specific work. The context communicates with the state object via the state interface. The context exposes a setter for passing it a new state object.
 2. The **State** interface declares the state-specific methods. These methods should make sense for all concrete states because you don’t want some of your states to have useless methods that will never be called.
 3. **Concrete States** provide their own implementations for the state-specific methods. To avoid duplication of similar code across multiple states, you may provide intermediate abstract classes that encapsulate some common behavior.
-	- State objects may store a backreference to the context object. Through this reference, the state can fetch any required info from the context object, as well as initiate state transitions.
+   - State objects may store a backreference to the context object. Through this reference, the state can fetch any required info from the context object, as well as initiate state transitions.
 4. Both context and concrete states can set the next state of the context and perform the actual state transition by replacing the state object linked to the context.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130112651.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852130-->
+
 END
 
 ---
@@ -2782,18 +2944,18 @@ Jaké jsou výhody a nevýhody **State** design patternu? (3 + 1)
 
 Back:
 
-✅ _Single Responsibility Principle_. Organize the code related to particular states into separate classes.
+✅ *Single Responsibility Principle*. Organize the code related to particular states into separate classes.
 
-✅ _Open/Closed Principle_. Introduce new states without changing existing state classes or the context.
+✅ *Open/Closed Principle*. Introduce new states without changing existing state classes or the context.
 
 ✅ Simplify the code of the context by eliminating bulky state machine conditionals.
 
 ❌ Applying the pattern can be overkill if a state machine has only a few states or rarely changes.
 <!--ID: 1738239852132-->
+
 END
 
 ---
-
 
 ### Strategy
 
@@ -2809,6 +2971,7 @@ Umožňuje mi zadefinovat různé strategie/algoritmy v oddělených třídách.
 ![](../../../Assets/Pasted%20image%2020250130112736.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 One day you decided to create a navigation app for casual travelers. The app was centered around a beautiful map which helped users quickly orient themselves in any city.
 
@@ -2827,9 +2990,9 @@ Any change to one of the algorithms, whether it was a simple bug fix or a slight
 In addition, teamwork became inefficient. Your teammates, who had been hired right after the successful release, complain that they spend too much time resolving merge conflicts. Implementing a new feature requires you to change the same huge class, conflicting with the code produced by other people.
 
 **SOLUTION:**
-The Strategy pattern suggests that you take a class that does something specific in a lot of different ways and extract all of these algorithms into separate classes called _strategies_.
+The Strategy pattern suggests that you take a class that does something specific in a lot of different ways and extract all of these algorithms into separate classes called *strategies*.
 
-The original class, called _context_, must have a field for storing a reference to one of the strategies. The context delegates the work to a linked strategy object instead of executing it on its own.
+The original class, called *context*, must have a field for storing a reference to one of the strategies. The context delegates the work to a linked strategy object instead of executing it on its own.
 
 The context isn’t responsible for selecting an appropriate algorithm for the job. Instead, the client passes the desired strategy to the context. In fact, the context doesn’t know much about strategies. It works with all strategies through the same generic interface, which only exposes a single method for triggering the algorithm encapsulated within the selected strategy.
 
@@ -2843,6 +3006,7 @@ Even though given the same arguments, each routing class might build a different
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852134-->
+
 END
 
 ---
@@ -2864,6 +3028,7 @@ Back:
 
 Tags: diagram
 <!--ID: 1738239852137-->
+
 END
 
 ---
@@ -2881,7 +3046,7 @@ Back:
 
 ✅ You can replace inheritance with composition.
 
-✅ _Open/Closed Principle_. You can introduce new strategies without having to change the context.
+✅ *Open/Closed Principle*. You can introduce new strategies without having to change the context.
 
 ❌ If you only have a couple of algorithms and they rarely change, there’s no real reason to overcomplicate the program with new classes and interfaces that come along with the pattern.
 
@@ -2889,6 +3054,7 @@ Back:
 
 ❌ A lot of modern programming languages have functional type support that lets you implement different versions of an algorithm inside a set of anonymous functions. Then you could use these functions exactly as you’d have used the strategy objects, but without bloating your code with extra classes and interfaces.
 <!--ID: 1738239852140-->
+
 END
 
 ---
@@ -2909,6 +3075,7 @@ Díky tomu takto vznikne "kostra" algoritmu a mohu v podtřídách přepisovat j
 ![](../../../Assets/Pasted%20image%2020250130112928.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that you’re creating a data mining application that analyzes corporate documents. Users feed the app documents in various formats (PDF, DOC, CSV), and it tries to extract meaningful data from these docs in a uniform format.
 
@@ -2921,7 +3088,7 @@ At some point, you noticed that all three classes have a lot of similar code. Wh
 There was another problem related to client code that used these classes. It had lots of conditionals that picked a proper course of action depending on the class of the processing object. If all three processing classes had a common interface or a base class, you’d be able to eliminate the conditionals in client code and use polymorphism when calling methods on a processing object.
 
 **SOLUTION:**
-The Template Method pattern suggests that you break down an algorithm into a series of steps, turn these steps into methods, and put a series of calls to these methods inside a single _template method._ The steps may either be `abstract`, or have some default implementation. To use the algorithm, the client is supposed to provide its own subclass, implement all abstract steps, and override some of the optional ones if needed (but not the template method itself).
+The Template Method pattern suggests that you break down an algorithm into a series of steps, turn these steps into methods, and put a series of calls to these methods inside a single *template method.* The steps may either be `abstract`, or have some default implementation. To use the algorithm, the client is supposed to provide its own subclass, implement all abstract steps, and override some of the optional ones if needed (but not the template method itself).
 
 Let’s see how this will play out in our data mining app. We can create a base class for all three parsing algorithms. This class defines a template method consisting of a series of calls to various document-processing steps.
 
@@ -2933,13 +3100,14 @@ Now, let’s see what we can do to get rid of the duplicate code. It looks like 
 
 As you can see, we’ve got two types of steps:
 
-- _abstract steps_ must be implemented by every subclass
-- _optional steps_ already have some default implementation, but still can be overridden if needed
+- *abstract steps* must be implemented by every subclass
+- *optional steps* already have some default implementation, but still can be overridden if needed
 
-There’s another type of step, called _hooks_. A hook is an optional step with an empty body. A template method would work even if a hook isn’t overridden. Usually, hooks are placed before and after crucial steps of algorithms, providing subclasses with additional extension points for an algorithm.
+There’s another type of step, called *hooks*. A hook is an optional step with an empty body. A template method would work even if a hook isn’t overridden. Usually, hooks are placed before and after crucial steps of algorithms, providing subclasses with additional extension points for an algorithm.
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852142-->
+
 END
 
 ---
@@ -2957,11 +3125,14 @@ Back:
 2. **Concrete Classes** can override all of the steps, but not the template method itself.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130113014.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852145-->
+
 END
 
 ---
@@ -2979,14 +3150,14 @@ Back:
 
 ❌ Some clients may be limited by the provided skeleton of an algorithm.
 
-❌ You might violate the _Liskov Substitution Principle_ by suppressing a default step implementation via a subclass.
+❌ You might violate the *Liskov Substitution Principle* by suppressing a default step implementation via a subclass.
 
 ❌ Template methods tend to be harder to maintain the more steps they have.
 <!--ID: 1738239852147-->
+
 END
 
 ---
-
 
 ### Visitor
 
@@ -3002,6 +3173,7 @@ Umožňuje mi oddělit algoritmy od objektů, na kterých pracují.
 ![](../../../Assets/Pasted%20image%2020250130113142.png)
 
 <!-- ExplanationStart -->
+
 **PROBLEM:**
 Imagine that your team develops an app which works with geographic information structured as one colossal graph. Each node of the graph may represent a complex entity such as a city, but also more granular things like industries, sightseeing areas, etc. The nodes are connected with others if there’s a road between the real objects that they represent. Under the hood, each node type is represented by its own class, while each specific node is an object.
 
@@ -3018,7 +3190,7 @@ Besides, he questioned whether it makes sense to have the XML export code within
 There was another reason for the refusal. It was highly likely that after this feature was implemented, someone from the marketing department would ask you to provide the ability to export into a different format, or request some other weird stuff. This would force you to change those precious and fragile classes again.
 
 **SOLUTION:**
-The Visitor pattern suggests that you place the new behavior into a separate class called _visitor_, instead of trying to integrate it into existing classes. The original object that had to perform the behavior is now passed to one of the visitor’s methods as an argument, providing the method access to all necessary data contained within the object.
+The Visitor pattern suggests that you place the new behavior into a separate class called *visitor*, instead of trying to integrate it into existing classes. The original object that had to perform the behavior is now passed to one of the visitor’s methods as an argument, providing the method access to all necessary data contained within the object.
 
 Now, what if that behavior can be executed over objects of different classes? For example, in our case with XML export, the actual implementation will probably be a little bit different across various node classes. Thus, the visitor class may define not one, but a set of methods, each of which could take arguments of different types, like this:
 
@@ -3070,6 +3242,7 @@ Now, if we extract a common interface for all visitors, all existing nodes can w
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852150-->
+
 END
 
 ---
@@ -3090,11 +3263,14 @@ Back:
 5. The **Client** usually represents a collection or some other complex object (for example, a [Composite](https://courses.fit.cvut.cz/NI-ADP/materials/design-patterns/structural-patterns/composite.html) tree). Usually, clients aren’t aware of all the concrete element classes because they work with objects from that collection via some abstract interface.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250130113259.png)
+
 <!-- ExampleEnd -->
 
 Tags: diagram
 <!--ID: 1738239852152-->
+
 END
 
 ---
@@ -3106,9 +3282,9 @@ Jaké jsou výhody a nevýhody **Visitor** design patternu? (3 + 2)
 
 Back:
 
-✅ _Open/Closed Principle_. You can introduce a new behavior that can work with objects of different classes without changing these classes.
+✅ *Open/Closed Principle*. You can introduce a new behavior that can work with objects of different classes without changing these classes.
 
-✅ _Single Responsibility Principle_. You can move multiple versions of the same behavior into the same class.
+✅ *Single Responsibility Principle*. You can move multiple versions of the same behavior into the same class.
 
 ✅ A visitor object can accumulate some useful information while working with various objects. This might be handy when you want to traverse some complex object structure, such as an object tree, and apply the visitor to each object of this structure.
 
@@ -3116,11 +3292,13 @@ Back:
 
 ❌ Visitors might lack the necessary access to the private fields and methods of the elements that they’re supposed to work with.
 <!--ID: 1738239852155-->
+
 END
 
 ---
 
 ## Architektonické vzory
+
 ### MVC
 
 START
@@ -3139,6 +3317,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250130115027.png)
 
 <!-- ExplanationStart -->
+
 Nowadays it’s hard to find out, which implementation of this design pattern/architecture is correct because everyone all over the world is “bending” it to his/her needs. No matter what, the idea stays the same and that is [Separation of Concerns](https://courses.fit.cvut.cz/NI-ADP/materials/design-principles/soc.html), loose coupling and high cohesion, etc.
 
 ![](../../../Assets/Pasted%20image%2020250130115054.png)
@@ -3159,6 +3338,7 @@ This layer contains displaying logic. Typically it’s GUI but it doesn’t have
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852157-->
+
 END
 
 ---
@@ -3178,6 +3358,7 @@ Back:
 **Model** zavolá update na **View**, když se změní. Toto používá typicky Observer pattern, kdy View observuje změny v Modelu.
 ![](../../../Assets/Pasted%20image%2020250130115146.png)
 <!--ID: 1738239852159-->
+
 END
 
 ---
@@ -3197,6 +3378,7 @@ Back:
 
 ❌ Tight coupling of **View** and **Controller**. That makes testing harder.
 <!--ID: 1738239852162-->
+
 END
 
 ---
@@ -3220,6 +3402,7 @@ The typical interactions taking place in MVP architecture can be understood thro
 ![](../../../Assets/Pasted%20image%2020250130115225.png)
 
 <!-- ExplanationStart -->
+
 **Model**
 The model is an interface defining the data to be displayed or otherwise acted upon in the user interface. Model is the data layer which is responsible for handling the business logic and for the communication with the network and database layers. Model’s responsibilities include using APIs, caching data, managing databases and so on.
 
@@ -3231,6 +3414,7 @@ The only thing that the view will do is to call a method from the Presenter ever
 
 <!-- ExplanationEnd -->
 <!--ID: 1738239852164-->
+
 END
 
 ---
@@ -3244,16 +3428,15 @@ Back:
 
 - **Lepší seperation of concerns**
 - **Modularita** - můžu prohazovat různé implementace view
-- **Lehčí testování** - tím, že jsou jasně definované meze mezi komponenty, můžu je jednoduše mockovat a testovat 
-
+- **Lehčí testování** - tím, že jsou jasně definované meze mezi komponenty, můžu je jednoduše mockovat a testovat
 
 ![](../../../Assets/Pasted%20image%2020250130115309.png)
 ![](../../../Assets/Pasted%20image%2020250130115313.png)
 <!--ID: 1738239852167-->
+
 END
 
 ---
-
 
 ### MVVM
 
@@ -3265,6 +3448,7 @@ K čemu slouží **MVVM** architektura?
 Back:
 
 **Model - View - ViewModel**:
+
 - **Model** - byznys logika a data
 - **ViewModel** - něco jako presenter, ale neví nic o view, jen poskytuje data. View může subscribnout do ViewModelu, aby vědělo, kdy se data updatnula
 - **View** - zobrazuje data, sám se přerenderovává
@@ -3273,6 +3457,7 @@ Oproti MVP je View "chytřejší" protože se samo updatuje a observuje změny v
 
 ![](../../../Assets/Pasted%20image%2020250130115455.png)
 <!--ID: 1738239852169-->
+
 END
 
 ---
@@ -3292,14 +3477,16 @@ For these regular updates are usually used:
 ![](../../../Assets/Pasted%20image%2020250130115516.png)
 
 <!-- ExampleStart -->
+
 This is example of **MVVM** how it is used in android programming.
 ![](../../../Assets/Pasted%20image%2020250130115556.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1738239852172-->
+
 END
 
 ---
-
 
 ### Client-server
 
@@ -3314,6 +3501,7 @@ In client-server architecture, the client and the server are typically connected
 
 ![](../../../Assets/Pasted%20image%2020250130115951.png)
 <!--ID: 1738239852174-->
+
 END
 
 ---
@@ -3333,10 +3521,10 @@ Another benefit is that it allows for scalability. If the server is designed to 
 **Nevýhody:**
 There are also some challenges to using client-server architecture. One challenge is that it requires a network connection between the client and the server, which can introduce latency and other issues. Another challenge is that the server may be a single point of failure, meaning that if the server goes down, the entire application may become unavailable.
 <!--ID: 1738239852177-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -3349,15 +3537,14 @@ Back:
 - **Desktop Applications**: In this case, the client is the desktop application running on the user’s computer, and the server is a remote server that stores data and performs backend tasks. The desktop application sends requests to the server to retrieve data or perform actions, and the server responds with the appropriate data or result.
 - **Mobile Apps**: Same as desktop applications, only the client is the mobile app running on the user’s device.
 - **Online Games**: Online games often use client-server architecture to support multiplayer gameplay. In this case, the client is the game running on the user’s device, and the server is a game server that manages the game world and handles communication between players.
-<!--ID: 1738239852180-->
-END
+  <!--ID: 1738239852180-->
+  END
 
 ---
 
 ### Microservices vs monolithic server
 
 ??? O tomhle nic není v předmětu
-
 
 ### Asynchronous messaging
 
@@ -3379,19 +3566,22 @@ Tight coupling with Publish-subscribe architecture
 ![](../../../Assets/Pasted%20image%2020250130124045.png)
 
 <!-- ExampleStart -->
+
 - **Java Messaging Service (JMS)**
-    - Standard messaging API for JAVA platform
-    - Interoperability is only within Java and JVM languages like Scala, Groovy
-    - Does not worry about wire level protocol
-    - Supports messaging models with queues and topics
-    - Supports transactions
-    - Defines the message format (headers, properties and body)
+  - Standard messaging API for JAVA platform
+  - Interoperability is only within Java and JVM languages like Scala, Groovy
+  - Does not worry about wire level protocol
+  - Supports messaging models with queues and topics
+  - Supports transactions
+  - Defines the message format (headers, properties and body)
 - **.Net Messaging Service**
-    - MS alternative to support their platform and programming languages
+  - MS alternative to support their platform and programming languages
 
 ![](../../../Assets/Pasted%20image%2020250130124107.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1738239852182-->
+
 END
 
 ---
@@ -3404,18 +3594,19 @@ Jaké jsou výhody a nevýhody **Asynchronous messaging** architektury? (3 + 2)
 Back:
 
 **Pros**
+
 - ability to store (buffer), route, or transform messages while conveying them from senders to receivers
 - by adding an administrative interface, you can monitor and tune performance => the messaging system, not components, resolves issues like interoperability, reliability, security, scalability and performance
 - messages storing solves intermittent connectivity and sender/receiver failure problems
 
 **Cons**
+
 - Bus/Broker maintenance
 - Many inter-application communications have an intrinsically synchronous aspect => a need for facilities to group a request and a response as a single pseudo-synchronous transaction
-<!--ID: 1738239852185-->
-END
+  <!--ID: 1738239852185-->
+  END
 
 ---
-
 
 ### Blackboard architecture
 
@@ -3429,40 +3620,38 @@ Back:
 How to design a system that integrates large and diverse specialized modules, and implements complex, non-deterministic control strategy.
 
 - Blackboard
-    - a structured global memory containing objects from the solution space
+  - a structured global memory containing objects from the solution space
 - Knowledge sources (agents)
-    - specialized modules with their own representation
+  - specialized modules with their own representation
 - Control component
-    - selects, configures and executes modules
+  - selects, configures and executes modules
 
 <!-- ExampleStart -->
+
 - Useful for problems for which NO deterministic solution strategies are known
 - Several specialised sub-systems assemble their knowledge to build a possibly partial or approximate solution
 - Domains:
-    - speech recognition
-    - OCR
-    - protein structure identification
-    - sonar signals interpretation
+  - speech recognition
+  - OCR
+  - protein structure identification
+  - sonar signals interpretation
 
 **StackOverflow**
 _StackOverflow is pretty much a Blackboard system, with developers as agents, sharing their expert knowledge about the undetermined problems set on the board._
 
 **Speech recognition**
+
 - Procedures (knowledge sources)
-    - A procedure divides the waveform into segments (phones)
-    - Another procedure checks the syntax of candidate phrases
-    - …
+  - A procedure divides the waveform into segments (phones)
+  - Another procedure checks the syntax of candidate phrases
+  - …
 - There is no consistent algorithm that combines all the necessary procedures for recognising speech
-- Problem = ambiguities of spoken language:
-    - noisy data
-    - peculiarities of speakers
-    - vocabulary
-    - pronunciation
-    - syntax
-![](../../../Assets/Pasted%20image%2020250130124453.png)
+- Problem = ambiguities of spoken language: - noisy data - peculiarities of speakers - vocabulary - pronunciation - syntax
+  ![](../../../Assets/Pasted%20image%2020250130124453.png)
 
 <!-- ExampleEnd -->
 <!--ID: 1738239852187-->
+
 END
 
 ---
@@ -3477,16 +3666,14 @@ Back:
 Ne, už se to nepoužívá, protože to bylo špatně škálovatelné na tehdejších počítačích.
 
 <!-- DetailInfoStart -->
+
 - solution for designing and implementing complex systems where heterogeneous modules have to be dynamically combined to solve a complex problem
 - offers non-functional properties such as: reusability, changeability, robustness.
 - allows multiple agents to work closer together on separate threads, polling and reacting when necessary
-- The pattern was abandoned in past because:
-    - Did not scale well to real problems on the available computers of the time
-    - Most problems using blackboards are inherently NP-hard, so resist tractable solution by any algorithm in the large size limit
-    - Blackboard was outperformed by statistical pattern recognition techniques, most notably by simple Hidden Markov Models
-<!-- DetailInfoEnd -->
-<!--ID: 1738239852189-->
-END
+- The pattern was abandoned in past because: - Did not scale well to real problems on the available computers of the time - Most problems using blackboards are inherently NP-hard, so resist tractable solution by any algorithm in the large size limit - Blackboard was outperformed by statistical pattern recognition techniques, most notably by simple Hidden Markov Models
+  <!-- DetailInfoEnd -->
+  <!--ID: 1738239852189-->
+  END
 
 ---
 
@@ -3502,22 +3689,26 @@ Back:
 Rule-based architectures provide a means of codifying the problem-solving knowhow of human experts.
 
 - The basic features of a rule-based architecture are essentially the features of a table-driven interpreter:
-    - The pseudo-code to be executed, in this case the knowledge base
-    - The interpretation engine, in this case the rule interpreter, the heart of the inference engine
-    - The control state of the interpretation engine, in this case the rule and data element selector
-    - The current state of the program running on the virtual machine, in this case the working memory.
+  - The pseudo-code to be executed, in this case the knowledge base
+  - The interpretation engine, in this case the rule interpreter, the heart of the inference engine
+  - The control state of the interpretation engine, in this case the rule and data element selector
+  - The current state of the program running on the virtual machine, in this case the working memory.
 
 ![](../../../Assets/Pasted%20image%2020250130124714.png)
 
 <!-- ExampleStart -->
+
 **Biochemical models of living organisms**
+
 - Groups of mutually corresponding substances are subject to mutually corresponding interactions.
 - BioNetGen, a widely used tool for rule-based modeling of biochemical reactions. It includes a language to describe chemical substances, including the states they can assume and the bindings they can undergo. These rules can be used to create a reaction model or to perform computer simulations directly on the rule set.
 - The biochemical modeling framework Virtual Cell includes a BioNetGen interpreter.
 
 ![](../../../Assets/Pasted%20image%2020250130124758.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1738239852192-->
+
 END
 
 ---
@@ -3530,17 +3721,13 @@ Jaká je struktura **Rule-based architecture** architektury?
 Back:
 
 - Knowledge is stored as rules in the rule-base (also known as the knowledge base).
-    - Rules are of the form: `IF condition THEN action`.
+  - Rules are of the form: `IF condition THEN action`.
 - The condition tests working memory, e.g. for the presence of certain symbols or patterns of symbols.
-    - conditions are expressed logically as conjunctions (occasionally, disjunctions) of predicates, in some systems, some conditions correspond to sensor data
+  - conditions are expressed logically as conjunctions (occasionally, disjunctions) of predicates, in some systems, some conditions correspond to sensor data
 - The action can be a change in working memory or an external operation supported by the interpreter.
-- Interpreter performs the **match-resolve-act** cycle:
-    - **Match**: In this first phase, the left-hand sides of all rules are matched against the contents of working memory. As a result a conflict set is obtained, which consists of instantiations of all satisfied rules.
-        - An instantiation of a rule is an ordered list of working megnory elements that satisfies the left-hand side of the production.
-    - **Conflict-Resolution**: In this second phase, one of the rule instantiations in the conflict set is chosen for execution. If no rules are satisfied, the interpreter halts.
-    - **Act**: In this third phase, the actions of the rule selected in the conflict-resolution phase are executed. These actions may change the contents o% working memory. At the end of this phase, execution returns to the first phase.
-<!--ID: 1738239852194-->
-END
+- Interpreter performs the **match-resolve-act** cycle: - **Match**: In this first phase, the left-hand sides of all rules are matched against the contents of working memory. As a result a conflict set is obtained, which consists of instantiations of all satisfied rules. - An instantiation of a rule is an ordered list of working megnory elements that satisfies the left-hand side of the production. - **Conflict-Resolution**: In this second phase, one of the rule instantiations in the conflict set is chosen for execution. If no rules are satisfied, the interpreter halts. - **Act**: In this third phase, the actions of the rule selected in the conflict-resolution phase are executed. These actions may change the contents o% working memory. At the end of this phase, execution returns to the first phase.
+  <!--ID: 1738239852194-->
+  END
 
 ---
 
@@ -3559,6 +3746,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250130124958.png)
 <!--ID: 1738239852197-->
+
 END
 
 ---
@@ -3571,15 +3759,17 @@ Jaké jsou 2 topologie **Publish-subscribe** architektury?
 Back:
 
 **Bus/Broker**
+
 - publishers odesílají zprávy do message brokeru nebo event busu
 - subscribers se zaregistrují v daném brokeru
 - broker provádí filtraci a routing zpráv (příp. prioritizaci)
 
 **Data Distribution Service (DDS)**
+
 - Každý publisher a subscriber o sobě sdílí meta-data přes IP multicast (tzn. všichni o sobě vědí), tyto informace si každý publisher/subscriber cachuje
 - Podle meta-dat publisher rovnou posílá informace subscriberovi
-<!--ID: 1738239852199-->
-END
+  <!--ID: 1738239852199-->
+  END
 
 ---
 
@@ -3591,25 +3781,26 @@ Jaká je struktura **Publish-subscribe** architektury? (todo smazat tuhle karti�
 Back:
 
 **Filtering forms**
+
 - Topic-based
-    - Messages are published to “topics” or named logical channels. The publisher is responsible for defining that.
-    - Subscribers receive all messages published to the topics to which they subscribe.
-    - All subscribers to a topic will receive the same messages.
+  - Messages are published to “topics” or named logical channels. The publisher is responsible for defining that.
+  - Subscribers receive all messages published to the topics to which they subscribe.
+  - All subscribers to a topic will receive the same messages.
 - Content-based
-    - Messages are only delivered to a subscriber if the attributes or content of those messages match constraints defined by the subscriber.
-    - The subscriber is responsible for classifying the messages.
+  - Messages are only delivered to a subscriber if the attributes or content of those messages match constraints defined by the subscriber.
+  - The subscriber is responsible for classifying the messages.
 - Hybrid
-    - Some systems support a hybrid of the two; publishers post messages to a topic while subscribers register content-based subscriptions. to one or more topics.
+  - Some systems support a hybrid of the two; publishers post messages to a topic while subscribers register content-based subscriptions. to one or more topics.
 
 **Registration time**
+
 - Build time
-    - For example: in GUI systems, subscribers can be coded to handle user commands (e.g., click of a button)
+  - For example: in GUI systems, subscribers can be coded to handle user commands (e.g., click of a button)
 - Initialization time
-    - For example: there are frameworks and software products using XML configuration files to register subscribers during system initialization
-- Runtime
-    - For example: database triggers, mailing lists, and RSS
-<!--ID: 1738239852202-->
-END
+  - For example: there are frameworks and software products using XML configuration files to register subscribers during system initialization
+- Runtime - For example: database triggers, mailing lists, and RSS
+  <!--ID: 1738239852202-->
+  END
 
 ---
 
@@ -3621,12 +3812,10 @@ Jaké jsou nevýhody **publish-subscribe** architektury? (2)
 Back:
 
 - **Message delivery issues**
-    - Publishing recipes by subscribers
-- **Limited maximum scalability of a pub/sub network**
-    - Load surges: periods when subscriber requests saturate network throughput followed by periods of low message volume (underutilized network bandwidth)
-    - Slowdowns: as more and more applications use the system (even if they are communicating on separate pub/sub channels) the message volume flow to an individual subscriber will slow
-<!--ID: 1738239852204-->
-END
+  - Publishing recipes by subscribers
+- **Limited maximum scalability of a pub/sub network** - Load surges: periods when subscriber requests saturate network throughput followed by periods of low message volume (underutilized network bandwidth) - Slowdowns: as more and more applications use the system (even if they are communicating on separate pub/sub channels) the message volume flow to an individual subscriber will slow
+  <!--ID: 1738239852204-->
+  END
 
 ---
 
@@ -3635,6 +3824,7 @@ END
 ### Design patterny
 
 #### Marker interface
+
 START
 FIT-Card
 
@@ -3657,6 +3847,7 @@ public interface Serializable {
 
 Another example in Java is **Cloneable**.
 <!--ID: 1738239852207-->
+
 END
 
 ---
@@ -3677,6 +3868,7 @@ Multiton pattern ensures there are a predefined amount of instances available gl
 **Kdy se používá:**
 There must be a specific number of instances of a class, and they must be accessible to clients from a well-known access point.
 <!--ID: 1738239852209-->
+
 END
 
 ---
@@ -3694,12 +3886,13 @@ Back:
 
 - **Entities** - doménové modely dat
 - **Use cases** - byznys logika
-- **Interface adapters** - rozhraní mezi byznys logikou a externím systémem. Controllers, Presenters, Gateways,... 
+- **Interface adapters** - rozhraní mezi byznys logikou a externím systémem. Controllers, Presenters, Gateways,...
 - **Frameworks and drivers** - Externí dependencies (databáze, frameworky)
 
 ![](../../../Assets/Pasted%20image%2020250130125527.png)
 
 <!-- DetailInfoStart -->
+
 **Dependency rule**
 
 The concentric circles represent different areas of software. In general, the further in you go, the higher level the software becomes. The outer circles are mechanisms. The inner circles are policies.
@@ -3757,12 +3950,13 @@ Typically the data that crosses the boundaries is simple data structures. You ca
 For example, many database frameworks return a convenient data format in response to a query. We might call this a RowStructure. We don’t want to pass that row structure inwards across a boundary. That would violate The Dependency Rule because it would force an inner circle to know something about an outer circle.
 
 So when we pass data across a boundary, it is always in the form that is most convenient for the inner circle.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1738239852212-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -3776,8 +3970,8 @@ Back:
 - **Independent of UI** - Měl bych být schopný změnit UI bez zásahu do byznys logiky
 - **Independent of Database** - Business pravidla by neměla být závislá na konkrétní databázi, měl bych být schopný ji jednoduše měnit.
 - **Independent of any external agency** - business pravidla by neměla vědět nic o vnějším světě.
-<!--ID: 1738333522807-->
-END
+  <!--ID: 1738333522807-->
+  END
 
 ---
 
@@ -3795,15 +3989,15 @@ Je to decentralizovaná architektura, kde každé zařízení (peer) sdílí č�
 Nepotřebuje to centrální server, každý účastník se chová jako klient a server.
 
 <!-- ExampleStart -->
+
 1. **BitTorrent**: A popular file-sharing protocol that uses P2P for distributing large amounts of data.
 2. **Bitcoin**: A well-known cryptocurrency that operates on a P2P network for transaction verification and ledger maintenance.
 3. **Skype**: Utilizes P2P technology for voice and video calls.
-<!-- ExampleEnd -->
-<!--ID: 1738239852214-->
-END
+   <!-- ExampleEnd -->
+   <!--ID: 1738239852214-->
+   END
 
 ---
-
 
 START
 FIT-Card
@@ -3817,8 +4011,8 @@ Back:
 3. **Grid Computing**: P2P can be used for grid computing where the processing power of several computers is combined to work on complex tasks.
 4. **Communication**: Applications like Skype and VoIP services utilize P2P for direct peer-to-peer communication.
 5. **Content Distribution**: P2P networks are used by content delivery networks (CDNs) to distribute large files efficiently.
-<!--ID: 1738239852217-->
-END
+   <!--ID: 1738239852217-->
+   END
 
 ---
 
@@ -3842,8 +4036,8 @@ Nevýhody:
 2. **Inconsistent Performance**: The performance can vary depending on the peers’ capabilities and availability.
 3. **Legal and Ethical Issues**: P2P networks can be misused for distributing pirated or illegal content.
 4. **Complex Management**: Managing and troubleshooting a P2P network can be more complex than traditional networks.
-<!--ID: 1738239852220-->
-END
+   <!--ID: 1738239852220-->
+   END
 
 ---
 
@@ -3862,17 +4056,19 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250130130002.png)
 
 <!-- ExampleStart -->
+
 1. **Database Replication**: In database systems, the master database manages data and replicates it to one or more slave databases. This ensures data redundancy and high availability. ![](../../../Assets/Pasted%20image%2020250130130021.png)
 2. **Load Balancing**: In web server applications, the master server distributes client requests to multiple slave servers, balancing the load and enhancing performance.
 3. **Parallel Processing**: For tasks requiring significant computational resources, this architecture can be used to parallelize the workload across multiple slave nodes.
 
 Konkrétní examples:
+
 - **Apache Hadoop**: Uses this architecture for distributed data processing.
 - **MySQL Replication**: Implements master-slave replication for database redundancy.
 - **Distributed Computing Frameworks**: Like Apache Spark, where the master node manages task distribution to worker nodes.
-<!-- ExampleEnd -->
-<!--ID: 1738239852222-->
-END
+  <!-- ExampleEnd -->
+  <!--ID: 1738239852222-->
+  END
 
 ---
 
@@ -3884,16 +4080,18 @@ Jaké jsou výhody a nevýhody **Master-slave** architektury? (3 + 3)
 Back:
 
 **Pros**
+
 1. **Efficiency**: By distributing tasks, it enhances the overall efficiency and speed of the system.
 2. **Scalability**: It’s easier to add more slave components to handle increased load.
 3. **Fault Tolerance**: Failure of a slave component does not bring down the entire system.
 
 **Cons**
+
 1. **Single Point of Failure**: If the master fails, the entire system can become inoperative.
 2. **Complexity**: Managing communication and synchronization between master and slaves can be complex.
 3. **Scalability Limits**: The architecture can become bottlenecked by the master’s capacity.
-<!--ID: 1738239852225-->
-END
+   <!--ID: 1738239852225-->
+   END
 
 ---
 
@@ -3911,19 +4109,21 @@ The Pipe and Filter architecture is a design pattern used in software engineerin
 ![](../../../Assets/Pasted%20image%2020250130130241.png)
 
 <!-- ExampleStart -->
+
 1. **Data Processing:** Ideal for applications where data needs to be processed in stages, such as signal processing or text analysis.
 2. **Streaming Applications:** Suitable for real-time data processing in streaming applications.
 3. **Compiler Design:** Commonly used in compilers where different stages of compilation (lexical analysis, parsing, semantic analysis, etc.) are handled by separate filters.
 4. **Image Processing:** Effective in scenarios where images are processed in a series of steps, like filters in photo editing software.
 
 Konkrétní příklady:
+
 1. **Unix Shell Commands:** Unix shell commands like `grep`, `awk`, and `sed` can be piped together to perform complex text processing tasks.
 2. **Image Processing Pipeline:** A series of filters for tasks like noise reduction, color correction, and edge detection in a photo editing application.
 3. **Data Analytics Pipeline:** In data analytics, filters can be used for cleansing, transforming, and aggregating data before analysis.
 4. **Audio Processing:** In audio engineering, a series of filters are used for equalization, compression, and effects like reverb.
-<!-- ExampleEnd -->
-<!--ID: 1738239852227-->
-END
+   <!-- ExampleEnd -->
+   <!--ID: 1738239852227-->
+   END
 
 ---
 
@@ -3935,18 +4135,20 @@ Jaké jsou výhody a nevýhody **Pipe and filter** architektury? (4 + 4)
 Back:
 
 **Pros**
+
 1. **Modularity:** Encourages modular design, making the system easier to understand, maintain, and modify.
 2. **Reusability:** Filters can be reused in different systems or in different configurations within the same system.
 3. **Parallel Processing:** Different filters can process data simultaneously, leveraging multi-core processors for improved performance.
 4. **Flexibility:** Easy to add, remove, or replace filters, allowing for flexible system design and adaptation to changing requirements.
 
 **Cons**
+
 1. **Performance Overhead:** The overhead of data passing between filters can impact performance, especially in high-throughput systems.
 2. **Complexity in State Management:** Managing state across filters can be challenging, particularly in stateful filters.
 3. **Debugging Difficulty:** Debugging can be difficult due to the distributed nature of processing.
 4. **Limited Interactivity:** Not well-suited for interactive applications where immediate feedback is required, as data must pass through the entire pipeline.
-<!--ID: 1738239852230-->
-END
+   <!--ID: 1738239852230-->
+   END
 
 ---
 
@@ -3969,10 +4171,10 @@ This architectural pattern may be applied by the design and implementation of ap
 
 Building systems around an event-driven architecture simplifies horizontal scalability in distributed computing models and makes them more resilient to failure. This is because application state can be copied across multiple parallel snapshots for high-availability. New events can be initiated anywhere, but more importantly propagate across the network of data stores updating each as they arrive. Adding extra nodes becomes trivial as well: you can simply take a copy of the application state, feed it a stream of events and run with it.
 <!--ID: 1738239852233-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -3993,10 +4195,10 @@ Broker topology is useful when you have a relatively simple event processing flo
 
 ![](../../../Assets/Pasted%20image%2020250130130718.png)
 <!--ID: 1738239852235-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -4006,22 +4208,18 @@ Jaké jsou výhody a nevýhody **Event driven** architektury? (4 + 1)
 Back:
 
 **Výhody:**
+
 - Strong support for request
-	- Any component can be introduced into a system simply by registering it for the events of that system.
+  - Any component can be introduced into a system simply by registering it for the events of that system.
 - Easy system evolution
-	- Components may be replaced by other components without affecting the interfaces of other components in the system.
+  - Components may be replaced by other components without affecting the interfaces of other components in the system.
 - Well distributed
-	- It is because an event can be almost anything and exist almost anywhere.
-- Extreme loose coupling (within space, time and synchronization)
-	- Events do not know which components will be affected by those events.
-	- Provides a scalable infrastructure for information exchange and distributed workflows.
-	- Components cannon make assumptions about order of processing, or even about what processing will occur as a result of their events.
-		- For this reason, most implicit invocation systems also include explicit invocation (i.e., normal procedure call) as a complementary form of interaction.
-**Nevýhody:**
-- Tightly coupled to the semantics of the underlying event schema and values
-	- The high degree of semantic heterogeneity of events makes it difficult to develop and maintain event-based systems.
-<!--ID: 1738239852238-->
-END
+  - It is because an event can be almost anything and exist almost anywhere.
+- Extreme loose coupling (within space, time and synchronization) - Events do not know which components will be affected by those events. - Provides a scalable infrastructure for information exchange and distributed workflows. - Components cannon make assumptions about order of processing, or even about what processing will occur as a result of their events. - For this reason, most implicit invocation systems also include explicit invocation (i.e., normal procedure call) as a complementary form of interaction.
+  **Nevýhody:**
+- Tightly coupled to the semantics of the underlying event schema and values - The high degree of semantic heterogeneity of events makes it difficult to develop and maintain event-based systems.
+  <!--ID: 1738239852238-->
+  END
 
 ---
 
@@ -4058,6 +4256,7 @@ A microservices architecture provides this flexibility, as different engineering
 
 DevOps thrives on incremental improvements derived from real-time user feedback, technology changes, use cases, and other sources. As you’ll see in the section below on DevOps components, this is a continuous process based on CI/CD principles.
 <!--ID: 1738239852240-->
+
 END
 
 ---
@@ -4101,6 +4300,7 @@ Monitoring isn’t just the last step in the DevOps process flow. Teams should b
 
 DevOps engineers use various tools that increase observability of the way architecture components work over time to tackle issues that elude manual and automated testing processes. These tools detect and report anomalies automatically, so that teams can correct the code before users encounter issues.
 <!--ID: 1738239852243-->
+
 END
 
 ---

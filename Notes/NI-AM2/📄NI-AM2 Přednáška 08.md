@@ -3,7 +3,6 @@ created: 2025-04-13T13:17:04
 title: "Cloud Computing"
 up: "[[📖NI-AM2]]"
 ---
-
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 prednaska08 status-toReview
 
@@ -21,7 +20,7 @@ Aplikace už při návrhu a implementaci musí uživatele chápat tak, že využ
 ![](../../Assets/Pasted%20image%2020250413145333.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887308-->
 END
 
 ---
@@ -35,7 +34,7 @@ Co je lift and shift princip?
 Back:
 
 Když mi někde běží aplikace a chci ji přesunout do cloudu, měl bych být schopný ji jen "vzít a nainstalovat a spustit v cloudu" - tzn. neměl by být moc rozdíl jestli mi aplikace běží lokálně, na nějakém serveru nebo v cloudu.
-
+<!--ID: 1746518887312-->
 END
 
 ---
@@ -53,7 +52,7 @@ Zdroje jsou sdílené mezi tenantama nebo consumerama
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145740.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887315-->
 END
 
 ---
@@ -72,7 +71,7 @@ Infrastruktura je sdílena přes virtual machines
 ![](../../Assets/Pasted%20image%2020250413145831.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887318-->
 END
 
 ---
@@ -92,7 +91,7 @@ Není žádná mezivrstva mezi operačním systémem a aplikací, sám OS poskyt
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145857.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887320-->
 END
 
 ---
@@ -118,7 +117,7 @@ Zahrnuje to i:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413150232.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887323-->
 END
 
 ---
@@ -133,7 +132,7 @@ Back:
 
 - Region = Kde se nachází moje aplikace
 - Je důležit kvůli **latency** a **regulations**
-
+<!--ID: 1746518887326-->
 END
 
 ---
@@ -147,7 +146,7 @@ Když mám data uživatelů, co jsou z Evropy, v jakém regionu můžu ukládat 
 Back:
 
 Obecně musím ukládat data v regionu odkud je daný uživatel (z hlediska práva)
-
+<!--ID: 1746518887328-->
 END
 
 ---
@@ -168,7 +167,7 @@ Mezi datovými centry je fyzická síť, nad ní je virtuální síť a nad tou 
 ![](../../Assets/Pasted%20image%2020250413151106.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887331-->
 END
 
 ---
@@ -193,7 +192,7 @@ Gen 2.0:
 ![](../../Assets/Pasted%20image%2020250413151419.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887334-->
 END
 
 ---
@@ -207,7 +206,7 @@ FIT-Card
 Back:
 
 Virtual Cloud Network
-
+<!--ID: 1746518887336-->
 END
 
 ---
@@ -231,7 +230,7 @@ V rámci VCN tedy máme typicky několik subnetů
 ![](../../Assets/Pasted%20image%2020250413151633.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887339-->
 END
 
 ---
@@ -255,7 +254,7 @@ Typicky člověk na úrovni subnetů pak nastavuje firewally a routovací tabulk
 ![](../../Assets/Pasted%20image%2020250413152018.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887342-->
 END
 
 ---
@@ -273,7 +272,7 @@ Bastion je "výčlenek" v rámci opevnění hradu, kde může sedět člověk a 
 V cloudu to je vstupní bod do dané infrastruktury.
 
 Tzn. bastion je na public síti, z bastionu pak můžu přistupovat do té privátní sítě. (Jako na NI-PDP člověk má "frontend" node a přes něj se dají pouštět věci na dalších nodes.)
-
+<!--ID: 1746518887345-->
 END
 
 ---
@@ -291,7 +290,7 @@ Může se stát, že máme 2 VCN a ty chci nějak propojit (např. každá VCN p
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413152441.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887348-->
 END
 
 ---
@@ -306,7 +305,7 @@ Back:
 
 **Local Peering** = 2 VCN v rámci jednoho regionu
 **Remote Peering** = 2 VCN v rámci více regionů
-
+<!--ID: 1746518887351-->
 END
 
 ---
@@ -328,7 +327,7 @@ Typicky poskytovatel má předdefinované shapy a já si je vyberu
 
 ![](../../Assets/Pasted%20image%2020250413152950.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887354-->
 END
 
 ---
@@ -343,7 +342,7 @@ Back:
 
 Multi-tenantní model
 - Hypervizor virtualizuje nad Bare Metal serverem a vytváří tím více Virtual Machines
-
+<!--ID: 1746518887356-->
 END
 
 ---
@@ -359,7 +358,7 @@ Back:
 Služba single-tenantního model
 - Můžu si pronajmout fyzický server (vyloženě mám hardware celý pro sebe)
 - Mám přímý access k hardwaru (pro určté úlohy se to může hodit, můžu si nainstalovat vlastní hypervizor)
-
+<!--ID: 1746518887359-->
 END
 
 ---
@@ -375,7 +374,7 @@ Back:
 Single-tenant model:
 - Hypervizor je spravovaný poskytovatelem, ale mám fyzický server celý pro sebe.
 - (Je to podobný jako Bare Metal, ale tady mi hypervizora spravuje poskytovatel)
-
+<!--ID: 1746518887362-->
 END
 
 ---
@@ -395,7 +394,7 @@ Template pro virtuální hard drive s operačním systémem (jako v dockeru).
 Poskytovatel typicky poskytuje základní images - Ubuntu, Windows Server atd.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887365-->
 END
 
 ---
@@ -419,7 +418,7 @@ Typicky tam člověk má nastavený i limity, aby se to nenaškálovalo moc (kdy
 
 ![](../../Assets/Pasted%20image%2020250413153952.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887368-->
 END
 
 ---
@@ -435,7 +434,7 @@ Back:
 Typicky to je míň efektivní než Kubernetes, protože když chci např. nahodit nový node, tak to nahazuju přímo v infrastruktuře a může trvat třeba 2 minuty, než se mi nakopne nový server.
 
 V Kubernetes se to dá víc ošéfit
-
+<!--ID: 1746518887371-->
 END
 
 ---
@@ -459,7 +458,7 @@ Jsou 2 typy:
 ![](../../Assets/Pasted%20image%2020250413154752.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887373-->
 END
 
 ---

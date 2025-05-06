@@ -4,8 +4,9 @@ title: Úvod do HTTP
 up:
   - "[[📖NI-AM1]]"
 ---
+
 wšdqW
-TARGET DECK: NI-AM1
+TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska06 status-toReview
 
 ## Úvod HTTP
@@ -20,13 +21,15 @@ Back:
 To, že server může poslat response klientovi, aniž by klient poslal request.
 
 <!-- DetailInfoStart -->
+
 Mometálně se to moc nepoužívá kvůli výkonu
+
 <!-- DetailInfoEnd -->
 <!--ID: 1731175818739-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -38,15 +41,17 @@ Back:
 Jednotlivý interakce HTTP request-response spolu nejsou propojené a jsou navzájem nezávislé. (Když si odmyslíme autentikační headery)
 
 <!-- DetailInfoStart -->
+
 K tomu propojení slouží **hypertext**, díky kterému jsem schopný udržovat nějaký stav (to souvisí s HATEOAS).
 
 V HTTP 2 můžu např. udržovat stav pomocí cookies.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1731175818742-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -63,23 +68,27 @@ method uri http-version <crlf>
 ```
 
 <!-- DetailInfoStart -->
-Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku) 
+
+Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku)
 ![](../../../Assets/Pasted%20image%2020241104094028.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ```
 GET /users HTTP/1.1
 header: value
 
 body
 ```
+
 <!-- ExampleEnd -->
 <!--ID: 1731175818744-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -96,19 +105,24 @@ http-version response-code [ message ] <crlf>
 ```
 
 <!-- DetailInfoStart -->
+
 Sémantika HTTP a HTTP 2 je prakticky stejná (až na jednu hlavičku)
 ![](../../../Assets/Pasted%20image%2020241104094028.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ```
 HTTP/1.1 200 Success
 header: value
 
 body
 ```
+
 <!-- ExampleEnd -->
 <!--ID: 1731175818747-->
+
 END
 
 ---
@@ -123,17 +137,17 @@ Back:
 Pro úvodní načtení průměrně 90 requestů.
 
 <!-- DetailInfoStart -->
+
 - HTML - 10 requetů
 - Images - 55 requestů
 - Javascript - 15 requestů
 - CSS - 5 requestů
 - Other - 5 requestů
-<!-- DetailInfoEnd -->
-<!--ID: 1731175818752-->
-END
+  <!-- DetailInfoEnd -->
+  <!--ID: 1731175818752-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -147,7 +161,8 @@ Origin je hostname, protokol (správněji schéma) a port.
 V aplikaci můžu uměle vytořit více originů pomocí shardů tím, že si vytvořím na doméně více poddomén -> mám jiné hostnames.
 
 <!-- ExampleStart -->
-Mám jednu doménu, já si ale udělám více podomén. Díky tomu můžu zvýšit počet spojení o 6 (protože vytvářím jiné originy). 
+
+Mám jednu doménu, já si ale udělám více podomén. Díky tomu můžu zvýšit počet spojení o 6 (protože vytvářím jiné originy).
 
 Díky tomu může být více spojení, ale samozřejmě to má nevýhodu, protože to najednou může více zatížit server (a je tam trošku větší režie). Sharding tedy může věci zrychlit, ale neměl bych to přehánět, měl bych monitorovat, kolik shardů je pro mě optimální.
 
@@ -158,10 +173,10 @@ Na serveru si pak vytvořím virtual host, aby mi to pro ty poddomény zpracová
 
 <!-- ExampleEnd -->
 <!--ID: 1731175818754-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -172,10 +187,10 @@ Back:
 
 `Authorization` hlavička, ve které klient posílá tokeny pro autorizaci.
 <!--ID: 1731175818757-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -186,8 +201,8 @@ Back:
 
 - **Cookies** (+ session tabulky na serveru)
 - **Hypertext** (HATEOAS)
-<!--ID: 1731175818759-->
-END
+  <!--ID: 1731175818759-->
+  END
 
 ---
 
@@ -204,21 +219,25 @@ Back:
 4. Klient přijme request a pak kopíruje do všech requestů ten identifikátor (idčko).
 
 <!-- DetailInfoStart -->
+
 Server vytvoří session tak, že má v tabulce ID a value. Když vytvoří session, vytvoří záznam, který reprezentuje danou session.
 
 Value jsou nějaké informace o té session.
 
-Ta tabulka je uložena v paměti (RAMce). Když vypadne server, tak se zruší všechny sessions. 
+Ta tabulka je uložena v paměti (RAMce). Když vypadne server, tak se zruší všechny sessions.
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241104102716.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1731175818762-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -231,10 +250,10 @@ Ukládá se do RAM paměti.
 
 Když vypadne server, zruší se tím všechny session.
 <!--ID: 1731175818765-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -245,10 +264,10 @@ Back:
 
 Můžu si sessions ukládat do databáze (perzistentního uložiště).
 <!--ID: 1731175818767-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -259,10 +278,10 @@ Back:
 
 Server, který si uchovává stav například pomocí cookies a session tabulky (uložené v RAM nebo v databázi).
 <!--ID: 1731175818770-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -271,14 +290,14 @@ Používá se v praxi HATEOAS?
 
 Back:
 
-Je to fajn koncept, ale reálně se to moc nepoužívá, protože je prostě jednodušší si držet stav na serveru (pomocí sessions). 
+Je to fajn koncept, ale reálně se to moc nepoužívá, protože je prostě jednodušší si držet stav na serveru (pomocí sessions).
 <!--ID: 1731175818772-->
+
 END
 
 ---
 
 ### Bezpečnost
-
 
 START
 FIT-Card
@@ -289,11 +308,10 @@ Back:
 
 - **Message-level security**
 - **Transport-level security**
-<!--ID: 1731175818775-->
-END
+  <!--ID: 1731175818775-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -304,10 +322,10 @@ Back:
 
 To že řešíme **autorizaci** (že mám právo něco dělat)
 <!--ID: 1731175818777-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -318,11 +336,10 @@ Back:
 
 - **Jméno heslo**
 - **Certifikát**
-<!--ID: 1731175818780-->
-END
+  <!--ID: 1731175818780-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -333,10 +350,10 @@ Back:
 
 Např. role
 <!--ID: 1731175818782-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -352,13 +369,15 @@ Back:
 - **Nepopiratelnost** - to že nejsem schopný popřít, že jsem udělal určitou akci
 
 <!-- DetailInfoStart -->
+
 Ta nepopiratelnost je zajímavá v tom, že si hodně systémů prostě drží "stopy" a data o tom, co uživatelé dělají -> je těžký být anonymní na internetu, protože se všechno možný loguje.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1731175818785-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -370,6 +389,7 @@ Back:
 Základní způsob **autentizace**.
 
 Jak funguje:
+
 1. Uživatel přistoupí na zdroj
 2. Server zkontroluje autorizační hlavičku, zjistí že klient není autentizovaný
 3. Server pošle klientovi response, že není autentizovaný a pošle mu informace o tom, jak se má autentizovat
@@ -377,19 +397,23 @@ Jak funguje:
 5. Server pak odpoví
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241104104054.png)
+
 <!-- ImageEnd -->
 
 <!-- DetailInfoStart -->
+
 Jméno a heslo se zakódují base64 (nikoliv zašifrují)! Tedy kdokoliv kdo by odposlechnul text si to může přečíst a získat jméno a heslo. Proto je třeba používat zabezpečený protokol HTTPS, aby da data byla zašifrovaná.
 
 ![](../../../Assets/Pasted%20image%2020241104104219.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1731175818787-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -401,9 +425,12 @@ Back:
 Mezi klientem a serverem se **neposílá heslo**, ale jeho **hash**. **Ani server nezná to heslo.**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241104104358.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1731175818790-->
+
 END
 
 ---

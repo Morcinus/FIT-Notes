@@ -3,7 +3,6 @@ created: 2025-02-17T09:15:59
 title: "Motivace"
 up: "[[📖NI-AM2]]"
 ---
-
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 prednaska01 status-toReview
 
@@ -20,6 +19,7 @@ Aplikace, kterou už od začátku budujeme tak, aby byla dobře použitelná v c
 
 Vpodstatě to znamená, že člověk používá Kubernetes. (Hodně lidí to tak chápe)
 
+<!--ID: 1746518365862-->
 END
 
 ---
@@ -42,7 +42,7 @@ Např.
 - Machine learning - použiju Python
 - GUI - použiju javascript
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518365864-->
 END
 
 ---
@@ -56,7 +56,7 @@ Jak se vyslovuje správně JWT?
 Back:
 
 jot (džot) :D
-
+<!--ID: 1746518365867-->
 END
 
 ---
@@ -75,6 +75,7 @@ Docker in Docker - když používám docker container v docker containeru
 Obecně to nemusí být vhodný pro nasazení do produkčního prostředí.
 <!-- DetailInfoEnd -->
 
+<!--ID: 1746518365870-->
 END
 
 ---

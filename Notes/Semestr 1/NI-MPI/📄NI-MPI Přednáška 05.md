@@ -4,7 +4,7 @@ title: Analýza vázané extrémy - příklady
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska05 status-toReview analyza3
 
 ![](../../../Assets/Pasted%20image%2020241017092333.png)
@@ -120,6 +120,7 @@ Tzn. **dosadíme body do té soustavy rovnic** a najdeme $\lambda$, aby ta soust
 
 Nemusíme to hledat, ale jen to dopočítáme (čímž se to ulehčí).
 <!--ID: 1729236692597-->
+
 END
 
 ---
@@ -170,7 +171,7 @@ $$
 & \left( a , 0 \right) \begin{pmatrix} 3 & 0 \\ 0 & -1 \end{pmatrix} \begin{pmatrix} a \\ 0 \end{pmatrix} 3a^2 >0  \quad \text{\small{pro }} a \neq 0 \\
 & \text{\small{Máme podezření na ostré lokální minimum}}  \\
 & \text{\small{\textbf{Pozor!} Máme nerovnostní vazbu a musíme zkontrolovat znaménko multiplikátoru}} \\
-& \text{\small{Multiplikátor je záporný, jsem na špatné straně hranice a \textbf{není}  to tedy minimum!}} 
+& \text{\small{Multiplikátor je záporný, jsem na špatné straně hranice a \textbf{není}  to tedy minimum!}}
 \end{align*}
 $$
 
@@ -233,6 +234,7 @@ Je to protože budou existovat body, které jsou **výše** nebo **níže**.
 
 <!-- ExplanationEnd -->
 <!--ID: 1729236692608-->
+
 END
 
 ---

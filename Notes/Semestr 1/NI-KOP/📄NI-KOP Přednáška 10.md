@@ -5,7 +5,7 @@ up:
   - "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP-2
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska10 status-toReview
 
 ### Evoluční strategie
@@ -22,10 +22,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749556-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -36,10 +36,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241208141020.png)
 <!--ID: 1735205749558-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -49,20 +49,23 @@ Jak funguje rekombinace při nasazení evoluční strategie?
 Back:
 
 Mám 3 možnosti:
+
 - **Diskrétní** - pro každou dimenzi je náhodně vybrán rodič
 - **Střední** - vyberu si rodiče a ty zprůměruju
 - **Vážená** - všech rodičů je zprůměrováno váženým průměrem
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241208141044.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749560-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -76,10 +79,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749563-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -93,10 +96,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749565-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -106,21 +109,24 @@ Jak se vybírají jedinci **pro mutaci** při nasazení **evoluční strategie**
 Back:
 
 Několik možností:
+
 - **vyberu nezávisle na zdatnosti**
-	- Výhoda, že to je deterministický
-	- Musím v následující selekci používat zdatnost
+  - Výhoda, že to je deterministický
+  - Musím v následující selekci používat zdatnost
 - **vyberu závisle na zdatnosti**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241208141551.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749568-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -133,16 +139,18 @@ Back:
 - adaptace: jedna generace
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241208141640.png)
 ![](../../../Assets/Pasted%20image%2020241208141645.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749570-->
+
 END
 
 ---
 
 ### Genetické programování
-
 
 START
 FIT-Card
@@ -153,20 +161,22 @@ Back:
 
 - určeno k produkci spustitelných programů
 - Reprezentace:
-	- **strom výpočtu (výrazu)** - genetické programování
-	- **řetěz jazyka** - lineární genetické programování
-	- **orientovaný acyklický graf** - kartézské programování
+  - **strom výpočtu (výrazu)** - genetické programování
+  - **řetěz jazyka** - lineární genetické programování
+  - **orientovaný acyklický graf** - kartézské programování
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241208142755.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749573-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -179,10 +189,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749576-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -195,10 +205,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749578-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -211,10 +221,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749581-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -227,10 +237,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749583-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -243,10 +253,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749586-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -257,10 +267,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241208143117.png)
 <!--ID: 1735205749588-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -272,10 +282,10 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241208143139.png)
 ![](../../../Assets/Pasted%20image%2020241208143145.png)
 <!--ID: 1735205749591-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -288,6 +298,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241208143227.png)
 <!--ID: 1735205749594-->
+
 END
 
 ---
@@ -307,6 +318,7 @@ Back:
 
 Tags: core
 <!--ID: 1735205749596-->
+
 END
 
 ---

@@ -2,7 +2,6 @@
 created: 2025-02-17T13:16:23
 up: "[[📖NI-AM2]]"
 ---
-
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 cviceni01 status-toReview
 
@@ -27,7 +26,7 @@ Má **jedno** vlákno.
 Vlákno postupně odbavuje následující události.
 ![](../../Assets/Pasted%20image%2020250217131728.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887477-->
 END
 
 ---

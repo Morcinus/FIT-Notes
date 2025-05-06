@@ -4,7 +4,6 @@ title: Cloud Native and Microservices
 up:
   - "[[📖NI-AM2]]"
 ---
-
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 prednaska09 status-toReview
 
@@ -21,7 +20,7 @@ Pomocí floating IP, máme 2 load balancery ve 2 různých datových centrech, k
 Máme **aktivní** a **pasivní** load balancer. Pasivní nic nedělá, ale když aktivní vypadne, tak ten pasivní převezme jeho funkci.
 
 Díky floating IP address se přehodí load balancer na ten druhý.
-
+<!--ID: 1746518887376-->
 END
 
 ---
@@ -35,7 +34,7 @@ Jaký protokol se používá při floating IP address?
 Back:
 
 ARP
-
+<!--ID: 1746518887379-->
 END
 
 ---
@@ -61,7 +60,7 @@ Když máme více nodů, můžu pak mít třeba sdílený disk mezi více nodama
 ![](../../Assets/Pasted%20image%2020250414120505.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887382-->
 END
 
 ---
@@ -75,7 +74,7 @@ Mají nody vlastní ssd disky?
 Back:
 
 Ano, nody mohou mít vlastní SSD disky, díky tomu jsou zápisy mnohem rychlejší než přes protokol iSCSI.
-
+<!--ID: 1746518887385-->
 END
 
 ---
@@ -98,7 +97,7 @@ Např. obrázky, images (ve smyslu bootování z image), cokoliv dalšího
 ![](../../Assets/Pasted%20image%2020250414120516.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887387-->
 END
 
 ---
@@ -115,7 +114,7 @@ Back:
 - Cold bucket - používá se typicky na archivaci, nepředpokládá se, že k tomu budu často přistupovat
 	- TTFB - time to first byte - jak dlouho mi bude trvat, než se dostanu k datům
 	- Levnější úložiště, ale dražší přístup
-
+<!--ID: 1746518887390-->
 END
 
 ---
@@ -129,7 +128,7 @@ Co je IaC?
 Back:
 
 Infrastructure as Code - myšlenka je, že infrastrukturu bych si měl moct zadefinovat v kódu (a ne že to jak retard musím naklikávat v GUI)
-
+<!--ID: 1746518887393-->
 END
 
 ---
@@ -146,7 +145,7 @@ Back:
 	- Např. Ansible, Chef, Puppet
 - **Abstraction of cloud infrastructure** - můžu popsat celou infrastrukturu
 	- Např. Terraform
-
+<!--ID: 1746518887395-->
 END
 
 ---
@@ -162,7 +161,7 @@ Back:
 1. Zadefinuju si jak má vypadat infrastruktura
 2. Nástroj (Terraform) pak zjistí, jak vypadá momentální infrastruktura
 3. Pak se snaží přizpůsobit infrastrukturu tak, aby vypadala jako moje definice
-
+<!--ID: 1746518887398-->
 END
 
 ---
@@ -176,7 +175,7 @@ V jakém jazyce se u **Terraformu** definuje infrastruktura?
 Back:
 
 **HCL** - Hashicorp Configuration Language
-
+<!--ID: 1746518887401-->
 END
 
 ---
@@ -197,7 +196,7 @@ V dnešní době je cloud native vpodstatě synonymum pro Kubernetes
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414121929.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887404-->
 END
 
 ---
@@ -213,7 +212,7 @@ Back:
 Cloud Native Computing Foundation
 
 Je to odnož Linux foundation, je to obří open source komunita/organizace, co má na starost vyvíjet technologie pro cloud.
-
+<!--ID: 1746518887407-->
 END
 
 ---
@@ -231,7 +230,7 @@ Umožňuje vzít on-premise aplikaci a spustit ji v cloudu
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414122131.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887409-->
 END
 
 ---
@@ -255,7 +254,7 @@ Cesta, kterou organizace může podstoupit, aby nemusela "vyhodit" starou aplika
 
 ![](../../Assets/Pasted%20image%2020250414122452.png)
 
-
+<!--ID: 1746518887412-->
 END
 
 ---
@@ -272,7 +271,7 @@ GitOps = pomocí manifestů/definicí zadefinuju infrastrukturu a zálohuju ji p
 
 ArgoCD = sleduje stav zdrojů v gitu a synchronizuje mi obsah s Kubernetes
 - Tzn. když udělám např. push, tak se mi a podle toho skutečně změní infrastruktura
-
+<!--ID: 1746518887414-->
 END
 
 ---
@@ -288,7 +287,7 @@ Back:
 Ano dá se to tak udělat a dává to někdy smysl.
 
 Kubernetes má hromadu různých užitečných fičur. Díky tomu že monolit hodím do kubernetes, tak to je takový mezikrok před vytvořením cloudové aplikace.
-
+<!--ID: 1746518887417-->
 END
 
 ---
@@ -310,7 +309,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414131501.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887420-->
 END
 
 ---
@@ -335,7 +334,7 @@ Container
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250501130157.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746518887422-->
 END
 
 ---
@@ -349,7 +348,7 @@ Jaké jsou vrstvy containerů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501130947.png)
-
+<!--ID: 1746518887425-->
 END
 
 ---
@@ -365,7 +364,7 @@ Back:
 Vrstvy **file systému**, které jsou složeny tak, aby tvořily file systém
 
 Je immutable
-
+<!--ID: 1746518887428-->
 END
 
 ---
@@ -380,7 +379,7 @@ Back:
 
 Jeden (nebo více) **procesů** a množina **linux namespaces**
 - Container je zařazený do namespacu, čímž se provádí izolace
-
+<!--ID: 1746518887431-->
 END
 
 ---
@@ -394,7 +393,7 @@ Co je Container Engine/Runtime?
 Back:
 
 Core Process na host machine, který umožňuje spouštění/běh containerů.
-
+<!--ID: 1746518887433-->
 END
 
 ---
@@ -408,7 +407,7 @@ Co je Client?
 Back:
 
 Aplikace, která komunikuje s container enginem přes jeho API
-
+<!--ID: 1746518887436-->
 END
 
 ---
@@ -424,7 +423,7 @@ Back:
 Služba, která obsahuje image, mohu je tam pushovat a pullovat
 
 Např. Docker Hub je defaultní Docker registry
-
+<!--ID: 1746518887438-->
 END
 
 ---
@@ -438,7 +437,7 @@ Co je Swarm?
 Back:
 
 Cluster docker enginů, aby se daly spouštět docker containery v distribuovaném prostředí - pozn. v dnešní době se to moc nepoužívá, spíš by člověk sáhnul po Kubernetes
-
+<!--ID: 1746518887441-->
 END
 
 ---
@@ -461,7 +460,7 @@ Back:
 - Cgroup
 
 Pomocí namespaces se určují úrovně izolovanosti.
-
+<!--ID: 1746518887444-->
 END
 
 ---
@@ -475,7 +474,7 @@ K čemu je příkaz `lsns`?
 Back:
 
 Zobrazí mi na linuxu běžící procesy a v jakém namespacu běží.
-
+<!--ID: 1746518887446-->
 END
 
 ---
@@ -499,7 +498,7 @@ To je vyloženě to, když člověk dělá v Dockeru mountování nějaké slož
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501131918.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887449-->
 END
 
 ---
@@ -517,7 +516,7 @@ Je to jakoby název hosta
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132258.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887452-->
 END
 
 ---
@@ -535,7 +534,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132308.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887454-->
 END
 
 ---
@@ -555,7 +554,7 @@ Ten první proces má vždy `PID=1`.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132317.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887457-->
 END
 
 ---
@@ -576,7 +575,7 @@ Každý container má interně vlastní porty (tzn. každý container může uvn
 ![](../../Assets/Pasted%20image%2020250501132337.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887459-->
 END
 
 ---
@@ -595,7 +594,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250501132353.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746518887462-->
 END
 
 ---
@@ -609,7 +608,7 @@ Co je cgroup namespace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501132405.png)
-
+<!--ID: 1746518887465-->
 END
 
 ---
@@ -627,7 +626,7 @@ Jsou to vrstvy file systému (adresáře) + ovladač, který sestaví file syste
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501140458.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887467-->
 END
 
 ---
@@ -641,7 +640,7 @@ Co je OverlayFS?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501140722.png)
-
+<!--ID: 1746518887470-->
 END
 
 ---
@@ -661,7 +660,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501140722.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518887472-->
 END
 
 ---

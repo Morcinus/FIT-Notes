@@ -4,7 +4,6 @@ title: Security
 up:
   - "[[📖NI-AM2]]"
 ---
-
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 prednaska04 status-toReview
 
@@ -18,7 +17,7 @@ Back:
 
 - Message-level security
 - Transport-level security
-
+<!--ID: 1746518365745-->
 END
 
 ---
@@ -32,7 +31,7 @@ Jakých 5 věcí je třeba zajistit v bezpečnosti (u komunikací přes sítě)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318120256.png)
-
+<!--ID: 1746518365748-->
 END
 
 ---
@@ -46,7 +45,7 @@ Co je autentikace?
 Back:
 
 Ověření identity uživatele
-
+<!--ID: 1746518365751-->
 END
 
 ---
@@ -60,7 +59,7 @@ Co je autorizace?
 Back:
 
 Ověření, že uživatel má právo na to přistupovat k danému zdroji
-
+<!--ID: 1746518365754-->
 END
 
 ---
@@ -77,7 +76,7 @@ Back:
 - Digest Access Authentication
 - Bearer tokens to access OAuth 2.0-protected resources
 - Mutual authentication using password-based when server knows the user's encrypted password
-
+<!--ID: 1746518365756-->
 END
 
 ---
@@ -102,7 +101,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250318120620.png)
 ![](../../Assets/Pasted%20image%2020250318120615.png)
-
+<!--ID: 1746518365759-->
 END
 
 ---
@@ -118,7 +117,7 @@ FIT-Card
 Back:
 
 JSON Web Token
-
+<!--ID: 1746518365761-->
 END
 
 ---
@@ -132,7 +131,7 @@ Jak funguje/co je JWT?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318120729.png)
-
+<!--ID: 1746518365764-->
 END
 
 ---
@@ -146,7 +145,7 @@ Jak funguje autentikace pomocí JWT?
 Back:
 
 Uživatel se přihlásí, potom dostane JWT token a ten vkládá ke každému requestu
-
+<!--ID: 1746518365766-->
 END
 
 ---
@@ -164,7 +163,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250318121002.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518365769-->
 END
 
 ---
@@ -178,7 +177,7 @@ Co obsahuje **header** v JWT tokenu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318120923.png)
-
+<!--ID: 1746518365772-->
 END
 
 ---
@@ -192,7 +191,7 @@ Co obsahuje **payload** v JWT tokenu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318120937.png)
-
+<!--ID: 1746518365775-->
 END
 
 ---
@@ -206,7 +205,7 @@ Co obsahuje **signature** v JWT tokenu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318120946.png)
-
+<!--ID: 1746518365778-->
 END
 
 ---
@@ -220,7 +219,7 @@ Jak funguje proces autentikace pomocí JWT?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318121035.png)
-
+<!--ID: 1746518365780-->
 END
 
 ---
@@ -234,7 +233,7 @@ Jak funguje **expiration** JWT?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318121051.png)
-
+<!--ID: 1746518365783-->
 END
 
 ---
@@ -248,7 +247,7 @@ Jak funguje **revocation** JWT?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318121103.png)
-
+<!--ID: 1746518365786-->
 END
 
 ---

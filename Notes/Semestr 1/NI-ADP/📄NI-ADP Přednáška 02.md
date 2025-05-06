@@ -3,9 +3,8 @@ created: 2024-10-11T09:28:33
 up: "[[📖NI-ADP]]"
 ---
 
-TARGET DECK: NI-ADP
+TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska02 status-toReview
-
 
 START
 Basic
@@ -16,10 +15,10 @@ Back:
 
 Ve většině případů ne, měla by to být ta poslední možnost
 <!--ID: 1728921214924-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -37,11 +36,10 @@ Back:
 - Avoid premature optimization
 - The boy scout rule
 - Principle of least astonishment
-<!--ID: 1728921214927-->
-END
+  <!--ID: 1728921214927-->
+  END
 
 ---
-
 
 START
 Basic
@@ -52,10 +50,10 @@ Back:
 
 Typicky využít dědičnost, protože tam většina funkcí bude stejná
 <!--ID: 1728921214930-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -68,10 +66,10 @@ U testů bych např. neměl dělat funkce na setup toho testování, protože t�
 
 Když budu volat různé metody, tak tím snížím čitelnost těch testů!
 <!--ID: 1728921214933-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -85,10 +83,10 @@ Back:
 
 Když např. mám kavárnu a vím, že nebudu prodávat čaj, nemusím dělat nutně abstrakce.
 <!--ID: 1728921214936-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -97,14 +95,11 @@ Jak bych měl používat princip YAGNI?
 
 Back:
 
-- Neměl bych se snažit do programu nacpat všechny ty cool nové věci (např. knihovny, zbytečný future proofing atd.)
-	- Pokud ta věc je o trošku dražší a potenciálně nám to v budoucnu hodně pomůže, tak to udělat
-	- Pokud ta věc je o dost dražší a potenciálně nám to v budoucnu hodně pomůže, kašlat na to
-<!--ID: 1728921214939-->
-END
+- Neměl bych se snažit do programu nacpat všechny ty cool nové věci (např. knihovny, zbytečný future proofing atd.) - Pokud ta věc je o trošku dražší a potenciálně nám to v budoucnu hodně pomůže, tak to udělat - Pokud ta věc je o dost dražší a potenciálně nám to v budoucnu hodně pomůže, kašlat na to
+  <!--ID: 1728921214939-->
+  END
 
 ---
-
 
 START
 Basic
@@ -114,18 +109,16 @@ Co je solid princip? (5)
 Back:
 
 - S - Single responsibility principle
-	- Jedna metoda/třída by měla mít jednu zodpovědnost
-	- Princip: Když chci dát do názvu "and", tak to znamená, že ta funkce dělá moc věcí.
+  - Jedna metoda/třída by měla mít jednu zodpovědnost
+  - Princip: Když chci dát do názvu "and", tak to znamená, že ta funkce dělá moc věcí.
 - O - Open-closed principle
-	- "Open for extension, closed for modification"
-	- Když se např. rozhodnu vyměnit
+  - "Open for extension, closed for modification"
+  - Když se např. rozhodnu vyměnit
 - L - Liskov substitution principle
-	- Všude kde používám rodiče můžu použít potomka
+  - Všude kde používám rodiče můžu použít potomka
 - I - Interface segregation principle
 - D
-<!--ID: 1728921214942-->
-END
+  <!--ID: 1728921214942-->
+  END
 
 ---
-
-

@@ -28,8 +28,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411112724.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364612-->
 END
 
 ---
@@ -45,7 +44,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250411112735.png)
 
 Označuje to čas, kdy přejdu z množiny přechodných stavů do trvalých.
-
+<!--ID: 1746518364615-->
 END
 
 ---
@@ -59,7 +58,7 @@ Lemma: Je-li množina stavů $S$ konečná, pak...
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411112756.png)
-
+<!--ID: 1746518364618-->
 END
 
 ---
@@ -79,8 +78,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250411130234.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518364620-->
 END
 
 ---
@@ -94,7 +92,7 @@ Jak získáme pravděpodobnost pohlcení na množině $C_r$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411112859.png)
-
+<!--ID: 1746518364623-->
 END
 
 ---
@@ -111,7 +109,7 @@ Back:
 
 $R$ - matice přechodu mezi přechodnými a trvalými
 $T$ - matice přechodu mezi přechodnými a přechodnými
-
+<!--ID: 1746518364626-->
 END
 
 ---
@@ -125,7 +123,7 @@ Lemma: $A$ je čtvercová matice $\implies$ $(I-A)$ je regulární
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411112950.png)
-
+<!--ID: 1746518364628-->
 END
 
 ---
@@ -143,7 +141,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411113037.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746518364631-->
 END
 
 ---
@@ -161,7 +159,7 @@ Back:
 Stačí prohodit prvky diagonály `\` a omínusovat prvky diagonály `/` a pak to pronásobit:
 
 ![](../../Assets/Pasted%20image%2020250411131531.png)
-
+<!--ID: 1746518364634-->
 END
 
 ---
@@ -177,7 +175,7 @@ Definice: **počet návštěv stavu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113051.png)
-
+<!--ID: 1746518364637-->
 END
 
 ---
@@ -191,7 +189,7 @@ Definice: **střední počet návštěv stavu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113106.png)
-
+<!--ID: 1746518364640-->
 END
 
 ---
@@ -209,8 +207,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411113135.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364643-->
 END
 
 ---
@@ -224,7 +221,7 @@ Definice: **fundamentální matice řetězce**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113151.png)
-
+<!--ID: 1746518364647-->
 END
 
 ---
@@ -242,8 +239,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411113224.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364649-->
 END
 
 ---
@@ -257,7 +253,7 @@ Limita matice $C^n$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113245.png)
-
+<!--ID: 1746518364652-->
 END
 
 ---
@@ -275,7 +271,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411113309.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518364655-->
 END
 
 ---

@@ -4,9 +4,8 @@ title: "Algebra 3"
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska13 status-toReview algebra3
-
 
 START
 FIT-Card
@@ -17,10 +16,10 @@ Back:
 
 je také generátor
 <!--ID: 1735205749355-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -32,15 +31,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127130510.png)
 
 <!-- InformallySaidStart -->
+
 Jinými slovy řád prvku mi říká, kolikrát musím prvek "umocnit", abych dostal neutrální prvek.
+
 <!-- InformallySaidEnd -->
 
 Tags: core
 <!--ID: 1735205749357-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -52,13 +53,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241226141743.png)
 
 <!-- InformallySaidStart -->
+
 Jinými slovy, pokud má grupa generátor, je cyklická.
+
 <!-- InformallySaidEnd -->
 <!--ID: 1735219298335-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -70,15 +73,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127130556.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241127130603.png)
+
 <!-- ExampleEnd -->
 
 Tags: core
 <!--ID: 1735205749360-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -90,16 +95,18 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127131615.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241127131625.png)
 ![](../../../Assets/Pasted%20image%2020241127131630.png)
+
 <!-- ProofEnd -->
 
 Tags: core
 <!--ID: 1735205749362-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -111,15 +118,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127132222.png)
 
 <!-- ExplanationStart -->
+
 ![](../../../Assets/Pasted%20image%2020241127132235.png)
+
 <!-- ExplanationEnd -->
 
 Tags: core
 <!--ID: 1735205749365-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -132,10 +141,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749367-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -147,15 +156,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127132326.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241127132335.png)
+
 <!-- ProofEnd -->
 
 Tags: core
 <!--ID: 1735205749370-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -167,15 +178,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127132413.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241127132421.png)
+
 <!-- ProofEnd -->
 
 Tags: core
 <!--ID: 1735205749372-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -187,12 +200,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127132436.png)
 
 <!-- DetailInfoStart -->
+
 Je to důsledek (jakoby konkrétnější případ) této věty:
 ![](../../../Assets/Pasted%20image%2020241127132413.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749375-->
+
 END
 
 ---
@@ -209,6 +225,7 @@ Back:
 END
 
 ### Homomorfismy a isomorfismy
+
 START
 FIT-Card
 
@@ -219,16 +236,18 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127135129.png)
 
 <!-- InformallySaidStart -->
+
 Homomorfismus = je jedno jeslti operaci provedu v definičním oboru nebo v tom obrazu
 Izomorfismus = je navíc bijekcí
+
 <!-- InformallySaidEnd -->
 
 Tags: core
 <!--ID: 1735205749377-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -240,6 +259,7 @@ Back:
 Homomorfismus, který je **injektivní**.
 
 <!-- ExplanationStart -->
+
 Připomenutí (neformálně): $A \rightarrow B$
 Injektivní znamená, že každý prvek z $A$ se zobrazí na jiný prvek z $B$.
 
@@ -249,10 +269,10 @@ Injektivní znamená, že každý prvek z $A$ se zobrazí na jiný prvek z $B$.
 
 <!-- ExplanationEnd -->
 <!--ID: 1735223297369-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -264,6 +284,7 @@ Back:
 Homomorfismus, který je **surjektivní**.
 
 <!-- ExplanationStart -->
+
 Připomenutí (neformálně): $A \rightarrow B$
 Surjektivní znamená, že zobrazení "pokryje" celou množinu $B$
 
@@ -271,10 +292,10 @@ Surjektivní znamená, že zobrazení "pokryje" celou množinu $B$
 
 <!-- ExplanationEnd -->
 <!--ID: 1735223297372-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -286,6 +307,7 @@ Back:
 Homomorfismus, který je **bijektivní**.
 
 <!-- ExplanationStart -->
+
 Připomenutí (neformálně): $A \rightarrow B$
 Bijektivní znamená, že každému prvku z $A$ odpovídá právě jeden prvek z množiny $B$ (neboli je injektivní a surjektivní zároveň).
 
@@ -295,11 +317,10 @@ Bijektivní znamená, že každému prvku z $A$ odpovídá právě jeden prvek z
 
 Tags: core
 <!--ID: 1735223297374-->
+
 END
 
 ---
-
-
 
 START
 FIT-Card
@@ -310,26 +331,29 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241127135144.png)
 <!--ID: 1735205749379-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Věta: homomorfismus grupy do grupoidu $\implies \dots$ 
+Věta: homomorfismus grupy do grupoidu $\implies \dots$
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241127135245.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241127135251.png)
+
 <!-- ProofEnd -->
 
 Tags: core
 <!--ID: 1735205749382-->
+
 END
 
 ---

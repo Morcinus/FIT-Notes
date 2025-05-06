@@ -3,7 +3,7 @@ created: 2024-10-11T09:30:48
 up: "[[📖NI-AM1]]"
 ---
 
-TARGET DECK: NI-AM1
+TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska02 status-toReview
 
 START
@@ -15,10 +15,10 @@ Back:
 
 Architektura určuje **strukturu** a **chování** sytému.
 <!--ID: 1728921214979-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -28,13 +28,11 @@ Jaké jsou typy **architektury**? (2)
 Back:
 
 - **Enterprise architektura** - základní, obecný pohled na podnik
-- **Konkrétní složky architektury**
-	- enterprise, data, funkcionální, procesní, software, hardware,...
-<!--ID: 1728921214981-->
-END
+- **Konkrétní složky architektury** - enterprise, data, funkcionální, procesní, software, hardware,...
+  <!--ID: 1728921214981-->
+  END
 
 ---
-
 
 START
 Basic
@@ -45,11 +43,10 @@ Back:
 
 - **Metodologie** - analýza, design, implementace, testování, údržba
 - **Aktéři** - architekti (navrhuje architekturu), uživatelé, vývojáři, administrátoři,..
-<!--ID: 1728921214984-->
-END
+  <!--ID: 1728921214984-->
+  END
 
 ---
-
 
 START
 Basic
@@ -61,8 +58,8 @@ Back:
 - **konceptuální** - obecný, nezávislý na technologii
 - **logický** - návrh pro konkrétní technologie
 - **fyzický**
-<!--ID: 1728921214987-->
-END
+  <!--ID: 1728921214987-->
+  END
 
 ---
 
@@ -76,16 +73,17 @@ Jaké části softwarů jsou **doménově závislé** a **doménově nezávislé
 Back:
 
 **Doménově závislý**:
+
 - data, funkce, procesy jsou **doménově závislý** - tzn. závisí to na tom, jakou problematiku konkrétně řeším (např. jestli dělám skladový systém vs správu kaváren)
 
 **Doménově nezávislý**:
+
 - **softwarová** architektura (definuje softwarovou platformu)
 - **hardwarová** architektura (definuje infrastrukturu)
-<!--ID: 1728921214989-->
-END
+  <!--ID: 1728921214989-->
+  END
 
 ---
-
 
 START
 Basic
@@ -96,10 +94,10 @@ Back:
 
 ![[Pasted image 20240930093046.png]]
 <!--ID: 1728921214992-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -110,16 +108,16 @@ Back:
 
 - **EIS** (executive information systems)
 - **BSS** (business support systems)
-- **OSS** (operational support systems) 
+- **OSS** (operational support systems)
 - **B2B** (business to business)
 - **OIS** (office information systems)
 
 ![[Pasted image 20240930093423.png]]
 <!--ID: 1728921214995-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -128,17 +126,19 @@ Co jsou **EIS** systémy?
 
 Back:
 
-**EIS** (executive information systems): 
+**EIS** (executive information systems):
 systémy pro řízení pro manažery
 
 <!-- ImageStart -->
+
 ![[Pasted image 20240930093423.png]]
+
 <!-- ImageEnd -->
 <!--ID: 1736418422039-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -151,13 +151,15 @@ Back:
 systémy, co působí v jednotlivých odděleních (např. hr, finance, marketing,...) - každé oddělení může mít vlastní systém
 
 <!-- ImageStart -->
+
 ![[Pasted image 20240930093423.png]]
+
 <!-- ImageEnd -->
 <!--ID: 1736418422051-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -170,13 +172,15 @@ Back:
 řeší to kde firma působí v dané oblasti - (např. u telefonního operátora pro ovládání té sítě)
 
 <!-- ImageStart -->
+
 ![[Pasted image 20240930093423.png]]
+
 <!-- ImageEnd -->
 <!--ID: 1736418422054-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -189,13 +193,15 @@ Back:
 Zajišťuje integraci s externíma systémama, dalšíma firmama (např. automatická komunikace se zákazníkama, dodavatelema, veřejnou správou atd.)
 
 <!-- ImageStart -->
+
 ![[Pasted image 20240930093423.png]]
+
 <!-- ImageEnd -->
 <!--ID: 1736418422057-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -208,9 +214,12 @@ Back:
 Řeší správu dokumentů, document management system
 
 <!-- ImageStart -->
+
 ![[Pasted image 20240930093423.png]]
+
 <!-- ImageEnd -->
 <!--ID: 1736418422060-->
+
 END
 
 ---
@@ -224,6 +233,7 @@ Back:
 
 Řeší integraci více systémů. Propojuje mi to jednotlivé aplikace.
 <!--ID: 1728921214998-->
+
 END
 
 ---
@@ -236,19 +246,19 @@ Jaké jsou **typy organizací**, co používají architektury co se týče vývo
 Back:
 
 - **Zákazník** - to, pro koho dodávám systém
-	- definuje business requirements
+  - definuje business requirements
 - **Supplier** (dodavatel)
-	- Dělá vývoj softwaru na zakázku
+  - Dělá vývoj softwaru na zakázku
 - **Vendor** (technologický provider)
-	- vyvíjí produkt podle potřeb trhu, prodává hotové produkty
-	- Např. Azure, Excel,...
+  - vyvíjí produkt podle potřeb trhu, prodává hotové produkty
+  - Např. Azure, Excel,...
 
 ![[Pasted image 20240930093901.png]]
 <!--ID: 1728921215000-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -259,16 +269,16 @@ Back:
 
 - **Enterprise architekt** - "vyšší vrstva solution architekta", má vyšší pohled ale taky víc do hloubky, hodně rozumí doméně
 - **Solution architect** - zná dobře doménu, navrhuje strukturu a chování systému
-	- designuje funkce, data, procesy
+  - designuje funkce, data, procesy
 - **Technický architekt** - nemá moc znalostí o doméně, ale dokáže dobře nastavit ten systém atd.
-	- konfiguruje systém
+  - konfiguruje systém
 
 ![[Pasted image 20240930094104.png]]
 <!--ID: 1728921215003-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -279,11 +289,10 @@ Back:
 
 PCF je **standard** - říká mi jakoby seznam obecných požadavků, co je dobrý implementovat v systémech. Když budu dělat systém, podívám se do standardu a on mi řekne, co všechno bych měl v systému vytvořit za funkcionality.
 <!--ID: 1728921215006-->
+
 END
 
 ---
-
-
 
 START
 Basic
@@ -293,41 +302,45 @@ Jaké levely má **process classification framework**?
 Back:
 
 Podle PCF standardu:
+
 - **Level 0** - obecné funkce co jsou potřeba
 - **Level 1** - zpodrobňuje předchozí úroveň
 - **Level 2** - zpodrobňuje předchozí úroveň
 - **Level 3** - zpodrobňuje předchozí úroveň
 
 Organizational specific:
+
 - **Level 4**
 - **Level 5**
 
 ![[Pasted image 20240930094550.png]]
 
 Příklady procesů:
+
 - **Order capture** - prodavač v obchodě do systému napíše, že zákazník na pobočce něco chce (objednávka je i změna, vymazání, jakákoliv akce zákazníka)
 - **Sales order fulfillment** - řeší se synchronizace dat
 - **Provision order** - zjistí se jestli je telefon na skladě, pokud ne, tak se objedná atd.
 - **Bill fulfillment order** - řeší billing - posílá faktury atd.
-- **Update order** - 
+- **Update order** -
 
 Různé typy systémů
+
 - CRM (customer relation management) - do toho např. prodavač píše informace o objednávce zákazníka na pobočce
 - OMS - order management system
 - BRM - billing and revenue management
 - Network
 
-Všechny tyto systémy musím propojit, aby 
+Všechny tyto systémy musím propojit, aby
 ![[Pasted image 20240930094829.png]]
 
 Takhle potom třeba vypadá konkrétní proces napříč jednotlivými systémy:
+
 - tohle pak řeší ten technický architekt
-![[Pasted image 20240930101202.png]]
-<!--ID: 1728921215009-->
-END
+  ![[Pasted image 20240930101202.png]]
+  <!--ID: 1728921215009-->
+  END
 
 ---
-
 
 START
 Basic
@@ -338,11 +351,10 @@ Back:
 
 - **Java** a **XML** je nejpoužívanější ve **velkých organizacích**, je to už trošičku přežitek
 - U nových systémů se používá **JSON** a **modernější programovací jazyky**
-<!--ID: 1728921215011-->
-END
+  <!--ID: 1728921215011-->
+  END
 
 ---
-
 
 START
 Basic
@@ -355,10 +367,10 @@ XML a JSON se dají reprezentovat jako **strom**.
 
 Můžu potom vytvářet **pohledy** - tzn. píchnu prstem do určitého vrcholu a od něj dolů se budu na to dívat.
 <!--ID: 1728921215014-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -372,10 +384,10 @@ Back:
 
 **Syntax** mi jasně definuje ten standard, **sémantiku** si musím zadefinovat sám např. pomocí **RDFS** nebo **JSONSchema**.
 <!--ID: 1728921215017-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -385,6 +397,7 @@ Proč je důležité jasně **definovat sémantiku** v XML a JSONu?
 Back:
 
 Např. tady přirozeně chápu, že **name** je jméno zákazníka.
+
 ```xml
 <customer>
 	<name>
@@ -392,6 +405,7 @@ Např. tady přirozeně chápu, že **name** je jméno zákazníka.
 ```
 
 Ale můžu mít i následující strukturu:
+
 ```xml
 <car>
 	<audi>
@@ -400,14 +414,14 @@ Ale můžu mít i následující strukturu:
 
 **Tyhle dva příklady mají různou sémantiku**. `name` je **vlastnost** `customera`. `audi` je **podtřída** `car`.
 
-Tzn. já když designuju tu strukturu, tak přirozeně nějak chápu tu sémantiku, ale jiný člověk to může pochopit jinak. 
+Tzn. já když designuju tu strukturu, tak přirozeně nějak chápu tu sémantiku, ale jiný člověk to může pochopit jinak.
 
--> Potřebuju sémantiku **jasně definovat**. 
+-> Potřebuju sémantiku **jasně definovat**.
 <!--ID: 1728921215020-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -420,10 +434,10 @@ Back:
 
 Standard (jazyk), který je nadstavbou **RDF** a umožňuje mi jasně definovat **sémantiku** XML a JSONu.
 <!--ID: 1728921215022-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -434,8 +448,8 @@ Back:
 
 - **Intra-entreprise** integration - uvnitř organizace
 - **Inter-enterprise** integration - mezi organizacemi
-<!--ID: 1728921215025-->
-END
+  <!--ID: 1728921215025-->
+  END
 
 ---
 
@@ -449,6 +463,7 @@ Co je **interface** v integracích? Co **obsahuje**? (4)
 Back:
 
 Každý interface má:
+
 - **data** - tohle mi definuje payload (syntax, sémantiku)
 - **funkce** - operace, co můžu volat (např REST endpoint)
 - **proces** - určuje stavy a přechody (jakým způsobem můžu s funkcemi pracovat)
@@ -456,10 +471,10 @@ Každý interface má:
 
 ![[Pasted image 20240930104053.png]]
 <!--ID: 1728921215028-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -473,8 +488,10 @@ Popisuje mi, **jak** mám používat jednotlivé funkce (např. **v jakém pořa
 Na modelování procesů se používá **stavový diagram**.
 
 <!-- ExplanationStart -->
+
 Např.
 Mám košík v obchodě:
+
 - `open` - vyberu si košík
 - `addLineItem` - přidám věc do košíku
 - `close` - uzavřu košík, už tam nebudu nic dávat
@@ -487,14 +504,15 @@ Když chci potom používat tu funkci, tak to budu dělat podle toho procesu (di
 Problém je, že **není moc vynucovacích prostředků** na ten **proces**. Např. ve **Swaggeru** nemůžu nijak popsat ten proces.
 
 Je to podobný jako u **sémantiky u JSONu a XML**. Tam mě taky nic nenutí modelovat ten soubor určitým způsobem, ale někde bych to měl mít zapsaný, abych to modeloval podle toho.
+
 <!-- ExplanationEnd -->
 <!--ID: 1728921215031-->
+
 END
 
 ---
 
 #### Softwarová architektura
-
 
 START
 Basic
@@ -504,22 +522,21 @@ Jaké jsou **typy softwarové architektury** (dle centralizovanosti)? (2)
 Back:
 
 - **centralizovaná** - client server
-	- Nevýhoda - když spadne server, tak to nefunguje nic (single point of failure)
+  - Nevýhoda - když spadne server, tak to nefunguje nic (single point of failure)
 - **decentralizovaná** - peer to peer
-	- Uzly v architektuře jsou nezávislý
-	- Když failne jedna node, tak se to přepojí na jinou
-	- Např. Torrent, Skype
+  - Uzly v architektuře jsou nezávislý
+  - Když failne jedna node, tak se to přepojí na jinou
+  - Např. Torrent, Skype
 
 ![[Pasted image 20240930103343.png]]
 
 Fun fact:
-- Skype fungoval tak, že když člověk nepotřebuje komunikovat se serverem. Když člověk byl na veřejné síti, tak vpodstatě fungoval jako relay pro ostatní uživatele -> komunikace šla přes ostatní uživatele.
-	- Teď už to není, dřív to tak bylo.
-<!--ID: 1728921215034-->
-END
+
+- Skype fungoval tak, že když člověk nepotřebuje komunikovat se serverem. Když člověk byl na veřejné síti, tak vpodstatě fungoval jako relay pro ostatní uživatele -> komunikace šla přes ostatní uživatele. - Teď už to není, dřív to tak bylo.
+  <!--ID: 1728921215034-->
+  END
 
 ---
-
 
 START
 Basic
@@ -532,10 +549,10 @@ Systém je vrstvenej. Mezi vrstvami mohu definovat **interface**/rozhraní.
 
 ![[Pasted image 20240930103530.png]]
 <!--ID: 1728921215036-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -555,10 +572,10 @@ Pokud tu "smlouvu" chci změnit, musím to verzovat. Nemůžu to jen tak měnit 
 Např.
 ![[Pasted image 20240930104117.png]]
 <!--ID: 1728921215039-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -573,6 +590,7 @@ Back:
 
 Co nejvíce bych se měl opírat o globální **standardy**. Neměl bych si vymýšlet něco svýho.
 <!--ID: 1728921215042-->
+
 END
 
 ---

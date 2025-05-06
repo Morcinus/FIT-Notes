@@ -25,7 +25,7 @@ Statistikou může být například průměr.
 
 ![](../../Assets/Pasted%20image%2020250322100849.png)
 ![](../../Assets/Pasted%20image%2020250322080446.png)
-
+<!--ID: 1746518364826-->
 END
 
 ---
@@ -43,7 +43,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250322080544.png)
 ![](../../Assets/Pasted%20image%2020250322080555.png)
-
+<!--ID: 1746518364829-->
 END
 
 ---
@@ -59,7 +59,7 @@ Kde se na grafu nachází p hodnota?
 Back:
 
 Těsně na hranici zamítnutí a nezamítnutí (je to plocha)
-
+<!--ID: 1746518364832-->
 END
 
 ---
@@ -73,7 +73,7 @@ Jaký je rozdíl mezi normálním testováním a testování pomocí statistiky?
 Back:
 
 Je to v zásadě to samé, testování pomocí statistiky nám umožňuje to jednodušeji porovnávat, je to takové přehlednější
-
+<!--ID: 1746518364834-->
 END
 
 ---
@@ -88,7 +88,7 @@ Jak funguje Testování hypotéz pomocí testových statistik pro **parametry no
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322080623.png)
-
+<!--ID: 1746518364837-->
 END
 
 ---
@@ -108,8 +108,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322080818.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364840-->
 END
 
 ---
@@ -125,7 +124,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250322113932.png)
 
 ![](../../Assets/Pasted%20image%2020250322080731.png)
-
+<!--ID: 1746518364842-->
 END
 
 ---
@@ -159,8 +158,7 @@ Pozn. párový t-test dává smysl používat u subjektů, které se nemění. N
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322080846.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364846-->
 END
 
 ---
@@ -176,7 +174,7 @@ Back:
 Chceme testovat jestli 2 výběry mají stejné střední hodnoty. Tady na rozdíl od párového t-testu máme nezávislý výběr (tzn. náhodně vybíráme) - pozor, může být ale stejný.
 
 ![](../../Assets/Pasted%20image%2020250322080904.png)
-
+<!--ID: 1746518364848-->
 END
 
 ---
@@ -200,8 +198,7 @@ Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322081003.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364851-->
 END
 
 ---
@@ -219,7 +216,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250322080940.png)
 
 Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
-
+<!--ID: 1746518364854-->
 END
 
 ---
@@ -235,7 +232,7 @@ Back:
 Pokud mám dva výběry, které mají **stejnou délku** a ta data jsou párová, tedy jsou nad stejnými subjekty, je lepší použít **párový test**. Dvouvýběrový je obecně méně přesný.
 
 Pokud by ta data ovšem nebyla párová, je třeba použít vždy ten dvouvýběrový. Jinak to je chyba.
-
+<!--ID: 1746518364856-->
 END
 
 ---
@@ -255,7 +252,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322081032.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746518364859-->
 END
 
 ---

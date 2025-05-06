@@ -3,7 +3,7 @@ created: 2024-11-26T16:26:59
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni10 status-toReview
 
 Počet opakování 500x
@@ -12,6 +12,7 @@ Zastavení po 1000 krocích (`-b`)
 čas prostě ee inicializovat časem generátor
 
 Počítáme:
+
 - Kolikrát se povedlo splnit z 500
 - Ze splněnejch kolik je průměrný počet kroků
 
@@ -27,10 +28,11 @@ Počítáme:
 Tady bych potom vybral něco od 0,9 nahoru, protože .
 
 Estimátor postupně zvyšuje teplotu, dokud neusoudí, že je teplota moc vysoká.
+
 - měli bychom estimátor použít
 
 Když je instance větší budem potřebovat pomalejší ochlazování.
 
 Dá se krom teploty hýbat i `-n` kem.
 
-> Může tam v tabulce nastat zlom - bude dobrý výsledek a najednou se to v řádku zhorší a pak musím výrazně zvýšit teplotu, abych to zlepšil. 
+> Může tam v tabulce nastat zlom - bude dobrý výsledek a najednou se to v řádku zhorší a pak musím výrazně zvýšit teplotu, abych to zlepšil.

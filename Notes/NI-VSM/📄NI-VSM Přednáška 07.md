@@ -24,8 +24,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250320103258.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364862-->
 END
 
 ---
@@ -41,7 +40,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250320103330.png)
 ![](../../Assets/Pasted%20image%2020250320103338.png)
-
+<!--ID: 1746518364865-->
 END
 
 ---
@@ -55,7 +54,7 @@ Věta: vztah diferenciální a diskrétní entropie
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103404.png)
-
+<!--ID: 1746518364868-->
 END
 
 ---
@@ -69,7 +68,7 @@ Definice: Sdružená diferenciální entropie
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103419.png)
-
+<!--ID: 1746518364871-->
 END
 
 ---
@@ -83,7 +82,7 @@ Definice: Podmíněná diferenciální entropie
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103433.png)
-
+<!--ID: 1746518364873-->
 END
 
 ---
@@ -97,7 +96,7 @@ Definice: Relativní entropie (Kullback-Leiblerova vzdálenost)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103509.png)
-
+<!--ID: 1746518364876-->
 END
 
 ---
@@ -111,7 +110,7 @@ Definice: Vzájemná informace $I(X;Y)$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103520.png)
-
+<!--ID: 1746518364879-->
 END
 
 ---
@@ -125,7 +124,7 @@ Věta: **Maximalizace diferenciální entropie**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103605.png)
-
+<!--ID: 1746518364881-->
 END
 
 ---
@@ -139,7 +138,7 @@ Věta: $h(X) \leq \dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103652.png)
-
+<!--ID: 1746518364884-->
 END
 
 ---
@@ -153,7 +152,7 @@ Věta: $h(X) \leq 0$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103718.png)
-
+<!--ID: 1746518364886-->
 END
 
 ---

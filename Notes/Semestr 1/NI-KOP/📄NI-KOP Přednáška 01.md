@@ -3,7 +3,7 @@ created: 2024-10-11T09:38:04
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska01 status-toReview
 
 START
@@ -14,6 +14,7 @@ Co je **kombinatorická matematika**?
 Back:
 
 Matika, co se zajímá o **konečné** a **diskrétní** problémy, které mají:
+
 - konečný počet **proměnných**
 - konečný počet **hodnot** každé proměnné
 
@@ -23,6 +24,7 @@ Matika, co se zajímá o **konečné** a **diskrétní** problémy, které mají
 
 ![[Pasted image 20240923183924.png]]
 <!--ID: 1728921215168-->
+
 END
 
 ---
@@ -36,6 +38,7 @@ Back:
 
 Problém co můžu vyřešit **zkoušením různých možností**.
 <!--ID: 1728921215170-->
+
 END
 
 ---
@@ -53,6 +56,7 @@ Back:
 
 **Negarantuje to optimum**.
 <!--ID: 1728921215173-->
+
 END
 
 ---
@@ -72,10 +76,10 @@ Back:
 Např.
 ![[Pasted image 20240923184031.png]]
 <!--ID: 1728921215176-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -93,10 +97,10 @@ Back:
 Např. u desky:
 ![[Pasted image 20240923184136.png]]
 <!--ID: 1728921215179-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -110,16 +114,19 @@ Back:
 ![[Pasted image 20240923184125.png]]
 
 <!-- ExampleStart -->
+
 Například u **problému batohu**:
+
 - **proměnná**: "seznam věcí v batohu"
 - **ohodnocení proměnných**: seznam věcí s konkretními cenami a váhami
 
 Je to jako kdybych definoval funkci v programování:
+
 - **proměnná** - to co je v parametru funkce
 - **ohodnocení vstupní proměnné** - argument - to co konkrétně dávám do té funkce
-<!-- ExampleEnd -->
-<!--ID: 1728921215182-->
-END
+  <!-- ExampleEnd -->
+  <!--ID: 1728921215182-->
+  END
 
 ---
 
@@ -133,18 +140,22 @@ Back:
 ![[Pasted image 20240923184452.png]]
 
 <!-- ExampleStart -->
+
 **Konfiguraní proměnná** - např. maximální počet iterací v algoritmu - potom se algoritmus zastaví
+
 <!-- ExampleEnd -->
 
 <!-- DetailInfoStart -->
+
 Žádoucí vlastnosti konfiguračních proměnných:
 ![[Pasted image 20240923185826.png]]
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215185-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -156,13 +167,16 @@ Back:
 ![[Pasted image 20240923184508.png]]
 
 <!-- ExplanationStart -->
+
 **Konfigurace** je například množina věcí, kterou vložíme do batohu.
 
 Každá konfigurace je **možné řešení** (to se uvidí, když se to ověří **omezením**)
 
 Když spouštím ten algoritmus, tak to prochází jednotlivýma konfiguracema (kombinacema).
+
 <!-- ExplanationEnd -->
 <!--ID: 1728921215188-->
+
 END
 
 ---
@@ -176,10 +190,10 @@ Back:
 
 Omezující kritérium říká (omezuje), **který výstup je řešením**.
 <!--ID: 1728921215191-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -188,10 +202,11 @@ Musí mít problém vždy **omezující kritéria**?
 
 Back:
 
-**Ano.** 
+**Ano.**
 
 Jinak bych nevěděl, co je správným řešením.
 <!--ID: 1728921215193-->
+
 END
 
 ---
@@ -208,17 +223,22 @@ Back:
 ![[Pasted image 20241001163035.png]]
 
 <!-- InformallySaidStart -->
+
 Jsem zloděj, vejdu do baráku a mám batoh, co mám omezenou kapacitu. Každá věc v baráku má cenu a váhu. Snažím se vybrat věci za největší cenu.
+
 <!-- InformallySaidEnd -->
 
 <!-- DetailInfoStart -->
+
 ![[Pasted image 20240923185901.png]]
 ![[Pasted image 20240923184550.png]]
 ![[Pasted image 20240923184558.png]]
 ![[Pasted image 20240923185102.png]]
 ![[Pasted image 20240923185111.png]]
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215200-->
+
 END
 
 ---
@@ -234,10 +254,10 @@ $n \cdot \log n$
 
 Bylo by to $n$, ale protože to musím sesortit při té konstrukci, je to $n \cdot \log n$
 <!--ID: 1728921215204-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -247,26 +267,30 @@ Co je **problém obdélníkového pokrytí**? (rectangle tiling problem)
 Back:
 
 **Vstupní proměnné**:
+
 - Máme $n \times n$ matici, kde je na každé pozici kladné číslo.
 - Máme $p$ - počet obdélníků
 
 **Omezení**:
+
 - zakreslit do matice obdélníky, které se nepřekrývají
 
 **Optimalizační kritérium**
+
 - Váha obdélníku je součet čísel v obdélníku
 - **Optimální řešení** je takové, kde **největší váha z obdélníků** je co **nejmenší**
 
 <!-- DetailInfoStart -->
+
 ![[Pasted image 20241001165737.png]]
 ![[Pasted image 20241001170140.png]]
 
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215207-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -277,10 +301,10 @@ Back:
 
 ![[Pasted image 20240923185653.png]]
 <!--ID: 1728921215210-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -291,10 +315,10 @@ Back:
 
 ![[Pasted image 20240923185721.png]]
 <!--ID: 1728921215215-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -305,10 +329,10 @@ Back:
 
 ![[Pasted image 20240923185747.png]]
 <!--ID: 1728921215218-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -320,9 +344,12 @@ Back:
 ![[Pasted image 20240923190452.png]]
 
 <!-- DetailInfoStart -->
+
 ![[Pasted image 20240923190537.png]]
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215227-->
+
 END
 
 ---
@@ -336,10 +363,10 @@ Back:
 
 ![[Pasted image 20240923190610.png]]
 <!--ID: 1728921215232-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -351,16 +378,18 @@ Back:
 ![[Pasted image 20240923190631.png]]
 
 <!-- ExampleStart -->
+
 Např. snažíme se najít **délku** nejkratší cesty v grafu.
 
 $C(Y)$ - délka cesty
 $R(I,Y)$ - omezení na to, co považuju za cestu od toho jednoho uzlu k druhému
+
 <!-- ExampleEnd -->
 <!--ID: 1728921215235-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -371,10 +400,10 @@ Back:
 
 ![[Pasted image 20240923190644.png]]
 <!--ID: 1728921215238-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -385,10 +414,10 @@ Back:
 
 ![[Pasted image 20240923190703.png]]
 <!--ID: 1728921215241-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -399,10 +428,10 @@ Back:
 
 ![[Pasted image 20240923190721.png]]
 <!--ID: 1728921215244-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -415,6 +444,7 @@ Rozhodovací problém = jazyk
 
 ![[Pasted image 20240923190757.png]]
 <!--ID: 1728921215247-->
+
 END
 
 ---
@@ -432,10 +462,10 @@ U Booleovy formule řeším, jestli je splnitelná
 
 Pozn. Formule typicky bývá v konjunktivním normálním tvaru
 <!--ID: 1728921215250-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -449,9 +479,12 @@ SAT, kde je formule v konjunktivní normální formě a každá klauzule má **p
 Např. 2-SAT, 3-SAT atd.
 
 <!-- ExampleStart -->
+
 **2-SAT** bude řešit například tohle: $(x_1 \lor \neg x_2) \land (\neg x_1 \lor x_2)$
+
 <!-- ExampleEnd -->
 <!--ID: 1728921215253-->
+
 END
 
 ---
@@ -467,6 +500,7 @@ Back:
 
 **Odpověď ano/ne**
 <!--ID: 1728921215256-->
+
 END
 
 ---
@@ -480,15 +514,16 @@ Back:
 
 **Vykonstruované řešení** (konkrétní **konfigurace**)
 <!--ID: 1728921215258-->
+
 END
 
 ---
-
 
 START
 Basic
 
 Vysvětli, co dělají jednotlivé verze SATu:
+
 - **Rozhodovací verze**
 - **Konstruktivní verze**
 - **Enumerační verze**
@@ -499,18 +534,21 @@ Back:
 ![[Pasted image 20240923191404.png]]
 
 <!-- DetailInfoStart -->
+
 ![[Pasted image 20240923191522.png]]
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215262-->
+
 END
 
 ---
-
 
 START
 Basic
 
 Vysvětli, co dělají jednotlivé optimalizační verze SATu:
+
 - **optimalizační rozhodovací verze**
 - **optimalizační konstruktivní verze**
 - **optimalizační enumerační verze**
@@ -520,13 +558,15 @@ Back:
 ![[Pasted image 20240923191453.png]]
 
 <!-- DetailInfoStart -->
+
 ![[Pasted image 20240923191522.png]]
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215265-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -541,10 +581,10 @@ Back:
 ![[Pasted image 20240923191647.png]]
 ![[Pasted image 20240923191704.png]]
 <!--ID: 1728921215270-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -555,10 +595,10 @@ Back:
 
 ![[Pasted image 20240923192112.png]]
 <!--ID: 1728921215276-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -568,15 +608,15 @@ Co je **multikriteriální optimalizace** a **multimodální optimalizace**?
 Back:
 
 - **multikriteriální optimalizace** - mám více kritérií a chci vybírat různé možnosti
-	- Např. spotřeba paliva v autobuse vs spokojení zákazníci
+  - Např. spotřeba paliva v autobuse vs spokojení zákazníci
 - **multimodální optimalizace** - hledám různá suboptimální řešení
-	- Např. různé trasy pro plánování MHD řidičů, aby nebyli v práci znuděný (i když by bylo efektivnější, kdyby každý řidič jezdil furt tu samou trasu)
+  - Např. různé trasy pro plánování MHD řidičů, aby nebyli v práci znuděný (i když by bylo efektivnější, kdyby každý řidič jezdil furt tu samou trasu)
 
 ![[Pasted image 20240923192147.png]]
 <!--ID: 1728921215279-->
+
 END
 
 ---
-
 
 ![[Pasted image 20240923192500.png]]

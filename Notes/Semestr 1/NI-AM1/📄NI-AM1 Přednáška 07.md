@@ -4,11 +4,10 @@ title: "HTTP"
 up: "[[📖NI-AM1]]"
 ---
 
-TARGET DECK: NI-AM1
+TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska07 status-toReview
 
 ### Security
-
 
 START
 FIT-Card
@@ -19,10 +18,10 @@ Back:
 
 Transport Level Security
 <!--ID: 1735205750026-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -34,11 +33,10 @@ Back:
 - Encryption
 - Autentizaci
 - Integritu
-<!--ID: 1735205750029-->
-END
+  <!--ID: 1735205750029-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -49,10 +47,10 @@ Back:
 
 **TLS handshake**
 <!--ID: 1735205750031-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -63,11 +61,13 @@ Back:
 
 MAC - Message Authentication Code
 <!--ID: 1735205750033-->
+
 END
 
 ---
 
 #### TLS handshake
+
 START
 FIT-Card
 
@@ -86,15 +86,16 @@ Back:
 Pak se můžou začít posílat data.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113173436.png)
 ![](../../../Assets/Pasted%20image%2020241113173449.png)
 
 <!-- ImageEnd -->
 <!--ID: 1735205750036-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -107,19 +108,17 @@ Back:
 - **SNI** - informace na jakém hostname ta komunikace probíhá
 
 <!-- ExampleStart -->
+
 Toho se dá prakticky využít:
-- Např. mám webový server na portu 443.
-	- Díky ALPN můžu za ten port schovat server, který je schopný komunikovat s různými protokoly - např. HTTP 1, HTTP 2
-	- Díky tomu můžu na jednom portu provozovat dvě různé služby
-		- Pomocí té ALPN hlavičky pak poznám, na kterou službu přesměrovat tu komunikaci
-<!-- ExampleEnd -->
-<!--ID: 1735205750039-->
-END
+
+- Např. mám webový server na portu 443. - Díky ALPN můžu za ten port schovat server, který je schopný komunikovat s různými protokoly - např. HTTP 1, HTTP 2 - Díky tomu můžu na jednom portu provozovat dvě různé služby - Pomocí té ALPN hlavičky pak poznám, na kterou službu přesměrovat tu komunikaci
+  <!-- ExampleEnd -->
+  <!--ID: 1735205750039-->
+  END
 
 ---
 
 #### Výměna klíčů
-
 
 START
 FIT-Card
@@ -132,9 +131,12 @@ Back:
 - **Diffie-Hellman** - prakticky se v dnešní době používá
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113174229.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205750042-->
+
 END
 
 ---
@@ -150,12 +152,11 @@ Back:
 
 - **TLS Offloading**
 - **TLS Bridging**
-- **TLS Pass-through** (end-to-end TLS) 
-<!--ID: 1736677615828-->
-END
+- **TLS Pass-through** (end-to-end TLS)
+  <!--ID: 1736677615828-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -169,10 +170,10 @@ Komunikace mezi middleware a serverem zabezpečená není.
 
 Pozn. toto se často používá, protože middleware je často brána do vnitřní zabezpečené infrastruktury, kde to nemusím mít tolik zabezpečený. Tohle ale není best practice, protože útok může přijít i zevnitř. Proto existuje např. TLS Bridging
 <!--ID: 1735205750044-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -186,10 +187,10 @@ Mezi middlewarem a serverem je druhé TLS spojení.
 
 Mám celkem tedy dvě.
 <!--ID: 1735205750047-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -202,10 +203,10 @@ Mám spojení klient-server-middleware a ta TLS session je mezi klientem a serve
 
 Middleware si při TLS handshake může přečíst pouze nezašifrované části packetů.
 <!--ID: 1735205750049-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -215,10 +216,11 @@ Co je **Load balancer**?
 Back:
 
 Prvek, co rozděluje zátěž.
+
 - Může využívat TLS offloading nebo TLS bridging
 - Může využívat TLS pass-though s pomocí SNI
-<!--ID: 1735205750052-->
-END
+  <!--ID: 1735205750052-->
+  END
 
 ---
 
@@ -235,11 +237,10 @@ Back:
 - **Umožnění multiplexingu** - stačí jedno TCP spojení
 - **Optimalizace hlaviček** - aby byly menší, lepší komprese
 - **Prioritizace requestů a responses** (aby prohlížeč věděl, které requesty jsou důležitější)
-<!--ID: 1735205750057-->
-END
+  <!--ID: 1735205750057-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -250,13 +251,12 @@ Back:
 
 1. Nejdříve se naváže TLS a ALPN connection
 2. Potom se odesílají data pomocí HTTP/2
-<!--ID: 1735205750059-->
-END
+   <!--ID: 1735205750059-->
+   END
 
 ---
 
 #### Binary framing
-
 
 START
 FIT-Card
@@ -268,13 +268,15 @@ Back:
 Je v **aplikační vrstvě** a definuje, jak se ukládají requesty/responses a jejich headery a data v **binární podobě**.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113180011.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205750062-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -283,18 +285,20 @@ Co je **stream** v HTTP/2?
 
 Back:
 
-Reprezentuje **request** a **response**. 
+Reprezentuje **request** a **response**.
 
 Každá dvojice request-response je považována za jeden stream.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113180235.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205750064-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -308,13 +312,15 @@ Je to buď request nebo response.
 Je to to, co se přenáší v rámci streamu
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113180235.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205750067-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -328,13 +334,15 @@ Je to část HTTP/2 message.
 Např. hlavička je ve framu, data jsou ve framu
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113180235.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205750069-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -349,13 +357,15 @@ Back:
 - `stream identifier` - idčko streamu
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113180730.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205750072-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -367,13 +377,15 @@ Back:
 Protože javascript může modifikovat DOM/CSSOM a je potřeba, aby byl DOM/CSSOM plně načtený, než tam javascript bude něco dělat. Proto se nejdříve načítá CSS a HTML a pak až JavaScript.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113181453.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205750074-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -388,13 +400,15 @@ Back:
 To ovlivňuje jejich prioritu.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113181802.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205750077-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -412,17 +426,24 @@ Díky tomu např. když člověk sleduje video, tak se mu dopředu načtou urči
 Ty **window size** si drží **klient i server** (pro oba směry komunikace).
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113181909.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113181922.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113182009.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1735205750079-->
+
 END
 
 ---
@@ -441,20 +462,23 @@ To, že server klientovi rovnou pošle i zdroje, které ví, že klient stejně 
 Pozn. server push se zas tolik nepoužívá, protože se ukázalo, že to není zas tak efektivní.
 
 <!-- ExampleStart -->
+
 Na serveru mám HTML stránku. Vím, že když jí klient získá, tak bude potom posílat i requesty na obrázky, co jsou na té stránce.
 
 Proto rovnou můžu udělat to, že tomu klientovi rovnou pushnu ten obrázek.
+
 <!-- ExampleEnd -->
 
 <!-- DetailInfoStart -->
+
 Funguje to na základě mechanismu push-promise.
+
 - Pokud klient výslovně neřekne, že to nechce (např. protože to má v cachi), tak mu to automaticky posílám.
-<!-- DetailInfoEnd -->
-<!--ID: 1735205750081-->
-END
+  <!-- DetailInfoEnd -->
+  <!--ID: 1735205750081-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -467,16 +491,18 @@ Back:
 2. Klient může odmítnout pushnutí pomocí framu `RST_STREAM`
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241118150602.png)
 ![](../../../Assets/Pasted%20image%2020241118150617.png)
 ![](../../../Assets/Pasted%20image%2020241118150700.png)
-BDP = kolik dat jsem v jednu chvíli schopný mít v 
+BDP = kolik dat jsem v jednu chvíli schopný mít v
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205750084-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -488,13 +514,15 @@ Back:
 _Bandwidth-delay product_ = kolik dat jsem v jednu chvíli schopný mít v přenosu
 
 <!-- InformallySaidStart -->
+
 Když si spojení představím jako rouru, tak kolik dat jsem schopný narvat celkem do té roury.
+
 <!-- InformallySaidEnd -->
 <!--ID: 1735205750087-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -506,10 +534,12 @@ Back:
 Pokud množství dat je menší než BDP (tzn jsem schopný do té roury nacpat ještě data), vyplatí se mi to. Pokud je větší, nevyplatí se mi to.
 
 <!-- DetailInfoStart -->
+
 Ve většině případů se to nevyplatí.
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205750089-->
+
 END
 
 ---
-

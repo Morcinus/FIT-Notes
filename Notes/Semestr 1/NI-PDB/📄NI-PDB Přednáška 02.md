@@ -3,9 +3,8 @@ created: 2024-10-11T09:34:32
 up: "[[📖NI-PDB]]"
 ---
 
-TARGET DECK: NI-PDB
+TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska02 status-toReview
-
 
 START
 Basic
@@ -15,14 +14,15 @@ Jak se dá znázornit SELECT při vyhodnocování?
 Back:
 
 Jako **strom**
+
 - Kořen je select
 
 ![[Pasted image 20240923165757.png]]
 <!--ID: 1728921214670-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -33,10 +33,10 @@ Back:
 
 Nacházení nejlepšího vyhodnocovacího plánu
 <!--ID: 1728921214673-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -50,13 +50,13 @@ Back:
 Spočte se **cena** toho plánu a vybere se ten se nejnižší cenou.
 
 Cena obsahuje (např.):
+
 - **CPU** - jak moc musí procesor počítat, porovnávat atd.
 - **Přístup k datům** - buď co cache nebo do storage (disk)
-<!--ID: 1728921214675-->
-END
+  <!--ID: 1728921214675-->
+  END
 
 ---
-
 
 START
 Basic
@@ -72,12 +72,12 @@ Back:
 
 ![[Pasted image 20240923171047.png]]
 <!--ID: 1728921214678-->
+
 END
 
 ---
 
 > "Potom to začalo chytat Microsoftí vibe. Ty vole kámo na to nešahej, to si budeme dělat sami" - Valenta
-
 
 START
 Basic
@@ -91,10 +91,10 @@ Oracle si u tabulek/stromů drží různé statistiky - např. počet hodnot atd
 ![[Pasted image 20240923173735.png]]
 ![[Pasted image 20240923174138.png]]
 <!--ID: 1728921214681-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -107,8 +107,7 @@ Jak moc u sebe jsou data v heap tabulce (resp. jak moc je rozházená)
 
 ![[Pasted image 20240923174211.png]]
 <!--ID: 1728921214684-->
+
 END
 
 ---
-
-

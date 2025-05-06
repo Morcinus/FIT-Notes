@@ -3,13 +3,12 @@ created: 2024-10-11T15:31:45
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska03 status-toReview
 
 # Výpočetní modely
 
 ### Složitosti a metriky
-
 
 START
 FIT-Card
@@ -20,11 +19,10 @@ Back:
 
 - **výpočetní složitost** - čas výpočtu
 - **paměťová složitost** - spotřeba paměti
-<!--ID: 1728921215045-->
-END
+  <!--ID: 1728921215045-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -35,11 +33,10 @@ Back:
 
 - **Hrubá míra** - počet prvků instance (uzlů, čísel, prvků množiny atd.)
 - **Jemná míra** - počet bitů nutných k zakódování instance
-<!--ID: 1728921215048-->
-END
+  <!--ID: 1728921215048-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -50,11 +47,10 @@ Back:
 
 - počet "typických operací"
 - počet kroků **jednotného výpočetního modelu**
-<!--ID: 1728921215051-->
-END
+  <!--ID: 1728921215051-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -66,8 +62,8 @@ Back:
 - **Turingův stroj**
 - **RAM stroj**
 - **Booleův obvod**
-<!--ID: 1728921215053-->
-END
+  <!--ID: 1728921215053-->
+  END
 
 ---
 
@@ -87,29 +83,31 @@ Neomezená páska, mám tam zadaný program.
 3. Pohne hlavou doleva nebo doprava
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011153757.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215057-->
+
 END
 
 ---
 
 #### Řešení problémů
 
-
 START
 FIT-Card
 
-Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém $\Pi$ 
+Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém $\Pi$
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011154142.png)
 <!--ID: 1728921215060-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -120,6 +118,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241011154225.png)
 <!--ID: 1728921215064-->
+
 END
 
 ---
@@ -133,12 +132,12 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241011154230.png)
 <!--ID: 1728921215066-->
+
 END
 
 ---
 
 #### Kódování instance
-
 
 START
 FIT-Card
@@ -150,13 +149,18 @@ Back:
 Instance je řetězec $0$ a $1$ (tzn. $\set{0,1}^*$, problém je podmnožina takových řetězců, na které Turingův stroj odpoví "ano"
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011154616.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011154627.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1728921215069-->
+
 END
 
 ---
@@ -173,13 +177,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011154912.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215072-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -191,13 +197,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011154938.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215075-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -209,13 +217,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011154951.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215078-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -224,12 +234,15 @@ Jaký je vztah tříd PSPACE a EXPTIME?
 
 Back:
 
-$\text{PSPACE} \subset \text{EXPTIME}$ 
+$\text{PSPACE} \subset \text{EXPTIME}$
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215081-->
+
 END
 
 ---
@@ -245,10 +258,10 @@ Back:
 
 **Nedeterministicky polynomiální**
 <!--ID: 1728921215084-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -260,33 +273,37 @@ Back:
 Jako Turingův stroj, akorát to rozhodování dělá **nedeterministický automat**.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011155407.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- InformallySaidStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011155542.png)
+
 <!-- InformallySaidEnd -->
 <!--ID: 1728921215087-->
+
 END
 
 ---
 
 #### Řešení problému
 
-
 START
 FIT-Card
 
-Definice: **nedeterministický Turingův stroj řeší rozhodovací problém $\Pi$ v čase $t$** 
+Definice: **nedeterministický Turingův stroj řeší rozhodovací problém $\Pi$ v čase $t$**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011155644.png)
 <!--ID: 1728921215090-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -297,12 +314,12 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241011155932.png)
 <!--ID: 1728921215093-->
+
 END
 
 ---
 
 #### Třída NP pomocí NDT a certifikátu
-
 
 START
 FIT-Card
@@ -314,13 +331,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011160026.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215095-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -332,10 +351,10 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011160112.png)
 ![](../../../Assets/Pasted%20image%2020241011160131.png)
 <!--ID: 1728921215099-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -349,14 +368,12 @@ Back:
 
 Obě dvě varianty jsou z definice (každá z jiné)
 <!--ID: 1731258463498-->
+
 END
 
 ---
 
-
-
 #### Hamiltonova kružnice
-
 
 START
 FIT-Card
@@ -370,6 +387,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011160445.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011160524.png)
 
 Vychází z této definice:
@@ -377,10 +395,10 @@ Vychází z této definice:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215102-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -391,6 +409,7 @@ Back:
 
 Do **třídy NP**
 <!--ID: 1728921215105-->
+
 END
 
 ---
@@ -414,8 +433,10 @@ To je problém se složitostí $O(|V|)$, tedy dle věty (viz níže) to je certi
 
 Vychází z této definice:
 ![](../../../Assets/Pasted%20image%2020241011160112.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215107-->
+
 END
 
 ---
@@ -435,19 +456,23 @@ Deterministický je zvláštním případem nedeterministického.
 - **nedeterministický** - má přechodovou **relaci** (může mít více následníků)
 
 <!-- ExplanationStart -->
+
 Deterministický stroj je zvláštním případem nedeterministického, kde následníkem každého stavu je nejvýše jeden stav.
 
 Tzn. pokud se něco splní v deterministickým stroji, lze to splnit i v nedeterministickým.
+
 <!-- ExplanationEnd -->
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011161048.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215113-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -459,16 +484,17 @@ Back:
 $P \subset NP$
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011161321.png)
 
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
 
 <!-- ImageEnd -->
 <!--ID: 1728921215118-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -481,15 +507,17 @@ Back:
 - **Polynomiální hyerarchie** - hierarchie mezi problémy P a PSPACE
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011161456.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215121-->
+
 END
 
 ---
 
 #### Komplementární problémy
-
 
 START
 FIT-Card
@@ -501,6 +529,7 @@ Back:
 Vezmu NP problém a "otočíme ho".
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011161600.png)
 
 Např.
@@ -508,10 +537,10 @@ Např.
 
 <!-- ExampleEnd -->
 <!--ID: 1728921215124-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -523,13 +552,17 @@ Back:
 Pokud mám problém "Existuje..." $\exists \dots$, přehodím to na $\forall \dots$
 
 $\exists Y, R(I,Y) \Rightarrow \forall Y, \neg R(I,Y)$.
+
 - vstupní proměnné zůstávají
 - vytvoříme doplněk omezení (dle predikátové logiky)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011161940.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215127-->
+
 END
 
 ---
@@ -544,18 +577,19 @@ Jaké svědky mají **NP problémy**?
 Back:
 
 Na otázku "Existuje konfigurace, která ..."
+
 - Odpověď **ANO** - **krátký** svědek (**$\exists$-svědek**)
 - Odpověď **NE** - **dlouhý** svědek
 
 <!-- ExplanationStart -->
+
 - Odpověď **ANO** - stačí mi najít tu konfiguraci (řeší se krátce)
 - Odpověď **NE** - musím projít všechny konfigurace (řeší se dlouze)
-<!-- ExplanationEnd -->
-<!--ID: 1728921215129-->
-END
+  <!-- ExplanationEnd -->
+  <!--ID: 1728921215129-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -565,15 +599,17 @@ Jaké svědky mají **co-NP problémy**?
 Back:
 
 Na otázku "Pro všechny konfigurace platí, že ..."
+
 - Odpověď **ANO** - **dlouhý** svědek **($\forall$-svědek)**
 - Odpověď **NE** - **krátký** svědek
 
 <!-- ExplanationStart -->
+
 - Odpověď **ANO** - musím projít všechny konfigurace (řeší se dlouze)
 - Odpověď **NE** - stačí mi najít tu konfiguraci, co je protipříkladem (řeší se krátce)
-<!-- ExplanationEnd -->
-<!--ID: 1728921215132-->
-END
+  <!-- ExplanationEnd -->
+  <!--ID: 1728921215132-->
+  END
 
 ---
 
@@ -589,13 +625,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011162620.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241110101356.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215141-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -609,10 +647,10 @@ Dáno celé číslo $N$, existuje jeho prvočinitel, jehož poslední číslice 
 
 ![](../../../Assets/Pasted%20image%2020241011162546.png)
 <!--ID: 1728921215144-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -624,13 +662,15 @@ Back:
 $P = \text{co-P}$
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011162939.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215147-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -642,13 +682,15 @@ Back:
 $P \subseteq NP \cap \text{co-NP}$
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011163033.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215150-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -659,10 +701,10 @@ Back:
 
 $$P = NP \implies NP = \text{co-NP}$$
 <!--ID: 1728921215153-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -671,16 +713,19 @@ Co platí, pokud $\text{co-NP} \implies NP$?
 
 Back:
 $$P \neq NP$$
+
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011163209.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1728921215155-->
+
 END
 
 ---
 
 ### Horší než NP
-
 
 START
 FIT-Card
@@ -692,13 +737,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011163346.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011163423.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1728921215158-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -709,10 +756,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241011163703.png)
 <!--ID: 1728921215161-->
+
 END
 
 ---
-
 
 #### Polynomiální hyerarchie
 
@@ -726,13 +773,18 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241011163734.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011163753.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011163840.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921215164-->
+
 END
 
 ---

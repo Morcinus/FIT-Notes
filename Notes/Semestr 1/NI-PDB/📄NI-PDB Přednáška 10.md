@@ -5,9 +5,8 @@ up:
   - "[[📖NI-PDB]]"
 ---
 
-TARGET DECK: NI-PDB
+TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska10 status-toReview
-
 
 START
 FIT-Card
@@ -20,11 +19,10 @@ Back:
 - indexy
 - transakce (zámky, journal)
 - triggery
-<!--ID: 1735205748941-->
-END
+  <!--ID: 1735205748941-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -36,13 +34,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241220113025.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241220113253.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1735205748944-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -53,6 +53,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241220114844.png)
 <!--ID: 1735205748946-->
+
 END
 
 ---

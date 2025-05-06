@@ -4,21 +4,14 @@ title: "Architektury"
 up: "[[📖NI-ADP]]"
 ---
 
-TARGET DECK: NI-ADP
+TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska11 status-toReview
-
 
 START
 FIT-Card
 
-
-
 Back:
-
-
 
 END
 
 ---
-
-

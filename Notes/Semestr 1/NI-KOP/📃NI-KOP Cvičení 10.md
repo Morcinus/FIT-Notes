@@ -3,7 +3,7 @@ created: 2024-12-03T16:21:11
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni10 status-toReview
 
 Když mi vychází, že čím víc mutací, tím líp, tak mám evidentně něco špatně. Ta genetika nefunguje!

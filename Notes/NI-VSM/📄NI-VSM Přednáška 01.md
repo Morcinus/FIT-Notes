@@ -20,7 +20,7 @@ $$P(A) = \frac{\text{počet příznivých výsledků}}{\text{počet všech možn
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220102644.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518364967-->
 END
 
 ---
@@ -38,7 +38,7 @@ $$P(A) = \frac{\text{velikost množiny příznivých výsledků}}{\text{velikost
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220102747.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518364970-->
 END
 
 ---
@@ -54,7 +54,7 @@ Definice: Pravděpodobnostní prostor
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220102835.png)
-
+<!--ID: 1746518364973-->
 END
 
 ---
@@ -70,7 +70,7 @@ Definice: Prostor elementárních jevů $\Omega$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220102914.png)
-
+<!--ID: 1746518364979-->
 END
 
 ---
@@ -91,7 +91,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220103101.png)
 ![](../../Assets/Pasted%20image%2020250220103108.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518364982-->
 END
 
 ---
@@ -105,7 +105,7 @@ Definice: Pravděpodobnostní míra $P$ (="pravděpodobnost")
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220103126.png)
-
+<!--ID: 1746518364985-->
 END
 
 ---
@@ -120,7 +120,7 @@ $$P(\emptyset) = ?$$
 Back:
 
 $$P(\emptyset) = 0$$
-
+<!--ID: 1746518364988-->
 END
 
 ---
@@ -136,7 +136,7 @@ Pokud $A$ a $B$ jsou navzájem disjunktní?
 Back:
 
 $$P(A \cup B) = P(A)+P(B)$$
-
+<!--ID: 1746518364991-->
 END
 
 ---
@@ -151,7 +151,7 @@ $$P(A \cup B) = \ ?$$
 Back:
 
 $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
-
+<!--ID: 1746518364994-->
 END
 
 ---
@@ -167,7 +167,7 @@ Back:
 $$P(A) \leq P(B)$$
 "Pravděpodobnost je mezi 0 a 1. Pokud v písemce napíšete, že je výsledná pravděpodobnost 2, tak písemku roztrhnu, přeškrtám, slepím, udělím 0 bodů a řádně archivuju. :D" - Hrabák
 - Prý když víme že nám vyšla blbost, tak to máme do písemky napsat
-
+<!--ID: 1746518364997-->
 END
 
 ---
@@ -191,8 +191,7 @@ Když vím, že nastal jev $B$, tak už jen počítám, jaká byla pravděpodobn
 Podmíněná pravděpodobnost je taky pravděpodobností:
 ![](../../Assets/Pasted%20image%2020250220104355.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518364999-->
 END
 
 ---
@@ -208,7 +207,7 @@ $$P (A \cap B) = P(A|B)P(B) = \ ???$$
 Back:
 
 $$P (A \cap B) = P(A|B)P(B) = P(B|A)P(A)$$
-
+<!--ID: 1746518365002-->
 END
 
 ---
@@ -222,7 +221,7 @@ Lemma: Řetězové pravidlo
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220104546.png)
-
+<!--ID: 1746518365005-->
 END
 
 ---
@@ -236,7 +235,7 @@ Věta: o úplném rozkladu pravděpodobnosti
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220104633.png)
-
+<!--ID: 1746518365007-->
 END
 
 ---
@@ -254,8 +253,7 @@ Back:
 <!-- ExplanationStart -->
 Vlastně přepíšu větu o úplném rozkladu pravděpodobnosti tak, aby to "fungovalo obráceně". Vím že nastal jev $A$ a můžu z toho zjistit pravděpodobnost $B_j$.
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1746518365010-->
 END
 
 ---
@@ -269,7 +267,7 @@ Definice: **nezávislé jevy** a **nezávislý soubor jevů**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220104800.png)
-
+<!--ID: 1746518365012-->
 END
 
 ---
@@ -283,7 +281,7 @@ Věta: Jsou-li jevy $A$ a $B$ nezávislé, pak i jevy $\dots$ jsou nezávislé.
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220104910.png)
-
+<!--ID: 1746518365015-->
 END
 
 ---
@@ -303,7 +301,7 @@ Náhodná veličina je funkce, co přiřazuje výsledkům experimentu nějaká �
 
 Podmínka měřitelnosti znamená, že musím být schopný říct, jestli ten jev nastal nebo nenastal. Pro libovolné reálné $X$ musím být schopný říct, jestli je to $X$ menší než $x$ (kde malé $x$ je libovolné reálné číslo). Jinými slovy musím být schopný každé $X$ změřit.
 <!-- ExplanationEnd -->
-
+<!--ID: 1746518365018-->
 END
 
 ---
@@ -317,7 +315,7 @@ Definice: Distribuční funkce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220105318.png)
-
+<!--ID: 1746518365021-->
 END
 
 ---
@@ -339,8 +337,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220105452.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365023-->
 END
 
 ---
@@ -360,8 +357,7 @@ Je to pravděpodobnost, která říká, že doba mojí smrti (náohdná veličin
 
 Prostě se ptáme, jaká je pravděpodobnost, že se to dostane za určitý bod.
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1746518365026-->
 END
 
 ---
@@ -375,7 +371,7 @@ Jak vypadá **distribuční funkce** pro **diskrétní**, **spojitou** a **smí�
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220105708.png)
-
+<!--ID: 1746518365029-->
 END
 
 ---
@@ -389,7 +385,7 @@ Definice: **Diskrétní náhodná veličina**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220105730.png)
-
+<!--ID: 1746518365031-->
 END
 
 ---
@@ -407,7 +403,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220105835.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746518365037-->
 END
 
 ---
@@ -421,7 +417,7 @@ Věta: normalizační podmínka
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220105911.png)
-
+<!--ID: 1746518365042-->
 END
 
 ---
@@ -437,7 +433,7 @@ $$P(X=x)= ?$$
 Back:
 
 $$P(X=x)= 0$$
-
+<!--ID: 1746518365044-->
 END
 
 ---
@@ -451,7 +447,7 @@ Jak se spočte $f_X(x)$?
 Back:
 
 $$f_X(x)=\frac{\text{d}F_X}{\text{d}x}(x)$$
-
+<!--ID: 1746518365047-->
 END
 
 ---
@@ -465,7 +461,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220112100.png)
-
+<!--ID: 1746518365050-->
 END
 
 ---
@@ -479,7 +475,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220112111.png)
-
+<!--ID: 1746518365053-->
 END
 
 ---

@@ -3,13 +3,17 @@ created: 2024-11-19T14:31:24
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceniCvičení 09 status-toReview
 
 ### Cvičení 16.9
+
 ![](../../../Assets/Pasted%20image%2020241119143213.png)
+
 #### a)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{a)} \\
@@ -34,7 +38,7 @@ $$
 & a = 2 \quad b=3 \quad c=4 \\
 & 2^{3^{4}} = 2^{3^{4}} \\
 & 2^{81} \neq 2^{12}  \\
-& \Rightarrow \text{\small{asociativnost neplatí, není pologrupa  }} 
+& \Rightarrow \text{\small{asociativnost neplatí, není pologrupa  }}
 & \text{c)} \\
 & \left(\set{-1,1} , \circ \right)  \\
 & a = -1  \quad b = 1 \\
@@ -52,12 +56,14 @@ $$
 & 1^{-1} \neq -1^{1} \\
 & e = -1 \\
 & -1^{1} \neq  1^{-1}  \\
-& \text{\small{Ani jeden prvek není neutrální}} \Rightarrow \text{\small{není monoid}} 
+& \text{\small{Ani jeden prvek není neutrální}} \Rightarrow \text{\small{není monoid}}
 \end{align*}
 $$
 
 ### Cvičení 16.9d
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & (\mathbb{R,\circ } ) \\
@@ -73,12 +79,14 @@ $$
 & \forall a \exists a ^{-1} \in \mathbb{M}  \\
 & a^{-1} = -a-2 \quad (-a-2) \circ a = -a +a -1=-1=e \\ \\
 & \Rightarrow \text{\small{Je grupa}}  \\
-& \circ \text{\small{ je komutativní - jedná se o abelovskou grupu}} 
+& \circ \text{\small{ je komutativní - jedná se o abelovskou grupu}}
 \end{align*}
 $$
 
 ### Cvičení 16.9e
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{\small{1. uzavřenost}}  \\
@@ -97,22 +105,28 @@ $$
 & a+b(1+a)=0 \\
 & b = -\tfrac{a}{1+a} \Rightarrow a \neq -1 \\
 & a=-1 \ \text{\small{nemá inverzi}} \\
-& \Rightarrow \text{\small{nejedná se o grupu}} 
+& \Rightarrow \text{\small{nejedná se o grupu}}
 \end{align*}
 $$
 
 ### Cvičení 16.9f
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{\small{1. uzavřenost platí}}  \\
 & \text{\small{2. asociativnost}} \\
-& \text{\small{Protínají se v těžišti, není asociativní}} 
+& \text{\small{Protínají se v těžišti, není asociativní}}
 \end{align*}
 $$
+
 ### Cvičení 16.14i
+
 ![](../../../Assets/Pasted%20image%2020241119151220.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & M = \set{a + b + \sqrt{2} \ | a,b \in \mathbb{Q}} \\
@@ -130,12 +144,14 @@ $$
 & \Rightarrow \text{\small{Je to monoid}} \\
 & \text{\small{4.}}  \\
 & m^{-1} = -a-b\sqrt{2}  \\
-& \Rightarrow (M,+) \ \text{\small{tvoří abelovskou grupu}} 
+& \Rightarrow (M,+) \ \text{\small{tvoří abelovskou grupu}}
 \end{align*}
 $$
 
 ### Cvičení 16.14ii
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & (M, \cdot ) \ \text{\small{je grupa?}} \\
@@ -156,12 +172,12 @@ $$
 & m = a+b\sqrt{2}  \quad m^{-1} \tfrac{1}{a+b\sqrt{2}}\cdot \tfrac{a-b\sqrt{2}}{a-b\sqrt{2} }=\tfrac{a}{a^2 -2b^2}\sqrt{2}  \\
 & \text{\small{Tady je problém když }} a^2 = \pm \sqrt{2}b \\
 & \Rightarrow m = 0 + 0 \sqrt{2} \ \text{\small{nemá inverzi}}  \\
-& (M \setminus \set{0}, \cdot ) \  \text{\small{je grupa}} \\ 
+& (M \setminus \set{0}, \cdot ) \  \text{\small{je grupa}} \\
 \end{align*}
 $$
 
-
 ### Cvičení 16.15
+
 <!-- Latex Equation -->
 
 |     | a   | b   | c   | d   |
@@ -170,7 +186,9 @@ $$
 | b   | b   | a   | d   | c   |
 | c   | c   | d   | a   | b   |
 | d   | d   | c   | b   | a   |
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{\small{1. syntetická podle diagonály}}  \\
@@ -179,11 +197,14 @@ $$
 & b,c,d \text{\small{jsou inverzní sami k sobě }} \\
 & m ^{-1} =m  \\
 & b \circ (c \circ d) = (b \circ c) \circ d \\
-& \text{\small{Jedná se o Cayleyovu tabulku abelovské grupy}} 
+& \text{\small{Jedná se o Cayleyovu tabulku abelovské grupy}}
 \end{align*}
 $$
+
 ### Cvičení 16.16
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & (M, \circ )  \\
@@ -192,7 +213,7 @@ $$
 & \set{e,a,a^{-1}}  \quad a^{-1} \circ a=a\circ a^{-1} =e \\
 & \set{e,a,b}  \quad a \circ b = b \circ a  \quad  / a \circ  \\
 &  \quad  \quad b =a \circ (b \circ a) \\
-& \set{e,a,b} \text{\small{ nelze sestavit - viz tabulka dole }} 
+& \set{e,a,b} \text{\small{ nelze sestavit - viz tabulka dole }}
 \end{align*}
 $$
 

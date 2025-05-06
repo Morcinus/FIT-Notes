@@ -4,11 +4,10 @@ title: "Algebra 1"
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska11 status-toReview algebra1
 
 ### Úvod
-
 
 START
 FIT-Card
@@ -20,13 +19,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120180331.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241120180350.png)
+
 <!-- ProofEnd -->
 <!--ID: 1735205749384-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -39,6 +40,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120180429.png)
 
 <!-- ExplanationStart -->
+
 - **grupoid** = operace je uzavřená
 - **pologrupa** = operace je i asociativní
 - **monoid** = existuje neutrální prvek $e$
@@ -48,10 +50,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749387-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -63,15 +65,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120180848.png)
 
 <!-- ExplanationStart -->
+
 Tzn. operace je uzavřená
+
 <!-- ExplanationEnd -->
 
 Tags: core
 <!--ID: 1735205749389-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -84,10 +88,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749392-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -100,10 +104,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749394-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -116,10 +120,10 @@ Back:
 
 Tags: core
 <!--ID: 1735208319427-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -132,10 +136,10 @@ Back:
 
 Tags: core
 <!--ID: 1735205749397-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -146,10 +150,10 @@ Back:
 
 $$a^0 = e$$
 <!--ID: 1735205749400-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -160,6 +164,7 @@ Back:
 
 $$a^n = a \circ a \circ \dots \circ a$$
 <!--ID: 1735205749402-->
+
 END
 
 ---
@@ -173,10 +178,10 @@ Back:
 
 $$a^n \circ a^{-n}=e$$
 <!--ID: 1735205749405-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -188,16 +193,19 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120182803.png)
 
 Je to směrem "dovnitř" v hierarchii.
+
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241120180429.png)
+
 <!-- ImageEnd -->
 <!--ID: 1735205749407-->
+
 END
 
 ---
 
 ### Vlastnosti
-
 
 START
 FIT-Card
@@ -209,9 +217,12 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120185119.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020241120185129.png)
+
 <!-- ProofEnd -->
 <!--ID: 1735205749410-->
+
 END
 
 ---

@@ -3,14 +3,17 @@ created: 2024-11-12T14:31:11
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni08 status-toReview
 
 ### Strojová čísla
 
 ### Cvičení 15.1
+
 ![](../../../Assets/Pasted%20image%2020241112155432.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \\
@@ -65,9 +68,10 @@ $$
 \end{align*}
 $$
 
-
 ### Cvičení 15.1 b)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \tfrac{1}{17}  \\
@@ -93,7 +97,9 @@ $$
 $$
 
 ### Cvičení 15.1 c)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & -\tfrac{1}{13} +\tfrac{1}{17} = - \left(\tfrac{1}{13} - \tfrac{1}{17} \right)  \\
@@ -115,16 +121,20 @@ $$
 & \\
 & \text{Celkem tedy} \\
 & \underset{\textcolor{Lime}s}{\textcolor{Lime}{0}}\underset{\textcolor{Orange}e}{\textcolor{Orange}{01111001}}\underset{\textcolor{Blue}m}{\textcolor{Blue}{001010001000101100000}}  \\
-& 
+&
 \end{align*}
 $$
 
-
 ### Grupoid, monoid, pologrupa, grupa
+
 ![](../../../Assets/Pasted%20image%2020241112153001.png)
+
 ### Cvičení 16.2a
+
 ![](../../../Assets/Pasted%20image%2020241112155407.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{Prosté funkce} \\
@@ -142,7 +152,9 @@ $$
 $$
 
 ### Cvičení 16.2b
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & f^{-'} \in M \\
@@ -152,7 +164,9 @@ $$
 $$
 
 ### Cvičení 16.2c
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \underbrace{e(x) = x}_{\text{\small{Neutrální prvek}} }   \quad e \circ f = f \circ e = f \\
@@ -161,13 +175,16 @@ $$
 & \Rightarrow \text{\small{Asociativnost platí}} \\
 & \\
 & \text{Závěr} \\
-& (M, \circ) \text{\small{ je monoid.}} 
+& (M, \circ) \text{\small{ je monoid.}}
 \end{align*}
 $$
 
 ### Cvičení 16.6
+
 ![](../../../Assets/Pasted%20image%2020241112155335.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & P = \set{p(x) = a_{0} + a_{1}x + a_{2} x^2 +a_{3}x^3 +\dots} \\
@@ -177,8 +194,11 @@ $$
 $$
 
 ### Cvičení 16.7
+
 ![](../../../Assets/Pasted%20image%2020241112155324.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \left(\set{1} , : \right) \text{\small{ je grupa, ale my chceme větší}} \\
@@ -200,20 +220,23 @@ $$
 & \\
 & \text{\small{Je to grupa?}}  \\
 & (1)^{-1}=1 \\
-& (-1)^{-1} = -1 \\ 
+& (-1)^{-1} = -1 \\
 & \\
 & \text{\small{Je to Abelovská grupa?}} \\
 & a \circ b = b \circ a \\
 & 1:-1=-1:1=-1 \\
-& 
+&
 \end{align*}
 $$
+
 ### Cvičení 18.8
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & M \subset \mathbb{R}  \\
 & M = \set{1,2,3, \dots ,0,-1,-2,-3, \dots } = \mathbb{Z}  \\
-& (\mathbb{Z},+) \text{\small{je grupa}} 
+& (\mathbb{Z},+) \text{\small{je grupa}}
 \end{align*}
 $$

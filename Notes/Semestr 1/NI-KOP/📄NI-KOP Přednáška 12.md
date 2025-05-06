@@ -4,7 +4,7 @@ title: "Globální metody"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP-2
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska12 status-toReview
 
 START
@@ -18,10 +18,10 @@ Back:
 
 Tags: core
 <!--ID: 1736497489301-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -33,21 +33,25 @@ Back:
 Rozdělím problém na menší problémy, ty vyřeším a pak to seskládám zpátky.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221171935.png)
+
 <!-- ImageEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221172044.png)
 ![](../../../Assets/Pasted%20image%2020241221172601.png)
 ![](../../../Assets/Pasted%20image%2020241221172706.png)
+
 <!-- ExampleEnd -->
 
 Tags: core
 <!--ID: 1736497489307-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -61,10 +65,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221172901.png)
 <!--ID: 1736497489311-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -74,16 +78,19 @@ Jaké vlastnosti může mít dekompozice problému?
 Back:
 
 Jakým způsobem rozděluju tu instanci.
+
 - Např. na půl, nebo o jedno menší atd.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221173107.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1736497489315-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -96,10 +103,10 @@ Když máme optimální řešení dílčích problémů, potom jsme schopni sest
 
 ![](../../../Assets/Pasted%20image%2020241221173234.png)
 <!--ID: 1736497489320-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -114,10 +121,10 @@ Když mám optimální řešení těch instancí, tak zvládnu sestavit **optim�
 
 Tags: core
 <!--ID: 1736497489325-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -130,15 +137,16 @@ Když mám všechny řešení podinstancí, tak z toho získám **všechny** opt
 
 Tags: core
 <!--ID: 1736497489330-->
+
 END
 
 ---
-
 
 START
 FIT-Card
 
 Jaké jsou rozdíly mezi:
+
 - přesnou dekompozicí
 - přesnou a čistou dekompozicí
 
@@ -146,10 +154,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221173617.png)
 <!--ID: 1736497489334-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -161,18 +169,22 @@ Back:
 Jako složitost průchodu tím stromem volání.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221173733.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221173825.png)
 ![](../../../Assets/Pasted%20image%2020241221174031.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1736497489339-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -185,10 +197,10 @@ Dekompozice, kde ten podproblém je vždy jen "o jedno menší". Tzn. ten strom 
 
 ![](../../../Assets/Pasted%20image%2020241221174230.png)
 <!--ID: 1736497489345-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -203,6 +215,7 @@ Je založené na čisté dekompozici.
 
 Tags: core
 <!--ID: 1736497489349-->
+
 END
 
 ---
@@ -217,10 +230,10 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241221174337.png)
 ![](../../../Assets/Pasted%20image%2020241221174500.png)
 <!--ID: 1736497489354-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -233,24 +246,24 @@ Back:
 
 Tags: core
 <!--ID: 1736497489359-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-U jakých problémů se vyplatí používat dynamické programování? 
+U jakých problémů se vyplatí používat dynamické programování?
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241221174615.png)
 <!--ID: 1736497489364-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -261,10 +274,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221174731.png)
 <!--ID: 1736497489368-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -279,10 +292,10 @@ Jsou to algoritmy založené na **přibližné dekompozici**
 
 Tags: core
 <!--ID: 1736497489374-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -293,10 +306,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221175920.png)
 <!--ID: 1736497489379-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -307,10 +320,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221180743.png)
 <!--ID: 1736497489383-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -321,6 +334,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221180810.png)
 <!--ID: 1736497489387-->
+
 END
 
 ---

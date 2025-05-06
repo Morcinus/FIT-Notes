@@ -3,7 +3,6 @@ created: 2025-03-04T08:49:56
 title: "Browser Networking"
 up: "[[📖NI-AM2]]"
 ---
-
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 prednaska03 status-toReview
 
@@ -19,7 +18,7 @@ Back:
 - **Request formatting and response processing** - vynucení správně zformátovaných zpráv, ochrana uživatele proti malicious serverům
 - **TLS negotiation** - TLS handshake a kontrola certifikátů
 - **Same-origin policy** - omezení odkud se mohou posílat requesty
-
+<!--ID: 1746518365789-->
 END
 
 ---
@@ -33,7 +32,7 @@ Co jsou mashup aplikace?
 Back:
 
 Aplikace, co získávají data z více zdrojů
-
+<!--ID: 1746518365791-->
 END
 
 ---
@@ -49,7 +48,7 @@ Back:
 - **Data mashup** - agreguje data z více APIs (read only)
 - **Service mashup** - více sofisitkovaný workflow (read and write)
 - **Visualization** - zobrazuje data, např. Google mapy
-
+<!--ID: 1746518365794-->
 END
 
 ---
@@ -64,7 +63,7 @@ Back:
 
 - **client-side mashup** - je na klientovi
 - **server-side mashup** - je na serveru
-
+<!--ID: 1746518365796-->
 END
 
 ---
@@ -80,7 +79,7 @@ FIT-Card
 Back:
 
 XMLHttpRequest
-
+<!--ID: 1746518365800-->
 END
 
 ---
@@ -94,7 +93,7 @@ Používá se v dnešní době XHR?
 Back:
 
 Ne. Ale ve starších aplikacích se to furt může vyskytovat.
-
+<!--ID: 1746518365802-->
 END
 
 ---
@@ -115,8 +114,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304091521.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1746518365808-->
 END
 
 ---
@@ -138,7 +136,7 @@ Back:
 - `send, abort` - pošle nebo zruší request
 - `status, statusTest` - získá status requestu
 - `responseText, responseXML` - response jako text nebo XML
-
+<!--ID: 1746518365813-->
 END
 
 ---
@@ -154,7 +152,7 @@ Back:
 
 - XHR je založeno na callback funkcích
 - Fetch je založen na Promise objektech
-
+<!--ID: 1746518365816-->
 END
 
 ---
@@ -175,7 +173,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304091906.png)
 ![](../../Assets/Pasted%20image%2020250304091949.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518365819-->
 END
 
 ---
@@ -191,7 +189,7 @@ Back:
 Ne. Streamy dat jsou možné pouze v Fetch API.
 
 Např. načítání velkých souborů
-
+<!--ID: 1746518365822-->
 END
 
 ---
@@ -211,8 +209,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304092636.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1746518365825-->
 END
 
 ---
@@ -230,7 +227,7 @@ U requestů, které dělá JavaScript se používá tato policy.
 U requestů, které se přímo dělají z HTML bez JavaScript kódu (např. když mám image element) se to nepoužívá, protože tento request je read only a nemůže nic měnit. 
 
 Např. když si HTML stránka načte obrázek z jiného serveru (GET), tak se na to neaplikuje policy, protože tam nemůžu nic měnit.
-
+<!--ID: 1746518365827-->
 END
 
 ---
@@ -246,7 +243,7 @@ Back:
 - **Cross-origin Resource Sharing Protocol** (CORS) - preferovaný způsob
 	- Můžu na serveru povolit, z jakých dalších originů se mohou klienti dotazovat na můj server
 - **JSON a JSONP** (Get only)
-
+<!--ID: 1746518365830-->
 END
 
 ---
@@ -266,7 +263,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304093755.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746518365832-->
 END
 
 ---
@@ -290,7 +287,7 @@ Toto assumuje následující:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304094505.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746518365835-->
 END
 
 ---
@@ -311,8 +308,7 @@ Cross-Site scripting
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304094832.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1746518365838-->
 END
 
 ---
@@ -333,8 +329,7 @@ Např. toto fungovalo v roce 2010 na Twitteru
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304095038.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1746518365840-->
 END
 
 ---
@@ -349,7 +344,7 @@ Co je obecně **CORS**?
 Back:
 
 Je to protokol, který je rozšířením HTTP protokolu. 
-
+<!--ID: 1746518365843-->
 END
 
 ---
@@ -374,8 +369,7 @@ Tzn. Request se **každopádně provede**, jen Browser rozhoduje, jestli uživat
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250304095334.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365847-->
 END
 
 ---
@@ -391,7 +385,7 @@ Back:
 Buď
 - adresa povoleného originu (např. `http.//prague.example.org`)
 - nebo `*`, což je wildcard a může tam kdokoliv
-
+<!--ID: 1746518365850-->
 END
 
 ---
@@ -413,7 +407,7 @@ Analogicky pro PUT a DELETE
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304100301.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746518365853-->
 END
 
 ---
@@ -441,7 +435,7 @@ Díky tomu mi zdroj nevrátí JSON data, ale rovnou volání funkce s danými pa
 ![](../../Assets/Pasted%20image%2020250304101202.png)
 ![](../../Assets/Pasted%20image%2020250304101220.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746518365856-->
 END
 
 ---
@@ -455,7 +449,7 @@ Používá se JSONP?
 Back:
 
 V dnešní době už moc ne.
-
+<!--ID: 1746518365859-->
 END
 
 ---

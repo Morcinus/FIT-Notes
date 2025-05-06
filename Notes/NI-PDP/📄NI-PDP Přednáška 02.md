@@ -17,7 +17,7 @@ Co je OpenMP?
 Back:
 
 Knihovna pro paralelní programování. Je to jakby vyšší úroveň nad pthreads (která je v Cčku)
-
+<!--ID: 1746518365423-->
 END
 
 ---
@@ -35,7 +35,7 @@ Back:
 - Potom se to joinne zpátky
 
 ![](../../Assets/Pasted%20image%2020250227095821.png)
-
+<!--ID: 1746518365425-->
 END
 
 ---
@@ -52,7 +52,7 @@ Ne, vlákna jsou uložena v thread poolu a jen se jim přiřazují tasky.
 <!-- ExplanationStart -->
 Mazání a vytváření vláken by trvalo moc dlouho.
 <!-- ExplanationEnd -->
-
+<!--ID: 1746518365428-->
 END
 
 ---
@@ -67,7 +67,7 @@ Back:
 
 Pro gcc překladač
 `-f openmp`
-
+<!--ID: 1746518365431-->
 END
 
 ---
@@ -83,7 +83,7 @@ Back:
 ```
 #include <omp.h>
 ```
-
+<!--ID: 1746518365433-->
 END
 
 ---
@@ -99,7 +99,7 @@ Back:
 Není striktně zajištěno, že to co vidí každé vlákno je stejně viděno i ostatními vlákny.
 
 Abych to zajistil, musím si to nějak synchronizovat.
-
+<!--ID: 1746518365436-->
 END
 
 ---
@@ -115,7 +115,7 @@ Back:
 ```
 #pragma omp direktiva klauzule1 klauzule2
 ```
-
+<!--ID: 1746518365439-->
 END
 
 ---
@@ -138,7 +138,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227100716.png)
 ![](../../Assets/Pasted%20image%2020250227100758.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518365442-->
 END
 
 ---
@@ -160,8 +160,7 @@ Programátor tedy musí zajistit ošetření konfliktů
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101235.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365445-->
 END
 
 ---
@@ -182,8 +181,7 @@ Tedy funguje to jako když předávám funkci parametry hodnotou.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101244.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365447-->
 END
 
 ---
@@ -201,8 +199,7 @@ Jako `private(seznam)`, ale umožňuje inicializovat počáteční hodnotu té i
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101251.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365450-->
 END
 
 ---
@@ -217,7 +214,7 @@ Back:
 
 - `default(shared)` - pokud jsem v direktivě nevyjmenoval proměnné, které existují před blokem, budou defaultně shared
 - `default(none)` - pokud jsem v direktivě nevyjmenoval proměnné, které existují před blokem, nebudou defaultně sdílené
-
+<!--ID: 1746518365452-->
 END
 
 ---
@@ -231,7 +228,7 @@ Když udělám klauzuli v OpenMP na ukazatel, aplikuje se na ukazatel nebo na te
 Back:
 
 Aplikuje se pouze na ten ukazatel!
-
+<!--ID: 1746518365455-->
 END
 
 ---
@@ -255,8 +252,7 @@ Tady se po konci for cyklu sečtou všechny hodnoty result z všech podvláken.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101534.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365458-->
 END
 
 ---
@@ -270,7 +266,7 @@ Jaké jsou způsoby implementace paralelní redukce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227101927.png)
-
+<!--ID: 1746518365460-->
 END
 
 ---
@@ -293,8 +289,7 @@ Je to jako `private(seznam)`, ale přežívá jednotlivé oblasti kódu (tzn. ne
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102024.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365464-->
 END
 
 ---
@@ -308,7 +303,7 @@ Definice: **vlákno**
 Back:
 
 **Vlákno (Thread):** Entita provádění s vlastním zásobníkem a přidruženou statickou pamětí, nazývanou **threadprivate** paměť.
-
+<!--ID: 1746518365467-->
 END
 
 ---
@@ -322,7 +317,7 @@ Definice: **Počáteční vlákno**
 Back:
 
 **Počáteční vlákno (Initial thread):** Vlákno, které začne vykonávat OpenMP program.
-
+<!--ID: 1746518365469-->
 END
 
 ---
@@ -335,7 +330,7 @@ Definice: **Skupina soutěžících vláken (contention group)**
 Back:
 
 **Skupina soutěžících vláken (Contention group):** Počáteční vlákno a všechna jeho potomkovská vlákna.
-
+<!--ID: 1746518365472-->
 END
 
 ---
@@ -349,7 +344,7 @@ Definice: **Aktuální tým (Current team)**
 Back:
 
 **Aktuální tým (Current team):** Všechna vlákna v týmu vykonávajícím nejvnitřnější obklopující paralelní oblast.
-
+<!--ID: 1746518365475-->
 END
 
 ---
@@ -363,7 +358,7 @@ Definice: **Vláknově bezpečná rutina (Thread-safe routine)**
 Back:
 
 **Vláknově bezpečná rutina (Thread-safe routine):** Rutina, která vykonává zamýšlenou funkci i při současném vykonávání více vlákny.
-
+<!--ID: 1746518365478-->
 END
 
 ---
@@ -381,8 +376,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102459.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365480-->
 END
 
 ---
@@ -400,8 +394,7 @@ Určují, jakým způsobem se chová systém (při vytváření vláken atd.)
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102702.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365483-->
 END
 
 ---
@@ -422,7 +415,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102713.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518365486-->
 END
 
 ---
@@ -438,7 +431,7 @@ Algoritmus: stanovení počtu vláken v paralelní oblasti
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227102909.png)
-
+<!--ID: 1746518365489-->
 END
 
 ---
@@ -452,7 +445,7 @@ Jak funguje for cyklus v OpenMP?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227103247.png)
-
+<!--ID: 1746518365491-->
 END
 
 ---
@@ -470,7 +463,7 @@ Back:
 - `private(seznam) | firstprivate(seznam) | lastprivate(seznam) | shared(seznam) | reduction(operator:seznam)`
 	- `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
 - `nowait` - pokud to tam nedám, tak všechna vlákna, co počítali for loop, budou čekat až do konce iteračního výpočtu. Nowait umožní vyskočit z těla toho cyklu a nečekat na ostatní
-
+<!--ID: 1746518365494-->
 END
 
 ---
@@ -497,7 +490,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227104146.png)
 ![](../../Assets/Pasted%20image%2020250227104157.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746518365497-->
 END
 
 ---
@@ -511,7 +504,7 @@ Jak se prakticky liší použití static, dynamic a guided schedule?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227104511.png) 
-
+<!--ID: 1746518365499-->
 END
 
 ---
@@ -539,8 +532,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227104943.png)
 ![](../../Assets/Pasted%20image%2020250227104949.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365502-->
 END
 
 ---
@@ -557,7 +549,7 @@ Co z těchto paralelizací bude většinou nejlepší?
 Back:
 
 Typicky ta **(5)**, protože 6 a 7 jsou hendikepovaný bariérama.
-
+<!--ID: 1746518365504-->
 END
 
 ---
@@ -577,8 +569,7 @@ Dvě možnosti paralelizace vnitřního cyklu:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227105218.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365507-->
 END
 
 ---
@@ -598,8 +589,7 @@ Dělá se to jednoduše tak, že tam nacpu direktivu task.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110308.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518365509-->
 END
 
 ---
@@ -619,8 +609,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227110347.png)
 ![](../../Assets/Pasted%20image%2020250227110357.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518365512-->
 END
 
 ---
@@ -638,7 +627,7 @@ Back:
 - `omp_get_num_threads()` - vrátí počet vláken v aktuální oblasti
 - `omp_set_num_threads(int i)` - změní počet vytvořených vláken v následujících paralelních oblastech na hodnotu parametru $i$
 - `omp_get_wtime()` - vrátí číslo, které udává uběhnutý čas od nějakého okamžiku v minulosti.
-
+<!--ID: 1746518365515-->
 END
 
 ---
@@ -652,7 +641,7 @@ Jaké jsou hlavní synchronizační direktivy v OpenMP? (7)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227110920.png)
-
+<!--ID: 1746518365518-->
 END
 
 ---
@@ -668,7 +657,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227110751.png)
 
 Pozn. bariéry jsou normálně implicitně skryté.
-
+<!--ID: 1746518365520-->
 END
 
 ---
@@ -682,7 +671,7 @@ Co je `#pragma omp single`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227110803.png)
-
+<!--ID: 1746518365523-->
 END
 
 ---
@@ -696,7 +685,7 @@ Co je `#pragma omp master`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227110833.png)
-
+<!--ID: 1746518365526-->
 END
 
 ---
@@ -717,7 +706,7 @@ Atomická operace, která zajišťuje, že se provede read-modify-write, aniž b
 ![](../../Assets/Pasted%20image%2020250227111032.png)
 ![](../../Assets/Pasted%20image%2020250227111039.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518365528-->
 END
 
 ---
@@ -734,7 +723,7 @@ Back:
 - **Atomické psaní**
 - **Atomický update** - to typicky člověk potřebuje
 - **Atomický capture**
-
+<!--ID: 1746518365531-->
 END
 
 ---
@@ -754,7 +743,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227111821.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746518365534-->
 END
 
 ---
@@ -768,7 +757,7 @@ Jak funguje direktiva eureka?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227111839.png)
-
+<!--ID: 1746518365537-->
 END
 
 ---

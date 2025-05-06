@@ -3,11 +3,13 @@ created: 2024-12-10T14:32:55
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni11 status-toReview
 
 ### Cvičení 20.1a
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & a,b \in G  \quad \phi(a \circ_{G} b) = \phi(a) \circ_{H} \phi(b) \\
@@ -24,7 +26,9 @@ $$
 $$
 
 ### Cvičení 20.1b
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & f(x) = 2^{x}  \\
@@ -46,11 +50,14 @@ $$
 & \forall \in \mathbb{R}^{+} \exists x : 2^{x}= y  \\
 & y \in R^{+}  \quad x = \log_{2}y \\
 & \Rightarrow \text{\small{je bijektivní a tím pádem izomorfismus}} \\
-& 
+&
 \end{align*}
 $$
+
 ### Cvičení 20.1c
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & f:(\mathbb{R}^{n\times n}, +) \rightarrow(\mathbb{R},+) \\
@@ -66,7 +73,9 @@ $$
 $$
 
 ### Cvičení 22
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & f : (\mathbb{R}_{reg}^{n \times n}, \cdot) \rightarrow (\mathbb{R}, \cdot) \\
@@ -76,7 +85,7 @@ $$
 &  \\
 & \det A \neq 0 \\
 & A \in \mathbb{R}_{reg} \\
-& \alpha \in \mathbb{R} ,  
+& \alpha \in \mathbb{R} ,
 A = \begin{pmatrix} \alpha_{1}  &  &  \\  & \dots   &  \\  &  &  \dots \end{pmatrix}  \\
 & (\det A)^{k} \\
 & f(A) = 0 \\
@@ -89,18 +98,22 @@ A = \begin{pmatrix} \alpha_{1}  &  &  \\  & \dots   &  \\  &  &  \dots \end{pmat
 $$
 
 ### Cvičení 20.3
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
-& \mathbb{Z}_{10}^{\times} = (M, \times_{10})  \quad M = \set{1,3,7,9} \\ 
+& \mathbb{Z}_{10}^{\times} = (M, \times_{10})  \quad M = \set{1,3,7,9} \\
 & \mathbb{Z}_{5}^{\times} = (N, \times_{5} )    \quad N = \set{1,2,3,4} \\
 & \phi(1) = 1 \\
 \end{align*}
 $$
+
 > [!info]
 > Neutrální prvek jedné grupy se musí zobrazit na neutrální prvek druhé grupy
 
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \varphi(4) = \varphi(2^{2}) = 4-2=2 \\
@@ -126,12 +139,14 @@ $$
 & \phi(3)=3 \\
 & \phi(9)=4 \\
 & \phi(7)=2 \\
-& 
+&
 \end{align*}
 $$
 
 ### Cvičení 20.5
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & G = \mathbb{Z}_{5}^{+}  \quad M = \set{0,1,2,3,4} \quad \#G = 5  \\
@@ -145,12 +160,14 @@ $$
 & \phi(3) = 1\\
 & \phi(4) = 1 \\
 & \forall a \in G:\text{\small{ord}} (\phi(a)) \ | \ \text{\small{ord}}(a) \\
-& \text{\small{Podgrupa, kterou získáme v H musí mít řád 1.}} \\ 
+& \text{\small{Podgrupa, kterou získáme v H musí mít řád 1.}} \\
 \end{align*}
 $$
 
 ### Cvičení 20.6
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \mathbb{Z}_{12}^{+}   \quad M = \set{0,1,\dots, 11} \quad \text{\small{řád 12}}  \\
@@ -163,8 +180,11 @@ $$
 & \Rightarrow \phi(4) = 5
 \end{align*}
 $$
+
 ### Cvičení 21.1
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & 5^{x} \equiv 12 \pmod{23} \\
@@ -181,7 +201,9 @@ $$
 $$
 
 ### Cvičení 21.2
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \mathbb{Z}_{29}^{\times}  \\

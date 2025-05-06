@@ -4,7 +4,7 @@ title: "Pseudopolynomiální a aproximativní algoritmy"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska05 status-toReview
 
 START
@@ -17,14 +17,15 @@ Back:
 Algoritmy, co vypadají, jako že řeší NP těžký problém v polynomiálním čase.
 
 <!-- ExampleStart -->
+
 Problém batohu s dekompozicí podle váhy
 
 <!-- ExampleEnd -->
 <!--ID: 1731143142207-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -39,10 +40,10 @@ V té matici, pokud se podívám na nějaké místo a už tam číslo je, tak ta
 
 ![](../../../Assets/Pasted%20image%2020241024120634.png)
 <!--ID: 1731143142210-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -60,6 +61,7 @@ V té matici, pokud se podívám na nějaké místo a už tam číslo je, tak ta
 
 Té sumy v prvním bodě se zbavím tak, že prostě řeknu, že budu nkrát brát tu největší hodnotu.
 <!--ID: 1731143142213-->
+
 END
 
 ---
@@ -75,12 +77,12 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024121331.png)
 <!--ID: 1731143142215-->
+
 END
 
 ---
 
 ### Aproximativní algoritmy
-
 
 START
 FIT-Card
@@ -92,15 +94,17 @@ Back:
 Algoritmus, který nedosáhne exaktního řešení (nemá záruku optimálního řešení), ale zaručí mi **pro všechny instance problému** kvalitu (např. že řešení není o 5% horší než optimum).
 
 <!-- ExampleStart -->
+
 APR-KNAP (aproximativní algoritmus pro probém batohu)
 
 ![](../../../Assets/Pasted%20image%2020241024121708.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1731143142218-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -112,15 +116,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024121917.png)
 
 <!-- ExplanationStart -->
+
 APR = aproximativní algoritmus
 $\forall \ I$ znamená pro všechny instance, které mohou existovat
 ![](../../../Assets/Pasted%20image%2020241024121911.png)
+
 <!-- ExplanationEnd -->
 <!--ID: 1731143142221-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -132,15 +138,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024122027.png)
 
 <!-- ExplanationStart -->
+
 APR = aproximativní algoritmus
 $\forall \ I$ znamená pro všechny instance, které mohou existovat
 ![](../../../Assets/Pasted%20image%2020241024121911.png)
+
 <!-- ExplanationEnd -->
 <!--ID: 1731143142223-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -154,6 +162,7 @@ $$\varepsilon = 1- \frac{1}{R}, \quad R = \frac{1}{1-\varepsilon}$$
 ![](../../../Assets/Pasted%20image%2020241024122341.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024123328.png)
 ![](../../../Assets/Pasted%20image%2020241024123336.png)
 Problém je, že na hraně AB to najde AB, i když optimum je A
@@ -165,14 +174,12 @@ Problém je, že na hraně AB to najde AB, i když optimum je A
 ![](../../../Assets/Pasted%20image%2020241024125100.png)
 ![](../../../Assets/Pasted%20image%2020241024125233.png)
 
-
-
 <!-- ExampleEnd -->
 <!--ID: 1731143142226-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -183,10 +190,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024122522.png)
 <!--ID: 1731143142229-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -197,10 +204,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024122904.png)
 <!--ID: 1731143142231-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -212,16 +219,18 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024123157.png)
 
 <!-- ExplanationStart -->
+
 Tzn. nejsme u $R$ v nekonečnu ani u v jedničce $\varepsilon$
 ![](../../../Assets/Pasted%20image%2020241024123121.png)
+
 <!-- ExplanationEnd -->
 <!--ID: 1731143142234-->
+
 END
 
 ---
 
 ### PTAS
-
 
 START
 FIT-Card
@@ -233,13 +242,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024125849.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024125944.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1731143142236-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -250,10 +261,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024125909.png)
 <!--ID: 1731143142239-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -265,14 +276,16 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024130135.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024130315.png)
 ![](../../../Assets/Pasted%20image%2020241024130615.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1731143142241-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -284,15 +297,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024130209.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024130233.png)
+
 <!-- ImageEnd -->
 <!--ID: 1731143142244-->
+
 END
 
 ---
 
 ### Aproximační problémy
-
 
 START
 FIT-Card
@@ -304,14 +319,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024130829.png)
 
 <!-- ExplanationStart -->
+
 Začíná to vlevo nahoře, pak podle šipek.
 
 <!-- ExplanationEnd -->
 <!--ID: 1731143142246-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -322,10 +338,10 @@ Back:
 
 Zachovává relativní kvalitu až na nějaký koeficient.
 <!--ID: 1731143142249-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -336,10 +352,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024131445.png)
 <!--ID: 1731143142251-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -352,10 +368,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024131524.png)
 <!--ID: 1731143142254-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -367,10 +383,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024131541.png)
 <!--ID: 1731143142257-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -381,6 +397,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024131752.png)
 <!--ID: 1731143142260-->
+
 END
 
 ---
@@ -395,9 +412,12 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024131758.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024132024.png)
+
 <!-- ImageEnd -->
 <!--ID: 1731143142263-->
+
 END
 
 ---
@@ -411,6 +431,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241024131807.png)
 <!--ID: 1731143142265-->
+
 END
 
 ---
@@ -425,18 +446,22 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241024131818.png)
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024132011.png)
+
 <!-- ImageEnd -->
 
 <!-- ExampleStart -->
+
 Pozn. tohle nevím, jestli je APX-úplný nebo APX-těžký.. Na přednášce o tom začal mluvit a pak odběhnul od tématu.
 ![](../../../Assets/Pasted%20image%2020241024132210.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1731143142268-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -448,31 +473,32 @@ Back:
 APX redukce je Turingova redukce v polynomiálním čase
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241024132011.png)
+
 <!-- ImageEnd -->
 <!--ID: 1731143142270-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Jak jsou v sobě množinově třídy 
+Jak jsou v sobě množinově třídy
 $PO, NPH, APX, NPO, PTAS, FPTAS, NPO-úplný, APX-úplný$?
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241024132011.png)
 <!--ID: 1731329425624-->
+
 END
 
 ---
 
-
 ![](../../../Assets/Pasted%20image%2020241024132531.png)
-
 
 START
 FIT-Card
@@ -483,6 +509,7 @@ Back:
 
 APX-úplný
 <!--ID: 1731143142273-->
+
 END
 
 ---
@@ -496,10 +523,10 @@ Back:
 
 Není v APX
 <!--ID: 1731143142275-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -510,9 +537,11 @@ Back:
 
 APX-úplný
 <!--ID: 1731143142278-->
+
 END
 
 ---
+
 START
 FIT-Card
 
@@ -522,6 +551,7 @@ Back:
 
 NPO-úplný
 <!--ID: 1731143142281-->
+
 END
 
 ---
@@ -535,6 +565,7 @@ Back:
 
 FPTAS
 <!--ID: 1731143142284-->
+
 END
 
 ---
@@ -548,9 +579,11 @@ Back:
 
 NPO-úplný
 <!--ID: 1731143142286-->
+
 END
 
 ---
+
 START
 FIT-Card
 
@@ -560,6 +593,7 @@ Back:
 
 APX-úplný
 <!--ID: 1731143142289-->
+
 END
 
 ---
@@ -573,6 +607,7 @@ Back:
 
 PTAS
 <!--ID: 1731143142292-->
+
 END
 
 ---
@@ -586,8 +621,7 @@ Back:
 
 APX-úplný
 <!--ID: 1731143142294-->
+
 END
 
 ---
-
-

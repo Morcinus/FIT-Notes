@@ -3,11 +3,13 @@ created: 2024-12-17T14:32:34
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni13 status-toReview
 
 ### Cvičení 22.1
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{\small{a) celá čísla}}  \\
@@ -40,15 +42,17 @@ $$
 \end{align*}
 $$
 
-
 ### Cvičení 23.4
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & GF(\textcolor{Orange}2^\textcolor{Green}2 ) \quad x^{2} + x- 1 \\
 & \mathbb{Z}_{2} \\
 \end{align*}
 $$
+
 $(M, +)$
 
 | +   | 0   | 1   | x   | x+1 |
@@ -69,8 +73,11 @@ $(M, \cdot)$
 | 1       | 1   | x   | x+1 |
 | x       | x   | x+1 | 1   |
 | x+1     | x+1 | 1   | x   |
+
 Sick matematický tríček:
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & x^2+x-1=0 \\
@@ -78,22 +85,25 @@ $$
 & x(x+1) = x^{2} + x \\
 & = x + 1 +x \\
 & = 2x +1=1 \\
-& (x+1)(x+1) = x^{2} + 2x + 1=x^{2} + 1= x + 1 + 1 = x  
+& (x+1)(x+1) = x^{2} + 2x + 1=x^{2} + 1= x + 1 + 1 = x
 \end{align*}
 $$
+
 Vlastnosti:
+
 - $\left(x+1 \right) ^{-1} = x$ (inverze)
 - $x$ a $x+1$ jsou generátory
-  
+
 ### Cvičení 23.5
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & GF(\textcolor{Orange}3^{2}) \quad x^{2} -x -1 \\
 & \Rightarrow \mathbb{Z}_{\textcolor{Orange}3}
 \end{align*}
 $$
-
 
 | $\cdot$ | 1                  | 2                  | x    | x+1  | x+2                | 2x                 | 2x+1               | 2x+2               |
 | ------- | ------------------ | ------------------ | ---- | ---- | ------------------ | ------------------ | ------------------ | ------------------ |
@@ -107,6 +117,7 @@ $$
 | 2x+2    | 2x+2               |                    |      |      |                    |                    |                    |                    |
 
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & x^{2}-x-1=0 \\
@@ -122,8 +133,11 @@ $$
 $$
 
 ### Cvičení 23.6
+
 ![](../../../Assets/Pasted%20image%2020241217151722.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \text{\small{Ireducibilní?}} \\
@@ -157,7 +171,7 @@ $$
 & x^{4}+ 1  \textcolor{Red}{\quad \text{1 je kořen} \times} \\
 & +0 \quad \text{\small{Vynecháváme 8 polynomů, protože víme, že jsou ireducibilní}} \\
 &   \\
-& \text{\small{Další test:}}\\ 
+& \text{\small{Další test:}}\\
 & \left(x^{4} + x^{2} + 1\right) = (ax^2 + bx+ 1)(cx^2 + dx+ 1)  \\
 & = acx^{4} + (ad+ bc)x^{3} + (bd+ a+ c)x^{2} + (b+ d)x+ 1 \\
 &  \\
@@ -168,8 +182,11 @@ $$
 & \Rightarrow \text{\small{Celkem 8 ireducibilních polynomů stupně }} n < 5
 \end{align*}
 $$
+
 ### Cvičení 23.8
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & GF(2^{3})  \quad x^{3}+x+1 \\
@@ -194,7 +211,9 @@ $$
 $$
 
 ### Cvičení 23.11
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & GF(2^{4}) \quad x^{4}+x^{3}+1 \\
@@ -210,10 +229,12 @@ REA:
 | $x^{4}+ x^{3}+1$    | $1$                 | $0$                           |     |
 | $x^{3} + x^{2}$     | $2$                 | $1$                           | $x$ |
 | $\textcolor{Blue}1$ | $\textcolor{Blue}1$ | $\textcolor{Blue}{-1\cdot x}$ |     |
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \textcolor{Blue}{1=\underline{1\cdot (x^{4}+ x^{3}+ 1)}- x(x^{3} + x^{2})} \\
-& 1 = (-x)(x^{3}+x^{2}) \Rightarrow (x^{3}+ x^{2})^{-1}=-x=x 
+& 1 = (-x)(x^{3}+x^{2}) \Rightarrow (x^{3}+ x^{2})^{-1}=-x=x
 \end{align*}
 $$

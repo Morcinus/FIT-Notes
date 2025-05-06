@@ -4,11 +4,10 @@ title: "Simulovaná evoluce 3"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP-2
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska11 status-toReview
 
 ### Proč genetické algoritmy fungují
-
 
 START
 FIT-Card
@@ -21,10 +20,10 @@ Back:
 
 Tags: core
 <!--ID: 1735922645590-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -38,10 +37,10 @@ Pracuje se s množinou schémat
 
 Tags: core
 <!--ID: 1735922645593-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -55,11 +54,10 @@ Back:
 
 Tags: core
 <!--ID: 1735922645597-->
+
 END
 
 ---
-
-
 
 START
 FIT-Card
@@ -72,10 +70,10 @@ Back:
 
 Tags: core
 <!--ID: 1735922645600-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -87,15 +85,17 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241221154947.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221155234.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735922645602-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -106,10 +106,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221155317.png)
 <!--ID: 1735922645605-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -122,10 +122,10 @@ Back:
 
 Tags: core
 <!--ID: 1735922645608-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -139,10 +139,10 @@ Back:
 
 Tags: core
 <!--ID: 1735922645612-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -154,13 +154,15 @@ Back:
 Máme např. minimalizační problém, kde optimalizační kritérium je počet jedniček v chromozomu.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241221155741.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735922645615-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -170,6 +172,7 @@ Co je **Kompetentní** genetický algoritmus?
 Back:
 
 Takový, který zachází se stavebníma blokama:
+
 - explicitně - **messy** genetický algoritmus
 - pracuje s pravděpodobnostním modelem vazeb
 
@@ -177,10 +180,10 @@ Takový, který zachází se stavebníma blokama:
 
 Tags: core
 <!--ID: 1735922645618-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -199,10 +202,10 @@ Postupně se zvyšuje řád stavebních bloků $k$.
 
 Tags: core
 <!--ID: 1735922645621-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -217,28 +220,29 @@ Na první pozici je místo, na druhé pozici je hodnota
 
 Tags: core
 <!--ID: 1735922645624-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Jak se řeší nedokonalost kódování schémat? 
+Jak se řeší nedokonalost kódování schémat?
 
 Back:
 
 Dvě možnosti:
+
 - Nedospecifikované geny
 - Přespecifikované geny
 
 ![](../../../Assets/Pasted%20image%2020241221160611.png)
 <!--ID: 1735922645628-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -248,12 +252,14 @@ Jak se generují schémata?
 Back:
 
 Stochastické generování:
+
 - vygenerujeme schémata většího řádu
 - potom schémata filtruju a zkracuju
-	- Tzn. snažím se ze stavebního bloku vyššího řádu vyříznout nějaký lepší blok nižšího řádu
+  - Tzn. snažím se ze stavebního bloku vyššího řádu vyříznout nějaký lepší blok nižšího řádu
 
 ![](../../../Assets/Pasted%20image%2020241221160736.png)
 <!--ID: 1735922645631-->
+
 END
 
 ---
@@ -267,10 +273,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221160849.png)
 <!--ID: 1735922645634-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -280,13 +286,15 @@ Jak funguje Rekombinace schémat?
 Back:
 
 Jsou tam dvě operace:
+
 - **rozdělení** (cut) - rozdělení obou rodičů v náhodných bodech
-- **spojení** (splice) - spojím rozdělené fragmenty 
+- **spojení** (splice) - spojím rozdělené fragmenty
 
 ![](../../../Assets/Pasted%20image%2020241221161051.png)
 
 Tags: core
 <!--ID: 1735922645637-->
+
 END
 
 ---
@@ -304,10 +312,10 @@ Máme generace a zkoušíme udělat statistický odhad, co mi dává optima.
 
 ![](../../../Assets/Pasted%20image%2020241221161141.png)
 <!--ID: 1735922645641-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -322,10 +330,10 @@ Mám pravděpodobnosti jevů v tabulce. Obecně to je orientovaný acyklický gr
 
 Tags: core
 <!--ID: 1735922645644-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -339,10 +347,10 @@ V orientovaném grafu se pak můžu ptát na různé otázky:
 
 Tags: core
 <!--ID: 1735922645647-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -351,16 +359,16 @@ Jak funguje Bayesovská optimalizace?
 
 Back:
 
-V cyklu algoritmu sestavuju bayesovskou síť. 
+V cyklu algoritmu sestavuju bayesovskou síť.
 
 ![](../../../Assets/Pasted%20image%2020241221161621.png)
 
 Tags: core
 <!--ID: 1735922645650-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -373,6 +381,7 @@ Back:
 
 Tags: core
 <!--ID: 1735922645653-->
+
 END
 
 ---
@@ -391,6 +400,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241221161857.png)
 <!--ID: 1735922645656-->
+
 END
 
 ---

@@ -16,7 +16,7 @@ Jak lze Entropii zapsat pomocí střední hodnoty?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250318105903.png)
-
+<!--ID: 1746518365066-->
 END
 
 ---
@@ -30,7 +30,7 @@ Jaké rozdělení maximální entropii?
 Back:
 
 Rovnoměrné rozdělení 
-
+<!--ID: 1746518365068-->
 END
 
 ---

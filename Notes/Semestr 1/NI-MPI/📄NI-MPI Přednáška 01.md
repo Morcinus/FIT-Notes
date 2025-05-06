@@ -3,7 +3,7 @@ created: 2024-10-11T09:42:36
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska01 status-toReview analyza1
 
 START

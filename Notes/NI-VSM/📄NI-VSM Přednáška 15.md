@@ -16,7 +16,7 @@ Definice: **přechodný stav**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114718.png)
-
+<!--ID: 1746518364687-->
 END
 
 ---
@@ -30,7 +30,7 @@ Definice: **trvalý nulový stav**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114734.png)
-
+<!--ID: 1746518364689-->
 END
 
 ---
@@ -44,7 +44,7 @@ Definice: **trvalý nenulový aperiodický stav**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114750.png)
-
+<!--ID: 1746518364692-->
 END
 
 ---
@@ -58,7 +58,7 @@ Definice: **trvalý nenulový periodický stav**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114804.png)
-
+<!--ID: 1746518364695-->
 END
 
 ---
@@ -72,7 +72,7 @@ Definice: **dosažitelný stav**, vzájemně dosažitelné stavy
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114826.png)
-
+<!--ID: 1746518364698-->
 END
 
 ---
@@ -86,7 +86,7 @@ Věta: dosažitelnost stavu a stejný typ
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114839.png)
-
+<!--ID: 1746518364701-->
 END
 
 ---
@@ -104,7 +104,7 @@ Back:
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020250410114915.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1746518364704-->
 END
 
 ---
@@ -118,7 +118,7 @@ Definice: **pohlcující** stav
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114909.png)
-
+<!--ID: 1746518364707-->
 END
 
 ---
@@ -132,7 +132,7 @@ Definice: **nerozložitelná** množina stavů
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410114932.png)
-
+<!--ID: 1746518364710-->
 END
 
 ---
@@ -153,8 +153,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250410115001.png)
 ![](../../Assets/Pasted%20image%2020250410121951.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364713-->
 END
 
 ---
@@ -168,7 +167,7 @@ Lemma: trvalé stavy $i$ a $j$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115024.png)
-
+<!--ID: 1746518364716-->
 END
 
 ---
@@ -182,7 +181,7 @@ Věta: **konečná množina stavů**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115040.png)
-
+<!--ID: 1746518364719-->
 END
 
 ---
@@ -202,8 +201,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250410115136.png)
 
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364722-->
 END
 
 ---
@@ -221,8 +219,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250410115204.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364724-->
 END
 
 ---
@@ -236,7 +233,7 @@ Důsledek: Je li množina stavů $S$ konečná $\implies \ ???$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115227.png)
-
+<!--ID: 1746518364727-->
 END
 
 ---
@@ -254,8 +251,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250410115259.png)
 <!-- ExerciseEnd -->
-
-
+<!--ID: 1746518364730-->
 END
 
 ---
@@ -270,7 +266,7 @@ Jak funguje metoda maximální věrohodnosti (MLE)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115647.png)
-
+<!--ID: 1746518364733-->
 END
 
 ---
@@ -285,7 +281,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250410115702.png)
 ![](../../Assets/Pasted%20image%2020250410115709.png)
-
+<!--ID: 1746518364735-->
 END
 
 ---
@@ -299,7 +295,7 @@ Pozorování: jak vypadá maximálně věrohodný odhad matice přechodu $\textb
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115742.png)
-
+<!--ID: 1746518364738-->
 END
 
 ---
@@ -313,7 +309,7 @@ Věta: konzistence odhadu matice přechodu
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115803.png)
-
+<!--ID: 1746518364741-->
 END
 
 ---
@@ -327,7 +323,7 @@ Jak funguje MCMC?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115830.png)
-
+<!--ID: 1746518364744-->
 END
 
 ---
@@ -347,7 +343,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250410115906.png)
 ![](../../Assets/Pasted%20image%2020250410115913.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746518364746-->
 END
 
 ---
@@ -361,7 +357,7 @@ Lemma: pro markovský řetězec $\dots$ platí, že je vektor $q$ stacionárním
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115955.png)
-
+<!--ID: 1746518364749-->
 END
 
 ---

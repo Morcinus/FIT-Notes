@@ -22,8 +22,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250329084734.png)
 ![](../../Assets/Pasted%20image%2020250329084741.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364800-->
 END
 
 ---
@@ -39,7 +38,7 @@ Back:
 V každém chlívečku by mělo být 5 prvků, aby se to blížilo nekonečnu.
 
 ![](../../Assets/Pasted%20image%2020250329113530.png)
-
+<!--ID: 1746518364802-->
 END
 
 ---
@@ -78,8 +77,7 @@ Vysvětlení vzorečku:
 - Vždy bereme co jsme naměřili a odečteme od toho, co máme v nulové hypotéze
 
 <!-- ExplanationEnd -->
-
-
+<!--ID: 1746518364805-->
 END
 
 ---
@@ -97,7 +95,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250329084907.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746518364808-->
 END
 
 ---
@@ -121,7 +119,7 @@ Jsou v tom např. testy:
 - Bloky nahoru/dolů
 
 ![](../../Assets/Pasted%20image%2020250329084927.png)
-
+<!--ID: 1746518364810-->
 END
 
 ---
@@ -145,8 +143,7 @@ Počet bloků má cca normální rozdělení
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250329130403.png)
 <!-- ImageEnd -->
-
-
+<!--ID: 1746518364813-->
 END
 
 ---
@@ -170,8 +167,7 @@ Dokud klesám/stoupám, jsem v jednom bloku.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250329085016.png)
 <!-- DetailInfoEnd -->
-
-
+<!--ID: 1746518364816-->
 END
 
 ---
@@ -190,8 +186,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250329085356.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364818-->
 END
 
 ---
@@ -212,8 +207,7 @@ Posadím na každý bod "jádro" - nějakou funkci (třeba normální rozdělen�
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250329085427.png)
 <!-- ExampleEnd -->
-
-
+<!--ID: 1746518364821-->
 END
 
 ---
@@ -231,7 +225,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411135510.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746518364824-->
 END
 
 ---

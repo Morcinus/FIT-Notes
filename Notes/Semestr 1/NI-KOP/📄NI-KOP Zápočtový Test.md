@@ -3,7 +3,7 @@ created: 2024-11-09T15:31:45
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP-Test
+TARGET DECK: archive
 FILE TAGS: NI-KOP-Test test01 status-toReview
 
 # Zápočtový test
@@ -20,8 +20,8 @@ Back:
 - Výstupní proměnné dávají odpověď na zadání daného problému.
 - Liší se když to je rozhodovací problém. Potom je výstupní proměnná **ano/ne**.
 - Liší se když je je početní problém. Potom je výstupní proměnná **číslo** (např. kolik existuje řešení).
-<!--ID: 1731175818386-->
-END
+  <!--ID: 1731175818386-->
+  END
 
 ---
 
@@ -36,6 +36,7 @@ Back:
 
 Existuje takova klika v grafu G, aby pocet jejich vrcholu byl vetsi nez konstanta K?
 <!--ID: 1731175818389-->
+
 END
 
 ---
@@ -51,6 +52,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818392-->
+
 END
 
 ---
@@ -66,6 +68,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818394-->
+
 END
 
 ---
@@ -81,6 +84,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818399-->
+
 END
 
 ---
@@ -96,6 +100,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818402-->
+
 END
 
 ---
@@ -111,6 +116,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818405-->
+
 END
 
 ---
@@ -129,8 +135,8 @@ Back:
 - ❌Je to třída všech nejtěžších kombinatorických problémů
 - **✅Je to třída pouze rozhodovacích problémů**
 - **✅Certifikát všech problémů z této třídy lze ověřit v polynomiálním čase**
-<!--ID: 1731175818407-->
-END
+  <!--ID: 1731175818407-->
+  END
 
 ---
 
@@ -148,8 +154,8 @@ Back:
 - **✅Jsou řešitelné v polynomiálním čase nedeterministickým Turingovým strojem.**
 - ❌Nejsou řešitelné v polynomiálním čase deterministickým Turingovým strojem.
 - **✅Jejich certifikát se dá zkontrolovat v polynomiálním čase deterministickým Turingovým strojem.**
-<!--ID: 1731175818410-->
-END
+  <!--ID: 1731175818410-->
+  END
 
 ---
 
@@ -165,6 +171,7 @@ Back:
 
 Obě dvě varianty jsou z definice (každá z jiné)
 <!--ID: 1731175818413-->
+
 END
 
 ---
@@ -183,18 +190,21 @@ c) Dokažte nebo vyvraťte, že tento problém patří do třídy NP.
 Back:
 
 **Konfigurační proměnné**:
+
 - Seznam kontejnerů, v každém kontejneru množina věcí, které v něm jsou umístěny.
 
 **Omezení**:
+
 - V kontejneru nesmí věci překročit kapacitu
 - Kontejnerů je maximálně K
 - Každá věc je umístěna právě jednou (ne méně, ne více)
 
 **Důkaz:**
+
 - Je NP, pokud správnost nějaké konfigurace u každé instance lze ověřit v polynomiálním čase
 - To zde platí, protože projít všechny kontejnery a zkontrolovat omezení je polynomiální složitost
-<!--ID: 1731175818415-->
-END
+  <!--ID: 1731175818415-->
+  END
 
 ---
 
@@ -209,6 +219,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818418-->
+
 END
 
 ---
@@ -224,6 +235,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818421-->
+
 END
 
 ---
@@ -239,6 +251,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818424-->
+
 END
 
 ---
@@ -254,6 +267,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818427-->
+
 END
 
 ---
@@ -273,8 +287,8 @@ operatory
 
 - pro procesor i pridej do posloupnosti prirazenych uloh jednu z neprirazenych uloh, t
 - pro procesor i odeber z posloupnosti prirazenych uloh posledni z uloh, t, a vrat ji mezi neprirazene ulohy
-<!--ID: 1731175818430-->
-END
+  <!--ID: 1731175818430-->
+  END
 
 ---
 
@@ -289,6 +303,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818433-->
+
 END
 
 ---
@@ -306,6 +321,7 @@ Back:
 
 Existuje minimální uzlové pokrytí takové, že počet uzlů < k?
 <!--ID: 1731175818436-->
+
 END
 
 ---
@@ -321,6 +337,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818439-->
+
 END
 
 ---
@@ -336,6 +353,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818442-->
+
 END
 
 ---
@@ -351,6 +369,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818445-->
+
 END
 
 ---
@@ -366,6 +385,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818447-->
+
 END
 
 ---
@@ -381,6 +401,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818450-->
+
 END
 
 ---
@@ -396,6 +417,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818453-->
+
 END
 
 ---
@@ -411,6 +433,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818456-->
+
 END
 
 ---
@@ -426,6 +449,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818458-->
+
 END
 
 ---
@@ -444,8 +468,8 @@ Back:
 - ✅**Neumíme řešit v polynomiálním čase (det. Turingovým strojem)**
 - ✅**Neumíme pro ně dokázat příslušnost k NPC**
 - ✅**Jejich omezující podmínky lze ověřit v polynomiálním čase (det. Turingovým strojem)**
-<!--ID: 1731175818461-->
-END
+  <!--ID: 1731175818461-->
+  END
 
 ---
 
@@ -463,8 +487,8 @@ Back:
 - ❌Nejsou řešitelné v polynomiálním čase (det. Turingovým strojem)
 - ❌Certifikát ANO-instancí lze ověřit v polynomiálním čase (det. Turingovým strojem)
 - ✅**Omezující podmínky lze ověřit v polynomiálním čase (det. Turingový strojem)**
-<!--ID: 1731175818464-->
-END
+  <!--ID: 1731175818464-->
+  END
 
 ---
 
@@ -476,11 +500,12 @@ Jak lze dokázat, že daný problém patří do třídy NPC (za předpokladu, ž
 Back:
 
 Jsou 3 možnosti:
+
 - Z definice - dokážu že je NP a že lze všechny NP problémy zredukovat na tento
 - Zvláštní případ - Nějaký NP úplný problém je zvláštním případem toho mýho problému
-- Převodem SATu - Když zvládnu zredukovat SAT na $\Pi$, je $\Pi$ NP-úplný 
-<!--ID: 1731175818467-->
-END
+- Převodem SATu - Když zvládnu zredukovat SAT na $\Pi$, je $\Pi$ NP-úplný
+  <!--ID: 1731175818467-->
+  END
 
 ---
 
@@ -503,6 +528,7 @@ b) Každé město musí být navštíveno právé jednou
 
 c) Kontrolu, že konfigurace splňuje omezení, můžeme provést v polynomiálním čase (stačí proiterovat seznam navštívených měst). Toto ověření je problém třídy P, problém je tedy NP.
 <!--ID: 1731175818470-->
+
 END
 
 ---
@@ -518,6 +544,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818472-->
+
 END
 
 ---
@@ -532,6 +559,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818475-->
+
 END
 
 ---
@@ -547,6 +575,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818478-->
+
 END
 
 ---
@@ -562,6 +591,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818481-->
+
 END
 
 ---
@@ -577,6 +607,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818483-->
+
 END
 
 ---
@@ -594,6 +625,7 @@ Jsou to proměnné, které nastavuje hrubá síla (bruteforce).
 
 Musí jich být konečný počet a každá proměnná musí nabývat konečný počet hodnot.
 <!--ID: 1731175818486-->
+
 END
 
 ---
@@ -609,10 +641,10 @@ Back:
 
 Platí, že každý úplný podgraf má počet vrcholů menší, než k?
 <!--ID: 1731175818489-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -625,6 +657,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818492-->
+
 END
 
 ---
@@ -640,6 +673,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818495-->
+
 END
 
 ---
@@ -655,6 +689,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818497-->
+
 END
 
 ---
@@ -670,6 +705,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818500-->
+
 END
 
 ---
@@ -685,6 +721,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818502-->
+
 END
 
 ---
@@ -700,6 +737,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818505-->
+
 END
 
 ---
@@ -715,6 +753,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818507-->
+
 END
 
 ---
@@ -730,6 +769,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818510-->
+
 END
 
 ---
@@ -748,8 +788,8 @@ Back:
 - ✅ **Problémy v této třídě neumíme řešit v polynomiálním čase (det Turingovým strojem).**
 - ❌ Je to třida těžších problémů, je NP.
 - ✅ **Patří do ní problémy, které nejsou ani v P, ani v NPC.**
-<!--ID: 1731175818513-->
-END
+  <!--ID: 1731175818513-->
+  END
 
 ---
 
@@ -769,6 +809,7 @@ Back:
 **Konfigurační proměnné**: bitové pole vybraných vrcholů
 
 **Omezení**:
+
 - Podgraf musí být úplný
 - Podgraf musí mít právě V vrcholů
 
@@ -777,6 +818,7 @@ Problém patří do NP, pokud lze v polynomiálním čase ověřit, že každá 
 
 Zde stačí proiterovat 2D pole -> patří do NP.
 <!--ID: 1731175818521-->
+
 END
 
 ---
@@ -792,6 +834,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818524-->
+
 END
 
 ---
@@ -807,6 +850,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818526-->
+
 END
 
 ---
@@ -822,6 +866,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818529-->
+
 END
 
 ---
@@ -837,6 +882,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818532-->
+
 END
 
 ---
@@ -852,6 +898,7 @@ Back:
 
 Existuje taková posloupnost měst, Že každé město je navštíveno právě jednou a délka túry je menší než K?
 <!--ID: 1731175818535-->
+
 END
 
 ---
@@ -867,6 +914,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818538-->
+
 END
 
 ---
@@ -882,6 +930,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818541-->
+
 END
 
 ---
@@ -897,6 +946,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818543-->
+
 END
 
 ---
@@ -912,6 +962,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818546-->
+
 END
 
 ---
@@ -927,6 +978,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818549-->
+
 END
 
 ---
@@ -942,6 +994,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818552-->
+
 END
 
 ---
@@ -957,6 +1010,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818554-->
+
 END
 
 ---
@@ -972,6 +1026,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818557-->
+
 END
 
 ---
@@ -990,8 +1045,8 @@ Back:
 - ❌Je to třída všech nejtěžších kombinatorických problémů.
 - ✅**Je to třída pouze rozhodovacích problémů.**
 - ✅**Certifikát všech problémů z této třídy lze ověřit v polynomiálním čase.**
-<!--ID: 1731175818560-->
-END
+  <!--ID: 1731175818560-->
+  END
 
 ---
 
@@ -1006,6 +1061,7 @@ Back:
 
 ❌**Neplatí**
 <!--ID: 1731175818572-->
+
 END
 
 ---
@@ -1021,6 +1077,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818574-->
+
 END
 
 ---
@@ -1036,6 +1093,7 @@ Back:
 
 ✅**Platí**
 <!--ID: 1731175818577-->
+
 END
 
 ---
@@ -1063,6 +1121,7 @@ Back:
 ✅ **PTAS ⊂ NPO**  
 ❌ NPO-úplné problémy mohou mít polynomiální aproximační algoritmus
 <!--ID: 1731175818580-->
+
 END
 
 ---
@@ -1082,12 +1141,13 @@ Zaškrtněte platnost tvrzení (za předpokladu, že platí NP != P):
 Back:
 
 ❌ P ⊂ NPH  
-❌ co-NP ∩ NP =  $\emptyset$
+❌ co-NP ∩ NP = $\emptyset$
 ✅ **NPC ⊂ NP**  
 ❌ NPI ⊂ NPC  
 ✅ **APX-úplné problémy mohou mít aproximační algoritmus**  
 ✅ **NP ⊂ PSPACE**
 <!--ID: 1731175818583-->
+
 END
 
 ---
@@ -1113,6 +1173,7 @@ Back:
 ✅ **NPI ⊂ NP**  
 ✅ **FPTAS ⊂ NPO**
 <!--ID: 1731175818585-->
+
 END
 
 ---
@@ -1133,11 +1194,12 @@ Back:
 
 ❌ P ⊂ NPH
 ✅ **co-NP ⊂ EXPTIME**
-✅ **NPI ∩ NPC =**  $\emptyset$
+✅ **NPI ∩ NPC =** $\emptyset$
 ✅ NPH ⊂ PSPACE
 ✅ **NPC = NP ∩ NPH**  
 ✅ **APX-úplné problémy mohou mít polynomiální aproximační algoritmus**
 <!--ID: 1731175818588-->
+
 END
 
 ---
@@ -1159,6 +1221,7 @@ Back:
 ✅ **NPC ⊂ NPH**  
 ✅ **APX-úplné problémy mohou mít polynomiální aproximační algoritmus**
 <!--ID: 1731175818591-->
+
 END
 
 ---
@@ -1180,6 +1243,7 @@ Back:
 ❌ P ⊂ NPH  
 ❌ NP = NPC ∩ NPI
 <!--ID: 1731175818594-->
+
 END
 
 ---
@@ -1207,6 +1271,7 @@ Back:
 ❌ NPO-úplné problémy jsou ty nejtěžší optimalizační problémy  
 ✅ **NPO-úplné problémy jsou ty nejtěžší optimalizační problémy z NPO**
 <!--ID: 1731175818597-->
+
 END
 
 ---
@@ -1232,6 +1297,7 @@ Back:
 ✅ **PTAS ⊂ NPO**  
 ✅ **APX-úplné problémy jsou aproximativní**
 <!--ID: 1731175818600-->
+
 END
 
 ---
@@ -1253,6 +1319,7 @@ Back:
 ❌ NPI ⊂ NPC  
 ✅ **NP ⊂ EXPTIME**
 <!--ID: 1731175818603-->
+
 END
 
 ---
@@ -1268,6 +1335,7 @@ Back:
 
 ❌ P ⊂ NPI
 <!--ID: 1731175818606-->
+
 END
 
 ---
@@ -1287,6 +1355,7 @@ Back:
 ❌ Je to třída těžších problémů, než NP.  
 ❌ Může být prázdná.
 <!--ID: 1731175818608-->
+
 END
 
 ---
@@ -1306,6 +1375,7 @@ Back:
 ✅ **Π1 je NPC rozhodovací problém, Π2 je libovolný rozhodovací problém.**  
 ✅ Π1 je NPC rozhodovací problém, Π2 je NPO optimalizační konstruktivní problém.
 <!--ID: 1731175818611-->
+
 END
 
 ---
@@ -1337,6 +1407,7 @@ Back:
 ✅ **V polynomiálním čase převést každou instanci jakéhokoliv NPO-úplného konstruktivního optimalizačního problému na instanci jakéhokoliv NP-úplného rozhodovacího problému.**  
 ❌ V exponenciálním čase převést instanci jakéhokoliv NPC rozhodovacího problému na instanci nějakého P problému.
 <!--ID: 1731175818614-->
+
 END
 
 ---
@@ -1374,6 +1445,7 @@ Back:
 ❌ **Převést každou instanci libovolného NPC problému na instanci P problému v exponenciálním čase.**  
 ✅ **Převést P problém na jiný P problém v polynomiálním čase**
 <!--ID: 1731175818616-->
+
 END
 
 ---
@@ -1391,6 +1463,7 @@ Back:
 ❌ Převést každou instanci libovolného NPC problému na instanci nějakého P problému v exponenciálním čase  
 ❌ Převést každou instanci libovolného řešitelného kombinatorického problému na instanci nějakého NPH problému.
 <!--ID: 1731175818619-->
+
 END
 
 ---
@@ -1410,6 +1483,7 @@ Back:
 ✅ Certifikát všech NP problémů je možno zkontrolovat v polynomiálním čase (det. Turingovým strojem)  
 ✅ co-NP úplné problémy nejsou těžší, než NPC.
 <!--ID: 1731175818622-->
+
 END
 
 ---
@@ -1439,6 +1513,7 @@ Back:
 ❌ Optimalizační kritéria všech NPH problémů je možno spočítat v polynomiálním čase (DTS)  
 ✅ Optimalizační kritéria všech NPO problémů je možno spočítat v polynomiálním čase (DTS)
 <!--ID: 1731175818624-->
+
 END
 
 ---
@@ -1461,8 +1536,8 @@ Back:
 - ❌ Omezující podmínky všech NPH problémů je možno zkontrolovat v polynomiálním čase (na DTS)
 - ✅ **Omezující podmínky všech NPC problémů je možno zkontrolovat v polynomiálním čase (na DTS)**
 - ❌ Všechny NPH problémy jsou řešitelné v polynomiálním čase NTS
-<!--ID: 1731175818627-->
-END
+  <!--ID: 1731175818627-->
+  END
 
 ---
 
@@ -1480,8 +1555,8 @@ Back:
 - ❌ NPC problémy jsou ty nejtěžší rozhodovací kombinatorické problémy
 - ✅ **Certifikát všech NP úplných problémů je možno ověřit v polynomiálním čase (deterministickým Turingovým strojem)**
 - ✅ **Pro některé NP problémy existuje polynomiální algoritmus (pro deterministický Turingův stroj)**
-<!--ID: 1731175818630-->
-END
+  <!--ID: 1731175818630-->
+  END
 
 ---
 
@@ -1503,8 +1578,8 @@ Back:
 - ❌ Jsou to ty nejtěžší rozhodovací problémy
 - ✅ **Jejich certifikát se dá zkontrolovat v polynomiálním čase (det. Turingovým strojem)**
 - ✅ **Jejich optimalizační verze patří do NPH**
-<!--ID: 1731175818633-->
-END
+  <!--ID: 1731175818633-->
+  END
 
 ---
 
@@ -1530,8 +1605,8 @@ Back:
 - ✅ **Omezující podmínky všech NPO problémů je možno zkontrolovat v polynomiálním čase (det. Turingovým strojem)**
 - ✅ **Některé NP problémy lze řešit v polynomiálním čase (det. Turingovým strojem)**
 - ❌ Pro některé NP úplné problémy existuje polynomiální algoritmus (pro det. Turingův stroj)
-<!--ID: 1731175818635-->
-END
+  <!--ID: 1731175818635-->
+  END
 
 ---
 
@@ -1549,8 +1624,8 @@ Back:
 - ❌ Třída těch nejtěžších existujících rozhodovacích problému
 - ✅ **Prǔsečíkem tříd NP a NPH**
 - ❌ Třída všech problémů, pro které neznáme polynomiální algoritmus (pro det. Turingův stroj)
-<!--ID: 1731175818638-->
-END
+  <!--ID: 1731175818638-->
+  END
 
 ---
 
@@ -1568,8 +1643,8 @@ Back:
 - ❌ Je to třída těch nejtěžších kombinatorických problémů
 - ✅ **Je to třída pouze rozhodovacích problémů**
 - ✅ **Certifikát všech problémů z této třídy lze ověřit v polynomiálním čase**
-<!--ID: 1731175818641-->
-END
+  <!--ID: 1731175818641-->
+  END
 
 ---
 
@@ -1587,8 +1662,8 @@ Back:
 - ❌ Třída všech takových problémů, pro které neznáme polynomiální algoritmus pro DTS
 - ✅ **Obsahuje některé problémy, pro které nelze ověřit certifikát ANO-instancí v polynomiálním čase (na DTS)**
 - ❌ Třída těžších problémů, než je NP.
-<!--ID: 1731175818643-->
-END
+  <!--ID: 1731175818643-->
+  END
 
 ---
 
@@ -1606,8 +1681,8 @@ Back:
 - ❌ Vždy patří do NPH
 - ✅ **PTAS ⊂ APX**
 - ✅ **Existuje algoritmus řešící tyto problémy s libovolně malou chybou v polynomiálním čase (s velikostí instance)**
-<!--ID: 1731175818650-->
-END
+  <!--ID: 1731175818650-->
+  END
 
 ---
 
@@ -1629,8 +1704,8 @@ Back:
 - ❌ Patří do NPC
 - ✅ **Jsou podmnožinou APX**
 - ❌ Patří do NPH
-<!--ID: 1731175818655-->
-END
+  <!--ID: 1731175818655-->
+  END
 
 ---
 
@@ -1654,8 +1729,8 @@ Back:
 - ✅ **Lze pro ně najít APX redukci na nějaký FPTAS problém**
 - ❌ Rozhodovací verze těchto problémů lze vyřešit v polynomiálním čase (det. T.S.)
 - ❌ Vždy patří do NPH
-<!--ID: 1731175818658-->
-END
+  <!--ID: 1731175818658-->
+  END
 
 ---
 
@@ -1675,8 +1750,8 @@ Back:
 - ✅ **Lze je vyřešit s libovolně malou (nenulovou) chybou $\varepsilon$, za cenu možného exponenciálního růstu času s klesajícím $\varepsilon$**
 - ❌ Lze pro ně najít APX redukci na nějaký FPTAS problém
 - ✅ **Jsou podmnožinou NPO problémů**
-<!--ID: 1731175818660-->
-END
+  <!--ID: 1731175818660-->
+  END
 
 ---
 
@@ -1690,8 +1765,8 @@ Pro všechny problémy patřící do třídy APX platí:
 Back:
 
 - ✅ **Jsou podmnožinou NPO problémů**
-<!--ID: 1731175818663-->
-END
+  <!--ID: 1731175818663-->
+  END
 
 ---
 
@@ -1709,8 +1784,8 @@ Back:
 - ❌ Je to třída těch nejtěžších kombinatorických problémů
 - ✅ **Je to třída pouze rozhodovacích problémů**
 - ✅ **Certifikát všech problémů z této třídy lze ověřit v polynomiálním čase**
-<!--ID: 1731175818668-->
-END
+  <!--ID: 1731175818668-->
+  END
 
 ---
 
@@ -1734,8 +1809,8 @@ Back:
 - ❌ Převést každou instanci libovolného NPC problému na instanci P problému v exponenciálním čase
 - ❌ Převést každou instanci libovolného NPC problému na instanci libovolného NP problému v polynomiálním čase
 - ❌ Převést každou instanci libovolného řešitelného kombinatorického problému na instanci nějakého NPH problému
-<!--ID: 1731175818671-->
-END
+  <!--ID: 1731175818671-->
+  END
 
 ---
 
@@ -1759,8 +1834,8 @@ Back:
 - ❌ Π1 je NPC rozhodovací problém, Π2 je NPO optimalizační konstruktivní problém
 - ❌ Π1 je NPO optimalizační konstruktivní problém, Π2 je NPC rozhodovací problém
 - ❌ Π1 je NPC rozhodovací problém, Π2 je NPO optimalizační konstruktivní problém
-<!--ID: 1731175818674-->
-END
+  <!--ID: 1731175818674-->
+  END
 
 ---
 
@@ -1778,8 +1853,8 @@ Back:
 - ❌ Třída problémů, pro které lze zkontrolovat omezující podmínky v polynomiálním čase (det. Turingovým strojem).
 - ✅ **Třída také optimalizačních problémů.**
 - ✅ **Patří do ní ty nejtěžší existující kombinatorické problémy.**
-<!--ID: 1731175818676-->
-END
+  <!--ID: 1731175818676-->
+  END
 
 ---
 
@@ -1799,8 +1874,8 @@ Back:
 - ✅ **NP**
 - ✅ **NPC**
 - ❌ co-NP
-<!--ID: 1731175818679-->
-END
+  <!--ID: 1731175818679-->
+  END
 
 ---
 
@@ -1820,8 +1895,8 @@ Back:
 - ❌ NP
 - ❌ NPC
 - ✅ **co-NP**
-<!--ID: 1731175818681-->
-END
+  <!--ID: 1731175818681-->
+  END
 
 ---
 
@@ -1841,8 +1916,8 @@ Back:
 - ✅ **NP**
 - ❌ NPC
 - ✅ **co-NP**
-<!--ID: 1731175818684-->
-END
+  <!--ID: 1731175818684-->
+  END
 
 ---
 
@@ -1860,8 +1935,8 @@ Back:
 - ✅ **Některé NP problémy lze řešit v polynomiálním čas na DTS**
 - ❌ Pro některé NP úplné problémy existuje polynomiální algoritmus (pro DTS)
 - ✅ **U všech co-NP problémů nelze ověřit certifikát ANO-instancí v polynomiálním čase**
-<!--ID: 1731175818687-->
-END
+  <!--ID: 1731175818687-->
+  END
 
 ---
 
@@ -1879,8 +1954,8 @@ Back:
 - ❌ Vždy je možné zkontrolovat omezující podmínky v polynomiálním čase (na DTS)
 - ✅ **Neznáme pro ně polynomiální algoritmus pro DTS**
 - ✅ **Patří mezi ně všechny optimalizační problémy srovnatelné složitosti s NPC**
-<!--ID: 1731175818689-->
-END
+  <!--ID: 1731175818689-->
+  END
 
 ---
 
@@ -1898,8 +1973,8 @@ Back:
 - ✅ **Průsečíkem tříd NP a NPH**
 - ❌ Třída těch nejtěžších existujících rozhodovacích problémů
 - ❌ Třída všech problémů, pro které neznáme polynomiální algoritmus (pro DTS)
-<!--ID: 1731175818692-->
-END
+  <!--ID: 1731175818692-->
+  END
 
 ---
 
@@ -1917,8 +1992,8 @@ Back:
 - ✅ **Pro každou instanci I algoritmus skončí v polynomiálním počtu kroků**
 - ✅ **Relativní chyba (ε) algoritmu < 1**
 - ❌ Π ∈ NPC
-<!--ID: 1731175818694-->
-END
+  <!--ID: 1731175818694-->
+  END
 
 ---
 
@@ -1940,8 +2015,8 @@ Back:
 - ❌ Relativní kvalita algoritmu <1
 - ❌ Π ∈ NP
 - ✅ **Relativní chyba algoritmu <1**
-<!--ID: 1731175818697-->
-END
+  <!--ID: 1731175818697-->
+  END
 
 ---
 
@@ -1955,8 +2030,8 @@ Pro všechny problém patřící do třídy NPO platí:
 Back:
 
 - ❌ Lze pro ně najít APX redukci na nějaký APX problém.
-<!--ID: 1731175818700-->
-END
+  <!--ID: 1731175818700-->
+  END
 
 ---
 
@@ -1986,8 +2061,8 @@ Back:
 - ✅ **Vždy nalezne optimální řešení (pokud existuje).**
 - ✅ **Je např. metoda „nejlepší nejdříve“ (best-first).**
 - ✅ **Prohledá celý (případně efektivně ořezaný) stavový prostor, pokud neexistuje řešení.**
-<!--ID: 1731175818702-->
-END
+  <!--ID: 1731175818702-->
+  END
 
 ---
 
@@ -2007,8 +2082,8 @@ Back:
 - ✅ **Navštíví každý stav pouze jednou**
 - ❌ Je např. metoda náhodná procházka (“random walk”)
 - ✅ **Navštíví každý prozkoumávaný stav nejvýše jednou**
-<!--ID: 1731175818705-->
-END
+  <!--ID: 1731175818705-->
+  END
 
 ---
 
@@ -2024,8 +2099,8 @@ Back:
 
 - ✅ **Ano**
 - ❌ Ne
-<!--ID: 1731175818708-->
-END
+  <!--ID: 1731175818708-->
+  END
 
 ---
 
@@ -2041,8 +2116,8 @@ Back:
 
 - ✅ **Ano**
 - ❌ Ne
-<!--ID: 1731175818710-->
-END
+  <!--ID: 1731175818710-->
+  END
 
 ---
 
@@ -2058,8 +2133,8 @@ Back:
 
 - ✅ **Ano**
 - ❌ Ne
-<!--ID: 1731175818713-->
-END
+  <!--ID: 1731175818713-->
+  END
 
 ---
 
@@ -2075,8 +2150,8 @@ Back:
 
 - ✅ **Ano**
 - ❌ Ne
-<!--ID: 1731175818715-->
-END
+  <!--ID: 1731175818715-->
+  END
 
 ---
 
@@ -2096,8 +2171,8 @@ Back:
 - ✅ **Je úplná**
 - ✅ **Prohledá celý stavový prostor, pokud neexistuje řešení**
 - ❌ Používá frontu
-<!--ID: 1731175818718-->
-END
+  <!--ID: 1731175818718-->
+  END
 
 ---
 
@@ -2115,8 +2190,8 @@ Back:
 
 - ❌ Zmenším
 - ✅ **Zvětším**
-<!--ID: 1731175818726-->
-END
+  <!--ID: 1731175818726-->
+  END
 
 ---
 
@@ -2132,7 +2207,7 @@ Back:
 
 - ❌ Při náhodných restartech vždy dojde ke stejnému výsledku
 - ✅ **Při náhodných restartech dosažený výsledek příliš závisí na počátečním stavu.**
-<!--ID: 1731175818728-->
-END
+  <!--ID: 1731175818728-->
+  END
 
 ---

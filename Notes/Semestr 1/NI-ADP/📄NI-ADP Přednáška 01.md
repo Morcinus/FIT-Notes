@@ -3,7 +3,7 @@ created: 2024-10-11T09:27:56
 up: "[[📖NI-ADP]]"
 ---
 
-TARGET DECK: NI-ADP
+TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska01 status-toReview
 
 START
@@ -16,6 +16,7 @@ Back:
 **Princip** = něco obecného
 **Pattern** = konkrétní problém
 <!--ID: 1728921214948-->
+
 END
 
 ---
@@ -30,9 +31,7 @@ Back:
 - **Structural** - algoritmy
 - **OOP**
 - **Functional**
-<!--ID: 1728921214951-->
-END
+  <!--ID: 1728921214951-->
+  END
 
 ---
-
-

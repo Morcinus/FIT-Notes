@@ -4,7 +4,7 @@ title: "Randomizované algoritmy"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP-2
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska07 status-toReview
 
 START
@@ -15,21 +15,24 @@ Co je **Monte Carlo** randomizovaný algoritmus?
 Back:
 
 **Monte Carlo algoritmy**
+
 - Dosažený **výsledek je náhodná proměnná** (např. odpověď ano s 100% jistotou, odpověď ne s jistotou závislou na "effortu" a velikosti instance - viz příklad)
 - **čas běhu pevný** pro danou instanci
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113142545.png)
 
 ![](../../../Assets/Pasted%20image%2020241113142517.png)
+
 <!-- ExampleEnd -->
 
 Tags: core
 <!--ID: 1735205749736-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -42,17 +45,19 @@ Back:
 Čas běhu je náhodná proměnná, výsledek vždy správný
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113142553.png)
 
 ![](../../../Assets/Pasted%20image%2020241113142517.png)
+
 <!-- ExampleEnd -->
 
 Tags: core
 <!--ID: 1735205749738-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -63,10 +68,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241113143046.png)
 <!--ID: 1735205749741-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -78,15 +83,17 @@ Back:
 **Las Vegas**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113143556.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749743-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -101,15 +108,17 @@ Snažíme se najít minimální uzlové pokrytí, tzn. nejmenší množinu vrcho
 ![](../../../Assets/Pasted%20image%2020241113143723.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113144045.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: core
 <!--ID: 1735205749746-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -120,10 +129,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241113144126.png)
 <!--ID: 1735205749748-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -137,23 +146,26 @@ Back:
 - Oboustranná - obě odpovědi jsou správně s pravděpodobností $p<1$
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241113144340.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1735205749751-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co jsou **primární** a **sekundární** metriky u randomizovaných algoritmů? 
+Co jsou **primární** a **sekundární** metriky u randomizovaných algoritmů?
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241113144618.png)
 <!--ID: 1735205749753-->
+
 END
 
 ---
@@ -161,4 +173,3 @@ END
 ## Praktické nasazení heuristik (aka jak udělám DÚ2)
 
 ![](../../../Assets/KOP07%20Deploy.pdf)
-

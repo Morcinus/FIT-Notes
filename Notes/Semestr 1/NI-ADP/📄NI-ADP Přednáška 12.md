@@ -4,8 +4,5 @@ title: "Funkcionální programování"
 up: "[[📖NI-ADP]]"
 ---
 
-TARGET DECK: NI-ADP
+TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska12 status-toReview
-
-
-

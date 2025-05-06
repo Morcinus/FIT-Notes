@@ -4,7 +4,7 @@ title: "Generátor testů"
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI-Generator
+TARGET DECK: archive
 FILE TAGS: NI-MPI-Generator
 
 START
@@ -20,10 +20,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651079-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -36,10 +36,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651093-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -52,10 +52,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651095-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -68,10 +68,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651098-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -87,10 +87,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651100-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -101,14 +101,15 @@ Back:
 
 Vlastní čísla vyjdou $4, 0, 0, \dots$
 Tzn. je **pozitivně semidefinitní**
+
 - **(C)** je správně
 
 Tags: maly
 <!--ID: 1735925651103-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -121,10 +122,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651106-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -141,10 +142,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651108-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -153,18 +154,18 @@ FIT-Card
 
 Back:
 
-- A) 
+- A)
 - B) NE - matice by musela být pozitivně definitní
 - **C) ANO**
-- D) 
+- D)
 - E) NE - musí být kladná
 
 Tags: maly
 <!--ID: 1735925651111-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -181,10 +182,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651114-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -201,10 +202,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651116-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -221,10 +222,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651119-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -241,10 +242,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651121-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -261,10 +262,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651124-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -276,15 +277,17 @@ Back:
 - (A) 100
 
 <!-- ExplanationStart -->
+
 ![](../../../Assets/Pasted%20image%2020241230141154.png)
+
 <!-- ExplanationEnd -->
 
 Tags: maly
 <!--ID: 1735925651127-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -294,17 +297,17 @@ FIT-Card
 Back:
 
 - A) Ne - $a^n = e$ platí pro každý prvek v grupě
-- B) Ne - může to být i $2$ 
+- B) Ne - může to být i $2$
 - C) ❔**ANO** - Buď $a$ bude generátor, pak bude $\gcd$ větší než $1$, protože řád generátoru musí dělit řád grupy. Pokud není generátor, tak bude platit $a^n=e$, tedy $\gcd(n,n) = n > 1$
 - D) Ne - inverzní prvek tam např. u generátoru je
 - E) Ne - neplatí to pro všechny prvky
 
 Tags: maly
 <!--ID: 1735925651129-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -321,10 +324,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651132-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -341,10 +344,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651134-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -361,10 +364,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651137-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -379,10 +382,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651139-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -399,10 +402,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651142-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -414,16 +417,18 @@ Back:
 - A) správně (i podle fitwiki i podle mě i podle chatgpt)
 
 <!-- ExplanationStart -->
+
 ![](../../../Assets/Pasted%20image%2020241231162838.png)
 ![](../../../Assets/Pasted%20image%2020241231162846.png)
+
 <!-- ExplanationEnd -->
 
 Tags: maly
 <!--ID: 1735925651145-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -434,10 +439,12 @@ Back:
 
 Použijeme Eulerovu větu:
 $a^{\varphi(n)} \equiv 1 \mod n$
+
 1.  $\varphi(22)= 10$
-2. $19^{10} \equiv 1 \mod 22$
-3. dostaneme $19^4 \mod 22$
-4. Pak je třeba to ručně vydělit
+2.  $19^{10} \equiv 1 \mod 22$
+3.  dostaneme $19^4 \mod 22$
+4.  Pak je třeba to ručně vydělit
+
 - **(D)**
 
 ![](../../../Assets/Pasted%20image%2020241231165459.png)
@@ -447,10 +454,10 @@ $a^{\varphi(n)} \equiv 1 \mod n$
 
 Tags: maly
 <!--ID: 1735925651147-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -467,10 +474,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651150-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -487,10 +494,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651152-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -507,10 +514,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651155-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -527,10 +534,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651158-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -547,10 +554,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651160-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -569,10 +576,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651163-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -582,23 +589,24 @@ FIT-Card
 Back:
 
 1. Upravíme rovnici:
-$119\cdot k \equiv 107 \pmod {122}$
+   $119\cdot k \equiv 107 \pmod {122}$
 
 2. Zjistíme inverzní prvek 119: Spočtem $119\cdot x \equiv 1 \pmod {122}$, tedy $\gcd(119,122)$ pomocí Eukleidova algoritmu, vyjde $x = 81$
 3. Vynásobíme rovnici inverzním prvkem:
-	- $k \equiv 107 \cdot 119^{-1} \pmod {122}$
-	- $k \equiv 107 \cdot 81 \pmod {122}$
-	- $k \equiv 8667 \pmod {122}$
+   - $k \equiv 107 \cdot 119^{-1} \pmod {122}$
+   - $k \equiv 107 \cdot 81 \pmod {122}$
+   - $k \equiv 8667 \pmod {122}$
+
 - Zmodulíme a dostaneme zbytek po dělení 112: $k = 5$
 
 Správně: **(C)**
 
 Tags: maly
 <!--ID: 1735925651165-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -613,19 +621,20 @@ $$
 & \tfrac{1}{3} \cdot 2 = \tfrac{2}{3}  \quad 0 \\
 & \tfrac{2}{3} \cdot 2 = \tfrac{1}{3}  \quad 1 \\
 & \dots \\
-& \frac{4}{3} =1.\overline{01}_{2} 
+& \frac{4}{3} =1.\overline{01}_{2}
 \end{align*}
 $$
+
 - Po normalizaci první jednička zmizí
 - Normalizovaná mantisa končí $1010$ a následovala by $1$. Kvůli tomu je třeba zaokrouhlit podle pravidla v zadání - zaokrouhluje se směrem od nuly, tedy poslední 4 číslice budou $1011$
 - Správná odpověď: **(E)**
 
 Tags: maly
 <!--ID: 1735925651168-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -633,14 +642,15 @@ FIT-Card
 ![](../../../Assets/Pasted%20image%2020241230140315.png)
 
 Back:
+
 - (**C**)
 
 Tags: maly
 <!--ID: 1735925651171-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -653,10 +663,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651173-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -666,14 +676,15 @@ FIT-Card
 Back:
 
 Strojová čísla je konečná podmnožina **racionálních** (ne reálných) čísel. Tzn. neobsahuje např. čísla která mají nekonečný zápis (např. $1/3, \sqrt 2, \pi$)
+
 - **(B)**
 
 Tags: maly
 <!--ID: 1735925651177-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -686,10 +697,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651180-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -702,10 +713,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651182-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -718,10 +729,10 @@ Back:
 
 Tags: maly
 <!--ID: 1735925651185-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -740,10 +751,10 @@ $$\int_{-2}^{1}\int_{\tfrac{z}{3}(x+2)}^{\tfrac{z-2}{3}(x+2)+2}(x-3y)\,dy\,dx = 
 
 Tags: velky
 <!--ID: 1735925651188-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -753,25 +764,30 @@ FIT-Card
 Back:
 
 ###### Výsledek a)
+
 ![](../../../Assets/Pasted%20image%2020241011133549.png)
+
 ###### Výsledek b) ⭐ TODO
+
 Vychází to fakt hnusně, vyjde:
+
 $$
 \begin{align*}
 & \lambda = -\tfrac{5}{16}, x=\tfrac{5}{2}, y=\tfrac{3}{2} \\
 & \lambda = -\tfrac{3}{16}, x=-\tfrac{3}{2}, y= -\tfrac{5}{2} \\
 \end{align*}
 $$
-To se pak dosadí do Hessovy matice a vyjde, že oba body jsou lokálním maximem, protože matice 
+
+To se pak dosadí do Hessovy matice a vyjde, že oba body jsou lokálním maximem, protože matice
 
 ###### Výsledek b) ⭐ TODO
 
 Tags: velky
 <!--ID: 1735925651190-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -779,7 +795,9 @@ FIT-Card
 ![](../../../Assets/Pasted%20image%2020241231154342.png)
 
 Back:
+
 ###### Výsledek
+
 Řešení od Spěváka
 https://youtu.be/joPRkNN1rwA?si=2XTn57CpaG-S4qS6&t=3027
 
@@ -790,10 +808,10 @@ https://youtu.be/joPRkNN1rwA?si=2XTn57CpaG-S4qS6&t=3027
 
 Tags: velky
 <!--ID: 1735925651193-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -801,14 +819,18 @@ FIT-Card
 ![](../../../Assets/Pasted%20image%2020241231165656.png)
 
 Back:
+
 ###### Výsledek a) ✔️
+
 $$
 \begin{align*}
 & J_{\Psi}=\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}  \\
-& \det J_{\Psi} = 2 
+& \det J_{\Psi} = 2
 \end{align*}
 $$
+
 ###### Výsledek b) ✔️
+
 1. Pomocí dosazení bodů do rovnic pro $x,y$ získáme souřadnice bodů po substituci (obrázek: https://www.geogebra.org/calculator/gzxsrr2b)
 2. Potom sestrojíme integrál a dopočítáme ([Wolfram](https://www.wolframalpha.com/input?i2d=true&i=Integrate%5BIntegrate%5B%5C%2840%29Power%5B%5C%2840%29u%2Bv%5C%2841%29%2C2%5D-Power%5B%5C%2840%29u-v%5C%2841%29%2C2%5D%5C%2841%292%2C%7Bu%2CDivide%5Bv%2C2%5D-1%2C1-Divide%5Bv%2C2%5D%7D%5D%2C%7Bv%2C0%2C2%7D%5D))
 3. **Výsledek je 0**
@@ -818,10 +840,10 @@ Postup frajera na fitwiki:
 
 Tags: velky
 <!--ID: 1735925651196-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -834,10 +856,10 @@ TODO
 
 Tags: velky
 <!--ID: 1735925651198-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -845,11 +867,17 @@ FIT-Card
 ![](../../../Assets/Pasted%20image%2020241230152755.png)
 
 Back:
+
 ###### Výsledek a) ✔️
+
 ![](../../../Assets/Pasted%20image%2020241221092421.png)
+
 ###### Výsledek b) ✔️
+
 $n-1 = 3^4-1=80$
+
 ###### Výsledek c) ⭐❔
+
 Tady nevím, jak zjednodušit ten polynom. Došel jsem k tomuhle:
 $(2x)^{192}=(2x)^{80}\cdot(2x)^{80}\cdot(2x)^{32}=1\cdot1\cdot(2x)^{32} \pmod{x^4+2x^3+2}$
 dál nevím, jak to jednoduše udělat, ale dle fitwiki má vyjít $2x^3+x+2$
@@ -857,14 +885,15 @@ dál nevím, jak to jednoduše udělat, ale dle fitwiki má vyjít $2x^3+x+2$
 Potom pomocí REA má vyjít 221, ale vycházelo mi to fakt nechutně a počítá se to tak hodinu..
 
 ###### Výsledek d) ⭐❔
+
 Idk.
 
 Tags: velky
 <!--ID: 1735925651201-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -872,7 +901,9 @@ FIT-Card
 ![](../../../Assets/Pasted%20image%2020241230161004.png)
 
 Back:
+
 ###### Výsledek a)✔️
+
 Víme, že řád podgrupy bude buď $2$ nebo $13$ na základě Lagrangeovy věty.
 
 Podgrupa řádu $2$ bude vypadat takto $\set {1, ?}$ (protože tam musí být neutrální prvek).
@@ -880,11 +911,13 @@ Podgrupa řádu $2$ bude vypadat takto $\set {1, ?}$ (protože tam musí být ne
 Jelikož jsme v $\mathbb{Z}_2$, nabízí se vyzkoušet třeba $2$ a hle, dvojka splňuje podmínku, že $2\cdot 2 = 1$.
 
 Podgrupa má tedy prvky $\set {1,2}$. Když máme zdůvodnit, že jde o grupu, měli bychom nejspíš správně dokázat všechny vlastnosti z definice, tzn.:
+
 - Jde o podmnožinu původních prvků - platí
 - Jde o grupu - tam bychom ukázali, že platí vlastnosti:
-	- grupoidu, pologrupy, monoidu a grupy.
+  - grupoidu, pologrupy, monoidu a grupy.
 
 ###### Výsledek b) ✔️
+
 Tady nevím, jak to myslí s tím že to je izomorfismus "okruhů", když $T$ je těleso. Znamená to, že z $T$ "udělám okruh" tak, že do multiplikativní grupy musím přidat zpátky nulu?
 
 **Řešení, co mi dává smysl, ale asi nebude správně:**
@@ -898,10 +931,10 @@ Ověříme že platí homomorfismus z definice (tohle je řešení nějakého t�
 
 Tags: velky
 <!--ID: 1735925651204-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -910,14 +943,15 @@ FIT-Card
 
 Back:
 
-
 ###### Výsledek a)✔️
+
 Prvků $n-1=26$
 Generátorů $\varphi(n)=\varphi(26)=12$
 
 Výsledek: $12$
 
 ###### Výsledek b)✔️
+
 _Lepší postup:_
 Lepší způsob je si uvědomit, že z Lagrangeovy věty pokud má mít prvek řád, znamená to, že se po nějaké době "zacyklí" (dostane se na neutrální prvek).
 
@@ -925,28 +959,30 @@ Tzn. vygeneruje mi to nějakou cyklickou podgrupu, tzn. dle Lagrangeovy musí ř
 
 Pro 13 si můžu uvědomit, že platí $x^{26} = 1 \mod x^{3}+ 2x+ 1$, což shodou okolností přesně sedí u našeho prvku $(x^{2})^{13}=1 \mod x^{3}+ 2x+ 1$.
 
-Díky tomu jsme ověřili, že po $13$ krocích se to dostane na neutrální prvek. Dříve se to stát nemůže, protože pro $2$ to neplatí a ostatní generátory podgrupa nemůže mít. 
+Díky tomu jsme ověřili, že po $13$ krocích se to dostane na neutrální prvek. Dříve se to stát nemůže, protože pro $2$ to neplatí a ostatní generátory podgrupa nemůže mít.
 
 _Horší postup:_ Jde to bruteforcem vygenerovat všechny prvky, což ale zabere hodně času:
+
 $$
 \begin{align*}
 & (x^{2})^{m}=1 \mod x^{3}+ 2x+ 1\\
 & m=1: \quad  x^{2} \neq 1 \\
 & m=2: \quad  x^{4} = x^{2} +2 \neq 1 \\
 & m=3: \quad x^{6}  = x^{3}x^{3} = (x+2)^{2} = x^{2}+x+1 \neq 1 \\
-& m=4: \quad x^{8} = x^{4}x^{4}  
+& m=4: \quad x^{8} = x^{4}x^{4}
 \end{align*}
 $$
 
 ###### Výsledek c) ✔️
+
 Vyjde $2x^2+2x+1$
 
 Tags: velky
 <!--ID: 1735925651207-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -955,11 +991,12 @@ FIT-Card
 
 Back:
 
-
 ###### Výsledek a) ✔️
+
 Nemá generátory, protože **není cyklická**. Z přednášky "Aditivní grupa $GF(p^n)$ není cyklická pro $n>1$".
 
 ###### Výsledek b) ✔️
+
 Multiplikativní grupa bude mít řád $n-1 = 7$. Tato grupa bude cyklická. Bude tedy mít $\phi(7)=6$ generátorů.
 
 Z $7$ prvků nám tedy stačí najít ten jeden, který není generátorem. Triviálně platí, že to bude $1$, protože když budu neustále násobit $1$, tak se nikam nedostanu. Stačí tedy vypsat všechny ostatní prvky: $010, 011, 100,101,110,111$ (nebude tam 000 a 001).
@@ -973,11 +1010,13 @@ Nebo si stačí uvědomit, že inverze k $x$ bude $x$ čistě z toho, že se poh
 **Pro multiplikativní grupu** použijeme REA a vyjde: $x^2+x$
 
 **Výsledek tedy je:**
+
 - generátory: $010, 011, 100,101,110,111$
 - inverze v aditivní: $x$
 - inverze v multiplikativní: $x^2+x$
 
 ###### Výsledek c) ⭐✔️
+
 $001$ se mi musí zobrazit na neutrální prvek $0$.
 
 Zaprvé, pro řád $r$ prvku $g$ z první grupy platí následující. Pro aditivní grupu platí druhé rovnítko.
@@ -988,9 +1027,10 @@ Zadruhé, pro každý prvek homomorfismu musí platit, že řád $\varphi(a)$ mu
 Když poskládáme podmínky dohromady, získáme následující rovnici:
 Musí platit, že $7 \times \varphi(a) = 0$.
 
-Všechny prvky krom $001$ mají řád $7$ (protože jsou generátory). 
+Všechny prvky krom $001$ mají řád $7$ (protože jsou generátory).
 
 Ověříme rovnici:
+
 $$
 \begin{align*}
 & 7 \times 0 \pmod{10} = 0 \\
@@ -1002,14 +1042,15 @@ $$
 & 7 \times 9 \pmod{10}\neq 0 \\
 \end{align*}
 $$
+
 Tzn. jediný prvek, který to splňuje je $0$. Tzn. jediný homomorfismus, který existuje je takový, že se všechny prvky zobrazí do $0$. Je jediný, protože ostatní nesplňují podmínku.
 
 Tags: velky
 <!--ID: 1735925651209-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -1017,7 +1058,9 @@ FIT-Card
 ![](../../../Assets/Pasted%20image%2020250101144918.png)
 
 Back:
+
 ###### Výsledek a) ✔️
+
 Postupně počítat mocniny x, dokud se nedostanu na neutrální prvek
 
 $$
@@ -1032,16 +1075,20 @@ $$
 $$
 
 Výsledek je $4$.
+
 ###### Výsledek b) ✔️
+
 REA s $x^2+1$ a $x$, výsledek vyjde $2x$.
 
 Výsledek je $2x$
 
 ###### Výsledek c) ✔️
+
 Vypsat všechny prvky:
 00,01,02,10,11,12,20,21,22
 
 U každého zkusit vynásobit:
+
 $$
 \begin{align*}
 & x^2 =2 \\
@@ -1056,16 +1103,16 @@ $$
 \end{align*}
 $$
 
-Výsledek: 
+Výsledek:
 Platí pro:
 $z = 11$ a $z = 22$
 
 Tags: velky
 <!--ID: 1735925651212-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -1078,6 +1125,7 @@ TODO
 
 Tags: velky
 <!--ID: 1735925651215-->
+
 END
 
 ---

@@ -3,24 +3,25 @@ created: 2024-10-08T14:47:38
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni02 status-toReview
 
 $\overset{\rightarrow T}{s}$
+
 ### 9.4
+
 $\nabla A \overset{\rightarrow T}{T}$
 $\delta$
 $f(x,y,z) = xyz$
 $b = (1,1,1)$
 $\overset{\rightarrow T}{s} = \begin{pmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \\ 0 \\  \end{pmatrix}$
 
-
 $\nabla ^2 f =$
 
 $\frac{\delta f}{\delta x}$
 
-
 ### Cvičení 9.5
+
 $$
 \begin{align*}
 
@@ -36,7 +37,7 @@ b=(0,0)\\ \\
 \text{Sylvestrovo kritérium} \\
 \text{poz.def.} \implies \text{ostré lokální maximum} \\
 A>0 \\
-AC-B^2 \\ 
+AC-B^2 \\
 
 \text{poz.def.} \implies \text{ostré lokální minimum} \\
 A
@@ -44,6 +45,7 @@ A
 
 \end{align*}
 $$
+
 ### Cvičení 9.6
 
 $$
@@ -65,9 +67,10 @@ f(x,y) = x^2+3xy+y^2+16 \\
 \end{align*}
 $$
 
-
 ### Cvičení 9.9
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 f(x,y,z) = || B'-B||=\sqrt{(x-b_x)^2+(y-by)^2+(z-bz)^2} \\
@@ -95,9 +98,10 @@ z^2=x^2+y^2 \\
 \end{align*}
 $$
 
-
 ### Cvičení 9.10
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 V=abc=256cm ^3 \\
@@ -127,6 +131,7 @@ c = 4 \\
 $$
 
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 \nabla ^2 S' = \begin{pmatrix}\frac{1024}{a ^3} & 1 \\1 & \frac{1024}{b ^3} \end{pmatrix} = \begin{pmatrix}2 & 1 \\1 & 2\end{pmatrix} \\ \\
@@ -136,10 +141,10 @@ $$
 \end{align*}
 $$
 
-
-
 ### Cvičení x.x
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 2 _2

@@ -4,8 +4,5 @@ title: "Řízení projektu"
 up: "[[📖NI-TSW]]"
 ---
 
-TARGET DECK: NI-TSW
+TARGET DECK: archive
 FILE TAGS: NI-TSW prednaska03 status-toReview
-
-
-

@@ -4,7 +4,7 @@ title: "Stavový prostor a lokální heuristiky"
 up: "[[📖NI-KOP]]"
 ---
 
-TARGET DECK: NI-KOP
+TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska06 status-toReview
 
 ### Základní pojmy
@@ -19,13 +19,15 @@ Back:
 Řešení zadané instance konstruujeme z řešení dílčích instancí.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107103412.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1730978213040-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -37,9 +39,12 @@ Back:
 Řešení zadané instance konstruujeme procházením konfigurací
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107103447.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1730978213044-->
+
 END
 
 ---
@@ -56,9 +61,12 @@ Algoritmus, ve kterém se věnujeme jedné (aktuální) konfiguraci a vybíráme
 Sousedé konfigurace, kam jsem schopný se dostat jedním krokem.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107103735.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1730978213048-->
+
 END
 
 ---
@@ -75,21 +83,21 @@ Back:
 Obecně to jsou **všechny hodnoty, které ovlivňují chod algoritmu** (rozhodování, výběr možností).
 
 <!-- ExampleStart -->
+
 Příklad u problému batohu:
-- Postupně přidávám věci (jakoby DFS v tom grafu) a testuju jeslti jsem nepřetekl batoh. 
-	- Např. na obrázku nejdřív například přidám druhou věc, to je ok, potom první, to je ok a pak třetí a to už jsem přetekl, takže jsem se dostal do nevalidního stavu.
-	- Takhle postupně vyzkouším všechny kombinace
-![](../../../Assets/Pasted%20image%2020241107103841.png)
+
+- Postupně přidávám věci (jakoby DFS v tom grafu) a testuju jeslti jsem nepřetekl batoh. - Např. na obrázku nejdřív například přidám druhou věc, to je ok, potom první, to je ok a pak třetí a to už jsem přetekl, takže jsem se dostal do nevalidního stavu. - Takhle postupně vyzkouším všechny kombinace
+  ![](../../../Assets/Pasted%20image%2020241107103841.png)
 
 Kompletní graf pak vypadá takhle:
 ![](../../../Assets/Pasted%20image%2020241107104027.png)
 
 <!-- ExampleEnd -->
 <!--ID: 1730978213052-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -102,10 +110,10 @@ Stav je **ohodnocení konfiguračních proměnných**
 
 ![](../../../Assets/Pasted%20image%2020241107104804.png)
 <!--ID: 1730978213055-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -116,24 +124,24 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104840.png)
 <!--ID: 1730978213059-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Definice: **Akce** ve stavovém prostoru 
+Definice: **Akce** ve stavovém prostoru
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104918.png)
 <!--ID: 1730978213063-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -144,10 +152,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104935.png)
 <!--ID: 1730978213066-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -158,10 +166,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104951.png)
 <!--ID: 1730978213070-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -172,10 +180,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107105010.png)
 <!--ID: 1730978213074-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -186,10 +194,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107105038.png)
 <!--ID: 1730978213077-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -201,13 +209,15 @@ Back:
 Operátory, který jde opačným směrem než původní operátor
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107105542.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1730978213081-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -220,13 +230,15 @@ Back:
 - Cyklický
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107105951.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213084-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -237,10 +249,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107110030.png)
 <!--ID: 1730978213088-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -252,13 +264,15 @@ Back:
 Mezi **každými dvěma** uzly musí **existovat cesta**.
 
 <!-- InformallySaidStart -->
+
 Z každého stavu se dá dostat do každého stavu
+
 <!-- InformallySaidEnd -->
 <!--ID: 1730978213092-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -271,10 +285,10 @@ Z **každého stavu** se do **každého stavu** dostanu po **stejně dlouhé ces
 
 ![](../../../Assets/Pasted%20image%2020241107110149.png)
 <!--ID: 1730978213096-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -288,6 +302,7 @@ V našem algoritmu povolíme, aby se dostával do neplatných stavů, ale tyto s
 ![](../../../Assets/Pasted%20image%2020241107110828.png)
 
 <!-- ExplanationStart -->
+
 Jinými slovy penalizujeme stav podle toho "jak moc je blbě".
 
 Např. u problému bahotu nám relaxace říká, jak moc je batoh přetížený (o jakou váhu)
@@ -295,22 +310,27 @@ Např. u problému bahotu nám relaxace říká, jak moc je batoh přetížený 
 Můžeme ve **vzorci** měnit koeficient a tím říkat "jak moc přísná" je ta pokuta.
 
 Ten vzorec je typicky **součet** (nikoliv násobek)
+
 <!-- ExplanationEnd -->
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107110814.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107111551.png)
 ![](../../../Assets/Pasted%20image%2020241107111556.png)
 ![](../../../Assets/Pasted%20image%2020241107111602.png)
+
 <!-- ExampleEnd -->
 <!--ID: 1730978213099-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -319,18 +339,20 @@ Co je **penalizace stavu**?
 
 Back:
 
-Povolíme neplatný řešení a nějak je **penalizujeme** konstantní hodnotou. 
+Povolíme neplatný řešení a nějak je **penalizujeme** konstantní hodnotou.
 
 <!-- ExampleStart -->
+
 Např. každému neplatnému stavu nastavíme hodnotu na nula.
+
 <!-- ExampleEnd -->
 <!--ID: 1730978213103-->
+
 END
 
 ---
 
 ### Prostor prohledávání
-
 
 START
 FIT-Card
@@ -342,20 +364,24 @@ Back:
 Každému bodu prostoru prohledávání odpovídá oblast stavového prostoru.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107112141.png)
+
 <!-- ImageEnd -->
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107112150.png)
 ![](../../../Assets/Pasted%20image%2020241107112155.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213106-->
+
 END
 
 ---
 
 ### Strategie pohybu ve stavovém a prohledávacím prostoru
-
 
 START
 FIT-Card
@@ -367,11 +393,10 @@ Back:
 - **Aktuální stav** - konfigurace příslušející aktuálnímu stavu
 - **Transformace** aktuálního stavu pomocí operátorů
 - **Strategie prohledávání** - to jaké transformace aplikuju (např. v jakém pořadí)
-<!--ID: 1730978213109-->
-END
+  <!--ID: 1730978213109-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -383,13 +408,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241107112547.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107112714.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213113-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -400,10 +427,10 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241107112603.png)
 <!--ID: 1730978213117-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -415,13 +442,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241107112730.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107112740.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213120-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -433,17 +462,19 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241107112932.png)
 
 Algoritmus:
+
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107113002.png)
 
 ![](../../../Assets/Pasted%20image%2020241107113155.png)
 
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213123-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -454,13 +485,12 @@ Back:
 
 - **Výhoda**: Naleznou **optimální řešení**, existuje-li
 - **Nevýhoda**: Bez prořezávání má v nejhorším případě složitost rovnou **hrubé síle**
-<!--ID: 1730978213126-->
-END
+  <!--ID: 1730978213126-->
+  END
 
 ---
 
 #### Lokální heuristiky
-
 
 START
 FIT-Card
@@ -474,10 +504,10 @@ Lokální heuristika je funkce `try(state)`, která pomáhá najít nejlepšího
 Takto vypadá algoritmus využívající lokální heuristiku:
 ![](../../../Assets/Pasted%20image%2020241109155157.png)
 <!--ID: 1730978213130-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -487,6 +517,7 @@ Jak funguje **best only** lokální heurisitika u **systematické strategie**?
 Back:
 
 Jak funguje:
+
 - Vybere **nejlepšího souseda daného stavu**.
 - Pokud **žádný soused** není lepší než daný stav, **vrátí $\emptyset$**
 
@@ -495,10 +526,10 @@ Jak funguje:
 
 Je to "nejmíň odfláknutá lokální heuristika".
 <!--ID: 1730978213133-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -509,11 +540,10 @@ Back:
 
 - U **best only** na tom nezáleží, neovlivní to výsledek (pokud nejlepších stavů není více!)
 - U **first improvement** na tom záleží, ovlivní to výsledek (-> je to víc randomizovaný)
-<!--ID: 1731175818734-->
-END
+  <!--ID: 1731175818734-->
+  END
 
 ---
-
 
 START
 FIT-Card
@@ -526,10 +556,10 @@ Jakmile se najde soused, který je lepším řešením, řekne, že to je ten ka
 
 ![](../../../Assets/Pasted%20image%2020241107114138.png)
 <!--ID: 1730978213137-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -542,10 +572,10 @@ Při procházení preferuje ty stavy, které jsou nejblíže počátečnímu (re
 
 To v některých algoritmech dělá neplechu, protože by výsledek algoritmu neměl záviset na uspořádání jednotlivých stavů/operátorů.
 <!--ID: 1730978213141-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -558,13 +588,15 @@ Back:
 - Spíše používat mnoho akcí, které nemění konfiguraci drasticky
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107114531.png)
+
 <!-- ImageEnd -->
 <!--ID: 1730978213145-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -576,9 +608,12 @@ Back:
 Prohledává se stavový prostor jedním směrem (jako větev DFS), potom se z celé větve vybere nejlepší řešení (stav) a ten se pak považuje za aktuální stav
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107114946.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213481-->
+
 END
 
 ---
@@ -592,8 +627,9 @@ Co je **backtracking v prohledávacím prostoru**?
 
 Back:
 
-Možnost alogritmu se **vrátit v prohledávacím prostoru** (= odvolat nastavení proměnné), **aniž bych musel mít zadefinované inverzní operátory**, abych mohl skákat  potřeboval "skákat zpět".
+Možnost alogritmu se **vrátit v prohledávacím prostoru** (= odvolat nastavení proměnné), **aniž bych musel mít zadefinované inverzní operátory**, abych mohl skákat potřeboval "skákat zpět".
 <!--ID: 1730978213543-->
+
 END
 
 ---
@@ -607,11 +643,10 @@ Back:
 
 1. vyber **proměnnou**
 2. vyber **hodnotu** proměnné
-<!--ID: 1730978213605-->
-END
+   <!--ID: 1730978213605-->
+   END
 
 ---
-
 
 START
 FIT-Card
@@ -622,10 +657,10 @@ Back:
 
 Prořezávání se vztahuje na **oblast stavového prostoru**
 <!--ID: 1730978213610-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -637,6 +672,7 @@ Back:
 Prořezávání znamená, že **odstraním podprostory** v prohledávacím prostoru, které nemá smysl procházet.
 
 <!-- ExampleStart -->
+
 Problém batohu:
 Když jsem došel do stavu, kdy už mám přeplněný batoh, tak nedává smysl zkoušet možnosti, jestli tam mám ještě něco přidávat nebo ne, protože v obou případech to furt bude přetížený (viz pravá větev na obrázku 2).
 ![](../../../Assets/Pasted%20image%2020241107120212.png)
@@ -644,10 +680,10 @@ Když jsem došel do stavu, kdy už mám přeplněný batoh, tak nedává smysl 
 
 <!-- ExampleEnd -->
 <!--ID: 1730978213614-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -661,13 +697,15 @@ To samé jako problém batohu, ale můžu do batohu dát i jenom **část** něj
 Tzn. nejsem v celých číslech, ale v racionálních.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107120736.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1730978213617-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -678,22 +716,24 @@ Back:
 
 _Pozn. tímhle si nejsem úplně jistý, jestli jsem ten algoritmus správně pochopil/popsal (ale dávalo by mi to takhle největší smysl) -Morčín_
 
-1. Pro každého souseda: 
-	1. Naplním batoh co nejvíce tím sousedem (tou věcí)
-	2. Spočtu cenu toho batohu
+1. Pro každého souseda:
+   1. Naplním batoh co nejvíce tím sousedem (tou věcí)
+   2. Spočtu cenu toho batohu
 2. Ze všech sousedů vyberu toho co naplnil batoh největší cenou
 3. Jako novou velikost batohu označím velikost zbývajícího prostoru v batohu
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107121014.png)
+
 <!-- ImageEnd -->
 <!--ID: 1730978213621-->
+
 END
 
 ---
 
 #### Prořezávání stavového prostoru
-
 
 START
 FIT-Card
@@ -705,6 +745,7 @@ Back:
 Funguje podobně jako u prohledávacího prostoru.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020241107121206.png)
 
 ![](../../../Assets/Pasted%20image%2020241107121215.png)
@@ -716,9 +757,9 @@ Funguje podobně jako u prohledávacího prostoru.
 
 <!-- ExampleEnd -->
 <!--ID: 1730978213625-->
+
 END
 
 ---
 
 ![](../../../Assets/Pasted%20image%2020241107121253.png)
-

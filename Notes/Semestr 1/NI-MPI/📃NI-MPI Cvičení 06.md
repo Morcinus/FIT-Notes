@@ -3,11 +3,13 @@ created: 2024-10-29T14:33:53
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni06 status-toReview
 
 ### Cvičení 12.2
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & f(x,y)= e ^{2x+y} \\
@@ -24,7 +26,9 @@ $$
 $$
 
 ### Cvičení 12.3
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \int \int_{D} \sin(x+ y) dxdy=\int_{0}^{\pi} \left(\int_{0}^{2\pi } \sin(x+ y) dy \right) dx \\
@@ -35,8 +39,11 @@ $$
 $$
 
 ### Cvičení 12.4
+
 ![](../../../Assets/Pasted%20image%2020241029150037.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & V = \int \int_{D} \left(x^{2} + y^{2}  \right) = \\
@@ -48,30 +55,35 @@ $$
 & =18+2=20 \\
 \end{align*}
 $$
- ### Cvičení 12.5
+
+### Cvičení 12.5
+
  <!-- Latex Equation -->
- $$
- \begin{align*}
- & D=\left[0,1 \right] \times \left[0,1 \right] \times \left[0,1 \right] \\
- & \underset{D}{\int \int  \int}  \\
- & = \int \left(\underset{D'}{\int \int} dx dy \right) dz \quad \text{\small{"Krouhání brambor"}} \\
- & = \underset{D}{\int \int} \left(\int dz \right) dxdy \quad \text{\small{"Propichování prasátka mečem"}} \\
- &  \\
- &  \\
- & \underset{D}{\int \int  \int} e^{x+ y+z} dxdydz \\
- & = \underset{D}{\int \int  \int} e^{x} e^{y} e^{z} dxdydz \\
- & = \underset{D'}{\int \int} \left(\int_{0}^{1} e^{x} e^{y} e^{z} dz \right) dxdy \\
- & =\int_{0}^{1} \left(\int_{0}^{1} \left(\int_{0}^{1} e^{x} e^{y} e^{z} dz \right) dy \right) dx \\
- & =\int_{0}^{1} \left(\int_{0}^{1} e^{x} e^{y} \left[e^{z} \right]_{0} ^{1} dy  \right) dx \\
- & = (e-1)\int_{0}^{1} e^{x} \left[e^{y}  \right]_{0} ^{1} dx \\
- & = (e-1)^2 \left[e^{x} \right]_{0}^{1}  \\
- & = (e-1)^3  
- & 
- \end{align*}
- $$
- 
+
+$$
+\begin{align*}
+& D=\left[0,1 \right] \times \left[0,1 \right] \times \left[0,1 \right] \\
+& \underset{D}{\int \int  \int}  \\
+& = \int \left(\underset{D'}{\int \int} dx dy \right) dz \quad \text{\small{"Krouhání brambor"}} \\
+& = \underset{D}{\int \int} \left(\int dz \right) dxdy \quad \text{\small{"Propichování prasátka mečem"}} \\
+&  \\
+&  \\
+& \underset{D}{\int \int  \int} e^{x+ y+z} dxdydz \\
+& = \underset{D}{\int \int  \int} e^{x} e^{y} e^{z} dxdydz \\
+& = \underset{D'}{\int \int} \left(\int_{0}^{1} e^{x} e^{y} e^{z} dz \right) dxdy \\
+& =\int_{0}^{1} \left(\int_{0}^{1} \left(\int_{0}^{1} e^{x} e^{y} e^{z} dz \right) dy \right) dx \\
+& =\int_{0}^{1} \left(\int_{0}^{1} e^{x} e^{y} \left[e^{z} \right]_{0} ^{1} dy  \right) dx \\
+& = (e-1)\int_{0}^{1} e^{x} \left[e^{y}  \right]_{0} ^{1} dx \\
+& = (e-1)^2 \left[e^{x} \right]_{0}^{1}  \\
+& = (e-1)^3
+&
+\end{align*}
+$$
+
 ### Cvičení 13.2
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & D = \begin{cases} 0 \leq x \leq \tfrac{1}{2}  \\ 0 \leq y \leq x^2 \end{cases} \quad \text{\small{Pro}} \left[x,y \right] \in \mathbb{R} ^2  \\
@@ -85,12 +97,16 @@ $$
 & \\
 & \text{Druhá možnost řešení} \\
 & D = \begin{cases} \sqrt{y}  \leq x \leq \tfrac{1}{2}  \\ 0 \leq y \leq \tfrac{1}{4}  \end{cases} \quad \text{\small{Pro}} \left[x,y \right] \in \mathbb{R}  \\
-& \dots 
+& \dots
 \end{align*}
 $$
+
 ### Cvičení 13.3
+
 ![](../../../Assets/Pasted%20image%2020241029153623.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \underset{D}{\int \int} (x+y)^2  \\
@@ -107,25 +123,30 @@ $$
 & dx=\int_{0}^{2} \tfrac{(\tfrac{3}{2} x+1)^3 }{3}- \tfrac{(2x)^3}{3} dx \\
 & = \tfrac{1}{3} \left[\tfrac{(\tfrac{3}{2} x+1)^4}{4\cdot \tfrac{3}{2}}  - \tfrac{(2x)^4}{8} \right] _{0}^{2}  \\
 & = \tfrac{1}{3} \left(\tfrac{4^4 }{6}-2^5-\tfrac{1}{3} \right)  \\
-& = \dots = \tfrac{21}{6} 
+& = \dots = \tfrac{21}{6}
 \end{align*}
 $$
 
 ### Cvičení 13.4
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \int_{0}^{1} \int_{x}^{1} xydydx \\
 & =\int_{0}^{1} \left(\int_{x}^{1} xydy \right) dx \\
 & =\int_{0}^{1} \left[x\tfrac{y^2 }{2} \right]_{y=x}^{y=1}dx \\
 & =\int_{0}^{1} \left(\tfrac{1}{2} x-\tfrac{x^3}{2} \right)dx \\
-& = \left[\tfrac{1}{2} x-\tfrac{x^3}{2} \right]_{x=0}^{x=1}=\tfrac{1}{8} 
+& = \left[\tfrac{1}{2} x-\tfrac{x^3}{2} \right]_{x=0}^{x=1}=\tfrac{1}{8}
 \end{align*}
 $$
 
 ### Cvičení 13.6
+
 ![](../../../Assets/Pasted%20image%2020241029155334.png)
+
 <!-- Latex Equation -->
+
 $$
 \begin{align*}
 & \underset{D}{\int \int} (x-y)dxdy \\
@@ -136,7 +157,6 @@ $$
 & = \int_{0}^{1} \left(\tfrac{y^2 + 2y+ 1}{2} - y^2 - y \right) dy \\
 & = \int_{0}^{1} \left(-\tfrac{y^2 }{2} +\tfrac{1}{2}  \right) dy \\
 & = \left[-\tfrac{y^3 }{6} +\tfrac{1}{2} y \right]_{0} ^{1}  \\
-& = -\tfrac{1}{6} + \tfrac{1}{2} = \tfrac{2}{6} =\tfrac{1}{3} 
+& = -\tfrac{1}{6} + \tfrac{1}{2} = \tfrac{2}{6} =\tfrac{1}{3}
 \end{align*}
 $$
-

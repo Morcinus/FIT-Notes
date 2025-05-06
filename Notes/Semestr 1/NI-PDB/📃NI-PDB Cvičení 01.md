@@ -3,7 +3,7 @@ created: 2024-10-11T09:35:24
 up: "[[📖NI-PDB]]"
 ---
 
-TARGET DECK: NI-PDB
+TARGET DECK: archive
 FILE TAGS: NI-PDB cviceni01 status-toReview
 
 START
@@ -15,6 +15,7 @@ Back:
 
 Že jsou dodržena všechna integritní omezení
 <!--ID: 1728921214770-->
+
 END
 
 ---
@@ -29,13 +30,13 @@ Analogie: RDBMS vs ORDBMS
 Back:
 
 Vjedu autem do objektový a relační garáže
+
 - V relační garáži musím auto rozebrat a dát do šuplíků
 - V objektový tam prostě jen vjedu
-<!--ID: 1728921214772-->
-END
+  <!--ID: 1728921214772-->
+  END
 
 ---
-
 
 START
 Basic
@@ -51,10 +52,10 @@ V objektový tabulce reference na objekt nahrazují klíč.
 
 V objektový tabulce pak nemusím dělat joiny, ale přes tečkovou notaci si to dotážu.
 <!--ID: 1728921214776-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -65,10 +66,10 @@ Back:
 
 Protože to moc společností neposkytuje a člověk se tím trošku dostane do **vendor locku** + se lidi boají, že to bude míň efektivní.
 <!--ID: 1728921214778-->
+
 END
 
 ---
-
 
 START
 Basic
@@ -78,11 +79,11 @@ Co je a čeho je zkratka **BLOB**?
 Back:
 
 Binary Large Object
+
 - např. v databázi
-<!--ID: 1728921214781-->
-END
+  <!--ID: 1728921214781-->
+  END
 
 ---
 
 Tlačítko -> vytvoří flashcard
-

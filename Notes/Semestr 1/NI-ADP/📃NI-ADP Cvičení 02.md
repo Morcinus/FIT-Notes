@@ -3,11 +3,10 @@ created: 2024-10-11T16:41:44
 up: "[[📖NI-ADP]]"
 ---
 
-TARGET DECK: NI-ADP
+TARGET DECK: archive
 FILE TAGS: NI-ADP cviceni02 status-toReview
 
 ### MVC
-
 
 START
 FIT-Card
@@ -21,9 +20,12 @@ Back:
 - **Controller** - na základě vstupu od uživatele a volá metody z modelu
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020241011175342.png)
+
 <!-- ImageEnd -->
 <!--ID: 1728921214945-->
+
 END
 
 ---

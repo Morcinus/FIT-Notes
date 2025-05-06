@@ -4,8 +4,7 @@ title: "Analýza - integrály - příklady"
 up: "[[📖NI-MPI]]"
 ---
 
-TARGET DECK: NI-MPI
+TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska08 status-toReview
-
 
 Byla počítací přednáška
