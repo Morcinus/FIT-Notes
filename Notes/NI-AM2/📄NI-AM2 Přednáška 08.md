@@ -19,7 +19,6 @@ Aplikace už při návrhu a implementaci musí uživatele chápat tak, že využ
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145333.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887308-->
 END
 
@@ -70,7 +69,6 @@ Infrastruktura je sdílena přes virtual machines
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145831.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887318-->
 END
 
@@ -166,7 +164,6 @@ Mezi datovými centry je fyzická síť, nad ní je virtuální síť a nad tou 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413151106.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887331-->
 END
 
@@ -191,7 +188,6 @@ Gen 2.0:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413151419.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887334-->
 END
 
@@ -229,7 +225,6 @@ V rámci VCN tedy máme typicky několik subnetů
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413151633.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887339-->
 END
 
@@ -253,7 +248,6 @@ Typicky člověk na úrovni subnetů pak nastavuje firewally a routovací tabulk
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413152018.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887342-->
 END
 
@@ -393,7 +387,6 @@ Template pro virtuální hard drive s operačním systémem (jako v dockeru).
 <!-- DetailInfoStart -->
 Poskytovatel typicky poskytuje základní images - Ubuntu, Windows Server atd.
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887365-->
 END
 
@@ -457,7 +450,6 @@ Jsou 2 typy:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413154752.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887373-->
 END
 

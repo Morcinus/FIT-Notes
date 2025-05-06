@@ -59,7 +59,6 @@ Když máme více nodů, můžu pak mít třeba sdílený disk mezi více nodama
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414120505.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887382-->
 END
 
@@ -96,7 +95,6 @@ Např. obrázky, images (ve smyslu bootování z image), cokoliv dalšího
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414120516.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887387-->
 END
 
@@ -253,7 +251,6 @@ Cesta, kterou organizace může podstoupit, aby nemusela "vyhodit" starou aplika
 6. ... a další, který nemusíme umět
 
 ![](../../Assets/Pasted%20image%2020250414122452.png)
-
 <!--ID: 1746518887412-->
 END
 
@@ -574,7 +571,6 @@ Každý container má interně vlastní porty (tzn. každý container může uvn
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132337.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887459-->
 END
 
@@ -593,7 +589,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132353.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746518887462-->
 END
 

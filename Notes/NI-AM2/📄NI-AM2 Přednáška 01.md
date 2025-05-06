@@ -18,8 +18,7 @@ Back:
 Aplikace, kterou už od začátku budujeme tak, aby byla dobře použitelná v cloudu (škálovatelná atd.).
 
 Vpodstatě to znamená, že člověk používá Kubernetes. (Hodně lidí to tak chápe)
-
-<!--ID: 1746518365862-->
+<!--ID: 1746519383375-->
 END
 
 ---
@@ -42,7 +41,7 @@ Např.
 - Machine learning - použiju Python
 - GUI - použiju javascript
 <!-- DetailInfoEnd -->
-<!--ID: 1746518365864-->
+<!--ID: 1746519416395-->
 END
 
 ---
@@ -56,7 +55,7 @@ Jak se vyslovuje správně JWT?
 Back:
 
 jot (džot) :D
-<!--ID: 1746518365867-->
+<!--ID: 1746519416399-->
 END
 
 ---
@@ -74,8 +73,7 @@ Docker in Docker - když používám docker container v docker containeru
 <!-- DetailInfoStart -->
 Obecně to nemusí být vhodný pro nasazení do produkčního prostředí.
 <!-- DetailInfoEnd -->
-
-<!--ID: 1746518365870-->
+<!--ID: 1746519416402-->
 END
 
 ---

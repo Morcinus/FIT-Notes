@@ -6,7 +6,6 @@ up: "[[📖NI-AM2]]"
 TARGET DECK: NI-AM2
 FILE TAGS: NI-AM2 prednaska02 status-toReview
 
-
 START
 FIT-Card
 
@@ -16,7 +15,7 @@ Back:
 
 - **IO bound** - závisí na počtu IO operací, jsou omezeny časem
 - **CPU bound** - závisí na počtu/výkonu procesorů
-<!--ID: 1746518365872-->
+<!--ID: 1746519622602-->
 END
 
 ---
@@ -30,7 +29,7 @@ Jakými způsoby lze realizovat concurrency?
 Back:
 
 Pomocí více vláken - multithreading
-<!--ID: 1746518365875-->
+<!--ID: 1746519622614-->
 END
 
 ---
@@ -44,7 +43,7 @@ Co je **preemtive multitasking**?
 Back:
 
 OS přepíná vlákna na procesoru
-<!--ID: 1746518365878-->
+<!--ID: 1746519622617-->
 END
 
 ---
@@ -60,7 +59,7 @@ Back:
 Když úloha běží na procesoru, úloha si sama určí, kdy se vzdá procesoru. Tzn. sama si rozhodne, kdy skončí.
 
 Je to jakoby o úroveň výš, než ten preemtive multitasking.
-<!--ID: 1746518365881-->
+<!--ID: 1746519622620-->
 END
 
 ---
@@ -76,7 +75,7 @@ Jak se liší asynchronní IO oproti multithreadingu?
 Back:
 
 U asynchronního IO máme jen _jedno vlákno_.
-<!--ID: 1746518365884-->
+<!--ID: 1746519622623-->
 END
 
 ---
@@ -96,7 +95,7 @@ Tyto aplikace umožňují spouštět AJAX (asynchronní javascript). Dynamicky s
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250303153106.png)
 <!-- ImageEnd -->
-<!--ID: 1746518365887-->
+<!--ID: 1746519622626-->
 END
 
 ---
@@ -112,7 +111,7 @@ Back:
 Pro asynchronní calls na server se používají:
 - **XHR** - starý, ale pořád jde používat
 - **FetchAPI** - používá se běžně
-<!--ID: 1746518365890-->
+<!--ID: 1746519622629-->
 END
 
 ---
@@ -129,7 +128,7 @@ Back:
 - **Heap** - halda s objekty
 - **Queue** - list zpráv, co se mají zprocesovat
 	- Zpráva jsou data a funkce, co se má nad těmi daty zavolat
-<!--ID: 1746518365892-->
+<!--ID: 1746519622632-->
 END
 
 ---
@@ -154,7 +153,7 @@ Celý program se dá představit jako strom volání funkcí. Stackem se prohled
 
 ![](../../Assets/Pasted%20image%2020250303154555.png)
 <!-- ExplanationEnd -->
-<!--ID: 1746518365895-->
+<!--ID: 1746519622635-->
 END
 
 ---
@@ -170,8 +169,8 @@ Back:
 
 Vrchol je **callback funkce**.
 
-Např. zavoláme IO funkci, která má po dokončení zavolat moji funkci. Tzn. té IO funkci předám ukazatel na vrchol v tom mém zásobníku (callback) a ona to pak zavolá s výstupama z té IO operace.  
-<!--ID: 1746518365898-->
+Např. zavoláme IO funkci, která má po dokončení zavolat moji funkci. Tzn. té IO funkci předám ukazatel na vrchol v tom mém zásobníku (callback) a ona to pak zavolá s výstupama z té IO operace.
+<!--ID: 1746519622638-->
 END
 
 ---
@@ -189,7 +188,7 @@ Back:
 2) Zavolá danou funkci s danými vstupními daty
 
 ![](../../Assets/Pasted%20image%2020250303154852.png)
-<!--ID: 1746518365901-->
+<!--ID: 1746519622641-->
 END
 
 ---
@@ -207,7 +206,7 @@ Bude to blokovat další messages ve frontě.
 
 Co s tím:
 Proto je potřeba pro dlouhé počítání používat workery. 
-<!--ID: 1746518365904-->
+<!--ID: 1746519622644-->
 END
 
 ---
@@ -227,7 +226,7 @@ Back:
 4. **Browser Socket Manager** až je volné TCP spojení, tak vytáhne z queue request a vykoná ho
 5. Až **Browser Socket Manager** dostane odpověď, vytvoří v **Message queue** message (data, callback)
 6. **Event Loop** potom vezme message z fronty a spustí kód s daty
-<!--ID: 1746518365906-->
+<!--ID: 1746519622647-->
 END
 
 ---
@@ -245,7 +244,7 @@ Může jich mít hodně.
 - Každá **záložka** má vlastní JavaScript runtime.
 - Každý **web worker** má vlastní rutime
 - Každý **iframe** má vlastní runtime
-<!--ID: 1746518365909-->
+<!--ID: 1746519622650-->
 END
 
 ---
@@ -261,7 +260,7 @@ Back:
 Pomocí `postMessage`
 
 ![](../../Assets/Pasted%20image%2020250303155843.png)
-<!--ID: 1746518365912-->
+<!--ID: 1746519622653-->
 END
 
 ---
@@ -279,7 +278,7 @@ Když mám úlohu, co vím, že mi zabere hodně času, tak vytvořím workera, 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250303155935.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1746518365914-->
+<!--ID: 1746519622655-->
 END
 
 ---
@@ -302,7 +301,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250303160224.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1746518365917-->
+<!--ID: 1746519622658-->
 END
 
 ---
@@ -336,7 +335,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250303160904.png)
 <!-- ExampleEnd -->
-<!--ID: 1746518365920-->
+<!--ID: 1746519622661-->
 END
 
 ---
@@ -354,7 +353,7 @@ Umožňuje mi spouštět javascript co automatizuje tasky v Google aplikacích. 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250303160937.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1746518365922-->
+<!--ID: 1746519622664-->
 END
 
 ---
@@ -369,7 +368,7 @@ Jaký je rozdíl mezi callback a asynchronním IO?
 Back:
 
 Těm IO funkcím předávám callback
-<!--ID: 1746518365925-->
+<!--ID: 1746519622667-->
 END
 
 ---
@@ -385,7 +384,7 @@ Back:
 Funkce, která referencuje proměnné mimo její tělo
 
 ![](../../Assets/Pasted%20image%2020250303162428.png)
-<!--ID: 1746518365927-->
+<!--ID: 1746519622670-->
 END
 
 ---
@@ -400,7 +399,7 @@ Back:
 
 This mi odkazuje na daný objekt. Pozor, je to trošku neintuitivní:
 ![](../../Assets/Pasted%20image%2020250303162645.png)
-<!--ID: 1746518365930-->
+<!--ID: 1746519622673-->
 END
 
 ---
@@ -415,7 +414,7 @@ Back:
 
 Umožňují mi přistupovat k `this` jednoduššeji:
 ![](../../Assets/Pasted%20image%2020250303162701.png)
-<!--ID: 1746518365933-->
+<!--ID: 1746519622675-->
 END
 
 ---
@@ -436,7 +435,7 @@ Jak to vyřešit:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250303162800.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1746518365936-->
+<!--ID: 1746519622678-->
 END
 
 ---
@@ -454,7 +453,7 @@ Budoucí hodnota, která může skočit úspěchem nebo neúspěchem
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250303162936.png)
 <!-- ImageEnd -->
-<!--ID: 1746518365938-->
+<!--ID: 1746519622681-->
 END
 
 ---
@@ -474,7 +473,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250303163011.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1746518365941-->
+<!--ID: 1746519622684-->
 END
 
 ---
@@ -494,7 +493,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250303163920.png)
 
 - Same origin policy - CORS
-<!--ID: 1746518365943-->
+<!--ID: 1746519622686-->
 END
 
 ---
@@ -510,7 +509,7 @@ Back:
 Máme **Socket Manager**, který bere requesty z request queue
 
 ![](../../Assets/Pasted%20image%2020250303164342.png)
-<!--ID: 1746518365946-->
+<!--ID: 1746519622689-->
 END
 
 ---
