@@ -144,7 +144,7 @@
     "Defaults": {
       "Scan Directory": "",
       "Tag": "Obsidian_to_Anki",
-      "Deck": "Default",
+      "Deck": "archive",
       "Scheduling Interval": 0,
       "Add File Link": false,
       "Add Context": false,
