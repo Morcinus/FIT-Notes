@@ -24,11 +24,11 @@ END
 START
 FIT-Card
 
-Jakými způsoby lze realizovat concurrency?
+Jakým způsobem lze realizovat concurrency?
 
 Back:
 
-Pomocí více vláken - multithreading
+Pomocí více vláken - **multithreading**
 <!--ID: 1746519622614-->
 END
 
@@ -235,7 +235,7 @@ END
 START
 FIT-Card
 
-Kolik runtimů má spuštěný prohlížeč?
+Kolik runtimů má spuštěný prohlížeč? (3 kategorie)
 
 Back:
 
@@ -274,6 +274,8 @@ Jak fungují web workers?
 Back:
 
 Když mám úlohu, co vím, že mi zabere hodně času, tak vytvořím workera, který má vlastní JS runtime a běží nezávisle na té mojí aplikaci.
+
+Díky tomu, že má každý worker vlastní runtime, může běžet každý worker v jiném vlákně, díky čemuž to neblokuje aplikaci
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250303155935.png)

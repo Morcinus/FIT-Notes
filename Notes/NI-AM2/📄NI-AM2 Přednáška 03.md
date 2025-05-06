@@ -102,14 +102,23 @@ END
 START
 FIT-Card
 
-Jak se typicky používá XHR?
+Jak přesně funguje použití XHR? (jak by se vytvořil request a checknul status)
 
 Back:
 
 1. Prohlížeč načte stránku s JS scriptem
-2. Uživatel klikne na HTML element, který triggerne JS funkci
-3. Funkce zavolá service skrze XHR
-4. Funkce dostane data a modifikuje HTML (DOM)
+2. Uživatel klikne na HTML element, který triggerne JS funkci, ve které použijeme XHR, browser pošle request a získá response
+	1. `let xhr = new XMLHttpRequest()`
+	2. `xhr.open("GET", "http://example.com/data, true)`
+	3. `xhr.onReadyStateChange = stateChanged // pointer to function`
+	4. `xhr.send(); // poslání requestu`
+3. Funkce dostane data a modifikuje HTML (DOM)
+
+Ve `stateChanged` funkci můžu získat state pomocí `xhr.readyState`
+- `1` = loading
+- `2` = loaded
+- `3` = interactive
+- `4` = completed
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304091521.png)
@@ -132,7 +141,7 @@ Back:
 	- `url` - url zdroje
 	- `asynch` - true aby to bylo asynchronní
 	- `user, pass` - credentials
-- `onReadyStateChange`
+- `onReadyStateChange` - nastavím na to funkci, která se má zavolat při změně stavu
 - `send, abort` - pošle nebo zruší request
 - `status, statusTest` - získá status requestu
 - `responseText, responseXML` - response jako text nebo XML
@@ -283,6 +292,7 @@ Cross-Site Request forgery:
 Toto assumuje následující:
 - Banka by pro změny používala GET requesty - toto se samozřejmě nesmí dělat
 - Mallory nezjistí, že se request vykonal
+- Nepoužívá se CORS (ten tomu zabraňuje)
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304094505.png)
@@ -304,6 +314,8 @@ Cross-Site scripting
 1. Mallory pošle alice stránku, která má v sobě škodlivý kód
 2. Alice si načte stránku, ovšem ta stránka je z jednoho originu, takže na ten škodlivý script se neaplikuje Same Origin Policy
 3. Script pak může na daném serveru dělat requesty, aniž by to Alice věděla
+
+Např. když mám online fórum, tak tam lidi můžou postovat příspěvky a ostatní si pak stahujou stránku s těma příspěvkama. Útočník by mohl do příspěvku zanést škodlivý script. Jelikož to je ale z daného originu, tak se script může dotazovat na daný server.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304094832.png)
@@ -383,7 +395,7 @@ Jakou hodnotu může mít `Access-Control-Allow-Origin`?
 Back:
 
 Buď
-- adresa povoleného originu (např. `http.//prague.example.org`)
+- adresa povoleného originu (např. `http://prague.example.org`)
 - nebo `*`, což je wildcard a může tam kdokoliv
 <!--ID: 1746519873021-->
 END

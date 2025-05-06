@@ -217,7 +217,14 @@ Jak funguje proces autentikace pomocí JWT?
 
 Back:
 
+1. Uživatel pošle na server `POST` s username a password
+2. Server vrátí JWT (co má secret a expiration time)
+3. Server posílá JWT při dalších requestech
+
+<!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250318121035.png)
+<!-- ImageEnd -->
+
 <!--ID: 1746519872956-->
 END
 
@@ -230,6 +237,9 @@ FIT-Card
 Jak funguje **expiration** JWT?
 
 Back:
+
+- Token má `exp` atribut, který určuje timestamp expirace
+- Expirace se kontroluje při každém requestu
 
 ![](../../Assets/Pasted%20image%2020250318121051.png)
 <!--ID: 1746519872959-->
