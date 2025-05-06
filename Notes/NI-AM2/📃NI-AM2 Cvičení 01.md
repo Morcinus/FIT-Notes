@@ -3,8 +3,7 @@ created: 2025-02-17T13:16:23
 up: "[[📖NI-AM2]]"
 ---
 TARGET DECK: NI-AM2
-FILE TAGS: NI-AM2 cviceni01 status-toReview
-
+FILE TAGS: NI-AM2 prednaska01 status-toReview
 
 START
 FIT-Card
