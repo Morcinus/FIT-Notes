@@ -16,7 +16,7 @@ Definice: **Paralelní počítač**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217162543.png)
-
+<!--ID: 1746599653300-->
 END
 
 ---
@@ -46,7 +46,7 @@ Fun fact: 30 let se výkon počítačů zvyšuje exponenciálně
 K čemu jsou dobré superpočítače? Např. na předpovědi počasí.
 ![](../../Assets/Pasted%20image%2020250217163837.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653307-->
 END
 
 ---
@@ -70,7 +70,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217164134.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653315-->
 END
 
 ---
@@ -90,7 +90,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217164219.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653322-->
 END
 
 ---
@@ -111,7 +111,7 @@ Je pak potřeba mít něco, co tyto uzly řídí.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164500.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653329-->
 END
 
 ---
@@ -139,7 +139,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217164723.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653335-->
 END
 
 ---
@@ -161,7 +161,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217165208.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653348-->
 END
 
 ---
@@ -176,7 +176,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250217165341.png)
 
-
+<!--ID: 1746599653355-->
 END
 
 ---
@@ -197,7 +197,7 @@ Obecný model paralelního výpočtu
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217165648.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653362-->
 END
 
 ---
@@ -215,7 +215,7 @@ Back:
 - **lokální operace** - cokoliv lokálně ve svojí paměti
 
 (nebo ten stroj nedělá nic)
-
+<!--ID: 1746599653370-->
 END
 
 ---
@@ -237,7 +237,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217170014.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653378-->
 END
 
 ---
@@ -257,7 +257,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217170024.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653384-->
 END
 
 ---
@@ -277,7 +277,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217170251.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653391-->
 END
 
 ---
@@ -298,7 +298,7 @@ Bariéra je docela drahá.
 ![](../../Assets/Pasted%20image%2020250217170833.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653399-->
 END
 
 ---
@@ -312,7 +312,7 @@ Jaké jsou 2 možnosti implementace bariéry?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217170907.png)
-
+<!--ID: 1746599653405-->
 END
 
 ---
@@ -330,7 +330,7 @@ Back:
 - Datový/iterační - např. iterace nad poli
 - Funkční paralelismus - např. rekurze
 - Paralelní programovací šablony
-
+<!--ID: 1746599653412-->
 END
 
 ---
@@ -346,7 +346,7 @@ Back:
 - Datově nezávislé iterace cyklu mohou být prováděny současně samostatnými procesory
 
 ![](../../Assets/Pasted%20image%2020250217171003.png)
-
+<!--ID: 1746599653419-->
 END
 
 ---
@@ -362,7 +362,7 @@ Back:
 Jakoby paralelizace rekurzivních volání.
 
 ![](../../Assets/Pasted%20image%2020250217171134.png)
-
+<!--ID: 1746599653427-->
 END
 
 ---
@@ -383,7 +383,7 @@ Back:
 - **Single Program Multiple Data** (SPMD) - nejběžnější, vlákna provádějí asynchronně tentýž statický kód
 
 ![](../../Assets/Pasted%20image%2020250217171303.png)
-
+<!--ID: 1746599653434-->
 END
 
 ---
@@ -409,7 +409,7 @@ Máme vyřešit problém. Ten se dá vyřešit sekvenčními algoritmy.
 ![](../../Assets/Pasted%20image%2020250217171948.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653441-->
 END
 
 ---
@@ -436,7 +436,7 @@ Důsledek: když programuju paralelně, je lepší mít procesory co nejvyváže
 ![](../../Assets/Pasted%20image%2020250217172552.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653449-->
 END
 
 ---
@@ -451,7 +451,7 @@ Back:
 
 - **výpočetní kroky** - aritmetické, logické, atd.
 - **komunikační kroky** - přenos, výměna dat mezi procesory
-
+<!--ID: 1746599653456-->
 END
 
 ---
@@ -474,7 +474,7 @@ Back:
 Doba, jak dlouho jsem využíval všechny procesory. Například když mi někdo poskytne část superpočítače, tak ho bude zajímat, kolik procesorů jsem jak dlouho využíval. Je mu ale jedno, co jsem tam dělal a jak moc jsem je využíval.
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653464-->
 END
 
 ---
@@ -492,7 +492,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250217172714.png)
 <!-- ProofEnd -->
-
+<!--ID: 1746599653470-->
 END
 
 ---
@@ -506,7 +506,7 @@ Definice: Cenová optimalita
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217173209.png)
-
+<!--ID: 1746599653479-->
 END
 
 ---
@@ -520,7 +520,7 @@ Definice: Paralelní zrychlení
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217173224.png)
-
+<!--ID: 1746599653488-->
 END
 
 ---
@@ -539,7 +539,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217173257.png)
 <!-- ProofEnd -->
 
-
+<!--ID: 1746599653497-->
 END
 
 ---
@@ -557,7 +557,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217173326.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653504-->
 END
 
 ---
@@ -571,7 +571,7 @@ Co je **superlineární zrychlení**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217173356.png)
-
+<!--ID: 1746599653510-->
 END
 
 ---
@@ -589,7 +589,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250217173442.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599653517-->
 END
 
 ---
@@ -610,7 +610,7 @@ Je to v procentech (0 až 1).
 ![](../../Assets/Pasted%20image%2020250217173601.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653524-->
 END
 
 ---
@@ -629,7 +629,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217173547.png)
 <!-- ProofEnd -->
 
-
+<!--ID: 1746599653531-->
 END
 
 ---
@@ -643,7 +643,7 @@ Definice: **konstantní efektivnost**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217173756.png)
-
+<!--ID: 1746599653538-->
 END
 
 ---
@@ -664,7 +664,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217173909.png)
 ![](../../Assets/Pasted%20image%2020250217174046.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599653545-->
 END
 
 ---
@@ -682,7 +682,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217174340.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653551-->
 END
 
 ---
@@ -696,7 +696,7 @@ Definice: Amdahlův zákon
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217174435.png)
-
+<!--ID: 1746599653558-->
 END
 
 ---
@@ -710,7 +710,7 @@ Definice: Gustafsonův zákon
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217174519.png)
-
+<!--ID: 1746599653564-->
 END
 
 ---
@@ -724,7 +724,7 @@ Definice: silná škálovatelnost a slabá škálovatelnost
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217174616.png)
-
+<!--ID: 1746599653571-->
 END
 
 ---
@@ -739,7 +739,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250217174635.png)
 ![](../../Assets/Pasted%20image%2020250217174642.png)
-
+<!--ID: 1746599653579-->
 END
 
 ---

@@ -16,7 +16,7 @@ Jaké jsou zlomové momenty při růstu firmy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327162058.png)
-
+<!--ID: 1746599651817-->
 END
 
 ---
@@ -30,7 +30,7 @@ Co je bank ID?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327162326.png)
-
+<!--ID: 1746599651824-->
 END
 
 ---
@@ -44,7 +44,7 @@ Jaké jsou části agendy firmy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327162127.png)
-
+<!--ID: 1746599651833-->
 END
 
 ---
@@ -59,7 +59,7 @@ Back:
 
 - "Růst od semínka" - z nuly podnikatel rozjede firmu
 - Rozdělení - z fimy se odřízne tým lidí (buď úmyslně nebo že se naštvou na původní firmu) a vznikne nová firma
-
+<!--ID: 1746599651840-->
 END
 
 ---
@@ -76,7 +76,7 @@ Back:
 - na podpůrné činnosti (účetnictví, vytváření dokumentů, uložení a sdílení informací)
 
 Na konkrétní byznys dané firmy se pak může hodit custom řešení
-
+<!--ID: 1746599651849-->
 END
 
 ---
@@ -90,7 +90,7 @@ Jak je typicky zařízené účetnictví?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327165427.png)
-
+<!--ID: 1746599651856-->
 END
 
 ---
@@ -104,7 +104,7 @@ Co všechno je součástí CRM?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327165820.png)
-
+<!--ID: 1746599651865-->
 END
 
 ---
@@ -122,7 +122,7 @@ Back:
 - Je potřeba řešit bezpečnost
 
 ![](../../Assets/Pasted%20image%2020250327170457.png)
-
+<!--ID: 1746599651872-->
 END
 
 ---
@@ -138,7 +138,7 @@ Back:
 - Reporting systémy (-> analýzy atd.)
 - Automatizace a vytváření byznys procesů
 	- Programy na BPMN
-
+<!--ID: 1746599651881-->
 END
 
 ---
@@ -153,7 +153,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250327172756.png)
 ![](../../Assets/Pasted%20image%2020250327172803.png)
-
+<!--ID: 1746599651888-->
 END
 
 ---
@@ -167,7 +167,7 @@ Jaké jsou nyní trendy ve firmách?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327172819.png)
-
+<!--ID: 1746599651896-->
 END
 
 ---
@@ -181,7 +181,7 @@ Proč jsou špatný legacy systémy a technologický druh?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250327173924.png)
-
+<!--ID: 1746599651902-->
 END
 
 ---

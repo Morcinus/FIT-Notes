@@ -25,7 +25,7 @@ Back:
 Je vhodné, aby ty _teoretické_ četnosti v každém binu měly alespoň 5. Když by to bylo méně než 5, tak není zaručeno, že mi vyjde chí kvadrát
 
 ![](../../Assets/Pasted%20image%2020250329132648.png)
-
+<!--ID: 1746599651205-->
 END
 
 ---
@@ -43,7 +43,7 @@ Back:
 3. Sestavíme chí kvadrát podle vzorečku (podobně jako u dobré shody, jen to dělám u 2D rozdělení)
 
 ![](../../Assets/Pasted%20image%2020250329134349.png)
-
+<!--ID: 1746599651216-->
 END
 
 ---
@@ -57,7 +57,7 @@ Co můžu udělat, když mám biny s málo prvky?
 Back:
 
 Můžu je spojit.
-
+<!--ID: 1746599651223-->
 END
 
 ---
@@ -81,7 +81,7 @@ Varianta 2 - uděláme testovou baterii:
 	2. Pokud zamítneme, použijeme Welchův test
 
 Lepší je prý dělat tu první variantu
-
+<!--ID: 1746599651235-->
 END
 
 ---

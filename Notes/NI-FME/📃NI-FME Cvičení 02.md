@@ -15,7 +15,7 @@ Jak bych měl zapisovat implikaci, pokud máme všeobecný kvantifikátor?
 Back:
 
 Normálně $A \implies B$
-
+<!--ID: 1746599655303-->
 END
 
 ---
@@ -29,7 +29,7 @@ Jak bych měl zapisovat implikaci, pokud máme existenční kvantifikátor?
 Back:
 
 Pomocí konjunkce!
-
+<!--ID: 1746599655310-->
 END
 
 ---

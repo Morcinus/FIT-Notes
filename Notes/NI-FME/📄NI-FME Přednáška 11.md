@@ -18,7 +18,7 @@ Back:
 Snažíme se zjistit podmínky na začátku, které platí, aby program byl validní
 
 ![](../../Assets/Pasted%20image%2020250430110529.png)
-
+<!--ID: 1746599654459-->
 END
 
 ---
@@ -32,7 +32,7 @@ Definice: Předpodmínka programu
 Back:
 
 ![](../../Assets/Pasted%20image%2020250430110553.png)
-
+<!--ID: 1746599654467-->
 END
 
 ---
@@ -46,7 +46,7 @@ Věta: Předpodmínka $I$, program $P$ a formule $O$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250430110624.png)
-
+<!--ID: 1746599654476-->
 END
 
 ---
@@ -61,7 +61,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250430112211.png)
 ![](../../Assets/Pasted%20image%2020250430112159.png)
-
+<!--ID: 1746599654485-->
 END
 
 ---
@@ -75,7 +75,7 @@ Jak funguje Eliminace kvantifikátorů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250430112230.png)
-
+<!--ID: 1746599654493-->
 END
 
 ---
@@ -93,7 +93,7 @@ Snažíme se najít, co platí na konci
 ![](../../Assets/Pasted%20image%2020250430112308.png)
 ![](../../Assets/Pasted%20image%2020250430112317.png)
 
-
+<!--ID: 1746599654500-->
 END
 
 ---
@@ -107,7 +107,7 @@ Algoritmus: Výpočet nejsilnějších popodmínek
 Back:
 
 ![](../../Assets/Pasted%20image%2020250430112344.png)
-
+<!--ID: 1746599654508-->
 END
 
 ---
@@ -130,7 +130,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250430112501.png)
 ![](../../Assets/Pasted%20image%2020250430112515.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599654515-->
 END
 
 ---
@@ -145,7 +145,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250430112530.png)
 ![](../../Assets/Pasted%20image%2020250430112543.png)
-
+<!--ID: 1746599654521-->
 END
 
 ---
@@ -163,7 +163,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250430112630.png)
 ![](../../Assets/Pasted%20image%2020250430112639.png)
 ![](../../Assets/Pasted%20image%2020250430112658.png)
-
+<!--ID: 1746599654527-->
 END
 
 ---
@@ -177,7 +177,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250430112804.png)
 ![](../../Assets/Pasted%20image%2020250430112813.png)
-
+<!--ID: 1746599654534-->
 END
 
 ---
@@ -191,7 +191,7 @@ Jak funguje výpočet předpodmínek programů se smyčkami?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250430112849.png)
-
+<!--ID: 1746599654542-->
 END
 
 ---

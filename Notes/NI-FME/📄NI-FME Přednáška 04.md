@@ -24,7 +24,7 @@ Nedělení nulou:
 
 ![](../../Assets/Pasted%20image%2020250312110717.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599655201-->
 END
 
 ---
@@ -38,7 +38,7 @@ Kdy je průběh programu **regulární**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312111040.png)
-
+<!--ID: 1746599655209-->
 END
 
 ---
@@ -52,7 +52,7 @@ Kdy je průběh programu **správný**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312111048.png)
-
+<!--ID: 1746599655217-->
 END
 
 ---
@@ -66,7 +66,7 @@ Jak se zapisuje přiřazení proměnný?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312111413.png)
-
+<!--ID: 1746599655224-->
 END
 
 ---
@@ -82,7 +82,7 @@ Back:
 
 Sestavíme logickou formuli a zjistíme jestli je pravdivá
 ![](../../Assets/Pasted%20image%2020250312112805.png)
-
+<!--ID: 1746599655232-->
 END
 
 ---
@@ -98,7 +98,7 @@ Back:
 
 Přejmenovat tak, aby nedocházelo ve formuli k přepisování hodnoty
 ![](../../Assets/Pasted%20image%2020250312112713.png)
-
+<!--ID: 1746599655238-->
 END
 
 ---
@@ -112,7 +112,7 @@ Jak se řeší přejmenovávání arraye?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312113530.png)
-
+<!--ID: 1746599655244-->
 END
 
 ---
@@ -126,7 +126,7 @@ Jak zapíšu vstup programu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312113608.png)
-
+<!--ID: 1746599655250-->
 END
 
 ---
@@ -141,7 +141,7 @@ Back:
 
 Konjunktivní Formule, která reprezentuje daný program
 ![](../../Assets/Pasted%20image%2020250312114020.png)
-
+<!--ID: 1746599655258-->
 END
 
 ---
@@ -155,7 +155,7 @@ Definice: správný program
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312114101.png)
-
+<!--ID: 1746599655264-->
 END
 
 ---
@@ -170,7 +170,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250312114632.png)
 ![](../../Assets/Pasted%20image%2020250312114618.png)
-
+<!--ID: 1746599655271-->
 END
 
 ---
@@ -186,7 +186,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250312115623.png)
 ![](../../Assets/Pasted%20image%2020250312115637.png)
 
-
+<!--ID: 1746599655278-->
 END
 
 ---
@@ -200,7 +200,7 @@ Jak obecně dokázat správnost programů bez řídících struktur? (2 kroky)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250312115742.png)
-
+<!--ID: 1746599655286-->
 END
 
 ---

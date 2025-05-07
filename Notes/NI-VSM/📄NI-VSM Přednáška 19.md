@@ -17,7 +17,7 @@ Věta: **Kolmogorova rovnice**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419141051.png)
-
+<!--ID: 1746599649435-->
 END
 
 ---
@@ -35,7 +35,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250422092334.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746599649443-->
 END
 
 ---
@@ -54,7 +54,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250422092420.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1746599649451-->
 END
 
 ---
@@ -68,7 +68,7 @@ Definice: **stacionární rozdělení** (spojitý čas)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092437.png)
-
+<!--ID: 1746599649457-->
 END
 
 ---
@@ -82,7 +82,7 @@ Věta: Vektor $\pi$ je stacionárním rozdělením právě tehdy když
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092511.png)
-
+<!--ID: 1746599649465-->
 END
 
 ---
@@ -96,7 +96,7 @@ Definice: Markovský řetězec je nerozložitelný
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092530.png)
-
+<!--ID: 1746599649473-->
 END
 
 ---
@@ -110,7 +110,7 @@ Důsledek: Je-li množina stavů $S$ konečná, pak ...
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092555.png)
-
+<!--ID: 1746599649480-->
 END
 
 ---
@@ -133,7 +133,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250422092710.png)
 ![](../../Assets/Pasted%20image%2020250422092719.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746599649487-->
 END
 
 ---
@@ -148,7 +148,7 @@ Lemma: nezávislé exponenciální rozdělení, potom ...
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092802.png)
-
+<!--ID: 1746599649494-->
 END
 
 ---
@@ -162,7 +162,7 @@ Důsledek: $T_1, \dots, T_n$ nezávislé veličiny
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092831.png)
-
+<!--ID: 1746599649502-->
 END
 
 ---
@@ -176,7 +176,7 @@ Pozorování: co platí pro $F_\text{max{X,Y}}(t)$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092921.png)
-
+<!--ID: 1746599649510-->
 END
 
 ---
@@ -190,7 +190,7 @@ Leamm: Čemu je rovno $P(T<S)$ a $P(S<T)$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422093005.png)
-
+<!--ID: 1746599649517-->
 END
 
 ---
@@ -204,7 +204,7 @@ Důsledek: čemu je rovno $P(T_i=min{T_1, \dots T_n})$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422093042.png)
-
+<!--ID: 1746599649523-->
 END
 
 ---
@@ -218,7 +218,7 @@ Lemma: Nezávislost ${min\{T,S\}>u}$ a $T<S$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422093107.png)
-
+<!--ID: 1746599649532-->
 END
 
 ---
@@ -238,7 +238,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250422093231.png)
 ![](../../Assets/Pasted%20image%2020250422093239.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746599649540-->
 END
 
 ---
@@ -257,7 +257,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250422093320.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599649547-->
 END
 
 ---
@@ -278,7 +278,7 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250422093351.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746599649554-->
 END
 
 ---
@@ -306,7 +306,7 @@ Pozn. Co po nás podle Hrabáka budou chtít:
 ![](../../Assets/Pasted%20image%2020250422093905.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1746599649562-->
 END
 
 ---

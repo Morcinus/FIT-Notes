@@ -18,7 +18,7 @@ Back:
 - **Alokace kapitálu** - pomuže mi to vydělat
 - **Produktivita** - pomůže mi to ušetřit
 - **Strategické příležitosti a výhody** - pomůže to získat konkurenční výhodu na trhu
-
+<!--ID: 1746599652202-->
 END
 
 ---
@@ -41,7 +41,7 @@ Fun fact:
 - Velké firmy mají řádově stovky informačních systémů
 	- Např. ČSOB má přes 200
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652209-->
 END
 
 ---
@@ -62,7 +62,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220165713.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599652217-->
 END
 
 ---
@@ -83,7 +83,7 @@ Back:
 Je to na nejnižší v organizaci
 ![](../../Assets/Pasted%20image%2020250220170628.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652225-->
 END
 
 ---
@@ -104,7 +104,7 @@ Je to na střední úrovni v organizaci
 ![](../../Assets/Pasted%20image%2020250220170628.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599652233-->
 END
 
 ---
@@ -124,7 +124,7 @@ Back:
 Je to na střední úrovni v organizaci
 ![](../../Assets/Pasted%20image%2020250220170628.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652240-->
 END
 
 ---
@@ -144,7 +144,7 @@ Back:
 Je to na nejvyšší úrovni v organizaci
 ![](../../Assets/Pasted%20image%2020250220170628.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652250-->
 END
 
 ---
@@ -158,7 +158,7 @@ Jaký je vztah TPS, MIS, DSS a EIS?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220170857.png)
-
+<!--ID: 1746599652257-->
 END
 
 ---
@@ -177,7 +177,7 @@ Způsob organizace a koordinace práce ve firmě.
 ![](../../Assets/Pasted%20image%2020250220171141.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599652265-->
 END
 
 ---
@@ -195,7 +195,7 @@ Informační systémy implementují (automatizují) tyto procesy.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250220171834.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599652272-->
 END
 
 ---
@@ -210,7 +210,7 @@ Back:
 
 - Mám nějaký proces ve firmě a pořídím si informační systém, který podporuje ten proces -> **Budu vytvářet custom systém na zakázku**
 - Pořídím si informační systém a přizpůsobím mu moje interní procesy ve firmě -> **Koupím si nějaký software, co používá většina lidí** (např. SAP)
-
+<!--ID: 1746599652280-->
 END
 
 ---
@@ -228,7 +228,7 @@ Vytvořeny pro koordinaci a integraci procesů v rámci celé organizace.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250220172119.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599652286-->
 END
 
 ---
@@ -248,7 +248,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220172344.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652294-->
 END
 
 ---

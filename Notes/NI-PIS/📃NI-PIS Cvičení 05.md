@@ -18,7 +18,7 @@ Back:
 - **Referenční data** - číselníky (dvojice číslo - něco, např. kódy států, měn atd.), externí registry (živnostenský rejstřík)
 - **Master data** - klíčový data, co podnik udržuje konzistentní napříč celou organizací (např. klienti, produkty)
 - **Transakční data** (platby, půjčky, atd.)
-
+<!--ID: 1746599652303-->
 END
 
 ---
@@ -43,7 +43,7 @@ Back:
 
 Data se typicky 1x denně přenáší z Data Warehouse do Data Martu.
 Typicky se 1x denně (v noci) přelévají data z DB primárního systému do Stage
-
+<!--ID: 1746599652311-->
 END
 
 ---
@@ -57,7 +57,7 @@ Jaký je vztah data lake a data staging area?
 Back:
 
 Data lake je historizovaná stage (jsou tam snímky napříč historií).
-
+<!--ID: 1746599652319-->
 END
 
 ---

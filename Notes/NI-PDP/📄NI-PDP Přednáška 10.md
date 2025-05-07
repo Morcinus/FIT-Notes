@@ -16,7 +16,7 @@ Definice: Vstupy a výstupy paralelní redukce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133342.png)
-
+<!--ID: 1746599652923-->
 END
 
 ---
@@ -30,7 +30,7 @@ Definice: Vlastnosti paralelní redukce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133358.png)
-
+<!--ID: 1746599652929-->
 END
 
 ---
@@ -46,7 +46,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250419133417.png)
 
 Je to jakoby inverzní broadcast s nějakým výpočtem
-
+<!--ID: 1746599652937-->
 END
 
 ---
@@ -64,7 +64,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250419133508.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599652944-->
 END
 
 ---
@@ -79,7 +79,7 @@ Jak funguje `MPI_MAXLOC` (a `MPI_MINLOC`) aneb lokalizace výsledku?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133546.png)
-
+<!--ID: 1746599652951-->
 END
 
 ---
@@ -93,7 +93,7 @@ Jak se dá zadefinovat uživatelem definovaná operace redukce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133653.png)
-
+<!--ID: 1746599652958-->
 END
 
 ---
@@ -112,7 +112,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250419133808.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599652966-->
 END
 
 ---
@@ -127,7 +127,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419133829.png)
 ![](../../Assets/Pasted%20image%2020250419133840.png)
-
+<!--ID: 1746599652974-->
 END
 
 ---
@@ -141,7 +141,7 @@ Jak funguje Prefixový součet (=scan) nad polem (PPS)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133907.png)
-
+<!--ID: 1746599652981-->
 END
 
 ---
@@ -155,7 +155,7 @@ Algoritmus: Sekvenční výpočet prefixových součtů
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133925.png)
-
+<!--ID: 1746599652988-->
 END
 
 ---
@@ -169,7 +169,7 @@ Jak funguje PPS na EREW PRAM?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133941.png)
-
+<!--ID: 1746599652995-->
 END
 
 ---
@@ -183,7 +183,7 @@ Definice: Nepřímý strom
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419133955.png)
-
+<!--ID: 1746599653002-->
 END
 
 ---
@@ -202,7 +202,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250419134058.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653010-->
 END
 
 ---
@@ -216,7 +216,7 @@ Lemma: T = úplný binární strom $\implies \dots$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419134042.png)
-
+<!--ID: 1746599653018-->
 END
 
 ---

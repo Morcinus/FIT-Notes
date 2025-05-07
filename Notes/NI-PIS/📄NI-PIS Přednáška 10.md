@@ -23,7 +23,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250424162241.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599651518-->
 END
 
 ---
@@ -37,7 +37,7 @@ Jaké jsou nefunkční požadavky datových skladů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250424162303.png)
-
+<!--ID: 1746599651524-->
 END
 
 ---
@@ -52,7 +52,7 @@ Back:
 
 - technická - že to bude v určitém formátu, že to bude mít určité vlastnosti
 - byznysová - např. když mají data určité hodnoty, které nejsou dobré pro byznys
-
+<!--ID: 1746599651536-->
 END
 
 ---
@@ -77,7 +77,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250424163241.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599651550-->
 END
 
 ---
@@ -92,7 +92,7 @@ Back:
 
 - **Landing** - neřeší se tam datové typy
 - **Stage** - tam se už řeší datové typy
-
+<!--ID: 1746599651581-->
 END
 
 ---
@@ -111,7 +111,7 @@ Nebo se to dá takto rozdělit:
 - **ActCore** - tam jsou jen aktuální data
 - **HCore** (historizovaný) - je tam současnost i historie
 - **Shop**
-
+<!--ID: 1746599651597-->
 END
 
 ---
@@ -125,7 +125,7 @@ Je cílem do datového skladu nacpat všechna data firmy?
 Back:
 
 Nope, typicky pouze ta data, co jsou kritická pro byznys a pro reporting. Typicky bude hodně data ještě rozházených kolem.
-
+<!--ID: 1746599651608-->
 END
 
 ---
@@ -140,7 +140,7 @@ Back:
 
 - Datová pumpa -  
 - ETL nástroj - metadatový nástroj, umožňuje efektivně přepočítávat tabulky, které jsou na sobě závislé
-
+<!--ID: 1746599651620-->
 END
 
 ---
@@ -162,7 +162,7 @@ Pozn. datový model pak může sloužit i pro další systémy, nejen core datov
 
 ![](../../Assets/Pasted%20image%2020250424164836.png)
 ![](../../Assets/Pasted%20image%2020250424165631.png)
-
+<!--ID: 1746599651632-->
 END
 
 ---
@@ -179,7 +179,7 @@ Back:
 - **Dimenze** - nad fakty jsou pak dimenze. Ty se typicky nedají dobře agregovat, např. adresa
 
 ![](../../Assets/Pasted%20image%2020250424170314.png)
-
+<!--ID: 1746599651640-->
 END
 
 ---
@@ -193,7 +193,7 @@ Měl bych si v tabulkách ukládat procenta?
 Back:
 
 Ne, nedají se dobře agregovat, je lepší místo toho ukládat originální hodnoty
-
+<!--ID: 1746599651651-->
 END
 
 ---
@@ -213,7 +213,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250424170650.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599651659-->
 END
 
 ---
@@ -227,7 +227,7 @@ Jak se dělí fakta?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250424170926.png)
-
+<!--ID: 1746599651670-->
 END
 
 ---
@@ -242,7 +242,7 @@ Back:
 
 - **Snapshoting** - udělám celou kopii těch dat např 1x za den (nedává moc smysl u dat, které se často nemění)
 - **Slowly chaning dimenze** - uložím jednou, když vznikne změna, tak si uložím data
-
+<!--ID: 1746599651680-->
 END
 
 ---
@@ -256,7 +256,7 @@ Jaké jsou typy slowly changing dimension?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250424171444.png)
-
+<!--ID: 1746599651688-->
 END
 
 ---
@@ -275,7 +275,7 @@ Když změním přijde změna, zapíšu do záznamu "end date", abych tím ozna�
 ![](../../Assets/Pasted%20image%2020250424171616.png)
 ![](../../Assets/Pasted%20image%2020250424171626.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599651699-->
 END
 
 ---
@@ -291,7 +291,7 @@ Jaké jsou jednotlivé kroky vytvoření datového skladu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250424172247.png)
-
+<!--ID: 1746599651706-->
 END
 
 ---

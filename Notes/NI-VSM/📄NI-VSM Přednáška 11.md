@@ -20,7 +20,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250329084519.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649731-->
 END
 
 ---
@@ -34,7 +34,7 @@ Jak se spočte $EN_i$ u multinomického rozdělení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250329103530.png)
-
+<!--ID: 1746599649738-->
 END
 
 ---
@@ -48,7 +48,7 @@ Jak se spočte $\text{var} N_i$ multinomického rozdělení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250329103559.png)
-
+<!--ID: 1746599649745-->
 END
 
 ---
@@ -62,7 +62,7 @@ Jak se spočte $\text{cov }(N_i, N_j)$ multinomikého rozdělení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250329103627.png)
-
+<!--ID: 1746599649752-->
 END
 
 ---
@@ -81,7 +81,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250329084545.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599649760-->
 END
 
 ---
@@ -100,7 +100,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250329084649.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599649767-->
 END
 
 ---

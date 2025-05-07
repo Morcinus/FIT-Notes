@@ -21,7 +21,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250319111426.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599655130-->
 END
 
 ---
@@ -36,7 +36,7 @@ Jaké jsou basic paths pro loops?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250319112259.png)
-
+<!--ID: 1746599655138-->
 END
 
 ---
@@ -50,7 +50,7 @@ Jak funguje linearizace while cyklu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250319112904.png)
-
+<!--ID: 1746599655146-->
 END
 
 ---
@@ -64,7 +64,7 @@ Jak funguje linearizace for cyklů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250319112945.png)
-
+<!--ID: 1746599655154-->
 END
 
 ---
@@ -78,7 +78,7 @@ Co musí obsahovat smyčky v programech, aby byly programy správné?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250319114403.png)
-
+<!--ID: 1746599655161-->
 END
 
 ---
@@ -92,7 +92,7 @@ Kdy je invariant smyčky správný?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250319114455.png)
-
+<!--ID: 1746599655169-->
 END
 
 ---
@@ -106,7 +106,7 @@ Kdy je invariant smyšky induktivní?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250319114511.png)
-
+<!--ID: 1746599655177-->
 END
 
 ---
@@ -122,7 +122,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250319114541.png)
 ![](../../Assets/Pasted%20image%2020250319114550.png)
 ![](../../Assets/Pasted%20image%2020250319114604.png)
-
+<!--ID: 1746599655184-->
 END
 
 ---
@@ -137,7 +137,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250319120016.png)
 ![](../../Assets/Pasted%20image%2020250319120023.png)
-
+<!--ID: 1746599655192-->
 END
 
 ---

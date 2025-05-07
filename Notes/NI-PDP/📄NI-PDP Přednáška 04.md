@@ -23,7 +23,7 @@ Například z RAM do CPU je latence 40x větší než latence z L1 keše.
 ![](../../Assets/Pasted%20image%2020250313101411.png)
 ![](../../Assets/Pasted%20image%2020250313101359.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599653027-->
 END
 
 ---
@@ -39,7 +39,7 @@ Back:
 
 - **Výpočetně intenzivní algoritmy** - čas procesoru strávený výpočtem nad daty je větší než čas nutný na přesun dat z paměti do CPU
 - **Pamětově intenzivní algoritmy** - čas procesoru strávený výpočtem nad daty je menší než čas nutný na přesun dat z paměti do CPU
-
+<!--ID: 1746599653035-->
 END
 
 ---
@@ -55,7 +55,7 @@ Back:
 - **HLP** (LINPACK)
 - **HPCG** - násobení obří řídké matice vektorem
 	- Např. předpovědi počasí je počítání řídkých matic
-
+<!--ID: 1746599653042-->
 END
 
 ---
@@ -69,7 +69,7 @@ Jaké jsou základní podmínky optimalizace sekvenčních kódů? (4)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313102743.png)
-
+<!--ID: 1746599653049-->
 END
 
 ---
@@ -90,7 +90,7 @@ Back:
 - Amdahlův zákon - po určitém počtu už nemá smysl přidávat vlákna
 - Neefektvní sdílení
 	- Falešné sdílení
-
+<!--ID: 1746599653056-->
 END
 
 ---
@@ -109,7 +109,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313103150.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653063-->
 END
 
 ---
@@ -127,7 +127,7 @@ Použít schedule static
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020250313103303.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1746599653071-->
 END
 
 ---
@@ -147,7 +147,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313103414.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653078-->
 END
 
 ---
@@ -166,7 +166,7 @@ Musíme "nafouknout" to pole tak, aby každý prvek odpovídal velikosti bloku k
 ![](../../Assets/Pasted%20image%2020250313103627.png)
 ![](../../Assets/Pasted%20image%2020250313103700.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653086-->
 END
 
 ---
@@ -180,7 +180,7 @@ Jaké jsou typicky příklady jednoduchých problémů co jsme brali.
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313103951.png)
-
+<!--ID: 1746599653092-->
 END
 
 ---
@@ -199,7 +199,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313103749.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653099-->
 END
 
 ---
@@ -213,7 +213,7 @@ Jak se dá zparalelizovat sdílený histogram?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313103815.png)
-
+<!--ID: 1746599653106-->
 END
 
 ---
@@ -228,7 +228,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313103854.png)
 ![](../../Assets/Pasted%20image%2020250313103905.png)
-
+<!--ID: 1746599653113-->
 END
 
 ---
@@ -242,7 +242,7 @@ Jak funguje sekvenční násobení polynomů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313104427.png)
-
+<!--ID: 1746599653120-->
 END
 
 ---
@@ -256,7 +256,7 @@ Jaké jsou možnosti paralelizace u násobení polynomů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313104526.png)
-
+<!--ID: 1746599653127-->
 END
 
 ---
@@ -271,6 +271,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313104607.png)
 ![](../../Assets/Pasted%20image%2020250313104629.png)
+<!--ID: 1746599653134-->
 END
 
 ---
@@ -286,7 +287,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313104644.png)
 ![](../../Assets/Pasted%20image%2020250313104655.png)
 ![](../../Assets/Pasted%20image%2020250313104706.png)
-
+<!--ID: 1746599653142-->
 END
 
 ---
@@ -304,7 +305,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313104801.png)
 ![](../../Assets/Pasted%20image%2020250313104810.png)
 ![](../../Assets/Pasted%20image%2020250313104820.png)
-
+<!--ID: 1746599653149-->
 END
 
 ---
@@ -318,7 +319,7 @@ Jak funguje sekvenční násobení matic?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313104839.png)
-
+<!--ID: 1746599653155-->
 END
 
 ---
@@ -333,7 +334,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313104859.png)
 
-
+<!--ID: 1746599653163-->
 END
 
 ---
@@ -351,7 +352,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313104959.png)
 ![](../../Assets/Pasted%20image%2020250313105009.png)
 
-
+<!--ID: 1746599653171-->
 END
 
 ---
@@ -367,7 +368,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313105019.png)
 ![](../../Assets/Pasted%20image%2020250313105106.png)
 
-
+<!--ID: 1746599653181-->
 END
 
 ---
@@ -386,7 +387,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313105149.png)
 ![](../../Assets/Pasted%20image%2020250313105201.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599653191-->
 END
 
 ---
@@ -400,7 +401,7 @@ Jak se dají násobit řídké matice?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313110032.png)
-
+<!--ID: 1746599653202-->
 END
 
 ---
@@ -414,7 +415,7 @@ Co je souřadnicov formát matic COO?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313110051.png)
-
+<!--ID: 1746599653211-->
 END
 
 ---
@@ -429,7 +430,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313110122.png)
 ![](../../Assets/Pasted%20image%2020250313110134.png)
-
+<!--ID: 1746599653219-->
 END
 
 ---
@@ -443,7 +444,7 @@ Jak funguje paralelní násobení matice v COO?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313110151.png)
-
+<!--ID: 1746599653226-->
 END
 
 ---
@@ -457,7 +458,7 @@ Co je formát CSR?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313110206.png)
-
+<!--ID: 1746599653234-->
 END
 
 ---
@@ -471,7 +472,7 @@ Jak funguje sekvenční násobení matic v CSR?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313110221.png)
-
+<!--ID: 1746599653242-->
 END
 
 ---
@@ -489,7 +490,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313110420.png)
 ![](../../Assets/Pasted%20image%2020250313110538.png)
 ![](../../Assets/Pasted%20image%2020250313110629.png)
-
+<!--ID: 1746599653249-->
 END
 
 ---
@@ -504,7 +505,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313110657.png)
 ![](../../Assets/Pasted%20image%2020250313110713.png)
-
+<!--ID: 1746599653256-->
 END
 
 ---
@@ -519,7 +520,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313110920.png)
 ![](../../Assets/Pasted%20image%2020250313111507.png)
-
+<!--ID: 1746599653263-->
 END
 
 ---
@@ -534,7 +535,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313110930.png)
 ![](../../Assets/Pasted%20image%2020250313111507.png)
-
+<!--ID: 1746599653271-->
 END
 
 ---
@@ -562,7 +563,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313111059.png)
 ![](../../Assets/Pasted%20image%2020250313111507.png)
-
+<!--ID: 1746599653278-->
 END
 
 ---
@@ -579,7 +580,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313111131.png)
 ![](../../Assets/Pasted%20image%2020250313111507.png)
-
+<!--ID: 1746599653285-->
 END
 
 ---
@@ -594,7 +595,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313111209.png)
 ![](../../Assets/Pasted%20image%2020250313111507.png)
-
+<!--ID: 1746599653292-->
 END
 
 ---

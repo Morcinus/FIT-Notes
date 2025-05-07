@@ -22,7 +22,7 @@ Problém ověřování terminace (zastavení prorgamu).
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250409110534.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599654720-->
 END
 
 ---
@@ -41,7 +41,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250409110616.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599654728-->
 END
 
 ---
@@ -57,7 +57,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250409110735.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599654735-->
 END
 
 ---
@@ -80,7 +80,7 @@ Prostě relace, kde mám seřazená čísla a není nekonečná
 ![](../../Assets/Pasted%20image%2020250409110825.png)![](../../Assets/Pasted%20image%2020250409110835.png)
 
 <!-- ExampleEnd -->
-
+<!--ID: 1746599654742-->
 END
 
 ---
@@ -94,7 +94,7 @@ Kdy je prorgam terminující ve vztahu ke smyčkám?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409110859.png)
-
+<!--ID: 1746599654750-->
 END
 
 ---
@@ -109,7 +109,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250409110951.png)
 ![](../../Assets/Pasted%20image%2020250409111002.png)
-
+<!--ID: 1746599654758-->
 END
 
 ---
@@ -123,7 +123,7 @@ Jaká je obecná metoda důkazu terminace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111129.png)
-
+<!--ID: 1746599654766-->
 END
 
 ---
@@ -137,7 +137,7 @@ Jak se dá formulovat terminace v temporální logice LTL?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111206.png)
-
+<!--ID: 1746599654772-->
 END
 
 ---
@@ -151,7 +151,7 @@ Jak souvisí složitost algoritmů se smyčkama?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111251.png)
-
+<!--ID: 1746599654785-->
 END
 
 ---
@@ -165,7 +165,7 @@ Jak se řeší terminace rekurze?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111322.png)
-
+<!--ID: 1746599654793-->
 END
 
 ---
@@ -179,7 +179,7 @@ Dá se automatizovat zjištění rozhodnutelnosti?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111515.png)
-
+<!--ID: 1746599654800-->
 END
 
 ---
@@ -195,7 +195,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250409111554.png)
 ![](../../Assets/Pasted%20image%2020250409111606.png)
 ![](../../Assets/Pasted%20image%2020250409111629.png)
-
+<!--ID: 1746599654806-->
 END
 
 ---
@@ -211,7 +211,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250409111725.png)
 ![](../../Assets/Pasted%20image%2020250409111736.png)
 
-
+<!--ID: 1746599654814-->
 END
 
 ---
@@ -225,7 +225,7 @@ K čemu jsou dobré varianty?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111757.png)
-
+<!--ID: 1746599654822-->
 END
 
 ---
@@ -239,7 +239,7 @@ Pomocí čeho se dají ověřit podmínky během průběhu programu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250409111816.png)
-
+<!--ID: 1746599654828-->
 END
 
 ---
@@ -255,7 +255,7 @@ Back:
 Dá se to **částečně automatizovat**.
 
 ![](../../Assets/Pasted%20image%2020250409111839.png)
-
+<!--ID: 1746599654834-->
 END
 
 ---

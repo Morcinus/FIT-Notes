@@ -16,7 +16,7 @@ Jak vypadá tým NS systému?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250415161926.png)
-
+<!--ID: 1746599654057-->
 END
 
 ---
@@ -32,7 +32,7 @@ Back:
 Agile nebo iterativní
 
 Rozdíl je, že analyst má také jako práci vytvářet Models a Expanders
-
+<!--ID: 1746599654073-->
 END
 
 ---
@@ -47,7 +47,7 @@ Back:
 
 - NS Modeler - umožňuje modelovat věci vizuálně
 - NS Prime Radiant - "meta-aplikace", která umožňuje vytvářet kód z modelů
-
+<!--ID: 1746599654083-->
 END
 
 ---
@@ -73,7 +73,7 @@ Back:
 		1. Harvesters collectnou custom kód
 		2. Přegeneruje se skeleton
 		3. Injectne se custom kód zpět
-
+<!--ID: 1746599654091-->
 END
 
 ---
@@ -87,7 +87,7 @@ Jaké metriky se průběžně sledují v NS systému?
 Back:
 
 Počet custom craftings - pokud to roste, znamená to, že si dělám moc custom kódu a měl bych spíš přidat nějaký expanders atd.
-
+<!--ID: 1746599654100-->
 END
 
 ---

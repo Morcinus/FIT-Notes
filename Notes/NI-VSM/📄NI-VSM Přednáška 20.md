@@ -21,7 +21,7 @@ Nezapomenout na nezávislost - je to důležitý!
 ![](../../Assets/Pasted%20image%2020250423090622.png)
 
 Pozn. takhle to chtějí popsat u zkoušky a u státnic.
-
+<!--ID: 1746599649092-->
 END
 
 ---
@@ -36,7 +36,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250423090638.png)
 
-
+<!--ID: 1746599649104-->
 END
 
 ---
@@ -54,7 +54,7 @@ Back:
 Je to jakoby hustota obsluhy.
 
 Když je hustota 1, tak to je přesně na hranici toho, že to ten systém stíhá. Když to bude víc, tak to přehltí systém. (Když jsem na 1, tak ten systém bude hodně citlivý na nějaký mini přetížení).
-
+<!--ID: 1746599649114-->
 END
 
 ---
@@ -72,7 +72,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250423090724.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599649122-->
 END
 
 ---
@@ -86,7 +86,7 @@ Jak vypadá systém $M|M|1$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423090738.png)
-
+<!--ID: 1746599649130-->
 END
 
 ---
@@ -105,7 +105,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250423090836.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599649138-->
 END
 
 ---
@@ -121,7 +121,7 @@ Na tohle se nás prý můžou zeptat (ty střední hodnoty)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423090859.png)
-
+<!--ID: 1746599649145-->
 END
 
 ---
@@ -139,7 +139,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250423090929.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649152-->
 END
 
 ---
@@ -153,7 +153,7 @@ Pozorování: Podmíněné rozdělení doby ve frontě $W$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423090951.png)
-
+<!--ID: 1746599649160-->
 END
 
 ---
@@ -167,7 +167,7 @@ Jak vypadá systém $M|M|\infty$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423091014.png)
-
+<!--ID: 1746599649167-->
 END
 
 ---
@@ -185,7 +185,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250423091111.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599649174-->
 END
 
 ---
@@ -199,7 +199,7 @@ Jak vypadá systém $M|M|c$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423091133.png)
-
+<!--ID: 1746599649182-->
 END
 
 ---
@@ -213,7 +213,7 @@ Pozorování: Jak vypadá stacionární rozdělení systému $M|M|c$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423091207.png)
-
+<!--ID: 1746599649190-->
 END
 
 ---
@@ -239,7 +239,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250423091325.png)
 <!-- ProofEnd -->
 
-
+<!--ID: 1746599649198-->
 END
 
 ---
@@ -253,7 +253,7 @@ Jak vypadá systém $G|G|1$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423091348.png)
-
+<!--ID: 1746599649205-->
 END
 
 ---

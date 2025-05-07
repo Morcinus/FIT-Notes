@@ -26,7 +26,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307125655.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599650130-->
 END
 
 ---
@@ -42,7 +42,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307125549.png)
 
 b je báze toho logaritmu
-
+<!--ID: 1746599650137-->
 END
 
 ---
@@ -56,7 +56,7 @@ Definice: míra neurčitosti
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125612.png)
-
+<!--ID: 1746599650144-->
 END
 
 ---
@@ -70,7 +70,7 @@ Lemma: nezápornost entropie
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125633.png)
-
+<!--ID: 1746599650151-->
 END
 
 ---
@@ -89,7 +89,7 @@ Back:
 Je to vyloženě to samý jako u normální entropie, jen prostě se pohybuju na vícerozměrném prostoru (mám více náhodných veličin).
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1746599650158-->
 END
 
 ---
@@ -108,7 +108,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307125749.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599650165-->
 END
 
 ---
@@ -127,7 +127,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307125812.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599650172-->
 END
 
 ---
@@ -149,7 +149,7 @@ Tzn.  $D(p||q) \neq D(q||p)$
 Mám 2 rozdělení na jedné možině p a q. Díky tomuto můžu zkoumat rozdíly mezi těmi rozděleními
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1746599650179-->
 END
 
 ---
@@ -168,7 +168,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250307125845.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599650186-->
 END
 
 ---
@@ -183,7 +183,7 @@ Věta:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125918.png)
-
+<!--ID: 1746599650193-->
 END
 
 ---
@@ -198,7 +198,7 @@ Věta:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125954.png)
-
+<!--ID: 1746599650200-->
 END
 
 ---
@@ -213,7 +213,7 @@ Věta:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130034.png)
-
+<!--ID: 1746599650206-->
 END
 
 ---
@@ -228,7 +228,7 @@ Věta:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130048.png)
-
+<!--ID: 1746599650213-->
 END
 
 ---
@@ -242,7 +242,7 @@ Věta: Jensenova nerovnost
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130116.png)
-
+<!--ID: 1746599650220-->
 END
 
 ---

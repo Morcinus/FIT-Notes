@@ -16,7 +16,7 @@ Co je koncový stav, přípustný mezistav a řešení (přípustný koncový st
 Back:
 
 ![](../../Assets/Pasted%20image%2020250308143014.png)
-
+<!--ID: 1746599653886-->
 END
 
 ---
@@ -31,7 +31,7 @@ Back:
 
 - **BFS** - fronta (FIFO)
 - **DFS** - zásobník (LIFO)
-
+<!--ID: 1746599653895-->
 END
 
 ---
@@ -45,7 +45,7 @@ Jaké jsou **3** typy **Prohledávání kombinatorického stavového prostoru**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250308143215.png)
-
+<!--ID: 1746599653903-->
 END
 
 ---
@@ -64,7 +64,7 @@ Back:
 2) Jestli musíme prostor procházet celý
 3) Jestli je hloubka prohledávaného prostoru konečná nebo nekonečná
 4) Co si v zásobníku potřebujeme pamatovat, aby se to dalo paralelizovat
-
+<!--ID: 1746599653911-->
 END
 
 ---
@@ -84,7 +84,7 @@ Cílem je nalézt koncový stav, který vyhovuje daným požadavkům.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250308143747.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599653918-->
 END
 
 ---
@@ -100,7 +100,7 @@ Back:
 Je to jako SB-DFS, ale přidáme k tomu cenovou funkci. Díky tomu můžeme agresivněji prořezávat.
 
 ![](../../Assets/Pasted%20image%2020250308143825.png)
-
+<!--ID: 1746599653926-->
 END
 
 ---
@@ -116,7 +116,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250308144057.png)
 ![](../../Assets/Pasted%20image%2020250308144110.png)
 ![](../../Assets/Pasted%20image%2020250308144117.png)
-
+<!--ID: 1746599653935-->
 END
 
 ---
@@ -134,7 +134,7 @@ Back:
 
 
 ![](../../Assets/Pasted%20image%2020250308145320.png)
-
+<!--ID: 1746599653943-->
 END
 
 ---
@@ -152,6 +152,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250308145522.png)
 ![](../../Assets/Pasted%20image%2020250308145531.png)
+<!--ID: 1746599653950-->
 END
 
 ---
@@ -165,7 +166,7 @@ Jak se prohledává cyklický stavový prostor?
 Back:
 
 **Iterativním prohlubováním** - PP-DFS
-
+<!--ID: 1746599653957-->
 END
 
 ---
@@ -180,6 +181,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250308145611.png)
 ![](../../Assets/Pasted%20image%2020250308145622.png)
+<!--ID: 1746599653963-->
 END
 
 ---
@@ -199,7 +201,7 @@ Známe cílový stav, ale nevíme jak se tam dostat a ten prostor je tak velký,
 ![](../../Assets/Pasted%20image%2020250308150407.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653969-->
 END
 
 ---
@@ -215,7 +217,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250308151839.png)
 
 Červené je to minimum, co si musím v zásobníku pamatovat. Ty modré prvky jsou optional, ale dělá se to.
-
+<!--ID: 1746599653976-->
 END
 
 ---
@@ -238,7 +240,7 @@ Uděláme BFS v masteru, pomocí kterého vygenerujeme nějaké počáteční me
 ![](../../Assets/Pasted%20image%2020250308152649.png)
 ![](../../Assets/Pasted%20image%2020250308152810.png)
 
-
+<!--ID: 1746599653983-->
 END
 
 ---
@@ -252,7 +254,7 @@ Jaké je anomální chování v případě FSB-DFS PKSP?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250308152901.png)
-
+<!--ID: 1746599653989-->
 END
 
 ---
@@ -267,7 +269,7 @@ Back:
 
 - Dynamické vyvažování zátěže
 - Dělení zásobníku
-
+<!--ID: 1746599653996-->
 END
 
 ---
@@ -281,7 +283,7 @@ Jak funguje **Dynamické vyvažování zátěže**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250308153013.png)
-
+<!--ID: 1746599654003-->
 END
 
 ---
@@ -297,7 +299,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250308153038.png)
 
 > "Tak jsme skončili dřív. Můžete jít na pizzu." :D - Tvrdík
-
+<!--ID: 1746599654011-->
 END
 
 ---
@@ -321,7 +323,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250308154033.png)
 ... kdyžtak další slidy jsou v prezentaci
 <!-- ExampleEnd -->
-
+<!--ID: 1746599654018-->
 END
 
 ---

@@ -16,7 +16,7 @@ Proč zatím nefunguje plně automatické generování kódu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250415155009.png)
-
+<!--ID: 1746599654030-->
 END
 
 ---
@@ -44,7 +44,7 @@ Tzn. cílem je spravovat "meta programming" - např. modelování modelů atd v 
 ![](../../Assets/Pasted%20image%2020250415155306.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599654036-->
 END
 
 ---
@@ -69,7 +69,7 @@ Back:
 Další krok je, že můžeme používat model a metamodel dohromady a díky tomu můžeme tu meta-aplikaci samotnou neustále přegenerovávat a vylepšovat ji.
 
 ![](../../Assets/Pasted%20image%2020250415160008.png)
-
+<!--ID: 1746599654044-->
 END
 
 ---

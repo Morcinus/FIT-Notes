@@ -19,7 +19,7 @@ Back:
 To že ta část vpravo je pravdivá
 
 ![](../../Assets/Pasted%20image%2020250226111614.png)
-
+<!--ID: 1746599655294-->
 END
 
 ---

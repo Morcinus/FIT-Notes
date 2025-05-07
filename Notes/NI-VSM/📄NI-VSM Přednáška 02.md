@@ -28,7 +28,7 @@ Pak typicky hledáme **vzor** té množiny $B$, tedy jevy (studenty), kteří ma
 
 ![](../../Assets/Pasted%20image%2020250220112937.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1746599650480-->
 END
 
 ---
@@ -42,7 +42,7 @@ Definice: **Střední hodnota** diskrétní náhodné veličiny $X$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220114452.png)
-
+<!--ID: 1746599650487-->
 END
 
 ---
@@ -56,7 +56,7 @@ Definice: **Střední hodnota** spojité náhodné veličiny
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220114515.png)
-
+<!--ID: 1746599650494-->
 END
 
 ---
@@ -70,7 +70,7 @@ Definice: **Diskrétní rozdělení**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220114611.png)
-
+<!--ID: 1746599650501-->
 END
 
 ---
@@ -85,7 +85,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250220114628.png)
 ![](../../Assets/Pasted%20image%2020250220114632.png)
-
+<!--ID: 1746599650509-->
 END
 
 ---
@@ -106,7 +106,7 @@ Back:
 3) Prostě když mám konstantu, tak její střední hodnota je prostě ta konstanta
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1746599650515-->
 END
 
 ---
@@ -125,7 +125,7 @@ $$\text{var } X = E(X-EX)^2=EX^2-(EX)^2$$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220114937.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599650522-->
 END
 
 ---
@@ -139,7 +139,7 @@ Definice: **Směrodatná odchylka**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220114951.png)
-
+<!--ID: 1746599650529-->
 END
 
 ---
@@ -154,7 +154,7 @@ $$\text{var}(aX+b)= \ ???$$
 Back:
 
 $$\text{var}(aX+b)= \ a^2\text{var}X$$
-
+<!--ID: 1746599650537-->
 END
 
 ---
@@ -168,7 +168,7 @@ Jaký rozptyl má náhodná veličina rovna konstantě $c \in \mathbb{R}$
 Back:
 
 $$\text{var }c= 0$$
-
+<!--ID: 1746599650544-->
 END
 
 ---
@@ -182,7 +182,7 @@ Definice: $k$-tý moment
 Back:
 
 $$\mu_k = EX^k$$
-
+<!--ID: 1746599650551-->
 END
 
 ---
@@ -196,7 +196,7 @@ Definice: $k$-tý centrovaný moment
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220115502.png)
-
+<!--ID: 1746599650558-->
 END
 
 ---
@@ -210,7 +210,7 @@ Definice: koeficient šikmosti
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220115528.png)
-
+<!--ID: 1746599650565-->
 END
 
 ---
@@ -225,7 +225,7 @@ Definice: koeficient špičatosti
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220115543.png)
-
+<!--ID: 1746599650572-->
 END
 
 ---
@@ -239,7 +239,7 @@ Definice: $\alpha$-kvantil
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220115558.png)
-
+<!--ID: 1746599650580-->
 END
 
 ---
@@ -255,7 +255,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220115621.png)
 
 kde $q$ je kvantil.
-
+<!--ID: 1746599650588-->
 END
 
 ---
@@ -281,7 +281,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220115957.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599650597-->
 END
 
 ---
@@ -303,7 +303,7 @@ Dělám několik pokusů (např. 20x hodím mincí), Bernoulliho rozdělení mi 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220120027.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599650607-->
 END
 
 ---
@@ -317,7 +317,7 @@ Jaká je střední hodnota **Bernoulliho rozdělení**?
 Back:
 
 $$EX = p$$
-
+<!--ID: 1746599650615-->
 END
 
 ---
@@ -331,7 +331,7 @@ Jaký je rozptyl **Bernoulliho rozdělení**?
 Back:
 
 $$varX=p(1-p)$$
-
+<!--ID: 1746599650622-->
 END
 
 ---
@@ -354,7 +354,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220120113.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599650631-->
 END
 
 ---
@@ -372,7 +372,7 @@ Dělám několik pokusů (např. 20x hodím mincí). Binomické rozdělení mi �
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220120134.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599650639-->
 END
 
 ---
@@ -386,7 +386,7 @@ Jaká je střední hodnota **Binomického rozdělení**?
 Back:
 
 $$EX = np$$
-
+<!--ID: 1746599650650-->
 END
 
 ---
@@ -400,7 +400,7 @@ Jaký je rozptyl **Binomického rozdělení**?
 Back:
 
 $$varX=np(1-p)$$
-
+<!--ID: 1746599650660-->
 END
 
 ---
@@ -423,7 +423,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220120236.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599650670-->
 END
 
 ---
@@ -441,7 +441,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220120256.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599650679-->
 END
 
 ---
@@ -455,7 +455,7 @@ Jaká je střední hodnota **Geometrického rozdělení**?
 Back:
 
 $$EX = \frac{1}{p}$$
-
+<!--ID: 1746599650688-->
 END
 
 ---
@@ -469,7 +469,7 @@ Jaký je rozptyl **Geometrického rozdělení**?
 Back:
 
 $$varX=\frac{1-p}{p^2}$$
-
+<!--ID: 1746599650698-->
 END
 
 ---
@@ -491,7 +491,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220120403.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599650706-->
 END
 
 ---
@@ -505,7 +505,7 @@ Jaká je střední hodnota **Poissonovo rozdělení**?
 Back:
 
 $$EX = \lambda$$
-
+<!--ID: 1746599650714-->
 END
 
 ---
@@ -519,7 +519,7 @@ Jaký je rozptyl **Poissonovo rozdělení**?
 Back:
 
 $$varX=\lambda$$
-
+<!--ID: 1746599650722-->
 END
 
 ---
@@ -548,7 +548,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220120511.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599650732-->
 END
 
 ---
@@ -562,7 +562,7 @@ Jaká je střední hodnota **rovnoměrného rozdělení**?
 Back:
 
 $$EX = \frac{a+b}{2}$$
-
+<!--ID: 1746599650768-->
 END
 
 ---
@@ -576,7 +576,7 @@ Jaký je rozptyl **rovnoměrného rozdělení**?
 Back:
 
 $$varX=\frac{(b-a)^2}{12}$$
-
+<!--ID: 1746599650788-->
 END
 
 ---
@@ -602,7 +602,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220120605.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599650802-->
 END
 
 ---
@@ -618,7 +618,7 @@ Back:
 Např. jak dlouho nám pravděpodobně vydží nějaký přístroj funkční
 
 ![](../../Assets/Pasted%20image%2020250220120605.png)
-
+<!--ID: 1746599650811-->
 END
 
 ---
@@ -632,7 +632,7 @@ Jaká je střední hodnota **exponenciálního rozdělení**?
 Back:
 
 $$EX=\frac{1}{\lambda}$$
-
+<!--ID: 1746599650820-->
 END
 
 ---
@@ -646,7 +646,7 @@ Jaký je rozptyl **exponenciálního rozdělení**?
 Back:
 
 $$varX=\frac{1}{\lambda^2}$$
-
+<!--ID: 1746599650829-->
 END
 
 ---
@@ -675,7 +675,7 @@ _Pozn. tu hustotu $f_X(x)$ si pamatovat nemusíme, prý nám ten vzoreček v pí
 ![](../../Assets/Pasted%20image%2020250220120737.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599650836-->
 END
 
 ---
@@ -689,7 +689,7 @@ Jak se počítá distribuční funkce u Gaussova rozdělení?
 Back:
 
 Ta hustota se nedá zintegrovat => Distribuční funkce se značí $\Phi$ a její hodnoty najdeme v tabulkách.
-
+<!--ID: 1746599650845-->
 END
 
 ---
@@ -703,7 +703,7 @@ Jaký je rozptyl **Gaussova rozdělení**?
 Back:
 
 $$varX=\sigma^2$$
-
+<!--ID: 1746599650852-->
 END
 
 ---
@@ -730,7 +730,7 @@ Je to jakoby takový "zobecněný faktoriál"
 ![](../../Assets/Pasted%20image%2020250220120918.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599650860-->
 END
 
 ---
@@ -750,7 +750,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220121330.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599650868-->
 END
 
 ---
@@ -764,7 +764,7 @@ FIT-Card
 Back:
 
 $$EX = \frac{p}{a}$$
-
+<!--ID: 1746599650878-->
 END
 
 ---
@@ -778,7 +778,7 @@ FIT-Card
 Back:
 
 $$\text{var} X = \frac{p}{a^2}$$
-
+<!--ID: 1746599650886-->
 END
 
 ---
@@ -792,7 +792,7 @@ Jaké je gamma rozdělení pro $a = \lambda$ a $p=1$?
 Back:
 
 Je to **exponenciální rozdělení**.
-
+<!--ID: 1746599650895-->
 END
 
 ---
@@ -809,7 +809,7 @@ Dostanu gamma rozdělení s celočíselnou hodnotou $n$:
 ![](../../Assets/Pasted%20image%2020250220121222.png)
 
 $p$čko ($n$) mi určuje, kolik exponenciálních rozdělení jsem sečetl
-
+<!--ID: 1746599650903-->
 END
 
 ---
@@ -830,7 +830,7 @@ Je to gamma rozdělení s parametry s $a=\frac{1}{2}$ a $p=\frac{n}{2}$.
 ![](../../Assets/Pasted%20image%2020250220122045.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599650911-->
 END
 
 ---
@@ -844,7 +844,7 @@ FIT-Card
 Back:
 
 $$EX = n$$
-
+<!--ID: 1746599650925-->
 END
 
 ---
@@ -858,7 +858,7 @@ FIT-Card
 Back:
 
 $$\text{var} X = 2n$$
-
+<!--ID: 1746599650936-->
 END
 
 ---
@@ -877,7 +877,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220122152.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599650950-->
 END
 
 ---
@@ -891,7 +891,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220122122.png)
-
+<!--ID: 1746599650964-->
 END
 
 ---
@@ -905,7 +905,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220122137.png)
-
+<!--ID: 1746599650972-->
 END
 
 ---
@@ -926,7 +926,7 @@ Back:
 Prostě naskládám několik náhodných veličin (např. výška studenta, barva očí atd.) do vektoru.
 <!-- ExplanationEnd -->
 
-
+<!--ID: 1746599650984-->
 END
 
 ---
@@ -940,7 +940,7 @@ Definice: **Náhodná matice**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220122425.png)
-
+<!--ID: 1746599650998-->
 END
 
 ---
@@ -954,7 +954,7 @@ Definice: **Sdružená distribuční funkce**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220122725.png)
-
+<!--ID: 1746599651007-->
 END
 
 ---
@@ -973,7 +973,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220123316.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599651019-->
 END
 
 ---
@@ -987,7 +987,7 @@ Definice: **Distribuční funkce** náhodného vektoru $X$ se sdruženým **disk
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220123257.png)
-
+<!--ID: 1746599651048-->
 END
 
 ---
@@ -1010,7 +1010,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250220125134.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599651059-->
 END
 
 ---
@@ -1026,7 +1026,7 @@ Vlastnost sdruženého spojitého rozdělení:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220123454.png)
-
+<!--ID: 1746599651079-->
 END
 
 ---
@@ -1040,7 +1040,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220123513.png)
-
+<!--ID: 1746599651093-->
 END
 
 ---
@@ -1057,7 +1057,7 @@ Kde $B$ je Borelovská množina ("hezká brambora" podle Hrabáka :D)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220124555.png)
-
+<!--ID: 1746599651107-->
 END
 
 ---
@@ -1082,7 +1082,7 @@ Např. kdyby ta množina $B$ byla přímka a měl bych dvoudimenzionální prost
 
 ![](../../Assets/Pasted%20image%2020250220125001.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1746599651120-->
 END
 
 ---
@@ -1097,7 +1097,7 @@ Co platí pro:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220125117.png)
-
+<!--ID: 1746599651133-->
 END
 
 ---
@@ -1122,7 +1122,7 @@ Marginální rozdělení nám jakoby říká souvislost těch dvou náhodných v
 ![](../../Assets/Pasted%20image%2020250220125228.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599651141-->
 END
 
 ---
@@ -1136,7 +1136,7 @@ Definice: **Marginální rozdělení náhodného vektoru je diskrétní**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220125351.png)
-
+<!--ID: 1746599651152-->
 END
 
 ---
@@ -1151,7 +1151,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250220125356.png)
 ![](../../Assets/Pasted%20image%2020250220125401.png)
-
+<!--ID: 1746599651164-->
 END
 
 ---
@@ -1165,7 +1165,7 @@ Definice: **Marginální rozdělení náhodného vektoru je spojité**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220125419.png)
-
+<!--ID: 1746599651171-->
 END
 
 ---
@@ -1194,7 +1194,7 @@ Definice: **nezávislé náhodné veličiny**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250220125458.png)
-
+<!--ID: 1746599651185-->
 END
 
 ---

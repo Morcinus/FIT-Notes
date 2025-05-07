@@ -30,7 +30,7 @@ Nebo když chci udělat malou změnu v softwarovém systém, tak ho to může to
 
 Příklad u softwaru:
 ![](../../Assets/Pasted%20image%2020250415140935.png)
-
+<!--ID: 1746599654268-->
 END
 
 ---
@@ -50,7 +50,7 @@ Máme:
 Koncepty jsou jakoby požadavky na ten systém. Když se mi změní nějaký ten koncept (poždavek), tak se může stát, že je třeba změnit hromadu dalších věcí
 
 ![](../../Assets/Pasted%20image%2020250415140907.png)
-
+<!--ID: 1746599654276-->
 END
 
 ---

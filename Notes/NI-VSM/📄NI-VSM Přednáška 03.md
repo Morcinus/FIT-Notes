@@ -15,7 +15,7 @@ Věta: **diskrétní náhodné veličiny jsou nezávislé** $\Leftrightarrow$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102407.png)
-
+<!--ID: 1746599650228-->
 END
 
 ---
@@ -29,7 +29,7 @@ Věta: **náhodné veličiny se druženým spojitým rozdělením jsou nezávisl
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102402.png)
-
+<!--ID: 1746599650235-->
 END
 
 ---
@@ -43,7 +43,7 @@ Definice: diskrétní konvoluce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102443.png)
-
+<!--ID: 1746599650245-->
 END
 
 ---
@@ -59,7 +59,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304102451.png)
 
 ![](../../Assets/Pasted%20image%2020250304112121.png)
-
+<!--ID: 1746599650252-->
 END
 
 ---
@@ -75,7 +75,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304102527.png)
 
 Např. když mám náhodné veličiny výšku a váhu, tak můžu spočíst BMI index. Potom budu zkoumat rozdělení toho BMI indexu - například tu střední hodnotu.
-
+<!--ID: 1746599650260-->
 END
 
 ---
@@ -90,6 +90,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250304102543.png)
 ![](../../Assets/Pasted%20image%2020250304102547.png)
+<!--ID: 1746599650267-->
 END
 
 ---
@@ -104,7 +105,7 @@ Co platí pro:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102617.png)
-
+<!--ID: 1746599650274-->
 END
 
 ---
@@ -120,7 +121,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304102634.png)
 
 Znaménko kovariance určuje, jeslti vztah těch náhodných veličin je "čím víc, tím míň" nebo "čím víc, tím víc"
-
+<!--ID: 1746599650281-->
 END
 
 ---
@@ -137,7 +138,7 @@ Back:
 
 - Když to je 0, tak jsou nekorelované.
 - Je to vždy mezi $-1$ a $1$
-
+<!--ID: 1746599650288-->
 END
 
 ---
@@ -151,7 +152,7 @@ Definice: **nekorelované** náhodné veličiny
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102701.png)
-
+<!--ID: 1746599650295-->
 END
 
 ---
@@ -167,7 +168,7 @@ Nechť $X$ a $Y$ jsou náhodné veličiny s konečnými druhými momenty. Potom 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102805.png)
-
+<!--ID: 1746599650302-->
 END
 
 ---
@@ -183,7 +184,7 @@ Nechť $X$ a $Y$ jsou náhodné veličiny s konečnými druhými momenty. Potom 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102817.png)
-
+<!--ID: 1746599650310-->
 END
 
 ---
@@ -200,7 +201,7 @@ Nechť $X$ a $Y$ jsou náhodné veličiny s konečnými druhými momenty. Potom 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102825.png)
-
+<!--ID: 1746599650317-->
 END
 
 ---
@@ -219,7 +220,7 @@ Back:
 Prostě to je vždy mezi -1 a 1
 
 ![](../../Assets/Pasted%20image%2020250304102838.png)
-
+<!--ID: 1746599650325-->
 END
 
 ---
@@ -240,7 +241,7 @@ Back:
 Toto je prý důležitý.
 
 Např. když měřím teplotu celsiích a změnu délky v metrech, tak pokud bych přecházel ke fahrenheitům a stopám, tak jen u obou veličin uděláme lineární transformaci a ten korelační koeficient zůstane stejný.
-
+<!--ID: 1746599650331-->
 END
 
 ---
@@ -258,7 +259,7 @@ Nechť $X$ a $Y$ jsou náhodné veličiny s konečnými druhými momenty. Potom 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304102921.png)
-
+<!--ID: 1746599650338-->
 END
 
 ---
@@ -280,7 +281,7 @@ Pozor: Korelace odhaduje zejména **lineární závislost**. Může tam ale být
 Kdyby ta závislost byla kvadratická, tak korelace mi řekne, že mezi tím není závislost.
 ![](../../Assets/Pasted%20image%2020250304113520.png)
 
-
+<!--ID: 1746599650345-->
 END
 
 ---
@@ -295,7 +296,7 @@ Co platí pro:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103028.png)
-
+<!--ID: 1746599650352-->
 END
 
 ---
@@ -312,7 +313,7 @@ Pokud $X$ a $Y$ jsou nekorelované
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103052.png)
-
+<!--ID: 1746599650359-->
 END
 
 ---
@@ -328,7 +329,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304103118.png)
 
 Např. zkoumám váhu studentů, kteří mají 180 cm.
-
+<!--ID: 1746599650366-->
 END
 
 ---
@@ -346,7 +347,7 @@ Průměr je odhadem střední hodnoty.
 Pokud vezmeme všechny jedince, tak teprve potom dostanu střední hodnotu.
 
 Např. měřím výšku lidí na ČVUTu (získám průměr) to je pouze odhad. Pokud bych změřil všechny lidi, tak teprve získám střední hodnotu.
-
+<!--ID: 1746599650373-->
 END
 
 ---
@@ -374,7 +375,7 @@ Definice: **Podmíněná střední hodnota** pro **diskrétní** náhodné veli�
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103206.png)
-
+<!--ID: 1746599650382-->
 END
 
 ---
@@ -388,7 +389,7 @@ Definice: **Podmíněná hustota**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103218.png)
-
+<!--ID: 1746599650388-->
 END
 
 ---
@@ -404,7 +405,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304103255.png)
 
 ![](../../Assets/Pasted%20image%2020250304103307.png)
-
+<!--ID: 1746599650396-->
 END
 
 ---
@@ -420,7 +421,7 @@ Definice: **Střední hodnota náhodného vektoru $X$**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103347.png)
-
+<!--ID: 1746599650402-->
 END
 
 ---
@@ -434,7 +435,7 @@ Definice: **střední hodnota náhodné matice $Z$**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103403.png)
-
+<!--ID: 1746599650409-->
 END
 
 ---
@@ -456,7 +457,7 @@ Jen tam jednoduše počítám lineární transformaci na prvcích té matice.
 ![](../../Assets/Pasted%20image%2020250304124114.png)
 <!-- ProofEnd -->
 
-
+<!--ID: 1746599650416-->
 END
 
 ---
@@ -474,7 +475,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250304103458.png)
 
 K čemu jsou tyhle transformace
-
+<!--ID: 1746599650424-->
 END
 
 ---
@@ -492,7 +493,7 @@ Back:
 Konečné druhé momenty = umím najít střední hodnotu $X_i^2$
 
 ![](../../Assets/Pasted%20image%2020250304103531.png)
-
+<!--ID: 1746599650431-->
 END
 
 ---
@@ -508,7 +509,7 @@ Back:
 Na diagonále jsou **variance**, mimo diagonálu jsou **kovariance**.
 
 ![](../../Assets/Pasted%20image%2020250304124723.png)
-
+<!--ID: 1746599650439-->
 END
 
 ---
@@ -524,7 +525,7 @@ Věta: čemu se rovná variační matice náhodného vektoru $X$?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103603.png)
-
+<!--ID: 1746599650447-->
 END
 
 ---
@@ -546,7 +547,7 @@ Je to jako ekvivalentní tohoto v jednorozměrném prostoru:
 ![](../../Assets/Pasted%20image%2020250304130235.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599650454-->
 END
 
 ---
@@ -566,7 +567,7 @@ Back:
 <!-- DetailInfoEnd -->
 
 Pozitivní semidefinitnost mi říká, že se s pravděpodobností 1 trefím do nějaké přímky (tzn do nějaké množiny o dimenzi míň).
-
+<!--ID: 1746599650462-->
 END
 
 ---
@@ -579,7 +580,7 @@ Variační matice je symetrická právě když ...
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103837.png)
-
+<!--ID: 1746599650469-->
 END
 
 ---

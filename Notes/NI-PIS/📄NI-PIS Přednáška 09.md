@@ -19,7 +19,7 @@ Back:
 - **Flexibility** - 
 - **Resources** - 
 - **Control** - musím omezit, kdo může přistupovat k jakým datům, 
-
+<!--ID: 1746599651717-->
 END
 
 ---
@@ -36,7 +36,7 @@ Back:
 2. Namapovat data na fyzická datová uložiště
 3. Propojení dat s obchodními procesy
 4. Propojit data na organizační strukturu?
-
+<!--ID: 1746599651724-->
 END
 
 ---
@@ -50,7 +50,7 @@ Co je data image?
 Back:
 
 Trasování odkud kam data ve firmě proudí
-
+<!--ID: 1746599651734-->
 END
 
 ---
@@ -69,7 +69,7 @@ Back:
 3. **Logický datový model** - zachycuje datové prvky dle zvolené technologie
 	- Typicky se člověk snaží identifikovat entity (v bankách typicky kontrakty a osoby - dodavatelé, bankéři,...)
 4. **Fyzický datový model** - návrh konkrétních tabulek v databázi atd. 
-
+<!--ID: 1746599651741-->
 END
 
 ---
@@ -87,7 +87,7 @@ Např. data o zákazníkovi jsou rozházená v různých systémech a může bý
 Proto se dělá to, že se udělá "golden record" - vytváří se jeden ucelený záznam např. v separátní databázi nebo v datových skladech
 
 Tohle je obecně téma toho master data managementu
-
+<!--ID: 1746599651750-->
 END
 
 ---

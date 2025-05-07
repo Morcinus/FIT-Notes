@@ -20,7 +20,7 @@ Tool, který mi umožňuje spravovat Mirrors, Skeletons, Utilities a Craftings
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250415152940.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599654114-->
 END
 
 ---
@@ -45,7 +45,7 @@ Mirrors - Task
 Mirrors - Flow
 - Je možné přidávat nebo modifikovat state transitions
 - Je možné implementovat nové sequencing flow
-
+<!--ID: 1746599654123-->
 END
 
 ---
@@ -70,7 +70,7 @@ Utilities = např. externí knihovny, frameworky
 (2)
 ![](../../Assets/Pasted%20image%2020250415153953.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599654135-->
 END
 
 ---
@@ -90,7 +90,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250415154158.png)
 <!-- ImageEnd -->
 
-
+<!--ID: 1746599654146-->
 END
 
 ---

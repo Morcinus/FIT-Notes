@@ -17,7 +17,7 @@ Jak se definuje funkce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250326105801.png)
-
+<!--ID: 1746599655093-->
 END
 
 ---
@@ -33,7 +33,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250326110651.png)
 ![](../../Assets/Pasted%20image%2020250326112438.png)
-
+<!--ID: 1746599655099-->
 END
 
 ---
@@ -48,7 +48,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250326112905.png)
 ![](../../Assets/Pasted%20image%2020250326112918.png)
-
+<!--ID: 1746599655107-->
 END
 
 ---
@@ -63,7 +63,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250326113011.png)
 ![](../../Assets/Pasted%20image%2020250326112959.png)
-
+<!--ID: 1746599655114-->
 END
 
 ---
@@ -83,7 +83,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250326113125.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599655121-->
 END
 
 ---

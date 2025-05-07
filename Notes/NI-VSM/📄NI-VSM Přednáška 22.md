@@ -18,7 +18,7 @@ Back:
 Hlavní myšlenka: dáme dva servery do série za sebe, každý má nějakou frontu
 
 ![](../../Assets/Pasted%20image%2020250501154047.png)
-
+<!--ID: 1746599649215-->
 END
 
 ---
@@ -38,7 +38,7 @@ ve stacionárním stavu = rozdělení v každém čase je stacionární
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020250501154149.png)
 <!-- ExplanationEnd -->
-
+<!--ID: 1746599649221-->
 END
 
 ---
@@ -51,7 +51,7 @@ Jak vypadají dva servery v sérii (stacionární stav)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501154213.png)
-
+<!--ID: 1746599649228-->
 END
 
 ---
@@ -65,7 +65,7 @@ Jak vypadají dva servery $M|M|1$ v sérii (stacionární rozdělení)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501154245.png)
-
+<!--ID: 1746599649236-->
 END
 
 ---
@@ -81,7 +81,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250501154311.png)
 
 Např. na prvním serveru mám $m-1$ zákazníků a na druhém $n$ a pak mi přijde zákazník na první server a jsem v $(m,n)$ - první horizontální šipka.
-
+<!--ID: 1746599649242-->
 END
 
 ---
@@ -95,7 +95,7 @@ Věta: stacionární rozdělení pro dva servery $M|M|1$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501154419.png)
-
+<!--ID: 1746599649249-->
 END
 
 ---
@@ -115,7 +115,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250501154508.png)
 ![](../../Assets/Pasted%20image%2020250501154526.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649256-->
 END
 
 ---
@@ -130,6 +130,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250501154549.png)
 ![](../../Assets/Pasted%20image%2020250501154558.png)
+<!--ID: 1746599649263-->
 END
 
 ---
@@ -149,7 +150,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250501154642.png)
 <!-- ExerciseEnd -->
 
-
+<!--ID: 1746599649270-->
 END
 
 ---
@@ -163,7 +164,7 @@ Jaké stacionární vlastnosti má otevřená soustava serverů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501154714.png)
-
+<!--ID: 1746599649277-->
 END
 
 ---

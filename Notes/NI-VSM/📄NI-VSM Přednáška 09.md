@@ -20,7 +20,7 @@ Back:
 Je to minimální hladina významnosti, na které lze zamítnout **při daném pozorování**.
 
 ![](../../Assets/Pasted%20image%2020250322075825.png)
-
+<!--ID: 1746599650039-->
 END
 
 ---
@@ -36,7 +36,7 @@ Back:
 P-hodnota mi říká, jaká je pravděpodobnost, že bychom daný výsledek dostali čistě náhodou, pokud platí nulová hypotéza. 
 
 ![](../../Assets/Pasted%20image%2020250322075840.png)
-
+<!--ID: 1746599650047-->
 END
 
 ---
@@ -54,7 +54,7 @@ Back:
 Jinými slovy "když je všechno hezký", tak $p$-hodnota má uniformní rozdělení
 
 Když je všechno hezký = pravděpodobnost 1. druhu je vždy $\alpha$, pak vím, že distribuční funkce p hodnoty je v bodě $u$ rovna $u$, tedy je to distribuční funkce Uniformního rozdělení
-
+<!--ID: 1746599650053-->
 END
 
 ---
@@ -68,7 +68,7 @@ Jaké jsou 2 typy hypotéz (podle parametrů) a co znamenají?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322075915.png)
-
+<!--ID: 1746599650061-->
 END
 
 ---
@@ -82,7 +82,7 @@ Jaké jsou 2 typy hypotéz podle množství rozdělení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322075944.png)
-
+<!--ID: 1746599650068-->
 END
 
 ---
@@ -98,7 +98,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250322080101.png)
 ![](../../Assets/Pasted%20image%2020250322080109.png)
 ![](../../Assets/Pasted%20image%2020250322080141.png)
-
+<!--ID: 1746599650075-->
 END
 
 ---
@@ -114,7 +114,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250322080127.png)
 ![](../../Assets/Pasted%20image%2020250322080133.png)
 ![](../../Assets/Pasted%20image%2020250322080141.png)
-
+<!--ID: 1746599650082-->
 END
 
 ---
@@ -129,7 +129,7 @@ Jak funguje:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322080213.png)
-
+<!--ID: 1746599650089-->
 END
 
 ---
@@ -143,7 +143,7 @@ Proč není nutné hlídat, jestli má výběr normální rozdělení při testo
 Back:
 
 Protože podle centrální limitní věty to rozdělení se stejně bude v limitě chovat jako normální. 
-
+<!--ID: 1746599650097-->
 END
 
 ---
@@ -158,7 +158,7 @@ Jak funguje:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322080228.png)
-
+<!--ID: 1746599650104-->
 END
 
 ---
@@ -173,7 +173,7 @@ Jak funguje:
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322080244.png)
-
+<!--ID: 1746599650111-->
 END
 
 ---
@@ -188,7 +188,7 @@ Jak funguje
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322080300.png)
-
+<!--ID: 1746599650118-->
 END
 
 ---

@@ -124,9 +124,9 @@ Jaké jsou 3 základní komponenty JavaScript Runtime?
 
 Back:
 
-- **Stack** - zásobník s frames (funkční parametry, lokální variables)
+- **Call Stack** - zásobník s frames (funkční parametry, lokální variables)
 - **Heap** - halda s objekty
-- **Queue** - list zpráv, co se mají zprocesovat
+- **MessageQueue** - list zpráv, co se mají zprocesovat
 	- Zpráva jsou data a funkce, co se má nad těmi daty zavolat
 <!--ID: 1746519622632-->
 END

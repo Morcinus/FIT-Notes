@@ -19,7 +19,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250419135837.png)
 ![](../../Assets/Pasted%20image%2020250419135846.png)
 ![](../../Assets/Pasted%20image%2020250419135900.png)
-
+<!--ID: 1746599649602-->
 END
 
 ---
@@ -39,7 +39,7 @@ Počítá mi kolik událostí nastalo do daného času
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419135922.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649609-->
 END
 
 ---
@@ -57,7 +57,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250419135951.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599649617-->
 END
 
 ---
@@ -71,7 +71,7 @@ Definice: **Poissonův proces 2**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140015.png)
-
+<!--ID: 1746599649625-->
 END
 
 ---
@@ -85,7 +85,7 @@ Jak se liší Binomický a Poissonův proces?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140032.png)
-
+<!--ID: 1746599649632-->
 END
 
 ---
@@ -99,7 +99,7 @@ Definice: Exponenciální rozdělení
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140054.png)
-
+<!--ID: 1746599649638-->
 END
 
 ---
@@ -113,7 +113,7 @@ Věta: Bezpaměťovost exponenciálního rozdělení
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140119.png)
-
+<!--ID: 1746599649646-->
 END
 
 ---
@@ -127,7 +127,7 @@ Věta: Silná bezpaměťovost exponenciálního rozdělení
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140137.png)
-
+<!--ID: 1746599649654-->
 END
 
 ---
@@ -141,7 +141,7 @@ Věta: Součet exponenciálních je gamma
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140156.png)
-
+<!--ID: 1746599649660-->
 END
 
 ---
@@ -155,7 +155,7 @@ Věta: **Ekvivalence definic Poissonova procesu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140214.png)
-
+<!--ID: 1746599649667-->
 END
 
 ---
@@ -169,7 +169,7 @@ Lemma: Jaké rozdělení má náhodná veličina
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140250.png)
-
+<!--ID: 1746599649674-->
 END
 
 ---
@@ -183,7 +183,7 @@ Lemma: Bezpaměťovost Poissonova procesu
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140308.png)
-
+<!--ID: 1746599649680-->
 END
 
 ---
@@ -198,7 +198,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419140332.png)
 ![](../../Assets/Pasted%20image%2020250419140338.png)
-
+<!--ID: 1746599649688-->
 END
 
 ---
@@ -212,7 +212,7 @@ Věta: náhodný proces je markovský právě tehdy když
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140359.png)
-
+<!--ID: 1746599649695-->
 END
 
 ---
@@ -226,7 +226,7 @@ Věta: Chapman-Kolmogorov
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140410.png)
-
+<!--ID: 1746599649701-->
 END
 
 ---
@@ -244,7 +244,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250419140438.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599649708-->
 END
 
 ---
@@ -266,7 +266,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250419140637.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599649715-->
 END
 
 ---
@@ -280,7 +280,7 @@ Věta: **Simulace procesu pomocí skokových intenzit**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140652.png)
-
+<!--ID: 1746599649722-->
 END
 
 ---

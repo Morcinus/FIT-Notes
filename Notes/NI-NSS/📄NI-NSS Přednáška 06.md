@@ -16,7 +16,7 @@ Co je princip Separating Cross-Cutting Concerns?
 Back:
 
 Věci, které jsou napříč celým projektem (například autorizace, databáze, logging). Typicky se nějak napojíme k nějaké externí knihovně/frameworku. Podle tohoto principu bych měl vždy dělat nějaký interface mezi knihovnou a mým kódem tak, abych mohl kdykoliv tu knihovnu prohodit za nějakou jinou, aniž bych musel překódit vnitřnosti mého projektu (jen například překódím ten můj adaptér)
-
+<!--ID: 1746599654158-->
 END
 
 ---
@@ -36,7 +36,7 @@ Třída (a interfaces) a další třídy, které se starají o connections k dal
 ![](../../Assets/Pasted%20image%2020250415144711.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599654169-->
 END
 
 ---
@@ -56,7 +56,7 @@ Takhle to bylo původně:
 
 Takhle to vypadá, pokud zorganizuju systém do elementů:
 ![](../../Assets/Pasted%20image%2020250415144841.png)
-
+<!--ID: 1746599654179-->
 END
 
 ---
@@ -74,7 +74,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250415144916.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599654187-->
 END
 
 ---
@@ -88,7 +88,7 @@ Jaká je hlavní nevýhoda Elementů?
 Back:
 
 Vyžaduje to hoodně boilerplatu a repetetivních tříd
-
+<!--ID: 1746599654195-->
 END
 
 ---
@@ -102,7 +102,7 @@ Co je expansion a expanders?
 Back:
 
 Deterministický process, kde se generuje kód
-
+<!--ID: 1746599654202-->
 END
 
 ---

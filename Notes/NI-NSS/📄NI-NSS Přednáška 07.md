@@ -19,7 +19,7 @@ Back:
 2. My uděláme tu třídu, uděláme encapsulation (version transparent)
 3. Obklopíme třídu dalšími třídami, které bude třída využívat (tyto třídy pak např. komunikují s externími knihovnami nebo frameworky)
 4. Díky tomu jsme vytvořili Element (což je skupina tříd)
-
+<!--ID: 1746599654213-->
 END
 
 ---
@@ -37,7 +37,7 @@ Máme:
 	- Z toho se pak udělá instance Elementu
 	- Pro každý typ elementu máme jiný template
 - Pro každou ElemenTemplate Classu
-
+<!--ID: 1746599654221-->
 END
 
 ---
@@ -60,7 +60,7 @@ Klíčový problém:
 Proto je potřeba používat code generators, aby:
 - Mi přegenerovaly struktury
 - Ale aby mi zachovali custom kódy
-
+<!--ID: 1746599654231-->
 END
 
 ---
@@ -76,7 +76,7 @@ Back:
 Máme nějakou codebase a chci udělat změnu. Než se přegenerují elementy, je potřeba "harvestnout" craftings (aka custom kódy a třídy), co mám v codebase a následně je injektovat zpátky (**rejuvenation**) na stejná místa, až se přegenerují elementy.
 
 ![](../../Assets/Pasted%20image%2020250415151202.png)
-
+<!--ID: 1746599654239-->
 END
 
 ---
@@ -90,7 +90,7 @@ Jaké jsou základní 4 dimenze softwaru?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250415151425.png)
-
+<!--ID: 1746599654246-->
 END
 
 ---
@@ -111,7 +111,7 @@ Díky tomu nám potom množství verzí, které je třeba udržovat aditivně, z
 ![](../../Assets/Pasted%20image%2020250415151632.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599654253-->
 END
 
 ---
@@ -130,7 +130,7 @@ V runtimu jsou pak ty třídy seskupeny do daných layers (v runtimu to není pa
 
 ![](../../Assets/Pasted%20image%2020250415151708.png)
 ![](../../Assets/Pasted%20image%2020250415152048.png)
-
+<!--ID: 1746599654260-->
 END
 
 ---

@@ -16,7 +16,7 @@ Co je **infrastruktura**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227163719.png)
-
+<!--ID: 1746599652017-->
 END
 
 ---
@@ -30,7 +30,7 @@ Co všechno může být v IT infrastruktuře?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227163339.png)
-
+<!--ID: 1746599652025-->
 END
 
 ---
@@ -44,7 +44,7 @@ Jaké jsou komponenty infrastruktury?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227163814.png)
-
+<!--ID: 1746599652034-->
 END
 
 ---
@@ -58,7 +58,7 @@ Co je například součástí komponenty infrastruktury **počítačový hardwar
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227163903.png)
-
+<!--ID: 1746599652044-->
 END
 
 ---
@@ -86,7 +86,7 @@ Co je například součástí komponenty infrastruktury **data management a úlo
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227164358.png)
-
+<!--ID: 1746599652057-->
 END
 
 ---
@@ -100,7 +100,7 @@ Co je například součástí komponenty infrastruktury **síťové a telekomuni
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227164443.png)
-
+<!--ID: 1746599652065-->
 END
 
 ---
@@ -114,7 +114,7 @@ Co je například součástí komponenty infrastruktury **Internet**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227164823.png)
-
+<!--ID: 1746599652073-->
 END
 
 ---
@@ -130,7 +130,7 @@ Back:
 Jde o to, že celá infrastruktura je dost složitá a je to "moc velké sousto" pro tu firmu. Proto dává smysl mít konzultanty a outsourcovat to.
 
 ![](../../Assets/Pasted%20image%2020250227164933.png)
-
+<!--ID: 1746599652082-->
 END
 
 ---
@@ -149,7 +149,7 @@ Moorův zákon - každý rok se zdvojnásobí počet tranzistorů v procesoru
 <!-- DetailInfoStart -->
 Fun fact - tranzistory jsou v dnešní době menší než biologické viry 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652088-->
 END
 
 ---
@@ -174,7 +174,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227171554.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599652096-->
 END
 
 ---
@@ -192,7 +192,7 @@ Back:
 
 Např. takto to bylo u big data
 ![](../../Assets/Pasted%20image%2020250227171923.png)
-
+<!--ID: 1746599652102-->
 END
 
 ---
@@ -213,7 +213,7 @@ Back:
 - Orchestrace a automatizace kontejnerů
 - Infrastructure as a code
 - DevOps
-
+<!--ID: 1746599652111-->
 END
 
 ---
@@ -229,7 +229,7 @@ Back:
 Přináší to komplexitu, protože s každou novou funkcionalitou musím řešit distribuovaný systém těch mikroservis.
 
 Obecně je většinou nejlepší mít nějaký hybrid, dělat microservices tam, kde to dává smysl.
-
+<!--ID: 1746599652119-->
 END
 
 ---
@@ -245,7 +245,7 @@ Back:
 Na jednom fyzickém hardwaru se spustí víc operačních systémů, v nich pár různé programy.
 
 Díky tomu nemusím mít hromadu serverů, ale využiju přesně to, co potřebuju.
-
+<!--ID: 1746599652128-->
 END
 
 ---
@@ -265,7 +265,7 @@ Výhoda - kontejner můžu jednoduše spustit a nasadit
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227172759.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652135-->
 END
 
 ---
@@ -285,7 +285,7 @@ Je to trend, není to moc běžné ve velkých korporacích. Chtěli by, ale je 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227173033.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652143-->
 END
 
 ---
@@ -308,7 +308,7 @@ Nevýhody:
 ![](../../Assets/Pasted%20image%2020250227173254.png)
 ![](../../Assets/Pasted%20image%2020250227173800.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652150-->
 END
 
 ---
@@ -324,7 +324,7 @@ Back:
 - IaaS - infrastructure as a service (AWS)
 - PaaS - platform as a service (Azure, Google app engine)
 - SaaS - software as a service (GDrive)
-
+<!--ID: 1746599652158-->
 END
 
 ---
@@ -342,7 +342,7 @@ Infrastruktura je definována kódem.
 - Např. Terraform
 
 ![](../../Assets/Pasted%20image%2020250227174012.png)
-
+<!--ID: 1746599652166-->
 END
 
 ---
@@ -361,7 +361,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227174103.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599652175-->
 END
 
 ---
@@ -375,7 +375,7 @@ Jaké jsou výzvy managementu infrastruktury?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227174218.png)
-
+<!--ID: 1746599652183-->
 END
 
 ---
@@ -394,7 +394,7 @@ Back:
 	- Podle toho pak vyjde, jaká varianta je nejlepší
 
 ![](../../Assets/Pasted%20image%2020250227174248.png)
-
+<!--ID: 1746599652191-->
 END
 
 ---

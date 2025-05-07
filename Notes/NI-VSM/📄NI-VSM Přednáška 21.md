@@ -16,7 +16,7 @@ Co znamená model náhodných příchodů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142037.png)
-
+<!--ID: 1746599649285-->
 END
 
 ---
@@ -36,7 +36,7 @@ $L$ = jak dlouhý je čas
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501142109.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649293-->
 END
 
 ---
@@ -56,7 +56,7 @@ Přírustky jsou jakoby ty skoky mezi těmi časy příchodu
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250501144223.png)
 <!-- ProofEnd -->
-
+<!--ID: 1746599649301-->
 END
 
 ---
@@ -74,7 +74,7 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250501144349.png)
 <!-- ProofEnd -->
-
+<!--ID: 1746599649308-->
 END
 
 ---
@@ -88,7 +88,7 @@ Pozorování: Přírustky procesu a nezávislost
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142214.png)
-
+<!--ID: 1746599649315-->
 END
 
 ---
@@ -106,7 +106,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501142322.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649323-->
 END
 
 ---
@@ -120,7 +120,7 @@ Důsledek: $P(N_s = m | N_t = n) = \ ???$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142354.png)
-
+<!--ID: 1746599649330-->
 END
 
 ---
@@ -140,7 +140,7 @@ Nehomogenní Proces = Umožňuje nám modelovat to, že události nastávají v 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501142432.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649338-->
 END
 
 ---
@@ -158,7 +158,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501142521.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599649344-->
 END
 
 ---
@@ -176,7 +176,7 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250501142632.png)
 <!-- ImageEnd -->
-
+<!--ID: 1746599649352-->
 END
 
 ---
@@ -190,7 +190,7 @@ Důsledek: $P(N_s=m|N_t=n) = \ ???$ pro nehomogenní Poisson a rozdělení času
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142713.png)
-
+<!--ID: 1746599649359-->
 END
 
 ---
@@ -206,7 +206,7 @@ Jak funguje dělení Poissonova procesu (thinning)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142731.png)
-
+<!--ID: 1746599649366-->
 END
 
 ---
@@ -220,7 +220,7 @@ Věta: Procesy jsou nezávislé Poissonovy s intenzitou
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142758.png)
-
+<!--ID: 1746599649373-->
 END
 
 ---
@@ -234,7 +234,7 @@ Důsledek: Pokud platí ..., pak jsou procesy nezávislé Poissonovy procesy s i
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142837.png)
-
+<!--ID: 1746599649380-->
 END
 
 ---
@@ -250,7 +250,7 @@ Jak funguje skládání Poissonových procesů? (superpozice)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142902.png)
-
+<!--ID: 1746599649388-->
 END
 
 ---
@@ -264,7 +264,7 @@ Věta: Proces $N_t = N_t^{(1)}+ N_t^{(2)}$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142945.png)
-
+<!--ID: 1746599649395-->
 END
 
 ---
@@ -278,7 +278,7 @@ Jak funguje Nehomogenní dělení (thinning)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501143006.png)
-
+<!--ID: 1746599649403-->
 END
 
 ---
@@ -292,7 +292,7 @@ Věta: Pokud ..., pak proces je nehomogenní Poissonův proces s intenzitou
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501143034.png)
-
+<!--ID: 1746599649410-->
 END
 
 ---
@@ -306,7 +306,7 @@ Jak lze simulovat nehomogenní Poissonův proces?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501143059.png)
-
+<!--ID: 1746599649417-->
 END
 
 ---
@@ -324,7 +324,7 @@ Přijde požadavek a je v systému nějakou dobu. Já se ptám, jaká je pravdě
 ![](../../Assets/Pasted%20image%2020250501143115.png)
 ![](../../Assets/Pasted%20image%2020250501143124.png)
 ![](../../Assets/Pasted%20image%2020250501143134.png)
-
+<!--ID: 1746599649425-->
 END
 
 ---

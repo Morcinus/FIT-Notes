@@ -16,7 +16,7 @@ Co dělají obecně Normalized Systems Theory?
 Back:
 
 Studují, jak se velké **modulární struktury** chovají při **změnách**
-
+<!--ID: 1746599654337-->
 END
 
 ---
@@ -31,7 +31,7 @@ Back:
 
 - **Stability** from systems theory
 - **entropy** from statistical thermodynamics
-
+<!--ID: 1746599654344-->
 END
 
 ---
@@ -55,7 +55,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250415105915.png)
 ![](../../Assets/Pasted%20image%2020250415105925.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599654350-->
 END
 
 ---
@@ -75,7 +75,7 @@ Jak se mu dá zamezit: je potřeba mít fine-grained modulární systém
 Např. v malém systému udělám malou změnu a nemusím měnit nic dalšího.
 
 Když ve velkém systému udělám malou změnu, musím změnit ještě hromadu dalších věcí.
-
+<!--ID: 1746599654356-->
 END
 
 ---
@@ -94,7 +94,7 @@ Back:
 4. **Separation of state**
 
 Když cokoliv z toho poruším, tak to vede k combinatorial effectu
-
+<!--ID: 1746599654364-->
 END
 
 ---
@@ -107,7 +107,7 @@ Co je Normalized system?
 Back:
 
 Modulární systém s žádným combinatorial effectem
-
+<!--ID: 1746599654371-->
 END
 
 ---
@@ -124,7 +124,7 @@ Back:
 3. Code generator (**expanders**) pak sestaví **skeleton** - to jsou parametrizované kopie 5 základních elementů
 
 ![](../../Assets/Pasted%20image%2020250415104808.png)
-
+<!--ID: 1746599654377-->
 END
 
 ---
@@ -138,7 +138,7 @@ Je **skeleton** production ready aplikace?  Co jsou **craftings**?
 Back:
 
 Ne, typicky NS generátory jsou schopný vytvořit skeleton, což je 90% výsledného kódu. Zbytek se musí dopsat ručně. Tomu se říká **craftings**.
-
+<!--ID: 1746599654384-->
 END
 
 ---
@@ -159,7 +159,7 @@ Jsou to design patterny:
 - Connector
 
 Důležitá vlastnost: Můžeme u nich dokázat že nemají combinatorial effects
-
+<!--ID: 1746599654391-->
 END
 
 ---
@@ -178,7 +178,7 @@ Back:
 	- Nebo to mohou být textové soubory
 3. Z toho se vygeneruje skeleton, ten se ukáže zákazníkovi
 4. Potom se začnou dělat craftings
-
+<!--ID: 1746599654398-->
 END
 
 ---

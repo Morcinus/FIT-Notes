@@ -23,7 +23,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217183804.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599654409-->
 END
 
 ---
@@ -38,7 +38,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250217183840.png)
 ![](../../Assets/Pasted%20image%2020250217183851.png)
-
+<!--ID: 1746599654417-->
 END
 
 ---
@@ -52,7 +52,7 @@ Jaké jsou komunikativní funkce jazyka?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217185809.png)
-
+<!--ID: 1746599654424-->
 END
 
 ---
@@ -66,7 +66,7 @@ Jaké jsou výhody a nevýhody mluvené komunikace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217190812.png)
-
+<!--ID: 1746599654431-->
 END
 
 ---
@@ -80,7 +80,7 @@ Jaké jsou výhody a nevýhody psané komunikace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217190832.png)
-
+<!--ID: 1746599654440-->
 END
 
 ---
@@ -95,6 +95,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250217191848.png)
 ![](../../Assets/Pasted%20image%2020250217192531.png)
+<!--ID: 1746599654448-->
 END
 
 ---

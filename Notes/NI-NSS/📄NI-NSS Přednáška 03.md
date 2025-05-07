@@ -24,7 +24,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250415112313.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599654286-->
 END
 
 ---
@@ -47,7 +47,7 @@ Cílem je **low coupling** a **high cohesion**!
 ![](../../Assets/Pasted%20image%2020250415114511.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599654293-->
 END
 
 ---
@@ -67,7 +67,7 @@ Stamp coupling
 Předám celý Customer objekt
 
 Např. nepředám "Customer" objekt, ale pouze "customerName".
-
+<!--ID: 1746599654300-->
 END
 
 ---
@@ -81,7 +81,7 @@ Co je antropomorfismus v softwarovém inženýrství?
 Back:
 
 Myšlenka, že softwary a objekty by měly být modelovány podle toho, jak lidi vidí svět (např. OOP je docela antropomorfní).
-
+<!--ID: 1746599654307-->
 END
 
 ---
@@ -98,7 +98,7 @@ Back:
 2. OOP
 3. Iterativní development
 4. Use-case driven development
-
+<!--ID: 1746599654313-->
 END
 
 ---
@@ -112,7 +112,7 @@ Co je myšlenka design patternů?
 Back:
 
 Když jsme po 25 letech nenašli univerzálně nejlepší metodologii, dává smysl se aspoň shodnout na malých patternech, na kterých se všichni shodnou, že to je kvalitní řešení.
-
+<!--ID: 1746599654319-->
 END
 
 ---
@@ -130,7 +130,7 @@ Back:
 2. **Vagueness** - metodologie a design patterny jsou furt hodně vágní a pořád lidi nejsou shodlý na tom, co přesně to znamená (např. loose coupling)
 3. **Systematic Approach** - ne všichni aplikují good design systematicky
 4. **Traceability** - metodologie nevynucují ani nepopisují přesně to, že by všechno mělo být traceable
-
+<!--ID: 1746599654328-->
 END
 
 ---

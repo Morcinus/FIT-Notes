@@ -16,7 +16,7 @@ Jaké vlastnosti má QuickSort?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134058.png)
-
+<!--ID: 1746599653590-->
 END
 
 ---
@@ -30,7 +30,7 @@ Jaké vlastnosti má MergeSort?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134112.png)
-
+<!--ID: 1746599653597-->
 END
 
 ---
@@ -44,7 +44,7 @@ Jak vypadá sekvenční verze QuickSortu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134512.png)
-
+<!--ID: 1746599653605-->
 END
 
 ---
@@ -60,7 +60,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250321134544.png)
 
 ![](../../Assets/Pasted%20image%2020250321134556.png)
-
+<!--ID: 1746599653613-->
 END
 
 ---
@@ -75,7 +75,7 @@ Back:
 
 Pomocí funkčního paralelismu
 ![](../../Assets/Pasted%20image%2020250321134624.png)
-
+<!--ID: 1746599653621-->
 END
 
 ---
@@ -92,7 +92,7 @@ Back:
 - PGNU - paralelní z knihovky Libstdc++
 - SUV - sekvenční "učebnicový"
 - PUV - púaralelní "učebnicový"
-
+<!--ID: 1746599653629-->
 END
 
 ---
@@ -106,7 +106,7 @@ Jaké je srovnání SGNU, PGNU, SUV, PUV?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134817.png)
-
+<!--ID: 1746599653637-->
 END
 
 ---
@@ -120,7 +120,7 @@ Proč je PUV výrazně pomalejší než PGNU?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134849.png)
-
+<!--ID: 1746599653646-->
 END
 
 ---
@@ -137,7 +137,7 @@ Back:
 
 - Koncová rekurze - je to "zadarmo", stačí jen přeuspořádat kód
 - Zavedení prahu - ke konci rekurze nemá cenu to počítat rekurzivně
-
+<!--ID: 1746599653653-->
 END
 
 ---
@@ -151,7 +151,7 @@ Jak funguje Tail call optimization (TCO) u quicksortu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134952.png)
-
+<!--ID: 1746599653660-->
 END
 
 ---
@@ -166,7 +166,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250321135010.png)
 ![](../../Assets/Pasted%20image%2020250321135017.png)
-
+<!--ID: 1746599653667-->
 END
 
 ---
@@ -180,7 +180,7 @@ Jak funguje Paralelizované rozdělování u quicksortu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135035.png)
-
+<!--ID: 1746599653679-->
 END
 
 ---
@@ -195,7 +195,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250321135059.png)
 ![](../../Assets/Pasted%20image%2020250321135107.png)
-
+<!--ID: 1746599653687-->
 END
 
 ---
@@ -211,7 +211,7 @@ Jak se dá optimalizovat quicksort optimalizací pořadí vyhodnocení podmínek
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135205.png)
-
+<!--ID: 1746599653696-->
 END
 
 ---
@@ -238,7 +238,7 @@ Hlavní myšlenka:
 ![](../../Assets/Pasted%20image%2020250321135304.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653704-->
 END
 
 ---
@@ -257,7 +257,7 @@ Musíme zajistit, aby zapisování do sdílených proměnných bylo atomické.
 ![](../../Assets/Pasted%20image%2020250321135328.png)
 ![](../../Assets/Pasted%20image%2020250321135341.png)
 ![](../../Assets/Pasted%20image%2020250321135347.png)
-
+<!--ID: 1746599653713-->
 END
 
 ---
@@ -275,7 +275,7 @@ Protože se tam furt lockují ty globální proměnné - volají se stovky atomi
 Když už si nějaké vlákno "vysoutěží" přístup k té sdílené paměti, tak jim nedáme jeden prvek, ale rovnou $K$ prvků, ať může chvíli pracovat a nejde zase do té paměti.
 
 ![](../../Assets/Pasted%20image%2020250321135415.png)
-
+<!--ID: 1746599653720-->
 END
 
 ---
@@ -295,7 +295,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250321135506.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599653729-->
 END
 
 ---
@@ -309,7 +309,7 @@ Jak se u paralelního QuickSortu vybírá pivot?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135529.png)
-
+<!--ID: 1746599653738-->
 END
 
 ---
@@ -323,7 +323,7 @@ Jak se u paralelního quicksortu dělá vyvažování?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135542.png)
-
+<!--ID: 1746599653746-->
 END
 
 ---
@@ -342,7 +342,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250321135653.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599653752-->
 END
 
 ---
@@ -356,7 +356,7 @@ Jaké je srovnání QuickSort implementací?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135653.png)
-
+<!--ID: 1746599653760-->
 END
 
 ---
@@ -372,7 +372,7 @@ Jak vypadá učebnicová verze Merge Sortu? (SUV)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135717.png)
-
+<!--ID: 1746599653768-->
 END
 
 ---
@@ -386,7 +386,7 @@ Jak vypadá přímočará paralelizace merge sortu? (PUV)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135735.png)
-
+<!--ID: 1746599653777-->
 END
 
 ---
@@ -400,7 +400,7 @@ Jaké je srovnání QuickSortu a MergeSortu a jejich verzí?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135825.png)
-
+<!--ID: 1746599653784-->
 END
 
 ---
@@ -414,7 +414,7 @@ Jak funguje obecně QuickSort PUV?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135845.png)
-
+<!--ID: 1746599653794-->
 END
 
 ---
@@ -428,7 +428,7 @@ Jak funguje obecně MergeSort PUV?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135857.png)
-
+<!--ID: 1746599653802-->
 END
 
 ---
@@ -442,7 +442,7 @@ Co je důsledek toho jak funguje QuickSort a MergeSort?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135913.png)
-
+<!--ID: 1746599653810-->
 END
 
 ---
@@ -456,7 +456,7 @@ Jaké jsou 3 možnosti zlepšení paralelního MergeSortu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135945.png)
-
+<!--ID: 1746599653817-->
 END
 
 ---
@@ -470,7 +470,7 @@ Jak funguje MergeSort s metodou "Prahování a Rozděl-a-PůlkuSiNech"? (PUV+ST)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321140019.png)
-
+<!--ID: 1746599653827-->
 END
 
 ---
@@ -484,7 +484,7 @@ Jaké je srovnání PUV+ST a PUV merge sortu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321140042.png)
-
+<!--ID: 1746599653835-->
 END
 
 ---
@@ -498,7 +498,7 @@ Jak se dá u merge sortu paralelizovat operace `seq_merge`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321140112.png)
-
+<!--ID: 1746599653843-->
 END
 
 ---
@@ -524,7 +524,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250321140150.png)
 ![](../../Assets/Pasted%20image%2020250321140158.png)
 ![](../../Assets/Pasted%20image%2020250321140204.png)
-
+<!--ID: 1746599653850-->
 END
 
 ---
@@ -549,7 +549,7 @@ Back:
 4. Profit
 
 Ehm na přednášce to vysvětlil dost rychle, takže jsem to nestihnul popsat vlastními slovy :D 
-
+<!--ID: 1746599653860-->
 END
 
 ---
@@ -566,7 +566,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250321140742.png)
 ![](../../Assets/Pasted%20image%2020250321140747.png)
 
-
+<!--ID: 1746599653868-->
 END
 
 ---
@@ -580,7 +580,7 @@ Jaké je srovnání Merge sort implementací?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321140811.png)
-
+<!--ID: 1746599653876-->
 END
 
 ---

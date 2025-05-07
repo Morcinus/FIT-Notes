@@ -199,11 +199,21 @@ END
 START
 FIT-Card
 
-Co obsahuje **signature** v JWT tokenu?
+Co obsahuje **signature** v JWT tokenu? (jak by spočítala v kódu?)
 
 Back:
 
+```js
+HMACSHA256(
+	base64UrlEncode(header) + "." +
+	base64UrlEncode(payload),
+	secret);
+```
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318120946.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1746519872953-->
 END
 
@@ -224,7 +234,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250318121035.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746519872956-->
 END
 
@@ -238,7 +247,7 @@ Jak funguje **expiration** JWT?
 
 Back:
 
-- Token má `exp` atribut, který určuje timestamp expirace
+- Token má `exp` atribut v payloadu, který určuje timestamp expirace
 - Expirace se kontroluje při každém requestu
 
 ![](../../Assets/Pasted%20image%2020250318121051.png)

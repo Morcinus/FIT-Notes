@@ -14,7 +14,6 @@ Co je CAPEX a OPEX?
 Back:
 - **CAPEX** - Capital expanditure
 - **OPEX** - Operational expenditure
-
 <!--ID: 1746520168970-->
 END
 
@@ -30,7 +29,6 @@ Back:
 
 Koupim něco, můžu si to odepsat z daní najednou (nebo třeba na splátky):
 ![](../../Assets/Pasted%20image%2020250331133041.png)
-
 <!--ID: 1746520168973-->
 END 
 
@@ -47,7 +45,6 @@ Back:
 Když nekoupím server, ale místo toho kopím cloud jako službu, tak si to můžu odepisovat pravidelně, protože to je operational cost.
 
 ![](../../Assets/Pasted%20image%2020250331133214.png)
-
 <!--ID: 1746520168977-->
 END
 
@@ -66,7 +63,6 @@ Díky Cloudu můžu vyměnit CAPEX za OPEX.
 <!-- ExplanationStart -->
 Místo toho, abych si musel kupovat servery jako investici, můžu to používat jako službu, takže si to můžu pravidelně odepisovat z daní. 
 <!-- ExplanationEnd -->
-
 <!--ID: 1746520168980-->
 END
 
@@ -88,7 +84,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020250331134818.png)
 ![](../../Assets/Pasted%20image%2020250331135516.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746520168982-->
 END
 
@@ -108,7 +103,6 @@ Na aplikaci mám nějaký hardware. Pak třeba mi začnou růst uživatelé a mu
 Opportunity costs = přicházím o peníze tím, že platím víc než potřebuju.
 
 **Cloud tohle umožňuje optimalizovat**.
-
 <!--ID: 1746520168985-->
 END
 
@@ -124,7 +118,6 @@ Back:
 
 - **on-demand** - provozuju službu když ji potřebuju (např. sám se mi zapne server)
 - **self-service** - dělá se to automatizovaně, nemusí zasahovat člověk
-
 <!--ID: 1746520168988-->
 END
 
@@ -139,7 +132,6 @@ Co je **broad network access**?
 Back:
 
 - Přes síť můžu přistoupit k daným službám odkudkoliv
-
 <!--ID: 1746520168991-->
 END
 
@@ -155,7 +147,6 @@ Back:
 
 - Tenant = **nájemník**
 - **Multitenant** = více uživatelů (co se neznají) používají stejné zdroje. Např. stejný server v cloudu, každý si tam spustí vlastní docker například.
-
 <!--ID: 1746520168994-->
 END
 
@@ -175,7 +166,6 @@ Zdroje jsou využívány více klientama (multitenancy)
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331134205.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746520168997-->
 END
 
@@ -194,7 +184,6 @@ Nabízím více zdrojů, než mám.
 Stejné jako u letenek. Nabídnou letenky více lidem než se vejde do letadla a až když se to letadlo fakt naplní, tak teprve začnou lidem nabízet odměnu za to, že nepoletí.
 
 To samé u serverů - cloud provider nabídne víc zdrojů, než skutečně má, protože si to umí propočítat, aby se mu to vyplatilo
-
 <!--ID: 1746520169000-->
 END
 
@@ -210,7 +199,6 @@ Back:
 
 - Aplikace se může škálovat
 - Automatizovaně nebo manuálně
-
 <!--ID: 1746520169003-->
 END
 
@@ -225,7 +213,6 @@ Co je **measured service**?
 Back:
 
 Služby by měly být monitorovány, aby se vědělo, kolik čeho spotřebovávají
-
 <!--ID: 1746520169006-->
 END
 
@@ -240,7 +227,6 @@ Co je **pay-per-use**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250331134800.png)
-
 <!--ID: 1746520169008-->
 END
 
@@ -258,7 +244,6 @@ Function as a service
 - spouštím funkci a tu si pustím v cloudu
 
 Např. Amazon Lambda, atd.
-
 <!--ID: 1746520169011-->
 END
 
@@ -276,7 +261,6 @@ Back:
 - private - Cloud, který si provozuju u sebe (např. FIT infrastruktura)
 - hybrid - spojení obou, část appky je někde, část je někde jinde
 	- Např. produkci mám privátně, testovací mám veřejně (kvůli bezpečnosti) apod.
-
 <!--ID: 1746520169014-->
 END
 
@@ -291,7 +275,6 @@ Co je vCPU?
 Back:
 
 **Virtuální CPU** - CPU, co mi je v cloudu přiřazený (nemusí to být 1:1 s reálným CPU)
-
 <!--ID: 1746520169017-->
 END
 
@@ -313,7 +296,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331140135.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746520169020-->
 END
 
@@ -334,7 +316,6 @@ Dřív se před Kubernetes ještě používal Google App Engine (první PaaS ser
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331140405.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746520169022-->
 END
 
@@ -353,7 +334,6 @@ Libovolná aplikace, co je služba, která běží přes webový prohlížeč
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331140445.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746520169025-->
 END
 

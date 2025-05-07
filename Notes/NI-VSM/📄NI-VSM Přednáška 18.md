@@ -16,7 +16,7 @@ Pozorování: Diskrétní řetězec časovaný Poissonovým procesem
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140805.png)
-
+<!--ID: 1746599649571-->
 END
 
 ---
@@ -30,7 +30,7 @@ Pozorování: Matice přechodu řetězce $X_t=Y_{N_t}$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140846.png)
-
+<!--ID: 1746599649579-->
 END
 
 ---
@@ -44,7 +44,7 @@ Pozorování: Matice skokových intenzit řetězce $X_t=Y_{N_t}$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140921.png)
-
+<!--ID: 1746599649591-->
 END
 
 ---

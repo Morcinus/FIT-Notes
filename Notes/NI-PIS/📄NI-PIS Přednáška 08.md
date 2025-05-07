@@ -21,7 +21,7 @@ Back:
 - Transaction Structure Data
 - Transaction Activity Data
 - Transaction Audit Data - logy a audity
-
+<!--ID: 1746599651762-->
 END
 
 ---
@@ -48,7 +48,7 @@ Back:
 	- Data Security
 
 Key takeaway: Business se čím dál tím víc bude zapojovat do data managementu
-
+<!--ID: 1746599651769-->
 END
 
 ---
@@ -69,7 +69,7 @@ Back:
 5. **Hybrid DWH** - část je v cloudu
 6. **Analytical & BI Platform** - 
 7. **Universal Data Platform** - 
-
+<!--ID: 1746599651776-->
 END
 
 ---
@@ -87,7 +87,7 @@ Analogie s dopravou:
 - **Data Warehousing** - spolehlivý, vše na jednom místě
 - **Analytika a Data Lakes (data mesh)** - nižší úroveň kontroly, daleko větší flexibilita, umožňuje více experimentovat s datama - slouží pro Business Intelligence
 - **Provozní zpracování dat** - klasický provozní účely, typicky propojování aplikací (integrace), dále taky např. statistické modely, co dělají predikce
-
+<!--ID: 1746599651784-->
 END
 
 ---
@@ -105,7 +105,7 @@ Back:
 - Vazba na organizační strukturu
 - Vazba na fyzický model
 - Datová lineage
-
+<!--ID: 1746599651792-->
 END
 
 ---
@@ -119,7 +119,7 @@ Kdy je datová kvalita dostatečná?
 Back:
 
 Když si nikdo nestěžuje :D
-
+<!--ID: 1746599651800-->
 END
 
 ---
@@ -133,7 +133,7 @@ Co je historizace dat?
 Back:
 
 Dělají se "snímky" dat  
-
+<!--ID: 1746599651807-->
 END
 
 ---

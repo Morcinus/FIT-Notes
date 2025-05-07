@@ -21,7 +21,7 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250402111142.png)
 <!-- ExampleEnd -->
-
+<!--ID: 1746599654922-->
 END
 
 ---
@@ -34,7 +34,7 @@ Jaká je v OOP notace pro signaturu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402111402.png)
-
+<!--ID: 1746599654929-->
 END
 
 ---
@@ -48,7 +48,7 @@ Jak se liší klasická a OO notace?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402111256.png)
-
+<!--ID: 1746599654935-->
 END
 
 ---
@@ -63,7 +63,7 @@ Jak lze psát axiomy datových struktur jako aserci?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402111335.png)
-
+<!--ID: 1746599654942-->
 END
 
 ---
@@ -82,7 +82,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250402111504.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599654950-->
 END
 
 ---
@@ -96,7 +96,7 @@ Jak se specifikuje FIFO fronta?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402111534.png)
-
+<!--ID: 1746599654957-->
 END
 
 ---
@@ -111,7 +111,7 @@ Jak se dá reprezentovat fronta
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402111656.png)
-
+<!--ID: 1746599654966-->
 END
 
 ---
@@ -125,7 +125,7 @@ Jaká je implementace `emptyq`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402111959.png)
-
+<!--ID: 1746599654973-->
 END
 
 ---
@@ -139,7 +139,7 @@ Jaká je implementace `enqueue`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112015.png)
-
+<!--ID: 1746599654982-->
 END
 
 ---
@@ -153,7 +153,7 @@ Jaká je implementace `get`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112026.png)
-
+<!--ID: 1746599654989-->
 END
 
 ---
@@ -167,7 +167,7 @@ Jaká je implementace `dequeueueueueueue`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112043.png)
-
+<!--ID: 1746599654997-->
 END
 
 ---
@@ -181,7 +181,7 @@ Jaká je implementace `euqual`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112058.png)
-
+<!--ID: 1746599655005-->
 END
 
 ---
@@ -195,7 +195,7 @@ Jaká je obecně implementace abstraktních datových typů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112126.png)
-
+<!--ID: 1746599655013-->
 END
 
 ---
@@ -211,7 +211,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250402112522.png)
 
 Pozn. tohle je jen tak pro představu, aby člověk cca tušil, co čemu odpovídá (není asi potřeba to nutně znát nazpaměť)
-
+<!--ID: 1746599655020-->
 END
 
 ---
@@ -230,7 +230,7 @@ ADT je modelem teorie
 ![](../../Assets/Pasted%20image%2020250402112258.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599655028-->
 END
 
 ---
@@ -250,7 +250,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402112419.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1746599655035-->
 END
 
 ---
@@ -264,7 +264,7 @@ Co jsou podtypy? (Liskov)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112512.png)
-
+<!--ID: 1746599655042-->
 END
 
 ---
@@ -287,7 +287,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250402112833.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1746599655049-->
 END
 
 ---
@@ -301,7 +301,7 @@ Srovnej intenzionální vs rozšiřující definici ADT
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402112919.png)
-
+<!--ID: 1746599655057-->
 END
 
 ---
@@ -320,7 +320,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250402113002.png)
 <!-- ExampleEnd -->
 
-
+<!--ID: 1746599655064-->
 END
 
 ---
@@ -334,7 +334,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402113145.png)
-
+<!--ID: 1746599655071-->
 END
 
 ---
@@ -349,7 +349,7 @@ FIT-Card
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402113308.png)
-
+<!--ID: 1746599655078-->
 END
 
 ---
@@ -365,7 +365,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250402113411.png)
 ![](../../Assets/Pasted%20image%2020250402113430.png)
-
+<!--ID: 1746599655084-->
 END
 
 ---

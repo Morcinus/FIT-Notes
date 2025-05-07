@@ -24,7 +24,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250423111231.png)
 
 <!-- ExerciseEnd -->
-
+<!--ID: 1746599654552-->
 END
 
 ---
@@ -38,7 +38,7 @@ Jak se dá aplikovat důkaz nesplnitelnosti formule na programy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423111320.png)
-
+<!--ID: 1746599654560-->
 END
 
 ---
@@ -52,7 +52,7 @@ Co jsou řešiče (rozhodovací procedury)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423111346.png)
-
+<!--ID: 1746599654567-->
 END
 
 ---
@@ -71,7 +71,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250423112933.png)
 ![](../../Assets/Pasted%20image%2020250423112942.png)
 <!-- ExerciseEnd -->
-
+<!--ID: 1746599654576-->
 END
 
 ---
@@ -85,7 +85,7 @@ Jaké jsou axiomy rovnosti
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423113003.png)
-
+<!--ID: 1746599654584-->
 END
 
 ---
@@ -100,7 +100,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250423113025.png)
 ![](../../Assets/Pasted%20image%2020250423113035.png)
-
+<!--ID: 1746599654591-->
 END
 
 ---
@@ -114,7 +114,7 @@ Co jsou svědci a jak se dají využít?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423113138.png)
-
+<!--ID: 1746599654598-->
 END
 
 ---
