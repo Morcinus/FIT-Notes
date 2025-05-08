@@ -49,7 +49,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250416110842.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599654623-->
 END
 
@@ -82,7 +81,6 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250416111028.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1746599654638-->
 END
 
@@ -116,7 +114,6 @@ Nope, pokryje se jen nějaký strom do určité hloubky
 ![](../../Assets/Pasted%20image%2020250416111231.png)
 ![](../../Assets/Pasted%20image%2020250416111237.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599654653-->
 END
 
@@ -200,7 +197,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020250416111642.png)
 ![](../../Assets/Pasted%20image%2020250416111715.png)
 ![](../../Assets/Pasted%20image%2020250416111729.png)
-
 <!--ID: 1746599654690-->
 END
 

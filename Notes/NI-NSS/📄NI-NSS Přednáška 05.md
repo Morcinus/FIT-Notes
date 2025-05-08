@@ -15,9 +15,7 @@ Jak funguje **Separation of Concerns** v kontextu NP?
 
 Back:
 
-Když bych neměl separation of concerns a změnil by se mi ten požadavek, potom bych to musel měnit na hodně místech.
-
-Pokud dodržím separation of concerns, musím to měnit na jednom místě
+V modulu/třídě by u sebe měly jen být funkce, které jsou related.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250415141720.png)
@@ -38,6 +36,7 @@ Back:
 
 - Identifikvat místa, která se budou často měnit
 - Používat správně Encapsulation
+- Mít v modulech/třídách jen věci, které jsou related
 <!--ID: 1746518365550-->
 END
 
@@ -47,16 +46,15 @@ END
 START
 FIT-Card
 
-Co je **Action Version Transparency**?
+Co je **Action Version Transparency**? Jak to aplikovat v praxi?
 
 Back:
 
 Různé funkce závisí na různých funkcích. Když změním jak funguje jedna funkce a interface není správně transparentní, musím změnit hromadu dalších funkcí
 
-Lepší varianta:
-- Máme **action version transparency**:
-	- Buď máme **version transparent interface** = interface co se nemění
-	- Nebo máme **action versions** (tzn. neměníme existující funkce, ale přidáváme jejich nové verze - např. `CustomerV2`)
+Jak to aplikovat v praxi:
+- Buď máme **version transparent interface** = interface co se nemění
+- Nebo máme **action versions** (tzn. neměníme existující funkce, ale přidáváme jejich nové verze - např. `CustomerV2`)
 
 Pozn. není to jen v kódu. např. APIs to taky můžou dodržovat
 
@@ -74,7 +72,7 @@ END
 START
 FIT-Card
 
-Co je **Data Version Transparency**?
+Co je **Data Version Transparency**? Jak to aplikovat v praxi?
 
 Back:
 
@@ -82,7 +80,7 @@ Máme různá data v aplikaci, která se předávají ve funkcích. Ty funkce js
 
 Když se například změní konstruktor a struktura dat, tak musím změnit všechny třídy, které s daty pracují
 
-Jak to vyřešit:
+Jak to aplikovat v praxi:
 - Proper **encapsulation**
 - **Stamp coupling should be preferred** (tzn. neměl bych metodám předávat atomické data typy, ale celé objekty)
 
@@ -100,23 +98,19 @@ END
 START
 FIT-Card
 
-Co je **Separation of States**? Jak to dodržet?
+Co je **Separation of States**? Jak to aplikovat v praxi?
 
 Back:
 Máme různé funkce. Když změním nějakou funkci (i když má dobrý interface), je furt možný, že v nějaké situaci budu muset měnit ostatní - například když přidám novou exception, kterou funkce může vyhazovat.
 
-Např. mám funkci `getExchangeRate`, která je používaná na 100 místech v kódu. Pokud bych změnil implementaci tak, že funkce bude nově vyhazovat nějakou novou exception, i když budu používat hezký interfaces, tak budu muset udělat 100 změn v kódu. (viz obrázek 1)
+Např. mám funkci `getExchangeRate`, která je používaná na 100 místech v kódu. Pokud bych změnil implementaci tak, že funkce bude nově vyhazovat nějakou novou exception, i když budu používat hezký interfaces, tak budu muset udělat 100 změn v kódu. (viz obrázek 1).
 
-Proto je potřeba "vytáhnout" 
-
-![](../../Assets/Pasted%20image%2020250504135449.png)
-
-Proto je potřeba
-
-Jak to dodržet:
-- Měl bych mít uložený "Stav" a když mi nastane exception, měl bych ji uložit do toho stavu?? (nevim, moc jsem to nepochopil tbh)
-
-Tzn. workflows by měly být **Stateful** - workflows by měly mít stav, abych byl schopný zjistit, v jakém stavu aplikace je.
+Jak to aplikovat v praxi:
+- Musíme "vytáhnout" ten state management do jiné třídy, která se o něj bude starat. Např. exception handling vytáhnu do jiné třídy. Když pak přidám novou exception, tak to nebudu muset měnit na 100 místech, ale jen v jedné třídě.
+- Udělat **workflow systems stateful**
+	- Izolovat akce a state management
+- **Odstranit callback nesting** - např. JS callback hell
+- **Be careful with using automation dependencies** - jako např. Maven POM
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250415142906.png)

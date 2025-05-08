@@ -207,7 +207,6 @@ Nevýhoda: packet se mi může "roztáhnout po síti" a zahlcovat mi tak víc č
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250419122723.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599652428-->
 END
 
@@ -414,7 +413,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419125521.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599652538-->
 END
 

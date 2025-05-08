@@ -20,7 +20,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250319111426.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599655130-->
 END
 

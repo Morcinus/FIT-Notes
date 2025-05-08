@@ -53,7 +53,6 @@ Back:
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250422092420.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1746599649451-->
 END
 
@@ -256,7 +255,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250422093320.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599649547-->
 END
 

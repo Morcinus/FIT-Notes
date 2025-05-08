@@ -280,7 +280,6 @@ Pozor: Korelace odhaduje zejména **lineární závislost**. Může tam ale být
 
 Kdyby ta závislost byla kvadratická, tak korelace mi řekne, že mezi tím není závislost.
 ![](../../Assets/Pasted%20image%2020250304113520.png)
-
 <!--ID: 1746599650345-->
 END
 
@@ -456,7 +455,6 @@ Jen tam jednoduše počítám lineární transformaci na prvcích té matice.
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250304124114.png)
 <!-- ProofEnd -->
-
 <!--ID: 1746599650416-->
 END
 
@@ -546,7 +544,6 @@ Je to jako ekvivalentní tohoto v jednorozměrném prostoru:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250304130235.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599650454-->
 END
 

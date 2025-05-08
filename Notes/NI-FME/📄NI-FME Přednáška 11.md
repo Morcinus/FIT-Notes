@@ -92,7 +92,6 @@ Snažíme se najít, co platí na konci
 ![](../../Assets/Pasted%20image%2020250430112256.png)
 ![](../../Assets/Pasted%20image%2020250430112308.png)
 ![](../../Assets/Pasted%20image%2020250430112317.png)
-
 <!--ID: 1746599654500-->
 END
 

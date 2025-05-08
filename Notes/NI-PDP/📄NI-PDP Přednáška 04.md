@@ -108,7 +108,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250313103150.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599653063-->
 END
 
@@ -146,7 +145,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250313103414.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653078-->
 END
 
@@ -198,7 +196,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250313103749.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653099-->
 END
 
@@ -333,7 +330,6 @@ Jak se dá paralelizovat vnější cyklus u násobení matic?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250313104859.png)
-
 <!--ID: 1746599653163-->
 END
 
@@ -351,7 +347,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020250313104948.png)
 ![](../../Assets/Pasted%20image%2020250313104959.png)
 ![](../../Assets/Pasted%20image%2020250313105009.png)
-
 <!--ID: 1746599653171-->
 END
 
@@ -367,7 +362,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250313105019.png)
 ![](../../Assets/Pasted%20image%2020250313105106.png)
-
 <!--ID: 1746599653181-->
 END
 

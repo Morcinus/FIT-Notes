@@ -81,7 +81,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402111504.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599654950-->
 END
 
@@ -229,7 +228,6 @@ ADT je modelem teorie
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402112258.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599655028-->
 END
 
@@ -286,7 +284,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402112833.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599655049-->
 END
 
@@ -319,7 +316,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250402113002.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599655064-->
 END
 

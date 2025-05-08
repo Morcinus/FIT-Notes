@@ -35,7 +35,6 @@ Třída (a interfaces) a další třídy, které se starají o connections k dal
 ![](../../Assets/Pasted%20image%2020250415144703.png)
 ![](../../Assets/Pasted%20image%2020250415144711.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599654169-->
 END
 
@@ -45,7 +44,7 @@ END
 START
 FIT-Card
 
-Jaký dopad mají Elements?
+Jaký **dopad** mají Elements na combinatorial effects?
 
 Back:
 

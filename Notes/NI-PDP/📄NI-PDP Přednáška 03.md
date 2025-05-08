@@ -200,7 +200,6 @@ Známe cílový stav, ale nevíme jak se tam dostat a ten prostor je tak velký,
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250308150407.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599653969-->
 END
 
@@ -239,7 +238,6 @@ Uděláme BFS v masteru, pomocí kterého vygenerujeme nějaké počáteční me
 
 ![](../../Assets/Pasted%20image%2020250308152649.png)
 ![](../../Assets/Pasted%20image%2020250308152810.png)
-
 <!--ID: 1746599653983-->
 END
 

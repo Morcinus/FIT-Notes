@@ -149,7 +149,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020250501154635.png)
 ![](../../Assets/Pasted%20image%2020250501154642.png)
 <!-- ExerciseEnd -->
-
 <!--ID: 1746599649270-->
 END
 

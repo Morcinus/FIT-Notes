@@ -35,7 +35,6 @@ Definice: **Proces hromadné obsluhy**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250423090638.png)
-
 <!--ID: 1746599649104-->
 END
 
@@ -104,7 +103,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250423090836.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599649138-->
 END
 
@@ -238,7 +236,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020250423091316.png)
 ![](../../Assets/Pasted%20image%2020250423091325.png)
 <!-- ProofEnd -->
-
 <!--ID: 1746599649198-->
 END
 

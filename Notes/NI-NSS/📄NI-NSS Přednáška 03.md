@@ -33,7 +33,7 @@ END
 START
 FIT-Card
 
-Co je coupling a cohesion? Co je cílem?
+Co je **coupling** a **cohesion**? Jakých vlastností chceme docílit?
 
 Back:
 
@@ -46,7 +46,6 @@ Cílem je **low coupling** a **high cohesion**!
 ![](../../Assets/Pasted%20image%2020250415114505.png)
 ![](../../Assets/Pasted%20image%2020250415114511.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599654293-->
 END
 
@@ -121,7 +120,7 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní **drawbacks momentálních metodologies**?
+Jaké jsou hlavní **nedostatky momentálních metodologií**? (4)
 
 Back:
 

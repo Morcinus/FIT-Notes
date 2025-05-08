@@ -38,7 +38,6 @@ Architektura je "**znalost o systému**", kterou si lidé mezi sebou sdílí. Js
 <!-- DetailInfoEnd -->
 
 ![](../../Assets/Pasted%20image%2020250306162927.png)
-
 <!--ID: 1746599651918-->
 END
 
@@ -130,7 +129,6 @@ Propojování systémů vrámci podniku a mezi podnikem a externími systémy.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250306164801.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599651959-->
 END
 

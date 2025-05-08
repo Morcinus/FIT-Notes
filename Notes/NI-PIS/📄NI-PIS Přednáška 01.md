@@ -61,7 +61,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220165713.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599652217-->
 END
 
@@ -103,7 +102,6 @@ Back:
 Je to na střední úrovni v organizaci
 ![](../../Assets/Pasted%20image%2020250220170628.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599652233-->
 END
 
@@ -176,7 +174,6 @@ Způsob organizace a koordinace práce ve firmě.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250220171141.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599652265-->
 END
 

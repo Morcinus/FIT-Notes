@@ -11,14 +11,14 @@ FILE TAGS: NI-NSS prednaska07 status-toReview
 START
 FIT-Card
 
-Jak funguje **Advanced Transformation**?
+Jak funguje **Advanced Transformation** (aka vytvoření elementu)?
 
 Back:
 
-1. Máme nějaký požadavek na třídu
-2. My uděláme tu třídu, uděláme encapsulation (version transparent)
-3. Obklopíme třídu dalšími třídami, které bude třída využívat (tyto třídy pak např. komunikují s externími knihovnami nebo frameworky)
-4. Díky tomu jsme vytvořili Element (což je skupina tříd)
+1. Máme nějaký **požadavek** na třídu
+2. My uděláme tu **třídu**, uděláme encapsulation (version transparent)
+3. Obklopíme třídu **dalšími třídami**, které bude třída využívat (tyto třídy pak např. komunikují s externími knihovnami nebo frameworky)
+4. Díky tomu jsme vytvořili **Element** (což je skupina tříd)
 <!--ID: 1746599654213-->
 END
 
@@ -32,11 +32,7 @@ Jak funguje **Expansion**?
 
 Back:
 
-Máme:
-- Element Template
-	- Z toho se pak udělá instance Elementu
-	- Pro každý typ elementu máme jiný template
-- Pro každou ElemenTemplate Classu
+Pro každý element máme **template**. Z toho se pak udělá jeho **instance** na základě **parametrů** - požadavků, co jsme vytvořili v modelu/mirroru.
 <!--ID: 1746599654221-->
 END
 
@@ -103,14 +99,21 @@ FIT-Card
 
 Back:
 
-Díky tomu nám potom množství verzí, které je třeba udržovat aditivně, zatímco množství dostupných verzí multiplikativní
+Díky tomu nám potom množství verzí, které je třeba **udržovat**, **roste aditivně**, zatímco množství **dostupných verzí roste multiplikativně**.
+
+Neboli co se to snaží říct je, že když máme code generation, separaci dimenzí a další úžasný NSS věci, tak můžu např. místo několika databází MySQL, Postgres, Mongo atd. to brát jako jednu kategorii "databáze". Tudíž pak můžu ten můj projekt vygenerovat s různými databázemi. To samé pro ostatní kategorie.
+
+Takže:
+- Udržujeme **aditivní** počet verzí - kategorie "databáze", "ui" atd.
+- Ale máme **multiplikativní** množství softwarů co můžeme vygenerovat
+
+Tbh mi to zní jako docela too good to be true a docela by mě zajímal ten shitstorm, co bude probíhat v pozadí toho "udržování" softwaru - Morčín :D
 
 ![](../../Assets/Pasted%20image%2020250415151445.png)
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250415151632.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599654253-->
 END
 

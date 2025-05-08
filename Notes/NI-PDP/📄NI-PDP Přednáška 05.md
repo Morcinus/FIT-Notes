@@ -237,7 +237,6 @@ Hlavní myšlenka:
 ![](../../Assets/Pasted%20image%2020250321135251.png)
 ![](../../Assets/Pasted%20image%2020250321135304.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653704-->
 END
 
@@ -294,7 +293,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250321135506.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599653729-->
 END
 
@@ -341,7 +339,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250321135653.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653752-->
 END
 
@@ -565,7 +562,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020250321140737.png)
 ![](../../Assets/Pasted%20image%2020250321140742.png)
 ![](../../Assets/Pasted%20image%2020250321140747.png)
-
 <!--ID: 1746599653868-->
 END
 

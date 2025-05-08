@@ -25,7 +25,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250307125655.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599650130-->
 END
 
@@ -88,7 +87,6 @@ Back:
 <!-- ExplanationStart -->
 Je to vyloženě to samý jako u normální entropie, jen prostě se pohybuju na vícerozměrném prostoru (mám více náhodných veličin).
 <!-- ExplanationEnd -->
-
 <!--ID: 1746599650158-->
 END
 
@@ -107,7 +105,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250307125749.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599650165-->
 END
 
@@ -126,7 +123,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250307125812.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599650172-->
 END
 
@@ -148,7 +144,6 @@ Tzn.  $D(p||q) \neq D(q||p)$
 <!-- ExplanationStart -->
 Mám 2 rozdělení na jedné možině p a q. Díky tomuto můžu zkoumat rozdíly mezi těmi rozděleními
 <!-- ExplanationEnd -->
-
 <!--ID: 1746599650179-->
 END
 
@@ -167,7 +162,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250307125845.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599650186-->
 END
 

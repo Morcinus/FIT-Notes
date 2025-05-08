@@ -25,12 +25,12 @@ END
 START
 FIT-Card
 
-Na základě jakých principů jsou postavený NS Theory?
+Na základě jakých principů jsou postavený NS Theory? (2)
 
 Back:
 
 - **Stability** from systems theory
-- **entropy** from statistical thermodynamics
+- **Entropy** from statistical thermodynamics
 <!--ID: 1746599654344-->
 END
 
@@ -40,7 +40,7 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní NS insights?
+Jaké jsou hlavní NS insights ohledně toho, jak zamezit combinatorial effectu?
 
 Back:
 
@@ -84,7 +84,7 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní principy, co zamezí Combinatorial Effects? Co se stane, když jakýkoliv princip poruším?
+Jaké jsou 4 hlavní principy, co zamezí Combinatorial Effects? Co se stane, když jakýkoliv princip poruším?
 
 Back:
 
@@ -122,6 +122,7 @@ Back:
 1. Jako vstup je **mirror/model** - funkcionalita co má mít systém
 2. Z toho vzniknou **elementy** (5)
 3. Code generator (**expanders**) pak sestaví **skeleton** - to jsou parametrizované kopie 5 základních elementů
+4. Do skeletonu se pak přidávají **craftings**, což je custom business logika a customization
 
 ![](../../Assets/Pasted%20image%2020250415104808.png)
 <!--ID: 1746599654377-->
@@ -133,7 +134,7 @@ END
 START
 FIT-Card
 
-Je **skeleton** production ready aplikace?  Co jsou **craftings**?
+Je **skeleton** production ready aplikace? Co jsou **craftings**?
 
 Back:
 
@@ -147,18 +148,18 @@ END
 START
 FIT-Card
 
-Z čeho se skládá Code Generation v NS (elementy)? Jakou důležitou vlastnost mají tyto elementy?
+Jaké elementy (5) se používají v code generation? Jakou důležitou vlastnost mají tyto elementy?
 
 Back:
 
 Jsou to design patterny:
-- Data
-- Action
-- Workflow
-- Trigger
-- Connector
+- **Data**
+- **Action**
+- **Workflow**
+- **Trigger**
+- **Connector**
 
-Důležitá vlastnost: Můžeme u nich dokázat že nemají combinatorial effects
+Důležitá vlastnost: Můžeme u nich **dokázat** že nemají combinatorial effects.
 <!--ID: 1746599654391-->
 END
 

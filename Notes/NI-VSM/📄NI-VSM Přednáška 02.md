@@ -105,7 +105,6 @@ Back:
 2) Když budu třeba náhodnou veličinu v stupních celsia transformovat na střední hodnotu ve Fahrenheitech, tak mi jednoduše stačí pronásobit tu $E$.. Tzn. můžu si jednoduše posouvat hodnoty náhodné veličiny a tu střední hodnotu o nějaké konstanty.
 3) Prostě když mám konstantu, tak její střední hodnota je prostě ta konstanta
 <!-- ExplanationEnd -->
-
 <!--ID: 1746599650515-->
 END
 
@@ -280,7 +279,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220115957.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599650597-->
 END
 
@@ -547,7 +545,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220120511.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599650732-->
 END
 
@@ -674,7 +671,6 @@ _Pozn. tu hustotu $f_X(x)$ si pamatovat nemusíme, prý nám ten vzoreček v pí
 ![](../../Assets/Pasted%20image%2020250220120730.png)
 ![](../../Assets/Pasted%20image%2020250220120737.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599650836-->
 END
 
@@ -729,7 +725,6 @@ Je to jakoby takový "zobecněný faktoriál"
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220120918.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599650860-->
 END
 
@@ -749,7 +744,6 @@ Back:
 Čím vyšší je $p$ tím víc se posouvá střední hodnota
 ![](../../Assets/Pasted%20image%2020250220121330.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599650868-->
 END
 
@@ -829,7 +823,6 @@ Je to gamma rozdělení s parametry s $a=\frac{1}{2}$ a $p=\frac{n}{2}$.
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220122045.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599650911-->
 END
 
@@ -876,7 +869,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220122152.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599650950-->
 END
 
@@ -925,7 +917,6 @@ Back:
 <!-- ExplanationStart -->
 Prostě naskládám několik náhodných veličin (např. výška studenta, barva očí atd.) do vektoru.
 <!-- ExplanationEnd -->
-
 <!--ID: 1746599650984-->
 END
 
@@ -972,7 +963,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220123316.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599651019-->
 END
 
@@ -1009,7 +999,6 @@ Back:
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250220125134.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599651059-->
 END
 
@@ -1121,7 +1110,6 @@ Marginální rozdělení nám jakoby říká souvislost těch dvou náhodných v
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250220125228.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599651141-->
 END
 

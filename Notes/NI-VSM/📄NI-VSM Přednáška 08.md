@@ -113,7 +113,6 @@ Jinými slovy:
 Cauchyho rozdělení nemá tuto střední hodnotu, ke které to konverguje. Proto se to chová dost random
 ![](../../Assets/Pasted%20image%2020250320104116.png)
 <!-- ImageEnd -->
-
 <!--ID: 1746599649824-->
 END
 
@@ -226,7 +225,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250320104446.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599649876-->
 END
 
@@ -443,7 +441,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250320105009.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599649984-->
 END
 
@@ -464,7 +461,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250320105034.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599649991-->
 END
 

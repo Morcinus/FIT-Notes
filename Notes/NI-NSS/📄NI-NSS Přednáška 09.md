@@ -43,7 +43,6 @@ Tzn. cílem je spravovat "meta programming" - např. modelování modelů atd v 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250415155306.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599654036-->
 END
 

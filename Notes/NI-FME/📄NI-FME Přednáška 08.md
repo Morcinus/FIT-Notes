@@ -40,7 +40,6 @@ Back:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250409110616.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599654728-->
 END
 
@@ -210,7 +209,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250409111725.png)
 ![](../../Assets/Pasted%20image%2020250409111736.png)
-
 <!--ID: 1746599654814-->
 END
 

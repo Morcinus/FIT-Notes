@@ -69,7 +69,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164134.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653315-->
 END
 
@@ -89,7 +88,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164219.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653322-->
 END
 
@@ -138,7 +136,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164723.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653335-->
 END
 
@@ -160,7 +157,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217165208.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653348-->
 END
 
@@ -175,7 +171,6 @@ Jaké jsou typy modely paralelní architektury s **distribuovanou pamětí** pod
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217165341.png)
-
 <!--ID: 1746599653355-->
 END
 
@@ -236,7 +231,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217170014.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653378-->
 END
 
@@ -276,7 +270,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217170251.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653391-->
 END
 
@@ -297,7 +290,6 @@ Back:
 Bariéra je docela drahá.
 ![](../../Assets/Pasted%20image%2020250217170833.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653399-->
 END
 
@@ -408,7 +400,6 @@ Máme vyřešit problém. Ten se dá vyřešit sekvenčními algoritmy.
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250217171948.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599653441-->
 END
 
@@ -435,7 +426,6 @@ Důsledek: když programuju paralelně, je lepší mít procesory co nejvyváže
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250217172552.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1746599653449-->
 END
 
@@ -473,7 +463,6 @@ Back:
 <!-- ExampleStart -->
 Doba, jak dlouho jsem využíval všechny procesory. Například když mi někdo poskytne část superpočítače, tak ho bude zajímat, kolik procesorů jsem jak dlouho využíval. Je mu ale jedno, co jsem tam dělal a jak moc jsem je využíval.
 <!-- ExampleEnd -->
-
 <!--ID: 1746599653464-->
 END
 
@@ -538,7 +527,6 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250217173257.png)
 <!-- ProofEnd -->
-
 <!--ID: 1746599653497-->
 END
 
@@ -609,7 +597,6 @@ Je to v procentech (0 až 1).
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217173601.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599653524-->
 END
 
@@ -628,7 +615,6 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250217173547.png)
 <!-- ProofEnd -->
-
 <!--ID: 1746599653531-->
 END
 
