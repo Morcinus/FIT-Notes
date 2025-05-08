@@ -91,3 +91,17 @@ Počet custom craftings - pokud to roste, znamená to, že si dělám moc custom
 END
 
 ---
+
+
+START
+FIT-Card
+
+Vysvětli co je Expander MetaCircle a Developer MetaCircle
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250508145152.png)
+<!--ID: 1746710070290-->
+END
+
+---

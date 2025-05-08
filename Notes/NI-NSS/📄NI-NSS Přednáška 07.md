@@ -81,7 +81,7 @@ END
 START
 FIT-Card
 
-Jaké jsou základní **4 dimenze NSS softwaru**?
+Jaké jsou základní **4 dimenze variability NSS softwaru**?
 
 Back:
 
