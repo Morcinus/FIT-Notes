@@ -63,8 +63,8 @@ Back:
 **Data coupling:**
 Myšlenka, že do modulu (funkce, classy) předám pouze ty informace, které jsou využívané v daném modulu a nic víc.
 
-Stamp coupling
-Předám celý Customer objekt
+**Stamp coupling:**
+Předáváme celou komplexní strukturu - např. celý Customer objekt
 
 Např. nepředám "Customer" objekt, ale pouze "customerName".
 <!--ID: 1746599654300-->
@@ -76,7 +76,7 @@ END
 START
 FIT-Card
 
-Co je antropomorfismus v softwarovém inženýrství?
+Co je **antropomorfismus** v softwarovém inženýrství?
 
 Back:
 
@@ -94,10 +94,10 @@ Jaké byly původní metodologie SI?
 
 Back:
 
-1. Waterfall
-2. OOP
-3. Iterativní development
-4. Use-case driven development
+1. **Waterfall**
+2. **OOP**
+3. **Iterativní development**
+4. **Use-case driven development**
 <!--ID: 1746599654313-->
 END
 
@@ -107,7 +107,7 @@ END
 START
 FIT-Card
 
-Co je myšlenka design patternů?
+Co je myšlenka **design patternů**?
 
 Back:
 
@@ -121,7 +121,7 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní drawbacks momentálních metodologies?
+Jaké jsou hlavní **drawbacks momentálních metodologies**?
 
 Back:
 

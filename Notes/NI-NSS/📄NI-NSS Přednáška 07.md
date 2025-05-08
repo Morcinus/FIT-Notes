@@ -28,7 +28,7 @@ END
 START
 FIT-Card
 
-Jak funguje Expansion?
+Jak funguje **Expansion**?
 
 Back:
 
@@ -46,7 +46,7 @@ END
 START
 FIT-Card
 
-Jak funguje updatování Element Structure?
+Jak funguje **updatování Element Structure**?
 
 Back:
 
@@ -69,7 +69,7 @@ END
 START
 FIT-Card
 
-Co je Harvesting process?
+Co je **Harvesting process**?
 
 Back:
 
@@ -85,7 +85,7 @@ END
 START
 FIT-Card
 
-Jaké jsou základní 4 dimenze softwaru?
+Jaké jsou základní **4 dimenze NSS softwaru**?
 
 Back:
 

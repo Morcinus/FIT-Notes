@@ -102,7 +102,7 @@ END
 START
 FIT-Card
 
-Co je Normalized system?
+Co je **Normalized system**?
 
 Back:
 

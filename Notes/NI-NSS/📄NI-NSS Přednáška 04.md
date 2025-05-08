@@ -11,7 +11,7 @@ FILE TAGS: NI-NSS prednaska04 status-toReview
 START
 FIT-Card
 
-Kdy je systém považovaný za stabilní?
+Kdy je systém považovaný za **stabilní**?
 
 Back:
 
@@ -39,7 +39,7 @@ END
 START
 FIT-Card
 
-Jak principielně fungují change ripples v softwarovém inženýrství?
+Jak principielně fungují change **ripples** v softwarovém inženýrství?
 
 Back:
 

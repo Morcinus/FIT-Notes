@@ -11,7 +11,7 @@ FILE TAGS: NI-NSS prednaska05 status-toReview
 START
 FIT-Card
 
-Jak funguje Separation of Concerns v kontextu NP?
+Jak funguje **Separation of Concerns** v kontextu NP?
 
 Back:
 

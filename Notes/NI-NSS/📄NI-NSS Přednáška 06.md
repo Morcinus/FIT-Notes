@@ -11,7 +11,7 @@ FILE TAGS: NI-NSS prednaska06 status-toReview
 START
 FIT-Card
 
-Co je princip Separating Cross-Cutting Concerns?
+Co je princip **Separating Cross-Cutting Concerns**?
 
 Back:
 
@@ -25,7 +25,7 @@ END
 START
 FIT-Card
 
-Co je Element?
+Co je **Element**?
 
 Back:
 
@@ -65,7 +65,7 @@ END
 START
 FIT-Card
 
-Jaké jsou základní typy elementů? (5)
+Jaké jsou **základní typy elementů**? (5)
 
 Back:
 
@@ -83,7 +83,7 @@ END
 START
 FIT-Card
 
-Jaká je hlavní nevýhoda Elementů?
+Jaká je hlavní **nevýhoda Elementů**?
 
 Back:
 
@@ -97,7 +97,7 @@ END
 START
 FIT-Card
 
-Co je expansion a expanders?
+Co je **expansion** a **expanders**?
 
 Back:
 
