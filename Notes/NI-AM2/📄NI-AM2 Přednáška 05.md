@@ -324,7 +324,7 @@ Back:
 
 Jako nejlepší by bylo ho mít uložený na serveru a na klientovi ho nemít uložený vůbec.
 
-Jde ale o to, že tak jako tak musím mít na klientovi něco, co mi umožní
+Jde ale o to, že tak jako tak musím mít na klientovi něco, co mi umožní zůstat přihlášený, takže stejně dost aplikací ukládá JWT na frontendu
 <!--ID: 1746520169077-->
 END
 
@@ -339,7 +339,11 @@ Co je OpenID Connect?
 
 Back:
 
+Nadstavba nad OAuth 2.0, která umožňuje provádět funkcionality OpenID (aka získání identity a informací o uživateli).
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318122148.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746520169080-->
 END
 
@@ -353,9 +357,41 @@ Jaký je rozdíl mezi OpenID a OpenID Connect?
 
 Back:
 
+**OpenID** = původní standard asi z roku 2000
+**Open ID Connect (OIDC)** = to co se prakticky používá, nadstavba OAuth 2.0, využívá JWT a lepší security 
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318122206.png)
-![](../../Assets/Pasted%20image%2020250318122213.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746520169083-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje získání identity pomocí OIDC?
+
+Back:
+
+Uživatel na klientovi chce přistoupit k osobním datům.
+
+1. **User** pošle request na **server**, že chce osobní data
+2. **Server** zjistí, že uživatel není přihlášený, tak ho redirectne na OIDC
+3. **Uživatel** na OIDC vyplní údaje a povolí access ke svým datům
+4. **OIDC** uživatele redirectne na callback URL té aplikace společně s `authorization code`
+5. **Server** z callback URL získá kód a pošle request na **OIDC**, aby mu kód vyměnil za `access token` a `refresh token`
+6. **OIDC** pošle serveru `access token` a `refresh token`
+7. **Server** už s access tokenem pošle requet na **OIDC** k získání osobních informací uživatele
+8. **OIDC** vrátí informace
+9. **Server** konečně servne požadované informace klientovi (uživateli)
+
+Jednodušší by to být nemohlo :D
+
+![](../../Assets/Pasted%20image%2020250318122213.png)
+<!--ID: 1746878348073-->
 END
 
 ---
