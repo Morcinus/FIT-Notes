@@ -14,6 +14,15 @@ Proč vzniklo OAuth2?
 
 Back:
 
+Většina aplikací je v cloudu 
+-> díky public APIs se aplikace dají rozšiřovat 
+-> ty rozšiřující aplikace potřebují přístup k soukromým datům uživatele 
+-> je potřeba systém, kde můžeme dát rozšiřujícím aplikacím přístup bez toho, abychom jim dali přihlašovací údaje (např. jméno a heslo) uživatele 
+
+Proč je hloupý to dělat přes jméno a heslo:
+- Uživatel musí dát rozšiřující aplikaci heslo - což je samo o sobě stupidní, protože ta appka by toho mohla zneužít
+- Uživatel nemůže jednoduše kontrolovat, po jakou dobu má aplikace přístup. Kdyby jí chtěl přístup odebrat, musel by změnit a znovu zadat heslo ve všech rozšiřujících aplikacích
+
 ![](../../Assets/Pasted%20image%2020250318121217.png)
 ![](../../Assets/Pasted%20image%2020250318121228.png)
 <!--ID: 1746520169032-->
@@ -28,6 +37,14 @@ FIT-Card
 Jaké jsou cíle OAuth 2.0?
 
 Back:
+
+- Poskytnout přístup third-party apps
+- Uživatele mohou kdykoliv revokenout přístup
+- support pro
+	- server-side apps - authorization code
+	- client-side apps - implicit grant
+	- native (desktop) apps - authorization code
+
 
 ![](../../Assets/Pasted%20image%2020250318121246.png)
 <!--ID: 1746520169035-->
@@ -123,9 +140,17 @@ END
 START
 FIT-Card
 
-Jak funguje OAuth2 u client-server komunikace?
+Jak funguje OAuth2 Client-side Web Apps Protocol?
 
 Back:
+
+Začátek: uživatel je v rozšiřující aplikaci (=client)
+1. Client redirectne uživatele na **authorization endpoint** (server)
+2. Uživatel povolí přístup k resources
+3. Auth server pošle klientovi `access_token` a `expires_in`
+4. Client nyní může používat `access_token` (než se dovrší čas expirace, potom se celý proces musí udělat znovu)
+
+Pokud access token expirene, resource server vrací `401 Unauthorized`
 
 ![](../../Assets/Pasted%20image%2020250318121636.png)
 ![](../../Assets/Pasted%20image%2020250318121646.png)
@@ -141,9 +166,30 @@ END
 START
 FIT-Card
 
+Jakými způsoby lze posílat `access_token` když přistupuju k Resource serveru? (2)
+
+Back:
+
+Buď jako query string - `.../data?oauth_token=[TOKEN]`
+
+Nebo jako HTTP Header - `Authorization: OAuth [TOKEN]`
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Jak funguje Cross-Origin Resource Sharing proces?
 
 Back:
+
+1. **Majitel clienta** (rozšiřující aplikace) zaregistruje aplikaci na Auth Serveru. Ten přidá aplikaci na seznam povolených originů.
+2. Uživatel povolí access k resources pomocí OAuth
+3. Auth Server řekne Resource serveru, že má povolit daný origin pro danou resource
+4. Resource server pak bude mít v `Access-Control-Allow-Origin` také origin
 
 ![](../../Assets/Pasted%20image%2020250318121757.png)
 <!--ID: 1746520169057-->
@@ -160,6 +206,13 @@ FIT-Card
 Jak funguje server-side OAuth2?
 
 Back:
+
+1. Klient (server side) redirectne uživatele na auth server
+2. Uživatel grantne access
+3. Auth server dá **authorization code**
+4. Klient (server) requestne **access** a **refresh token** a dostane ho
+5. Klient (server) pak accessuje resource s access tokenem
+6. Pokud access token expirene, refreshne se s refresh tokenem
 
 ![](../../Assets/Pasted%20image%2020250318121845.png)
 ![](../../Assets/Pasted%20image%2020250318121836.png)
