@@ -173,7 +173,7 @@ Back:
 Buď jako query string - `.../data?oauth_token=[TOKEN]`
 
 Nebo jako HTTP Header - `Authorization: OAuth [TOKEN]`
-
+<!--ID: 1746871652334-->
 END
 
 ---
@@ -199,29 +199,6 @@ END
 
 ### Server-side Web Apps
 
-
-START
-FIT-Card
-
-Jak funguje server-side OAuth2?
-
-Back:
-
-1. Klient (server side) redirectne uživatele na auth server
-2. Uživatel grantne access
-3. Auth server dá **authorization code**
-4. Klient (server) requestne **access** a **refresh token** a dostane ho
-5. Klient (server) pak accessuje resource s access tokenem
-6. Pokud access token expirene, refreshne se s refresh tokenem
-
-![](../../Assets/Pasted%20image%2020250318121845.png)
-![](../../Assets/Pasted%20image%2020250318121836.png)
-<!--ID: 1746520169060-->
-END
-
----
-
-
 START
 FIT-Card
 
@@ -229,7 +206,13 @@ Jaká je výhoda server-side OAuth?
 
 Back:
 
+Tokeny jsou bezpečně uloženy na serveru, uživatel musí být přihlášený, aby mohl využívat a získat přístup k tokenům. 
+
+(Na frontendu stačí otevřít cache/cookies/storage a člověk to vidí i když není přihlášený)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318121902.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746520169063-->
 END
 
@@ -241,12 +224,27 @@ FIT-Card
 
 Popiš jak detailně funguje OAuth2.0 při server side komunikaci
 
+(Server-side Web Apps Protocol)
+
 Back:
 
+1. Klient (server side) redirectne uživatele na auth server
+2. Uživatel grantne access
+3. Auth server řekne Resource serveru, aby povolil access s daným `access_token` a `expires_in`.
+4. Auth server dá **authorization code** klientovi
+5. Klient (server) pomocí authorization code requestne **access** a **refresh token** na token endpointu (na auth serveru) a dostane ho
+6. Klient (server) pak accessuje resource s access tokenem
+7. Pokud access token expirene, refreshne se s refresh tokenem na token endpointu
+
+<!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250318121925.png)
+<!-- ImageEnd -->
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318121931.png)
 ![](../../Assets/Pasted%20image%2020250318121937.png)
 ![](../../Assets/Pasted%20image%2020250318122002.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746520169066-->
 END
 
@@ -260,7 +258,14 @@ K čemu je dobrý OpenID protokol?
 
 Back:
 
+Aby si člověk nemusel pamatovat hromadu hesel k aplikacím, tak je OpenID provider, který umožňuje se přihlašovat pomocí jednoho účtu k mnoha aplikacím.
+
+Např. přes Google account se člověk může přihlašovat všude možně
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318122056.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1746520169069-->
 END
 
@@ -273,6 +278,16 @@ FIT-Card
 Jak funguje OpenID protokol (jednotlivé kroky)?
 
 Back:
+
+1. Web Appka ukáže přihlašovací okénko
+2. Uživatel vybere daného OpenID providera (např. Google)
+3. **discovery** - appka pošle request providerovi
+4. **XRDS document** - provider pošle dokument v němž jsou informace, kam se mají posílat login requesty (kam se má odkázat uživatel)
+5. Web Appka redirectne uživatele na danou adresu OpenID providera
+6. Provider redirectne uživatele na sign-in page
+7. Uživatel se přihlásí a povolí přístup webové aplikaci k jeho identitě
+8. OpenID provider redirectne uživatele zpět do web appky (a předá appce identitu)
+9. Web appka nyní může využívat identitu
 
 ![](../../Assets/Pasted%20image%2020250318122116.png)
 ![](../../Assets/Pasted%20image%2020250318122123.png)
