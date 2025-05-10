@@ -265,7 +265,6 @@ Např. přes Google account se člověk může přihlašovat všude možně
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250318122056.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746520169069-->
 END
 
