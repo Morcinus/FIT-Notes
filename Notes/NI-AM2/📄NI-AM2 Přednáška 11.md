@@ -215,9 +215,7 @@ FIT-Card
 
 Popiš **Docker Container State Diagram**
 
-(rip lol - ale není to tak těžký a je asi fajn to umět)
-
-![](../../Assets/Pasted%20image%2020250512132556.png)
+![](../../Assets/Pasted%20image%2020250512132557.png)
 
 Back:
 
