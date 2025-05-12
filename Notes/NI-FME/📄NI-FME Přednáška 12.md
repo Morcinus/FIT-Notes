@@ -67,7 +67,6 @@ Máme najít program, který splňuje danou specifikaci např.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250507110857.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746871652275-->
 END
 
@@ -144,7 +143,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250507111548.png)
 ![](../../Assets/Pasted%20image%2020250507111556.png)
-
 <!--ID: 1746871652295-->
 END
 

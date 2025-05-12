@@ -10,7 +10,7 @@ FILE TAGS: NI-AM2 prednaska08 status-toReview
 START
 FIT-Card
 
-Co je multitenancy požadavek na aplikaci?
+Co je **multitenancy** požadavek na aplikaci?
 
 Back:
 
@@ -28,7 +28,7 @@ END
 START
 FIT-Card
 
-Co je lift and shift princip?
+Co je **lift and shift** princip?
 
 Back:
 
@@ -42,11 +42,13 @@ END
 START
 FIT-Card
 
-Co je koncept Shared Everything?
+Co je koncept **Shared Everything**?
 
 Back:
 
-Zdroje jsou sdílené mezi tenantama nebo consumerama
+Všechny zdroje jsou sdílené mezi tenantama nebo consumerama.
+
+Typicky u SaaS aplikace máme pro všechny jednu web aplikaci, jednu databázi, jeden backend atd.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145740.png)
@@ -60,11 +62,16 @@ END
 START
 FIT-Card
 
-Co je Shared Infrastructure - Virtual Machines?
+Jak funguje **Shared Infrastructure - Virtual Machines**?
 
 Back:
 
-Infrastruktura je sdílena přes virtual machines
+Infrastruktura je sdílena přes virtual machines.
+
+- Každý tenant má **svoje virtuální prostředí** (=virtual machines s vlastním OS)
+- Prostředí jsou řízeny **hypervizorem** nad danou **shared infrastrukturou**
+
+![](../../Assets/Pasted%20image%2020250511144657.png)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145831.png)
@@ -78,13 +85,16 @@ END
 START
 FIT-Card
 
-Co je Shared Infrastructure - OS Virtualization?
+Co je **Shared Infrastructure - OS Virtualization**?
 
 Back:
 
-Infrastruktura je sdílena přes OS Virtualizaci.
+- Každý tenant má **svoje virtuální prostředí**
+- Prostředí jsou řízeny **přímo operačním systémem** nad danou **shared infrastrukturou** (= OS virtualizace)
 
-Není žádná mezivrstva mezi operačním systémem a aplikací, sám OS poskytuje tu izolaci
+Tzn. Není žádná mezivrstva mezi operačním systémem a aplikací, sám OS poskytuje tu izolaci.
+
+![](../../Assets/Pasted%20image%2020250511144702.png)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413145857.png)
@@ -99,18 +109,18 @@ END
 START
 FIT-Card
 
-Co je Infrastruktura v Iaas?
+Co je **Infrastruktura** v Iaas? Co všechno zahrnuje? (5)
 
 Back:
 
 Prostředí ve kterém běží naše aplikace.
 
 Zahrnuje to i:
-- servers
-- connectivity
-- storage
-- identity management
-- monitoring, logging, auditing
+- **servers**
+- **connectivity** (networks, firewalls, route tables)
+- **storage** (pro OS a app data)
+- **identity management** (tenancy)
+- **monitoring, logging, auditing**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413150232.png)
@@ -124,11 +134,11 @@ END
 START
 FIT-Card
 
-Co je region v infrastruktuře? Proč je důležitý vybrat správný region?
+Co je **region** v infrastruktuře? Proč je důležitý vybrat správný region? (2)
 
 Back:
 
-- Region = Kde se nachází moje aplikace
+- **Region** = Kde se nachází moje aplikace
 - Je důležit kvůli **latency** a **regulations**
 <!--ID: 1746518887326-->
 END
@@ -153,13 +163,18 @@ END
 START
 FIT-Card
 
-Co je datové centrum?
+Co je **datové centrum**? Jaké jsou části **hierarchie**, ve které se nachází **datové centrum**?
 
 Back:
 
-V rámci regionu je typicky více datových center poskytovatele (např. AWS, Azure,...). To je budova, kde jsou uložená data jednotlivých aplikací.
+Typicky budova, ve které jsou **výpočetní zdroje**.
+- V rámci regionu je typicky více datových center poskytovatele (např. AWS, Azure,...).
 
-Mezi datovými centry je fyzická síť, nad ní je virtuální síť a nad tou teprve běží konkrétní storage, CPUs atd.
+**Hierarchie**:
+- **Datová centra** (regiony)
+- **Fyzická síť** - spojuje datová centra
+- **Virtuální síť** - je nad fyzickou
+- **Zdroje** (storage, databáze, security,...) - to běží až nad tou virtuální sítí (viz obrázek)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413151106.png)
@@ -173,15 +188,15 @@ END
 START
 FIT-Card
 
-Jak se liší dřívější Gen 1.0 Cloud a nynější gen 2.0 Cloud?
+Jak se liší dřívější **Gen 1.0 Cloud** a nynější **Gen 2.0 Cloud**?
 
 Back:
 
-Gen 1.0:
+**Gen 1.0:**
 - Máme fyzický stroj, na něm hypervizor (software), díky kterému máme virtuální servery
 - Problém: Kvůli multitenancy se může stát, že pokud jeden stroj se se hodně zatíží zákazníkem, tak to může ovlivnit chod jiné aplikace (což porušuje izolaci tenantů)
 
-Gen 2.0:
+**Gen 2.0:**
 - Přesunula izolovanost na úroveň síťové karty
 - Díky tomu se izolace posunula na úroveň hardwaru a vyřešil se tím ten problém
 
@@ -197,7 +212,7 @@ END
 START
 FIT-Card
 
-Čeho je zkratka VCN?
+Čeho je zkratka **VCN**?
 
 Back:
 
@@ -211,16 +226,18 @@ END
 START
 FIT-Card
 
-Co je **VCN**?
+Co je **VCN**? Jak funguje?
 
 Back:
 
-1. Zadefinujeme si nějakou IP adresu - součástí toho je adresa sítě a pak jednotlivých zařízení (to známe z PSI)
-2. Rozdělíme síť do dalších podsítí (**subnety**). V rámci těch podsítí jsou pak teprve ty zařízení
+VCN = privátní síť v rámci **jednoho regionu**, ve které nám běží naše instance
 
-Pak pro ty jednotlivé subnety můžu definovat pravidla.
+1. **Zadefinujeme si IP adresu sítě** - díky tomu máme adresu sítě a nějaký rozsah ve kterém mají adresy jednotlivá zařízení
+2. Rozdělíme síť do **subnetů** (podsítí). V rámci podsítí pak teprve máme ty zařízení.
 
-V rámci VCN tedy máme typicky několik subnetů
+Pak pro ty jednotlivé **subnety** můžu definovat **pravidla** a **přístupy**.
+
+V rámci VCN tedy máme typicky několik subnetů.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250413151633.png)
@@ -257,11 +274,11 @@ END
 START
 FIT-Card
 
-Co znamená pojem Bastion?
+Co znamená pojem **Bastion**?
 
 Back:
 
-Bastion je "výčlenek" v rámci opevnění hradu, kde může sedět člověk a např. koukat, kde se co děje
+**Bastion** je "výčlenek" v rámci opevnění hradu, kde může sedět člověk a např. koukat, kde se co děje
 
 V cloudu to je vstupní bod do dané infrastruktury.
 
@@ -293,7 +310,7 @@ END
 START
 FIT-Card
 
-Jak se liší local peering a remote peering?
+Jak se liší **local peering** a **remote peering**?
 
 Back:
 
@@ -310,7 +327,7 @@ END
 START
 FIT-Card
 
-Co je "shape"?
+Co je "**shape**" v cloud computingu?
 
 Back:
 
@@ -330,11 +347,11 @@ END
 START
 FIT-Card
 
-Co je Virtual Machine?
+Co je **Virtual Machine** (hosting/služba)?
 
 Back:
 
-Multi-tenantní model
+**Multi-tenantní model**
 - Hypervizor virtualizuje nad Bare Metal serverem a vytváří tím více Virtual Machines
 <!--ID: 1746518887356-->
 END
@@ -345,11 +362,11 @@ END
 START
 FIT-Card
 
-Co je Bare Metal?
+Co je **Bare Metal** (hosting/služba)?
 
 Back:
 
-Služba single-tenantního model
+Služba **single-tenantního model**
 - Můžu si pronajmout fyzický server (vyloženě mám hardware celý pro sebe)
 - Mám přímý access k hardwaru (pro určté úlohy se to může hodit, můžu si nainstalovat vlastní hypervizor)
 <!--ID: 1746518887359-->
@@ -361,7 +378,7 @@ END
 START
 FIT-Card
 
-Co je Dedicated VM Hosts (DVM)
+Co je **Dedicated VM Hosts** (DVM) (hosting/služba)?
 
 Back:
 
@@ -377,11 +394,11 @@ END
 START
 FIT-Card
 
-Co je Image?
+Co je **Image** v kontextu infrastruktury?
 
 Back:
 
-Template pro virtuální hard drive s operačním systémem (jako v dockeru).
+Template pro virtuální hard drive s operačním systémem (podobně jako v dockeru).
 - Je to uložené v boot volume
 
 <!-- DetailInfoStart -->
@@ -396,13 +413,13 @@ END
 START
 FIT-Card
 
-Jak funguje Autoškálování?
+Jak funguje **autoškálování**?
 
 Back:
 
-1. Vytvořím konfiguraci instance (nodu) - image, shape, do jakých subnets instance patří atd.
-2. Potom s danou konfigurací můžu vytvářet další nody
-3. Potom můžu definovat pravidla - např. když vytížení CPU přesáhne 80%, tak chci aby se mi přidala další node
+1. Vytvořím **konfiguraci instance** (nodu) - image, shape, do jakých subnets instance patří atd.
+2. Potom s danou konfigurací můžu **vytvářet další nody**
+3. Potom můžu **definovat pravidla** - např. když vytížení CPU přesáhne 80%, tak chci aby se mi přidala další node
 
 Díky tomu můžu takto infrastrukturu dynamicky nafukovat a vyfukovat.
 
@@ -420,7 +437,7 @@ END
 START
 FIT-Card
 
-Jaká je nevýhoda autoškálování v IaaS?
+Jaká je **nevýhoda autoškálování** v IaaS?
 
 Back:
 
@@ -436,7 +453,7 @@ END
 START
 FIT-Card
 
-Jak funguje Load Balancer v Iaas?
+Jak funguje **Load Balancer v Iaas**? Jaké jsou 2 typy loadbalanceru?
 
 Back:
 

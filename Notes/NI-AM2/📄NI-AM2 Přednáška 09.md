@@ -11,7 +11,7 @@ FILE TAGS: NI-AM2 prednaska09 status-toReview
 START
 FIT-Card
 
-Jak se u IaaS zajišťuje High Availability?
+Jak se u IaaS zajišťuje **High Availability**?
 
 Back:
 
@@ -29,7 +29,7 @@ END
 START
 FIT-Card
 
-Jaký protokol se používá při floating IP address?
+Jaký **protokol** se používá při floating IP address?
 
 Back:
 
@@ -44,7 +44,7 @@ END
 START
 FIT-Card
 
-Co je block storage?
+Co je **block storage**? Jaký **protokol** se používá?
 
 Back:
 
@@ -52,7 +52,7 @@ Máme instanci (node), k ní potřebujeme:
 - **boot volume** - to je malý block storage, kde máme image, ze kterýho node bootujeme
 - **data volume** - tam máme file systém a perzistentní data
 
-Tyto dva disky jsou v nějakém storage serveru, typicky to není fyzicky přímo u toho mého node. Proto se používá protokol iSCSI, který se používá pro komunikaci mezi nodem a diskem.
+Tyto dva disky jsou v nějakém storage serveru, typicky to není fyzicky přímo u toho mého node. Proto se používá protokol **iSCSI**, který se používá pro komunikaci mezi nodem a diskem.
 
 Když máme více nodů, můžu pak mít třeba sdílený disk mezi více nodama. K tomu se používá služba FSS. Připojení k disku se pak děje pomocí protokolu NFS (místo iSCSI). Díky tomu pak mám např. sdílený adresář.
 
@@ -68,7 +68,7 @@ END
 START
 FIT-Card
 
-Mají nody vlastní ssd disky?
+Mají **nody v infrastruktuře** vlastní **ssd disky**?
 
 Back:
 
@@ -82,7 +82,7 @@ END
 START
 FIT-Card
 
-Co je Object storage?
+Co je **Object storage**?
 
 Back:
 
@@ -104,12 +104,12 @@ END
 START
 FIT-Card
 
-Jaké jsou 2 typy bucketů?
+Jaké jsou **2 typy bucketů**?
 
 Back:
 
-- Hot bucket - standardní uložiště, můžu k tomu přistupovat kdykoliv
-- Cold bucket - používá se typicky na archivaci, nepředpokládá se, že k tomu budu často přistupovat
+- **Hot bucket** - standardní uložiště, můžu k tomu přistupovat kdykoliv
+- **Cold bucket** - používá se typicky na archivaci, nepředpokládá se, že k tomu budu často přistupovat
 	- TTFB - time to first byte - jak dlouho mi bude trvat, než se dostanu k datům
 	- Levnější úložiště, ale dražší přístup
 <!--ID: 1746518887390-->
@@ -121,11 +121,11 @@ END
 START
 FIT-Card
 
-Co je IaC?
+Co je **IaC**?
 
 Back:
 
-Infrastructure as Code - myšlenka je, že infrastrukturu bych si měl moct zadefinovat v kódu (a ne že to jak retard musím naklikávat v GUI)
+**Infrastructure as Code** - myšlenka je, že infrastrukturu bych si měl moct zadefinovat v kódu (a ne že to jak retard musím naklikávat v GUI)
 <!--ID: 1746518887393-->
 END
 
@@ -135,7 +135,7 @@ END
 START
 FIT-Card
 
-Jaké 2 technologie se používají pro IaC?
+Jaké **2 technologie** se používají pro **IaC**?
 
 Back:
 
@@ -183,7 +183,7 @@ END
 START
 FIT-Card
 
-Co je Cloud Native?
+Co je **Cloud Native**?
 
 Back:
 
@@ -203,11 +203,11 @@ END
 START
 FIT-Card
 
-Co je CNCF?
+Co je **CNCF**?
 
 Back:
 
-Cloud Native Computing Foundation
+**Cloud Native Computing Foundation**
 
 Je to odnož Linux foundation, je to obří open source komunita/organizace, co má na starost vyvíjet technologie pro cloud.
 <!--ID: 1746518887407-->
@@ -219,7 +219,7 @@ END
 START
 FIT-Card
 
-Co je prinicip Lift and Shift?
+Co je prinicip **Lift and Shift**?
 
 Back:
 
@@ -237,7 +237,7 @@ END
 START
 FIT-Card
 
-Co je CNCF Trail Map?
+Co je **CNCF Trail Map**? Jaké má části (5)
 
 Back:
 
@@ -260,13 +260,13 @@ END
 START
 FIT-Card
 
-Co je GitOps a ArgoCD?
+Co je **GitOps** a **ArgoCD**?
 
 Back:
 
-GitOps = pomocí manifestů/definicí zadefinuju infrastrukturu a zálohuju ji pomocí Gitu
+**GitOps** = pomocí manifestů/definicí zadefinuju infrastrukturu a zálohuju ji pomocí Gitu
 
-ArgoCD = sleduje stav zdrojů v gitu a synchronizuje mi obsah s Kubernetes
+**ArgoCD** = sleduje stav zdrojů v gitu a synchronizuje mi obsah s Kubernetes
 - Tzn. když udělám např. push, tak se mi a podle toho skutečně změní infrastruktura
 <!--ID: 1746518887414-->
 END
@@ -277,7 +277,7 @@ END
 START
 FIT-Card
 
-Dává smysl pustit monolytickou aplikaci v Kubernetes?
+Dává smysl pustit **monolytickou** aplikaci v **Kubernetes**?
 
 Back:
 

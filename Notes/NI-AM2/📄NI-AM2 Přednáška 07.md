@@ -9,7 +9,7 @@ FILE TAGS: NI-AM2 prednaska07 status-toReview
 START
 FIT-Card
 
-Co je CAPEX a OPEX?
+Čeho jsou zkratky CAPEX a OPEX?
 
 Back:
 - **CAPEX** - Capital expanditure
@@ -42,7 +42,9 @@ Co je OPEX?
 
 Back:
 
-Když nekoupím server, ale místo toho kopím cloud jako službu, tak si to můžu odepisovat pravidelně, protože to je operational cost.
+Když nekoupím server, ale místo toho koupím cloud jako službu, tak si to můžu odepisovat pravidelně, protože to je operational cost.
+
+OPEX je kompletně tax-deductible
 
 ![](../../Assets/Pasted%20image%2020250331133214.png)
 <!--ID: 1746520168977-->
@@ -76,9 +78,9 @@ Co jsou IAAS, PAAS, SAAS?
 
 Back:
 
-- Iaas - Hardwarová vrstva
-- Paas - Softwarová vrstva
-- Saas - už konkrétní funkce atd.
+- IaaS - Hardwarová vrstva (virtualizace, servers, storage, networking)
+- PaaS - Softwarová vrstva (IaaS + OS, middlewares, runtime)
+- SaaS - už konkrétní software (PaaS + data a aplikace)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331134818.png)
@@ -93,7 +95,8 @@ END
 START
 FIT-Card
 
-Co vysvětluje tento obrázek?
+Co vysvětluje tento obrázek? V čem mi pomůže cloud?
+
 ![](../../Assets/Pasted%20image%2020250331133635.png)
 
 Back:
@@ -116,8 +119,8 @@ Co je **on-demand** a **self-service**?
 
 Back:
 
-- **on-demand** - provozuju službu když ji potřebuju (např. sám se mi zapne server)
-- **self-service** - dělá se to automatizovaně, nemusí zasahovat člověk
+- **on-demand** - využívám službu/zdroje když ji potřebuju, můžu si to v řádech minut měnit
+- **self-service** - můžu si službu/zdroj řídit sám skrze nějaké GUI nebo CLI - nemusím např. volat do Googlu, aby mi to upravili oni (to samotné nastavení se pak udělá automatizovaně)
 <!--ID: 1746520168988-->
 END
 
@@ -141,7 +144,7 @@ END
 START
 FIT-Card
 
-Co je tenant a multitenant?
+Co je **tenant** a **multitenant**?
 
 Back:
 
@@ -160,8 +163,8 @@ Co je Resource pooling?
 
 Back:
 
-Zdroje jsou využívány více klientama (multitenancy)
-- Tzn. na jednom serveru např. běží různé aplikace různých firem například v dockeru. Navzájem o sobě nic neví
+- Zdroje jsou využívány více klientama (multitenancy)
+- Zdroje se dynamicky přiřazují podle poptávky jednotlivých tenantů
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331134205.png)
@@ -197,7 +200,7 @@ Co je **scalability and elasticity**?
 
 Back:
 
-- Aplikace se může škálovat
+- Aplikace se může škálovat (rozšiřovat/zúžovat)
 - Automatizovaně nebo manuálně
 <!--ID: 1746520169003-->
 END
@@ -284,14 +287,13 @@ END
 START
 FIT-Card
 
-Co mi definuje IaaS
+Čím je definovaná IaaS? (2)
 
 Back:
 
-- Typicky:
-	- 
-	- Paměť (613 MB memory)
-	- Storage (1 TB block storage)
+Typicky:
+- **Paměť** (613 MB memory)
+- **Storage** (1 TB block storage)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250331140135.png)

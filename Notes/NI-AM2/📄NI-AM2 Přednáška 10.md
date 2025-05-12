@@ -9,15 +9,15 @@ FILE TAGS: NI-AM2 prednaska10 status-toReview
 START
 FIT-Card
 
-Co je virtual server vs container?
+Co je **virtual server/machine** vs **container**?
 
 Back:
 
-Virtual server/machine
+**Virtual server/machine**
 - Máme operační systém (Host OS), na něm nám běží hypervizor, který umožňuje pak rozběhnout (Guest OS) - tzn. vytvořit virtual machine na který pak můžu instalovat aplikace.
 	- Nevýhoda: když chci udělat více virtual servers s aplikacema co mají nějaký dependencies, tak to musím kopírovat pro každou instanci (protože jsou virtual servery oddělené), což je neefektivní
 
-Container
+**Container**
 - Máme bare metal nebo virtuální stroj, na něm běží host OS (typicky Linux)
 - Vytváříme **Konteiner** = proces, který patří do daného namespace (úrovně izolace)
 - Vrstvy image jsou read only, nejvyšší vrstva je na write i read.
@@ -34,7 +34,7 @@ END
 START
 FIT-Card
 
-Jaké jsou vrstvy containerů?
+Jaké jsou **vrstvy containerů**?
 
 Back:
 
@@ -79,7 +79,7 @@ END
 START
 FIT-Card
 
-Co je Container Engine/Runtime?
+Co je **Container Engine/Runtime**?
 
 Back:
 
@@ -93,7 +93,7 @@ END
 START
 FIT-Card
 
-Co je Client?
+Co je **Client**?
 
 Back:
 
@@ -123,7 +123,7 @@ END
 START
 FIT-Card
 
-Co je Swarm?
+Co je **Swarm**?
 
 Back:
 
@@ -138,17 +138,17 @@ END
 START
 FIT-Card
 
-Jaké jsou linux namespaces? (7)
+Jaké jsou **linux namespaces**? (7)
 
 Back:
 
-- Mount
-- UTS
-- IPC
-- PIC
-- Network
-- User
-- Cgroup
+- **Mount**
+- **UTS**
+- **IPC**
+- **PIC**
+- **Network**
+- **User**
+- **Cgroup**
 
 Pomocí namespaces se určují úrovně izolovanosti.
 <!--ID: 1746518887444-->
@@ -198,7 +198,7 @@ END
 START
 FIT-Card
 
-Co je UTS namespace?
+Co je **UTS namespace**?
 
 Back:
 
@@ -216,7 +216,7 @@ END
 START
 FIT-Card
 
-Co je IPC namespace?
+Co je **IPC namespace**?
 
 Back:
 
@@ -234,7 +234,7 @@ END
 START
 FIT-Card
 
-Co je PID namespace?
+Co je **PID namespace**?
 
 Back:
 
@@ -254,7 +254,7 @@ END
 START
 FIT-Card
 
-Co je net namespace?
+Co je **net namespace**?
 
 Back:
 
@@ -274,7 +274,7 @@ END
 START
 FIT-Card
 
-Co je user namespace?
+Co je **user namespace**?
 
 Back:
 
@@ -292,7 +292,7 @@ END
 START
 FIT-Card
 
-Co je cgroup namespace?
+Co je **cgroup namespace**?
 
 Back:
 
@@ -324,7 +324,7 @@ END
 START
 FIT-Card
 
-Co je OverlayFS?
+Co je **OverlayFS**?
 
 Back:
 
@@ -338,13 +338,13 @@ END
 START
 FIT-Card
 
-Jaké jsou vrstvy v image?
+Jaké jsou **vrstvy v image**? (3)
 
 Back:
 
-- merged - 
-- upperdir - jsou to read/write vrstvy
-- lowerdir - všechny vrstvy v rámci image (to se stahuje, když dám docker pull) 
+- **merged** - ???
+- **upperdir** - jsou to read/write vrstvy
+- **lowerdir** - všechny vrstvy v rámci image (to se stahuje, když dám docker pull) 
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501140722.png)
@@ -353,5 +353,3 @@ Back:
 END
 
 ---
-
-
