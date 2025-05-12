@@ -54,12 +54,24 @@ Máme instanci (node), k ní potřebujeme:
 
 Tyto dva disky jsou v nějakém storage serveru, typicky to není fyzicky přímo u toho mého node. Proto se používá protokol **iSCSI**, který se používá pro komunikaci mezi nodem a diskem.
 
-Když máme více nodů, můžu pak mít třeba sdílený disk mezi více nodama. K tomu se používá služba FSS. Připojení k disku se pak děje pomocí protokolu NFS (místo iSCSI). Díky tomu pak mám např. sdílený adresář.
-
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414120505.png)
 <!-- DetailInfoEnd -->
 <!--ID: 1746518887382-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Když mám více nodů, jak se řeší jejich storage? Jaký protokol se pak používá pro komunikaci se storage?
+
+Back:
+
+Když máme **více nodů**, můžu pak mít třeba **sdílený disk** mezi více nodama. K tomu se používá služba **FSS**. Připojení k disku se pak děje pomocí protokolu **NFS** (místo iSCSI). Díky tomu pak mám např. sdílený adresář.
+<!--ID: 1747037917191-->
 END
 
 ---
@@ -88,7 +100,7 @@ Back:
 
 Typ storage v cloudu (nejznámější je např. S3 od AWS).
 
-Umožňuje ukládání různých souborů/objektů.
+Umožňuje ukládání **nestrukturovaných dat** (souborů/objektů).
 
 Např. obrázky, images (ve smyslu bootování z image), cokoliv dalšího
 
@@ -96,6 +108,24 @@ Např. obrázky, images (ve smyslu bootování z image), cokoliv dalšího
 ![](../../Assets/Pasted%20image%2020250414120516.png)
 <!-- DetailInfoEnd -->
 <!--ID: 1746518887387-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **namespace** v object storage?
+
+Back:
+
+Top level container pro všechny buckety.
+
+Každý tenant má 1 namespace.
+
+Např. `/n/<namespace>/b/<bucket>/o/<object_name>`
+<!--ID: 1747037917198-->
 END
 
 ---
@@ -113,6 +143,22 @@ Back:
 	- TTFB - time to first byte - jak dlouho mi bude trvat, než se dostanu k datům
 	- Levnější úložiště, ale dražší přístup
 <!--ID: 1746518887390-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je u bucketů (nebo jiného úložiště) **TTFB**?
+
+Back:
+
+**Time To First Byte** - jak dlouho mi bude trvat, než se dostanu k datům
+
+Např. cold bucket má TTFB vyšší než hot bucket
+<!--ID: 1747037917204-->
 END
 
 ---
@@ -156,7 +202,7 @@ Jak funguje **Terraform**?
 
 Back:
 
-1. Zadefinuju si jak má vypadat infrastruktura
+1. Zadefinuju si jak má vypadat infrastruktura (v souboru)
 2. Nástroj (Terraform) pak zjistí, jak vypadá momentální infrastruktura
 3. Pak se snaží přizpůsobit infrastrukturu tak, aby vypadala jako moje definice
 <!--ID: 1746518887398-->
@@ -183,13 +229,13 @@ END
 START
 FIT-Card
 
-Co je **Cloud Native**?
+Co znamená, že je aplikace **Cloud Native**?
 
 Back:
 
-Když vytvářím novou aplikaci, tak bych ji měl vytvářet pomocí technologií, které pak umožňují to spustit v cloudu (tzn. typicky je dobře škálovatelná a běží pomocí kubernetes)
+Když vytvářím novou aplikaci, tak bych ji měl **vytvářet pomocí technologií**, které pak umožňují to **spustit v cloudu** (tzn. typicky je dobře škálovatelná a běží pomocí kubernetes)
 
-V dnešní době je cloud native vpodstatě synonymum pro Kubernetes
+V dnešní době je cloud native vpodstatě **synonymum pro Kubernetes**.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250414121929.png)
@@ -237,7 +283,7 @@ END
 START
 FIT-Card
 
-Co je **CNCF Trail Map**? Jaké má části (5)
+Co je **CNCF Trail Map**? Jaké má části? (5)
 
 Back:
 
@@ -246,11 +292,13 @@ Cesta, kterou organizace může podstoupit, aby nemusela "vyhodit" starou aplika
 1. **Conteinarization** - převedu aplikaci tak, abych ji mohl spustit v containeru (tzn. vytvořím pro to image)
 2. **CI/CD** - automatizuju workflow pomocí DevOps, často se využívá ArgoCD
 3. **Orchestrace a application definition** - musím mít zprovozněný nějaký orchestrační nástroj na managování imagů a containerů (tzn. Kubernetes)
-4. **Observability & Analysis** - 
-5. **Service Proxy, Discovery & Mesh**
+4. **Observability & Analysis** - setupne se monitoring, logging
+5. **Service Proxy, Discovery & Mesh** - ???
 6. ... a další, který nemusíme umět
 
-![](../../Assets/Pasted%20image%2020250414122452.png)
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250414122453.png)
+<!-- ImageEnd -->
 <!--ID: 1746518887412-->
 END
 

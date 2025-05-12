@@ -14,12 +14,13 @@ Co je **virtual server/machine** vs **container**?
 Back:
 
 **Virtual server/machine**
-- Máme operační systém (Host OS), na něm nám běží hypervizor, který umožňuje pak rozběhnout (Guest OS) - tzn. vytvořit virtual machine na který pak můžu instalovat aplikace.
+- Máme **operační systém** (Host OS), na něm nám běží **hypervizor**, který umožňuje pak rozběhnout další **operační systém** (Guest OS) - tzn. vytvořit virtual machine na který pak můžu instalovat aplikace.
 	- Nevýhoda: když chci udělat více virtual servers s aplikacema co mají nějaký dependencies, tak to musím kopírovat pro každou instanci (protože jsou virtual servery oddělené), což je neefektivní
 
 **Container**
-- Máme bare metal nebo virtuální stroj, na něm běží host OS (typicky Linux)
-- Vytváříme **Konteiner** = proces, který patří do daného namespace (úrovně izolace)
+- Máme **bare metal** nebo **virtuální stroj**, na něm běží **host OS** (typicky Linux)
+- Vytváříme **Konteiner** = **proces**, který patří do daného namespace (úrovně izolace)
+- Kontejnery tak **sdílí knihovny** (ty jsou na host OS)
 - Vrstvy image jsou read only, nejvyšší vrstva je na write i read.
 
 <!-- ImageStart -->
@@ -38,7 +39,20 @@ Jaké jsou **vrstvy containerů**?
 
 Back:
 
+1. **Conteiner Runtime** (`runc` a `containerd`) = komunikuje s kernelem OS pro izolaci kontejnerů, zapíná a stará se o procesy containerů
+2. **Container Engine** (např. Docker Engine) = spravuje containery, přijímá vstupy (CLI/API), pulluje images z registry, připravuje data, co předat runtimu atd.
+
+Např. v dockeru je flow následující:
+`docker` CLI 
+→ Docker Engine 
+→ `containerd` 
+→ `runc` 
+→ Linux kernel 
+→ Isolated container runs
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501130947.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518887425-->
 END
 
@@ -68,8 +82,7 @@ Co je **container**?
 
 Back:
 
-Jeden (nebo více) **procesů** a množina **linux namespaces**
-- Container je zařazený do namespacu, čímž se provádí izolace
+Jeden (nebo více) **procesů**, který je zařazený do **linux namespaces**, čímž se provádí izolace
 <!--ID: 1746518887431-->
 END
 
@@ -93,7 +106,7 @@ END
 START
 FIT-Card
 
-Co je **Client**?
+Co je **Client** v kontextu conteinerů?
 
 Back:
 
@@ -145,7 +158,7 @@ Back:
 - **Mount**
 - **UTS**
 - **IPC**
-- **PIC**
+- **PID**
 - **Network**
 - **User**
 - **Cgroup**
@@ -174,11 +187,11 @@ END
 START
 FIT-Card
 
-Co je **Mount namespace**?
+Co je **Mount namespace** (`mnt`)?
 
 Back:
 
-V namespacu existují mount pointy, což jsou připojený file systémy, které můžu využít v procesu.
+V namespacu existují **mount pointy**, což jsou připojený file systémy, které můžu využít v procesu.
 
 Co je potřeba si uvědomit:
 - Když spustím container, tak běží nad nějakým imagem, což je file systém (sestavený z vrstev file systémů).
@@ -258,9 +271,11 @@ Co je **net namespace**?
 
 Back:
 
-Díky tomu lze izolovat komunikace s daným containerem.
+Každý **container** má vlastní **private network stack** (interfaces, routing tables, sockets,...) - tzn. každý container má vlastní porty.
 
-Každý container má interně vlastní porty (tzn. každý container může uvnitř využívat např. port 5000). Díky networku můžu např. tyto porty navzájem namapovat. 
+Mezi externím networkem a containerem je **virtual ethernet bridge**, který mapuje jednotlivé porty.
+
+Na host OS je pak **NAT**.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132337.png)
@@ -278,7 +293,9 @@ Co je **user namespace**?
 
 Back:
 
+Izoluje **user a group IDs** (UIDs/GIDs) mezi containerem a hostem.
 
+Díky tomu může proces v containeru běžet jako root (UID 0), ale v host systému bude mít napamovaný jiný id, takže nepoběží jako root (např. UID 100)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132353.png)
@@ -296,7 +313,13 @@ Co je **cgroup namespace**?
 
 Back:
 
+Izoluje pohled na **contol groups** (=resource limitations) z pohledu containeru.
+
+Např. host má přístup k 8 GB RAM, ale cgroup namespace nastaví containeru, že vidí a může využívat pouze 1 GB RAM.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132405.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518887465-->
 END
 
@@ -328,7 +351,12 @@ Co je **OverlayFS**?
 
 Back:
 
+- Filesystem služba, která umožňuje složiz **nový file systém** z několika existujících file systémů.
+- To využívá **Docker** pro sestavování file system struktur pro images a containers
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501140722.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518887470-->
 END
 
@@ -338,13 +366,17 @@ END
 START
 FIT-Card
 
-Jaké jsou **vrstvy v image**? (3)
+Jaké jsou **vrstvy v OverlayFS**? Jak funguje jejich skládání? (3)
 
 Back:
+- **lowerdir** (Image Layer) - všechny vrstvy v rámci image (to se stahuje, když dám docker pull), jsou read only
+- **upperdir** (Container Layer) - jsou to read/write vrstvy
+- **merged** (Container Mount) - ???
 
-- **merged** - ???
-- **upperdir** - jsou to read/write vrstvy
-- **lowerdir** - všechny vrstvy v rámci image (to se stahuje, když dám docker pull) 
+Jak funguje skládání:
+1. Vezmou se vrstvy z **image layers** (ty jsou read only)
+2. Pokud existuje nějaký ekvivalent toho souboru v **container layeru**, tak se vezme ten (ty už jsou read/write)
+3. Z toho vznikne výsledný **merged layer**, který se pak používá
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501140722.png)
