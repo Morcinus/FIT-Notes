@@ -35,7 +35,7 @@ END
 START
 FIT-Card
 
-Jaké jsou **vrstvy containerů**?
+Jaké **programy se používají pro běh containerů** (Docker)? (2)
 
 Back:
 
@@ -215,7 +215,7 @@ Co je **UTS namespace**?
 
 Back:
 
-Je to jakoby název hosta
+Izoluje se název hosta mezi UTS namespaces.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501132258.png)

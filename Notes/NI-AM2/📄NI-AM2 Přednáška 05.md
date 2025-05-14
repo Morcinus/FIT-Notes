@@ -182,7 +182,7 @@ END
 START
 FIT-Card
 
-Jak funguje Cross-Origin Resource Sharing proces?
+Jak funguje Cross-Origin Resource Sharing proces u OAuth?
 
 Back:
 

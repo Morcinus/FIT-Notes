@@ -413,7 +413,7 @@ END
 START
 FIT-Card
 
-Jak funguje **autoškálování**?
+Jak funguje **autoškálování** v infrastruktuře?
 
 Back:
 

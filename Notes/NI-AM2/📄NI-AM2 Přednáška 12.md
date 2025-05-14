@@ -11,6 +11,25 @@ FILE TAGS: NI-AM2 prednaska12 status-toReview
 START
 FIT-Card
 
+Jaké klíčové vlastnosti má Kubernetes?
+
+Back:
+
+- Automatic binpacking
+- Horizontal scaling
+- Automated rollouts and rollbacks
+- Storage orchestration
+- Self-healing
+- Service discovery and load balancing
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Co je **Automatic binpacking** v Kubernetes?
 
 Back:
@@ -169,7 +188,9 @@ Co je **Pod** v Kubernetes?
 
 Back:
 
-Skupina jednoho nebo více containerů
+Skupina jednoho nebo více tightly-coupled containerů.
+
+Tzn. Pod nám reprezentuje jednu naší aplikaci nebo mirkoslužbu. Ty samozřejmě můžou využívat další containery (např. databázi), které jsou právě tightly-coupled s tou mikroslužbou, takže je to v jednom podu.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250512173129.png)
@@ -183,7 +204,7 @@ END
 START
 FIT-Card
 
-Co je **kube-controller-manager**? Jaké má části?
+Co je **kube-controller-manager**? Jaké má části? (3)
 
 Back:
 
@@ -223,7 +244,7 @@ Co je **kubelet**?
 
 Back:
 
-Agent, co běží na každém nodu. Zajišťuje, že containers běží v Podech.
+Agent, co běží na každém nodu. Zajišťuje, že containers běží správně v Podech.
 <!--ID: 1747064415923-->
 END
 
@@ -247,7 +268,7 @@ END
 START
 FIT-Card
 
-Co je **workload**? Jaké jsou typy?
+Co je **workload**? Jaké jsou typy? (4)
 
 Back:
 
@@ -312,7 +333,6 @@ END
 ---
 
 
-
 START
 FIT-Card
 
@@ -324,9 +344,6 @@ V Kubernetes to má specifický význam - jsou to programy, které **propojují 
 
 To je nutné, aby fungovala ta komunikace.
 
-<!-- ImageStart -->
-![](../../Assets/Pasted%20image%2020250512170504.png)
-<!-- ImageEnd -->
 <!--ID: 1747064415937-->
 END
 

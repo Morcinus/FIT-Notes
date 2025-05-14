@@ -117,8 +117,9 @@ Back:
 Response v průběhu streamingu je rozsekaná do chunků. 
 - Každý chunk začíná hexadecimální hodnotou jeho délky
 - Pro ukončení spojení se použije hexadecimální hodnota `0`
+- header `Transfer-Encoding: chunked`
 
-Jak to funguje:
+**Jak to funguje**:
 1. Server pošle HTTP headers a první chunk
 2. Server posílá další chunky
 3. Server ukončí spojení
@@ -297,7 +298,7 @@ Co je **Streams API**?
 
 Back:
 
-API v  Javascriptu, které umožňuje pracovat se streamama. Je k dispozici např. jako součást Fetch API - response je objekt `ReadableStream`.
+API v  Javascriptu, které umožňuje pracovat s HTTP streamama. Je k dispozici např. jako součást Fetch API - response je objekt `ReadableStream`.
 
 Výhoda je, že umožňuje rovnou zpracovávat stream, aniž by se muselo čekat na celou resource.
 
