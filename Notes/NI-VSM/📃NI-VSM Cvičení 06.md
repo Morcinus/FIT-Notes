@@ -4,7 +4,7 @@ up: "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM cviceni06 status-toReview
+FILE TAGS: NI-VSM cviceni06 status-toReview blue
 
 
 START

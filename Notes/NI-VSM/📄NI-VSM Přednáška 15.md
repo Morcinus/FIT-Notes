@@ -5,13 +5,36 @@ up: "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM prednaska15 status-toReview
+FILE TAGS: NI-VSM prednaska15 status-toReview red
 
 
 START
 FIT-Card
 
-Definice: **přechodný stav**
+Vysvětli vlastními slovy, jak se liší následující typy stavů:
+- přechodný stav
+- trvalý nulový
+- trvalý nenulový
+- trvalý nenulový aperiodický
+- trvalý nenulový periodický
+
+Back:
+
+- **přechodný stav** - z toho stavu můžu odejít a už se třeba nikdy nevrátit
+- **trvalý nulový** - vždy se vrátím, ale po strašně dlouhé době (v průměru nekonečno) - např. když je nekonečno trvalých stavů
+- **trvalý nenulový** - vždy se vrátím v rozumném čase (konečném)
+- **trvalý nenulový aperiodický** - vždy se vrátím a ne v nějakém pravidelném cyklu
+- **trvalý nenulový periodický** - vždy se vrátím v pevném cyklu (např. vždy po 5 krocích)
+<!--ID: 1747408246566-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **přechodný stav** (pomocí matice přechodu $P$)
 
 Back:
 
@@ -25,7 +48,7 @@ END
 START
 FIT-Card
 
-Definice: **trvalý nulový stav**
+Definice: **trvalý nulový stav** (pomocí matice přechodu $P$)
 
 Back:
 
@@ -39,7 +62,7 @@ END
 START
 FIT-Card
 
-Definice: **trvalý nenulový aperiodický stav**
+Definice: **trvalý nenulový aperiodický stav** (pomocí matice přechodu $P$)
 
 Back:
 
@@ -53,7 +76,7 @@ END
 START
 FIT-Card
 
-Definice: **trvalý nenulový periodický stav**
+Definice: **trvalý nenulový periodický stav** (pomocí matice přechodu $P$)
 
 Back:
 
@@ -81,7 +104,7 @@ END
 START
 FIT-Card
 
-Věta: dosažitelnost stavu a stejný typ
+Věta: dosažitelnost stavů a stejný typ
 
 Back:
 
@@ -127,7 +150,7 @@ END
 START
 FIT-Card
 
-Definice: **nerozložitelná** množina stavů
+Definice: **nerozložitelná** množina stavů a **nerozložitelný markovský řetězec**
 
 Back:
 
@@ -162,7 +185,7 @@ END
 START
 FIT-Card
 
-Lemma: trvalé stavy $i$ a $j$
+Lemma: pokud je stav $i$ trvalý a $i \rightarrow j$, pak $\dots$
 
 Back:
 
@@ -176,7 +199,7 @@ END
 START
 FIT-Card
 
-Věta: **konečná množina stavů**
+Věta: v řetězci s konečně mnoha stavy, $\dots$ (2)
 
 Back:
 
@@ -190,7 +213,7 @@ END
 START
 FIT-Card
 
-Věta: klasifikace v konečné množině stavů $S$
+Věta: jak v konečné množině stavů $S$ rozhodnout, jestli je stav _trvalý nenulový_ nebo _přechodný_?
 
 Back:
 
@@ -230,6 +253,8 @@ FIT-Card
 
 Důsledek: Je li množina stavů $S$ konečná $\implies \ ???$
 
+(hint: stacionární rozdělení)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250410115227.png)
@@ -245,6 +270,8 @@ FIT-Card
 Kolik je obecně stacionárních rozdělení?
 
 Back:
+
+Tolik _lineárně nezávislých_ stacionárních rozdělení, kolik je množin $C_r$ (trvalé nenulové stavy).
 
 ![](../../Assets/Pasted%20image%2020250410115250.png)
 

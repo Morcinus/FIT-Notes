@@ -5,23 +5,28 @@ up: "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM prednaska16 status-toReview
+FILE TAGS: NI-VSM prednaska16 status-toReview red
 
 START
 FIT-Card
 
-Co je cílem pravděpodobností pohlcení?
+Mějme matici přechodů:
+![](../../Assets/Pasted%20image%2020250516155913.png)
+
+Co mi říkají $U_{ij}$, $N_{ik}$ a $N_{i \circ }$?
 
 Back:
+
+![](../../Assets/Pasted%20image%2020250516160210.png)
 
 - $U_{ij}$ - Vezmu libovolný přechodný stav a chci zjistit pravděpodobnost, že první stav z $C$ (trvalých stavů) bude zrovna stav $j$
 - $N_{ik}$ - střední počet přechodného stavu k, když začnu ve stavu i
 	- Kolik času strávím ve stavu $k$ (kolikrát tam budu), než bude řetězec pohlcen v $C$
 - $N_i$ - střední doba, jak dlouho trvá, než se pohltím do nějakého stavu
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411112710.png)
 
-<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411112705.png)
 <!-- DetailInfoEnd -->
 
@@ -53,7 +58,7 @@ END
 START
 FIT-Card
 
-Lemma: Je-li množina stavů $S$ konečná, pak...
+Lemma: Je-li množina stavů $S$ konečná, pak... (čas absorbce)
 
 Back:
 
@@ -73,6 +78,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250411112827.png)
 
+![](../../Assets/Pasted%20image%2020250516161230.png)
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411112835.png)
 
@@ -88,6 +95,8 @@ START
 FIT-Card
 
 Jak získáme pravděpodobnost pohlcení na množině $C_r$?
+
+(tzn. pravděpodobnost, že řetězec byl pohlcen tou množinou)
 
 Back:
 
@@ -107,8 +116,11 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250411112906.png)
 
-$R$ - matice přechodu mezi přechodnými a trvalými
-$T$ - matice přechodu mezi přechodnými a přechodnými
+$R$ - matice přechodu z přechodových do trvalých stavů
+$T$ - matice přechodu z přechodových do přechodových stavů
+
+Matice přechodu:
+![](../../Assets/Pasted%20image%2020250516161641.png)
 <!--ID: 1746518364626-->
 END
 
@@ -137,6 +149,9 @@ Věta: Pro matici pravděpodobností pohlecní platí $U = \ ???$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113028.png)
+
+Matice přechodu:
+![](../../Assets/Pasted%20image%2020250516161641.png)
 
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411113037.png)
@@ -198,7 +213,7 @@ END
 START
 FIT-Card
 
-Věta: Co platí pro matici $N$?
+Věta: Co platí pro matici $N$? (resp. jak se dá spočítat)
 
 Back:
 
@@ -230,7 +245,7 @@ END
 START
 FIT-Card
 
-Věta: Pro střední dobu do pohlcení při startu v $i \in T$ platí $\dots$
+Věta: Pro střední dobu do pohlcení při startu v $i \in T$ platí $\dots$ (aka jak se spočítá)
 
 Back:
 
@@ -268,9 +283,15 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250411113300.png)
 
+Ta $\widetilde{C}$ má v řádcích stacionární rozdělení podřetězce $C_r$ (viz detail).
+
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411113309.png)
 <!-- ExampleEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250411113245.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518364655-->
 END
 

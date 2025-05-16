@@ -5,8 +5,291 @@ up: "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM prednaska03 status-toReview
+FILE TAGS: NI-VSM prednaska03 status-toReview white
 
+## Náhodné vektory
+
+START
+FIT-Card
+
+Definice: **Náhodný vektor**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220122406.png)
+
+<!-- ExplanationStart -->
+Prostě naskládám několik náhodných veličin (např. výška studenta, barva očí atd.) do vektoru.
+<!-- ExplanationEnd -->
+<!--ID: 1746599650984-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Náhodná matice**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220122425.png)
+<!--ID: 1746599650998-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Sdružená distribuční funkce**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220122725.png)
+<!--ID: 1746599651007-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Sdružené diskrétní rozdělení**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220123133.png)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250220123316.png)
+<!-- ImageEnd -->
+<!--ID: 1746599651019-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Distribuční funkce** náhodného vektoru $X$ se sdruženým **diskrétním rozdělením**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220123257.png)
+<!--ID: 1746599651048-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Sdružené spojité rozdělení**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220123341.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250220123354.png)
+<!-- DetailInfoEnd -->
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250220125134.png)
+<!-- ImageEnd -->
+<!--ID: 1746599651059-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Vlastnost sdruženého spojitého rozdělení:
+
+Čemu je rovno $f_X(x)$?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220123454.png)
+<!--ID: 1746599651079-->
+END
+
+---
+
+
+START
+FIT-Card
+
+**Normalizační podmínka** pro sdružené spojité rozdělení
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220123513.png)
+<!--ID: 1746599651093-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co platí pro 
+![](../../Assets/Pasted%20image%2020250220124520.png)
+
+Kde $B$ je Borelovská množina ("hezká brambora" podle Hrabáka :D)
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220124555.png)
+<!--ID: 1746599651107-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy platí následující?
+![](../../Assets/Pasted%20image%2020250220124640.png)
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220124653.png)
+
+<!-- ExplanationStart -->
+$ν_n(B) = 0$ znamená, že množina $B$ má míru $0$
+
+Jinými slovy, když náhodný vektor $(X,Y)$ má spojité rozdělení, potom pravděpodobnost, že se $x$ trefí do té množiny $B$, je rovna nule.
+
+Např. kdyby ta množina $B$ byla přímka a měl bych dvoudimenzionální prostor (tedy vektory s $X$ a $Y$).
+
+![](../../Assets/Pasted%20image%2020250220125001.png)
+<!-- ExplanationEnd -->
+<!--ID: 1746599651120-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co platí pro:
+![](../../Assets/Pasted%20image%2020250220125112.png)
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125117.png)
+<!--ID: 1746599651133-->
+END
+
+---
+
+### Marginální rozdělení
+
+
+START
+FIT-Card
+
+Definice: **marginální rozdělení**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125202.png)
+
+Marginální rozdělení jakoby říká, že jsem změřil nějaké hodnoty (např. 10 různých veličin) a já si z toho vyberuj jen nějaké (např 2)
+
+Marginální rozdělení nám jakoby říká souvislost těch dvou náhodných veličin
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250220125228.png)
+<!-- DetailInfoEnd -->
+<!--ID: 1746599651141-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Marginální rozdělení náhodného vektoru je diskrétní**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125351.png)
+<!--ID: 1746599651152-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Marginální rozdělení náhodné veličiny $X_i$ je diskrétní**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125356.png)
+![](../../Assets/Pasted%20image%2020250220125401.png)
+<!--ID: 1746599651164-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Marginální rozdělení náhodného vektoru je spojité**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125419.png)
+<!--ID: 1746599651171-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **Marginální rozdělení náhodné veličiny $X_i$ je diskrétní**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125436.png)
+![](../../Assets/Pasted%20image%2020250220125430.png)
+<!--ID: 1747385362455-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Definice: **nezávislé náhodné veličiny**
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250220125458.png)
+<!--ID: 1746599651185-->
+END
+
+---
 
 START
 FIT-Card
@@ -360,7 +643,7 @@ Definice: **Podmíněná pravděpodobnost**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304103132.png)
-
+<!--ID: 1747385362468-->
 END
 
 ---

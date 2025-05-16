@@ -6,7 +6,7 @@ up:
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM prednaska20 status-toReview
+FILE TAGS: NI-VSM prednaska20 status-toReview green
 
 
 START

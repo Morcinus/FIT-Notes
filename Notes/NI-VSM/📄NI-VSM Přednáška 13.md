@@ -5,7 +5,7 @@ up: "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM prednaska13 status-toReview
+FILE TAGS: NI-VSM prednaska13 status-toReview red
 
 
 START
@@ -100,6 +100,8 @@ FIT-Card
 
 Věta: Náhodný proces je markovský $\Leftrightarrow \dots$
 
+(ekvivalentní definice markovského řetězce)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411135941.png)
@@ -142,6 +144,8 @@ FIT-Card
 
 Důsledek: Co platí pro homogenní markovský řetězec?
 
+$P(m,m+n)= \ ???$
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140037.png)
@@ -174,9 +178,15 @@ FIT-Card
 
 Co platí pro $p(n)$ homogenního markovského řetězce?
 
+$p(n) = \ ??? = \ ???$
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140148.png)
+
+<!-- ExplanationStart -->
+$p(n)$ je rozdělení v čase $n$
+<!-- ExplanationEnd -->
 
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411140157.png)
@@ -190,7 +200,7 @@ END
 START
 FIT-Card
 
-Lemma: Matice přechodu $P$ je stochastická matice
+Lemma: Matice přechodu $P$ je **stochastická matice**, to znamená $\dots$ (2)
 
 Back:
 
@@ -241,6 +251,12 @@ Definice: **stacionární rozdělení** řetězce
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140335.png)
+
+<!-- InformallySaidStart -->
+Stacionární rozdělení mi říká, v jakých stavech budu s jakou pravděpodobností dlouhodobě.
+
+Např. pro $(0.2, 0.8)$ mi to říká, že v prvním stavu budu $20\%$ z dlouhodobého hlediska času.
+<!-- InformallySaidEnd -->
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411140356.png)

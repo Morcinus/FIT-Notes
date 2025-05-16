@@ -5,7 +5,7 @@ up: "[[📖NI-VSM]]"
 ---
 
 TARGET DECK: NI-VSM
-FILE TAGS: NI-VSM prednaska14 status-toReview
+FILE TAGS: NI-VSM prednaska14 status-toReview red
 
 
 START
@@ -16,6 +16,11 @@ Definice: **trvalý (rekurentní)** stav
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140549.png)
+
+<!-- ExplanationStart -->
+Rekurentní stav = stav, do kterého se řetězec dřív nebo později určitě vrátí, pokud z něj jednou vyjde.
+<!-- ExplanationEnd -->
+
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411140613.png)
@@ -35,6 +40,10 @@ Definice: **přechodný (transientní)** stav
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140603.png)
+
+<!-- ExplanationStart -->
+Přechodný stav = stav, ze kterého když někdy vyjdu, tak není 100% jistý, že se do něj vrátím
+<!-- ExplanationEnd -->
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250411140613.png)
@@ -66,7 +75,7 @@ END
 START
 FIT-Card
 
-Definice $f_{ij}$
+Definice $f_{ij}(n)$ a $f_{ij}$ - v kontextu první návštěvy stavů
 
 Back:
 
@@ -113,6 +122,16 @@ Definice: **nenulový** a **nulový** stav
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140753.png)
+
+<!-- ExplanationStart -->
+Nenulový - máme třeba stavy $A$ a $B$, mezi kterýma přeskakujeme. S nějakou střední hodnotou budu v tom savu
+
+Nulový - máme např. nekonečně stavů $0,1,2,\dots$ a můžeme se posouvat o jeden dopředu nebo dozadu.
+
+Když to odstartuju v $0$, tak se tam někdy vrátím, ale bude to za hrozně dlouho - střední hodnota bude nekonečno 
+<!-- ExplanationEnd -->
+
+
 <!--ID: 1746518364675-->
 END
 
@@ -136,7 +155,7 @@ END
 START
 FIT-Card
 
-Věta: aperiodicita stavu a limita
+Věta: čemu je rovna limita u **aperiodického stavu**
 
 Back:
 
@@ -150,7 +169,7 @@ END
 START
 FIT-Card
 
-Poznámka: periodický stav a limita
+Poznámka: čemu je rovna limita u **periodického stavu**
 
 Back:
 

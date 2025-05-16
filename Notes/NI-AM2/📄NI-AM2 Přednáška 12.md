@@ -308,7 +308,6 @@ Např. zde labels v `template` mi definují tu hodnotu a pak v `selector` definu
 
 ![](../../Assets/Pasted%20image%2020250512165142.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1747064415931-->
 END
 
@@ -343,7 +342,6 @@ Back:
 V Kubernetes to má specifický význam - jsou to programy, které **propojují síťové rozhraní nodu a síťové rozhraní podů**.
 
 To je nutné, aby fungovala ta komunikace.
-
 <!--ID: 1747064415937-->
 END
 
@@ -368,7 +366,6 @@ Back:
 **Loadbalancer**
 ![](../../Assets/Pasted%20image%2020250512171823.png)
 <!-- ImageEnd -->
-
 <!--ID: 1747064415940-->
 END
 
