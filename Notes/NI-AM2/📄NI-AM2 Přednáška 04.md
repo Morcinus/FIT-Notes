@@ -67,14 +67,14 @@ END
 START
 FIT-Card
 
-Jaké jsou možnosti autentikace v HTTP?
+Jaké jsou možnosti autentikace v HTTP? (4)
 
 Back:
 
-- Basic Access Authentication
-- Digest Access Authentication
-- Bearer tokens to access OAuth 2.0-protected resources
-- Mutual authentication using password-based when server knows the user's encrypted password
+- **Basic Access Authentication** - posílá se zakódované jméno a heslo `Authorization: Basic dfnkljsljgasgf`
+- **Digest Access Authentication** - posílá se hash hesla `Authorization: Digest jfjfhofjghpdgsf`
+- **Bearer tokens** to access OAuth 2.0-protected resources - posílá se JWT token
+- **Mutual authentication** using password-based when server knows the user's encrypted password
 <!--ID: 1746519872930-->
 END
 
@@ -86,15 +86,15 @@ END
 START
 FIT-Card
 
-Jaké jsou bezpečnostní mechanismy v rámci TSL?
+Jaké jsou bezpečnostní mechanismy v rámci TSL? (5)
 
 Back:
 
-- TSL Handshake
-- TSL Offloading
-- TSL Bridging
-- End-to-End TSL
-- Load Balancer
+- **TSL Handshake**
+	- **TSL Offloading**
+	- **TSL Bridging**
+	- **End-to-End TSL**
+- **Load Balancer** - využívá TLS
 
 (viz AM1)
 
