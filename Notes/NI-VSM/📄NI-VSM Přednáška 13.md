@@ -149,6 +149,7 @@ $P(m,m+n)= \ ???$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411140037.png)
+
 <!--ID: 1746518364774-->
 END
 
@@ -228,7 +229,7 @@ END
 START
 FIT-Card
 
-Důsledek: existence homogenního markovského řetězce s diskrétním časem
+Důsledek: existence homogenního markovského řetězce s diskrétním časem pro stochastickou matici
 
 Back:
 

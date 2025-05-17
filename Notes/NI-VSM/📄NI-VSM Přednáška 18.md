@@ -11,7 +11,7 @@ FILE TAGS: NI-VSM prednaska18 status-toReview green
 START
 FIT-Card
 
-Pozorování: Diskrétní řetězec časovaný Poissonovým procesem
+Pozorování: Jak vytvoříme homogenní markovský proces se spojitým časem
 
 Back:
 
@@ -25,7 +25,9 @@ END
 START
 FIT-Card
 
-Pozorování: Matice přechodu řetězce $X_t=Y_{N_t}$
+Pozorování: Jaký tvar má matice přechodu řetězce $X_t=Y_{N_t}$
+
+aneb homogenního markovského řetězce se spojitým časem
 
 Back:
 
@@ -40,6 +42,8 @@ START
 FIT-Card
 
 Pozorování: Matice skokových intenzit řetězce $X_t=Y_{N_t}$
+
+aneb homogenního markovského řetězce se spojitým časem
 
 Back:
 

@@ -46,6 +46,8 @@ FIT-Card
 
 Věta: čemu je rovna matice přechodu $P(t)$
 
+(řešení kolmogorových rovnic)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092410.png)
@@ -76,7 +78,7 @@ END
 START
 FIT-Card
 
-Věta: Vektor $\pi$ je stacionárním rozdělením právě tehdy když
+Věta: Vektor $\pi$ je stacionárním rozdělením právě tehdy když (spojitý čas)
 
 Back:
 
@@ -104,7 +106,7 @@ END
 START
 FIT-Card
 
-Důsledek: Je-li množina stavů $S$ konečná, pak ...
+Důsledek: Co stačí aby platilo, aby existovalo stacionární rozdělení pro markovský řetězec se spojitým časem?
 
 Back:
 
@@ -118,7 +120,7 @@ END
 START
 FIT-Card
 
-Pozorování: Pokud rozdělení $\pi$ splňuje **detailní rovnováhu**
+Pozorování: Pokud rozdělení splňuje **detailní rovnováhu**, pak $\dots$
 
 Back:
 
@@ -142,26 +144,15 @@ END
 START
 FIT-Card
 
-Lemma: nezávislé exponenciální rozdělení, potom ...
+Lemma: Pokud máme nezávislé exponenciální rozdělení $T$ a $S$, potom ...
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422092802.png)
-<!--ID: 1746599649494-->
-END
 
----
-
-
-START
-FIT-Card
-
-Důsledek: $T_1, \dots, T_n$ nezávislé veličiny
-
-Back:
-
+To samé platí obecněji:
 ![](../../Assets/Pasted%20image%2020250422092831.png)
-<!--ID: 1746599649502-->
+<!--ID: 1746599649494-->
 END
 
 ---
@@ -184,11 +175,13 @@ END
 START
 FIT-Card
 
-Leamm: Čemu je rovno $P(T<S)$ a $P(S<T)$?
+Lemma: Čemu je rovno $P(T<S)$ a $P(S<T)$ pro $S,T$ exponenciální?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422093005.png)
+
+Neboli že $T$ nebo $S$ vyhraje závod
 <!--ID: 1746599649517-->
 END
 
@@ -198,11 +191,13 @@ END
 START
 FIT-Card
 
-Důsledek: čemu je rovno $P(T_i=min{T_1, \dots T_n})$
+Důsledek: čemu je rovno $P(T_i=min\{T_1, \dots T_n\})$
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422093042.png)
+
+Neboli že $T_i$ vyhraje závod ze všech závodníků
 <!--ID: 1746599649523-->
 END
 
@@ -212,11 +207,18 @@ END
 START
 FIT-Card
 
-Lemma: Nezávislost ${min\{T,S\}>u}$ a $T<S$
+Lemma: Nezávislost ${min\{T,S\}>u}$ a $T<S$ (aneb vítěz a délka závodu jsou nezávislé)
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250422093107.png)
+
+Jinými slovy:
+- Představme si 2 závodníky, co doběhnou v časech $T$ a $S$
+
+Lemma pak říká, že pro $u \geq 0$ jsou nezávislé následující dvě věci:
+- Jak dlouho závod trval (že závod trval déle než $u$)
+- Kdo vyhrál závod (že $T < S$ - tedy že závodník $T$ byl rychlejší)
 <!--ID: 1746599649532-->
 END
 
@@ -227,6 +229,8 @@ START
 FIT-Card
 
 Důsledek: Buďte $T_1, \dots, T_n$ nezávislé veličiny, pak jevy... jsou nezávislé
+
+(aneb obecně nezávislost nejlepšího času a nejlepšího závodníka)
 
 Back:
 
@@ -284,7 +288,9 @@ END
 START
 FIT-Card
 
-Pozorování: proces je markovský řetězec se spojitým časem $\Leftrightarrow \dots$
+Pozorování: souvislost markovského řetězce se spojitým časem a exponenciálními závody
+
+proces je markovský řetězec se spojitým časem $\Leftrightarrow \dots$
 
 Back:
 

@@ -15,6 +15,8 @@ Co znamená model náhodných příchodů?
 
 Back:
 
+Události náhodně nastávají v časovém rozmezí podle Uniformního rozdělení.
+
 ![](../../Assets/Pasted%20image%2020250501142037.png)
 <!--ID: 1746599649285-->
 END
@@ -45,7 +47,7 @@ END
 START
 FIT-Card
 
-Pozorování: Binomické přírustky
+Pozorování: Binomické přírustky u modelu náhodných příchodů
 
 Back:
 
@@ -65,7 +67,7 @@ END
 START
 FIT-Card
 
-Pozorování: Přírustky procesu a Poissonovo rozdělení
+Pozorování: Přírustky procesu a Poissonovo rozdělení (u modelu náhodných příchodů)
 
 Back:
 
@@ -83,7 +85,7 @@ END
 START
 FIT-Card
 
-Pozorování: Přírustky procesu a nezávislost
+Pozorování: Přírustky procesu a nezávislost (u modelu náhodných příchodů)
 
 Back:
 
@@ -136,6 +138,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250501142412.png)
 
 Nehomogenní Proces = Umožňuje nám modelovat to, že události nastávají v nějakých časech častěji a v nějaké časy méně často.
+
+Např. homogenní je radioaktivní rozpad, nehomogenní je příchod zákazníků do restaurace v průběhu dne
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501142432.png)
@@ -201,9 +205,13 @@ FIT-Card
 
 Jak funguje dělení Poissonova procesu (thinning)?
 
-(tohle asi nemusíme umět tak moc - jen asi obecně tušit)
-
 Back:
+
+1. Máme $\text{Poisson}(\lambda)$
+2. Když nastane událost, můžeme s určitou pravděpodobností ji označit za určitý typ události
+3. Procesy těch daných typů budou taky poissonovy s parametrem $\text{Poisson}(\lambda p_i)$
+
+Vzniklé procesy se označují jako $\{N_t^{(i)}|t \geq 0\}$
 
 ![](../../Assets/Pasted%20image%2020250501142731.png)
 <!--ID: 1746599649366-->
@@ -215,7 +223,9 @@ END
 START
 FIT-Card
 
-Věta: Procesy jsou nezávislé Poissonovy s intenzitou
+Věta: Procesy $\dots$ jsou nezávislé Poissonovy s intenzitou $\dots$
+
+(procesy po provedení thinningu)
 
 Back:
 
@@ -245,9 +255,11 @@ FIT-Card
 
 Jak funguje skládání Poissonových procesů? (superpozice)
 
-(tohle asi nemusíme umět tak moc - jen asi obecně tušit)
-
 Back:
+
+1. Máme 2 poissonovské procesy s $\lambda_1$ a $\lambda_2$
+2. Když je složíme, tak z toho vznikne $\text{Poisson}(\lambda_1+\lambda_2)$
+
 
 ![](../../Assets/Pasted%20image%2020250501142902.png)
 <!--ID: 1746599649388-->
@@ -261,6 +273,8 @@ FIT-Card
 
 Věta: Proces $N_t = N_t^{(1)}+ N_t^{(2)}$
 
+(skládání poissonovských procesů)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501142945.png)
@@ -273,57 +287,54 @@ END
 START
 FIT-Card
 
-Jak funguje Nehomogenní dělení (thinning)?
+Jak lze sestavit **nehomogenní Poissonův proces** pomocí **Nehomogenního dělení**?
 
 Back:
 
+1. Nagenerujeme si časy $\text{Poisson}(\lambda)$ - exponenciální časy mezi událostmi (modré puntíky)
+2. Pro každý čas vygenerujeme náhodné číslo mezi $0$ a $1$, tedy $\text{Unif}(0,1)$
+3. Zadefinujeme si funkci $p(t)$, která nám řekne, jestli daný bod podle vygenerovaného čísla přijmeme nebo ne
+4. Přijmuté body nám pak tvoří **nehomogenní** $Poisson(\lambda p(t))$
+
+Pozn. $\lambda p(t) = \lambda (t)$
+
 ![](../../Assets/Pasted%20image%2020250501143006.png)
+
+![](../../Assets/Pasted%20image%2020250501143034.png)
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250501143059.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599649403-->
 END
 
 ---
 
-
-START
-FIT-Card
-
-Věta: Pokud ..., pak proces je nehomogenní Poissonův proces s intenzitou
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250501143034.png)
-<!--ID: 1746599649410-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jak lze simulovat nehomogenní Poissonův proces?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250501143059.png)
-<!--ID: 1746599649417-->
-END
-
----
-
-
 START
 FIT-Card
 
 Jak funguje systém $M|G|\infty$?
+- na co se ptáme 
+- čemu je rovna $p(s)$
+- čemu je pak rovna střední hodnota?
 
 Back:
 
 Přijde požadavek a je v systému nějakou dobu. Já se ptám, jaká je pravděpodobnost, že v bodě $t$ tam ten požadavek ještě bude. 
 
+Přijde požadavek v čase $s$ a my se ptáme, jaká je pravděpodobnost, že tam ještě bude v čase $t$. Tato pravděpodobnost je $p(s) := 1- G(t-s)$
+
+To když dosadíme do nehomogenního thinningu, tak nám vyjde poisson se střední hodnotou
+![](../../Assets/Pasted%20image%2020250517162031.png)
+
+Pro $t \rightarrow \infty$ to pak vychází $\frac{\lambda}{\mu}$
+![](../../Assets/Pasted%20image%2020250517162120.png)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250501143115.png)
 ![](../../Assets/Pasted%20image%2020250501143124.png)
 ![](../../Assets/Pasted%20image%2020250501143134.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599649425-->
 END
 

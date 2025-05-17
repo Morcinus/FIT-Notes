@@ -15,10 +15,17 @@ Jak funguje binomický proces jako markovský řetězec?
 
 Back:
 
+V každém čase hodíme mincí, pokud padne hlava, přičteme 1 (tzn. přesuneme se do stavu o 1 výše).
+
+![](../../Assets/Pasted%20image%2020250419135846.png)
+
+<!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020250419135828.png)
 ![](../../Assets/Pasted%20image%2020250419135837.png)
-![](../../Assets/Pasted%20image%2020250419135846.png)
 ![](../../Assets/Pasted%20image%2020250419135900.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1746599649602-->
 END
 
@@ -84,7 +91,15 @@ Jak se liší Binomický a Poissonův proces?
 
 Back:
 
+Rozdělením času mezi událostmi.
+- U binomického v každé "sekundě" flipneme coin a přičteme nebo nepřičteme hodnotu
+- U poissonova přičteme v náhodném čase o 1 (čas může být i třeba 0.5).
+
+Tzn. poisson je jakoby spojitá varianta binomického.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419140032.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599649632-->
 END
 
@@ -94,11 +109,27 @@ END
 START
 FIT-Card
 
-Definice: Exponenciální rozdělení
+Definice: **Exponenciální rozdělení**
+- předpis
+- parametry
+- jak je definováno ($f_X(x)$)
+- střední hodnota
+- rozptyl
 
 Back:
 
+**Předpis**: $X \sim Exp(\lambda)$
+**Parametry**:
+- $\lambda > 0$
+**Definice**:
+- $f_X(x) = \lambda e^{-\lambda x} \quad x \in [0, \infty), \ 0$ jinde
+**Střední hodnota:**
+- $EX=\frac{1}{\lambda}$
+- $varX=\frac{1}{\lambda^2}$
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419140054.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599649638-->
 END
 
@@ -207,7 +238,7 @@ END
 START
 FIT-Card
 
-Věta: náhodný proces je markovský právě tehdy když
+Věta: náhodný (_spojitý_) proces je markovský právě tehdy když
 
 Back:
 
@@ -221,7 +252,7 @@ END
 START
 FIT-Card
 
-Věta: Chapman-Kolmogorov
+Věta: **Chapman-Kolmogorov** (pro spojité markovské řetězce)
 
 Back:
 
@@ -235,11 +266,13 @@ END
 START
 FIT-Card
 
-Definice: Homogenní markovský řetězec
+Definice: **Homogenní markovský řetězec** (pro spojité markovské řetězce)
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140431.png)
+
+Tzn. je jakoby jedno kde v tom řetězci začnu
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250419140438.png)
@@ -253,11 +286,20 @@ END
 START
 FIT-Card
 
-Definice: Matice skokových intenzit
+Definice: **Matice skokových intenzit**
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419140610.png)
+
+Co mi to říká:
+<!-- ExplanationStart -->
+Matice intenzit mi říká několik věcí:
+1. Jak rychle se kam systém přesouvá mezi jednotlivými časy.
+2. Jak dlouho průměrně zůstanu v daném stavu (na diagonále)
+3. Jaká je pravděpodobnost přechodu do jiného stavu.
+<!-- ExplanationEnd -->
+
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419140619.png)
@@ -276,6 +318,8 @@ START
 FIT-Card
 
 Věta: **Simulace procesu pomocí skokových intenzit**
+- Čas do výskoku z $i$
+- pravděpodobnost skoku z $i$ do $j$
 
 Back:
 

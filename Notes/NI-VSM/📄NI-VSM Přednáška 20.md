@@ -44,15 +44,26 @@ END
 START
 FIT-Card
 
-Co je $\varrho$ v systému hromadné obsluhy? Jak se spočte?
+Co je $\varrho$ v systému hromadné obsluhy? Jak se spočte? Jaké může mít hodnoty?
 
 Back:
+
+$\varrho$ je hustota zákazníků
+
+Jak se spočte
+$$\varrho = \frac{\lambda}{c\mu}$$
+
+- $\varrho > 1$, systém se přehltí (s pravděpodobností 1)
+- $\varrho <1$, systém se ustálí na stabilním rovnovážném rozdělení
+
+<!-- DetailInfoStart -->
 
 ![](../../Assets/Pasted%20image%2020250423100453.png)
 
 Je to jakoby hustota obsluhy.
 
 Když je hustota 1, tak to je přesně na hranici toho, že to ten systém stíhá. Když to bude víc, tak to přehltí systém. (Když jsem na 1, tak ten systém bude hodně citlivý na nějaký mini přetížení).
+<!-- DetailInfoEnd -->
 <!--ID: 1746599649114-->
 END
 
@@ -81,6 +92,8 @@ START
 FIT-Card
 
 Jak vypadá systém $M|M|1$?
+- Matice intenzit
+- Jak se spočte stacionární rozdělení
 
 Back:
 
@@ -94,7 +107,7 @@ END
 START
 FIT-Card
 
-Věta: Stacionární rozdělení pro $M|M|1$
+Věta: Existence stacionárního rozdělení pro $M|M|1$
 
 Back:
 
@@ -112,11 +125,23 @@ END
 START
 FIT-Card
 
-Stacionární vlastnosti $M|M|1$
+Stacionární vlastnosti $M|M|1$:
+
+Nechť je systém ve stacionárním stavu:
+- Čemu je rovna $EN$ - střední počet zákazníků v systému
+- Čemu je rovna $EN_s$ - střední počet zákazníků na serveru
+- Čemu je rovna $EN_f$ - střední počet zákazníků ve frontě
 
 Na tohle se nás prý můžou zeptat (ty střední hodnoty)
 
 Back:
+
+$$EN = \frac{\varrho}{1-\varrho}$$
+
+$$EN_s = \varrho$$
+
+$$EN_f = \frac{\varrho^2}{1-\varrho}$$
+
 
 ![](../../Assets/Pasted%20image%2020250423090859.png)
 <!--ID: 1746599649145-->
@@ -161,6 +186,8 @@ START
 FIT-Card
 
 Jak vypadá systém $M|M|\infty$?
+- Matice intenzit
+- Jak se spočte stacionární rozdělení
 
 Back:
 
@@ -193,6 +220,7 @@ START
 FIT-Card
 
 Jak vypadá systém $M|M|c$?
+- Matice intenzit
 
 Back:
 
@@ -246,6 +274,8 @@ START
 FIT-Card
 
 Jak vypadá systém $G|G|1$?
+
+Resp. jak se dostaneme k spočtení $\pi_0$?
 
 Back:
 

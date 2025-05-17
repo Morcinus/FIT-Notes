@@ -48,6 +48,10 @@ FIT-Card
 
 Jak vypadají dva servery v sérii (stacionární stav)?
 
+- Jaký $M|M|c$ má první server
+- Jaký $M|M|c$ má druhý server
+- Jaká je podmínka stability systému?
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501154213.png)
@@ -90,7 +94,9 @@ END
 START
 FIT-Card
 
-Věta: stacionární rozdělení pro dva servery $M|M|1$
+Věta: stacionární rozdělení pro dva servery $M|M|1$ 
+
+(čemu se rovná)
 
 Back:
 
@@ -105,6 +111,8 @@ START
 FIT-Card
 
 Věta: stacionární rozdělení pro **uzavřenou** soustavu $L$ serverů
+
+(Pozn. tohle jsme s Maruškou usoudili, že to nemá cenu se učit :D)
 
 Back:
 
@@ -126,6 +134,8 @@ FIT-Card
 
 Jak vypadá otevřená soustava serverů?
 
+(Pozn. tohle jsme s Maruškou usoudili, že to nemá cenu se učit :D)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250501154549.png)
@@ -140,6 +150,8 @@ START
 FIT-Card
 
 Věta: co platí pro **otevřenou** soustavu $L$ serverů
+
+(Pozn. tohle jsme s Maruškou usoudili, že to nemá cenu se učit :D)
 
 Back:
 
@@ -159,6 +171,8 @@ START
 FIT-Card
 
 Jaké stacionární vlastnosti má otevřená soustava serverů? 
+
+(Pozn. tohle jsme s Maruškou usoudili, že to nemá cenu se učit :D)
 
 Back:
 

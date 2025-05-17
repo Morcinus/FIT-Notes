@@ -155,7 +155,7 @@ END
 START
 FIT-Card
 
-Věta: čemu je rovna limita u **aperiodického stavu**
+Věta: čemu je rovna limita $\textbf{P}_{ii}(n)$ a $\textbf{P}_{ji}(n)$ u **aperiodického stavu**
 
 Back:
 
