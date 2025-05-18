@@ -11,7 +11,7 @@ FILE TAGS: NI-VSM prednaska18 status-toReview green
 START
 FIT-Card
 
-Pozorování: Jak vytvoříme homogenní markovský proces se spojitým časem
+Pozorování: Jak vytvoříme **homogenní markovský proces se spojitým časem**
 
 Back:
 
@@ -25,9 +25,7 @@ END
 START
 FIT-Card
 
-Pozorování: Jaký tvar má matice přechodu řetězce $X_t=Y_{N_t}$
-
-aneb homogenního markovského řetězce se spojitým časem
+Pozorování: Jaký tvar má **matice přechodu homogenního markovského řetězce se spojitým časem** ($X_t=Y_{N_t}$)
 
 Back:
 
@@ -41,9 +39,7 @@ END
 START
 FIT-Card
 
-Pozorování: Matice skokových intenzit řetězce $X_t=Y_{N_t}$
-
-aneb homogenního markovského řetězce se spojitým časem
+Pozorování: Jaký tvar má **matice skokových intenzit homogenního markovského řetězce se spojitým časem** ($X_t=Y_{N_t}$)
 
 Back:
 

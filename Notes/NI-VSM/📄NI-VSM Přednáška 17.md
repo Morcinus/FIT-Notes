@@ -318,6 +318,8 @@ START
 FIT-Card
 
 Věta: **Simulace procesu pomocí skokových intenzit**
+
+Jak se z $Q_{ii}$ dostane:
 - Čas do výskoku z $i$
 - pravděpodobnost skoku z $i$ do $j$
 

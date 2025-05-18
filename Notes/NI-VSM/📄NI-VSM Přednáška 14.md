@@ -131,7 +131,6 @@ Nulový - máme např. nekonečně stavů $0,1,2,\dots$ a můžeme se posouvat o
 Když to odstartuju v $0$, tak se tam někdy vrátím, ale bude to za hrozně dlouho - střední hodnota bude nekonečno 
 <!-- ExplanationEnd -->
 
-
 <!--ID: 1746518364675-->
 END
 

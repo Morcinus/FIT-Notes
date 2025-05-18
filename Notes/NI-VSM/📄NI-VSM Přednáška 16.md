@@ -146,6 +146,8 @@ FIT-Card
 
 Věta: Pro matici pravděpodobností pohlecní platí $U = \ ???$
 
+(Aneb jak spočíst $\textbf{U}$)
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113028.png)
@@ -204,6 +206,8 @@ Definice: **střední počet návštěv stavu**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113106.png)
+
+$W_k$ je počet návštěv stavu $k$
 <!--ID: 1746518364640-->
 END
 
@@ -245,7 +249,7 @@ END
 START
 FIT-Card
 
-Věta: Pro střední dobu do pohlcení při startu v $i \in T$ platí $\dots$ (aka jak se spočítá)
+Věta: Pro střední dobu do pohlcení při startu v $i \in T$ platí $\dots$ (aka **jak se spočítá**)
 
 Back:
 
