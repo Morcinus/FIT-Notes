@@ -206,7 +206,12 @@ Jak funguje **Odhad tvaru rozdělení**?
 
 Back:
 
+Typicky odhadnem podle intuice a povahy problému
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250320104424.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1746599649869-->
 END
 
