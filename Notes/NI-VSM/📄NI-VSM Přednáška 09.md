@@ -67,6 +67,9 @@ Jaké jsou 2 typy hypotéz (podle parametrů) a co znamenají?
 
 Back:
 
+- **Parametrické** - zkoumáme daný parametr
+- **Neparametrické** - zkoumáme rozdělení obecně
+
 ![](../../Assets/Pasted%20image%2020250322075915.png)
 <!--ID: 1746599650061-->
 END
@@ -91,13 +94,23 @@ END
 START
 FIT-Card
 
-Jak funguje parametrický test?
+Jak funguje **parametrický test hypotézy proti oboustranné alternativě**?
 
 Back:
+
+1. Určíme $H_0: \theta = \theta_0$ proti $H_A: \theta \neq \theta_0$
+2. Sestavíme oboustranný interval $(L,U)$ pro dané $\alpha$
+3. Rozhodneme:
+	1. Zamítneme hypotézu $H_0$, jestliže $\theta_0 \not \in (L,U)$
+	2. Nezamítneme $H_0$, jestliže $\theta_0 \in (L,U)$
+
+<!-- DetailInfoStart -->
 
 ![](../../Assets/Pasted%20image%2020250322080101.png)
 ![](../../Assets/Pasted%20image%2020250322080109.png)
 ![](../../Assets/Pasted%20image%2020250322080141.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1746599650075-->
 END
 
@@ -107,13 +120,22 @@ END
 START
 FIT-Card
 
-Jak fungují parametrické testy s jednodstrannou alternativou?
+Jak funguje **parametrický test hypotézy proti jednostranné alternativě**?
 
 Back:
 
+1. Určíme $H_0: \theta \leq \theta_0$ proti $H_A: \theta \gt \theta_0$
+2. Sestavíme oboustranný interval $(L,+\infty)$ pro dané $\alpha$
+3. Rozhodneme:
+	1. Zamítneme hypotézu $H_0$, jestliže $\theta_0 \not \in (L,+\infty)$
+	2. Nezamítneme $H_0$, jestliže $\theta_0 \in (L,+\infty)$
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250322080127.png)
 ![](../../Assets/Pasted%20image%2020250322080133.png)
 ![](../../Assets/Pasted%20image%2020250322080141.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1746599650082-->
 END
 
@@ -138,7 +160,7 @@ END
 START
 FIT-Card
 
-Proč není nutné hlídat, jestli má výběr normální rozdělení při testován pro střední hodnotu?
+Proč není nutné hlídat, jestli má výběr normální rozdělení při testování pro střední hodnotu?
 
 Back:
 

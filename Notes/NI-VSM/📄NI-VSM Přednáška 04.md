@@ -31,7 +31,7 @@ START
 FIT-Card
 
 Věta:
-![](../../Assets/Pasted%20image%2020250304104118.png)
+![](../../Assets/Pasted%20image%2020250520163633.png)
 
 Back:
 
@@ -99,7 +99,10 @@ END
 START
 FIT-Card
 
-Věta: Vícerozměrné normální rozdělení je invarianzní vůči lineárním transformacím
+Věta: Vícerozměrné normální rozdělení je invariantní vůči lineárním transformacím
+
+hint:
+$$Y = a+BX = \ ???$$
 
 Back:
 
@@ -117,11 +120,13 @@ END
 START
 FIT-Card
 
-Definice: Co platí pro marginální rozdělení?
+Věta: marginální rozdělení normálního rozdělení
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250304104423.png)
+
+Jinými slovy marginální rozdělení normálního je zase normální rozdělení
 <!--ID: 1746518364952-->
 END
 
@@ -131,7 +136,7 @@ END
 START
 FIT-Card
 
-Věta: vztah nezávislosti a nekorelovanosti
+Věta: rozložení normálního rozdělení do normálních rozdělení jednotlivých veličin
 
 Back:
 
@@ -145,7 +150,9 @@ END
 START
 FIT-Card
 
-Důsledek $X_i$ a $X_j$ jsou nezávislé $\Leftrightarrow$
+Důsledek: Pro veličiny ve vícerozměrném normálním rozdělení platí.
+
+Normál $X_i$ a $X_j$ jsou nezávislé $\Leftrightarrow$
 
 Back:
 
@@ -159,7 +166,7 @@ END
 START
 FIT-Card
 
-Důsledek: součet nezávislých normálních veličin má normální rozdělení
+Důsledek: součet normálních rozdělení 
 
 Back:
 

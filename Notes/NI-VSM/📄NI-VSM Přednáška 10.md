@@ -11,7 +11,7 @@ FILE TAGS: NI-VSM prednaska10 status-toReview blue
 START
 FIT-Card
 
-Jak funguje Testování hypotéz pomocí testových statistik?
+Jak funguje **Testování hypotéz pomocí testových statistik**?
 
 Back:
 
@@ -23,30 +23,16 @@ Zadefinuju si kritickou sekci/oblast $S_\alpha$. Pokud se ta statistika trefí t
 
 Statistikou může být například průměr.
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250322100849.png)
 ![](../../Assets/Pasted%20image%2020250322080446.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1746518364826-->
 END
 
 ---
 
-
-START
-FIT-Card
-
-Jak funguje Testování hypotéz pomocí testových statistik pro **Střední hodnotu normálního rozdělení**?
-
-Back:
-
-1. Sestavíme testovou statistiku $T$
-2. Pak můžeme provést test
-
-![](../../Assets/Pasted%20image%2020250322080544.png)
-![](../../Assets/Pasted%20image%2020250322080555.png)
-<!--ID: 1746518364829-->
-END
-
----
 
 
 START
@@ -58,7 +44,7 @@ Kde se na grafu nachází p hodnota?
 
 Back:
 
-Těsně na hranici zamítnutí a nezamítnutí (je to plocha)
+Těsně na hranici zamítnutí a nezamítnutí
 <!--ID: 1746518364832-->
 END
 
@@ -74,21 +60,6 @@ Back:
 
 Je to v zásadě to samé, testování pomocí statistiky nám umožňuje to jednodušeji porovnávat, je to takové přehlednější
 <!--ID: 1746518364834-->
-END
-
----
-
-
-
-START
-FIT-Card
-
-Jak funguje Testování hypotéz pomocí testových statistik pro **parametry normálního rozdělení**?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250322080623.png)
-<!--ID: 1746518364837-->
 END
 
 ---
@@ -133,12 +104,12 @@ END
 START
 FIT-Card
 
-Jak funguje test o střední hodnotě na hladině významnosti $\alpha$ s **testovou statistikou a kritickými obory při neznámém rozptylu**?
+Jak funguje test o **rozptylu** $\sigma^2$ na hladině významnosti $\alpha$ s **testovou statistikou a kritickými obory**?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322080751.png)
-
+<!--ID: 1747730582227-->
 END
 
 ---
@@ -151,7 +122,18 @@ Jak funguje Párový $t$-test?
 
 Back:
 
+Máme páry hodnot $(X_i, Y_i)$ (např. tlak pacienta před operaci a po ní). Toto dvojrozměrné rozdělení má střední hodnoty $(\mu_1, \mu_2)^T$. My testujeme, jestli jsou stejné.
+
+Testujeme hypotézu: $H_0: \mu_1 = \mu_2$ oproti $H_A : \mu_1 \neq \mu_2$
+1. Vytvoříme rozdělení $Z$, kde $Z_i = X_i - Y_i$
+2. Spočteme odhad rozptylu $s^2_Z$ a výběrový průměr $\bar{Z}_n$
+3. Provedeme test:
+
+![](../../Assets/Pasted%20image%2020250520105256.png)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250322080839.png)
+<!-- DetailInfoEnd -->
 
 Pozn. párový t-test dává smysl používat u subjektů, které se nemění. Např. tlak **stejného** pacienta před operací a po operaci.
 
@@ -167,13 +149,15 @@ END
 START
 FIT-Card
 
-Jak funguje Dvouvýběrový t-test?
+Jak funguje **Dvouvýběrový t-test**? (obecně)
 
 Back:
 
 Chceme testovat jestli 2 výběry mají stejné střední hodnoty. Tady na rozdíl od párového t-testu máme nezávislý výběr (tzn. náhodně vybíráme) - pozor, může být ale stejný.
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250322080904.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518364848-->
 END
 
@@ -186,14 +170,13 @@ FIT-Card
 Jak funguje Dvouvýběrový t-test pro **stejné rozptyly**?
 
 Back:
+Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
 
 ![](../../Assets/Pasted%20image%2020250322114002.png)
 
 Pozn. Když zkoumám rovnost, tak vždy $H_0$ je rovnost a $H_A$ je nerovnost.
 
 ![](../../Assets/Pasted%20image%2020250322080926.png)
-
-Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
 
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250322081003.png)
@@ -211,11 +194,11 @@ Jak funguje Dvouvýběrový t-test pro **různé rozptyly**?
 
 Back:
 
+Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
+
 ![](../../Assets/Pasted%20image%2020250322114023.png)
 
 ![](../../Assets/Pasted%20image%2020250322080940.png)
-
-Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
 <!--ID: 1746518364854-->
 END
 

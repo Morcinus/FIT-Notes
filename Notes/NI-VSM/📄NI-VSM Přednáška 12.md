@@ -11,12 +11,18 @@ FILE TAGS: NI-VSM prednaska12 status-toReview blue
 START
 FIT-Card
 
-Jak se provede test $\chi^2$ při neznámých parametrech?
+Jak se provede **test $\chi^2$ multinomického rozdělení při neznámých parametrech**?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250329084711.png)
+Stejné jako při známých parametrech, akorát neznáme parametry daného rozdělení, takže parametry odhadneme a ty pak do testu dosadíme 
+
+![](../../Assets/Pasted%20image%2020250520122726.png)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250329084725.png)
+![](../../Assets/Pasted%20image%2020250329084711.png)
+<!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250329084734.png)
@@ -48,17 +54,21 @@ END
 START
 FIT-Card
 
-Definice: **kontingenční tabulka**
+Definice: **kontingenční tabulka** a **matice pravděpodobností**
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250329084806.png)
+1. Máme náhodný vektor $X=(Y,Z)^T$ - tzn. sledujeme 2 dimenze (např. pohlaví a oblíbený nápoj)
+2. **Kontingenční tabulka** je tabulka s těma 2 dimenzema a naměřenýma hodnotama 
+3. **Matice pravděpodobností** je pak tabulka, kterou spočteme z té kontingenční. Říká nám, jaká je pravděpodobnost, že se trefíme do daného chlívečku
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250329084822.png)
 <!-- ImageEnd -->
 
 <!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250329084806.png)
+
 ![](../../Assets/Pasted%20image%2020250329084831.png)
 <!-- DetailInfoEnd -->
 
@@ -86,11 +96,17 @@ END
 START
 FIT-Card
 
-Jak se provádí test nezávislosti v kontingenčních tabulkách?
+Jak se provádí **test nezávislosti v kontingenčních tabulkách**?
 
 Back:
 
+Testujeme že se rovnají naměřené pravděpodobnosti očekávaným pravděpodobnostem
+
+![](../../Assets/Pasted%20image%2020250520124014.png)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250329084855.png)
+<!-- DetailInfoEnd -->
 
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250329084907.png)
@@ -179,6 +195,8 @@ FIT-Card
 
 Definice: Co je histogram?
 
+Tohle imo prostě nemá cenu se nějak víc učit - je to to, co člověk dělá intuitivně a Hrabák to jen zmínil
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250329085347.png)
@@ -196,6 +214,8 @@ START
 FIT-Card
 
 Definice: Jádrový odhad
+
+Tohle Hrabák říkal, že jen tak zmínil, ale že to nebudem probírat
 
 Back:
 
@@ -218,6 +238,8 @@ FIT-Card
 
 Co jsou Gaussovské směsi?
 
+Tohle Hrabák říkal, že jen tak zmínil ve slidech, ale ani jsme to na přednášce neprobírali
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411135458.png)
@@ -226,6 +248,43 @@ Back:
 ![](../../Assets/Pasted%20image%2020250411135510.png)
 <!-- ExerciseEnd -->
 <!--ID: 1746518364824-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Přehled: Jaké všechny statistické testy jsme ve VSM probírali? (6)
+
+Back:
+
+Testy bez použití testové statistiky:
+- **Pro střední hodnotu**
+	- $\mu$ při známém rozptylu
+	- $\mu$ při neznámém rozptylu
+
+Základní test:
+- **Jednoduchý test** - testujeme jestli $\mu$ nebo $\sigma^2$ odpovídá odhadům
+	- $\mu$ při známém rozptylu
+	- $\mu$ při neznámém rozptylu
+	- $\sigma^2$
+
+Více rozdělení:
+- **Párový t-test** - testujeme $\mu_1 = \mu_2$, páry
+	- při neznámém rozptylu (ten odhadnem z $Z$)
+- **Dvouvýběrový t-test** - testujeme $\mu_1 = \mu_2$, může být různé množství
+	- $\mu$ při stejných rozptylech $\sigma_1^2 = \sigma_2^2$
+	- $\mu$ při různých rozptylech $\sigma_1^2 \neq \sigma_2^2$
+
+Multinomické rozdělení:
+- $\chi^2$ **test Multinomického rozdělení**
+	- $p'=p$ při známých parametrech
+	- $p'=p$ při neznámých parametrech
+- **Kontingenční tabulka**
+	- porovnáváme pravděpodobnosti
+<!--ID: 1747739265159-->
 END
 
 ---

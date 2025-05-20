@@ -164,6 +164,8 @@ Kdy platí následující?
 
 Back:
 
+Když je Borelovská podmnožina míry nula.
+
 ![](../../Assets/Pasted%20image%2020250220124653.png)
 
 <!-- ExplanationStart -->
@@ -223,7 +225,7 @@ END
 START
 FIT-Card
 
-Definice: **Marginální rozdělení náhodného vektoru je diskrétní**
+Věta: **Marginální rozdělení náhodného vektoru je diskrétní**
 
 Back:
 
@@ -237,7 +239,7 @@ END
 START
 FIT-Card
 
-Definice: **Marginální rozdělení náhodné veličiny $X_i$ je diskrétní**
+Věta: **Marginální rozdělení náhodné veličiny $X_i$ je diskrétní**
 
 Back:
 
@@ -252,7 +254,7 @@ END
 START
 FIT-Card
 
-Definice: **Marginální rozdělení náhodného vektoru je spojité**
+Věta: **Marginální rozdělení náhodného vektoru je spojité**
 
 Back:
 
@@ -266,7 +268,7 @@ END
 START
 FIT-Card
 
-Definice: **Marginální rozdělení náhodné veličiny $X_i$ je diskrétní**
+Věta: **Marginální rozdělení náhodné veličiny $X_i$ je spojité**
 
 Back:
 
@@ -307,7 +309,7 @@ END
 START
 FIT-Card
 
-Věta: **náhodné veličiny se druženým spojitým rozdělením jsou nezávislé** $\Leftrightarrow$
+Věta: **náhodné veličiny se sdruženým spojitým rozdělením jsou nezávislé** $\Leftrightarrow$
 
 Back:
 
@@ -726,7 +728,9 @@ END
 START
 FIT-Card
 
-Věta: **Linearita střední hodnoty**
+Věta: **Linearita střední hodnoty** pro matice
+
+$$E(\textbf{A}+\textbf{BZC}) = \ ???$$
 
 Back:
 
@@ -816,6 +820,8 @@ START
 FIT-Card
 
 Věta: Vztah variační matice k lineárním transformacím
+
+$$\text{var}(a+\textbf{BX})= \ ???$$
 
 Back:
 
