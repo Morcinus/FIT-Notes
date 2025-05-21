@@ -33,7 +33,7 @@ END
 START
 FIT-Card
 
-Co platí pro:
+Co je:
 ![](../../Assets/Pasted%20image%2020250320103325.png)
 
 Back:
@@ -91,7 +91,7 @@ END
 START
 FIT-Card
 
-Definice: Relativní entropie (Kullback-Leiblerova vzdálenost)
+Definice: Relativní entropie (Kullback-Leiblerova vzdálenost) pro spojité náhodné veličiny
 
 Back:
 
@@ -105,7 +105,7 @@ END
 START
 FIT-Card
 
-Definice: Vzájemná informace $I(X;Y)$
+Definice: Vzájemná informace $I(X;Y)$ spojitých náhodných veličin
 
 Back:
 
@@ -121,6 +121,8 @@ FIT-Card
 
 Věta: **Maximalizace diferenciální entropie**
 
++Kdy nastává rovnost?
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250320103605.png)
@@ -133,7 +135,9 @@ END
 START
 FIT-Card
 
-Věta: $h(X) \leq \dots$ 
+Věta: $h(X) \leq \dots$ pro spojitou náhodnou veličinu
+
++Kdy nastává rovnost?
 
 Back:
 
@@ -147,7 +151,9 @@ END
 START
 FIT-Card
 
-Věta: $h(X) \leq 0$ 
+Věta: $h(X) \leq 0$
+
++Kdy nastává rovnost?
 
 Back:
 

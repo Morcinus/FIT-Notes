@@ -28,6 +28,8 @@ FIT-Card
 
 Věta: **Nezápornost vzájemné informace**
 
++Kdy nastává rovnost?
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130230.png)
@@ -42,6 +44,8 @@ FIT-Card
 
 Věta: **maximalizace entropie**
 
++Kdy nastává rovnost?
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130246.png)
@@ -55,6 +59,8 @@ START
 FIT-Card
 
 Věta: **podmiňování redukuje entropii**
+
++Kdy nastává rovnost?
 
 Back:
 
@@ -119,6 +125,9 @@ Definice: nesingulární kód
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130549.png)
+
+Prosté zobrazení - každý prvek se zobrazí na něco jiného:
+![](../../Assets/Pasted%20image%2020250521094622.png)
 <!--ID: 1746518364906-->
 END
 
@@ -225,6 +234,8 @@ START
 FIT-Card
 
 Věta: **Dolní mez délky instantního kódu**
+
++Kdy nastává rovnost?
 
 Back:
 

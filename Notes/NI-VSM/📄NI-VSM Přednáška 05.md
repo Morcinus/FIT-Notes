@@ -18,6 +18,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250307125455.png)
 
+Pozn. $\text{log} \ p(x)$ je dvojkový logaritmus.
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250307125501.png)
 <!-- DetailInfoEnd -->
@@ -50,11 +52,19 @@ END
 START
 FIT-Card
 
-Definice: míra neurčitosti
+Definice: **míra neurčitosti**
 
 Back:
 
+**Míra neurčitosti**:
+$$I(X) = -\log(x)$$
+
+Entropie je tedy očekávanou mírou neurčitosti:
+$$H(X)=EI(X)$$
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250307125612.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599650144-->
 END
 
@@ -114,7 +124,9 @@ END
 START
 FIT-Card
 
-Věta: řetězové pravidlo pro entropii
+Věta: **řetězové pravidlo pro entropii**
+
+![](../../Assets/Pasted%20image%2020250521082604.png)
 
 Back:
 
@@ -158,6 +170,8 @@ Definice: **vzájemná informace**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307125838.png)
+
+Říká mi to, kolik se toho dozvím o veličině $Y$, když znám hodnotu $X$ a obráceně.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250307125845.png)
