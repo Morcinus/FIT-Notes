@@ -20,7 +20,6 @@ Back:
 - Code modernization & refactoring
 - Artifact Building & Testing
 - Code Explanation
-
 <!--ID: 1747810220459-->
 END
 

@@ -14,6 +14,8 @@ FIT-Card
 
 Věta: **Informační nerovnost**
 
++Kdy nastává rovnost?
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130216.png)
@@ -233,7 +235,7 @@ END
 START
 FIT-Card
 
-Věta: **Dolní mez délky instantního kódu**
+Věta: **Dolní mez střední délky instantního kódu**
 
 +Kdy nastává rovnost?
 

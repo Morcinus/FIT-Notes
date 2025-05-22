@@ -144,7 +144,7 @@ FIT-Card
 
 Důsledek: Co platí pro homogenní markovský řetězec?
 
-$P(m,m+n)= \ ???$
+$P(m,m+n)= \ ???= \ ???$
 
 Back:
 
@@ -159,6 +159,8 @@ START
 FIT-Card
 
 Jaký tvar má Chapman-Kolmogorova rovnice pro **homogenní markovský řetězec**?
+
+$P(n+m)= \ ???= \ ???$
 
 Back:
 

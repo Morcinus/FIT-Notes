@@ -101,7 +101,7 @@ Jak se provede **test $\chi^2$ multinomického rozdělení** při známých para
 Back:
 
 1. Naměříme nějaké hodnoty, např. kolikrát padla na pětistranné kostce $1, 2, 3, 4, 5$
-2. Chceme srovnat, že ty pravděpodobnosti odpovídají našem odhadům (např. naměřili jsme $p' = (19\%, 20\%, 21\%, 20\%, 19\%, 21\%)$ a čekali bychom všude bude $20\%$)
+2. Chceme srovnat, že ty pravděpodobnosti odpovídají našem odhadům (např. naměřili jsme $p' = (19\%, 20\%, 21\%, 21\%, 19\%)$ a čekali bychom všude bude $20\%$)
 3. Tzn. testujeme, že se mi shodují naměřené pravděpodobnosti s těmi, co bychom očekávali
 
 ![](../../Assets/Pasted%20image%2020250520121548.png)

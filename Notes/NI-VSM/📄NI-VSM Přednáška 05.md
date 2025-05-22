@@ -247,6 +247,8 @@ FIT-Card
 
 Věta: Jensenova nerovnost
 
++Kdy nastává rovnost?
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250307130116.png)
