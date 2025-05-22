@@ -173,9 +173,10 @@ Jak invertovat matici 2x2?
 
 Back:
 
-Stačí prohodit prvky diagonály `\` a omínusovat prvky diagonály `/` a pak to pronásobit:
+Napíšeme si to vedle matice $E$ a zgemujem.
 
-![](../../Assets/Pasted%20image%2020250411131531.png)
+Např.
+![](../../Assets/Pasted%20image%2020250522181145.png)
 <!--ID: 1746518364634-->
 END
 
@@ -223,6 +224,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250411113123.png)
 
+Pozn. $I$ je identita, tedy to, co jsme v jiných předmětech značili jako $E$
+
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411113135.png)
 <!-- ExerciseEnd -->
@@ -240,6 +243,8 @@ Definice: **fundamentální matice řetězce**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113151.png)
+
+Pozn. $I$ je identita, tedy to, co jsme v jiných předmětech značili jako $E$
 <!--ID: 1746518364647-->
 END
 
@@ -254,6 +259,8 @@ Věta: Pro střední dobu do pohlcení při startu v $i \in T$ platí $\dots$ (a
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113214.png)
+
+Pozn. $I$ je identita, tedy to, co jsme v jiných předmětech značili jako $E$
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250411113224.png)

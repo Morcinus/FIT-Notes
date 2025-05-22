@@ -68,7 +68,8 @@ END
 START
 FIT-Card
 
-Jak funguje test o střední hodnotě na hladině významnosti $\alpha$ s **testovou statistikou a kritickými obory při známém rozptylu**?
+
+Jak funguje: **jednovýběrový t-test pro $\mu$ při známém rozptylu**?
 
 Back:
 
@@ -88,7 +89,7 @@ END
 START
 FIT-Card
 
-Jak funguje test o střední hodnotě na hladině významnosti $\alpha$ s **testovou statistikou a kritickými obory při neznámém rozptylu**?
+Jak funguje: **jednovýběrový t-test pro $\mu$ při neznámém rozptylu**?
 
 Back:
 
@@ -104,7 +105,7 @@ END
 START
 FIT-Card
 
-Jak funguje test o **rozptylu** $\sigma^2$ na hladině významnosti $\alpha$ s **testovou statistikou a kritickými obory**?
+Jak funguje: **jednovýběrový t-test pro $\sigma^2$**?
 
 Back:
 
@@ -118,7 +119,7 @@ END
 START
 FIT-Card
 
-Jak funguje Párový $t$-test?
+Jak funguje: **párový $t$-test**?
 
 Back:
 
@@ -149,7 +150,7 @@ END
 START
 FIT-Card
 
-Jak funguje **Dvouvýběrový t-test**? (obecně)
+Jak funguje: **dvouvýběrový t-test**? (obecně)
 
 Back:
 
@@ -167,7 +168,7 @@ END
 START
 FIT-Card
 
-Jak funguje Dvouvýběrový t-test pro **stejné rozptyly**?
+Jak funguje: **dvouvýběrový t-test při stejných rozptylech**?
 
 Back:
 Pozn. ten vzoreček dole nemáme umět! (Prý ani u státnic :D)
@@ -190,7 +191,7 @@ END
 START
 FIT-Card
 
-Jak funguje Dvouvýběrový t-test pro **různé rozptyly**?
+Jak funguje: **dvouvýběrový t-test při různých rozptylech**?
 
 Back:
 

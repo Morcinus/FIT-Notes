@@ -284,3 +284,19 @@ Back:
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jak se spočte $EN$ v systému? 
+
+Aneb střední počet požadavků/zákazníků v systému z dlouhodobého hlediska.
+
+Back:
+
+$$EN = \sum_{n=0}^\infty n \pi_n$$
+<!--ID: 1747933518468-->
+END
+
+---

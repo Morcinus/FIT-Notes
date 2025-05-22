@@ -139,6 +139,28 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Jak bychom prakticky použili rovnici detailní rovnováhy pro nalezení stacionárního rozdělení této matice?
+
+![](../../Assets/Pasted%20image%2020250522185031.png)
+
+Back:
+
+Vypíšeme rovnice:
+![](../../Assets/Pasted%20image%2020250522185039.png)
+
+Postupně dosadíme a vyjádříme složky $\pi$
+![](../../Assets/Pasted%20image%2020250522185120.png)
+
+<!--ID: 1747933518476-->
+END
+
+---
+
+
 ### Přednáška 21
 
 START
