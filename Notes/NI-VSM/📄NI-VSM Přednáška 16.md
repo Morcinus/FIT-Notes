@@ -152,8 +152,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250411113028.png)
 
-Matice přechodu:
-![](../../Assets/Pasted%20image%2020250516161641.png)
+$I$ je jednotková matice
 
 <!-- ExerciseStart -->
 ![](../../Assets/Pasted%20image%2020250411113037.png)

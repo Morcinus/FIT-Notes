@@ -102,7 +102,7 @@ FIT-Card
 Věta: Vícerozměrné normální rozdělení je invariantní vůči lineárním transformacím
 
 hint:
-$$Y = a+BX = \ ???$$
+$$Y = a+BX \sim \  ???$$
 
 Back:
 

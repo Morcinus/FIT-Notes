@@ -91,6 +91,26 @@ END
 START
 FIT-Card
 
+Čemu je rovna střední doba příchodu a střední doba zpracování požadavku u systémů hromadné obsluhy?
+
+Back:
+
+Střední doba příchodu:
+$EA = \frac{1}{\lambda}$
+
+Střední doba zpracování:
+$ES = \frac{1}{\mu}$
+
+Tags: exam
+<!--ID: 1748081595839-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Jak vypadá systém $M|M|1$?
 - Matice intenzit
 - Jak se spočte stacionární rozdělení
