@@ -255,6 +255,8 @@ FIT-Card
 
 Věta: Pro střední dobu do pohlcení při startu v $i \in T$ platí $\dots$ (aka **jak se spočítá**)
 
+$N_{i \circ}  = \ ?$
+
 Back:
 
 ![](../../Assets/Pasted%20image%2020250411113214.png)

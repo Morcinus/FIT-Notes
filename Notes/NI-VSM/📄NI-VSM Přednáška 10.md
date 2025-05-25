@@ -75,6 +75,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250322113921.png)
 
+Pozn. $\mu_0$ je ta střední hodnota, co bychom teoreticky očekávali.. Idk, to značení mi přijde trošku matoucí - Morčín
+
 ![](../../Assets/Pasted%20image%2020250322080717.png)
 
 <!-- ExerciseStart -->
@@ -94,6 +96,8 @@ Jak funguje: **jednovýběrový t-test pro $\mu$ při neznámém rozptylu**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250322113932.png)
+
+Pozn. $\mu_0$ je ta střední hodnota, co bychom teoreticky očekávali.. Idk, to značení mi přijde trošku matoucí - Morčín
 
 ![](../../Assets/Pasted%20image%2020250322080731.png)
 <!--ID: 1746518364842-->

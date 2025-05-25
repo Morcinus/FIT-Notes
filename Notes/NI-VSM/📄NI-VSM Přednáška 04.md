@@ -152,7 +152,7 @@ FIT-Card
 
 Důsledek: Pro veličiny ve vícerozměrném normálním rozdělení platí.
 
-Normál $X_i$ a $X_j$ jsou nezávislé $\Leftrightarrow$
+$X_i$ a $X_j$ jsou nezávislé $\Leftrightarrow \dots$
 
 Back:
 

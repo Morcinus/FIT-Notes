@@ -472,56 +472,6 @@ END
 
 ---
 
-
-START
-FIT-Card
-
-Definice: **Poissonovo rozdělení** (Poissonova aproximace) - předpis, parametry, jak je definováno
-
-Back:
-
-**Předpis**: $X \sim Poisson(\lambda)$
-**Parametry**:
-- $\lambda$ - počet pokusů
-**Definice**:
-- $P(X=k) = \frac{\lambda^k}{k!}e^{-\lambda}$
-
-<!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020250220120403.png)
-<!-- DetailInfoEnd -->
-<!--ID: 1746599650706-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jaká je střední hodnota **Poissonovo rozdělení**?
-
-Back:
-
-$$EX = \lambda$$
-<!--ID: 1746599650714-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jaký je rozptyl **Poissonovo rozdělení**?
-
-Back:
-
-$$varX=\lambda$$
-<!--ID: 1746599650722-->
-END
-
----
-
 #### Spojité rozdělení
 
 START

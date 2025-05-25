@@ -17,7 +17,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250322113850.png)
 
-Je to minimální hladina významnosti, na které lze zamítnout **při daném pozorování**.
+Je to minimální hladina významnosti, na které lze zamítnout $H_0$ **při daném pozorování**.
 
 ![](../../Assets/Pasted%20image%2020250322075825.png)
 <!--ID: 1746599650039-->

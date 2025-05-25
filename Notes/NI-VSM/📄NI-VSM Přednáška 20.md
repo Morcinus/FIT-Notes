@@ -91,6 +91,58 @@ END
 START
 FIT-Card
 
+Definice: **Poissonovo rozdělení** (Poissonova aproximace) - předpis, parametry, jak je definováno
+
+Pozn. tohle je dobrý umět, tu definici, protože to bylo v jedné zkoušce z fitwiki :)
+
+Back:
+
+**Předpis**: $X \sim Poisson(\lambda)$
+**Parametry**:
+- $\lambda$ - počet pokusů
+**Definice**:
+- $P(X=k) = \frac{\lambda^k}{k!}e^{-\lambda}$
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250220120403.png)
+<!-- DetailInfoEnd -->
+<!--ID: 1748105582469-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je střední hodnota **Poissonovo rozdělení**?
+
+Back:
+
+$$EX = \lambda$$
+<!--ID: 1748105876213-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je rozptyl **Poissonovo rozdělení**?
+
+Back:
+
+$$varX=\lambda$$
+<!--ID: 1748105876217-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Čemu je rovna střední doba příchodu a střední doba zpracování požadavku u systémů hromadné obsluhy?
 
 Back:
@@ -191,7 +243,7 @@ END
 START
 FIT-Card
 
-Pozorování: Podmíněné rozdělení doby ve frontě $W$
+Pozorování: Jaké rozdělení má u $M|M|1$ doba čekání ve frontě?
 
 Back:
 
@@ -224,6 +276,8 @@ FIT-Card
 Jak vypadá stacionární rozdělení pro systém $M|M|\infty$?
 
 Back:
+
+Aneb co mi toto říká je, že se ten celý systém chová jako Poissonovo rozdělení s tím parametrem $\lambda / \mu$.
 
 ![](../../Assets/Pasted%20image%2020250423091059.png)
 
@@ -315,7 +369,10 @@ Aneb střední počet požadavků/zákazníků v systému z dlouhodobého hledis
 
 Back:
 
-$$EN = \sum_{n=0}^\infty n \pi_n$$
+Pro $M|M|1$ ve stacionárním stavu:
+$$EN = \sum_{n=0}^\infty n \pi_n = \frac{\rho}{1-\rho}$$
+
+Pro $M|M|\infty$ je to jen $\rho$
 <!--ID: 1747933518468-->
 END
 

@@ -139,6 +139,22 @@ END
 START
 FIT-Card
 
+Jaká je distribuční funkce exponenciálního rozdělení?
+
+(v jedné zkoušce to bylo potřeba jako součást praktického příkladu)
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250525180005.png)
+<!--ID: 1748188849403-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Věta: Bezpaměťovost exponenciálního rozdělení
 
 Back:
@@ -300,7 +316,6 @@ Matice intenzit mi říká několik věcí:
 3. Jaká je pravděpodobnost přechodu do jiného stavu.
 <!-- ExplanationEnd -->
 
-
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419140619.png)
 <!-- DetailInfoEnd -->
@@ -317,13 +332,32 @@ END
 START
 FIT-Card
 
-Věta: **Simulace procesu pomocí skokových intenzit**
-
-Jak se z $Q_{ii}$ dostane:
-- Čas do výskoku z $i$
-- pravděpodobnost skoku z $i$ do $j$
+Jak lze spočíst $\textbf{Q}$, pokud známe $\textbf{P}(0)$?
 
 Back:
+
+$$\textbf{Q}=\textbf{P}'(0)$$
+
+Tzn. prostě zderivuju každý prvek té matice $\textbf{P}$
+<!--ID: 1748180445895-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Věta: **Simulace procesu pomocí skokových intenzit**
+
+Jak se z $\textbf{Q}$ dostane:
+- Čas do výskoku z $i$
+- Pravděpodobnost skoku z $i$ do $j$
+
+Back:
+
+1. $-\textbf{Q}_{ii}$
+2. $\frac{\textbf{Q}_{ij}}{-\textbf{Q}_{ii}}$
 
 ![](../../Assets/Pasted%20image%2020250419140652.png)
 <!--ID: 1746599649722-->

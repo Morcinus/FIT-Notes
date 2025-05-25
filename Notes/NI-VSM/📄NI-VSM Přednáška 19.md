@@ -120,7 +120,7 @@ END
 START
 FIT-Card
 
-Pozorování: Pokud rozdělení splňuje **detailní rovnováhu**, pak $\dots$
+Pozorování: **detailní rovnováha**
 
 Back:
 
@@ -154,7 +154,6 @@ Vypíšeme rovnice:
 
 Postupně dosadíme a vyjádříme složky $\pi$
 ![](../../Assets/Pasted%20image%2020250522185120.png)
-
 <!--ID: 1747933518476-->
 END
 
@@ -167,6 +166,8 @@ START
 FIT-Card
 
 Lemma: Pokud máme nezávislé exponenciální rozdělení $T$ a $S$, potom ...
+
+$$Z := \min\{T,S\} \sim \ ???$$
 
 Back:
 
