@@ -17,7 +17,7 @@ Back:
 
 - **Alokace kapitálu** - pomuže mi to vydělat
 - **Produktivita** - pomůže mi to ušetřit
-- **Strategické příležitosti a výhody** - pomůže to získat konkurenční výhodu na trhu
+- **Strategické příležitosti a výhody** - pomůže to získat konkurenční výhodu na trhu (+ nové produkty/služby)
 <!--ID: 1746599652202-->
 END
 
@@ -70,7 +70,7 @@ END
 START
 FIT-Card
 
-Co je TPS?
+Co je **TPS**?
 
 Back:
 
@@ -91,7 +91,7 @@ END
 START
 FIT-Card
 
-Co je MIS?
+Co je **MIS**?
 
 Back:
 
@@ -131,7 +131,7 @@ END
 START
 FIT-Card
 
-Co je ESS?
+Co je **ESS**?
 
 Back:
 
@@ -155,6 +155,7 @@ Jaký je vztah TPS, MIS, DSS a EIS?
 
 Back:
 
+![](../../Assets/Pasted%20image%2020250528140406.png)
 ![](../../Assets/Pasted%20image%2020250220170857.png)
 <!--ID: 1746599652257-->
 END
@@ -165,7 +166,7 @@ END
 START
 FIT-Card
 
-Co jsou business procesy?
+Co jsou **business procesy**?
 
 Back:
 
@@ -183,7 +184,7 @@ END
 START
 FIT-Card
 
-Jaký je vztah business procesů a informačních systémů?
+Jaký je vztah **business procesů** a **informačních systémů**?
 
 Back:
 
@@ -221,6 +222,8 @@ Co jsou **systémy pro celopodnikovou integraci procesů**?
 Back:
 
 Vytvořeny pro koordinaci a integraci procesů v rámci celé organizace.
+
+Např. CRM, ERP, KMS
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250220172119.png)

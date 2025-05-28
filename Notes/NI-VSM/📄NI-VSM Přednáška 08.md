@@ -188,7 +188,7 @@ END
 START
 FIT-Card
 
-Jaké jsou typickyé kroky při statistickém zkoumání? (3)
+Jaké jsou typické kroky při statistickém zkoumání? (3)
 
 Back:
 

@@ -21,29 +21,24 @@ END
 
 ---
 
-
 START
 FIT-Card
 
-Co všechno může být v IT infrastruktuře?
+Jaké jsou **komponenty infrastruktury**? (7)
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250227163339.png)
-<!--ID: 1746599652025-->
-END
+- **Počítačový hardware**
+- **Operační systémy**
+- **Enterprise software**
+- **Data management a úložiště**
+- **Síťové a telekomunikační platformy**
+- **Internet**
+- **Systémová integrace a konzultační služby**
 
----
-
-
-START
-FIT-Card
-
-Jaké jsou komponenty infrastruktury?
-
-Back:
-
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227163814.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599652034-->
 END
 
@@ -57,7 +52,11 @@ Co je například součástí komponenty infrastruktury **počítačový hardwar
 
 Back:
 
+Osobní počítače, mobily, servery, mainframe...
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227163903.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599652044-->
 END
 
@@ -67,12 +66,18 @@ END
 START
 FIT-Card
 
-Co je například součástí komponenty infrastruktury **počítačový hardware**? 
+Co je například součástí komponenty infrastruktury **enterprise software**? 
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250227164413.png)
+SAP, Oracle, Microsoft, Amazon (AWS), Salesforce, IBM,...
 
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250227164413.png)
+<!-- DetailInfoEnd -->
+
+<!--ID: 1748434798935-->
 END
 
 ---
@@ -85,7 +90,13 @@ Co je například součástí komponenty infrastruktury **data management a úlo
 
 Back:
 
+- Databáze - Oracle, Hadoop, Postgres, MySQL
+- Fyzická úložiště - Seagate,...
+- Storage area networks
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227164358.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599652057-->
 END
 
@@ -99,7 +110,13 @@ Co je například součástí komponenty infrastruktury **síťové a telekomuni
 
 Back:
 
+- **telekomunikační služby** - O2, Vodafone
+- **síťové operační systémy** - windows server, linux
+- **síťový hardware** - Cisco...
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227164443.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599652065-->
 END
 
@@ -112,6 +129,8 @@ FIT-Card
 Co je například součástí komponenty infrastruktury **Internet**?
 
 Back:
+
+- hardware, software, webhosting,..
 
 ![](../../Assets/Pasted%20image%2020250227164823.png)
 <!--ID: 1746599652073-->
@@ -139,7 +158,9 @@ END
 START
 FIT-Card
 
-Co je Moorův zákon
+Co je **Moorův zákon**?
+
+(to bylo ve zkoušce)
 
 Back:
 
@@ -158,7 +179,7 @@ END
 START
 FIT-Card
 
-Co hýbe vývojem IT infrastruktury? (3)
+Co **hýbe vývojem IT infrastruktury**? (3)
 
 Back:
 
@@ -204,14 +225,15 @@ Jaké jsou momentální trendy v IT?
 
 Back:
 
-- Největší trend momentálně AI
-- Microservices - trend tak před 8 lety až do teď
-- Big data
-- Virtualizace - 
-- Kontejnerizace
+- Největší trend momentálně **AI**
+- **Microservices** - trend tak před 8 lety až do teď
+- **Big data**
+- **Virtualizace** - virtual machines
+- **Kontejnerizace** - containers
 - Orchestrace a automatizace kontejnerů
-- Infrastructure as a code
-- DevOps
+- Cloud Computing
+- **Infrastructure as a code**
+- **DevOps**
 <!--ID: 1746599652111-->
 END
 
@@ -221,11 +243,11 @@ END
 START
 FIT-Card
 
-Jaká je hlavní nevýhoda microservices?
+Jaká je hlavní **nevýhoda microservices**?
 
 Back:
 
-Přináší to komplexitu, protože s každou novou funkcionalitou musím řešit distribuovaný systém těch mikroservis.
+Přináší to **komplexitu**, protože s každou novou funkcionalitou musím řešit distribuovaný systém těch mikroservis.
 
 Obecně je většinou nejlepší mít nějaký hybrid, dělat microservices tam, kde to dává smysl.
 <!--ID: 1746599652119-->
@@ -237,11 +259,11 @@ END
 START
 FIT-Card
 
-Co je virtualizace?
+Co je **virtualizace**?
 
 Back:
 
-Na jednom fyzickém hardwaru se spustí víc operačních systémů, v nich pár různé programy.
+Na jednom fyzickém hardwaru se spustí víc operačních systémů (virtual machines), v nich pár různé programy.
 
 Díky tomu nemusím mít hromadu serverů, ale využiju přesně to, co potřebuju.
 <!--ID: 1746599652128-->
@@ -253,7 +275,7 @@ END
 START
 FIT-Card
 
-Co je kontejnerizace?
+Co je **kontejnerizace**?
 
 Back:
 
@@ -273,7 +295,7 @@ END
 START
 FIT-Card
 
-Co je orchestrace a automatizace?
+Co je **orchestrace** a **automatizace**?
 
 Back:
 
@@ -293,7 +315,7 @@ END
 START
 FIT-Card
 
-Co je cloud computing?
+Co je **cloud computing**?
 
 Back:
 
@@ -320,9 +342,9 @@ Jaké jsou 3 cloud computing typy?
 
 Back:
 
-- IaaS - infrastructure as a service (AWS)
-- PaaS - platform as a service (Azure, Google app engine)
-- SaaS - software as a service (GDrive)
+- **IaaS** - infrastructure as a service (AWS)
+- **PaaS** - platform as a service (Azure, Google app engine)
+- **SaaS** - software as a service (GDrive)
 <!--ID: 1746599652158-->
 END
 
@@ -332,7 +354,7 @@ END
 START
 FIT-Card
 
-Co je infrastructure as a code?
+Co je **infrastructure as a code**?
 
 Back:
 
@@ -350,7 +372,7 @@ END
 START
 FIT-Card
 
-Co je devops?
+Co je **devops**?
 
 Back:
 
@@ -369,11 +391,27 @@ END
 START
 FIT-Card
 
-Jaké jsou výzvy managementu infrastruktury?
+Jaké jsou **výzvy managementu infrastruktury**? (3 hlavní části)
 
 Back:
 
+Technická část:
+- **Flexibilita** - IT musí neustále reagovat na změny potřeb podniku
+- **Škálovatelnost** - podnik různě roste, je třeba se přizpůsobovat
+- Nástrahy SaaS - bezpečnost, legislativa, vendor lock-ins
+
+Management:
+- Jsou IT týmy centralizované nebo decentralizované?
+- Kdo řídí IT v podniku?
+
+Náklady:
+- Kolik za co utrácet
+- **TCO model**
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227174218.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1746599652183-->
 END
 
@@ -383,16 +421,29 @@ END
 START
 FIT-Card
 
-Jak do IT infrastruktury rozumně investovat?
+Co znamená **TCO**? Co všechno zahrnuje?
+
+(tohle bylo ve zkoušce)
 
 Back:
 
-- Dobrý je použít TCO - total cost of ownership
-	- Analýza přímých a nepřímých nákladů
-	- Člověk zváží různé varianty
-	- Podle toho pak vyjde, jaká varianta je nejlepší
+**Total Cost of Ownership**
+= Analýza všech přímých a nepřímých nákladů k pořízení si nějaké věci
 
+Typicky se pro každou možnost (např. nákupu softwaru) udělá TCO model a pak se tyto modely porovnávají.
+
+Např. při pořízení si softwaru to může zahrnovat:
+1. Pořizovací náklady – licence, vývoj, nákup hardwaru.
+2. Implementace a integrace – náklady na nasazení, přizpůsobení, propojení s jinými systémy.
+3. Školení a onboarding – zaškolení uživatelů a správců systému.
+4. Provozní náklady – hosting, správa, podpora, údržba.
+5. Upgrade a rozvoj – aktualizace, nové funkce, vylepšení.
+6. Skryté náklady – výpadky, bezpečnostní rizika, náklady na změnu systému v budoucnu.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227174248.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1746599652191-->
 END
 
