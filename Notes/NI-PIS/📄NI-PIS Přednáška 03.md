@@ -11,11 +11,18 @@ FILE TAGS: NI-PIS prednaska03 status-toReview
 START
 FIT-Card
 
-Jaké jsou typy architektury? (4)
+Jaké jsou **typy architektury**? (4)
 
 Back:
 
+- **Computer architecture** - design vnitřností počítačového systému (nap=ř. hardware components) 
+- **Systems architecture** - design systémů, integrace softwaru a hardwaru k vytvoření funkčního zařízení
+- **Software architecture** - čistě software
+- **Enterprise architecture** - design organizací a procesů
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250306162101.png)
+<!-- DetailInfoEnd -->
 
 Pozn. enterprise architektura obsahuje i organizaci podniku, i třeba uspořádání poboček apod.
 <!--ID: 1746599651911-->
@@ -47,7 +54,7 @@ END
 START
 FIT-Card
 
-Co je SWEBOK?
+Co je **SWEBOK**?
 
 Back:
 
@@ -63,17 +70,17 @@ END
 START
 FIT-Card
 
-Co je C4 model?
+Co je **C4 model**?
 
 Back:
 
 Architekturu bychom měli zapisovat ve 4 různých úrovních.
 
 Podobně jako mapy:
-- kontinenty
-- země
-- části zemí
-- street view
+- **kontinenty**
+- **země**
+- **části zemí**
+- **street view**
 <!--ID: 1746599651933-->
 END
 
@@ -83,9 +90,13 @@ END
 START
 FIT-Card
 
-Co je Enterprise architecture?
+Co je **Enterprise architecture**?
 
 Back:
+
+**Designuje organizaci jako celek** - spojuje byznys procesy, technologie, data a strategii a cíle organizace.
+
+Vytváří to jakýsi blueprint/framework pro organizaci - struktury, procesy a technologie
 
 ![](../../Assets/Pasted%20image%2020250306164735.png)
 <!--ID: 1746599651940-->
@@ -118,7 +129,7 @@ END
 START
 FIT-Card
 
-Co je enterprise integration?
+Co je **enterprise integration**?
 
 Back:
 
@@ -138,11 +149,67 @@ END
 START
 FIT-Card
 
+Jaké jsou způsoby **Enterprise Integrace**? (3 části)
+
+Back:
+
+- **Application integration** - na úrovni aplikací
+	- SOA - service oriented architecture
+	- API - application programming interfaces
+	- EBS - enterprise service busses
+- **Data integration** - integrace dat
+	- ETL - extract, transform, load
+	- ELT - extract, load, transform
+- **Process integration** - integrace procesů
+	- BPM - business process management (např. BPMN diagramy)
+<!--ID: 1748435998155-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se liší ETL a ELT data integrace?
+
+Back:
+
+**ETL – Extract, Transform, Load**
+- Extract (extrakce) – data se získají ze zdrojových systémů (např. databáze, API, CSV).
+-  Transform (transformace) – data se upraví (čistí, agregují, mění formát) ještě před nahráním.
+- Load (nahrání) – transformovaná data se uloží do cílového systému (např. datový sklad).
+
+Vhodné pro: tradiční datové sklady, kde je třeba mít plně připravená data.
+
+**ELT – Extract, Load, Transform**
+- Extract (extrakce) – data se získají ze zdrojů.
+- Load (nahrání) – data se nejprve uloží do cílového systému v surové podobě.
+- Transform (transformace) – transformace probíhá až v cílovém systému (např. pomocí SQL nebo nástrojů jako dbt).
+
+Vhodné pro: moderní cloudové datové sklady (např. BigQuery, Snowflake), které zvládají velké objemy dat a výkonné transformace přímo ve skladu.
+<!--ID: 1748435998160-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Jaké jsou hlavní výzvy enterprise integrace? (5)
 
 Back:
 
+- **Komplexita dat a prostředí** - různé technologie, data storages, datové formáty,...
+- **Kvalita dat** - nekonzistence, různé requirements a use cases
+- **Bezpečnost** - riziko krádeže a security breaches
+- **Náklady** - tooling a služby
+- **Change maangement** - systém se furt mění a vylepšuje
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250306165806.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746599651967-->
 END
 
@@ -156,9 +223,9 @@ Co je shadow IT?
 
 Back:
 
-Když lidé používají IT systémy jinak, než je jak centrálně určeno, že se to má používat. 
+Když lidé používají IT systémy jinak, než je jak centrálně určeno, že se to má používat.
 
-Např. místo toho aby se začal používat nějaký nový informační systém, tak to někdo nabuší do excelu a rozpošle to mailem osatním. Ten excel pak je v tom podniku x let a lidi to furt používají.
+Např. místo toho aby se začal používat nějaký nový informační systém, tak to někdo nabuší do Excelu a rozpošle to mailem osatním. Ten excel pak je v tom podniku x let a lidi to furt používají.
 
 ![](../../Assets/Pasted%20image%2020250306170635.png)
 <!--ID: 1746599651975-->
