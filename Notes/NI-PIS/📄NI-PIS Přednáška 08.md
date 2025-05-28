@@ -30,7 +30,7 @@ END
 START
 FIT-Card
 
-Jaké jsou **3 vrstvy data managementu**? (tohle je asi důležitý)
+Jaké jsou **3 vrstvy data managementu** (+3 v každé vrstvě)? 
 
 Back:
 
@@ -48,6 +48,8 @@ Back:
 	- Data Security
 
 Key takeaway: Business se čím dál tím víc bude zapojovat do data managementu
+
+![](../../Assets/Pasted%20image%2020250528163000.png)
 <!--ID: 1746599651769-->
 END
 
@@ -62,13 +64,13 @@ Jaké jsou různé úrovně data solutions?
 Back:
 
 1. **Sandbox** - data např. v excelu
-2. **Stage** - mám data v jedné databázi na jednom místě
+2. **Stage** - data v jedné databázi na jednom místě
 3. **Stage-Mart** - máme vrstvu nad Stagem, která např. předpřipravuje reporty
-4. **Classic DWH** - klasická data warehouse (je tým lidí, co ho spravují)
+4. **Classic DWH** - klasický data warehouse (je tým lidí, co ho spravují)
 	- Typicky jádro datového skladu se vytváří nezávisle na externích systémech, abych neměl různé formáty dat, když si třeba změním CRM nebo jiný systém
-5. **Hybrid DWH** - část je v cloudu
-6. **Analytical & BI Platform** - 
-7. **Universal Data Platform** - 
+5. **Hybrid DWH** - část DWH je v cloudu
+6. **Analytical & BI Platform** - nad DWH vzniká platforma pro datovou analýzu a reporting (dashboardy atd.)
+7. **Universal Data Platform** - centrální hub pro všechna data (např. Databricks, Snowflake,...)
 <!--ID: 1746599651776-->
 END
 
@@ -78,7 +80,7 @@ END
 START
 FIT-Card
 
-Jaké jsou 3 typy datové platformy? 
+Jaké jsou **3 typy datové platformy**? 
 
 Back:
 
@@ -87,6 +89,8 @@ Analogie s dopravou:
 - **Data Warehousing** - spolehlivý, vše na jednom místě
 - **Analytika a Data Lakes (data mesh)** - nižší úroveň kontroly, daleko větší flexibilita, umožňuje více experimentovat s datama - slouží pro Business Intelligence
 - **Provozní zpracování dat** - klasický provozní účely, typicky propojování aplikací (integrace), dále taky např. statistické modely, co dělají predikce
+
+(vůbec nechápu jak ten borec získal řidičák, jestli mu ta analogie s dopravou dává smysl)
 <!--ID: 1746599651784-->
 END
 
@@ -96,29 +100,13 @@ END
 START
 FIT-Card
 
-Jak funguje datová architektura?
-
-Back:
-
-- Definování základních datových entit a jejich typů
-- Definice business termů
-- Vazba na organizační strukturu
-- Vazba na fyzický model
-- Datová lineage
-<!--ID: 1746599651792-->
-END
-
----
-
-
-START
-FIT-Card
-
-Kdy je datová kvalita dostatečná?
+**Kdy je datová kvalita dostatečná**?
 
 Back:
 
 Když si nikdo nestěžuje :D
+
+Aka když to lidi jsou schopný využít na to co potřebují.
 <!--ID: 1746599651800-->
 END
 
@@ -128,11 +116,11 @@ END
 START
 FIT-Card
 
-Co je historizace dat?
+Co je **historizace dat**?
 
 Back:
 
-Dělají se "snímky" dat  
+Dělají se "snímky" dat. Díky tomu můžu přistupovat k tomu, jak data vypadala v minulosti.
 <!--ID: 1746599651807-->
 END
 
