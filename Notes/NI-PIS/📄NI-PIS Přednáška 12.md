@@ -11,15 +11,15 @@ FILE TAGS: NI-PIS prednaska12 status-toReview
 START
 FIT-Card
 
-Jaké jsou hlavní části, kde se používá AI v programování?
+Jaké jsou hlavní části, kde se používá AI v programování? (5)
 
 Back:
 
-- Code generation
-- Code debugging
-- Code modernization & refactoring
-- Artifact Building & Testing
-- Code Explanation
+- **Code generation**
+- **Code debugging**
+- **Code modernization & refactoring**
+- **Artifact Building & Testing**
+- **Code Explanation**
 <!--ID: 1747810220459-->
 END
 
@@ -33,10 +33,10 @@ Jaké jsou dobré (ostatní) AI nástroje?
 
 Back:
 
-- Cursor - klon VS Code, nejlepší AI features, protože to zvládá být napojený přímo na codebase
+- **Cursor** - klon VS Code, nejlepší AI features, protože to zvládá být napojený přímo na codebase
 	- Do konfigurace se dát obecný kontext, např. jaké jsou konvence projektu atd.
-- DiffBlue - dobrý na test generation
-- V0 od Vercelu - generace GUI podle textového popisu, minimálně to dokáže dobře udělat wireframy atd.
+- **DiffBlue** - dobrý na test generation
+- **V0 od Vercelu** - generace GUI podle textového popisu, minimálně to dokáže dobře udělat wireframy atd.
 <!--ID: 1747810220467-->
 END
 
@@ -46,11 +46,11 @@ END
 START
 FIT-Card
 
-O kolik se reálně zlepší efektivita programátorů pomocí AI? 
+O **kolik se reálně zlepší efektivita programátorů** pomocí AI? 
 
 Back:
 
-Reálné studie ukázaly, že copilot reálně ušetří vývojáři jednotky hodin týdně.
+Reálné studie ukázaly, že copilot reálně ušetří **vývojáři jednotky hodin týdně** (cca 20-30%).
 
 Zvyšuje to ale developer experience (je to zábavnější) a softwarový inženýři můžou se pak věnovat těm zajímavějším věcem
 
@@ -110,11 +110,11 @@ END
 START
 FIT-Card
 
-Co je největší counterargument u zákazníků, co nechtějí používat AI?
+Co je největší argument u zákazníků, co nechtějí používat AI?
 
 Back:
 
-Bojí se, že budou data leakovat.
+Bojí se, že budou **data leakovat**.
 <!--ID: 1747810220494-->
 END
 
@@ -124,11 +124,11 @@ END
 START
 FIT-Card
 
-Co je OSS check?
+Co je **OSS check**?
 
 Back:
 
-U velkých korporátů je v pipelině tzv. OSS check = open source check
+U velkých korporátů je v pipelině tzv. **OSS check** = open source check
 - Tzn. kontrolujou se licence externích nástrojů/knihoven, aby tam nebyly nějaké nekompatibilní licence
 <!--ID: 1747810220499-->
 END
@@ -167,7 +167,7 @@ END
 START
 FIT-Card
 
-Co je Jevons paradox?
+Co je **Jevons paradox**?
 
 Back:
 

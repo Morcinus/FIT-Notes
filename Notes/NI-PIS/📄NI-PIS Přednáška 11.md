@@ -16,7 +16,7 @@ Co je **decomissioning dat**?
 Back:
 
 **Decommissioning = “uklizení starých dat”** – odstraním je, přesunu, anonymizuji nebo archivuju, aby nezatěžovala systém, nebyla rizikem nebo neporušovala předpisy (např. GDPR).
-
+<!--ID: 1748446966911-->
 END
 
 ---
@@ -37,7 +37,7 @@ Back:
 - **Nevhodná architektura** - monolit vs microservices
 - **Time To Market** - neschopnost reagovat rychle na změny trhu
 - **Merge and Acquisition** - spojování společností a produktů
-
+<!--ID: 1748446966924-->
 END
 
 ---
@@ -53,7 +53,7 @@ Back:
 
 - **ROI** - return on investment
 - **Rizika** - ztráta revenue nebo reputace
-
+<!--ID: 1748446966927-->
 END
 
 ---
@@ -72,7 +72,7 @@ Back:
 2. **Vývoj scriptů**
 3. **Rekonciliace**
 4. **Cutover**
-
+<!--ID: 1748446966929-->
 END
 
 ---
@@ -89,7 +89,7 @@ Back:
 - **Business slovník** - prozkoumává se doména, aby se předešlo nedorozuměním
 - **Hesla** - je třeba vyřešit způsoby hashování atd.
 - **Analýza cílů** - na jakou verzi aplikace/knihoven se chceme dostat
-
+<!--ID: 1748446966932-->
 END
 
 ---
@@ -108,6 +108,9 @@ Back:
 - **Repeatability** - musím umět migraci spustit znovu, když se něco změní
 - **Optimalizace** - při milionech záznamů je třeba skripty paralelizovat atd.
 
+- **Change management** - požadavky se mohou v průběhu měnit
+- **Testování** - je třeba testovat, jestli se data zmigrovala správně
+<!--ID: 1748446966935-->
 END
 
 ---
@@ -121,7 +124,7 @@ Co je **Migration Stage Area**?
 Back:
 
 Je to místo, kam se nahrají data a kde se provádějí transformace při migraci dat z nějakého systému do jiného.
-
+<!--ID: 1748446966938-->
 END
 
 ---
@@ -135,8 +138,68 @@ Jaké jsou časté chyby při vytváření skriptů pro migraci dat?
 Back:
 
 - **Oslabení referenční integrity** - měl bych zachovat vztahy mezi daty
-- **Vypínání triggerů**
+- **Vypínání triggerů** - měl bych zachovat v systému triggery
+- **Špatné IDs** - různé systémy na to mají různé metody, musím to nějak sjednotit
+<!--ID: 1748446966941-->
+END
 
+---
+
+
+START
+FIT-Card
+
+Jak probíhá **Rekonciliace** u datové migrace? Z čeho se skládá?
+
+Back:
+
+Ověření zda byla data přenešena správně.
+- **kvantitativní ověření** - že jsme nic neztratili a že jsme si nic nevymysleli
+- **kvalitativní ověření** - že jsme nezměnili sémantiku dat
+<!--ID: 1748446966944-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je Cutover u datové migrace
+
+Back:
+
+**Cutover** = obnobí, kdy se organizace přepne z původního systému na nový.
+<!--ID: 1748446966947-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak probíhá **Cutover** u datové migrace?
+
+Back:
+
+- **BigBang** - vše se přepne najednou - rychlé ale riskantní
+- **Iterativní** - vše se přepne po iteracích - velká komplexita ale jistější
+<!--ID: 1748446966950-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **point of no return** u datové migrace?
+
+Back:
+
+Některé systémy nejde rollbacknout, je potřeba zůstat na nové verzi po migraci.
+<!--ID: 1748446966953-->
 END
 
 ---
