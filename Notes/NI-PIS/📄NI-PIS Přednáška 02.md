@@ -76,7 +76,6 @@ SAP, Oracle, Microsoft, Amazon (AWS), Salesforce, IBM,...
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227164413.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1748434798935-->
 END
 
@@ -411,7 +410,6 @@ Náklady:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227174218.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599652183-->
 END
 
@@ -443,7 +441,6 @@ Např. při pořízení si softwaru to může zahrnovat:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227174248.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599652191-->
 END
 
