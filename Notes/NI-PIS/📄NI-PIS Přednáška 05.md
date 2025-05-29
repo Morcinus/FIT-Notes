@@ -5,7 +5,7 @@ up: "[[📖NI-PIS]]"
 ---
 
 TARGET DECK: NI-PIS
-FILE TAGS: NI-PIS prednaska06 status-toReview
+FILE TAGS: NI-PIS prednaska05 status-toReview
 
 ![](../../Assets/Pasted%20image%2020250320163829.png)
 
@@ -177,7 +177,7 @@ END
 START
 FIT-Card
 
-Jaké jsou hlavní vlastnosti **Hadoopu**?
+Jaké jsou hlavní vlastnosti **Hadoopu**? (3)
 
 Back:
 

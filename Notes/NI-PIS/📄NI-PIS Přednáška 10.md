@@ -137,7 +137,7 @@ Jaké jsou **2 způsoby historizace dat**?
 Back:
 
 - **Snapshoting** - udělám celou kopii těch dat např 1x za den (nedává moc smysl u dat, které se často nemění)
-- **Slowly chaning dimenze** - uložím jednou, když vznikne změna, tak si uložím data
+- **Slowly changing dimenze** - uložím jednou, když vznikne změna, tak si uložím data
 <!--ID: 1746599651680-->
 END
 
@@ -147,7 +147,7 @@ END
 START
 FIT-Card
 
-Jaké jsou typy slowly changing dimension?
+Jaké jsou typy slowly changing dimensions? (4)
 
 Back:
 

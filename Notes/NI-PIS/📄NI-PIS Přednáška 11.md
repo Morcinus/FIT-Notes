@@ -1,7 +1,8 @@
 ---
 created: 2025-05-28T17:17:28
-title: "Decomissioning a migrace dat"
-up: "[[📖NI-PIS]]"
+title: Decommissioning a migrace dat
+up:
+  - "[[📖NI-PIS]]"
 ---
 
 TARGET DECK: NI-PIS
@@ -11,7 +12,7 @@ FILE TAGS: NI-PIS prednaska11 status-toReview
 START
 FIT-Card
 
-Co je **decomissioning dat**?
+Co je **decommissioning dat**?
 
 Back:
 
@@ -25,7 +26,7 @@ END
 START
 FIT-Card
 
-Jaké jsou důvody pro **decomissioning dat**? (6)
+Jaké jsou důvody pro **decommissioning dat**? (6)
 
 (tohle bylo ve zkoušce)
 
@@ -58,13 +59,13 @@ END
 
 ---
 
-### Průběh decomissioningu
+### Průběh decommissioningu
 
 
 START
 FIT-Card
 
-Jaké jsou části **datové migrace**? (4)
+Jaké jsou fáze **datové migrace**? (4)
 
 Back:
 
@@ -81,7 +82,7 @@ END
 START
 FIT-Card
 
-Jak probíhá **Analýza a datová kvalita** u datové migrace?
+Jak probíhá **Analýza a datová kvalita** u datové migrace? (4)
 
 Back:
 
@@ -98,7 +99,7 @@ END
 START
 FIT-Card
 
-Jak probíhá **Vývoj scriptů** u datové migrace?
+Jak probíhá **Vývoj scriptů** u datové migrace? (7)
 
 Back:
 
@@ -133,7 +134,7 @@ END
 START
 FIT-Card
 
-Jaké jsou časté chyby při vytváření skriptů pro migraci dat?
+Jaké jsou časté chyby při vytváření skriptů pro migraci dat? (3)
 
 Back:
 
@@ -149,7 +150,7 @@ END
 START
 FIT-Card
 
-Jak probíhá **Rekonciliace** u datové migrace? Z čeho se skládá?
+Jak probíhá **Rekonciliace** u datové migrace? Z čeho se skládá? (2)
 
 Back:
 
@@ -165,11 +166,11 @@ END
 START
 FIT-Card
 
-Co je Cutover u datové migrace
+Co je **Cutover** u datové migrace?
 
 Back:
 
-**Cutover** = obnobí, kdy se organizace přepne z původního systému na nový.
+**Cutover** = období, kdy se organizace přepne z původního systému na nový.
 <!--ID: 1748446966947-->
 END
 
@@ -179,7 +180,7 @@ END
 START
 FIT-Card
 
-Jak probíhá **Cutover** u datové migrace?
+Jak probíhá **Cutover** u datové migrace? (2 možnosti)
 
 Back:
 

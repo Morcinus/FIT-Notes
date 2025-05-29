@@ -525,6 +525,8 @@ Back:
 - ✅**Správa majetku**
 - Webové (serverové) platformy
 - Systémoví integrátoři a konzultanti
+
+Pozn. je to retardovaná otázka, "systémoví integrátoři a konzultanti" taky asi nejsou úplně komponenty infrastruktury :D
 <!--ID: 1748430125524-->
 END
 
@@ -1200,11 +1202,12 @@ Otevřená otázka:
 
 Back:
 
-1. Zastarávání IS
-2. Změna struktury/požadavků firmy
-3. Security
-4. Vysoké TCO
-5. Nedostatek odborníků pro správu IS (legacy)
+- **Zastaralé technologie** - výkonnost, bezpečnost, problém s upgrady, ukončení podpory
+- **Nedostupnost vývojářů** - Cobol, Fortran,...
+- **Licenční politika** - Oracle Java, Atlasian Confluence, Google Gmail,...
+- **Nevhodná architektura** - monolit vs microservices
+- **Time To Market** - neschopnost reagovat rychle na změny trhu
+- **Merge and Acquisition** - spojování společností a produktů
 <!--ID: 1748430125648-->
 END
 
@@ -1220,7 +1223,12 @@ Otevřená otázka
 
 Back:
 
-todo
+Definice - kvalitní data jsou taková, že je uživatelé/byznys mohou používat k tomu co potřebují
+
+Nekvalitní jsou např. když jsou nekonzistentní napříč reporty nebo systémy, nepravdivá, atd.
+
+Můžou být např. nekvalitní z technického hlediska - nekonzistence formátů, schémat atd.
+
 <!--ID: 1748430125650-->
 END
 
@@ -1236,9 +1244,15 @@ Otevřená otázka
 
 Back:
 
+**Byznys proces** = jednotlivé kroky k dosažení nějakého cíle, je to konkrétní workflow, popis činnosti
+
+IT typicky automatizují části byznys procesů
+
+Příklad někde z internetu:
+![](../../Assets/Pasted%20image%2020250529171139.png)
+
 ![](../../Assets/Pasted%20image%2020250528140506.png)
 ![](../../Assets/Pasted%20image%2020250528140516.png)
-
 <!--ID: 1748430125653-->
 END
 
@@ -1254,7 +1268,22 @@ Otevřená otázka
 
 Back:
 
-todo
+Podle ChatGPT:
+
+**📡 OSS/BSS systémy – typicky používané v Telco, ale ne v bankách**
+
+**BSS – Business Support Systems**
+- Účel: Podpora obchodních procesů – správa zákazníků, billing, objednávky, CRM, produktový katalog apod.
+- Proč je to specifické pro Telco?
+	- Telco má komplexní tarify, balíčky služeb (data, hlas, SMS) a potřebu přesného vyúčtování za různé typy spotřeby.
+
+**OSS – Operations Support Systems**
+- Účel: Řízení a monitoring síťové infrastruktury.
+- Proč je to specifické pro Telco?
+	- Banky nemají vlastní rozsáhlé síťové infrastruktury, zatímco Telco spravují mobilní a datové sítě, přidělují IP adresy, řeší provisioning SIM karet, monitorují zátěž na BTS apod.
+ 
+**Shrnutí:**
+Telco využívají specifické OSS/BSS systémy, které banky běžně nepotřebují. Banky se naopak více soustředí na core banking systémy (např. Temenos, Flexcube, T24) a systémy pro řízení rizik, compliance, AML apod., které v Telco prostředí nejsou tak zásadní.
 <!--ID: 1748430125656-->
 END
 
@@ -1266,13 +1295,15 @@ FIT-Card
 
 Otevřená otázka
 
-**TCO**
-
-(whatever that means)
+Co je **TCO**?
 
 Back:
 
-TCO je analýza
+TCO = Total Cost of Ownership
+
+Tzn. všechny náklady, abychom si pořídili danou věc.
+
+Např u softwaru to zahrnuje nejen vývoj ale i třeba údržbu, nasazení, zaškolení, apod. 
 
 ![](../../Assets/Pasted%20image%2020250528141518.png)
 <!--ID: 1748430125659-->

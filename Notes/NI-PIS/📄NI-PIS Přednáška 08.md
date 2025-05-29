@@ -15,7 +15,7 @@ Jaké jsou typy dat?
 
 Back:
 
-- Medatada
+- Metadata
 - Referenční data
 - Enterprise Structure Data
 - Transaction Structure Data
