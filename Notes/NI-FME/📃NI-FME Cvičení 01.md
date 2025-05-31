@@ -3,7 +3,7 @@ created: 2025-02-19T14:31:47
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME
+TARGET DECK: archive
 FILE TAGS: NI-FME cviceni01 status-toReview
 
 ### Co se očekává od úkolů

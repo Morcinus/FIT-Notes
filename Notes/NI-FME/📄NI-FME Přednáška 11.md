@@ -4,7 +4,7 @@ title: "Automatická formální verifikace softwaru"
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME
+TARGET DECK: archive
 FILE TAGS: NI-FME prednaska11 status-toReview
 
 

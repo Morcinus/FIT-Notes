@@ -3,7 +3,7 @@ created: 2025-03-05T15:22:02
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME
+TARGET DECK: archive
 FILE TAGS: NI-FME cviceni02 status-toReview
 
 

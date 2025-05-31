@@ -4,7 +4,7 @@ title: "Data structures"
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME
+TARGET DECK: archive
 FILE TAGS: NI-FME prednaska07 status-toReview
 
 

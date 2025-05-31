@@ -4,7 +4,7 @@ title: "Program Synthesis"
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME
+TARGET DECK: archive
 FILE TAGS: NI-FME prednaska12 status-toReview
 
 

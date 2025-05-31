@@ -4,7 +4,7 @@ title: "Ketahovno"
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME
+TARGET DECK: archive
 FILE TAGS: NI-FME prednaska10 status-toReview
 
 
