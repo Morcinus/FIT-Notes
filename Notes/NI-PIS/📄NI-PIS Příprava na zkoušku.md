@@ -1228,7 +1228,6 @@ Definice - kvalitní data jsou taková, že je uživatelé/byznys mohou použív
 Nekvalitní jsou např. když jsou nekonzistentní napříč reporty nebo systémy, nepravdivá, atd.
 
 Můžou být např. nekvalitní z technického hlediska - nekonzistence formátů, schémat atd.
-
 <!--ID: 1748430125650-->
 END
 

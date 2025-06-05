@@ -8,15 +8,14 @@ up:
 TARGET DECK: NI-PDP
 FILE TAGS: NI-PDP prednaska02 status-toReview
 
-
 START
 FIT-Card
 
-Co je OpenMP?
+Co je **OpenMP**?
 
 Back:
 
-Knihovna pro paralelní programování. Je to jakby vyšší úroveň nad pthreads (která je v Cčku)
+OpenMP je high-level API pro programování vícevláknových aplikací nad sdílenou pamětí.
 <!--ID: 1746518365423-->
 END
 
@@ -31,8 +30,9 @@ Na jakém principu funguje OpenMP?
 Back:
 
 **Fork join model**
-- Vždy se task rozdělí (forkne) do více jobů, ty se přiřadí vláknům.
+- V paralelní oblasti se vytvoří **tým paralelně běžících vláken**, které provádějí kód paralelní oblasti současně
 - Potom se to joinne zpátky
+- Pořád běží jedno **hlavní vlákno** sekvenčně
 
 ![](../../Assets/Pasted%20image%2020250227095821.png)
 <!--ID: 1746518365425-->
@@ -47,12 +47,43 @@ Mažou se vlánka v OpenMP?
 
 Back:
 
-Ne, vlákna jsou uložena v thread poolu a jen se jim přiřazují tasky.
+Ne, vlákna jsou **uložena v thread poolu** a jen se jim přiřazují tasky.
 
 <!-- ExplanationStart -->
 Mazání a vytváření vláken by trvalo moc dlouho.
 <!-- ExplanationEnd -->
 <!--ID: 1746518365428-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké typy paralelismu podporuje OpenMP? (2)
+
+Back:
+
+**data paralelismus** i **task paralelismus**
+<!--ID: 1749133110206-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je model sdílené paměti s **volnější konzistencí**?
+
+Back:
+
+- Vlákna si lokálně udržují (kešují) **kopie sdílených proměnných**
+- Když do nich lokálně zapisují, nemusí nutně hned zapsat do sdílené paměti.
+- Tzn. vlákna mohou dočasně vidět jinou hodnotu sdílené proměnné
+- Můžu **vynutit synchronizaci** příkazem `flush()`
+<!--ID: 1746518365436-->
 END
 
 ---
@@ -89,26 +120,11 @@ END
 ---
 
 
-START
-FIT-Card
-
-Co je model sdílené paměti s **volnější konzistencí**?
-
-Back:
-
-Není striktně zajištěno, že to co vidí každé vlákno je stejně viděno i ostatními vlákny.
-
-Abych to zajistil, musím si to nějak synchronizovat.
-<!--ID: 1746518365436-->
-END
-
----
-
 
 START
 FIT-Card
 
-Jak v OpenMP vypadá direktiva?
+Jakou syntax mají obecně direktivy v OpenMP?
 
 Back:
 
@@ -124,15 +140,15 @@ END
 START
 FIT-Card
 
-Jak v OpenMP funguje `paralell`?
+Jak v OpenMP funguje `paralell`? (syntax + jak funguje interně)
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250227100625.png)
 
-1. Vytvoří množinu vláken, která jde do dalšího kódu současně. 
+1. Vytvoří **tým vláken**, která jde do dalšího kódu současně. 
 2. Na konci bloku je skrytá **bariéra**.
-3. Jakmile všechna vlákna dosáhnou bariéry, pokračuje se v původním vláknu. Ostatní vlákna se nesmažou, ale stanou se neaktivníma a čekají na práci (thread pool).
+3. Jakmile všechna vlákna dosáhnou bariéry, pokračuje se v původním vláknu. Ostatní vlákna se nesmažou, ale stanou se neaktivníma a **zařadí se do thread poolu**.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227100716.png)
@@ -173,7 +189,7 @@ Jak funguje klauzule `private(seznam)`?
 
 Back:
 
-- Proměnná před blokem se nakopíruje instance pro každé vlákno.
+- Proměnná před blokem se **nakopíruje neinicalizovaná instance pro každé vlákno**.
 - Když skončí vlákno, instance zmizí
 
 Tedy funguje to jako když předávám funkci parametry hodnotou.
@@ -194,7 +210,7 @@ Jak funguje klauzule `firstprivate(seznam)`?
 
 Back:
 
-Jako `private(seznam)`, ale umožňuje inicializovat počáteční hodnotu té instance.
+Jako `private(seznam)`, ale každému vláknu to inicializuje proměnnou s hodnotou původní proměnné.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101251.png)
@@ -237,11 +253,13 @@ END
 START
 FIT-Card
 
-Co je klauzule `reduction(operator:seznam)` v OpenMP?
+Co je klauzule `reduction(operator:result)` v OpenMP?
 
 Back:
 
-Po dokončení výpočtu se na proměnnou aplikuje daný operátor.
+Každá proměnná `result` se nakopíruje do každého vlákna jako **private**, inicializuje na $0$, na konci paralelní oblasti se na každou proměnnou aplikuje operátor a výsledek se uloží do původní proměnné.
+
+Můžu takhle např. v cyklu sečíst všechny hodnoty result ze všech podvláken.
 
 <!-- ExampleStart -->
 Tady se po konci for cyklu sečtou všechny hodnoty result z všech podvláken.
@@ -261,25 +279,33 @@ END
 START
 FIT-Card
 
-Jaké jsou způsoby implementace paralelní redukce?
+Jaké jsou způsoby implementace paralelní redukce? (2)
 
 Back:
 
+- **Lineární** - vlákna zapíší lokální proměnné do sdíleného pole, po bariéře se vypočítá výsledek
+- **Logaritmická** - v každém kroku **vyžaduje bariéru**
+
+Proto OpenMP využívá hlavně lineární
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101927.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518365460-->
 END
 
 ---
 
-
 START
 FIT-Card
 
-Jak funguje direktiva `threadprivate(seznam)`?
+Jak funguje direktiva `threadprivate(proměnná)`?
 
 Back:
 
-Je to jako `private(seznam)`, ale přežívá jednotlivé oblasti kódu (tzn. nezanikne po skončení daného bloku).
+Je to jako `private(proměnná)`, ale přežívá jednotlivé oblasti kódu - tzn. každé vlákno pak má tuto proměnnou i přes další paralelní oblasti.
+
+Pomocí `copyin(proměnná)` se daná proměnná nastaví na hodnotu z hlavního vlákna. Je potřeba to udělat po zavolání `threadprivate`.
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250227102036.png)
@@ -298,11 +324,39 @@ END
 START
 FIT-Card
 
+Co je funkce `num_threads()`?
+
+Back:
+
+Zjistí počet vláken v dané paralelní oblasti včetně hlavního vlákna.
+<!--ID: 1749135989759-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je direktiva `if(podminka)`?
+
+Back:
+
+Umožňuje spustit paralelní oblast pokud je splněna podmínka. Pokud není splněna, spustí se pouze v jednom vláknu.
+<!--ID: 1749135989779-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Definice: **vlákno**
 
 Back:
 
-**Vlákno (Thread):** Entita provádění s vlastním zásobníkem a přidruženou statickou pamětí, nazývanou **threadprivate** paměť.
+**Vlákno (Thread):** Entita provádění s **vlastním zásobníkem** a přidruženou **statickou pamětí**, nazývanou threadprivate paměť.
 <!--ID: 1746518365467-->
 END
 
@@ -385,11 +439,11 @@ END
 START
 FIT-Card
 
-Co jsou **řídící proměnné** v OpenMP?
+Co jsou **řídící proměnné** (Internal Control Variables) v OpenMP?
 
 Back:
 
-Určují, jakým způsobem se chová systém (při vytváření vláken atd.)
+Určují, jakým způsobem se chová OpenMP program (při vytváření vláken atd.)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102702.png)
@@ -403,7 +457,7 @@ END
 START
 FIT-Card
 
-Jaké jsou řídící proměnné (4)?
+Jaké jsou **řídící proměnné** v OpenMP? (4)
 
 Back:
 
@@ -420,23 +474,6 @@ END
 
 ---
 
-
-START
-FIT-Card
-
-Algoritmus: stanovení počtu vláken v paralelní oblasti
-
-(idk tohle snad asi nemusíme umět nazpaměť)
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250227102909.png)
-<!--ID: 1746518365489-->
-END
-
----
-
-
 START
 FIT-Card
 
@@ -444,7 +481,11 @@ Jak funguje for cyklus v OpenMP?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250227103247.png)
+`#pragma omp for klauzule1, klauzule2,...`
+(příp. `#pragma omp parallel for klauzule1, klauzule2,...`)
+
+- Je to forma **datového (iteračního) paralelismu**
+- Na konci cyklu je implicitní bariéra
 <!--ID: 1746518365491-->
 END
 
@@ -454,14 +495,15 @@ END
 START
 FIT-Card
 
-Jaké jsou klauzule for cyklu v OpenMP?
+Jaké jsou **klauzule for cyklu** v OpenMP? (5)
 
 Back:
 
 - `schedule()` - upřesňuje způsob přiřazení iterací cyklu vláknům
-- `collapse(i)` - pokud máme víceúrovňový cyklus
+- `collapse(i)` - u víceúrovňového cyklu kolik vrstev cyklů má zkolabovat do jednovrstvého iterátoru
 - `private(seznam) | firstprivate(seznam) | lastprivate(seznam) | shared(seznam) | reduction(operator:seznam)`
 	- `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
+- `ordered` - iterace musí být vykonávány v sekvenčním pořadí
 - `nowait` - pokud to tam nedám, tak všechna vlákna, co počítali for loop, budou čekat až do konce iteračního výpočtu. Nowait umožní vyskočit z těla toho cyklu a nečekat na ostatní
 <!--ID: 1746518365494-->
 END
@@ -472,14 +514,22 @@ END
 START
 FIT-Card
 
-Jaké jsou typy plánování `schedule()` v OpenMP?
+Jaké jsou typy plánování `schedule(type, chunk_size)` v OpenMP? (5)
 
 Back:
 
-- **static** - každý dostane n/p iterací
-- 
+- **static** - každé vlákno staticky dostane `chunk_size` iterací. Pokud není definován, tak $n/p$ iterací.
+- **dynamic** - dynamicky se přidělují `chunk_size` bloky cyklu. Pokud není definován, tak bloky velikosti $1$.
+- **guided** - dynamicky bloky $x$ iterací, kde $x = \max(\lceil\textrm{\#nepřidělených iterací}/p\rceil,\text{chunk-size})$
+- **runtime** - rozhodne se až při runtimu podle hodnoty systémové proměnné `OMP_SCHEDULE`
+- **auto** - rozhodne kompilátor nebo běhové prostředí
 
+“staticky” = všechno se rozdělí předem
+“dynamicky” = jakmile vlákno dokončí přidělenou várku, dostane další
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227103712.png)
+<!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250227104119.png)
@@ -499,11 +549,17 @@ END
 START
 FIT-Card
 
-Jak se prakticky liší použití static, dynamic a guided schedule?
+Jak se prakticky liší použití **static, dynamic a guided schedule**? Kdy jsou jaké výhodné?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250227104511.png) 
+- **static** - nízká režie, vhodné pokud každá iterace je podobně časově náročná
+- **dynamic** - vyšší režie, dobré když jsou iterace různě časově náročné
+- **guided** - vhodné pokud doba provádění iterací postupně roste
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250227104511.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518365499-->
 END
 
@@ -578,13 +634,20 @@ END
 START
 FIT-Card
 
-Jak se dá paralelizovat pomocí **task paralelismu**?
+Jak v OpenMP funguje **task paralelismus** (funkční paralelismus)?
+
+- Jaká je direktiva
+- Co je úloha (3)
+- Jak funguje přidělování úloh
 
 Back:
 
-Rozdělím úlohu na podproblémy, které pak můžu paralelizovat.
+`#pragma omp task`
 
-Dělá se to jednoduše tak, že tam nacpu direktivu task.
+- **úloha** (task) = ukazatel na kód + vstupní data + datová struktura, kam konzument (vlákno) vloží svoje ID
+- Přidělování úloh funguje na principu **producent-konzument**
+	- vlastnické vlákno (které narazí na direktivu) vygeneruje jako producent synovskou úlohu, vloží ji do task poolu, odtud si ji vyzvedne volné vlákno jako konzument a začne pracovat
+	- vhodné i pro rekurzivní “rozděl a panuj” (ale nastartovat rekurzi musí jen jedno vlákno!)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110308.png)
@@ -598,9 +661,14 @@ END
 START
 FIT-Card
 
-Jak funguje konstrukce task?
+Jaké klauzule má `task` paralelismus v OpenMP? (4)
 
 Back:
+
+- `if(podminka)` - pokud je podmínka splněna, producent může synovskou úlohu sám provést nebo odložit do poolu, jinak ji sám sekvenčně provede (a svoji úlohu pozastaví)
+- `default(shared|none)`, `private(seznam)`, `firstprivate(seznam)`, `shared(seznam)`,...
+- `final(výraz)` → pokud $exp == true$, nebudou se generovat nové úlohy do poolu
+- `priority(výraz)` → přiřadí synovské úloze prioritu
 
 ![](../../Assets/Pasted%20image%2020250227110328.png)
 
@@ -610,6 +678,20 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227110357.png)
 <!-- ExampleEnd -->
 <!--ID: 1746518365512-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co dělá `#pragma omp taskwait`?
+
+Back:
+
+rodičovská úloha čeká na doběhnutí všech synů při task paralelismu
+<!--ID: 1749140734242-->
 END
 
 ---
@@ -694,7 +776,7 @@ END
 START
 FIT-Card
 
-Jak funguje direktiva atomic?
+Jak funguje direktiva `atomic`?
 
 Back:
 

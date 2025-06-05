@@ -109,7 +109,6 @@ Cesta dat od vzniku až po jejich použití. Typicky jsou v tom různé datové 
 ![](../../Assets/Pasted%20image%2020250528165155.png)
 ![](../../Assets/Pasted%20image%2020250528165159.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1746599651734-->
 END
 
