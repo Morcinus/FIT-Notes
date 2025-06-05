@@ -722,7 +722,17 @@ Jaké jsou hlavní synchronizační direktivy v OpenMP? (7)
 
 Back:
 
+- `barrier`
+- `master`
+- `single`
+- `critical`
+- `atomic`
+- `taskwait`
+- `flush()`
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110920.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518365518-->
 END
 
@@ -736,9 +746,12 @@ Co je `#pragma omp barrier`?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250227110751.png)
+Vlákna zde usnou a čekají na všechna ostatní
+- implicitně na konci každé paralelní oblasti a single bloku
 
-Pozn. bariéry jsou normálně implicitně skryté.
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250227110751.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518365520-->
 END
 
@@ -752,7 +765,11 @@ Co je `#pragma omp single`?
 
 Back:
 
+Tento blok kódu provádí jen jedno (libovolné) vlákno, ostatní čekají na konci bloku
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110803.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518365523-->
 END
 
@@ -766,7 +783,11 @@ Co je `#pragma omp master`?
 
 Back:
 
+Tento blok kódu provádí jen hlavní vlákno, ostatní skipnou a **okamžitě pokračují**
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110833.png)
+<!-- DetailInfoEnd -->
 <!--ID: 1746518365526-->
 END
 
@@ -776,11 +797,13 @@ END
 START
 FIT-Card
 
-Jak funguje direktiva `atomic`?
+Jak funguje direktiva `#pragma omp atomic`?
 
 Back:
 
-Atomická operace, která zajišťuje, že se provede read-modify-write, aniž by do toho kdokoliv jiný zasáhnul.
+Atomická operace, která zajišťuje, že se provede **read-modify-write**, aniž by do toho kdokoliv jiný zasáhnul.
+
+Např. inkrementace čítače.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227111019.png)
@@ -797,14 +820,32 @@ END
 START
 FIT-Card
 
-Jaké jsou typy atomických operací? (4)
+Jaké jsou typy atomických operací? Aneb na co lze aplikovat `atomic` (4)
 
 Back:
 
 - **Atomické čtení**
 - **Atomické psaní**
-- **Atomický update** - to typicky člověk potřebuje
-- **Atomický capture**
+- **Atomický update** - read, modify, write
+- **Atomický capture** - read, modify, write s tím že navíc načtu starou hodnotu do lokální proměnné, kterou můžu po bloku využít
+
+<!-- ExampleStart -->
+
+```c++
+// Capture
+int my_variable;
+#pragma omp atomic capture
+{
+    my_variable = global_index;
+    global_index += 1;
+}
+
+// Update - nemůžu uložit do lokální proměnné
+#pragma omp atomic update
+global_index += 1;
+```
+
+<!-- ExampleEnd -->
 <!--ID: 1746518365531-->
 END
 
@@ -814,16 +855,23 @@ END
 START
 FIT-Card
 
-Jak funguje direktiva cancel?
+Jak funguje direktiva `#pragma omp cancel`?
+- k čemu je
+- popiš podrobnější syntax
 
 Back:
 
-"Jdete na houby a pokud narazíte na hřiba, jde se domů, protože nám stačí jeden hřib." - Tvrdík :D
+Předčasné opuštění paralelní oblasti - aka zastavení výpočtu ve všech vláknech.
 
-![](../../Assets/Pasted%20image%2020250227111826.png)
+`#pragma omp cancel [parallel | for | taskgroup] if [(vyraz)]`
+- `[parallel | for | taskgroup]` říká co přesně má být ukončeno
+- `if` - ukončení se provede pokud platí výraz
+
+"Jdete na houby a pokud narazíte na hřiba, jde se domů, protože nám stačí jeden hřib." - Tvrdík :D
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227111821.png)
+![](../../Assets/Pasted%20image%2020250605200523.png)
 <!-- DetailInfoEnd -->
 <!--ID: 1746518365534-->
 END
@@ -834,12 +882,44 @@ END
 START
 FIT-Card
 
-Jak funguje direktiva eureka?
+Kdy kontrolují ostatní vlákna jestli byl zavolán `cancel`? (3)
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250227111839.png)
+- Na bariérách
+- Při direktivách cancel
+- Ve stornovacích bodech (cancellation point)
 <!--ID: 1746518365537-->
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se dá přidat stornovací bod pro `cancel`?
+
+Back:
+
+`#pragma omp cancellation point for`
+
+Zde se pak bude kontrolovat i při `for`
+<!--ID: 1749146750659-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak funguje direktiva `flush()`?
+
+Back:
+
+Propsání aktuálních hodnot daných sdílených proměnných do sdílené paměti
+<!--ID: 1749146764895-->
 END
 
 ---
