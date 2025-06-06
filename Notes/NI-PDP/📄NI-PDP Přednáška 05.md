@@ -440,6 +440,7 @@ Jaké vlastnosti má MergeSort?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134112.png)
+Tags: otazka15
 <!--ID: 1746599653597-->
 END
 
@@ -452,7 +453,11 @@ Jak vypadá učebnicová verze Merge Sortu? (SUV)
 
 Back:
 
+todo napsat si nějaký shrnutí
+
 ![](../../Assets/Pasted%20image%2020250321135717.png)
+
+Tags: otazka15
 <!--ID: 1746599653768-->
 END
 
@@ -467,7 +472,29 @@ Jak vypadá přímočará paralelizace merge sortu? (PUV)
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321135735.png)
+
+Tags: otazka15
 <!--ID: 1746599653777-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Proč u MergeSortu nefunguje naivní funkční paralelizace narozdíl od QuickSortu?
+
+Back:
+
+protože těžká práce (slučování) je až za rekurzivním voláním → v listech rekurze vzniká strašně moc OpenMP úloh, které slučují dvouprvková pole → obří falešné sdílení → násobné zpomalení proti sekvenční verzi
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250321135825.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka15
+<!--ID: 1749235012461-->
 END
 
 ---
@@ -536,7 +563,15 @@ Jaké jsou 3 možnosti zlepšení paralelního MergeSortu?
 
 Back:
 
+- **zavedením prahu** (stejně jako u quicksortu)
+- **vytvářením nové úlohy jen pro levou polovinu** ("rozděl a půlku si nech")
+- **paralelizací algoritmu dvoucestného slučování** (viz dále)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250321135945.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka15
 <!--ID: 1746599653817-->
 END
 
@@ -546,11 +581,16 @@ END
 START
 FIT-Card
 
-Jak funguje MergeSort s metodou "Prahování a Rozděl-a-PůlkuSiNech"? (PUV+ST)
+Jak funguje MergeSort s metodou "**Prahování a Rozděl-a-PůlkuSiNech**"?
 
 Back:
 
+Todo vysvětlit vlastními slovy
+
+Toto kombinuje prahování a rozděl a půlku si nech
+
 ![](../../Assets/Pasted%20image%2020250321140019.png)
+Tags: otazka15
 <!--ID: 1746599653827-->
 END
 
@@ -588,9 +628,18 @@ END
 START
 FIT-Card
 
-Jak funguje slučování v merge sortu pomocí paralelního **2-cestného** slučování? 
+Jak funguje paralelizace algoritmu **2-cestného** slučování u MergeSortu? 
 
 Back:
+
+todo přepsat tak, aby mi to dávalo smysl
+
+1. slučovaná seřazená pole $C, D$ délky $n/2$ si představme jako řádkové a sloupcové indexy matice, v níž jsou jedničky tam, kde sloupcový index $>$ řádkový, jinde nuly
+2. všechny jedničky jsou v pravém horním rohu, od nul je dělí lomená čára
+3. každé vlákno si najde svůj průsečík této lomené čáry s $p-1$ vedlejšími diagonálami matice rozmístěnými ve vzdálenosti $n/2p$ od sebe (v čase $O(\log n)$)
+4. podle těchto průsečíků rozkouskujme $C$ i $D$ na $p$ částí (označených např. $C_1$ až $C_p$)
+5. $i$-té vlákno sekvenčně sloučí $C_i$ a $D_i$, čímž vznikne $X_i$
+6. zřetězme $X_1 \dots X_p$ → máme seřazené pole
 
 - Ta matice je virtuální - reálně ji nekonstruujeme
 - Je tam 0, když ten prvek nahoře je menší, je tam 1 když ten prvek nahoře je větší
@@ -602,9 +651,16 @@ Back:
 - Potom mě zajímají místa, kde se 0 mění na 1 v té matici
 - Jelikož jsou diagonály ekvidistantní (mají mezi sebou stejnou vzdálenost), je mezi nimi stejný počet průsečíků modré čáry
 
+![](../../Assets/Pasted%20image%2020250606202744.png)
+
+<!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020250321140150.png)
 ![](../../Assets/Pasted%20image%2020250321140158.png)
 ![](../../Assets/Pasted%20image%2020250321140204.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka15
 <!--ID: 1746599653850-->
 END
 
@@ -614,23 +670,49 @@ END
 START
 FIT-Card
 
-Jak funguje slučování v merge sortu pomocí paralelního **p-cestného** slučování?
+Jak funguje **slučování v merge sortu pomocí paralelního** **p-cestného** slučování?
 
 Back:
 
 - Myšlenka je rozdělit vstup do $n/p$ částí - každá pro jedno vlákno
 - Každé vlákno si to pak sesortí a pak se řeší "slévání" těch sesortěných polí (prostě "máme zapomenout, jak funguje normální merge sort a přemýšlet o tom takhle")
 
+Podrobnější:
+1. vstupní pole se rozřezá na pravidelné $p$-tiny
+2. každé vlákno sekvenčně seřadí svoji $p$-tinu ($O(\frac n p \log \frac n p)$)
+3. každé vlákno vypočítá svůj vektor rozdělovačů (jeden rozdělovač v každé seřazené $p$-tině) pomocí $\log n$ provedení $p$ instancí binárního vyhledávání ($O(p \log \frac n p \log n)$), funkce `Splitters_by_Rank(S,my_id*n/p)`
+4. každé vlákno si z každé $p$-tiny vyřízne jeden úsek mezi svým a sousedním rozdělovačem
+5. každé vlákno $p$-cestně sloučí svých $p$ úseků do vyhrazené části výstupu ($O(\frac n p \log p)$)
+- pro malá $p$ a velká $n$ složitostně dominuje krok 2 → celková složitost je $O(\frac n p \log \frac n p)$
+- na konci kroků 2 a 3 na sebe musí vlákna počkat (`barrier`)
+
+![](../../Assets/Pasted%20image%2020250606203342.png)
+
+<!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020250321140228.png)
 ![](../../Assets/Pasted%20image%2020250321140233.png)
 ![](../../Assets/Pasted%20image%2020250321140238.png)
-1. Nahoře je vstup
-2. Potom si to každé vlákno seřadí
-3. ???
-4. Profit
+<!-- DetailInfoEnd -->
 
-Ehm na přednášce to vysvětlil dost rychle, takže jsem to nestihnul popsat vlastními slovy :D 
+Tags: otazka16
 <!--ID: 1746599653860-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je složitost u paralelního p-cestného MergeSortu?
+
+Back:
+
+$$O(\frac n p \log \frac n p)$$
+
+Tags: otazka16
+<!--ID: 1749235012473-->
 END
 
 ---
@@ -643,10 +725,33 @@ Jak vypadá p-cestné PMWMS merge sort?
 
 Back:
 
+todo sepsat vlastními slovy
+
 ![](../../Assets/Pasted%20image%2020250321140737.png)
 ![](../../Assets/Pasted%20image%2020250321140742.png)
 ![](../../Assets/Pasted%20image%2020250321140747.png)
+
+Tags: otazka16
 <!--ID: 1746599653868-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak u p-cestného MergeSortu funguje `Splitters_by_Rank`?
+
+Back:
+
+todo napsat vlastními slovy
+
+![](../../Assets/Pasted%20image%2020250606203608.png)
+![](../../Assets/Pasted%20image%2020250606203615.png)
+
+Tags: otazka16
+<!--ID: 1749235012476-->
 END
 
 ---
