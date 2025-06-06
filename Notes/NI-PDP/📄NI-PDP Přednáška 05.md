@@ -11,26 +11,21 @@ FILE TAGS: NI-PDP prednaska05 status-toReview
 START
 FIT-Card
 
-Jaké vlastnosti má QuickSort?
+Jaké vlastnosti má QuickSort? (4)
 
 Back:
 
+- **Datově citlivý**
+- **In-place**
+- **Nestabilní**
+- **Stačí operace** compare & swap
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250321134058.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka14
 <!--ID: 1746599653590-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jaké vlastnosti má MergeSort?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020250321134112.png)
-<!--ID: 1746599653597-->
 END
 
 ---
@@ -43,7 +38,11 @@ Jak vypadá sekvenční verze QuickSortu?
 
 Back:
 
+todo shrnout
+
 ![](../../Assets/Pasted%20image%2020250321134512.png)
+
+Tags: otazka14
 <!--ID: 1746599653605-->
 END
 
@@ -53,13 +52,15 @@ END
 START
 FIT-Card
 
-Jak funguje Lomutova varianta partitioningu v QuickSortu?
+Jak funguje **Lomutova varianta** partitioningu v QuickSortu?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250321134544.png)
 
 ![](../../Assets/Pasted%20image%2020250321134556.png)
+
+Tags: otazka14
 <!--ID: 1746599653613-->
 END
 
@@ -69,12 +70,17 @@ END
 START
 FIT-Card
 
-Jak se dá paralelizovat quicksort?
+Jak se dá **paralelizovat quicksort**? Jaké to má problémy?
 
 Back:
 
-Pomocí funkčního paralelismu
+Pomocí funkčního paralelismu - `task` nad obě větve rekurzvního volání
+
+Problémy: mnoho vláken, velká režie, rozdělení vstupního pole je stále sekvenční
+
 ![](../../Assets/Pasted%20image%2020250321134624.png)
+
+Tags: otazka14
 <!--ID: 1746599653621-->
 END
 
@@ -146,11 +152,35 @@ END
 START
 FIT-Card
 
-Jak funguje Tail call optimization (TCO) u quicksortu?
+Jak lze zrychlit quicksort?
 
 Back:
 
+- **tail call optimization** (viz dále)
+- **zavedení prahu pro vytváření tasků** (viz dále)
+- **paralelizace algoritmu rozdělování** (viz dále)
+- **přiblížení pivota blízko mediánu** (např. výběrem mediánu z náhodného vzorku)
+- **rozdělení počtu vláken** na levou a pravou podúlohu podle velikosti podúloh
+
+Tags: otazka14
+<!--ID: 1749202568493-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje **Tail call optimization** (TCO) u quicksortu?
+
+Back:
+
+QuickSort lze zrychlit nahrazením druhého rekurzivního volání iterací ve `while`
+
 ![](../../Assets/Pasted%20image%2020250321134952.png)
+
+Tags: otazka14
 <!--ID: 1746599653660-->
 END
 
@@ -160,12 +190,16 @@ END
 START
 FIT-Card
 
-Jak funguje Prahování task paralelismu (ST) u quicksortu?
+Jak funguje **Prahování task paralelismu** (ST) u quicksortu?
 
 Back:
 
+např. pokud je neseřazených čísel míň než $n/kp$, dopočítáme zbytek sekvenčně v aktuální úloze místo vytváření nových
+
 ![](../../Assets/Pasted%20image%2020250321135010.png)
 ![](../../Assets/Pasted%20image%2020250321135017.png)
+
+Tags: otazka14
 <!--ID: 1746599653667-->
 END
 
@@ -175,11 +209,25 @@ END
 START
 FIT-Card
 
-Jak funguje Paralelizované rozdělování u quicksortu?
+Jak funguje **Paralelizované rozdělování u quicksortu**? Jaké jsou předpoklady?
 
 Back:
 
+Předpoklady:
+- Hodí se na to **Hoareova** varianta quicksortu (neutralizace z obou stran) než Lomutova
+- vyžaduje vnořený OpenMP paralelismus (`omp_set_max_active_levels na víc než 1`)
+
+Jak funguje:
+- indexy levého a pravého prvku (`i`, `j`) budou sdílené proměnné, každé vlákno si od nich opakovaně odvozuje lokální `my_i` a `my_j` a nárokuje si tak dvojici prvků pro sebe
+    - pro přečtení a in/dekrementaci `i` a `j` je nutný `atomic capture`
+- to ale vede na obří režii s `atomic` a falešné sdílení, takže je lepší si místo prvků nárokovat celé disjunktní bloky (tzn. in/dekrementovat indexy o $K$ místo o $1$)
+- na konci smyčky je potřeba `barrier`, pak neutralizace zbývajících (max. $p$) bloků a nakonec sekvenční úklid posledního špinavého bloku
+- pivota neodkládáme stranou jako u neblokové varianty, jen si zapamatujeme hodnotu
+
+
 ![](../../Assets/Pasted%20image%2020250321135035.png)
+
+Tags: otazka14
 <!--ID: 1746599653679-->
 END
 
@@ -191,10 +239,16 @@ FIT-Card
 
 Jak vypadá Hoareova varianta quicksortu (partitioningu)?
 
+(tohle tušit jen obecně)
+
 Back:
+
+todo shrnout obecně
 
 ![](../../Assets/Pasted%20image%2020250321135059.png)
 ![](../../Assets/Pasted%20image%2020250321135107.png)
+
+Tags: otazka14
 <!--ID: 1746599653687-->
 END
 
@@ -360,6 +414,19 @@ END
 
 ### Merge Sort
 
+
+START
+FIT-Card
+
+Jaké vlastnosti má MergeSort?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250321134112.png)
+<!--ID: 1746599653597-->
+END
+
+---
 
 START
 FIT-Card
