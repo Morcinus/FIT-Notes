@@ -415,7 +415,7 @@ END
 START
 FIT-Card
 
-Jaké jsou typy **programovacích modelů**?
+Jaké jsou 3 typy **programovacích modelů**?
 
 Back:
 
@@ -493,7 +493,7 @@ END
 START
 FIT-Card
 
-Jaké jsou typy složitostí u sekvenčních algoritmů? Kdy je sekvenční algoritmus optimální?
+Jaké jsou typy časových složitostí u sekvenčních algoritmů? Kdy je sekvenční algoritmus optimální?
 
 Back:
 

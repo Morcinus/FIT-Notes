@@ -107,10 +107,10 @@ Jaké jsou základní podmínky optimalizace sekvenčních kódů? (4)
 
 Back:
 
-- Maxim**alizovat počet výpočetních operací na 1 načtený bajt**
+- **Maximalizovat počet výpočetních operací na 1 načtený bajt**
 - **Maximalizovat keš paměť**
 - **Zohlednit, že se načítají celé bloky keše** (např. 64B)
-- Čemu se vyvarovat:
+- **Zamezit výpadkům cache**:
 	- výpadkům keše kvůli **střídání přístupu k rozměrným datovým strukturám**
 	- **nepřímá adresace** - způsobuje výpadky keše
 
@@ -161,7 +161,10 @@ Back:
 
 Vlákna zapisují na různé, ale blízké adresy, takže se trefují do stejného bloku cache
 
-![](../../Assets/Pasted%20image%2020250313103140.png)
+Tzn. když vlákno upraví svoji lokální proměnnou v daném bloku, invaliduje tím cache ostatním vláknům, kvůli čemuž si to musí načíst znovu.
+
+Nastane např. při:
+`#pragma omp parallel for shared(A) schedule(static,1)`
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250313103150.png)
@@ -196,7 +199,7 @@ END
 START
 FIT-Card
 
-Jak se dá snížit dopad falešného sdílení?
+Jak se dá snížit dopad falešného sdílení u for cyklů?
 
 Back:
 
@@ -240,10 +243,17 @@ Jak přesně funguje **podmínka zarovnání**?
 
 Back:
 
+Falešné sdílení pro pole $A$ **nenastane**, pokud:
+1. `chunk_size X = cache_line_size/sizeof(int)`
+2. `alignas(cache_line_size) int A[n]` - pole začne na adrese dělitelné `cache_line_size`
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250606100254.png)
 
 Pro velká pole:
 ![](../../Assets/Pasted%20image%2020250606100305.png)
+
+<!-- DetailInfoEnd -->
 
 Tags: otazka09
 <!--ID: 1749197198577-->
@@ -259,10 +269,13 @@ Jak se dá **odstranit falešné sdílení pro velká pole**?
 
 Back:
 
-- Do 1 keš bloku zapisuje právě jedno vlákno
-- Pole v paměti je zarovnáno stejně jako bloky keše
+Každému vláknu budou přidělena data z jednoho bloku cache. 
 
-Pro velká pole:
+**Splním zarovnávací podmínku, tedy:**
+1. Použiju `schedule(static, X)` (kde `int X = cache_line_size/sizeof(int)`)
+2. `alignas(cache_line_size) int A[n]` - pole začne na adrese dělitelné `cache_line_size`
+
+Celý kód:
 ![](../../Assets/Pasted%20image%2020250606100305.png)
 
 <!-- DetailInfoStart -->
@@ -284,8 +297,11 @@ Jak se dá odstranit falešné sdílení pro malá pole?
 Back:
 
 Musíme "nafouknout" to pole tak, aby každý prvek odpovídal velikosti bloku keše.
+- Pole zadefinujeme jako `A[n][cache_line_size/sizeof(int)]`
+- Použijeme `schedule(static,1)`
+- V iteraci vždy přistupujeme k nultému prvku 2D pole `A[i][0]`
 
-Pro malá pole:
+Celý kód:
 ![](../../Assets/Pasted%20image%2020250606100418.png)
 
 <!-- DetailInfoStart -->
@@ -303,7 +319,7 @@ END
 START
 FIT-Card
 
-Jaké jsou typicky příklady jednoduchých problémů co jsme brali.
+Jaké jsou sekvenční problémy, které se dají paralelizovat, které jsme brali? (4)
 
 Back:
 
@@ -325,7 +341,13 @@ Back:
 
 **Úloha**: spočítat četnosti prvků z intervalu $[0,\mathrm{range}-1]$ v poli $A$
 
+Sekvenční algoritmus:
+- Inicializujeme pole `histogram[range]` na nulové hodnoty
+- Iterujeme pole $A$ a vždy inkrementujeme `histogram[A[j]]++;`
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250313103749.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka10
 <!--ID: 1746599653099-->
@@ -342,6 +364,7 @@ Jakou má sekvenční složitost úloha **výpočtu histogramu**?
 Back:
 
 $$O(n) + O(\mathrm{range})$$
+Tags: otazka10
 <!--ID: 1749200460522-->
 END
 
@@ -355,9 +378,12 @@ Jak se dá paralelizovat **výpočet histogramu** pomocí **sdíleného histogra
 
 Back:
 
+**Shrnutí algoritmu:**
 1. inicializace histogramu na $0$
-2. pak `parallel for shared(histogram)` a `atomic update` pro inkrementaci
+2. Před cyklus pole $A$ dáme `#pragma omp parallel for schedule(static) shared(histogram)`
+3. Inkrementujeme pomocí `#pragma omp atomic update` pro inkrementaci
 
+Celý kód:
 ![](../../Assets/Pasted%20image%2020250606101248.png)
 
 <!-- DetailInfoStart -->
@@ -405,7 +431,6 @@ $$O(\mathrm{range}) + O(n/p)$$
 
 Tags: otazka10
 <!--ID: 1746599653114-->
-
 END
 
 ---
@@ -418,9 +443,11 @@ Jak se dá paralelizovat **výpočet histogramu** pomocí **lokálního histogra
 
 Back:
 
-1. inicializace histogramu v každém vlákně
-2. pak si vlákna rozdělí pole A v prvním parallel for a vypočítají mezisoučty
-3. nakonec si rozdělí histogram a ve druhém parallel for zredukují mezivýsledky z lokálních histogramů do jednoho
+1. Master vytvoří **neinicializovaný** `histogram[p][range]`, kde $p$ je počet vláken
+2. Začne `#pragma omp parallel`
+3. Vlákno si získá své ID pomocí `omp_get_thread_num()`, pomocí toho inicializuje `histogram[my_id][i] = 0`
+4. `#.. for schedule(static)` - Každé vlákno kompletně spočte histogram  a zapíše do vlastního řádku histogramu (`histogram[my_id]`)
+5. `#.. for schedule(static)` - První cyklus iteruje do `range` (ten se rozhodí vláknům), druhý do `p`. Do `histogram[0][i]` se sečtou mezivýsledky z lokálních histogramů do jednoho.
 
 ![](../../Assets/Pasted%20image%2020250313103854.png)
 
@@ -436,8 +463,6 @@ START
 FIT-Card
 
 Jakou má složitost paralelizace **výpočtu histogramu** pomocí **lokálního histogramu**?
-
-Kolikráti násobnou má paměťovou náročnost?
 
 Back:
 $$O(\mathrm{range}) + O(n/p) + O(\mathrm{range})$$
@@ -491,6 +516,12 @@ Co je úloha **násobení polynomů**? Jak funguje sekvenční algoritmus?
 Back:
 
 - Pole $A,B,C$ - obsahují koeficienty polynomů
+
+Shrnutí algoritmu:
+1. Máme polynomy `A[m+1], B[n+1] a C[n+m+1]`
+2. Inicializujeme $C$ na samé $0$
+3. Iterujeme $A$ s $i$, iterujeme $B$ s $j$
+4. Uvnitř nastavíme `C[i+j] += A[i] * B[j]`
 
 ![](../../Assets/Pasted%20image%2020250313104427.png)
 
@@ -547,8 +578,8 @@ Jak se dá paralelizovat **vnější cyklus** $A$ násobení polynomů?
 
 Back:
 
-- vlákna si rozdělí $A$ v `parallel for` nad vnějším cyklem
-- všechna pak čtou ze všech částí $B$, takže i v zápisech do $C$ mohou být konflikty a je potřeba `atomic update`
+1. Před vnější cyklus dáme `#pragma omp parallel for schedule(static)`
+2. Před inkrementaci prvku $C$ dáme `#pragma omp atomic update`
 
 ![](../../Assets/Pasted%20image%2020250313104607.png)
 ![](../../Assets/Pasted%20image%2020250313104629.png)
@@ -568,7 +599,9 @@ Jak se dá paralelizovat **vnitřní cyklus** $B$ násobení polynomů?
 Back:
 
 - vnější cyklus přes $A$ je sekvenční
-- vlákna si rozdělí $B$ v `parallel for` nad vnitřním cyklem, takže i zapisované oblasti v $C$ jsou disjunktní
+- Před vnitřní cyklus $B$ dáme `#pragma omp parallel for schedule(static)`
+
+$i$ máme v paralelním cyklu vždy stejný, takže jen přičítáme na pozici $j$ za tím $i$ v $C$. Tím pádem si vlákna nic navzájem nepřepisují a není potřeba atomic. (viz obrázek)
 
 ![](../../Assets/Pasted%20image%2020250313104644.png)
 ![](../../Assets/Pasted%20image%2020250313104655.png)
@@ -631,10 +664,9 @@ Jak se dá **paralelizovat polynom** $C$ při násobení polynomů?
 
 Back:
 
-- vnější cyklus přes indexy $C$ je `parallel for`
-- vnitřní jde podle vzorečku $c_k = \sum_{l=\max(0,k-n)}^{\min(k,m)} a_l b_{k-l}$
-
-m je stupeň A, n je stupeň B
+1. Před vnějším cyklem máme `parallel for`
+2. Vnější cyklus iteruje přes indexy $C$ (tedy $m+n+1$)
+3. Vnitřní  jde podle vzorečku $C[K] = \sum_{l=\max(0,k-n)}^{\min(k,m)} A[l] B[k-l]$
 
 ![](../../Assets/Pasted%20image%2020250313104739.png)
 ![](../../Assets/Pasted%20image%2020250313104751.png)
@@ -659,6 +691,7 @@ Co navíc pomůže?
 
 Back:
 
+Počet operací `C[k] += ...` závisí na $k$ (pro prostřední $k$ jich bude více a pro krajnější méně). Proto:
 - se `schedule(static)` budou “prostřední” vlákna výrazně víc zatížena
 - se `schedule(dynamic)` bude docházet k falešnému sdílení a není nutné
 
@@ -696,7 +729,7 @@ END
 START
 FIT-Card
 
-Jak se dá paralelizovat **násobení matic**?
+Jak se dá paralelizovat **násobení matic**? (3)
 
 Back:
 
@@ -718,9 +751,9 @@ Jak se dá paralelizovat **vnější cyklus** u násobení matic?
 
 Back:
 
-rozdělení řádků $C$
+1. Před vnější cyklus dáme `#pragma omp parallel for schedule(static)`
 
-`#pragma omp parallel for schedule(static)`
+Díky tomu každé vlákno zpracovává jiný řádek $C$
 
 ![](../../Assets/Pasted%20image%2020250313104859.png)
 
@@ -739,9 +772,9 @@ Jaké jsou u paralelizace **vnějšího cyklu** u násobení matic:
 
 Back:
 
-- bezkolizní zápisy
-- minimální synchronizace (jedna bariéra)
-- linární zrychlení
+- **bezkolizní zápisy**
+- **minimální synchronizace** (jedna bariéra na konci)
+- **linární zrychlení**
 
 Tags: otazka12
 <!--ID: 1749200460548-->
@@ -753,14 +786,24 @@ END
 START
 FIT-Card
 
-Jak se dá paralelizovat **vnitřní cyklus** u násobení matic?
+Jak se dá paralelizovat **prostřední cyklus** u násobení matic?
 
 Back:
 
+1. Před vnější cyklus dáme `#pragma omp parallel for schedule(static)`
+
+Díky tomu každé vlákno zpracovává **jiný sloupec** $C$.
+
+Pro malé $n/p$ (šířku sloupců) může docházet ke falešnému sdílení.
+
 ![](../../Assets/Pasted%20image%2020250313104910.png)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250313104948.png)
 ![](../../Assets/Pasted%20image%2020250313104959.png)
 ![](../../Assets/Pasted%20image%2020250313105009.png)
+
+<!-- DetailInfoEnd -->
 
 Tags: otazka12
 <!--ID: 1746599653171-->
@@ -796,8 +839,8 @@ K čemu dojde u paralelizace **prostředního cyklu** u násobení matic:
 Back:
 
 **K čemu dojde:**
-- se `schedule(static)` má lineární zrychlení
-- se `schedule(static, 1)`dojde k falešnému sdílení
+- se `schedule(static)` má lineární zrychlení, pro dost velké $n/p$ (šířku sloupcu) nebude moc docházet k falešnému sdílení (protože když se první vlákno dostane k jeho poslednímu sloupci, tak to další už bude u sloupce dostatečně daleko vpravo)
+- se `schedule(static, 1)` dojde k falešnému sdílení, protože si budou furt přepisovat cache
 
 Tags: otazka12
 <!--ID: 1749200460554-->
@@ -833,7 +876,9 @@ Jak se dá paralelizovat **vnitřní cyklus** při násobení matic?
 
 Back:
 
-paralelizací vnitřního cyklu (rozdělení skalárního součinu) s `reduction(+:s)`
+1. Před vnitřní cyklus dáme `#pragma omp parallel for schedule(static) reduction(+:s)`
+
+Díky tomu každé vlákno počítá jinou část skalárního součtu. Je tam největší režie synchronizace. $n^2 \cdot (T_{barr}+T_{PR}(n,p))$.
 
 ![](../../Assets/Pasted%20image%2020250313105019.png)
 
@@ -851,12 +896,13 @@ Jak se dá trochu zrychlit **paralelizace prostředního cyklu** u násobení ma
 
 Back:
 
-přesunutím `parallel` nad vnější cyklus - tzn. 1 **fork-join**
+1. přesuneme `parallel` nad vnější cyklus
+2. před `C[i][j] = s` dáme `#pragma omp master`
 
 ![](../../Assets/Pasted%20image%2020250313105106.png)
 
 Tags: otazka12
-
+<!--ID: 1749210669970-->
 END
 
 ---
@@ -916,7 +962,7 @@ Jaké jsou formáty pro uložení řídkých matic? (2)
 Back:
 
 - **souřadnicový** (COO)
-- **komprimované řádké řádky** (CSR)
+- **komprimované řídké řádky** (CSR)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250313110032.png)
@@ -940,6 +986,8 @@ Matice $A$ je reprezentována 3 poli:
 - `A.RowInd[0..N-1]`  - obsahuje indexy **řádků** nenulových prvků $A$
 - `A.ColInd[0..N-1]` - obsahuje indexy **sloupců** nenulových prvků $A$
 - `A.Elems[0..N-1]` - obsahuje **hodnoty** nenulových prvků $A$
+
+$N$ je počet nenulových prvků
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250313110051.png)
@@ -1018,7 +1066,9 @@ Jak funguje sekvenční **SpMVM** v COO?
 
 Back:
 
-Jeden for cyklus přes společný index polí a v něm `y[A.RowInd[k]] += A.Elems[k] * x[A.ColInd[k]]`
+1. Máme `A` v $COO$ formátu, a vektory `y[n]` a `x[n]`
+2. Inicializujeme `y[n]` na nuly
+3. Iterujeme do $k < N$ jakoby přes elems $A$, tedy `y[A.RowInd[k]] += A.Elems[k]*x[A.ColInd[k]]`
 
 ![](../../Assets/Pasted%20image%2020250313110122.png)
 ![](../../Assets/Pasted%20image%2020250313110134.png)
@@ -1055,13 +1105,12 @@ Jaký schedule musí být? K čemu bude docházet? Je to efektivní?
 
 Back:
 
-- `parallel for` u každého cyklu
-- nutný `atomic update`
-- bude docházet k **falešnému sdílení**
+1. Před inicializaci narveme `#pragma omp parallel for`
+2. Před hlavní for cyklus narveme `#pragma omp parallel for`
+3. Výpočet dáme do `temp` proměnné a dáme `atomic update` na přiřazení do `y[A.RowInd[k]] += temp`
 
-- `libovolným schedule`
-
-**neefektivní** (pro malá p pomalejší než sekvenční, pro větší p jen mírné zrychlení)
+Schedule libovolný, bude každopádně docházet k **falešnému sdílení**.
+-> **Je to neefektivní** (pro malá p pomalejší než sekvenční, pro větší p jen mírné zrychlení)
 
 ![](../../Assets/Pasted%20image%2020250313110151.png)
 
@@ -1097,12 +1146,12 @@ Jak funguje paralelní **SpMVM** v CSR? Na čem hodně závisí?
 
 Back:
 
-- chceme paralelizovat vnější cyklus, aby vlákna zapisovala do disjunktních oblastí
-- volba rozdělování iterací hodně ovlivňuje zrychlení
-
-<!-- DetailInfoStart -->
+- Před vnější cyklus dáme `#pragma omp parallel for schedule(static|dynamic)`
+- volba `schedule` hodně ovlivňuje zrychlení
 
 ![](../../Assets/Pasted%20image%2020250313110310.png)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250313110318.png)
 ![](../../Assets/Pasted%20image%2020250313110420.png)
 ![](../../Assets/Pasted%20image%2020250313110538.png)
@@ -1120,7 +1169,7 @@ END
 START
 FIT-Card
 
-Jaké jsou možnosti volby `schedule` u paralelního **SpMVM** v CSR? Jaké jsou jejich vlastnosti?
+Jaké jsou možnosti volby `schedule` u paralelního **SpMVM** v CSR? Jaké jsou jejich vlastnosti? (4)
 
 Back:
 
@@ -1129,6 +1178,11 @@ Back:
 - se `schedule(static, 16)` je nevyváženost horší, ale falešné sdílení lepší
 - se `schedule(dynamic, X)` záleží vyváženost na matici a má to vyšší režii
 	- falešné sdílení lze zmírnit nastavením `X` na násobek počtu prvků v cache bloku
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250313110310.png)
+<!-- DetailInfoEnd -->
+
 
 Tags: otazka13
 <!--ID: 1749201699784-->
@@ -1140,7 +1194,7 @@ END
 START
 FIT-Card
 
-Jaké mají zrychlení různé volby `schedule` u paralelního **SpMVM** v CSR?
+Jaké mají zrychlení různé volby `schedule` u paralelního **SpMVM** v CSR? (4)
 
 Back:
 
@@ -1149,6 +1203,10 @@ Zrychlení:
 - `schedule(static,1)` - jen mírné zrychlení nehledě na $p$ i typ matice
 - `schedule(static,16)` - rozumné zrychlení, ale zdaleka ne lineární
 - `schedule(dynamic, X)` - s `X=16` experimentálně trochu pomalejší než `static`
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250313110310.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka13
 <!--ID: 1749201699787-->
@@ -1164,16 +1222,21 @@ Jak funguje **vyvažování při násobení** matic v CSR? Jaké má zrychlení?
 
 Back:
 
+1. `band[p+1]; band[p] = n`
+2. `#pragma omp parallel`
+3. `int my_id = omp_get_thread_num();`
+4. `int my_number = my_id*N/p`
+5. `int my_index = binary_search(A.RowStart, my_number)`
+6. `band[my_id] = my_index;`
+7. `#pragma omp barrier`
+8. `for(od band[my_id] do band[my_id+1]){ ...} 
+
 rozdělení matice na pásy s podobnými počty nenulových prvků (např. tak, že si každé vlákno vypočte svůj ideální dělící bod a “zaokrouhlí” na celé řádky)
 
 pro menší $p$ je zrychlení téměř lineární, pak začne narážet na saturaci sběrnice
 
-<!-- DetailInfoStart -->
-
-![](../../Assets/Pasted%20image%2020250313110657.png)
 ![](../../Assets/Pasted%20image%2020250313110713.png)
-
-<!-- DetailInfoEnd -->
+![](../../Assets/Pasted%20image%2020250313110657.png)
 
 Tags: otazka13
 <!--ID: 1746599653256-->

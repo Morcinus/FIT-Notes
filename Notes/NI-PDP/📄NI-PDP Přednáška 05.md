@@ -15,9 +15,9 @@ Jaké vlastnosti má QuickSort? (4)
 
 Back:
 
-- **Datově citlivý**
+- **Datově citlivý** - rychlost závisí na vstupu
 - **In-place**
-- **Nestabilní**
+- **Nestabilní** - nezachovává pořadí stejných prvků
 - **Stačí operace** compare & swap
 
 <!-- DetailInfoStart -->
@@ -38,7 +38,21 @@ Jak vypadá sekvenční verze QuickSortu?
 
 Back:
 
-todo shrnout
+**seq_quicksort**:
+- `if(lo<hi)`
+- `long r = seq_partition_L(A,lo,hi)` - najde dělící bod
+- `seq_quicksort(A, lo, r-1)`
+- `seq_quicksort(A, r+1, hi)`
+
+**seq_partition_L**
+- `pivot = A[hi]` - poslední prvek je pivot
+- `j = lo; iterace od lo do hi`
+	- `if(A[j] < pivot) swap (A, i++, j)`
+- `swap(A,i,hi)`
+- `return i`
+
+**swap**
+- prohodí prvky
 
 ![](../../Assets/Pasted%20image%2020250321134512.png)
 
@@ -172,11 +186,14 @@ END
 START
 FIT-Card
 
-Jak funguje **Tail call optimization** (TCO) u quicksortu?
+Jak funguje **Tail call optimization** (TCO) u quicksortu? Jaké složitosti tím docílíme?
 
 Back:
 
 QuickSort lze zrychlit nahrazením druhého rekurzivního volání iterací ve `while`
+
+- Ušetříme počet rekurzivních volání a tedy počet vytvářených tasků
+- Pokud je pivot skoromedián, snížíme počet rekurzivních volání z $O(n)$ na $O(\log n)$
 
 ![](../../Assets/Pasted%20image%2020250321134952.png)
 
