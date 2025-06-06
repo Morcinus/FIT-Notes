@@ -733,6 +733,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110920.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365518-->
 END
 
@@ -752,6 +754,8 @@ Vlákna zde usnou a čekají na všechna ostatní
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110751.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365520-->
 END
 
@@ -770,6 +774,8 @@ Tento blok kódu provádí jen jedno (libovolné) vlákno, ostatní čekají na 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110803.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365523-->
 END
 
@@ -788,6 +794,8 @@ Tento blok kódu provádí jen hlavní vlákno, ostatní skipnou a **okamžitě 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110833.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365526-->
 END
 
@@ -811,6 +819,8 @@ Např. inkrementace čítače.
 ![](../../Assets/Pasted%20image%2020250227111032.png)
 ![](../../Assets/Pasted%20image%2020250227111039.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365528-->
 END
 
@@ -823,6 +833,8 @@ FIT-Card
 Jaké jsou typy atomických operací? Aneb na co lze aplikovat `atomic` (4)
 
 Back:
+
+Vždy to je `#pragma omp atomic [write|read|update|capture]`
 
 - **Atomické čtení**
 - **Atomické psaní**
@@ -846,6 +858,8 @@ global_index += 1;
 ```
 
 <!-- ExampleEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365531-->
 END
 
@@ -873,6 +887,8 @@ Předčasné opuštění paralelní oblasti - aka zastavení výpočtu ve všech
 ![](../../Assets/Pasted%20image%2020250227111821.png)
 ![](../../Assets/Pasted%20image%2020250605200523.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka08
 <!--ID: 1746518365534-->
 END
 
@@ -889,6 +905,8 @@ Back:
 - Na bariérách
 - Při direktivách cancel
 - Ve stornovacích bodech (cancellation point)
+
+Tags: otazka08
 <!--ID: 1746518365537-->
 
 END
@@ -906,6 +924,8 @@ Back:
 `#pragma omp cancellation point for`
 
 Zde se pak bude kontrolovat i při `for`
+
+Tags: otazka08
 <!--ID: 1749146750659-->
 END
 
@@ -919,6 +939,8 @@ Jak funguje direktiva `flush()`?
 Back:
 
 Propsání aktuálních hodnot daných sdílených proměnných do sdílené paměti
+
+Tags: otazka08
 <!--ID: 1749146764895-->
 END
 
