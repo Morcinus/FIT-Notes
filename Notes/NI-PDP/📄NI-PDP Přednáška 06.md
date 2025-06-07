@@ -982,11 +982,15 @@ END
 START
 FIT-Card
 
-Jak funguje permutace cyklický posuv?
+Co je v MPI **úloha cyklický posuv**?
 
 Back:
 
+úloha: každý proces pošle zprávu pravému sousedovi (a poslední prvnímu)
+
 ![](../../Assets/Pasted%20image%2020250330105625.png)
+
+Tags: otazka22
 <!--ID: 1746518365391-->
 END
 
@@ -996,16 +1000,132 @@ END
 START
 FIT-Card
 
-Jak by se měl korektně řešit cyklický posuv?
+Jak by se **neměl** řešit **cyklický posuv v MPI**? 
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250330105730.png)
-![](../../Assets/Pasted%20image%2020250330105738.png)
-![](../../Assets/Pasted%20image%2020250330105746.png)
-![](../../Assets/Pasted%20image%2020250330105802.png)
-![](../../Assets/Pasted%20image%2020250330105812.png)
+špatně: zavolat ve všech vláknech MPI_Send a pak MPI_Recv → může vést k deadlocku
+
+Tags: otazka22
+<!--ID: 1749324086051-->
+END
+
+---
+
+START
+FIT-Card
+
+Jakými **způsoby lze řešit cyklický posuv**? (4)
+
+Back:
+
+- nejprve posílají sudé procesy lichým, potom naopak
+- pomocí `MPI_Bsend`
+- pomocí `MPI_Isend`
+- pomocí `MPI_Sendrecv`
+
+Tags: otazka22
 <!--ID: 1746518365394-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak lze řešit cyklický posuv pomocí:
+nejprve posílají sudé procesy lichým, potom naopak
+
+Back:
+
+todo vypsat vlastními slovy
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250330105730.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka22
+<!--ID: 1749324086056-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak lze řešit cyklický posuv pomocí: `MPI_Bsend`
+
+Back:
+
+todo vypsat vlastními slovy
+
+musím buffer připravit MPI_Buffer_attach a pak uvolnit MPI_Buffer_detach
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250330105738.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka22
+<!--ID: 1749324086059-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak lze řešit cyklický posuv pomocí: `MPI_Isend` 
+
+Back:
+
+todo vypsat vlastními slovy
+
+příp. i MPI_Irecv
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250330105746.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka22
+<!--ID: 1749324086062-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak lze řešit cyklický posuv pomocí: `MPI_Sendrecv`
+
+Back:
+
+todo vypsat vlastními slovy
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250330105802.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka22
+<!--ID: 1749324086065-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké řešení cyklického posuvu je nejlepší?
+
+Back:
+
+todo vypsat vlastními slovy
+
+nejjednodušší a nejlepší je `MPI_Sendrecv`
+
+Tags: otazka22
+<!--ID: 1749324086068-->
 END
 
 ---
@@ -1254,3 +1374,172 @@ Back:
 END
 
 ---
+
+### MPI paralelní systémy souborů
+
+START
+FIT-Card
+
+Jak je možné zapisovat do file systému pomocí MPI? Co je potřeba aby to šlo?
+
+Back:
+
+v normálním filesystému nejde paralelně zapisovat do souboru z více MPI procesů najednou
+
+je potřeba:
+- paralelní souborový systém (PSS, např. Lustre, GPFS)
+- MPI-I/O funkce
+
+Tags: otazka23
+<!--ID: 1749325172967-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Přes co jsou mapovány části souboru v paralelních systémech souborů?
+
+Back:
+
+části souboru jsou mapovány přes **I/O uzly** (object storage server, OSS) na **koncová úložná zařízení** (object storage target, OST)
+
+Tags: otazka23
+<!--ID: 1749325172982-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy se vyplatí uložení souborů na **více OST**?
+
+Back:
+
+uložení souboru na více OST se vyplatí se jen pro velké soubory, jinak zpomaluje
+
+Tags: otazka23
+<!--ID: 1749325172984-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou funkce v `MPI-I/O`? (7)
+
+Back:
+
+- `MPI_File`
+- `MPI_File_seek`
+- `MPI_File_read`
+- `MPI_File_write`
+- `MPI_File_read_at`
+- `MPI_File_write_at`
+- `MPI_Exscan`
+
+Tags: otazka23
+<!--ID: 1749325172987-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak funguje `MPI_File`?
+
+Back:
+
+`MPI_File` reprezentuje soubor (`MPI_File_open`, `MPI_File_close`)
+- lze na něj navázat obsluhu chyby, defaultní je `MPI_ERRORS_RETURN`
+- otevření souboru se provádí kolektivně přes `MPI_File_open`
+
+příklad:
+`MPI_File_open(MPI_COMM_WORLD, "data.bin", MPI_MODE_CREATE|MPI_MODE_WRONLY, MPI_INFO_NULL, &fh);`
+
+Tags: otazka23
+<!--ID: 1749325172989-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak funguje `MPI_File_seek`?
+
+Back:
+
+`MPI_File_seek` nastavuje “kurzor” v souboru pro daný proces
+- posouvá pozici pro další čtení/zápis na relativní offset
+
+příklad:
+`MPI_File_seek(fh, 100, MPI_SEEK_SET);` posune kurzor na bajt 100
+
+Tags: otazka23
+<!--ID: 1749325172992-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak funguje `MPI_File_read` a `MPI_File_write`?
+
+Back:
+
+`MPI_File_read` čte soubor, `MPI_File_write` píše do souboru
+- čte/zapisuje od aktuální pozice kurzoru, blocking operace
+
+příklad:
+`MPI_File_read(fh, buf, 10, MPI_INT, MPI_STATUS_IGNORE);`
+
+Tags: otazka23
+<!--ID: 1749325172995-->
+END
+
+---
+
+START
+FIT-Card
+
+Jak funguje `MPI_File_read_at` a `MPI_File_write_at`?
+
+Back:
+
+`MPI_File_read_at` a `MPI_File_write_at` nastavují kurzor + čtou/píšou
+- operace probíhá nezávisle na předchozí pozici kurzoru
+
+příklad:
+`MPI_File_write_at(fh, offset, buf, count, MPI_INT, MPI_STATUS_IGNORE);`
+
+Tags: otazka23
+<!--ID: 1749325172997-->
+END
+
+---
+
+START
+FIT-Card
+
+Když paralelně píšou MPI procesy do souboru, jak to funguje?
+
+Back:
+
+při paralelním zápisu zapisuje každý proces na svém offsetu
+- ten si předpočítá pomocí PPS (paralelní prefixový součet, `MPI_Exscan`)
+
+příklad:
+`MPI_Exscan(&my_count, &offset, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);`
+
+Tags: otazka23
+<!--ID: 1749325173000-->
+END
