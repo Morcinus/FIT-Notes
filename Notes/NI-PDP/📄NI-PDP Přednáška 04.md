@@ -103,7 +103,7 @@ END
 START
 FIT-Card
 
-Jaké jsou základní podmínky optimalizace sekvenčních kódů? (4)
+Jaké jsou základní způsoby optimalizace sekvenčních kódů? (4)
 
 Back:
 

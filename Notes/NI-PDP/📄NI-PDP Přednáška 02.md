@@ -700,13 +700,17 @@ END
 START
 FIT-Card
 
-Jaké jsou základní OpenMP operace?
+Jaké jsou základní OpenMP operace? (3)
+
+`omp_...()`
 
 Back:
 
 - `omp_get_num_procs()` - vrátí počet CPU jader, která jsou k dispozici pro OpenMP
 - `omp_get_thread_num()` - vrátí index aktuálního vlákna
 - `omp_get_num_threads()` - vrátí počet vláken v aktuální oblasti
+
+Další které jsem se rozhodl nepamatovat:
 - `omp_set_num_threads(int i)` - změní počet vytvořených vláken v následujících paralelních oblastech na hodnotu parametru $i$
 - `omp_get_wtime()` - vrátí číslo, které udává uběhnutý čas od nějakého okamžiku v minulosti.
 <!--ID: 1746518365515-->

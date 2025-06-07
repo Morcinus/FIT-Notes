@@ -88,9 +88,7 @@ Back:
 - Uzly přijímají **synchronně** proud instrukcí
 - Mají sdílenou paměť nebo propojivací síť
 
-<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164219.png)
-<!-- DetailInfoEnd -->
 <!--ID: 1746599653322-->
 END
 
@@ -367,7 +365,7 @@ END
 START
 FIT-Card
 
-Jaké jsou 2 možnosti implementace bariéry?
+Jaké jsou 2 možnosti implementace bariéry u APRAMu?
 
 Back:
 
@@ -415,7 +413,7 @@ END
 START
 FIT-Card
 
-Jaké jsou 3 typy **programovacích modelů**?
+Jaké jsou 3 typy **paralelních programovacích modelů**?
 
 Back:
 
