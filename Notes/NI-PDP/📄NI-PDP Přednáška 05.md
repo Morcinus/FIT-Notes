@@ -435,11 +435,18 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má MergeSort?
+Jaké vlastnosti má MergeSort? (3)
 
 Back:
 
+- **Datově necitlivý**
+- **Out of place**
+- **Stabilní**
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250321134112.png)
+<!-- DetailInfoEnd -->
+
 Tags: otazka15
 <!--ID: 1746599653597-->
 END
@@ -453,7 +460,26 @@ Jak vypadá učebnicová verze Merge Sortu? (SUV)
 
 Back:
 
-todo napsat si nějaký shrnutí
+Máme pole $A$ délky $n$
+
+**mergesort**
+- Inicializuje pole $B[n]$ na hodnoty $A$čka
+- sputí `mergesort_rec(B,0,n,A);`
+
+**mergesort_rec**
+- konec rekurze `if((hi-lo) <2) return;`
+- spočtení prostředku `long middle = (hi+lo)/2`
+- zavolání na levou část `mergesort_rec(A, lo, middle, B)`
+- zavolání na levou část `mergesort_rec(A, middle, hi, B)`
+- merge `merge(B, lo, middle, hi, A)`
+
+**merge** (2-cestné slučování)
+- `i = lo; j = middle`
+- iterujeme $k$ mezi `lo..hi`
+	- Vždy přiřazujeme jako první menší prvek
+	- 1) Přiřazení prvku z první části (pokud jsme vyplýtvali pravé pole nebo je prvek menší):
+	- `if((i<middle) && ((j >= hi) || (B[i] <= B[j]))) A[k] = B[i++];`
+	- `else A[k] = B[j++];`
 
 ![](../../Assets/Pasted%20image%2020250321135717.png)
 
@@ -467,9 +493,18 @@ END
 START
 FIT-Card
 
-Jak vypadá přímočará paralelizace merge sortu? (PUV)
+Jak vypadá **přímočará (naivní) paralelizace merge sortu**? (PUV)
 
 Back:
+
+Uvnitř **mergesort**
+- Před cykly `#pragma omp parallel`
+- Před for `#pragma omp for`
+- Před `mergesort_rec` dáme `#pragma omp single`
+
+Uvnitř **mergesort_rec**:
+- Před `mergesort_rec` dáme `#pragma omp task`
+- Před `seq_merge` dáme `#pragma omp taskwait`
 
 ![](../../Assets/Pasted%20image%2020250321135735.png)
 
@@ -483,11 +518,15 @@ END
 START
 FIT-Card
 
-Proč u MergeSortu nefunguje naivní funkční paralelizace narozdíl od QuickSortu?
+Proč u MergeSortu nefunguje **naivní funkční paralelizace**?
 
 Back:
 
-protože těžká práce (slučování) je až za rekurzivním voláním → v listech rekurze vzniká strašně moc OpenMP úloh, které slučují dvouprvková pole → obří falešné sdílení → násobné zpomalení proti sekvenční verzi
+- `taskwait` čeká na podvlákna a těžká práce je až za tím
+- **vytváří se obří množství tasků**, které v listech slučují **dvouprvková pole**
+- **obrovské falešné sdílení**
+
+Kvůli tomu je to **násobně pomalejší** (třeba 14 krát) než vůbec **sekvenční verze**
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250321135825.png)
@@ -585,9 +624,13 @@ Jak funguje MergeSort s metodou "**Prahování a Rozděl-a-PůlkuSiNech**"?
 
 Back:
 
-Todo vysvětlit vlastními slovy
+Prahování - Místo původní koncové podmínky dáme:
+- `if((hi-lo) < threshold)`
+	- `seq_mergesort_Rec(B, lo, hi,A)`
+	- `return`
 
-Toto kombinuje prahování a rozděl a půlku si nech
+Rozděl a půlku si nech:
+- `#pragma omp task` dáme pouze před levý `par_merge_sort_rec`
 
 ![](../../Assets/Pasted%20image%2020250321140019.png)
 Tags: otazka15
@@ -635,26 +678,15 @@ Back:
 todo přepsat tak, aby mi to dávalo smysl
 
 1. slučovaná seřazená pole $C, D$ délky $n/2$ si představme jako řádkové a sloupcové indexy matice, v níž jsou jedničky tam, kde sloupcový index $>$ řádkový, jinde nuly
-2. všechny jedničky jsou v pravém horním rohu, od nul je dělí lomená čára
-3. každé vlákno si najde svůj průsečík této lomené čáry s $p-1$ vedlejšími diagonálami matice rozmístěnými ve vzdálenosti $n/2p$ od sebe (v čase $O(\log n)$)
-4. podle těchto průsečíků rozkouskujme $C$ i $D$ na $p$ částí (označených např. $C_1$ až $C_p$)
-5. $i$-té vlákno sekvenčně sloučí $C_i$ a $D_i$, čímž vznikne $X_i$
+2. všechny jedničky jsou v pravém horním rohu, od nul je dělí lomená čára (na obrázku tlustá modrá)
+3. každé vlákno si najde svůj průsečík této lomené čáry s $p-1$ vedlejšími diagonálami matice (binárním dělením v čase $O(\log n)$) rozmístěnými ve vzdálenosti $n/2p$ od sebe
+4. průsečíky promítneme (horizontálně/vertikálně) na strany matice a podle toho rozkouskujeme $C$ i $D$ na $p$ částí (označených např. $C_1$ až $C_p$ resp. $D_1$ až $D_p$)
+5. $i$-té vlákno sekvenčně mergne $C_i$ a $D_i$, čímž vznikne $X_i$
 6. zřetězme $X_1 \dots X_p$ → máme seřazené pole
-
-- Ta matice je virtuální - reálně ji nekonstruujeme
-- Je tam 0, když ten prvek nahoře je menší, je tam 1 když ten prvek nahoře je větší
-- Potřebujeme spočítat nějaké oddělovače, kde:
-	- každé vlákno dostane stejné množství čísel ke slučování
-	- první vlákno dostane první chunk, druhé vlákno druhý atd.
-- Každé vlákno si spočte svůj oddělovač
-	- Každé vlákno si spočítá, kde jeho vedlejší diagonála (ty červený) protíná tu modrou čáru
-- Potom mě zajímají místa, kde se 0 mění na 1 v té matici
-- Jelikož jsou diagonály ekvidistantní (mají mezi sebou stejnou vzdálenost), je mezi nimi stejný počet průsečíků modré čáry
 
 ![](../../Assets/Pasted%20image%2020250606202744.png)
 
 <!-- DetailInfoStart -->
-
 ![](../../Assets/Pasted%20image%2020250321140150.png)
 ![](../../Assets/Pasted%20image%2020250321140158.png)
 ![](../../Assets/Pasted%20image%2020250321140204.png)
@@ -670,14 +702,48 @@ END
 START
 FIT-Card
 
-Jak funguje **slučování v merge sortu pomocí paralelního** **p-cestného** slučování?
+Jaká je u paralelního 2-cestného slučování merge sortu složitost najití vlastního průsečíku? Jakým algoritmem se to hledá?
 
 Back:
 
-- Myšlenka je rozdělit vstup do $n/p$ částí - každá pro jedno vlákno
-- Každé vlákno si to pak sesortí a pak se řeší "slévání" těch sesortěných polí (prostě "máme zapomenout, jak funguje normální merge sort a přemýšlet o tom takhle")
+Alogirmem **binární dělení**:
+$$O(\log n)$$
+Tags: otazka15
+<!--ID: 1749286664601-->
+END
 
-Podrobnější:
+---
+
+
+
+START
+FIT-Card
+
+Jak funguje **merge sort** s $p$-cestným paralelním slučováním? (obecná myšlenka)
+
+Back:
+
+**Myšlenka:**
+1. Rozsekáme vstupní pole na $n/p$ stejně velkých částí $S_1 \dots S_p$
+2. Každé vlákno sekvenčně seřadí svoji část $S_i$ ($O(\frac n p \log \frac n p)$)
+3. Potom začne $p$-cestné slučování
+
+**p-cestné slučování**
+Funguje podobně jako 2-cestné, ale obecněji:
+1. Každé vlákno si najde **pole rozdělovačů** pomocí `Splitters_by_Rank(S, my_id*n/p)`
+2. Na základě rozdělovačů si do pomocného pole (v `my_tuple[my_id]`) nahraje úseky z $S_0 \dots S_1$ (na obrázku jsou úseky označeny $\tau_i$)
+3. Do pole $B$ pak na danou pozici nahraje sekvenčně mergnuté pomocné pole (merge je jako normální, ale nemergujou se 2 pole, ale p polí)
+
+![](../../Assets/Pasted%20image%2020250606203342.png)
+
+<!-- DetailInfoStart -->
+4. Každé vlákno si stejně jako u 2-cestného najde **rozdělovač** (tam to byly ty průsečíky s lomennou čárou), který mi v každém poli $S_1 \dots S_p$ označí část $\tau_i$, kterou bude $i$-té vlákno zpracovávat. Zde bude rozdělovač **vektor** bodů v poli(to jsou jakoby průměty toho rozdělovače do těch částí pole). To najde funkce `Splitters_by_Rank(S,my_id*n/p)`.
+	- Tyto části $\tau_i$ jsou pro každé vlákno **stejně velké**.
+	- Pro všechny prvky $\tau_i$ platí, že jsou menší než $\tau_{i-1}$ (díky tomu až slijeme pole tak bude opět seřazené)
+5. Každé vlákno pak sekvenčně sloučí všechny svoje části v $\tau_i$
+6. Tyto části pak dáme za sebe a získáme seřazené pole
+
+Podrobnější vysvětlení:
 1. vstupní pole se rozřezá na pravidelné $p$-tiny
 2. každé vlákno sekvenčně seřadí svoji $p$-tinu ($O(\frac n p \log \frac n p)$)
 3. každé vlákno vypočítá svůj vektor rozdělovačů (jeden rozdělovač v každé seřazené $p$-tině) pomocí $\log n$ provedení $p$ instancí binárního vyhledávání ($O(p \log \frac n p \log n)$), funkce `Splitters_by_Rank(S,my_id*n/p)`
@@ -685,10 +751,6 @@ Podrobnější:
 5. každé vlákno $p$-cestně sloučí svých $p$ úseků do vyhrazené části výstupu ($O(\frac n p \log p)$)
 - pro malá $p$ a velká $n$ složitostně dominuje krok 2 → celková složitost je $O(\frac n p \log \frac n p)$
 - na konci kroků 2 a 3 na sebe musí vlákna počkat (`barrier`)
-
-![](../../Assets/Pasted%20image%2020250606203342.png)
-
-<!-- DetailInfoStart -->
 
 ![](../../Assets/Pasted%20image%2020250321140228.png)
 ![](../../Assets/Pasted%20image%2020250321140233.png)
@@ -709,7 +771,13 @@ Jaká je složitost u paralelního p-cestného MergeSortu?
 
 Back:
 
-$$O(\frac n p \log \frac n p)$$
+- Každé vlákno seřadí svoje pole $(O(\frac n p \log \frac n p))$
+- Každé vlákno provede SplittersByRank $O(p \log \frac n p \log n)$
+- Každé vlákno p-cestně sloučí výsledná pole $O(\frac n p \log p)$
+
+$$T(n,p) = O\left( \frac n p \log \frac n p + p \log \frac n p \log n + \frac n p \log p \right)$$
+
+Pro malá $p$ a velká $n$ dominuje úvodní seřazení a celková složitost je $O(\frac n p \log \frac n p)$
 
 Tags: otazka16
 <!--ID: 1749235012473-->
@@ -721,11 +789,22 @@ END
 START
 FIT-Card
 
-Jak vypadá p-cestné PMWMS merge sort?
+Jak funguje **merge sort** s $p$-cestným paralelním slučováním? (konkrétní implementace)
 
 Back:
 
-todo sepsat vlastními slovy
+Vstup: pole $A$, délka $n$
+
+Implementace:
+1. Alokujeme `B[n]`, `splitters[p][p]`, `my_tuple[p][n/p]`, `S[p][n/p]`
+2. `#pragma omp parallel`
+3. Získáme $S_i$ `S[my_id] = A[my_id*n/p .. (my_id+1)*n/p-1]`
+4.  Sekvenčně sesortíme `S[my_id]`
+5. `#pragma omp barrier`
+6. Získáme splitters `splitters[my_id] = Splitters_By_Rank(S, my_id*n/p)`
+7. `#pragma omp barrier`
+8. `my_tuple[my_id]` přiřadíme subarrays
+9. Na každý `my_tuple` se provede sekvenční $p$-cestný merge
 
 ![](../../Assets/Pasted%20image%2020250321140737.png)
 ![](../../Assets/Pasted%20image%2020250321140742.png)
@@ -741,11 +820,33 @@ END
 START
 FIT-Card
 
-Jak u p-cestného MergeSortu funguje `Splitters_by_Rank`?
+Jak u $p$-cestného MergeSortu funguje `Splitters_by_Rank`?
 
 Back:
 
-todo napsat vlastními slovy
+Vstup:
+- celé seřazené sdílené pole $A$
+- rank - index, kde začíná úsek $S_i$ v seřazeném poli
+	- `rank = my_id*n/p`
+
+Výstup:
+- vektor $p$ rozdělovačů, kde počet prvků nalevo od nich je přesně rovno `rank`
+
+Implementace:
+1. Pole $L[p],R[p]$
+2. **Inicializace** - Iterujeme $i$ mezi $0\dots p$
+	1. `L[i]=0; R[i]=n/p-1`
+		- Tzn. všechny `L[i]` nastavíme na nulu, všechny `R[i]` na konec té části pole $S_i$
+3. `while exists i: L[i] < R[i]` (tzn. je tam ještě nějaký prostor nejistoty)
+	1. $v$ = random pivot (elemet) v momentálním ohraničení $L[i] \dots R[i]$
+	2. vždy zužuju
+	3. `for` - pro každou sekci $S_i$
+		- V každé sekci $S_i$ najdeme místo, kde jsou čísla menší než pivot a napravo větší nebo rovno než pivot. To uložíme do `m[i]`
+		- Tato čísla `m[i]` spočítám pro všechny $S_i$ a sečtu je. Součet porovnám s `rank`.
+		- Když je to větší než `rank`, tak nastavim `R[i] = m[i]`
+		- Když je to menší než `rank`, tak nastavim `L[i] = m[i]`
+		- Díky tomu posouvám takhle ty hranice dokud nedosáhnu přesně toho ranku.
+- Vrátím vektor splitterů `L[0],...,L[p-1]`
 
 ![](../../Assets/Pasted%20image%2020250606203608.png)
 ![](../../Assets/Pasted%20image%2020250606203615.png)

@@ -155,9 +155,15 @@ Jaké jsou možnosti tvorby programů MPI+OpenMP? Je vhodné MPI+OpenMP kombinov
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250330103143.png)
+- **Model pouze MPI** - na každém **jádru/CPU/uzlu** běží 1 nebo několik MPI procesů které se **nedělí** na vlákna.
+- **Model MPI+OpenMP** - na každém **uzlu/CPU** běží 1 nebo několik MPI procesů, které se pomocí OpenMP dělí na vlákna, která běží na **jádrech**.
+- **Hybrid** - 1 OpenMP vlákno na jádro dává u hodně aplikací lepší výkon než MPI model s 1 procesem na jádro.
 
 dnešní clustery mají vícejádrová CPU → OpenMP a MPI je výhodné kombinovat
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250330103143.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka17
 <!--ID: 1746518365282-->
@@ -169,9 +175,14 @@ END
 START
 FIT-Card
 
-Jaká je typická architektura MPI programů? (2)
+Jaká je typická architektura MPI programů? Jaký přístup je typicky lepší? (2)
 
 Back:
+
+- **1 MPI proces na výpočetní uzel** - proces se rozdělí na vlákna aby odpovídala počtu jader výpočetního uzlu
+- **1 MPI proces na jádro** - proces se rozdělí na vlákna aby odpovídala počtu jader v CPU.
+
+Druhý přístup má často lepší výkon, protože je lepší přístup k datům, protože vlákna sdílejí hlavní paměť.
 
 ![](../../Assets/Pasted%20image%2020250330103159.png)
 
@@ -185,15 +196,15 @@ END
 START
 FIT-Card
 
-Jakými způsoby se dá zkombinovat **MPI a OpenMP**? (4)
+Jakými způsoby se dá nastavit míra spolupráce **MPI a OpenMP**? (4)
 
 Back:
 
-- je nutné zavolat `MPI_Init_thread` a vybrat míru spolupráce:
-	- `MPI_THREAD_SINGLE` → žádné dělení na vlákna
-	- `MPI_THREAD_FUNNELED` → jen hlavní vlákno volá MPI (jednoportový model)
-	- `MPI_THREAD_SERIALIZED` → volání MPI je kritická sekce (jednoportový model)
-	- `MPI_THREAD_MULTIPLE` → všechna vlákna volají MPI bez omezení (všeportový model)
+Pro spuštění spolupráce je třeba zavolat `MPI_Init_thread` a vybrat míru spolupráce:
+- `MPI_THREAD_SINGLE` → žádné dělení na vlákna
+- `MPI_THREAD_FUNNELED` → jen hlavní vlákno volá MPI (jednoportový model)
+- `MPI_THREAD_SERIALIZED` → volání MPI je kritická sekce (jednoportový model)
+- `MPI_THREAD_MULTIPLE` → všechna vlákna volají MPI bez omezení (všeportový model)
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250330103220.png)
@@ -257,7 +268,14 @@ Co jsou skupiny procesů v MPI?
 
 Back:
 
+- Každý MPI proces spadá do aspoň jedné skupiny procesů
+- Procesy v rámci skupiny jsou číslovány (`rank`) od 0
+- Existuje skupina co obsauje všechny procesy
+- Můžeme vytvářet nové skupiny
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103334.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365301-->
@@ -269,11 +287,19 @@ END
 START
 FIT-Card
 
-Co jsou komunikátory v MPI?
+Co jsou komunikátory v MPI? Co je intra a inter komunikátor? Jaký je default intra-komunikátor?
 
 Back:
 
+- Každá MPI funkce má jako parametr **komunikátor**
+- Komunikátor je množina procesů, v rámci níž probíhá komunikace
+- **Intra-komunikátor** je komunikátor asociovaný s konkrétní **skupinou procesů**
+- `MPI_COMM_WORLD` je předdefinovaný intra komunikátor pro všechny procesy
+- **Inter-komunikátor** asociovaný s dvěma skupinami, určuje komunikaci procesů mezi těmito skupinami
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103347.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365305-->
@@ -290,6 +316,11 @@ Jak funguje `MPI_Comm_rank`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250330103404.png)
+
+```c++
+int proc_num;
+MPI_Comm_Rank(MPI_COMM_WORLD, &proc_num);
+```
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250330103424.png)
@@ -310,6 +341,11 @@ Jak funguje `MPI_Comm_size`?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250330103417.png)
+
+```c++
+int num_procs;
+MPI_Comm_Size(MPI_COMM_WORLD, &num_procs);
+```
 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250330103424.png)
@@ -361,7 +397,12 @@ Jak funguje základní **2-bodová komunikace** mezi procesy?
 
 Back:
 
+- Zdrojový proces volá `MPI_Send` kde určí cílový proces
+- Cílový proces volá `MPI_Recv` kde určí zdrojový proces
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103533.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365319-->
@@ -373,17 +414,20 @@ END
 START
 FIT-Card
 
-Jaká je syntax funkce `MPI_Send`?
+Jaká je syntax funkce `MPI_Send`? (6 parametrů)
 
 Back:
 
-todo popsat parametry vlastními slovy
-
 `MPI_Send(*buf, count, datatype, dest, tag, comm)`
 
+- `buf` - ukazatel na data (proměnnou/pole)
+- `count` - počet posílaných dat (1 pro proměnnou nebo počet prvků pole)
+- `datatype` - datový typ `MPI_Datatype` (např. `MPI_INT`)
+- `dest` - `rank` (číslo) cílového procesu v rámci komunikátoru
+- `tag` - značka zprávy
+- `comm` - komunikátor (např. `MPI_COMM_WORLD`)
+
 pokud je count > 1, musí být všechny prvky za sebou a stejného typu
-- `datatype` je typu `MPI_Datatype` (např. MPI_INT, lze vytvořit vlastní)
-- `tag` může být `MPI_ANY_TAG`
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103551.png)
@@ -399,13 +443,19 @@ END
 START
 FIT-Card
 
-Jaká se syntax funkce `MPI_Recv`?
+Jaká se syntax funkce `MPI_Recv`? (7)
 
 Back:
 
-todo popsat parametry vlastními slovy
-
 `MPI_Recv(*buf, count, datatype, source, tag, comm, *status)`
+
+- `buf` - ukazatel na data kam se budou ukládat (proměnnou/pole)
+- `count` - počet přijímaných dat (1 pro proměnnou nebo počet prvků pole)
+- `datatype` - datový typ `MPI_Datatype` (např. `MPI_INT`)
+- `source` - `rank` (číslo) cílového procesu v rámci komunikátoru (např. `MPI_ANY_SOURCE`)
+- `tag` - značka zprávy (např. `MPI_ANY_TAG`)
+- `comm` - komunikátor (např. `MPI_COMM_WORLD`)
+- `status` - ukazatel na **stavový objekt**
 
 pokud je count > 1, musí být všechny prvky za sebou a stejného typu
 - `datatype` je typu `MPI_Datatype` (např. MPI_INT, lze vytvořit vlastní)
@@ -429,7 +479,15 @@ Co je přesně `MPI_Datatype`?
 
 Back:
 
+Specifikace datového typu přenášených hodnot.
+
+MPI definuje pro základní datové typy: `MPI_CHAR`, `MPI_INT`, `MPI_UNSIGNED_LONG` apod.
+
+Dají se vytvořit nové pro struktury pomocí `MPI_Type_create` (pro primitivní) nebo `MPI_Type_create_struct` (pro struct) atd.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103639.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365327-->
@@ -445,7 +503,15 @@ Jak se dá přenášet větší množství dat u 2 bodové komunikace?
 
 Back:
 
+Na místo:
+- `*buf` dám ukazatel na pole
+- `count` dám na počet prvků
+
+Pozor, všechny prvky musí být stejného `MPI_Datatype`
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103702.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365330-->
@@ -462,8 +528,6 @@ Jak volají MPI funkce **zdrojový** a **cílový proces** u 2-bodové komunikac
 Back:
 
 ![](../../Assets/Pasted%20image%2020250330103722.png)
-
-Tags: otazka18
 <!--ID: 1746518365333-->
 END
 
@@ -477,7 +541,13 @@ Jak fungují **značky přenášených dat**? (tag)
 
 Back:
 
+Odesílatel nastaví `tag` typicky na nějaký `int`.
+
+Příjemce může přijmout zprávu konkrétního tagu (např. tag `0`) nebo libovolný tag `MPI_ANY_TAG`.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330103937.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365336-->
@@ -489,16 +559,22 @@ END
 START
 FIT-Card
 
-Jak funguje **Stavový objekt** v 2-bodové komunikaci?
+Jak funguje **Stavový objekt** v 2-bodové komunikaci? Co z něj můžem získat? Co když nás nezajímá?
 
 Back:
 
-- `*status` je ukazatel na **stavový objekt** typu `MPI_Status`
-- obsahuje **číslo zdrojového procesu** a **tag** přijaté zprávy
-- lze z něj získat **počet přijatých prvků** přes `MPI_Get_count(*status, datatype, *count)`
-- pokud mě nezajímá, lze do `*status` předat `MPI_STATUS_IGNORE`
+Uděláme **stavový objekt** `MPI_Status status` a do `MPI_Recv` se passne `&status`.
 
+Lze z něj získat:
+- `status.MPI_SOURCE` - rank zdrojového procesu
+- `status.MPI_TAG` - tag přijaté zprávy
+- Pomocí funkce `MPI_Get_count(*status, datatype, *count)` počet přijatých prvků
+
+Pokud mě status nezajímá, lze do `*status` předat `MPI_STATUS_IGNORE`
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330104003.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365339-->
@@ -510,11 +586,17 @@ END
 START
 FIT-Card
 
-Jaké je důležité **využití stavového objektu**?
+Na co se dá využít dobře **stavový objekt**?
 
 Back:
 
+Příjemce zná maximální délku zprávy, ale může přijít kratší - on pak může délku zjistit po přijetí.
+
+Potom může zmenšit dané pole, aby odpovídalo skutečným prvkům
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330104023.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka18
 <!--ID: 1746518365342-->
@@ -542,7 +624,7 @@ END
 START
 FIT-Card
 
-Jaké jsou komunikační módy blokujících operací? (4)
+Co jsou **komunikační módy** a jaké jsou komunikační módy blokujících operací? (4)
 
 Back:
 
@@ -706,13 +788,50 @@ END
 START
 FIT-Card
 
-Jak funguje `MPI_Request`, `MPI_Test` a `MPI_Wait`?
+Co je potřeba brát v potaz u **bufferu** při neblokujících MPI operacích?
 
 Back:
 
-neblokující funkce mají parametr `*request` typu `*MPI_Request` → ten lze předat do `MPI_Test(*request, *flag, *status)` nebo `MPI_Wait(*request, *status)` → až z nich získám stavový objekt (ne rovnou z `MPI_Irecv`) → `buf` můžu použít až po `MPI_Wait` nebo pokud `flag` z `MPI_Test` je `true`
+**Buffer odesílaných dat** nelze po zavolání neblokující funkce **měnit**, dokud není **explicitně otestováno dokončení** dané operace.
 
+**Buffer přijímaných dat** nelze po zavolání neblokující funkce **použít**, dokud není **explicitně otestováno dokončení** dané operace.
+
+
+Tags: otazka19
+<!--ID: 1749304503322-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje použití `MPI_Request`, `MPI_Test` a `MPI_Wait` u neblokujícího odesílání zpráv?
+
+Back:
+
+Neblokující funkci předáme navíc parametr `*request` typu `*MPI_Request`
+
+Můžeme otestovat, zda je request vykonaný:
+```c++
+MPI_Status status; int flag;
+MPI_Test(*request, *flag, *status);
+```
+
+Až otestujeme a flag bude `true`, můžeme buffer použít.
+
+Nebo můžeme počkat na dokončení operace
+```c++
+MPI_Status status;
+MPI_Wait(*request, *status)
+```
+
+Wait čeká a až skončí čekání, můžeme rovnou buffer použít 
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105132.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka19
 <!--ID: 1746518365372-->
@@ -750,6 +869,8 @@ Back:
 
 `MPI_Testall` a `MPI_Waitall` pokud potřebujeme všechny operace z množiny
 
+`MPI_Waitall(3, requests, statuses)`
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105326.png)
 <!-- DetailInfoEnd -->
@@ -786,9 +907,11 @@ Proč jsou důležité neblokující komunikační operace?
 
 Back:
 
-todo vytáhnout nějaké klíčové body
+Při složitějších komunikacích může u blokujících operací dojít k zablokování (protože čekají v deadlocku). Neblokující operace se tomu můžou vyhnout, umožňují překrývání komkunikací. 
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105305.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka19
 <!--ID: 1746518365378-->
@@ -895,7 +1018,7 @@ Co je sondování příchodu zprávy?
 
 Back:
 
-Testování příchodu zprávy, aniž by byla přijata
+Testování příchodu zprávy, aniž by byla přijata.
 
 Tags: otazka20
 <!--ID: 1749237784674-->
@@ -907,16 +1030,20 @@ END
 START
 FIT-Card
 
-Jaká je syntax funkce `MPI_Probe`? Jak to funguje?
+Jaké parametry má funkce `MPI_Probe`? (4) Jak to funguje?
 
 Back:
 
-čeká na přijatelnou zprávu
+Blokující funkce, která čeká dokud nepřijde zpráva, která by odpovídala daným parametrům. Jen detekuje, že zpráva přišla, ale nepřečte ji (zpráva tam zůstane).
 
 `MPI_Probe(source, tag, comm, *status)`
 
-
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105837.png)
+<!-- DetailInfoEnd -->
+
+
+
 
 Tags: otazka20
 <!--ID: 1746518365398-->
@@ -928,11 +1055,11 @@ END
 START
 FIT-Card
 
-Jaká je syntax funkce `MPI_Iprobe`? Jak funguje?
+Jaké parametry má funkce `MPI_Iprobe`? (5) Jak funguje?
 
 Back:
 
-Vrátí se hned.
+Vrátí se hned, nastaví `flag=true`, pokud zpráva existuje.
 
 `MPI_Iprobe(source, tag, comm, *flag, *status)`
 
@@ -950,11 +1077,14 @@ END
 START
 FIT-Card
 
-Jaká je syntax funkce `MPI_Improbe`? Jak funguje?
+Jaké parametry má funkce `MPI_Improbe`? (6) Jak funguje?
 
 Back:
 
-`MPI_Improbe(source, tag, comm, *flag, *message, *status)` sonduje “s rezervací” → pokud existuje přijatelná zpráva, v `message` se vrátí handle na tuto zprávu, kterou pak může přijmout `MPI_Mrecv(*buf, count, datatype, *message, *status)`
+`MPI_Message message`
+`MPI_Improbe(source, tag, comm, *flag, *message, *status)` 
+
+Mokud existuje přijatelná zpráva, v `message` se vrátí handle na tuto zprávu, kterou pak může přijmout `MPI_Mrecv()`.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105956.png)
@@ -970,14 +1100,14 @@ END
 START
 FIT-Card
 
-Jaká je syntax funkce `MPI_Mrecv`? Jak funguje?
+Jaké parametry má funkce `MPI_Mrecv`? (5) Jak funguje?
 
 Back:
 
 `MPI_Mrecv(void *buf, MPI_Count count, MPI_Datatype datatype, MPI_Message *message, MPI_Status *Status)`
 
 Jak funguje:
-todo vypsat
+Přijme danou zprávu do bufferu.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105956.png)
@@ -993,11 +1123,16 @@ END
 START
 FIT-Card
 
-Jak se dají využít funkce pro testování příchodu zprávy? (2)
+Na co se dají **využít funkce** pro testování příchodu zprávy? (2)
 
 Back:
 
+1. **Přijímání "volitelných zpráv"** - např. předčasné ukončení výpočtu při nalezení řešení jiným procesem
+2. **Zjištění velikosti zprávy** před alokací bufferu
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330110024.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka20
 <!--ID: 1746518365406-->
@@ -1009,17 +1144,19 @@ END
 START
 FIT-Card
 
-Jak obecně funguje ošetřování chyb v MPI programu?
+Jak obecně funguje **ošetřování chyb v MPI programu**?
+
+- jaké chyby řeší a neřeší
+- jak se získávají chybové/success kódy
+- kdo a kdy obsluhuje chyby
 
 Back:
 
-- MPI předpokládá spolehlivou infrastrukturu, takže neřeší chyby komunikace a procesů → pokud infrastruktura spolehlivá není, musí to ošetřit programátor
-- chyby však mohou vznikat např. nesprávným voláním MPI funkcí a při nedostatku zdrojů
-- téměř každá funkce vrací jako návratovou hodnotu buď `MPI_SUCCESS` nebo chybový kód (z něj lze získat třídu a text a je potřeba pro obsluhu chyby)
-- obsluhu chyby lze navázat na různé typy objektů, např. na komunikátor či soubor
+- MPI předpokládá **spolehlivou infrastrukturu**, takže neřeší chyby komunikace a procesů → pokud infrastruktura spolehlivá není, musí to ošetřit programátor
+- chyby však mohou vznikat např. **nesprávným voláním MPI funkcí** a při **nedostatku zdrojů**
+- téměř každá funkce vrací jako **návratovou hodnotu** buď `MPI_SUCCESS` nebo **chybový kód** (z něj lze získat třídu a text a je potřeba pro obsluhu chyby)
+- obsluhu chyby lze navázat na různé typy objektů, např. na **komunikátor** či **soubor**
 - obsluha chyby se volá ještě před návratem neúspěšné funkce
-
-todo možná prolítnout ještě detail a mrknout jestli tam není něco dalšího zajímavého
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330110117.png)
@@ -1048,8 +1185,10 @@ Back:
 2. `MPI_ERRORS_RETURN` vrátí chybový kód, ale stav výpočtu po chybě není definován
 3. `MPI_ERRORS_ABORT` násilně ukončí procesy spojené s chybovým komunikátorem
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330110203.png)
 ![](../../Assets/Pasted%20image%2020250330110210.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka21
 <!--ID: 1746518365412-->
@@ -1066,12 +1205,14 @@ Jak se dají vytvořit kódy obsluhy chyby v MPI? (4)
 Back:
 
 MPI implemetace nebo uživatel mohou přidat další obsluhy:
-- `MPI_Comm_create_errhandler`
-- `MPI_Comm_set_errhandler`
-- `MPI_Comm_get_errhandler`
-- `MPI_errhandler_free`
+- `MPI_Comm_create_errhandler` – Vytvoří nový obslužný (callback) mechanismus pro zachytávání chyb komunikátoru.
+- `MPI_Comm_set_errhandler` – Nastaví daný obslužný mechanismus chyb pro specifikovaný komunikátor.
+- `MPI_Comm_get_errhandler` – Získá aktuálně nastavený obslužný mechanismus chyb pro daný komunikátor.
+- `MPI_Errhandler_free` – Uvolní paměť spojenou s obslužným mechanismem chyb, pokud už není používán.
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330110310.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka21
 <!--ID: 1746518365414-->
@@ -1083,9 +1224,13 @@ END
 START
 FIT-Card
 
-Jak funguje `MPI_Comm_set_errhandler`?
+Jak funguje `MPI_Comm_set_errhandler`? Jaké pak můžou být např. error kódy u `MPI_ERRORS_RETURN`?
 
 Back:
+
+`MPI_Comm_set_errhandler(komunikátor, typ_handleru)`
+
+Např. `MPI_ERR_COMM`, `MPI_ERR_COUNT`, `MPI_ERR_TAG`
 
 ![](../../Assets/Pasted%20image%2020250330110328.png)
 
