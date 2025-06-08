@@ -776,7 +776,7 @@ END
 START
 FIT-Card
 
-Jak vypadá binární hyperkrychle dimenze $n, Q_n$?
+Jak vypadá **binární hyperkrychle** dimenze $n, Q_n$?
 
 Back:
 
@@ -796,11 +796,11 @@ END
 START
 FIT-Card
 
-Otázka: Kolik vrcholů má binární hyperkrychle $Q_n$?
+Kolik vrcholů má binární hyperkrychle $Q_n$?
 
 Back:
 
-$2^n$
+$$2^n$$
 
 Tags: otazka26
 <!--ID: 1749327902331-->
@@ -811,11 +811,11 @@ END
 START
 FIT-Card
 
-Otázka: Kolik hran má binární hyperkrychle $Q_n$?
+Kolik hran má binární hyperkrychle $Q_n$?
 
 Back:
 
-$n2^{n-1}$
+$$n2^{n-1}$$
 
 <!-- ExplanationStart -->
 Binární hyperkrychle $Q_n$ má **$n \cdot 2^{n-1}$ hran** – každá z $2^n$ vrcholů má stupeň $n$, ale každá hrana je započítaná dvakrát (od obou konců).
@@ -830,7 +830,7 @@ END
 START
 FIT-Card
 
-Otázka: Jaký stupeň má hyperkrychle $Q_n$?
+Jaký stupeň má každý vrchol hyperkrychle $Q_n$?
 
 Back:
 
@@ -849,11 +849,11 @@ END
 START
 FIT-Card
 
-Otázka: Jaký je průměr grafu hyperkrychle $Q_n$?
+Jaký je průměr grafu hyperkrychle $Q_n$?
 
 Back:
 
-$n$
+$$n$$
 
 <!-- ExplanationStart -->
 **Průměr grafu** hyperkrychle $Q_n$ je **$n$** – největší možná Hammingova vzdálenost mezi dvěma uzly.
@@ -868,11 +868,13 @@ END
 START
 FIT-Card
 
-Jaká je bisekční šířka hyperkrychle $Q_n$?
+Jaká je **bisekční šířka** hyperkrychle $Q_n$?
 
 Back:
 
-$2^{n-1}$
+$$2^{n-1} = N/2$$
+
+Tzn. **nejvyšší možná**
 
 <!-- ExplanationStart -->
 **Bisekční šířka** hyperkrychle $Q_n$ je **$2^{n-1}$** – počet hran, které je třeba přerušit k rozdělení grafu na dvě stejně velké části.
@@ -887,30 +889,13 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má $Q_n$? (11)
-
-- regulární?
-- uzlově symetrická/nesymetrická
-- řídká/hustá
-- hierarchicky rekurzivní?
-- ortogonální?
-- souvislá? (uzlově/hranově/optimálně)
-- bipartitní? (vyvážená bipartitní?)
-- průměr?
+Jaké speciální vlastnosti má $Q_n$? (3)
 
 Back:
 
-- $n$-regulární
-- uzlově symetrická ($2^n \times n!$ automorfismů, z toho $n!$ pro pevné $f(u) = v$)
-- hustá
-- hierarchicky rekurzivní (podkrychle odpovídají termům booleovské algebry)
-- ortogonální (lze zkonstruovat kartézským součinem)
-- optimálně souvislá
-- vyvážená bipartitní (podle parity)****
-- hamiltonovská
-- průměr je $n$, bisekční šířka je $2^{n-1} = N/2$, průměrná vzdálenost je $\lceil n/2 \rceil$, mezi dvěma uzly ve vzdálenosti $k$ existuje $k!$ různých nejkratších cest
-- vzdálenost je Hammingova
-- logaritmický stupeň, škálovatelnost po mocninách dvojky → používá se vzácně
+- vzdálenost uzlů odpovídá **Hammingovy vzdálenosti**
+- je to **Hamiltonovský graf**
+- je **ortogonální** (lze zkonstruovat kartézským součinem)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402092229.png)
@@ -928,11 +913,11 @@ END
 START
 FIT-Card
 
-Otázka: Jaké stupně mají uzly $Q_n$? 
+Je $Q_n$ **regulární**?
 
 Back:
 
-$Q_n$ je $n$-regulární, uzly mají tedy stupně $n$.
+$Q_n$ je $n$-regulární
 
 Tags: otazka26
 <!--ID: 1749327902353-->
@@ -940,16 +925,37 @@ END
 
 ---
 
+
 START
 FIT-Card
 
-Otázka: Je $Q_n$ uzlově symetrická?
+Doplň:
+
+Hyperkrychle $Q_n$ má $\dots$ stupeň a škáluje se po $\dots$
+
+Back:
+
+Má **logaritmický stupeň** a škáluje se po **mocninách dvojky**
+
+Tzn.:
+- Stupeň vrcholu = $\log_2(|V|)$
+- Navýšením $n$ zvýšíme počet uzlů podle $2^n$
+
+Tags: otazka26
+<!--ID: 1749391765445-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je $Q_n$ **uzlově symetrická**?
 
 Back:
 
 Ano.
-
-Hyperkrychle $Q_n$ je **uzlově symetrická**, což znamená, že pro každý pár uzlů $u$, $v$ existuje automorfismus $f$ grafu tak, že $f(u) = v$. Celkově má $2^n \cdot n!$ automorfismů, z toho $n!$ při pevném obrazu jednoho uzlu.
 
 Tags: otazka26
 <!--ID: 1749327902356-->
@@ -957,16 +963,33 @@ END
 
 ---
 
+
 START
 FIT-Card
 
-Otázka: Je hyperkrychle $Q_n$ řídká/hustá?
+Kolik automorfismů má $Q_n$? Kolik jich je pro jeden vrchol $u$?
+
+Back:
+
+$2^n \cdot n!$ automorfismů
+
+z toho $n!$ pro pevné $f(u) = v$
+
+Tags: otazka26
+<!--ID: 1749391765450-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je hyperkrychle $Q_n$ **řídká/hustá**?
 
 Back:
 
 Je **hustá**.
-
-Ano, **hyperkrychle je hustá** – uzly jsou si navzájem blízko v tom smyslu, že průměrná vzdálenost je nízká vzhledem k velikosti grafu (přesně $\lceil n/2 \rceil$).
 
 Tags: otazka26
 <!--ID: 1749327902359-->
@@ -977,11 +1000,11 @@ END
 START
 FIT-Card
 
-Otázka: V jakém smyslu je hyperkrychle $Q_n$ hierarchicky rekurzivní?
+Je hyperkrychle $Q_n$ **hierarchicky rekurzivní**?
 
 Back:
 
-Hyperkrychle $Q_n$ je **hierarchicky rekurzivní**, protože obsahuje menší podkrychle odpovídající termům Booleovské algebry. Je možné ji rekurzivně konstruovat jako $Q_n = Q_{n-1} \square K_2$.
+**Ano**
 
 Tags: otazka26
 <!--ID: 1749327902361-->
@@ -992,11 +1015,13 @@ END
 START
 FIT-Card
 
-Otázka: Co znamená, že je hyperkrychle $Q_n$ ortogonální?
+Je hyperkrychle $Q_n$ ortogonální?
+
+(aka lze ji konstruovat kartézským součinem)
 
 Back:
 
-Hyperkrychle $Q_n$ je **ortogonální** – lze ji zkonstruovat jako kartézský součin $n$ kopií $K_2$ (úplného grafu na 2 vrcholech). Tedy $Q_n = K_2 \square K_2 \square \dots \square K_2$ ($n$-krát).
+**Ano je**
 
 Tags: otazka26
 <!--ID: 1749327902364-->
@@ -1007,11 +1032,11 @@ END
 START
 FIT-Card
 
-Otázka: Co znamená, že je hyperkrychle $Q_n$ optimálně souvislá?
+Je hyperkrychle $Q_n$ uzlově/hranově/optimálně souvislá?
 
 Back:
 
-Hyperkrychle $Q_n$ je **optimálně souvislá**, což znamená, že má maximální možnou konektivitu (minimální počet uzlů nebo hran, které je třeba odebrat k rozpojení grafu) vzhledem ke svému stupni a počtu uzlů.
+Je **optimálně souvislá**.
 
 Tags: otazka26
 <!--ID: 1749327902370-->
@@ -1022,11 +1047,11 @@ END
 START
 FIT-Card
 
-Otázka: Je hyperkrychle $Q_n$ bipartitní?
+Je hyperkrychle $Q_n$ bipartitní/vyvážená bipartitní?
 
 Back:
 
-Ano, hyperkrychle $Q_n$ je **vyvážená bipartitní** – její uzly lze rozdělit do dvou částí podle parity počtu jedniček ve vektorové reprezentaci. Všechny hrany spojují uzly z různých částí.
+Je **vyvážená bipartitní**.
 
 Tags: otazka26
 <!--ID: 1749327902375-->
@@ -1034,14 +1059,71 @@ END
 
 ---
 
+
 START
 FIT-Card
 
-Otázka: Obsahuje hyperkrychle $Q_n$ Hamiltonovskou cestu nebo kružnici?
+Jaká je průměrná vzdálenost v $Q_n$ mezi dvěma uzly?
 
 Back:
 
-Ano, hyperkrychle $Q_n$ je **Hamiltonovská**, tzn. obsahuje Hamiltonovskou cestu i kružnici – cestu, která projde každým uzlem právě jednou.
+$$\lceil n/2 \rceil$$
+
+Tags: otazka26
+<!--ID: 1749391765452-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Když máme dva uzly vzdálenosti $k$ v $Q_n$, kolik mezi nimi existuje různých nejkratších cest?
+
+Back:
+
+$$k!$$
+
+Mezi dvěma uzly ve vzdálenosti $k$ existuje $k!$ různých nejkratších cest
+
+Tags: otazka26
+<!--ID: 1749391765455-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je **Hammingova vzdálenost** v hyperkrychli $Q_n$?
+
+Back:
+
+Hammingova vzdálenost = nejnižší počet bitů, co musím v binárním řetězci změnit, abych se dostal na jiný řetězec
+
+V hyperkrychli každý vrchol reprezentuje jeden řetězec. Hammingova vzdálenost je tedy nejmenší cesta mezi 2 vrcholy
+
+Tags: otazka26
+<!--ID: 1749391765458-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je hyperkrychle $Q_n$ **Hamiltonovská**? Co to **znamená**?
+
+Back:
+
+Ano, hyperkrychle $Q_n$ je **Hamiltonovská**.
+
+Tzn. 
+- obsahuje **Hamiltonovskou cestu** - cesta, kde je každý vrchol navštíven právě jednou
+- obsahuje **Hamiltonovskou kružnici** - uzavřená hamiltonovská cesta
 
 Tags: otazka26
 <!--ID: 1749327902377-->
@@ -1049,10 +1131,11 @@ END
 
 ---
 
+
 START
 FIT-Card
 
-Otázka: Používá se hyperkrychle $Q_n$ v praxi často?
+Používá se hyperkrychle $Q_n$ v praxi často?
 
 Back:
 
@@ -1068,12 +1151,12 @@ END
 START
 FIT-Card
 
-Jaké směrování používá $Q_n$ hyperkrychle?
+Jaké směrování používá $Q_n$ hyperkrychle? Které kolektivní operace jsou podporované?
 
 Back:
 
-- **e-cube směrování** - bity se testují zprava doleva (od nejméně významného bitu)
-- existují optimální algoritmy pro všechny kolektivní operace
+- **e-cube směrování** - když posíláme zprávu z vrcholu $a$ do $b$, tak jdeme zprava a vzdy změníme jeden bit, který se liší od řetězce $b$ (tím že zprávu pošleme na příslušného souseda) 
+- existují optimální algoritmy pro **všechny kolektivní operace**
 
 Tags: otazka26
 <!--ID: 1749327902382-->
@@ -1170,7 +1253,13 @@ Jaký je hlavní nedostatek hyperkrychlí?
 
 Back:
 
+**logaritmický stupeň a škálovatelnost pouze po mocninách dvojky** = abych rozšířil topologii, musím zdvojnásobit počet uzlů, což je overkill ve většině případů
+
+Proto se moc nepoužívají a když už tak pouze nízkodimenzionální.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402092601.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka26
 <!--ID: 1746518365172-->
@@ -1182,7 +1271,11 @@ END
 START
 FIT-Card
 
-Definice: Mřížka $M(z_1, \dots, z_n)$
+Definice: **Mřížka** $M(z_1, \dots, z_n)$
+
+- čemu odpovídají vrcholy
+- čemu odpovídají hrany
+- speciální případ
 
 Back:
 
@@ -1199,22 +1292,236 @@ END
 
 ---
 
+START
+FIT-Card
+
+Kolik má hran mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+$$\sum_i^n (z_i-1)\prod_{j=1, j \neq i}^n z_j$$
+
+Tags: otazka27
+<!--ID: 1749396114405-->
+END
+
+---
 
 START
 FIT-Card
 
-Jaké jsou vlastnosti $M(z_1,z_2, \dots z_n)$? (8)
+Jaký má stupeň každý vrchol mřížky $M(z_1, \dots, z_n)$?
 
 Back:
 
-- není regulární a ani uzlově symetrická
-- hierarchicky rekurzivní (obsahuje podmřížky stejné i nižší dimenze)
-- ortogonální (lze zkonstruovat kartézským součinem)
-- optimálně souvislá
-- bipartitní
-- hamiltonovská$\iff$aspoň jedno $z_i$ je sudé
-- průměr je $\sum (z_i - 1)$, bisekční šířka je $(\prod z_i) / \max z_i$ (pro sudé $\max z_i$)
-- vzdálenost je manhattanská
+$$n \leq \text{stupeň} \leq n + j$$
+
+$j  = |\{z_i : z_i > 2\}|$
+
+Tags: otazka27
+<!--ID: 1749396114410-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaký je průměr grafu mřížky $M(z_1, \dots, z_n)$?
+
+Back:
+
+$$\sum_{i=1}^n(z_i-1)$$
+Tags: otazka27
+<!--ID: 1749396114413-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je bisekční šířka mřížky $M(z_1, \dots, z_n)$?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250608171009.png)
+
+Tags: otazka27
+<!--ID: 1749396114416-->
+END
+
+---
+
+START
+FIT-Card
+
+Je regulární mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+**Nope**
+
+Tags: otazka27
+<!--ID: 1749396114419-->
+END
+
+---
+
+START
+FIT-Card
+
+Je uzlově symetrická mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+**Nope**
+
+Tags: otazka27
+<!--ID: 1749396114421-->
+END
+
+---
+
+START
+FIT-Card
+
+Je hierarchicky rekurzivní mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+**Ano**
+
+Tags: otazka27
+<!--ID: 1749396114424-->
+END
+
+---
+
+START
+FIT-Card
+
+Je ortogonální mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+**Ano**
+
+Tags: otazka27
+<!--ID: 1749396114427-->
+END
+
+---
+
+START
+FIT-Card
+
+Je uzlově/hranově/optimálně souvislá mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+**optimálně souvislá**
+
+Tags: otazka27
+<!--ID: 1749396114430-->
+END
+
+---
+
+START
+FIT-Card
+
+Je bipartitní/vyvážená bipartitní mřížka $M(z_1, \dots, z_n)$?
+
+Back:
+
+**bipartitní**
+
+Tags: otazka27
+<!--ID: 1749396114433-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je mřížka $M(z_1, \dots, z_n)$ **hamiltonovská**?
+
+Back:
+
+hamiltonovská$\iff$aspoň jedno $z_i$ je sudé
+
+Tags: otazka27
+<!--ID: 1749396114436-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké směrování se používá v mřížce $M(z_1, \dots, z_n)$?
+
+Back:
+
+Dimenzně uspořádané (XY routing v 2-D a XYZ routing v 3-D)
+
+Zpráva jde vždy nejprve ve směru první dimenze, pak druhé, pak třetí... až do cíle.
+
+Tags: otazka27
+<!--ID: 1749396114438-->
+END
+
+---
+
+START
+FIT-Card
+
+Pro co existují v mřížce $M(z_1, \dots, z_n)$ algoritmy?
+
+Back:
+
+existují topologicky optimální algoritmy pro mnoho problémů
+
+Tags: otazka27
+<!--ID: 1749396114441-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co znamená, že má mřížka $M(z_1, \dots, z_n)$ Manhattonovskou vzdálenost?
+
+Back:
+
+Tzn. vzdálenost mezi dvěma body se počítá tak, že jeden krok je vždy ve směru nějaké dimenze (nemůžu jít diagonálně).
+
+$\text{Manhattan}(a, b) = \sum_{i=1}^{n} |a_i - b_i|$
+
+pro body $a = (a_1, a_2, \dots, a_n)$ a $b = (b_1, b_2, \dots, b_n)$ v $n$-rozměrném prostoru
+
+Tags: otazka27
+<!--ID: 1749396114444-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké má speciální vlastnosti mřížka $M(z_1, \dots, z_n)$? (2)
+
+Back:
+
+- **Manhattonská vzdálenost**
+- Hamiltonovská$\iff$aspoň jedno $z_i$ je sudé
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402092756.png)
@@ -1230,12 +1537,13 @@ END
 START
 FIT-Card
 
-Jaké směrování se používá u $M(z_1,z_2, \dots z_n)$?
+Jaké směrování se používá v mřížce $M(z_1, \dots, z_n)$?
 
 Back:
 
-- dimenzně uspořádané ($XY$ v $2D$ a $XYZ$ v $3D$)
-- existují topologicky optimální algoritmy pro mnoho problémů
+Dimenzně uspořádané (XY routing v 2-D a XYZ routing v 3-D)
+
+Zpráva jde vždy nejprve ve směru první dimenze, pak druhé, pak třetí... až do cíle.
 
 Tags: otazka27
 <!--ID: 1749328373610-->
@@ -1253,7 +1561,7 @@ Back:
 
 - $K(z_1, \dots, z_n)$ = $n$-rozměrný **toroid** rozměrů $z_1, \dots, z_n$
 - vrcholy jsou stejné jako v mřížce
-- hrany vedou stejně jako v mřížce a navíc “od posledního k prvnímu”, hran je $n \times \prod z_i$
+- hrany vedou stejně jako v mřížce a navíc “od posledního k prvnímu”
 - speciální případ, pokud se všechna $z_i$ rovnají: $K^n(z)$ = **$z$-ární $n$-toroid**
 
 ![](../../Assets/Pasted%20image%2020250402092944.png)
@@ -1268,19 +1576,13 @@ END
 START
 FIT-Card
 
-Jaké vlastnosti má toroid $K(z_1, \dots, z_n)$? (9)
+Jaké má speciální vlastnosti toroid $K(z_1, \dots, z_n)$? (3)
 
 Back:
 
-- $2n$-regulární
-- uzlově symetrický
-- hierarchicky rekurzivní (ale nejde rozložit na stejnorozměrné podtoroidy)
-- ortogonální (lze zkonstruovat kartézským součinem)
-- vyvážený bipartitní$\iff$všechny $z_i$ jsou sudé
-- hamiltonovský
-- průměr je přibližně poloviční oproti mřížce, bisekční šířka je dvojnásobná oproti mřížce
-- vzdálenost je manhattanská (když rozdíly modulíme $z_i$)
-- jedna z komerčně nejúspěšnějších topologií
+- **hamiltonovský**
+- vzdálenost je **manhattanská** (když rozdíly modulíme $z_i$)
+- jedna z **komerčně nejúspěšnějších topologií**
 
 Tags: otazka28
 <!--ID: 1746518365183-->
@@ -1288,11 +1590,179 @@ END
 
 ---
 
+START
+FIT-Card
+
+Kolik má vrcholů toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+$$\prod_{i=1}^n z_i$$
+
+Tags: otazka28
+<!--ID: 1749400670370-->
+END
+
+---
 
 START
 FIT-Card
 
-Jaké směrování se používá u toroidu $K(z_1, \dots, z_n)$?
+Kolik má hran toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+$$n \cdot \prod_{i=1}^n z_i$$
+
+Tags: otazka28
+<!--ID: 1749400670384-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaký má stupeň každý vrchol toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+$$2n$$
+
+Tags: otazka28
+<!--ID: 1749400670386-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaký je průměr grafu toroidu $K(z_1, \dots, z_n)$?
+
+Back:
+
+$$\sum_{i=1}^n ⌊z_i/2⌋$$
+
+(přibližně poloviční oproti $M$)
+
+Tags: otazka28
+<!--ID: 1749400670389-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaká je bisekční šířka toroidu $K(z_1, \dots, z_n)$?
+
+Back:
+
+$$2\text{bw}_e(M(\dots))$$
+
+(dvojnásobná oproti $M$)
+
+Tags: otazka28
+<!--ID: 1749400670392-->
+END
+
+---
+
+START
+FIT-Card
+
+Je regulární toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+Ano, $2n$-regulární
+
+Tags: otazka28
+<!--ID: 1749400670394-->
+END
+
+---
+
+START
+FIT-Card
+
+Je uzlově symetrický toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+**Ano**
+
+Tags: otazka28
+<!--ID: 1749400670397-->
+END
+
+---
+
+START
+FIT-Card
+
+Je hierarchicky rekurzivní toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+**Ano**, ale nelze rozložit na stejnorozměrné toroidy.
+
+Tags: otazka28
+<!--ID: 1749400670400-->
+END
+
+---
+
+START
+FIT-Card
+
+Je ortogonální toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+**Ano**
+
+Tags: otazka28
+<!--ID: 1749400670402-->
+END
+
+---
+
+START
+FIT-Card
+
+Je bipartitní/vyvážený bipartitní toroid $K(z_1, \dots, z_n)$?
+
+Back:
+
+vyvážený bipartitní$\iff$všechny $z_i$ jsou sudé
+
+Tags: otazka28
+<!--ID: 1749400670408-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaké směrování se používá v toroidu $K(z_1, \dots, z_n)$?
+
+Back:
+
+Asi stejné jako v mřížce $M$
+
+Tags: otazka28
+<!--ID: 1749400670410-->
+END
+
+---
+
+START
+FIT-Card
+
+Pro co existují v toroidu $K(z_1, \dots, z_n)$ algoritmy?
 
 Back:
 
