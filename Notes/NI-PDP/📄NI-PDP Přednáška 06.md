@@ -988,7 +988,9 @@ Back:
 
 úloha: každý proces pošle zprávu pravému sousedovi (a poslední prvnímu)
 
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105625.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka22
 <!--ID: 1746518365391-->
@@ -1005,6 +1007,11 @@ Jak by se **neměl** řešit **cyklický posuv v MPI**?
 Back:
 
 špatně: zavolat ve všech vláknech MPI_Send a pak MPI_Recv → může vést k deadlocku
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250330105625.png)
+<!-- DetailInfoEnd -->
+
 
 Tags: otazka22
 <!--ID: 1749324086051-->
@@ -1039,7 +1046,9 @@ nejprve posílají sudé procesy lichým, potom naopak
 
 Back:
 
-todo vypsat vlastními slovy
+`bool even = proc_num % 2`
+- pokud je `even`, bude první `MPI_Send`, pak `MPI_Recv`
+- pokud není, bude první `MPI_Recv`, pak `MPI_Send`
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105730.png)
@@ -1058,9 +1067,9 @@ Jak lze řešit cyklický posuv pomocí: `MPI_Bsend`
 
 Back:
 
-todo vypsat vlastními slovy
+musím buffer připravit `MPI_Buffer_attach` a pak uvolnit `MPI_Buffer_detach`
 
-musím buffer připravit MPI_Buffer_attach a pak uvolnit MPI_Buffer_detach
+![](../../Assets/Pasted%20image%2020250608103723.png)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105738.png)
@@ -1072,6 +1081,29 @@ END
 
 ---
 
+
+START
+FIT-Card
+
+Jak se používá `MPI_Buffer_attach` a `MPI_Buffer_detach`? Dej příklad
+
+Back:
+
+```c++
+int buffer;
+int buffer_size = sizeof(int)+MPI_BSEND_OVERHEAD;
+MPI_Buffer_attach(buffer, buffer_size);
+... // Používání bufferu, není potřeba ho nijak referencovat
+MPI_Buffer_detach(&buffer, &buffer_size);
+```
+
+Tags: otazka22
+<!--ID: 1749373579982-->
+END
+
+---
+
+
 START
 FIT-Card
 
@@ -1079,9 +1111,9 @@ Jak lze řešit cyklický posuv pomocí: `MPI_Isend`
 
 Back:
 
-todo vypsat vlastními slovy
+![](../../Assets/Pasted%20image%2020250608104316.png)
 
-příp. i MPI_Irecv
+Případně lze i dát `MPI_Irecv` a po něm normální `MPI_Send`.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105746.png)
@@ -1100,7 +1132,9 @@ Jak lze řešit cyklický posuv pomocí: `MPI_Sendrecv`
 
 Back:
 
-todo vypsat vlastními slovy
+![](../../Assets/Pasted%20image%2020250608104711.png)
+
+Každý proces se chová jako 2-portový, tzn. je schopný přijmout data zleva a **současně** vyslat data doprava.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250330105802.png)
@@ -1119,8 +1153,6 @@ FIT-Card
 Jaké řešení cyklického posuvu je nejlepší?
 
 Back:
-
-todo vypsat vlastními slovy
 
 nejjednodušší a nejlepší je `MPI_Sendrecv`
 
@@ -1275,7 +1307,7 @@ Back:
 - MPI předpokládá **spolehlivou infrastrukturu**, takže neřeší chyby komunikace a procesů → pokud infrastruktura spolehlivá není, musí to ošetřit programátor
 - chyby však mohou vznikat např. **nesprávným voláním MPI funkcí** a při **nedostatku zdrojů**
 - téměř každá funkce vrací jako **návratovou hodnotu** buď `MPI_SUCCESS` nebo **chybový kód** (z něj lze získat třídu a text a je potřeba pro obsluhu chyby)
-- obsluhu chyby lze navázat na různé typy objektů, např. na **komunikátor** či **soubor**
+- obsluhu chyby lze navázat na různé typy objektů, např. na **komunikátor** či **soubor** (`MPI_File`)
 - obsluha chyby se volá ještě před návratem neúspěšné funkce
 
 <!-- DetailInfoStart -->
@@ -1387,11 +1419,51 @@ Back:
 v normálním filesystému nejde paralelně zapisovat do souboru z více MPI procesů najednou
 
 je potřeba:
-- paralelní souborový systém (PSS, např. Lustre, GPFS)
-- MPI-I/O funkce
+- **paralelní souborový systém** (**PSS**)
+- **MPI-I/O funkce** - umožňuje více procesům zapisovat do stejného souboru
 
 Tags: otazka23
 <!--ID: 1749325172967-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké jsou například paralelní souborové systémy?
+
+Back:
+
+Lustre, GPFS
+
+Tags: otazka23
+<!--ID: 1749373579997-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je knihovna nad MPI-I/O? K čemu slouží? Jak zpřístupňuje uživateli file systém?
+
+Back:
+
+**HDF5**
+
+**Umožňuje pohodlnější práci se soubory**
+
+Soubory:
+- **Abstraktní hierarchická struktura HDF5 objektů**
+- **HDF5 skupina** (něco jako adresář)
+- skupina obsauje **HDF5 linky** (odkazy na objekty)
+- **HDF5 objekty** (reprezentují ty soubory)
+
+Tags: otazka23
+<!--ID: 1749373580008-->
 END
 
 ---
@@ -1404,7 +1476,8 @@ Přes co jsou mapovány části souboru v paralelních systémech souborů?
 
 Back:
 
-části souboru jsou mapovány přes **I/O uzly** (object storage server, OSS) na **koncová úložná zařízení** (object storage target, OST)
+části souboru jsou mapovány přes **I/O uzly** (**object storage server**, **OSS**) 
+na **koncová úložná zařízení** (**object storage target**, **OST**)
 
 Tags: otazka23
 <!--ID: 1749325172982-->
@@ -1424,6 +1497,22 @@ uložení souboru na více OST se vyplatí se jen pro velké soubory, jinak zpom
 
 Tags: otazka23
 <!--ID: 1749325172984-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je implicitní error handler pro `MPI_File`?
+
+Back:
+
+`MPI_ERRORS_RETURN`
+
+Tags: otazka23
+<!--ID: 1749373580016-->
 END
 
 ---
@@ -1480,8 +1569,10 @@ Back:
 `MPI_File_seek` nastavuje “kurzor” v souboru pro daný proces
 - posouvá pozici pro další čtení/zápis na relativní offset
 
-příklad:
-`MPI_File_seek(fh, 100, MPI_SEEK_SET);` posune kurzor na bajt 100
+<!-- ExampleStart -->
+`MPI_File_seek(file, 100, MPI_SEEK_SET);` posune kurzor na bajt 100
+
+<!-- ExampleEnd -->
 
 Tags: otazka23
 <!--ID: 1749325172992-->
@@ -1492,7 +1583,7 @@ END
 START
 FIT-Card
 
-Jak funguje `MPI_File_read` a `MPI_File_write`?
+Jak funguje `MPI_File_read` a `MPI_File_write`? Jakou to má syntax?
 
 Back:
 
@@ -1500,7 +1591,7 @@ Back:
 - čte/zapisuje od aktuální pozice kurzoru, blocking operace
 
 příklad:
-`MPI_File_read(fh, buf, 10, MPI_INT, MPI_STATUS_IGNORE);`
+`MPI_File_read(file, buf, 10, MPI_INT, MPI_STATUS_IGNORE);`
 
 Tags: otazka23
 <!--ID: 1749325172995-->
@@ -1530,9 +1621,11 @@ END
 START
 FIT-Card
 
-Když paralelně píšou MPI procesy do souboru, jak to funguje?
+Když paralelně píšou MPI procesy do jednoho souboru, jak to funguje?
 
 Back:
+
+![](../../Assets/Pasted%20image%2020250608110044.png)
 
 při paralelním zápisu zapisuje každý proces na svém offsetu
 - ten si předpočítá pomocí PPS (paralelní prefixový součet, `MPI_Exscan`)
@@ -1540,6 +1633,46 @@ při paralelním zápisu zapisuje každý proces na svém offsetu
 příklad:
 `MPI_Exscan(&my_count, &offset, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);`
 
+![](../../Assets/Pasted%20image%2020250608110104.png)
+![](../../Assets/Pasted%20image%2020250608110113.png)
+
 Tags: otazka23
 <!--ID: 1749325173000-->
 END
+
+
+START
+FIT-Card
+
+Jaké parametry má `MPI_File_open`? (5)
+
+Back:
+
+`MPI_File_open(...)`:
+- `comm`
+- `file name`
+- `mód` - `MPI_MODE_CREATE|MPI_MODE_WRONLY`
+- `MPI_INFO_NULL`
+- `*file` (`MPI_File` pointer)
+
+Tags: otazka23
+<!--ID: 1749374459973-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké parametry má `MPI_File_close`?
+
+Back:
+
+Jen `&file` (`MPI_File`)
+
+Tags: otazka23
+<!--ID: 1749374459981-->
+END
+
+---

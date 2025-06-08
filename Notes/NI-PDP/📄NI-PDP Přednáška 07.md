@@ -11,7 +11,7 @@ FILE TAGS: NI-PDP prednaska07 status-toReview
 START
 FIT-Card
 
-Definice: Množina uzlů a hran
+Definice: **Množina uzlů a hran grafu** $G$
 
 Back:
 
@@ -34,7 +34,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607220004.png)
 
-**Velikost grafu** – Počet **hran** v grafu. Označuje se často jako $|E|$.
+Počet vrcholů v grafu
 
 Tags: otazka24
 <!--ID: 1749326556193-->
@@ -45,13 +45,13 @@ END
 START
 FIT-Card
 
-Definice: Sousední uzly
+Definice: **Sousední uzly**
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250607220010.png)
 
-**Sousední uzly** – Dva uzly jsou **sousední**, pokud jsou spojeny hranou. Např. pokud existuje hrana mezi uzly $u$ a $v$, pak jsou $u$ a $v$ sousedi.
+Dva uzly jsou **sousední**, pokud jsou spojeny hranou.
 
 Tags: otazka24
 <!--ID: 1749326556195-->
@@ -62,15 +62,13 @@ END
 START
 FIT-Card
 
-Definice: Stupeň uzlu
+Definice: **Stupeň uzlu** v grafu $G$
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250607220017.png)
 
-**Stupeň uzlu** – Počet hran, které vedou do daného uzlu.  
-- U **neorientovaného grafu** se počítají všechny hrany.  
-- U **orientovaného grafu** se rozlišuje **vstupní stupeň** a **výstupní stupeň**.
+Počet hran, které vedou do daného uzlu.
 
 Tags: otazka24
 <!--ID: 1749326556198-->
@@ -81,14 +79,13 @@ END
 START
 FIT-Card
 
-Definice: Množina stupňů grafu
+Definice: **Množina stupňů grafu** $G$
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020250607220023.png)
 
-**Množina stupňů grafu** – Množina všech stupňů všech uzlů v grafu.  
-Např. pokud uzly mají stupně 2, 3, 3, 4, pak je množina stupňů $\{2, 3, 4\}$.
+Množina všech stupňů všech uzlů v grafu.
 
 Tags: otazka24
 <!--ID: 1749326556201-->
@@ -105,7 +102,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607220033.png)
 
-**Maximální stupeň grafu** – Nejvyšší stupeň, jaký má některý uzel v grafu.
+Nejvyšší stupeň, jaký má některý uzel v grafu.
 
 Tags: otazka24
 <!--ID: 1749326556203-->
@@ -122,7 +119,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607220038.png)
 
-**Minimální stupeň grafu** – Nejnižší stupeň, jaký má některý uzel v grafu.
+Nejnižší stupeň, jaký má některý uzel v grafu.
 
 Tags: otazka24
 <!--ID: 1749326556206-->
@@ -139,7 +136,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607220044.png)
 
-**$k$-regulární graf** – Graf, kde každý uzel má **přesně stupeň $k$**, tedy každý uzel je spojen s $k$ jinými uzly.
+Graf, kde každý uzel má **přesně stupeň $k$**.
 
 Tags: otazka24
 <!--ID: 1749326556209-->
@@ -154,6 +151,13 @@ Definice: **Kartézský součin grafů**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250402090950.png)
+
+$V(G)$ - vrcholy jsou uspořádané dvojice starých vrcholů
+$E(G)$ - hrana bude existovat pokud:
+- Pokud existuje hrana mezi $x_1$​ a $x_2$​ v $G_1$​ **a $y$ je stejné** (na obrázku vpravo první svislá modrá hrana)
+- Pokud existuje hrana mezi $y_1$​ a $y_2$​ v $G_2$​ **a $x$ je stejné** (na obrázku vpravo dolní vodorovná červená hrana)
+
+![](../../Assets/Pasted%20image%2020250608120111.png)
 
 <!-- ExplanationStart -->
 ![](../../Assets/Pasted%20image%2020250402090958.png)
@@ -175,6 +179,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250402091031.png)
 
+Připomenutí: isomorfismus říká, že jsou grafy, co se týče struktury, stejné, jen mají třeba jinak pojmenované vrcholy a jsou třeba jinak otočené na papíře.
+
 Tags: otazka24
 <!--ID: 1746518365094-->
 END
@@ -191,6 +197,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250402091053.png)
 
+Připomenutí: automorfismus je to, že můžeme proházet vrcholy, ale tak, že ty co byly spojené zůstanou spojené. Např. u čtverce můžeme rotovat vrcholy nebo je přehazovat podle os. 
+
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402091101.png)
 <!-- DetailInfoEnd -->
@@ -205,7 +213,7 @@ END
 START
 FIT-Card
 
-Věta: **symetričnost dvou grafů**
+Věta: **kartézský součin symetrických grafů**
 
 Back:
 
@@ -278,6 +286,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250402090853.png)
 
+Je inkrementálně škálovatelná pokud je definována pro všechny velikosti grafu.
+
 Tags: otazka25
 <!--ID: 1746518365083-->
 END
@@ -326,7 +336,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607215309.png)
 
-**Délka cesty** – Počet **hran** na cestě mezi dvěma uzly. Např. cesta přes 4 hrany má délku 4.
+Počet **hran** na cestě mezi dvěma uzly.
 
 Tags: otazka25
 <!--ID: 1746518365102-->
@@ -344,7 +354,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607215315.png)
 
-**Vzdálenost uzlů** – Nejkratší možná **délka cesty** mezi dvěma uzly. Pokud mezi dvěma uzly neexistuje cesta, vzdálenost se obvykle považuje za nekonečno (nebo není definována).
+Délka nejkratší cesty
 
 Tags: otazka25
 <!--ID: 1749326556211-->
@@ -361,8 +371,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607215322.png)
 
-**Průměrná vzdálenost** – Průměr všech vzájemných vzdáleností mezi dvojicemi uzlů v grafu. Vyjadřuje, jak „blízko“ jsou uzly v průměru.
-
 Tags: otazka25
 <!--ID: 1749326556214-->
 END
@@ -378,7 +386,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607215329.png)
 
-**Excentricita uzlu** – Největší vzdálenost od daného uzlu ke kterémukoli jinému uzlu v grafu. Říká, jak „daleko“ může být nejvzdálenější uzel od daného uzlu.
+Největší vzdálenost od daného uzlu ke kterémukoli jinému uzlu v grafu. Říká, jak „daleko“ může být nejvzdálenější uzel od daného uzlu.
 
 Tags: otazka25
 <!--ID: 1749326556217-->
@@ -395,7 +403,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607215333.png)
 
-**Průměr grafu $G$** – Největší excentricita mezi všemi uzly v grafu. Tedy maximální vzdálenost mezi jakoukoli dvojicí uzlů.
+Největší excentricita mezi všemi uzly v grafu. Tedy maximální vzdálenost mezi jakoukoli dvojicí uzlů.
 
 Tags: otazka25
 <!--ID: 1749326556220-->
@@ -412,7 +420,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250607215340.png)
 
-**Poloměr grafu $G$** – Nejmenší excentricita mezi všemi uzly. Označuje, jak „centrální“ je nejvíce centrální uzel v grafu.
+Nejmenší excentricita mezi všemi uzly.
 
 Tags: otazka25
 <!--ID: 1749326556222-->
@@ -457,7 +465,7 @@ END
 START
 FIT-Card
 
-Definice: **Uzlový řez**
+Definice: **Uzlový (hranový) řez**
 
 Back:
 
@@ -473,7 +481,7 @@ END
 START
 FIT-Card
 
-Definice: **Uzlová souvislost**
+Definice: **Uzlová (hranová) souvislost**
 
 Back:
 
@@ -505,7 +513,7 @@ END
 START
 FIT-Card
 
-Definice: Uzlově $k$-souvislý graf
+Definice: Uzlově (hranově) $k$-souvislý graf
 
 Back:
 
@@ -521,7 +529,7 @@ END
 START
 FIT-Card
 
-Definice: Optimální souvislost grafu
+Definice: Optimální souvislost grafu (kdy je graf optimálně souvislý)
 
 Back:
 
@@ -589,11 +597,21 @@ END
 START
 FIT-Card
 
-Jaké jsou 2 základní požadavky na PSPP?
+Jaké jsou **2 hlavní požadavky** na PSPP?
+
+PSPP = Propojovací sítě paralelních počítačů
 
 Back:
 
+Vpodstatě hlavní otázka je jak moc budem mít propojený graf.
+
+2 hlavní, ale protichůdné požadavky:
+- **Konstantní stupeň uzlu** $\Rightarrow$ řídká topologie (levné směrovače)
+- **Malý průměr a malá průměrná vzdálenost** $\Rightarrow$ snižuje dobu komunikace
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402091747.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka25
 <!--ID: 1746518365130-->
@@ -639,11 +657,17 @@ END
 START
 FIT-Card
 
-Co je požadavek: Uzlová symetrie a hierarchická rekurzivita?
+Proč požadujeme v PSPP: **Uzlová symetrie a hierarchická rekurzivita**? (3)
 
 Back:
 
+- **Uzlová symetrie** $\Rightarrow$ **snazší návrh paralelních a komunikačních algoritmů** (nezávisí kde výpočet začne)
+- **Hierarchická rekurzivita** $\Rightarrow$ **částečná škálovatelnost**
+- **Induktivní návrh** - můžeme navrhnout něco pro malou topologii a bude to fungovat i pro velkou (algoritmy apod.)
+
 ![](../../Assets/Pasted%20image%2020250402091928.png)
+
+Tags: otazka25
 <!--ID: 1746518365138-->
 END
 
@@ -652,11 +676,16 @@ END
 START
 FIT-Card
 
-Co je požadavek: Vysoká souvislost?
+Proč požadujeme v PSPP: **Vysokou souvislost**? (2)
 
 Back:
 
+- při **výpadku nebo přetížení** uzlu/hrany můžeme použít **jinou cestu**
+- **velké zprávy** můžeme posílat paralelně po **různých linkách**
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402091940.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka25
 <!--ID: 1746518365141-->
@@ -667,11 +696,18 @@ END
 START
 FIT-Card
 
-Co je požadavek: Bisekční šířka
+Proč požadujeme v PSPP: velká/nízká **Bisekční šířka**?
 
 Back:
 
+- **velká bisekční šířka** $\Rightarrow$ každé 2 půlky jsou hodně propojené $\Rightarrow$ je mezi nimi velký bandwidth - hodí se pro **binární rozděl a panuj algoritmy**
+- **nízká bisekční šířka** $\Rightarrow$ levnější a jednodušší - u velké šířky máme hodně spojů mezi částmi sítě (drahé a náročné na údržbu u superpočítačů)
+
+Horní mez typicky bývá místo $\frac{N}{2}$ třeba $\frac{N}{\log N}$
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402091946.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka25
 <!--ID: 1746518365143-->
@@ -682,9 +718,12 @@ END
 START
 FIT-Card
 
-Co je požadavek: Vnořitelnost jiných a do jiných topologií
+Co je požadavek na PSPP: **Vnořitelnost jiných a do jiných topologií** (2)
 
 Back:
+
+- Pro různé algoritmy potřebujeme různý graf propojení procesů
+- Dále chceme, aby třeba topologie mohla simulovat jiné topologie (např. v úplném grafu můžeme simulovat dobře různé topologie)
 
 ![](../../Assets/Pasted%20image%2020250402091958.png)
 
@@ -697,11 +736,19 @@ END
 START
 FIT-Card
 
-Co je požadavek: Podpora pro směrování a kolektivní komunikační operace
+Co je požadavek na PSPP: Podpora pro směrování a kolektivní komunikační operace (3)
 
 Back:
 
+- Permutační směrování
+- Komunikace jeden všem
+- Komunikace všichni všem
+
+(bude detailněji v dalších kartičkách)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250402092012.png)
+<!-- DetailInfoEnd -->
 
 Tags: otazka25
 <!--ID: 1746518365148-->
@@ -842,6 +889,15 @@ FIT-Card
 
 Jaké vlastnosti má $Q_n$? (11)
 
+- regulární?
+- uzlově symetrická/nesymetrická
+- řídká/hustá
+- hierarchicky rekurzivní?
+- ortogonální?
+- souvislá? (uzlově/hranově/optimálně)
+- bipartitní? (vyvážená bipartitní?)
+- průměr?
+
 Back:
 
 - $n$-regulární
@@ -850,7 +906,7 @@ Back:
 - hierarchicky rekurzivní (podkrychle odpovídají termům booleovské algebry)
 - ortogonální (lze zkonstruovat kartézským součinem)
 - optimálně souvislá
-- vyvážená bipartitní (podle parity)
+- vyvážená bipartitní (podle parity)****
 - hamiltonovská
 - průměr je $n$, bisekční šířka je $2^{n-1} = N/2$, průměrná vzdálenost je $\lceil n/2 \rceil$, mezi dvěma uzly ve vzdálenosti $k$ existuje $k!$ různých nejkratších cest
 - vzdálenost je Hammingova
@@ -872,11 +928,11 @@ END
 START
 FIT-Card
 
-Otázka: Jaký stupeň má hyperkrychle $Q_n$? Co to znamená?
+Otázka: Jaké stupně mají uzly $Q_n$? 
 
 Back:
 
-Binární hyperkrychle $Q_n$ je **$n$-regulární**, což znamená, že každý uzel má stupeň $n$ – tedy je spojen přesně s $n$ dalšími uzly.
+$Q_n$ je $n$-regulární, uzly mají tedy stupně $n$.
 
 Tags: otazka26
 <!--ID: 1749327902353-->
@@ -887,9 +943,11 @@ END
 START
 FIT-Card
 
-Otázka: Co znamená, že je hyperkrychle $Q_n$ uzlově symetrická?
+Otázka: Je $Q_n$ uzlově symetrická?
 
 Back:
+
+Ano.
 
 Hyperkrychle $Q_n$ je **uzlově symetrická**, což znamená, že pro každý pár uzlů $u$, $v$ existuje automorfismus $f$ grafu tak, že $f(u) = v$. Celkově má $2^n \cdot n!$ automorfismů, z toho $n!$ při pevném obrazu jednoho uzlu.
 
@@ -902,9 +960,11 @@ END
 START
 FIT-Card
 
-Otázka: Je hyperkrychle $Q_n$ hustá?
+Otázka: Je hyperkrychle $Q_n$ řídká/hustá?
 
 Back:
+
+Je **hustá**.
 
 Ano, **hyperkrychle je hustá** – uzly jsou si navzájem blízko v tom smyslu, že průměrná vzdálenost je nízká vzhledem k velikosti grafu (přesně $\lceil n/2 \rceil$).
 
