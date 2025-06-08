@@ -16,6 +16,8 @@ Definice: vnoření grafu do jiného
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419111531.png)
+
+Tags: otazka31
 <!--ID: 1746599652712-->
 END
 
@@ -33,6 +35,8 @@ Back:
 - **expanze vnoření** - kolik počítačů využijeme k výpočtu našeho programu
 - **maximální dilatace zdrojových hran v hostitelské síti** - když 2 procesy komunikují v MPI, jak daleko budou - když jsou daleko, tak to zpomaluje
 - **maximální zahlcení hostitelské hrany** - když je více komunikace na delší vzdálenost, tak se může stát že na jedné fyzické lince probíhá více komunikací a zahltí se to tím (stejně jako se třeba zahltí internetová síť)
+
+Tags: otazka31
 <!--ID: 1746599652719-->
 END
 
@@ -47,6 +51,8 @@ Jak se spočte **maximální zatížení hostitelského uzlu**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419111947.png)
+
+Tags: otazka31
 <!--ID: 1746599652726-->
 END
 
@@ -61,6 +67,8 @@ Jak se spočte **expanze vnoření**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112003.png)
+
+Tags: otazka31
 <!--ID: 1746599652733-->
 END
 
@@ -75,6 +83,8 @@ Jak se spočte **maximální dilatace zdrojových hran v hostitelské síti**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112029.png)
+
+Tags: otazka31
 <!--ID: 1746599652741-->
 END
 
@@ -89,7 +99,25 @@ Jak se spočte **maximální zahlcení hostitelské hrany**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112046.png)
+
+Tags: otazka31
 <!--ID: 1746599652747-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou obecně **kvaziizometrické grafy/topologie**?
+
+Back:
+
+kvaziizometrické topologie = topologie, které zachovávají podobné vlastnosti vzdáleností a konektivity jako původní topologie (např. hyperkrychle), ale jsou jednodušší na realizaci, levnější, nebo lépe škálovatelné
+
+Tags: otazka31
+<!--ID: 1749407476839-->
 END
 
 ---
@@ -103,6 +131,8 @@ Definice: **kvaziizometrické grafy**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112119.png)
+
+Tags: otazka31
 <!--ID: 1746599652755-->
 END
 
@@ -117,6 +147,8 @@ Definice: graf $H$ simuluje $G$ se zpomalením $h$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112142.png)
+
+Tags: otazka31
 <!--ID: 1746599652763-->
 END
 
@@ -131,6 +163,8 @@ Definice: $G$ a $H$ jsou výpočetně ekvivalentní sítě
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112203.png)
+
+Tags: otazka31
 <!--ID: 1746599652771-->
 END
 
@@ -145,6 +179,8 @@ Lemma: **ekvivalence kvaziizometrických sítí**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112228.png)
+
+Tags: otazka31
 <!--ID: 1746599652779-->
 END
 
@@ -159,6 +195,8 @@ Věta: **Průměrový argument**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112245.png)
+
+Tags: otazka31
 <!--ID: 1746599652786-->
 END
 
@@ -174,6 +212,61 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419112846.png)
 <!--ID: 1746599652794-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké topologie jsou navzájem kvaziizometrické?
+
+Back:
+
+- **mřížky-toroidy**
+- **obyčejný-uzavřený motýlek**
+
+Tags: otazka31
+<!--ID: 1749407476852-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Proč jsou mřížky a toroidy kvaziizometrické?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250608202943.png)
+
+Tags: otazka31
+<!--ID: 1749407476855-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Proč je otevřený motýlek a kružnicový motýlek kvaziizometrický?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020250608203036.png)
+(2) je fuj konstruktivní důkaz přes několik stránek, mluví ale o tom, že musíme invertovat v jiném pořadí než 0,1,2,3… např. 1,3,2,0 při n=4, aby dilatace byla nejvýše 3. Díky vrcholové a řádkové symetričnosti wBF může
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250419114313.png)
+![](../../Assets/Pasted%20image%2020250419114327.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka31
+<!--ID: 1749407476858-->
 END
 
 ---
@@ -309,6 +402,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250419114009.png)
 ![](../../Assets/Pasted%20image%2020250419114023.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka32
 <!--ID: 1746599652855-->
 END
 
@@ -322,9 +417,13 @@ Jak funguje Mortonova křivka?
 
 Back:
 
+jednotlivé hyperkubické souřadnice se mapují rekurzivně střídavě ve směru osy x a y
+
 ![](../../Assets/Pasted%20image%2020250419114055.png)
 
 Tzn. "vnořuju svisle - vodorovně na střídačku"
+
+Tags: otazka32
 <!--ID: 1746599652861-->
 END
 
@@ -339,6 +438,8 @@ Lemma: Co platí po Mortonovy křivky?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419114118.png)
+
+Tags: otazka32
 <!--ID: 1746599652869-->
 END
 
@@ -353,6 +454,8 @@ Důsledek: Dilatace vnoření hyperkrychle do mřížek pomocí Mortonovy křivk
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419114137.png)
+
+Tags: otazka32
 <!--ID: 1746599652877-->
 END
 
@@ -367,7 +470,46 @@ Lemma: Dilatace vnoření pomocí Svobodovy mapy
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419114211.png)
+
+lexikografické mapování po řádcích a po sloupcích = Svobodova mapa: 
+![](../../Assets/Pasted%20image%2020250608203426.png)
+
+Tags: otazka32
 <!--ID: 1746599652884-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy se hodí vznořit hyperkrychli do  nízkodimenzionálních mřížek?
+
+Back:
+
+když chceme na počítači s mřížkovou topologií provádět hyperkubický algoritmus
+
+Tags: otazka32
+<!--ID: 1749408692075-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak lze vnořit hyperkrychly do nízkodimenzionálních mřížek?
+
+Back:
+
+- konstruujeme prostou a na funkci (vnoření), ale chceme nějakou jednoduchou
+    - lexikografické mapování po řádcích a po sloupcích = Svobodova mapa: $-φ(b2k−1b2k−2 . . . b0) = [b2k−1 . . . bk, bk−1 . . . b0]$.
+    - Mortonovy křivky = jednotlivé hyperkubické souřadnice se mapují rekurzivně střídavě ve směru osy x a y
+
+Tags: otazka32
+<!--ID: 1749408692090-->
 END
 
 ---
@@ -425,6 +567,8 @@ Lemma: kolik automorfismů má $wBF_n$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419121326.png)
+
+Tags: otazka31
 <!--ID: 1746599652904-->
 END
 
@@ -439,6 +583,8 @@ Lemma: kolik automorfismů má $oBF_n$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419121344.png)
+
+Tags: otazka31
 <!--ID: 1746599652912-->
 END
 

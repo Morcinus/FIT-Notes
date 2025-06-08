@@ -1856,15 +1856,53 @@ END
 START
 FIT-Card
 
-Co jsou řídké grafy? Jací jsou 2 reprezentanti?
+Jaké jsou **Hyperkubické topologie**? (2)
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250402093443.png)
+- **Řídké hyperkubické sítě typu motýlek**
+- **Tlusté stromy**
+
+Tags: otazka29
+<!--ID: 1749406279503-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou řídké hyperkubické sítě?
+
+Back:
+
+Grafy odvozené od hyperkrychle rozvinutím každého uzlu hyperkrychle do více uzlů
+
+Tags: otazka29
 <!--ID: 1746518365199-->
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jací jsou 3 typy motýlků?
+
+Back:
+
+- **zaobalený motýlek**
+- **obyčejný motýlek**
+- **obousměrný motýlek**
+
+Tags: otazka29
+<!--ID: 1749406279511-->
+END
+
+---
+
 
 
 START
@@ -1884,12 +1922,244 @@ END
 START
 FIT-Card
 
-Jak vypadá zabalený motýlek dimenze $n$?
+Jaký **průměr** mají **řídké hyperkubické sítě** (motýlci)?
 
 Back:
 
+$$O(\log N)$$
+
+Tento průměr je **optimální**
+
+Tags: otazka29
+<!--ID: 1749406279514-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jakou **bisekční šířku** mají **řídké hyperkubické sítě** (motýlci)?
+
+Back:
+
+$$\Omega(N / \log N)$$
+
+Tags: otazka29
+<!--ID: 1749406279517-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak jsou škálovatelné **řídké hyperkubické sítě** (motýlci)?
+
+Back:
+
+Ještě hůře než hyperkrychle. $N = n2^n$ nebo podobně.
+
+Tags: otazka29
+<!--ID: 1749406279519-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Pro jaké algoritmy jsou vhodné **řídké hyperkubické sítě** (motýlci)?
+
+Back:
+
+ideální pro **normální hyperkubické algoritmy** (= v prvním kroku se používají jen hrany první dimenze, ve druhém jen druhé atd.)
+
+Tags: otazka29
+<!--ID: 1749406279522-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadá zabalený motýlek $wBF_n$?
+
+Back:
+
+- $wBF_n$ = **zabalený motýlek** dimenze $n$
+- vrcholy jsou dané dvojicí $(i,x)$, kde $0 \le i < n, x \in \{0,1\}^n$
+- hrany vedou vždy jednak do 2 sousedních $i$ v rámci stejného $x$ (jako v kružnici), jednak do pravého sousedního $i$ v takovém $x$, které se liší v $i$-tém bitu a jednak totéž z nějakého jiného $x$ (z uzlu, pro který já jsem pravým sousedem v $x$ lišícím se v jeho $i$-tém bitu), hran je
+
 ![](../../Assets/Pasted%20image%2020250402093522.png)
+
+Tags: otazka29
 <!--ID: 1746518365204-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kolik má vrcholů zabalený motýlek $wBF_n$?
+
+Back:
+
+$n \cdot 2^n$
+
+Tags: otazka29
+<!--ID: 1749406279525-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kolik má hran zabalený motýlek $wBF_n$?
+
+Back:
+
+$$n \cdot 2^{n+1}$$
+
+Tags: otazka29
+<!--ID: 1749406279528-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je regulární zabalený motýlek $wBF_n$?
+
+Back:
+
+$4$-regulární
+
+Tags: otazka29
+<!--ID: 1749406279530-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je uzlově symetrický zabalený motýlek $wBF_n$?
+
+Back:
+
+**Ano**
+
+Tags: otazka29
+<!--ID: 1749406279533-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je hierarchicky rekurzivní zabalený motýlek $wBF_n$?
+
+Back:
+
+**Není**
+
+Tags: otazka29
+<!--ID: 1749406279536-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je hamiltonovský zabalený motýlek $wBF_n$?
+
+Back:
+
+**Ano**
+
+Tags: otazka29
+<!--ID: 1749406279539-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je bipartitní/vyvážená bipartitní zabalený motýlek $wBF_n$?
+
+Back:
+
+**vyvážený bipartitní**$\iff n$ je sudé
+
+Tags: otazka29
+<!--ID: 1749406279542-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je řídká/hustá síť zabalený motýlek $wBF_n$?
+
+Back:
+
+řídký
+
+Tags: otazka29
+<!--ID: 1749406279545-->
+END
+
+---
+
+
+START
+FIT-Card
+
+ Jaký je průměr grafu zabalený motýlek $wBF_n$?
+
+Back:
+
+$n + \lfloor n/2 \rfloor$
+
+Tags: otazka29
+<!--ID: 1749406279548-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je bisekční šířka zabalený motýlek $wBF_n$?
+
+Back:
+
+$$2^n$$
+
+Tags: otazka29
+<!--ID: 1749406279551-->
 END
 
 ---
@@ -1947,12 +2217,205 @@ END
 START
 FIT-Card
 
-Jak vypadá obyčejný motýlek dimenze $n$ ($oBF_n$)?
+Jak vypadá obyčejný motýlek $oBF_n$?
 
 Back:
 
+- $oBF_n$ = obyčejný motýlek dimenze $n​$
+- vrcholy podobně jako v zabaleném, ale $0 \le i \le n$, vrcholů je $(n+1) \cdot 2^n$
+    - lze si představit jako sloupce (stejné $i$) a řady (stejné $x$)
+- hrany podobně jako v zabaleném, ale bez modulení, hran je $n \cdot 2^{n+1}$
+    - dva druhy hran: přímé (ve řadě) a křížové (do řady lišící se $i$-tým bitem)
+
 ![](../../Assets/Pasted%20image%2020250402093756.png)
+
+Tags: otazka29
 <!--ID: 1746518365216-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kolik má vrcholů obyčejný motýlek $oBF_n$?
+
+Back:
+
+$$(n+1) \cdot 2^n$$
+Tags: otazka29
+<!--ID: 1749406279553-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kolik má hran obyčejný motýlek $oBF_n$?
+
+Back:
+
+$$n \cdot 2^{n+1}$$
+
+Tags: otazka29
+<!--ID: 1749406279557-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je regulární obyčejný motýlek $oBF_n$?
+
+Back:
+
+není regulární (stupně jsou buď $2$ nebo $4$)
+
+Tags: otazka29
+<!--ID: 1749406279559-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je uzlově symetrická obyčejný motýlek $oBF_n$?
+
+Back:
+
+Není
+
+Tags: otazka29
+<!--ID: 1749406279562-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je hierarchicky rekurzivní obyčejný motýlek $oBF_n$?
+
+Back:
+
+hierarchicky rekurzivní (obsahuje dva podmotýlky dimenze $n-1$)
+
+Tags: otazka29
+<!--ID: 1749406279565-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je bipartitní/vyvážená bipartitní obyčejný motýlek $oBF_n$?
+
+Back:
+
+Je **bipartitní**
+
+Tags: otazka29
+<!--ID: 1749406279567-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Je hamiltonovský  obyčejný motýlek $oBF_n$?
+
+Back:
+
+**Není**
+
+Tags: otazka29
+<!--ID: 1749406279570-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je průměr grafu obyčejný motýlek $oBF_n$?
+
+Back:
+
+$2n$
+
+Tags: otazka29
+<!--ID: 1749406279573-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je bisekční šířka obyčejný motýlek $oBF_n$?
+
+Back:
+
+Bisekční šířka je $2^n$
+
+Tags: otazka29
+<!--ID: 1749406279576-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké směrování se používá v obyčejný motýlek $oBF_n$?
+
+Back:
+
+e-cube směrování (existuje jediná nejkratší cesta mezi $(0,x)$ a $(n,y)$)
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250402093916.png)
+<!-- ImageEnd -->
+
+
+Tags: otazka29
+<!--ID: 1749406279579-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak se liší přímý a nepřímý motýlek?
+
+Back:
+
+- **přímý** motýlek = procesory zároveň slouží jako přepínače
+    - přepínač použije horní nebo dolní výstup podle cílového bitu
+- **nepřímý** motýlek ($indBF_n$) = přepínače jsou oddělené (líp se škáluje, ale je to dražší)
+    - přepínač použije inverzi nebo identitu podle toho, zda se startovní bit liší od cílového
+
+![](../../Assets/Pasted%20image%2020250402093856.png)
+
+Tags: otazka29
+<!--ID: 1749406279581-->
 END
 
 ---
@@ -2021,7 +2484,12 @@ Jak funguje obousměrný motýlek?
 
 Back:
 
+- využívá přepínače, které umí přenos zleva doprava, zprava doleva i zleva doleva
+- směrování z $u$ do $v$ má “vzestupnou” část doprava do společného kořene (kterých může být víc) a pak “sestupnou” část doleva
+
 ![](../../Assets/Pasted%20image%2020250402093935.png)
+
+Tags: otazka29
 <!--ID: 1746518365229-->
 END
 
@@ -2035,7 +2503,11 @@ Jak souvisí obousměrný motýlek a tlustý strom?
 
 Back:
 
+**obousměrný motýlek** je **topologicky ekvivalentní** s tlustým stromem, kde se počet linek ke kořenu rovná součtu počtu linek od potomků
+
 ![](../../Assets/Pasted%20image%2020250402093958.png)
+
+Tags: otazka29
 <!--ID: 1746518365232-->
 END
 
@@ -2045,11 +2517,17 @@ END
 START
 FIT-Card
 
-Jaké jsou vlastnosti tlustého stormu?
+Jaké jsou vlastnosti tlustého stormu? (3)
 
 Back:
 
+- triviální směrování
+- deadlock-free
+- odolný díky redundanci
+
 ![](../../Assets/Pasted%20image%2020250402094013.png)
+
+Tags: otazka29
 <!--ID: 1746518365235-->
 END
 
@@ -2059,12 +2537,112 @@ END
 START
 FIT-Card
 
-Jak vypadá 3 stupňová CLosova topologie $CL(m,n,r)$?
+Na co se používá **tlustý strom**?
 
 Back:
 
+nejčastější topologie **pro Infiband technologii**
+
+Tags: otazka29
+<!--ID: 1749406279584-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadá 3 stupňová Closova topologie $CL(m,n,r)$?
+
+Back:
+
+- $CL(m,n,r)$ = 3stupňová **Closova topologie**
+- nepřímá propojovací síť $N \times N$, kde $N = r \cdot n$
+- první stupeň má $r$ **vstupních směrovačů** $n \times m$
+- druhý stupeň má $m$ **středových směrovačů** $r \times r$
+- třetí stupeň má $r$ **výstupních směrovačů** $m \times n$
+
 ![](../../Assets/Pasted%20image%2020250402094036.png)
+
+Tags: otazka30
 <!--ID: 1746518365237-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Na čem jsou závislé vlastnosti Closovy topologie?
+
+Back:
+
+Na volbě hodnot parametrů $m,n,r$
+
+Tags: otazka30
+<!--ID: 1749406562966-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadají vícestupňové Closovy topologie?
+
+Back:
+
+vícestupňové Closovy topologie = středový stupeň se nahradí další $CL(m,n,r)​$
+
+Tags: otazka30
+<!--ID: 1749406562973-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy je Closova topologie striktně neblokující? Co to znamená?
+
+Back:
+
+striktně neblokující pro $m \ge 2n-1$ 
+
+tzn. vždy lze bezkolizně propojit libovolný vstup s libovolným výstupem
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250608201527.png)
+<!-- ImageEnd -->
+
+Tags: otazka30
+<!--ID: 1749406562976-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy je Closova topologie přestavitelná? Co to znamená?
+
+Back:
+
+přestavitelná pro $m \ge n$ 
+
+= vždy lze přepínače přenastavit tak, aby dokázaly obsloužit libovolné propojení vstupů k výstupům
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250608201517.png)
+<!-- ImageEnd -->
+
+Tags: otazka30
+<!--ID: 1749406562979-->
 END
 
 ---
