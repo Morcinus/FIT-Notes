@@ -11,13 +11,22 @@ FILE TAGS: NI-PDP prednaska09 status-toReview
 START
 FIT-Card
 
-Jaké 4 skupiny jsou kolektivních komunikačních operací?
+Jaké 4 skupiny jsou **kolektivních komunikačních operací**?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250419121501.png)
+- **OAB** - one-to-all broadcast (`MPI_Bcast`)
+- **MC** - multicast (`MPI_Bcast`)
+- **OAS** - one to all scatter (`MPI_Scatter`)
+- **AOG** - all-to-one gather (`MPI_Gather`)
 
 Scatter rozesílá všem individuálně. Broadcast vysílá všem
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250419121501.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka33
 <!--ID: 1746599652334-->
 END
 
@@ -27,11 +36,19 @@ END
 START
 FIT-Card
 
-Jaké jsou typy komunikace všichni všem?
+Jaké jsou typy komunikace **všichni všem**?
 
 Back:
 
+- **AAB** - all to all broadcast
+	- **AAG** - all to all gather (`MPI_AllGather`)
+- **AAS** - all to all scatter (`MPI_Alltoall`)
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419121523.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka33
 <!--ID: 1746599652342-->
 END
 
@@ -45,10 +62,12 @@ Jak se liší 1 portový a všeportový směrovač?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250419121845.png)
-
 -  **1-portový** - v jeden okamžik můžu používat jeden vnější port
 - **všeportový** - v jeden okamžik můžu používat všechny porty
+
+![](../../Assets/Pasted%20image%2020250419121845.png)
+
+Tags: otazka33
 <!--ID: 1746599652350-->
 END
 
@@ -205,6 +224,10 @@ FIT-Card
 
 Jak funguje **Store-And-Forward** přepínání?
 
+- Co se posílá?
+- Jak funguje přepínání?
+- Co je jeden krok?
+
 Back:
 
 - pakety pevné délky rozdělné do flitů a směrované individuálně
@@ -237,6 +260,14 @@ $t_{SF}(\mu,\delta) = t_s + \delta(t_r + (t_w + t_m) \mu) \approx t_s + \delta \
 
 ![](../../Assets/Pasted%20image%2020250419122331.png)
 
+Připomenutí:
+- $t_s$ - startovní latence
+- $\delta$ - délka cesty
+- $t_r$ - směrovací latence
+- $t_w$ - přepínací latence
+- $t_m$ - latence kanálu
+- $\mu$ - délka paketu
+
 Tags: otazka33
 <!--ID: 1746599652420-->
 END
@@ -249,11 +280,15 @@ FIT-Card
 
 Jak funguje červí přepínání (wormhole)?
 
+- Co se posílá?
+- Jak funguje přepínání?
+- Co je jeden krok?
+
 Back:
 
-- pakety rozdělené do flitů, směrovače mají fronty po flitech a nečekají na celý paket, “prořezávají” flity rovnou do dalšího směrovače, pokud je výstupní kanál volný
-- když je výstupní kanál obsazen, hlavička nemůže dál a celý řetězec flitů zablokuje linky na dosud vybudované trase
-- krok = současné použití linkově disjunktních cest (i přes víc směrovačů)
+- pakety rozdělené do **flitů**, směrovače mají **fronty po flitech** a nečekají na celý paket, “prořezávají” flity rovnou do dalšího směrovače, pokud je výstupní kanál volný
+- **když je výstupní kanál obsazen**, hlavička nemůže dál a celý řetězec flitů zablokuje linky na dosud vybudované trase
+- **krok** = současné použití linkově disjunktních cest (i přes víc směrovačů)
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419122712.png)
@@ -302,6 +337,14 @@ $t_{WH}(\mu, \delta) = t_s + \delta (t_r + t_w + t_m) + \mu \max(t_w, t_m)$
 
 ![](../../Assets/Pasted%20image%2020250419122749.png)
 
+Připomenutí:
+- $t_s$ - startovní latence
+- $\delta$ - délka cesty
+- $t_r$ - směrovací latence
+- $t_w$ - přepínací latence
+- $t_m$ - latence kanálu
+- $\mu$ - délka paketu
+
 Tags: otazka33
 <!--ID: 1746599652435-->
 END
@@ -348,11 +391,15 @@ END
 START
 FIT-Card
 
-Co značí $\rho$ v OAB?
+Co značí $\rho_{XXX}(G)$ a $r_{XXX}(G)$ v KKO?
 
 Back:
 
-spodní mez počtu kroků
+**spodní mez** a **horní mez** počtu kroků
+
+**Teoreticky nejnižší možný počet kroků k tomu, aby se vykonal broadcast.** (pokud je síť nejvhodněji uspořádaná)
+
+![](../../Assets/Pasted%20image%2020250609145351.png)
 
 Tags: otazka34
 <!--ID: 1749409802216-->
@@ -364,11 +411,15 @@ END
 START
 FIT-Card
 
-Co značí $\tau$ v OAB?
+Co značí $\tau_{XXX}(G)$ a $t_{XXX}(G)$ v KKO?
 
 Back:
 
-spodní mez komunikační latence
+**spodní mez** a **horní mez** komunikační latence
+
+Kolik kroků minimálně trvá, než se pošle broadcast ke všem uzlům.
+
+![](../../Assets/Pasted%20image%2020250609145351.png)
 
 Tags: otazka34
 <!--ID: 1749409802219-->
@@ -380,11 +431,19 @@ END
 START
 FIT-Card
 
-Co značí $\eta$ v OAB?
+Co značí $\eta_{XXX}(G)$ a $h_{XXX}(G)$ v KKO?
 
 Back:
 
-spodní mez práce
+**spodní mez** a **horní mez** komunikační práce
+
+**komunikační práce** = celkový počet **hopů v SF**/**paketohran v WH**
+
+Je to jakoby minimální počet hopů (kde 1 hop jsou všechny paralelní hopy), co musím dokončit, abych udělal broadcast.
+
+**Minimální počet různých přenosů, co musím v síti udělat, abych udělal broadcast**
+
+![](../../Assets/Pasted%20image%2020250609145351.png)
 
 Tags: otazka34
 <!--ID: 1749409802221-->
@@ -396,11 +455,15 @@ END
 START
 FIT-Card
 
-Co značí $\gamma$ v OAB?
+Co značí $\gamma$ v KKO?
 
 Back:
 
 spodní mez součtu maxim délek paralelních cest přes všechny kroky algoritmu
+
+**Skutečný počet kroků broadcastu v dané síti**
+
+![](../../Assets/Pasted%20image%2020250609145351.png)
 
 Tags: otazka34
 <!--ID: 1749409802224-->
@@ -412,13 +475,13 @@ END
 START
 FIT-Card
 
-Co je $G, s, k$ v OAB?
+Co je $G, s, k$ v KKO?
 
 Back:
 
 $G$ = propojovací síť
 $s$ = zdroj
-$k$ = počet portů
+$k$ = počet portů přepínačů
 
 Tags: otazka34
 <!--ID: 1749409802226-->
@@ -430,17 +493,59 @@ END
 START
 FIT-Card
 
-Jak se dá modelovat latence KKO?
+Co se v KKO operacích považuje za jeden krok u SF a WH?
+
+(KKO = kolektivní komunikační operace - OAB, AAS, atd.)
 
 Back:
 
-idk, tohle projít a popsat vlastními slovy
+- **SF sítě** - 1 krok je množina všech hopů mezi různými sousedy
+- **WH sítě** - 1 krok = množina současně použitých navzájem disjunktních cest (assumujeme linky oběma směry)
+
+<!-- DetailInfoStart -->
 
 ![](../../Assets/Pasted%20image%2020250419123147.png)
 ![](../../Assets/Pasted%20image%2020250419123307.png)
 
+<!-- DetailInfoEnd -->
+
 Tags: otazka34
 <!--ID: 1746599652451-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co musí umět efektivní algoritmy v KKO? (2)
+
+Back:
+
+1. Využívat maximální komunikační kapacitu v co nejvíce krocích algoritmu
+2. Eliminovat **redundantní informace**
+	1. **NO-DUP** - no duplication - žádný uzel nedostane stejnou informaci 2x
+	2. **NO-HO** - no node hears its own message - žádný uzel nedostane informaci co odeslal
+
+Tags: otazka34
+<!--ID: 1749471095292-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy je KKO algoritmus optimální?
+
+Back:
+
+Když jsou spodní a horní meze asymptoticky stejné
+
+Tags: otazka34
+<!--ID: 1749471095301-->
 END
 
 ---
@@ -455,6 +560,9 @@ $$\eta^{SF}_{OAB,k}(G,s)$$
 Back:
 
 $$\eta^{SF}_{OAB,k}(G,s) = |V(G)| - 1$$
+
+Každý uzel musí aspoň jedním hopem ten paket přijmout
+(kromě toho $1$, ze kterého posílám)
 
 Tags: otazka34
 <!--ID: 1749409802229-->
@@ -475,6 +583,8 @@ $$\gamma^{SF}_{OAB,k}(G,s) = \mathrm{diam}(G)$$
 
 pokud není G uzlově symetrická:
 místo $\mathrm{diam}(G)$ uvažujeme $\mathrm{exc}(s,G)​$
+
+Je to jakoby čas broadcastu.
 
 Tags: otazka34
 <!--ID: 1749409802232-->
@@ -497,6 +607,8 @@ $$\rho^{SF}_{OAB,k}(G,s) = \max(\mathrm{diam}(G), \log_{k+1}|V(G)|)$$
 
 pokud není G uzlově symetrická:
 místo $\mathrm{diam}(G)$ uvažujeme $\mathrm{exc}(s,G)​$
+
+Teoreticky nejnižší čas (resp. počet kroků), za který se provede broadcast.
 
 Tags: otazka34
 <!--ID: 1749409802235-->

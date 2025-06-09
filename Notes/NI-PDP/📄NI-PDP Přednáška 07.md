@@ -1928,7 +1928,9 @@ Back:
 
 $$O(\log N)$$
 
-Tento průměr je **optimální**
+Pozor, je to $N$ (tedy počet vrcholů a ne dimenze $n$).
+
+Tento průměr je **optimální**.
 
 Tags: otazka29
 <!--ID: 1749406279514-->
@@ -2480,7 +2482,7 @@ END
 START
 FIT-Card
 
-Jak funguje obousměrný motýlek?
+Jak funguje obousměrný motýlek? Jak v něm funguje směrování?
 
 Back:
 
@@ -2523,7 +2525,7 @@ Back:
 
 - triviální směrování
 - deadlock-free
-- odolný díky redundanci
+- odolný proti výpadkům díky redundanci
 
 ![](../../Assets/Pasted%20image%2020250402094013.png)
 
@@ -2636,6 +2638,10 @@ Back:
 přestavitelná pro $m \ge n$ 
 
 = vždy lze přepínače přenastavit tak, aby dokázaly obsloužit libovolné propojení vstupů k výstupům
+
+**Tzn. můžeme požadavky odeslat sítí bezkolizně, ale musíme dopředu vědět, co chceme kam posílat.**
+
+Tzn. když dopředu vím, jaké požadavky chci kam posílat, tak to můžu naaranžovat tak, aby ty cesty spolu nekolidovaly.
 
 <!-- ImageStart -->
 ![](../../Assets/Pasted%20image%2020250608201517.png)
