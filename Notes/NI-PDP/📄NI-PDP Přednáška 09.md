@@ -397,9 +397,7 @@ Back:
 
 **spodní mez** a **horní mez** počtu kroků
 
-**Teoreticky nejnižší možný počet kroků k tomu, aby se vykonal broadcast.** (pokud je síť nejvhodněji uspořádaná)
-
-![](../../Assets/Pasted%20image%2020250609145351.png)
+Počet **paralelních kroků**, co musím udělat, abych provedl např. broadcast.
 
 Tags: otazka34
 <!--ID: 1749409802216-->
@@ -417,7 +415,7 @@ Back:
 
 **spodní mez** a **horní mez** komunikační latence
 
-Kolik kroků minimálně trvá, než se pošle broadcast ke všem uzlům.
+Jak dlouho trvá, než se provede broadcast.
 
 ![](../../Assets/Pasted%20image%2020250609145351.png)
 
@@ -439,11 +437,7 @@ Back:
 
 **komunikační práce** = celkový počet **hopů v SF**/**paketohran v WH**
 
-Je to jakoby minimální počet hopů (kde 1 hop jsou všechny paralelní hopy), co musím dokončit, abych udělal broadcast.
-
-**Minimální počet různých přenosů, co musím v síti udělat, abych udělal broadcast**
-
-![](../../Assets/Pasted%20image%2020250609145351.png)
+Počet **všech kroků** (nejen paralelních), co musím udělat, abych provedl např. broadcast.
 
 Tags: otazka34
 <!--ID: 1749409802221-->
@@ -461,9 +455,9 @@ Back:
 
 spodní mez součtu maxim délek paralelních cest přes všechny kroky algoritmu
 
-**Skutečný počet kroků broadcastu v dané síti**
+**Je to součet délek paralelních cest.**
 
-![](../../Assets/Pasted%20image%2020250609145351.png)
+Podle Tvrdíka to je "jak dlouho bude trvat, než vybuduju tu cestu (než začnu posílat data)".
 
 Tags: otazka34
 <!--ID: 1749409802224-->
@@ -648,6 +642,74 @@ Back:
 
 Tags: otazka34
 <!--ID: 1749409802240-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje záplavový algoritmus?
+
+Back:
+
+Když packet přišel poprvé, rozpošli ho všem svým sousedům, jinak ho ignoruj.
+
+Tags: otazka34
+<!--ID: 1749478150775-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje rekurzivní zdvojování?
+
+Back:
+
+1. Rozděl graf do dvou stejně velkých částí, v jedné je momentální směrovač, v druhé je jeho soused.
+2. Sousedovi pošli packet.
+3. Algoritmus spusť na sobě a sousedovi s danými podgrafy
+
+Tags: otazka34
+<!--ID: 1749478150778-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje **$n$-úrovňová binomiální kostra**?
+
+Back:
+
+Něco jako BFS ale v hyperkrychli.
+
+Tags: otazka34
+<!--ID: 1749478150781-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje algoritmus **dimenzionálně uspořádaná kostra**?
+
+Back:
+
+Máme mřížku $M$,vždy rekurzivně pošleme ve všech směrech.
+
+Něco jako kdybych dělal BFS, ale v mřížce.
+
+Tags: otazka34
+<!--ID: 1749478150784-->
 END
 
 ---
