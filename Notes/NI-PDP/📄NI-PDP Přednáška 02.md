@@ -83,7 +83,7 @@ END
 START
 FIT-Card
 
-Co je model sdílené paměti s **volnější konzistencí**?
+Co je model sdílené paměti s **volnější konzistencí**? Jak lze vynutit synchronizaci?
 
 Back:
 

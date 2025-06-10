@@ -180,7 +180,7 @@ Jaká je typická architektura MPI programů? Jaký přístup je typicky lepší
 Back:
 
 - **1 MPI proces na výpočetní uzel** - proces se rozdělí na vlákna aby odpovídala počtu jader výpočetního uzlu
-- **1 MPI proces na jádro** - proces se rozdělí na vlákna aby odpovídala počtu jader v CPU.
+- **1 MPI proces na CPU** - proces se rozdělí na vlákna aby odpovídala počtu jader v CPU.
 
 Druhý přístup má často lepší výkon, protože je lepší přístup k datům, protože vlákna sdílejí hlavní paměť.
 
