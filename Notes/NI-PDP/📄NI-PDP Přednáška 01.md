@@ -16,6 +16,8 @@ Definice: **Paralelní počítač**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217162543.png)
+
+Tags: otazka01
 <!--ID: 1746599653300-->
 END
 
@@ -46,6 +48,8 @@ Fun fact: 30 let se výkon počítačů zvyšuje exponenciálně
 K čemu jsou dobré superpočítače? Např. na předpovědi počasí.
 ![](../../Assets/Pasted%20image%2020250217163837.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653307-->
 END
 
@@ -69,6 +73,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164134.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653315-->
 END
 
@@ -89,6 +95,8 @@ Back:
 - Mají sdílenou paměť nebo propojivací síť
 
 ![](../../Assets/Pasted%20image%2020250217164219.png)
+
+Tags: otazka01
 <!--ID: 1746599653322-->
 END
 
@@ -117,6 +125,8 @@ MIMD používá hodně věcí - vícejádrové procesory, SMP uzly, klastry atd.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164500.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653329-->
 END
 
@@ -144,6 +154,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217164723.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653335-->
 END
 
@@ -165,6 +177,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217165208.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653348-->
 END
 
@@ -180,6 +194,8 @@ Jaké jsou 4 typy **propojovacích sítí** u architektury s **distribuovanou pa
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217165341.png)
+
+Tags: otazka01
 <!--ID: 1746599653355-->
 END
 
@@ -218,6 +234,8 @@ Instrukce se provádí **synchronně**.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217165648.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653362-->
 END
 
@@ -236,6 +254,8 @@ Back:
 - `LOCAL` - **lokální operace** - jakákoliv lokální operace
 
 (nebo ten stroj nedělá nic)
+
+Tags: otazka01
 <!--ID: 1746599653370-->
 END
 
@@ -254,6 +274,8 @@ Back:
 
 - **Jednotkový model** - R/W/L trvají čas $1$
 - **Globální model** - L trvá čas $1$, R/W trvají $d > 1$
+
+Tags: otazka01
 <!--ID: 1749116284300-->
 END
 
@@ -277,6 +299,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217170014.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653378-->
 END
 
@@ -297,6 +321,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217170024.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka01
 <!--ID: 1746599653384-->
 END
 
@@ -327,6 +353,8 @@ Globální fáze:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217170251.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka02
 <!--ID: 1746599653391-->
 END
 
@@ -356,6 +384,8 @@ $p$ jsou neklesající funkce, co se provádí
 Bariéra je docela drahá.
 ![](../../Assets/Pasted%20image%2020250217170833.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka02
 <!--ID: 1746599653399-->
 END
 
@@ -382,6 +412,8 @@ Back:
 4. Procesy se aktivují směrem dolů.
 
 ![](../../Assets/Pasted%20image%2020250217170907.png)
+
+Tags: otazka02
 <!--ID: 1746599653405-->
 END
 
@@ -403,6 +435,8 @@ Back:
 
 $p$ - počet procesů
 $d$ - globální časová délka R/W operace
+
+Tags: otazka02
 <!--ID: 1749119646835-->
 END
 
@@ -438,6 +472,8 @@ Datově nezávislé iterace cyklu se provádí paralelně jednotlivými procesor
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217171003.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653419-->
 END
 
@@ -457,6 +493,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217171134.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653427-->
 END
 
@@ -480,6 +518,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217171303.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653434-->
 END
 
@@ -509,6 +549,8 @@ Optimální když:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250217171948.png)
 <!-- ExampleEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653441-->
 END
 
@@ -534,6 +576,8 @@ $p$ je počet procesorů, nebo jader, nebo vláken (podle toho co zrovna řeší
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250217172552.png)
 <!-- ExampleEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653449-->
 END
 
@@ -548,6 +592,8 @@ Jak se spočítá $T(n,p)$?
 Back:
 
 Sečtou se **výpočetní** kroky a **komunikační** kroky.
+
+Tags: otazka03
 <!--ID: 1746599653456-->
 END
 
@@ -578,6 +624,8 @@ K čemu to je:
 <!-- ExampleStart -->
 Doba, jak dlouho jsem využíval všechny procesory. Například když mi někdo poskytne část superpočítače, tak ho bude zajímat, kolik procesorů jsem jak dlouho využíval. Je mu ale jedno, co jsem tam dělal a jak moc jsem je využíval.
 <!-- ExampleEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653464-->
 END
 
@@ -598,6 +646,8 @@ $\Omega$ je dolní časová složitost
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250217172714.png)
 <!-- ProofEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653470-->
 END
 
@@ -616,6 +666,8 @@ $C(n,p) = O(SU(n)) = \Theta(SU(n))$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217173209.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653479-->
 END
 
@@ -632,6 +684,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217173224.png)
 
 Říká mi, o kolik je rychlejší paralelní algoritmus na $p$ procesorech než sekvenční
+
+Tags: otazka03
 <!--ID: 1746599653488-->
 END
 
@@ -652,6 +706,8 @@ $S(n,p) \leq p$ nebo $S(n,p) = O(p)$
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250217173257.png)
 <!-- ProofEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653497-->
 END
 
@@ -678,6 +734,8 @@ Back:
 - Běží mi to **sublineárně** (to je dost častý)
 - Běží mi to **lineárně** (to je dost vzácný)
 - Běží mi to **superlineárně** (to není způsobeno paralelizací, ale např. cachováním atd.)
+
+Tags: otazka03
 <!--ID: 1749125141109-->
 END
 
@@ -698,6 +756,8 @@ $S(n,p) = \Theta (p)$
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217173326.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653504-->
 END
 
@@ -717,6 +777,8 @@ Když $S(n,p) > p$
 - Anomálie při prohledávání stavového prostoru
 
 ![](../../Assets/Pasted%20image%2020250217173356.png)
+
+Tags: otazka03
 <!--ID: 1746599653510-->
 END
 
@@ -738,6 +800,8 @@ Vyjadřuje **teoreticky nejlepší možný čas**, kterého by šlo dosáhnout, 
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020250217173442.png)
 <!-- ExampleEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653517-->
 END
 
@@ -763,6 +827,8 @@ $1$ =100% vyžíženy po celou dobu
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217173601.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653524-->
 END
 
@@ -781,6 +847,8 @@ Back:
 <!-- ProofStart -->
 ![](../../Assets/Pasted%20image%2020250217173547.png)
 <!-- ProofEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653531-->
 END
 
@@ -795,6 +863,8 @@ Definice: **konstantní efektivnost**
 Back:
 
 ![](../../Assets/Pasted%20image%2020250217173756.png)
+
+Tags: otazka03
 <!--ID: 1746599653538-->
 END
 
@@ -816,6 +886,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250217173909.png)
 ![](../../Assets/Pasted%20image%2020250217174046.png)
 <!-- ExampleEnd -->
+
+Tags: otazka03
 <!--ID: 1746599653545-->
 END
 
@@ -834,6 +906,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217174340.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka04
 <!--ID: 1746599653551-->
 END
 
@@ -853,6 +927,8 @@ Back:
 	- trvá $t_\text{seq}$ času
 - **paralelizovatelný podíl** $1-f(s)$
 	- trvá $t_\text{par}$ času
+
+Tags: otazka04
 <!--ID: 1749127163112-->
 END
 
@@ -877,6 +953,8 @@ Neboli říká:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217174435.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka04
 <!--ID: 1746599653558-->
 END
 
@@ -901,6 +979,8 @@ $$S(n,p) = \frac{t_\text{seq} + t_\text{par}(n,1)}{t_\text{seq} + t_\text{par}(n
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217174519.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka04
 <!--ID: 1746599653564-->
 END
 
@@ -919,6 +999,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217174616.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka04
 <!--ID: 1746599653571-->
 END
 
@@ -948,6 +1030,8 @@ Jinými slovy:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250217174642.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka04
 <!--ID: 1746599653579-->
 END
 

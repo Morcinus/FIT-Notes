@@ -16,6 +16,8 @@ Co je **OpenMP**?
 Back:
 
 OpenMP je high-level API pro programování vícevláknových aplikací nad sdílenou pamětí.
+
+Tags: otazka05
 <!--ID: 1746518365423-->
 END
 
@@ -35,6 +37,8 @@ Back:
 - Pořád běží jedno **hlavní vlákno** sekvenčně
 
 ![](../../Assets/Pasted%20image%2020250227095821.png)
+
+Tags: otazka05
 <!--ID: 1746518365425-->
 END
 
@@ -52,6 +56,8 @@ Ne, vlákna jsou **uložena v thread poolu** a jen se jim přiřazují tasky.
 <!-- ExplanationStart -->
 Mazání a vytváření vláken by trvalo moc dlouho.
 <!-- ExplanationEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365428-->
 END
 
@@ -66,6 +72,8 @@ Jaké typy paralelismu podporuje OpenMP? (2)
 Back:
 
 **data paralelismus** i **task paralelismus**
+
+Tags: otazka05
 <!--ID: 1749133110206-->
 END
 
@@ -83,6 +91,8 @@ Back:
 - Když do nich lokálně zapisují, nemusí nutně hned zapsat do sdílené paměti.
 - Tzn. vlákna mohou dočasně vidět jinou hodnotu sdílené proměnné
 - Můžu **vynutit synchronizaci** příkazem `flush()`
+
+Tags: otazka05
 <!--ID: 1746518365436-->
 END
 
@@ -98,6 +108,8 @@ Back:
 
 Pro gcc překladač
 `-f openmp`
+
+Tags: otazka05
 <!--ID: 1746518365431-->
 END
 
@@ -114,6 +126,8 @@ Back:
 ```
 #include <omp.h>
 ```
+
+Tags: otazka05
 <!--ID: 1746518365433-->
 END
 
@@ -131,6 +145,8 @@ Back:
 ```
 #pragma omp direktiva klauzule1 klauzule2
 ```
+
+Tags: otazka05
 <!--ID: 1746518365439-->
 END
 
@@ -154,6 +170,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227100716.png)
 ![](../../Assets/Pasted%20image%2020250227100758.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365442-->
 END
 
@@ -176,6 +194,8 @@ Programátor tedy musí zajistit ošetření konfliktů
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101235.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365445-->
 END
 
@@ -197,6 +217,8 @@ Tedy funguje to jako když předávám funkci parametry hodnotou.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101244.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365447-->
 END
 
@@ -215,6 +237,8 @@ Jako `private(seznam)`, ale každému vláknu to inicializuje proměnnou s hodno
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101251.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365450-->
 END
 
@@ -230,6 +254,8 @@ Back:
 
 - `default(shared)` - pokud jsem v direktivě nevyjmenoval proměnné, které existují před blokem, budou defaultně shared
 - `default(none)` - pokud jsem v direktivě nevyjmenoval proměnné, které existují před blokem, nebudou defaultně sdílené
+
+Tags: otazka05
 <!--ID: 1746518365452-->
 END
 
@@ -244,6 +270,8 @@ Když udělám klauzuli v OpenMP na ukazatel, aplikuje se na ukazatel nebo na te
 Back:
 
 Aplikuje se pouze na ten ukazatel!
+
+Tags: otazka05
 <!--ID: 1746518365455-->
 END
 
@@ -270,6 +298,8 @@ Tady se po konci for cyklu sečtou všechny hodnoty result z všech podvláken.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101534.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365458-->
 END
 
@@ -291,6 +321,8 @@ Proto OpenMP využívá hlavně lineární
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227101927.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365460-->
 END
 
@@ -315,6 +347,8 @@ Pomocí `copyin(proměnná)` se daná proměnná nastaví na hodnotu z hlavního
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102024.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365464-->
 END
 
@@ -324,11 +358,13 @@ END
 START
 FIT-Card
 
-Co je funkce `num_threads()`?
+Co je funkce `omp_get_num_threads()`?
 
 Back:
 
 Zjistí počet vláken v dané paralelní oblasti včetně hlavního vlákna.
+
+Tags: otazka05
 <!--ID: 1749135989759-->
 END
 
@@ -343,6 +379,8 @@ Co je direktiva `if(podminka)`?
 Back:
 
 Umožňuje spustit paralelní oblast pokud je splněna podmínka. Pokud není splněna, spustí se pouze v jednom vláknu.
+
+Tags: otazka05
 <!--ID: 1749135989779-->
 END
 
@@ -357,6 +395,8 @@ Definice: **vlákno**
 Back:
 
 **Vlákno (Thread):** Entita provádění s **vlastním zásobníkem** a přidruženou **statickou pamětí**, nazývanou threadprivate paměť.
+
+Tags: otazka05
 <!--ID: 1746518365467-->
 END
 
@@ -371,6 +411,8 @@ Definice: **Počáteční vlákno**
 Back:
 
 **Počáteční vlákno (Initial thread):** Vlákno, které začne vykonávat OpenMP program.
+
+Tags: otazka05
 <!--ID: 1746518365469-->
 END
 
@@ -384,6 +426,8 @@ Definice: **Skupina soutěžících vláken (contention group)**
 Back:
 
 **Skupina soutěžících vláken (Contention group):** Počáteční vlákno a všechna jeho potomkovská vlákna.
+
+Tags: otazka05
 <!--ID: 1746518365472-->
 END
 
@@ -398,6 +442,8 @@ Definice: **Aktuální tým (Current team)**
 Back:
 
 **Aktuální tým (Current team):** Všechna vlákna v týmu vykonávajícím nejvnitřnější obklopující paralelní oblast.
+
+Tags: otazka05
 <!--ID: 1746518365475-->
 END
 
@@ -412,6 +458,8 @@ Definice: **Vláknově bezpečná rutina (Thread-safe routine)**
 Back:
 
 **Vláknově bezpečná rutina (Thread-safe routine):** Rutina, která vykonává zamýšlenou funkci i při současném vykonávání více vlákny.
+
+Tags: otazka05
 <!--ID: 1746518365478-->
 END
 
@@ -430,6 +478,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102459.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365480-->
 END
 
@@ -448,6 +498,8 @@ Určují, jakým způsobem se chová OpenMP program (při vytváření vláken a
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102702.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365483-->
 END
 
@@ -469,6 +521,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227102713.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka05
 <!--ID: 1746518365486-->
 END
 
@@ -486,6 +540,8 @@ Back:
 
 - Je to forma **datového (iteračního) paralelismu**
 - Na konci cyklu je implicitní bariéra
+
+Tags: otazka06
 <!--ID: 1746518365491-->
 END
 
@@ -505,6 +561,8 @@ Back:
 	- `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
 - `ordered` - iterace musí být vykonávány v sekvenčním pořadí
 - `nowait` - pokud to tam nedám, tak všechna vlákna, co počítali for loop, budou čekat až do konce iteračního výpočtu. Nowait umožní vyskočit z těla toho cyklu a nečekat na ostatní
+
+Tags: otazka06
 <!--ID: 1746518365494-->
 END
 
@@ -540,6 +598,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227104146.png)
 ![](../../Assets/Pasted%20image%2020250227104157.png)
 <!-- ExampleEnd -->
+
+Tags: otazka06
 <!--ID: 1746518365497-->
 END
 
@@ -560,6 +620,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227104511.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka06
 <!--ID: 1746518365499-->
 END
 
@@ -588,6 +650,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227104943.png)
 ![](../../Assets/Pasted%20image%2020250227104949.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka06
 <!--ID: 1746518365502-->
 END
 
@@ -605,6 +669,8 @@ Co z těchto paralelizací bude většinou nejlepší?
 Back:
 
 Typicky ta **(5)**, protože 6 a 7 jsou hendikepovaný bariérama.
+
+Tags: otazka06
 <!--ID: 1746518365504-->
 END
 
@@ -625,6 +691,8 @@ Dvě možnosti paralelizace vnitřního cyklu:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227105218.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka06
 <!--ID: 1746518365507-->
 END
 
@@ -652,6 +720,8 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250227110308.png)
 <!-- DetailInfoEnd -->
+
+Tags: otazka07
 <!--ID: 1746518365509-->
 END
 
@@ -677,6 +747,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250227110347.png)
 ![](../../Assets/Pasted%20image%2020250227110357.png)
 <!-- ExampleEnd -->
+
+Tags: otazka07
 <!--ID: 1746518365512-->
 END
 
@@ -691,6 +763,8 @@ Co dělá `#pragma omp taskwait`?
 Back:
 
 rodičovská úloha čeká na doběhnutí všech synů při task paralelismu
+
+Tags: otazka07
 <!--ID: 1749140734242-->
 END
 
@@ -713,6 +787,8 @@ Back:
 Další které jsem se rozhodl nepamatovat:
 - `omp_set_num_threads(int i)` - změní počet vytvořených vláken v následujících paralelních oblastech na hodnotu parametru $i$
 - `omp_get_wtime()` - vrátí číslo, které udává uběhnutý čas od nějakého okamžiku v minulosti.
+
+Tags: otazka07
 <!--ID: 1746518365515-->
 END
 

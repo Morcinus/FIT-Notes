@@ -1473,6 +1473,11 @@ Back:
 
 dva OAB stromy jsou vzájemně časově hranově disjunktní (TADT) $\iff$ každém kroku jsou množiny aktivních hran (tj. hran na úrovni i od kořene) disjunktní
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250610163421.png)
+<!-- DetailInfoEnd -->
+
+
 Tags: otazka39
 <!--ID: 1749565106124-->
 END
@@ -1515,7 +1520,7 @@ END
 START
 FIT-Card
 
-Jak vypadá TADT ve 2D toroidu $K(z,z)$ s lichým?
+Jak vypadá TADT ve 2D toroidu $K(z,z)$ s lichým $z$?
 
 Back:
 
@@ -1533,7 +1538,7 @@ END
 START
 FIT-Card
 
-Jak vypadá TADT ve 3D toroidu $K(z,z)$ s lichým?
+Jak vypadá TADT ve 3D toroidu $K(z,z)$ s lichým $z$?
 
 Back:
 
@@ -1556,6 +1561,8 @@ Kdy jsou TADT optimální?
 Back:
 
 krokově optimální, pokud jsou na všech úrovních (kromě poslední) použity hrany všech směrů
+
+úroveň je jakoby "vrstva" vzdálená od kořene (podobně jako třeba úrovně/vrstvy v binárním stromu)
 
 Tags: otazka39
 <!--ID: 1749565106138-->
@@ -1791,6 +1798,11 @@ $$\tau_{AAS}(G,\mu) = \frac{\lceil N/2 \rceil \lfloor N/2 \rfloor \mu t_m}{\math
 
 Dovysvětlení
 komunikace mezi polovinami grafu musí v nejhorším případě projít přes $\mathrm{bw}_e(G)$ hran
+
+ChatGPT vysvětlení:
+<!-- ExplanationStart -->
+![](../../Assets/Pasted%20image%2020250610170740.png)
+<!-- ExplanationEnd -->
 
 Tags: otazka40
 <!--ID: 1749565106154-->
