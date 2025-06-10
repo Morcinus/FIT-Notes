@@ -17,6 +17,9 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419111531.png)
 
+$\varphi$ je "fí"
+$\xi$ je "xí"
+
 Tags: otazka31
 <!--ID: 1746599652712-->
 END
@@ -27,14 +30,14 @@ END
 START
 FIT-Card
 
-Jaké metriky se dají měřit u kvality vnoření?
+Jaké metriky se dají měřit u kvality vnoření? (4)
 
 Back:
 
-- **maximální zatížení hostitelského uzlu** - kolik procesů běží na jednom uzlu
-- **expanze vnoření** - kolik počítačů využijeme k výpočtu našeho programu
-- **maximální dilatace zdrojových hran v hostitelské síti** - když 2 procesy komunikují v MPI, jak daleko budou - když jsou daleko, tak to zpomaluje
-- **maximální zahlcení hostitelské hrany** - když je více komunikace na delší vzdálenost, tak se může stát že na jedné fyzické lince probíhá více komunikací a zahltí se to tím (stejně jako se třeba zahltí internetová síť)
+- **maximální zatížení hostitelského uzlu**
+- **maximální zahlcení hostitelské hrany**
+- **maximální dilatace zdrojových hran v hostitelské síti**
+- **expanze vnoření**
 
 Tags: otazka31
 <!--ID: 1746599652719-->
@@ -52,6 +55,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419111947.png)
 
+Tzn. **kolik uzlů vnořené sítě je maximálně namapováno na jeden uzel hostitelské sítě**
+
 Tags: otazka31
 <!--ID: 1746599652726-->
 END
@@ -67,6 +72,11 @@ Jak se spočte **expanze vnoření**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112003.png)
+
+Vysvětlení:
+- Poměr počtu uzlů v hostitelské síti ku počtu uzlů ve vnořené síti.
+- Měří **"zvětšení"** — kolik fyzických zdrojů je potřeba pro vnoření.
+- Čím větší expanze, tím víc uzlů potřebuješ pro simulaci jednoho uzlu.
 
 Tags: otazka31
 <!--ID: 1746599652733-->
@@ -84,6 +94,14 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419112029.png)
 
+Když zobrazíme hranu z $G$ do $H$, tak jak bude dlouhá. Dilatace je ta nejdelší (jakoby největší roztáhnutí té hrany).
+
+Vysvětlení ChatGPT
+Nejdelší vzdálenost (v počtu hran), kterou musí vnořená logická hrana urazit v hostitelské síti.
+- Jinak řečeno, jak "dlouho" trvá emulovat jednu přímou logickou hranu ve fyzické síti.
+- **Maximální dilatace** je největší počet kroků, který je potřeba pro libovolnou logickou hranu.
+_Příklad:_ Pokud máš logickou hranu mezi dvěma uzly, ale v hostitelské síti je to cesta o 5 krocích, pak dilatace = 5.
+
 Tags: otazka31
 <!--ID: 1746599652741-->
 END
@@ -99,6 +117,8 @@ Jak se spočte **maximální zahlcení hostitelské hrany**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419112046.png)
+
+Kolik logických hran je vnořeno přes jednu hostitelskou hranu
 
 Tags: otazka31
 <!--ID: 1746599652747-->
@@ -174,7 +194,7 @@ END
 START
 FIT-Card
 
-Lemma: **ekvivalence kvaziizometrických sítí**
+Lemma: **výpočetní ekvivalence kvaziizometrických sítí**
 
 Back:
 
@@ -237,9 +257,14 @@ END
 START
 FIT-Card
 
-Proč jsou mřížky a toroidy kvaziizometrické?
+**Důkaz**: Proč jsou mřížky a toroidy kvaziizometrické?
 
 Back:
+
+1. Část 1: Mřížka je triviálně podmnožinou toroidu
+2. Část 2: Toroid do mřížky
+	1. Nastavíme $\text{load} = 1$ (tedy promítneme vrcholy na stejné vrcholy)
+	2. Nastavíme $\text{ecng} = 2$ tak, že pro každou dimenzi vytvoříme hrany tak, že přeskakujem ob jednu, čímž jakoby vytvoříme tu kružnici, co je v toroidu (viz obrázek)
 
 ![](../../Assets/Pasted%20image%2020250608202943.png)
 
@@ -257,8 +282,11 @@ Proč je otevřený motýlek a kružnicový motýlek kvaziizometrický?
 
 Back:
 
+1. Část 1: $oBF_n$ triviálně vnoříme s $\text{load} = 2$ a $\text{dil} = 1$ do uzavřeného motýlka tak, že sloučíme koncové uzly řad $oBF_n$, čímž dostaneme kružnice v $wBF_n$
+2. Část 2: $wBF_n$ vnoříme do $oBF_n$ s $\text{load} = 1$ a $\text{dil} = 3$ (důkaz je docela složitý no.. asi se to nebudu učit) využívá to automorfismus na řádky (permutace), aby sloupce nebyly v pořadí 0,1,2,3, ale např. 1,3,2,0
+
 ![](../../Assets/Pasted%20image%2020250608203036.png)
-(2) je fuj konstruktivní důkaz přes několik stránek, mluví ale o tom, že musíme invertovat v jiném pořadí než 0,1,2,3… např. 1,3,2,0 při n=4, aby dilatace byla nejvýše 3. Díky vrcholové a řádkové symetričnosti wBF může
+(2) je fuj konstruktivní důkaz přes několik stránek, mluví ale o tom, že musíme invertovat v jiném pořadí než 0,1,2,3… např. 1,3,2,0 při n=4, aby dilatace byla nejvýše 3. Díky vrcholové a řádkové symetričnosti $wBF$ můžeme použít automorfismus na řádky, aby pak sloupce byly v pořadí 1,3,2,0.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250419114313.png)
@@ -417,7 +445,9 @@ Jak funguje Mortonova křivka?
 
 Back:
 
-jednotlivé hyperkubické souřadnice se mapují rekurzivně střídavě ve směru osy x a y
+Souřadnice $Q_{2k}$ se vnořují rekurzivně na střídačku:
+$\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [b_{2k-1}, b_{2k-3} \dots b_k, b_{2k-2}, b_{2k-4}, \dots, b_0]$
+
 
 ![](../../Assets/Pasted%20image%2020250419114055.png)
 
@@ -433,7 +463,7 @@ END
 START
 FIT-Card
 
-Lemma: Co platí po Mortonovy křivky?
+Lemma: Jaká je vzdálenost dvou uzlů v Mortonových křivkách?
 
 Back:
 
@@ -471,8 +501,8 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419114211.png)
 
-lexikografické mapování po řádcích a po sloupcích = Svobodova mapa: 
-![](../../Assets/Pasted%20image%2020250608203426.png)
+Tzn.
+$$2^{k-1}$$
 
 Tags: otazka32
 <!--ID: 1746599652884-->
@@ -484,7 +514,29 @@ END
 START
 FIT-Card
 
-Kdy se hodí vznořit hyperkrychli do  nízkodimenzionálních mřížek?
+Když chceme mapovat $Q_{2k} \rightarrow M(2^k,2^k)$ a $\text{load}=1$, jakou funkci $\varphi$ chceme použít?
+
+Jakou **obecně** a jakou třeba **konkrétně**?
+
+Back:
+
+Chceme použít funkci ve tvaru $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [x_{k-1} \dots x_0, y_{k-1} \dots y_0]$, která je **prostá a na**.
+
+Konkrétně **Svobodova mapa** (lexikografické mapování)  $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [b_{2k-1} \dots b_k, b_{k-1} \dots b_0]$
+
+Pozn. toto platí pro $2D$, ale dá se to zobecnit pro ostatní dimenze.
+
+Tags: otazka32
+<!--ID: 1749553670422-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy se hodí vznořit hyperkrychli do nízkodimenzionálních mřížek?
 
 Back:
 
@@ -500,13 +552,12 @@ END
 START
 FIT-Card
 
-Jak lze vnořit hyperkrychly do nízkodimenzionálních mřížek?
+Jakými způsoby lze vnořovat **hyperkrychle** do **mřížek**?
 
 Back:
 
-- konstruujeme prostou a na funkci (vnoření), ale chceme nějakou jednoduchou
-    - lexikografické mapování po řádcích a po sloupcích = Svobodova mapa: $-φ(b2k−1b2k−2 . . . b0) = [b2k−1 . . . bk, bk−1 . . . b0]$.
-    - Mortonovy křivky = jednotlivé hyperkubické souřadnice se mapují rekurzivně střídavě ve směru osy x a y
+- Pomocí funkcí tvaru $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [x_{k-1} \dots x_0, y_{k-1} \dots y_0]$, které jsou **prosté a na**
+- Pomocí **Mortonových křivek**
 
 Tags: otazka32
 <!--ID: 1749408692090-->
@@ -568,6 +619,9 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419121326.png)
 
+Adresa řádků jsou myšleny řádky v tomto obrázku (bity):
+![](../../Assets/Pasted%20image%2020250610113553.png)
+
 Tags: otazka31
 <!--ID: 1746599652904-->
 END
@@ -583,6 +637,9 @@ Lemma: kolik automorfismů má $oBF_n$
 Back:
 
 ![](../../Assets/Pasted%20image%2020250419121344.png)
+
+Adresa řádků jsou myšleny řádky v tomto obrázku (bity):
+![](../../Assets/Pasted%20image%2020250610113445.png)
 
 Tags: otazka31
 <!--ID: 1746599652912-->

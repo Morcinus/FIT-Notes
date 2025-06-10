@@ -783,6 +783,8 @@ Back:
 
 $$\tau^{WH}_{OAB,k}(G,\mu,s) = \rho (t_s + \mu t_m) + \gamma (t_r + t_w + t_m)$$
 
+(totéž co SF)
+
 Tags: otazka35
 <!--ID: 1749409802252-->
 END
@@ -926,6 +928,97 @@ END
 START
 FIT-Card
 
+Jaké jsou spodní meze WH OAB v toroidech?
+
+Back:
+
+Stejné jako pro WH OAB, ale pro $k=2n$
+
+($n$ počet dimenzí)
+
+Takže pro 2 dimenzionální toroid $K(z,z)$ budeme mít spodní meze pro $k=4$
+
+Tags: otazka36
+<!--ID: 1749556144569-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Algoritmus: **WH OAB pomocí zobecněné diagonály v toroidu $K$**
+
+Back:
+
+“rekurzivní dělení na pětiny”
+
+**Fáze 1:** (”dostat jeden paket do každého řádku”)
+- rozděl toroid do pěti stejných horizontálních pásů
+- pošli paket ze zdrojového pásu do ostatních čtyř (hranově disjunktně XY směrováním)
+- rekurzivně totéž v každém pásu, dokud paket není v každém řádku
+
+**Fáze 2**:
+- v každém řádku paralelně přepošli pakety na hlavní diagonálu (jeden krok)
+
+**Fáze 3** (”z diagonály do zbývajících uzlů”)
+- rozděl toroid do pěti stejných diagonálních pásů (jeden má uprostřed hlavní diagonálu)
+- pošli paket z hlavní diagonály do diagonál ostatních čtyř pásů (hranově disjunktně)
+- rekurzivně totéž v každém diagonálním pásu
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250419125332.png)
+![](../../Assets/Pasted%20image%2020250419125341.png)
+<!-- ImageEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250419125409.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka36
+<!--ID: 1746599652522-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaká je kroková složitost algoritmu:
+**WH OAB pomocí zobecněné diagonály v toroidu $K$**
+
+Back:
+
+$$2 \lceil \log_5 z \rceil + 1$$
+
+Tags: otazka36
+<!--ID: 1749556144581-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy je algoritmus **WH OAB pomocí zobecněné diagonály v toroidu $K$** optimální?
+
+Back:
+
+Ve čtvercovém toroidu $K(z,z)$ když je $z$ mocnina pětky.
+
+Tags: otazka36
+<!--ID: 1749556144584-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Jak funguje WH OAB na všeportových mřížkách a toroidech?
 
 Back:
@@ -942,12 +1035,12 @@ END
 START
 FIT-Card
 
-Algoritmus: WH OAB zobecněná diagonála popis
+Lemma: WH skupinové vysílání (Multicast)
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250419125409.png)
-<!--ID: 1746599652522-->
+![](../../Assets/Pasted%20image%2020250419125437.png)
+<!--ID: 1746599652531-->
 END
 
 ---
@@ -956,12 +1049,101 @@ END
 START
 FIT-Card
 
-Lemma: WH skupinové vysílání (Multicast)
+Čemu je rovna mez:
+$$  
+
+\eta^{WH}_{MC,k}(G,s)$$
 
 Back:
 
-![](../../Assets/Pasted%20image%2020250419125437.png)
-<!--ID: 1746599652531-->
+$$\eta^{WH}_{MC,k}(G,s) = |\mathcal{M}| - 1$$
+
+(stejně jako u OAB, jen s $\mathcal{M}$)
+
+Tags: otazka37
+<!--ID: 1749557767159-->
+END
+
+---
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\rho^{WH}_{MC,k}(G,s)$$
+
+Back:
+
+$$\rho^{WH}_{MC,k}(G,s) = \lceil \log_{k+1}|\mathcal{M}| \rceil$$
+
+(stejně jako u OAB, jen s $\mathcal{M}$)
+
+Tags: otazka37
+<!--ID: 1749557767172-->
+END
+
+---
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\gamma^{WH}_{MC,k}(G,s)$$
+
+Back:
+
+$$\gamma^{WH}_{MC,k}(G,s) = \mathrm{exc}(s,G, \mathcal{M})$$
+
+(stejně jako u OAB, jen s $\mathcal{M}$)
+
+Tags: otazka37
+<!--ID: 1749557767174-->
+END
+
+---
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\tau^{WH}_{MC,k}(G,\mu,s)$$
+
+Back:
+
+$$\tau^{WH}_{MC,k}(G,\mu,s) = \rho (t_s + \mu t_m) + \gamma (t_r + t_w + t_m)$$
+
+(stejně jako u OAB)
+
+Tags: otazka37
+<!--ID: 1749557767177-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Algoritmus: **RD** v 1-portové 2D mřížce $M$?
+
+Back:
+
+1. uzly v $\mathcal M$ dimenzionálně uspořádej (= seřaď lexikograficky podle souřadnic zleva)
+2. rozděl tuto posloupnost na levou a pravou půlku
+3. je-li zdroj v levé půlce, pošle paket prvnímu v pravé půlce, jinak poslednímu v levé
+    - vlastně si představíme, že máme jen 1D mřížku a v ní seřazené jen cílové uzly
+4. rekurzivně totéž v obou polovinách
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020250610141517.png)
+<!-- ImageEnd -->
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250610141529.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka37
+<!--ID: 1749557767180-->
 END
 
 ---
@@ -1032,6 +1214,117 @@ END
 START
 FIT-Card
 
+Co znamená, že je OAS **kombinující**?
+
+Back:
+
+**kombinující** = zprávy jdoucí stejným směrem se slučují a v cílech zase rozdělují
+
+Tags: otazka38
+<!--ID: 1749561465649-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co přesně znamená OAS? (aka jak se posílají zprávy)
+
+Back:
+
+OAS = one-to-all scatter
+
+Posílám **všem stejně velké pakety**, ale každému **jiný obsah**
+
+Tags: otazka38
+<!--ID: 1749561465664-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\gamma_{OAS,k}(G,s)$$
+
+Back:
+
+$$\gamma_{OAS,k}(G,s) = \mathrm{exc}(s,G)​$$
+
+Tags: otazka38
+<!--ID: 1749561465666-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$ 
+
+\rho_{OAS,k}(G,s)$$
+
+Back:
+
+Stejně jako v $OAB$
+$$ 
+
+\rho^{WH}_{OAS,k}(G,s)= \lceil \log_{k+1}|V(G)| \rceil$$
+
+Tags: otazka38
+<!--ID: 1749561465669-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\tau_{OAS,k}(G,\mu,s)$$
+Back:
+
+$\tau_{OAS,k}(G,\mu,s) = \rho t_s + \gamma (t_r + t_w + t_m) + \lceil \frac{|V(G)|-1}{k} \rceil \mu t_m$
+
+Tzn. jako OAB, jen se roztrhne a trochu změní ta první závorka
+
+Tags: otazka38
+<!--ID: 1749561465672-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké algoritmy se používají pro **kombinující OAS**? Kde jsou optimální? (2)
+
+- pro SF
+- pro WH
+
+Back:
+
+- Pro SF: **binomiální kostra** (SBT) - optimální v 1-portové hyperkrychli
+- Pro WH: **rekurzivní zdvojování/znásobování** - optimální v mřížkách a toroidech
+
+Tags: otazka38
+<!--ID: 1749561465675-->
+END
+
+---
+
+
+START
+FIT-Card
+
 Jak vypadá kombinující WH OAS pro 1-portovou hyperkrychli?
 
 Back:
@@ -1055,6 +1348,263 @@ Back:
 END
 
 ---
+
+
+START
+FIT-Card
+
+Co je nekombinující model posílání zpráv?
+
+Back:
+
+Všechny zprávy se posílají samostatně
+
+Tags: otazka39
+<!--ID: 1749565106105-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co jsou AAB a AAG?
+
+Back:
+
+- AAG = all-to-all-gather = pro naše účely totéž co AAB (`MPI_AllGather`)
+- AAB = all-to-all broadcast (každý uzel má jinou zprávu, kterou posílá všem)
+
+Tags: otazka39
+<!--ID: 1749565106108-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké cesty předpokládáme u AAB a AAG?
+
+Back:
+
+plně duplexní
+
+Tags: otazka39
+<!--ID: 1749565106110-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\rho^{SF}_{AAB,k}(G)$$
+
+Back:
+
+$$\rho^{SF}_{AAB,k}(G) = \left \lceil \frac{|V(G)|-1}{k} \right \rceil$$
+
+Tags: otazka39
+<!--ID: 1749565106113-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\tau^{SF}_{AAB,k}(G,\mu)$$
+
+Back:
+
+$$\tau^{SF}_{AAB,k}(G,\mu) = \rho (t_s + \mu t_m)$$
+
+Tags: otazka39
+<!--ID: 1749565106116-->
+END
+
+---
+
+
+START
+FIT-Card
+
+U AAB/AAG, na co se dá rozdělit komunikace?
+
+Back:
+
+Na OAB stromy $B(u)$, kde je kořen $u$ a kostra $G$
+
+Tags: otazka39
+<!--ID: 1749565106119-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaké algoritmy se dají používat pro AAB/AAG
+
+Back:
+
+- **časově-hranově disjunktní stromy** (TADT)
+- **hranově disjunktní hamiltonovské kružnice**
+<!--ID: 1749565106121-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy jsou dva OAB stromy vzájemně **časově-hranově disjunktní** (TADT)?
+
+Back:
+
+dva OAB stromy jsou vzájemně časově hranově disjunktní (TADT) $\iff$ každém kroku jsou množiny aktivních hran (tj. hran na úrovni i od kořene) disjunktní
+
+Tags: otazka39
+<!--ID: 1749565106124-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je vztah TADT a koliznosti?
+
+Back:
+
+Pokud jsou všechny OAB stromy TADT, pak je přenos bezkolizní
+
+Tags: otazka39
+<!--ID: 1749565106127-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jaký je vztah TADT a izomorfnosti?
+
+Back:
+
+všechny TADT jsou izomorfní
+
+Tags: otazka39
+<!--ID: 1749565106130-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadá TADT ve 2D toroidu $K(z,z)$ s lichým?
+
+Back:
+
+4 rotace 2D hada pokrývajícího čtvrtinu roviny
+
+![](../../Assets/Pasted%20image%2020250610160526.png)
+
+Tags: otazka39
+<!--ID: 1749565106132-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak vypadá TADT ve 3D toroidu $K(z,z)$ s lichým?
+
+Back:
+
+6 rotací 3D hada vyplňujícího pyramidu
+
+![](../../Assets/Pasted%20image%2020250610160609.png)
+
+Tags: otazka39
+<!--ID: 1749565106135-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy jsou TADT optimální?
+
+Back:
+
+krokově optimální, pokud jsou na všech úrovních (kromě poslední) použity hrany všech směrů
+
+Tags: otazka39
+<!--ID: 1749565106138-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Kdy se dá využít algoritmus **hranově disjunktní hamiltonovské kružnice** pro AAB/AAG?
+
+Back:
+
+pro **2D toroidy**, ale není krokově optimální
+
+(pro 2D mřížky není vůbec použitelné)
+
+Tags: otazka39
+<!--ID: 1749565106140-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje algoritmus:
+**hranově disjunktní hamiltonovské kružnice**
+
+Back:
+
+1. najdeme dvě hranově disjunktní hamiltonovské kružnice $H_1, H_2$
+2. každý uzel $i$ růzpůlí svůj paket $p_i$ na stejně velké $p_{i,1}, p_{i,2}$
+3. pošle $p_{i,1}$ v obou směrech po $H_1$ a $p_{i,2}$ v obou směrech po $H_2$
+4. v každém dalším kroku každý uzel přijme a uloží 4 půlpakety, přepošle je dál a zároveň si postupně skládá odpovídající půlky zpátky
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020250610161118.png)
+<!-- DetailInfoEnd -->
+
+Tags: otazka39
+<!--ID: 1749565106143-->
+END
+
+---
+
 
 
 START
@@ -1169,6 +1719,81 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020250419130144.png)
 <!--ID: 1746599652625-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Co je rozesílání $AAS$?
+
+Back:
+
+AAS = all-to-all scatter (úplná výměna, každý uzel má různé zprávy pro každého příjemce)
+
+Tags: otazka40
+<!--ID: 1749565106146-->
+END
+
+---
+
+START
+FIT-Card
+
+Jaké cesty předpokládáme u AAS?
+
+Back:
+
+plně duplexní všeportové sítě
+
+Tags: otazka40
+<!--ID: 1749565106149-->
+END
+
+---
+
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\tau_{AAS}(G,\mu)$$
+
+**odvozená od síťové propustnosti**
+
+Back:
+
+$$\tau_{AAS}(G,\mu) = \frac{1}{2 |E(G)|} \left( \sum_{u \neq v} \mathrm{dist}_G(u,v) \right) \mu t_m$$
+
+Dovysvětlení:
+- $2 |E(G)|$ je maximum hran použitelných v jednom kroku (dvojka díky plné duplexnosti)
+- $\sum$ v závorce je minimální počet potřebných hran pro přenos mezi každou dvojicí uzlů
+
+Tags: otazka40
+<!--ID: 1749565106151-->
+END
+
+---
+
+START
+FIT-Card
+
+Čemu je rovna mez:
+$$\tau_{AAS}(G,\mu)$$
+
+**odvozená od bisekční šířky**
+
+Back:
+
+$$\tau_{AAS}(G,\mu) = \frac{\lceil N/2 \rceil \lfloor N/2 \rfloor \mu t_m}{\mathrm{bw}_e(G)}$$
+
+Dovysvětlení
+komunikace mezi polovinami grafu musí v nejhorším případě projít přes $\mathrm{bw}_e(G)$ hran
+
+Tags: otazka40
+<!--ID: 1749565106154-->
 END
 
 ---
