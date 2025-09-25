@@ -78,7 +78,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923130004.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1758792249162-->
 END
 
@@ -99,7 +98,6 @@ Jsou tam všechny právnické osoby a fyzické osoby, co se nechaly registrovat.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1758792249169-->
 END
 
@@ -232,7 +230,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923131428.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1758792249208-->
 END
 
@@ -287,7 +284,6 @@ Fun fact:
 - Přestupkový rejstřík nic nemaže - **takže je lepší někoho zabít, než jet rychle**
 
 <!-- DetailInfoEnd -->
-
 <!--ID: 1758792249225-->
 END
 

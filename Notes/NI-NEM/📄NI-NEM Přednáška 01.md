@@ -137,7 +137,6 @@ Měsíc
 Back:
 
 r Monat
-
 <!--ID: 1758792359008-->
 END
 
@@ -151,7 +150,6 @@ Leden
 Back:
 
 r Januar
-
 <!--ID: 1758792359014-->
 END
 
@@ -165,7 +163,6 @@ FIT-Card
 Back:
 
 r Februar
-
 <!--ID: 1758792359019-->
 END
 
@@ -179,7 +176,6 @@ Březen
 Back:
 
 r März
-
 <!--ID: 1758792359026-->
 END
 
@@ -193,7 +189,6 @@ Duben
 Back:
 
 r April
-
 <!--ID: 1758792359032-->
 END
 
@@ -207,7 +202,6 @@ Květen
 Back:
 
 r Mai
-
 <!--ID: 1758792359038-->
 END
 
@@ -221,7 +215,6 @@ FIT-Card
 Back:
 
 r Juni
-
 <!--ID: 1758792359043-->
 END
 
@@ -235,7 +228,6 @@ FIT-Card
 Back:
 
 r Juli
-
 <!--ID: 1758792359048-->
 END
 
@@ -249,7 +241,6 @@ Srpen
 Back:
 
 r August
-
 <!--ID: 1758792359053-->
 END
 
@@ -263,7 +254,6 @@ Září
 Back:
 
 r September
-
 <!--ID: 1758792359059-->
 END
 
@@ -277,7 +267,6 @@ FIT-Card
 Back:
 
 r Oktober
-
 <!--ID: 1758792359066-->
 END
 
@@ -291,7 +280,6 @@ Listopad
 Back:
 
 r November
-
 <!--ID: 1758792359072-->
 END
 
@@ -305,7 +293,6 @@ Prosinec
 Back:
 
 r Dezember
-
 <!--ID: 1758792359077-->
 END
 

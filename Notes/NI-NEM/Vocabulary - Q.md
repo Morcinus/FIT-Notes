@@ -8,5 +8,21 @@ TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
 ## Vocabulary
-
 - das Quiz,- 1
+
+## Flashcards
+
+START
+FIT-Card
+
+kvíz
+
+Back:
+
+das Quiz,-
+
+Tags: lesson1
+<!--ID: 1758825178957-->
+END
+
+---
