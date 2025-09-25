@@ -138,6 +138,7 @@ Back:
 
 r Monat
 
+<!--ID: 1758792359008-->
 END
 
 ---
@@ -151,6 +152,7 @@ Back:
 
 r Januar
 
+<!--ID: 1758792359014-->
 END
 
 ---
@@ -164,6 +166,7 @@ Back:
 
 r Februar
 
+<!--ID: 1758792359019-->
 END
 
 ---
@@ -177,6 +180,7 @@ Back:
 
 r März
 
+<!--ID: 1758792359026-->
 END
 
 ---
@@ -190,6 +194,7 @@ Back:
 
 r April
 
+<!--ID: 1758792359032-->
 END
 
 ---
@@ -203,6 +208,7 @@ Back:
 
 r Mai
 
+<!--ID: 1758792359038-->
 END
 
 ---
@@ -216,6 +222,7 @@ Back:
 
 r Juni
 
+<!--ID: 1758792359043-->
 END
 
 ---
@@ -229,6 +236,7 @@ Back:
 
 r Juli
 
+<!--ID: 1758792359048-->
 END
 
 ---
@@ -242,6 +250,7 @@ Back:
 
 r August
 
+<!--ID: 1758792359053-->
 END
 
 ---
@@ -255,6 +264,7 @@ Back:
 
 r September
 
+<!--ID: 1758792359059-->
 END
 
 ---
@@ -268,6 +278,7 @@ Back:
 
 r Oktober
 
+<!--ID: 1758792359066-->
 END
 
 ---
@@ -281,6 +292,7 @@ Back:
 
 r November
 
+<!--ID: 1758792359072-->
 END
 
 ---
@@ -294,6 +306,7 @@ Back:
 
 r Dezember
 
+<!--ID: 1758792359077-->
 END
 
 ---
@@ -306,7 +319,7 @@ v lednu
 Back:
 
 im Januar
-
+<!--ID: 1758792359082-->
 END
 
 ---
@@ -319,7 +332,7 @@ v únoru
 Back:
 
 im Februar
-
+<!--ID: 1758792359087-->
 END
 
 ---
@@ -332,7 +345,7 @@ v březnu
 Back:
 
 im März
-
+<!--ID: 1758792359092-->
 END
 
 ---
@@ -345,7 +358,7 @@ v dubnu
 Back:
 
 im April
-
+<!--ID: 1758792359097-->
 END
 
 ---
@@ -358,7 +371,7 @@ v květnu
 Back:
 
 im Mai
-
+<!--ID: 1758792359102-->
 END
 
 ---
@@ -371,7 +384,7 @@ v červnu
 Back:
 
 im Juni
-
+<!--ID: 1758792359107-->
 END
 
 ---
@@ -384,7 +397,7 @@ v červenci
 Back:
 
 im Juli
-
+<!--ID: 1758792359113-->
 END
 
 ---
@@ -397,7 +410,7 @@ v srpnu
 Back:
 
 im August
-
+<!--ID: 1758792359118-->
 END
 
 ---
@@ -410,7 +423,7 @@ v září
 Back:
 
 im September
-
+<!--ID: 1758792359124-->
 END
 
 ---
@@ -423,7 +436,7 @@ v říjnu
 Back:
 
 im Oktober
-
+<!--ID: 1758792359129-->
 END
 
 ---
@@ -436,7 +449,7 @@ v listopadu
 Back:
 
 im November
-
+<!--ID: 1758792359135-->
 END
 
 ---
@@ -449,7 +462,7 @@ v prosinci
 Back:
 
 im Dezember
-
+<!--ID: 1758792359140-->
 END
 
 ---
@@ -462,7 +475,7 @@ V kterém měsíci ...?
 Back:
 
 In welchem Monat ...?
-
+<!--ID: 1758792359146-->
 END
 
 ---
@@ -477,7 +490,7 @@ Pondělí
 Back:
 
 r Montag
-
+<!--ID: 1758792359151-->
 END
 
 ---
@@ -490,7 +503,7 @@ FIT-Card
 Back:
 
 r Dienstag
-
+<!--ID: 1758792359156-->
 END
 
 ---
@@ -503,7 +516,7 @@ Středa
 Back:
 
 r Mittwoch
-
+<!--ID: 1758792359162-->
 END
 
 ---
@@ -516,7 +529,7 @@ FIT-Card
 Back:
 
 r Donnerstag
-
+<!--ID: 1758792359167-->
 END
 
 ---
@@ -529,7 +542,7 @@ Pátek
 Back:
 
 r Freitag
-
+<!--ID: 1758792359172-->
 END
 
 ---
@@ -542,7 +555,7 @@ Sobota
 Back:
 
 r Samstag
-
+<!--ID: 1758792359177-->
 END
 
 ---
@@ -555,7 +568,7 @@ Neděle
 Back:
 
 r Sonntag
-
+<!--ID: 1758792359183-->
 END
 
 ---
@@ -568,7 +581,7 @@ Víkend
 Back:
 
 s Wochenende
-
+<!--ID: 1758792359188-->
 END
 
 ---
@@ -581,7 +594,7 @@ v pondělí
 Back:
 
 am Montag
-
+<!--ID: 1758792359194-->
 END
 
 ---
@@ -594,7 +607,7 @@ v úterý
 Back:
 
 am Dienstag
-
+<!--ID: 1758792359199-->
 END
 
 ---
@@ -607,7 +620,7 @@ ve středu
 Back:
 
 am Mittwoch
-
+<!--ID: 1758792359205-->
 END
 
 ---
@@ -620,7 +633,7 @@ ve čtvrtek
 Back:
 
 am Donnerstag
-
+<!--ID: 1758792359210-->
 END
 
 ---
@@ -633,7 +646,7 @@ v pátek
 Back:
 
 am Freitag
-
+<!--ID: 1758792359215-->
 END
 
 ---
@@ -646,7 +659,7 @@ v sobotu
 Back:
 
 am Samstag
-
+<!--ID: 1758792359221-->
 END
 
 ---
@@ -659,7 +672,7 @@ v neděli
 Back:
 
 am Sonntag
-
+<!--ID: 1758792359226-->
 END
 
 ---
@@ -672,7 +685,7 @@ V který den ...?
 Back:
 
 An welchem Tag ...?
-
+<!--ID: 1758792359231-->
 END
 
 ---
@@ -685,7 +698,7 @@ v pondělí (obvykle)
 Back:
 
 montags
-
+<!--ID: 1758792359237-->
 END
 
 ---
@@ -698,7 +711,7 @@ v úterý (obvykle)
 Back:
 
 dienstags
-
+<!--ID: 1758792359242-->
 END
 
 ---
@@ -711,7 +724,7 @@ ve středu (obvykle)
 Back:
 
 mittwochs
-
+<!--ID: 1758792359247-->
 END
 
 ---
@@ -724,7 +737,7 @@ ve čtvrtek (obvykle)
 Back:
 
 donnerstags
-
+<!--ID: 1758792359252-->
 END
 
 ---
@@ -737,7 +750,7 @@ v pátek (obvykle)
 Back:
 
 freitags
-
+<!--ID: 1758792359258-->
 END
 
 ---
@@ -750,7 +763,7 @@ v sobotu (obvykle)
 Back:
 
 samstags
-
+<!--ID: 1758792359272-->
 END
 
 ---
@@ -763,7 +776,7 @@ v neděli (obvykle)
 Back:
 
 sonntags
-
+<!--ID: 1758792359278-->
 END
 
 ---
@@ -778,7 +791,7 @@ ráno
 Back:
 
 r Morgen
-
+<!--ID: 1758792359283-->
 END
 
 ---
@@ -791,7 +804,7 @@ dopoledne
 Back:
 
 r Vormittag
-
+<!--ID: 1758792359288-->
 END
 
 ---
@@ -804,7 +817,7 @@ poledne
 Back:
 
 r Mittag
-
+<!--ID: 1758792359293-->
 END
 
 ---
@@ -817,7 +830,7 @@ odpoledne
 Back:
 
 r Nachmittag
-
+<!--ID: 1758792359298-->
 END
 
 ---
@@ -830,7 +843,7 @@ večer
 Back:
 
 r Abend
-
+<!--ID: 1758792359304-->
 END
 
 ---
@@ -843,7 +856,7 @@ noc
 Back:
 
 e Nacht
-
+<!--ID: 1758792359310-->
 END
 
 ---
@@ -856,7 +869,7 @@ půlnoc
 Back:
 
 e Mitternacht
-
+<!--ID: 1758792359315-->
 END
 
 ---
@@ -869,7 +882,7 @@ ráno (obvykle)
 Back:
 
 morgens
-
+<!--ID: 1758792359320-->
 END
 
 ---
@@ -882,7 +895,7 @@ dopoledne (obvykle)
 Back:
 
 vormittags
-
+<!--ID: 1758792359325-->
 END
 
 ---
@@ -895,7 +908,7 @@ poledne (obvykle)
 Back:
 
 mittags
-
+<!--ID: 1758792359331-->
 END
 
 ---
@@ -908,7 +921,7 @@ odpoledne (obvykle)
 Back:
 
 nachmittags
-
+<!--ID: 1758792359337-->
 END
 
 ---
@@ -921,7 +934,7 @@ večer (obvykle)
 Back:
 
 abends
-
+<!--ID: 1758792359341-->
 END
 
 ---
@@ -934,7 +947,7 @@ v noci
 Back:
 
 nachts
-
+<!--ID: 1758792359346-->
 END
 
 ---
@@ -947,7 +960,7 @@ ráno (konkrétně)
 Back:
 
 am Morgen
-
+<!--ID: 1758792359352-->
 END
 
 ---
@@ -960,7 +973,7 @@ odpoledne (konkrétně)
 Back:
 
 am Nachmittag
-
+<!--ID: 1758792359358-->
 END
 
 ---
@@ -973,7 +986,7 @@ večer (konkrétně)
 Back:
 
 am Abend
-
+<!--ID: 1758792359363-->
 END
 
 ---
@@ -986,7 +999,7 @@ v poledne (konkrétně)
 Back:
 
 am Mittag
-
+<!--ID: 1758792359368-->
 END
 
 ---
@@ -999,7 +1012,7 @@ o půlnoci (konkrétně)
 Back:
 
 um Mitternacht
-
+<!--ID: 1758792359373-->
 END
 
 ---
@@ -1014,7 +1027,7 @@ Kolik je hodin?
 Back:
 
 Wie spät ist es?
-
+<!--ID: 1758792359377-->
 END
 
 ---
@@ -1027,7 +1040,7 @@ Kolik je hodin? (použij slovo Uhr)
 Back:
 
 Wie viel Uhr ist es?
-
+<!--ID: 1758792359383-->
 END
 
 ---
@@ -1040,7 +1053,7 @@ V kolik hodin ...? (.. se setkáme např.)
 Back:
 
 Um wie viel Uhr ...?
-
+<!--ID: 1758792359388-->
 END
 
 ---
@@ -1053,7 +1066,7 @@ Je jedna hodina.
 Back:
 
 Es ist ein Uhr (Es ist eins).
-
+<!--ID: 1758792359393-->
 END
 
 ---
@@ -1066,7 +1079,7 @@ Je dvě hodiny.
 Back:
 
 Es ist zwei (Uhr).
-
+<!--ID: 1758792359399-->
 END
 
 ---
@@ -1079,7 +1092,7 @@ FIT-Card
 Back:
 
 Es ist fünf nach zwei.
-
+<!--ID: 1758792359405-->
 END
 
 ---
@@ -1092,7 +1105,7 @@ FIT-Card
 Back:
 
 Es ist zehn nach zwei.
-
+<!--ID: 1758792359410-->
 END
 
 ---
@@ -1105,7 +1118,7 @@ FIT-Card
 Back:
 
 Es ist Viertel nach zwei.
-
+<!--ID: 1758792359415-->
 END
 
 ---
@@ -1118,7 +1131,7 @@ FIT-Card
 Back:
 
 Es ist halb zwei.
-
+<!--ID: 1758792359421-->
 END
 
 ---
@@ -1131,7 +1144,7 @@ FIT-Card
 Back:
 
 Es ist Viertel vor zwei.
-
+<!--ID: 1758792359426-->
 END
 
 ---
@@ -1144,7 +1157,7 @@ FIT-Card
 Back:
 
 Es ist zehn vor drei.
-
+<!--ID: 1758792359431-->
 END
 
 ---
@@ -1157,7 +1170,7 @@ FIT-Card
 Back:
 
 Es ist zwanzig vor drei.
-
+<!--ID: 1758792359437-->
 END
 
 ---
@@ -1170,7 +1183,7 @@ krátce po druhé
 Back:
 
 kurz nach zwei
-
+<!--ID: 1758792359442-->
 END
 
 ---
@@ -1183,7 +1196,7 @@ krátce před druhou
 Back:
 
 kurz vor zwei
-
+<!--ID: 1758792359447-->
 END
 
 ---
@@ -1196,7 +1209,7 @@ FIT-Card
 Back:
 
 Es ist acht Uhr am Abend.
-
+<!--ID: 1758792359452-->
 END
 
 ---
@@ -1209,7 +1222,7 @@ Sejdeme se kolem druhé.
 Back:
 
 Wir treffen uns gegen zwei (Uhr).
-
+<!--ID: 1758792359457-->
 END
 
 ---
@@ -1224,7 +1237,7 @@ Nepiješ pivo?
 Back:
 
 Trinkst du kein Bier?
-
+<!--ID: 1758792359462-->
 END
 
 ---
@@ -1239,7 +1252,7 @@ Trinkst du kein Bier?
 Back:
 
 Doch!
-
+<!--ID: 1758792359467-->
 END
 
 ---
@@ -1254,7 +1267,7 @@ Trinkst du kein Bier?
 Back:
 
 Nein.
-
+<!--ID: 1758792359473-->
 END
 
 ---
@@ -1269,7 +1282,7 @@ FIT-Card
 Back:
 
 e Zeit
-
+<!--ID: 1758792359479-->
 END
 
 ---
@@ -1282,7 +1295,7 @@ hodina (trvání)
 Back:
 
 e Stunde
-
+<!--ID: 1758792359484-->
 END
 
 ---
@@ -1295,7 +1308,7 @@ hodiny (přístroj) / „na hodinách”
 Back:
 
 e Uhr
-
+<!--ID: 1758792359489-->
 END
 
 ---
@@ -1308,7 +1321,7 @@ před / po
 Back:
 
 vor / nach
-
+<!--ID: 1758792359495-->
 END
 
 ---
@@ -1321,7 +1334,7 @@ FIT-Card
 Back:
 
 s Viertel
-
+<!--ID: 1758792359500-->
 END
 
 ---
@@ -1334,7 +1347,7 @@ půl (druhé)
 Back:
 
 halb (zwei)
-
+<!--ID: 1758792359505-->
 END
 
 ---
@@ -1347,7 +1360,7 @@ od ... do ...
 Back:
 
 von ... bis ...
-
+<!--ID: 1758792359510-->
 END
 
 ---
@@ -1360,7 +1373,7 @@ FIT-Card
 Back:
 
 **Was für** ein Auto ist das?
-
+<!--ID: 1758792359516-->
 END
 
 ---
@@ -1373,7 +1386,7 @@ FIT-Card
 Back:
 
 **Wie lange** warst du in Berlin?
-
+<!--ID: 1758792359521-->
 END
 
 ---
@@ -1386,7 +1399,7 @@ Byl jsem v Berlíně čtyři dny.
 Back:
 
 Ich war vier Tage (lang) in Berlin.
-
+<!--ID: 1758792359527-->
 END
 
 ---

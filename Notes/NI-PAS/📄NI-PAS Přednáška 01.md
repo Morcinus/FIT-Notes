@@ -16,7 +16,7 @@ Definice: Podnik
 Back:
 
 ![](../../Assets/Pasted%20image%2020250923125511.png)
-
+<!--ID: 1758792249140-->
 END
 
 ---
@@ -30,7 +30,7 @@ Jaké jsou druhy podniků?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250923125533.png)
-
+<!--ID: 1758792249151-->
 END
 
 ---
@@ -51,7 +51,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923125623.png)
 
 Tyto definice jsou konzistentní napříč EU. V ČR je většina firem mikro.
-
+<!--ID: 1758792249157-->
 END
 
 ---
@@ -79,7 +79,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923130004.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1758792249162-->
 END
 
 ---
@@ -100,7 +100,7 @@ Jsou tam všechny právnické osoby a fyzické osoby, co se nechaly registrovat.
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1758792249169-->
 END
 
 ---
@@ -118,7 +118,7 @@ Jsou tam hlavně statistické informace o podnicích.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1758792249175-->
 END
 
 ---
@@ -138,7 +138,7 @@ Je tam uvedeno, jaké činnosti (živnosti) může firma/člověk dělat.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1758792249181-->
 END
 
 ---
@@ -156,7 +156,7 @@ Jsou tam firmy co platí DPH nebo osoby identifikované k DPH
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1758792249185-->
 END
 
 ---
@@ -174,7 +174,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923130727.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1758792249191-->
 END
 
 ---
@@ -193,7 +193,7 @@ Back:
 - **Všechny zahraniční osoby** - fyzické i právnické
 - **Fyzické osoby** - pokud výše výnosů je víc než 12mil za dvě účetní období
 - **Fyzické osoby** - pokud provozují živnost průmyslovým způsobem
-
+<!--ID: 1758792249196-->
 END
 
 ---
@@ -208,7 +208,7 @@ Back:
 
 - **Fyzické osoby** - co bydlí v ČR
 - **Zahraniční fyzické osoby s bydlištěm ve státech EU**
-
+<!--ID: 1758792249202-->
 END
 
 ---
@@ -233,7 +233,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923131428.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1758792249208-->
 END
 
 ---
@@ -249,7 +249,7 @@ Back:
 - **živnostenská oprávnění**
 - **provozovny**
 - **zůčastněné osoby** (odpovědní zástupci)
-
+<!--ID: 1758792249214-->
 END
 
 ---
@@ -265,7 +265,7 @@ Back:
 - **volná živnost** - může dělat kdokoliv nad 18 let
 - **vázané živnosti a živnosti řemeslné** - potřeba doložení způsobilosti (vzdělání, praxe) nebo stanovení odpovědné osoby
 - **koncesované živnosti** - navíc vyžaduje další doklady (bezúhonnost, jiné požadavky na odpovědnou osobu)
-
+<!--ID: 1758792249219-->
 END
 
 ---
@@ -288,7 +288,7 @@ Fun fact:
 
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1758792249225-->
 END
 
 ---
@@ -302,7 +302,7 @@ Kdo se **povinně stane plátcem DPH**?
 Back:
 
 **Obrat** za předchozích nejvýše 12 kalendářních měsíců dosáhne **2 miliony Kč**
-
+<!--ID: 1758792249230-->
 END
 
 ---
@@ -316,7 +316,7 @@ Dá se k **DPH přihlásit dobrovolně**?
 Back:
 
 **Ano**, ale je to prý příšerný formulářový proces :D 
-
+<!--ID: 1758792249236-->
 END
 
 ---
@@ -338,7 +338,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250923133620.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1758792249242-->
 END
 
 ---
@@ -353,7 +353,7 @@ Back:
 
 - **IČ** - identifikační číslo organizace
 - **DIČ** - daňové identifikační číslo
-
+<!--ID: 1758792249247-->
 END
 
 ---
@@ -371,7 +371,7 @@ Back:
 Číslo, co se získá:
 - **zápisem do veřejného rejstříku** (typicky právnické osoby)
 - **zápisem v registru živnostenského podnikání** (typicky fyzické osoby)
-
+<!--ID: 1758792249253-->
 END
 
 ---
@@ -389,7 +389,7 @@ Back:
 - **podstatné** především pro osoby registrované v **registru plátců DPH**
 
 mají ho všichni, ale používají ho hlavně ty registrovaní k dani
-
+<!--ID: 1758792249260-->
 END
 
 ---
@@ -405,7 +405,7 @@ Back:
 Vypadá jako `CZxxxxxxxxxx`
 - u právnických osob IČ
 - u fyzických osob rodné číslo
-
+<!--ID: 1758792249352-->
 END
 
 ---
@@ -419,7 +419,7 @@ Jak moc se musí lišit název společnosti od existujících názvů? (rule of 
 Back:
 
 O 3 písmena a nesmí to znít foneticky stejně
-
+<!--ID: 1758792249362-->
 END
 
 ---
@@ -439,7 +439,7 @@ Back:
 - **Forma a vedení účetnictví**
 - **Zdravotní a sociální pojištění**
 - **Další povinnosti** ve vztahu k zaměstnancům
-
+<!--ID: 1758792249370-->
 END
 
 ---
@@ -453,7 +453,7 @@ Proč by člověk měl odvádět daň z příjmů a socko a zdrávko atd.?
 Back:
 
 Pokud to člověk nedělá, tak bude mít pak nižší důchod
-
+<!--ID: 1758792249380-->
 END
 
 ---
