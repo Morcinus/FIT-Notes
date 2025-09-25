@@ -434,11 +434,25 @@ Back:
 
 - **Rozhodnutí o zahájení** - udělat si podnikatelský plán. Pokud vyjde, že to dává smysl, tak se pokračuje dál
 - **Získání živnostenského oprávnění a registrace** ve veřejných rejstřících
-- **Registrace k dani z příjmu** (povinná!) a ostatním daním
+- **Registrace k dani z příjmu** (povinná pro fyzické i právnické) a ostatním daním
 - **Registrace k DPH**
 - **Forma a vedení účetnictví**
 - **Zdravotní a sociální pojištění**
 - **Další povinnosti** ve vztahu k zaměstnancům
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Proč by člověk měl odvádět daň z příjmů a socko a zdrávko atd.?
+
+Back:
+
+Pokud to člověk nedělá, tak bude mít pak nižší důchod
 
 END
 
