@@ -1,0 +1,78 @@
+---
+description: Guidelines for creating flashcards in the system
+globs:
+alwaysApply: true
+---
+
+# Flashcard Creation Guidelines
+
+In the Obsidian.md vault, there is the following folder structure:
+
+- `Notes/NI-[code]` is the folder where all lecture notes with flashcards are stored
+
+## Example lecture file
+
+File location: "Notes/NI-NEM/📄NI-NEM Přednáška 01"
+
+```markdown
+---
+created: 2025-09-25T09:43:15
+title: "Termíny"
+up: "[[📖NI-NEM]]"
+---
+
+TARGET DECK: NI-NEM
+FILE TAGS: NI-NEM prednaska01 status-toReview
+
+## Notes
+
+... bulletpoint notes ...
+
+### Subchapter
+
+... bulletpoint notes ...
+
+## Flashcards
+
+... flashcards ...
+
+### Subchapter
+
+... flashcards ...
+```
+
+## Flashcard structure
+
+```markdown
+START
+FIT-Card
+
+<Question>
+
+Back:
+
+<Answer>
+
+END
+
+---
+```
+
+### Flashcard example
+
+```markdown
+START
+FIT-Card
+
+Jak se řekne v němčině:
+
+**v Pondělí**
+
+Back:
+
+**am Montag**
+
+END
+
+---
+```
