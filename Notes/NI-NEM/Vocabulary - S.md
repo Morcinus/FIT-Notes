@@ -1,0 +1,120 @@
+---
+created: 2025-09-25T09:43:15
+title: "Vocabulary - S"
+up: "[[📖NI-NEM]]"
+---
+
+TARGET DECK: NI-NEM-Vocabulary
+FILE TAGS: NI-NEM-Vocabulary
+
+## Vocabulary
+
+- die Sache,-n
+- sagen 1
+- sammeln 1
+- der Samstag,-e 5
+- der Satz,-"e 4
+- der Satzakzent,-e 3
+- die Satzfrage,-n 3
+- die S-Bahn,-en 6
+- die Schale,-n 1
+- der Schalter,- 5
+- der Schatten,- 5
+- der Schein,-e (Euro,-) 1
+- schlafen 4
+- das Schlafzimmer,- 4
+- schnell 4
+- schon 3
+- schön 4
+- der Schrank,-"e 4
+- schreiben 2
+- der Schreibtisch,-e 4
+- die Schreibtischlampe,-n 4
+- die Schule,-n 1
+- der Schüler,- 3
+- die Schülerin,-nen 3
+- der Schwamm,-"e 2
+- das Schwedisch,- 3
+- schwer 4
+- schwimmen 5
+- sehen 1
+- die Sehenswürdigkeit,-en 3
+- sehr 3
+- sein, war 1
+- sein, sein, seine 4
+- seit 4
+- die Seite,-n 2
+- das Sekretariat,-e 6
+- die Sekretärin,-nen 2
+- selbst 2
+- der Selbsttest,-s 1
+- das Semester,- 4
+- das Seminar,-e 1
+- der Sessel,- 4
+- signalisieren 2
+- die Silbe,-n 3
+- die Sinfonie,-n 6
+- das Skaterparadies,-e 4
+- Ski fahren 4.1
+- die Skyline,-s 4
+- das Slowakisch,- 3
+- so 3
+- so gegen 5
+- das Sofa,-s 4
+- der Sommer 4
+- der Sonntag,-e 5
+- sortieren 4
+- die Soziologie,- 1
+- das Spanisch,- 4
+- spät 5
+- die Speise,-n 1
+- die Spezialität,-en 4
+- speziell 5
+- der Spiegel,- 4
+- das Spiel,-e 3
+- spielen 4
+- spielen 1
+- der Spielplatz,-"e 4
+- der Sport (,-arten) 2
+- das Sportstudio,-s 1
+- die Sprache,-n 1
+- das Sprachinstitut,-e 1
+- der Sprachkurs,-e 6
+- der Sprachschatten,- 5
+- die Sprachschule,-n 1
+- sprechen (über etw.) 1
+- sprechen 4
+- der Sprecher,- 1
+- die Sprecherin,-nen 1
+- die Sprechstunde,-n 5
+- die Sprechzeit,-en 5
+- die Stadt,-"e 3
+- das Städtediktat,-e 3
+- der Städtename,-n 3
+- das Städteraten,- 3
+- der Stadtplan,-"e 5
+- der Stadtverkehr,- 6
+- das Stadtzentrum (pl. -zentren) 6
+- der Start,-s 1
+- die Station,-en 1
+- stattfinden 6
+- der Stau,-s 5
+- stehen 3
+- die Stehlampe,-n 4
+- stellen, hier: Fragen stellen 1
+- der Stock,- (Kurzf. für Stockwerk) 4
+- Stopp! 2
+- die Straßenbahn,-en 6
+- der Student,-en 4
+- die Studentin,-nen 4
+- das Studentenwohnheim,-e 4
+- studieren 4
+- der Stuhl,-"e 2
+- die Stunde,-n 5
+- suchen 4
+- der Süden,- 3
+- südlich von 3
+- der Supermarkt,-"e 1
+- die Suppe,-n 5
+- das Symbol,-e 4
+- systematisch 2
