@@ -5,7 +5,7 @@ up: "[[📖NI-NEM]]"
 ---
 
 TARGET DECK: NI-NEM
-FILE TAGS: NI-NEM prednaska01 status-toReview
+FILE TAGS: NI-NEM lesson01 status-toReview
 
 ## Notes
 
