@@ -161,13 +161,28 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250929140903.png)
 ![](../../Assets/Pasted%20image%2020250929140914.png)
-![](../../Assets/Pasted%20image%2020250929140932.png)<
-!-- DetailInfoEnd -->
+![](../../Assets/Pasted%20image%2020250929140932.png)<!-- DetailInfoEnd -->
 
 
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jaké navíc vlastnosti mohou být u Persony A?
+
+Back:
+
+- **Goals**: co jsou jeho cíle
+- **Pain points**: jaké jsou jeho problémy
+
+END
+
+---
+
 
 
 START
