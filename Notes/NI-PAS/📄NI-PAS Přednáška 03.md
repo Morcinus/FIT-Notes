@@ -162,6 +162,23 @@ END
 START
 FIT-Card
 
+Jaké jsou **4 typy protekcionismu**?
+
+Back:
+
+- **selektivní protekcionismus** - ochrana proti konkrétnímu produktu, nebo proti konkrétnímu státu
+- **protekcionismus jednotlivého odvětví** - ochrana konkrétního průmyslového odvětví
+- **kolektivní protekcionismus** - vzájemná ochrana několika spojených zemí (EU)
+- **skrytý protekcionismus** - ochranářství pomoci netarifních metod
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Jaké jsou **důvody zavádění protekcionistické politiky**? (6)
 
 Back:
