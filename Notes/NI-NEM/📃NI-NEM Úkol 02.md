@@ -23,4 +23,3 @@ FILE TAGS: NI-NEM cviceni02 status-toReview
 - ◆ Ich hätte gern einen Termin. Geht es **um** elf Uhr?  
 - ▪ Ja, **um** elf ist es okay.  
 - ◆ Gut, dann komme ich **am** Freitag um elf.
-
