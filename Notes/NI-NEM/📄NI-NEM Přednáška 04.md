@@ -5,9 +5,10 @@ up: "[[📖NI-NEM]]"
 ---
 
 TARGET DECK: NI-NEM
-FILE TAGS: NI-NEM prednaska04 status-toReview
+FILE TAGS: NI-NEM lesson04 status-toReview
 
 ### Slovíčka
+
 - **schon** - už
 - **noch** - ještě
 - **noch nicht** - ještě ne
@@ -18,21 +19,23 @@ FILE TAGS: NI-NEM prednaska04 status-toReview
 - **absagen** - odmítnout
 - **nie** - nikdy
 
-
 Wie viel Zeit hast du?
+
 - Keine (die -> e)
-Wie viel Geld hast du?
+  Wie viel Geld hast du?
 - Ich habe **kein** Geld. (das)
 
 ### Negace
+
 - **Nein** - ne
 - **Kein** - žádný
 - **Nicht** - používá se u sloves
 
 ### Kde se používá nicht ve větě?
+
 - Dáváme ho co nejvíce dozadu ve větě.
 - Jiná pravidla ale nad tím mají přednost
-	- Např. infinitiv nebo odlučitelná předpona
+  - Např. infinitiv nebo odlučitelná předpona
 - Je lepší nad tím nepřemýšlet, ono si to člověk nějak zažije
 
 ### Präteritum (minulý čas prostý)
@@ -50,3 +53,250 @@ Sloveso haben v minulém čase:
 | ---------- | ---------- |
 | du hattest | ihr hattet |
 | er hatte   | sie hatten |
+
+## Flashcards
+
+START
+FIT-Card
+
+už
+
+Back:
+
+schon
+<!--ID: 1760708147767-->
+END
+
+---
+
+START
+FIT-Card
+
+ještě
+
+Back:
+
+noch
+<!--ID: 1760708147771-->
+END
+
+---
+
+START
+FIT-Card
+
+ještě ne
+
+Back:
+
+noch nicht
+<!--ID: 1760708147775-->
+END
+
+---
+
+START
+FIT-Card
+
+už ne
+
+Back:
+
+nicht mehr
+<!--ID: 1760708147778-->
+END
+
+---
+
+START
+FIT-Card
+
+dálnice
+
+Back:
+
+r Autobahn
+<!--ID: 1760708147781-->
+END
+
+---
+
+START
+FIT-Card
+
+zpoždění
+
+Back:
+
+Verspätung
+<!--ID: 1760708147785-->
+END
+
+---
+
+START
+FIT-Card
+
+odmítnout
+
+Back:
+
+absagen
+<!--ID: 1760708147789-->
+END
+
+---
+
+START
+FIT-Card
+
+nikdy
+
+Back:
+
+nie
+<!--ID: 1760708147792-->
+END
+
+---
+
+START
+FIT-Card
+
+Byl jsem doma.
+
+Back:
+
+Ich war zu Hause.
+<!--ID: 1760708147796-->
+END
+
+---
+
+START
+FIT-Card
+
+Byli jsme v kině.
+
+Back:
+
+Wir waren im Kino.
+<!--ID: 1760708147800-->
+END
+
+---
+
+START
+FIT-Card
+
+Měl jsem hodně práce.
+
+Back:
+
+Ich hatte viel Arbeit.
+<!--ID: 1760708147803-->
+END
+
+---
+
+START
+FIT-Card
+
+Neměl čas.
+
+Back:
+
+Er hatte keine Zeit.
+<!--ID: 1760708147807-->
+END
+
+---
+
+START
+FIT-Card
+
+(tabulka) Být v Präteritu – já/ty/on/ihr
+
+Back:
+
+ich war – du warst – er war – ihr wart
+<!--ID: 1760708147811-->
+END
+
+---
+
+START
+FIT-Card
+
+(tabulka) Být v Präteritu – my/vy/oni
+
+Back:
+
+wir waren – ihr wart – sie waren
+<!--ID: 1760708147814-->
+END
+
+---
+
+START
+FIT-Card
+
+(tabulka) Mít v Präteritu – já/ty/on/ihr
+
+Back:
+
+ich hatte – du hattest – er hatte – ihr hattet
+<!--ID: 1760708147818-->
+END
+
+---
+
+START
+FIT-Card
+
+(tabulka) Mít v Präteritu – my/vy/oni
+
+Back:
+
+wir hatten – ihr hattet – sie hatten
+<!--ID: 1760708147821-->
+END
+
+---
+
+START
+FIT-Card
+
+Nemám peníze.
+
+Back:
+
+Ich habe kein Geld.
+<!--ID: 1760708147825-->
+END
+
+---
+
+START
+FIT-Card
+
+Nemám čas.
+
+Back:
+
+Ich habe keine Zeit.
+<!--ID: 1760708147829-->
+END
+
+---
+
+START
+FIT-Card
+
+Nemám chuť.
+
+Back:
+
+Ich habe keine Lust.
+<!--ID: 1760708147833-->
+END
