@@ -1,6 +1,6 @@
 ---
 created: 2025-09-29T12:51:04
-title: "Úvod do designu"
+title: Introduction to Interaction Design
 up: "[[📖NI-NUR]]"
 ---
 

@@ -1,6 +1,6 @@
 ---
-created: 2025-10-06T13:02:05
-title: "User Interface"
+created: 2025-09-29T13:39:16
+title: "User Interface Design"
 up: "[[📖NI-NUR]]"
 ---
 
@@ -11,21 +11,17 @@ FILE TAGS: NI-NUR prednaska03 status-toReview
 START
 FIT-Card
 
-Co je **informace**?
-
-(pozor, za to se vyhazuje u státnic, když člověk neví rozdíl mezi daty a informacemi :D)
+Co je **ergonomie**?
 
 Back:
 
-Zpráva, která může být buď pravda nebo nepravda.
-
-Můžeme se na základě ní rozhodnout o něčem.
+Zabývá se navrhováním věcí tak, aby byly pro uživatele dobře použitelné.
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251006130636.png)
+![](../../Assets/Pasted%20image%2020251019105937.png)
 <!-- DetailInfoEnd -->
 
-<!--ID: 1760708147838-->
+
 END
 
 ---
@@ -34,18 +30,20 @@ END
 START
 FIT-Card
 
-Co jsou **data**?
-
-(pozor, za to se vyhazuje u státnic, když člověk neví rozdíl mezi daty a informacemi :D)
+Jaký musí být interface design? (4)
 
 Back:
 
-Zachycené zprávy
+- **Organized**: It must be clear where and what I can control (the system)
+- **Effective**: with a minimum number of an user interactions
+- **Foolproof**: It should predict the user bugs
+- **Comfortable** Work should not stress, pleasant colors, easy to read
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251006130646.png)
+![](../../Assets/Pasted%20image%2020251019105946.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1760708147841-->
+
+
 END
 
 ---
@@ -54,17 +52,22 @@ END
 START
 FIT-Card
 
-Co je **databáze**?
+Jaké jsou **hlavní principy dobrého UI**?
 
 Back:
 
-Nějaký 
+- **User first** - oriented on the user
+- **Only useful information is shown**
+- **Feedback**
+- **Predictable user behavior**
+- **User mistakes tolerance**
+- **Foolproof**
+- **If it is complicated to use the system, UI is porbably designed wrong**
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251006130959.png)
+![](../../Assets/Pasted%20image%2020251019110127.png)
 <!-- DetailInfoEnd -->
 
-<!--ID: 1760708147845-->
 END
 
 ---
@@ -73,16 +76,20 @@ END
 START
 FIT-Card
 
-Z čeho jsou postavené informační systémy?
+Jaké jsou principy dobrého UI?
 
 Back:
 
-- Hardware (např. šutr do kterého sekám znaky)
-- Software
-- Data (to co zachytávám)
-- Procedures (ten proces zachytávání dat)
-- Human - člověk co s daty pracuje
-<!--ID: 1760708147848-->
+- **Minimal** – remove everything that can be removed 
+- **Responsive** – give the user a proper feedback 
+- **Forgiving** – let user make mistakes (undo...) 
+- **Familiar** – use familiar metaphors
+- **Consistent** – use consistent visual and interaction language
+- **Leverage the hardware properly** – use all available devices, 80:20 rule
+- **Well integrated** – in case it is a part of a wider system 
+- **Cool is not always usable**
+- **Less is more!**
+
 END
 
 ---
@@ -91,16 +98,50 @@ END
 START
 FIT-Card
 
-Co je **user mental model**?
+Co je **usability**?
 
 Back:
 
-Vzorce chování a znalost, perspektivu.
+Jednoduchost naučení se daného systému.
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Z čeho se skládá usability?
+
+Back:
+
+- **Recall** - schopnost si vzpomenout jak se má něco dělat
+- **Efficiency** - být schopný úkol vykonat rychle a efektivně
+- **Minimum amount of errors** - informovat uživatele o errorech
+- **Satisfaction of the user** - uživatel je přesvědčen, že dosáhnul cíle
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251006131515.png)
+![](../../Assets/Pasted%20image%2020251019110527.png)
 <!-- DetailInfoEnd -->
-<!--ID: 1760708147852-->
+
+
+END
+
+---
+
+
+
+START
+FIT-Card
+
+Co by se člověk měl naučit při designování UI? 2 hlavní části toho skillu
+
+Back:
+
+- **Best practices** - co se používá, na co jsou lidé zvyklí, pochopit důvody
+- **Design process itself** - helps you think and avoid common issues and mistakes
+
 END
 
 ---
@@ -109,12 +150,16 @@ END
 START
 FIT-Card
 
-Jak **vzniká mentální model člověka**?
+Jak vypadá UI design cycle? (3)
 
 Back:
 
-Dynamicky se vytváří člověku v průběhu let podle získaných znalostí a zkušeností.
-<!--ID: 1760708147855-->
+- **Design** - navrhneme
+- **Implementation** - nakódíme
+- **Evaluation** - zhodnotíme výsledky
+
+![](../../Assets/Pasted%20image%2020251019110829.png)
+
 END
 
 ---
@@ -123,12 +168,12 @@ END
 START
 FIT-Card
 
-Co je pružnost mentálního modelu?
+Co je **User Centered Design**?
 
 Back:
 
-Mentální model se dá v určitých cyklech měnit (cca do 22 let - pak už je fixní, stabilní, ale už se nebude měnit)
-<!--ID: 1760708147858-->
+Vytvářet **interfaces** a **interactions**, které naplní uživatelské **potřeby** a **očekávání**
+
 END
 
 ---
@@ -137,15 +182,20 @@ END
 START
 FIT-Card
 
-Čím je ovlivňován mentální model?
+Z čeho se typicky skládá user centered design?
 
 Back:
 
-- kultura
-- země, ve kterém vyrůstá
-- prostředí, ve kterém vyrůstá
-- vzdělání, znalosti, které dostává atd.
-<!--ID: 1760708147862-->
+- designer musí **analyzovat a předvídat**, jak uživatelé budou používat interface
+- musí se tyto předpoklady **testovat** (uživatelské testy)
+- musí se objevit uživatelské **potřeby**
+- designovat, aby uživatel **chtěl** používat ten produkt
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251019111226.png)
+<!-- DetailInfoEnd -->
+
+
 END
 
 ---
@@ -154,338 +204,15 @@ END
 START
 FIT-Card
 
-Co vyplývá z pružnosti mentálního modelu?
+Co by člověk neměl dělat v user centered designu? (3)
 
 Back:
 
-Když v UI cílíme na mladé lidi (do 22 let cca), můžeme být víc "inovativní" v UI, ale starší lidi už se **nechtějí přeučovat**!
+Vytvářet funkce které:
+- **jsou moc komplikované**
+- **uživatel nechce používat**
+- **uživatel nepotřebuje**
 
-Např. **barevný schémata**, **layout komponentů** atd.
-<!--ID: 1760708147865-->
 END
 
 ---
-
-
-START
-FIT-Card
-
-Jaké **činnosti zabírají energii**?
-
-Back:
-
-- **Instinkt** - klikání na čudlíky, scrollování - **to děláme automaticky**
-- **Emoce** - jakmile UI vytváří nějaké emoce, tak ztrácí energii a myšlení! Např. **ztracení provedené práce, když crashne program**
-- **Higher thoughts** - konzumuje obří množství energie (např. ztracení partnera, umře pes atd.)
-
-Pozn. tohle platí pro negativní emoce. Naopak poitivní emoce je super vytvářet, protože nám potom uživatelé hodně odpustí
-<!--ID: 1760708147868-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co **vyplývá pro UI**?
-
-Back:
-
-**Neměli** bychom se např. zaměřovat na "omezení kliků na obrazovce", ale mnohem důležitější je systém udělat **přehledně, pochopitelně**, aby se co nejvíce **redukovalo kognitivní zatížení**.
-<!--ID: 1760708147872-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je **product statement**?
-
-Back:
-
-Popsání o čem ten produkt je:
-- **Long-term goal**
-- **Purpose**
-- **Target audience**
-- **Value and uniqueness**
-- **Inspiration and motivation**
-
-<!-- ExampleStart -->
-![](../../Assets/Pasted%20image%2020251006133857.png)
-<!-- ExampleEnd -->
-
-<!--ID: 1760708147875-->
-END
-
----
-
-### Use Cases
-
-
-START
-FIT-Card
-
-V jakém formátu by se měly psát scénáře u use casu v NURech?
-
-Back:
-
-- Uživatel **požaduje ...** - tohle by mělo být, co ten uživatel/klient chce, aby to dělalo. Tohle je jakoby ten requirement - co uživatel chce aby se stalo
-	- Tohle by mělo být cca 20% toho use casu - co člověk požaduje 
-- Uživatel **očekává ...** - tohle by mělo být, co se cca stane
-	- Tohle by mělo být cca 80% use casu
-<!--ID: 1760708147879-->
-END
-
----
-
-
-START
-FIT-Card
-
-Měly by se v dnešní době dělat wireframy?
-
-Back:
-
-Jako typicky by se neměly dělat takový ty "papírové wireframy", když třeba už existuje nějaký design systém nebo něco, můžu to rovnou dělat ve Figmě (i guess)
-<!--ID: 1760708147882-->
-END
-
----
-
-### Heuristická analýza
-
-START
-FIT-Card
-
-Co je **heuristická analýza**?
-
-Back:
-
-Sada doporučení z Nielsen Group na co se zaměřit, aby bylo UI user friendly. 
-<!--ID: 1760708147886-->
-END
-
----
-
-
-START
-FIT-Card
-
-Musí člověk obecně followovat všechny body heuristické analýzy?
-
-Back:
-
-Není to 100% nutný. Dává smysl si vybrat třeba nějaký, který vím, že je pro mě důležitý, nebo v čem je aplikace špatná, tak můžu analýzu provést třeba pro jeden nebo víc těch atributů
-<!--ID: 1760708147890-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jaké jsou body **Heuristické analýzy**?
-
-Back:
-
-- **Viditelnost stavu systému** (progress bary, loading, ...)
-- **Shoda systému a reálného světa** (např. srozumitelné popisky, ne moc techické atd.)
-- **Uživatelská kontrola a svoboda**
-- **Konzistence a standardy**
-- **Předcházení errorů**
-- **Recognition Rather than recall**
-- **Flexibilita a efektivní používání**
-- **Estetický a minimalistický design**
-- **Help users recognize, diagnose and recover from errors**
-- **Help and Documentation**
-<!--ID: 1760708147893-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Viditelnost stavu systému**?
-
-Back:
-
-progress bary, loading, ...
-
-![](../../Assets/Pasted%20image%2020251006135035.png)
-<!--ID: 1760708147897-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Shoda systému a reálného světa**?
-
-
-Back:
-
-Aplikace by měla odpovídat reálnému světu.
-
-![](../../Assets/Pasted%20image%2020251006135124.png)
-<!--ID: 1760708147901-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Uživatelská kontrola a svoboda**?
-
-Back:
-
-Např. že uživatel může prozkoumávat software, aniž by si něco totálně podělal - např. **tlačítko undo**, zotavit se z určitého stavu
-
-![](../../Assets/Pasted%20image%2020251006135352.png)
-<!--ID: 1760708147905-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Konzistence a standardy**?
-
-Back:
-
-Např. standardy ohledně accessibility
-
-![](../../Assets/Pasted%20image%2020251006135257.png)
-<!--ID: 1760708147908-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Předcházení errorů**?
-
-Back:
-
-Např. neumožňím uživateli zadávat nevalidní věci do formuláře, aby nenastala nějaká kritická chyba
-
-![](../../Assets/Pasted%20image%2020251006135435.png)
-<!--ID: 1760708147912-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Recognition Rather than recall**?
-
-Back:
-
-Uživatel by na první pohled měl vidět, co to dělá a neměl by přemýšlet nebo si vzpomínat na to co to dělá.
-
-Člověk by si neměl zapamatovávat, jak používat to UI, ale měl by ho moct používat podle toho, a co je zvyklý (i z ostatních UI)
-
-![](../../Assets/Pasted%20image%2020251006135610.png)
-<!--ID: 1760708147915-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Flexibilita a efektivní používání**?
-
-Back:
-
-Jestli je možný to provozovat na daném zařízení uživatele a že mu to nevyžere všechnu baterku, internetový data, atd.
-
-![](../../Assets/Pasted%20image%2020251006135700.png)
-<!--ID: 1760708147919-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Estetický a minimalistický design**?
-
-Back:
-
-UI by mělo být jednoduchý
-
-![](../../Assets/Pasted%20image%2020251006135933.png)
-<!--ID: 1760708147922-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Help users recognize, diagnose and recover from errors**?
-
-Back:
-
-Uživatel by měl chápat, proč něco nefunguje - říct mu, proč to nefunguje - ne jen "neznámý error"
-
-![](../../Assets/Pasted%20image%2020251006140008.png)
-<!--ID: 1760708147925-->
-END
-
----
-
-
-START
-FIT-Card
-
-Co je v heuristické analýze: **Help and Documentation**?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020251006140115.png)
-<!--ID: 1760708147929-->
-END
-
----
-
-
-START
-FIT-Card
-
-Jakou tabulku je fajn sestavit jako výstup heuristické analýzy?
-
-Back:
-
-Ve sloupcích:
-- **Heuristika** (který bod)
-- **Jak moc je splněna** (částečně, úplně,..)
-- **Závažnost** (low, medium, high)
-- **Key Finding / Comment** (popsat co je špatně nebo že to je dobře)
-
-![](../../Assets/Pasted%20image%2020251006141034.png)
-![](../../Assets/Pasted%20image%2020251006141108.png)
-<!--ID: 1760708147932-->
-END
-
----
-
