@@ -15,6 +15,7 @@ Co jsou **task lists and groups**?
 
 Back:
 
+Seznam činností/tasků, co se dělají v systému
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251019113136.png)
@@ -32,6 +33,10 @@ FIT-Card
 Co je **task graph**?
 
 Back:
+
+Člověk si píše tasks a přiřazují je k místům, kde se ty činnosti naplňují.
+
+Reálně se nedělá graf, ale dává se to do tabulky.
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251019113150.png)
@@ -172,6 +177,22 @@ END
 START
 FIT-Card
 
+Jak vypadá prototypový workflow?
+
+Back:
+
+1. **Uděat prototyp** (nedokonalý produkt)
+2. **Otestovat ho** - tohle je v inženýrství naprosto kritické
+3. **Pak zanalyzovat**, co vylepšit
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Jak se liší lo-fi a hi-fi prototypy?
 
 Back:
@@ -188,7 +209,36 @@ END
 ---
 
 
+START
+FIT-Card
+
+Jaké jsou výhody lo-fi a hi-fi prototypu?
+
+Back:
+
+- **Lo-fi** - ideální na ukazování zákazníkovi, levný, jednoduché změny
+- **Hi-fi** - drahý, ale dají se tam dělat uživatelské testy
+
+END
+
+---
+
+
 ## Brainstorming
+
+
+START
+FIT-Card
+
+Je efektivnější dělat brainstorming ve více lidech nebo sám?
+
+Back:
+
+Pokud se dělá správně (dodržují se pravidla a techniky), tak ta skupina je schopná vymýšlet věci **mnohem efektivněji** než jednotlivec.
+
+END
+
+---
 
 
 START
@@ -199,6 +249,20 @@ Co je **brainstorming**?
 Back:
 
 Aktivita, kde se snažíme **najít řešení na konkrétní problém** **sbíráním nápadů** od jednotlivých členů brainstormingu
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak dlouhý by měl být brainstorming?
+
+Back:
+
+Třeba 15m, pak dát chvíli pauzu a pak se podívat, které nápady jsou cca nejlepší.
 
 END
 
@@ -283,62 +347,6 @@ Co je **nominal group techinque** brainstorming?
 Back:
 
 **Každý člověk má equal say**, generuje se ranked list nápadů
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co je **group passing technique** brainstorming?
-
-Back:
-
-Každý v kroužku napíše **jeden nápad** na papír a pošle ho dál, ten přidá svoje myšlenky.
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co je **team idea mapping method** brainstorming?
-
-Back:
-
-Funguje to jako brainstorming pomocí asociací
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co je **electronic brainstorming** brainstorming?
-
-Back:
-
-Prostě online
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co je **directed brainstorming**?
-
-Back:
-
-variace electronic brainstormingu
 
 END
 
