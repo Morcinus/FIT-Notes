@@ -58,10 +58,10 @@ Back:
 
 - **User first** - oriented on the user
 - **Only useful information is shown**
-- **Feedback**
-- **Predictable user behavior**
+- **Feedback** - uživatel by měl vidět, že se daná akce stala (že se uložil soubor atd)
+- **Predictable user behavior** - 
 - **User mistakes tolerance**
-- **Foolproof**
+- **Foolproof** - vyvarovat se chybám
 - **If it is complicated to use the system, UI is porbably designed wrong**
 
 <!-- DetailInfoStart -->
