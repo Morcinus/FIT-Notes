@@ -87,7 +87,7 @@ Back:
 - **Consistent** – use consistent visual and interaction language
 - **Leverage the hardware properly** – use all available devices, 80:20 rule
 - **Well integrated** – in case it is a part of a wider system 
-- **Cool is not always usable**
+- **Cool is not always usable** - na druhou stranu, člověk touží po exkluzivitě - když to řešení je pěkný a vypadá sexy, tak to uživatel bude mít radši a odpustí mnoho chyb 
 - **Less is more!**
 
 END
