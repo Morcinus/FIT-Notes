@@ -53,6 +53,24 @@ END
 START
 FIT-Card
 
+Co by člověk neměl psát do Use Casů?
+
+Back:
+
+Neměli bychom tam psát konkrétní komponenty atd.
+
+Měli bychom psát, co ten uživatel **očekává** od toho systému z hlediska toho, co on chce získat. Jakou value
+
+**Neměli bychom tam psát konkrétní komponenty**. Ty by měly být ve scénářích.
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Měly by se v dnešní době dělat wireframy?
 
 Back:

@@ -11,11 +11,36 @@ FILE TAGS: NI-NUR prednaska05 status-toReview
 START
 FIT-Card
 
+Co je **task**? Z čeho se skládá?
+
+Back:
+
+Činnost, která někde začíná a končí uspokojením uživatelské potřeby.
+
+Skládá se z:
+1. **Počáteční bod**
+2. **Use Casy** (1 až N)
+3. **Koncový bod** (uspokojení uživatelské potřeby)
+
+Task může mít různé větve.
+
+END
+
+---
+
+
+START
+FIT-Card
+
 Co jsou **task lists and groups**?
 
 Back:
 
-Seznam činností/tasků, co se dělají v systému
+**Task group** = jen checklist, že jsem všechny činnosti, co potřebuje uživatel dělat, umístil na nějakou stránku v systému
+
+Aby se mi nestalo, že mám v use casu zadefinovaný třeba "uživatel klikne na tlačítko", ale neměl bych ho implementovaný
+
+Tady se task nechápe jako ten task, co se skládá z use casů
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251019113136.png)

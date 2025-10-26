@@ -1,6 +1,6 @@
 ---
 created: 2025-10-26T12:54:24
-title: "Human Factors"
+title: Human Factors and Colors
 up: "[[📖NI-NUR]]"
 ---
 
