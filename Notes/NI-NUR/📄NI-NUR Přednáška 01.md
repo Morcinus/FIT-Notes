@@ -46,7 +46,7 @@ The notion of shaping is used consciously to suggest a designerly activity (as o
 
 ![](../../Assets/Pasted%20image%2020250929131634.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1761580147990-->
 END
 
 ---
@@ -65,7 +65,7 @@ Máme nějaký tools, iterujeme (=transformační smyčka) a vytvoříme výsled
 ![](../../Assets/Pasted%20image%2020250929131740.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1761580147993-->
 END
 
 ---
@@ -84,7 +84,7 @@ Zkoumá:
 - Stavy
 - Workflows
 - Defekty
-
+<!--ID: 1761580147996-->
 END
 
 ---
@@ -106,7 +106,7 @@ Back:
 Tip: prý dobrá knížka: The inmates are running the asylum.
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1761580147999-->
 END
 
 ---
@@ -121,7 +121,7 @@ Back:
 
 - Identifikace cílů
 - Potom dělání designu na základě toho 
-
+<!--ID: 1761580148001-->
 END
 
 ---
@@ -136,7 +136,7 @@ Co jsou persony?
 Back:
 
 Fiktivní uživatelé pro které vytváříme uživatelský návrh
-
+<!--ID: 1761580148004-->
 END
 
 ---
@@ -153,7 +153,7 @@ Back:
 - Persona A - typický uživatel
 - Persona B - uživatel, co to nepoužívá často
 - Persona C - antipersona (tohle se v praxi prý moc nedělá)
-
+<!--ID: 1761580148007-->
 END
 
 ---
@@ -169,7 +169,7 @@ Co jsou cognitive dimensions?
 Back:
 
 Terminologie a principy, co se používají v rámci interaction designu 
-
+<!--ID: 1761580148010-->
 END
 
 ---
@@ -186,7 +186,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250929132901.png)
 ![](../../Assets/Pasted%20image%2020250929132911.png)
 
-
+<!--ID: 1761580148013-->
 END
 
 ---
@@ -202,7 +202,7 @@ Back:
 Jde o to udělat UI co nejpříjemnější na používání. Je cílem **snížit emoční zátěž** při používání systému.
 
 
-
+<!--ID: 1761580148017-->
 END
 
 ---
@@ -218,7 +218,7 @@ Back:
 Nejhorší jsou v UI "hard mental operations" - nejde tolik o to, že člověk hodněkrát klikne, ale jde o to, že před kliknutím musí člověk dlouho přemýšlet, co má vybrat nebo kam má kliknout.
 
 Proto je lepší mít u formulářů například hromadu stránek s jednoduchýma formulářema, než mít jeden giga formulář se 100 tlačítkama na jedné stránce.
-
+<!--ID: 1761580148020-->
 END
 
 ---
@@ -234,7 +234,7 @@ Co je 5 dimenzí interakčního designu?
 Back:
 
 Jsou to jakoby složky ze kterých se skládá interakční design
-
+<!--ID: 1761580148023-->
 END
 
 ---
@@ -252,7 +252,7 @@ Back:
 3. **Physical objects or space** - definuje jednotlivé objekty a prostor (např. čudlík a kde se nachází)
 4. **Time** - naviguje to člověka pomocí animací a videí (např. že se okno nezavře tak že zmizí, ale "zmenší se animací" a díky tomu člověk ví, kam zmizelo a kde ho najít) 
 5. **Behavior** - je to nadstavba těch předchozích - obecně prostě jak lidi reagují na UI jako celek
-
+<!--ID: 1761580148026-->
 END
 
 ---

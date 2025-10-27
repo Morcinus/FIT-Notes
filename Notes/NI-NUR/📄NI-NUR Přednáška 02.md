@@ -24,7 +24,6 @@ Můžeme se na základě ní rozhodnout o něčem.
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251006130636.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1760708147838-->
 END
 
@@ -63,7 +62,6 @@ Nějaký
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251006130959.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1760708147845-->
 END
 

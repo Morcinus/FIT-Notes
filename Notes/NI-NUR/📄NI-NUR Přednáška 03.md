@@ -21,7 +21,7 @@ Zabývá se navrhováním věcí tak, aby byly pro uživatele dobře použiteln�
 ![](../../Assets/Pasted%20image%2020251019105937.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1761580147954-->
 END
 
 ---
@@ -43,7 +43,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251019105946.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1761580147960-->
 END
 
 ---
@@ -67,7 +67,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251019110127.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1761580147963-->
 END
 
 ---
@@ -89,7 +89,7 @@ Back:
 - **Well integrated** – in case it is a part of a wider system 
 - **Cool is not always usable** - na druhou stranu, člověk touží po exkluzivitě - když to řešení je pěkný a vypadá sexy, tak to uživatel bude mít radši a odpustí mnoho chyb 
 - **Less is more!**
-
+<!--ID: 1761580147966-->
 END
 
 ---
@@ -103,7 +103,7 @@ Co je **usability**?
 Back:
 
 Jednoduchost naučení se daného systému.
-
+<!--ID: 1761580147969-->
 END
 
 ---
@@ -125,7 +125,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251019110527.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1761580147972-->
 END
 
 ---
@@ -141,7 +141,7 @@ Back:
 
 - **Best practices** - co se používá, na co jsou lidé zvyklí, pochopit důvody
 - **Design process itself** - helps you think and avoid common issues and mistakes
-
+<!--ID: 1761580147975-->
 END
 
 ---
@@ -159,7 +159,7 @@ Back:
 - **Evaluation** - zhodnotíme výsledky
 
 ![](../../Assets/Pasted%20image%2020251019110829.png)
-
+<!--ID: 1761580147978-->
 END
 
 ---
@@ -173,7 +173,7 @@ Co je **User Centered Design**?
 Back:
 
 Vytvářet **interfaces** a **interactions**, které naplní uživatelské **potřeby** a **očekávání**
-
+<!--ID: 1761580147981-->
 END
 
 ---
@@ -195,7 +195,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251019111226.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1761580147984-->
 END
 
 ---
@@ -212,7 +212,7 @@ Vytvářet funkce které:
 - **jsou moc komplikované**
 - **uživatel nechce používat**
 - **uživatel nepotřebuje**
-
+<!--ID: 1761580147987-->
 END
 
 ---

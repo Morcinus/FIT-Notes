@@ -24,7 +24,6 @@ Popsání o čem ten produkt je:
 <!-- ExampleStart -->
 ![](../../Assets/Pasted%20image%2020251006133857.png)
 <!-- ExampleEnd -->
-
 <!--ID: 1760708147875-->
 END
 
