@@ -91,7 +91,9 @@ od (už nějakou dobu)
 Back:
 
 seit
+
 <!--ID: 1761580148029-->
+
 END
 
 ---
@@ -104,7 +106,9 @@ od (od teď / v budoucnosti)
 Back:
 
 ab
+
 <!--ID: 1761580148032-->
+
 END
 
 ---
@@ -130,7 +134,9 @@ kostel
 Back:
 
 die Kirche
+
 <!--ID: 1761580148036-->
+
 END
 
 ---
@@ -143,7 +149,9 @@ ulice
 Back:
 
 die Straße
+
 <!--ID: 1761580148039-->
+
 END
 
 ---
@@ -156,7 +164,9 @@ hřbitov
 Back:
 
 der Friedhof
+
 <!--ID: 1761580148043-->
+
 END
 
 ---
@@ -169,7 +179,9 @@ krytý bazén
 Back:
 
 das Hallenbad
+
 <!--ID: 1761580148045-->
+
 END
 
 ---
@@ -182,7 +194,9 @@ semafor
 Back:
 
 die Ampel
+
 <!--ID: 1761580148048-->
+
 END
 
 ---
@@ -195,7 +209,9 @@ most
 Back:
 
 die Brücke
+
 <!--ID: 1761580148051-->
+
 END
 
 ---
@@ -208,7 +224,9 @@ křižovatka
 Back:
 
 die Kreuzung
+
 <!--ID: 1761580148054-->
+
 END
 
 ---
@@ -221,7 +239,9 @@ nádraží
 Back:
 
 der Bahnhof
+
 <!--ID: 1761580148057-->
+
 END
 
 ---
@@ -234,7 +254,9 @@ náměstí
 Back:
 
 der Marktplatz
+
 <!--ID: 1761580148060-->
+
 END
 
 ---
@@ -247,7 +269,9 @@ letiště
 Back:
 
 der Flughafen
+
 <!--ID: 1761580148063-->
+
 END
 
 ---
@@ -260,7 +284,9 @@ supermarket
 Back:
 
 der Supermarkt
+
 <!--ID: 1761580148066-->
+
 END
 
 ---
@@ -273,7 +299,9 @@ parkoviště
 Back:
 
 der Parkplatz
+
 <!--ID: 1761580148070-->
+
 END
 
 ---
@@ -286,7 +314,9 @@ běhat (závodněji)
 Back:
 
 rennen
+
 <!--ID: 1761580148072-->
+
 END
 
 ---
@@ -299,7 +329,9 @@ běhat (ležérně)
 Back:
 
 joggen
+
 <!--ID: 1761580148076-->
+
 END
 
 ---
@@ -312,7 +344,9 @@ studovat
 Back:
 
 studieren
+
 <!--ID: 1761580148078-->
+
 END
 
 ---
@@ -325,7 +359,9 @@ Studuju na univerzitě.
 Back:
 
 Ich studiere an der Uni.
+
 <!--ID: 1761580148082-->
+
 END
 
 ---
@@ -338,7 +374,9 @@ Studuju v druhém semestru.
 Back:
 
 Ich studiere in zweiten Semester.
+
 <!--ID: 1761580148084-->
+
 END
 
 ---
@@ -351,7 +389,9 @@ na severu / na jihu / na východě / na západě
 Back:
 
 im Norden / im Süden / im Osten / im Westen
+
 <!--ID: 1761580148087-->
+
 END
 
 ---
@@ -364,7 +404,9 @@ Na jihu Lipska.
 Back:
 
 Im Süden von Leipzig.
+
 <!--ID: 1761580148090-->
+
 END
 
 ---
@@ -377,7 +419,9 @@ severně / jižně / východně / západně
 Back:
 
 nördlich / südlich / östlich / westlich
+
 <!--ID: 1761580148093-->
+
 END
 
 ---
@@ -390,7 +434,9 @@ Kde bydlíš? — Bydlím v ...
 Back:
 
 Wo wohnst du? — Ich wohne in ...
+
 <!--ID: 1761580148096-->
+
 END
 
 ---
@@ -403,7 +449,9 @@ Kde pracuješ? — Pracuji u novin.
 Back:
 
 Wo arbeitest du? — Ich arbeite bei der Zeitung.
+
 <!--ID: 1761580148103-->
+
 END
 
 ---
@@ -416,7 +464,9 @@ Kde pracuješ? — Pracuji v knihkupectví.
 Back:
 
 Wo arbeitest du? — Ich arbeite in der/einer Buchhandlung.
+
 <!--ID: 1761580148106-->
+
 END
 
 ---
@@ -429,7 +479,9 @@ Jedu na kole / tramvají / autem / autobusem.
 Back:
 
 Ich fahre mit dem Fahrrad / mit der Strassenbahn / mit dem Auto / mit dem Bus.
+
 <!--ID: 1761580148110-->
+
 END
 
 ---
@@ -442,7 +494,9 @@ Jdu pěšky.
 Back:
 
 Ich gehe zu Fuß.
+
 <!--ID: 1761580148113-->
+
 END
 
 ---
@@ -455,7 +509,9 @@ Většina podst. jmen končících na -e má jaký rod?
 Back:
 
 Ženský rod.
+
 <!--ID: 1761580148116-->
+
 END
 
 ---
@@ -468,7 +524,9 @@ Dativ: der → ?
 Back:
 
 dem
+
 <!--ID: 1761580148119-->
+
 END
 
 ---
@@ -481,7 +539,9 @@ Dativ: die → ?
 Back:
 
 der
+
 <!--ID: 1761580148121-->
+
 END
 
 ---
@@ -494,5 +554,7 @@ Dativ: das → ?
 Back:
 
 dem
+
 <!--ID: 1761580148124-->
+
 END
