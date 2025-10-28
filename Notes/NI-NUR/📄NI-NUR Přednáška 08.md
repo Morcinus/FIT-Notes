@@ -499,7 +499,7 @@ END
 
 ---
 
-### Tady jsme skončili
+### 👉 Tady jsme skončili
 
 START
 FIT-Card
