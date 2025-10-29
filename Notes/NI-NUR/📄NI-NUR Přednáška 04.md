@@ -142,7 +142,14 @@ Back:
 
 progress bary, loading, ...
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161113.png)
 ![](../../Assets/Pasted%20image%2020251006135035.png)
+
+<!-- DetailInfoEnd -->
+
+
+
 <!--ID: 1760708147897-->
 END
 
@@ -159,7 +166,13 @@ Back:
 
 Aplikace by měla odpovídat reálnému světu.
 
+Např. když dávám ikonu nebo obrázek k nějakému komponentu, tak by měl odpovídat tomu významu, co to má mít.
+
+<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251006135124.png)
+![](../../Assets/Pasted%20image%2020251029161128.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147901-->
 END
 
@@ -175,7 +188,11 @@ Back:
 
 Např. že uživatel může prozkoumávat software, aniž by si něco totálně podělal - např. **tlačítko undo**, zotavit se z určitého stavu
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161216.png)
 ![](../../Assets/Pasted%20image%2020251006135352.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147905-->
 END
 
@@ -191,7 +208,11 @@ Back:
 
 Např. standardy ohledně accessibility
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161235.png)
 ![](../../Assets/Pasted%20image%2020251006135257.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147908-->
 END
 
@@ -207,7 +228,12 @@ Back:
 
 Např. neumožňím uživateli zadávat nevalidní věci do formuláře, aby nenastala nějaká kritická chyba
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161254.png)
 ![](../../Assets/Pasted%20image%2020251006135435.png)
+
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147912-->
 END
 
@@ -225,7 +251,11 @@ Uživatel by na první pohled měl vidět, co to dělá a neměl by přemýšlet
 
 Člověk by si neměl zapamatovávat, jak používat to UI, ale měl by ho moct používat podle toho, a co je zvyklý (i z ostatních UI)
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161315.png)
 ![](../../Assets/Pasted%20image%2020251006135610.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147915-->
 END
 
@@ -241,7 +271,13 @@ Back:
 
 Jestli je možný to provozovat na daném zařízení uživatele a že mu to nevyžere všechnu baterku, internetový data, atd.
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161332.png)
 ![](../../Assets/Pasted%20image%2020251006135700.png)
+<!-- DetailInfoEnd -->
+
+
+
 <!--ID: 1760708147919-->
 END
 
@@ -257,7 +293,11 @@ Back:
 
 UI by mělo být jednoduchý
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161347.png)
 ![](../../Assets/Pasted%20image%2020251006135933.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147922-->
 END
 
@@ -273,7 +313,12 @@ Back:
 
 Uživatel by měl chápat, proč něco nefunguje - říct mu, proč to nefunguje - ne jen "neznámý error"
 
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161417.png)
 ![](../../Assets/Pasted%20image%2020251006140008.png)
+
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147925-->
 END
 
@@ -287,7 +332,15 @@ Co je v heuristické analýze: **Help and Documentation**?
 
 Back:
 
+Systém by měl být použitelný bez nápovědy. I tak by u složitějších/nejasnějších funkcí měla být nápověda.
+
+Např. tooltipy, kontextová nápověda apod.
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029161434.png)
 ![](../../Assets/Pasted%20image%2020251006140115.png)
+<!-- DetailInfoEnd -->
+
 <!--ID: 1760708147929-->
 END
 
