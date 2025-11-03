@@ -1,23 +1,23 @@
 ---
-created: 2025-10-31T10:57:33
-title: Accessibility
-up: "[[📖NI-NUR]]"
+created: 2025-10-29T16:41:17
+title: Usability testing 2
+up:
+  - "[[📖NI-NUR]]"
 ---
 
 TARGET DECK: NI-NUR
 FILE TAGS: NI-NUR prednaska10 status-toReview
 
-
 START
 FIT-Card
 
-Co je accessibilita
+Jak je definovaná **použitelnost** (usability)?
 
 Back:
 
-Schopnost UI být přístupný i pro lidi s určitým hendikepem
+Typicky nám z testu vyjde nějaká **míra** použitelnosti
 
-![](../../Assets/Pasted%20image%2020251031111345.png)
+![](../../Assets/Pasted%20image%2020251029164241.png)
 
 END
 
@@ -27,14 +27,11 @@ END
 START
 FIT-Card
 
-Jaký je rozdíl mezi accessibilitou a univerzálním designem?
+Měl bych se ptát lidí na otázky typu co se jim líbilo nebo nelíbilo po každém tasku nebo až na konci?
 
 Back:
 
-Accessibilita - pomáhání hendikepovaným lidem
-Universal Design - design tak, aby byl použitelný všemi lidmi
-
-![](../../Assets/Pasted%20image%2020251031111405.png)
+Až na konci. Je to hlavně z časových důvodů.
 
 END
 
@@ -44,13 +41,11 @@ END
 START
 FIT-Card
 
-Co je Refreshable braille display
+Jak vypadá testování jednotlivců?
 
 Back:
 
-Umožňuje psát a číst pomocí braillova písma (pro slepé)
-
-![](../../Assets/Pasted%20image%2020251031112320.png)
+- Lidi nahlas popisují, co dělají a co se jim honí hlavou
 
 END
 
@@ -60,11 +55,18 @@ END
 START
 FIT-Card
 
-Co jsou WCAG principy?
+Jak vypadá kolaborativní testování?
 
 Back:
 
-Aplikace/systém/produkt by měl splňovat tyto principy tak aby byl accessible
+- Každý uživatel dostane tasky
+- Každý je řeší zvlášť
+- Obecně se nemluví, ale mohou si začít pomáhat, když si někdo neví s rady
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020251029172919.png)
+<!-- ImageEnd -->
+
 
 END
 
@@ -74,11 +76,20 @@ END
 START
 FIT-Card
 
-Jaké jsou 4 WCAG principy?
+Jaké jsou výhody kolaborativního testování?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251031112352.png)
+- Člověk netestuje jen UI, ale testuje i byznys procesy.
+- Testuju tím více lidí najednou (docela efektivně)
+- Můžu takhle testovat celý business workflow. Např. každý uživatel bude mít určitou roli (manažer, skladník, apod.) a přijde jim zakázka a oni s tím musí pracovat a musí dosáhnout určitého cíle.
+
+Tzn. ty lidi třeba začnou diskutovat, že se jim něco nelíbí a že by to potřebovali jinak atd. tzn. sami třeba řeknou, co by chtěli
+
+<!-- ImageStart -->
+![](../../Assets/Pasted%20image%2020251029172907.png)
+<!-- ImageEnd -->
+
 
 END
 
@@ -88,11 +99,18 @@ END
 START
 FIT-Card
 
-Jaké jsou úrovně accessibility?
+Kde lze dělat uživatelské testování?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251031112453.png)
+- Na **místě kde pracuje ten člověk** (pokud to dělám pro danou firmu) - tam je nevýhoda, že tam může být chaos. Výhoda je, že člověk používá svoje přirozené prostředí
+- **V usability labu** - nejvíc klid, ale občas to může být problém (např. někdy člověk potřebuje speciální prostředí) 
+- **Vzdáleně** - výhoda, že dotyčný nemusí nikam cestovat
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251029175445.png)
+<!-- DetailInfoEnd -->
+
 
 END
 
@@ -102,58 +120,11 @@ END
 START
 FIT-Card
 
-Co je princip WCAG Perceivable?
+Jak vypadá testování "Ethnographic observation"?
 
 Back:
 
-Obsah webu je vnímatelný všemi smysly – zrakem, sluchem a/nebo hmatem.
-
-![](../../Assets/Pasted%20image%2020251031112909.png)
-
-END
-
----
-
-START
-FIT-Card
-
-Co je princip WCAG Perceivable?
-
-Back:
-
-Formulářová rozhraní, ovládací prvky a navigace jsou ovladatelné.
-
-![](../../Assets/Pasted%20image%2020251031112915.png)
-
-END
-
----
-
-START
-FIT-Card
-
-Co je princip WCAG Perceivable?
-
-Back:
-
-Informace a ovládání uživatelského rozhraní musí být srozumitelné.
-
-![](../../Assets/Pasted%20image%2020251031112924.png)
-
-END
-
----
-
-START
-FIT-Card
-
-Co je princip WCAG Perceivable?
-
-Back:
-
-Obsah musí být dostatečně robustní, aby mohl být spolehlivě interpretován širokou škálou přístupových zařízení včetně asistivních technologií.
-
-![](../../Assets/Pasted%20image%2020251031112930.png)
+![](../../Assets/Pasted%20image%2020251029175511.png)
 
 END
 
@@ -163,13 +134,11 @@ END
 START
 FIT-Card
 
-Co je **contrast checker**?
+Jak vypadá testování Usability engineering?
 
 Back:
 
-Tool, který kontroluje, jestli web má dobrý design z hlediska barev
-
-![](../../Assets/Pasted%20image%2020251031113106.png)
+![](../../Assets/Pasted%20image%2020251029175525.png)
 
 END
 
@@ -179,87 +148,11 @@ END
 START
 FIT-Card
 
-Jakou roli hrají headings v accessibility?
+Jak vypadá testování **User surveys**?
 
 Back:
 
-Headers mají jasná pravidla pro to, jak se mají používat
-
-![](../../Assets/Pasted%20image%2020251031113151.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Jak se dá zkontrolovat, jakou má web accessibility?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020251031113223.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co by se mělo brát v potaz u grafů z hlediska accessibility?
-
-Back:
-
-Barvy by měly být rozlišitelný i po převedení do barev šedi. (Tohle je zejména pro tisk)
-
-![](../../Assets/Pasted%20image%2020251031113302.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co by se mělo brát v potaz u tables při accessbility?
-
-Back:
-
-Měly by se používat správné HTML tags
-
-![](../../Assets/Pasted%20image%2020251031113331.png)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co je Wave evaluation tool?
-
-Back:
-
-Umožňuje na stránce testovat accessibility (prý to je docela dobrý)
-
-END
-
----
-
-
-START
-FIT-Card
-
-Co jsou Aria Landmarks?
-
-Back:
-
-![](../../Assets/Pasted%20image%2020251031114337.png)
+![](../../Assets/Pasted%20image%2020251029175542.png)
 
 END
 

@@ -5,7 +5,7 @@ up: "[[📖NI-NUR]]"
 ---
 
 TARGET DECK: NI-NUR
-FILE TAGS: NI-NUR prednaska9 status-toReview
+FILE TAGS: NI-NUR prednaska09 status-toReview
 
 
 START
