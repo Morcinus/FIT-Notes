@@ -7,8 +7,11 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska12 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je reverse proxy?
 
@@ -38,6 +41,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje HTTP Sticky Sessions?
 
 Back:
@@ -57,6 +62,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **health check** load balanceru?
 
@@ -80,6 +87,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **Round-Robin** algoritmus u sticky sessions?
 
 Back:
@@ -100,6 +109,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je nevýhoda Round-Robin algoritmu?
 
 Back:
@@ -114,6 +125,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Least Connections** algoritmus na load balanceru?
 
 Back:
@@ -127,6 +140,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Least Time** algoritmus na load balanceru?
 
@@ -148,6 +163,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou další možnosti, jak lze vybírat servery na Load Balanceru? (3)
 
 Back:
@@ -165,6 +182,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **floating IP address**? Jak funguje?
 
@@ -185,6 +204,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **session persistance**?
 
 Back:
@@ -200,6 +221,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze zajistit **session persistance**?
 
@@ -221,6 +244,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje In-Memory Replication?
 
@@ -248,6 +273,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč je důležitý mít hodně přesný monitoring systému?
 
 Back:
@@ -256,13 +283,16 @@ Využiju to, když:
 
 1. Něco nefunguje a potřebuju **rychle identifikovat**, kde je problém (např. že je zahlcený spoj s databází)
 2. Typicky se mi třeba postupně něco zpomaluje tím, jak mi narůstají data nebo uživatelé. Já potřebuju mít **historii**, abych mohl sledovat trendy v mé databázi. Pak můžu např. sledovat, že se mi postupně zvyšuje latence. To nejsem schopný zjistit, když nemám dlouhodobý monitoring
-   <!--ID: 1735205749911-->
-   END
+<!--ID: 1735205749911-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou základní kroky monitoringu?
 
@@ -271,13 +301,16 @@ Back:
 1. **Sběr dat**
 2. **Uložení**
 3. **Zobrazení**
-   <!--ID: 1735205749914-->
-   END
+<!--ID: 1735205749914-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na jakých místech bych měl monitorovat?
 
@@ -286,13 +319,16 @@ Back:
 1. **Aplikační server** - log files
 2. **Operační systém** - otevřené sockety, paměť, context switching, I/O performance, CPU usage
 3. **Databáze** - SQL skripty pro sběr metrik
-   <!--ID: 1735205749916-->
-   END
+<!--ID: 1735205749916-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké technologie se dají využít pro monitoring?
 
@@ -318,6 +354,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký status kód je pro "`Unauthorized`"?
 
 Back:
@@ -331,6 +369,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký status kód je pro `Accepted`?
 
@@ -346,6 +386,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký **status kód a message** je pro to, když chce v rámci concurrency control server odmítnout klienta, že klient nemá aktuální data (na základě if-unmodified-since nebo if-match)?
 
 Back:
@@ -359,6 +401,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký **status kód a message** je pro to, když server chce říct klientovi, že se resource nezměnil (na základě etagu nebo last modified)?
 
@@ -374,6 +418,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké **headery** dává typicky **server** do response pro **cachování**? (3)
 
 Back:
@@ -381,13 +427,16 @@ Back:
 - `Cache-Control` - nastavení cachování
 - `Last-Modified`
 - `ETag`
-  <!--ID: 1736676401156-->
-  END
+<!--ID: 1736676401156-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké **headery** dává typicky **klient** do requestu pro **cachování**? (2)
 
@@ -395,7 +444,8 @@ Back:
 
 - `If-Modified-Since`
 - `If-None-Match`
-  <!--ID: 1736676401170-->
-  END
+<!--ID: 1736676401170-->
+
+END
 
 ---

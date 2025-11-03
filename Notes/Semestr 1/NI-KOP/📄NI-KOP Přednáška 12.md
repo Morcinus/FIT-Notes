@@ -7,8 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska12 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou globální metody?
 
@@ -25,6 +28,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje dekompozice a kompozice v globálních metodách?
 
@@ -56,6 +61,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké vlastnosti může mít kompozice?
 
 Back:
@@ -72,6 +79,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké vlastnosti může mít dekompozice problému?
 
@@ -95,6 +104,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je přibližná dekompozice?
 
 Back:
@@ -110,6 +121,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je čistá dekompozice?
 
@@ -129,6 +142,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je přesná dekompozice?
 
 Back:
@@ -144,6 +159,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou rozdíly mezi:
 
@@ -161,6 +178,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se počítá složitost kompozice a dekompozice?
 
@@ -189,6 +208,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **redukce**?
 
 Back:
@@ -204,6 +225,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je dynamické programování?
 
@@ -223,6 +246,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou stupně v dekompozici?
 
 Back:
@@ -237,6 +262,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 formulace dynamického programování?
 
@@ -254,6 +281,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 U jakých problémů se vyplatí používat dynamické programování?
 
 Back:
@@ -268,6 +297,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Na čem obecně závisí složistost dopředného výpočtu?
 
 Back:
@@ -281,6 +312,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje metoda rozděl a panuj?
 
@@ -300,6 +333,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké výsledky jsou, když použijeme globální metody složené z různých dekompozic?
 
 Back:
@@ -314,6 +349,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je splitting rule u dekompozice DPLL?
 
 Back:
@@ -327,6 +364,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je unity propagation u dekompozice DPLL?
 

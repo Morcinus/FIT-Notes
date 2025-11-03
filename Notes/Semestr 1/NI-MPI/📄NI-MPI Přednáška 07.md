@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska07 status-toReview analyza4
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **typy oblastí**, nad kterými lze integrovat? (2)
 
@@ -20,13 +23,16 @@ Back:
 
 - **Typ 1** - $D = \set {(x,y) \in \mathbb{R}^2: x \in <a,b> \land \varphi_1(\lambda) \leq y \leq \varphi_2(\lambda)}$
   <!-- DetailInfoEnd -->
-  <!--ID: 1735205889362-->
-  END
+<!--ID: 1735205889362-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze obecně spočíst dvojný integrál nad obecnou oblastí?
 
@@ -49,6 +55,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Výpočet dvojného integrálu nad obecnou oblastí
 
@@ -86,6 +94,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak lze spočíst povrch grafu $f(x,y)$ nad $D$?
 
 (tohle nejspíš nemusíme umět)
@@ -101,6 +111,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **trojný integrál**?
 
@@ -121,6 +133,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Jacobiho matice**
 
@@ -146,6 +160,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **o substituci** (zobecněná pro funkci $f: D \rightarrow \mathbb{R}$)
 

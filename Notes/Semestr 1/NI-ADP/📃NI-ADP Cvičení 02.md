@@ -6,10 +6,13 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP cviceni02 status-toReview
 
+
 ### MVC
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli jednotlivé části MVC patternu.
 

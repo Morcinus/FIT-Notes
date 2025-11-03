@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska16 status-toReview algebra4
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak sestavím konečné těleso řádu $p^n$?
 
@@ -25,6 +28,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je postup při řešení tohoto příkladu?
 
@@ -43,6 +48,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočte příklad typu:
 
@@ -72,6 +79,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se vyřeší cvičení tohoto typu?
 
 ![](../../../Assets/Pasted%20image%2020241221120155.png)
@@ -96,6 +105,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se postupuje v následujícím příkladě?
 

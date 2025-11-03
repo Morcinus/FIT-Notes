@@ -6,8 +6,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska02 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké provádíme typy **hodnocení algoritmů**? Co každý typ znamená? (2 typy)
 
@@ -24,7 +27,7 @@ Back:
 - **Teorie** - horní asymptotická mez výpočetní složitosti
 - **Aplikace** - průměrná výpočetní složitost na instancích
   <!-- ExampleEnd -->
-  <!--ID: 1728204724953-->
+<!--ID: 1728204724953-->
 
 END
 
@@ -32,6 +35,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké **2 typické analytické odpovědi** se snažíme získat při hodnocení algoritmů?
 
@@ -54,6 +59,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč se často hodnotí algoritmy experimentálně?
 
 Back:
@@ -67,6 +74,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co nás typicky zajímá za **otázky** při dělání experimentů? (3)
 Co z toho vyvodíme?
@@ -82,13 +91,16 @@ Back:
 Otázky jsou typicky **závislost něčeho na něčem**
 
 - Např. výpočetní čas na velikosti instance
-  <!--ID: 1728222348180-->
-  END
+<!--ID: 1728222348180-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **kroky experimentu**? (4)
 
@@ -110,6 +122,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké metriky nás zajímají u **experimentu**?
 
@@ -138,6 +152,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Když hledáme metriku, hledáme typicky nějakou která **závisí** nebo **nezávisí** na detailech implementace?
 
 Back:
@@ -160,6 +176,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou 2 typy vstupních metrik?
 
 Back:
@@ -177,6 +195,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je metrika **Fázový přechod**?
 
 Back:
@@ -190,6 +210,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se rychle rozpozná u **fázového přechodu**?
 
@@ -224,19 +246,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakými způsoby lze získávat instance problému?
 
 Back:
 
 - **Generováním instancí** - _sám si je nageneruju_
 - **Sběrem instancí**
-  <!--ID: 1728241521278-->
-  END
+<!--ID: 1728241521278-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co musíme dodržet při **generování instancí** problému?
 
@@ -251,6 +278,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **variance** v metrikách?
 
@@ -272,6 +301,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co znamená **potlačení variance**?
 
 Back:
@@ -292,6 +323,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou kroky **obecného vyhodnocení algoritmu**? (3+2)
 
 Back:
@@ -308,8 +341,9 @@ Back:
 2. **Měřím výstupní metriku**
 3. Z výstupní metriky **udělám statistiku**, _abych potlačil varianci v instancích_
 4. Udělám **interpretaci** statistiky
-   <!--ID: 1728241521306-->
-   END
+<!--ID: 1728241521306-->
+
+END
 
 ---
 
@@ -318,19 +352,24 @@ Back:
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké **statistiky** se pro **jednu hodnotu zadané metriky** často používají? (2)
 
 Back:
 
 - **průměr**
 - **medián**
-  <!--ID: 1728241521313-->
-  END
+<!--ID: 1728241521313-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 **Co bych měl** z hlediska **statistiky** udělat na **datech výstupní metriky**?
 
@@ -349,6 +388,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 K čemu mi je získaná **statistika** při **hodnocení algoritmu**?
 
 Back:
@@ -362,6 +403,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakými způsoby můžu srovnávat statistiky algoritmů?
 
@@ -393,6 +436,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se liší v **hodnocení randomizovaných algoritmů** od normálních algoritmů?
 
@@ -428,6 +473,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **primární metriky**?
 
 Back:
@@ -447,6 +494,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **sekundární metriky** (=kvantitativní srovnání)?
 
@@ -468,6 +517,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **vizualizace** výstupních metrik?
 
 Back:
@@ -481,6 +532,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Mám **randomizovaný algoritmus**, co pustím s **různými parametry** _(p=0.1,p=0.4)_ nad jednou instancí. Z toho dostanu následující grafy výstupních metrik.
 
@@ -511,6 +564,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **korekce na úspěšnost**?
 
 Back:
@@ -536,6 +591,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se liší v **hodnocení randomizovaných algoritmů na více instancích** od randomizovaných algoritmů **na jedné instanci**?
 
 Back:
@@ -553,6 +610,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč se u **randomizovaného algoritmu** na **více instancí** dělá **statistika dvakrát**?
 
@@ -574,6 +633,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak ověřím, jestli u **randomizovaného algoritmu** na **více instancích** mám **spolehlivá data**?
 
@@ -597,6 +658,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **robustnost heuristiky**?
 
 Back:
@@ -614,13 +677,16 @@ Když SAT solveru na vstupu přeházím pořadí proměnných ve formuli (a Bool
 - Často je důvodem nerobustnosti reprezentace množin **vektorem**.
 - Když mám v algoritmu vybírat prvek pro zpracování, měl bych to vybírat **náhodně**
   <!-- DetailInfoEnd -->
-  <!--ID: 1728241521404-->
-  END
+<!--ID: 1728241521404-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co například negativně ovlivňuje **robustnost heuristiky**? (2)
 
@@ -628,13 +694,16 @@ Back:
 
 - Reprezentace množin **vektorem**.
 - Když mám v algoritmu vybírat prvek pro zpracování, měl bych to vybírat **náhodně**. _Jinak to může v určitých případech být nerobustní_.
-  <!--ID: 1728241521409-->
-  END
+<!--ID: 1728241521409-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se měří **robustnost heuristiky**?
 
@@ -674,6 +743,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč nemůžu jednoduše zprůměrovat nebo udělat medián na datech založených na **sbírání instancí**?
 
 Back:
@@ -695,6 +766,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu jsou dobré **standardní sady instancí**?
 
@@ -732,6 +805,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké klíčové vlastnosti by měl mít experiment?
 
 Back:
@@ -739,13 +814,16 @@ Back:
 - **Provedení** experimentu musí být **opakovatelné** _(aby se např. ověřilo, že v měření nebyla chyba)_
 - **Sběr dat** musí umožnit **alternativní interpretaci** _(např. že algoritmus je hodně efektivní pro určitou podtřídu těch instancí)_
 - **Prezentace experimentu** musí budit **důvěru** ve výsledek - Tzn. musí být kvalitní **návrh, interpretace** atd.
-  <!--ID: 1728241521442-->
-  END
+<!--ID: 1728241521442-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je IMRaD?
 
@@ -760,6 +838,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké části má **IMRaD**? (4)
 

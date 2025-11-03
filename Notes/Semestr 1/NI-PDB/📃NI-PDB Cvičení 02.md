@@ -6,8 +6,11 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB cviceni02 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co bude u žápočťáků/zkoušek?
 

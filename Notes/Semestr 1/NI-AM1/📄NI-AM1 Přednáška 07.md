@@ -7,10 +7,13 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska07 status-toReview
 
+
 ### Security
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je TLS?
 
@@ -26,6 +29,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké služby poskytuje TLS?
 
 Back:
@@ -33,13 +38,16 @@ Back:
 - Encryption
 - Autentizaci
 - Integritu
-  <!--ID: 1735205750029-->
-  END
+<!--ID: 1735205750029-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se využívá v rámci šifrování (encryption) v TLS na začátku spojení?
 
@@ -54,6 +62,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se využívá v rámci integrity v TLS?
 
@@ -70,6 +80,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje TLS handshake?
 
@@ -100,6 +112,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **ALPN** a **SNI**?
 
 Back:
@@ -113,8 +127,9 @@ Toho se dá prakticky využít:
 
 - Např. mám webový server na portu 443. - Díky ALPN můžu za ten port schovat server, který je schopný komunikovat s různými protokoly - např. HTTP 1, HTTP 2 - Díky tomu můžu na jednom portu provozovat dvě různé služby - Pomocí té ALPN hlavičky pak poznám, na kterou službu přesměrovat tu komunikaci
   <!-- ExampleEnd -->
-  <!--ID: 1735205750039-->
-  END
+<!--ID: 1735205750039-->
+
+END
 
 ---
 
@@ -122,6 +137,8 @@ Toho se dá prakticky využít:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 **hlavní metody pro výměny klíčů**?
 
@@ -146,6 +163,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou typy spojení mezi klientem, middlewarem a serverem, co se týče **TLS**? (3)
 
 Back:
@@ -153,13 +172,16 @@ Back:
 - **TLS Offloading**
 - **TLS Bridging**
 - **TLS Pass-through** (end-to-end TLS)
-  <!--ID: 1736677615828-->
-  END
+<!--ID: 1736677615828-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **TLS Offloading**?
 
@@ -178,6 +200,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **TLS Bridging**?
 
 Back:
@@ -195,6 +219,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **End-To-End TLS** (TLS pass-through)
 
 Back:
@@ -211,6 +237,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Load balancer**?
 
 Back:
@@ -219,8 +247,9 @@ Prvek, co rozděluje zátěž.
 
 - Může využívat TLS offloading nebo TLS bridging
 - Může využívat TLS pass-though s pomocí SNI
-  <!--ID: 1735205750052-->
-  END
+<!--ID: 1735205750052-->
+
+END
 
 ---
 
@@ -228,6 +257,8 @@ Prvek, co rozděluje zátěž.
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké byly cíle HTTP2?
 
@@ -237,13 +268,16 @@ Back:
 - **Umožnění multiplexingu** - stačí jedno TCP spojení
 - **Optimalizace hlaviček** - aby byly menší, lepší komprese
 - **Prioritizace requestů a responses** (aby prohlížeč věděl, které requesty jsou důležitější)
-  <!--ID: 1735205750057-->
-  END
+<!--ID: 1735205750057-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se navazuje HTTP v2 spojení?
 
@@ -251,8 +285,9 @@ Back:
 
 1. Nejdříve se naváže TLS a ALPN connection
 2. Potom se odesílají data pomocí HTTP/2
-   <!--ID: 1735205750059-->
-   END
+<!--ID: 1735205750059-->
+
+END
 
 ---
 
@@ -260,6 +295,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **binary framing layer**?
 
@@ -280,6 +317,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **stream** v HTTP/2?
 
@@ -303,6 +342,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **message** v HTTP/2?
 
 Back:
@@ -325,6 +366,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **frame** v HTTP/2?
 
 Back:
@@ -346,6 +389,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je struktura framu v HTTP/2?
 
@@ -370,6 +415,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč má Javascript nižší prioritu než HTML a CSS při dělání requestů na web server?
 
 Back:
@@ -389,6 +436,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se řeší priorita streamů?
 
@@ -412,6 +461,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je a jak funguje **Flow control** v HTTP/2?
 
@@ -453,6 +504,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **server push**?
 
 Back:
@@ -475,13 +528,16 @@ Funguje to na základě mechanismu push-promise.
 
 - Pokud klient výslovně neřekne, že to nechce (např. protože to má v cachi), tak mu to automaticky posílám.
   <!-- DetailInfoEnd -->
-  <!--ID: 1735205750081-->
-  END
+<!--ID: 1735205750081-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak přesně funguje **server push**?
 
@@ -507,6 +563,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **BDP**?
 
 Back:
@@ -526,6 +584,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak podle BDP poznám jeslti se mi vyplatí použít server-push?
 

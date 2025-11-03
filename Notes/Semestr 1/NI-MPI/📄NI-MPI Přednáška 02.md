@@ -7,7 +7,7 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska02 status-toReview analyza2
 
 START
-Basic
+FIT-Card
 
 Co je parciální derivace druhého řádu?
 
@@ -27,7 +27,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **Hessova matice**
 
@@ -39,6 +39,7 @@ Back:
 Ukazuje, jak se mění sklon funkce ve všech směrech v daném bodě.
 
 Tags: core
+
 <!--ID: 1728921214787-->
 
 END
@@ -46,7 +47,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Věta: pořadí parciálního derivování
 
@@ -57,6 +58,7 @@ Back:
 Pozn. tehle případ platí velice často.
 
 Hessova matice je často symetrická - tzn. podle diagonály v matici.
+
 <!--ID: 1728921214789-->
 
 END
@@ -64,13 +66,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: Druhá parciální derivace funkce $f$ ve směru v bodě $\textbf{b}$
 
 Back:
 
 ![[Pasted image 20240930133700.png]]
+
 <!--ID: 1728921214792-->
 
 END
@@ -78,7 +81,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Věta: Výpočet **druhé** derivace ve směru v bodě
 
@@ -95,6 +98,7 @@ Můžu potom provádět "ruské násobení":
 3. ten vektor potom pronásobím s dalším vektorem
 
 Tags: core
+
 <!--ID: 1735463085834-->
 
 END
@@ -102,7 +106,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **definitnost matic**
 
@@ -118,6 +122,7 @@ _Příklad indefinitního_:
 ![[Pasted image 20240930134809.png]]
 
 Tags: core
+
 <!--ID: 1728921214796-->
 
 END
@@ -125,7 +130,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
@@ -136,6 +141,7 @@ Back:
 ![[Pasted image 20240930135024.png]]
 
 Tags: core
+
 <!--ID: 1728921214799-->
 
 END
@@ -143,7 +149,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
@@ -154,6 +160,7 @@ Back:
 ![[Pasted image 20240930135029.png]]
 
 Tags: core
+
 <!--ID: 1728921214801-->
 
 END
@@ -161,7 +168,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
@@ -172,6 +179,7 @@ Back:
 ![[Pasted image 20240930135046.png]]
 
 Tags: core
+
 <!--ID: 1728921214804-->
 
 END
@@ -179,7 +187,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
@@ -190,6 +198,7 @@ Back:
 ![[Pasted image 20240930135050.png]]
 
 Tags: core
+
 <!--ID: 1728921214807-->
 
 END
@@ -197,7 +206,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Buď $\textbf{A} \in \mathbb{R}^{n,n}$ **symetrická** matice. Potom platí následující:
 
@@ -208,6 +217,7 @@ Back:
 ![[Pasted image 20240930135107.png]]
 
 Tags: core
+
 <!--ID: 1728921214809-->
 
 END
@@ -215,7 +225,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Věta: **Sylvestrovo kritérium**
 
@@ -224,6 +234,7 @@ Back:
 ![[Pasted image 20240930135304.png]]
 
 Tags: core
+
 <!--ID: 1728921214813-->
 
 END
@@ -231,7 +242,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Věta: **diagonála matice** a **definitnost**
 
@@ -240,6 +251,7 @@ Back:
 ![[Pasted image 20240930135505.png]]
 
 Tags: core
+
 <!--ID: 1728921214815-->
 
 END
@@ -247,7 +259,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Věta: **Postačující podmínka existence extrému a sedlového bodu**
 
@@ -257,6 +269,7 @@ Back:
 ![[Pasted image 20240930140831.png]]
 
 Tags: core
+
 <!--ID: 1728921214818-->
 
 END
@@ -264,7 +277,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Věta: Nutná podmínka existence lokálního extrému (2)
 
@@ -273,6 +286,7 @@ Back:
 ![[Pasted image 20240930140823.png]]
 
 Tags: core
+
 <!--ID: 1728921214821-->
 
 END
@@ -280,7 +294,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Postup: Jak najít extrémy funkce více proměnných?
 
@@ -306,13 +320,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **konvexní a konkávní funkce**
 
 Back:
 
 ![[Pasted image 20240930140715.png]]
+
 <!--ID: 1728921214826-->
 
 END
@@ -320,13 +335,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Doplň tvrzení: Lokální minimum konvexní funkce je $\dots$
 
 Back:
 
 Lokální minimum konvexní funkce je globálním minimem.
+
 <!--ID: 1728921214829-->
 
 END

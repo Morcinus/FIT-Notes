@@ -10,10 +10,13 @@ TARGET DECK: archive
 
 FILE TAGS: NI-ADP architektura
 
+
 ### MVVM
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje MVVM architektura?
 

@@ -6,8 +6,11 @@ up: "[[📖NI-TSW]]"
 TARGET DECK: archive
 FILE TAGS: NI-TSW prednaska02 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **trojimperativ projektového řízení**? (2. princip)
 
@@ -53,6 +56,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **trojimperativ** podle PRINCE2?
 
 Back:
@@ -76,6 +81,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je tabulka stakeholderů? K čemu slouží?
 
@@ -109,6 +116,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké vlastnosti by měly být cíle projektu? (5)
 
@@ -145,6 +154,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je rozdíl mezi iteracíma a inkrementama v softwarovém řízení?
 
 Back:
@@ -173,6 +184,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **kritická cesta**? (3. princip projektového řízení)
 
 Back:
@@ -188,6 +201,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **strategie**?
 
@@ -211,6 +226,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **portfolio** v projektovém řízení?
 
@@ -238,6 +255,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **program v projektovém řízení** (ve vztahu k portfoliu a strategii)?
 
 Back:
@@ -252,13 +271,16 @@ Celkem je teda:
 - Z toho plyne **portfolio**
 - Z toho plyne **program**
   <!-- ExplanationEnd -->
-  <!--ID: 1729237386305-->
-  END
+<!--ID: 1729237386305-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **komunikační matice**?
 
@@ -292,6 +314,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč jsou projekty **neúspěšný**?
 
 Back:
@@ -306,13 +330,16 @@ Back:
 8. **Chybí projektová metodika**
 9. **Nedostatečné řízení zainteresovaných stran**
 10. **Technické požadavky jsou příliš vysoké**
-    <!--ID: 1729237386310-->
+<!--ID: 1729237386310-->
+
     END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč je dobrý si do knowledge base zapisovat informace o zákaznících?
 
@@ -325,8 +352,9 @@ Protože díky tomu například vím, **jaký ten zákazník je**, což je extr�
 - Ministerstva komunikují **pomalu**
 - Někteří zákazníci komunikují **neformálně**
   <!-- ExampleEnd -->
-  <!--ID: 1729237386313-->
-  END
+<!--ID: 1729237386313-->
+
+END
 
 ---
 
@@ -336,6 +364,8 @@ Protože díky tomu například vím, **jaký ten zákazník je**, což je extr�
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **3 úrovně organizační struktury**?
 
@@ -351,13 +381,16 @@ Back:
 
 - Jsou tam **sponzoři**, **manažeři**, někdo kdo "drží prachy" aka ovládá **budget** firmy, někdo kdo zodpovídá za zákazníka, atd.
   <!-- ExplanationEnd -->
-  <!--ID: 1729237386316-->
-  END
+<!--ID: 1729237386316-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **pravidlo sedmi** v projektovém řízení?
 
@@ -390,6 +423,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **matice odpovědnosti**?
 
 Back:
@@ -409,6 +444,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **RACI** v matici zodpovědnosti?
 
@@ -437,6 +474,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké 3 vlastnosti by měl mít tým?
 
 Back:
@@ -444,13 +483,15 @@ Back:
 - **samoorganizace** - tým by měl být schopný sám řešit problémy bez externího manažera
 - **rozvíjející/seberealizační** - každý má pocit osobního rozvoje během práce v týmu
 - **synergický** - výsledek je větší něž pouhý součet jeho částí
-
+<!--ID: 1762185861937-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou týmové role podle M. Belbina (9)
 
@@ -461,13 +502,15 @@ Je potřeba mít v týmu různé zastoupení těchto rolí. Díky tomu se ten t�
 ![](../../../Assets/Pasted%20image%2020241106094645.png)
 
 Pozn. Belbinův test je to, co jsme dělali na TISech a podle čeho jsme sestavovali ty týmy
-
+<!--ID: 1762185861941-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **paradox nenahraditelnosti**?
 
@@ -490,26 +533,30 @@ Je potřeba to v týmech hlídat, aby tam nevznikaly nenahraditelní lidé.
 Někteří šéfové například mají tendenci nabírat hloupější lidi, aby ty podřízení nebyli lepší než on.
 
 <!-- DetailInfoEnd -->
-
+<!--ID: 1762185861944-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **paradox řízení**?
 
 Back:
 
 Kvalitní manažer má dobře fungující tým a tudíž není jeho řízení potřeba.
-
+<!--ID: 1762185861947-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké funkce má manažer?
 
@@ -518,13 +565,15 @@ Back:
 - **Odstraňuje komunikační mezery**
 - **Řeší konflikty**
 - **Odměňuje a trestá**
-
+<!--ID: 1762185861950-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na co je pořeba dělat, když mám takovouhle komunikační strukturu v projektu?
 
@@ -533,13 +582,15 @@ Na co je pořeba dělat, když mám takovouhle komunikační strukturu v projekt
 Back:
 
 Musím si dát pozor, aby ten člověk, přes kterého jde komunikace, aby ji **neblokoval**. Je fajn to co nejvíc nastavit tak, aby se komunikovalo napřímo bez zbytečných uzlů
-
+<!--ID: 1762185861953-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy manažera?
 
@@ -550,13 +601,15 @@ Back:
 - **Demokratický**
 
 ![](../../../Assets/Pasted%20image%2020241106102403.png)
-
+<!--ID: 1762185861956-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **hlavní problémy** u manažera?
 
@@ -567,13 +620,15 @@ Back:
 - **Kult osobnosti**
 - **Odmítavý postoj k názorům týmu**
 - **Bossing** - systematická šikana ze strany vedoucího
-
+<!--ID: 1762185861964-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **hlavní problémy komunikace** u členů týmu (vůči manažerovi)?
 
@@ -584,13 +639,15 @@ Back:
 - **Neochota komunikace**
 - **Diskriminace**
 - **Vzájemná nedůvěra**
-
+<!--ID: 1762185861969-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Čím vším mohou být lidé motivovaní v práci?
 
@@ -602,7 +659,7 @@ Back:
 - **Volný čas** - někdo chce hodně volného času
 
 Měl bych motivovat lidi tím, co je motivuje.
-
+<!--ID: 1762185861972-->
 END
 
 ---

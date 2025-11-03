@@ -7,6 +7,7 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska09 status-toReview
 
+
 ### Data architectures (through time)
 
 - Data warehouse

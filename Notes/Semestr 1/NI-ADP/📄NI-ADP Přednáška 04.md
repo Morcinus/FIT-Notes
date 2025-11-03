@@ -7,10 +7,13 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska04 status-toReview
 
+
 ## Structrual design patterns
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **structural design** patterny?
 
@@ -23,8 +26,9 @@ Back:
 - Facade
 - Bridge
 - Decorator
-  <!--ID: 1729237386333-->
-  END
+<!--ID: 1729237386333-->
+
+END
 
 ---
 
@@ -32,6 +36,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **adapter** design pattern?
 
@@ -54,6 +60,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **proxy** design pattern?
 
@@ -90,6 +98,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **facade** design pattern?
 
 Back:
@@ -118,6 +128,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dávají se názvy design patternů do názvů tříd?
 
 Back:
@@ -133,6 +145,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Composite design** pattern?
 
@@ -161,6 +175,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **flyweight** design pattern?
 

@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - das Rad,-"er 2
 - der Radiergummi,-s 2
 - das Radio,-s 2
@@ -43,6 +45,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 kolo
 
 Back:
@@ -51,12 +55,15 @@ das Rad,-"er
 
 Tags: lesson2
 <!--ID: 1758825179264-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 guma (na mazání)
 
@@ -66,12 +73,15 @@ der Radiergummi,-s
 
 Tags: lesson2
 <!--ID: 1758825179267-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rádio
 
@@ -81,12 +91,15 @@ das Radio,-s
 
 Tags: lesson2
 <!--ID: 1758825179269-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 radioprogram
 
@@ -96,12 +109,15 @@ das Radioprogramm,-e
 
 Tags: lesson1
 <!--ID: 1758825179272-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rap
 
@@ -111,12 +127,15 @@ der Rap,-s
 
 Tags: lesson3
 <!--ID: 1758825179275-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hádanka: tipuj
 
@@ -126,12 +145,15 @@ ratem
 
 Tags: lesson1
 <!--ID: 1758825179277-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 radnice
 
@@ -141,12 +163,15 @@ das Rathaus,-"er
 
 Tags: lesson1
 <!--ID: 1758825179280-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 místnost; prostor
 
@@ -156,12 +181,15 @@ der Raum,-"e
 
 Tags: lesson4
 <!--ID: 1758825179284-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 reálná škola
 
@@ -171,12 +199,15 @@ die Realschule,-n
 
 Tags: lesson3
 <!--ID: 1758825179287-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 účet; faktura
 
@@ -186,12 +217,15 @@ die Rechnung,-en
 
 Tags: lesson1
 <!--ID: 1758825179289-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vpravo; napravo
 
@@ -201,12 +235,15 @@ rechts
 
 Tags: lesson4
 <!--ID: 1758825179292-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 redaktor
 
@@ -216,12 +253,15 @@ der Redakteur,-e
 
 Tags: lesson6
 <!--ID: 1758825179295-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 redaktorka
 
@@ -231,12 +271,15 @@ die Redakteurin,-nen
 
 Tags: lesson6
 <!--ID: 1758825179298-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 redakce
 
@@ -246,12 +289,15 @@ die Redaktion,-en
 
 Tags: lesson6
 <!--ID: 1758825179300-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vyjadřovací prostředky
 
@@ -261,12 +307,15 @@ das Redemittel
 
 Tags: lesson2
 <!--ID: 1758825179304-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rámek vyjadřovacích prostředků
 
@@ -276,12 +325,15 @@ der Redemittelkasten ,-"
 
 Tags: lesson2
 <!--ID: 1758825179306-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 police; regál
 
@@ -291,12 +343,15 @@ das Regal,-e
 
 Tags: lesson4
 <!--ID: 1758825179309-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pravidlo
 
@@ -306,12 +361,15 @@ die Regel,-n
 
 Tags: lesson3
 <!--ID: 1758825179312-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 region; oblast
 
@@ -321,12 +379,15 @@ die Region,-en
 
 Tags: lesson3
 <!--ID: 1758825179318-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 regionální
 
@@ -336,12 +397,15 @@ regional
 
 Tags: lesson1
 <!--ID: 1758825179323-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pořadí
 
@@ -351,12 +415,15 @@ die Reihenfolge,-n
 
 Tags: lesson2
 <!--ID: 1758825179326-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 restaurace
 
@@ -366,12 +433,15 @@ das Restaurant,-s
 
 Tags: lesson4
 <!--ID: 1758825179328-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 správně
 
@@ -381,12 +451,15 @@ richtig
 
 Tags: lesson2
 <!--ID: 1758825179331-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 správné (v loterii)
 
@@ -396,12 +469,15 @@ Richtige (im Lotto)
 
 Tags: lesson1
 <!--ID: 1758825179334-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hra na role
 
@@ -411,12 +487,15 @@ das Rollenspiel,-e
 
 Tags: lesson5
 <!--ID: 1758825179337-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 záda
 
@@ -426,12 +505,15 @@ der Rücken,-
 
 Tags: lesson4
 <!--ID: 1758825179340-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 bolesti zad
 
@@ -441,12 +523,15 @@ Rückenschmerzen
 
 Tags: lesson4
 <!--ID: 1758825179342-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 klidný; tiše
 
@@ -456,12 +541,15 @@ ruhig
 
 Tags: lesson4
 <!--ID: 1758825179345-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ruština
 
@@ -471,6 +559,7 @@ das Russisch,-
 
 Tags: lesson4
 <!--ID: 1758825179348-->
+
 END
 
 ---

@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - ich 2
 - im 2
 - immer 2
@@ -27,6 +29,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 já
 
 Back:
@@ -35,12 +39,15 @@ ich
 
 Tags: lesson2
 <!--ID: 1758825180039-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 v (ve)
 
@@ -50,12 +57,15 @@ im
 
 Tags: lesson2
 <!--ID: 1758825180042-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pořád; vždy
 
@@ -65,12 +75,15 @@ immer
 
 Tags: lesson2
 <!--ID: 1758825180045-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 import
 
@@ -80,12 +93,15 @@ der Import,-e
 
 Tags: lesson1
 <!--ID: 1758825180048-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 v; do
 
@@ -95,12 +111,15 @@ in
 
 Tags: lesson1
 <!--ID: 1758825180051-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 průmysl
 
@@ -110,12 +129,15 @@ die Industrie,-n
 
 Tags: lesson1
 <!--ID: 1758825180053-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 informace
 
@@ -125,12 +147,15 @@ die Information,-en
 
 Tags: lesson3
 <!--ID: 1758825180056-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zajímavý
 
@@ -140,12 +165,15 @@ interessant
 
 Tags: lesson2
 <!--ID: 1758825180058-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 interkulturní
 
@@ -155,12 +183,15 @@ interkulturell
 
 Tags: lesson4
 <!--ID: 1758825180061-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mezinárodní
 
@@ -170,12 +201,15 @@ international
 
 Tags: lesson1
 <!--ID: 1758825180064-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mezinárodnost
 
@@ -185,12 +219,15 @@ die Internationalität,-
 
 Tags: lesson4
 <!--ID: 1758825180067-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 internet
 
@@ -200,12 +237,15 @@ das Internet,-
 
 Tags: lesson1
 <!--ID: 1758825180069-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 italština
 
@@ -215,6 +255,7 @@ das Italienisch,-
 
 Tags: lesson3
 <!--ID: 1758825180072-->
+
 END
 
 ---

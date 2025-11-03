@@ -7,12 +7,15 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP
 
+
 ## NI-SI-1 - Design Principles
 
 ### DRY
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **DRY** - co to znamená a proč by se to mělo dodržovat.
 
@@ -26,8 +29,9 @@ Back:
 - Zvyšuje to náročnost údržby
 - Zvyšuje to výskyt bugů
 - Znemožňuje to efektivně dělat změny v kódu
-  <!--ID: 1738239851883-->
-  END
+<!--ID: 1738239851883-->
+
+END
 
 ---
 
@@ -35,6 +39,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **KISS** - co to znamená a proč by se to mělo dodržovat.
 
@@ -64,6 +70,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětli design princip **YAGNI** - co to znamená a proč by se to mělo dodržovat (4 costs).
 
 Back:
@@ -75,8 +83,9 @@ Back:
 
 - Špatně se odhaduje, co bude potřeba v budoucnu, požadavky se hodně mění. To co si myslíme, že bude potřeba teď, nemusí být potřeba později.
 - Costs: - **cost of building** = strávíme čas na něčem co možná ani nevyužijeme - **cost of delay** = zpomalíme tím projekt, protože jsme se mohli věnovat něčemu jinému - **cost of carry** = budeme mít od začátku složitější systém, což je horší na údržbu, debuggování, rozšiřování atd. - **cost of repairs** = v době, kdy to bude potřeba, pravděpodobně daná funkcionalita stejně bude mít hodně technical debt
-  <!--ID: 1738239851890-->
-  END
+<!--ID: 1738239851890-->
+
+END
 
 ---
 
@@ -84,6 +93,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **SOLID** - z jakých pojmů se to skládá?
 
@@ -96,8 +107,9 @@ Back:
 - **Liskov Substitution** = pokud $S$ je podtypem $T$, potom všude kde se používá objekt $T$, můžu použít bez změny programu i objekt $S$
 - **Interface Segregation** = Klienti by neměli být nuceni záviset na metodách, které nepoužívají.
 - **Dependency Inversion** = High-level moduly by neměly záviset na low-level modulech. Obojí by mělo záviset na abstrakci.
-  <!--ID: 1738239851893-->
-  END
+<!--ID: 1738239851893-->
+
+END
 
 ---
 
@@ -105,6 +117,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli **Single Responsibility** princip (ze SOLID) - co to znamená a proč by se to mělo dodržovat.
 
@@ -140,6 +154,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětli **Open-closed** princip (ze SOLID) - co to znamená a proč by se to mělo dodržovat.
 
 Back:
@@ -174,6 +190,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli **Liskov Substitution** princip (ze SOLID) - co to znamená a proč by se to mělo dodržovat.
 
@@ -216,6 +234,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětli **Interface Segregation** princip (ze SOLID) - co to znamená a proč by se to mělo dodržovat.
 
 Back:
@@ -250,6 +270,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli **Dependency Inversion** princip (ze SOLID) - co to znamená a proč by se to mělo dodržovat.
 
@@ -298,6 +320,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětli design princip **POLA** - co to znamená a proč by se to mělo dodržovat.
 
 Back:
@@ -308,8 +332,9 @@ Back:
 **Proč:**
 
 - S kódem se lépe pracuje, když je předvídatelný
-  <!--ID: 1738239851909-->
-  END
+<!--ID: 1738239851909-->
+
+END
 
 ---
 
@@ -317,6 +342,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **TBSR** - co to znamená a proč by se to mělo dodržovat.
 
@@ -328,8 +355,9 @@ Back:
 **Proč:**
 
 - Díky tomu se postupně zbavujeme tech debtu, aniž bychom museli stopnout veškerou práci a dělat obří refaktoring
-  <!--ID: 1738239851911-->
-  END
+<!--ID: 1738239851911-->
+
+END
 
 ---
 
@@ -337,6 +365,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli co je **Tech debt** - co to je, jaké má kvadranty?
 
@@ -358,8 +388,9 @@ Např.
 - Úmyslný a rozumný - "Neuděláme to, ale počítáme s dopady"
 - Neúmyslný a lehkovážný - "Co je layering?"
 - Neúmyslný a rozumný - "Teď víme, že jsme to měli udělat jinak" (např. najdeme lepší řešení až po tom, co jsme to udělali)
-  <!--ID: 1738239851914-->
-  END
+<!--ID: 1738239851914-->
+
+END
 
 ---
 
@@ -367,6 +398,8 @@ Např.
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **SoC** - co to znamená a proč by se to mělo dodržovat.
 
@@ -384,13 +417,16 @@ Např.
 **Proč:**
 
 - Systém je tak přehlednější, lépe se udržuje, debuguje atd.
-  <!--ID: 1738239851917-->
-  END
+<!--ID: 1738239851917-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **LoD** - co to znamená a proč by se to mělo dodržovat.
 
@@ -419,8 +455,9 @@ An object can call methods that are apart of:
 - an object it owns
 - a global variable
   <!-- ExplanationEnd -->
-  <!--ID: 1738239851920-->
-  END
+<!--ID: 1738239851920-->
+
+END
 
 ---
 
@@ -428,6 +465,8 @@ An object can call methods that are apart of:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětli design princip **APO** - co to znamená a proč by se to mělo dodržovat.
 
@@ -447,8 +486,9 @@ Místo toho bychom měli nejdříve vyvinout funkční kód, pak až zjistit, kt
 
 - Vývojáři mají tendenci být perfekcionisti a snažit se udělat "perfektní/bezchybný kód"
   <!-- ExampleEnd -->
-  <!--ID: 1738239851922-->
-  END
+<!--ID: 1738239851922-->
+
+END
 
 ---
 
@@ -456,6 +496,8 @@ Místo toho bychom měli nejdříve vyvinout funkční kód, pak až zjistit, kt
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **Vytvářecí návrhové vzory**? (5)
 
@@ -466,8 +508,9 @@ Back:
 - **Factory method**
 - **Prototype**
 - **Singleton**
-  <!--ID: 1738239851925-->
-  END
+<!--ID: 1738239851925-->
+
+END
 
 ---
 
@@ -475,6 +518,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Abstract factory** design pattern?
 
@@ -518,6 +563,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Abstract factory** design patternu?
 
 Back:
@@ -546,6 +593,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Abstract factory** design patternu? (4 + 1)
 
 Back:
@@ -566,6 +615,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Builder** design pattern?
 
@@ -627,6 +678,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Builder** design patternu?
 
 Back:
@@ -655,6 +708,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Builder** design patternu? (3 + 1)
 
 Back:
@@ -676,6 +731,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Factory method** design pattern?
 
@@ -734,6 +791,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Factory method** design patternu?
 
 Back:
@@ -764,6 +823,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Factory method** design patternu? (3 + 1)
 
 Back:
@@ -785,6 +846,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Prototype** design pattern?
 
@@ -826,6 +889,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je **basic implementation** struktura **Prototype** design patternu?
 
 Back:
@@ -852,6 +917,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je **prototype registry** struktura **Prototype** design patternu?
 
 Back:
@@ -869,6 +936,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Prototype** design patternu? (4 + 1)
 
@@ -893,6 +962,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Singleton** design pattern?
 
@@ -940,6 +1011,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Singleton** design patternu?
 
 Back:
@@ -959,6 +1032,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Singleton** design patternu? (3 + 4)
 
@@ -988,6 +1063,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **Non-GoF návrhové vzory**? (8)
 
 Back:
@@ -1000,8 +1077,9 @@ Back:
 - **Multiton**
 - **Null object**
 - **Thread pool**
-  <!--ID: 1738239851968-->
-  END
+<!--ID: 1738239851968-->
+
+END
 
 ---
 
@@ -1009,6 +1087,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Double-checked locking**?
 
@@ -1036,6 +1116,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč by člověk měl používat **Double-checked locking**?
 
 Back:
@@ -1054,6 +1136,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Thread pool** a proč je dobré ho používat?
 
@@ -1084,6 +1168,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **Mock object**?
 
 Back:
@@ -1100,6 +1186,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč by člověk měl používat **Mock object**?
 
 Back:
@@ -1108,8 +1196,9 @@ Back:
 - **Usnadňuje testování** - některé situace jsou velice těžké na testování (network connection atd.)
 - **Když neexistuje implementace** - můžeme mocknout něco, co ještě neexistuje. Díky tomu můžeme vyvíjet bez dané části systému
 - **Když reálný objekt vrací nedeterministické výsledky** - např. čas, seed atd.
-  <!--ID: 1738239851981-->
-  END
+<!--ID: 1738239851981-->
+
+END
 
 ---
 
@@ -1117,6 +1206,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Null object** a proč je dobré ho používat? (2)
 
@@ -1146,6 +1237,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **structural design patterns**? (7)
 
 Back:
@@ -1157,8 +1250,9 @@ Back:
 - **Facade**
 - **Flyweight**
 - **Proxy**
-  <!--ID: 1738239851986-->
-  END
+<!--ID: 1738239851986-->
+
+END
 
 ---
 
@@ -1166,6 +1260,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Adapter** design pattern?
 
@@ -1220,6 +1316,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je **Object adapter** struktura **Adapter** design patternu?
 
 Back:
@@ -1249,6 +1347,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je **Class adapter** struktura **Adapter** design patternu?
 
 Back:
@@ -1269,6 +1369,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Adapter** design patternu? (2 + 1)
 
 Back:
@@ -1288,6 +1390,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Bridge** design pattern?
 
@@ -1342,6 +1446,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Bridge** design patternu?
 
 Back:
@@ -1371,6 +1477,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Bridge** design patternu? (4 + 1)
 
 Back:
@@ -1394,6 +1502,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Composite** design pattern?
 
@@ -1445,6 +1555,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Composite** design patternu?
 
 Back:
@@ -1474,6 +1586,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Composite** design patternu? (2 + 1)
 
 Back:
@@ -1493,6 +1607,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Decorator** design pattern?
 
@@ -1564,6 +1680,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Decorator** design patternu?
 
 Back:
@@ -1592,6 +1710,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Decorator** design patternu? (4 + 3)
 
 Back:
@@ -1619,6 +1739,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Facade** design pattern?
 
@@ -1654,6 +1776,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Facade** design patternu?
 
 Back:
@@ -1682,6 +1806,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Facade** design patternu? (1 + 1)
 
 Back:
@@ -1699,6 +1825,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Flyweight** design pattern?
 
@@ -1750,6 +1878,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Flyweight** design patternu?
 
 Back:
@@ -1779,6 +1909,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Flyweight** design patternu? (1 + 2)
 
 Back:
@@ -1798,6 +1930,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Proxy** design pattern?
 
@@ -1837,6 +1971,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Proxy** design patternu?
 
 Back:
@@ -1863,6 +1999,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Proxy** design patternu? (4 + 2)
 
@@ -1892,6 +2030,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **Lazy loading**?
 
 Back:
@@ -1908,13 +2048,16 @@ Na webových stránkách se načtou obrázky, až když k nim uživatel doscroll
 
 - **Snižuje to initial load time**
 - **Šetří to komunikaci a zdroje** - nepřistupuje se tak moc do databáze, neposílá se tolik requestů
-  <!--ID: 1738239852047-->
-  END
+<!--ID: 1738239852047-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakými způsoby lze implementovat **lazy loading**? (4)
 
@@ -1924,8 +2067,9 @@ Back:
 - **Virtual proxy** - při přístupu k objektu se zavolá virtuální objekt se stejným rozhraním. Ten pak načte daný objekt a přepošle mu požadavek.
 - **Ghost** - loadne se objekt s částečným stavem (např. placeholder), když je to potřeba, objekt vyplní svoje data
 - **Value holder** - generický objekt se stará o lazy loading, tento objekt se používá místo nějaké proměnné data objektu
-  <!--ID: 1738239852050-->
-  END
+<!--ID: 1738239852050-->
+
+END
 
 ---
 
@@ -1933,6 +2077,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Dependency Injection**?
 
@@ -2047,6 +2193,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **automatizovaná dependency injection**?
 
 Back:
@@ -2065,8 +2213,9 @@ There are libraries that solve this problem by automating the process of creatin
 - Reflection-based solutions that connect dependencies at runtime.
 - Static solutions that generate the code to connect dependencies at compile time.
   <!-- DetailInfoEnd -->
-  <!--ID: 1738239852055-->
-  END
+<!--ID: 1738239852055-->
+
+END
 
 ---
 
@@ -2074,6 +2223,8 @@ There are libraries that solve this problem by automating the process of creatin
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **vzory pro chování objektů**? (11)
 
@@ -2090,8 +2241,9 @@ Back:
 - **Strategy**
 - **Template Method**
 - **Visitor**
-  <!--ID: 1738239852058-->
-  END
+<!--ID: 1738239852058-->
+
+END
 
 ---
 
@@ -2099,6 +2251,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Command** design pattern?
 
@@ -2164,6 +2318,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Command** design patternu?
 
 Back:
@@ -2193,6 +2349,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Command** design patternu? (5 + 1)
 
 Back:
@@ -2218,6 +2376,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Chain of Responsibility** design pattern?
 
@@ -2277,6 +2437,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Chain of Responsibility** design patternu?
 
 Back:
@@ -2306,6 +2468,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Chain of Responsibility** design patternu? (3 + 1)
 
 Back:
@@ -2327,6 +2491,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Interpreter** design pattern?
 
@@ -2359,6 +2525,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Interpreter** design patternu?
 
 Back:
@@ -2377,6 +2545,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Interpreter** design patternu? (1 + 1)
 
 Back:
@@ -2394,6 +2564,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Iterator** design pattern?
 
@@ -2443,6 +2615,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Iterator** design patternu?
 
 Back:
@@ -2472,6 +2646,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Iterator** design patternu? (4 + 2)
 
 Back:
@@ -2497,6 +2673,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Mediator** design pattern?
 
@@ -2542,6 +2720,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Mediator** design patternu?
 
 Back:
@@ -2570,6 +2750,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Mediator** design patternu? (4 + 1)
 
 Back:
@@ -2593,6 +2775,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Memento** design pattern?
 
@@ -2648,6 +2832,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Memento** design patternu - **Implementation based on nested classes**?
 
 Back:
@@ -2677,6 +2863,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Memento** design patternu - **Implementation based on an intermediate interface**?
 
 Back:
@@ -2697,6 +2885,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je struktura **Memento** design patternu - **Implementation with even stricter encapsulation**?
 
@@ -2719,6 +2909,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Memento** design patternu? (2 + 3)
 
@@ -2743,6 +2935,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Observer** design pattern?
 
@@ -2792,6 +2986,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Observer** design patternu?
 
 Back:
@@ -2821,6 +3017,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Observer** design patternu? (2 + 1)
 
 Back:
@@ -2840,6 +3038,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **State** design pattern?
 
@@ -2912,6 +3112,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **State** design patternu?
 
 Back:
@@ -2940,6 +3142,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **State** design patternu? (3 + 1)
 
 Back:
@@ -2961,6 +3165,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Strategy** design pattern?
 
@@ -3014,6 +3220,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Strategy** design patternu?
 
 Back:
@@ -3035,6 +3243,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Strategy** design patternu? (4 + 3)
 
@@ -3063,6 +3273,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Template Method** design pattern?
 
@@ -3115,6 +3327,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Template Method** design patternu?
 
 Back:
@@ -3140,6 +3354,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Template Method** design patternu? (2 + 3)
 
 Back:
@@ -3163,6 +3379,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Visitor** design pattern?
 
@@ -3250,6 +3468,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Visitor** design patternu?
 
 Back:
@@ -3278,6 +3498,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Visitor** design patternu? (3 + 2)
 
 Back:
@@ -3303,6 +3525,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **MVC** architektura?
 
@@ -3346,6 +3570,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **MVC** architektury? (2 možnosti)
 
 Back:
@@ -3365,6 +3591,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **MVC** architektury? (3 + 1)
 
@@ -3387,6 +3615,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **MVP** architektura?
 
@@ -3422,6 +3652,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody **MVP** architektury? (3)
 
 Back:
@@ -3442,6 +3674,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **MVVM** architektura?
 
@@ -3464,6 +3698,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je struktura **MVVM** architektury?
 
@@ -3493,6 +3729,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 K čemu slouží **Client-server** architektura?
 
 Back:
@@ -3508,6 +3746,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Client-server** architektury? (2 + 1)
 
@@ -3529,6 +3769,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kdy se používá **Client-Server architektura**? (4)
 
 Back:
@@ -3537,8 +3779,9 @@ Back:
 - **Desktop Applications**: In this case, the client is the desktop application running on the user’s computer, and the server is a remote server that stores data and performs backend tasks. The desktop application sends requests to the server to retrieve data or perform actions, and the server responds with the appropriate data or result.
 - **Mobile Apps**: Same as desktop applications, only the client is the mobile app running on the user’s device.
 - **Online Games**: Online games often use client-server architecture to support multiplayer gameplay. In this case, the client is the game running on the user’s device, and the server is a game server that manages the game world and handles communication between players.
-  <!--ID: 1738239852180-->
-  END
+<!--ID: 1738239852180-->
+
+END
 
 ---
 
@@ -3550,6 +3793,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Asynchronous messaging** architektura?
 
@@ -3589,6 +3834,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Asynchronous messaging** architektury? (3 + 2)
 
 Back:
@@ -3603,8 +3850,9 @@ Back:
 
 - Bus/Broker maintenance
 - Many inter-application communications have an intrinsically synchronous aspect => a need for facilities to group a request and a response as a single pseudo-synchronous transaction
-  <!--ID: 1738239852185-->
-  END
+<!--ID: 1738239852185-->
+
+END
 
 ---
 
@@ -3612,6 +3860,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Blackboard architecture**?
 
@@ -3659,6 +3909,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Používá se **Blackboard architecture**?
 
 Back:
@@ -3672,8 +3924,9 @@ Ne, už se to nepoužívá, protože to bylo špatně škálovatelné na tehdej�
 - allows multiple agents to work closer together on separate threads, polling and reacting when necessary
 - The pattern was abandoned in past because: - Did not scale well to real problems on the available computers of the time - Most problems using blackboards are inherently NP-hard, so resist tractable solution by any algorithm in the large size limit - Blackboard was outperformed by statistical pattern recognition techniques, most notably by simple Hidden Markov Models
   <!-- DetailInfoEnd -->
-  <!--ID: 1738239852189-->
-  END
+<!--ID: 1738239852189-->
+
+END
 
 ---
 
@@ -3681,6 +3934,8 @@ Ne, už se to nepoužívá, protože to bylo špatně škálovatelné na tehdej�
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Rule-based architecture** architektura?
 
@@ -3716,6 +3971,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura **Rule-based architecture** architektury?
 
 Back:
@@ -3726,8 +3983,9 @@ Back:
   - conditions are expressed logically as conjunctions (occasionally, disjunctions) of predicates, in some systems, some conditions correspond to sensor data
 - The action can be a change in working memory or an external operation supported by the interpreter.
 - Interpreter performs the **match-resolve-act** cycle: - **Match**: In this first phase, the left-hand sides of all rules are matched against the contents of working memory. As a result a conflict set is obtained, which consists of instantiations of all satisfied rules. - An instantiation of a rule is an ordered list of working megnory elements that satisfies the left-hand side of the production. - **Conflict-Resolution**: In this second phase, one of the rule instantiations in the conflict set is chosen for execution. If no rules are satisfied, the interpreter halts. - **Act**: In this third phase, the actions of the rule selected in the conflict-resolution phase are executed. These actions may change the contents o% working memory. At the end of this phase, execution returns to the first phase.
-  <!--ID: 1738239852194-->
-  END
+<!--ID: 1738239852194-->
+
+END
 
 ---
 
@@ -3735,6 +3993,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Publish-subscribe** architektura?
 
@@ -3754,6 +4014,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou 2 topologie **Publish-subscribe** architektury?
 
 Back:
@@ -3768,13 +4030,16 @@ Back:
 
 - Každý publisher a subscriber o sobě sdílí meta-data přes IP multicast (tzn. všichni o sobě vědí), tyto informace si každý publisher/subscriber cachuje
 - Podle meta-dat publisher rovnou posílá informace subscriberovi
-  <!--ID: 1738239852199-->
-  END
+<!--ID: 1738239852199-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je struktura **Publish-subscribe** architektury? (todo smazat tuhle kartičku)
 
@@ -3799,13 +4064,16 @@ Back:
 - Initialization time
   - For example: there are frameworks and software products using XML configuration files to register subscribers during system initialization
 - Runtime - For example: database triggers, mailing lists, and RSS
-  <!--ID: 1738239852202-->
-  END
+<!--ID: 1738239852202-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou nevýhody **publish-subscribe** architektury? (2)
 
@@ -3814,8 +4082,9 @@ Back:
 - **Message delivery issues**
   - Publishing recipes by subscribers
 - **Limited maximum scalability of a pub/sub network** - Load surges: periods when subscriber requests saturate network throughput followed by periods of low message volume (underutilized network bandwidth) - Slowdowns: as more and more applications use the system (even if they are communicating on separate pub/sub channels) the message volume flow to an individual subscriber will slow
-  <!--ID: 1738239852204-->
-  END
+<!--ID: 1738239852204-->
+
+END
 
 ---
 
@@ -3827,6 +4096,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Marker interface** kdy bychom ho měli používat?
 
@@ -3857,6 +4128,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **Multiton**? Kdy se používá?
 
 Back:
@@ -3879,6 +4152,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou vrstvy **Clean Architektury**?
 
@@ -3961,6 +4236,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou principy **Clean Architektury**? (5)
 
 Back:
@@ -3970,8 +4247,9 @@ Back:
 - **Independent of UI** - Měl bych být schopný změnit UI bez zásahu do byznys logiky
 - **Independent of Database** - Business pravidla by neměla být závislá na konkrétní databázi, měl bych být schopný ji jednoduše měnit.
 - **Independent of any external agency** - business pravidla by neměla vědět nic o vnějším světě.
-  <!--ID: 1738333522807-->
-  END
+<!--ID: 1738333522807-->
+
+END
 
 ---
 
@@ -3979,6 +4257,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Peer-to-peer** architektura?
 
@@ -3994,13 +4274,16 @@ Nepotřebuje to centrální server, každý účastník se chová jako klient a 
 2. **Bitcoin**: A well-known cryptocurrency that operates on a P2P network for transaction verification and ledger maintenance.
 3. **Skype**: Utilizes P2P technology for voice and video calls.
    <!-- ExampleEnd -->
-   <!--ID: 1738239852214-->
-   END
+<!--ID: 1738239852214-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy se například používá **Peer-to-peer** architektura? (5)
 
@@ -4011,13 +4294,16 @@ Back:
 3. **Grid Computing**: P2P can be used for grid computing where the processing power of several computers is combined to work on complex tasks.
 4. **Communication**: Applications like Skype and VoIP services utilize P2P for direct peer-to-peer communication.
 5. **Content Distribution**: P2P networks are used by content delivery networks (CDNs) to distribute large files efficiently.
-   <!--ID: 1738239852217-->
-   END
+<!--ID: 1738239852217-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Peer-to-peer** architektury? (4+4)
 
@@ -4036,8 +4322,9 @@ Nevýhody:
 2. **Inconsistent Performance**: The performance can vary depending on the peers’ capabilities and availability.
 3. **Legal and Ethical Issues**: P2P networks can be misused for distributing pirated or illegal content.
 4. **Complex Management**: Managing and troubleshooting a P2P network can be more complex than traditional networks.
-   <!--ID: 1738239852220-->
-   END
+<!--ID: 1738239852220-->
+
+END
 
 ---
 
@@ -4045,6 +4332,8 @@ Nevýhody:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Master-slave** architektura?
 
@@ -4067,13 +4356,16 @@ Konkrétní examples:
 - **MySQL Replication**: Implements master-slave replication for database redundancy.
 - **Distributed Computing Frameworks**: Like Apache Spark, where the master node manages task distribution to worker nodes.
   <!-- ExampleEnd -->
-  <!--ID: 1738239852222-->
-  END
+<!--ID: 1738239852222-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Master-slave** architektury? (3 + 3)
 
@@ -4090,8 +4382,9 @@ Back:
 1. **Single Point of Failure**: If the master fails, the entire system can become inoperative.
 2. **Complexity**: Managing communication and synchronization between master and slaves can be complex.
 3. **Scalability Limits**: The architecture can become bottlenecked by the master’s capacity.
-   <!--ID: 1738239852225-->
-   END
+<!--ID: 1738239852225-->
+
+END
 
 ---
 
@@ -4099,6 +4392,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Pipe and filter** architektura?
 
@@ -4122,13 +4417,16 @@ Konkrétní příklady:
 3. **Data Analytics Pipeline:** In data analytics, filters can be used for cleansing, transforming, and aggregating data before analysis.
 4. **Audio Processing:** In audio engineering, a series of filters are used for equalization, compression, and effects like reverb.
    <!-- ExampleEnd -->
-   <!--ID: 1738239852227-->
-   END
+<!--ID: 1738239852227-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou výhody a nevýhody **Pipe and filter** architektury? (4 + 4)
 
@@ -4147,8 +4445,9 @@ Back:
 2. **Complexity in State Management:** Managing state across filters can be challenging, particularly in stateful filters.
 3. **Debugging Difficulty:** Debugging can be difficult due to the distributed nature of processing.
 4. **Limited Interactivity:** Not well-suited for interactive applications where immediate feedback is required, as data must pass through the entire pipeline.
-   <!--ID: 1738239852230-->
-   END
+<!--ID: 1738239852230-->
+
+END
 
 ---
 
@@ -4156,6 +4455,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu slouží **Event driven** architektura?
 
@@ -4178,6 +4479,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 topologie v **Event driven** architektuře?
 
@@ -4203,6 +4506,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody a nevýhody **Event driven** architektury? (4 + 1)
 
 Back:
@@ -4218,8 +4523,9 @@ Back:
 - Extreme loose coupling (within space, time and synchronization) - Events do not know which components will be affected by those events. - Provides a scalable infrastructure for information exchange and distributed workflows. - Components cannon make assumptions about order of processing, or even about what processing will occur as a result of their events. - For this reason, most implicit invocation systems also include explicit invocation (i.e., normal procedure call) as a complementary form of interaction.
   **Nevýhody:**
 - Tightly coupled to the semantics of the underlying event schema and values - The high degree of semantic heterogeneity of events makes it difficult to develop and maintain event-based systems.
-  <!--ID: 1738239852238-->
-  END
+<!--ID: 1738239852238-->
+
+END
 
 ---
 
@@ -4227,6 +4533,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 4 základní principy **DevOps**?
 
@@ -4263,6 +4571,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou části **DevOps workflow**?
 

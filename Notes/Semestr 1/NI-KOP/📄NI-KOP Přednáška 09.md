@@ -7,8 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska09 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je analogie **simulované evoluce** (biologický systém a optimalizační problém)?
 
@@ -26,6 +29,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak vypadá proces simulované evoluce?
 
@@ -53,6 +58,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou prostředky **diverzifikace** a **intenzifikace** v simulované evoluci?
 
 Back:
@@ -72,6 +79,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **4 hlavní strategie u simulované** evoluce?
 
 Back:
@@ -80,13 +89,16 @@ Back:
 - **genetické programování**
 - **evoluční strategie**
 - **evoluční programování**
-  <!--ID: 1737735239322-->
-  END
+<!--ID: 1737735239322-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Nad jakou reprezentací pracuje **genetický algoritmus**?
 
@@ -112,6 +124,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Nad jakou reprezentací pracuje **genetické programování**?
 
 (tohle bude u zkoušky)
@@ -130,6 +144,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Nad jakou reprezentací pracuje **evoluční strategie**?
 
 (tohle bude u zkoušky)
@@ -147,6 +163,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Nad jakou reprezentací pracuje **evolučního programování**?
 
@@ -168,6 +186,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakými způsoby lze nahradit starou generaci novou generací? (2)
 
 Back:
@@ -185,6 +205,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se typicky zachází s potomky u těchto strategií:
 
@@ -220,6 +242,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se reprezentují jedinci v genetických algoritmech?
 
 Back:
@@ -235,6 +259,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje jednobodové křížení?
 
@@ -258,6 +284,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje dvoubodové křížení?
 
 Back:
@@ -280,6 +308,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje uniformní křížení?
 
 Back:
@@ -301,6 +331,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje křížení pro permutační problémy (PMX)?
 
@@ -332,6 +364,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje inverze v genetice?
 
 Back:
@@ -349,6 +383,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **mutace**?
 
@@ -375,6 +411,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje selekce v genetických algoritmech (množení)?
 
 Back:
@@ -400,6 +438,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje selekční tlak?
 
 Back:
@@ -421,6 +461,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah selekce a mutace?
 
@@ -444,6 +486,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se stane, když mám velký selekční tlak?
 
@@ -473,6 +517,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co se stane, když mám malý sekvenční tlak?
 
 Back:
@@ -497,6 +543,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **ruletový výběr**? (v selekčním tlaku)
 
 Back:
@@ -519,6 +567,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **univerzální stochastické vzorkování**? (v selekčním tlaku)
 
 Back:
@@ -540,6 +590,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 3 **techniky u řízení selekčního tlaku pro ruletový výběr**?
 
@@ -564,6 +616,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **lineární škálování**? (**Scaling**)
 
@@ -592,6 +646,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se spočte výsledný selekční tlak?
 
 Back:
@@ -611,6 +667,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze zachovat průměrnou zdatnost při počítání selekčního tlaku?
 
@@ -639,6 +697,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **ranking**?
 
 Back:
@@ -662,6 +722,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **zkrácený výběr**? (truncation selection)
 
@@ -695,6 +757,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Turnajový výběr**?
 
 Back:
@@ -718,6 +782,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou různé **podmínky ukončení genetického algoritmu**? (aka jak rozhodnu, kdy algoritmus skončí)?
 
 Back:
@@ -736,6 +802,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou techniky pro omezující podmínky?
 

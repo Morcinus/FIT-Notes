@@ -7,10 +7,13 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska06 status-toReview analyza4
 
+
 ### Připomenutí analýzy
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **rozdělení intervalu, dělící body, norma dělení**
 
@@ -32,6 +35,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **horní, resp. dolní součet funkce $f$**
 
 Back:
@@ -51,6 +56,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Darbouxův ("Darbuúv") integrál + horní a dolní
 
@@ -72,6 +79,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: kdy se $\lim_{n \rightarrow \infty}s_f(\sigma_n)$ a $\lim_{n \rightarrow \infty}S_f(\sigma_n)$ rovnají integrálu?
 
 Back:
@@ -85,6 +94,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **aditivita integrálu**
 
@@ -100,6 +111,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: **multiplikativita integrálu**
 
 Back:
@@ -113,6 +126,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **primitivní funkce**
 
@@ -128,6 +143,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Newtonova formule**
 
 Back:
@@ -141,6 +158,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Per partes pro určitý integrál**
 
@@ -161,6 +180,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **O substituci**
 
@@ -184,6 +205,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je obecně integrál funkce o dvou proměnných?
 
 Back:
@@ -203,6 +226,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Horní Darbouxova suma $f$ vzhledem k rozdělení $\sigma$**
 
@@ -226,6 +251,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Dolní Darbouxova suma $f$ vzhledem k rozdělení $\sigma$**
 
 Back:
@@ -241,6 +268,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Horní Darbouxův integrál (funkce $f$ na $D$)**
 
 Back:
@@ -255,6 +284,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Dolní Darbouxův integrál (funkce $f$ na $D$)**
 
 Back:
@@ -268,6 +299,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Dvojitý Darbouxův integrál**
 
@@ -289,6 +322,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **normální rozdělení $\sigma_n$** + kdy se $\lim_{n \rightarrow \infty}s_f(\sigma_n)$ a $\lim_{n \rightarrow \infty}S_f(\sigma_n)$ rovnají integrálu? (u funkce dvou proměnných)
 
 Back:
@@ -302,6 +337,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **výpočet dvojného integrálu nad obdélníkovou oblastí**
 
@@ -332,6 +369,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **dvojitý Darbouxův integrál funkce $f$ na $D$**
 
 Back:
@@ -353,6 +392,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **množina míry nula**
 
@@ -378,6 +419,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Poznámka: **Množiny míry nula a hodnota integrálu**
 
 Back:
@@ -397,6 +440,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Poznámka: graf spojité funkce a míra nula
 
@@ -418,6 +463,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Poznámka: **vlastnost platí skoro všude**
 
 Back:
@@ -438,6 +485,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Omezená funkce je integrabilní $\Leftrightarrow$
 
@@ -462,6 +511,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **hranice množiny**?
 
 Back:
@@ -476,6 +527,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Důsledek: omezená množina a integrabilita
 
 Back:
@@ -489,6 +542,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Vlastnosti dvojného integrálu** (3)
 

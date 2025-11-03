@@ -6,10 +6,13 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska04 status-toReview analyza3
 
+
 ### Věta o implicitní funkci
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **o implicitní funkci**
 
@@ -60,6 +63,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co obecně (vlastními slovy) děláme v **úlohách vázaného extrému** na funkcích o dvou proměnných?
 
 Back:
@@ -84,6 +89,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je obecně **úloha vázaného extrému minima**
 
@@ -115,6 +122,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se nazývají $f$, $g_j$ a $h_k$ v **úloze vázaného extrému minima**?
 
 ![](../../../Assets/Pasted%20image%2020241011123158.png)
@@ -140,6 +149,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **lokální minimum vzhledem k množině**
 
@@ -194,6 +205,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 K čemu slouží **Lagrangeova funkce**?
 
 Back:
@@ -219,6 +232,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Lagrangeova funkce** (pro rovnostní vazby)
 
 Back:
@@ -239,6 +254,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Lagrangeovy multiplikátory**
 
 ![](../../../Assets/Pasted%20image%2020241011133516.png)
@@ -256,6 +273,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Postačující podmínka existence ostrého lokálního minima pro rovnostní vazby**
 
@@ -287,6 +306,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se obecně používá Lagrangeova funkce? (při hledání lokálního extrému)
 
 Back:
@@ -296,8 +317,9 @@ Back:
 3. Rovnice vyřešíme
 4. Koukneme se na všechny směry, co jsou kolmé na gradienty všech těch vazeb a spočteme $v^T\cdot \nabla^2_xL(x^*;\lambda^*)\cdot v$
 5. Když to bude kladné, máme lokální minimum
-   <!--ID: 1729236692711-->
-   END
+<!--ID: 1729236692711-->
+
+END
 
 ---
 
@@ -305,6 +327,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Čím se zabývá "metoda řešení při rovnostních i nerovnostních vazbách"?
 
@@ -322,6 +346,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Lagrangeova funkce** (i pro nerovnostní vazby)
 
 Back:
@@ -337,6 +363,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Množina aktivních omezení**
 
@@ -365,6 +393,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Postačující podmínka existence ostrého lokálního minima** (rovnostní i nerovnostní vazby)
 
@@ -405,6 +435,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Postačující podmínka existence ostrého lokálního maxima** (rovnostní i nerovnostní vazby)
 

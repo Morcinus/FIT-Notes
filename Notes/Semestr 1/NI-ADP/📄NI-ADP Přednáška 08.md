@@ -7,10 +7,13 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska08 status-toReview
 
+
 ### Architektura klient server
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **architektura klient-server**?
 
@@ -32,6 +35,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou typy klientů?
 
 Back:
@@ -52,6 +57,8 @@ viz AM1
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje asynchronous messaging?
 

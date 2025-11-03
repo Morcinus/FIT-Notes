@@ -8,8 +8,11 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska14 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou základní vlastnosti homomorfismu? (3)
 
@@ -35,6 +38,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: cyklické grupy a izomorfismus
 
 Back:
@@ -57,6 +62,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: existence neizomorfních grup řádu 4
 
 Back:
@@ -72,6 +79,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Cayleyova
 
@@ -95,6 +104,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: problém diskrétního logaritmu v grupě $G=(M, \cdot)$
 
 (tohle asi nutně nemusíme umět přesně nazpaměť, bylo to v příkladech jak se využívají teorie grup v kryptografii)
@@ -112,6 +123,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: problém diskrétního logaritmu v grupě $G=(M, +)$
 
@@ -137,6 +150,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Okruh
 
 Back:
@@ -152,6 +167,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Názvosloví: komutativní okruh
 
@@ -171,6 +188,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Názvosloví: aditivní grupa okruhu $R$
 
 Back:
@@ -188,6 +207,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Názvosloví: multiplikativní monoid okruhu $R$
 
@@ -207,6 +228,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Názvosloví: neutrální prvek grupy $(M,+)$ v okruhu $R$
 
 Back:
@@ -223,6 +246,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Názvosloví: neutrální prvek $(M,\cdot)$ v okruhu $R$
 
 Back:
@@ -238,6 +263,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Obor integrity**
 
@@ -265,6 +292,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **těleso**
 
 Back:
@@ -280,6 +309,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Pokud pro $a,b$ z tělesa $T$ platí $ab =0$, potom $\dots$
 
@@ -303,6 +334,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Homomorfismus okruhů**
 
 Back:
@@ -319,6 +352,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Homomorfismus těles**
 
 Back:
@@ -334,6 +369,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Izomorfismus okruhů/těles**
 
@@ -357,6 +394,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **izomorfní tělesa**
 
 Back:
@@ -372,6 +411,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Polynom nad okruhem
 
@@ -395,6 +436,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: **Okruh polynomů**
 
 Back:
@@ -411,6 +454,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Lemma: **o násobení polynomů** (aneb jaký stupeň mají polynomy po násobení)
 
 Back:
@@ -426,6 +471,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: **o dělení polynomů**
 

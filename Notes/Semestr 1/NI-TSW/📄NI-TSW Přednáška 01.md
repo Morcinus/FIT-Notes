@@ -7,7 +7,7 @@ TARGET DECK: archive
 FILE TAGS: NI-TSW prednaska01 status-toReview
 
 START
-Basic
+FIT-Card
 
 K čemu je Ganttův diagram?
 
@@ -16,6 +16,7 @@ Back:
 Zobrazení časové náročnosti a posloupnosti (závislosti) činností projektu.
 
 Můžu tam zanést i třeba dny volna atd.
+
 <!--ID: 1728921214632-->
 
 END
@@ -23,7 +24,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je kritická činnost?
 
@@ -32,6 +33,7 @@ Back:
 Když _zpozdím tu činnost_, tak se mi _zpozdí konec projektu_.
 
 V ganttu to je červeně.
+
 <!--ID: 1728921214635-->
 
 END
@@ -39,13 +41,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Proč je dobrý dělat grafy, používat metody atd. v prezentacích?
 
 Back:
 
 Protože tomu ty manažeři, zákazníci rozumí a chápou to.
+
 <!--ID: 1728921214638-->
 
 END
@@ -53,7 +56,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **CPM**?
 
@@ -62,13 +65,14 @@ Back:
 **Critical Path Method**
 
 - Metoda pro spočítání _kritických činností_
-  <!--ID: 1728921214641-->
-  END
+<!--ID: 1728921214641-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **PERT**?
 
@@ -78,19 +82,21 @@ Back:
 
 - Metoda když nevim, kolik času mi to může zabrat
 - Počítá s tím, že nevím přesnou dobu trvání činnosti (programování, analýza atd.) - Přidá mi tam optimistický a pesimistický case (nejpravděpodobnější cesty - např. s 20% pravděpodobnstí to udělám za 2 měsíce)
-  <!--ID: 1728921214644-->
-  END
+<!--ID: 1728921214644-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **MPM**?
 
 Back:
 
 To samý jako PERT, ale pro potrubí, sítě atd.
+
 <!--ID: 1728921214646-->
 
 END
@@ -98,13 +104,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je Critical Chain Method?
 
 Back:
 
 Metoda na odhadování, kde mi to počítá i s lidskými faktory - někdo dělá multitasking, někdo potřebuje přejet na jinou schůzku atd
+
 <!--ID: 1728921214649-->
 
 END
@@ -112,7 +119,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou obecně certifikáty, který (ve většině případů) potřebuju když chci dělat projekťáka?
 
@@ -129,13 +136,14 @@ Standardy / certifikáty projektového řízení
   - Vyvinutý v Americe
   - Dost složitý a zaměřený na procesy - prý to ale v praxi tak složitě dělat nějde
 - **Prince2** - Je dobrej, protože je zaměřenej na _produkt_ - Vyvinutý a rozvíjen vládou ve Velké Británii - Mají tam různé úrovně
-  <!--ID: 1728921214652-->
-  END
+<!--ID: 1728921214652-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **projektová kancelář**?
 
@@ -150,6 +158,7 @@ Měla by určovat, jak se v dané firmě řídí projekty, podle jakých standar
 Měly by pomáhat člověku dodržovat standardy projektového řízení.
 
 ![[Pasted image 20240925100557.png]]
+
 <!--ID: 1728921214655-->
 
 END
@@ -157,13 +166,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Proč by se měly nefunkční projekty zabíjet asap?
 
 Back:
 
 Jinak se tím plácá moc času
+
 <!--ID: 1728921214657-->
 
 END
@@ -171,7 +181,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou _typy řízení_? (3)
 
@@ -180,13 +190,14 @@ Back:
 - **Projektově** - "správně dělat správné věci"
 - **Operativně** - provoz, maintenance, projekty se moc operativně řídit nedají
 - **Krizově** - když je projekt ve velkém průseru, tak se řeší co dál - Stabilizace hroutícího se systému
-  <!--ID: 1728921214660-->
-  END
+<!--ID: 1728921214660-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Co je 1. Pripcip projektu?
 
@@ -201,6 +212,7 @@ Back:
 Vypadá to jednoduše, ale je to extrémně důležitý ten cíl analyticky rozpracovat. Zákazník nikdy neřekne co chce, pokud člověk neklade otázky. Nesmí člověk assumovat, že ví, co zákazník chce.
 
 Zákazníci si často vymýšlejí nesmysly.. Je potřeba jim říct, že se to dá udělat jednoduššeji a tak to pak udělat.
+
 <!--ID: 1728921214663-->
 
 END
@@ -208,7 +220,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Proč je fajn používat **MVP**?
 
@@ -217,6 +229,7 @@ Back:
 Občas když zákazník potřebuje něco brzo, je fajn prostě domluvit specifikaci MVP a zbytek pak dodělat jako change requesty.
 
 Díky tomu to můžu udělat kvalitně v deadlinu a on je spokojen že už má aspoň nějak funkční verzi.
+
 <!--ID: 1728921214666-->
 
 END

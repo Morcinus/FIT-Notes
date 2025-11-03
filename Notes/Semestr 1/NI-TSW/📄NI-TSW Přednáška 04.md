@@ -7,8 +7,11 @@ up: "[[📖NI-TSW]]"
 TARGET DECK: archive
 FILE TAGS: NI-TSW prednaska04 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou základní fáze projektu?
 
@@ -24,13 +27,16 @@ Back:
   - Implementace
   - Testování atd.
 - **Ukončení** - Musí být jasně specifikovaný, kde je ten projekt dokončený - Třeba specifikace na A4
-  <!--ID: 1735205748882-->
-  END
+<!--ID: 1735205748882-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké procesy jso v rámci řízení projektu?
 
@@ -52,6 +58,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co se dělá v rámci zahájení projektu?
 
 Back:
@@ -68,6 +76,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Logický rámec**?
 
@@ -102,6 +112,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kolik lidí by mělo být ve scrumu?
 
 Back:
@@ -122,19 +134,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co dělá Scrum master?
 
 Back:
 
 - Hlídá, že se jede podle scrumu
 - Řeší problémy týmu - Když chybí člověk, vyřeší. Když chybí kafe, dodá kafe. Když se někdo hádá v týmu, tak to vyřeší. Když zákazník nedodržuje scrum, řeší to
-  <!--ID: 1735205748895-->
-  END
+<!--ID: 1735205748895-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdo je product owner?
 
@@ -144,13 +161,16 @@ Back:
 - Ten, co říká, jaký ten produkt má být
 - Určuje priority projektu v product backlogu
 - Komunikuje se zákazníkem
-  <!--ID: 1735205748898-->
-  END
+<!--ID: 1735205748898-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje product backlog?
 
@@ -175,7 +195,8 @@ Nastavuje se to pomocí:
   - Každý ohodnotí task nějakýma pointama (zvedne kartičku)
   - Pak se na základě toho rozhodne
 - T-shirt sizing - S, M, XXL, XXXL - Lehká, těžší, složitá, nejsložitější
-  <!--ID: 1735205748900-->
-  END
+<!--ID: 1735205748900-->
+
+END
 
 ---

@@ -8,8 +8,11 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska12 status-toReview algebra2
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: kolik inverzních prvků je v grupě pro daný prvek?
 
@@ -31,6 +34,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Značení: multiplikativní a aditivní značení inverzních prvků
 
 Back:
@@ -46,6 +51,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Cayleyova tabulka?
 
@@ -73,6 +80,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se z Cayleyovy tabulky pozná **uzavřenost**?
 
 Back:
@@ -93,6 +102,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se z Cayleyovy tabulky pozná **asociativita**?
 
 Back:
@@ -112,6 +123,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se z Cayleyovy tabulky pozná **neutrální prvek**?
 
@@ -139,6 +152,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se z Cayleyovy tabulky pozná **inverzní prvek**?
 
 Back:
@@ -160,6 +175,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se z Cayleyovy tabulky pozná **komutativita**?
 
 Back:
@@ -173,6 +190,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: cayleyho tabulka a latinský čtverec
 
@@ -194,6 +213,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: jednoznačné dělení v grupě
 
 Back:
@@ -213,6 +234,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Cayleyho graf grupy?
 
@@ -240,6 +263,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Podgrupa
 
 Back:
@@ -256,6 +281,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: triviální a vlastní podgrupy
 
 Back:
@@ -269,6 +296,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: průnik podgrup
 
@@ -290,6 +319,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: kritérium pro "být podgrupou"
 
 Back:
@@ -310,6 +341,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Řád grupy**
 
 Back:
@@ -323,6 +356,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Lagrangeova**
 
@@ -345,6 +380,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Sylowova
 
@@ -370,6 +407,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Grupa generovaná množinou
 
@@ -403,6 +442,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice:
 
 - podgrupa generovaná množinou $N$
@@ -420,6 +461,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: "grupový obal"
 
@@ -440,6 +483,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: $\mathbb{Z}_n^+$ je rovno $⟨k⟩ \Leftrightarrow \dots$
 

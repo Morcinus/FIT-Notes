@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - ca. (Abk.: circa) 1
 - das Café,-s 4
 - die Cafeteria,-s 1
@@ -30,6 +32,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 cca (zkratka: circa)
 
 Back:
@@ -38,12 +42,15 @@ ca. (Abk.: circa)
 
 Tags: lesson1
 <!--ID: 1758825180707-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 café; kavárna
 
@@ -53,12 +60,15 @@ das Café,-s
 
 Tags: lesson4
 <!--ID: 1758825180710-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cafeterie
 
@@ -68,12 +78,15 @@ die Cafeteria,-s
 
 Tags: lesson1
 <!--ID: 1758825180713-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cappuccino
 
@@ -83,12 +96,15 @@ der Cappuccino,-
 
 Tags: lesson1
 <!--ID: 1758825180716-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 CD
 
@@ -98,12 +114,15 @@ die CD,-s
 
 Tags: lesson4
 <!--ID: 1758825180719-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 CD přehrávač
 
@@ -113,12 +132,15 @@ der CD-Player,-
 
 Tags: lesson2
 <!--ID: 1758825180722-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 CD-ROM
 
@@ -128,12 +150,15 @@ die CD-ROM,-s
 
 Tags: lesson6
 <!--ID: 1758825180725-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 chaos
 
@@ -143,12 +168,15 @@ das Chaos,-
 
 Tags: lesson4
 <!--ID: 1758825180727-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 chaotický
 
@@ -158,12 +186,15 @@ chaotisch
 
 Tags: lesson4
 <!--ID: 1758825180730-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 šéf
 
@@ -173,12 +204,15 @@ der Chef,-s
 
 Tags: lesson6
 <!--ID: 1758825180733-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 šéfová
 
@@ -188,12 +222,15 @@ die Chefin,-nen
 
 Tags: lesson6
 <!--ID: 1758825180736-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 chemie
 
@@ -203,12 +240,15 @@ die Chemie,-
 
 Tags: lesson2
 <!--ID: 1758825180739-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čínština
 
@@ -218,12 +258,15 @@ das Chinesisch
 
 Tags: lesson4
 <!--ID: 1758825180741-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cola
 
@@ -233,12 +276,15 @@ die Cola
 
 Tags: lesson1
 <!--ID: 1758825180744-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 koláž
 
@@ -248,12 +294,15 @@ die Collage,-n
 
 Tags: lesson4
 <!--ID: 1758825180746-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 počítač
 
@@ -263,6 +312,7 @@ der Computer,-
 
 Tags: lesson1
 <!--ID: 1758825180749-->
+
 END
 
 ---

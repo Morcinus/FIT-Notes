@@ -7,4 +7,5 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska08 status-toReview
 
+
 Byla počítací přednáška

@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - der Abend,-e 5
 - das Abendessen,- 5
 - abends 5
@@ -86,6 +88,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 večer
 
 Back:
@@ -94,12 +98,15 @@ der Abend,-e
 
 Tags: lesson5
 <!--ID: 1758825180752-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 večeře
 
@@ -109,12 +116,15 @@ das Abendessen,-
 
 Tags: lesson5
 <!--ID: 1758825180755-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 večer (obvykle)
 
@@ -124,12 +134,15 @@ abends
 
 Tags: lesson5
 <!--ID: 1758825180758-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ale
 
@@ -139,12 +152,15 @@ aber
 
 Tags: lesson4
 <!--ID: 1758825180760-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zkratka
 
@@ -154,12 +170,15 @@ die Abkürzung,-en
 
 Tags: lesson3
 <!--ID: 1758825180763-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 odmítnout
 
@@ -169,12 +188,15 @@ ablehnen
 
 Tags: lesson5
 <!--ID: 1758825180766-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zrušit
 
@@ -184,12 +206,15 @@ absagen
 
 Tags: lesson5
 <!--ID: 1758825180769-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 oddělení
 
@@ -199,12 +224,15 @@ die Abteilung,-en
 
 Tags: lesson6
 <!--ID: 1758825180772-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Ach!
 
@@ -214,12 +242,15 @@ Ach!
 
 Tags: lesson3
 <!--ID: 1758825180775-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 aha
 
@@ -229,12 +260,15 @@ ach so
 
 Tags: lesson5
 <!--ID: 1758825180777-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dávat pozor na
 
@@ -244,12 +278,15 @@ achten auf
 
 Tags: lesson3
 <!--ID: 1758825180780-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Aha!
 
@@ -259,12 +296,15 @@ Aha!
 
 Tags: lesson3
 <!--ID: 1758825180783-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tušení
 
@@ -274,12 +314,15 @@ die Ahnung,-en
 
 Tags: lesson2
 <!--ID: 1758825180785-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Airbus
 
@@ -289,12 +332,15 @@ der Airbus,-se
 
 Tags: lesson1
 <!--ID: 1758825180788-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 letiště
 
@@ -304,12 +350,15 @@ der Airport,-s
 
 Tags: lesson1
 <!--ID: 1758825180791-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 akademický
 
@@ -319,12 +368,15 @@ akademisch
 
 Tags: lesson3
 <!--ID: 1758825180793-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přízvuk
 
@@ -334,12 +386,15 @@ der Akzent,-e
 
 Tags: lesson1
 <!--ID: 1758825180796-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Aldi
 
@@ -349,12 +404,15 @@ Aldi
 
 Tags: lesson6
 <!--ID: 1758825180799-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nealkoholický nápoj
 
@@ -364,12 +422,15 @@ Alkoholfreies
 
 Tags: lesson1
 <!--ID: 1758825180802-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 všichni / všechny
 
@@ -379,12 +440,15 @@ alle
 
 Tags: lesson1
 <!--ID: 1758825180804-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 všeobecné lékařství
 
@@ -394,12 +458,15 @@ die Allgemeinmedizin
 
 Tags: lesson5
 <!--ID: 1758825180807-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 abeceda
 
@@ -409,12 +476,15 @@ das Alphabet,-e
 
 Tags: lesson1
 <!--ID: 1758825180810-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tedy
 
@@ -424,12 +494,15 @@ also
 
 Tags: lesson1
 <!--ID: 1758825180813-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 starý, starší, nejstarší
 
@@ -439,12 +512,15 @@ alt, älter, am ältesten
 
 Tags: lesson4
 <!--ID: 1758825180815-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 byt ve staré zástavbě
 
@@ -454,12 +530,15 @@ die Altbauwohnung,-en
 
 Tags: lesson4
 <!--ID: 1758825180818-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 úřad
 
@@ -469,12 +548,15 @@ das Amt,-"er
 
 Tags: lesson5
 <!--ID: 1758825180821-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 na / u
 
@@ -484,12 +566,15 @@ an
 
 Tags: lesson4
 <!--ID: 1758825180824-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jiný / jiná / jiné
 
@@ -499,12 +584,15 @@ anderer, anderes, andere
 
 Tags: lesson1
 <!--ID: 1758825180826-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 začátek (na začátku)
 
@@ -514,12 +602,15 @@ der Anfang (am),-"e
 
 Tags: lesson1
 <!--ID: 1758825180829-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 začít
 
@@ -529,12 +620,15 @@ anfangen
 
 Tags: lesson5
 <!--ID: 1758825180832-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 uvést
 
@@ -544,12 +638,15 @@ angeben
 
 Tags: lesson3
 <!--ID: 1758825180835-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zaškrtnout
 
@@ -559,12 +656,15 @@ ankreuzen
 
 Tags: lesson1
 <!--ID: 1758825180838-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefonát
 
@@ -573,13 +673,15 @@ Back:
 der Anruf,-e
 
 Tags: lesson5
-
+<!--ID: 1762184315736-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 záznamník
 
@@ -589,12 +691,15 @@ der Anrufbeantworter
 
 Tags: lesson5
 <!--ID: 1758825180841-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zavolat
 
@@ -604,12 +709,15 @@ anrufen
 
 Tags: lesson5
 <!--ID: 1758825180844-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 napsat (někomu)
 
@@ -619,12 +727,15 @@ anschreiben
 
 Tags: lesson2
 <!--ID: 1758825180847-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 podívat se (na)
 
@@ -634,12 +745,15 @@ ansehen
 
 Tags: lesson2
 <!--ID: 1758825180849-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 odpověď
 
@@ -649,12 +763,15 @@ die Antwort,-en
 
 Tags: lesson2
 <!--ID: 1758825180852-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 odpovídat
 
@@ -664,12 +781,15 @@ antworten
 
 Tags: lesson2
 <!--ID: 1758825180855-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 práce
 
@@ -679,12 +799,15 @@ die Arbeit,-en
 
 Tags: lesson2
 <!--ID: 1758825180857-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pracovat (jako)
 
@@ -694,12 +817,15 @@ arbeiten (als)
 
 Tags: lesson1
 <!--ID: 1758825180862-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pracovní pokyn
 
@@ -709,12 +835,15 @@ die Arbeitsanweisung,-en
 
 Tags: lesson2
 <!--ID: 1758825180866-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pracovna
 
@@ -724,12 +853,15 @@ das Arbeitszimmer
 
 Tags: lesson4
 <!--ID: 1758825180869-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 chudák
 
@@ -739,12 +871,15 @@ der/die Arme,-en
 
 Tags: lesson4
 <!--ID: 1758825180872-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 lékař
 
@@ -754,12 +889,15 @@ der Arzt,-"e
 
 Tags: lesson1
 <!--ID: 1758825180876-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 lékařka
 
@@ -769,12 +907,15 @@ die Ärztin,-nen
 
 Tags: lesson1
 <!--ID: 1758825180881-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 atmosféra
 
@@ -784,12 +925,15 @@ die Atmosphäre,-n
 
 Tags: lesson1
 <!--ID: 1758825180891-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 také
 
@@ -799,12 +943,15 @@ auch
 
 Tags: lesson2
 <!--ID: 1758825180899-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 na
 
@@ -814,12 +961,15 @@ auf
 
 Tags: lesson1
 <!--ID: 1758825180903-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 na venkově
 
@@ -829,12 +979,15 @@ auf dem Land
 
 Tags: lesson4
 <!--ID: 1758825180906-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na shledanou!
 
@@ -844,12 +997,15 @@ Auf Wiedersehen!
 
 Tags: lesson1
 <!--ID: 1758825180911-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Naslyšenou!
 
@@ -859,12 +1015,15 @@ Auf Wiederhören!
 
 Tags: lesson5
 <!--ID: 1758825180915-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 povolení k pobytu
 
@@ -874,12 +1033,15 @@ die Aufenthaltsgenehmigung,-en
 
 Tags: lesson5
 <!--ID: 1758825180919-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 úkol
 
@@ -889,12 +1051,15 @@ die Aufgabe,-en
 
 Tags: lesson2
 <!--ID: 1758825180922-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vstávat
 
@@ -904,12 +1069,15 @@ aufstehen
 
 Tags: lesson5
 <!--ID: 1758825180926-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 z, ze
 
@@ -919,12 +1087,15 @@ aus
 
 Tags: lesson1
 <!--ID: 1758825180929-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vymyslet (si něco)
 
@@ -934,12 +1105,15 @@ ausdenken (sich etw.)
 
 Tags: lesson2
 <!--ID: 1758825180934-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít ven
 
@@ -949,12 +1123,15 @@ ausgehen
 
 Tags: lesson5
 <!--ID: 1758825180937-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 informace
 
@@ -963,13 +1140,15 @@ Back:
 die Auskunft
 
 Tags: lesson1
-
+<!--ID: 1762184315739-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zahraničí
 
@@ -979,12 +1158,15 @@ das Ausland
 
 Tags: lesson4
 <!--ID: 1758825180942-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zahraniční germanistika
 
@@ -994,12 +1176,15 @@ die Auslandsgermanistik
 
 Tags: lesson1
 <!--ID: 1758825180945-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cizinec
 
@@ -1009,12 +1194,15 @@ der Ausländer -
 
 Tags: lesson5
 <!--ID: 1758825180949-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cizinecký úřad
 
@@ -1024,12 +1212,15 @@ das Ausländeramt -
 
 Tags: lesson5
 <!--ID: 1758825180952-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vyzkoušet
 
@@ -1039,12 +1230,15 @@ ausprobieren
 
 Tags: lesson4
 <!--ID: 1758825180956-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 výmluva
 
@@ -1054,12 +1248,15 @@ die Ausrede,-n
 
 Tags: lesson5
 <!--ID: 1758825180960-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 výrok
 
@@ -1069,12 +1266,15 @@ die Aussage,-n
 
 Tags: lesson6
 <!--ID: 1758825180964-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 výslovnost
 
@@ -1084,12 +1284,15 @@ die Aussprache,-n
 
 Tags: lesson1
 <!--ID: 1758825180967-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vybrat
 
@@ -1099,12 +1302,15 @@ auswählen
 
 Tags: lesson4
 <!--ID: 1758825180971-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 auto
 
@@ -1114,12 +1320,15 @@ das Auto,-s
 
 Tags: lesson3
 <!--ID: 1758825180975-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dálnice
 
@@ -1129,12 +1338,15 @@ die Autobahn,-en
 
 Tags: lesson5
 <!--ID: 1758825180979-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 registrační značka (auta)
 
@@ -1144,12 +1356,15 @@ das Autoschild,-er
 
 Tags: lesson1
 <!--ID: 1758825180983-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 klíč od auta
 
@@ -1159,6 +1374,7 @@ der Autoschlüssel,-
 
 Tags: lesson6
 <!--ID: 1758825180987-->
+
 END
 
 ---

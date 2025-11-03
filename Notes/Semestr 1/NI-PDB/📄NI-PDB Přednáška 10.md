@@ -8,8 +8,11 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska10 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké pokročilé věci podporují nové verze Neo4j?
 
@@ -19,13 +22,16 @@ Back:
 - indexy
 - transakce (zámky, journal)
 - triggery
-  <!--ID: 1735205748941-->
-  END
+<!--ID: 1735205748941-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké constraints podporuje Neo4j?
 
@@ -46,6 +52,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Data lieage?
 

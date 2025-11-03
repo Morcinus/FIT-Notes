@@ -7,10 +7,13 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska11 status-toReview algebra1
 
+
 ### Úvod
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: počet řešení rovnice $b \circ x = c$ v grupě
 
@@ -31,6 +34,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah **grupy**, **abelovský grupy**, **modoidu**, **grupoidu** a **pologrup**?
 Co jednotlivé pojmy obecně znamenají?
@@ -58,6 +63,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Grupoid**
 
 Back:
@@ -80,6 +87,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Pologrupa**
 
 Back:
@@ -95,6 +104,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Monoid**
 
@@ -112,6 +123,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Grupa**
 
 Back:
@@ -127,6 +140,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Komutativní (abelovská) grupa**
 
@@ -144,6 +159,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Značení: Čemu je rovné $a^0$ kde $a \in M, \ G = (M,\circ)$?
 
 Back:
@@ -157,6 +174,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Značení: Čemu je rovné $a^n$ kde $a \in M, \ G = (M,\circ)$?
 
@@ -172,6 +191,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Značení: Čemu je rovné $a^n \circ a^{-n}$ kde $a \in M, \ G = (M,\circ)$?
 
 Back:
@@ -185,6 +206,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kuchařka: Jak ověřovat vlastnosti $(M, \circ)$?
 
@@ -209,6 +232,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: kolik neutrálních prvků je v monoidu?
 

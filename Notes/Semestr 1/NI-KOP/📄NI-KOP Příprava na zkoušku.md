@@ -7,6 +7,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP
 
+
 ### Zpracované testy
 
 #### 2025
@@ -52,6 +53,8 @@ FILE TAGS: NI-KOP
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Relaxace v iterativních lokálních heuristikách:
 
 A) má za úkol opravit konfiguraci tak, aby byla řešením
@@ -73,6 +76,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Relaxace v iterativních lokálních heuristikách
 
@@ -96,6 +101,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Relaxace v iterativních lokálních heuristikách:
 
 A) má za úkol vést iterace od konfigurací, které řešením nejsou, k řešením
@@ -117,6 +124,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Relaxace v iterativních lokálních heuristikách
 
@@ -140,6 +149,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Potřebujete plánovací algoritmus, který chcete nasadit do aplikace řízení údržby. Omezení času výpočtu existuje, ale není podstatné (počítá se přes noc na příští den). Důležitá je kvalita (naježděné kilometry). Máte dva kandidáty, A a B, oba randomizované algoritmy. Potřebujete je experimentálně srovnat.
 
 A) Použijete přednostně instance „nachytané“ při předchozím manuálním řízení.
@@ -161,6 +172,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Potřebujete plánovací algoritmus, který chcete nasadit do aplikace řízení údržby. Čas výpočtu je omezený — přes noc. Rozhodující je kvalita (naježděné kilometry). Máte dva kandidáty, A a B, oba randomizované algoritmy. Potřebujete je experimentálně srovnat.
 
@@ -184,6 +197,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Potřebujete plánovací algoritmus, který chcete nasadit do aplikace řízení údržby. Čas je shora omezen, úspora pod tuto mez není zajímavá. Máte dva kandidáty, A a B, oba randomizované algoritmy. Potřebujete experimentálně srovnat jejich kvalitu.
 
 A) Použijete přednostně instance „nachytané“ při předchozím manuálním řízení.
@@ -205,6 +220,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte experimentálně vyhodnotit, zda randomizovaný algoritmus, který vyvíjíte, je citlivý na určitou charakteristiku instancí
 
@@ -228,6 +245,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Máte experimentálně vyhodnotit, zda randomizovaný plánovací algoritmus, který chcete nasadit do aplikace řízení údržby, pracuje pro toto nasazení uspokojivě. Obtížnost instancí řešených v ostrém nasazení je obtížné odhadnout na základě známých charakteristik.
 
 A) Použijete přednostně instance „nachytané“ při předchozím manuálním řízení.
@@ -249,6 +268,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Srovnáváte dva deterministické algoritmy A a B, za účelem teoretického poznání závislosti počtu kroků na velikosti instance. Pro algoritmus B, různé instance jedné velikosti vykazují velký rozptyl v počtu kroků.
 
@@ -272,6 +293,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zjišťujete vliv parametru randomizované lokální iterativní heuristiky na kvalitu výsledku. Chcete ukázat, že daný parametr na kvalitu výsledku vliv nemá.
 
 A) stačí jeden běh pro každou hodnotu parametru
@@ -293,6 +316,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zjišťujete vliv parametru randomizované lokální iterativní heuristiky na kvalitu výsledku. Provedli jste jeden běh algoritmu na více instancích pro každou hodnotu parametru. Výsledná závislost je zcela chaotická, přestože by k tomu tak být nemělo.
 
@@ -317,6 +342,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Globální metoda je aplikována na grafový problém. Instance je graf, velikost instance $n$ se měří počtem uzlů grafu. Dekompozice produkuje v čase $O(n)$
 dvě podinstance, které obsahují vždy poloviční počet uzlů (nevíme které uzly) a hrany mezi nimi. Kompozice a řešení triviálních instancí je v konstantním
@@ -348,6 +375,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Globální optimalizační metoda dekomponuje každou instanci velikosti n na dvě instance velikosti $n−1$. Pokud existují optimální řešení dekomponovaných instancí, kompozicí dostaneme optimální řešení původní instance. Pokud některá z nich neexistuje, víme, že ani původní instance nemá řešení. Kompozice a dekompozice mají konstantní složitost.
 
 A) tento algoritmus je dynamickým programováním
@@ -370,6 +399,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Globální metoda je aplikována na grafový problém. Instance je tvořena grafem a jedním celým číslem $M$. Velikost instance $n$ se měří jemnou mírou (počet bitů popisu instance). Dekompozice produkuje v čase $O(n\log M)$ dvě podinstance, které obsahují vždy poloviční počet uzlů (nevíme které uzly) a hrany mezi nimi. Kompozice a řešení triviálních instancí je také v konstantním čase. Platí
 
 A) čas jedné dekompozice je polynomiální ve velikosti instance měřené uvedeným způsobem
@@ -391,6 +422,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Globální metody
 
@@ -416,6 +449,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Globální metody
 
 A) používají celý stavový prostor
@@ -439,6 +474,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Pro globální metody platí:
 
@@ -466,6 +503,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Máte experimentálně vyhodnotit, zda doba běhu Las Vegas randomizovaného algoritmu roste nejvýše s kvadrátem velikosti instance. Chcete o tom
 napsat teoretický článek.
 
@@ -488,6 +527,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte experimentálně vyhodnotit, zda relativní kvalita Monte Carlo randomizovaného algoritmu neklesá s rostoucí velikostí instance.
 
@@ -513,6 +554,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Máte experimentálně vyhodnotit, zda chování algoritmu, který automaticky nastavuje počáteční teplotu simulovaného ochlazování, odpovídá teorii, kterou jste vymysleli, a která zahrnuje několik parametrů instance. Zajímá vás také, zda tyto parametry stačí k charakterizaci instance z hlediska práce algoritmu.
 
 A) Použijete vygenerované instance se stejnými hodnotami parametrů, o kterých se hovoří ve Vaší teorii, ale různé velikosti.
@@ -534,6 +577,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte experimentálně vyhodnotit, zda algoritmus, který automaticky nastavuje
 počáteční teplotu simulovaného ochlazování, pracuje uspokojivě.
@@ -566,6 +611,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Máte experimentálně vyhodnotit, zda algoritmus, který automaticky nastavuje
 počáteční teplotu simulovaného ochlazování, pracuje uspokojivě.
 
@@ -591,6 +638,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud je počáteční teplota u SA (simulované ochlazování) malá, o. má algoritmus tendenci padat do lokálního minima?
 
 A) ano
@@ -608,6 +657,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká strategie se používá pro výběr souseda u simulovaného ochlazování?
 
@@ -631,6 +682,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud je u SA nízká hodnota (délka) equilibria a neupdatuje se dynamicky, skončí heuristika rychle v lokálním minimu?
 
 A) Ano
@@ -648,6 +701,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zvýšení počtu iterací při konstantní teplotě u SA (equilibrium), odpovídá:
 
@@ -669,6 +724,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud je koeficient ochlazování u SA velmi nízký, skončí heuristika rychle v lokálním minimu?
 
 A) Ano
@@ -687,6 +744,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Je u SA při rychlejším ochlazování vyšší pravděpodobnost, že skončíme v lokálním minimu?
 
 A) Ano
@@ -704,6 +763,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte experimentálné vyhodnotit, zda Vámi navržené nastavení simulovaného ochlazováni má dostatečnou iterativní sílu.
 
@@ -727,6 +788,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Heuristika, která nastavuje parametry simulovaného ochlazování
 
 A) má vždy brát v úvahu rozsah optimalizačního kritéria nebo jej normovat
@@ -746,6 +809,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Volba počáteční teploty v simulovaném ochlazování
 
@@ -769,6 +834,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Koncová teplota v simulovaném ochlazování
 
 A) je-li přiliš vysoká, omezuje prohledávanou část stavového prostoru
@@ -788,6 +855,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte udělat závěrečné experimentální vyhodnocení, zda algoritmus, který automaticky nastavuje počáteční teplotu simulovaného ochlazování, pracuje uspokojivé pro praktické nasazení.
 
@@ -810,6 +879,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte simulované ochlazování s automatickým nastavováním počáteční teploty. Jak ověříte správnost nastavování počáteční teploty?
 
@@ -835,6 +906,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 V genetickém algoritmu je třeba zpomalit konvergenci. Možností je upravit pravděpodobnost mutace a nebo upravit selekční tlak. Platí
 
 A) přednostně snížíme selekční tlak
@@ -854,6 +927,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V genetickém algoritmu je třeba zpomalit konvergenci. Pravděpodobně bude účinné
 
@@ -875,6 +950,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 V genetickém algoritmu je třeba urychlit konvergenci. Možností je upravit pravděpodobnost mutace nebo selekci. Platí:
 
 A) změna selekčního mechanismu nemá významný vliv, pokud zachováme selekční tlak
@@ -894,6 +971,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Genetický algoritmus dobře konverguje až do určité vzdálenosti od předpokládaného globálního minima, pak začne divergovat. Příčina může být:
 
@@ -915,6 +994,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s lineárním škálováním, bude **přímo** nastavovat
 
 A) pravděpodobnost mutace
@@ -934,6 +1015,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu, může být založen na zjištění:
 
@@ -955,6 +1038,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu používajícím lineární škálování a ruletový výběr, bude **přímo** nastavovat
 
 A) pravděpodobnost mutace
@@ -975,6 +1060,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s výběrem ruletou, může přímo nastavovat
 
 A) konstanty převodu ranku (pořadí zdatnosti) na pravděpodobnost výběru
@@ -994,6 +1081,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte experimentálně vyhodnotit, zda algoritmus, který automaticky udržuje selekční tlak v genetickém algoritmu, pracuje uspokojivě. Provedete následující:
 
@@ -1017,6 +1106,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Selekční tlak ve standardním genetickém algoritmu lze řídit
 
 A) zhruba ve stejném rozsahu při selekci turnajem i ruletou
@@ -1036,6 +1127,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Volba selekčního tlaku v genetických algoritmech
 
@@ -1057,6 +1150,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s
 výběrem univerzálním stochastickým vzorkováním, může přímo nastavovat
 
@@ -1077,6 +1172,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte experimentálně vyhodnotit, zda Vaše aplikace genetického algoritmu správně zachází se selekčním tlakem.
 
@@ -1100,6 +1197,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Genetický algoritmus s pravděpodobností mutace 40% připomíná
 
 A) metodu pouze nejlepší
@@ -1119,6 +1218,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Ranking v genetickém algoritmu
 
@@ -1142,6 +1243,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus, který má za běhu upravovat selekční tlak v genetickém algoritmu s turnajovým výběrem, bude přímo nastavovat
 
 A) pravděpodobnost mutace
@@ -1161,6 +1264,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Genetický algoritmus tvoří novou generaci stylem $\mu + \lambda$, tj. ke generaci o $\mu$ jedincích se přidá $\lambda$ nových a z celku se vybere opět $\mu$ nejlepších jedinců. Pro $\mu = \lambda = 1$ je tento algoritmus vlastně
 
@@ -1182,6 +1287,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Genetický algoritmus je aplikován v situaci, kdy některé části stavového prostoru mají výrazně větší hloubku lokálních minim než jiné. Využijeme
 
 A) konstantní poměrně vysokou míru mutace, aby se populace snáze dostala do „vlídnějších končin"
@@ -1201,6 +1308,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V genetickém algoritmu používáme operátor inverze, jestliže
 
@@ -1223,6 +1332,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Genetické programování pracuje nad reprezentací
 
@@ -1248,6 +1359,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Evoluční programování pracuje nad reprezentací:
 
 A) vektoru reálných čísel
@@ -1269,6 +1382,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Evoluční strategie pracuje nad reprezentací
 
@@ -1292,6 +1407,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Podle teorie stavebních bloků,
 A) složitější schemata (vyššího řádu) přežívají lépe
 B) schemata, jejichž proměnné jsou rozptýleny po celém genotypu, přežívají hůře
@@ -1312,6 +1429,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Evoluční programování pracuje nad
 
@@ -1337,6 +1456,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Základní jednotkou reprezentace, se kterou pracuje bayesovská optimalizace je
 A) dvojice `[identifikace proměnné, hodnota]`
 B) pravděpodobnost selekce individua
@@ -1357,6 +1478,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Nová generace v bayesovské optimalizaci vzniká
 
@@ -1380,6 +1503,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Stochastický model v bayesovská optimalizaci vzniká:
 
 A) tak, aby vystihoval žádané vlastnosti řešení
@@ -1401,6 +1526,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Stochastický model v bayesovská optimalizaci vzniká:
 
@@ -1426,6 +1553,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Genetické operátory Fast Messy GA algoritmu pracují nad
 
 A) reprezentací individua
@@ -1449,6 +1578,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Genetické operátory Fast Messy GA algoritmu pracují s
 
 A) reprezentací individua
@@ -1471,6 +1602,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Základní metodou vyhodnocení, se kterou pracuje Fast Messy genetický algoritmus, je:
 A) stanovení fenotypu přímo z hodnot genů daného jedince a následný výpočet zdatnosti
 B) výpočet odlišnosti genotypu jedince od referenčního jedince
@@ -1491,6 +1624,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vyhodnocení zdatnosti ve Fast Messy GA algoritmu je založeno na:
 
@@ -1514,6 +1649,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Stavební bloky ve Fast Messy GA se generují  
 A) jako podmnožiny ohodnocených genů zadané délky
 B) jako reprezentace počáteční populace
@@ -1534,6 +1671,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Stavební blok Fast Messy GA je vždy
 
@@ -1557,6 +1696,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vnější cyklus fmGA postupně zvyšuje
 
 A) složitost referenčního individua
@@ -1578,6 +1719,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Referenční jedinec v fmGA
 
@@ -1603,6 +1746,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování může:
 
 A) uváznout v lokálním minimu
@@ -1624,6 +1769,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování je aplikováno na grafový problém. Velikost instance $n$ se měří počtem uzlů. Používá jako klíč k výběru z paměti řešení podinstancí dvojici diskrétních proměnných $(p, q)$, kde $p$ je index uzlu a $q$ index hrany. Všechny podinstance je třeba řešit. Dekompozice a kompozice má složitost $O(n)$, kde $n$ je velikost původní instance. Algoritmus
 
@@ -1649,6 +1796,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na grafový problém. Používá jako klíč k výběru z paměti řešení podinstancí dvojici diskrétních proměnných $(p, q)$, kde $p$ je index uzlu a $q$ index hrany. Velikost instance se měří počtem uzlů. Složitost kompozice a dekompozice je konstantní. Algoritmus
 
 A) má exponenciální dolní asymptotickou mez složitosti
@@ -1670,6 +1819,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programováni je aplikováno na grafový problém. Velikost instance je charakterizována počtem uzlů. Podinstance je charakterizována podgrafem grafu zadaného v instanci o nejvýše $n/2$ uzlech, kde n je velikost instance. Kompozice a dekompozice mají lineární složitost. Algoritmus je
 
@@ -1693,6 +1844,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na grafový problém. Velikost instance se měří počtem uzlů. Podinstance je charakterizována libovolnou podmnožinou uzlů. Kompozice a dekompozice je v konstantním čase. Existuje instance, kde je třeba vypočíst všechny podinstance. Algoritmus je vždy
 
 A) nejhůře lineární
@@ -1714,6 +1867,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování používá jako klíč k výběru z paměti řešení podinstancí dvojici diskrétních proměnných $(p, q)$, kde rozsah hodnot $p$ je dán v instanci, ale nesouvisí s její velikostí $N$, rozsah $q$ je $O(N^2)$. Složitost kompozice a dekompozice je konstantní. Algoritmus je:
 
@@ -1740,6 +1895,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování používá jako klíč k výběru z paměti řešení podinstancí $k$-tici binárních proměnných, kde $k = \log N$ a $N$ je velikost instance. Postup výpočtu je od triviálních podinstancí k finálnímu řešení, každou hodnotu je třeba vypočíst. Složitost kompozice a dekompozice je konstantní. Algoritmus je
 
@@ -1769,6 +1926,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na problém, kde vstupní proměnné zobrazují graf s uzly očíslovanými $1 ... n$, kde $n$ je velikost instance a dále kladné číslo $K$. Podinstance je tvořena prvními $m - 1$ hranami, kde $m$ je počet hran právě dekomponované instance, každá podinstance může mit jiné $K$, nejvýše rovné $\log K$
 právě dekomponované instance. Kompozice a dekompozice mají složitost $\Theta(\log M)$. Existují instance, kde je třeba vyřešit všechny podinstance. Algoritmus:
 
@@ -1791,6 +1950,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování používá klíč k výběru z paměti řešení $N$-tici binárních čísel proměnných, kde $N$ je velikost instance. Postup výpočtu je od triviálních podinstancí k finálnímu řešení, každou hodnotu je třeba vypočíst. Algoritmus je:
 
@@ -1816,6 +1977,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování používá jako klíč k výběru z paměti řešení podinstancí dvojici proměnných v rozsahu $0..n$, kde $n$ je velikost instance. Postup výpočtu je od triviálních podinstancí k finálnímu řešení, každou hodnotu je třeba vypočíst. Algoritmus je
 
 A) exponenciální
@@ -1840,6 +2003,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na problém, kde vstupní proměnné zobrazují graf s uzly očíslovanými $1…n$, kde $n$ je velikost instance a dále celé číslo $K$. Podinstance je tvořena prvními ? hranami, každá podinstance může mít jiné $K$. Kompozice a dekompozice mají konstantní složitost. Algoritmus
 
 A) je pseudopolynomiální
@@ -1862,6 +2027,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na permutační problém, instance je množina velikosti $n$. Dekompozice má složitost $\Theta(n^2)$, kde $n$ je velikost původně zadané instance. Podinstance je charakterizována libovolnou podmnožinou původní množiny. Existují instance, na kterých je nutno vypočíst všechny podinstance Algoritmus
 
 A) má exponenciální dolní asymptotickou mez složitosti
@@ -1883,6 +2050,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování je aplikováno na permutační problém, instance je množina velikosti n. Dekompozice má složitost $\Theta(n)$, kde $n$ je velikost původně zadané instance. Podinstance je charakterizována libovolnou podmnožinou původní množiny. Existují instance, na kterých je nutno vypočíst všechny podinstance. Algoritmus
 
@@ -1908,6 +2077,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování vybírá optimální podmnožinu množiny, jejíž velikost je velikostí instance. Podinstance je charakterizována libovolnou podmnožinou v instanci. Postup výpočtu je od triviálních podinstancí k finálnímu řešení. Každou hodnotu je třeba vypočíst. Horní asymptotická mez složitosti je:
 
 A) exponenciální
@@ -1929,6 +2100,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování je aplikováno na grafový problém. Podinstance je charakterizována podmnožinou uzlů (libovolnou). Existují instance, na kterých je nutno všechny podinstance vypočíst. Velikost instance se měří počtem uzlů. Algoritmus je
 
@@ -1952,6 +2125,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na grafový problém. Velikost instance se měří počtem uzlů. Podinstance je charakterizována podmnožinou uzlů (libovolnou). Kompozice je v konstantním čase. Postup výpočtu je od triviálních podinstancí k finálnímu řešení, každou hodnotu je třeba vypočíst. Horní asymptotická mez složitosti algoritmu je:
 
 A) lineární
@@ -1973,6 +2148,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování
 
@@ -1996,6 +2173,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování:
 
 A) je exaktní
@@ -2017,6 +2196,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování:
 
@@ -2040,6 +2221,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Máte dynamické programování pro problém. Je závislé na podmnožině podproblémů (a nelze to udělat jinak). Jaký je to algoritmus?
 
 A) Exponenciální
@@ -2062,6 +2245,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Máte dynamické programování pro řešení grafového problému. Do předchozí instance se ptáte s klíčem $(p, q)$ kde $p$ je index uzlu a $q$ je index hrany. Velikost instance se měří počtem uzlů.
 
 A) Slozitost roste třetí mocninou velikosti instance
@@ -2083,6 +2268,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování je aplikováno na problém, kde konfigurační proměnné zobrazují graf s uzly očíslovanými $1…n$, kde $n$ je velikost instance. Podinstance je tvořena prvními m uzly. Kompozice a dekompozice mají složitost $\Omega(n)$. Algoritmus:
 
@@ -2108,6 +2295,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování řeší problém, kde každá instance i podinstance je charakterizována počtem prvků n a celočíselným parametrem $P$. Postup výpočtu je od triviálních podinstancí k finálnímu řešení. Dá se dokázat, že je třeba vyřešit podinstance pro všechna n, ale pro každé n pouze $\Theta(\log(P))$ instancí. Kompozice a dekompozice mají konstantní složitost. Algoritmus je:
 
 A) nejméně exponenciální
@@ -2130,6 +2319,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dynamické programování je aplikováno na problém, kde konfigurační proměnné zobrazují graf s hranami očíslovanými $1…m$, kde $m$ je počet hran instance. Každá hrana je ohodnocena celým číslem $1 … M$. Podinstance je tvořena prvními $m-1$ hranami, každá je vypočítána. Kompozice a dekompozice mají složitost $\Theta(\log(M))$. Algoritmus:
 
 A) je lineární
@@ -2151,6 +2342,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamické programování je aplikováno na problém, kde konfigurační proměnné zobrazují graf s hranami očíslovanými $1 ... m$, kde m je počet hran instance.
 Velikost instance se měří počtem uzlů $n$. Kompozice má složitost $\Theta(m)$, kde $m$ je počet hran právě dekomponované podinstance. Podinstance jsou tvořené
@@ -2184,6 +2377,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250123143420.png)
 
 Heuristika řešící tento problém používá jako stav seznam obdélníků, pokrývajících daný prvek matice (ano, jistěže to jde lépe). Za těchto okolností:
@@ -2207,6 +2402,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém minimálního obdélníkového pokrytí
 
@@ -2232,6 +2429,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém diskrétního rozmístění
 
 ![](../../../Assets/Pasted%20image%2020250123162235.png)
@@ -2253,6 +2452,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém diskrétního rozmístění
 
@@ -2282,6 +2483,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Instance problému splnění podmínek má $n$ konfiguračních proměnných, doména každé proměnné má právě $d$ hodnot Algoritmus má stav odvozený
 pouze z konfiguračních proměnných.
 
@@ -2305,6 +2508,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Iterativní heuristika řeší problém obchodního cestujícího v rovině. Operátorem je dvojzáměna na úsecích túry (dva úseky jsou nahrazeny jinými dvěma úseky). Momentálně řešená instance má $5$ měst.
 
 A) Stavový prostor má silné souvislý graf.
@@ -2326,6 +2531,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Iterativní heuristika používá stavový prostor, jehož graf je silně souvislý. Má tyto vlastnosti:
 
@@ -2355,6 +2562,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se pozná, že heuristika neskončí v lokálním minimu?
 
 A) po restartech skončí vždy ve stejném řešení
@@ -2375,6 +2584,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vede snížení velikosti turnaje ke zvýšení intenzifikace?
 
 A) ano  
@@ -2394,6 +2605,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 S lineárně rostoucím $k$ roste $k$-okolí:
 
@@ -2417,6 +2630,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvýšení selekčního tlaku může způsobit
 
 A) degeneraci
@@ -2438,6 +2653,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zvýšení mutace může způsobit
 
@@ -2461,6 +2678,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Snížením selekčního tlaku u genetického algoritmu se zvyšuje diverzifikace
 
 A) Ano
@@ -2480,6 +2699,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Mutace snižuje diverzifikaci:
 
@@ -2501,6 +2722,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se pozná, že heuristika padá do lokálního extrému?
 
 A) po každém restartu skončí stejně
@@ -2520,6 +2743,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Když zvýšíme selekční tlak, zvýší se intenzifikace?
 
@@ -2541,6 +2766,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Když zvýšíme počáteční teplotu, skončí algoritmus rychle v lokálním extrému?
 
 A) Ano
@@ -2560,6 +2787,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Pokud zvýšíme selekční tlak, zvýší se diverzifikace?
 
@@ -2581,6 +2810,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvyšuje se mutací intenzifikace?
 
 A) Ano
@@ -2600,6 +2831,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Když je lokální heuristika silně závislá na počátečním řešení, pomůže zvětšit nebo zmenšit okolí?
 
@@ -2621,6 +2854,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kdy lokální heuristika NEMÁ tendenci padat do lokálního minima:
 
 A) z náhodného řešení skončí vždy jinde
@@ -2640,6 +2875,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lineární programování
 
@@ -2663,6 +2900,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvětší se zvětšením populace diverzita?
 
 A) Ano
@@ -2683,6 +2922,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvětší se zvětšením mutace diverzita?
 A) Ano
 B) Ne
@@ -2702,6 +2943,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvýší snížení selekčního tlaku diverzitu?
 A) Ano
 B) Ne
@@ -2720,6 +2963,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se pozná, že má lokální heuristika dostatečnou iterativní sílu?
 
@@ -2741,6 +2986,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 GA, vybíráme turnajem. Když turnaj zmenšíme, zvýší se intenzifikace?
 
 A) Ano
@@ -2761,6 +3008,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Podporuje velký selekční tlak diverzifikaci?
 
 A) Ano
@@ -2780,6 +3029,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Metoda nejlepší nejdříve:
 
@@ -2803,6 +3054,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvýší se snížením velikosti turnaje selekční tlak?
 
 A) Ano
@@ -2823,6 +3076,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvyšuje mutace diverzifikaci?
 
 A) Ano
@@ -2842,6 +3097,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Hladové algoritmy
 
@@ -2865,6 +3122,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Metoda pouze nejlepší (best only)
 
 A) poskytuje exaktní řešení
@@ -2886,6 +3145,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Metoda nejlepsi nejdříve (best first)
 
@@ -2909,6 +3170,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zavedení lineárního škálování u GA
 
 A) Zvýší selekční tlak
@@ -2931,6 +3194,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak poznám, že moje jednoduchá lokální iterativní metoda funguje dobře:
 
 A) po náhodných restartech vždy skončí ve stejném stavu
@@ -2950,6 +3215,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Velikost $k$-okolí při zvyšování $k$ roste
 
@@ -2973,6 +3240,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Zvětšení turnaje zvyšuje intenzifikaci?
 
 A) Ano
@@ -2993,6 +3262,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Velká koncová teplota způsobí uváznutí v lokálním minimu?
 
 A) Ano
@@ -3012,6 +3283,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Metoda Kernighan - Lin má následující vlastnosti
 
@@ -3035,6 +3308,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Změna parametrů lineárního škálování, která má za následek zvětšení poměru zdatnosti nejlepšího a nejhoršího jedince v genetických algoritmech způsobí diverzifikaci
 
 A) ano
@@ -3055,6 +3330,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Tuto kartičku ignorujte :)
 
 Back:
@@ -3068,6 +3345,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte genetický algoritmus a svou teorii ohledně vlastností instance, jak ji ověříte?
 
@@ -3088,6 +3367,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co má na vstupu evoluční programování?
 
@@ -3111,6 +3392,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Selekční tlak v turnajovém výběru PŘÍMO nastavuje
 
 A) velikost turnaje
@@ -3128,6 +3411,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Máte simulované ochlazování s automatickým nastavováním počáteční teploty. Jak ověříte spravnost nastavování počáteční teploty?
 
@@ -3151,6 +3436,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 GA lineárně škálovatelný s ruletovým výběrem může přímo ovlivňovat selekční tlak
 
 A) pravdepodobnosti mutaci
@@ -3170,6 +3457,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dynamický algoritmus, který jako klíče používá velikost instance a výpočet provádí na základě výsledku nižší instance a počítá od nejmenších instancí je
 
@@ -3193,6 +3482,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Typická úloha aspiračních kritérií je
 
 A) diverzifikace
@@ -3213,6 +3504,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus který bude za běhu upravovat selekční tlak v GA bude zjišťovat
 
 A) diverzitu (rozdílnost) jedinců
@@ -3232,6 +3525,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Základní jednotkou reprezentace, se kterou pracuje stochasticka optimalizace, je
 
@@ -3255,6 +3550,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 V genetickém algoritmu používáme operátor inverze, jestliže:
 
 A) chceme potlačit statistickou nevyváženost uniformního křížení
@@ -3274,6 +3571,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Pro praktickou aplikaci kombinatorického optimalizačního problému jste zvolili simulované ochlazování bez adaptačních mechanismů a s pevnou hodnotou koncové teploty. Na většině instancí se optimalizační kritérium nejdříve poněkud zhoršuje a přitom vykazuje náhodné změny, posléze se zlepšuje a náhodné změny se zmenšují. Na převážné části instancí konverguje ke stabilnímu a dobrému řešení. Na zbylých stále zlepšuje opt. kritérium a náhodné změny se zmenšují, ale optimalizační kritérium se nedostane ani ke startovací hodnotě. Na vině je:
 
@@ -3298,6 +3597,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém diskrétního rozmístění v rovině
 
@@ -3349,6 +3650,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém minimální transformace stromu
 
 ![](../../../Assets/Pasted%20image%2020250123144618.png)
@@ -3398,6 +3701,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém kvadratického přiřazení
 
@@ -3454,6 +3759,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém minimální gramatiky
 
 ![](../../../Assets/Pasted%20image%2020250123155326.png)
@@ -3497,6 +3804,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém minimální sčítací procedury
 
@@ -3542,6 +3851,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém nejkratšího plánu robota
 
 ![](../../../Assets/Pasted%20image%2020250123160634.png)
@@ -3560,6 +3871,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém maxima disjunktních cest
 
@@ -3604,6 +3917,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém minimálního rozhodovacího stromu
 
 ![](../../../Assets/Pasted%20image%2020250123163026.png)
@@ -3621,6 +3936,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém minimální šířky pásma
 
@@ -3644,6 +3961,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém minimálního regulárního výrazu
 
 ![](../../../Assets/Pasted%20image%2020250123171432.png)
@@ -3661,6 +3980,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém nejkratšího pojezdu jeřábu
 
@@ -3680,6 +4001,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém minimální Booleovy formule
 
@@ -3701,6 +4024,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250123174259.png)
 
 Back:
@@ -3719,6 +4044,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Problém celočíselných multikomoditních toků ve stromu
 
 ![](../../../Assets/Pasted%20image%2020250123175328.png)
@@ -3736,6 +4063,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Problém minimálního routování
 ![](../../../Assets/Pasted%20image%2020250123181120.png)

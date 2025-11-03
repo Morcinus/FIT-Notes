@@ -7,8 +7,11 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska09 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah RESTu a HTTP?
 
@@ -28,18 +31,23 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Na co se dělí REST?
 
 Back:
 
 - **Zdroje** (resource) - **Identifikátor** - **Data** - **Metadata**
-  <!--ID: 1735205749817-->
-  END
+<!--ID: 1735205749817-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je URI?
 
@@ -55,6 +63,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je URL?
 
 Back:
@@ -68,6 +78,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je URN?
 
@@ -84,6 +96,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou části URI? (4)
 
@@ -103,6 +117,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Je good practice mít v RESTu 2 cesty k tomu samému zdroji?
 
@@ -132,6 +148,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 K čemu se používá **query** v RESTu? (3)
 
 Back:
@@ -155,6 +173,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je fragment v URI adresách?
 
 Back:
@@ -175,6 +195,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou hlavní charakteristiky URI? (5)
 
 Back:
@@ -184,8 +206,9 @@ Back:
 - **URI Opacity** - když jako součást URI mám i formát
 - **Resource versions** - když mi URI definuje i verzi toho zdroje
 - **Persistent URL** - adresa by měla být validní i když zdroj už neexistuje (neměl bych smazat URI, ale třeba přesměrovat člověka na novou URI)
-  <!--ID: 1735205749838-->
-  END
+<!--ID: 1735205749838-->
+
+END
 
 ---
 
@@ -193,6 +216,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Z čeho se skládají zdroje v RESTu? (3)
 
@@ -217,6 +242,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou media types a co u nich znamená `x-` a `vnd.`?
 
 Back:
@@ -235,6 +262,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je resource state?
 
@@ -266,19 +295,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co znamená že má REST uniform interface?
 
 Back:
 
 - Mám omezené množství operací (POST, GET,...)
 - Operace jsou **doménově nezávislé**
-  <!--ID: 1735205749848-->
-  END
+<!--ID: 1735205749848-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké vlastnosti mají operace RESTu? (2)
 
@@ -319,6 +353,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je rozdíl mezi efektem a výsledkem v idempotenci?
 
 Back:
@@ -348,6 +384,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké REST metody jsou a nejsou idempotentní podle standardu?
 
 Back:
@@ -370,6 +408,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Když mám POST, co by mělo být v response?
 
@@ -399,6 +439,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké vlastnosti má GET? (safeness a idempotence)
 
 Back:
@@ -419,6 +461,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké vlastnosti má PUT? (safeness a idempotence)
 
@@ -443,6 +487,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké vlastnosti má PATCH? (safeness a idempotence)
 
 Back:
@@ -463,6 +509,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké vlastnosti má POST? (safeness a idempotence)
 
@@ -485,6 +533,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké vlastnosti má DELETE? (safeness a idempotence)
 
 Back:
@@ -505,6 +555,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké vlastnosti mají HEAD a OPTIONS? (safeness a idempotence)
 
@@ -528,6 +580,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou třídy status kódů?
 

@@ -6,6 +6,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni01 status-toReview
 
+
 #### Vysvětlení SAT Generátor souborů
 
 - `c` - komentář

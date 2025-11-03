@@ -6,6 +6,7 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni08 status-toReview
 
+
 ### Strojová čísla
 
 ### Cvičení 15.1

@@ -6,6 +6,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni07 status-toReview
 
+
 ### Výpisky od Kuby
 
 - P problém = existuje algoritmus, který to řeší v polynomiálním čase na deterministickém turingovém stroji

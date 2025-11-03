@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - die U-Bahn,-en 6
 - üben 1
 - über 3
@@ -38,6 +40,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 metro (U-Bahn)
 
 Back:
@@ -46,12 +50,15 @@ die U-Bahn,-en
 
 Tags: lesson6
 <!--ID: 1758825178889-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cvičit
 
@@ -61,12 +68,15 @@ Back:
 
 Tags: lesson1
 <!--ID: 1758825178891-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nad; přes
 
@@ -76,12 +86,15 @@ Back:
 
 Tags: lesson3
 <!--ID: 1758825178894-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 více než (přes 200 milionů)
 
@@ -91,12 +104,15 @@ Back:
 
 Tags: lesson1
 <!--ID: 1758825178897-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cvičení
 
@@ -106,12 +122,15 @@ die Übung,-en
 
 Tags: lesson2
 <!--ID: 1758825178900-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čas na cvičení
 
@@ -121,12 +140,15 @@ die Übungszeit,-en
 
 Tags: lesson5
 <!--ID: 1758825178902-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 břeh
 
@@ -136,12 +158,15 @@ das Ufer,-
 
 Tags: lesson4
 <!--ID: 1758825178905-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hodiny (přístroj); hodina
 
@@ -151,12 +176,15 @@ die Uhr,-en
 
 Tags: lesson5
 <!--ID: 1758825178908-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čas (hodinový)
 
@@ -166,12 +194,15 @@ die Uhrzeit,-en
 
 Tags: lesson5
 <!--ID: 1758825178910-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 v (časově)
 
@@ -181,12 +212,15 @@ um
 
 Tags: lesson5
 <!--ID: 1758825178914-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hovořený jazyk
 
@@ -196,12 +230,15 @@ die Umgangssprache,-n
 
 Tags: lesson5
 <!--ID: 1758825178917-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 umlaut
 
@@ -211,12 +248,15 @@ der Umlaut,-e
 
 Tags: lesson2
 <!--ID: 1758825178920-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 stěhování; průvod
 
@@ -226,12 +266,15 @@ der Umzug,-"e
 
 Tags: lesson4
 <!--ID: 1758825178923-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přestěhovat se
 
@@ -241,12 +284,15 @@ umziehen
 
 Tags: lesson1
 <!--ID: 1758825178925-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 krabice na stěhování
 
@@ -256,12 +302,15 @@ der Umzugskarton,-s
 
 Tags: lesson4
 <!--ID: 1758825178928-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 a
 
@@ -271,12 +320,15 @@ und
 
 Tags: lesson1
 <!--ID: 1758825178931-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 univerzitní klinika
 
@@ -286,12 +338,15 @@ die Uni-Klinik,-en
 
 Tags: lesson6
 <!--ID: 1758825178934-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 náš, náš, naše
 
@@ -301,12 +356,15 @@ unser,unser,unsere
 
 Tags: lesson4
 <!--ID: 1758825178937-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dole
 
@@ -316,12 +374,15 @@ unten
 
 Tags: lesson6
 <!--ID: 1758825178939-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pod
 
@@ -331,12 +392,15 @@ unter
 
 Tags: lesson6
 <!--ID: 1758825178942-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vyučování
 
@@ -346,12 +410,15 @@ der Unterricht,-
 
 Tags: lesson1
 <!--ID: 1758825178945-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rozdíl
 
@@ -361,12 +428,15 @@ der Unterschied,-e
 
 Tags: lesson3
 <!--ID: 1758825178947-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 různý; rozdílný
 
@@ -376,12 +446,15 @@ unterschiedlich
 
 Tags: lesson1
 <!--ID: 1758825178950-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 podtrhnout
 
@@ -391,6 +464,7 @@ unterstreichen
 
 Tags: lesson1
 <!--ID: 1758825178954-->
+
 END
 
 ---

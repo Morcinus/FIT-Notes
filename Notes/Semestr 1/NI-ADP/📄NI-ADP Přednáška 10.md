@@ -7,8 +7,11 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska10 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je information a data privacy?
 
@@ -24,6 +27,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou Fair Information Practice principles?
 
 Back:
@@ -33,13 +38,16 @@ Back:
 3. **Access/participation** - uživatelé by si měli moct zobrazit data, co se zpracovávají
 4. **Security/integrity** - data by měla být uložena bezpečně
 5. **Enforcement** - privacy by měla být vynutitelná - ten co ukládá data by za to měl být zodpovědný
-   <!--ID: 1736497489449-->
-   END
+<!--ID: 1736497489449-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi **security** a **privacy**?
 
@@ -47,13 +55,16 @@ Back:
 
 - security = data jsou bezpečně uložena
 - privacy = jde hlavně o řízení přístupu
-  <!--ID: 1736497489454-->
-  END
+<!--ID: 1736497489454-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je CCPA?
 
@@ -74,6 +85,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Z čeho se zkládá GDPR? (2)
 
@@ -98,6 +111,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká může být pokuta za to když člověk nesplňuje GDPR?
 
 Back:
@@ -112,6 +127,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Podle GDPR, jaké mám důvody pro sběr dat?
 
 Back:
@@ -122,13 +139,16 @@ Back:
 4. vital interests
 5. public interests
 6. legitimate business interests - např. když používám
-   <!--ID: 1736497489472-->
-   END
+<!--ID: 1736497489472-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaktože firmy mohou podnikat v Evropě i v USA, když jsou v obou místech jiná práva ohledně privacy?
 
@@ -136,8 +156,9 @@ Back:
 
 - Shrems 1 - zákaz firmám podnikat v zemích, pokud nedodržují jejich podmínky
 - Shrems 2 - to samé + pokud mám data uložená např. v USA, tak musím zajistit, že k tomu nemůže přijít ani FBI a CIA atd.
-  <!--ID: 1736497489476-->
-  END
+<!--ID: 1736497489476-->
+
+END
 
 ---
 
@@ -145,6 +166,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Privacy Impact Assessment?
 
@@ -168,6 +191,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou typické otázky, které se snažím zodpovědět pomocí Privacy Impact Assessment?
 
 Back:
@@ -175,13 +200,16 @@ Back:
 - Co za informace je uloženo?
 - Kdo sbírá informace a za jakým účelem?
 - Jak dlouho jsou informace uloženy? (kdy se to smaže)
-  <!--ID: 1736497489485-->
-  END
+<!--ID: 1736497489485-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Privacy Threat Modelling?
 
@@ -212,14 +240,17 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je Privacy Audit? Jaký je rozdíl mezi auditem a assessmentem?
 
 Back:
 
 - assessment = před tím, než začnu ten projekt dělat
 - audit = už mám projekt hotový a chci zkontrolovat, jeslti to dodržuju
-  <!--ID: 1736497489494-->
-  END
+<!--ID: 1736497489494-->
+
+END
 
 ---
 
@@ -227,6 +258,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Privacy by Design?
 
@@ -244,6 +277,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je 7 principů Privacy by Design?
 
 Back:
@@ -256,13 +291,16 @@ Back:
 5. End-To-End Security - full lifecycle protection
 6. Visibility and Transparency - Keep it open
 7. Respect for User Privacy - Keep it user-centric
-   <!--ID: 1736497489503-->
-   END
+<!--ID: 1736497489503-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou strategie pro Privacy By Design?
 

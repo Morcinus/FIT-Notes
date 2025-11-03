@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočte řád grup:
 
@@ -34,6 +37,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se spočte eulerova funkce?
 
 Back:
@@ -49,6 +54,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se pozná, že má zlomek konečný desetinný rozvoj? Např. $\frac{3}{10}$
 
@@ -73,6 +80,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se řeší příklad tohoto typu? (obecný postup)
 
@@ -114,6 +123,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se prakticky počítají lokální extrémy? (jednotlivé kroky)
 
 Back:
@@ -121,7 +132,8 @@ Back:
 1. Vyjádříme Lagrangeovu funkci $L(x^*, \lambda) = \dots$
 2. Spočteme gradient $\nabla L(x^*,\lambda^*) = 0$, čímž dostaneme soustavu rovnic a najdeme jednotlivé složky $x$ a $\lambda$
 3. Spočteme Hessovu matici
-   <!--ID: 1735922645587-->
-   END
+<!--ID: 1735922645587-->
+
+END
 
 ---

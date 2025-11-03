@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska09 status-toReview numerika1
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy chyb v matematice? (4)
 
@@ -18,8 +21,9 @@ Back:
 - chyba **dat** - vstupní data nejsou přesná
 - chyba **algoritmu** - nemusíme mít algoritmus, který v konečném počtu kroků najde přesné řešení
 - **zaokrouhlovací** chyba - při výpočtu dochází k chybám (např. při aritmetických operacích)
-  <!--ID: 1735205749507-->
-  END
+<!--ID: 1735205749507-->
+
+END
 
 ---
 
@@ -27,6 +31,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je vědecký zápis čísel?
 
@@ -52,6 +58,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou typy zápisu vědeckého zápisu čísla (dle IEE-754)?
 
 Back:
@@ -75,6 +83,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kolik bitů má poloviční přesnost (half precision) u $m,e$?
 
 Back:
@@ -91,6 +101,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kolik bitů má jednoduchá přesnost (single precision) u $m,e$?
 
@@ -109,6 +121,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kolik bitů má dvojitá přesnost (double precision) u $m,e$?
 
 Back:
@@ -126,6 +140,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud $e = 2^d-1$ a $m \neq 0$, tak $x = \ ?$
 
 Back:
@@ -140,6 +156,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud $e = 2^d-1$ a $m = 0$, tak $x = \ ?$
 
 Back:
@@ -153,6 +171,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Pokud $0 <e < 2^d-1$, tak $x = \ ?$
 
@@ -170,6 +190,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud $e = 0$ a $m \neq 0$, tak $x = \ ?$
 
 Back:
@@ -186,6 +208,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pokud $e = 0$ a $m = 0$, tak $x = \ ?$
 
 Back:
@@ -199,6 +223,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je skrytá jednička?
 
@@ -219,6 +245,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **strojová čísla**?
 
@@ -242,6 +270,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **strojová přesnost**?
 
@@ -267,6 +297,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je funkce `fl`?
 
 Back:
@@ -282,13 +314,16 @@ Nejbližší je určeno podle vybrané strategie:
 - náhodně
 - usekávání (zaokrouhlování směrem k nule)
   <!-- DetailInfoEnd -->
-  <!--ID: 1735205749534-->
-  END
+<!--ID: 1735205749534-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **přetečení a podtečení**?
 
@@ -303,6 +338,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **absolutní chyba** a **relativní chyba**
 
@@ -324,6 +361,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **zaokrouhlovací jednotka**?
 
 Back:
@@ -340,6 +379,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Tvrzení: $\text{fl}(x) = \ ?$
 
 Back:
@@ -353,6 +394,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Tvrzení: operace sčítání, odčítání, násobení a dělení
 
@@ -381,6 +424,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **krácení** v kontextu chyb?
 
 Back:
@@ -406,6 +451,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Tvrzení: počet ztracených bitů při odečítání
 

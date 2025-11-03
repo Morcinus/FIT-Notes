@@ -7,8 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska07 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Monte Carlo** randomizovaný algoritmus?
 
@@ -37,6 +40,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Las Vegas** randomizovaný algoritmus?
 
 Back:
@@ -62,6 +67,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje Monte Carlo algoritmus pro SAT?
 
 Back:
@@ -75,6 +82,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký typ algoritmu je Quicksort? Las vegas nebo Monte carlo?
 
@@ -97,6 +106,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje randomizovaný B+ algoritmus (uzlové pokrytí)?
 
@@ -123,6 +134,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou výhody randomizovaných algoritmů?
 
 Back:
@@ -136,6 +149,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou chyby u Monte Carlo algoritmů?
 
@@ -158,6 +173,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **primární** a **sekundární** metriky u randomizovaných algoritmů?
 

@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - fahren 3
 - der Fahrplan,-"e 5
 - das Fahrrad,-"er 2
@@ -66,6 +68,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 jet; jezdit
 
 Back:
@@ -74,12 +78,15 @@ fahren
 
 Tags: lesson3
 <!--ID: 1758825180460-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jízdní řád
 
@@ -89,12 +96,15 @@ der Fahrplan,-"e
 
 Tags: lesson5
 <!--ID: 1758825180463-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kolo (jízdní)
 
@@ -104,12 +114,15 @@ das Fahrrad,-"er
 
 Tags: lesson2
 <!--ID: 1758825180466-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rodina
 
@@ -119,12 +132,15 @@ die Familie,-n
 
 Tags: lesson4
 <!--ID: 1758825180468-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 příjmení
 
@@ -134,12 +150,15 @@ der Familienname,-n
 
 Tags: lesson3
 <!--ID: 1758825180471-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Fanta
 
@@ -149,12 +168,15 @@ die Fanta,-
 
 Tags: lesson1
 <!--ID: 1758825180474-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 fantastický
 
@@ -164,12 +186,15 @@ fantastisch
 
 Tags: lesson4
 <!--ID: 1758825180477-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 barva
 
@@ -179,12 +204,15 @@ die Farbe,-n
 
 Tags: lesson2
 <!--ID: 1758825180480-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 téměř
 
@@ -194,12 +222,15 @@ fast
 
 Tags: lesson5
 <!--ID: 1758825180483-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 favorit
 
@@ -209,12 +240,15 @@ der Favorit,-en
 
 Tags: lesson3
 <!--ID: 1758825180485-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 faxové číslo
 
@@ -224,12 +258,15 @@ die Faxnummer,-n
 
 Tags: lesson1
 <!--ID: 1758825180488-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 chyba
 
@@ -239,12 +276,15 @@ der Fehler,-
 
 Tags: lesson1
 <!--ID: 1758825180491-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 státní svátek
 
@@ -254,12 +294,15 @@ der Feiertag,-e
 
 Tags: lesson6
 <!--ID: 1758825180494-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pole
 
@@ -269,12 +312,15 @@ das Feld,-er
 
 Tags: lesson6
 <!--ID: 1758825180497-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 okno
 
@@ -284,12 +330,15 @@ das Fenster,-
 
 Tags: lesson2
 <!--ID: 1758825180500-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 televize (přístroj)
 
@@ -299,12 +348,15 @@ der Fernseher,-
 
 Tags: lesson2
 <!--ID: 1758825180503-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hotovo; hotový
 
@@ -314,12 +366,15 @@ fertig -
 
 Tags: lesson1
 <!--ID: 1758825180506-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pevný; jistý
 
@@ -329,12 +384,15 @@ fest
 
 Tags: lesson1
 <!--ID: 1758825180509-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 svátek; slavnost
 
@@ -344,12 +402,15 @@ das Fest,-e
 
 Tags: lesson5
 <!--ID: 1758825180511-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hasiči
 
@@ -359,12 +420,15 @@ die Feuerwehr,-en
 
 Tags: lesson1
 <!--ID: 1758825180514-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 film
 
@@ -374,12 +438,15 @@ der Film,-e
 
 Tags: lesson2
 <!--ID: 1758825180517-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 najít (přijde mi to dobré)
 
@@ -389,12 +456,15 @@ finden (etw. gut finden)
 
 Tags: lesson4
 <!--ID: 1758825180520-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 najít
 
@@ -404,12 +474,15 @@ finden
 
 Tags: lesson1
 <!--ID: 1758825180522-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 finština
 
@@ -419,12 +492,15 @@ das Finnisch,-
 
 Tags: lesson3
 <!--ID: 1758825180525-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 atmosféra (styl)
 
@@ -434,12 +510,15 @@ das Flair,-
 
 Tags: lesson4
 <!--ID: 1758825180527-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vlámština
 
@@ -449,12 +528,15 @@ das Flämisch,-
 
 Tags: lesson3
 <!--ID: 1758825180530-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 létat
 
@@ -464,12 +546,15 @@ fliegen
 
 Tags: lesson0
 <!--ID: 1758825180533-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 předsíň; chodba
 
@@ -479,12 +564,15 @@ der Flur,-e
 
 Tags: lesson4
 <!--ID: 1758825180536-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 forma; tvar
 
@@ -494,12 +582,15 @@ die Form,-en
 
 Tags: lesson2
 <!--ID: 1758825180539-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 formální
 
@@ -509,12 +600,15 @@ formal
 
 Tags: lesson1
 <!--ID: 1758825180542-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 fotka
 
@@ -524,12 +618,15 @@ das Foto,-s
 
 Tags: lesson1
 <!--ID: 1758825180544-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 otázka
 
@@ -539,12 +636,15 @@ die Frage,-n
 
 Tags: lesson2
 <!--ID: 1758825180547-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ptát se
 
@@ -554,12 +654,15 @@ fragen -
 
 Tags: lesson2
 <!--ID: 1758825180550-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ptát se na (+ dativ)
 
@@ -569,12 +672,15 @@ fragen nach (+ Dativ)
 
 Tags: lesson1
 <!--ID: 1758825180553-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 francouzština
 
@@ -584,12 +690,15 @@ das Französisch,-
 
 Tags: lesson4
 <!--ID: 1758825180556-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 žena
 
@@ -599,12 +708,15 @@ die Frau,-en
 
 Tags: lesson2
 <!--ID: 1758825180558-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 volný; zdarma
 
@@ -614,12 +726,15 @@ frei
 
 Tags: lesson1
 <!--ID: 1758825180561-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mít volno
 
@@ -629,12 +744,15 @@ frei haben
 
 Tags: lesson5
 <!--ID: 1758825180564-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pátek
 
@@ -644,12 +762,15 @@ der Freitag,-e
 
 Tags: lesson5
 <!--ID: 1758825180567-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cizí
 
@@ -659,12 +780,15 @@ fremd
 
 Tags: lesson1
 <!--ID: 1758825180569-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cizí jazyk
 
@@ -674,12 +798,15 @@ die Fremdsprache,-n
 
 Tags: lesson3
 <!--ID: 1758825180572-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kamarád; přítel
 
@@ -689,12 +816,15 @@ der Freund,-e
 
 Tags: lesson4
 <!--ID: 1758825180575-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kamarádka; přítelkyně
 
@@ -704,12 +834,15 @@ die Freundin,-nen
 
 Tags: lesson4
 <!--ID: 1758825180577-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kadeřník
 
@@ -719,12 +852,15 @@ der Frisör,-e
 
 Tags: lesson5
 <!--ID: 1758825180580-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kadeřnice
 
@@ -734,12 +870,15 @@ die Frisörin,-nen
 
 Tags: lesson5
 <!--ID: 1758825180583-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 snidaně
 
@@ -749,12 +888,15 @@ das Frühstück,-
 
 Tags: lesson5
 <!--ID: 1758825180586-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 snidanit
 
@@ -764,12 +906,15 @@ frühstücken
 
 Tags: lesson5
 <!--ID: 1758825180589-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 plnicí pero
 
@@ -779,12 +924,15 @@ der Füller,-
 
 Tags: lesson2
 <!--ID: 1758825180591-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 fungovat
 
@@ -794,12 +942,15 @@ funktionieren
 
 Tags: lesson4
 <!--ID: 1758825180594-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pro; za
 
@@ -809,12 +960,15 @@ für
 
 Tags: lesson4
 <!--ID: 1758825180597-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 noha; chodidlo
 
@@ -824,12 +978,15 @@ der Fuß,-"e
 
 Tags: lesson4
 <!--ID: 1758825180600-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 fotbal
 
@@ -839,6 +996,7 @@ der Fußball,-"e
 
 Tags: lesson2
 <!--ID: 1758825180603-->
+
 END
 
 ---

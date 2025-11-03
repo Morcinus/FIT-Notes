@@ -6,6 +6,7 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: NI-PIS
 FILE TAGS: NI-PIS cviceni01 status-toReview
 
+
 - Finanční trh
 	- Přebytkové subjekty předávají finance deficitním subjektům
 		- **Přímé financování**

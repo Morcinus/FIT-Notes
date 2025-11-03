@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska10 status-toReview numerika1
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je třída **přímých metod**?
 
@@ -29,6 +32,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je třída **iteračních metod**?
 
@@ -54,6 +59,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Připomenutí: Co je **vlastní číslo matice** a **vlastní vektor matice**?
 
 Back:
@@ -67,6 +74,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Připomenutí: Co tvoří vlastní vektory matice $M$?
 
@@ -82,6 +91,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Připomenutí: Jak se počítají **vlastní čísla matice**?
 
 Back:
@@ -96,6 +107,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Připomenutí: Kdy je matice diagonalizovatelná?
 
 Back:
@@ -109,6 +122,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Připomenutí: Co je na diagonále matice $D$ a co je ve sloupcích matice $P$?
 
@@ -125,6 +140,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **norma**
 
@@ -147,6 +164,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: **ekvivalence norem**
 
 Back:
@@ -163,6 +182,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 K čemu slouží mocninná metoda?
 
 Back:
@@ -176,6 +197,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou předpoklady mocninné metody?
 
@@ -195,6 +218,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **mocninná metoda**? (obecně)
 
@@ -218,6 +243,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje mocninná metoda?
 
 Back:
@@ -234,6 +261,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **kritérium zastavení** v mocninné metodě?
 

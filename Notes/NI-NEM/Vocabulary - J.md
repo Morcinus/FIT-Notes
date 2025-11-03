@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - ja 1
 - das Jahr,-e 4
 - der Japaner,- 4
@@ -24,6 +26,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ano
 
 Back:
@@ -32,12 +36,15 @@ ja
 
 Tags: lesson1
 <!--ID: 1758825180075-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rok
 
@@ -47,12 +54,15 @@ das Jahr,-e
 
 Tags: lesson4
 <!--ID: 1758825180078-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Japonec
 
@@ -62,12 +72,15 @@ der Japaner,-
 
 Tags: lesson4
 <!--ID: 1758825180081-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Japonka
 
@@ -77,12 +90,15 @@ die Japanerin,-nen
 
 Tags: lesson4
 <!--ID: 1758825180084-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 každý, každé, každá
 
@@ -92,12 +108,15 @@ jeder, jedes, jede
 
 Tags: lesson3
 <!--ID: 1758825180090-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 někdo
 
@@ -107,12 +126,15 @@ jemand
 
 Tags: lesson1
 <!--ID: 1758825180095-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 teď
 
@@ -122,12 +144,15 @@ jetzt
 
 Tags: lesson2
 <!--ID: 1758825180098-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 práce; brigáda
 
@@ -137,12 +162,15 @@ der Job,-s
 
 Tags: lesson4
 <!--ID: 1758825180100-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jogging; běhat
 
@@ -152,12 +180,15 @@ joggen
 
 Tags: lesson5
 <!--ID: 1758825180103-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 chlapec
 
@@ -167,6 +198,7 @@ der Junge,-n
 
 Tags: lesson3
 <!--ID: 1758825180106-->
+
 END
 
 ---

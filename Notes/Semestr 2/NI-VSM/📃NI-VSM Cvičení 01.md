@@ -7,9 +7,10 @@ TARGET DECK: NI-VSM
 FILE TAGS: NI-VSM cviceni01 status-toReview yellow
 
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze Entropii zapsat pomocí střední hodnoty?
 
@@ -17,20 +18,23 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250318105903.png)
 <!--ID: 1746518365066-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké rozdělení maximální entropii?
 
 Back:
 
-Rovnoměrné rozdělení 
+Rovnoměrné rozdělení
 <!--ID: 1746518365068-->
+
 END
 
 ---

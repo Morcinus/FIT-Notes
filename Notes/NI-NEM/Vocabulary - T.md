@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - die Tabelle,-n 1
 - die Tafel,-n 2
 - Tag! (Kurzf. von Guten Tag!) 1
@@ -66,6 +68,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 tabulka
 
 Back:
@@ -74,12 +78,15 @@ die Tabelle,-n
 
 Tags: lesson1
 <!--ID: 1758825178740-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tabule
 
@@ -89,12 +96,15 @@ die Tafel,-n
 
 Tags: lesson2
 <!--ID: 1758825178743-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Den!
 
@@ -104,12 +114,15 @@ Tag! (Kurzf. von Guten Tag!)
 
 Tags: lesson1
 <!--ID: 1758825178746-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 den; denní
 
@@ -119,12 +132,15 @@ der Tag,-e
 
 Tags: lesson3
 <!--ID: 1758825178748-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 denní režim
 
@@ -134,12 +150,15 @@ der Tagesablauf,-"e
 
 Tags: lesson5
 <!--ID: 1758825178751-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 talkshow
 
@@ -149,12 +168,15 @@ die Talkshow,-s
 
 Tags: lesson1
 <!--ID: 1758825178754-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 taška
 
@@ -164,12 +186,15 @@ die Tasche,-n
 
 Tags: lesson2
 <!--ID: 1758825178757-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 šálek
 
@@ -179,12 +204,15 @@ die Tasse,-n
 
 Tags: lesson1
 <!--ID: 1758825178760-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 klávesnice
 
@@ -194,12 +222,15 @@ die Tastatur,-en
 
 Tags: lesson6
 <!--ID: 1758825178763-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 činnost
 
@@ -209,12 +240,15 @@ die Tätigkeit,-en
 
 Tags: lesson1
 <!--ID: 1758825178765-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 taxi
 
@@ -224,12 +258,15 @@ das Taxi (pl. Taxen)
 
 Tags: lesson6
 <!--ID: 1758825178768-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 taxi dispečink
 
@@ -239,12 +276,15 @@ die Taxizentrale,-n
 
 Tags: lesson1
 <!--ID: 1758825178771-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 technika
 
@@ -254,12 +294,15 @@ die Technik,-en
 
 Tags: lesson4
 <!--ID: 1758825178773-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čaj
 
@@ -269,12 +312,15 @@ der Tee,-s
 
 Tags: lesson1
 <!--ID: 1758825178776-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefon
 
@@ -284,12 +330,15 @@ das Telefon,-e
 
 Tags: lesson1
 <!--ID: 1758825178779-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefonát
 
@@ -299,12 +348,15 @@ das Telefonat,-e
 
 Tags: lesson6
 <!--ID: 1758825178781-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefonní seznam
 
@@ -314,12 +366,15 @@ das Telefonbuch,-"er
 
 Tags: lesson1
 <!--ID: 1758825178784-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefonovat (s někým)
 
@@ -329,12 +384,15 @@ telefonieren (mit jdm)
 
 Tags: lesson5
 <!--ID: 1758825178787-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefonní číslo
 
@@ -344,12 +402,15 @@ die Telefonnummer,-n
 
 Tags: lesson1
 <!--ID: 1758825178790-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telekomunikace
 
@@ -359,12 +420,15 @@ die Telekommunikation,-en
 
 Tags: lesson3
 <!--ID: 1758825178795-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 teplota
 
@@ -374,12 +438,15 @@ die Temperatur,-en
 
 Tags: lesson1
 <!--ID: 1758825178800-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tenisový míček
 
@@ -389,12 +456,15 @@ der Tennisball,-"e
 
 Tags: lesson2
 <!--ID: 1758825178803-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 termín; schůzka
 
@@ -404,12 +474,15 @@ der Termin,-e
 
 Tags: lesson5
 <!--ID: 1758825178806-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 diář
 
@@ -419,12 +492,15 @@ der Terminkalender,-
 
 Tags: lesson6
 <!--ID: 1758825178808-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 test
 
@@ -434,12 +510,15 @@ der Test,-s
 
 Tags: lesson2
 <!--ID: 1758825178811-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 drahý, dražší, nejdražší
 
@@ -449,12 +528,15 @@ teuer, teurer, am teuersten
 
 Tags: lesson4
 <!--ID: 1758825178814-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 text
 
@@ -464,12 +546,15 @@ der Text,-e
 
 Tags: lesson4
 <!--ID: 1758825178816-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 divadlo
 
@@ -479,12 +564,15 @@ das Theater,-
 
 Tags: lesson2
 <!--ID: 1758825178819-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 divadelní vstupenka
 
@@ -494,12 +582,15 @@ die Theaterkarte,-n
 
 Tags: lesson6
 <!--ID: 1758825178822-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 téma
 
@@ -509,12 +600,15 @@ das Thema (pl. Themen)
 
 Tags: lesson6
 <!--ID: 1758825178825-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tip
 
@@ -524,12 +618,15 @@ der Tipp,-s
 
 Tags: lesson6
 <!--ID: 1758825178828-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 stůl
 
@@ -539,12 +636,15 @@ der Tisch,-e
 
 Tags: lesson2
 <!--ID: 1758825178831-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 záchod; toaleta
 
@@ -554,12 +654,15 @@ die Toilette,-n
 
 Tags: lesson4
 <!--ID: 1758825178833-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zvuk; tón
 
@@ -569,12 +672,15 @@ der Ton,-"e
 
 Tags: lesson1
 <!--ID: 1758825178836-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cestovní ruch
 
@@ -584,12 +690,15 @@ der Tourismus,-
 
 Tags: lesson4
 <!--ID: 1758825178840-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tradice
 
@@ -599,12 +708,15 @@ die Tradition,-en
 
 Tags: lesson6
 <!--ID: 1758825178842-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nosit; nést
 
@@ -614,12 +726,15 @@ tragen
 
 Tags: lesson1
 <!--ID: 1758825178845-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 trénovat
 
@@ -629,12 +744,15 @@ trainieren
 
 Tags: lesson1
 <!--ID: 1758825178848-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 doprava
 
@@ -643,13 +761,15 @@ Back:
 der Transport,-e
 
 Tags: lesson3
-
+<!--ID: 1762184315719-->
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 sen; sení
 
@@ -659,12 +779,15 @@ der Traum,-"e
 
 Tags: lesson4
 <!--ID: 1758825178851-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vysněný byt
 
@@ -674,12 +797,15 @@ die Traumwohnung,-en
 
 Tags: lesson4
 <!--ID: 1758825178854-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 setkání; schůzka
 
@@ -689,12 +815,15 @@ das Treffen,-
 
 Tags: lesson1
 <!--ID: 1758825178857-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 potkat; setkat se
 
@@ -704,12 +833,15 @@ treffen
 
 Tags: lesson5
 <!--ID: 1758825178860-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 trekingová túra
 
@@ -719,12 +851,15 @@ die Trekkingtour,-en
 
 Tags: lesson3
 <!--ID: 1758825178863-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 odlučitelný (sloveso)
 
@@ -734,12 +869,15 @@ trennbar
 
 Tags: lesson5
 <!--ID: 1758825178865-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 schodiště
 
@@ -749,12 +887,15 @@ das Treppenhaus,-"er
 
 Tags: lesson4
 <!--ID: 1758825178868-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pít
 
@@ -764,12 +905,15 @@ trinken
 
 Tags: lesson1
 <!--ID: 1758825178871-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čeština
 
@@ -779,12 +923,15 @@ das Tschechisch,-
 
 Tags: lesson3
 <!--ID: 1758825178874-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Ahoj (při loučení)!
 
@@ -794,12 +941,15 @@ tschüss
 
 Tags: lesson5
 <!--ID: 1758825178877-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dveře
 
@@ -809,12 +959,15 @@ die Tür,-en
 
 Tags: lesson2
 <!--ID: 1758825178880-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 věž
 
@@ -824,12 +977,15 @@ der Turm,-"e
 
 Tags: lesson3
 <!--ID: 1758825178883-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 televize (TV)
 
@@ -839,6 +995,7 @@ das TV,-s
 
 Tags: lesson3
 <!--ID: 1758825178885-->
+
 END
 
 ---

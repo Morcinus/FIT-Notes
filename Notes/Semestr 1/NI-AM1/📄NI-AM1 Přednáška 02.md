@@ -7,13 +7,14 @@ TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska02 status-toReview
 
 START
-Basic
+FIT-Card
 
 Definice: **architektura systému** (aka co mi určuje?)
 
 Back:
 
 Architektura určuje **strukturu** a **chování** sytému.
+
 <!--ID: 1728921214979-->
 
 END
@@ -21,7 +22,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou typy **architektury**? (2)
 
@@ -29,13 +30,14 @@ Back:
 
 - **Enterprise architektura** - základní, obecný pohled na podnik
 - **Konkrétní složky architektury** - enterprise, data, funkcionální, procesní, software, hardware,...
-  <!--ID: 1728921214981-->
-  END
+<!--ID: 1728921214981-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou **součásti vývoje** v architektuře? (2)
 
@@ -43,13 +45,14 @@ Back:
 
 - **Metodologie** - analýza, design, implementace, testování, údržba
 - **Aktéři** - architekti (navrhuje architekturu), uživatelé, vývojáři, administrátoři,..
-  <!--ID: 1728921214984-->
-  END
+<!--ID: 1728921214984-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou 3 **úrovně návrhu architektury**?
 
@@ -58,13 +61,14 @@ Back:
 - **konceptuální** - obecný, nezávislý na technologii
 - **logický** - návrh pro konkrétní technologie
 - **fyzický**
-  <!--ID: 1728921214987-->
-  END
+<!--ID: 1728921214987-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké části softwarů jsou **doménově závislé** a **doménově nezávislé**?
 
@@ -80,19 +84,21 @@ Back:
 
 - **softwarová** architektura (definuje softwarovou platformu)
 - **hardwarová** architektura (definuje infrastrukturu)
-  <!--ID: 1728921214989-->
-  END
+<!--ID: 1728921214989-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou části Enterprise Architektury? (přehled)
 
 Back:
 
 ![[Pasted image 20240930093046.png]]
+
 <!--ID: 1728921214992-->
 
 END
@@ -100,7 +106,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou části **reprezentace enterprise architektury**? (5)
 
@@ -113,6 +119,7 @@ Back:
 - **OIS** (office information systems)
 
 ![[Pasted image 20240930093423.png]]
+
 <!--ID: 1728921214995-->
 
 END
@@ -121,6 +128,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **EIS** systémy?
 
@@ -143,6 +152,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **BSS** systémy?
 
 Back:
@@ -163,6 +174,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **OSS** systémy?
 
@@ -185,6 +198,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **B2B** systémy?
 
 Back:
@@ -206,6 +221,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **OIS** systémy?
 
 Back:
@@ -225,13 +242,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **integrační middleware**?
 
 Back:
 
 Řeší integraci více systémů. Propojuje mi to jednotlivé aplikace.
+
 <!--ID: 1728921214998-->
 
 END
@@ -239,7 +257,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou **typy organizací**, co používají architektury co se týče vývoje? (3)
 
@@ -254,6 +272,7 @@ Back:
   - Např. Azure, Excel,...
 
 ![[Pasted image 20240930093901.png]]
+
 <!--ID: 1728921215000-->
 
 END
@@ -261,7 +280,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou typy architektonických funkcí (typy architektů)? (3)
 
@@ -274,6 +293,7 @@ Back:
   - konfiguruje systém
 
 ![[Pasted image 20240930094104.png]]
+
 <!--ID: 1728921215003-->
 
 END
@@ -281,13 +301,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **process classification framework** (PCF)?
 
 Back:
 
 PCF je **standard** - říká mi jakoby seznam obecných požadavků, co je dobrý implementovat v systémech. Když budu dělat systém, podívám se do standardu a on mi řekne, co všechno bych měl v systému vytvořit za funkcionality.
+
 <!--ID: 1728921215006-->
 
 END
@@ -295,7 +316,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké levely má **process classification framework**?
 
@@ -336,14 +357,15 @@ Všechny tyto systémy musím propojit, aby
 Takhle potom třeba vypadá konkrétní proces napříč jednotlivými systémy:
 
 - tohle pak řeší ten technický architekt
-  ![[Pasted image 20240930101202.png]]
-  <!--ID: 1728921215009-->
-  END
+![[Pasted image 20240930101202.png]]
+<!--ID: 1728921215009-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké **programovací jazyky** a **formáty dat** se používají pro integrační middleware v organizacích?
 
@@ -351,13 +373,14 @@ Back:
 
 - **Java** a **XML** je nejpoužívanější ve **velkých organizacích**, je to už trošičku přežitek
 - U nových systémů se používá **JSON** a **modernější programovací jazyky**
-  <!--ID: 1728921215011-->
-  END
+<!--ID: 1728921215011-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **pohled** XML a JSONů?
 
@@ -366,6 +389,7 @@ Back:
 XML a JSON se dají reprezentovat jako **strom**.
 
 Můžu potom vytvářet **pohledy** - tzn. píchnu prstem do určitého vrcholu a od něj dolů se budu na to dívat.
+
 <!--ID: 1728921215014-->
 
 END
@@ -373,7 +397,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jak se řeší **syntax** a **sémantika** v XML a JSONech?
 
@@ -383,6 +407,7 @@ Back:
 - **Sémantika** - jak konkrétně vypadá struktura XML/JSONu pro daný problém
 
 **Syntax** mi jasně definuje ten standard, **sémantiku** si musím zadefinovat sám např. pomocí **RDFS** nebo **JSONSchema**.
+
 <!--ID: 1728921215017-->
 
 END
@@ -390,7 +415,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Proč je důležité jasně **definovat sémantiku** v XML a JSONu?
 
@@ -417,6 +442,7 @@ Ale můžu mít i následující strukturu:
 Tzn. já když designuju tu strukturu, tak přirozeně nějak chápu tu sémantiku, ale jiný člověk to může pochopit jinak.
 
 -> Potřebuju sémantiku **jasně definovat**.
+
 <!--ID: 1728921215020-->
 
 END
@@ -424,7 +450,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je jazyk **RDFS**?
 
@@ -433,6 +459,7 @@ Back:
 **RDFS** (Resource Description Framework Schema):
 
 Standard (jazyk), který je nadstavbou **RDF** a umožňuje mi jasně definovat **sémantiku** XML a JSONu.
+
 <!--ID: 1728921215022-->
 
 END
@@ -440,7 +467,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaké jsou 2 typy integrací (podle toho jestli jsou uvnitř organizace nebo ne)?
 
@@ -448,15 +475,16 @@ Back:
 
 - **Intra-entreprise** integration - uvnitř organizace
 - **Inter-enterprise** integration - mezi organizacemi
-  <!--ID: 1728921215025-->
-  END
+<!--ID: 1728921215025-->
+
+END
 
 ---
 
 ### Softwarová architektura
 
 START
-Basic
+FIT-Card
 
 Co je **interface** v integracích? Co **obsahuje**? (4)
 
@@ -470,6 +498,7 @@ Každý interface má:
 - **technický detaily** (např. endpoint, ip adresa, atd.)
 
 ![[Pasted image 20240930104053.png]]
+
 <!--ID: 1728921215028-->
 
 END
@@ -477,7 +506,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jak přesně funguje **proces** v **interfacech**? Co se používá pro jeho **modelování**?
 
@@ -515,7 +544,7 @@ END
 #### Softwarová architektura
 
 START
-Basic
+FIT-Card
 
 Jaké jsou **typy softwarové architektury** (dle centralizovanosti)? (2)
 
@@ -533,13 +562,14 @@ Back:
 Fun fact:
 
 - Skype fungoval tak, že když člověk nepotřebuje komunikovat se serverem. Když člověk byl na veřejné síti, tak vpodstatě fungoval jako relay pro ostatní uživatele -> komunikace šla přes ostatní uživatele. - Teď už to není, dřív to tak bylo.
-  <!--ID: 1728921215034-->
-  END
+<!--ID: 1728921215034-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **separation of concerns**?
 
@@ -548,6 +578,7 @@ Back:
 Systém je vrstvenej. Mezi vrstvami mohu definovat **interface**/rozhraní.
 
 ![[Pasted image 20240930103530.png]]
+
 <!--ID: 1728921215036-->
 
 END
@@ -555,7 +586,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **interface**?
 
@@ -571,6 +602,7 @@ Pokud tu "smlouvu" chci změnit, musím to verzovat. Nemůžu to jen tak měnit 
 
 Např.
 ![[Pasted image 20240930104117.png]]
+
 <!--ID: 1728921215039-->
 
 END
@@ -578,7 +610,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jak může být **dosaženo contractu/interfacu**? (3)
 
@@ -589,6 +621,7 @@ Back:
 - **Dominantní techologie** - např. když oracle dominuje market, tak se to typicky bude dělat podle nich
 
 Co nejvíce bych se měl opírat o globální **standardy**. Neměl bych si vymýšlet něco svýho.
+
 <!--ID: 1728921215042-->
 
 END

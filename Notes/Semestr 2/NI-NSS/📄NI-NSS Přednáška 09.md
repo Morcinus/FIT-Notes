@@ -11,19 +11,23 @@ FILE TAGS: NI-NSS prednaska09 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč zatím nefunguje plně automatické generování kódu?
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250415155009.png)
 <!--ID: 1746599654030-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Meta-Circularity?
 
@@ -41,16 +45,20 @@ Aby se toho dosáhlo, je potřeba programovat v modelech a něčem abstraktněj�
 Tzn. cílem je spravovat "meta programming" - např. modelování modelů atd v něčem jiném než přímo v kódu
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250415155306.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599654036-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Meta-Circle?
 
@@ -69,6 +77,7 @@ Další krok je, že můžeme používat model a metamodel dohromady a díky tom
 
 ![](../../../Assets/Pasted%20image%2020250415160008.png)
 <!--ID: 1746599654044-->
+
 END
 
 ---

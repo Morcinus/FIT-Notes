@@ -6,6 +6,7 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni02 status-toReview
 
+
 $\overset{\rightarrow T}{s}$
 
 ### 9.4

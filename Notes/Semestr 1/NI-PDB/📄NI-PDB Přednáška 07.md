@@ -7,8 +7,11 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska07 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Je vyjadřovací síla XML stejná jako JSONu?
 
@@ -42,6 +45,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co znamená, že je XML well-formed?
 
 Back:
@@ -69,6 +74,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Na co se používají escape sequences v XML?
 
 Back:
@@ -83,6 +90,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké technologie např. budují na XML?
 
 Back:
@@ -91,8 +100,9 @@ Back:
 - SVG
 - SOAP
 - XHTML atd.
-  <!--ID: 1735205748957-->
-  END
+<!--ID: 1735205748957-->
+
+END
 
 ---
 
@@ -100,6 +110,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se v XPath pozná absolutní cesta?
 
@@ -121,6 +133,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je XDM?
 
 Back:
@@ -134,6 +148,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak je strukturovaný XDM data model?
 
@@ -155,6 +171,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **sequence** v XDM?
 
@@ -184,6 +202,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je výsledkem XPath výrazu aplikovaného na XML dokument?
 
 Back:
@@ -197,6 +217,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se liší absolutní a relativní cesta v XPath?
 
@@ -227,6 +249,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je kontext ve vyhodnocování XPath?
 
 Back:
@@ -235,13 +259,16 @@ Back:
 2. Potom to vyhodnotí první krok na té cestě, do kontextu to něco dá
 3. Potom na základě kontextu to vyhodnotí další věc
 4. Výsledkem celého dotazu je to, co je v kontextu
-   <!--ID: 1735205748975-->
-   END
+<!--ID: 1735205748975-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké části má XPath krok? (na tohle se ptá u státnic!)
 
@@ -264,6 +291,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou např. **osy** v XPath?
 
@@ -298,6 +327,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětli jak fungují **osy** v XPath:
 
 `/movies/child::movie`
@@ -324,6 +355,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co všechno může být v **node test** v XPath?
 
 Back:
@@ -347,6 +380,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak fungují **predikáty** v XPath?
 
@@ -375,6 +410,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké **zkratky** jsou v XPath?
 
 Back:
@@ -399,6 +436,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **typy porovnávání** v XPath? (3)
 
@@ -432,6 +471,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kdy se u **General comparisons** v XPath vyhodnotí příklad jako true?
 
 Např.
@@ -464,6 +505,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak fungují **comparison expressions** v XPath?
 
 Back:
@@ -489,6 +532,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **atomizace hodnot** v XPath?
 
@@ -521,14 +566,17 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se liší XPath a XQuery?
 
 Back:
 
 - **XPath** - jazyk který aplikujeme na XML dokument a on nám vrátí sekvenci elementů
 - **XQuery** - XPath + další rozšíření navíc
-  <!--ID: 1735205749004-->
-  END
+<!--ID: 1735205749004-->
+
+END
 
 ---
 
@@ -536,6 +584,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **expressions** v XQuery? (6)
 
@@ -551,13 +601,16 @@ Back:
 - **Boolean** expressions
   - `and, or, not`
 - **Primary** expressions - **constructors**, literals, variable references, function calls,...
-  <!--ID: 1735205749007-->
-  END
+<!--ID: 1735205749007-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak fungují **node constructors** v XQuery?
 
@@ -576,6 +629,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 typy konstruktorů v XQuery?
 
@@ -609,6 +664,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je alternativa XQuery a XPath pro JSON?
 
 (pozn. tohle nebylo v přednášce, ale přišlo mi to useful vědět)
@@ -629,6 +686,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou FLWOR experssions? (5)
 
@@ -664,6 +723,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak fungují **conditional expressions** v XQuery?
 
 Back:
@@ -677,6 +738,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak fungují **quantified expressions** v XQuery?
 
@@ -701,6 +764,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Používá se XQuery na velké databáze?
 

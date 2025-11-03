@@ -11,6 +11,8 @@ FILE TAGS: NI-PIS prednaska04 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **data science**?
 
 Back:
@@ -21,17 +23,21 @@ Sběr, analýza, vizualizace, monitoring, automatizace dat.
 Pozor, není to business intelligence, ta prý nedělá predikce
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250528144236.png)
 ![](../../../Assets/Pasted%20image%2020250528144258.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1748437050696-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je metodika CRISP-DM?
 
@@ -39,13 +45,15 @@ Back:
 
 Iterativní metodika pro data science.
 <!--ID: 1748437050702-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou hlavní 3 části data science?
 
@@ -55,13 +63,15 @@ Back:
 - **Znalosti**
 - **Technika**
 <!--ID: 1748437050705-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou fáze CRISP-DM?
 
@@ -75,16 +85,20 @@ Back:
 6. **Deployment** - produkční nasazení modelu v datovém workflow zákazníka + vyřešení administrace, údržby, zaškolení atd.
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250528144612.png)
+
 <!-- ImageEnd -->
 <!--ID: 1748437050707-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co dělá **data scientist**? (4)
 
@@ -95,13 +109,15 @@ Back:
 - Komunikuje s **technickými experty** (dává jim zadání)
 - **Prezentuje a vizualizuje data**
 <!--ID: 1748437050710-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou hlavní součásti **znalostí** v data science?
 
@@ -114,13 +130,15 @@ Back:
 - **Vizualizace dat**
 - **Transformace** - měla by se data upravit?
 <!--ID: 1748437050713-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou například úlohy v data science? (6)
 
@@ -135,13 +153,15 @@ Back:
 - **detekce** - je něco normální případ nebo anomálie
 - **podobnost** - které případy se sobě podobají
 <!--ID: 1748437050716-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké **technologie** se typicky používají v data science? (6)
 
@@ -156,13 +176,15 @@ Back:
 - **Linux**
 - **Azure** (cloud)
 <!--ID: 1748437050719-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou aktuální problémy data science? (3)
 
@@ -174,6 +196,7 @@ Back:
 - **přesnost modelů**
 - **nadbytek dat**
 <!--ID: 1748437050721-->
+
 END
 
 ---

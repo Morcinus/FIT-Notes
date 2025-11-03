@@ -7,13 +7,14 @@ TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska01 status-toReview
 
 START
-Basic
+FIT-Card
 
 Čeho je zkratka **MOM**?
 
 Back:
 
 **Message oriented middleware**
+
 <!--ID: 1728921214973-->
 
 END
@@ -21,7 +22,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **edge computing**?
 

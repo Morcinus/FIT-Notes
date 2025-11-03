@@ -7,13 +7,14 @@ TARGET DECK: archive
 FILE TAGS: NI-PDB cviceni01 status-toReview
 
 START
-Basic
+FIT-Card
 
 Co znamená, že je databáze v konzistentním stavu?
 
 Back:
 
 Že jsou dodržena všechna integritní omezení
+
 <!--ID: 1728921214770-->
 
 END
@@ -23,7 +24,7 @@ END
 ### SQL object-relational extension
 
 START
-Basic
+FIT-Card
 
 Analogie: RDBMS vs ORDBMS
 
@@ -33,13 +34,14 @@ Vjedu autem do objektový a relační garáže
 
 - V relační garáži musím auto rozebrat a dát do šuplíků
 - V objektový tam prostě jen vjedu
-  <!--ID: 1728921214772-->
-  END
+<!--ID: 1728921214772-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaký je rozdíl mezi tabulkou a objektovou tabulkou?
 
@@ -51,6 +53,7 @@ Back:
 V objektový tabulce reference na objekt nahrazují klíč.
 
 V objektový tabulce pak nemusím dělat joiny, ale přes tečkovou notaci si to dotážu.
+
 <!--ID: 1728921214776-->
 
 END
@@ -58,13 +61,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Proč se nepoužívají tolik objektové databáze?
 
 Back:
 
 Protože to moc společností neposkytuje a člověk se tím trošku dostane do **vendor locku** + se lidi boají, že to bude míň efektivní.
+
 <!--ID: 1728921214778-->
 
 END
@@ -72,7 +76,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je a čeho je zkratka **BLOB**?
 
@@ -81,8 +85,9 @@ Back:
 Binary Large Object
 
 - např. v databázi
-  <!--ID: 1728921214781-->
-  END
+<!--ID: 1728921214781-->
+
+END
 
 ---
 

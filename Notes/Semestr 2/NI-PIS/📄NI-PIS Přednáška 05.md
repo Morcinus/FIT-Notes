@@ -7,11 +7,13 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: NI-PIS
 FILE TAGS: NI-PIS prednaska05 status-toReview
 
-![](../../../Assets/Pasted%20image%2020250320163829.png)
 
+![](../../../Assets/Pasted%20image%2020250320163829.png)
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **big data**?
 
@@ -19,13 +21,15 @@ Back:
 
 **Velké množství** (**rychle měnících** se) **potenciálně hodnotných** dat, která se nedají dobře managovat tradičními způsoby.
 <!--ID: 1748438655130-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **3Vs** v big data?
 
@@ -36,13 +40,15 @@ Back:
 - **variety** - různé formáty
 - (existují další Vs)
 <!--ID: 1748438655142-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **structured, semistructured a nonstructured data**?
 
@@ -50,17 +56,18 @@ Back:
 
 - **structured** - tabulky, předdefinovaná schémata, relační databáze,...
 - **semistructured** - JSON, XML, grafy, NoSQL, grafové databáze
-	- Schéma není vynuceno
+  - Schéma není vynuceno
 - **nonstructured** - obrázky, audio, social media atd.
 <!--ID: 1748438655145-->
+
 END
 
 ---
 
-
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 3 hlavní tools pro Big data?
 
@@ -70,13 +77,15 @@ Back:
 - Spark
 - Kafka
 <!--ID: 1746599651249-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi **vertikálním** a **horizontálním škálováním**?
 
@@ -86,16 +95,20 @@ Back:
 - **horizontální** - zvyšujeme počet instancí aplikace
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250528150424.png)
+
 <!-- ImageEnd -->
 <!--ID: 1748438655148-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **2 typy data processingu**?
 
@@ -107,23 +120,21 @@ Jaké jsou **2 typy data processingu**?
 Back:
 
 - **Batch processing**
-	- zpracuju **hodně dat najednou** např. jednou za den
-	- sleduje se **throughput** - kolik zpracovaných records za čas
-	- efektivnější zpracovávání
-	- např. Hadoop, Spark
-- **Stream processing**
-	- data se zpracovávají **průběžně** (téměř real-time)
-	- sleduje se **latency** - čas od začátku po konec processingu
-	- méně efektivní zpracovávání (protože to musí být real-time)
-	- např. Kafka, Spark
+  - zpracuju **hodně dat najednou** např. jednou za den
+  - sleduje se **throughput** - kolik zpracovaných records za čas
+  - efektivnější zpracovávání
+  - např. Hadoop, Spark
+- **Stream processing** - data se zpracovávají **průběžně** (téměř real-time) - sleduje se **latency** - čas od začátku po konec processingu - méně efektivní zpracovávání (protože to musí být real-time) - např. Kafka, Spark
 <!--ID: 1748438655151-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Hadoop**?
 
@@ -131,13 +142,15 @@ Back:
 
 Open source platforma pro distribuované zpracovávání velkého množství dat.
 <!--ID: 1746599651256-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké části má **Hadoop**? (4)
 
@@ -148,13 +161,15 @@ Back:
 - **Hadoop YARN** - spravuje resources v clusterech a scheduling uživatelských úloh
 - **Hadoop MapReduce** - implementace MapReduce modelu pro zpracování velkých dat
 <!--ID: 1746599651290-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou části **HDFS**? (2)
 
@@ -162,37 +177,43 @@ Back:
 
 - **NameNode** - "mozek systému", obsahuje metadata o tom, kde je co uloženo
 - **DataNode** - jsou tam uloženy datové bloky
-	- jsou typicky replikovány
-	- mají dobrou škálovatelnost
+  - jsou typicky replikovány
+  - mají dobrou škálovatelnost
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250320164622.png)
+
 <!-- ImageEnd -->
 <!--ID: 1746599651309-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou hlavní vlastnosti **Hadoopu**? (3)
 
 Back:
 
 - **Replication factor** - na kolik různých data nodů se data uloží
-	- Díky tomu je fault tolerant
+  - Díky tomu je fault tolerant
 - **Scalable** - dobře se škáluje
 - **Large files** - obsahuje obří data
 <!--ID: 1746599651326-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Hadoop MapReduce**? (5 fází)
 
@@ -205,16 +226,20 @@ Back:
 5. **Final result** - Data se opět spojí do jednoho výsledku
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250320165222.png)
+
 <!-- ImageEnd -->
 <!--ID: 1746599651340-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Hadoop YARN**?
 
@@ -223,34 +248,41 @@ Back:
 Komponenta v Hadoopu, co spravuje systémové prostředky a umožňuje spouštět výpočetní úlohy v clusteru
 
 <!-- ImageStart -->
+
 ![](../../../Assets/Pasted%20image%2020250320165433.png)
+
 <!-- ImageEnd -->
 <!--ID: 1746599651353-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Apache **Spark**?
 
 Back:
 
 Je to **in-memory** výpočetní rámec pro distribuované zpracovávání dat.
+
 - Je rychlejší než **MapReduce** (díky in-memory méně I/O operací)
 - Lze použít pro batch processing i streaming
 - Často používaný pro **machine learning** nebo **grafové výpočty**
 - Dá se spustit v Hadoopu
 <!--ID: 1746599651268-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Apache **Kafka**?
 
@@ -259,16 +291,20 @@ Back:
 Distribuovaná platforma pro zpracovávání data streamů v reálném čase.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250528152441.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651280-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký engine se pro big data používá nejvíce?
 
@@ -276,13 +312,15 @@ Back:
 
 Apache **Spark**
 <!--ID: 1746599651366-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Kafka high level architecture**?
 
@@ -296,13 +334,15 @@ Topic je jakoby fronta zpráv. Kafka zprávy nemaže po přečtení, ale třeba 
 
 ![](../../../Assets/Pasted%20image%2020250320170453.png)
 <!--ID: 1746599651409-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **4 role v bigdata**?
 
@@ -313,32 +353,39 @@ Back:
 - **Data engineer** - spravuje processing a workflow dat
 - **Data Scientist** - dělá statistiky, data mining, predikce, atd.
 <!--ID: 1746599651427-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **Databricks**?
 
 Back:
 
 - **Cloudová platforma pro analýzu a zpracovávání dat** (integrace s AWS, GCP, Azure)
-- je to **Lakehouse** = data lake + data warehouse 
+- je to **Lakehouse** = data lake + data warehouse
 - Je to "all in one" - big data zpracovávání, datové inženýrství, machine learning, business intelligence v jednom prostředí
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250528153525.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651490-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **Snowflakes**?
 
@@ -350,12 +397,14 @@ Back:
 - je to drahý jak debil
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250320171852.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651499-->
+
 END
 
 ---
-
 
 ![](../../../Assets/Pasted%20image%2020250320173244.png)

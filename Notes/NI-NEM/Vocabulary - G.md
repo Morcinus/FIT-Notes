@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - ganzer, ganzes, ganze 6
 - ga kein 1
 - der Garten,-" 4
@@ -59,6 +61,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 celý, celé, celá
 
 Back:
@@ -67,12 +71,15 @@ ganzer, ganzes, ganze
 
 Tags: lesson6
 <!--ID: 1758825180204-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 žádný (chybně zapsáno)
 
@@ -82,12 +89,15 @@ ga kein
 
 Tags: lesson1
 <!--ID: 1758825180208-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zahrada
 
@@ -97,12 +107,15 @@ der Garten,-"
 
 Tags: lesson4
 <!--ID: 1758825180210-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dát; (existuje ...)
 
@@ -112,12 +125,15 @@ geben (es gibt ..)
 
 Tags: lesson4
 <!--ID: 1758825180213-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 narozen (být)
 
@@ -127,12 +143,15 @@ geboren (sein)
 
 Tags: lesson6
 <!--ID: 1758825180216-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 narozeniny
 
@@ -142,12 +161,15 @@ der Geburtstag-,e
 
 Tags: lesson6
 <!--ID: 1758825180219-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kalendář narozenin
 
@@ -157,12 +179,15 @@ der Geburtstagskalender,-
 
 Tags: lesson6
 <!--ID: 1758825180221-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 předmět; věc
 
@@ -172,12 +197,15 @@ der Gegenstand,-"e
 
 Tags: lesson2
 <!--ID: 1758825180224-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 opak
 
@@ -187,12 +215,15 @@ das Gegenteil,-e
 
 Tags: lesson4
 <!--ID: 1758825180227-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít
 
@@ -202,12 +233,15 @@ gehen
 
 Tags: lesson5
 <!--ID: 1758825180229-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít (to nejde)
 
@@ -217,12 +251,15 @@ gehen (das geht nicht)
 
 Tags: lesson5
 <!--ID: 1758825180232-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 patřit (k + dativ)
 
@@ -232,12 +269,15 @@ gehören (zu + Dativ)
 
 Tags: lesson4
 <!--ID: 1758825180235-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 společně
 
@@ -247,12 +287,15 @@ gemeinsam
 
 Tags: lesson1
 <!--ID: 1758825180238-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 stejně; právě tak
 
@@ -262,12 +305,15 @@ genauso
 
 Tags: lesson5
 <!--ID: 1758825180240-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 geografie
 
@@ -277,12 +323,15 @@ die Geografie,-
 
 Tags: lesson4
 <!--ID: 1758825180243-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 geografický
 
@@ -292,12 +341,15 @@ geografisch
 
 Tags: lesson3
 <!--ID: 1758825180245-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rád, raději, nejraději
 
@@ -307,12 +359,15 @@ gern, lieber, am liebsten
 
 Tags: lesson3
 <!--ID: 1758825180248-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 obchod
 
@@ -322,12 +377,15 @@ das Geschäft,-e
 
 Tags: lesson6
 <!--ID: 1758825180250-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dějiny; příběh
 
@@ -337,12 +395,15 @@ die Geschichte,-n
 
 Tags: lesson2
 <!--ID: 1758825180253-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rozhovor
 
@@ -352,12 +413,15 @@ das Gespräch,-e
 
 Tags: lesson1
 <!--ID: 1758825180256-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 včera
 
@@ -367,12 +431,15 @@ gestern
 
 Tags: lesson3
 <!--ID: 1758825180259-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nápoj
 
@@ -382,12 +449,15 @@ das Getränk,-e
 
 Tags: lesson1
 <!--ID: 1758825180262-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 odděleně
 
@@ -397,12 +467,15 @@ getrennt
 
 Tags: lesson1
 <!--ID: 1758825180264-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Gewandhaus (koncertní dům)
 
@@ -412,12 +485,15 @@ das Gewandhaus,-"er
 
 Tags: lesson6
 <!--ID: 1758825180267-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vítěz
 
@@ -427,12 +503,15 @@ der Gewinner,-
 
 Tags: lesson1
 <!--ID: 1758825180270-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vítězka
 
@@ -442,12 +521,15 @@ die Gewinnerin,-nen
 
 Tags: lesson1
 <!--ID: 1758825180273-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kytara
 
@@ -457,12 +539,15 @@ die Gitarre,-n
 
 Tags: lesson2
 <!--ID: 1758825180275-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 věřit; myslet si
 
@@ -472,12 +557,15 @@ glauben
 
 Tags: lesson5
 <!--ID: 1758825180278-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hned; ihned; stejný
 
@@ -487,12 +575,15 @@ gleich
 
 Tags: lesson1
 <!--ID: 1758825180281-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 globální
 
@@ -502,12 +593,15 @@ global
 
 Tags: lesson4
 <!--ID: 1758825180283-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 štěstí
 
@@ -517,12 +611,15 @@ das Glück,-
 
 Tags: lesson4
 <!--ID: 1758825180286-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 grafika
 
@@ -532,12 +629,15 @@ die Grafik,-en
 
 Tags: lesson3
 <!--ID: 1758825180289-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hranice
 
@@ -547,12 +647,15 @@ die Grenze,-n
 
 Tags: lesson3
 <!--ID: 1758825180291-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 řečtina
 
@@ -562,12 +665,15 @@ das Griechisch,-
 
 Tags: lesson3
 <!--ID: 1758825180294-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 velký, větší, největší
 
@@ -577,12 +683,15 @@ groß, größer, amd größten
 
 Tags: lesson4
 <!--ID: 1758825180297-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 velkoměsto
 
@@ -592,12 +701,15 @@ die Großstadt,-"e
 
 Tags: lesson6
 <!--ID: 1758825180300-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 založit
 
@@ -607,12 +719,15 @@ gründen
 
 Tags: lesson1
 <!--ID: 1758825180302-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 základní slovo
 
@@ -622,12 +737,15 @@ das Grundwort,-"er
 
 Tags: lesson4
 <!--ID: 1758825180305-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 skupina
 
@@ -637,12 +755,15 @@ die Gruppe,-n
 
 Tags: lesson3
 <!--ID: 1758825180308-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zdravím tě!
 
@@ -652,12 +773,15 @@ Grüß dich!
 
 Tags: lesson1
 <!--ID: 1758825180311-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pozdrav
 
@@ -667,12 +791,15 @@ der Gruß,-"e
 
 Tags: lesson3
 <!--ID: 1758825180314-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dobrý, lepší, nejlepší
 
@@ -682,12 +809,15 @@ gut, besser, am besten
 
 Tags: lesson2
 <!--ID: 1758825180317-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Šťastnou cestu!
 
@@ -697,12 +827,15 @@ Gute Fahrt!
 
 Tags: lesson5
 <!--ID: 1758825180320-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dobrý den!
 
@@ -712,12 +845,15 @@ Guten Tag!
 
 Tags: lesson2
 <!--ID: 1758825180323-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 gymnázium
 
@@ -727,6 +863,7 @@ das Gymnasium,-Gymnasien
 
 Tags: lesson0
 <!--ID: 1758825180325-->
+
 END
 
 ---

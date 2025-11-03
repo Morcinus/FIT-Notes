@@ -6,6 +6,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni08 status-toReview
 
+
 > "Já se omlouvám, že jsem přišel pozdě.. Já jsem zaspal v kanclu" - Fisher
 
 > "Já vám to nejdřív ukážu, ať se nejdřív naučíte ty základní hmaty" - Fisher

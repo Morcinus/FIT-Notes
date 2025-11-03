@@ -9,10 +9,13 @@ wšdqW
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska06 status-toReview
 
+
 ## Úvod HTTP
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **server push** v HTTP 2?
 
@@ -33,6 +36,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co znamená, že je HTTP protokol **stateless**?
 
@@ -55,6 +60,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakou strukturu má HTTP request?
 
@@ -93,6 +100,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakou strukturu má HTTP response?
 
 Back:
@@ -130,6 +139,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kolik requestů se musí průměrně poslat, aby se načetla průměrná webová aplikace?
 
 Back:
@@ -144,13 +155,16 @@ Pro úvodní načtení průměrně 90 requestů.
 - CSS - 5 requestů
 - Other - 5 requestů
   <!-- DetailInfoEnd -->
-  <!--ID: 1731175818752-->
-  END
+<!--ID: 1731175818752-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je sharding? Jak funguje?
 
@@ -181,6 +195,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká hlavička porušuje stateless protokol?
 
 Back:
@@ -195,19 +211,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakými způsoby lze udržovat stav na klientovi, když je HTTP stateless?
 
 Back:
 
 - **Cookies** (+ session tabulky na serveru)
 - **Hypertext** (HATEOAS)
-  <!--ID: 1731175818759-->
-  END
+<!--ID: 1731175818759-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak fungují **sessions** pomocí **cookies**?
 
@@ -242,6 +263,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kde se ukládá session tabulka na serveru? Co se stane když vypadne server?
 
 Back:
@@ -258,6 +281,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se dá předejít tomu, aby se nesmazala session tabulka, když vypadne server?
 
 Back:
@@ -272,6 +297,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **stateful server**?
 
 Back:
@@ -285,6 +312,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Používá se v praxi HATEOAS?
 
@@ -302,19 +331,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Z jakých částí se skládá **bezpečnost** komunikace přes internet? (2)
 
 Back:
 
 - **Message-level security**
 - **Transport-level security**
-  <!--ID: 1731175818775-->
-  END
+<!--ID: 1731175818775-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je "Authz"?
 
@@ -330,19 +364,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakými způsoby lze zajistit **autentizaci**?
 
 Back:
 
 - **Jméno heslo**
 - **Certifikát**
-  <!--ID: 1731175818780-->
-  END
+<!--ID: 1731175818780-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakými způsoby se řeší **autorizace**?
 
@@ -357,6 +396,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se snažíme v bezpečnosti komunikace přes internet zajistit v rámci **message-level security**? (5)
 
@@ -381,6 +422,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Basic Access Authentication** a jak funguje?
 
@@ -417,6 +460,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Digest Access Authentication**?
 

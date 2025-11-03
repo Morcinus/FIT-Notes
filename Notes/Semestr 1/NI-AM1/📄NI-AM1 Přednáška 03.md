@@ -6,12 +6,15 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska03 status-toReview
 
+
 ## Dokončení přednášky 02
 
 ### Softwarové architektury
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy softwarových architektur (monolit,...)? (5)
 
@@ -22,13 +25,16 @@ Back:
 - **Three-tier client/server**
 - **Mutli-tier client/server**
 - **Client/server** (microservices)
-  <!--ID: 1729237386393-->
-  END
+<!--ID: 1729237386393-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **monolit**?
 
@@ -58,6 +64,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **two-tier client/server** architektura?
 
 Back:
@@ -86,19 +94,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je **nevýhoda** **two-tier client server** architecture?
 
 Back:
 
 - **Není sjednocená aplikační logika** - každý klient může mít u sebe jinou verzi aplikační vrstvy
 - **Hůř se dělají upgrady aplikace** - klient si musí sám stáhnout aktualizaci, nebo tam musím vytvořit automatické aktualizace
-  <!--ID: 1729237386401-->
-  END
+<!--ID: 1729237386401-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **three-tier client/server architecture**?
 
@@ -126,6 +139,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je nevýhoda three-tier client/serveru?
 
 Back:
@@ -145,6 +160,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Multi-tier client/server architecture** (vícevrstvá architektura)?
 
@@ -173,6 +190,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Client/Server Architecture (microservices)**?
 
 Back:
@@ -199,6 +218,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč firmy nerefaktorují svoje staré aplikace na microservice architekture?
 
 Back:
@@ -212,6 +233,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **client/server NOT a microservice architecture**?
 
@@ -243,6 +266,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **zaměření middlewarů**? (3)
 
 Back:
@@ -250,8 +275,9 @@ Back:
 - **škálovatelnost** - messaging servers, load balancers, proxy serves
 - **functional** - integrace (propojování) severů a částí aplikace, repozitáře,...
 - **security** - firewally, gateways,...
-  <!--ID: 1729237386420-->
-  END
+<!--ID: 1729237386420-->
+
+END
 
 ---
 
@@ -259,6 +285,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou různé **pohledy na služby**? (5)
 
@@ -269,13 +297,16 @@ Back:
 - **logical** view
 - **software architecture** view
 - **technology architecture** view
-  <!--ID: 1729237386423-->
-  END
+<!--ID: 1729237386423-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **business view** náhled na služby?
 
@@ -297,6 +328,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **conceptual view** náhled na služby?
 
 Back:
@@ -313,6 +346,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **logical view** náhled na služby? Jaké jsou 2 hlavní přístupy?
 
 Back:
@@ -323,13 +358,16 @@ Interface služby, její popis a implementace
   - pracuje se zdrojema, např. REST
   - metody, co používám pro manipulaci dat jsou standardizovaný (POST, PUT, DELETE, atd.)
 - **message-oriented** - zavádím operace, co jsou doménově závislé - např. SOAP - např. mám na rozhraní konkrétní metodu "createCustomer" - nevýhoda: je potřeba zavést nějaký standard pro vytváření metod, aby v tom nebyl chaos
-  <!--ID: 1729237386432-->
-  END
+<!--ID: 1729237386432-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **software architecture view** náhled na služby? (2 typy služeb)
 
@@ -354,6 +392,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **technology architecture view** náhled na služby?
 
 Back:
@@ -369,6 +409,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč je výhoda oddělovat specifikaci rozhraní a samotnou implementaci?
 
@@ -389,6 +431,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **service interface**?
 
@@ -411,6 +455,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pomocí jakého **diagramu** se modeluje **fungování dané service**?
 
 Back:
@@ -424,6 +470,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou části **procesu operace** dané service? (4)
 
@@ -450,6 +498,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **charakteristiky services**? (7)
 
@@ -479,6 +529,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **loose coupling** služeb (services)?
 
 Back:
@@ -492,6 +544,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **reusability** služeb (services)?
 
@@ -515,6 +569,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Čeho je zkratka **SOA**?
 
 Back:
@@ -529,6 +585,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **ESB**?
 
 Back:
@@ -542,6 +600,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **Integration a Interoperability**?
 
@@ -564,6 +624,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **SOA architektura**? Z čeho se skládá?
 
@@ -591,6 +653,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **one-to-one service integration**?
 
 Back:
@@ -617,6 +681,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je problém s **one-to-one service integration**?
 
 Back:
@@ -638,6 +704,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak vypadá **Many-To-Many service** integrace (=realizace SOA)? Jaký **problém** řeší?
 
@@ -666,6 +734,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč není **many-to-many service** tak "růžový"?
 

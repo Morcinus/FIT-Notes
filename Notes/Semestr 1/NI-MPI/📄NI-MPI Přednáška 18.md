@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska18 status-toReview numerika2
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: Načítání chyb
 

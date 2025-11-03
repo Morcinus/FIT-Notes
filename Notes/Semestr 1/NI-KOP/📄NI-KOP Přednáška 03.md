@@ -6,6 +6,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska03 status-toReview
 
+
 # Výpočetní modely
 
 ### Složitosti a metriky
@@ -13,19 +14,24 @@ FILE TAGS: NI-KOP prednaska03 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké metriky se měří u výpočetních modelů?
 
 Back:
 
 - **výpočetní složitost** - čas výpočtu
 - **paměťová složitost** - spotřeba paměti
-  <!--ID: 1728921215045-->
-  END
+<!--ID: 1728921215045-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakými způsoby se měří **velikost** instance?
 
@@ -33,13 +39,16 @@ Back:
 
 - **Hrubá míra** - počet prvků instance (uzlů, čísel, prvků množiny atd.)
 - **Jemná míra** - počet bitů nutných k zakódování instance
-  <!--ID: 1728921215048-->
-  END
+<!--ID: 1728921215048-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se měří **čas výpočtu**?
 
@@ -47,13 +56,16 @@ Back:
 
 - počet "typických operací"
 - počet kroků **jednotného výpočetního modelu**
-  <!--ID: 1728921215051-->
-  END
+<!--ID: 1728921215051-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou například výpočetní modely? (3)
 
@@ -62,8 +74,9 @@ Back:
 - **Turingův stroj**
 - **RAM stroj**
 - **Booleův obvod**
-  <!--ID: 1728921215053-->
-  END
+<!--ID: 1728921215053-->
+
+END
 
 ---
 
@@ -71,6 +84,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Připomenutí: Jak funguje **Turingův stroj**?
 
@@ -98,6 +113,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém $\Pi$
 
 Back:
@@ -112,6 +129,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém $\Pi$ **v čase $t$**
 
 Back:
@@ -125,6 +144,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$ **s pamětí $m$**
 
@@ -141,6 +162,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se kóduje instance v Turingově stroji
 
@@ -170,6 +193,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Rozhodovací problém **patří do třídy P**, když $\dots$
 
 Back:
@@ -189,6 +214,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Rozhodovací problém **patří do třídy PSPACE**, když $\dots$
 
@@ -210,6 +237,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Rozhodovací problém **patří do třídy EXPTIME**, když $\dots$
 
 Back:
@@ -229,6 +258,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah tříd PSPACE a EXPTIME?
 
@@ -252,6 +283,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Čeho je zkratka **NP** třídy problémů?
 
 Back:
@@ -265,6 +298,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **nedeterministický Turingův stroj**?
 
@@ -294,6 +329,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **nedeterministický Turingův stroj řeší rozhodovací problém $\Pi$ v čase $t$**
 
 Back:
@@ -307,6 +344,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Pokud **nedeterministický Turingův stroj** řeší problém $\Pi$ v čase $T(n)$, $\dots$
 
@@ -323,6 +362,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Rozhodovací problém $\Pi$ **patří do třídy NP**, jesltiže $\dots$ (nedeterministický Turingův stroj)
 
@@ -344,6 +385,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Rozhodovací problém $\Pi$ **patří do třídy NP**, jesltiže $\dots$ (certifikát/svědek)
 
 Back:
@@ -358,6 +401,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze dokázat, že problém patří do třídy NP? (2)
 
@@ -377,6 +422,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje nedeterministický algoritmus pro nalezení Hamiltonovy kružnice? (neformálně)
 
@@ -403,6 +450,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Do jaké třídy problémů spadá problém nalezení Hamiltonovy kružnice?
 
 Back:
@@ -418,6 +467,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se provede polynomiální kontrola certifikátu u problému Hamiltonovy kružnice?
 
@@ -445,6 +496,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah **nedeterministickýho** a **deterministickýho Turingova stroje**?
 
@@ -477,6 +530,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je vztah problémů třídy P a NP?
 
 Back:
@@ -498,6 +553,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké další problémy jsou mimo NP? (v rámci PSPACE)
 
@@ -522,6 +579,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou komplementární problémy?
 
 Back:
@@ -544,6 +603,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze zkonstruovat **komplementární problém**?
 
@@ -572,6 +633,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké svědky mají **NP problémy**?
 
 Back:
@@ -586,13 +649,16 @@ Na otázku "Existuje konfigurace, která ..."
 - Odpověď **ANO** - stačí mi najít tu konfiguraci (řeší se krátce)
 - Odpověď **NE** - musím projít všechny konfigurace (řeší se dlouze)
   <!-- ExplanationEnd -->
-  <!--ID: 1728921215129-->
-  END
+<!--ID: 1728921215129-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké svědky mají **co-NP problémy**?
 
@@ -608,8 +674,9 @@ Na otázku "Pro všechny konfigurace platí, že ..."
 - Odpověď **ANO** - musím projít všechny konfigurace (řeší se dlouze)
 - Odpověď **NE** - stačí mi najít tu konfiguraci, co je protipříkladem (řeší se krátce)
   <!-- ExplanationEnd -->
-  <!--ID: 1728921215132-->
-  END
+<!--ID: 1728921215132-->
+
+END
 
 ---
 
@@ -617,6 +684,8 @@ Na otázku "Pro všechny konfigurace platí, že ..."
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah třídy **co-NP** a tříd **P** a **NP**? (popiš jak se protínají množiny na obrázku)
 
@@ -638,6 +707,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký problém je například zároveň ve **třídě NP** a zároveň v **co-NP**?
 
 Back:
@@ -654,6 +725,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah tříd $P$ a $\text{co-P}$?
 
@@ -675,6 +748,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je vztah tříd $P, NP, \text{co-NP}$?
 
 Back:
@@ -695,6 +770,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co platí, pokud $P = NP$ ?
 
 Back:
@@ -708,6 +785,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co platí, pokud $\text{co-NP} \implies NP$?
 
@@ -730,6 +809,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je problém $\text{QSAT}_2$?
 
 Back:
@@ -750,6 +831,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je $\text{QSAT}_k$?
 
 Back:
@@ -765,6 +848,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: třída **Polynomiální hierarchie**
 

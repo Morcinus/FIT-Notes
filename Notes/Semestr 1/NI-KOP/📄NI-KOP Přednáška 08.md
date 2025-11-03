@@ -7,8 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska08 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **řešení úniku lokálních optim** u simulovaného ochlazování? (2)
 
@@ -37,6 +40,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje řešení diverzifikace?
 
 Back:
@@ -56,6 +61,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou pokročilé heuristiky? (4)
 
@@ -88,6 +95,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje obecně principielně simulované ochlazování?
 
 Back:
@@ -112,6 +121,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje metoda `try()` pro simulované ochlazovaní?
 
@@ -142,6 +153,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak vypadá hlavní kostra algoritmu simulovaného ochlazování?
 
 Back:
@@ -166,6 +179,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co platí podle pana Hajka?
 
 Back:
@@ -184,6 +199,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je třeba vymyslet při nasazování simulovaného ochlazování?
 
 Back:
@@ -194,13 +211,16 @@ Rozvrh ochlazování:
 - `cool(T,...)`
 - `frozen(T,...)`
 - `equilibrium(...)`
-  <!--ID: 1735205749617-->
-  END
+<!--ID: 1735205749617-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je třeba udělat s hodnotou optimalizačního kritéria, aby se dalo pracovat s teplotou?
 
@@ -220,6 +240,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje funkce `cool()` v simulovaném ochlazování?
 
 Back:
@@ -236,6 +258,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje funkce `equilibrium()` v simulovaném ochlazování?
 
 Back:
@@ -251,6 +275,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak souvisí `cool()` a `equilibrium()`?
 
@@ -278,6 +304,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Podle jakých metrik se dynamicky nastavuje počáteční teplota? (2)
 
 Back:
@@ -301,6 +329,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak lze vypočítat počáteční teplotu ze sady akcí?
 
 Back:
@@ -315,6 +345,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy se zastaví simulované ochlazování? (3)
 
@@ -341,6 +373,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké vlastnosti má mít stavový prostor při simulovaném ochlazování?
 
 Back:
@@ -354,6 +388,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se nastavují omezující podmínky při simulovaném ochlazování?
 
@@ -369,6 +405,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou 2 možnosti počátečního řešení v simulovaném ochlazování?
 
 Back:
@@ -382,6 +420,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou white box a black box evaluations?
 

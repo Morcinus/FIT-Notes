@@ -11,6 +11,8 @@ FILE TAGS: NI-NUR prednaska02 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **informace**?
 
 (pozor, za to se vyhazuje u státnic, když člověk neví rozdíl mezi daty a informacemi :D)
@@ -22,16 +24,20 @@ Zpráva, která může být buď pravda nebo nepravda.
 Můžeme se na základě ní rozhodnout o něčem.
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251006130636.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1760708147838-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **data**?
 
@@ -42,34 +48,42 @@ Back:
 Zachycené zprávy
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251006130646.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1760708147841-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **databáze**?
 
 Back:
 
-Nějaký 
+Nějaký
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251006130959.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1760708147845-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Z čeho jsou postavené informační systémy?
 
@@ -81,13 +95,15 @@ Back:
 - Procedures (ten proces zachytávání dat)
 - Human - člověk co s daty pracuje
 <!--ID: 1760708147848-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **user mental model**?
 
@@ -96,16 +112,20 @@ Back:
 Vzorce chování a znalost, perspektivu.
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251006131515.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1760708147852-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak **vzniká mentální model člověka**?
 
@@ -113,13 +133,15 @@ Back:
 
 Dynamicky se vytváří člověku v průběhu let podle získaných znalostí a zkušeností.
 <!--ID: 1760708147855-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je pružnost mentálního modelu?
 
@@ -127,13 +149,15 @@ Back:
 
 Mentální model se dá v určitých cyklech měnit (cca do 22 let - pak už je fixní, stabilní, ale už se nebude měnit)
 <!--ID: 1760708147858-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Čím je ovlivňován mentální model?
 
@@ -144,13 +168,15 @@ Back:
 - prostředí, ve kterém vyrůstá
 - vzdělání, znalosti, které dostává atd.
 <!--ID: 1760708147862-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co vyplývá z pružnosti mentálního modelu?
 
@@ -160,13 +186,15 @@ Když v UI cílíme na mladé lidi (do 22 let cca), můžeme být víc "inovativ
 
 Např. **barevný schémata**, **layout komponentů** atd.
 <!--ID: 1760708147865-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké **činnosti zabírají energii**?
 
@@ -178,13 +206,15 @@ Back:
 
 Pozn. tohle platí pro negativní emoce. Naopak poitivní emoce je super vytvářet, protože nám potom uživatelé hodně odpustí
 <!--ID: 1760708147868-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co **vyplývá pro UI**?
 
@@ -192,7 +222,7 @@ Back:
 
 **Neměli** bychom se např. zaměřovat na "omezení kliků na obrazovce", ale mnohem důležitější je systém udělat **přehledně, pochopitelně**, aby se co nejvíce **redukovalo kognitivní zatížení**.
 <!--ID: 1760708147872-->
+
 END
 
 ---
-

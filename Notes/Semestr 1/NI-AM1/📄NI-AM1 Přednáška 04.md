@@ -6,10 +6,13 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska04 status-toReview
 
+
 ### Přístupy integrací
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 3 typy integrací?
 
@@ -34,6 +37,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **data-oriented integrace**?
 
@@ -79,6 +84,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **service-oriented integrace**?
 
 Back:
@@ -107,6 +114,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **real-time (web services)** integrace?
 
 Back:
@@ -126,6 +135,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Bulk data (ETL)** integrace?
 
@@ -153,6 +164,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Poskytuje SOA **web services** nebo **ETL** integraci?
 
 Back:
@@ -166,6 +179,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **integrační proces** a jakou klíčovou vlastnost má?
 
@@ -189,6 +204,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **rekonsiliační proces**?
 
 Back:
@@ -207,6 +224,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Enterprise Service Bus**?
 
 Back:
@@ -220,6 +239,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **integrační vzory** a co znamenají? (4)
 
@@ -246,6 +267,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **synchronní a asynchronní** integrace?
 
@@ -284,6 +307,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **DNAT**?
 
 Back:
@@ -301,6 +326,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **asynchronní komunikace přes prostředníka**?
 
@@ -328,14 +355,17 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou 2 režimy **asynchronní komunikace přes prostředníka**?
 
 Back:
 
 - **Message Queue** - jeden klient, jeden server
 - **Publish/Subscribe** - jeden klient, z queue čte více serverů _(každý např. zaměřený na určitý task)_
-  <!--ID: 1729236693138-->
-  END
+<!--ID: 1729236693138-->
+
+END
 
 ---
 
@@ -343,6 +373,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **asynchronní komunikace přes polling**?
 
@@ -377,6 +409,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je long polling?
 
 Back:
@@ -395,6 +429,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je rozdíl mezi SOA, Miscroservices a Kubernetes?
 
 Back:
@@ -403,13 +439,16 @@ Back:
   - Je to legacy (vznikli v roce 2005), už se toho lidi spíš zbavují
 - **Mikroslužby** - relativně nový, populární
 - **Kubernetes** - v tom běží (mimo jiné) mikroslužby
-  <!--ID: 1729236693163-->
-  END
+<!--ID: 1729236693163-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **The Scale Cube**?
 
@@ -423,7 +462,8 @@ Vyobrazení škálování:
 - **Osa Z** - **data partitioning**
   - mám několik oddělených databází (jedna má např. záznamy od A-J, druhá od J-Z), mám systém, co mi rozhazuje data do těch databází, čímž opět rozložím zátěž
 - **Osa Y** - **mikroservisy** - oddělím určitou funkci aplikace, čímž dělám "dekompozici funkcí"
-  <!--ID: 1729236693173-->
-  END
+<!--ID: 1729236693173-->
+
+END
 
 ---

@@ -7,8 +7,11 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska08 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak obecně funguje key-value data model?
 
@@ -24,19 +27,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké bývají klíče v key-value databázích?
 
 Back:
 
 - real-world identifikátory - email, login name atd.
 - automaticky generované - např. auto increment
-  <!--ID: 1735205749035-->
-  END
+<!--ID: 1735205749035-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je expirace key v key-value databázi?
 
@@ -52,6 +60,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je například key-value store?
 
 Back:
@@ -65,6 +75,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak vypadá data model key-value databáze?
 
@@ -86,6 +98,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je bucket type v key-value databázi?
 
 Back:
@@ -99,6 +113,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je bucket v key-value databázi?
 
@@ -114,6 +130,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je objekt v key-value databázi?
 
 Back:
@@ -128,6 +146,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co bývá u objektů uloženo v key-value databázi kromě key-value?
 
 Back:
@@ -141,6 +161,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 možnosti designu key-value databází?
 
@@ -165,6 +187,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Pomocí čeho se komunikuje s Riak databází?
 
 Back:
@@ -178,6 +202,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se používá v Riaku pro **create**?
 
@@ -199,6 +225,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co se používá v Riaku pro **update**?
 
 Back:
@@ -218,6 +246,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se používá v Riaku pro **read**?
 
@@ -239,6 +269,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co se používá v Riaku pro **delete**?
 
 Back:
@@ -258,6 +290,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá v Riaku getnout seznam dostupných bucketů?
 
@@ -279,6 +313,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se dá v Riaku getnout seznam dostupných keys?
 
 Back:
@@ -299,6 +335,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá v Riaku getnout/nastavit/smazat properties daného bucketu?
 
@@ -326,6 +364,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou bucket properties?
 
 Back:
@@ -350,6 +390,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký typ systému je Riak?
 
 Back:
@@ -364,6 +406,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou CRDT typy?
 
 Back:
@@ -371,13 +415,16 @@ Back:
 Convergent Replicated Data Types
 
 - Zavedeme datové typy a konkrétní povolené operace a v případě konfliktů jak se to má resolvenout
-  <!--ID: 1735205749082-->
-  END
+<!--ID: 1735205749082-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké CRDT typy implementuje Riak?
 
@@ -394,6 +441,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Counter** CRDT?
 
@@ -419,6 +468,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Set** CRDT?
 
 Back:
@@ -442,6 +493,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Map** v CRDT?
 
@@ -467,6 +520,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **register** v CRDT?
 
 Back:
@@ -491,6 +546,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **flag** v CRDT?
 
 Back:
@@ -514,6 +571,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak můžu accessnout datatype pro daný bucket?
 
@@ -543,6 +602,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je Search 2.0 v Riaku?
 
 Back:
@@ -556,6 +617,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Search 2.0?
 
@@ -579,6 +642,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou extractory v Riaku?
 
 Back:
@@ -600,6 +665,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje plain text extractor?
 
@@ -626,6 +693,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje inicializace indexu v Solr?
 
 Back:
@@ -648,6 +717,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá dotazovat nad Solr indexama?
 
@@ -678,6 +749,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak vypadá architektura Riak?
 
 Back:
@@ -697,6 +770,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Riak Ring?
 
@@ -729,6 +804,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je například databázový engine pro wide column databáze?
 
 Back:
@@ -743,6 +820,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je obecně pointa wide column databáze?
 
 Back:
@@ -756,6 +835,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je column family ve wide column databázi?
 
@@ -777,6 +858,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je row ve wide column databázi?
 
@@ -800,6 +883,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je column ve wide column databázi?
 
 Back:
@@ -822,6 +907,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak vypadá data model v Cassandře?
 
@@ -848,6 +935,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké mohou mít hodnoty columns ve wide column databázích?
 
 Back:
@@ -867,6 +956,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká metadata jsou např. u sloupečků?
 
@@ -890,6 +981,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou jazyky pro komunikaci s Cassandrou?
 
 Back:
@@ -905,6 +998,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak můžu vytvořit keyspace v Cassandře?
 
@@ -926,6 +1021,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak můžu vytvořit tabulku v Cassandře?
 
@@ -950,18 +1047,23 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké mohou být klíče v Cassandře?
 
 Back:
 
 - **Primární klíče** - **Partition key** - aspoň jeden sloupeček - **Clustering columns** -
-  <!--ID: 1735205749150-->
-  END
+<!--ID: 1735205749150-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Mohu v Cassandře dělat JOINy?
 
@@ -976,6 +1078,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 části primary keys v cassandře?
 
@@ -998,6 +1102,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se v Cassandře definuje list?
 
 Back:
@@ -1018,6 +1124,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se v Cassandře definují Tuples?
 
 Back:
@@ -1035,6 +1143,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se v Cassandře definují sety?
 
@@ -1056,6 +1166,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se v Cassandře definují maps?
 
 Back:
@@ -1075,6 +1187,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se píše v Cassandře select?
 
@@ -1107,6 +1221,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je TTL v Cassandře?
 
 Back:
@@ -1120,6 +1236,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se používá UPDATE v Cassandře?
 

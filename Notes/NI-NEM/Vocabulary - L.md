@@ -7,6 +7,7 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
 - die Lage,-n 3
 - die Lampe,-n 2
@@ -54,7 +55,7 @@ Back:
 die Lage,-n
 
 Tags: lesson3
-
+<!--ID: 1762187694604-->
 END
 
 ---
@@ -489,7 +490,7 @@ Back:
 Lottozahlen
 
 Tags: lesson0
-
+<!--ID: 1762187694608-->
 END
 
 ---

@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - oben 4
 - oder 1
 - offiziell 1
@@ -32,6 +34,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 nahoře
 
 Back:
@@ -40,12 +44,15 @@ oben
 
 Tags: lesson4
 <!--ID: 1758825179458-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nebo
 
@@ -55,12 +62,15 @@ oder
 
 Tags: lesson1
 <!--ID: 1758825179461-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 oficiální
 
@@ -70,12 +80,15 @@ offiziell
 
 Tags: lesson1
 <!--ID: 1758825179464-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 otevírací doba
 
@@ -85,12 +98,15 @@ die Öffnungszeit,-en
 
 Tags: lesson5
 <!--ID: 1758825179467-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 často
 
@@ -100,12 +116,15 @@ oft
 
 Tags: lesson5
 <!--ID: 1758825179469-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dobre; ok
 
@@ -115,12 +134,15 @@ okay
 
 Tags: lesson3
 <!--ID: 1758825179472-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ekonomický
 
@@ -130,12 +152,15 @@ Back:
 
 Tags: lesson3
 <!--ID: 1758825179475-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 online
 
@@ -145,12 +170,15 @@ online
 
 Tags: lesson6
 <!--ID: 1758825179477-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 opera
 
@@ -160,12 +188,15 @@ die Oper,-n
 
 Tags: lesson1
 <!--ID: 1758825179480-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pomerančový džus
 
@@ -175,12 +206,15 @@ der Orangensaft,-"e
 
 Tags: lesson1
 <!--ID: 1758825179484-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 orchestr
 
@@ -190,12 +224,15 @@ das Orchester,-
 
 Tags: lesson1
 <!--ID: 1758825179486-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 třídit; uspořádat
 
@@ -205,12 +242,15 @@ ordnen
 
 Tags: lesson3
 <!--ID: 1758825179489-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 řadová číslovka
 
@@ -220,12 +260,15 @@ die Ordnungszahl,-en
 
 Tags: lesson6
 <!--ID: 1758825179492-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 orientace
 
@@ -235,12 +278,15 @@ die Orientierung,-en
 
 Tags: lesson3
 <!--ID: 1758825179494-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 místo
 
@@ -250,12 +296,15 @@ der Ort,-e
 
 Tags: lesson3
 <!--ID: 1758825179497-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 východ
 
@@ -265,12 +314,15 @@ der Osten,-
 
 Tags: lesson3
 <!--ID: 1758825179500-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Velikonoční pondělí
 
@@ -280,12 +332,15 @@ der Ostermontag,-e
 
 Tags: lesson6
 <!--ID: 1758825179503-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pisátek (promítačka nad hlavou)
 
@@ -295,6 +350,7 @@ der Overheadprojektor,-en
 
 Tags: lesson2
 <!--ID: 1758825179506-->
+
 END
 
 ---

@@ -6,6 +6,7 @@ up: "[[📖NI-MPI)"
 
 ### Info
 
+
 Tady je seznam všech příkladů, co jsem vyhrabal na fitwiki.
 
 - Příklady s ✔️ mají ověřený výsledek

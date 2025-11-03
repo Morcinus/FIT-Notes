@@ -7,8 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska05 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou obecně **pseudopolynomiální algoritmy**?
 
@@ -30,6 +33,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje dekompozice problému batohu podle váhy? Jakou to má složitost?
 
 Back:
@@ -47,6 +52,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje dekompozice problému batohu podle ceny? Jakou to má složitost? Jakou má složitost?
 
@@ -71,6 +78,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **pseudopolynomiální algoritmus**
 
 Back:
@@ -86,6 +95,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou aproximativní algoritmy obecně?
 
@@ -109,6 +120,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **algoritmus APR má relativní kvalitu $R$**
 
 Back:
@@ -131,6 +144,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **algoritmus APR má relativní chybu $\varepsilon$**
 
 Back:
@@ -152,6 +167,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah relativní kvality a relativní chyby APR algoritmu?
 
@@ -184,6 +201,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: APR je $R$-aproximativní
 
 Back:
@@ -198,6 +217,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Optimalizační problém je $R$-aproximativní
 
 Back:
@@ -211,6 +232,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Optimalizační problém patří do třídy APX
 
@@ -235,6 +258,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Polynomiální aproximační schéma** problému
 
 Back:
@@ -255,6 +280,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Problém patří do třídy **PTAS**
 
 Back:
@@ -268,6 +295,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **plně polynomiální aproximační schéma**
 
@@ -289,6 +318,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Problém patří do třídy **FPTAS**
 
@@ -312,6 +343,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je APX redukce?
 
 Back:
@@ -332,6 +365,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakou vlastnost má **APX redukce**?
 
 Back:
@@ -346,6 +381,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se značí **APX redukce**?
 
 Back:
@@ -359,6 +396,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co platí pro **APX redukci**?
 
@@ -376,6 +415,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co platí pro **APX redukci**?
 ![](../../../Assets/Pasted%20image%2020241024131536.png)
 
@@ -391,6 +432,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Problém je $\Pi$ je **NPO-těžký**
 
 Back:
@@ -404,6 +447,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Problém je $\Pi$ je **NPO-úplný**
 
@@ -425,6 +470,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Problém je $\Pi$ je **APX-těžký**
 
 Back:
@@ -438,6 +485,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Problém je $\Pi$ je **APX-úplný**
 
@@ -466,6 +515,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je vztah APX redukce a Turingovy redukce?
 
 Back:
@@ -486,6 +537,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak jsou v sobě množinově třídy
 $PO, NPH, APX, NPO, PTAS, FPTAS, NPO-úplný, APX-úplný$?
 
@@ -503,6 +556,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Do jaké třídy patří problém **min. uzlové pokrytí**?
 
 Back:
@@ -516,6 +571,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Do jaké třídy patří problém **min. (unátní) pokrytí množiny S**?
 
@@ -531,6 +588,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Do jaké třídy patří problém **MAX SAT**?
 
 Back:
@@ -544,6 +603,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Do jaké třídy patří problém **MAX WEIGHTED SAT**?
 
@@ -559,6 +620,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Do jaké třídy patří problém **BATOH**?
 
 Back:
@@ -572,6 +635,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Do jaké třídy patří problém **TSO**? (obchodní cestující)
 
@@ -587,6 +652,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Do jaké třídy patří problém **$\Delta$ TSO**? (metrický TSO)
 
 Back:
@@ -601,6 +668,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Do jaké třídy patří problém **Geometrický TSO** s **celočíselnými** souřadnicemi?
 
 Back:
@@ -614,6 +683,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Do jaké třídy patří problém **Geometrický TSO** s **racionálními** souřadnicemi?
 

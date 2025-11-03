@@ -6,6 +6,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni03 status-toReview
 
+
 ### Parametry gsat2
 
 - `-i` - MAX_FLIPS
@@ -29,6 +30,8 @@ Na standardní výstup se vypíše konečná konfigurace ve [standardním form�
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 U 3SATu, jakotože to velice rychle najde řešení?
 

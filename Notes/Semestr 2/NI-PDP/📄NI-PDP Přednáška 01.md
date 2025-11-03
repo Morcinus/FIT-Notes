@@ -11,6 +11,8 @@ FILE TAGS: NI-PDP prednaska01 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Paralelní počítač**
 
 Back:
@@ -19,13 +21,15 @@ Back:
 
 Tags: otazka01
 <!--ID: 1746599653300-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou části hierarchie výpočetního paralelismu? (7)
 
@@ -34,12 +38,14 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250217162814.png)
 
 <!-- ExplanationStart -->
+
 - **SMP** - několik procesorů, co fyzicky sdílejí paměť
 - **Klastr** - propojení několika SMP serverů
 - **Paralelní superpočítače** - je jich fakt málo na světě
 <!-- ExplanationEnd -->
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217163355.png)
 
 Fun fact: 30 let se výkon počítačů zvyšuje exponenciálně
@@ -47,19 +53,22 @@ Fun fact: 30 let se výkon počítačů zvyšuje exponenciálně
 
 K čemu jsou dobré superpočítače? Např. na předpovědi počasí.
 ![](../../../Assets/Pasted%20image%2020250217163837.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653307-->
+
 END
 
 ---
 
 ### Modely paralelních systémů
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 4 modely paralelních systémů?
 
@@ -71,24 +80,29 @@ Back:
 - **Programovací modely** - sémantika jazyků, model přístupu do paměti
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217164134.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653315-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **SIMD**?
 
 Back:
 
 **Single Instruction Multiple Data**
+
 - Máme několik výpočetních uzlů, ty mají **lokální paměť dat** a mikro řadič
 - **Centrální řadič** rozesílá instrukce do jednotlivých uzlů, uzly je buď provedou nebo ignorují
 - Uzly přijímají **synchronně** proud instrukcí
@@ -98,20 +112,22 @@ Back:
 
 Tags: otazka01
 <!--ID: 1746599653322-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **MIMD**?
 
 Back:
 
-
 **Multiple Instruction Multiple Data**
+
 - Máme několik výpočetních uzlů, které mají vlastní **lokální paměť programů**, **lokální paměť dat** a **vlastní řadič**
 - Dále mají **sdílenou paměť**
 - Výpočty se provádí **asynchronně**
@@ -123,11 +139,14 @@ Je pak potřeba mít něco, co tyto uzly řídí.
 MIMD používá hodně věcí - vícejádrové procesory, SMP uzly, klastry atd.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217164500.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653329-->
+
 END
 
 ---
@@ -139,24 +158,29 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou možnosti organizace paměti? (3)
 
 Back:
 
 - **Sdílená paměť** - jeden procesor něco zapíše, druhý si to přečte
-	- Výhoda: jednoduché na programování
+  - Výhoda: jednoduché na programování
 - **Distribuovaná paměť** - každé zařízení má vlastní paměť, může přistupovat jen do své
-	- Výhoda: unlimited škálování
-	- Nevýhoda: výrazně složitější na programování
+  - Výhoda: unlimited škálování
+  - Nevýhoda: výrazně složitější na programování
 - **virtuálně sdílená paměť** - paměť je fyzicky distribuovaná, ale procesor ji vidí jako že má k dispozici sdílenou paměť
-	- Hardware "zamaskuje" to, že je to distribuovaná paměť 
+  - Hardware "zamaskuje" to, že je to distribuovaná paměť
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217164723.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653335-->
+
 END
 
 ---
@@ -166,7 +190,9 @@ END
 START
 FIT-Card
 
-Jaké jsou 3 typy **propojovacích sítí** u architektury se **sdílenou pamětí**? 
+(FIT-Notes flashcard)
+
+Jaké jsou 3 typy **propojovacích sítí** u architektury se **sdílenou pamětí**?
 
 Back:
 
@@ -175,21 +201,24 @@ Back:
 - **nepřímá vícestupňová propojovací síť**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217165208.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653348-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Jaké jsou 4 typy **propojovacích sítí** u architektury s **distribuovanou pamětí**? 
+(FIT-Notes flashcard)
 
+Jaké jsou 4 typy **propojovacích sítí** u architektury s **distribuovanou pamětí**?
 
 Back:
 
@@ -197,6 +226,7 @@ Back:
 
 Tags: otazka01
 <!--ID: 1746599653355-->
+
 END
 
 ---
@@ -205,6 +235,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **PRAM**?
 
@@ -218,52 +250,61 @@ Co je **PRAM**?
 Back:
 
 **Parallel Random Access Machine**
+
 - Je to **výpočetní model**
 - Máme **množinu procesorů** $P$, každý má **lokální paměť**
 - Máme pole **sdílených paměťových buňek** $M$
 - Každý $P_i$ může přistupovat do libovolné buňky v $O(1)$
 
 **Vstup**:
+
 - $n$ položek v prvních $n$ buňkách sdílené paměti
 
 **Výstup**:
+
 - $n'$ položek v $n'$ buňkách sdílené paměti
 
 Instrukce se provádí **synchronně**.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217165648.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653362-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **3 základní instrukce** v PRAMu?
 
 Back:
 
 - `READ` - **čtení** - čtou ze sdílené paměti
-- `WRITE` - **zápis** - zapisují do sdílené paměti 
+- `WRITE` - **zápis** - zapisují do sdílené paměti
 - `LOCAL` - **lokální operace** - jakákoliv lokální operace
 
 (nebo ten stroj nedělá nic)
 
 Tags: otazka01
 <!--ID: 1746599653370-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak dlouho trvají `READ`, `WRITE` a `LOCAL` u PRAMu?
 
@@ -277,38 +318,44 @@ Back:
 
 Tags: otazka01
 <!--ID: 1749116284300-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou způsoby řešení časově závislých chyb u PRAMu? (3)
 
 Back:
 
 - **EREW-PRAM** - Exclusive Read, Exclusive Write
-	- Žádné 2 procesory nesmí číst nebo psát do dané buňky současně
+  - Žádné 2 procesory nesmí číst nebo psát do dané buňky současně
 - **CREW-PRAM** - Concurrent Read, Exclusive Write
-	- Procesory můžou současně číst buňku, ale zapisovat může jen jeden
+  - Procesory můžou současně číst buňku, ale zapisovat může jen jeden
 - **CRCW-PRAM** - Concurrent Read, Concurrent Write
-	- Procesory můžou číst i zapisovat do buňek současně
+  - Procesory můžou číst i zapisovat do buňek současně
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217170014.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653378-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakými způsoby se u **CRCW-PRAM** rozhoduje, který procesor může přistoupit k paměti?
 
@@ -319,18 +366,22 @@ Back:
 - **Common-CRCW-PRAM** - všem procesorům je dovoleno dokončit zápis, když jsou všechny zapisované hodnoty stejné. Každý algoritmus pak musí dodržet tuto podmínku (jinak je výsledek nedefinovaný).
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217170024.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka01
 <!--ID: 1746599653384-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **asynchronní PRAM** (APRAM)?
 
@@ -346,23 +397,28 @@ Back:
 - Je nutná explicitní **bariérová synchronizace**
 
 Globální fáze:
+
 - APRAM výpočet je rozdělen do **globálních fází**
 - V každé **fázi** procesory pracují **asynchronně** a synchronizují se **bariérovou synchronizací**
 - V jedné globální fázi nemůže do buňky pristoupit více procesorů, když do ní jeden z nich zapisuje
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217170251.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka02
 <!--ID: 1746599653391-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **časové složitosti** oprací u **APRAM**?
 
@@ -381,31 +437,37 @@ Back:
 $p$ jsou neklesající funkce, co se provádí
 
 <!-- DetailInfoStart -->
+
 Bariéra je docela drahá.
 ![](../../../Assets/Pasted%20image%2020250217170833.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka02
 <!--ID: 1746599653399-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 možnosti implementace bariéry u APRAMu?
 
 Back:
 
 **Centrální čítač**
+
 1. Nastaví se na $0$
 2. Každý proces inkementuje o $1$ a deaktivuje se
 3. Pokud je $\text{čítač} \geq p$, nastaví bariéru do odchozí fáze a aktivuje procesy
 4. Poslední aktivovaý proces nastaví bariéru do příchozí fáze
 
 **Binární redukční strom**
+
 1. Proces narazí na bariéru a čeká, dokud skončí redukce jeho podstromu
 2. Po dokončení redukce pošle signál rodiči.
 3. Když kořen dostane signál z obou podstromů, přepne bariéru do odchozí fáze.
@@ -415,17 +477,19 @@ Back:
 
 Tags: otazka02
 <!--ID: 1746599653405-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Jakou časovou složitost mají tyto implementace bariéry u **APRAM**u? 
+(FIT-Notes flashcard)
 
-- centrální čítač 
+Jakou časovou složitost mají tyto implementace bariéry u **APRAM**u?
+
+- centrální čítač
 - binární redukční strom
 
 Back:
@@ -438,6 +502,7 @@ $d$ - globální časová délka R/W operace
 
 Tags: otazka02
 <!--ID: 1749119646835-->
+
 END
 
 ---
@@ -447,6 +512,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou 3 typy **paralelních programovacích modelů**?
 
 Back:
@@ -455,33 +522,39 @@ Back:
 - **Task paralelismus** (funkční paralelismus) - např. rekurze
 - **Paralelní programovací šablony**
 <!--ID: 1746599653412-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co je programovací model: **datový/iterační paralelismus**? 
+(FIT-Notes flashcard)
+
+Co je programovací model: **datový/iterační paralelismus**?
 
 Back:
 
 Datově nezávislé iterace cyklu se provádí paralelně jednotlivými procesory.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217171003.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653419-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je programovací model: **funkční paralelismus**? Jak si procesory získávají úlohy?
 
@@ -491,18 +564,22 @@ Back:
 - **task pool** - zásobárna úloh, ze které si je procesory berou a vykonávají je
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217171134.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653427-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou různé **paralelní programovací šablony**? (6)
 
@@ -516,20 +593,26 @@ Back:
 - **Single Program Multiple Data** (SPMD) - nejběžnější, vlákna provádějí asynchronně tentýž statický kód - tohle je **OpenMP a MPI**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217171303.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653434-->
+
 END
 
 ---
 
 ### Měřítka složitosti sekvenčních algoritmů
+
 = něco jako teorie složitosti paralelních výpočtů
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy časových složitostí u sekvenčních algoritmů? Kdy je sekvenční algoritmus optimální?
 
@@ -537,28 +620,34 @@ Back:
 
 - $T_A^K(n)$ - časová složitost sekvenčního algoritmu $A$ pro řešení problému $K$
 - $SL^K(n)$ - spodní mez sekvenční časové složitosti (tzn. nejhorší časová složitost **nejlepšího možného** sekvenčního algoritmu)
-- $SU^K(n)$ - horní mez sekvenční časové složitosti (tzn. nehorší časová složitost **nejrychlejšího existujícího** sekvenčního algoritmu) 
+- $SU^K(n)$ - horní mez sekvenční časové složitosti (tzn. nehorší časová složitost **nejrychlejšího existujícího** sekvenčního algoritmu)
 
 Optimální když:
 ![](../../../Assets/Pasted%20image%2020250605133159.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217171916.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217171948.png)
+
 <!-- ExampleEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653441-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Paralelní časová složitost**
 
@@ -570,22 +659,28 @@ $n$ je velikost vstupních dat
 $p$ je počet procesorů, nebo jader, nebo vláken (podle toho co zrovna řeším)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217172323.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217172552.png)
+
 <!-- ExampleEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653449-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočítá $T(n,p)$?
 
@@ -595,15 +690,18 @@ Sečtou se **výpočetní** kroky a **komunikační** kroky.
 
 Tags: otazka03
 <!--ID: 1746599653456-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Paralelní cena**
+
 - K čemu to je užitečné
 
 Back:
@@ -613,27 +711,34 @@ Back:
 Pozn. to $\times$ je normální násobení
 
 K čemu to je:
-- Když spustím paralelní výpočet, tak se vytvoří $p$ vláken, která se používají od začátku do konce, i když jsou _idle_. 
-- Proto je např. vhodné aby se všechny procesory/vlákna vytěžovala podobně, abych tím snížil celkovou cenu. 
+
+- Když spustím paralelní výpočet, tak se vytvoří $p$ vláken, která se používají od začátku do konce, i když jsou _idle_.
+- Proto je např. vhodné aby se všechny procesory/vlákna vytěžovala podobně, abych tím snížil celkovou cenu.
 - Např. na superpočítači platím za počet procesorů a je jim jedno jak efektivně to využívám.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217172623.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 Doba, jak dlouho jsem využíval všechny procesory. Například když mi někdo poskytne část superpočítače, tak ho bude zajímat, kolik procesorů jsem jak dlouho využíval. Je mu ale jedno, co jsem tam dělal a jak moc jsem je využíval.
+
 <!-- ExampleEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653464-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: čemu je rovno $C(n,p)$
 
@@ -644,18 +749,22 @@ Back:
 $\Omega$ je dolní časová složitost
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217172714.png)
+
 <!-- ProofEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653470-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Cenová optimalita** (aneb kdy je **cena** paralelního algoritmu optimální)
 
@@ -664,18 +773,22 @@ Back:
 $C(n,p) = O(SU(n)) = \Theta(SU(n))$
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173209.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653479-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Paralelní zrychlení
 
@@ -687,13 +800,15 @@ Back:
 
 Tags: otazka03
 <!--ID: 1746599653488-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: velikost/omezení $S(n,p)$
 
@@ -704,20 +819,24 @@ $S(n,p) \leq p$ nebo $S(n,p) = O(p)$
 ![](../../../Assets/Pasted%20image%2020250217173245.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173257.png)
+
 <!-- ProofEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653497-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co mi říká to, když: 
+(FIT-Notes flashcard)
+
+Co mi říká to, když:
 
 - $S(n,p) < 1$
 - $S(n,p) = 1$
@@ -737,13 +856,15 @@ Back:
 
 Tags: otazka03
 <!--ID: 1749125141109-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **lineární paralelní zrychlení**
 
@@ -754,17 +875,22 @@ $S(n,p) = \Theta (p)$
 ![](../../../Assets/Pasted%20image%2020250217173319.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173326.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653504-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **superlineární zrychlení**? Kdy to může nastat? (2)
 
@@ -773,6 +899,7 @@ Back:
 Když $S(n,p) > p$
 
 **Jak toho dosáhnout**
+
 - Sekvenční algoritmus nemá dost paměti na 1-procesorovém systému a souhrnná paměť paralelního systému je dostatečná
 - Anomálie při prohledávání stavového prostoru
 
@@ -780,15 +907,18 @@ Když $S(n,p) > p$
 
 Tags: otazka03
 <!--ID: 1746599653510-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Spodní mez na paralelní čas**
+
 - co to znamená vlastními slovy
 
 Back:
@@ -798,18 +928,22 @@ Back:
 Vyjadřuje **teoreticky nejlepší možný čas**, kterého by šlo dosáhnout, pokud by práce šla **dokonale rovnoměrně** rozdělit mezi $p$ procesorů **bez jakékoli režie** (žádná komunikace, synchronizace, čekání…).
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173442.png)
+
 <!-- ExampleEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653517-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Paralelní efektivnost**
 
@@ -825,18 +959,22 @@ Back:
 $1$ =100% vyžíženy po celou dobu
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173601.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653524-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: zrychlení na jádro
 
@@ -845,18 +983,22 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250217173537.png)
 
 <!-- ProofStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173547.png)
+
 <!-- ProofEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653531-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **konstantní efektivnost**
 
@@ -866,13 +1008,15 @@ Back:
 
 Tags: otazka03
 <!--ID: 1746599653538-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Paralelní optimalita výkonnosti** (čemu jsou rovny 3 věci)
 
@@ -881,21 +1025,25 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250217173813.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217173845.png)
 ![](../../../Assets/Pasted%20image%2020250217173857.png)
 ![](../../../Assets/Pasted%20image%2020250217173909.png)
 ![](../../../Assets/Pasted%20image%2020250217174046.png)
+
 <!-- ExampleEnd -->
 
 Tags: otazka03
 <!--ID: 1746599653545-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Paralelní škálovatelnost** (kdy je algoritmus škálovatelný)
 
@@ -904,18 +1052,22 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250217174325.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217174340.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka04
 <!--ID: 1746599653551-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Z jakých podílů se skládá každý **sekvenční algoritmus**? (2)
 
@@ -924,21 +1076,24 @@ Z jakých podílů se skládá každý **sekvenční algoritmus**? (2)
 Back:
 
 - **inherentně sekvenční podíl** $f(s) \in (0,1)$ - může provést pouze jedno vlákno
-	- trvá $t_\text{seq}$ času
+  - trvá $t_\text{seq}$ času
 - **paralelizovatelný podíl** $1-f(s)$
-	- trvá $t_\text{par}$ času
+  - trvá $t_\text{par}$ času
 
 Tags: otazka04
 <!--ID: 1749127163112-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Amdahlův zákon**
+
 - vzoreček
 - co nám jinými slovy říká?
 
@@ -948,23 +1103,29 @@ Nechť je algoritmus $A$ paralelizován pro pevné $n$ pomocí $p > 1$ vláken. 
 $$S(n,p) = \frac{T_A(n)}{f_s \cdot T_A(n) + \frac{1-f_s}{p}{T_A(n)}} = \frac{1}{f_s + \frac{1-f_s}{p}} \leq \frac{1}{f_s}$$
 
 Neboli říká:
+
 - Pro problém fixní velikosti má omezené množství paralelismu - tzn. od určitého počtu procesorů to už nezrychlíme přidáváním dalších
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217174435.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka04
 <!--ID: 1746599653558-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Gustafsonův zákon**
+
 - vzoreček
 - co nám říká
 
@@ -973,22 +1134,27 @@ Back:
 $$S(n,p) = \frac{t_\text{seq} + t_\text{par}(n,1)}{t_\text{seq} + t_\text{par}(n,p)}$$
 
 **Co nám říká**:
+
 - s rostoucím $p$ máme úměrně navyšovat i velikost problému $n$
 - Tzn. sekvenční část potrvá vždy $t_\text{seq}$ a paralelní $t_\text{par}(n,p)$ se bude lineárně škálovat s $p$ v čase.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217174519.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka04
 <!--ID: 1746599653564-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **silná škálovatelnost** a **slabá škálovatelnost**
 Back:
@@ -997,18 +1163,22 @@ Back:
 - **Slabá škálovatelnost** = jak se mění paralelní čas s $p$ pro fixní $n/p$
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217174616.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka04
 <!--ID: 1746599653571-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Izoefektivní funkce**
 
@@ -1020,19 +1190,24 @@ Izoefektivní funkce ti říká, **jak musí růst problém (nebo jak může rů
 ![](../../../Assets/Pasted%20image%2020250217174635.png)
 
 Jinými slovy:
+
 1. $\psi_1$ říká, jaké má být nejméně $n$ (velikost instance), aby pro daný počet procesorů $p$ efektivita neklesla pod $E_0$
 2. $\psi_2$ říká, kolik maximálně můžeme mít procesorů $p$ pro danou velikost instance $n$ tak aby nám efektivita neklesla.
 
 Jinými slovy:
+
 1. Pokud problém roste s $n = \Omega(\psi_1(p))$, pak efektivnost neklesne pod $E_0$
 2. Pokud počet procesorů nepřeroste $p = \omega(\psi_2(n))$, pak efektivnost neklesne pod $E_0$
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250217174642.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka04
 <!--ID: 1746599653579-->
+
 END
 
 ---

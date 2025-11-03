@@ -7,10 +7,13 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska06 status-toReview
 
+
 ### Základní pojmy
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **globální metody**
 
@@ -32,6 +35,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: řešení **hrubou silou**
 
 Back:
@@ -51,6 +56,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **princip lokálních metod** (hladový algoritmus)
 
@@ -75,6 +82,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **stav** systému/algoritmu? (obecně)
 
@@ -102,6 +111,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **stav** algoritmu
 
 Back:
@@ -118,6 +129,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **operátory a stavový prostor**
 
 Back:
@@ -131,6 +144,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Akce** ve stavovém prostoru
 
@@ -146,6 +161,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **graf stavového prostoru algoritmu**
 
 Back:
@@ -159,6 +176,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **okolí stavu**
 
@@ -174,6 +193,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **$k$-okolí stavu**
 
 Back:
@@ -188,6 +209,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **sousední stavy (sousedé)**
 
 Back:
@@ -201,6 +224,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **inverzní operátor**?
 
@@ -221,6 +246,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké 2 základní vlastnosti může mít stavový prostor?
 
@@ -243,6 +270,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Vzdálenost uzlu $s_2$ od $s_1$**
 
 Back:
@@ -256,6 +285,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **dostupný** graf?
 
@@ -277,6 +308,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **symetrický** graf?
 
 Back:
@@ -292,6 +325,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **relaxace stavu**?
 
@@ -335,6 +370,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **penalizace stavu**?
 
 Back:
@@ -356,6 +393,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je vztah **stavového prostoru** a **prostoru prohledávání**?
 
@@ -386,6 +425,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Z čeho se skládá pohyb ve stavovém prostoru?
 
 Back:
@@ -393,13 +434,16 @@ Back:
 - **Aktuální stav** - konfigurace příslušející aktuálnímu stavu
 - **Transformace** aktuálního stavu pomocí operátorů
 - **Strategie prohledávání** - to jaké transformace aplikuju (např. v jakém pořadí)
-  <!--ID: 1730978213109-->
-  END
+<!--ID: 1730978213109-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **úplná strategie**
 
@@ -421,6 +465,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Systematické strategie**
 
 Back:
@@ -434,6 +480,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **úplný algoritmus**?
 
@@ -454,6 +502,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **systematická strategie**?
 
@@ -479,14 +529,17 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakou výhodu a nevýhodu mají **systematické strategie**?
 
 Back:
 
 - **Výhoda**: Naleznou **optimální řešení**, existuje-li
 - **Nevýhoda**: Bez prořezávání má v nejhorším případě složitost rovnou **hrubé síle**
-  <!--ID: 1730978213126-->
-  END
+<!--ID: 1730978213126-->
+
+END
 
 ---
 
@@ -494,6 +547,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **lokální heuristika** v **systematické strategii**?
 
@@ -511,6 +566,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **best only** lokální heurisitika u **systematické strategie**?
 
@@ -534,19 +591,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Záleží u **first improvement** a **best only** lokální heuristiky na pořadí procházení sousedů? Ovlivní to výsledek
 
 Back:
 
 - U **best only** na tom nezáleží, neovlivní to výsledek (pokud nejlepších stavů není více!)
 - U **first improvement** na tom záleží, ovlivní to výsledek (-> je to víc randomizovaný)
-  <!--ID: 1731175818734-->
-  END
+<!--ID: 1731175818734-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **first improvement** lokální heurisitika u **systematické strategie**?
 
@@ -564,6 +626,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je nevýhoda **first improvement** lokální heuristiky?
 
 Back:
@@ -579,6 +643,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak bych měl správně navrhovat heuristiky a stavové prostory?
 
@@ -600,6 +666,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je "okolí heuristik Kerninghan-Lin"?
 
@@ -623,6 +691,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **backtracking v prohledávacím prostoru**?
 
 Back:
@@ -637,19 +707,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Z čeho se skládá krok prohledávání v prohledávacím prostoru?
 
 Back:
 
 1. vyber **proměnnou**
 2. vyber **hodnotu** proměnné
-   <!--ID: 1730978213605-->
-   END
+<!--ID: 1730978213605-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na co se vztahuje **prořezávání** v prohledávacím prostoru?
 
@@ -664,6 +739,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **prořezávání** v **prohledávacím prostoru**?
 
@@ -688,6 +765,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **problém zlomkového batohu**?
 
 Back:
@@ -709,6 +788,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **prohledávání** v prohledávacím prostoru **problému zlomkového batohu**?
 
@@ -737,6 +818,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje obecně **prořezávání stavového prostoru**?
 

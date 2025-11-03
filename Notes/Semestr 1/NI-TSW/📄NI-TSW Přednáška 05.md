@@ -7,10 +7,13 @@ up: "[[📖NI-TSW]]"
 TARGET DECK: archive
 FILE TAGS: NI-TSW prednaska05 status-toReview
 
+
 ### Scrum
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je max délka sprintu ve Scrumu?
 
@@ -25,6 +28,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou fáze sprintu?
 
@@ -52,6 +57,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak často se dělá standup meeting?
 
 Back:
@@ -74,19 +81,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak dlouho by měl trvat Standup (Daily Scrum).
 
 Back:
 
 - Každý by měl mít slovo tak 2 min max
 - Celkem by meeting měl trvat třeba 15m max
-  <!--ID: 1735205748810-->
-  END
+<!--ID: 1735205748810-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co má každý říct při scrum standupu?
 
@@ -101,6 +113,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy by se měl řešit problém, pokud ho někdo nahlásí v Standupu?
 
@@ -119,6 +133,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi chybou a změnou?
 
@@ -147,6 +163,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Je agilita rychlejší než waterfall?
 
 Back:
@@ -160,6 +178,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč se změny dělají lépe když nemám fixed time, fixed price?
 
@@ -177,6 +197,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou fáze řízení změn?
 
 Back:
@@ -184,13 +206,16 @@ Back:
 1. **Identifikace změny**
 2. **Implementace schválené změny**
 3. **Ukončení**
-   <!--ID: 1735205748826-->
-   END
+<!--ID: 1735205748826-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je klíčové mít k dobrému řízení změn?
 
@@ -213,6 +238,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakou rezervu by si člověk měl dávat při ohodnocování projektu?
 
 Back:
@@ -226,13 +253,16 @@ Tím pokryju ty věci jako:
 - spálený čas tím že se dohaduju o změnách, které pak nejsou implementované
 - spálený čas tím, že dělám nabídky, které nejsou přijmuty
   <!-- ExplanationEnd -->
-  <!--ID: 1735205748832-->
-  END
+<!--ID: 1735205748832-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je ITIL?
 
@@ -242,13 +272,16 @@ Information Technology Infrastructure Library
 
 - veřejně dostupný standard
 - informace a best practices o tom, jak správně řídit služby a operation, change management, stategy management atd.
-  <!--ID: 1735205748834-->
-  END
+<!--ID: 1735205748834-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou nejčastější chyby při řízení změn?
 
@@ -258,13 +291,16 @@ Back:
 - Změny jsou analyzovány a plánovány bez účasti pracovníků, kteří budou změny zavádět - měl by o tom vědět ten tým hned na začátku. Ne až po domluvě se zákazníkem
 - O změně nejsou včas informováni lidé pracující na projektu
 - Změna není schválena odpovědným orgánem (projektový manažer změnu nepředloží ke schválení)
-  <!--ID: 1735205748837-->
-  END
+<!--ID: 1735205748837-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi **vývojem**, **rozvojem** a **provozem**?
 
@@ -295,19 +331,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je klíčové pro dobrý quality assurance (řízení kvality)?
 
 Back:
 
 - dobře sepsané cíle projektu
 - dobře udělaná analýza
-  <!--ID: 1735205748842-->
-  END
+<!--ID: 1735205748842-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je třeba řešit v quality assurance?
 
@@ -315,13 +356,16 @@ Back:
 
 - kvalita procesů projektu
 - kvalita produktu projektu - u každé story by měly být sepsaný akceptační kritéria - díky tomu vím, co přesně musím splnit - např. prostě zadání z use casu
-  <!--ID: 1735205748844-->
-  END
+<!--ID: 1735205748844-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Podle čeho je specifikována kvalita?
 
@@ -336,6 +380,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Čeho je zkratka TQM?
 
@@ -360,6 +406,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Je TQM v rámci projektu nebo firmy?
 
 Back:
@@ -374,6 +422,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou nástroje pro řízení kvality? (3)
 
 Back:
@@ -386,13 +436,16 @@ Back:
 - **Zajištění kvality**
   - Koordinace postupů podle plánu řízení kvality
 - **Kontrola kvality** - Inspekce, měření a audity kvality
-  <!--ID: 1735205748855-->
-  END
+<!--ID: 1735205748855-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou základní koncepty managementu kvality?
 
@@ -405,13 +458,16 @@ Back:
 - **Kontrola kvality** - monitorování, identifikace problémů, zvýšení efektivnosti procesů atd.
 - **Audit kvality** - nezávislé ověření kvality, např aby člověk splňoval certifikace, chodí na to kontroly
 - **Programový plán kvality tvořen manažerem projektu**
-  <!--ID: 1735205748857-->
-  END
+<!--ID: 1735205748857-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi quality assurance a quality control?
 
@@ -428,6 +484,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Podle čeho se řídí kvalita?
 
@@ -448,6 +506,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je součástí testování?
 
@@ -471,6 +531,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou klasifikace chyb?
 
 Back:
@@ -492,6 +554,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je monkey testing? Co se s tím dělá špatně?
 
 Back:
@@ -508,6 +572,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou nejčastější chyby při testování?
 
 Back:
@@ -521,6 +587,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy testovat automatizovaně?
 
@@ -536,6 +604,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **systém testovacích nápadů**?
 
 Back:
@@ -545,7 +615,8 @@ Back:
 - dokument, do kterého si testeří píšou svoje návrhy na testy, které by stálo za to udělat
 - Testovací nápady jsou rozdělené do kategorií
 - Testeři tak mají velký pool nápadů, kam můžou psát nápady na věci, co je třeba u každého use casu otestovat (např. dělení nulou atd.)
-  <!--ID: 1735205748879-->
-  END
+<!--ID: 1735205748879-->
+
+END
 
 ---

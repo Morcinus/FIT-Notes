@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - der Kaffee,-s 1
 - der Kalender,- 6
 - kalt, kälter, am kältesten 6
@@ -78,6 +80,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 káva
 
 Back:
@@ -86,12 +90,15 @@ der Kaffee,-s
 
 Tags: lesson1
 <!--ID: 1758825179860-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kalendář
 
@@ -101,12 +108,15 @@ der Kalender,-
 
 Tags: lesson6
 <!--ID: 1758825179863-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 studený, studenější, nejstudenější
 
@@ -116,12 +126,15 @@ kalt, kälter, am kältesten
 
 Tags: lesson6
 <!--ID: 1758825179866-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kantýna; jídelna
 
@@ -131,12 +144,15 @@ die Kantine,-n
 
 Tags: lesson6
 <!--ID: 1758825179868-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kantor (sbormistr)
 
@@ -146,12 +162,15 @@ der Kantor,-en
 
 Tags: lesson6
 <!--ID: 1758825179871-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rozbitý; rozbitě
 
@@ -161,12 +180,15 @@ kaputt
 
 Tags: lesson5
 <!--ID: 1758825179874-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 karaoke
 
@@ -176,12 +198,15 @@ das Karaoke,-s
 
 Tags: lesson1
 <!--ID: 1758825179877-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Velký pátek
 
@@ -191,12 +216,15 @@ der Karfreitag,-e
 
 Tags: lesson6
 <!--ID: 1758825179880-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 karta; mapa; menu
 
@@ -206,12 +234,15 @@ die Karte,-n
 
 Tags: lesson3
 <!--ID: 1758825179882-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 bedna; truhla
 
@@ -221,12 +252,15 @@ der Kasten,-"
 
 Tags: lesson1
 <!--ID: 1758825179885-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 žádný, žádné, žádná
 
@@ -236,12 +270,15 @@ kein, kein, keine
 
 Tags: lesson2
 <!--ID: 1758825179888-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Nemám tušení!
 
@@ -251,12 +288,15 @@ Keine Ahnung!
 
 Tags: lesson2
 <!--ID: 1758825179890-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 znát
 
@@ -266,12 +306,15 @@ kennen
 
 Tags: lesson1
 <!--ID: 1758825179893-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 seznámit se (s kým/čím)
 
@@ -281,12 +324,15 @@ kennen lernen (jdn/etw)
 
 Tags: lesson1
 <!--ID: 1758825179895-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dítě
 
@@ -296,12 +342,15 @@ das Kind,-er
 
 Tags: lesson2
 <!--ID: 1758825179898-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dětský pokoj
 
@@ -311,12 +360,15 @@ das Kinderzimmer,-
 
 Tags: lesson4
 <!--ID: 1758825179901-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kino
 
@@ -326,12 +378,15 @@ das Kino,-s
 
 Tags: lesson5
 <!--ID: 1758825179904-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 návštěva kina
 
@@ -341,12 +396,15 @@ der Kinobesuch,-e
 
 Tags: lesson5
 <!--ID: 1758825179907-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 film v kině
 
@@ -356,12 +414,15 @@ der Kinofilm,-e
 
 Tags: lesson6
 <!--ID: 1758825179909-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kostel
 
@@ -371,12 +432,15 @@ die Kirche,-n
 
 Tags: lesson6
 <!--ID: 1758825179912-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jasný; zřejmý
 
@@ -386,12 +450,15 @@ klar
 
 Tags: lesson1
 <!--ID: 1758825179915-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 třída (školní)
 
@@ -401,12 +468,15 @@ die Klasse,-n
 
 Tags: lesson5
 <!--ID: 1758825179918-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 malý
 
@@ -416,12 +486,15 @@ klein
 
 Tags: lesson4
 <!--ID: 1758825179920-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vařit
 
@@ -431,12 +504,15 @@ kochen
 
 Tags: lesson4
 <!--ID: 1758825179923-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kufr
 
@@ -446,12 +522,15 @@ der Koffer,-
 
 Tags: lesson2
 <!--ID: 1758825179926-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přijít
 
@@ -461,12 +540,15 @@ kommen
 
 Tags: lesson1
 <!--ID: 1758825179929-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 komentovat
 
@@ -476,12 +558,15 @@ kommentieren
 
 Tags: lesson4
 <!--ID: 1758825179932-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 komoda
 
@@ -491,12 +576,15 @@ die Kommode,-n
 
 Tags: lesson4
 <!--ID: 1758825179934-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 komunikace
 
@@ -506,12 +594,15 @@ die Kommunikation,-
 
 Tags: lesson4
 <!--ID: 1758825179937-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 složitý
 
@@ -521,12 +612,15 @@ kompliziert
 
 Tags: lesson5
 <!--ID: 1758825179939-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 skladatel
 
@@ -536,12 +630,15 @@ der Komponist,-en
 
 Tags: lesson6
 <!--ID: 1758825179942-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 skladatelka
 
@@ -551,12 +648,15 @@ die Komponistin,-nen
 
 Tags: lesson6
 <!--ID: 1758825179945-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 konferenční místnost
 
@@ -566,12 +666,15 @@ der Konferenzraum,-"e
 
 Tags: lesson6
 <!--ID: 1758825179952-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 konjugace
 
@@ -581,12 +684,15 @@ die Konjugation,-en
 
 Tags: lesson5
 <!--ID: 1758825179954-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 moci; umět
 
@@ -596,12 +702,15 @@ können
 
 Tags: lesson2
 <!--ID: 1758825179957-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kontakt
 
@@ -611,12 +720,15 @@ der Kontakt,-e
 
 Tags: lesson3
 <!--ID: 1758825179960-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kontrolovat
 
@@ -626,12 +738,15 @@ kontrollieren
 
 Tags: lesson1
 <!--ID: 1758825179962-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 konverzace
 
@@ -641,12 +756,15 @@ die Konversation,-en
 
 Tags: lesson3
 <!--ID: 1758825179965-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 koncert
 
@@ -656,12 +774,15 @@ das Konzert,-e
 
 Tags: lesson4
 <!--ID: 1758825179968-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kooperace; spolupráce
 
@@ -671,12 +792,15 @@ die Kooperation,-en
 
 Tags: lesson3
 <!--ID: 1758825179970-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 spolupracovat
 
@@ -686,12 +810,15 @@ kooperieren
 
 Tags: lesson3
 <!--ID: 1758825179973-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hlava
 
@@ -701,12 +828,15 @@ der Kopf,-"e
 
 Tags: lesson2
 <!--ID: 1758825179976-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 stát (cena)
 
@@ -716,12 +846,15 @@ kosten
 
 Tags: lesson4
 <!--ID: 1758825179979-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nemocnice
 
@@ -731,12 +864,15 @@ das Krankenhaus,-"er
 
 Tags: lesson6
 <!--ID: 1758825179981-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zdravotní pojišťovna
 
@@ -746,12 +882,15 @@ die Krankenkasse,-n
 
 Tags: lesson5
 <!--ID: 1758825179984-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 křída
 
@@ -761,12 +900,15 @@ die Kreide,-n
 
 Tags: lesson2
 <!--ID: 1758825179987-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kuchyně
 
@@ -776,12 +918,15 @@ die Küche,-n
 
 Tags: lesson4
 <!--ID: 1758825179989-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kulinářský souboj
 
@@ -791,12 +936,15 @@ das Küchenduell,-e
 
 Tags: lesson1
 <!--ID: 1758825179992-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kuchyňská skříň
 
@@ -806,12 +954,15 @@ der Küchenschrank,-"e
 
 Tags: lesson4
 <!--ID: 1758825179995-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kuchyňský stůl
 
@@ -821,12 +972,15 @@ der Küchentisch,-e
 
 Tags: lesson4
 <!--ID: 1758825179998-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 lednice
 
@@ -836,12 +990,15 @@ der Kühlschrank,-"e
 
 Tags: lesson4
 <!--ID: 1758825180000-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 propiska (zkr. od kuličkového pera)
 
@@ -851,12 +1008,15 @@ der Kuli,-s (Kurzf. von Kugelschreiber)
 
 Tags: lesson2
 <!--ID: 1758825180003-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kultura
 
@@ -866,12 +1026,15 @@ die Kultur,-en
 
 Tags: lesson2
 <!--ID: 1758825180006-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kultúrní
 
@@ -881,12 +1044,15 @@ kulturell
 
 Tags: lesson3
 <!--ID: 1758825180008-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kurz
 
@@ -896,12 +1062,15 @@ der Kurs,-e
 
 Tags: lesson1
 <!--ID: 1758825180011-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 učebnice kurzu
 
@@ -911,12 +1080,15 @@ das Kursbuch,-"er
 
 Tags: lesson2
 <!--ID: 1758825180014-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 lektor kurzu
 
@@ -926,12 +1098,15 @@ der Kursleiter,-
 
 Tags: lesson2
 <!--ID: 1758825180017-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 lektorka kurzu
 
@@ -941,12 +1116,15 @@ die Kursleiterin,-nen
 
 Tags: lesson2
 <!--ID: 1758825180020-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 místnost kurzu
 
@@ -956,12 +1134,15 @@ der Kursraum,-"e
 
 Tags: lesson2
 <!--ID: 1758825180023-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 účastník kurzu
 
@@ -971,12 +1152,15 @@ der Kursteilnehmer,-
 
 Tags: lesson2
 <!--ID: 1758825180026-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 účastnice kurzu
 
@@ -986,12 +1170,15 @@ die Kursteilnehmerin,-nen
 
 Tags: lesson2
 <!--ID: 1758825180028-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 krátce po
 
@@ -1001,12 +1188,15 @@ kurz nach
 
 Tags: lesson5
 <!--ID: 1758825180031-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 krátce před
 
@@ -1016,12 +1206,15 @@ kurz vor
 
 Tags: lesson5
 <!--ID: 1758825180034-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 krátký, kratší, nejkratší
 
@@ -1031,6 +1224,7 @@ kurz, kürzer, am kürzesten
 
 Tags: lesson4
 <!--ID: 1758825180036-->
+
 END
 
 ---

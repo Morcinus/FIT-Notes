@@ -7,7 +7,7 @@ TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska01 status-toReview
 
 START
-Basic
+FIT-Card
 
 Co je **kombinatorická matematika**?
 
@@ -23,6 +23,7 @@ Matika, co se zajímá o **konečné** a **diskrétní** problémy, které mají
 ![[Pasted image 20240923183912.png]]
 
 ![[Pasted image 20240923183924.png]]
+
 <!--ID: 1728921215168-->
 
 END
@@ -30,13 +31,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **kombinatorický problém**? (svými slovy)
 
 Back:
 
 Problém co můžu vyřešit **zkoušením různých možností**.
+
 <!--ID: 1728921215170-->
 
 END
@@ -44,7 +46,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **heuristika**? (svými slovy)
 
@@ -55,6 +57,7 @@ Back:
 Člověk si vymyslí "takhle by to mohlo fungovat" a tak to budu dělat.
 
 **Negarantuje to optimum**.
+
 <!--ID: 1728921215173-->
 
 END
@@ -64,7 +67,7 @@ END
 ### Problém a jeho charakteristika
 
 START
-Basic
+FIT-Card
 
 Co je **problém** a **instance**?
 
@@ -75,6 +78,7 @@ Back:
 
 Např.
 ![[Pasted image 20240923184031.png]]
+
 <!--ID: 1728921215176-->
 
 END
@@ -82,7 +86,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Čím jsou charakterizovaný **problémy** (aka z čeho se skládá)? (5)
 
@@ -96,6 +100,7 @@ Back:
 
 Např. u desky:
 ![[Pasted image 20240923184136.png]]
+
 <!--ID: 1728921215179-->
 
 END
@@ -103,7 +108,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Čím jsou charakterizovaný **instance problémů**? (1)
 
@@ -124,14 +129,15 @@ Je to jako kdybych definoval funkci v programování:
 
 - **proměnná** - to co je v parametru funkce
 - **ohodnocení vstupní proměnné** - argument - to co konkrétně dávám do té funkce
-  <!-- ExampleEnd -->
+    <!-- ExampleEnd -->
   <!--ID: 1728921215182-->
-  END
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **Konfigurační proměnné** (jaké mají 3 vlastnosti)
 
@@ -158,7 +164,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **Konfigurace**
 
@@ -182,13 +188,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **omezení/omezující kritérium**?
 
 Back:
 
 Omezující kritérium říká (omezuje), **který výstup je řešením**.
+
 <!--ID: 1728921215191-->
 
 END
@@ -196,7 +203,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Musí mít problém vždy **omezující kritéria**?
 
@@ -205,6 +212,7 @@ Back:
 **Ano.**
 
 Jinak bych nevěděl, co je správným řešením.
+
 <!--ID: 1728921215193-->
 
 END
@@ -214,7 +222,7 @@ END
 ### Problém batohu
 
 START
-Basic
+FIT-Card
 
 Co je **problém batohu**?
 
@@ -244,7 +252,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jakou **složitost** má **konstrukční problém batohu**?
 
@@ -253,6 +261,7 @@ Back:
 $n \cdot \log n$
 
 Bylo by to $n$, ale protože to musím sesortit při té konstrukci, je to $n \cdot \log n$
+
 <!--ID: 1728921215204-->
 
 END
@@ -260,7 +269,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **problém obdélníkového pokrytí**? (rectangle tiling problem)
 
@@ -293,13 +302,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **Řešení**
 
 Back:
 
 ![[Pasted image 20240923185653.png]]
+
 <!--ID: 1728921215210-->
 
 END
@@ -307,13 +317,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **Optimální řešení**
 
 Back:
 
 ![[Pasted image 20240923185721.png]]
+
 <!--ID: 1728921215215-->
 
 END
@@ -321,13 +332,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Definice: **Suboptimální řešení**
 
 Back:
 
 ![[Pasted image 20240923185747.png]]
+
 <!--ID: 1728921215218-->
 
 END
@@ -335,7 +347,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **rozhodovací problém**, **konstruktivní problém**, **enumerační problém**, **početní problém**?
 
@@ -355,13 +367,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **optmalizační konstruktivní problém**?
 
 Back:
 
 ![[Pasted image 20240923190610.png]]
+
 <!--ID: 1728921215232-->
 
 END
@@ -369,7 +382,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **optimalizační evaluační problém**?
 
@@ -392,13 +405,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **optimalizační rozhodovací problém**?
 
 Back:
 
 ![[Pasted image 20240923190644.png]]
+
 <!--ID: 1728921215238-->
 
 END
@@ -406,13 +420,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **optimalizační početní problém**?
 
 Back:
 
 ![[Pasted image 20240923190703.png]]
+
 <!--ID: 1728921215241-->
 
 END
@@ -420,13 +435,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **optimalizační enumerační problém**?
 
 Back:
 
 ![[Pasted image 20240923190721.png]]
+
 <!--ID: 1728921215244-->
 
 END
@@ -434,7 +450,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jak souvisí **rozhodovací problémy a jazyky**?
 
@@ -443,6 +459,7 @@ Back:
 Rozhodovací problém = jazyk
 
 ![[Pasted image 20240923190757.png]]
+
 <!--ID: 1728921215247-->
 
 END
@@ -452,7 +469,7 @@ END
 ### Problém SAT
 
 START
-Basic
+FIT-Card
 
 Co je **problém SAT**? (obecně)
 
@@ -461,6 +478,7 @@ Back:
 U Booleovy formule řeším, jestli je splnitelná
 
 Pozn. Formule typicky bývá v konjunktivním normálním tvaru
+
 <!--ID: 1728921215250-->
 
 END
@@ -468,7 +486,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je problém Booleovy formule ($k$-SAT)?
 
@@ -492,13 +510,14 @@ END
 ### Typy problémů
 
 START
-Basic
+FIT-Card
 
 Co je na výstupu, pokud řeším **rozhodovací problém**?
 
 Back:
 
 **Odpověď ano/ne**
+
 <!--ID: 1728921215256-->
 
 END
@@ -506,13 +525,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je na výstupu, pokud řeším **konstruktivní problém**?
 
 Back:
 
 **Vykonstruované řešení** (konkrétní **konfigurace**)
+
 <!--ID: 1728921215258-->
 
 END
@@ -520,7 +540,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Vysvětli, co dělají jednotlivé verze SATu:
 
@@ -545,7 +565,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Vysvětli, co dělají jednotlivé optimalizační verze SATu:
 
@@ -569,7 +589,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **max-weighted sat a max sat?**
 
@@ -580,6 +600,7 @@ Back:
 
 ![[Pasted image 20240923191647.png]]
 ![[Pasted image 20240923191704.png]]
+
 <!--ID: 1728921215270-->
 
 END
@@ -587,13 +608,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **off-line** a **on-line** optimalizace?
 
 Back:
 
 ![[Pasted image 20240923192112.png]]
+
 <!--ID: 1728921215276-->
 
 END
@@ -601,7 +623,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co je **multikriteriální optimalizace** a **multimodální optimalizace**?
 
@@ -613,6 +635,7 @@ Back:
   - Např. různé trasy pro plánování MHD řidičů, aby nebyli v práci znuděný (i když by bylo efektivnější, kdyby každý řidič jezdil furt tu samou trasu)
 
 ![[Pasted image 20240923192147.png]]
+
 <!--ID: 1728921215279-->
 
 END

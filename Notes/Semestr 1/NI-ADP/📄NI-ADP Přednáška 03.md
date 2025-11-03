@@ -6,8 +6,11 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska03 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Dependency inversion principle (ze SOLID)?
 
@@ -31,6 +34,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co dělá separation of concerns?
 
 Back:
@@ -48,6 +53,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Law of Demeter**?
 
@@ -87,6 +94,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Je přidávání nových fičur **breaking change**?
 
 Back:
@@ -104,6 +113,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **avoid premature optimization**?
 
@@ -127,6 +138,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **the boy scout rule**?
 
 Back:
@@ -142,6 +155,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **principle of least astonishment** (least surprise)?
 
@@ -164,8 +179,9 @@ Měl bych:
 - Být konzistentní s očekáváním člověka - metody by měly dělat to, co by člověk očekával
 - Předvídatelnost atd.
   <!-- DetailInfoEnd -->
-  <!--ID: 1729237386371-->
-  END
+<!--ID: 1729237386371-->
+
+END
 
 ---
 
@@ -173,6 +189,8 @@ Měl bych:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi design patternem a principem?
 
@@ -190,6 +208,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **singleton** design pattern?
 
@@ -219,6 +239,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je double check locking?
 
@@ -250,6 +272,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **factory pattern**?
 
 Back:
@@ -275,6 +299,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **abstract factory**?
 
@@ -308,6 +334,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **Builder** pattern?
 
 Back:
@@ -335,7 +363,8 @@ Nevýhoda:
 
 - Když rozšířím objekt o další atribut, musím rozšířit i ten builder
   <!-- DetailInfoEnd -->
-  <!--ID: 1729237386389-->
-  END
+<!--ID: 1729237386389-->
+
+END
 
 ---

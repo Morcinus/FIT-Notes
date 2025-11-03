@@ -7,7 +7,7 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni01 status-toReview
 
 START
-Basic
+FIT-Card
 
 Jak se počítá parciální derivace?
 
@@ -17,19 +17,21 @@ Pro $f(x,y)$
 
 1. Zafixuju si $y$, jako kdyby to byla konstanta
 2. Zafixuju si $x$, jako kdyby to byla konstanta
-   <!--ID: 1728921214911-->
-   END
+<!--ID: 1728921214911-->
+
+END
 
 ---
 
 START
-Basic
+FIT-Card
 
 Jaký je význam 1. parciální derivace?
 
 Back:
 
 Když udělám řez v tom 3D grafu, tak žjistím, jestli je v tom řezu rostoucí/klesající
+
 <!--ID: 1728921214914-->
 
 END
@@ -37,13 +39,14 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaký je význam 2. parciální derivace?
 
 Back:
 
 Když udělám řez v tom 3D grafu, tak zjistím, jeslti je v tom řezu konkávní/kovexní
+
 <!--ID: 1728921214917-->
 
 END
@@ -51,7 +54,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Co znázorňuje gradient?
 
@@ -60,6 +63,7 @@ Back:
 Směr největšího spádu.
 
 Např. když jdu na kopec, tak gradientem je jakoby směru nejprudší cesty k tomu vrcholu.
+
 <!--ID: 1728921214920-->
 
 END

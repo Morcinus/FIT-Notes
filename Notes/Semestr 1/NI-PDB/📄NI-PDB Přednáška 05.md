@@ -7,10 +7,13 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska05 status-toReview
 
+
 ### Škálování
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je škálovatelnnost?
 
@@ -25,6 +28,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je vertikální škálování?
 
@@ -46,6 +51,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké problémy jsou s vertikálním škálováním?
 
 Back:
@@ -53,13 +60,16 @@ Back:
 - Je to **dražší** - výdaje se zvyšují exponenciálně
 - **Vendor lock** - je jen pár společností, co se tím zabývá (např Oracle)
 - **Performance limits** - i silnější mašiny mají své limity
-  <!--ID: 1736497489080-->
-  END
+<!--ID: 1736497489080-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy je dobrý vertikální škálování?
 
@@ -81,6 +91,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je horizontální škálování?
 
 Back:
@@ -95,6 +107,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co za typ databází se typicky používá na hoizontální škálování?
 
 Back:
@@ -108,6 +122,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **nevýhody horizontálního škálování**?
 
@@ -135,6 +151,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je cluster?
 
 Back:
@@ -157,6 +175,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou dvě techniky distribuce dat a co znamenají?
 
 Back:
@@ -178,6 +198,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se typicky rozdělí data v shardování?
 
 Back:
@@ -192,6 +214,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Čeho se snažím dosáhnout u shardování?
 
 Back:
@@ -199,13 +223,16 @@ Back:
 - Přístupy ke každé node by měly být vybalancovaný
 - Balanced workload (read and write requests)
 - Respect physical location _(např. data pro američany dám na server do ameriky)_
-  <!--ID: 1736497489117-->
-  END
+<!--ID: 1736497489117-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou shardovací strategie?
 
@@ -228,14 +255,17 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč je obtížné shardování?
 
 Back:
 
 - Pro read i write requesty musíme rozhodnout, ke které shardě se přistoupí
 - Občas vypadne nějaký node
-  <!--ID: 1736497489127-->
-  END
+<!--ID: 1736497489127-->
+
+END
 
 ---
 
@@ -244,19 +274,24 @@ Back:
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou dva přístupy replikace?
 
 Back:
 
 - **Master-slave**
 - **Peer-to-peer**
-  <!--ID: 1736497489132-->
-  END
+<!--ID: 1736497489132-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **replikační faktor**?
 
@@ -271,6 +306,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je master slave architektura?
 
@@ -295,19 +332,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou problémy v **master-slave** architektuře?
 
 Back:
 
 - Než se změna zpropaguje do slaves, je tam okno, kde klient nezíská aktuální data.
 - Když vypadne master node, je to průšvih
-  <!--ID: 1736497489147-->
-  END
+<!--ID: 1736497489147-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je peer-to-peer architektura?
 
@@ -323,6 +365,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou nevýhody u peer to peer architektury?
 
 Back:
@@ -336,6 +380,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dá se kombinovat replikace a sharding?
 
@@ -365,19 +411,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou základní předpoklady pro CAP theorém?
 
 Back:
 
 - Musí se jednat o distribuovaný systém se shardingem a replikací
 - Read a write operace jsou dělány na jednom agregátu
-  <!--ID: 1736497489168-->
-  END
+<!--ID: 1736497489168-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co říká CAP theorem?
 
@@ -394,6 +445,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je consistency v CAP theorému?
 
@@ -415,6 +468,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je availability v CAP theorému?
 
 Back:
@@ -435,6 +490,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je partition tolerance v CAP theoremu?
 
 Back:
@@ -448,6 +505,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 3 praktické provedení CAP theoremu?
 
@@ -474,6 +533,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je ACID?
 
 Back:
@@ -487,6 +548,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je BASE?
 
@@ -508,6 +571,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je consistency?
 
 Back:
@@ -521,6 +586,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je write consistency?
 
@@ -536,6 +603,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je read consistency?
 
 Back:
@@ -549,6 +618,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je strong consistency?
 

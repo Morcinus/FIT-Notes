@@ -8,8 +8,11 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska11 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co z pohledu uživatele znamená výkon aplikace?
 
@@ -25,6 +28,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak lze dosáhnout **dobrého výkonu** aplikace? (3)
 
 Back:
@@ -32,13 +37,16 @@ Back:
 - **Infrastruktura** - škálovatelnost, failover, cluster architectures
 - **Ladění výkonu** (performance tuning) - Aplikační server, operační systém, správa paměti...
 - **Service configuration** - paralelní processing, optimalizace procesů
-  <!--ID: 1735205749759-->
-  END
+<!--ID: 1735205749759-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je throttling?
 
@@ -56,19 +64,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké dvě metriky sledujeme, co se týče výkonu aplikace?
 
 Back:
 
 - **škálovatelnost** - schopnost systému se nafouknout
 - **availability** - dostupnost (např. $99.9987\%$ - cca 44 sekund downtime za rok)
-  <!--ID: 1735205749764-->
-  END
+<!--ID: 1735205749764-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou dva typy škálování?
 
@@ -91,6 +104,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je SLA?
 
 Back:
@@ -110,6 +125,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je pojem **High Availability**?
 
@@ -131,6 +148,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **application failover**?
 
 Back:
@@ -144,6 +163,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **load balancing**?
 
@@ -161,14 +182,17 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké performance metriky se sledují u komunikace klient-server?
 
 Back:
 
 - **Response time** - $\text{round trip time} - \text{service processing time}$
 - **QPS** - queries/requests per second - počet requestů, které přichází do systému za sekundu - dá se zlepšit cachováním
-  <!--ID: 1735205749779-->
-  END
+<!--ID: 1735205749779-->
+
+END
 
 ---
 
@@ -178,6 +202,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je model **synchronní IO**? Jaké **2 typy connnections** existují?
 
@@ -211,6 +237,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se řeší pomalé synchronní IO?
 
 Back:
@@ -233,6 +261,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je nevýhoda synchronního IO?
 
 Back:
@@ -253,6 +283,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se dá vyřešit to, když mám synchronní přístup do databáze ale ta databáze je pomalá (a my nemáme kontrolu nad tou databází)?
 
 Back:
@@ -267,6 +299,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **fronta requestů** před tím než se jim přiřadí vlákna?
 
 Back:
@@ -275,8 +309,9 @@ Back:
 2. Zařadí se do fronty (např. s kapacitou 100)
 3. Request čeká na to, až mu bude přiřazeno vlákno pro přístup do databáze.
 4. Pokud je kapacita fronty plná, rovnou se requesty odmítají (díky čemuž to je rychlejší, protože se nezatěžuje ten systém, když vím, že bych to stejně nestíhal zpracovávat)
-   <!--ID: 1735205749792-->
-   END
+<!--ID: 1735205749792-->
+
+END
 
 ---
 
@@ -284,6 +319,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Asynchronní IO?
 
@@ -313,6 +350,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je výhoda Node v Javascriptu?
 
 Back:
@@ -331,6 +370,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje zpracovávání požadavků v synchronním IO? (Na tohle se nebude ptát - na ty pojmy.. chce spíš znát ten princip, což je už na jiných kartičkách)
 
 Back:
@@ -342,8 +383,9 @@ Back:
   - **hogging** - vlákno zpracovává IO operaci
   - **stuck** - vlákno čeká déle než povolenou dobu na IO operaci
 - **Work manager** - konfigurace maximálního počtu vláken a kapacity
-  <!--ID: 1735205749799-->
-  END
+<!--ID: 1735205749799-->
+
+END
 
 ---
 
@@ -351,6 +393,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy loadbalancerů? (4)
 
@@ -363,13 +407,16 @@ Back:
   - Běží na aplikační vrstvě
   - Např. nginx, JSession
 - **Client-side load balancer** - Klient sám rozposílá requesty na různé servery
-  <!--ID: 1735205749804-->
-  END
+<!--ID: 1735205749804-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje NAT-based load balancer?
 
@@ -379,13 +426,16 @@ Funguje principem DNAT - na úrovni síťové vrstvy přepisuje destinations jed
 
 - **SNAT** - "source NAT" - přepisuje adresu zdroje
 - **DNAT** - "destination NAT" - přepisuje adresu cíle
-  <!--ID: 1735205749806-->
-  END
+<!--ID: 1735205749806-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje DNS Load balancer?
 
@@ -395,13 +445,16 @@ Využívá se DNS Round Robin
 
 - DNS record má hodně IP adres
 - DNS postupně střídá IP adresy v odpovědích
-  <!--ID: 1735205749809-->
-  END
+<!--ID: 1735205749809-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Forward Proxy?
 

@@ -6,6 +6,7 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni10 status-toReview
 
+
 ### Cvičení 17.2
 
 <!-- Latex Equation -->

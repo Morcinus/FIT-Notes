@@ -7,6 +7,7 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM
 FILE TAGS: NI-NEM prednaska05 status-toReview
 
+
 ## Slovíčka
 
 - **seit** - **od** (už nějakou dobu), začalo to v minulosti a pořád to platí
@@ -86,12 +87,13 @@ FILE TAGS: NI-NEM prednaska05 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 od (už nějakou dobu)
 
 Back:
 
 seit
-
 <!--ID: 1761580148029-->
 
 END
@@ -101,12 +103,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 od (od teď / v budoucnosti)
 
 Back:
 
 ab
-
 <!--ID: 1761580148032-->
 
 END
@@ -116,12 +119,14 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 od ... do ...
 
 Back:
 
 von ... bis ...
-
+<!--ID: 1762184315713-->
 END
 
 ---
@@ -129,12 +134,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 kostel
 
 Back:
 
 die Kirche
-
 <!--ID: 1761580148036-->
 
 END
@@ -144,12 +150,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ulice
 
 Back:
 
 die Straße
-
 <!--ID: 1761580148039-->
 
 END
@@ -159,12 +166,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 hřbitov
 
 Back:
 
 der Friedhof
-
 <!--ID: 1761580148043-->
 
 END
@@ -174,12 +182,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 krytý bazén
 
 Back:
 
 das Hallenbad
-
 <!--ID: 1761580148045-->
 
 END
@@ -189,12 +198,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 semafor
 
 Back:
 
 die Ampel
-
 <!--ID: 1761580148048-->
 
 END
@@ -204,12 +214,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 most
 
 Back:
 
 die Brücke
-
 <!--ID: 1761580148051-->
 
 END
@@ -219,12 +230,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 křižovatka
 
 Back:
 
 die Kreuzung
-
 <!--ID: 1761580148054-->
 
 END
@@ -234,12 +246,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 nádraží
 
 Back:
 
 der Bahnhof
-
 <!--ID: 1761580148057-->
 
 END
@@ -249,12 +262,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 náměstí
 
 Back:
 
 der Marktplatz
-
 <!--ID: 1761580148060-->
 
 END
@@ -264,12 +278,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 letiště
 
 Back:
 
 der Flughafen
-
 <!--ID: 1761580148063-->
 
 END
@@ -279,12 +294,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 supermarket
 
 Back:
 
 der Supermarkt
-
 <!--ID: 1761580148066-->
 
 END
@@ -294,12 +310,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 parkoviště
 
 Back:
 
 der Parkplatz
-
 <!--ID: 1761580148070-->
 
 END
@@ -309,12 +326,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 běhat (závodněji)
 
 Back:
 
 rennen
-
 <!--ID: 1761580148072-->
 
 END
@@ -324,12 +342,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 běhat (ležérně)
 
 Back:
 
 joggen
-
 <!--ID: 1761580148076-->
 
 END
@@ -339,12 +358,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 studovat
 
 Back:
 
 studieren
-
 <!--ID: 1761580148078-->
 
 END
@@ -354,12 +374,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Studuju na univerzitě.
 
 Back:
 
 Ich studiere an der Uni.
-
 <!--ID: 1761580148082-->
 
 END
@@ -369,12 +390,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Studuju v druhém semestru.
 
 Back:
 
 Ich studiere in zweiten Semester.
-
 <!--ID: 1761580148084-->
 
 END
@@ -384,12 +406,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 na severu / na jihu / na východě / na západě
 
 Back:
 
 im Norden / im Süden / im Osten / im Westen
-
 <!--ID: 1761580148087-->
 
 END
@@ -399,12 +422,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Na jihu Lipska.
 
 Back:
 
 Im Süden von Leipzig.
-
 <!--ID: 1761580148090-->
 
 END
@@ -414,12 +438,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 severně / jižně / východně / západně
 
 Back:
 
 nördlich / südlich / östlich / westlich
-
 <!--ID: 1761580148093-->
 
 END
@@ -429,12 +454,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kde bydlíš? — Bydlím v ...
 
 Back:
 
 Wo wohnst du? — Ich wohne in ...
-
 <!--ID: 1761580148096-->
 
 END
@@ -444,12 +470,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kde pracuješ? — Pracuji u novin.
 
 Back:
 
 Wo arbeitest du? — Ich arbeite bei der Zeitung.
-
 <!--ID: 1761580148103-->
 
 END
@@ -459,12 +486,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kde pracuješ? — Pracuji v knihkupectví.
 
 Back:
 
 Wo arbeitest du? — Ich arbeite in der/einer Buchhandlung.
-
 <!--ID: 1761580148106-->
 
 END
@@ -474,12 +502,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jedu na kole / tramvají / autem / autobusem.
 
 Back:
 
 Ich fahre mit dem Fahrrad / mit der Strassenbahn / mit dem Auto / mit dem Bus.
-
 <!--ID: 1761580148110-->
 
 END
@@ -489,12 +518,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jdu pěšky.
 
 Back:
 
 Ich gehe zu Fuß.
-
 <!--ID: 1761580148113-->
 
 END
@@ -504,12 +534,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Většina podst. jmen končících na -e má jaký rod?
 
 Back:
 
 Ženský rod.
-
 <!--ID: 1761580148116-->
 
 END
@@ -519,12 +550,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dativ: der → ?
 
 Back:
 
 dem
-
 <!--ID: 1761580148119-->
 
 END
@@ -534,12 +566,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dativ: die → ?
 
 Back:
 
 der
-
 <!--ID: 1761580148121-->
 
 END
@@ -549,12 +582,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Dativ: das → ?
 
 Back:
 
 dem
-
 <!--ID: 1761580148124-->
 
 END

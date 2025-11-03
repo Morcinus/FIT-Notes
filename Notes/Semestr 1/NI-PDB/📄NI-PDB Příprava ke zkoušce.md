@@ -7,10 +7,13 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB
 
+
 ### Optmalizace SQL
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je to **cost-based optimalizace** a jak se využijí **statistiky o databázových objektech** při cost-based optimalizaci?
 
@@ -49,6 +52,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak vypadá **zpracování SQL dotazu** (fáze zpracování dotazu, kde a jak se při nich dá optimalizovat)?
 
 Back:
@@ -81,6 +86,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi **heap table** a **index-organized table**.
 
@@ -118,6 +125,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi **heap table** a **cluster**.
 
@@ -163,6 +172,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětlete rozdíl mezi **B-tree** a **bitmap** indexem, příklady vhodného použití obou typů indexů.
 
 Back:
@@ -207,6 +218,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **typické statistiky pro tabulky** v relační databázi a jak se udržují když se pomocí DML mění data?
 
 Back:
@@ -250,6 +263,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **typické statistiky pro B-tree indexy** a jak se udržují když se pomocí DML mění data?
 
 Back:
@@ -280,6 +295,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou to přístupové cesty (**access paths**) při vyhodnocování SQL dotazů? Uveďte příklady.
 
@@ -334,6 +351,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké znáte **metody vyhodnocení spojení (join)** v relačních databázích? Naznačte jak probíhají.
 
 Back:
@@ -379,6 +398,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co to je **prováděcí plán (execution plan)**, jak vypadá a kdy vzniká? Vyplatí se ho cachovat? Pokud ano, za jakých okolností?
 
 Back:
@@ -406,6 +427,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je základní **strategie pro tvorbu prováděcího plánu**? Jsou situace, kdy se vyplatí spíše full-table scan přístup namísto index-based? Případně uveďte.
 
@@ -438,6 +461,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 **Operace řazení**, v jakých situacích se používá, jaké jsou parametry pro odhad ceny řazení.
 
@@ -475,6 +500,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 **Postup při ladění výkonu DB serveru** (jak zjistíme co vázne, jak zvolíme SQL dotazy pro ladění?
 
 Back:
@@ -505,6 +532,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětlete rozdíly mezi **OLTP a OLAP** databází.
 
 Back:
@@ -523,13 +552,16 @@ Obě jsou technologie uložení dat v databázi.
 - Systémy optimalizované pro analytické zpracovávání, zaměřené na efektivní **čtení a analýzu** velkého množství dat.
 - Data nebývají "hezky" uspořádána (podle 3NF).. Typicky tam bývá hodně redundance, díky čemuž je čtení vysoce efektivní (ale zápis je pain in the ass)
 - Např. business intelligence, reportování, analytické systémy
-  <!--ID: 1737106145138-->
-  END
+<!--ID: 1737106145138-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete, případně uveďte na příkladech hlavní **přínos objektově relačních databázových systémů** oproti čistě relačním.
 
@@ -553,6 +585,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětlete co je **reference na objekt (typ REF)** v objektově-relačních databázích. Jaký je rozdíl mezi referencí na objekt a cizím klíčem?
 
 Back:
@@ -566,13 +600,16 @@ Back:
 
 - **Hodnota** jiného primárního klíče (není to ukazatel)
 - **Vyžaduje JOIN** operaci pro získání souvisejících dat.
-  <!--ID: 1737106145144-->
-  END
+<!--ID: 1737106145144-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi relační tabulkou obsahující **uživatelem definovaný datový typ** a **objektovou tabulkou**.
 
@@ -600,6 +637,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 V jakém jsou vztahu **objektově-relační databázový stroj** a **ORM (object-relational mapping) technologie**? (co to řeší, kdy je co vhodné)
 
 Back:
@@ -624,8 +663,9 @@ Back:
   - Pro komplexní typy dat
   - Lepší výkon pro složité typy
 - **Nevýhoda:** - Komplexnější práce s databází
-  <!--ID: 1737106145149-->
-  END
+<!--ID: 1737106145149-->
+
+END
 
 ---
 
@@ -633,6 +673,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Uveďte a vysvětlete **CAP theorém**.
 
@@ -670,6 +712,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete rozdíly mezi koncepcí **ACID a BASE**.
 
@@ -710,6 +754,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je to **horizontální a co vertikální škálování** databáze a jak souvisí s CAP?
 
 Back:
@@ -739,6 +785,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze použít **CAP theorém ke klasifikaci databázových strojů**? Uveďte příklady databázových strojů, které znáte a pokuste se je klasifikovat na základě CAP theorému.
 
@@ -775,6 +823,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je **rozdíl mezi replikací a technikou sharding**? Jsou to techniky, které se vzájemně vylučují nebo se mohou doplňovat?
 
 Back:
@@ -802,6 +852,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je to **silná a slabá konsistence** v NoSQL databázích? Jak souvisí s CAP?
 
 Back:
@@ -824,6 +876,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete co je **"quorum"** a jak se používá k zajištění silné či slabé konzistence?
 
@@ -862,6 +916,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak jsou charakterizována **BigData** (3V+)?
 
 Back:
@@ -894,6 +950,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a dokumentové databáze**.
 
 Back:
@@ -921,13 +979,16 @@ Back:
   - Vhodné pro velké množství jednoduchých dotazů
   - Vhodné pro hierarchická data
 - **Nevýhoda:** - Nekonzistence dat - kvůli BASE - Složité dotazy jsou méně efektivní než u relačních DB
-  <!--ID: 1737106145172-->
-  END
+<!--ID: 1737106145172-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a XML-nativní databáze**.
 
@@ -954,13 +1015,16 @@ Back:
   - Vhodné pro aplikace, které používají XML formát
   - Vhodné pro hierarchická data
 - **Nevýhoda:** - Nekonzistence dat - kvůli BASE - Složité dotazy jsou méně efektivní než u relačních DB
-  <!--ID: 1737106145175-->
-  END
+<!--ID: 1737106145175-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a key-value databáze**.
 
@@ -999,6 +1063,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a grafové databáze**.
 
 Back:
@@ -1024,13 +1090,16 @@ Back:
   - Optimalizované dotazy pro grafové struktury (např. vybírání podgrafů, hledání cest atd.)
   - Dobrá škálovatelnost
 - **Nevýhoda:** - Méně efektivní pro "tabulková data" - Nižší podpora pro ACID - Prostě takový specifický use case
-  <!--ID: 1737106145180-->
-  END
+<!--ID: 1737106145180-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a sloupcové (wide-column) databáze**.
 
@@ -1058,13 +1127,16 @@ Back:
   - Výborný výkon (pro zápis i čtení)
   - Vhodné pro big data, datové sklady
 - **Nevýhody:** - Horší výkon pro kompexní dotazy - Omezená podpora pro ACID - Nevhodné pro OLTP (ale super pro OLAP)
-  <!--ID: 1737106145183-->
-  END
+<!--ID: 1737106145183-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Uveďte výhody a nevýhody přístupů **schema-free a schema aware databází**.
 
@@ -1085,8 +1157,9 @@ Back:
   - Flexibilní schéma, dá se jednoduššeji měnit
   - V určitých ohledech jednodušší údržba (jednodušší migrace a změny ve struktuře dat)
 - **Nevýhody:** - Vyžaduje to více pečlivosti při práci s databází (konvence, dodržovat určitý pravidla) - jinak v tom může jednoduše vzniknout zmatená databáze - Horší optimalizace komplexních dotazů
-  <!--ID: 1737106145185-->
-  END
+<!--ID: 1737106145185-->
+
+END
 
 ---
 
@@ -1094,6 +1167,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete koncepci databázového stroje **MongoDB**. Uveďte jeho silné stránky a uveďte příklady, kdy je jeho použití vhodné a kdy je naopak nevhodné.
 
@@ -1113,13 +1188,16 @@ Back:
   - Aplikace s **mnoha daty** a **jednoduchými operacemi**
   - Např. mobilní aplikace, content management systémy, ...
 - **Nevhodné použití** - Aplikace se složitými vztahy a dotazy (lepší je SQL) - Aplikace s méně daty (lepší je SQL) - Aplikace, které vyžadují hodně stabilitu a přesnost (lepší je SQL s ACID)
-  <!--ID: 1737106145188-->
-  END
+<!--ID: 1737106145188-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete koncepci databázového stroje **Cassandra**. Uveďte jeho silné stránky a uveďte příklady, kde je jeho použití vhodné a kdy je naopak nevhodné.
 
@@ -1136,13 +1214,16 @@ Back:
   - Když je třeba rychle zapisovat jednoduchá data
   - Např. **velké distribuované systémy** (Amazon to používá), **globální e-commerce platformy**, real-time analýzy, sledování aktivit
 - **Nevhodné použití**: - Komplexní dotazy a vztahy (Lepší SQL) - Když máme nízký objem dat (lepší SQL nebo Mongo) - Když potřebujeme přesnost ve schématu (lepší SQL)
-  <!--ID: 1737106145190-->
-  END
+<!--ID: 1737106145190-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete koncepci databázového stroje **Neo4j**. Uveďte jeho silné stránky a uveďte příklady, kdy je jeho použití vhodné a kdy je naopak nevhodné.
 
@@ -1157,13 +1238,16 @@ Back:
   - Když chceme **komplexní dotazy v grafu** (cesty, stromy, podstromy, ...)
   - Např. sociální sítě, doporučovací systémy, detekce podvodů (v bankovních transakcích), znalosti
 - **Nevhodné:** - Pro aplikace **bez komplexních vztahů** - Pro **velké transakční systémy** - Pro **velké množství dat** s jednoduchými vztahy
-  <!--ID: 1737106145193-->
-  END
+<!--ID: 1737106145193-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Uveďte koncepci databázového stroje **RiakKV**. Uveďte jeho silné stránky a uveďte příklady, kdy je jeho použití vhodné a kdy je naopak nevhodné.
 
@@ -1180,8 +1264,9 @@ Back:
   - Vhodné pro systémy, které vyžadují vysokou dostupnost a odolnost
   - Např. velké e-commerce, sociální sítě, systémy pro analýzu dat v reálném čase
 - **Nevhodné**: - Pro aplikace vyžadující silnou konzistenci - Aplikace se složitými dotazy nad strukturovanými daty - Pro složité datové typy
-  <!--ID: 1737106145196-->
-  END
+<!--ID: 1737106145196-->
+
+END
 
 ---
 
@@ -1189,6 +1274,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Krátce popište, případně vysvětlete na vhodných příkladech dotazovací jazyk **Cypher**.
 
@@ -1220,6 +1307,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Krátce popište, případně vysvětlete na vhodných příkladech dotazovací jazyk **XQuery**.
 
 Back:
@@ -1245,6 +1334,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Krátce popište, případně vysvětlete na vhodných příkladech dotazovací jazyk **MongoDB**.
 
@@ -1281,6 +1372,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Charakterizujte rozdíly mezi tzv. **micro a complex benchmarkem** v databázích.
 
 Back:
@@ -1308,13 +1401,16 @@ Back:
   - Poskytuje ucelený pohled na výkon databázového systému v reálných podmínkách.
   - Zohledňuje vliv více operací a interakcí mezi součástmi systému.
 - **Nevýhody:** - Může být složitější na nastavení a vyžaduje složitější testovací scénáře. - Výsledky mohou být ovlivněny externími faktory, jako jsou konfigurace hardwaru, síťové podmínky a další.
-  <!--ID: 1737106145206-->
-  END
+<!--ID: 1737106145206-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **TPC** a jak souvisí s databázovými benchmarky?
 
@@ -1329,6 +1425,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete princip benchmarku **TPC-C**. Co je výstupem benchmarku?
 
@@ -1350,13 +1448,16 @@ Metriky:
 
 - $tpmC$ - new-order transaction rate = při maximálním zatížení databáze, kolik jsem schopný zpracovat nových objednávek
 - $Price/tpmC$ - kolik mě jedna nová objednávka stojí peněz (za Price byl v názvu dosazený dolar)
-  <!--ID: 1737106145212-->
-  END
+<!--ID: 1737106145212-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete princip benchmarku **TPC-E**. Co je výstupem benchmarku?
 
@@ -1372,13 +1473,16 @@ Metriky:
 
 - $TPsE$ - transactions per second u **jakékoliv** transakce
 - $Price/TPsE$
-  <!--ID: 1737106145214-->
-  END
+<!--ID: 1737106145214-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vysvětlete princip benchmarku **TPC-H**. Co je výstupem benchmarku?
 
@@ -1392,7 +1496,8 @@ Máme tyto metriky:
 - $QphH@Size$ - Composite Query-perHour performance metric
 - $Price/QphH@Size$ - Price/Performance metric (za Price byl v názvu dosazený dolar)
   $Size$ je velikost databáze.
-  <!--ID: 1737106145217-->
-  END
+<!--ID: 1737106145217-->
+
+END
 
 ---

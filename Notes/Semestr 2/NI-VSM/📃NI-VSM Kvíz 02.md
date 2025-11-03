@@ -2,6 +2,7 @@
 created: 2025-03-31T10:06:41
 up: "[[📖NI-VSM]]"
 ---
+
 ![](../../../Assets/Pasted%20image%2020250331100654.png)
 ![](../../../Assets/Pasted%20image%2020250331101315.png)
 ![](../../../Assets/Pasted%20image%2020250331102004.png)

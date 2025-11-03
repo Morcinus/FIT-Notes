@@ -6,10 +6,13 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska03 status-toReview
 
+
 ### Big Data
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **big data**?
 
@@ -45,6 +48,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **příklady big data**? (4)
 
 Back:
@@ -53,13 +58,16 @@ Back:
 - **Scientific instruments** - zpracování dat z teleskopů, výzkumů atd.
 - **Mobilní zařízení** - trackování úplně všeho
 - **Senzorové technologie** - IoT
-  <!--ID: 1728921214689-->
-  END
+<!--ID: 1728921214689-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **7 hlavní charakteristiky big data**?
 
@@ -93,6 +101,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Čeho je zkratka **OLTP**?
 
 Back:
@@ -107,6 +117,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Čeho je zkratka **OLAP**?
 
 Back:
@@ -120,6 +132,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co znamená **NoSQL**?
 
@@ -151,6 +165,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké typické vlastnosti mají NoSQL databáze? (4)
 
 Back:
@@ -159,13 +175,16 @@ Back:
 - **schema free** - nemají striktní schéma
 - **eventually consistent** - není tam strong konzistence
 - **pro obrovská množství dat**
-  <!--ID: 1728921214704-->
-  END
+<!--ID: 1728921214704-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **hlavní typy** NoSQL databází? (4)
 
@@ -181,13 +200,16 @@ Vedlejší typy
 - XML databáze
 - Objektové databáze
 - RDF
-  <!--ID: 1728921214706-->
-  END
+<!--ID: 1728921214706-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou multimodelové databáze?
 
@@ -213,6 +235,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **key-value stores**?
 
 Back:
@@ -234,6 +258,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy je například dobrý použít **key-value** storage?
 
@@ -264,6 +290,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **document store**?
 
 Back:
@@ -271,13 +299,16 @@ Back:
 Mám **hierarchickou strukturu dokumentů** (typicky JSON a XML).
 
 - Každý dokument má unique identifier
-  <!--ID: 1728921214718-->
-  END
+<!--ID: 1728921214718-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na co je dobrý **document store**?
 
@@ -308,6 +339,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **wide column store**?
 
 Back:
@@ -333,6 +366,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kdy je dobré použít **white column** storage?
 
 Back:
@@ -355,6 +390,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **grafové databáze**?
 
 Back:
@@ -373,6 +410,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy je vhodné používat **grafové databáze**?
 
@@ -405,6 +444,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **XML databáze**?
 
 Back:
@@ -426,6 +467,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **RDF storage**?
 
@@ -451,6 +494,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **agregate**?
 
 Back:
@@ -470,6 +515,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co znamená **aggregate-ignorant** a **aggregate-oriented**?
 
@@ -492,19 +539,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **2 typy škálování databází** a co znamenají?
 
 Back:
 
 - **horizontální** - koupim další node, který zařadím do sítě
 - **vertikální** (nahoru) - koupím silnější hardware (nebo větší množství místa atd.)
-  <!--ID: 1728921214748-->
-  END
+<!--ID: 1728921214748-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou dva typy **data distribution** v databázích?
 
@@ -535,6 +587,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je fičura **automated processes** v NoSQL databázích?
 
 Back:
@@ -555,6 +609,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **relaxed consistency** v NoSQL?
 
 Back:
@@ -574,6 +630,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **schemaless** vlastnost v NoSQL databázích?
 
@@ -603,6 +661,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Rada do života od Valenty:
 Jak prorazit s IT produktem v IT byznysu?
 
@@ -621,6 +681,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jakých je **5 klíčových výhod NoSQL** přístupu?
 
 Back:
@@ -630,13 +692,16 @@ Back:
 - **Administrátoři** - nejsou tolik potřeba, protože se vše automatizuje
 - **Economics** - o neco levnější než klasické SQL
 - **Flexibility** - nejsou striktní data schemata
-  <!--ID: 1728921214764-->
-  END
+<!--ID: 1728921214764-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakých je **5 klíčových nevýhod NoSQL** přístupu?
 
@@ -647,7 +712,8 @@ Back:
 - **Administrace** - občas obtížné na instalaci a údržbu
 - **Analytiky** - není taková podpora jako u SQL
 - **Expertise** - malé množství expertů
-  <!--ID: 1728921214767-->
-  END
+<!--ID: 1728921214767-->
+
+END
 
 ---

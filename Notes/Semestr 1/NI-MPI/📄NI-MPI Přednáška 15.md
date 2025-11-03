@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska15 status-toReview algebra4
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: $h(x)$ je největší společný dělitel polynomů $f(x), g(x)$, jestliže $\dots$
 
@@ -25,6 +28,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Bézoutova rovnost pro polynomy
 
@@ -46,6 +51,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak najdu Bezoutovy koeficiety u $\gcd(f(x), g(x))$?
 
 Back:
@@ -61,6 +68,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: Polynomial factor theorem (aneb prvek je kořen polynomu $\Leftrightarrow \dots$)
 
@@ -84,6 +93,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Ireducibilní polynom**
 
@@ -117,6 +128,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: Ireducibilní polynomy - co o nich víme
 
 (pozn. tomuhle jsme se na přednášce moc nevěnovali, Starosta působil jako že to není tak důležitý, i když to explicitně neřekl)
@@ -135,6 +148,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **konečné těleso**
 
@@ -163,6 +178,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Když máme $\mathbb{Z}_n$, kde $n$ není prvočíslo, může to být tělesem?
 
 Back:
@@ -185,6 +202,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Algoritmus: Jak se dá sestavit konečné těleso neprvočíselného řádu?
 
 Back:
@@ -204,6 +223,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Postup: Jak najdu inverzní prvek vůči násobení pro polynom $h(x)$ modulo $P(x)$?
 
@@ -239,6 +260,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak mohu zjistit, že je polynom ireducibilní?
 
 Back:
@@ -263,6 +286,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se sčítají polynomy?
 
 Back:
@@ -280,6 +305,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se **násobí polynomy** mod $P(x)$?
 
@@ -316,6 +343,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: Jaký řád musí mít konečné těleso?
 
 Back:
@@ -332,6 +361,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Důsledek: tělesa jakých řádů neexistují? (na tohle se ptají u zkoušky)
 
 Back:
@@ -345,6 +376,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Galoisovo těleso, charakteristika tělesa
 
@@ -361,6 +394,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký řád má aditivní a multiplikativní grupa konečného tělesa ($GF(p^n)$)?
 
@@ -380,6 +415,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké neutrální prvky mají aditivní a multiplikativní grupa tělesa $GF(p^n)$?
 
@@ -402,6 +439,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se spočte inverze k prvku v aditivní a multiplikativní grupě tělesa $GF(p^n)$?
 
 (tohle bylo třeba u zkoušky!)
@@ -421,6 +460,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Je aditivní a multiplikativní grupa tělesa $GF(p_n)$ cyklická?
 

@@ -11,6 +11,8 @@ FILE TAGS: NI-NUR prednaska03 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **ergonomie**?
 
 Back:
@@ -18,17 +20,20 @@ Back:
 Zabývá se navrhováním věcí tak, aby byly pro uživatele dobře použitelné.
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251019105937.png)
-<!-- DetailInfoEnd -->
 
+![](../../Assets/Pasted%20image%2020251019105937.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1761580147954-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký musí být interface design? (4)
 
@@ -40,17 +45,20 @@ Back:
 - **Comfortable** Work should not stress, pleasant colors, easy to read
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251019105946.png)
-<!-- DetailInfoEnd -->
 
+![](../../Assets/Pasted%20image%2020251019105946.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1761580147960-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **hlavní principy dobrého UI**?
 
@@ -59,44 +67,50 @@ Back:
 - **User first** - oriented on the user
 - **Only useful information is shown**
 - **Feedback** - uživatel by měl vidět, že se daná akce stala (že se uložil soubor atd)
-- **Predictable user behavior** - 
+- **Predictable user behavior** -
 - **User mistakes tolerance**
 - **Foolproof** - vyvarovat se chybám
 - **If it is complicated to use the system, UI is porbably designed wrong**
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251019110127.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1761580147963-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou principy dobrého UI?
 
 Back:
 
-- **Minimal** – remove everything that can be removed 
-- **Responsive** – give the user a proper feedback 
-- **Forgiving** – let user make mistakes (undo...) 
+- **Minimal** – remove everything that can be removed
+- **Responsive** – give the user a proper feedback
+- **Forgiving** – let user make mistakes (undo...)
 - **Familiar** – use familiar metaphors
 - **Consistent** – use consistent visual and interaction language
 - **Leverage the hardware properly** – use all available devices, 80:20 rule
-- **Well integrated** – in case it is a part of a wider system 
-- **Cool is not always usable** - na druhou stranu, člověk touží po exkluzivitě - když to řešení je pěkný a vypadá sexy, tak to uživatel bude mít radši a odpustí mnoho chyb 
+- **Well integrated** – in case it is a part of a wider system
+- **Cool is not always usable** - na druhou stranu, člověk touží po exkluzivitě - když to řešení je pěkný a vypadá sexy, tak to uživatel bude mít radši a odpustí mnoho chyb
 - **Less is more!**
 <!--ID: 1761580147966-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **usability**?
 
@@ -104,13 +118,15 @@ Back:
 
 Jednoduchost naučení se daného systému.
 <!--ID: 1761580147969-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Z čeho se skládá usability?
 
@@ -122,18 +138,20 @@ Back:
 - **Satisfaction of the user** - uživatel je přesvědčen, že dosáhnul cíle
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251019110527.png)
-<!-- DetailInfoEnd -->
 
+![](../../Assets/Pasted%20image%2020251019110527.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1761580147972-->
+
 END
 
 ---
 
-
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co by se člověk měl naučit při designování UI? 2 hlavní části toho skillu
 
@@ -142,13 +160,15 @@ Back:
 - **Best practices** - co se používá, na co jsou lidé zvyklí, pochopit důvody
 - **Design process itself** - helps you think and avoid common issues and mistakes
 <!--ID: 1761580147975-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak vypadá UI design cycle? (3)
 
@@ -160,13 +180,15 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251019110829.png)
 <!--ID: 1761580147978-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **User Centered Design**?
 
@@ -174,13 +196,15 @@ Back:
 
 Vytvářet **interfaces** a **interactions**, které naplní uživatelské **potřeby** a **očekávání**
 <!--ID: 1761580147981-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Z čeho se typicky skládá user centered design?
 
@@ -192,27 +216,32 @@ Back:
 - designovat, aby uživatel **chtěl** používat ten produkt
 
 <!-- DetailInfoStart -->
-![](../../Assets/Pasted%20image%2020251019111226.png)
-<!-- DetailInfoEnd -->
 
+![](../../Assets/Pasted%20image%2020251019111226.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1761580147984-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co by člověk neměl dělat v user centered designu? (3)
 
 Back:
 
 Vytvářet funkce které:
+
 - **jsou moc komplikované**
 - **uživatel nechce používat**
 - **uživatel nepotřebuje**
 <!--ID: 1761580147987-->
+
 END
 
 ---

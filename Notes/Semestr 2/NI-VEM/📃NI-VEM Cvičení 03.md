@@ -6,6 +6,7 @@ up: "[[📖NI-VEM]]"
 TARGET DECK: NI-VEM
 FILE TAGS: NI-VEM cviceni03 status-toReview
 
+
 Pravda:
 - **Objektivní** - to co je skutečně pravda
 - **Subjektivní** - jaký má kdo názor

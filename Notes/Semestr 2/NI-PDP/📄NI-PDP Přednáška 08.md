@@ -11,6 +11,8 @@ FILE TAGS: NI-PDP prednaska08 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: vnoření grafu do jiného
 
 Back:
@@ -22,13 +24,15 @@ $\xi$ je "xí"
 
 Tags: otazka31
 <!--ID: 1746599652712-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké metriky se dají měřit u kvality vnoření? (4)
 
@@ -41,13 +45,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1746599652719-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočte **maximální zatížení hostitelského uzlu**?
 
@@ -59,13 +65,15 @@ Tzn. **kolik uzlů vnořené sítě je maximálně namapováno na jeden uzel hos
 
 Tags: otazka31
 <!--ID: 1746599652726-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočte **expanze vnoření**?
 
@@ -74,19 +82,22 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250419112003.png)
 
 Vysvětlení:
+
 - Poměr počtu uzlů v hostitelské síti ku počtu uzlů ve vnořené síti.
 - Měří **"zvětšení"** — kolik fyzických zdrojů je potřeba pro vnoření.
 - Čím větší expanze, tím víc uzlů potřebuješ pro simulaci jednoho uzlu.
 
 Tags: otazka31
 <!--ID: 1746599652733-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočte **maximální dilatace zdrojových hran v hostitelské síti**?
 
@@ -98,19 +109,22 @@ Když zobrazíme hranu z $G$ do $H$, tak jak bude dlouhá. Dilatace je ta nejdel
 
 Vysvětlení ChatGPT
 Nejdelší vzdálenost (v počtu hran), kterou musí vnořená logická hrana urazit v hostitelské síti.
+
 - Jinak řečeno, jak "dlouho" trvá emulovat jednu přímou logickou hranu ve fyzické síti.
 - **Maximální dilatace** je největší počet kroků, který je potřeba pro libovolnou logickou hranu.
-_Příklad:_ Pokud máš logickou hranu mezi dvěma uzly, ale v hostitelské síti je to cesta o 5 krocích, pak dilatace = 5.
+  _Příklad:_ Pokud máš logickou hranu mezi dvěma uzly, ale v hostitelské síti je to cesta o 5 krocích, pak dilatace = 5.
 
 Tags: otazka31
 <!--ID: 1746599652741-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se spočte **maximální zahlcení hostitelské hrany**?
 
@@ -122,13 +136,15 @@ Kolik logických hran je vnořeno přes jednu hostitelskou hranu
 
 Tags: otazka31
 <!--ID: 1746599652747-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou obecně **kvaziizometrické grafy/topologie**?
 
@@ -138,13 +154,15 @@ kvaziizometrické topologie = topologie, které zachovávají podobné vlastnost
 
 Tags: otazka31
 <!--ID: 1749407476839-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **kvaziizometrické grafy**
 
@@ -154,13 +172,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1746599652755-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: graf $H$ simuluje $G$ se zpomalením $h$
 
@@ -170,13 +190,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1746599652763-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: $G$ a $H$ jsou výpočetně ekvivalentní sítě
 
@@ -186,13 +208,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1746599652771-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: **výpočetní ekvivalence kvaziizometrických sítí**
 
@@ -202,13 +226,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1746599652779-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Průměrový argument**
 
@@ -218,13 +244,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1746599652786-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co vyplývá z průměrového argumentu?
 
@@ -232,13 +260,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250419112846.png)
 <!--ID: 1746599652794-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké topologie jsou navzájem kvaziizometrické?
 
@@ -249,13 +279,15 @@ Back:
 
 Tags: otazka31
 <!--ID: 1749407476852-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 **Důkaz**: Proč jsou mřížky a toroidy kvaziizometrické?
 
@@ -263,20 +295,22 @@ Back:
 
 1. Část 1: Mřížka je triviálně podmnožinou toroidu
 2. Část 2: Toroid do mřížky
-	1. Nastavíme $\text{load} = 1$ (tedy promítneme vrcholy na stejné vrcholy)
-	2. Nastavíme $\text{ecng} = 2$ tak, že pro každou dimenzi vytvoříme hrany tak, že přeskakujem ob jednu, čímž jakoby vytvoříme tu kružnici, co je v toroidu (viz obrázek)
+   1. Nastavíme $\text{load} = 1$ (tedy promítneme vrcholy na stejné vrcholy)
+   2. Nastavíme $\text{ecng} = 2$ tak, že pro každou dimenzi vytvoříme hrany tak, že přeskakujem ob jednu, čímž jakoby vytvoříme tu kružnici, co je v toroidu (viz obrázek)
 
 ![](../../../Assets/Pasted%20image%2020250608202943.png)
 
 Tags: otazka31
 <!--ID: 1749407476855-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč je otevřený motýlek a kružnicový motýlek kvaziizometrický?
 
@@ -289,19 +323,23 @@ Back:
 (2) je fuj konstruktivní důkaz přes několik stránek, mluví ale o tom, že musíme invertovat v jiném pořadí než 0,1,2,3… např. 1,3,2,0 při n=4, aby dilatace byla nejvýše 3. Díky vrcholové a řádkové symetričnosti $wBF$ můžeme použít automorfismus na řádky, aby pak sloupce byly v pořadí 1,3,2,0.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250419114313.png)
 ![](../../../Assets/Pasted%20image%2020250419114327.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka31
 <!--ID: 1749407476858-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: M. Sekanina
 
@@ -312,16 +350,20 @@ Back:
 Pan Sekanina byl z Brna
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250419113119.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652802-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje MPI s problémem vnoření?
 
@@ -332,13 +374,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250419113803.png)
 ![](../../../Assets/Pasted%20image%2020250419113811.png)
 <!--ID: 1746599652809-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 3 typy virtuálních topologií, které podporuje MPI? (3)
 
@@ -348,13 +392,15 @@ Back:
 - graf
 - distribuovaný graf
 <!--ID: 1746599652817-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **kartézská** virtuální topologie v MPI?
 
@@ -362,13 +408,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250419113531.png)
 <!--ID: 1746599652824-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **grafová** topologie v MPI?
 
@@ -376,13 +424,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250419113541.png)
 <!--ID: 1746599652832-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **distribuovaný graf** - virtuální topologie MPI?
 
@@ -392,13 +442,15 @@ Back:
 
 Je to stejný jako graf, jen u grafu všichni musí ukládat celou reprezentaci, v distribuovaném grafu si uzly pamatují jen svoje okolí v grafu.
 <!--ID: 1746599652840-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: jak souvisí mřížky a toroidy?
 
@@ -409,16 +461,20 @@ Back:
 Neboli mřížky a toroidy jsou kvaziizometrické
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250419113901.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652847-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Důsledek: dolní mez dilatace vnoření hyperkrychle do mřížek toroidu
 
@@ -427,19 +483,23 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250419113958.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250419114009.png)
 ![](../../../Assets/Pasted%20image%2020250419114023.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka32
 <!--ID: 1746599652855-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Mortonova křivka?
 
@@ -448,20 +508,21 @@ Back:
 Souřadnice $Q_{2k}$ se vnořují rekurzivně na střídačku:
 $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [b_{2k-1}, b_{2k-3} \dots b_k, b_{2k-2}, b_{2k-4}, \dots, b_0]$
 
-
 ![](../../../Assets/Pasted%20image%2020250419114055.png)
 
 Tzn. "vnořuju svisle - vodorovně na střídačku"
 
 Tags: otazka32
 <!--ID: 1746599652861-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: Jaká je vzdálenost dvou uzlů v Mortonových křivkách?
 
@@ -471,13 +532,15 @@ Back:
 
 Tags: otazka32
 <!--ID: 1746599652869-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Důsledek: Dilatace vnoření hyperkrychle do mřížek pomocí Mortonovy křivky
 
@@ -487,15 +550,17 @@ Back:
 
 Tags: otazka32
 <!--ID: 1746599652877-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Lemma: Dilatace vnoření pomocí Svobodovy mapy 
+(FIT-Notes flashcard)
+
+Lemma: Dilatace vnoření pomocí Svobodovy mapy
 
 Back:
 
@@ -506,13 +571,15 @@ $$2^{k-1}$$
 
 Tags: otazka32
 <!--ID: 1746599652884-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Když chceme mapovat $Q_{2k} \rightarrow M(2^k,2^k)$ a $\text{load}=1$, jakou funkci $\varphi$ chceme použít?
 
@@ -522,19 +589,21 @@ Back:
 
 Chceme použít funkci ve tvaru $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [x_{k-1} \dots x_0, y_{k-1} \dots y_0]$, která je **prostá a na**.
 
-Konkrétně **Svobodova mapa** (lexikografické mapování)  $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [b_{2k-1} \dots b_k, b_{k-1} \dots b_0]$
+Konkrétně **Svobodova mapa** (lexikografické mapování) $\varphi(b_{2k-1}b_{2k-2}\dots b_{0}) = [b_{2k-1} \dots b_k, b_{k-1} \dots b_0]$
 
 Pozn. toto platí pro $2D$, ale dá se to zobecnit pro ostatní dimenze.
 
 Tags: otazka32
 <!--ID: 1749553670422-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy se hodí vznořit hyperkrychli do nízkodimenzionálních mřížek?
 
@@ -544,13 +613,15 @@ když chceme na počítači s mřížkovou topologií provádět hyperkubický a
 
 Tags: otazka32
 <!--ID: 1749408692075-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakými způsoby lze vnořovat **hyperkrychle** do **mřížek**?
 
@@ -561,13 +632,15 @@ Back:
 
 Tags: otazka32
 <!--ID: 1749408692090-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: kvaziizometričnost motýlků
 
@@ -576,17 +649,21 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250419114304.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250419114313.png)
 ![](../../../Assets/Pasted%20image%2020250419114327.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652891-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Důkaz věty:
 ![](../../../Assets/Pasted%20image%2020250419114304.png)
@@ -605,13 +682,15 @@ Pozor, u prvního obrázku tam jsou ty modrý sloupce stejný - tzn. ta cesta se
 ![](../../../Assets/Pasted%20image%2020250419114533.png)
 ![](../../../Assets/Pasted%20image%2020250419114554.png)
 <!--ID: 1746599652897-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: kolik automorfismů má $wBF_n$
 
@@ -624,13 +703,15 @@ Adresa řádků jsou myšleny řádky v tomto obrázku (bity):
 
 Tags: otazka31
 <!--ID: 1746599652904-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Lemma: kolik automorfismů má $oBF_n$
 
@@ -643,6 +724,7 @@ Adresa řádků jsou myšleny řádky v tomto obrázku (bity):
 
 Tags: otazka31
 <!--ID: 1746599652912-->
+
 END
 
 ---

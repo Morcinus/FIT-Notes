@@ -10,6 +10,8 @@ FILE TAGS: NI-VSM cviceni06 status-toReview blue
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje testování dobré shody?
 
 Back:
@@ -26,13 +28,15 @@ Je vhodné, aby ty _teoretické_ četnosti v každém binu měly alespoň 5. Kdy
 
 ![](../../../Assets/Pasted%20image%2020250329132648.png)
 <!--ID: 1746599651205-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje test v kontingenční tabulce?
 
@@ -44,13 +48,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250329134349.png)
 <!--ID: 1746599651216-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co můžu udělat, když mám biny s málo prvky?
 
@@ -58,30 +64,35 @@ Back:
 
 Můžu je spojit.
 <!--ID: 1746599651223-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 způsoby testování?
 
 Back:
 
 Varianta 1:
+
 1. Uděláme "předprůzkum" - zkusíme test shody rozptylů
-	1. Pokud nezamítneme, zkusíme T-Test
-	2. Pokud zamítneme, zkusíme Welchův test
+   1. Pokud nezamítneme, zkusíme T-Test
+   2. Pokud zamítneme, zkusíme Welchův test
 
 Varianta 2 - uděláme testovou baterii:
+
 1. Uděláme Leven. test
-	1. Pokud nezamítneme, uděláme T-Test
-	2. Pokud zamítneme, použijeme Welchův test
+   1. Pokud nezamítneme, uděláme T-Test
+   2. Pokud zamítneme, použijeme Welchův test
 
 Lepší je prý dělat tu první variantu
 <!--ID: 1746599651235-->
+
 END
 
 ---

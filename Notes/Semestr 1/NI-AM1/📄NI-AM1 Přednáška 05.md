@@ -7,10 +7,13 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska05 status-toReview
 
+
 ### Microservices
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **dva směry škálování**?
 
@@ -24,13 +27,16 @@ Back:
 - **scaling up** = to co se typicky chápe pod pojmem škálování
 - **scaling down** = když se mi např. snižují počty uživatelů, tak nemá cenu mít obrovský systém, protože tím vyhazuju peníze.
   <!-- ExplanationEnd -->
-  <!--ID: 1736496141940-->
-  END
+<!--ID: 1736496141940-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá rozdělit systém? (3 vrstvy)
 
@@ -39,13 +45,16 @@ Back:
 - **Data, procesy, funkce**
 - **Software**
 - **Hardware**
-  <!--ID: 1736496141945-->
-  END
+<!--ID: 1736496141945-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Pomocí jakých diagramů se dají modelovat data, procesy a funkce?
 
@@ -83,6 +92,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **kroky navrhování mikroslužeb**? (2)
 
 Back:
@@ -106,6 +117,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč se u **mikroslužeb** neudělá z každé funkce mikroslužba?
 
 Back:
@@ -122,6 +135,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou 3 základní pojmy (začínající na $M$, které) se používají v architektuře mikroslužeb?
 
@@ -140,13 +155,16 @@ Když by mi dvě mikroslužby pak potřebovaly využívat stejnou funkcionalitu,
 - Nevýhoda: mám duplicitní kód v systému (několik mikroslužeb má nainstalováno stejnou knihovnu -> snižuje to výkon)
 - Výhoda: je to všechno přehledný a funguje to dobře.
   <!-- DetailInfoEnd -->
-  <!--ID: 1736496141956-->
-  END
+<!--ID: 1736496141956-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou vlastnosti mikroslužeb? (6)
 
@@ -182,6 +200,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je pomůcka pro zapamatování OSY vrstev?
 
 Back:
@@ -198,19 +218,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak jsou uložena data v **HTTP 1.1** a **2.0**?
 
 Back:
 
 - **HTTP 1.1** - data uložena textově
 - **HTTP 2.0** - data uložena binárně
-  <!--ID: 1736496141965-->
-  END
+<!--ID: 1736496141965-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Proč když vyvíjím aplikaci, je důležité mít server blízko klientům?
 
@@ -228,6 +253,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je latence?
 
 Back:
@@ -241,6 +268,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je RTT?
 
@@ -258,6 +287,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je RPT?
 
 Back:
@@ -272,6 +303,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je výsledkem three way handshaku?
 
 Back:
@@ -285,6 +318,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Čím je definovaný TCP socket? (4)
 
@@ -304,6 +339,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké mechanismy se používají na snížení latence při three way handshaku? (3)
 
@@ -327,6 +364,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **HTTP Keep-alive**?
 
 Back:
@@ -348,6 +387,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje HTTP **pipelining**?
 
@@ -381,6 +422,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **pipeline locking**?
 
 Back:
@@ -403,6 +446,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **TCP fast open**?
 
 Back:
@@ -424,6 +469,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **origin**?
 
@@ -451,6 +498,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kolik TCP spojení může prohlížeč vytvořit na jeden origin?
 
 Back:
@@ -472,6 +521,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je hlavička SNI?
 

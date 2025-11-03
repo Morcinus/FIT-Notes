@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - die Variante,-n 2
 - die Vase,-n 4
 - verabreden 5
@@ -60,6 +62,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 varianta
 
 Back:
@@ -68,12 +72,15 @@ die Variante,-n
 
 Tags: lesson2
 <!--ID: 1758825178613-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 váza
 
@@ -83,12 +90,15 @@ die Vase,-n
 
 Tags: lesson4
 <!--ID: 1758825178615-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 domluvit si schůzku
 
@@ -98,12 +108,15 @@ verabreden
 
 Tags: lesson5
 <!--ID: 1758825178618-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 domluva; schůzka
 
@@ -113,12 +126,15 @@ die Verabredung,-en
 
 Tags: lesson5
 <!--ID: 1758825178621-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rozloučení
 
@@ -128,12 +144,15 @@ die Verabschiedung,-en
 
 Tags: lesson1
 <!--ID: 1758825178624-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 slovesná koncovka
 
@@ -143,12 +162,15 @@ die Verbendung,-en
 
 Tags: lesson1
 <!--ID: 1758825178627-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 spojit
 
@@ -158,12 +180,15 @@ verbinden
 
 Tags: lesson1
 <!--ID: 1758825178629-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zakázáno (být)
 
@@ -173,12 +198,15 @@ verboten (sein)
 
 Tags: lesson4
 <!--ID: 1758825178632-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zapomenout
 
@@ -188,12 +216,15 @@ vergessen
 
 Tags: lesson5
 <!--ID: 1758825178635-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 porovnat
 
@@ -203,12 +234,15 @@ vergleichen
 
 Tags: lesson3
 <!--ID: 1758825178637-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ženatý/vdaná (s)
 
@@ -218,12 +252,15 @@ verheiratet (mit)
 
 Tags: lesson2
 <!--ID: 1758825178640-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 doprava
 
@@ -233,12 +270,15 @@ der Verkehr,-
 
 Tags: lesson3
 <!--ID: 1758825178643-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dopravní prostředek
 
@@ -248,12 +288,15 @@ das Verkehrsmittel,-
 
 Tags: lesson6
 <!--ID: 1758825178645-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nakladatelství
 
@@ -263,12 +306,15 @@ der Verlag,-e
 
 Tags: lesson6
 <!--ID: 1758825178648-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 sídlo nakladatelství
 
@@ -278,12 +324,15 @@ das Verlagshaus,-"er
 
 Tags: lesson6
 <!--ID: 1758825178651-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nakladatelský obchodník
 
@@ -293,12 +342,15 @@ der Verlagskaufmann,-"er
 
 Tags: lesson6
 <!--ID: 1758825178654-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nakladatelská obchodnice
 
@@ -308,12 +360,15 @@ die Verlagskauffrau,-en
 
 Tags: lesson6
 <!--ID: 1758825178657-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 negace; zápor
 
@@ -323,12 +378,15 @@ die Verneinung,-en
 
 Tags: lesson2
 <!--ID: 1758825178659-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 různý; odlišný
 
@@ -338,12 +396,15 @@ verschieden
 
 Tags: lesson4
 <!--ID: 1758825178662-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zpoždění
 
@@ -353,12 +414,15 @@ die Verspätung,-en
 
 Tags: lesson5
 <!--ID: 1758825178665-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rozumět
 
@@ -368,12 +432,15 @@ verstehen
 
 Tags: lesson1
 <!--ID: 1758825178667-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 obchodní ředitel
 
@@ -383,12 +450,15 @@ der Vertriebsleiter,-
 
 Tags: lesson6
 <!--ID: 1758825178670-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 obchodní ředitelka
 
@@ -398,12 +468,15 @@ die Vertriebsleiterin,-nen
 
 Tags: lesson6
 <!--ID: 1758825178673-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 používat
 
@@ -413,12 +486,15 @@ verwenden
 
 Tags: lesson1
 <!--ID: 1758825178675-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 video
 
@@ -428,12 +504,15 @@ das Video,-s
 
 Tags: lesson4
 <!--ID: 1758825178678-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 videorekordér
 
@@ -443,12 +522,15 @@ der Videorekorder,-
 
 Tags: lesson2
 <!--ID: 1758825178681-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mnoho, více, nejvíce
 
@@ -458,12 +540,15 @@ viel, mehr, am meisten
 
 Tags: lesson4
 <!--ID: 1758825178683-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mnozí; mnoho
 
@@ -473,12 +558,15 @@ viele
 
 Tags: lesson3
 <!--ID: 1758825178686-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Mnoho pozdravů ...
 
@@ -488,12 +576,15 @@ Viele Grüße ...
 
 Tags: lesson4
 <!--ID: 1758825178689-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čtvrt po
 
@@ -503,12 +594,15 @@ Viertel nach
 
 Tags: lesson5
 <!--ID: 1758825178692-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tři čtvrtě na
 
@@ -518,12 +612,15 @@ Viertel vor
 
 Tags: lesson5
 <!--ID: 1758825178695-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čtvrthodina
 
@@ -533,12 +630,15 @@ die Viertelstunde,-n
 
 Tags: lesson6
 <!--ID: 1758825178697-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 housle
 
@@ -548,12 +648,15 @@ die Violine,-n
 
 Tags: lesson4
 <!--ID: 1758825178700-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vízum
 
@@ -563,12 +666,15 @@ das Visum (pl. Visa)
 
 Tags: lesson5
 <!--ID: 1758825178703-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 liduprádelna (dospěl. vzdělávání)
 
@@ -578,12 +684,15 @@ die Volkshochschule,-n
 
 Tags: lesson2
 <!--ID: 1758825178705-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 plný
 
@@ -593,12 +702,15 @@ voll
 
 Tags: lesson4
 <!--ID: 1758825178708-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 od (někoho)
 
@@ -608,12 +720,15 @@ von (jdm)
 
 Tags: lesson5
 <!--ID: 1758825178711-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 z ... do ...
 
@@ -623,12 +738,15 @@ von ... nach
 
 Tags: lesson4
 <!--ID: 1758825178714-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 před
 
@@ -638,12 +756,15 @@ vor
 
 Tags: lesson6
 <!--ID: 1758825178716-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 připravit (se)
 
@@ -653,12 +774,15 @@ vorbereiten
 
 Tags: lesson5
 <!--ID: 1758825178719-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dříve
 
@@ -668,12 +792,15 @@ vorher
 
 Tags: lesson4
 <!--ID: 1758825178723-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 křestní jméno
 
@@ -683,12 +810,15 @@ der Vorname,-n
 
 Tags: lesson3
 <!--ID: 1758825178725-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 navrhnout
 
@@ -698,12 +828,15 @@ vorschlagen
 
 Tags: lesson5
 <!--ID: 1758825178728-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 představit (se)
 
@@ -713,12 +846,15 @@ vorstellen (sich)
 
 Tags: lesson5
 <!--ID: 1758825178731-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 představení; představa
 
@@ -728,12 +864,15 @@ die Vorstellung,-en
 
 Tags: lesson2
 <!--ID: 1758825178734-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 telefonní předvolba
 
@@ -743,6 +882,7 @@ die Vorwahl,-en
 
 Tags: lesson1
 <!--ID: 1758825178737-->
+
 END
 
 ---

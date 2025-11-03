@@ -11,6 +11,8 @@ FILE TAGS: NI-FME prednaska10 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je postup důkazu nesplnitelnosti formule?
 
 Back:
@@ -18,6 +20,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250423111133.png)
 
 <!-- ExerciseStart -->
+
 ![](../../../Assets/Pasted%20image%2020250423111148.png)
 ![](../../../Assets/Pasted%20image%2020250423111200.png)
 ![](../../../Assets/Pasted%20image%2020250423111212.png)
@@ -25,13 +28,15 @@ Back:
 
 <!-- ExerciseEnd -->
 <!--ID: 1746599654552-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá aplikovat důkaz nesplnitelnosti formule na programy?
 
@@ -39,13 +44,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250423111320.png)
 <!--ID: 1746599654560-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou řešiče (rozhodovací procedury)?
 
@@ -53,32 +60,38 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250423111346.png)
 <!--ID: 1746599654567-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Jaký je řešič pro výrokovou logiku? Jaký má vstup a výstup? 
+(FIT-Notes flashcard)
+
+Jaký je řešič pro výrokovou logiku? Jaký má vstup a výstup?
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250423111424.png)
 
 <!-- ExerciseStart -->
+
 ![](../../../Assets/Pasted%20image%2020250423112933.png)
 ![](../../../Assets/Pasted%20image%2020250423112942.png)
+
 <!-- ExerciseEnd -->
 <!--ID: 1746599654576-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou axiomy rovnosti
 
@@ -86,13 +99,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250423113003.png)
 <!--ID: 1746599654584-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Congruence CLosure algoritmus?
 
@@ -101,13 +116,15 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250423113025.png)
 ![](../../../Assets/Pasted%20image%2020250423113035.png)
 <!--ID: 1746599654591-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou svědci a jak se dají využít?
 
@@ -115,6 +132,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250423113138.png)
 <!--ID: 1746599654598-->
+
 END
 
 ---

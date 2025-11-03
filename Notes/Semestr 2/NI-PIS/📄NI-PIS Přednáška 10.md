@@ -12,6 +12,8 @@ FILE TAGS: NI-PIS prednaska10 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **funkční business požadavky** na datové sklady?
 
 Back:
@@ -20,16 +22,20 @@ Back:
 - **reporting**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250424162241.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651518-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **nefunkční požadavky datových skladů**? (6)
 
@@ -45,16 +51,20 @@ Back:
 - **Nízká cena**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250424162303.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651524-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy datové kvality? (2)
 
@@ -63,13 +73,15 @@ Back:
 - technická - že to bude v určitém formátu, že to bude mít určité vlastnosti
 - byznysová - např. když mají data určité hodnoty, které nejsou dobré pro byznys
 <!--ID: 1746599651536-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na co se dělí **Stage** v Data Stage?
 
@@ -78,13 +90,15 @@ Back:
 - **Landing** - neřeší se tam datové typy
 - **Stage** - tam se už řeší datové typy
 <!--ID: 1746599651581-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Je cílem do datového skladu nacpat všechna data firmy?
 
@@ -92,13 +106,15 @@ Back:
 
 Nope, typicky pouze ta data, co jsou kritická pro byznys a pro reporting. Typicky bude hodně data ještě rozházených kolem.
 <!--ID: 1746599651608-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je rozdíl mezi **faktem** a **dimenzí**?
 
@@ -109,12 +125,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250424170314.png)
 <!--ID: 1746599651640-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **typy faktů**?
 
@@ -124,13 +143,15 @@ Back:
 - **semiaditivní** - počet, cena ve snapshot tabulkách
 - **nonaditive** - procentuální profit například
 <!--ID: 1746599651670-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **2 způsoby historizace dat**?
 
@@ -139,13 +160,15 @@ Back:
 - **Snapshoting** - udělám celou kopii těch dat např 1x za den (nedává moc smysl u dat, které se často nemění)
 - **Slowly changing dimenze** - uložím jednou, když vznikne změna, tak si uložím data
 <!--ID: 1746599651680-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy slowly changing dimensions? (4)
 
@@ -157,16 +180,20 @@ Back:
 - Typ 3 - přidávání sloupců s historickými hodnotami (větší granularita změn) - změníme jakoby jen tu jednu hodnotu
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250424171444.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651688-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak vypadá záznam v **slowly changing dimension** (SCD2)?
 
@@ -175,10 +202,13 @@ Back:
 Když změním přijde změna, zapíšu do záznamu "end date", abych tím označil, do kdy je záznam platný a vytvořím nový se start datem
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250424171616.png)
 ![](../../../Assets/Pasted%20image%2020250424171626.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599651699-->
+
 END
 
 ---

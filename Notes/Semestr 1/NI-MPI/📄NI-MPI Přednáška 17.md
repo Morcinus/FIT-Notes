@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska17 status-toReview numerika2
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **dopředná chyba**
 
@@ -38,6 +41,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Zpětná chyba**
 
 Back:
@@ -64,6 +69,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **podmíněnost** úlohy
 
 Back:
@@ -77,6 +84,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Relativní číslo podmíněnosti**
 
@@ -109,6 +118,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **dobře a špatně podmíněná** úloha
 
 Back:
@@ -123,6 +134,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: soustava lineárních rovnic
 
 Back:
@@ -136,6 +149,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je výhoda iterativní metody?
 
@@ -156,6 +171,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: přidružená maticová norma
 
@@ -183,6 +200,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: číslo podmíněnosti
 
 Back:
@@ -206,6 +225,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Iterační metoda
 
@@ -234,6 +255,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **vektor chyby**
 
 Back:
@@ -247,6 +270,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: spektrální poloměr
 
@@ -262,6 +287,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: co platí pro spektrální poloměr
 
 Back:
@@ -276,6 +303,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Důsledek: iterační metoda konverguje $\Leftrightarrow \dots$
 
 Back:
@@ -289,6 +318,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá odhadnout rychlost konvergence iterační metody?
 
@@ -309,6 +340,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy se iterační metoda zastaví?
 
@@ -332,6 +365,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak lze volit matici $Q$ v iterační metodě? (3)
 
 Back:
@@ -345,6 +380,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Richardsonova metoda?
 
@@ -366,6 +403,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje Jacobiho metoda?
 
 Back:
@@ -385,6 +424,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Tvrzení: konvergence Jacobiho metody
 
@@ -406,6 +447,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje SOR metoda?
 
 Back:
@@ -425,6 +468,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Algoritmus: **Iterativní metoda**
 

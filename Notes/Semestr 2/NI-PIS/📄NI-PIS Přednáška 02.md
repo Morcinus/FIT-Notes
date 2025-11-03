@@ -11,18 +11,23 @@ FILE TAGS: NI-PIS prednaska02 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **infrastruktura**?
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250227163719.png)
 <!--ID: 1746599652017-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **komponenty infrastruktury**? (7)
 
@@ -37,53 +42,64 @@ Back:
 - **Systémová integrace a konzultační služby**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227163814.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652034-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co je například součástí komponenty infrastruktury **počítačový hardware**? 
+(FIT-Notes flashcard)
+
+Co je například součástí komponenty infrastruktury **počítačový hardware**?
 
 Back:
 
 Osobní počítače, mobily, servery, mainframe...
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227163903.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652044-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co je například součástí komponenty infrastruktury **enterprise software**? 
+(FIT-Notes flashcard)
+
+Co je například součástí komponenty infrastruktury **enterprise software**?
 
 Back:
 
 SAP, Oracle, Microsoft, Amazon (AWS), Salesforce, IBM,...
 
-
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227164413.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1748434798935-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je například součástí komponenty infrastruktury **data management a úložiště**?
 
@@ -94,16 +110,20 @@ Back:
 - Storage area networks
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227164358.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652057-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je například součástí komponenty infrastruktury **síťové a telekomunikační platformy**?
 
@@ -114,16 +134,20 @@ Back:
 - **síťový hardware** - Cisco...
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227164443.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652065-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je například součástí komponenty infrastruktury **Internet**?
 
@@ -133,13 +157,15 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250227164823.png)
 <!--ID: 1746599652073-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je například součástí komponenty infrastruktury systémová **integrace a konzultační služby**?
 
@@ -149,13 +175,15 @@ Jde o to, že celá infrastruktura je dost složitá a je to "moc velké sousto"
 
 ![](../../../Assets/Pasted%20image%2020250227164933.png)
 <!--ID: 1746599652082-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Moorův zákon**?
 
@@ -164,43 +192,52 @@ Co je **Moorův zákon**?
 Back:
 
 Moorův zákon - každý rok se zdvojnásobí počet tranzistorů v procesoru
+
 - V dnešní době už to neplatí, je to zaseklý
 
 <!-- DetailInfoStart -->
-Fun fact - tranzistory jsou v dnešní době menší než biologické viry 
+
+Fun fact - tranzistory jsou v dnešní době menší než biologické viry
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652088-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co **hýbe vývojem IT infrastruktury**? (3)
 
 Back:
 
 - **Velikost ukládaných dat se každý rok zdvojnásobí**
-	- **Cena uložiště naštěstí klesá rychleji**
+  - **Cena uložiště naštěstí klesá rychleji**
 - **Klesají ceny komunikačních technologií**
 - **Standardizace a síťový efekt**
-	- Díky tomu je vše levnější, tím jak všichni používají stejné postupy a metody
+  - Díky tomu je vše levnější, tím jak všichni používají stejné postupy a metody
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227171530.png)
 ![](../../../Assets/Pasted%20image%2020250227171543.png)
 ![](../../../Assets/Pasted%20image%2020250227171554.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652096-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se stane, když přijde nový technologický trend?
 
@@ -212,13 +249,15 @@ Back:
 Např. takto to bylo u big data
 ![](../../../Assets/Pasted%20image%2020250227171923.png)
 <!--ID: 1746599652102-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou momentální trendy v IT?
 
@@ -234,13 +273,15 @@ Back:
 - **Infrastructure as a code**
 - **DevOps**
 <!--ID: 1746599652111-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je hlavní **nevýhoda microservices**?
 
@@ -250,13 +291,15 @@ Přináší to **komplexitu**, protože s každou novou funkcionalitou musím ř
 
 Obecně je většinou nejlepší mít nějaký hybrid, dělat microservices tam, kde to dává smysl.
 <!--ID: 1746599652119-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **virtualizace**?
 
@@ -266,33 +309,39 @@ Na jednom fyzickém hardwaru se spustí víc operačních systémů (virtual mac
 
 Díky tomu nemusím mít hromadu serverů, ale využiju přesně to, co potřebuju.
 <!--ID: 1746599652128-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **kontejnerizace**?
 
 Back:
 
-V rámci jednoho operačního systému mám oddělený prostředí, kde se dají izolovaně spouštět aplikace. 
+V rámci jednoho operačního systému mám oddělený prostředí, kde se dají izolovaně spouštět aplikace.
 
-Výhoda - kontejner můžu jednoduše spustit a nasadit 
+Výhoda - kontejner můžu jednoduše spustit a nasadit
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227172759.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652135-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **orchestrace** a **automatizace**?
 
@@ -303,39 +352,48 @@ Stará se o orchestraci jednotlivých kontejnerů.
 Je to trend, není to moc běžné ve velkých korporacích. Chtěli by, ale je to hodně složitý to zařídit, když na to ty původní aplikace nebyly navržený.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227173033.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652143-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **cloud computing**?
 
 Back:
 
-Správu nějaké části produkce přenechám někomu jinému (např. infrastrukturu, atd.). 
+Správu nějaké části produkce přenechám někomu jinému (např. infrastrukturu, atd.).
 
 Nevýhody:
+
 - bezpečnost - nechcem třeba mít citlivá data u někoho jiného
-- mezinárodní právo - např. nemůžu ukládat ta data v jiné zemi 
+- mezinárodní právo - např. nemůžu ukládat ta data v jiné zemi
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227173254.png)
 ![](../../../Assets/Pasted%20image%2020250227173800.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652150-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 3 cloud computing typy?
 
@@ -345,31 +403,36 @@ Back:
 - **PaaS** - platform as a service (Azure, Google app engine)
 - **SaaS** - software as a service (GDrive)
 <!--ID: 1746599652158-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **infrastructure as a code**?
 
 Back:
 
 Infrastruktura je definována kódem.
+
 - Kód je verzovaný
 - Např. Terraform
 
 ![](../../../Assets/Pasted%20image%2020250227174012.png)
 <!--ID: 1746599652166-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **devops**?
 
@@ -379,45 +442,56 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250227174054.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227174103.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652175-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **výzvy managementu infrastruktury**? (3 hlavní části)
 
 Back:
 
 Technická část:
+
 - **Flexibilita** - IT musí neustále reagovat na změny potřeb podniku
 - **Škálovatelnost** - podnik různě roste, je třeba se přizpůsobovat
 - Nástrahy SaaS - bezpečnost, legislativa, vendor lock-ins
 
 Management:
+
 - Jsou IT týmy centralizované nebo decentralizované?
 - Kdo řídí IT v podniku?
 
 Náklady:
+
 - Kolik za co utrácet
 - **TCO model**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227174218.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652183-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co znamená **TCO**? Co všechno zahrnuje?
 
@@ -431,6 +505,7 @@ Back:
 Typicky se pro každou možnost (např. nákupu softwaru) udělá TCO model a pak se tyto modely porovnávají.
 
 Např. při pořízení si softwaru to může zahrnovat:
+
 1. Pořizovací náklady – licence, vývoj, nákup hardwaru.
 2. Implementace a integrace – náklady na nasazení, přizpůsobení, propojení s jinými systémy.
 3. Školení a onboarding – zaškolení uživatelů a správců systému.
@@ -439,9 +514,12 @@ Např. při pořízení si softwaru to může zahrnovat:
 6. Skryté náklady – výpadky, bezpečnostní rizika, náklady na změnu systému v budoucnu.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227174248.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1746599652191-->
+
 END
 
 ---

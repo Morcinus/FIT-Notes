@@ -8,10 +8,13 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska09 status-toReview
 
+
 ### Benchmarks, ACID, Tuning
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy bechmarků a co znamenají?
 
@@ -19,13 +22,16 @@ Back:
 
 - **microbenchmark** - zaměřuje se na konkrétní aspekt databázového systému (např. práce s cache, jenom insert příkazy, jenom update příkazy)
 - **komplexní benchmarky**
-  <!--ID: 1735205748903-->
-  END
+<!--ID: 1735205748903-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je TPC?
 
@@ -48,6 +54,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje TPC-C benchmark?
 
@@ -80,19 +88,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou metriky TPC-C bechmarku, které se sledují? (2)
 
 Back:
 
 - $tpmC$ - new-order transaction rate = při maximálním zatížení databáze, kolik jsem schopný zpracovat nových objednávek
 - $\$/tpmC$ - kolik mě jedna nová objednávka stojí peněz
-  <!--ID: 1735205748911-->
-  END
+<!--ID: 1735205748911-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy transakcí v TCP-C benchmarku? (5)
 
@@ -103,13 +116,16 @@ Back:
 - delivery
 - order-status
 - stock-level
-  <!--ID: 1735205748913-->
-  END
+<!--ID: 1735205748913-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje simulace v TPC-C?
 
@@ -135,6 +151,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je kritika TPC-C benchmarku?
 
 Back:
@@ -148,6 +166,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na co slouží benchmarky TPC-E a TPC-C? Na OLTP nebo OLAP?
 
@@ -165,6 +185,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Na jaké téma je zaměřený TPC-E?
 
 Back:
@@ -179,19 +201,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké metriky se sledují u benchmarku TPC-E?
 
 Back:
 
 - $TPsE$ - transactions per second u **jakékoliv** transakce
 - $Price/TPsE$
-  <!--ID: 1735205748926-->
-  END
+<!--ID: 1735205748926-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se liší TPC-E od TPC-C?
 
@@ -216,6 +243,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je nevýhoda TPC-C
 
 Back:
@@ -229,6 +258,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký je příklad OLAP benchmarku?
 
@@ -244,6 +275,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je velký rozdíl TPC-H benchmarku oproti těm ostatním?
 
 Back:
@@ -257,6 +290,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké metriky se měří u TPC-H bechmarku?
 

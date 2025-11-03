@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - die Wand,-"e 6
 - wann 5
 - warm, wärmer, am wärmsten 1
@@ -59,6 +61,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 zeď
 
 Back:
@@ -67,12 +71,15 @@ die Wand,-"e
 
 Tags: lesson6
 <!--ID: 1758825178477-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kdy
 
@@ -82,12 +89,15 @@ wann
 
 Tags: lesson5
 <!--ID: 1758825178481-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 teplý, teplejší, nejteplejší
 
@@ -97,12 +107,15 @@ warm, wärmer, am wärmsten
 
 Tags: lesson1
 <!--ID: 1758825178484-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čekat
 
@@ -112,12 +125,15 @@ warten
 
 Tags: lesson5
 <!--ID: 1758825178487-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 co
 
@@ -127,12 +143,15 @@ was
 
 Tags: lesson1
 <!--ID: 1758825178489-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 co za ...
 
@@ -142,12 +161,15 @@ was für ein ...
 
 Tags: lesson4
 <!--ID: 1758825178492-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 umyvadlo
 
@@ -157,12 +179,15 @@ das Waschbecken,-
 
 Tags: lesson4
 <!--ID: 1758825178495-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pračka
 
@@ -172,12 +197,15 @@ die Waschmaschine,-n
 
 Tags: lesson4
 <!--ID: 1758825178498-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 voda
 
@@ -187,12 +215,15 @@ das Wasser,-
 
 Tags: lesson1
 <!--ID: 1758825178500-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vyměnit
 
@@ -202,12 +233,15 @@ wechseln
 
 Tags: lesson3
 <!--ID: 1758825178504-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 budík
 
@@ -217,12 +251,15 @@ der Wecker,-
 
 Tags: lesson5
 <!--ID: 1758825178507-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cesta
 
@@ -232,12 +269,15 @@ der Weg,-e
 
 Tags: lesson6
 <!--ID: 1758825178509-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 víno
 
@@ -247,12 +287,15 @@ der Wein,-e
 
 Tags: lesson3
 <!--ID: 1758825178512-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dále
 
@@ -262,12 +305,15 @@ weiter
 
 Tags: lesson4
 <!--ID: 1758825178515-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 předat dál
 
@@ -277,12 +323,15 @@ weitergeben
 
 Tags: lesson4
 <!--ID: 1758825178525-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 svět
 
@@ -292,12 +341,15 @@ die Welt,-en
 
 Tags: lesson6
 <!--ID: 1758825178529-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 světově známý
 
@@ -307,12 +359,15 @@ weltbekannt
 
 Tags: lesson1
 <!--ID: 1758825178532-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 když; pokud
 
@@ -322,12 +377,15 @@ wenn
 
 Tags: lesson6
 <!--ID: 1758825178535-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kdo
 
@@ -337,12 +395,15 @@ wer
 
 Tags: lesson2
 <!--ID: 1758825178538-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 reklama
 
@@ -352,12 +413,15 @@ die Werbung,-
 
 Tags: lesson6
 <!--ID: 1758825178541-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 západ
 
@@ -367,12 +431,15 @@ der Westen,-
 
 Tags: lesson3
 <!--ID: 1758825178544-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 důležitý
 
@@ -382,12 +449,15 @@ wichtig
 
 Tags: lesson1
 <!--ID: 1758825178546-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jak
 
@@ -397,12 +467,15 @@ wie
 
 Tags: lesson1
 <!--ID: 1758825178549-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Prosím?
 
@@ -412,12 +485,15 @@ Wie bitte?
 
 Tags: lesson2
 <!--ID: 1758825178552-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se máš?
 
@@ -427,12 +503,15 @@ Wie geht's?
 
 Tags: lesson3
 <!--ID: 1758825178555-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kolik (počitatelné)
 
@@ -442,12 +521,15 @@ wie viel
 
 Tags: lesson5
 <!--ID: 1758825178557-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 opakovat
 
@@ -457,12 +539,15 @@ wiederholen
 
 Tags: lesson2
 <!--ID: 1758825178560-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zimní sporty
 
@@ -472,12 +557,15 @@ der Wintersport,-
 
 Tags: lesson1
 <!--ID: 1758825178563-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 opravdu
 
@@ -487,12 +575,15 @@ wirklich
 
 Tags: lesson4
 <!--ID: 1758825178566-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kde
 
@@ -502,12 +593,15 @@ wo
 
 Tags: lesson1
 <!--ID: 1758825178568-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 týden
 
@@ -517,12 +611,15 @@ die Woche,-n
 
 Tags: lesson5
 <!--ID: 1758825178571-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 den týdne
 
@@ -532,12 +629,15 @@ der Wochentag,-e
 
 Tags: lesson5
 <!--ID: 1758825178574-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 odkud
 
@@ -547,12 +647,15 @@ woher
 
 Tags: lesson2
 <!--ID: 1758825178577-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 bydlet
 
@@ -562,12 +665,15 @@ wohnen
 
 Tags: lesson2
 <!--ID: 1758825178580-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 forma bydlení
 
@@ -577,12 +683,15 @@ die Wohnform,-en
 
 Tags: lesson4
 <!--ID: 1758825178583-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 byt
 
@@ -592,12 +701,15 @@ die Wohnung,-en
 
 Tags: lesson4
 <!--ID: 1758825178585-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 obývací pokoj
 
@@ -607,12 +719,15 @@ das Wohnzimmer,-
 
 Tags: lesson4
 <!--ID: 1758825178588-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 slovo
 
@@ -622,12 +737,15 @@ das Wort,-"er
 
 Tags: lesson1
 <!--ID: 1758825178590-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přízvuk slova
 
@@ -637,12 +755,15 @@ der Wortakzent,-e
 
 Tags: lesson1
 <!--ID: 1758825178593-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 slovník (kniha)
 
@@ -652,12 +773,15 @@ das Wörterbuch,-"er
 
 Tags: lesson2
 <!--ID: 1758825178596-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 seznam slov
 
@@ -667,12 +791,15 @@ die Wörterliste,-n
 
 Tags: lesson2
 <!--ID: 1758825178598-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 síť slov
 
@@ -682,12 +809,15 @@ das Wörternetz,-e
 
 Tags: lesson4
 <!--ID: 1758825178601-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 karta se slovem
 
@@ -697,12 +827,15 @@ die Wortkarte,-n
 
 Tags: lesson4
 <!--ID: 1758825178604-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 slovní zásoba
 
@@ -712,12 +845,15 @@ der Wortschatz,-
 
 Tags: lesson4
 <!--ID: 1758825178607-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 o čem
 
@@ -727,6 +863,7 @@ worüber
 
 Tags: lesson3
 <!--ID: 1758825178610-->
+
 END
 
 ---

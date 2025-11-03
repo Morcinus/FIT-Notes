@@ -7,8 +7,11 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI-Generator
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230142339.png)
 
@@ -28,6 +31,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241231165637.png)
 
 Back:
@@ -43,6 +48,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230160718.png)
 
@@ -60,6 +67,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101143309.png)
 
 Back:
@@ -75,6 +84,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230143437.png)
 
@@ -95,6 +106,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101162613.png)
 
 Back:
@@ -114,6 +127,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230145025.png)
 
 Back:
@@ -129,6 +144,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230154032.png)
 
@@ -150,6 +167,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230160828.png)
 
 Back:
@@ -169,6 +188,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231155030.png)
 
@@ -190,6 +211,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101131842.png)
 
 Back:
@@ -209,6 +232,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231153324.png)
 
@@ -230,6 +255,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101131137.png)
 
 Back:
@@ -250,6 +277,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101163957.png)
 
 Back:
@@ -269,6 +298,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230140811.png)
 
@@ -292,6 +323,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230145712.png)
 
 Back:
@@ -311,6 +344,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230160935.png)
 
@@ -332,6 +367,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101141429.png)
 
 Back:
@@ -351,6 +388,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230151334.png)
 
@@ -372,6 +411,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230153049.png)
 
 Back:
@@ -389,6 +430,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230154621.png)
 
@@ -409,6 +452,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231161219.png)
 
@@ -432,6 +477,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231163153.png)
 
@@ -462,6 +509,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241231145239.png)
 
 Back:
@@ -481,6 +530,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231152732.png)
 
@@ -502,6 +553,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241231165606.png)
 
 Back:
@@ -521,6 +574,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020250101133727.png)
 
@@ -542,6 +597,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241231154617.png)
 
 Back:
@@ -561,6 +618,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020250101134321.png)
 
@@ -583,6 +642,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020250101134625.png)
 
@@ -610,6 +671,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231153222.png)
 
@@ -639,6 +702,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230140315.png)
 
 Back:
@@ -655,6 +720,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230152916.png)
 
 Back:
@@ -670,6 +737,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020250101144315.png)
 
@@ -689,6 +758,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241230152440.png)
 
 Back:
@@ -704,6 +775,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230152955.png)
 
@@ -721,6 +794,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241231154933.png)
 
 Back:
@@ -736,6 +811,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230152521.png)
 
@@ -758,6 +835,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230161016.png)
 
@@ -792,6 +871,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020241231154342.png)
 
 Back:
@@ -815,6 +896,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231165656.png)
 
@@ -848,6 +931,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101144934.png)
 
 Back:
@@ -863,6 +948,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230152755.png)
 
@@ -897,6 +984,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241230161004.png)
 
@@ -938,6 +1027,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231154328.png)
 
@@ -986,6 +1077,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020241231165713.png)
 
@@ -1055,6 +1148,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 ![](../../../Assets/Pasted%20image%2020250101144918.png)
 
 Back:
@@ -1116,6 +1211,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ![](../../../Assets/Pasted%20image%2020250103173928.png)
 

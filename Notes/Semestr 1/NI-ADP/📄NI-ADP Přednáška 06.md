@@ -7,10 +7,13 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska06 status-toReview
 
+
 ### Template method
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Template method** pattern?
 
@@ -40,6 +43,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký typ design patternu je **Template method** pattern?
 
 Back:
@@ -55,6 +60,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Mediator** design pattern?
 
@@ -99,6 +106,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Chain of responsibility** design pattern?
 
 Back:
@@ -121,6 +130,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je rozdíl mezi **Chain of responsibility a proxy**?
 
 Back:
@@ -135,6 +146,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Posílá se v **chain of reponsibilty** ten stejný typ objektu nebo ten jiný?
 
 Back:
@@ -148,6 +161,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Má chain of responsibility lineární strukturu?
 
@@ -166,6 +181,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **Observer** design pattern?
 
@@ -191,6 +208,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Strategy pattern**?
 
 Back:
@@ -215,6 +234,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Command** design pattern?
 
@@ -244,6 +265,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **State** design pattern?
 
 Back:
@@ -272,6 +295,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Visitor** design pattern?
 

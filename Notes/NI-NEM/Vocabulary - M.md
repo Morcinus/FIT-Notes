@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - m^2 (= Quadratmeter) 4
 - machen 4
 - das Mädchen,- 3
@@ -78,6 +80,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 m² (= metr čtvereční)
 
 Back:
@@ -86,12 +90,15 @@ m^2 (= Quadratmeter)
 
 Tags: lesson4
 <!--ID: 1758825179603-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dělat
 
@@ -101,12 +108,15 @@ machen
 
 Tags: lesson4
 <!--ID: 1758825179606-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dívka
 
@@ -116,12 +126,15 @@ das Mädchen,-
 
 Tags: lesson3
 <!--ID: 1758825179608-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kveten
 
@@ -131,12 +144,15 @@ der Mai,-
 
 Tags: lesson6
 <!--ID: 1758825179611-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 x-krát; krát
 
@@ -146,12 +162,15 @@ mal
 
 Tags: lesson3
 <!--ID: 1758825179614-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 se; člověk (neutrální podmět)
 
@@ -161,12 +180,15 @@ man
 
 Tags: lesson3
 <!--ID: 1758825179617-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 občas
 
@@ -176,12 +198,15 @@ manchmal
 
 Tags: lesson5
 <!--ID: 1758825179620-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 muž
 
@@ -191,12 +216,15 @@ der Mann,-"er
 
 Tags: lesson2
 <!--ID: 1758825179623-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 marketing
 
@@ -206,12 +234,15 @@ das Marketing,-
 
 Tags: lesson6
 <!--ID: 1758825179626-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 označit
 
@@ -221,12 +252,15 @@ markieren
 
 Tags: lesson1
 <!--ID: 1758825179628-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tržiště; náměstí
 
@@ -236,12 +270,15 @@ der Marktplatz,-"e
 
 Tags: lesson4
 <!--ID: 1758825179631-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pohádka
 
@@ -251,12 +288,15 @@ das Märchen,-
 
 Tags: lesson1
 <!--ID: 1758825179634-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 březen
 
@@ -266,12 +306,15 @@ der März,-
 
 Tags: lesson6
 <!--ID: 1758825179637-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 materiál
 
@@ -281,12 +324,15 @@ das Material,- Materialien
 
 Tags: lesson1
 <!--ID: 1758825179640-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 myš (počítač)
 
@@ -296,12 +342,15 @@ die Maus,-"e (Computer)
 
 Tags: lesson6
 <!--ID: 1758825179643-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 medicína
 
@@ -311,12 +360,15 @@ die Medizin,-en
 
 Tags: lesson6
 <!--ID: 1758825179645-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 medicínská technologie
 
@@ -326,12 +378,15 @@ die Medizintechnologie,-n
 
 Tags: lesson4
 <!--ID: 1758825179648-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 více (než)
 
@@ -341,12 +396,15 @@ mehr (als)
 
 Tags: lesson3
 <!--ID: 1758825179651-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 několik(eré)
 
@@ -356,12 +414,15 @@ mehrere
 
 Tags: lesson4
 <!--ID: 1758825179653-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mnohojazyčnost
 
@@ -371,12 +432,15 @@ die Mehrsprachigkeit,-
 
 Tags: lesson3
 <!--ID: 1758825179656-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 můj, můj, moje
 
@@ -386,12 +450,15 @@ mein, mein, meine
 
 Tags: lesson2
 <!--ID: 1758825179659-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 většina
 
@@ -401,12 +468,15 @@ meisten
 
 Tags: lesson3
 <!--ID: 1758825179662-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 většinou
 
@@ -416,12 +486,15 @@ meistens
 
 Tags: lesson5
 <!--ID: 1758825179664-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hlásit
 
@@ -431,12 +504,15 @@ melden
 
 Tags: lesson5
 <!--ID: 1758825179667-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 melodie
 
@@ -446,12 +522,15 @@ die Melodie,-n
 
 Tags: lesson3
 <!--ID: 1758825179670-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 člověk
 
@@ -461,12 +540,15 @@ der Mensch,-en
 
 Tags: lesson4
 <!--ID: 1758825179673-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 veletrh; mše
 
@@ -476,12 +558,15 @@ die Messe,-n
 
 Tags: lesson6
 <!--ID: 1758825179675-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 náj. smlouva
 
@@ -491,12 +576,15 @@ der Mietvertrag,-"e
 
 Tags: lesson5
 <!--ID: 1758825179678-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mléčná káva
 
@@ -506,12 +594,15 @@ der Milchkaffee,-
 
 Tags: lesson1
 <!--ID: 1758825179681-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 milion
 
@@ -521,12 +612,15 @@ die Million,-en
 
 Tags: lesson1
 <!--ID: 1758825179684-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 milionové město
 
@@ -536,12 +630,15 @@ die Millionenstadt,-"e
 
 Tags: lesson1
 <!--ID: 1758825179686-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 minerální voda
 
@@ -551,12 +648,15 @@ das Mineralwasser,-
 
 Tags: lesson1
 <!--ID: 1758825179689-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 minimetropole
 
@@ -566,12 +666,15 @@ die Minimetropole,-n
 
 Tags: lesson4
 <!--ID: 1758825179692-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 minuta
 
@@ -581,12 +684,15 @@ die Minute,-n
 
 Tags: lesson4
 <!--ID: 1758825179694-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 s (předložka)
 
@@ -596,12 +702,15 @@ mit
 
 Tags: lesson2
 <!--ID: 1758825179697-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít spolu
 
@@ -611,12 +720,15 @@ mitkommen
 
 Tags: lesson5
 <!--ID: 1758825179700-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 číst spolu
 
@@ -626,12 +738,15 @@ mitlesen
 
 Tags: lesson1
 <!--ID: 1758825179703-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 spolupracovat; účastnit se
 
@@ -641,12 +756,15 @@ mitmachen
 
 Tags: lesson3
 <!--ID: 1758825179705-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 psát s (někým)
 
@@ -656,12 +774,15 @@ mitschreiben
 
 Tags: lesson1
 <!--ID: 1758825179708-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 poledne
 
@@ -671,12 +792,15 @@ der Mittag,-e
 
 Tags: lesson5
 <!--ID: 1758825179711-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 oběd
 
@@ -686,12 +810,15 @@ das Mittagessen
 
 Tags: lesson5
 <!--ID: 1758825179714-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přestávka na oběd
 
@@ -701,12 +828,15 @@ die Mittagspause,-n
 
 Tags: lesson5
 <!--ID: 1758825179716-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 půlnoc
 
@@ -716,12 +846,15 @@ die Mitternacht,-
 
 Tags: lesson5
 <!--ID: 1758825179719-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 středa
 
@@ -731,12 +864,15 @@ der Mittwoch,-e
 
 Tags: lesson5
 <!--ID: 1758825179722-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nádobí (mobilář)
 
@@ -746,12 +882,15 @@ das Möbel,-
 
 Tags: lesson4
 <!--ID: 1758825179725-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kousek nábytku
 
@@ -761,12 +900,15 @@ das Möbelstück,-e
 
 Tags: lesson1
 <!--ID: 1758825179727-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rád bych (chtít)
 
@@ -776,12 +918,15 @@ möchten (mögen)
 
 Tags: lesson4
 <!--ID: 1758825179730-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 moderní
 
@@ -791,12 +936,15 @@ modern
 
 Tags: lesson4
 <!--ID: 1758825179733-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mít rád
 
@@ -806,12 +954,15 @@ mögen
 
 Tags: lesson4
 <!--ID: 1758825179736-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 možnost
 
@@ -821,12 +972,15 @@ der Möglichkeit,-e
 
 Tags: lesson4
 <!--ID: 1758825179738-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 moment (v tuto chvíli)
 
@@ -836,12 +990,15 @@ der Moment,-e (im Moment)
 
 Tags: lesson2
 <!--ID: 1758825179741-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 monitor
 
@@ -851,12 +1008,15 @@ der Monitor,-e
 
 Tags: lesson6
 <!--ID: 1758825179744-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pondělí
 
@@ -866,12 +1026,15 @@ der Montag,-e
 
 Tags: lesson5
 <!--ID: 1758825179747-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zítra
 
@@ -881,12 +1044,15 @@ morgen
 
 Tags: lesson4
 <!--ID: 1758825179749-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ráno
 
@@ -896,12 +1062,15 @@ der Morgen,-
 
 Tags: lesson5
 <!--ID: 1758825179752-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ráno (obvykle)
 
@@ -911,12 +1080,15 @@ morgens
 
 Tags: lesson5
 <!--ID: 1758825179755-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mince
 
@@ -926,12 +1098,15 @@ die Münze,-n
 
 Tags: lesson1
 <!--ID: 1758825179757-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 muzeum
 
@@ -941,12 +1116,15 @@ das Museum (pl.: Museen)
 
 Tags: lesson4
 <!--ID: 1758825179760-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 hudba
 
@@ -956,12 +1134,15 @@ die Musik,-en
 
 Tags: lesson1
 <!--ID: 1758825179763-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 muzikant
 
@@ -971,12 +1152,15 @@ der Musiker,-
 
 Tags: lesson4
 <!--ID: 1758825179765-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 muzikantka
 
@@ -986,12 +1170,15 @@ die Musikerin,-nen
 
 Tags: lesson4
 <!--ID: 1758825179768-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 fanoušek hudby
 
@@ -1001,12 +1188,15 @@ der Musikfan,-s
 
 Tags: lesson6
 <!--ID: 1758825179771-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 musit; muset
 
@@ -1016,12 +1206,15 @@ müssen
 
 Tags: lesson2
 <!--ID: 1758825179774-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mateřský jazyk
 
@@ -1031,6 +1224,7 @@ die Muttersprache,-n
 
 Tags: lesson3
 <!--ID: 1758825179777-->
+
 END
 
 ---

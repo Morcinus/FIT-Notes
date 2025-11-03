@@ -7,6 +7,7 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM
 FILE TAGS: NI-NEM lesson02 status-toReview
 
+
 ### Wann?
 
 ### Slovíčka
@@ -123,18 +124,23 @@ FILE TAGS: NI-NEM lesson02 status-toReview
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaro
 
 Back:
 
 r Frühling
 <!--ID: 1759407075424-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Léto
 
@@ -142,12 +148,15 @@ Back:
 
 r Sommer
 <!--ID: 1759407075427-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Podzim
 
@@ -155,12 +164,15 @@ Back:
 
 r Herbst
 <!--ID: 1759407075431-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zima
 
@@ -168,12 +180,15 @@ Back:
 
 r Winter
 <!--ID: 1759407075434-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 včera
 
@@ -181,12 +196,15 @@ Back:
 
 gestern
 <!--ID: 1759407075437-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dneska
 
@@ -194,12 +212,15 @@ Back:
 
 heute
 <!--ID: 1759407075440-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přesně
 
@@ -207,12 +228,15 @@ Back:
 
 genau
 <!--ID: 1759407075443-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 denní program
 
@@ -220,12 +244,15 @@ Back:
 
 s Tagesprogramm
 <!--ID: 1759407075446-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 časně (brzo)
 
@@ -233,12 +260,15 @@ Back:
 
 früh
 <!--ID: 1759407075449-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zítra ráno
 
@@ -246,12 +276,15 @@ Back:
 
 morgen früh
 <!--ID: 1759407075451-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vstávat
 
@@ -259,12 +292,15 @@ Back:
 
 aufstehen
 <!--ID: 1759407075454-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 snídat
 
@@ -272,12 +308,15 @@ Back:
 
 frühstücken
 <!--ID: 1759407075457-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 pracovat
 
@@ -285,12 +324,15 @@ Back:
 
 arbeiten
 <!--ID: 1759407075460-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jíst
 
@@ -298,12 +340,15 @@ Back:
 
 essen
 <!--ID: 1759407075465-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vyrazit si někam (ven)
 
@@ -311,12 +356,15 @@ Back:
 
 ausgehen
 <!--ID: 1759407075468-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít spát
 
@@ -324,12 +372,15 @@ Back:
 
 schlafen gehen
 <!--ID: 1759407075472-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 stát
 
@@ -337,12 +388,15 @@ Back:
 
 stehen
 <!--ID: 1759407075475-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 rozumět
 
@@ -350,12 +404,15 @@ Back:
 
 verstehen
 <!--ID: 1759407075478-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít do posilovny
 
@@ -363,12 +420,15 @@ Back:
 
 ins Fitnesstudio gehen
 <!--ID: 1759407075481-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jdu domů
 
@@ -376,12 +436,15 @@ Back:
 
 ich gehe nach Hause
 <!--ID: 1759407075484-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou neodlučitelné předpony v němčině?
 
@@ -389,12 +452,15 @@ Back:
 
 be, ge, emp, ent, er, ver, zer, (miss)
 <!--ID: 1759407075488-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou odlučitelné předpony v němčině?
 
@@ -402,12 +468,15 @@ Back:
 
 aus, bei, mit, nach, von, zu, ...
 <!--ID: 1759407075491-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Vstávám v šest hodin.
 
@@ -415,12 +484,15 @@ Back:
 
 Ich stehe um sechs Uhr auf.
 <!--ID: 1759407075494-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Snídám v šest patnáct.
 
@@ -428,12 +500,15 @@ Back:
 
 Ich frühstücke um Viertel nach sechs.
 <!--ID: 1759407075497-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jdu v půl sedmé na univerzitu.
 
@@ -441,12 +516,15 @@ Back:
 
 Ich gehe um halb sieben zur Uni.
 <!--ID: 1759407075500-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Obědvám ve dvanáct třicet.
 
@@ -454,12 +532,15 @@ Back:
 
 Ich esse um halb eins zu Mittag.
 <!--ID: 1759407075503-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jdu domů v devatenáct hodin.
 
@@ -467,12 +548,15 @@ Back:
 
 Ich gehe um neunzehn Uhr nach Hause.
 <!--ID: 1759407075506-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Večer jdeme ven.
 
@@ -480,12 +564,15 @@ Back:
 
 Wir gehen am Abend aus.
 <!--ID: 1759407075509-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jdu spát v deset patnáct.
 
@@ -493,12 +580,15 @@ Back:
 
 Ich gehe um Viertel nach zehn schlafen.
 <!--ID: 1759407075512-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Pracuji od devíti do pěti.
 
@@ -506,12 +596,15 @@ Back:
 
 Ich arbeite von neun bis fünf.
 <!--ID: 1759407075515-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Stojím před domem.
 
@@ -519,12 +612,15 @@ Back:
 
 Ich stehe vor dem Haus.
 <!--ID: 1759407075518-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Rozumím ti.
 
@@ -532,12 +628,15 @@ Back:
 
 Ich verstehe dich.
 <!--ID: 1759407075521-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Odpoledne jdu do posilovny.
 
@@ -545,12 +644,15 @@ Back:
 
 Ich gehe am Nachmittag ins Fitnesstudio.
 <!--ID: 1759407075525-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Ráno vstávám v šest hodin.
 
@@ -558,12 +660,15 @@ Back:
 
 Am Morgen stehe ich um sechs Uhr auf.
 <!--ID: 1759407075528-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Dopoledne se učím.
 
@@ -571,12 +676,15 @@ Back:
 
 Am Vormittag lerne ich.
 <!--ID: 1759407075531-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V poledne jím.
 
@@ -584,12 +692,15 @@ Back:
 
 Am Mittag esse ich.
 <!--ID: 1759407075536-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Odpoledne pracuji.
 
@@ -597,12 +708,15 @@ Back:
 
 Am Nachmittag arbeite ich.
 <!--ID: 1759407075539-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Večer čtu.
 
@@ -610,12 +724,15 @@ Back:
 
 Am Abend lese ich.
 <!--ID: 1759407075542-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V noci spím.
 
@@ -623,12 +740,15 @@ Back:
 
 In der Nacht schlafe ich.
 <!--ID: 1759407075545-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Ráno piju kávu.
 
@@ -636,12 +756,15 @@ Back:
 
 Morgens trinke ich Kaffee.
 <!--ID: 1759407075548-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Večer se díváme na televizi.
 
@@ -649,12 +772,15 @@ Back:
 
 Abends sehen wir fern.
 <!--ID: 1759407075552-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na jaře jezdím na kole.
 
@@ -662,12 +788,15 @@ Back:
 
 Im Frühling fahre ich Fahrrad.
 <!--ID: 1759407075555-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V létě plavu v jezeře.
 
@@ -675,12 +804,15 @@ Back:
 
 Im Sommer schwimme ich im See.
 <!--ID: 1759407075558-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na podzim často prší.
 
@@ -688,12 +820,15 @@ Back:
 
 Im Herbst regnet es oft.
 <!--ID: 1759407075561-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V zimě lyžuji.
 
@@ -701,12 +836,15 @@ Back:
 
 Im Winter fahre ich Ski.
 <!--ID: 1759407075564-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Prohlížím si fotky.
 
@@ -714,12 +852,15 @@ Back:
 
 Ich sehe mir die Fotos an.
 <!--ID: 1759407075567-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Moje babička se často dívá na televizi.
 
@@ -727,12 +868,15 @@ Back:
 
 Meine Oma sieht oft fern.
 <!--ID: 1759407075570-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy vstáváš o víkendu?
 
@@ -740,12 +884,15 @@ Back:
 
 Wann stehst du am Wochenende auf?
 <!--ID: 1759407075573-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Hned se představím: Jmenuji se Petr.
 
@@ -753,12 +900,15 @@ Back:
 
 Ich stelle mich gleich vor: Mein Name ist Peter.
 <!--ID: 1759407075576-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Moje maminka ráda a hodně nakupuje.
 
@@ -766,12 +916,15 @@ Back:
 
 Meine Mutter kauft gern und viel ein.
 <!--ID: 1759407075580-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V pátek jdeme s mými přáteli ven.
 
@@ -779,12 +932,15 @@ Back:
 
 Am Freitag gehen meine Freunde und ich aus.
 <!--ID: 1759407075583-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jdeme do kina. Jdeš s námi?
 
@@ -792,12 +948,15 @@ Back:
 
 Wir gehen ins Kino. Kommst du mit?
 <!--ID: 1759407075586-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zavoláš mi dnes?
 
@@ -805,12 +964,15 @@ Back:
 
 Rufst du mich heute an?
 <!--ID: 1759407075589-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Přiřaďte texty k obrázkům!
 
@@ -818,12 +980,15 @@ Back:
 
 Ordnen Sie die Texte den Bildern zu!
 <!--ID: 1759407075592-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Zaškrtněte správnou odpověď!
 
@@ -831,12 +996,15 @@ Back:
 
 Kreuzen Sie die richtige Antwort an!
 <!--ID: 1759407075595-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 prohlížet si (něco)
 
@@ -844,12 +1012,15 @@ Back:
 
 sich (etwas) ansehen
 <!--ID: 1759407075598-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dívat se na televizi
 
@@ -857,12 +1028,15 @@ Back:
 
 fernsehen
 <!--ID: 1759407075600-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vstávat
 
@@ -877,18 +1051,23 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 představit se
 
 Back:
 
 sich vorstellen
 <!--ID: 1759407075605-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nakupovat
 
@@ -896,12 +1075,15 @@ Back:
 
 einkaufen
 <!--ID: 1759407075608-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít ven (za zábavou)
 
@@ -909,12 +1091,15 @@ Back:
 
 ausgehen
 <!--ID: 1759407075611-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přidat se / jít s někým
 
@@ -922,12 +1107,15 @@ Back:
 
 mitkommen
 <!--ID: 1759407075614-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zavolat (někomu)
 
@@ -935,12 +1123,15 @@ Back:
 
 anrufen
 <!--ID: 1759407075617-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přiřadit
 
@@ -948,12 +1139,15 @@ Back:
 
 zuordnen
 <!--ID: 1759407075620-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zaškrtnout
 
@@ -961,6 +1155,7 @@ Back:
 
 ankreuzen
 <!--ID: 1759407075623-->
+
 END
 
 ---
@@ -968,10 +1163,13 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 jít
 
 Back:
 
 gehen
 <!--ID: 1759407075626-->
+
 END

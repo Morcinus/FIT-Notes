@@ -10,11 +10,14 @@ FILE TAGS: NI-MPI prednaska13 status-toReview algebra3
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co platí pro inverzní prvek generátoru grupy?
 
 Back:
 
 je také generátor
+
 <!--ID: 1735205749355-->
 
 END
@@ -23,6 +26,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: řád prvku grupy ($\text{ord}(g)$)
 
@@ -37,6 +42,7 @@ Jinými slovy řád prvku mi říká, kolikrát musím prvek "umocnit", abych do
 <!-- InformallySaidEnd -->
 
 Tags: core
+
 <!--ID: 1735205749357-->
 
 END
@@ -45,6 +51,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Cyklická grupa
 
@@ -66,6 +74,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: Jaký řád musí mít $\mathbb{Z}_n^\times$, aby byla cyklická?
 
 Back:
@@ -79,6 +89,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: core
+
 <!--ID: 1735205749360-->
 
 END
@@ -87,6 +98,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: $a$ je generátor, potom $a^k$ je generátor
 
@@ -102,6 +115,7 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
+
 <!--ID: 1735205749362-->
 
 END
@@ -110,6 +124,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Důsledek: řád grupy a $\varphi$
 
@@ -124,6 +140,7 @@ Back:
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205749365-->
 
 END
@@ -133,6 +150,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Kolik generátorů má grupa $\mathbb{Z}_p^\times$, kde $p$ je prvočíslo?
 
 Back:
@@ -140,6 +159,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127132308.png)
 
 Tags: core
+
 <!--ID: 1735205749367-->
 
 END
@@ -148,6 +168,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: podgrupa cyklické grupy
 
@@ -162,6 +184,7 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
+
 <!--ID: 1735205749370-->
 
 END
@@ -170,6 +193,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: co platí pro všechny prvky $a \in M$ grupy $G = (M, \circ)$
 
@@ -184,6 +209,7 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
+
 <!--ID: 1735205749372-->
 
 END
@@ -192,6 +218,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Důsledek: Malá Fermatova věta
 
@@ -207,6 +235,7 @@ Je to důsledek (jakoby konkrétnější případ) této věty:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749375-->
 
 END
@@ -214,20 +243,22 @@ END
 ---
 
 START
-Basic
+FIT-Card
 Jak vyřešit $x^\text{obri cislo} \pmod{m}$?
 Back:
 
 1. Ověřím, jestli $gcd(x,m) = 1$, pokud ano, mohu použít Fermatovu/Eulerovu větu
 2. Použiju Fermatovu/Eulerovu větu -> získám $x^s \equiv 1 \pmod{m}$
 3. Spočtu původní číslo tak, že využiju $x^s \equiv 1$ a zároveň to modulo. Tím se dostanu k výsledku
-
-END
+   <!--ID: 1762184495621-->
+   END
 
 ### Homomorfismy a isomorfismy
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: homomorfismus, izomorfismus grupoidů
 
@@ -243,6 +274,7 @@ Izomorfismus = je navíc bijekcí
 <!-- InformallySaidEnd -->
 
 Tags: core
+
 <!--ID: 1735205749377-->
 
 END
@@ -251,6 +283,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **monomorfismus**
 
@@ -277,6 +311,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **epimorfismus**
 
 Back:
@@ -300,6 +336,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **izomorfismus**
 
 Back:
@@ -316,6 +354,7 @@ Bijektivní znamená, že každému prvku z $A$ odpovídá právě jeden prvek z
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735223297374-->
 
 END
@@ -325,11 +364,14 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: izomorfní grupy
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241127135144.png)
+
 <!--ID: 1735205749379-->
 
 END
@@ -338,6 +380,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: homomorfismus grupy do grupoidu $\implies \dots$
 
@@ -352,6 +396,7 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
+
 <!--ID: 1735205749382-->
 
 END

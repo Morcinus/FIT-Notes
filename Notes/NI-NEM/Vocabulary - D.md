@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - da 5
 - daneben 4
 - das Dänisch,- 3
@@ -49,6 +51,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 tamhle; tam
 
 Back:
@@ -57,12 +61,15 @@ da
 
 Tags: lesson5
 <!--ID: 1758825180606-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vedle (toho)
 
@@ -72,12 +79,15 @@ daneben
 
 Tags: lesson4
 <!--ID: 1758825180609-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dánština
 
@@ -87,12 +97,15 @@ das Dänisch,-
 
 Tags: lesson3
 <!--ID: 1758825180612-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 děkuji
 
@@ -102,12 +115,15 @@ danke
 
 Tags: lesson1
 <!--ID: 1758825180615-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 potom; pak
 
@@ -117,12 +133,15 @@ dann
 
 Tags: lesson4
 <!--ID: 1758825180617-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 To je / jsou ...
 
@@ -132,12 +151,15 @@ Das ist / sind ...
 
 Tags: lesson1
 <!--ID: 1758825180620-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 To dělá ...
 
@@ -147,12 +169,15 @@ Das macht ...
 
 Tags: lesson1
 <!--ID: 1758825180627-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mýslet
 
@@ -162,12 +187,15 @@ denken
 
 Tags: lesson5
 <!--ID: 1758825180631-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vždyť; neboť
 
@@ -177,12 +205,15 @@ denn
 
 Tags: lesson3
 <!--ID: 1758825180634-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ten, ta, to (člen určitý)
 
@@ -192,12 +223,15 @@ der, die, das
 
 Tags: lesson1
 <!--ID: 1758825180636-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 němčina
 
@@ -207,12 +241,15 @@ das Deutsch
 
 Tags: lesson1
 <!--ID: 1758825180639-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Němka
 
@@ -222,12 +259,15 @@ die Deutsche,-n
 
 Tags: lesson5
 <!--ID: 1758825180642-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Němec
 
@@ -237,12 +277,15 @@ der Deutsche,-n
 
 Tags: lesson5
 <!--ID: 1758825180644-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kurz němčiny
 
@@ -252,12 +295,15 @@ der Deutschkurs,-e
 
 Tags: lesson1
 <!--ID: 1758825180647-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 učitel němčiny
 
@@ -267,12 +313,15 @@ der Deutschlehrer,-
 
 Tags: lesson2
 <!--ID: 1758825180650-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 učitelka němčiny
 
@@ -282,12 +331,15 @@ die Deutschlehrerin,-
 
 Tags: lesson2
 <!--ID: 1758825180653-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 prosinec
 
@@ -297,12 +349,15 @@ der Dezember,-
 
 Tags: lesson6
 <!--ID: 1758825180655-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dialog
 
@@ -312,12 +367,15 @@ der Dialog,-e
 
 Tags: lesson2
 <!--ID: 1758825180658-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dialogová grafika
 
@@ -327,12 +385,15 @@ die Dialoggrafik,-en
 
 Tags: lesson1
 <!--ID: 1758825180661-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 básník
 
@@ -342,12 +403,15 @@ der Dichter,-
 
 Tags: lesson6
 <!--ID: 1758825180663-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 poetka
 
@@ -357,12 +421,15 @@ die Dichterin,-nen
 
 Tags: lesson6
 <!--ID: 1758825180666-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 úterý (chybně napsáno)
 
@@ -372,12 +439,15 @@ der Dienstaag,-e
 
 Tags: lesson5
 <!--ID: 1758825180669-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dirigovat
 
@@ -387,12 +457,15 @@ dirigieren
 
 Tags: lesson6
 <!--ID: 1758825180672-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 disko
 
@@ -402,12 +475,15 @@ die Disko,-s
 
 Tags: lesson5
 <!--ID: 1758825180674-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 však; přece (protiváha)
 
@@ -417,12 +493,15 @@ doch
 
 Tags: lesson4
 <!--ID: 1758825180677-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dokumentace
 
@@ -432,12 +511,15 @@ die Dokumentation,-en
 
 Tags: lesson1
 <!--ID: 1758825180680-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čtvrtek
 
@@ -447,12 +529,15 @@ der Donnerstag,-e
 
 Tags: lesson5
 <!--ID: 1758825180683-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tam
 
@@ -462,12 +547,15 @@ dort
 
 Tags: lesson4
 <!--ID: 1758825180685-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 na řadě (být)
 
@@ -477,12 +565,15 @@ dran sein
 
 Tags: lesson4
 <!--ID: 1758825180688-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zůstat venku
 
@@ -492,12 +583,15 @@ draußen bleiben
 
 Tags: lesson2
 <!--ID: 1758825180691-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tiskárna
 
@@ -507,12 +601,15 @@ der Drucker,-
 
 Tags: lesson6
 <!--ID: 1758825180693-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ty
 
@@ -522,12 +619,15 @@ du
 
 Tags: lesson1
 <!--ID: 1758825180696-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 tmavý
 
@@ -537,12 +637,15 @@ dunkel
 
 Tags: lesson4
 <!--ID: 1758825180699-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přeškrtnout
 
@@ -552,12 +655,15 @@ durchstreichen
 
 Tags: lesson1
 <!--ID: 1758825180701-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dynamika
 
@@ -567,6 +673,7 @@ die Dynamik
 
 Tags: lesson4
 <!--ID: 1758825180704-->
+
 END
 
 ---

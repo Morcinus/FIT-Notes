@@ -8,10 +8,13 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska07 status-toReview
 
+
 ### Iterátor
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Iterator pattern**?
 
@@ -34,6 +37,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **memento** design pattern?
 
@@ -67,6 +72,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **multiton** pattern?
 
 Back:
@@ -81,8 +88,9 @@ Zero-one-infinity princip:
 
 - Buď bych měl možnost mít nula instancí
   <!-- DetailInfoEnd -->
-  <!--ID: 1736497489525-->
-  END
+<!--ID: 1736497489525-->
+
+END
 
 ---
 
@@ -90,6 +98,8 @@ Zero-one-infinity princip:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je thread pool?
 
@@ -119,6 +129,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Mock object** pattern?
 
 Back:
@@ -140,6 +152,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **dependency injection**?
 
@@ -169,6 +183,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **lazy loading pattern**?
 
 Back:
@@ -186,6 +202,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **null object**?
 
@@ -208,6 +226,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **marker interface** design pattern?
 
@@ -233,6 +253,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je CLEAN architektura?
 
 Back:
@@ -255,6 +277,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je hexagonální architektura?
 

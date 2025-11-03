@@ -7,13 +7,17 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - das Quiz,- 1
 
 ## Flashcards
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kvíz
 
@@ -23,6 +27,7 @@ das Quiz,-
 
 Tags: lesson1
 <!--ID: 1758825178957-->
+
 END
 
 ---

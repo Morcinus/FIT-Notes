@@ -7,11 +7,14 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska11 status-toReview
 
+
 START
 FIT-Card
 
-Back:
+(FIT-Notes flashcard)
 
+Back:
+<!--ID: 1762184361870-->
 END
 
 ---

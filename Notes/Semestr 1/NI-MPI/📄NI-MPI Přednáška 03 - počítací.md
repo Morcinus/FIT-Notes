@@ -6,10 +6,13 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska03 status-toReview analyza2
 
+
 ![](../../../Assets/Pasted%20image%2020241007144131.png)
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co platí pro **Hessovu matici polynomů druhého stupně**?
 
@@ -37,6 +40,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co platí, když má **Hessova matice** na diagonále nulu?
 
 Back:
@@ -53,6 +58,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak souvisí determinant $A$ s definitností?
 
 Pozn. touhle kartičkou si nejsem moc jistý. Něco takového tvrdil Spěvák, ale trochu mi to nesedělo s definicema..
@@ -62,8 +69,9 @@ Back:
 - Když je determinant **kladný**, tak je matice **definitní** nebo **indefinitní**
 - Když je determinant **nula**, tak je matice **semidefinitní** nebo **indefinitní**
 - Když je determinant **záporný**, tak je matice **indefinitní**
-  <!--ID: 1729237386276-->
-  END
+<!--ID: 1729237386276-->
+
+END
 
 ---
 

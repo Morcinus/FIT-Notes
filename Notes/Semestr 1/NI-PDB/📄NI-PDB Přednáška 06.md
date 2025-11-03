@@ -7,10 +7,13 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska06 status-toReview
 
+
 ### Grafové databáze
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **property graph**?
 
@@ -35,6 +38,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou obecně grafové databáze?
 
 Back:
@@ -43,8 +48,9 @@ Mají data jako **graf**
 
 - Jsou tam **efektivní grafové algoritmy** a průchody grafem
 - Umí vytvářet **subgraph queries**
-  <!--ID: 1730978212854-->
-  END
+<!--ID: 1730978212854-->
+
+END
 
 ---
 
@@ -52,6 +58,8 @@ Mají data jako **graf**
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Neo4j**?
 
@@ -75,6 +83,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je struktura Neo4j databáze?
 
 Back:
@@ -89,6 +99,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké vlastnosti property grafu?
 
 Back:
@@ -100,13 +112,16 @@ Property graph = **directed labeled multigraph**
   - Díky tomu se literally dá modelovat OntoUML
   - Můžeme tak třeba říct, že uzel je typu "Movie" nebo "Actor"
 - **multigraph** - mezi dvěma uzlama může být víc hran
-  <!--ID: 1730978212864-->
-  END
+<!--ID: 1730978212864-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké části má **node** v Neo4j databázi?
 
@@ -120,6 +135,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké věci má **vazba** v Neo4j databázi?
 
 Back:
@@ -129,13 +146,16 @@ Má
 - **id**
 - **směr** (ale dá se přecházet přes hrany v obou směrech)
 - **nejvýše jeden label**
-  <!--ID: 1730978212871-->
-  END
+<!--ID: 1730978212871-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké datové typy jsou v Neo4j databázi? (3 typy)
 
@@ -171,6 +191,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Vysvětli následující kód v Neo4j (cypher)
 
 ![](../../../Assets/Pasted%20image%2020241104163238.png)
@@ -179,13 +201,16 @@ Back:
 
 - Pomocí $m1,...$ a $a1,...$ vytvářím nodes s danými identifikátory
 - V druhém kódu se vytváří relationships mezi danými nodes
-  <!--ID: 1730978212880-->
-  END
+<!--ID: 1730978212880-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak dělat byznys podle Michala Valenty? :D
 
@@ -194,8 +219,9 @@ Back:
 1. Udělat open source software
 2. Vybudovat komunitu
 3. Splitnout to na community edition a enterprise edition
-   <!--ID: 1730978212883-->
-   END
+<!--ID: 1730978212883-->
+
+END
 
 ---
 
@@ -203,6 +229,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Cypher**?
 
@@ -218,19 +246,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se v Cypheru zapisují **nodes** a **relationships**?
 
 Back:
 
 - **Nodes** - `()`
 - **Relationships** - `<--, --, -->`
-  <!--ID: 1730978212890-->
-  END
+<!--ID: 1730978212890-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je výsledkem dotazu Cypheru?
 
@@ -260,6 +293,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou typy patternů v **Cypheru**? (3)
 
 Back:
@@ -282,6 +317,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co obsahuje **node pattern**?
 
 Back:
@@ -302,6 +339,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co obsahuje **relationship pattern**?
 
@@ -330,6 +369,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je variable length mode v Cypheru?
 
 `()-[r:FRIEND *..2]-()`
@@ -353,6 +394,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je relationship uniqueness v Cypher?
 
@@ -378,6 +421,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje `MATCH` v Neo4j?
 
@@ -421,6 +466,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje `OPTIONAL` v MATHCH v Cypher?
 
 Back:
@@ -448,6 +495,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je `RETURN` klauzule v Cypheru?
 
@@ -481,6 +530,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak fungují **agregační funkce** v Cypheru?
 
 Back:
@@ -502,6 +553,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje `WITH` v Cypheru?
 
@@ -529,6 +582,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje chainování klauzulí?
 
 Back:
@@ -547,6 +602,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje `UNION` operace v Cypheru?
 
@@ -567,6 +624,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak fungují List a Map operace v Cypheru?
 

@@ -7,10 +7,13 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska11 status-toReview
 
+
 ### Proč genetické algoritmy fungují
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Hypotéza stavebních bloků**?
 
@@ -27,6 +30,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá jinak dívat na genetické algoritmy?
 
@@ -45,6 +50,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je schéma a jeho délka a řád?
 
 Back:
@@ -62,6 +69,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Věta: **o schématech**
 
 Back:
@@ -77,6 +86,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje genetický algoritmus jako zpětnovazební dynamický systém?
 
@@ -100,6 +111,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co zpracovává uniformní křížení ve schématech?
 
 Back:
@@ -113,6 +126,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké dvě věci je třeba udělat u uniformního křížení ve schématech?
 
@@ -130,6 +145,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **Linkage learning**?
 
 Back:
@@ -146,6 +163,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou zavádějící (klamné) funkce?
 
@@ -167,6 +186,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **Kompetentní** genetický algoritmus?
 
 Back:
@@ -187,6 +208,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je Fast Messy genetický algoritmus ($fmGA$)
 
@@ -210,6 +233,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se **kódují** schémata?
 
 Back:
@@ -227,6 +252,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se řeší nedokonalost kódování schémat?
 
@@ -246,6 +273,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se generují schémata?
 
@@ -267,6 +296,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **filtrace schémat**?
 
 Back:
@@ -280,6 +311,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Rekombinace schémat?
 
@@ -304,6 +337,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je princip algoritmů založených na statistických modelech závislostí?
 
 Back:
@@ -319,6 +354,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Bayesovská síť?
 
@@ -338,6 +375,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se používají Bayesovské sítě?
 
 Back:
@@ -354,6 +393,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje Bayesovská optimalizace?
 
@@ -373,6 +414,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje hledání modelů v Bayesovské síti?
 
 Back:
@@ -390,6 +433,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou 2 možnosti granularity u paralelizace evolučních algoritmů?
 

@@ -7,10 +7,13 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska10 status-toReview
 
+
 ## HATEOAS
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Čeho je zkratka HATEOAS?
 
@@ -25,6 +28,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak obecně funguje HATEOAS?
 
@@ -47,6 +52,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak souvisí **HATEOAS** a **statelessness** RESTu?
 
@@ -74,6 +81,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je Atom Syndication Format? Jaké jsou části Atom Linků?
 
 Back:
@@ -98,6 +107,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co se dá použít v rámci `rel` v Atom Links kromě názvu linku?
 
@@ -126,6 +137,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou preconditions a effects v HATEOAS?
 
 Back:
@@ -134,13 +147,16 @@ HATEOAS má dvě podmínky
 
 - **preconditions** - musí být splněny ve stavu než spustím nějakou operaci (předchod do dalšího stavu)
 - **effects** - musí být splněny po vykonání nějaké operace (přechodu do jiného stavu)
-  <!--ID: 1735205749934-->
-  END
+<!--ID: 1735205749934-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je best practice ohledně preconditions v HATEOAS?
 
@@ -168,6 +184,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou hlavní 3 výhody/principy HATEOAS?
 
 Back:
@@ -175,13 +193,16 @@ Back:
 - **location transparency**
 - **loose coupling**
 - **statelessness and cloud**
-  <!--ID: 1735205749939-->
-  END
+<!--ID: 1735205749939-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je princip **location transparency** v HATEOAS?
 
@@ -195,13 +216,16 @@ Jak toho docílíme:
 
 - Publishnu světu jenom **vstupní stav** (entry.level link)
 - Klient si pak naviguje po mém API díky metodám, které mu API dynamicky nabízí pomocí HATEOAS - Díky můžu více měnit backend, aniž bych tím ovlivňoval klienta
-  <!--ID: 1735205749942-->
-  END
+<!--ID: 1735205749942-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je princip **loose coupling** v HATEOAS?
 
@@ -216,6 +240,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je princip **statelessness and cloud** v HATEOAS?
 
@@ -233,19 +259,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč se obecně používá cachování na webu?
 
 Back:
 
 - Zvýšení **škálovatelnosti**
 - **Snížení zátěže** sítě
-  <!--ID: 1735205749954-->
-  END
+<!--ID: 1735205749954-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje obecně cachování? (3 kroky)
 
@@ -271,6 +302,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co znamená v `Cache-Control`:
 
 - `private`
@@ -288,13 +321,16 @@ Back:
 - `no-store` - nesmí se vůbec cachovat
 - `no-transform` - nesmí transformovat cachovací data (např. komprese)
 - `max-age`, `s-maxage` - kolik sekund se můžou data cachovat
-  <!--ID: 1735205749959-->
-  END
+<!--ID: 1735205749959-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co znamená `Last-Modified` a `ETag` hlavička?
 
@@ -321,6 +357,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co znamená `If-Modified-Since` a `If-None-Match` hlavička?
 
 Back:
@@ -344,6 +382,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje cachování pomocí Entity Tagu?
 
 Back:
@@ -366,19 +406,24 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou 2 typy ETagu?
 
 Back:
 
 - weak
 - strong
-  <!--ID: 1735205749969-->
-  END
+<!--ID: 1735205749969-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje weak ETag?
 
@@ -402,6 +447,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje strong ETag?
 
 Back:
@@ -421,6 +468,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké zdroje typicky používají strong etag a jaké weak etag?
 
@@ -448,6 +497,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je výhoda ETagů oproti last modified?
 
 Back:
@@ -463,6 +514,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je obecně concurrency control?
 
@@ -484,6 +537,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je princip optimistic concurrency control?
 
 Back:
@@ -500,6 +555,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je vztah concurrency control a cachování?
 
 Back:
@@ -513,6 +570,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké hlavičky se používají u concurrency control?
 
@@ -528,6 +587,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje concurrency control? (3 kroky)
 
 Back:
@@ -536,8 +597,9 @@ Back:
 2. Klient $A$ provede aktualizaci zdroje s podmínkou `If-Unmodified-Since` + datum
    - Jelikož je podmínka splněná, server řekne `200 OK`
 3. Klient $B$ provede aktualizaci zdroje s podmínkou `If-Unmodified-Since` + datum - Podmínka není splněná (bylo to modifikováno klientem $A$) - Zdroj ale nebude změněn a dostane odpověď - Server odpoví `412 Precondition Failed` - Klient $B$ tak musí znovu udělat `GET` a pak teprve změnit zdroj
-   <!--ID: 1735205749992-->
-   END
+<!--ID: 1735205749992-->
+
+END
 
 ---
 
@@ -545,6 +607,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **Richardson Maturity Model**?
 
@@ -559,6 +623,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou úrovně **Richardson Maturity Model**? (4)
 

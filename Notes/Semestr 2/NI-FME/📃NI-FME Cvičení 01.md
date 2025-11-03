@@ -6,6 +6,7 @@ up: "[[📖NI-FME]]"
 TARGET DECK: archive
 FILE TAGS: NI-FME cviceni01 status-toReview
 
+
 ### Co se očekává od úkolů
 Podle jeho slidů:
 - Četl jsem zadání a porozuměl jsem mu.

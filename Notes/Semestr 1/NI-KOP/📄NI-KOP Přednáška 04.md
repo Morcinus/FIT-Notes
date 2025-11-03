@@ -7,10 +7,13 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska04 status-toReview
 
+
 ### Srovnávání problémů ve třídě
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Problém je $X$-těžký**
 
@@ -34,6 +37,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **Problém je $X$-úplný**
 
 Back:
@@ -54,6 +59,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak poznám který problém je **lehčí** a který **těžší**?
 
@@ -81,6 +88,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je obecně **nejtěžší problém** v nějaké třídě?
 
 Back:
@@ -101,6 +110,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **redukce** problému?
 
 Back:
@@ -116,6 +127,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Rozhodovací problém $\Pi_1$ je **Karp-redukovatelný** na $\Pi_2$
 
@@ -140,6 +153,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: $\Pi_1$ a $\Pi_2$ jsou **polynomiálně ekvivalentní**
 
 Back:
@@ -155,6 +170,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: transitivita Karpovy redukce
 
@@ -178,6 +195,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Problém je NP-těžký
 
 Back:
@@ -192,6 +211,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Problém je NP-úplný (je ve třídě NPC)
 
 Back:
@@ -205,6 +226,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Důsledek: Nechť $\Pi \in NP, \exists \Pi' \in NPC, \Pi' \infty \Pi$, pak také
 
@@ -226,6 +249,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Důsledek: NPC problémy a třída ekvivalence
 
 Back:
@@ -245,6 +270,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Věta: **Cookova věta**
 
@@ -275,6 +302,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou vztahy tříd $P, NP, NPC, NPH$?
 
 Back:
@@ -288,6 +317,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: co-NP těžký a co-NP úplný
 
@@ -303,6 +334,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **výhody** a **nevýhody** NP problémů? (3 a 1)
 
 Back:
@@ -316,13 +349,16 @@ Back:
 **Nevýhody**:
 
 - **Problém je v NPC** - exaktní řešení, v nejhorším případě, může být časově neúnostné
-  <!--ID: 1729236692416-->
-  END
+<!--ID: 1729236692416-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak lze dokázat, že nějaký problém $\Pi$ je **NP-úplný** (NPC)? (3)
 
@@ -366,6 +402,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **varianty** SATu? (co se týče $X$-úplnosti a $\exists$ a $\forall$)
 
 Back:
@@ -383,6 +421,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **problém plánování**?
 
@@ -406,6 +446,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Program $M$ pro deterministický Turingův stroj **řeší optimalizační problém** v čase $t$, jesltiže ,...
 
 Back:
@@ -419,6 +461,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Program $M$ pro deterministický Turingův stroj **počítá optimalizační kritérium** problému $\Pi$ v čase $t$, jestliže $\dots$
 
@@ -435,6 +479,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: Optimalizační problém $\Pi$ **patří do třídy NPO**, jestliže $\dots$
 
@@ -458,6 +504,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: Optimalizační problém $\Pi$ patří do třídy PO, jesltiže $\dots$
 
 Back:
@@ -479,6 +527,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Turingova redukce**
 
@@ -502,6 +552,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Definice: **NP-těžký** problém (pomocí turingovy redukce)
 
 Back:
@@ -518,6 +570,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je vztah tříd $P, NP, NPC, PO, NPO, NPH$?
 
 Back:
@@ -531,6 +585,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Nechť máme rozhodovací problém $TS$ a optimalizační problém $TSO$. Jaký mají vztah (z hlediska těžkosti problémů)?
 
@@ -570,6 +626,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký vztah je **NPH** a **co-NPH** v Karpově redukci?
 
 Back:
@@ -585,6 +643,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký vztah je **NPH** a **co-NPH** v Turingově redukci v polynomiálním čase?
 
@@ -602,6 +662,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je vztah tříd $P, NP, co-NP, NPC, co-NPC, NPH$?
 
 Back:
@@ -615,6 +677,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou dobré zprávy **optimalizačních problémů** v NP? (3)
 
@@ -640,6 +704,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou špatné zprávy optimalizačního problému v NP?
 
 Back:
@@ -663,6 +729,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je třída **NP-intermediate** ($NPI$)?
 
 Back:
@@ -683,6 +751,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaký je příklad problému NPI?
 
 Back:
@@ -702,6 +772,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je třída **NP-P-NPC**?
 

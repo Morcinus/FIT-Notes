@@ -8,10 +8,13 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska10 status-toReview
 
+
 ### Evoluční strategie
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak principielně funguje nasazení **evoluční strategie**?
 
@@ -30,6 +33,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se řídí populace při nasazení evoluční strategie?
 
 Back:
@@ -43,6 +48,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje rekombinace při nasazení evoluční strategie?
 
@@ -70,6 +77,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **centroid** při nasazení evoluční strategie?
 
 Back:
@@ -87,6 +96,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **mutace** u evoluční strategie?
 
 Back:
@@ -103,6 +114,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se vybírají jedinci **pro mutaci** při nasazení **evoluční strategie**? (2)
 
@@ -131,6 +144,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou dvě adaptace při nasazení evoluční strategie?
 
 Back:
@@ -154,6 +169,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **genetické programování**? Jaké jsou 3 reprezentace?
 
@@ -181,6 +198,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je kostra genetického programování?
 
 Back:
@@ -196,6 +215,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje stromová reprezentace v genetickém programování?
 
@@ -213,6 +234,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **inicializace stromové reprezentace** v genetickém programování?
 
 Back:
@@ -228,6 +251,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **křížení stromové reprezentace** v genetickém programování?
 
@@ -245,6 +270,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje **mutace stromové reprezentace** v genetickém programování?
 
 Back:
@@ -261,6 +288,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou automaticky definované funkce v genetickém programování?
 
 Back:
@@ -274,6 +303,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje kartézské genetické programování?
 
@@ -289,6 +320,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje mutace a rekombinace v genetickém programování?
 
@@ -307,6 +340,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak **funguje evoluční programování**?
 

@@ -7,7 +7,9 @@ up: "[[📖NI-NEM]]"
 TARGET DECK: NI-NEM-Vocabulary
 FILE TAGS: NI-NEM-Vocabulary
 
+
 ## Vocabulary
+
 - die Zahl,-en 1
 - zahlen 1
 - zählen 1
@@ -50,6 +52,8 @@ FILE TAGS: NI-NEM-Vocabulary
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 číslo
 
 Back:
@@ -58,12 +62,15 @@ die Zahl,-en
 
 Tags: lesson1
 <!--ID: 1758825178377-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 platit
 
@@ -73,12 +80,15 @@ zahlen
 
 Tags: lesson1
 <!--ID: 1758825178380-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 počítat
 
@@ -88,12 +98,15 @@ zählen
 
 Tags: lesson1
 <!--ID: 1758825178383-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 patřit k (+ akuzativ)
 
@@ -103,12 +116,15 @@ zählen zu (+Akk.)
 
 Tags: lesson6
 <!--ID: 1758825178386-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 číselné loto
 
@@ -118,12 +134,15 @@ das Zahlenlotto,-s
 
 Tags: lesson1
 <!--ID: 1758825178388-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 platební prostředek
 
@@ -133,12 +152,15 @@ das Zahlungsmittel,-
 
 Tags: lesson1
 <!--ID: 1758825178391-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zubní lékař
 
@@ -148,12 +170,15 @@ der Zahnarzt,-"e
 
 Tags: lesson5
 <!--ID: 1758825178394-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zubní lékařka
 
@@ -163,12 +188,15 @@ die Zahnärztin,-nen
 
 Tags: lesson5
 <!--ID: 1758825178397-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kreslit
 
@@ -178,12 +206,15 @@ zeichnen
 
 Tags: lesson2
 <!--ID: 1758825178400-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 kresba
 
@@ -193,12 +224,15 @@ die Zeichnung,-en
 
 Tags: lesson4
 <!--ID: 1758825178402-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ukázat
 
@@ -208,12 +242,15 @@ zeigen
 
 Tags: lesson3
 <!--ID: 1758825178405-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 čas
 
@@ -223,12 +260,15 @@ die Zeit,-en
 
 Tags: lesson5
 <!--ID: 1758825178408-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 časový údaj
 
@@ -238,12 +278,15 @@ die Zeitangabe,-n
 
 Tags: lesson5
 <!--ID: 1758825178410-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 časový plán
 
@@ -253,12 +296,15 @@ der Zeitplan,-"e
 
 Tags: lesson5
 <!--ID: 1758825178413-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 noviny
 
@@ -268,12 +314,15 @@ die Zeitung,-en
 
 Tags: lesson4
 <!--ID: 1758825178416-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 centrální; centrální
 
@@ -283,12 +332,15 @@ zentral
 
 Tags: lesson4
 <!--ID: 1758825178419-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 lístek; papírek
 
@@ -298,12 +350,15 @@ der Zettel,-4
 
 Tags: lesson4
 <!--ID: 1758825178421-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dost; pěkně
 
@@ -313,12 +368,15 @@ ziemlich
 
 Tags: lesson4
 <!--ID: 1758825178424-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 místnost
 
@@ -328,12 +386,15 @@ das Zimmer,-
 
 Tags: lesson4
 <!--ID: 1758825178426-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 cirkus
 
@@ -343,12 +404,15 @@ der Zirkus,-se
 
 Tags: lesson5
 <!--ID: 1758825178429-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zoologická zahrada
 
@@ -358,12 +422,15 @@ der Zoo,-s
 
 Tags: lesson5
 <!--ID: 1758825178432-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 k (předložka)
 
@@ -373,12 +440,15 @@ zu
 
 Tags: lesson4
 <!--ID: 1758825178434-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 k (směrem); do
 
@@ -388,12 +458,15 @@ zur
 
 Tags: lesson3
 <!--ID: 1758825178437-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 jít pěšky
 
@@ -403,12 +476,15 @@ zu Fuß gehen
 
 Tags: lesson6
 <!--ID: 1758825178440-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 doma
 
@@ -418,12 +494,15 @@ zu Hause
 
 Tags: lesson4
 <!--ID: 1758825178442-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 ve dvou
 
@@ -433,12 +512,15 @@ zu zweit
 
 Tags: lesson5
 <!--ID: 1758825178446-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 nejdřív; nejprve
 
@@ -448,12 +530,15 @@ zuerst
 
 Tags: lesson1
 <!--ID: 1758825178448-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 vlak
 
@@ -463,12 +548,15 @@ der Zug,-"e
 
 Tags: lesson5
 <!--ID: 1758825178451-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 přiřadit
 
@@ -478,12 +566,15 @@ zuordnen
 
 Tags: lesson2
 <!--ID: 1758825178454-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 zpátky
 
@@ -493,12 +584,15 @@ zurück
 
 Tags: lesson4
 <!--ID: 1758825178457-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 spolu
 
@@ -508,12 +602,15 @@ zusammen
 
 Tags: lesson1
 <!--ID: 1758825178460-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 patřit k sobě
 
@@ -523,12 +620,15 @@ zusammengehören
 
 Tags: lesson1
 <!--ID: 1758825178463-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 složený
 
@@ -538,12 +638,15 @@ zusammengesetzt
 
 Tags: lesson4
 <!--ID: 1758825178465-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 souhlasit; přitakat
 
@@ -553,12 +656,15 @@ zustimmen
 
 Tags: lesson5
 <!--ID: 1758825178469-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 dvakrát
 
@@ -568,12 +674,15 @@ zweimal
 
 Tags: lesson5
 <!--ID: 1758825178472-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 mezi
 
@@ -583,6 +692,7 @@ zwischen
 
 Tags: lesson3
 <!--ID: 1758825178474-->
+
 END
 
 ---

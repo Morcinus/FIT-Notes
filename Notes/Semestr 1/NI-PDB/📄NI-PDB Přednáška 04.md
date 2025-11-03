@@ -10,10 +10,13 @@ FILE TAGS: NI-PDB prednaska04 status-toReview
 > [!info] Další užitečné materiály
 > Podrobnější informace o advanced dotazování atd. zde: https://courses.fit.cvut.cz/NI-PDB/lectures/04-mongodb/index.html
 
+
 ### JSON
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **JSON**?
 
@@ -28,6 +31,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co má větší **vyjadřovací schopnost**? JSON nebo XML?
 
@@ -49,6 +54,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Má **objekt** v JSONu **setřízený** atributy nebo ne?
 
 Back:
@@ -62,6 +69,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Má **array** v JSONu **setřízené atributy** nebo ne?
 
@@ -77,6 +86,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké **hodnoty** může mít atribut v JSONu?
 
 Back:
@@ -87,13 +98,16 @@ Back:
 - `null`
 - `array`
 - `object`
-  <!--ID: 1729236692803-->
-  END
+<!--ID: 1729236692803-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Může mít **JSON** hodnotu atributu `undefined`?
 
@@ -108,6 +122,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá **validovat JSON dokument** (=jestli splňuje určité schéma)?
 
@@ -132,6 +148,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **BSON** a **kdy se používá**?
 
@@ -160,6 +178,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **MongoDB**?
 
 Back:
@@ -171,13 +191,16 @@ Back:
 - Podle Michala Valenty je dost profláklý a používaný
 - Bylo to založeno v roce 2009 a podle Michala Valenty to už je mature projekt
   <!-- DetailInfoEnd -->
-  <!--ID: 1729236692841-->
-  END
+<!--ID: 1729236692841-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 S jakými dokumenty pracuje **MongoDB**?
 
@@ -193,6 +216,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaká je **struktura** MongoDB databáze?
 
 Back:
@@ -201,13 +226,16 @@ Back:
 - **Database**
 - **Collection**
 - **Document**
-  <!--ID: 1729236692860-->
-  END
+<!--ID: 1729236692860-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 V rámci čeho musí být `id` dokumentu?
 
@@ -228,6 +256,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký **typ hodnot** může mít `id` v MongoDB?
 
@@ -251,6 +281,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč se v MongoDB **nedoporučuje** přidělovat IDčka **autoinkrementem**, ale např. pomocí **UUID**?
 
 Back:
@@ -265,6 +297,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **ObjectId** v MongoDB?
 
 Back:
@@ -278,13 +312,16 @@ Back:
 - Je velice rychlý na vygenerování
 - "Likely unique" - tzn. když vytvořím dva dokumenty v jeden čas, je velice malá pravděpodobnost, že by měly stejné id
   <!-- DetailInfoEnd -->
-  <!--ID: 1729236692896-->
-  END
+<!--ID: 1729236692896-->
+
+END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co znamená `$` v MongoDB?
 
@@ -307,6 +344,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **typy** vytváření relations v MongoDB a **jak fungují**? (2)
 
@@ -338,6 +377,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak vypadá dotazování v MongoDB (obecně)?
 
 Back:
@@ -358,6 +399,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jaké jsou **základní operace** v MongoDB databázi? (5)
 
 Back:
@@ -367,8 +410,9 @@ Back:
 - **update** (`updateOne`, `updateMany`) - aktualizuje dokument
 - **remove** (`deletOne`, `deleteMany`) - odstraní dokument
 - **find** (`find`) - najde dokumenty v kolekci
-  <!--ID: 1729236692935-->
-  END
+<!--ID: 1729236692935-->
+
+END
 
 ---
 
@@ -376,6 +420,8 @@ Back:
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje vytváření kolekcí v MongoDB?
 
@@ -390,6 +436,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Musím v MongoDB zadávat při insertu **idčko** dokumentu?
 
@@ -409,6 +457,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Proč se používá `replace` v MongoDB, když chci přepsat celý dokument?
 
 Back:
@@ -424,6 +474,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje `replaceOne` a `replaceMany` v MongoDB?
 
@@ -450,6 +502,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **upsert** mode u replace v MongoDB?
 
 `{ upsert: true }`
@@ -473,6 +527,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **update** v MongoDB?
 
@@ -513,6 +569,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je upsert mode u `update` v MongoDB?
 
 Back:
@@ -538,6 +596,8 @@ Je easy, nedával jsem na to kartičky.
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje **find** v MongoDB?
 
@@ -580,6 +640,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co znamená **value equality** v MongoDB?
 
 Back:
@@ -606,6 +668,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak se dá vypořádat s **value equality** v MongoDB?
 
 Back:
@@ -629,6 +693,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Bude tento dotaz vždy vracet array v MongoDB?
 
@@ -662,6 +728,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co je **projekce** v MongoDB?
 
 Back:
@@ -693,6 +761,8 @@ END
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Co jsou **modifikátory** v MongoDB?
 
 Back:
@@ -719,6 +789,8 @@ END
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 K čemu jsou `$aggregate, $lookup, $unwind` funkce v MongoDB?
 

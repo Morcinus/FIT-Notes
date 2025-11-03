@@ -7,7 +7,7 @@ TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska01 status-toReview
 
 START
-Basic
+FIT-Card
 
 Jaký je rozdíl mezi **design principem** a **design patternem**?
 
@@ -15,6 +15,7 @@ Back:
 
 **Princip** = něco obecného
 **Pattern** = konkrétní problém
+
 <!--ID: 1728921214948-->
 
 END
@@ -22,7 +23,7 @@ END
 ---
 
 START
-Basic
+FIT-Card
 
 Jaká jsou **3 typy programovacích paradigmat**?
 
@@ -31,7 +32,8 @@ Back:
 - **Structural** - algoritmy
 - **OOP**
 - **Functional**
-  <!--ID: 1728921214951-->
-  END
+<!--ID: 1728921214951-->
+
+END
 
 ---

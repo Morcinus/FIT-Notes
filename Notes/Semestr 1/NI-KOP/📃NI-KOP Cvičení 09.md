@@ -6,6 +6,7 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni10 status-toReview
 
+
 Počet opakování 500x
 Délka ekvilibria 100 (`-n`)
 Zastavení po 1000 krocích (`-b`)

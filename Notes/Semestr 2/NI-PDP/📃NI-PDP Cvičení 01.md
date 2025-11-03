@@ -6,6 +6,7 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: NI-PDP
 FILE TAGS: NI-PDP cviceni01 status-toReview
 
+
 ### Problém
 - Prohledávání pomocí DFS + BB (ořezávání)
 - Každý podstrom stavového prostoru se může paralelizovat

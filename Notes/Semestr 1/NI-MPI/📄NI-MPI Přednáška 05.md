@@ -7,6 +7,7 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska05 status-toReview analyza3
 
+
 ![](../../../Assets/Pasted%20image%2020241017092333.png)
 ![](../../../Assets/Pasted%20image%2020241017092348.png)
 
@@ -106,6 +107,8 @@ $$
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Budou po nás u zkoušky chtít **počítat stacionární body**?
 
@@ -216,6 +219,8 @@ $$
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Když při **hledání extrémů** **nemáme aktivní vazbu** a vyjde nám **indefinitní matice**, co to znamená? Jaký **závěr** z toho můžeme vyvodit?
 $$\nabla ^2_{x}L(-1,0)=\begin{pmatrix} -2 & 0 \\ 0 & 2 \end{pmatrix}$$

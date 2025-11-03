@@ -8,8 +8,11 @@ up:
 TARGET DECK: NI-PDP
 FILE TAGS: NI-PDP prednaska02 status-toReview
 
+
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je **OpenMP**?
 
@@ -19,19 +22,22 @@ OpenMP je high-level API pro programování vícevláknových aplikací nad sdí
 
 Tags: otazka05
 <!--ID: 1746518365423-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Na jakém principu funguje OpenMP?
 
 Back:
 
 **Fork join model**
+
 - V paralelní oblasti se vytvoří **tým paralelně běžících vláken**, které provádějí kód paralelní oblasti současně
 - Potom se to joinne zpátky
 - Pořád běží jedno **hlavní vlákno** sekvenčně
@@ -40,12 +46,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365425-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Mažou se vlánka v OpenMP?
 
@@ -54,18 +63,22 @@ Back:
 Ne, vlákna jsou **uložena v thread poolu** a jen se jim přiřazují tasky.
 
 <!-- ExplanationStart -->
+
 Mazání a vytváření vláken by trvalo moc dlouho.
+
 <!-- ExplanationEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365428-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké typy paralelismu podporuje OpenMP? (2)
 
@@ -75,13 +88,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1749133110206-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je model sdílené paměti s **volnější konzistencí**? Jak lze vynutit synchronizaci?
 
@@ -94,13 +109,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365436-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaký přepínač je potřeba pro vygenerování vícevláknového kódu pomocí OpenMP?
 
@@ -111,13 +128,15 @@ Pro gcc překladač
 
 Tags: otazka05
 <!--ID: 1746518365431-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaká je hlavička, kterou musím includnout pro použití OpenMP?
 
@@ -129,14 +148,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365433-->
+
 END
 
 ---
 
-
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jakou syntax mají obecně direktivy v OpenMP?
 
@@ -148,13 +168,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365439-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak v OpenMP funguje `paralell`? (syntax + jak funguje interně)
 
@@ -162,48 +184,56 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250227100625.png)
 
-1. Vytvoří **tým vláken**, která jde do dalšího kódu současně. 
+1. Vytvoří **tým vláken**, která jde do dalšího kódu současně.
 2. Na konci bloku je skrytá **bariéra**.
 3. Jakmile všechna vlákna dosáhnou bariéry, pokračuje se v původním vláknu. Ostatní vlákna se nesmažou, ale stanou se neaktivníma a **zařadí se do thread poolu**.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227100716.png)
 ![](../../../Assets/Pasted%20image%2020250227100758.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365442-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje klauzule `shared(seznam)`?
 
 Back:
 
-- Proměnná existuje před danou oblastí kódu. 
+- Proměnná existuje před danou oblastí kódu.
 - Proměnná je stále sdílena mezi všemi vlákny
 - Když ji vlákno přepíše, změnu vidí všechna ostatní vlákna
 
 Programátor tedy musí zajistit ošetření konfliktů
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227101235.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365445-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje klauzule `private(seznam)`?
 
@@ -215,18 +245,22 @@ Back:
 Tedy funguje to jako když předávám funkci parametry hodnotou.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227101244.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365447-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje klauzule `firstprivate(seznam)`?
 
@@ -235,18 +269,22 @@ Back:
 Jako `private(seznam)`, ale každému vláknu to inicializuje proměnnou s hodnotou původní proměnné.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227101251.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365450-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje klauzule `default(shared|none)`?
 
@@ -257,13 +295,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365452-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Když udělám klauzuli v OpenMP na ukazatel, aplikuje se na ukazatel nebo na ten objekt?
 
@@ -273,13 +313,15 @@ Aplikuje se pouze na ten ukazatel!
 
 Tags: otazka05
 <!--ID: 1746518365455-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je klauzule `reduction(operator:result)` v OpenMP?
 
@@ -290,24 +332,29 @@ Každá proměnná `result` se nakopíruje do každého vlákna jako **private**
 Můžu takhle např. v cyklu sečíst všechny hodnoty result ze všech podvláken.
 
 <!-- ExampleStart -->
+
 Tady se po konci for cyklu sečtou všechny hodnoty result z všech podvláken.
 ![](../../../Assets/Pasted%20image%2020250227101619.png)
+
 <!-- ExampleEnd -->
 
-
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227101534.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365458-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou způsoby implementace paralelní redukce? (2)
 
@@ -319,17 +366,22 @@ Back:
 Proto OpenMP využívá hlavně lineární
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227101927.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365460-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje direktiva `threadprivate(proměnná)`?
 
@@ -340,23 +392,28 @@ Je to jako `private(proměnná)`, ale přežívá jednotlivé oblasti kódu - tz
 Pomocí `copyin(proměnná)` se daná proměnná nastaví na hodnotu z hlavního vlákna. Je potřeba to udělat po zavolání `threadprivate`.
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227102036.png)
+
 <!-- ExampleEnd -->
 
-
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227102024.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365464-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je funkce `omp_get_num_threads()`?
 
@@ -366,13 +423,15 @@ Zjistí počet vláken v dané paralelní oblasti včetně hlavního vlákna.
 
 Tags: otazka05
 <!--ID: 1749135989759-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je direktiva `if(podminka)`?
 
@@ -382,13 +441,15 @@ Umožňuje spustit paralelní oblast pokud je splněna podmínka. Pokud není sp
 
 Tags: otazka05
 <!--ID: 1749135989779-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **vlákno**
 
@@ -398,13 +459,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365467-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Počáteční vlákno**
 
@@ -414,12 +477,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365469-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Skupina soutěžících vláken (contention group)**
 
@@ -429,13 +495,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365472-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Aktuální tým (Current team)**
 
@@ -445,13 +513,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365475-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Definice: **Vláknově bezpečná rutina (Thread-safe routine)**
 
@@ -461,13 +531,15 @@ Back:
 
 Tags: otazka05
 <!--ID: 1746518365478-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Algoritmus: Jak se stanoví počet vláken pro paralelní oblast?
 
@@ -476,18 +548,22 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250227102451.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227102459.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365480-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co jsou **řídící proměnné** (Internal Control Variables) v OpenMP?
 
@@ -496,18 +572,22 @@ Back:
 Určují, jakým způsobem se chová OpenMP program (při vytváření vláken atd.)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227102702.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365483-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **řídící proměnné** v OpenMP? (4)
 
@@ -519,17 +599,22 @@ Back:
 - `max-active-levels-var` - maximální počet zanořených vláken
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227102713.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka05
 <!--ID: 1746518365486-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje for cyklus v OpenMP?
 
@@ -543,13 +628,15 @@ Back:
 
 Tags: otazka06
 <!--ID: 1746518365491-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou **klauzule for cyklu** v OpenMP? (5)
 
@@ -558,19 +645,21 @@ Back:
 - `schedule()` - upřesňuje způsob přiřazení iterací cyklu vláknům
 - `collapse(i)` - u víceúrovňového cyklu kolik vrstev cyklů má zkolabovat do jednovrstvého iterátoru
 - `private(seznam) | firstprivate(seznam) | lastprivate(seznam) | shared(seznam) | reduction(operator:seznam)`
-	- `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
+  - `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
 - `ordered` - iterace musí být vykonávány v sekvenčním pořadí
 - `nowait` - pokud to tam nedám, tak všechna vlákna, co počítali for loop, budou čekat až do konce iteračního výpočtu. Nowait umožní vyskočit z těla toho cyklu a nečekat na ostatní
 
 Tags: otazka06
 <!--ID: 1746518365494-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy plánování `schedule(type, chunk_size)` v OpenMP? (5)
 
@@ -586,10 +675,13 @@ Back:
 “dynamicky” = jakmile vlákno dokončí přidělenou várku, dostane další
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227103712.png)
+
 <!-- DetailInfoEnd -->
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227104119.png)
 ![](../../../Assets/Pasted%20image%2020250227104125.png)
 ![](../../../Assets/Pasted%20image%2020250227104130.png)
@@ -597,17 +689,20 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250227104140.png)
 ![](../../../Assets/Pasted%20image%2020250227104146.png)
 ![](../../../Assets/Pasted%20image%2020250227104157.png)
+
 <!-- ExampleEnd -->
 
 Tags: otazka06
 <!--ID: 1746518365497-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se prakticky liší použití **static, dynamic a guided schedule**? Kdy jsou jaké výhodné?
 
@@ -618,18 +713,22 @@ Back:
 - **guided** - vhodné pokud doba provádění iterací postupně roste
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227104511.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka06
 <!--ID: 1746518365499-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou možnosti paralelizace víceúrovňových cyklů u **obdélníkových problémů** (= dva cykly)? (4)
 
@@ -641,25 +740,30 @@ Back:
 - **Paralelizace vnějšího i vnitřního cyklu** - paralelizují se oba
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227104836.png)
 ![](../../../Assets/Pasted%20image%2020250227104841.png)
+
 <!-- ExampleEnd -->
 
-
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227104943.png)
 ![](../../../Assets/Pasted%20image%2020250227104949.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka06
 <!--ID: 1746518365502-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co z těchto paralelizací bude většinou nejlepší?
 
@@ -672,13 +776,15 @@ Typicky ta **(5)**, protože 6 a 7 jsou hendikepovaný bariérama.
 
 Tags: otazka06
 <!--ID: 1746518365504-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou možnosti paralelizace víceúrovňových cyklů u **trojúhelníkových problémů** (=3 cykly)? (2)
 
@@ -689,18 +795,22 @@ Dvě možnosti paralelizace vnitřního cyklu:
 ![](../../../Assets/Pasted%20image%2020250227105120.png)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227105218.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka06
 <!--ID: 1746518365507-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak v OpenMP funguje **task paralelismus** (funkční paralelismus)?
 
@@ -714,22 +824,26 @@ Back:
 
 - **úloha** (task) = ukazatel na kód + vstupní data + datová struktura, kam konzument (vlákno) vloží svoje ID
 - Přidělování úloh funguje na principu **producent-konzument**
-	- vlastnické vlákno (které narazí na direktivu) vygeneruje jako producent synovskou úlohu, vloží ji do task poolu, odtud si ji vyzvedne volné vlákno jako konzument a začne pracovat
-	- vhodné i pro rekurzivní “rozděl a panuj” (ale nastartovat rekurzi musí jen jedno vlákno!)
+  - vlastnické vlákno (které narazí na direktivu) vygeneruje jako producent synovskou úlohu, vloží ji do task poolu, odtud si ji vyzvedne volné vlákno jako konzument a začne pracovat
+  - vhodné i pro rekurzivní “rozděl a panuj” (ale nastartovat rekurzi musí jen jedno vlákno!)
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227110308.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka07
 <!--ID: 1746518365509-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké klauzule má `task` paralelismus v OpenMP? (4)
 
@@ -743,20 +857,24 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250227110328.png)
 
 <!-- ExampleStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227110340.png)
 ![](../../../Assets/Pasted%20image%2020250227110347.png)
 ![](../../../Assets/Pasted%20image%2020250227110357.png)
+
 <!-- ExampleEnd -->
 
 Tags: otazka07
 <!--ID: 1746518365512-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co dělá `#pragma omp taskwait`?
 
@@ -766,13 +884,15 @@ rodičovská úloha čeká na doběhnutí všech synů při task paralelismu
 
 Tags: otazka07
 <!--ID: 1749140734242-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou základní OpenMP operace? (3)
 
@@ -785,18 +905,21 @@ Back:
 - `omp_get_num_threads()` - vrátí počet vláken v aktuální oblasti
 
 Další které jsem se rozhodl nepamatovat:
+
 - `omp_set_num_threads(int i)` - změní počet vytvořených vláken v následujících paralelních oblastech na hodnotu parametru $i$
 - `omp_get_wtime()` - vrátí číslo, které udává uběhnutý čas od nějakého okamžiku v minulosti.
 
 Tags: otazka07
 <!--ID: 1746518365515-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou hlavní synchronizační direktivy v OpenMP? (7)
 
@@ -811,39 +934,48 @@ Back:
 - `flush()`
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227110920.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka08
 <!--ID: 1746518365518-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je `#pragma omp barrier`?
 
 Back:
 
 Vlákna zde usnou a čekají na všechna ostatní
+
 - implicitně na konci každé paralelní oblasti a single bloku
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227110751.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka08
 <!--ID: 1746518365520-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je `#pragma omp single`?
 
@@ -852,18 +984,22 @@ Back:
 Tento blok kódu provádí jen jedno (libovolné) vlákno, ostatní čekají na konci bloku
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227110803.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka08
 <!--ID: 1746518365523-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Co je `#pragma omp master`?
 
@@ -872,18 +1008,22 @@ Back:
 Tento blok kódu provádí jen hlavní vlákno, ostatní skipnou a **okamžitě pokračují**
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227110833.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka08
 <!--ID: 1746518365526-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje direktiva `#pragma omp atomic`?
 
@@ -894,21 +1034,25 @@ Atomická operace, která zajišťuje, že se provede **read-modify-write**, ani
 Např. inkrementace čítače.
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227111019.png)
 ![](../../../Assets/Pasted%20image%2020250227111026.png)
 ![](../../../Assets/Pasted%20image%2020250227111032.png)
 ![](../../../Assets/Pasted%20image%2020250227111039.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka08
 <!--ID: 1746518365528-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jaké jsou typy atomických operací? Aneb na co lze aplikovat `atomic` (4)
 
@@ -941,15 +1085,18 @@ global_index += 1;
 
 Tags: otazka08
 <!--ID: 1746518365531-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
+(FIT-Notes flashcard)
+
 Jak funguje direktiva `#pragma omp cancel`?
+
 - k čemu je
 - popiš podrobnější syntax
 
@@ -958,25 +1105,30 @@ Back:
 Předčasné opuštění paralelní oblasti - aka zastavení výpočtu ve všech vláknech.
 
 `#pragma omp cancel [parallel | for | taskgroup] if [(vyraz)]`
+
 - `[parallel | for | taskgroup]` říká co přesně má být ukončeno
 - `if` - ukončení se provede pokud platí výraz
 
 "Jdete na houby a pokud narazíte na hřiba, jde se domů, protože nám stačí jeden hřib." - Tvrdík :D
 
 <!-- DetailInfoStart -->
+
 ![](../../../Assets/Pasted%20image%2020250227111821.png)
 ![](../../../Assets/Pasted%20image%2020250605200523.png)
+
 <!-- DetailInfoEnd -->
 
 Tags: otazka08
 <!--ID: 1746518365534-->
+
 END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Kdy kontrolují ostatní vlákna jestli byl zavolán `cancel`? (3)
 
@@ -993,9 +1145,10 @@ END
 
 ---
 
-
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak se dá přidat stornovací bod pro `cancel`?
 
@@ -1007,12 +1160,15 @@ Zde se pak bude kontrolovat i při `for`
 
 Tags: otazka08
 <!--ID: 1749146750659-->
+
 END
 
 ---
 
 START
 FIT-Card
+
+(FIT-Notes flashcard)
 
 Jak funguje direktiva `flush()`?
 
@@ -1022,6 +1178,7 @@ Propsání aktuálních hodnot daných sdílených proměnných do sdílené pam
 
 Tags: otazka08
 <!--ID: 1749146764895-->
+
 END
 
 ---
