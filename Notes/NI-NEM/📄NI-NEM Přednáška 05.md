@@ -55,13 +55,21 @@ FILE TAGS: NI-NEM prednaska05 status-toReview
 ### orientace
 
 - **Wo** wohnst du? - Kde bydlíš
+  - Používá se 3. pád (im/in der)
   - Ich wohne **in** ...
+	  - .. im Zentrum
+	  - .. in der Hauptstadt
+	  - .. in Prag
 - **Wo** arbeitest du? - Kde pracuješ?
-  - Používá se 3. pád
+  - Používá se 3. pád (im/in der)
   - Ich arbeite **bei der** Zeitung
     - **bei** se používá, když člověk pracuje v nějaké firmy - u Škodovky, bei Siemens...
   - Ich arbeite **in der/einer** Buchhandlung
-    - **in** se používá v nějaké budově, obchodě atd.s
+    - **in** se používá v nějaké budově, obchodě atd.
+    - **im Krankenhaus**
+    - **im Hotel**
+    - **in der Bibliothek**
+- Ich studiere **an der Universität**, **an ČVUT**. 
 - **Wie** fahrst du ...? - Jak jedeš (např. do práce)
   - Ich fahre + **mit** (a 3. pád):
     - **mit dem** Fahrrad
@@ -69,6 +77,7 @@ FILE TAGS: NI-NEM prednaska05 status-toReview
     - **mit dem Auto**
     - **mit dem Bus** - busem
     - **mit dem Zeug**
+    - **mit der U-bahn**
   - **zu Fuß** gehen - jít pěšky
 
 ### Ženský rod
