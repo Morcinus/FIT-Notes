@@ -7,9 +7,9 @@ TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska01 status-toReview
 
 <!--
-Exam Note ID: NI-SI-10
-Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START

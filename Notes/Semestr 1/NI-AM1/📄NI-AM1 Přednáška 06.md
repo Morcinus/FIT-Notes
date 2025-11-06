@@ -13,9 +13,9 @@ FILE TAGS: NI-AM1 prednaska06 status-toReview
 ## Úvod HTTP
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -41,9 +41,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -72,8 +72,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -117,8 +117,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -161,9 +161,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -193,8 +193,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -229,9 +229,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -251,9 +251,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -274,9 +274,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -315,9 +315,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -339,9 +339,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -361,9 +361,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -384,8 +384,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
+Migration Status: migrate
 -->
 
 START

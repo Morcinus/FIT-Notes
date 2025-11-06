@@ -11,9 +11,9 @@ FILE TAGS: NI-AM1 prednaska08 status-toReview
 ### Header compression
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -68,9 +68,9 @@ END
 ### HTTP/3
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -94,9 +94,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -126,9 +126,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -155,9 +155,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -180,8 +180,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
+Migration Status: migrate
 -->
 
 START
@@ -202,8 +202,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
+Migration Status: migrate
 -->
 
 START
@@ -229,8 +229,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
+Migration Status: migrate
 -->
 
 START
@@ -253,8 +253,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
+Migration Status: migrate
 -->
 
 START

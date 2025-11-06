@@ -8,9 +8,9 @@ TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska12 status-toReview
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -44,9 +44,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -72,9 +72,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -102,9 +102,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -130,9 +130,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -152,9 +152,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -174,9 +174,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -202,9 +202,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -228,9 +228,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -255,9 +255,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -279,9 +279,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -308,9 +308,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -447,9 +447,9 @@ END
 ### Doplňující informace
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -469,9 +469,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -491,9 +491,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -513,9 +513,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -535,9 +535,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -559,9 +559,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura REST
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START

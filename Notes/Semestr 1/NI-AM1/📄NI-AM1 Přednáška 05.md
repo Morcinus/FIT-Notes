@@ -12,8 +12,8 @@ FILE TAGS: NI-AM1 prednaska05 status-toReview
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: migrate
 -->
 
 START
@@ -42,7 +42,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -66,7 +66,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -108,9 +108,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -139,9 +139,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -165,8 +165,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: migrate
 -->
 
 START
@@ -199,8 +199,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: migrate
 -->
 
 START
@@ -240,9 +240,9 @@ END
 ### Komunikační protokoly
 
 <!--
-Exam Note ID: none
-Exam Note Section Name: none
-Migration Status: done
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -265,8 +265,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -287,9 +287,9 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
 -->
 
 START
@@ -312,8 +312,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -334,8 +334,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -358,8 +358,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -380,8 +380,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -402,8 +402,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -429,8 +429,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -459,8 +459,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -489,8 +489,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -529,8 +529,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -559,8 +559,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -589,8 +589,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -623,8 +623,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START
@@ -653,8 +653,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Optimalizace protokolu HTTP
-Migration Status: review
+Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
+Migration Status: migrate
 -->
 
 START

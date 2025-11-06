@@ -12,7 +12,7 @@ FILE TAGS: NI-AM1 prednaska04 status-toReview
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -44,7 +44,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -96,7 +96,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -132,7 +132,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -160,7 +160,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -194,7 +194,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -216,7 +216,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -246,7 +246,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -272,7 +272,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -294,7 +294,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -328,7 +328,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -399,7 +399,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -433,7 +433,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -458,7 +458,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -499,7 +499,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -507,7 +507,7 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je long polling?
+Co je **long polling**?
 
 Back:
 
@@ -525,7 +525,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Migration Status: migrate
 -->
 
 START
@@ -549,8 +549,8 @@ END
 
 <!--
 Exam Note ID: NI-SI-9
-Exam Note Section Name: Architektura softwarového systému
-Migration Status: review
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: migrate
 -->
 
 START
