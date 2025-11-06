@@ -10,6 +10,12 @@ FILE TAGS: NI-AM1 prednaska07 status-toReview
 
 ### Security
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -25,6 +31,12 @@ Transport Level Security
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -44,6 +56,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -59,6 +77,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -77,6 +101,12 @@ END
 ---
 
 #### TLS handshake
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -109,6 +139,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -135,6 +171,12 @@ END
 
 #### Výměna klíčů
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -160,6 +202,12 @@ END
 
 #### Užitečné části TLS
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -177,6 +225,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -197,6 +251,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -216,6 +276,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -233,6 +299,12 @@ Middleware si při TLS handshake může přečíst pouze nezašifrované části
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -255,6 +327,12 @@ END
 
 ## HTTP v2
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -274,6 +352,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -292,6 +376,12 @@ END
 ---
 
 #### Binary framing
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -314,6 +404,12 @@ Je v **aplikační vrstvě** a definuje, jak se ukládají requesty/responses a 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -339,6 +435,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -363,6 +465,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -386,6 +494,12 @@ Např. hlavička je ve framu, data jsou ve framu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -412,6 +526,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -433,6 +553,12 @@ Protože javascript může modifikovat DOM/CSSOM a je potřeba, aby byl DOM/CSSO
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -458,6 +584,12 @@ To ovlivňuje jejich prioritu.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -501,6 +633,12 @@ END
 
 ### Server push
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -534,6 +672,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -560,6 +704,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -581,6 +731,12 @@ Když si spojení představím jako rouru, tak kolik dat jsem schopný narvat ce
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card

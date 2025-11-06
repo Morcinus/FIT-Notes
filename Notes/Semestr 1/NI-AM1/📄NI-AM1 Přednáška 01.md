@@ -6,6 +6,12 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska01 status-toReview
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -20,6 +26,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

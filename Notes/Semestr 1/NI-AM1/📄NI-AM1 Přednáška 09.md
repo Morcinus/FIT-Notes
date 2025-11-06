@@ -7,6 +7,11 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska09 status-toReview
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -28,6 +33,12 @@ END
 
 ### REST
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -43,6 +54,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -60,6 +77,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -75,6 +98,12 @@ Uniform Resource Locator = identifikuje zdroj + obsahuje jeho lokaci
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -93,6 +122,12 @@ END
 ---
 
 #### URI
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -114,6 +149,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -145,6 +186,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -170,6 +217,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -192,6 +245,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -213,6 +272,12 @@ END
 ---
 
 ### Reprezentace zdrojů
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -239,6 +304,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -259,6 +330,12 @@ Např. `text/plain`, `text/html`, `application/json` atd.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -292,6 +369,12 @@ END
 
 ### Uniform interface
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -308,6 +391,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -350,6 +439,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -381,6 +476,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -405,6 +506,12 @@ U GET, PUT a DELETE furt pracuju s těmi samými daty, takže v tom není probl�
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -436,6 +543,12 @@ END
 
 #### CRUD operace v RESTu
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -458,6 +571,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -484,6 +603,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -506,6 +631,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -530,6 +661,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -552,6 +689,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -577,6 +720,12 @@ END
 ---
 
 ### Status kódy
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card

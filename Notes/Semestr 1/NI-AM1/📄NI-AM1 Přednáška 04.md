@@ -9,6 +9,12 @@ FILE TAGS: NI-AM1 prednaska04 status-toReview
 
 ### Přístupy integrací
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -34,6 +40,12 @@ END
 ---
 
 #### Data-oriented Integrace
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -81,6 +93,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -111,6 +129,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -132,6 +156,12 @@ Tzn. synchronizuje např. dvě aplikace pomocí jejich APIs.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -161,6 +191,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -176,6 +212,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -201,6 +243,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -221,6 +269,12 @@ END
 
 ### Enterprise Service Bus
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -236,6 +290,12 @@ Aplikace, která běží na aplikačním serveru. Pomocí integračních vzorů 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -264,6 +324,12 @@ END
 ---
 
 ### Integrační vzory
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Synchronní a asynchronní komunikace
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -304,6 +370,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -323,6 +395,12 @@ END
 ---
 
 #### Asynchronní komunikace přes prostředníka
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Synchronní a asynchronní komunikace
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -352,6 +430,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Synchronní a asynchronní komunikace
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -370,6 +454,12 @@ END
 ---
 
 #### Asynchronní komunikace přes polling
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Synchronní a asynchronní komunikace
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -406,6 +496,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Synchronní a asynchronní komunikace
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -426,6 +522,12 @@ END
 
 ### Microservices
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -444,6 +546,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card

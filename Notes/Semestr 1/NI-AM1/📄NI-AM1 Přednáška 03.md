@@ -11,6 +11,12 @@ FILE TAGS: NI-AM1 prednaska03 status-toReview
 
 ### Softwarové architektury
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -30,6 +36,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -61,6 +73,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -91,6 +109,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -107,6 +131,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -136,6 +166,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -157,6 +193,12 @@ Oproti two-tier, kde si každý prostě stáhne program k sobě, tady musím roz
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -187,6 +229,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -215,6 +263,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -230,6 +284,12 @@ Protože to je často **nákladné překódit** celou codebase.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -263,6 +323,12 @@ END
 
 ### Types of Middleware
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -283,6 +349,12 @@ END
 
 ## Přednáška 03
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -302,6 +374,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -325,6 +403,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -342,6 +426,12 @@ Pohled z hlediska návrhu, design patternů a principů.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -363,6 +453,12 @@ Interface služby, její popis a implementace
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -389,6 +485,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -406,6 +508,12 @@ Protokoly a standardy, které se používají.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -428,6 +536,12 @@ Můžu pak mít **více implementací** daného rozhraní (např. v jiných jazy
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -452,6 +566,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -467,6 +587,12 @@ Pomocí **stavového diagramu**.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -495,6 +621,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -526,6 +658,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -541,6 +679,12 @@ V klientovi není "pevně zadrátované", jaké endpointy se volají atd. (např
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -566,6 +710,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -582,6 +732,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -597,6 +753,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -621,6 +783,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -650,6 +818,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -678,6 +852,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -701,6 +881,12 @@ _To se pak nazývá špagetová architektura :D_
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -731,6 +917,12 @@ Vytvoří se **Enterprise Service Bus** (ESB), který je middlewarem mezi jednot
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Pojem služba a její charakteristiky
+Migration Status: review
+-->
 
 START
 FIT-Card

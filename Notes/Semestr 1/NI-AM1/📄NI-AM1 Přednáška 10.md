@@ -10,6 +10,12 @@ FILE TAGS: NI-AM1 prednaska10 status-toReview
 
 ## HATEOAS
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -25,6 +31,12 @@ Hypertext as the Engine for Application State
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -49,6 +61,12 @@ Když mám HTML stránku, tak každý link v ní je linkem an jinou HTML stránk
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -78,6 +96,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -104,6 +128,12 @@ Pozn. toto je příklad v XML, jde to i v JSONu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -134,6 +164,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -152,6 +188,12 @@ HATEOAS má dvě podmínky
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -181,6 +223,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -198,6 +246,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -222,6 +276,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -237,6 +297,12 @@ Zajišťujeme nezávislost klienta na serveru tím, že mu dávám **dynamicky**
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -256,6 +322,12 @@ END
 
 ### Cachování a concurrency control
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -272,6 +344,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -298,6 +376,12 @@ Máme klienta, server a proxy. Proxy zajišťuje cachování.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -327,6 +411,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -354,6 +444,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -379,6 +475,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -403,6 +505,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -419,6 +527,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -444,6 +558,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -465,6 +585,12 @@ Tzn. ať už změním cokoliv ve zdroji, tak se tím změní hodnota ETagu.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -494,6 +620,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -511,6 +643,12 @@ END
 ---
 
 #### Concurrency Control
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -534,6 +672,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -552,6 +696,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -568,6 +718,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -583,6 +739,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -605,6 +767,12 @@ END
 
 ### Richardson Maturity Model
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -620,6 +788,12 @@ Model vyspělosti/kvality RESTového API.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card

@@ -12,6 +12,12 @@ FILE TAGS: NI-AM1 prednaska06 status-toReview
 
 ## Úvod HTTP
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -33,6 +39,12 @@ Mometálně se to moc nepoužívá kvůli výkonu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -57,6 +69,12 @@ V HTTP 2 můžu např. udržovat stav pomocí cookies.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -97,6 +115,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -136,6 +160,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -160,6 +190,12 @@ Pro úvodní načtení průměrně 90 requestů.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -192,6 +228,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -207,6 +249,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -224,6 +272,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -260,6 +314,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -278,6 +338,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -294,6 +360,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -309,6 +381,12 @@ Server, který si uchovává stav například pomocí cookies a session tabulky 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -328,6 +406,12 @@ END
 
 ### Bezpečnost
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -345,6 +429,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -360,6 +450,12 @@ To že řešíme **autorizaci** (že mám právo něco dělat)
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -378,6 +474,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -393,6 +495,12 @@ Např. role
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -419,6 +527,12 @@ Ta nepopiratelnost je zajímavá v tom, že si hodně systémů prostě drží "
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -457,6 +571,12 @@ Jméno a heslo se zakódují base64 (nikoliv zašifrují)! Tedy kdokoliv kdo by 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

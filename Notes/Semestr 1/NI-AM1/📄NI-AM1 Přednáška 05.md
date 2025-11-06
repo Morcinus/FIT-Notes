@@ -10,6 +10,12 @@ FILE TAGS: NI-AM1 prednaska05 status-toReview
 
 ### Microservices
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -33,6 +39,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -50,6 +62,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -89,6 +107,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -114,6 +138,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -132,6 +162,12 @@ V architektuře mikroslužeb proto **musím dělat mikroslužby pouze tam, kde t
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -160,6 +196,12 @@ Když by mi dvě mikroslužby pak potřebovaly využívat stejnou funkcionalitu,
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -197,6 +239,12 @@ END
 
 ### Komunikační protokoly
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -215,6 +263,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -231,6 +285,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -250,6 +310,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -265,6 +331,12 @@ Jak dlouho na síti trvá přenos elementárních dat (malých dat).
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -284,6 +356,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -300,6 +378,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -315,6 +399,12 @@ Vytvoří se TCP socket
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -336,6 +426,12 @@ Tím je jednoznačně identifikovaný každý TCP socket na internetu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -361,6 +457,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -384,6 +486,12 @@ Např. v request queue bude nejdřív HTML soubor, potom CSS soubor, potom obrá
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -419,6 +527,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -443,6 +557,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -466,6 +586,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -495,6 +621,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -518,6 +650,12 @@ V HTTP 2 by se vytvořil jeden a díky multiplexingu by se vše posílalo přes 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card

@@ -8,6 +8,11 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska11 status-toReview
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -24,6 +29,12 @@ Uživatel by neměl pocítit změnu ve výkonu aplikace nezávisle na počtu req
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -43,6 +54,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -61,6 +78,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -77,6 +100,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -101,6 +130,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -122,6 +157,12 @@ Pokud to nedodržím, zákazník např. dostane slevu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -145,6 +186,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -160,6 +207,12 @@ Když instance aplikace failne a není dostupná, kopie failnutý aplikace dokon
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -178,6 +231,12 @@ END
 ---
 
 ### Performance Metrics
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -199,6 +258,12 @@ END
 ### Zpracovávání requestů
 
 #### Synchronní IO
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -234,6 +299,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -258,6 +329,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -280,6 +357,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -295,6 +378,12 @@ Nastavím tam **timeout**. Díky tomu mi request vypadne s nějakou chybou a př
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -316,6 +405,12 @@ END
 ---
 
 #### Asynchronní IO
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -347,6 +442,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -366,6 +467,12 @@ END
 ---
 
 ###
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -391,6 +498,12 @@ END
 
 ### Load balancing
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -413,6 +526,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -432,6 +551,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -450,6 +575,12 @@ Využívá se DNS Round Robin
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card

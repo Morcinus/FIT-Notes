@@ -6,6 +6,12 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska02 status-toReview
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -20,6 +26,12 @@ Architektura určuje **strukturu** a **chování** sytému.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -36,6 +48,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -50,6 +68,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -66,6 +90,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -90,6 +120,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -104,6 +140,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -125,6 +167,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -149,6 +197,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -171,6 +225,12 @@ systémy, co působí v jednotlivých odděleních (např. hr, finance, marketin
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -195,6 +255,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -217,6 +283,12 @@ Zajišťuje integraci s externíma systémama, dalšíma firmama (např. automat
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -241,6 +313,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -255,6 +333,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -279,6 +363,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -300,6 +390,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -314,6 +410,12 @@ PCF je **standard** - říká mi jakoby seznam obecných požadavků, co je dobr
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -364,6 +466,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -378,6 +486,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -396,6 +510,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -413,6 +533,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -449,6 +575,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -466,6 +598,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -482,6 +620,12 @@ END
 ---
 
 ### Softwarová architektura
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -504,6 +648,12 @@ Každý interface má:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -543,6 +693,12 @@ END
 
 #### Softwarová architektura
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -568,6 +724,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura softwarového systému
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -584,6 +746,12 @@ Systém je vrstvenej. Mezi vrstvami mohu definovat **interface**/rozhraní.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -608,6 +776,12 @@ Např.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-10
+Exam Note Section Name: Integrační návrhové vzory
+Migration Status: review
+-->
 
 START
 FIT-Card

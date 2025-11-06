@@ -10,6 +10,12 @@ FILE TAGS: NI-AM1 prednaska08 status-toReview
 
 ### Header compression
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -37,6 +43,12 @@ END
 
 ### Analýza HTTP/2
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -54,6 +66,12 @@ END
 ---
 
 ### HTTP/3
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -74,6 +92,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -101,6 +125,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -124,6 +154,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Optimalizace protokolu HTTP
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -142,6 +178,12 @@ END
 
 ## Application Server Architecture
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -157,6 +199,12 @@ Representational State Transfer
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
@@ -179,6 +227,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
+
 START
 FIT-Card
 
@@ -196,6 +250,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-9
+Exam Note Section Name: Architektura REST
+Migration Status: review
+-->
 
 START
 FIT-Card
