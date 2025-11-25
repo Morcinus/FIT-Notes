@@ -1,24 +1,24 @@
 ---
-created: 2025-11-18T13:26:05
-title: "nevim"
+created: 2025-11-25T13:10:27
+title: "Softwarové smlouvy"
 up: "[[📖NI-PAS]]"
 ---
 
 TARGET DECK: NI-PAS
 FILE TAGS: NI-PAS prednaska08 status-toReview
 
-![NI-PAS_02_Ochrana dat a soukromí_2025_JMA](../../Assets/NI-PAS_02_Ochrana%20dat%20a%20soukromí_2025_JMA.pdf)
 
 START
 FIT-Card
 
-Co je GDPR?
-
-POZOR ANKI Z TÉHLE PŘEDNÁŠKY NEJSOU KOMPLET - je třeba dodělat začátek a konec 
+Jaké podmínky musí být splněny, aby vznikla smlouva?
 
 Back:
 
-Ochraňuje **osobní údaje**, zaměřuje se na podnikatelskou aktivitu 
+Alespoň 2 strany
+Projev vůle být smlouvou vázán
+Obsah smlouvy
+(Forma)
 
 END
 
@@ -28,11 +28,12 @@ END
 START
 FIT-Card
 
-Co je **zpracovávání údajů** v rámci GDPR?
+V jakých fázích vzniká smlouva?
 
 Back:
 
-**Jakékoliv operace s těmi údaji** - ukládání, prohlážení, měnění, zpřístupňování někomu jinému, i mazání atd.
+- Nabídka
+- Akceptace
 
 END
 
@@ -42,13 +43,16 @@ END
 START
 FIT-Card
 
-Co nespadá do GDPR?
+Jak má vypadat nabídka (u smluv)?
 
 Back:
 
-Činnosti které jsou **výlučně osobní**. Např.
-- **Kamerový záznam** - když si dám na dům kameru (která zabírá jen můj pozemek)
-- **Veřejný blog** - 
+• Zpravidla adresná
+— výjimka — podnikatel rovněž vystavením zboží
+za určitou cenu
+• Obsahuje podstatné náležitosti smlouvy
+• Úmysl uzavřít smlouvu
+• Lze přijmout jednoduchým souhlasem
 
 END
 
@@ -58,13 +62,13 @@ END
 START
 FIT-Card
 
-Co jsou **osobní údaje**?
+Jak má vypadat akceptace smlouvy?
 
 Back:
 
-**Osobní údaje** = **veškeré informace** o identifikované nebo identifikovatelné fyzické osobě
-
-
+- Včasná
+- Bezpodmínečná — přijetí s odchylkou nebo dodatkem je novou nabídkou, ledaže podstatně nemění podmínky nabídky a nedošlo-li k odmítnutí druhou stranou
+- Varianty — souhlasem, jednáním (tzv. konkludentně) x ne mlčením
 
 END
 
@@ -74,12 +78,14 @@ END
 START
 FIT-Card
 
-Jakými způsoby lze identifikovat osobu?
+V jakou chvíli je smlouva uzavřena?
 
 Back:
 
-Přímo - známe její jméno nebo adresu atd.
-Nepřímá - známe o ní obecné charakteristiky (třeba rasa, pohlaví)
+- Právní jednání působí vůči nepřítomné osobě od okamžiku, kdy jí projev vůle dojde; zmaří-li vědomě druhá strana dojití, platí, že řádně došlo
+- Nejvyšší soud
+	-  Projev vůle dojde adresátovi, jakmile se dostane do sféry jeho dispozice, tzn. v okamžiku, kdy adresát nabude objektivní možnost seznámit se s obsahem projevu vůle.
+	-  Strany mají možnost ujednat si zvláštní pravidla uzavírání smlouvy.
 
 END
 
@@ -89,12 +95,11 @@ END
 START
 FIT-Card
 
-Jaký je rozdíl mezi osobním údajem a identifikátorem?
+Co jsou podstatné náležitosti smlouvy?
 
 Back:
 
-- Osobní údaj - jakákoliv informace o osobě
-- Identifikátor - něco, co mi umožní identifikovat tu osobu - např. jméno, zařízení té osoby atd.
+![](../../Assets/Pasted%20image%2020251125131257.png)
 
 END
 
@@ -104,41 +109,11 @@ END
 START
 FIT-Card
 
-Co je koncept "singling out"?
+Kde jsou informace o uzavírání smluv?
 
 Back:
 
-Osobu nemáme identifikovanou jednoznačným identifikátorem, ale na základě více osobních údajů jsme schopni jí identifikovat.
-
-Např. řeknu "kluk ve třídě co má růžové tričko" - tím třeba přesně identifikuju jednu osobu
-
-END
-
----
-
-
-
-START
-FIT-Card
-
-Co je osobní údaj, osobní údaj zvláštní kateorie a anonymní/neosobní údaj?
-
-Back:
-
-Příklady
-Osobní údaje:
-- Email jmeno.prijmeni@emailcz
-- Známka studenta z testu
-- Informace o vyloučení studenta z vysoké školy
-- Známky studentů přiřazené dle čísla studenta
-
-Osobní údaj zvláštní kategorie:
-- Údaj o potřebách studenta se zdravotním postižením
-
-Anonymní / neosobní údaj:
-- Email info@cvutcz
-- Počet studentů úspěšných v testu (jsou to agregovaná data, takže anonymní)
-- IČO společnosti
+Občanský zákoník
 
 END
 
@@ -148,32 +123,15 @@ END
 START
 FIT-Card
 
-Co je osobní údaj zvláštní kategorie?
+Co lze ve smlouvě ujednat?
 
 Back:
 
-Hodně citlivé osobní údaje - informace o zdraví, informace o příslušnosti k náboženství atd.
+Cokoliv co neporušuje dobré mravy, veřejný pořádek nebo právo týkající se postavení osob (např. právo na ochranu osobnosti).
 
-END
-
----
-
-
-START
-FIT-Card
-
-Jaké jsou role v rámci GDPR?
-
-Back:
-
-- **Subjekt údajů** - ta daná osoba
-	- Např. zákazník na eshopu
-- **Správce osobních údajů** - určuje účel a prostředky zpracování
-	- Např. nemocnice, eshop
-- **Zpracovatel** - provádí úzce vymezené činnosti, které mu svěřil správce
-	- Např. poskytovatel cloudu
-- Sub-zpracovatel - pověřen zpracovatelem
-
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251125131451.png)
+<!-- DetailInfoEnd -->
 
 
 END
@@ -184,11 +142,13 @@ END
 START
 FIT-Card
 
-Kdo zodpovídá za plnění celého GDPR?
+Kdy je strana vázána **obchodními podmínkami** druhé strany?
 
 Back:
 
-**Správce**
+Když jsou **přiložené k nabídce** nebo **jsou stranám známé**
+
+Tzn. např. musí být u registrace nebo když se sepisuje smlouva fyzicky, tak jsou k tomu přiloženy obchodní podmínky
 
 END
 
@@ -198,17 +158,11 @@ END
 START
 FIT-Card
 
-Jaké jsou zásady zpracování GDPR?
+Co když obě strany odkážou na obchodní podmínky, které si odporují?
 
 Back:
 
-- **omezení účelu**
-- **zákonnost**
-- **minimalizace údajů** - sbírat jen to co je nutné
-- **omezení uložení**
-- **přesnost** - data by měla být uložena přesně
-- **integrita** - data by měla být bezpečně uložena
-- **odpovědnost správce** - když správce neprokáže, že povinnosti plní, tak se na to úřad bude dívat jako že je neplní 
+Pak smluvní podmínky platí v rozsahu, v jakém si neodporují
 
 END
 
@@ -218,11 +172,18 @@ END
 START
 FIT-Card
 
-Co je omezní účelu zpracování
+Musí být smlouva vždy písemná? Jaké to má pravidla?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118143008.png)
+Nemusí.
+
+- Zásada bezformálnosti
+- Zvláštní forma jen pokud to stanoví zákon nebo si to strany ujednají
+- Forma
+	- písemná
+	- textová (trvalý nosič dat)
+	- veřejná listina
 
 END
 
@@ -232,22 +193,18 @@ END
 START
 FIT-Card
 
-Co je **zákonnost uložení osobních dat**? Z čeho se skládá?
+Jak nastavit online formulář, aby došlo k akceptaci smlouvy?
 
 Back:
 
-- **Plnění smlouvy** - ta data potřebuju, abych splnil smlouvu
-- **Právní povinnost** - ta data musím podle zákona sbírat
-- **Oprávněný zájem** - zpracování **nezbytné** pro dosažení oprávněného zájmu (např. marketing)
-- **Souhlas** - musí být splněny požadavky na souhlas
-	- Tohle je podle EU už hodně edge case. Když mám eshop, tak souhlas typicky vůbec nepotřebuju. Typicky to je plnění smlouvy nebo oprávněný zájem, takže když dávám souhlas, tak to typicky je něco s marketingem.
+- **Scroll-wrap**
+- **Click-wrap / click-through** - musím kliknout na "souhlasím"
+- v ČR NE Browse-wrap - smlouva, co se objeví v zápatí stránky "prohlížením této webové stránky souhlasíte s podmínkami"
 
-- Životně důležité zájmy subjektu údajů
-- Veřejný zájem
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251125132121.png)
+<!-- DetailInfoEnd -->
 
-![](../../Assets/Pasted%20image%2020251118143225.png)
-
-![](../../Assets/Pasted%20image%2020251118145841.png)
 
 END
 
@@ -257,11 +214,14 @@ END
 START
 FIT-Card
 
-Kdy můžeme zpracovávat ty speciální kategorie osobních údajů?
+Co by mělo být zaznamenáno při podepsání smlouvy online formulářem?
 
 Back:
 
-Buď když explicitně dají souhlas nebo když to je nezbytné pro tu službu - např. když jsem nemocnice, tak potřebuju info o pacientovi
+- **Kdo** - identifikace strany
+- **Kdy** - logování souhlasu
+- **Co** - text smlouvy poskytnutý jednajícímu
+- **Jak** - průběh kontraktačního procesu
 
 END
 
@@ -271,11 +231,12 @@ END
 START
 FIT-Card
 
-Můžu souhlas GDPR kdykoliv odvolat?
+Jaký je rozdíl mezi výpovědí a odstoupením od smlouvy?
 
 Back:
 
-Ano, oni pak nesmí dál zpracovávat ty data a musí je smazat, pokudd to nepotřebují používat ještě k něčemu jinému..
+- Výpověď - smlouva platí až do okamžiku výpovědi a pak končí
+- Odstoupení - účinky smlouvy se zpětně kompletně zruší. Např. vrátím zboží, tak to pak je jako kdybych si ho nikdy nekoupil
 
 END
 
@@ -285,11 +246,19 @@ END
 START
 FIT-Card
 
-Jaké jsou požadavky na souhlas?
+Co je smlouva o dílo?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118143340.png)
+Je to smlouva o nějaké **činnosti** vytvoření něčeho
+- Je třeba přesné vymezení díla a určení ceny
+- Zhotovitel postupuje při provádění díla samostatně
+- Objednatel kontroluje provádění díla a udílí pokyny
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251125133404.png)
+<!-- DetailInfoEnd -->
+
 
 END
 
@@ -299,11 +268,18 @@ END
 START
 FIT-Card
 
-Jak to je se souhlasem nezletilých?
+Co je rámcová smlouva o dílo?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118143355.png)
+Používá se například, když jedna firma chce od druhé pravidelně objednávat věci.
+
+- Vymezuje základní parametry spolupráce
+	- Postup zadávání dílčích objednávek
+	- Akceptační řízení
+	- Vzájemná součinnost
+	- Licence
+	- Odpovědnost a smluvní pokuty
 
 END
 
@@ -313,13 +289,18 @@ END
 START
 FIT-Card
 
-Co jsou požadavky na oprávněný zájem?
+Co je Licenční smlouva?
 
 Back:
 
-- Balanční test - udělám si a zjistím, jestli se ta data dají počítat jako oprávněný zájem
-
-![](../../Assets/Pasted%20image%2020251118143417.png)
+- Jedna smluvní strana nastaví oprávnění k výkonu práva duševního vlastnictví
+- Volná forma, pokud není výhradní (tzn. vykonávat to může pouze ten co splňuje ty podmínky)
+- Rozsah
+	- Způsob užití
+	- Doba
+	- Účel
+	- Teritorium
+	- Množství
 
 END
 
@@ -329,11 +310,11 @@ END
 START
 FIT-Card
 
-Jaké otázky bych si měl zodpovědět, když vybírám právní základ (důvod proč zpracovávám osobní údaje)?
+Co je úplatná / bezúplatná licenční smlouva?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118145754.png)
+![](../../Assets/Pasted%20image%2020251125134255.png)
 
 END
 
@@ -343,11 +324,15 @@ END
 START
 FIT-Card
 
-Co je spravedlnost a transparentnost v GDPR?
+Co je smlouva o poskytování digitálního obsahu služeb?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118151154.png)
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251125134327.png)
+![](../../Assets/Pasted%20image%2020251125134336.png)
+<!-- DetailInfoEnd -->
+
 
 END
 
@@ -357,11 +342,13 @@ END
 START
 FIT-Card
 
-Co je minimalizace dat?
+Co je dohoda mlčenlivosti?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118151136.png)
+Typicky se uzavírá, když chtějí strany spolupracovat, ale odkrývají si nějaký citlivější data o té straně
+
+![](../../Assets/Pasted%20image%2020251125134447.png)
 
 END
 
@@ -371,11 +358,11 @@ END
 START
 FIT-Card
 
-Co je omezení doby a rozsahu uchovávání údajů?
+Jaké smlouvy se používají u vývoje softwaru?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118151217.png)
+![](../../Assets/Pasted%20image%2020251125134515.png)
 
 END
 
@@ -385,11 +372,11 @@ END
 START
 FIT-Card
 
-Co je integrita a důvěrnost?
+Co typicky obsahují smlouvy na vývoj softwaru?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118151232.png)
+![](../../Assets/Pasted%20image%2020251125134538.png)
 
 END
 
@@ -399,11 +386,11 @@ END
 START
 FIT-Card
 
-Jaké jsou formální povinnosti správce?
+Co je specifikace díla?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118151946.png)
+![](../../Assets/Pasted%20image%2020251125134604.png)
 
 END
 
@@ -413,13 +400,12 @@ END
 START
 FIT-Card
 
-Co je privacy by design?
+Jak fungují objednávky u rámcových smluv?
 
 Back:
 
-Měl bych software designovat tak, aby svým používáním vedla k co nejvíc privacy.
-
-![](../../Assets/Pasted%20image%2020251118152255.png)
+![](../../Assets/Pasted%20image%2020251125141313.png)
+![](../../Assets/Pasted%20image%2020251125141322.png)
 
 END
 
@@ -429,13 +415,11 @@ END
 START
 FIT-Card
 
-Co je privacy by default?
+Co je aplikační přednost u rámcové smlouvy?
 
 Back:
 
-Pokud mám nějaká nastavení, tak defaultní nastavení by vždy mělo být to nejvíce private. Např. profil by měl být private by default.
-
-![](../../Assets/Pasted%20image%2020251118152350.png)
+![](../../Assets/Pasted%20image%2020251125141347.png)
 
 END
 
@@ -445,16 +429,11 @@ END
 START
 FIT-Card
 
-Co jsou privacy nudges?
+Co jsou pokyny objednatele?
 
 Back:
 
-Aktivní upozorňování uživatele, jestli má to nastavení skutečně tak, jak by chtěl.
-
-Např.
-- Samsung/Apple se pravidelně ptají "tuhle appku jste dlouho nepoužili, má mít furt tato oprávnění?"
-
-![](../../Assets/Pasted%20image%2020251118152729.png)
+![](../../Assets/Pasted%20image%2020251125141457.png)
 
 END
 
@@ -464,13 +443,11 @@ END
 START
 FIT-Card
 
-Kdo v ČR vykonává dozor nad GDPR?
+Co když objednatel stanovil nevhodné pokyny?
 
 Back:
 
-**Úřad pro ochranu osobních údajů** - dozorový orgán ČR
-
-![](../../Assets/Pasted%20image%2020251118153302.png)
+![](../../Assets/Pasted%20image%2020251125141517.png)
 
 END
 
@@ -480,11 +457,11 @@ END
 START
 FIT-Card
 
-Proč si firmy dávají pobočky do Irska? 
+Jaké věci se řeší při změnovém řízení?
 
 Back:
 
-Protože Irský dozorový dorgán je nejvíc laxní a všechno tam dělají hrozně pomalu, takže si tam všichni dávají sídla, aby neměli tak striktní podmínky, protože v Irsku to dost flákají.
+![](../../Assets/Pasted%20image%2020251125141539.png)
 
 END
 
@@ -494,13 +471,11 @@ END
 START
 FIT-Card
 
-Co je směrnice ePrivacy?
+Jak funguje změnové řízení u veřejných zakázek?
 
 Back:
 
-Směrnice o elektronických komunikacích. Nyní se to týká i fyzických i právnických osob (na rozdíl od GDPR). 
-
-![](../../Assets/Pasted%20image%2020251118153513.png)
+![](../../Assets/Pasted%20image%2020251125141640.png)
 
 END
 
@@ -510,15 +485,11 @@ END
 START
 FIT-Card
 
-Co je **důvěrnost komunikací**?
+Jak se určuje odměna u zakázek?
 
 Back:
 
-Povinnost poskytovatelů sítě, že zprávy posílané přes komunikační síť, by měly být čteny jen pro data, která jsou potřeba.
-
-Tzn. poskytovatel internetu by mi neměl číst z paketů víc informací než je potřeba.
-
-![](../../Assets/Pasted%20image%2020251118153817.png)
+![](../../Assets/Pasted%20image%2020251125141715.png)
 
 END
 
@@ -528,38 +499,11 @@ END
 START
 FIT-Card
 
-Co je **ochrana zařízení**?
+Jak se určuje odměna u agilního vávoje?
 
 Back:
 
-Ukládat data do zařízení je povoleno pouze se souhlasem nebo pokud to je nezbytné pro provádění té služby.
-
-Např. appka mi nemůže lokálně ukládat jiná data než jen ty, co je potřeba.
-
-![](../../Assets/Pasted%20image%2020251118153925.png)
-
-![](../../Assets/Pasted%20image%2020251118154034.png)
-
-END
-
----
-
-### Obchodní sdělení
-
-
-START
-FIT-Card
-
-Kdy můžu posílat libovolná obchodní sdělení?
-
-Back:
-
-Bez souhlasu můžu posílat když:
-- je to náš stávající zákazník (ne potenciální) - pozn. ptal jsem se a je to i třeba když jen ten zákazník je freemium, co nic neplatí
-- zákazník to neodmítl, ačkoliv mu to bylo umožněno - musím mít opt out (tzn. musím mu někde dát možnost opt outnout)
-- lze se odhlásit
-
-![](../../Assets/Pasted%20image%2020251118154415.png)
+![](../../Assets/Pasted%20image%2020251125141741.png)
 
 END
 
@@ -569,30 +513,132 @@ END
 START
 FIT-Card
 
-Co **musí mít každé obchodní sdělení**?
+Jak probíhá **předání u akceptačního řízení**?
 
 Back:
 
-![](../../Assets/Pasted%20image%2020251118154641.png)
+![](../../Assets/Pasted%20image%2020251125141809.png)
 
 END
 
 ---
-
-### Data Act
 
 
 START
 FIT-Card
 
-Co je Data Act?
+Jak probíhá **převzetí u akceptačního řízení**?
 
 Back:
 
-Když budeme řešit IOT nebo přístup k neosobním údajům, ale k určitým údajům o zařízení - např. stav baterie, senzory atd., tak musím dodržovat Data Act
+![](../../Assets/Pasted%20image%2020251125142332.png)
+![](../../Assets/Pasted%20image%2020251125142353.png)
 
-![](../../Assets/Pasted%20image%2020251118154936.png)
 
 END
 
 ---
+
+
+START
+FIT-Card
+
+Jak se řeší **vady** u **akceptačního řízení**?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142417.png)
+![](../../Assets/Pasted%20image%2020251125142433.png)
+
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak souvisí licence a duševní vlastnictví?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142758.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje součinnost u provedení díla?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142847.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak fungují smluvní pokuty?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142911.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje náhrada škody?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142926.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje ukončení smlouvy?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142941.png)
+
+END
+
+---
+
+
+START
+FIT-Card
+
+Jak funguje SLA?
+
+Back:
+
+![](../../Assets/Pasted%20image%2020251125142957.png)
+![](../../Assets/Pasted%20image%2020251125143035.png)
+
+END
+
+---
+
+### Praktické cvičení
+![](../../Assets/Pasted%20image%2020251125143058.png)
