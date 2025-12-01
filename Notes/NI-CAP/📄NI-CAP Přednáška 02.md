@@ -72,7 +72,6 @@ Vývoj sexu
 	- Intenzivní projev nadvlády a dominance, ničení
 		- Obecně muži mají rádi pocit agresivity, vybít si tu energii, "ničit" apod. prostě ten pocit dominance, agrese, atd.
 			- To samé, jako když muži jdou do posilky a vzbudí v sobě fakt ten pocit agrese
-			- 
 		- Není to pocit lásky, ale je to pocit té touhy fakt si vybít tu energii 
 
 ### Strach ze sexu a asexualita
@@ -104,7 +103,7 @@ Vývoj sexu
 
 - Moje myšlenka - Je lepší mluvit o sexu víc otevřeně vůbec ve společnosti?
 
-### Otázky
+### Otázky co mě napadly
 - Je lepší mluvit o sexu víc otevřeně vůbec ve společnosti?
 - Jaká je vůbec definice sexu ve vědeštější komunitě? (ne nutně "normálního sexu")
 - zdroje

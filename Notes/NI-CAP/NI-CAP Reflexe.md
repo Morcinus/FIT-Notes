@@ -27,5 +27,12 @@ Přirozeně, když už se mladý muž dostane do vzahu, může pro něj být tak
 
 ### Zhodnocení přednášky
 
+- Přednáška mi přišla velice poutavá a zajímavá
+- Přednášející opravdu velice dobře rozebíral témata a ptal se nás na otázky, které nás nutili se nad tématem zamyslet. Také bylo skvělé, že argumentoval z různých úhlů pohledu.
+- Pro mě osobně byla přínosná v tom, že mi dala opravdu hodně podnětů k zamyšlení a ukázalo mi to úhly pohledu na dané téma, nad kterými by mě ani nenapadlo se zamyslet.
+	- To jsem asi nejvíce ocenil, že mám nějakou moji poměrně stabilní perspektivu a že přednášející dokázal představit jiné úhly pohledu, kterou mi tu moji, možná až příliš, zjednodušenou perspektivu dokázaly trochu rozhodit a donutit se mě zamyslet nad tím, jestli ten můj pohled na toto téma trochu nezměnit. 
+
 ### Implikace
 
+Pro co by mi téma bylo užitečné
+- Přednáška mě trošku nadchla v to se o téma dále zajímat. 
