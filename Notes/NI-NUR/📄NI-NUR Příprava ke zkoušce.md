@@ -1092,9 +1092,15 @@ Co je to a co zobrazuje spektrogram?
 
 Back:
 
-AI GENERATED ANSWER: Spektrogram je vizuální reprezentace spektra frekvencí signálu v čase. Zobrazuje, jak se mění frekvenční složky signálu (např. řeči) v průběhu času, což umožňuje analyzovat akustické vlastnosti zvuku.
+Graf který zobrazuje funkci frekvence signálu a amplitudu v čase.
 
-(zdroj: AI)
+**Pseudo 3D: time on horizontal axis, frequency on the vertical axis, amplitude given relatively by color.**
+
+Díky tomu můžeme například analyzovat akustické vlastnosti zvuku
+
+![](../../Assets/Pasted%20image%2020251208173913.png)
+
+(zdroj: přednáška Colors)
 <!--ID: 1765204625706-->
 END
 
@@ -1108,7 +1114,13 @@ Jaké základní druhy rozpoznání řeči (speech recognition) znáte?
 
 Back:
 
-AI GENERATED ANSWER: Základní druhy rozpoznání řeči zahrnují: izolované slovo (discrete speech), kontinuální řeč (continuous speech), rozpoznávání řečníka (speaker recognition), a rozpoznávání jazyka (language recognition).
+Idk, tohle jsme nebrali. -Honza
+
+AI GENERATED ANSWER: 
+- **izolované slovo** (discrete speech), 
+- **kontinuální řeč** (continuous speech), 
+- **rozpoznávání řečníka** (speaker recognition),
+- **rozpoznávání jazyka** (language recognition).
 
 (zdroj: AI)
 <!--ID: 1765204625709-->
@@ -1124,9 +1136,12 @@ Může větná melodie ovlivnit význam věty?
 
 Back:
 
-AI GENERATED ANSWER: Ano, větná melodie (intonace) může výrazně ovlivnit význam věty. Stejná věta může mít různé významy v závislosti na tónu a intonaci - může být otázkou, výrokem, nebo vyjadřovat emoce jako překvapení, ironii atd.
+Ano, větná melodie (intonace) může hodně ovlivnit význam věty.
 
-(zdroj: AI)
+- V angličtině/češtině můžeme dát důraz na dané slovo ve větě. Nebo můžeme intonací indikovat zda se jedná o otázku, ironii atd.
+- V jiných jazycích intonace může měnit význam slova
+
+(zdroj: Fitwiki + AI)
 <!--ID: 1765204625712-->
 END
 
@@ -1140,7 +1155,9 @@ Kolik položek by mělo mít maximálně menu telefonní aplikace a proč?
 
 Back:
 
-AI GENERATED ANSWER: Menu telefonní aplikace by mělo mít maximálně 4-5 položek. Důvodem je omezená kapacita krátkodobé paměti (4±1 chunky) a princip Hick's law, který říká, že čas potřebný k rozhodnutí roste s počtem možností. Méně položek znamená rychlejší rozhodování a lepší uživatelskou zkušenost.
+**Max 4-5 položek**, protože:
+- omezená kapacita krátkodobé paměti (4±1 chunky)
+- Hick's law, který říká, že čas potřebný k rozhodnutí roste s počtem možností. Méně možností -> rychlejší rozhodnutí
 
 (zdroj: AI)
 <!--ID: 1765204625715-->
@@ -1156,7 +1173,7 @@ Které části desktopu jsou z hlediska ovládání myší nejsnáze dosažiteln
 
 Back:
 
-Na **hranách** obrazovky.
+Na **hranách** obrazovky (typicky to člověk myší "nepřestřelí") - např. křížek pro zavření okna.
 
 Proto se:
 
@@ -1182,7 +1199,8 @@ Označte nejlepší umístění popisků zatržítkem a nejhorší křížkem.
 
 Back:
 
-AI GENERATED ANSWER: Nejlepší umístění popisku je pod textfieldem (dolů). Pokud je málo místa (např. na mobilu), lze použít placeholder, ale vždy je lepší dát popisek pod. Umístění popisku nahoru je antipattern.
+Nejlepší je třetí možnost - lépe to navádí oči, je nejjasněji vidět, co k čemu patří (díky whitespacu)
+Nejhorší je podle mě prostřední, protože jsme zvyklí, že je text zarovnán vlevo (čteme zleva).
 
 (zdroj: AI; 08 Kam by se měla dávat nápověda k textfieldům?)
 <!--ID: 1765204625720-->
@@ -1198,9 +1216,9 @@ Kdy je ve formuláři vhodné označit povinné položky a kdy naopak nepovinné
 
 Back:
 
-AI GENERATED ANSWER: Pokud je většina polí povinná, je lepší označit nepovinná pole. Pokud je většina polí nepovinná, je lepší označit povinná pole. Obecně by mělo být označeno to, co je menšinou, aby uživatelé věděli, která pole mohou přeskočit nebo která musí vyplnit.
+Pokud je většina polí povinná, je lepší označit nepovinná pole. Pokud je většina polí nepovinná, je lepší označit povinná pole. Obecně by mělo být označeno to, co je menšinou, aby uživatelé věděli, která pole mohou přeskočit nebo která musí vyplnit.
 
-(zdroj: AI)
+(zdroj: AI + fitwiki)
 <!--ID: 1765204625723-->
 END
 
@@ -1218,9 +1236,11 @@ Označte nejlepší indikaci povinného prvku ve formuláři zatržítkem a nejh
 
 Back:
 
-AI GENERATED ANSWER: Nejlepší je `Label*` (hvězdička je kompaktní a univerzálně srozumitelná). `Label (Required)` je také přijatelné, ale zabírá více místa. `Label* (Required)` je nejhorší, protože je redundantní - hvězdička a text říkají totéž.
+- Nejlepší je `Label*` (hvězdička je kompaktní a univerzálně srozumitelná). 
+- `Label (Required)` je také přijatelné, ale zabírá více místa. 
+- `Label* (Required)` je nejhorší, protože je redundantní - hvězdička a text říkají totéž
 
-(zdroj: AI)
+(zdroj: AI + Honzův mozek)
 <!--ID: 1765204625725-->
 END
 
@@ -1236,7 +1256,8 @@ Kdy je pro volbu 1 z N lepší použít dropdown a kdy radio button group?
 
 Back:
 
-AI GENERATED ANSWER: Radio button group je lepší, když je málo možností (obvykle 2-5), protože všechny možnosti jsou viditelné najednou a uživatel nemusí klikat, aby je viděl. Dropdown je lepší, když je více možností (více než 5-7), protože šetří místo na obrazovce, ale uživatel musí kliknout, aby viděl všechny možnosti.
+**Radio button** - lepší pro **málo možností (2-5)**, uživatelé mohou jednoduše vidět všechny možnosti
+**Dropdown** - lepší pro více možností, šetří místo na obrazovce, ale uživatel to musí rozkliknout
 
 (zdroj: AI)
 <!--ID: 1765204625728-->
@@ -1252,7 +1273,8 @@ Když se stránka v prohlížeči do určité doby nenačte, 99% uživatelů ji 
 
 Back:
 
-AI GENERATED ANSWER: Přibližně 3-5 sekund. Pokud se stránka nenačte do této doby, většina uživatelů ji opustí. Proto je důležité zobrazit loading indikátor nebo progress bar, pokud načítání trvá déle než půl sekundy.
+AI GENERATED ODPOVĚĎ: 
+Přibližně 3-5 sekund. Pokud se stránka nenačte do této doby, většina uživatelů ji opustí. Proto je důležité zobrazit loading indikátor nebo progress bar, pokud načítání trvá déle než půl sekundy.
 
 (zdroj: AI)
 <!--ID: 1765204625731-->
@@ -1268,10 +1290,7 @@ Co je to responsivní (responsive) uživatelské rozhraní?
 
 Back:
 
-Designování pro různě velká zařízení - od hodinek až po obrovské televize.
-
-1. Rozdělíme design na desktopu do "bloků"
-2. Ty pak házíme pod sebe na mobilu v dlouhou scrollovací nudli
+Rozhraní, které automaticky přizpůsobuje rozložení nebo vzhled prvků dle velikosti zařízení - díky tomu lze stejnou stránku zobrazovat na mobilu, tabletu, desktopu, televizi apod.
 
 (zdroj: 07 O čem je teď responsibilita?; Jak se základně dělá responsivní design?)
 <!--ID: 1765204625734-->
@@ -1287,13 +1306,28 @@ Kolik variant rozvržení (layouts) má zpravidla responzivní návrh UI a jaké
 
 Back:
 
-Typy práce s layouty u responsivního designu (5):
+Z hlediska CSS/designu se typicky designuje pro:
+- **mobil**
+- **tablet**
+- **desktop**
+
+Layouty pak mohou mít tyto typy:
 
 - **Mostly fluid** - nahoře je důležitější než dole, vlevo je důležitější než vpravo
 - **Column drop** - více sloupců s UI prvkama, sloupce se postupně hází pod sebe
 - **Layout shifter** - pro každé zařízení se použije jiný layout (nejsložitější)
 - **Tiny Tweaks** - jedno menu nahoře a jediný column - tohle je nejlepší pro jednoduché stránky
 - **Off canvas** - sloupce se vytáhnou mimo obrazovku na menších zařízeních
+
+<!-- DetailInfoStart -->
+
+![](../../Assets/Pasted%20image%2020251026160123.png)
+![](../../Assets/Pasted%20image%2020251026160207.png)
+![](../../Assets/Pasted%20image%2020251026160219.png)
+![](../../Assets/Pasted%20image%2020251026160513.png)
+![](../../Assets/Pasted%20image%2020251026160827.png)
+
+<!-- DetailInfoEnd -->
 
 (zdroj: 07 Jaké jsou typy práce s layouty u responsivního designu? (5))
 <!--ID: 1765204625736-->
@@ -1309,9 +1343,11 @@ Jaký konstrukt z CSS3 je nutný k implementaci responzivního UI?
 
 Back:
 
-AI GENERATED ANSWER: Media queries jsou základní CSS3 konstrukt nutný pro implementaci responzivního UI. Umožňují aplikovat různé CSS styly v závislosti na velikosti obrazovky, rozlišení nebo typu zařízení.
+Využívají se **media queries**, díky kterým se aplikuje CSS styl podle vlastností daného zařízení. Např. podle maximální šířky, výšky displeje apod.
 
-(zdroj: AI)
+Podle media queries se dají také nastavovat styly pro tisk (`print`)
+
+(zdroj: AI + fitwiki + Honzův mozek)
 <!--ID: 1765204625739-->
 END
 
@@ -1325,9 +1361,10 @@ Proč je lepší v současné době používat tzv. "on mouse over" zobrazení i
 
 Back:
 
-AI GENERATED ANSWER: "On mouse over" (hover) zobrazení informací je lepší, protože šetří místo na obrazovce a zobrazuje informace pouze když je uživatel skutečně potřebuje. Na dotykových zařízeních (mobily, tablety) však hover nefunguje, takže je třeba použít alternativní přístupy jako tap nebo long-press.
+AI GENERATED ODPOVĚĎ: 
+"On mouse over" (hover) zobrazení informací je lepší, protože **šetří místo na obrazovce** a **zobrazuje informace pouze když je uživatel skutečně potřebuje**. Na dotykových zařízeních (mobily, tablety) však hover nefunguje, takže je třeba použít alternativní přístupy jako tap nebo long-press.
 
-(zdroj: AI)
+(zdroj: AI+fitwiki)
 <!--ID: 1765204625742-->
 END
 
