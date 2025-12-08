@@ -977,6 +977,7 @@ Když uspořádáme barvy do kruhu (podle Hue neboli odstínu), tak to jsou barv
 Např. k modrý je komplementární žlutá
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251026150708.png)
 ![](../../Assets/Pasted%20image%2020251208173410.png)
 ![](../../Assets/Pasted%20image%2020251208173437.png)
@@ -1378,12 +1379,7 @@ Vyjmenujte základní kroky návrhu UI jak byly prezentovány na přednášce.
 
 Back:
 
-1. **Basic product statement** - o čem projekt bude
-2. **Business requirements**
-3. **Persony**, jací uživatelé dělají jaké tasks
-4. **User research** - use cases (přesně popsaný, co se děje)
-5. **Lo-Fi prototyp**
-6. **Hi-Fi prototyp**
+Tohle je duplicitní otázka, podobnou tam už Pavlíček jednou napsal `-___-`
 
 (zdroj: 04 Jaké jsou kroky designu?)
 <!--ID: 1765204625744-->
@@ -1399,9 +1395,11 @@ Co je to "lorem ipsum", kdy se používá a co je ještě lepší?
 
 Back:
 
-AI GENERATED ANSWER: Lorem ipsum je placeholder text používaný v designu, když potřebujeme ukázat, jak bude vypadat layout s textem, ale ještě nemáme finální obsah. Používá se při vytváření prototypů a mockupů. Lepší je však použít skutečný obsah nebo alespoň realistický placeholder text, který lépe reprezentuje finální obsah a pomáhá lépe posoudit design.
+Placeholder pro text používaný v designu, používá se pro mockupy a prototypy.
 
-(zdroj: AI)
+Lepší je použít skutečný obsah nebo realistický text, který lépe reprezentuje finální obsah.
+
+(zdroj: AI + Honzův mozek)
 <!--ID: 1765204625747-->
 END
 
@@ -1434,6 +1432,8 @@ Back:
 
 Zelené - protože to má nejvyšší intenzitu, tak jsme schopni ji nejlépe rozlišovat
 
+![](../../Assets/Pasted%20image%2020251026141109.png)
+
 (zdroj: 06 Jaké barvy vidíme nejvíce odstínů?)
 <!--ID: 1765204625752-->
 END
@@ -1448,7 +1448,14 @@ Jak se uspořádávají taby (tabs) když se nevejdou vedle sebe? Nejlépe obrá
 
 Back:
 
-AI GENERATED ANSWER: Když se taby nevejdou vedle sebe, obvykle se používají různé strategie: scrollování (taby se posouvají do strany), dropdown menu (taby se zobrazí v rozbalovacím menu), nebo se taby zobrazí na více řádcích. Nejčastější je scrollování s šipkami nebo přetahováním.
+Typicky:
+- **scrollování** - taby se posouvají do strany
+
+Teoreticky jde taky:
+- **dropdown menu** - taby se rozbalí jako menu
+- případně lze taby zobrazit ve **více řádcích**
+
+ale nejlepší je typicky scrollování
 
 (zdroj: AI)
 <!--ID: 1765204625755-->
@@ -1464,9 +1471,13 @@ Jak by na stránce měly být organizovány buttony OK a Cancel a jak by mely vy
 
 Back:
 
-AI GENERATED ANSWER: Buttony OK a Cancel by měly být vedle sebe, s OK vpravo (primární akce) a Cancel vlevo (sekundární akce). OK by měl být vizuálně výraznější (např. modrý, tučnější), Cancel by měl být méně výrazný (např. šedý, jen text nebo tenký rámeček). Toto uspořádání odpovídá principu "diagonal balance" - primární akce vpravo dole.
+- Buttony vedle sebe
+- **OK** (primární akce) - výraznější, vpravo
+- **Cancel** (sekundární akce) - méně výrazné, vlevo
 
-(zdroj: AI)
+Toto uspořádání odpovídá principu "diagonal balance" - uživatel jde zleva nahoře a končí práci vpravo dole.
+
+(zdroj: AI + Honzův mozek)
 <!--ID: 1765204625758-->
 END
 
@@ -1480,7 +1491,11 @@ Co je to tzv. žlutá skvrna a jak ovlivňuje vizuální vnímání?
 
 Back:
 
-Místo na sítnici, kde je největší hustota světlocitlivých buňek, je tam nejvííc sharp vision
+Místo na sítnici, kde je největší hustota světlocitlivých buňek (hlavně čípků).
+
+Toto místo má nejvíce sharp/focused vision, poznáváme tím obličeje, čteme pomocí toho apod. používá se, když se díváme přímo na nějaký objekt.
+
+Je to "yellow spot", protože to má žluté zbarvení (kvůli pigmentů, co ochraňují oko)
 
 (zdroj: 06 Co je "yellow spot"?)
 <!--ID: 1765204625760-->
