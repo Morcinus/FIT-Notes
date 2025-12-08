@@ -14,7 +14,6 @@ Má cenu přepisovat software, když je ta codebase špatná?
 Back:
 
 Ve většině případů ne, měla by to být ta poslední možnost
-
 <!--ID: 1728921214924-->
 
 END
@@ -51,7 +50,6 @@ Jak využít DRY princip, když mám třídu Coffee a chci udělat Tea?
 Back:
 
 Typicky využít dědičnost, protože tam většina funkcí bude stejná
-
 <!--ID: 1728921214930-->
 
 END
@@ -68,7 +66,6 @@ Back:
 U testů bych např. neměl dělat funkce na setup toho testování, protože tím snižuju čitelnost těch testů.
 
 Když budu volat různé metody, tak tím snížím čitelnost těch testů!
-
 <!--ID: 1728921214933-->
 
 END
@@ -86,7 +83,6 @@ Back:
 - **Neměl** bych se vždy snažit "psát kód na méně řádků", protože to snižuje čitelnost
 
 Když např. mám kavárnu a vím, že nebudu prodávat čaj, nemusím dělat nutně abstrakce.
-
 <!--ID: 1728921214936-->
 
 END

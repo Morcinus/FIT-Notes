@@ -90,7 +90,7 @@ umět / moci
 Back:
 
 können
-
+<!--ID: 1765204625764-->
 END
 
 ---
@@ -105,7 +105,7 @@ muset
 Back:
 
 müssen
-
+<!--ID: 1765204625767-->
 END
 
 ---
@@ -120,7 +120,7 @@ Co umíš dělat?
 Back:
 
 Was kannst du machen?
-
+<!--ID: 1765204625769-->
 END
 
 ---
@@ -135,7 +135,7 @@ ich – müssen (präsens)
 Back:
 
 ich muss
-
+<!--ID: 1765204625772-->
 END
 
 ---
@@ -150,7 +150,7 @@ du – müssen (präsens)
 Back:
 
 du musst
-
+<!--ID: 1765204625775-->
 END
 
 ---
@@ -165,7 +165,7 @@ er/sie/es – müssen (präsens)
 Back:
 
 er/sie/es muss
-
+<!--ID: 1765204625778-->
 END
 
 ---
@@ -180,7 +180,7 @@ wir – müssen (präsens)
 Back:
 
 wir müssen
-
+<!--ID: 1765204625781-->
 END
 
 ---
@@ -195,7 +195,7 @@ ihr – müssen (präsens)
 Back:
 
 ihr müsst
-
+<!--ID: 1765204625784-->
 END
 
 ---
@@ -210,7 +210,7 @@ sie/Sie – müssen (präsens)
 Back:
 
 sie/Sie müssen
-
+<!--ID: 1765204625787-->
 END
 
 ---
@@ -225,7 +225,7 @@ ich – können (präsens)
 Back:
 
 ich kann
-
+<!--ID: 1765204625789-->
 END
 
 ---
@@ -240,7 +240,7 @@ du – können (präsens)
 Back:
 
 du kannst
-
+<!--ID: 1765204625792-->
 END
 
 ---
@@ -255,7 +255,7 @@ er/sie/es – können (präsens)
 Back:
 
 er/sie/es kann
-
+<!--ID: 1765204625795-->
 END
 
 ---
@@ -270,7 +270,7 @@ wir – können (präsens)
 Back:
 
 wir können
-
+<!--ID: 1765204625797-->
 END
 
 ---
@@ -285,7 +285,7 @@ ihr – können (präsens)
 Back:
 
 ihr könnt
-
+<!--ID: 1765204625800-->
 END
 
 ---
@@ -300,7 +300,7 @@ sie/Sie – können (präsens)
 Back:
 
 sie/Sie können
-
+<!--ID: 1765204625806-->
 END
 
 ---
@@ -315,7 +315,7 @@ znát
 Back:
 
 kennen
-
+<!--ID: 1765204625811-->
 END
 
 ---
@@ -330,7 +330,7 @@ studovat obecně školu
 Back:
 
 studieren
-
+<!--ID: 1765204625814-->
 END
 
 ---
@@ -345,7 +345,7 @@ učit se (na zkoušku)
 Back:
 
 lernen
-
+<!--ID: 1765204625817-->
 END
 
 ---
@@ -360,7 +360,7 @@ mein / meine – která osoba a pád?
 Back:
 
 1. pád, ich
-
+<!--ID: 1765204625820-->
 END
 
 ---
@@ -375,7 +375,7 @@ dein / deine – která osoba?
 Back:
 
 1. pád, du
-
+<!--ID: 1765204625823-->
 END
 
 ---
@@ -390,7 +390,7 @@ sein / seine – která osoba?
 Back:
 
 1. pád, er nebo es
-
+<!--ID: 1765204625826-->
 END
 
 ---
@@ -405,7 +405,7 @@ ihr / ihre – která osoba?
 Back:
 
 1. pád, sie (ona) nebo sie (oni)
-
+<!--ID: 1765204625829-->
 END
 
 ---
@@ -420,7 +420,7 @@ unser / unsere – která osoba?
 Back:
 
 1. pád, wir
-
+<!--ID: 1765204625831-->
 END
 
 ---
@@ -435,7 +435,7 @@ euer / eure – která osoba?
 Back:
 
 1. pád, ihr
-
+<!--ID: 1765204625834-->
 END
 
 ---
@@ -450,7 +450,7 @@ Ihr / Ihre – která osoba?
 Back:
 
 1. pád, Sie (vykání)
-
+<!--ID: 1765204625837-->
 END
 
 ---
@@ -466,7 +466,7 @@ moje auto (4. pád)
 Back:
 
 mein Auto
-
+<!--ID: 1765204625839-->
 END
 
 ---
@@ -481,7 +481,7 @@ moje lampa (4. pád)
 Back:
 
 meine Lampe
-
+<!--ID: 1765204625842-->
 END
 
 ---
@@ -496,7 +496,7 @@ můj stůl (4. pád)
 Back:
 
 meinen Tisch
-
+<!--ID: 1765204625844-->
 END
 
 ---
@@ -511,7 +511,7 @@ tvoje auto (4. pád)
 Back:
 
 dein Auto
-
+<!--ID: 1765204625847-->
 END
 
 ---
@@ -526,7 +526,7 @@ tvoje lampa (4. pád)
 Back:
 
 deine Lampe
-
+<!--ID: 1765204625850-->
 END
 
 ---
@@ -541,7 +541,7 @@ tvůj stůl (4. pád)
 Back:
 
 deinen Tisch
-
+<!--ID: 1765204625853-->
 END
 
 ---
@@ -556,7 +556,7 @@ jeho auto (4. pád)
 Back:
 
 sein Auto
-
+<!--ID: 1765204625856-->
 END
 
 ---
@@ -571,7 +571,7 @@ jeho lampa (4. pád)
 Back:
 
 seine Lampe
-
+<!--ID: 1765204625859-->
 END
 
 ---
@@ -586,7 +586,7 @@ jeho stůl (4. pád)
 Back:
 
 seinen Tisch
-
+<!--ID: 1765204625862-->
 END
 
 ---
@@ -601,7 +601,7 @@ její auto (4. pád)
 Back:
 
 ihr Auto
-
+<!--ID: 1765204625865-->
 END
 
 ---
@@ -616,7 +616,7 @@ její lampa (4. pád)
 Back:
 
 ihre Lampe
-
+<!--ID: 1765204625868-->
 END
 
 ---
@@ -631,7 +631,7 @@ její stůl (4. pád)
 Back:
 
 ihren Tisch
-
+<!--ID: 1765204625871-->
 END
 
 ---
@@ -646,7 +646,7 @@ naše auto (4. pád)
 Back:
 
 unser Auto
-
+<!--ID: 1765204625874-->
 END
 
 ---
@@ -661,7 +661,7 @@ naše lampa (4. pád)
 Back:
 
 unsere Lampe
-
+<!--ID: 1765204625877-->
 END
 
 ---
@@ -676,7 +676,7 @@ náš stůl (4. pád)
 Back:
 
 unseren Tisch
-
+<!--ID: 1765204625880-->
 END
 
 ---
@@ -691,7 +691,7 @@ vaše auto (2. os. mn., 4. pád)
 Back:
 
 euer Auto
-
+<!--ID: 1765204625883-->
 END
 
 ---
@@ -706,7 +706,7 @@ vaše lampa (2. os. mn., 4. pád)
 Back:
 
 eure Lampe
-
+<!--ID: 1765204625886-->
 END
 
 ---
@@ -721,7 +721,7 @@ váš stůl (2. os. mn., 4. pád)
 Back:
 
 euren Tisch
-
+<!--ID: 1765204625889-->
 END
 
 ---
@@ -736,7 +736,7 @@ Vaše auto (vykání, 4. pád)
 Back:
 
 Ihr Auto
-
+<!--ID: 1765204625892-->
 END
 
 ---
@@ -751,7 +751,7 @@ Vaše lampa (vykání, 4. pád)
 Back:
 
 Ihre Lampe
-
+<!--ID: 1765204625895-->
 END
 
 ---
@@ -766,7 +766,7 @@ Váš stůl (vykání, 4. pád)
 Back:
 
 Ihren Tisch
-
+<!--ID: 1765204625898-->
 END
 
 ---
@@ -781,7 +781,7 @@ taška
 Back:
 
 die Tasche
-
+<!--ID: 1765204625902-->
 END
 
 ---
@@ -796,7 +796,7 @@ hodinky
 Back:
 
 die Uhr
-
+<!--ID: 1765204625904-->
 END
 
 ---
@@ -811,7 +811,7 @@ peníze
 Back:
 
 das Geld
-
+<!--ID: 1765204625907-->
 END
 
 ---
@@ -826,7 +826,7 @@ noviny
 Back:
 
 die Zeitung
-
+<!--ID: 1765204625911-->
 END
 
 ---
@@ -841,7 +841,7 @@ klíč
 Back:
 
 der Schlüssel
-
+<!--ID: 1765204625913-->
 END
 
 ---
@@ -856,7 +856,7 @@ kytara
 Back:
 
 die Gitarre
-
+<!--ID: 1765204625916-->
 END
 
 ---
@@ -871,7 +871,7 @@ propiska
 Back:
 
 der Kuli
-
+<!--ID: 1765204625919-->
 END
 
 ---
@@ -886,7 +886,7 @@ lampa
 Back:
 
 die Lampe
-
+<!--ID: 1765204625922-->
 END
 
 ---
@@ -901,7 +901,7 @@ pohovka
 Back:
 
 das Sofa
-
+<!--ID: 1765204625925-->
 END
 
 ---
@@ -916,7 +916,7 @@ slovník
 Back:
 
 das Wörterbuch
-
+<!--ID: 1765204625928-->
 END
 
 ---
@@ -931,7 +931,7 @@ stůl
 Back:
 
 der Tisch
-
+<!--ID: 1765204625931-->
 END
 
 ---
@@ -946,7 +946,7 @@ mobil
 Back:
 
 das Handy
-
+<!--ID: 1765204625934-->
 END
 
 ---
@@ -961,7 +961,7 @@ CD přehrávač
 Back:
 
 der CD-Player
-
+<!--ID: 1765204625937-->
 END
 
 ---
@@ -976,7 +976,7 @@ váza
 Back:
 
 die Vase
-
+<!--ID: 1765204625940-->
 END
 
 ---
@@ -991,7 +991,7 @@ hrnek
 Back:
 
 die Tasse
-
+<!--ID: 1765204625943-->
 END
 
 ---
@@ -1006,7 +1006,7 @@ okno
 Back:
 
 das Fenster
-
+<!--ID: 1765204625946-->
 END
 
 ---
@@ -1021,7 +1021,7 @@ dveře
 Back:
 
 die Tür
-
+<!--ID: 1765204625949-->
 END
 
 ---
@@ -1036,7 +1036,7 @@ police na knihy
 Back:
 
 das Bücherregal
-
+<!--ID: 1765204625952-->
 END
 
 ---
@@ -1051,7 +1051,7 @@ televize
 Back:
 
 der Fernseher
-
+<!--ID: 1765204625954-->
 END
 
 ---
@@ -1066,7 +1066,7 @@ guma na mazání
 Back:
 
 der Radiergummi
-
+<!--ID: 1765204625957-->
 END
 
 ---
@@ -1081,7 +1081,7 @@ míč
 Back:
 
 der Ball
-
+<!--ID: 1765204625960-->
 END
 
 ---
@@ -1096,7 +1096,7 @@ FIT-Card
 Back:
 
 der Stuhl
-
+<!--ID: 1765204625962-->
 END
 
 ---
@@ -1111,7 +1111,7 @@ kolo
 Back:
 
 das Fahrrad
-
+<!--ID: 1765204625965-->
 END
 
 ---

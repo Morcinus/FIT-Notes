@@ -16,7 +16,6 @@ Back:
 Zobrazení časové náročnosti a posloupnosti (závislosti) činností projektu.
 
 Můžu tam zanést i třeba dny volna atd.
-
 <!--ID: 1728921214632-->
 
 END
@@ -33,7 +32,6 @@ Back:
 Když _zpozdím tu činnost_, tak se mi _zpozdí konec projektu_.
 
 V ganttu to je červeně.
-
 <!--ID: 1728921214635-->
 
 END
@@ -48,7 +46,6 @@ Proč je dobrý dělat grafy, používat metody atd. v prezentacích?
 Back:
 
 Protože tomu ty manažeři, zákazníci rozumí a chápou to.
-
 <!--ID: 1728921214638-->
 
 END
@@ -96,7 +93,6 @@ Co je **MPM**?
 Back:
 
 To samý jako PERT, ale pro potrubí, sítě atd.
-
 <!--ID: 1728921214646-->
 
 END
@@ -111,7 +107,6 @@ Co je Critical Chain Method?
 Back:
 
 Metoda na odhadování, kde mi to počítá i s lidskými faktory - někdo dělá multitasking, někdo potřebuje přejet na jinou schůzku atd
-
 <!--ID: 1728921214649-->
 
 END
@@ -158,7 +153,6 @@ Měla by určovat, jak se v dané firmě řídí projekty, podle jakých standar
 Měly by pomáhat člověku dodržovat standardy projektového řízení.
 
 ![[Pasted image 20240925100557.png]]
-
 <!--ID: 1728921214655-->
 
 END
@@ -173,7 +167,6 @@ Proč by se měly nefunkční projekty zabíjet asap?
 Back:
 
 Jinak se tím plácá moc času
-
 <!--ID: 1728921214657-->
 
 END
@@ -212,7 +205,6 @@ Back:
 Vypadá to jednoduše, ale je to extrémně důležitý ten cíl analyticky rozpracovat. Zákazník nikdy neřekne co chce, pokud člověk neklade otázky. Nesmí člověk assumovat, že ví, co zákazník chce.
 
 Zákazníci si často vymýšlejí nesmysly.. Je potřeba jim říct, že se to dá udělat jednoduššeji a tak to pak udělat.
-
 <!--ID: 1728921214663-->
 
 END
@@ -229,7 +221,6 @@ Back:
 Občas když zákazník potřebuje něco brzo, je fajn prostě domluvit specifikaci MVP a zbytek pak dodělat jako change requesty.
 
 Díky tomu to můžu udělat kvalitně v deadlinu a on je spokojen že už má aspoň nějak funkční verzi.
-
 <!--ID: 1728921214666-->
 
 END

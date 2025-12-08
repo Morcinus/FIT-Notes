@@ -20,7 +20,6 @@ FIT-Card
 Back:
 
 **Message oriented middleware**
-
 <!--ID: 1728921214973-->
 
 END

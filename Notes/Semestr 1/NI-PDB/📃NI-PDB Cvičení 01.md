@@ -14,7 +14,6 @@ Co znamená, že je databáze v konzistentním stavu?
 Back:
 
 Že jsou dodržena všechna integritní omezení
-
 <!--ID: 1728921214770-->
 
 END
@@ -53,7 +52,6 @@ Back:
 V objektový tabulce reference na objekt nahrazují klíč.
 
 V objektový tabulce pak nemusím dělat joiny, ale přes tečkovou notaci si to dotážu.
-
 <!--ID: 1728921214776-->
 
 END
@@ -68,7 +66,6 @@ Proč se nepoužívají tolik objektové databáze?
 Back:
 
 Protože to moc společností neposkytuje a člověk se tím trošku dostane do **vendor locku** + se lidi boají, že to bude míň efektivní.
-
 <!--ID: 1728921214778-->
 
 END

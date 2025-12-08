@@ -18,7 +18,6 @@ Dána tím problémem, nezávisí na algoritmu.
 **Konfigurace může být řešením**
 
 Např. u problému batohu je konfigurace "věci které jsou v batohu"
-
 <!--ID: 1728921215283-->
 
 END
@@ -33,7 +32,6 @@ Co se dělá při řešení problému hrubou silou?
 Back:
 
 Zkouší se všechny **konfigurace** a tím se najde to správné řešení.
-
 <!--ID: 1728921215286-->
 
 END
@@ -53,7 +51,6 @@ Konfigurace - obecná, abstraktní
 Konfigurační proměnný - něco konkrétního
 
 Např. u problému batohu jsou konfigurační proměnné např. bitový vektor, množina atd.
-
 <!--ID: 1728921215289-->
 
 END
@@ -68,7 +65,6 @@ Co je důležité u konfiguračních proměnných?
 Back:
 
 Konečný počet v konečných diskrétních doménách
-
 <!--ID: 1728921215292-->
 
 END
@@ -101,7 +97,6 @@ enumerace - u bitového vektoru 001, 010,011,...
 $2^n$ možností
 
 Back:
-
 <!--ID: 1728921215295-->
 
 END
@@ -118,7 +113,6 @@ Back:
 V grafu se snažím najít takovou pormnožinu uzlů, že s s nimi sousedí všechny hrany.
 
 ![[Pasted image 20241001163625.png]]
-
 <!--ID: 1728921215298-->
 
 END
@@ -141,7 +135,6 @@ ano
 ano
 třeba rekurzí
 2! možností
-
 <!--ID: 1728921215300-->
 
 END
@@ -156,7 +149,6 @@ Proč se u problému obchodního cestujícího používá permutace?
 Back:
 
 Protože vím, že tam budu mít všechny možnosti -> nevynechám žádné řešení.
-
 <!--ID: 1728921215303-->
 
 END
@@ -195,7 +187,6 @@ Např. mám $n$ věcí co chci rozházet do co nejméně $m$ popelnic.
 Nemá pak smysl mít $m > n$, protože to logicky nebude to nejlepší řešení.
 
 Back:
-
 <!--ID: 1728921215309-->
 
 END
@@ -271,7 +262,6 @@ Hrubá síla nám vygeneruje všechn existující automaty o n stavech. A jeden 
 Tip: když dostanu nějaký příklad typu automaty, tak je fajn si z toho vymyslet nějaký
 
 ![[Pasted image 20241001171052.png]]
-
 <!--ID: 1728921215315-->
 
 END
@@ -293,7 +283,6 @@ Konfigurace:
 
 ![[Pasted image 20241001171917.png]]
 ![[Pasted image 20241001172113.png]]
-
 <!--ID: 1728921215318-->
 
 END
@@ -313,7 +302,6 @@ Mám skladníka, šoupe bednama, tím, že do nich strká. Snaží se je dostat 
 ![[Pasted image 20241001172517.png]]
 
 Můžu si to reprezentovat tak, že řeším jen pohyby krabic, protože pohyby krabic jsou ekvivalentní s pohyby skladníka.
-
 <!--ID: 1728921215321-->
 
 END
@@ -328,7 +316,6 @@ Co je problém minimum equivalent boolean formula?
 Back:
 
 ![[Pasted image 20241001172903.png]]
-
 <!--ID: 1728921215324-->
 
 END
@@ -345,7 +332,6 @@ Back:
 Když dostanu nějaký problém, typicky ho můžu přirovnat k něčemu jinýmu.
 
 ![[Pasted image 20241001173147.png]]
-
 <!--ID: 1728921215326-->
 
 END
@@ -364,7 +350,6 @@ FIT-Card
 - **2. Když mám odvodit konfigurační proměnný, tak mě optimalizační kritérium vůbec nezajímá!**
 
 Back:
-
 <!--ID: 1728921215329-->
 
 END

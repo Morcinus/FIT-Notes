@@ -23,7 +23,6 @@ Matika, co se zajímá o **konečné** a **diskrétní** problémy, které mají
 ![[Pasted image 20240923183912.png]]
 
 ![[Pasted image 20240923183924.png]]
-
 <!--ID: 1728921215168-->
 
 END
@@ -38,7 +37,6 @@ Co je **kombinatorický problém**? (svými slovy)
 Back:
 
 Problém co můžu vyřešit **zkoušením různých možností**.
-
 <!--ID: 1728921215170-->
 
 END
@@ -57,7 +55,6 @@ Back:
 Člověk si vymyslí "takhle by to mohlo fungovat" a tak to budu dělat.
 
 **Negarantuje to optimum**.
-
 <!--ID: 1728921215173-->
 
 END
@@ -78,7 +75,6 @@ Back:
 
 Např.
 ![[Pasted image 20240923184031.png]]
-
 <!--ID: 1728921215176-->
 
 END
@@ -100,7 +96,6 @@ Back:
 
 Např. u desky:
 ![[Pasted image 20240923184136.png]]
-
 <!--ID: 1728921215179-->
 
 END
@@ -195,7 +190,6 @@ Co je **omezení/omezující kritérium**?
 Back:
 
 Omezující kritérium říká (omezuje), **který výstup je řešením**.
-
 <!--ID: 1728921215191-->
 
 END
@@ -212,7 +206,6 @@ Back:
 **Ano.**
 
 Jinak bych nevěděl, co je správným řešením.
-
 <!--ID: 1728921215193-->
 
 END
@@ -261,7 +254,6 @@ Back:
 $n \cdot \log n$
 
 Bylo by to $n$, ale protože to musím sesortit při té konstrukci, je to $n \cdot \log n$
-
 <!--ID: 1728921215204-->
 
 END
@@ -309,7 +301,6 @@ Definice: **Řešení**
 Back:
 
 ![[Pasted image 20240923185653.png]]
-
 <!--ID: 1728921215210-->
 
 END
@@ -324,7 +315,6 @@ Definice: **Optimální řešení**
 Back:
 
 ![[Pasted image 20240923185721.png]]
-
 <!--ID: 1728921215215-->
 
 END
@@ -339,7 +329,6 @@ Definice: **Suboptimální řešení**
 Back:
 
 ![[Pasted image 20240923185747.png]]
-
 <!--ID: 1728921215218-->
 
 END
@@ -374,7 +363,6 @@ Co je **optmalizační konstruktivní problém**?
 Back:
 
 ![[Pasted image 20240923190610.png]]
-
 <!--ID: 1728921215232-->
 
 END
@@ -412,7 +400,6 @@ Co je **optimalizační rozhodovací problém**?
 Back:
 
 ![[Pasted image 20240923190644.png]]
-
 <!--ID: 1728921215238-->
 
 END
@@ -427,7 +414,6 @@ Co je **optimalizační početní problém**?
 Back:
 
 ![[Pasted image 20240923190703.png]]
-
 <!--ID: 1728921215241-->
 
 END
@@ -442,7 +428,6 @@ Co je **optimalizační enumerační problém**?
 Back:
 
 ![[Pasted image 20240923190721.png]]
-
 <!--ID: 1728921215244-->
 
 END
@@ -459,7 +444,6 @@ Back:
 Rozhodovací problém = jazyk
 
 ![[Pasted image 20240923190757.png]]
-
 <!--ID: 1728921215247-->
 
 END
@@ -478,7 +462,6 @@ Back:
 U Booleovy formule řeším, jestli je splnitelná
 
 Pozn. Formule typicky bývá v konjunktivním normálním tvaru
-
 <!--ID: 1728921215250-->
 
 END
@@ -517,7 +500,6 @@ Co je na výstupu, pokud řeším **rozhodovací problém**?
 Back:
 
 **Odpověď ano/ne**
-
 <!--ID: 1728921215256-->
 
 END
@@ -532,7 +514,6 @@ Co je na výstupu, pokud řeším **konstruktivní problém**?
 Back:
 
 **Vykonstruované řešení** (konkrétní **konfigurace**)
-
 <!--ID: 1728921215258-->
 
 END
@@ -600,7 +581,6 @@ Back:
 
 ![[Pasted image 20240923191647.png]]
 ![[Pasted image 20240923191704.png]]
-
 <!--ID: 1728921215270-->
 
 END
@@ -615,7 +595,6 @@ Co je **off-line** a **on-line** optimalizace?
 Back:
 
 ![[Pasted image 20240923192112.png]]
-
 <!--ID: 1728921215276-->
 
 END
@@ -635,7 +614,6 @@ Back:
   - Např. různé trasy pro plánování MHD řidičů, aby nebyli v práci znuděný (i když by bylo efektivnější, kdyby každý řidič jezdil furt tu samou trasu)
 
 ![[Pasted image 20240923192147.png]]
-
 <!--ID: 1728921215279-->
 
 END

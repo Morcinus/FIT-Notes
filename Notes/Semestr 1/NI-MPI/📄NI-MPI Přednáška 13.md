@@ -17,7 +17,6 @@ Co platí pro inverzní prvek generátoru grupy?
 Back:
 
 je také generátor
-
 <!--ID: 1735205749355-->
 
 END
@@ -42,7 +41,6 @@ Jinými slovy řád prvku mi říká, kolikrát musím prvek "umocnit", abych do
 <!-- InformallySaidEnd -->
 
 Tags: core
-
 <!--ID: 1735205749357-->
 
 END
@@ -89,7 +87,6 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: core
-
 <!--ID: 1735205749360-->
 
 END
@@ -115,7 +112,6 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
-
 <!--ID: 1735205749362-->
 
 END
@@ -140,7 +136,6 @@ Back:
 <!-- ExplanationEnd -->
 
 Tags: core
-
 <!--ID: 1735205749365-->
 
 END
@@ -159,7 +154,6 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127132308.png)
 
 Tags: core
-
 <!--ID: 1735205749367-->
 
 END
@@ -184,7 +178,6 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
-
 <!--ID: 1735205749370-->
 
 END
@@ -209,7 +202,6 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
-
 <!--ID: 1735205749372-->
 
 END
@@ -235,7 +227,6 @@ Je to důsledek (jakoby konkrétnější případ) této věty:
 <!-- DetailInfoEnd -->
 
 Tags: core
-
 <!--ID: 1735205749375-->
 
 END
@@ -274,7 +265,6 @@ Izomorfismus = je navíc bijekcí
 <!-- InformallySaidEnd -->
 
 Tags: core
-
 <!--ID: 1735205749377-->
 
 END
@@ -354,7 +344,6 @@ Bijektivní znamená, že každému prvku z $A$ odpovídá právě jeden prvek z
 <!-- ExplanationEnd -->
 
 Tags: core
-
 <!--ID: 1735223297374-->
 
 END
@@ -371,7 +360,6 @@ Definice: izomorfní grupy
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241127135144.png)
-
 <!--ID: 1735205749379-->
 
 END
@@ -396,7 +384,6 @@ Back:
 <!-- ProofEnd -->
 
 Tags: core
-
 <!--ID: 1735205749382-->
 
 END

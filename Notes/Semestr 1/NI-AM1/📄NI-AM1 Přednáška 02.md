@@ -20,7 +20,6 @@ Definice: **architektura systému** (aka co mi určuje?)
 Back:
 
 Architektura určuje **strukturu** a **chování** sytému.
-
 <!--ID: 1728921214979-->
 
 END
@@ -134,7 +133,6 @@ Jaké jsou části Enterprise Architektury? (přehled)
 Back:
 
 ![[Pasted image 20240930093046.png]]
-
 <!--ID: 1728921214992-->
 
 END
@@ -161,7 +159,6 @@ Back:
 - **OIS** (office information systems)
 
 ![[Pasted image 20240930093423.png]]
-
 <!--ID: 1728921214995-->
 
 END
@@ -327,7 +324,6 @@ Co je **integrační middleware**?
 Back:
 
 Řeší integraci více systémů. Propojuje mi to jednotlivé aplikace.
-
 <!--ID: 1728921214998-->
 
 END
@@ -356,7 +352,6 @@ Back:
   - Např. Azure, Excel,...
 
 ![[Pasted image 20240930093901.png]]
-
 <!--ID: 1728921215000-->
 
 END
@@ -383,7 +378,6 @@ Back:
   - konfiguruje systém
 
 ![[Pasted image 20240930094104.png]]
-
 <!--ID: 1728921215003-->
 
 END
@@ -404,7 +398,6 @@ Co je **process classification framework** (PCF)?
 Back:
 
 PCF je **standard** - říká mi jakoby seznam obecných požadavků, co je dobrý implementovat v systémech. Když budu dělat systém, podívám se do standardu a on mi řekne, co všechno bych měl v systému vytvořit za funkcionality.
-
 <!--ID: 1728921215006-->
 
 END
@@ -503,7 +496,6 @@ Back:
 XML a JSON se dají reprezentovat jako **strom**.
 
 Můžu potom vytvářet **pohledy** - tzn. píchnu prstem do určitého vrcholu a od něj dolů se budu na to dívat.
-
 <!--ID: 1728921215014-->
 
 END
@@ -527,7 +519,6 @@ Back:
 - **Sémantika** - jak konkrétně vypadá struktura XML/JSONu pro daný problém
 
 **Syntax** mi jasně definuje ten standard, **sémantiku** si musím zadefinovat sám např. pomocí **RDFS** nebo **JSONSchema**.
-
 <!--ID: 1728921215017-->
 
 END
@@ -568,7 +559,6 @@ Ale můžu mít i následující strukturu:
 Tzn. já když designuju tu strukturu, tak přirozeně nějak chápu tu sémantiku, ale jiný člověk to může pochopit jinak.
 
 -> Potřebuju sémantiku **jasně definovat**.
-
 <!--ID: 1728921215020-->
 
 END
@@ -591,7 +581,6 @@ Back:
 **RDFS** (Resource Description Framework Schema):
 
 Standard (jazyk), který je nadstavbou **RDF** a umožňuje mi jasně definovat **sémantiku** XML a JSONu.
-
 <!--ID: 1728921215022-->
 
 END
@@ -642,7 +631,6 @@ Každý interface má:
 - **technický detaily** (např. endpoint, ip adresa, atd.)
 
 ![[Pasted image 20240930104053.png]]
-
 <!--ID: 1728921215028-->
 
 END
@@ -740,7 +728,6 @@ Back:
 Systém je vrstvenej. Mezi vrstvami mohu definovat **interface**/rozhraní.
 
 ![[Pasted image 20240930103530.png]]
-
 <!--ID: 1728921215036-->
 
 END
@@ -770,7 +757,6 @@ Pokud tu "smlouvu" chci změnit, musím to verzovat. Nemůžu to jen tak měnit 
 
 Např.
 ![[Pasted image 20240930104117.png]]
-
 <!--ID: 1728921215039-->
 
 END
@@ -795,7 +781,6 @@ Back:
 - **Dominantní techologie** - např. když oracle dominuje market, tak se to typicky bude dělat podle nich
 
 Co nejvíce bych se měl opírat o globální **standardy**. Neměl bych si vymýšlet něco svýho.
-
 <!--ID: 1728921215042-->
 
 END

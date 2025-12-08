@@ -62,7 +62,7 @@ jak dlouho
 Back:
 
 Wie lange?
-
+<!--ID: 1765204625970-->
 END
 
 ---
@@ -77,7 +77,7 @@ jak dlouhý
 Back:
 
 Wie lang?
-
+<!--ID: 1765204625973-->
 END
 
 ---
@@ -92,7 +92,7 @@ předložka používaná u firem/řetězců
 Back:
 
 bei
-
+<!--ID: 1765204625976-->
 END
 
 ---
@@ -107,7 +107,7 @@ mesto
 Back:
 
 die Stadt
-
+<!--ID: 1765204625979-->
 END
 
 ---
@@ -122,7 +122,7 @@ na parkovišti
 Back:
 
 auf dem Parkplatz
-
+<!--ID: 1765204625981-->
 END
 
 ---
@@ -137,7 +137,7 @@ u kiosku
 Back:
 
 am Kiosk
-
+<!--ID: 1765204625984-->
 END
 
 ---
@@ -152,7 +152,7 @@ na nádraží
 Back:
 
 auf dem Bahnhof
-
+<!--ID: 1765204625987-->
 END
 
 ---
@@ -167,7 +167,7 @@ u doktora
 Back:
 
 beim Arzt
-
+<!--ID: 1765204625990-->
 END
 
 ---
@@ -182,7 +182,7 @@ knihkupectví
 Back:
 
 die Buchhandlung
-
+<!--ID: 1765204625994-->
 END
 
 ---
@@ -197,7 +197,7 @@ na poště
 Back:
 
 auf der Post
-
+<!--ID: 1765204625998-->
 END
 
 ---
@@ -212,7 +212,7 @@ na autobusové zastávce
 Back:
 
 an der Bushaltestelle
-
+<!--ID: 1765204626000-->
 END
 
 ---
@@ -227,7 +227,7 @@ patro, poschodí
 Back:
 
 die Etage (der Stock)
-
+<!--ID: 1765204626003-->
 END
 
 ---
@@ -242,7 +242,7 @@ přízemí
 Back:
 
 das Erdgeschoss
-
+<!--ID: 1765204626006-->
 END
 
 ---
@@ -257,7 +257,7 @@ recepce
 Back:
 
 der Empfang
-
+<!--ID: 1765204626008-->
 END
 
 ---
@@ -272,7 +272,7 @@ kantýna
 Back:
 
 die Kantine
-
+<!--ID: 1765204626011-->
 END
 
 ---
@@ -287,7 +287,7 @@ konferenční místnosti
 Back:
 
 die Konferenzräume
-
+<!--ID: 1765204626014-->
 END
 
 ---
@@ -302,7 +302,7 @@ kancelář
 Back:
 
 das Büro
-
+<!--ID: 1765204626017-->
 END
 
 ---
@@ -317,7 +317,7 @@ hledám ...
 Back:
 
 ich suche ...
-
+<!--ID: 1765204626019-->
 END
 
 ---
@@ -332,7 +332,7 @@ u (hned vedle)
 Back:
 
 an
-
+<!--ID: 1765204626022-->
 END
 
 ---
@@ -347,7 +347,7 @@ u (blízko)
 Back:
 
 neben
-
+<!--ID: 1765204626025-->
 END
 
 ---
@@ -362,7 +362,7 @@ před domem
 Back:
 
 vor dem Haus
-
+<!--ID: 1765204626028-->
 END
 
 ---
@@ -377,7 +377,7 @@ Co je na obrázku?
 Back:
 
 Was ist auf dem Bild?
-
+<!--ID: 1765204626030-->
 END
 
 ---
@@ -392,7 +392,7 @@ Jak se tvoří řadové číslovky?
 Back:
 
 vezme se der/die/das a −te
-
+<!--ID: 1765204626033-->
 END
 
 ---
@@ -407,7 +407,7 @@ první
 Back:
 
 der/die/das erste
-
+<!--ID: 1765204626036-->
 END
 
 ---
@@ -422,7 +422,7 @@ druhý
 Back:
 
 zweite
-
+<!--ID: 1765204626039-->
 END
 
 ---
@@ -437,7 +437,7 @@ třetí
 Back:
 
 dritte
-
+<!--ID: 1765204626041-->
 END
 
 ---
@@ -452,7 +452,7 @@ FIT-Card
 Back:
 
 vierte
-
+<!--ID: 1765204626044-->
 END
 
 ---
@@ -467,7 +467,7 @@ sedmý
 Back:
 
 siebte
-
+<!--ID: 1765204626047-->
 END
 
 ---
@@ -482,7 +482,7 @@ osmý
 Back:
 
 achte
-
+<!--ID: 1765204626049-->
 END
 
 ---
@@ -497,7 +497,7 @@ dvacátý
 Back:
 
 zwanzigste
-
+<!--ID: 1765204626052-->
 END
 
 ---

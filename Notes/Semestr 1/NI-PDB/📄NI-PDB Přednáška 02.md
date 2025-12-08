@@ -18,7 +18,6 @@ Jako **strom**
 - Kořen je select
 
 ![[Pasted image 20240923165757.png]]
-
 <!--ID: 1728921214670-->
 
 END
@@ -33,7 +32,6 @@ Co je **optimalizace**?
 Back:
 
 Nacházení nejlepšího vyhodnocovacího plánu
-
 <!--ID: 1728921214673-->
 
 END
@@ -74,7 +72,6 @@ Back:
 - **cluster** - shluk/bucker dat
 
 ![[Pasted image 20240923171047.png]]
-
 <!--ID: 1728921214678-->
 
 END
@@ -94,7 +91,6 @@ Oracle si u tabulek/stromů drží různé statistiky - např. počet hodnot atd
 
 ![[Pasted image 20240923173735.png]]
 ![[Pasted image 20240923174138.png]]
-
 <!--ID: 1728921214681-->
 
 END
@@ -111,7 +107,6 @@ Back:
 Jak moc u sebe jsou data v heap tabulce (resp. jak moc je rozházená)
 
 ![[Pasted image 20240923174211.png]]
-
 <!--ID: 1728921214684-->
 
 END

@@ -67,7 +67,6 @@ Back:
 Je to jakoby širší pojem pro **UI/UX**, který řeší uživatelské rozhraní a použitelnost.
 
 Product designer je víc "trendy" a řeší ten produkt obecně.
-
 <!--ID: 1728921214629-->
 
 END

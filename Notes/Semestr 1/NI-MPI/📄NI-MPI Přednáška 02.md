@@ -39,7 +39,6 @@ Back:
 Ukazuje, jak se mění sklon funkce ve všech směrech v daném bodě.
 
 Tags: core
-
 <!--ID: 1728921214787-->
 
 END
@@ -58,7 +57,6 @@ Back:
 Pozn. tehle případ platí velice často.
 
 Hessova matice je často symetrická - tzn. podle diagonály v matici.
-
 <!--ID: 1728921214789-->
 
 END
@@ -73,7 +71,6 @@ Definice: Druhá parciální derivace funkce $f$ ve směru v bodě $\textbf{b}$
 Back:
 
 ![[Pasted image 20240930133700.png]]
-
 <!--ID: 1728921214792-->
 
 END
@@ -98,7 +95,6 @@ Můžu potom provádět "ruské násobení":
 3. ten vektor potom pronásobím s dalším vektorem
 
 Tags: core
-
 <!--ID: 1735463085834-->
 
 END
@@ -122,7 +118,6 @@ _Příklad indefinitního_:
 ![[Pasted image 20240930134809.png]]
 
 Tags: core
-
 <!--ID: 1728921214796-->
 
 END
@@ -141,7 +136,6 @@ Back:
 ![[Pasted image 20240930135024.png]]
 
 Tags: core
-
 <!--ID: 1728921214799-->
 
 END
@@ -160,7 +154,6 @@ Back:
 ![[Pasted image 20240930135029.png]]
 
 Tags: core
-
 <!--ID: 1728921214801-->
 
 END
@@ -179,7 +172,6 @@ Back:
 ![[Pasted image 20240930135046.png]]
 
 Tags: core
-
 <!--ID: 1728921214804-->
 
 END
@@ -198,7 +190,6 @@ Back:
 ![[Pasted image 20240930135050.png]]
 
 Tags: core
-
 <!--ID: 1728921214807-->
 
 END
@@ -217,7 +208,6 @@ Back:
 ![[Pasted image 20240930135107.png]]
 
 Tags: core
-
 <!--ID: 1728921214809-->
 
 END
@@ -234,7 +224,6 @@ Back:
 ![[Pasted image 20240930135304.png]]
 
 Tags: core
-
 <!--ID: 1728921214813-->
 
 END
@@ -251,7 +240,6 @@ Back:
 ![[Pasted image 20240930135505.png]]
 
 Tags: core
-
 <!--ID: 1728921214815-->
 
 END
@@ -269,7 +257,6 @@ Back:
 ![[Pasted image 20240930140831.png]]
 
 Tags: core
-
 <!--ID: 1728921214818-->
 
 END
@@ -286,7 +273,6 @@ Back:
 ![[Pasted image 20240930140823.png]]
 
 Tags: core
-
 <!--ID: 1728921214821-->
 
 END
@@ -327,7 +313,6 @@ Definice: **konvexní a konkávní funkce**
 Back:
 
 ![[Pasted image 20240930140715.png]]
-
 <!--ID: 1728921214826-->
 
 END
@@ -342,7 +327,6 @@ Doplň tvrzení: Lokální minimum konvexní funkce je $\dots$
 Back:
 
 Lokální minimum konvexní funkce je globálním minimem.
-
 <!--ID: 1728921214829-->
 
 END
