@@ -31,6 +31,10 @@ Back:
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020250929134642.png)
+![](../../Assets/Pasted%20image%2020251210110003.png)
+![](../../Assets/Pasted%20image%2020251210110038.png)
+![](../../Assets/Pasted%20image%2020251210110107.png)
+
 <!-- DetailInfoEnd -->
 
 (zdroj: 04 Jaké jsou kroky designu?)
@@ -51,7 +55,7 @@ Hint:
 Back:
 
 **Základní popis**:
-- **co je** ten produkt
+- **co je** ten produkt (např. webová aplikace)
 - **co dělá** ten produkt
 - **pro koho** je produkt určen
 
@@ -333,13 +337,23 @@ Back:
 **Příprava:**
 
 1. **Sepíšeme scénář** step by step co se má udělat za úkol v aplikaci (to se bere ze scénářů z use casů)
-2. **K jednotlivým krokům sepsat otázky**
-3. **Vybereme, které heuristiky chceme testovat** (typicky třeba 6), pro to uděláme tabulku ke každému scénáři
+2. **Vybereme heuristiky, které chceme testovat** (typicky třeba 6)
+3. **K heuristikám vypíšeme konkrétní podotázky** (např. "je z ikon poznat, co dělají", "má uživatel možnost se vrátit zpět" atd.). Na otázky typicky odpovídáme "ano, ne, částečně" a dávají se k nim podrobnější komentáře
 
 **Provedení testu**
 
-1. Člověk projde scénář a odpoví na otázky
-2. Potom se vezmou odpovědi, vyhodnotí se jestli jsou správně a potom se podle nich ohodnotí jednotlivé heuristiky, jak moc jsou splněny (např. 1-5)
+1. **Člověk projde scénář a odpoví na otázky**, případně interview s tím kdo to procházel (likes, dislikes, recommendations)
+2. **Sestaví se tabulka problémů, určí se priority**, může se taky sestavit tabulka s přehledem, jak moc jsou splněny jednotlivé heuristiky
+3. **Reporting problémů, diskuze výsledků**
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251210115311.png)
+Příklad otázek v průběhu vyhodnocování na Alze:
+![](../../Assets/Pasted%20image%2020251210115335.png)
+![](../../Assets/Pasted%20image%2020251210115350.png)
+
+<!-- DetailInfoEnd -->
+
 
 (zdroj: 09 Jak funguje **heuristická evaluace**?)
 <!--ID: 1765204625605-->

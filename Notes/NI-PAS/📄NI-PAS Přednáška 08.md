@@ -19,7 +19,7 @@ Alespoň 2 strany
 Projev vůle být smlouvou vázán
 Obsah smlouvy
 (Forma)
-
+<!--ID: 1765364313139-->
 END
 
 ---
@@ -34,7 +34,7 @@ Back:
 
 - Nabídka
 - Akceptace
-
+<!--ID: 1765364313143-->
 END
 
 ---
@@ -53,7 +53,7 @@ za určitou cenu
 • Obsahuje podstatné náležitosti smlouvy
 • Úmysl uzavřít smlouvu
 • Lze přijmout jednoduchým souhlasem
-
+<!--ID: 1765364313148-->
 END
 
 ---
@@ -69,7 +69,7 @@ Back:
 - Včasná
 - Bezpodmínečná — přijetí s odchylkou nebo dodatkem je novou nabídkou, ledaže podstatně nemění podmínky nabídky a nedošlo-li k odmítnutí druhou stranou
 - Varianty — souhlasem, jednáním (tzv. konkludentně) x ne mlčením
-
+<!--ID: 1765364313152-->
 END
 
 ---
@@ -86,7 +86,7 @@ Back:
 - Nejvyšší soud
 	-  Projev vůle dojde adresátovi, jakmile se dostane do sféry jeho dispozice, tzn. v okamžiku, kdy adresát nabude objektivní možnost seznámit se s obsahem projevu vůle.
 	-  Strany mají možnost ujednat si zvláštní pravidla uzavírání smlouvy.
-
+<!--ID: 1765364313157-->
 END
 
 ---
@@ -100,7 +100,7 @@ Co jsou podstatné náležitosti smlouvy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125131257.png)
-
+<!--ID: 1765364313161-->
 END
 
 ---
@@ -114,7 +114,7 @@ Kde jsou informace o uzavírání smluv?
 Back:
 
 Občanský zákoník
-
+<!--ID: 1765364313166-->
 END
 
 ---
@@ -133,7 +133,7 @@ Cokoliv co neporušuje dobré mravy, veřejný pořádek nebo právo týkající
 ![](../../Assets/Pasted%20image%2020251125131451.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364313170-->
 END
 
 ---
@@ -149,7 +149,7 @@ Back:
 Když jsou **přiložené k nabídce** nebo **jsou stranám známé**
 
 Tzn. např. musí být u registrace nebo když se sepisuje smlouva fyzicky, tak jsou k tomu přiloženy obchodní podmínky
-
+<!--ID: 1765364313175-->
 END
 
 ---
@@ -163,7 +163,7 @@ Co když obě strany odkážou na obchodní podmínky, které si odporují?
 Back:
 
 Pak smluvní podmínky platí v rozsahu, v jakém si neodporují
-
+<!--ID: 1765364313179-->
 END
 
 ---
@@ -184,7 +184,7 @@ Nemusí.
 	- písemná
 	- textová (trvalý nosič dat)
 	- veřejná listina
-
+<!--ID: 1765364313183-->
 END
 
 ---
@@ -205,7 +205,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251125132121.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364313187-->
 END
 
 ---
@@ -222,7 +222,7 @@ Back:
 - **Kdy** - logování souhlasu
 - **Co** - text smlouvy poskytnutý jednajícímu
 - **Jak** - průběh kontraktačního procesu
-
+<!--ID: 1765364313192-->
 END
 
 ---
@@ -237,7 +237,7 @@ Back:
 
 - Výpověď - smlouva platí až do okamžiku výpovědi a pak končí
 - Odstoupení - účinky smlouvy se zpětně kompletně zruší. Např. vrátím zboží, tak to pak je jako kdybych si ho nikdy nekoupil
-
+<!--ID: 1765364313196-->
 END
 
 ---
@@ -259,7 +259,7 @@ Je to smlouva o nějaké **činnosti** vytvoření něčeho
 ![](../../Assets/Pasted%20image%2020251125133404.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364313200-->
 END
 
 ---
@@ -280,7 +280,7 @@ Používá se například, když jedna firma chce od druhé pravidelně objedná
 	- Vzájemná součinnost
 	- Licence
 	- Odpovědnost a smluvní pokuty
-
+<!--ID: 1765364313205-->
 END
 
 ---
@@ -301,7 +301,7 @@ Back:
 	- Účel
 	- Teritorium
 	- Množství
-
+<!--ID: 1765364313209-->
 END
 
 ---
@@ -315,7 +315,7 @@ Co je úplatná / bezúplatná licenční smlouva?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134255.png)
-
+<!--ID: 1765364313214-->
 END
 
 ---
@@ -333,7 +333,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251125134336.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364313218-->
 END
 
 ---
@@ -349,7 +349,7 @@ Back:
 Typicky se uzavírá, když chtějí strany spolupracovat, ale odkrývají si nějaký citlivější data o té straně
 
 ![](../../Assets/Pasted%20image%2020251125134447.png)
-
+<!--ID: 1765364313223-->
 END
 
 ---
@@ -363,7 +363,7 @@ Jaké smlouvy se používají u vývoje softwaru?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134515.png)
-
+<!--ID: 1765364313229-->
 END
 
 ---
@@ -377,7 +377,7 @@ Co typicky obsahují smlouvy na vývoj softwaru?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134538.png)
-
+<!--ID: 1765364313234-->
 END
 
 ---
@@ -391,7 +391,7 @@ Co je specifikace díla?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134604.png)
-
+<!--ID: 1765364313239-->
 END
 
 ---
@@ -406,7 +406,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125141313.png)
 ![](../../Assets/Pasted%20image%2020251125141322.png)
-
+<!--ID: 1765364313245-->
 END
 
 ---
@@ -420,7 +420,7 @@ Co je aplikační přednost u rámcové smlouvy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141347.png)
-
+<!--ID: 1765364313251-->
 END
 
 ---
@@ -434,7 +434,7 @@ Co jsou pokyny objednatele?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141457.png)
-
+<!--ID: 1765364313256-->
 END
 
 ---
@@ -448,7 +448,7 @@ Co když objednatel stanovil nevhodné pokyny?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141517.png)
-
+<!--ID: 1765364313265-->
 END
 
 ---
@@ -462,7 +462,7 @@ Jaké věci se řeší při změnovém řízení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141539.png)
-
+<!--ID: 1765364313271-->
 END
 
 ---
@@ -476,7 +476,7 @@ Jak funguje změnové řízení u veřejných zakázek?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141640.png)
-
+<!--ID: 1765364313276-->
 END
 
 ---
@@ -490,7 +490,7 @@ Jak se určuje odměna u zakázek?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141715.png)
-
+<!--ID: 1765364313281-->
 END
 
 ---
@@ -504,7 +504,7 @@ Jak se určuje odměna u agilního vávoje?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141741.png)
-
+<!--ID: 1765364313287-->
 END
 
 ---
@@ -518,7 +518,7 @@ Jak probíhá **předání u akceptačního řízení**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141809.png)
-
+<!--ID: 1765364313292-->
 END
 
 ---
@@ -534,7 +534,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251125142332.png)
 ![](../../Assets/Pasted%20image%2020251125142353.png)
 
-
+<!--ID: 1765364313296-->
 END
 
 ---
@@ -550,7 +550,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251125142417.png)
 ![](../../Assets/Pasted%20image%2020251125142433.png)
 
-
+<!--ID: 1765364313301-->
 END
 
 ---
@@ -564,7 +564,7 @@ Jak souvisí licence a duševní vlastnictví?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142758.png)
-
+<!--ID: 1765364313305-->
 END
 
 ---
@@ -578,7 +578,7 @@ Jak funguje součinnost u provedení díla?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142847.png)
-
+<!--ID: 1765364313311-->
 END
 
 ---
@@ -592,7 +592,7 @@ Jak fungují smluvní pokuty?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142911.png)
-
+<!--ID: 1765364313315-->
 END
 
 ---
@@ -606,7 +606,7 @@ Jak funguje náhrada škody?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142926.png)
-
+<!--ID: 1765364313319-->
 END
 
 ---
@@ -620,7 +620,7 @@ Jak funguje ukončení smlouvy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142941.png)
-
+<!--ID: 1765364313325-->
 END
 
 ---
@@ -635,7 +635,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125142957.png)
 ![](../../Assets/Pasted%20image%2020251125143035.png)
-
+<!--ID: 1765364313330-->
 END
 
 ---

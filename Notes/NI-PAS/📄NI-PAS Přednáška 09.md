@@ -18,7 +18,7 @@ Back:
 - **Autorské právo**
 - **Práva průmyslového vlastnictví**
 - **Další prostředky ochrany**
-
+<!--ID: 1765364312850-->
 END
 
 ---
@@ -36,7 +36,7 @@ Back:
 - Patenty
 - Užitkové vzory
 - Průmyslové vzory
-
+<!--ID: 1765364312864-->
 END
 
 ---
@@ -53,7 +53,7 @@ Back:
 - Názvy domén
 - Název společnosti
 - Nekalá soutěž
-
+<!--ID: 1765364312869-->
 END
 
 ---
@@ -74,7 +74,7 @@ Mezinárodní úmluva funguje tak, že státy co to podepíšou se zavazují k t
 ![](../../Assets/Pasted%20image%2020251202133818.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364312874-->
 END
 
 ---
@@ -88,7 +88,7 @@ Co je chráněno autorským právem?
 Back:
 
 Autorská díla
-
+<!--ID: 1765364312880-->
 END
 
 ---
@@ -107,7 +107,7 @@ Výsledek kreativní činnosti člověka, autor musí být fyzická osoba. Tzn. 
 ![](../../Assets/Pasted%20image%2020251202134220.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364312885-->
 END
 
 ---
@@ -121,7 +121,7 @@ Může být výtvor umělé inteligence chráněn autorským právem?
 Back:
 
 Ne. Není to chráněno autorským právem.
-
+<!--ID: 1765364312891-->
 END
 
 ---
@@ -143,7 +143,7 @@ Back:
 	- nelze se jich vzdát x lze udělit licence
 	- trvají 70 let po smrti autora
 	- dědí se
-
+<!--ID: 1765364312896-->
 END
 
 ---
@@ -162,7 +162,7 @@ Back:
 některá díla jsou vyloučena z ochrany
 - výtvory tradiční lidové kultury
 - úřední dílo (např. text zákona)
-
+<!--ID: 1765364312902-->
 END
 
 ---
@@ -181,7 +181,7 @@ Back:
 	- (Digital Markets act - řeší to, na co mají právo ty platformy)
 - **Modely pro VR/AR**
 - **Dokumentace**
-
+<!--ID: 1765364312908-->
 END
 
 ---
@@ -198,7 +198,7 @@ Normálně si člověk může čistě pro svoji potřebu vytvořit rozmnoženinu
 
 U softwaru je výjimka:
 ![](../../Assets/Pasted%20image%2020251202141547.png)
-
+<!--ID: 1765364312913-->
 END
 
 ---
@@ -213,7 +213,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251202141610.png)
 ![](../../Assets/Pasted%20image%2020251202141624.png)
-
+<!--ID: 1765364312918-->
 END
 
 ---
@@ -227,7 +227,7 @@ Jak funguje prodávání použitého softwaru z hlediska práva?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202141651.png)
-
+<!--ID: 1765364312923-->
 END
 
 ---
@@ -241,7 +241,7 @@ Jaké jsou veřejné licence?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202141825.png)
-
+<!--ID: 1765364312927-->
 END
 
 ---
@@ -255,7 +255,7 @@ Co jsou copyleftové licence?
 Back:
 
 Vyžadují vydání dalšího díla se stejnou licencí
-
+<!--ID: 1765364312931-->
 END
 
 ---
@@ -269,7 +269,7 @@ Co je GPLv3?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202141919.png)
-
+<!--ID: 1765364312936-->
 END
 
 ---
@@ -283,7 +283,7 @@ Co je Mozzzila Public License?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202141942.png)
-
+<!--ID: 1765364312940-->
 END
 
 ---
@@ -297,7 +297,7 @@ Co je Apache License 2.0?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202142004.png)
-
+<!--ID: 1765364312945-->
 END
 
 ---
@@ -311,7 +311,7 @@ Co je MIT License?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202142031.png)
-
+<!--ID: 1765364312949-->
 END
 
 ---
@@ -329,7 +329,7 @@ Back:
 Podmínka ochrany je, že ten majitel databáze musel udělat kvalitativně/kvantitativně vklad do vytvoření databáze. 
 
 Např. když si udělám kurzy v databázi, tak to je chráněný, ale když třeba aerolinky mají data o letech, tak to není chráněný, protože to přímo plyne z toho že prodávají letenky a nevynaložili úsilí ta data vytvořit
-
+<!--ID: 1765364312955-->
 END
 
 ---
@@ -348,7 +348,7 @@ Back:
 - Priorita
 - Převoditelnost - dá se převést
 - Doba trvání ochrany
-
+<!--ID: 1765364312961-->
 END
 
 ---
@@ -371,7 +371,7 @@ Např. u coca coly je chráněný i tvar té flašky (i když strhnu etiketu tak
 ![](../../Assets/Pasted%20image%2020251202143910.png)
 ![](../../Assets/Pasted%20image%2020251202143923.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1765364312965-->
 END
 
 ---
@@ -387,7 +387,7 @@ Back:
 - Pro ČR cca 5000
 - Pro EU cca 800 eur
 - Pro svět cca 200 tisíc Kč
-
+<!--ID: 1765364312970-->
 END
 
 ---
@@ -404,7 +404,7 @@ Back:
 - Pak se rozhoduje jestli jsou ty známky konfliktní
 
 ![](../../Assets/Pasted%20image%2020251202151550.png)
-
+<!--ID: 1765364312975-->
 END
 
 ---
@@ -420,7 +420,7 @@ Back:
 1. **Jako první se na to podívá bába na úřadě** která určí jeslti to vůbec jde registrovat (jestli to není sprostý slovo, jeslti to není moc obecný, atd.)
 2. **Úřad to pak zveřejní v rejstříku na 3 měsíce**. Po tu dobu mohou lidé se starší známkou podat námitku.
 3. **Když nedostanu námitku**, známka se propíše a je registrovaná
-
+<!--ID: 1765364312980-->
 END
 
 ---
@@ -438,7 +438,7 @@ Chrání **vzhled** výrobku.
 Např. design auta
 
 ![](../../Assets/Pasted%20image%2020251202152923.png)
-
+<!--ID: 1765364312985-->
 END
 
 ---
@@ -454,7 +454,7 @@ Back:
 **vynález** - musí to být nový, výsledek vynálezecké činnosti a musí to mít průmyslové využití
 
 ![](../../Assets/Pasted%20image%2020251202153352.png)
-
+<!--ID: 1765364312991-->
 END
 
 ---
@@ -468,7 +468,7 @@ Co nelze patentovat?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251202153649.png)
-
+<!--ID: 1765364312995-->
 END
 
 ---
@@ -486,7 +486,7 @@ Back:
 Když někdo poruší (vypustí) obchodní tajemství, tak ta společnost může žádat náhradu škody.
 
 Např. zaměstnanec firmy si řekne že založí konkurenční firmu. Tak si stáhne všechna data ve firmě. Firma pak může přijít za ním a dát na něj žalobu, že jim má předat veškerý zisk, že má nahradit škodu.
-
+<!--ID: 1765364313000-->
 END
 
 ---

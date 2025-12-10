@@ -16,7 +16,7 @@ Co je **personalistika** - personální řízení podniku?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131301.png)
-
+<!--ID: 1765364313335-->
 END
 
 ---
@@ -30,7 +30,7 @@ Jaké jsou úkoly personálního řízení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131321.png)
-
+<!--ID: 1765364313340-->
 END
 
 ---
@@ -44,7 +44,7 @@ Co je řízení lidských zdrojů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131231.png)
-
+<!--ID: 1765364313344-->
 END
 
 ---
@@ -58,7 +58,7 @@ Co je úkol **personálního útvaru**
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131207.png)
-
+<!--ID: 1765364313348-->
 END
 
 ---
@@ -72,7 +72,7 @@ Co je úkol **vedoucích pracovníků** (manažerů)?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131200.png)
-
+<!--ID: 1765364313352-->
 END
 
 ---
@@ -91,7 +91,7 @@ Poptávka nižší než nabídka -> generuje nezaměstnanost
 Poptávka vyšší než nabídka -> nedostatek práce
 
 ![](../../Assets/Pasted%20image%2020251104131122.png)
-
+<!--ID: 1765364313357-->
 END
 
 ---
@@ -109,7 +109,7 @@ Back:
 - **informatizace práce**
 - **humanizace práce** - lepší pracovní podmínky
 - **ekologizace práce**
-
+<!--ID: 1765364313362-->
 END
 
 ---
@@ -129,7 +129,7 @@ Back:
 - organizační uspořádání podniku
 - podniková kutura a filozofie
 - **způsob řízení lidí**
-
+<!--ID: 1765364313368-->
 END
 
 ---
@@ -143,7 +143,7 @@ Je autokracie výhodná při řízení podniku? (aka vládne jeden)
 Back:
 
 Ano. Není to tolik příjemné pro zaměstnance, ale je to mnohem efektivnější, když je ten nejvyšší manažer dobrý (Apple, atd.)
-
+<!--ID: 1765364313373-->
 END
 
 ---
@@ -157,7 +157,7 @@ Co je lidský potenciál?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131833.png)
-
+<!--ID: 1765364313377-->
 END
 
 ---
@@ -171,7 +171,7 @@ Z čeho se skládá lidský potenciál?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104131853.png)
-
+<!--ID: 1765364313381-->
 END
 
 ---
@@ -185,7 +185,7 @@ Co prakticky znamená využití lidského potenciálu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104132039.png)
-
+<!--ID: 1765364313385-->
 END
 
 ---
@@ -206,7 +206,7 @@ Cílem je začlenit co nejvíce **schopných** a **ochotných** lidí
 ![](../../Assets/Pasted%20image%2020251104132156.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364313390-->
 END
 
 ---
@@ -223,7 +223,7 @@ Back:
 Chtějí to nějak přežít ve firmě - např. někteří lidi před důchodem
 
 ![](../../Assets/Pasted%20image%2020251104132246.png)
-
+<!--ID: 1765364313394-->
 END
 
 ---
@@ -241,7 +241,7 @@ Back:
 Díky svým schopnostem můžou být uznávanými a ostatní si je budou brát jako vzor - ale pro firmu to je špatný.
 
 ![](../../Assets/Pasted%20image%2020251104132311.png)
-
+<!--ID: 1765364313398-->
 END
 
 ---
@@ -257,7 +257,7 @@ Back:
 Tyhle jsou v pohodě, ale je potřeba je dobře **zaškolit**
 
 ![](../../Assets/Pasted%20image%2020251104132503.png)
-
+<!--ID: 1765364313402-->
 END
 
 ---
@@ -273,7 +273,7 @@ Back:
 Tyhle jsou nejlepší, toho chceme ideálně docílit.
 
 ![](../../Assets/Pasted%20image%2020251104132532.png)
-
+<!--ID: 1765364313407-->
 END
 
 ---
@@ -290,7 +290,7 @@ Back:
 - **Inteligence** - schopnost řešit nově vzniklé/obtížné situace, učit se a přizpůsobovat se novým okolnostem
 	- Je z části vrozená, ale dá se dost zlepšovat a učit
 - **Emoční inteligence**
-
+<!--ID: 1765364313411-->
 END
 
 ---
@@ -310,7 +310,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251104133301.png)
 <!-- DetailInfoEnd -->
 
-
+<!--ID: 1765364313415-->
 END
 
 ---
@@ -329,7 +329,7 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251104133341.png)
 <!-- DetailInfoEnd -->
-
+<!--ID: 1765364313419-->
 END
 
 ---
@@ -343,7 +343,7 @@ Co je práce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104133724.png)
-
+<!--ID: 1765364313423-->
 END
 
 ---
@@ -357,7 +357,7 @@ Na jaké části se dělí **pracovní způsobilost**? (4)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104133744.png)
-
+<!--ID: 1765364313427-->
 END
 
 ---
@@ -371,7 +371,7 @@ Co je **Kvalifikace**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104133809.png)
-
+<!--ID: 1765364313431-->
 END
 
 ---
@@ -385,7 +385,7 @@ Co je **Kompetence**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104133824.png)
-
+<!--ID: 1765364313435-->
 END
 
 ---
@@ -399,7 +399,7 @@ Z čeho se skládá **pracovní místo**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134011.png)
-
+<!--ID: 1765364313439-->
 END
 
 ---
@@ -413,7 +413,7 @@ Co je **pracovní úkol**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134025.png)
-
+<!--ID: 1765364313443-->
 END
 
 ---
@@ -427,7 +427,7 @@ Z čeho se skládají pracovní podmínky? (5)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134038.png)
-
+<!--ID: 1765364313448-->
 END
 
 ---
@@ -443,7 +443,7 @@ Back:
 Definují náplň práce zaměstnance. Mělo by to být definované v nějakém dokumentu. Měly by tam zdokumentovány ty úkoly, co má zaměstnanec dělat.
 
 ![](../../Assets/Pasted%20image%2020251104134253.png)
-
+<!--ID: 1765364313452-->
 END
 
 ---
@@ -457,7 +457,7 @@ Co jsou **podmínky pracovního prostředí**? (5) (v pracovních podmínkách)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134305.png)
-
+<!--ID: 1765364313457-->
 END
 
 ---
@@ -471,7 +471,7 @@ Co jsou **organizační podmínky**? (2) (v pracovních podmínkách)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134321.png)
-
+<!--ID: 1765364313461-->
 END
 
 ---
@@ -486,7 +486,7 @@ Co jsou **sociální podmínky**? (3) (v pracovních podmínkách)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134345.png)
-
+<!--ID: 1765364313465-->
 END
 
 ---
@@ -501,7 +501,7 @@ Co jsou **legislativní podmínky**? (3) (v pracovních podmínkách)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134356.png)
-
+<!--ID: 1765364313469-->
 END
 
 ---
@@ -515,7 +515,7 @@ Co je **státní politika zaměstnanosti**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134436.png)
-
+<!--ID: 1765364313473-->
 END
 
 ---
@@ -529,7 +529,7 @@ Co je **podniková politika zaměstnanosti**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134454.png)
-
+<!--ID: 1765364313477-->
 END
 
 ---
@@ -543,7 +543,7 @@ Jaké jsou **prvky podnikové politiky zaměstnanosti**? (8)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134523.png)
-
+<!--ID: 1765364313482-->
 END
 
 ---
@@ -557,7 +557,7 @@ Co je cílem **vyhledávání pracovníků**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134632.png)
-
+<!--ID: 1765364313486-->
 END
 
 ---
@@ -571,7 +571,7 @@ Co je **vyhledávání z vnitropodnikových (interních) zdrojů**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134734.png)
-
+<!--ID: 1765364313491-->
 END
 
 ---
@@ -585,7 +585,7 @@ Co je **vyhledávání z mimopodnikových (externích) zdrojů**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104134759.png)
-
+<!--ID: 1765364313496-->
 END
 
 ---
@@ -600,7 +600,7 @@ Back:
 
 Získat co **nejkvalitnější pracovníky**
 Tzn. posoudit **předpoklady uchazeče, osobní charakteristiky, možnosti rozvoje uchazeče**
-
+<!--ID: 1765364313500-->
 END
 
 ---
@@ -619,7 +619,7 @@ Back:
 	- Provedení pohovoru
 	- Celkové vyhodnocení a rozhodnutí
 - **Uzavření pracovní smlouvy** (a splnění dalších legislativních podmínek)
-
+<!--ID: 1765364313504-->
 END
 
 ---
@@ -635,7 +635,7 @@ Back:
 Zjišťuje předpoklady pro určitou týmovou roli - zjistí silné a slabé stránky
 
 ![](../../Assets/Pasted%20image%2020251104135422.png)
-
+<!--ID: 1765364313508-->
 END
 
 ---
@@ -649,7 +649,7 @@ Co je **pracovní adaptace**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104135515.png)
-
+<!--ID: 1765364313512-->
 END
 
 ---
@@ -663,7 +663,7 @@ Co je **sociální adaptace**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104135532.png)
-
+<!--ID: 1765364313517-->
 END
 
 ---
@@ -677,7 +677,7 @@ Co je **Kvalifikace** zaměstnanců (profesní příprava)?
 Back:
 
 Příprava zaměstnance na vykonávání určité pozice
-
+<!--ID: 1765364313521-->
 END
 
 ---
@@ -691,7 +691,7 @@ Jaké jsou typy kvalifikace? (4)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104135658.png)
-
+<!--ID: 1765364313525-->
 END
 
 ---
@@ -707,7 +707,7 @@ Back:
 **Potřeby** (Maslowova hierarchie potřeb)
 
 ![](../../Assets/Pasted%20image%2020251104135733.png)
-
+<!--ID: 1765364313529-->
 END
 
 ---
@@ -721,7 +721,7 @@ Jaké mají lidi **motivy**, které souvisejí přímo s prací?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104135943.png)
-
+<!--ID: 1765364313533-->
 END
 
 ---
@@ -738,7 +738,7 @@ Ty jsou uspokojovány jako **důsledek** pracovní činnosti
 
 ![](../../Assets/Pasted%20image%2020251104140004.png)
 
-
+<!--ID: 1765364313539-->
 END
 
 ---
@@ -752,7 +752,7 @@ Co je **motivační profil osobnosti**?
 Back:
 
 Relativně **trvalá** orientace člověka, jeho motivační preference atd.
-
+<!--ID: 1765364313544-->
 END
 
 ---
@@ -766,7 +766,7 @@ Jaké jsou součásti **motivačního profilu**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104140301.png)
-
+<!--ID: 1765364313548-->
 END
 
 ---
@@ -780,7 +780,7 @@ Může manažer měnit **motivy** svých podřízení? Jak s tím souvisí **sti
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104140535.png)
-
+<!--ID: 1765364313553-->
 END
 
 ---
@@ -800,7 +800,7 @@ Back:
 Např. přidáme mu plat, když to je to, co ho motivuje, tak se mu třeba zvýší výkon apod.
 
 ![](../../Assets/Pasted%20image%2020251104140716.png)
-
+<!--ID: 1765364313558-->
 END
 
 ---
@@ -814,7 +814,7 @@ Jaké jsou hlavní stimuly práce?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104140734.png)
-
+<!--ID: 1765364313562-->
 END
 
 ---
@@ -828,7 +828,7 @@ Co je **sociální politika v podniku**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104140859.png)
-
+<!--ID: 1765364313567-->
 END
 
 ---
@@ -842,7 +842,7 @@ Jaké jsou cíle sociální politiky podniku? (3)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104140931.png)
-
+<!--ID: 1765364313572-->
 END
 
 ---
@@ -856,7 +856,7 @@ Jaké jsou cíle hodnocení pracovníků a jejich výkonů?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104141124.png)
-
+<!--ID: 1765364313576-->
 END
 
 ---
@@ -870,7 +870,7 @@ Proč je hodnocení pracovníků jedna z nejsložitějších a nejcitlivějšíc
 Back:
 
 ![](../../Assets/Pasted%20image%2020251104141154.png)
-
+<!--ID: 1765364313581-->
 END
 
 ---

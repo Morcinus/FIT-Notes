@@ -19,7 +19,7 @@ Back:
 - **Smlouva o spolupráci** - dá se uzavřít s kámošem, dá se tam napsat cokoliv, kdo co bude dělat, jak se budou sdílet zisky atd. lepší je typicky rovnou založit s.r.o.čko (to prý není zas tak těžký, trvá to třeba den)
 - **Smlouva o výkonu majetkových práv**
 - **s.r.o.** - je tam jednatel (nebo víc), dobrý je mít třeba jednoho (nebo dva kdyby byl nemocný)
-
+<!--ID: 1765364313008-->
 END
 
 ---
@@ -35,7 +35,7 @@ Back:
 Uzavírat smlouvy za právnickou osobu (sročko), může dělat úplně všechno.
 
 Jedná ze zákazníkama, zaměstnancema atd. Je zodpovědný za celou společnost, zaměstnance, může vytvářet pozice, rušit je, managovat atd. 
-
+<!--ID: 1765364313013-->
 END
 
 ---
@@ -49,7 +49,7 @@ Co se dá udělat, když je jednatel na dovče, ale musí někdo jiný jednat?
 Back:
 
 Může se mu dát plná moc.
-
+<!--ID: 1765364313018-->
 END
 
 ---
@@ -65,7 +65,7 @@ Back:
 NE! Na základě smlouvy o výkonu funkce není zaměstnanec.
 
 Je to pro to, aby ho majitel mohl okamžitě odvolat.
-
+<!--ID: 1765364313023-->
 END
 
 ---
@@ -80,7 +80,7 @@ Back:
 
 - Jednatel může být okamžitě odvolán
 - Jednatel má 100% zodpovědnost, zaměstnanec pouze cca do 4 násobku jeho platu
-
+<!--ID: 1765364313027-->
 END
 
 ---
@@ -98,7 +98,7 @@ Back:
 	- Pokud jsem zaměstnanec, tak tím rovnou předávám i majetková práva
 - **Dílo na objednávku**
 - **Školní dílo**
-
+<!--ID: 1765364313032-->
 END
 
 ---
@@ -115,7 +115,7 @@ Back:
 - Majetková práva umožňují si s dílem dělat co chci
 	- To firma automaticky získá, když zaměstnanec něco vytvoří
 	- Nebo musíme smluvně ošetřit, že na nás např IČař převede majetkový práva
-
+<!--ID: 1765364313038-->
 END
 
 ---
@@ -130,7 +130,7 @@ Back:
 
 - Výhradní licence - je to pro jednu konkrétní firmu, prodávám to pouze jedné firmě
 - Nevýhradní licence - je to obecný, může to používat více lidí/firem
-
+<!--ID: 1765364313043-->
 END
 
 ---
@@ -146,7 +146,7 @@ Back:
 Když zaměstnanec vymyslí něco geniálního, co firmě vydělá miliardy, tak by měl být dle zákona patřičně firmou odměněn.
 
 Proto si musím do smlouvy napsat, že to co mu normálně platí, že je všechno a že nemá nárok na tu odměnu
-
+<!--ID: 1765364313047-->
 END
 
 ---
@@ -170,7 +170,7 @@ Dle chatgpt:
 4. Tobě přijde: **67,15 Kč**
 
 Efektivní zdanění: **32,85 %**
-
+<!--ID: 1765364313052-->
 END
 
 ---
@@ -184,7 +184,7 @@ Dá se limitovat prodávání shares? Aby např. shareholder nemohl prodat svůj
 Back:
 
 U osobních korporací (sro) to jde ošetřit smlouvou, aby to společníci nemohli prodávat.
-
+<!--ID: 1765364313056-->
 END
 
 ---
@@ -203,7 +203,7 @@ Back:
 4. **Series B**
 5. **Series C a další**
 6. **IPO x EXIT**
-
+<!--ID: 1765364313061-->
 END
 
 ---
@@ -217,7 +217,7 @@ Co je preseed fáze?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209144924.png)
-
+<!--ID: 1765364313065-->
 END
 
 ---
@@ -231,7 +231,7 @@ Co je seed fáze?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209144931.png)
-
+<!--ID: 1765364313069-->
 END
 
 ---
@@ -245,7 +245,7 @@ Co je Series A fáze?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209144955.png)
-
+<!--ID: 1765364313074-->
 END
 
 ---
@@ -259,7 +259,7 @@ Co je Series B fáze?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209145013.png)
-
+<!--ID: 1765364313079-->
 END
 
 ---
@@ -273,7 +273,7 @@ Co je Series C fáze a dál?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209145024.png)
-
+<!--ID: 1765364313083-->
 END
 
 ---
@@ -287,7 +287,7 @@ Co je IPO and Exit?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209145032.png)
-
+<!--ID: 1765364313087-->
 END
 
 ---
@@ -305,7 +305,7 @@ Back:
 - Nebo po roce si může vybrat jestli chce 10% společnosti nebo prachy zpět s tím úrokem
 
 Nebo cokoliv na tento způsob - vpodstatě k té smlouvě dávám ještě nějakou podmínku
-
+<!--ID: 1765364313092-->
 END
 
 ---
@@ -319,7 +319,7 @@ Co je Due Diligence?
 Back:
 
 
-
+<!--ID: 1765364313096-->
 END
 
 ---
@@ -333,7 +333,7 @@ Jaké jsou typy Due Diligence?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209151011.png)
-
+<!--ID: 1765364313101-->
 END
 
 ---
@@ -347,7 +347,7 @@ Co je součástí právní due diligence,
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209151117.png)
-
+<!--ID: 1765364313105-->
 END
 
 ---
@@ -363,7 +363,7 @@ Back:
 Že se společností jdeme na veřejnost - např. jako akciovka atd.
 
 Tohle je typicky když už je ta firma fakt úspěšná.
-
+<!--ID: 1765364313110-->
 END
 
 ---
@@ -377,7 +377,7 @@ Co se řeší při exitu společnosti?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209152258.png)
-
+<!--ID: 1765364313114-->
 END
 
 ---
@@ -393,7 +393,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251209152420.png)
 ![](../../Assets/Pasted%20image%2020251209152528.png)
 
-
+<!--ID: 1765364313119-->
 END
 
 ---
@@ -407,7 +407,7 @@ Jaká je struktura SPA?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251209152545.png)
-
+<!--ID: 1765364313124-->
 END
 
 ---
@@ -429,7 +429,7 @@ Např.
 	- Např. za nemovitost nechci poslat rovnou peníze na účet a doufat, že to ten druhý převede.. místo toho se to dá třetí straně a ta pak pošle ty peníze, až to je převedeno na katastru apod.
 
 ![](../../Assets/Pasted%20image%2020251209153223.png)
-
+<!--ID: 1765364313129-->
 END
 
 ---
@@ -445,7 +445,7 @@ Back:
 Např. abych si po exitu nepřetáhnul zákazníky apod.
 
 ![](../../Assets/Pasted%20image%2020251209153249.png)
-
+<!--ID: 1765364313133-->
 END
 
 ---
