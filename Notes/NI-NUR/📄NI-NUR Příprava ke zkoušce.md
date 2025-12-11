@@ -683,6 +683,17 @@ Jaké hlavní části by měl mít uživatelský dotazník (user survey)?
 
 Back:
 
+1. **Říct uživateli cíl dotazníku** - proč ho děláme
+2. **Obecné informace** - získat demografické informace, background, úroveň zkušenosti uživatele
+3. **Zjistit jak se daný úkol provádí teď**
+4. **Zjistit jak se může provádět úkol v budoucnu** - co je třeba změnit, co může být nového
+5. **Jakékoliv další komentáře**
+
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251211103616.png)
+
+Možné otázky:
 - Demografické otázky - věk, gender, vzdělání, profese, otázky jestli je potenciálním uživatelem
 - Jak dělá úkoly momentálně
 - Jaký software používá
@@ -695,9 +706,6 @@ Back:
 - Vidíš nějaké časové limitace, při plnění tohoto úkolu?
 - Co se stane, když se to podělá?
 
-Pozn. s tímhle trošku nesouhlasím s Pavlíčkem - resp. některý ty otázky mi přijdou docela hloupý -Honza
-
-<!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251208170323.png)
 <!-- DetailInfoEnd -->
 
@@ -1109,9 +1117,9 @@ Back:
 
 Graf který zobrazuje funkci frekvence signálu a amplitudu v čase.
 
-**Pseudo 3D: time on horizontal axis, frequency on the vertical axis, amplitude given relatively by color.**
-
-Díky tomu můžeme například analyzovat akustické vlastnosti zvuku
+- **X osa** - čas
+- **Y osa** - frekvence (jakou barvu má světlo)
+- **vedle toho** (jakoby Z osa) je amplituda (jak moc je světlo intenzivní)
 
 ![](../../Assets/Pasted%20image%2020251208173913.png)
 
