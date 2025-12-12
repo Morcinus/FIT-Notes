@@ -29,7 +29,7 @@ Back:
 1. **Sepsání společenské smlouvy** - protože zakládá 5 společníků (pokud by zakládal pouze 1 zakladatel, tak zakladatelská listina)
 2. **Živnostenské oprávnění** - umožní firmě podnikat v daném oboru
 3. **Zápis do veřejného rejstříku** - kombinace obchodního a spolkového rejstříku, obsahuje všechny právnické osoby (obchodní společnosti se do něj zapisují povinně)
-	- Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
+   - Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
 4. **Registrace k dani z příjmu** - povinná pro právnické osoby, musí být provedena do 15 dnů od zápisu do obchodního rejstříku u příslušného finančního úřadu
 
 **Další kroky, které není nutné dělat přímo při založení:**
@@ -117,7 +117,15 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+**Ochrana softwaru (mobilní aplikace):**
+
+- **Autorské právo (copyright)** - software je literární dílo chráněné autorským právem automaticky od vytvoření (bez nutnosti registrace)
+- **Licenční smlouva** - definuje podmínky použití, práva uživatelů a cenu licence
+- **Ochranná známka (trademark)** - ochrana brandingu aplikace (název aplikace, logo, ikona, slogan) - registrace u Úřadu průmyslového vlastnictví
+
+**Ochrana hardwaru:**
+
+- Hardwarové prvky se nakupují od dodavatele z Číny, takže ochrana vlastnictví hardwaru není v kompetenci firmy (dodavatel má vlastní ochranu)
 
 <!-- DetailInfoStart -->
 
@@ -246,7 +254,7 @@ Back:
 1. **Sepsání společenské smlouvy** - protože zakládá 4 společníci (pokud by zakládal pouze 1 zakladatel, tak zakladatelská listina)
 2. **Živnostenské oprávnění** - umožní firmě podnikat v daném oboru
 3. **Zápis do veřejného rejstříku** - kombinace obchodního a spolkového rejstříku, obsahuje všechny právnické osoby (obchodní společnosti se do něj zapisují povinně)
-	- Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
+   - Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
 4. **Registrace k dani z příjmu** - povinná pro právnické osoby, musí být provedena do 15 dnů od zápisu do obchodního rejstříku u příslušného finančního úřadu
 
 **Další kroky, které není nutné dělat přímo při založení:**
@@ -337,7 +345,11 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+**Ochrana softwaru (BIS systém):**
+
+- **Autorské právo (copyright)** - software je literární dílo chráněné autorským právem automaticky od vytvoření (bez nutnosti registrace)
+- **Licenční smlouva** - určuje jaká jsou použití, jaké jsou podmínky použití a kolik to koho bude stát; klíčová pro komercializaci
+- **Ochranná známka (trademark)** - ochrana brandingu produktu (název, logo, slogan)
 
 <!-- DetailInfoStart -->
 
