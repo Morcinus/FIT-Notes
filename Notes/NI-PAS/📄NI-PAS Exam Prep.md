@@ -218,14 +218,15 @@ Back:
 **Cena produktu** = **Úplné vlastní náklady** + **Zisková přirážka**
 
 **Složky kalkulačního modelu:**
+
 1. **Vlastní náklady výroby (provozu)**
-	- Náklady na hardware
-	- Přímé mzdy zaměstnanců
-	- Náklady na vývoj mobilní aplikace (programy, energie,...)
-	- Náklady na instalaci a konfiguraci
+   - Náklady na hardware
+   - Přímé mzdy zaměstnanců
+   - Náklady na vývoj mobilní aplikace (programy, energie,...)
+   - Náklady na instalaci a konfiguraci
 2. **Vlastní náklady výkonu**
-	1. Skladování hardware, náklady na dopravu a logistiku
-	2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+   1. Skladování hardware, náklady na dopravu a logistiku
+   2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
 3. **Úplné vlastní náklady** = součet předchozích dvou
 4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
@@ -253,7 +254,28 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+Pozn. v přednášce jsme si o tom nic neříkali, takže tohle jsem si vycucal z prstu (resp. z fitwiki) - 4P marketingového mixu.
+
+1. **Produkt (Product)**
+	- Komplexní řešení chytré domácnosti (hardware + software)
+	- Mobilní aplikace s uživatelským přizpůsobením
+	- Instalační a servisní služby
+	- Přizpůsobení dle požadavků zákazníka
+2. **Cena (Price)**
+	- Cena založená na kalkulačním modelu z předchozí otázky
+	- Možnost různých cenových balíčků podle rozsahu instalace a počtu hardwarových položek
+3. **Místo (Place)**
+	- Přímý prodej a instalace u zákazníka
+	- Online kanály pro komunikaci a objednávky - možnost objednání přes internet
+4. **Propagace (Promotion)**
+	- Online marketing (web, reklamy, sociální sítě, SEO)
+	- Content marketing (blog, case studies)
+	- Prezentace na veletrzích
+	- Reklamy/partnerství v obchodech s chytrými spotřebiči
+
+**Obchodní model:**
+- B2C (Business to Consumer) - přímý prodej koncovým zákazníkům
+- Možnost B2B (Business to Business) - pro větší projekty nebo developerské firmy
 
 <!-- DetailInfoStart -->
 
@@ -461,14 +483,15 @@ Back:
 **Cena produktu** = **Úplné vlastní náklady** + **Zisková přirážka**
 
 **Složky kalkulačního modelu:**
+
 1. **Vlastní náklady výroby (provozu)**
-	- Přímé mzdy zaměstnanců
-	- Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
-	- Náklady na hosting a infrastrukturu
-	- Náklady na údržbu a aktualizace systému
+   - Přímé mzdy zaměstnanců
+   - Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
+   - Náklady na hosting a infrastrukturu
+   - Náklady na údržbu a aktualizace systému
 2. **Vlastní náklady výkonu**
-	1. Skladování hardware, náklady na dopravu a logistiku
-	2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+   1. Skladování hardware, náklady na dopravu a logistiku
+   2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
 3. **Úplné vlastní náklady** = součet předchozích dvou
 4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
@@ -496,18 +519,35 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+Pozn. v přednášce jsme si o tom nic neříkali, takže tohle jsem si vycucal z prstu (resp. z fitwiki) - 4P marketingového mixu.
+
+1. **Produkt (Product)**
+	- Webový systém BIS (Business Intelligence System)
+	- Poskytování licence na software
+	- Servisní podpora a údržba
+	- Možnost přizpůsobení podle potřeb zákazníka
+2. **Cena (Price)**
+	- Cena založená na kalkulačním modelu z předchozí otázky
+	- Licenční model - jednorázová nebo opakovaná platba za licenci
+	- Různé balíčky podle typu licence a úrovně podpory
+3. **Místo (Place)**
+	- Online distribuce (digitální produkt - licence)
+	- Přímý prodej přes webové stránky
+	- Mezinárodní trh (tuzemsko i zahraničí - EU i mimo EU)
+4. **Propagace (Promotion)**
+	- Online marketing (web, reklamy, sociální sítě, SEO)
+	- Content marketing (blog, case studies)
+	- Prezentace na IT konferencích a veletrzích
+	- Referenční od zákazníků
+
+**Obchodní model:**
+- B2B (Business to Business) - primárně pro firmy potřebující BI systém
+- Možnost B2C (Business to Consumer) - pro menší a začínající podnikatele
 
 <!-- DetailInfoStart -->
 
 Odpovědi z fitwiki:
-
-|           |           |
-| --------- | --------- |
-| propagace | promotion |
-| místo     | place     |
-| cena      | price     |
-| produkt   | product   |
+Produkt, Cena, Místo, Propagace
 
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563427-->
