@@ -166,6 +166,7 @@ Back:
 - **Zaplacení cla**
 
 **DPH při dovozu zboží:**
+
 - **Zaplatit DPH při celním řízení** - při dovozu zboží ze zemí mimo EU to je nutné
 - **Nebo se stát plátcem DPH**
 
@@ -193,6 +194,7 @@ Odpovědi z fitwiki:
 ![](../../Assets/Pasted%20image%2020251212133425.png)
 ![](../../Assets/Pasted%20image%2020251212135446.png)
 ![](../../Assets/Pasted%20image%2020251212140913.png)
+
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563405-->
 
@@ -213,15 +215,23 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+**Cena produktu** = **Úplné vlastní náklady** + **Zisková přirážka**
+
+**Složky kalkulačního modelu:**
+1. **Vlastní náklady výroby (provozu)**
+	- Náklady na hardware
+	- Přímé mzdy zaměstnanců
+	- Náklady na vývoj mobilní aplikace (programy, energie,...)
+	- Náklady na instalaci a konfiguraci
+2. **Vlastní náklady výkonu**
+	1. Skladování hardware, náklady na dopravu a logistiku
+	2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+3. **Úplné vlastní náklady** = součet předchozích dvou
+4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
 <!-- DetailInfoStart -->
 
-Odpovědi z fitwiki:
-
-|     |                                                                                                                                  |
-| --- | -------------------------------------------------------------------------------------------------------------------------------- |
-| a   | Vlastní náklady výroby<br><br>Vlastní náklady výkonu<br><br>Úplné vlastní náklady<br><br>Zisková přirážka <br><br>= Cena výrobku |
+![](../../Assets/Pasted%20image%2020251212151328.png)
 
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563408-->
@@ -428,7 +438,6 @@ Odpovědi z fitwiki:
 | b   | Registrovat se k DPH:<br><br>- Osoba identifikovatelná k dani se musí registrovat povinně:<br> <br><br>- z jiného státu EU jsme pořídili zboží v hodnotě > 326K Kč za kal. rok<br> <br>- přijetí zdanitelného plnění s místem plnění v tuzemsku od osoby neusazené v tuzemsku, která nemá sídlo ani provozovnu v tuzemsku<br> <br>- poskytnutí služby s místem plnění v jiném státě EU                                                                                                                            |                                                                                                                                                                                                                                                          |
 | c   | Jelikož se chystáme nabízet produkty na tuzemském i zahraničním trhu (včetně mimoEU zemí):<br><br>- určitě JSD pro zahraničí (clo) - píčovina ne?<br> <br>- OSS pro dodávky do zemí EU<br> <br>- Typy dokladů v mezinárodním obchodu:<br> <br><br>- Faktury, přepravní doklady (nákl. listy, skladní listy, konosament), osvědčení o původu zboží, balící listy, pojistky, certifikáty, licence<br> <br>- nejvýznamnější se nazývá FIATA BILL OF LADING<br> <br><br>- Pokud mimo EU, tak DPH podle tamních zákonů | To JSD je píčovina ne? Vždyť budeme prodávat licence, tak to nic fyzicky posílat přes hranice nebudem ne? + ze zápisků mám, že JSD nutno vyplnit v případě, kdy dovážím zboží, které má být procleno, tedy je relevantní pouze pro předchozí typ zadání. |
 
-
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563422-->
 
@@ -449,13 +458,23 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+**Cena produktu** = **Úplné vlastní náklady** + **Zisková přirážka**
+
+**Složky kalkulačního modelu:**
+1. **Vlastní náklady výroby (provozu)**
+	- Přímé mzdy zaměstnanců
+	- Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
+	- Náklady na hosting a infrastrukturu
+	- Náklady na údržbu a aktualizace systému
+2. **Vlastní náklady výkonu**
+	1. Skladování hardware, náklady na dopravu a logistiku
+	2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+3. **Úplné vlastní náklady** = součet předchozích dvou
+4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
 <!-- DetailInfoStart -->
 
-Odpovědi z fitwiki:
-
-úplné vlastní náklady + vhodná přirážka (zisk)
+![](../../Assets/Pasted%20image%2020251212151328.png)
 
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563424-->
