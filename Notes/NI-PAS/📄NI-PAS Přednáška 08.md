@@ -132,7 +132,6 @@ Cokoliv co neporušuje dobré mravy, veřejný pořádek nebo právo týkající
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251125131451.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364313170-->
 END
 
@@ -204,7 +203,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251125132121.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364313187-->
 END
 
@@ -258,7 +256,6 @@ Je to smlouva o nějaké **činnosti** vytvoření něčeho
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251125133404.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364313200-->
 END
 
@@ -332,7 +329,6 @@ Back:
 ![](../../Assets/Pasted%20image%2020251125134327.png)
 ![](../../Assets/Pasted%20image%2020251125134336.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364313218-->
 END
 
@@ -533,7 +529,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125142332.png)
 ![](../../Assets/Pasted%20image%2020251125142353.png)
-
 <!--ID: 1765364313296-->
 END
 
@@ -549,7 +544,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125142417.png)
 ![](../../Assets/Pasted%20image%2020251125142433.png)
-
 <!--ID: 1765364313301-->
 END
 

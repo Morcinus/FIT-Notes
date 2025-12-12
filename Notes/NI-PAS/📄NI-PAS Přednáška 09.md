@@ -73,7 +73,6 @@ Mezinárodní úmluva funguje tak, že státy co to podepíšou se zavazují k t
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251202133818.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364312874-->
 END
 
@@ -106,7 +105,6 @@ Výsledek kreativní činnosti člověka, autor musí být fyzická osoba. Tzn. 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251202134220.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364312885-->
 END
 

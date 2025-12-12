@@ -318,7 +318,6 @@ Co je Due Diligence?
 
 Back:
 
-
 <!--ID: 1765364313096-->
 END
 
@@ -392,7 +391,6 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251209152420.png)
 ![](../../Assets/Pasted%20image%2020251209152528.png)
-
 <!--ID: 1765364313119-->
 END
 

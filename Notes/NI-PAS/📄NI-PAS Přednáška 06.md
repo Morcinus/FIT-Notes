@@ -205,7 +205,6 @@ Cílem je začlenit co nejvíce **schopných** a **ochotných** lidí
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251104132156.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364313390-->
 END
 
@@ -309,7 +308,6 @@ Back:
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251104133301.png)
 <!-- DetailInfoEnd -->
-
 <!--ID: 1765364313415-->
 END
 
@@ -737,7 +735,6 @@ Back:
 Ty jsou uspokojovány jako **důsledek** pracovní činnosti
 
 ![](../../Assets/Pasted%20image%2020251104140004.png)
-
 <!--ID: 1765364313539-->
 END
 

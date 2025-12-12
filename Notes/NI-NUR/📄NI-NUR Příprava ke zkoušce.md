@@ -304,9 +304,9 @@ Hint: zkus taky vyjmenovat heuristiky (aspoň nějaké)
 
 Back:
 
-Nielsen Norman Group zadefinovali 10 heuristik (principů, co by mělo UI splňovat).
+Metoda testování použitelnosti bez uživatelů, při které několik odborníků (typicky 3-5) prochází rozhraní aplikace dle scénáře a hodnotí ho podle vybraných heuristik (nebo podotázek ke každé heuristice). Z toho se pak vyhodnotí, které heuristiky jsou splněny a do jaké míry. Dále se vyhodnotí, jak závažné jsou nalezené problémy. 
 
-Z nich jich pár vyberem a expert následně projde UI podle scénáře a vyhodnotí se, jak dobře UI splňuje heuristiky.
+Nielsen Norman Group zadefinovali 10 heuristik (principů, co by mělo UI splňovat).
 
 **Heuristiky**:
 - Viditelnost stavu systému (progress bary, loading, ...)
