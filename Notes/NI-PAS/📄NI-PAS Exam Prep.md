@@ -156,7 +156,29 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+**Při dovozu hardwaru z Číny (mimo EU):**
+
+- **Faktura** (získat od dodavatele) - potřeba pro kontrolu dovouz a pro celní řízení
+- **Vyplnit Jednotný správní doklad (JSD)** - slouží k proclení zboží ze zemí mimo EU, nutný pro fyzické zboží, které má být procleno
+- **Přepravní doklady** - podle způsobu přepravy (nákladní listy, konosament, letecký nákladní list apod.)
+- **Osvědčení o původu zboží** - může být vyžadováno pro celní řízení
+- **Balící listy, pojistky, certifikáty** - další dokumenty podle potřeby
+- **Zaplacení cla**
+
+**DPH při dovozu zboží:**
+- **Zaplatit DPH při celním řízení** - při dovozu zboží ze zemí mimo EU to je nutné
+- **Nebo se stát plátcem DPH**
+
+**Při poskytování služeb do jiných zemí EU:**
+
+- **Registrace jako osoba identifikovaná k dani** - povinná, pokud poskytuje služby s místem plnění v jiném státě EU
+- Můžeme využít **One Stop Shop (OSS)** - zjednodušený systém pro DPH při poskytování služeb do jiných členských zemí EU
+- **Vystavovat Faktury s DIČ** - daňové doklady s daňovým identifikačním číslem
+
+**Při poskytování služeb mimo EU:**
+
+- **DPH podle tamních zákonů** - DPH se řídí podle zákonů cílové země mimo EU
+- **Vystavovat Faktury** - daňové doklady podle požadavků cílové země
 
 <!-- DetailInfoStart -->
 
@@ -168,6 +190,9 @@ Odpovědi z fitwiki:
 | b   | Jednotný správní doklad - slouží k proclení zboží z mimo EU                           |
 | c   | One Stop Shop (OSS) v případě že by chtěla poskytovat služby do jiné členské země EU. |
 
+![](../../Assets/Pasted%20image%2020251212133425.png)
+![](../../Assets/Pasted%20image%2020251212135446.png)
+![](../../Assets/Pasted%20image%2020251212140913.png)
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563405-->
 
@@ -380,9 +405,20 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
-<!-- <fill the answer here> -->
+**Při poskytování služeb do zemí EU:**
+
+- **Registrace jako osoba identifikovaná k dani** - povinná, pokud poskytuje služby s místem plnění v jiném státě EU
+- **Vystavovat Faktury s DIČ** - daňové doklady s daňovým identifikačním číslem
+
+**Při poskytování služeb mimo EU:**
+
+- **DPH podle tamních zákonů** - DPH se řídí podle zákonů cílové země mimo EU
+- **Vystavovat Faktury** - daňové doklady podle požadavků cílové země
 
 <!-- DetailInfoStart -->
+
+Pozn nemůžeme využít OSS, protože to se používá jen v případech níže:
+![](../../Assets/Pasted%20image%2020251212142413.png)
 
 Odpovědi z fitwiki:
 
@@ -391,6 +427,7 @@ Odpovědi z fitwiki:
 | a   | DIC? - (nemusíš vystavovat, již máš přiřazeno při založení)                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                          |
 | b   | Registrovat se k DPH:<br><br>- Osoba identifikovatelná k dani se musí registrovat povinně:<br> <br><br>- z jiného státu EU jsme pořídili zboží v hodnotě > 326K Kč za kal. rok<br> <br>- přijetí zdanitelného plnění s místem plnění v tuzemsku od osoby neusazené v tuzemsku, která nemá sídlo ani provozovnu v tuzemsku<br> <br>- poskytnutí služby s místem plnění v jiném státě EU                                                                                                                            |                                                                                                                                                                                                                                                          |
 | c   | Jelikož se chystáme nabízet produkty na tuzemském i zahraničním trhu (včetně mimoEU zemí):<br><br>- určitě JSD pro zahraničí (clo) - píčovina ne?<br> <br>- OSS pro dodávky do zemí EU<br> <br>- Typy dokladů v mezinárodním obchodu:<br> <br><br>- Faktury, přepravní doklady (nákl. listy, skladní listy, konosament), osvědčení o původu zboží, balící listy, pojistky, certifikáty, licence<br> <br>- nejvýznamnější se nazývá FIATA BILL OF LADING<br> <br><br>- Pokud mimo EU, tak DPH podle tamních zákonů | To JSD je píčovina ne? Vždyť budeme prodávat licence, tak to nic fyzicky posílat přes hranice nebudem ne? + ze zápisků mám, že JSD nutno vyplnit v případě, kdy dovážím zboží, které má být procleno, tedy je relevantní pouze pro předchozí typ zadání. |
+
 
 <!-- DetailInfoEnd -->
 <!--ID: 1765535563422-->
