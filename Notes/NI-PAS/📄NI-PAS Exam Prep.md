@@ -29,7 +29,7 @@ Back:
 1. **Sepsání společenské smlouvy** - protože zakládá 5 společníků (pokud by zakládal pouze 1 zakladatel, tak zakladatelská listina)
 2. **Živnostenské oprávnění** - umožní firmě podnikat v daném oboru
 3. **Zápis do veřejného rejstříku** - kombinace obchodního a spolkového rejstříku, obsahuje všechny právnické osoby (obchodní společnosti se do něj zapisují povinně)
-	- Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
+   - Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
 4. **Registrace k dani z příjmu** - povinná pro právnické osoby, musí být provedena do 15 dnů od zápisu do obchodního rejstříku u příslušného finančního úřadu
 
 **Další kroky, které není nutné dělat přímo při založení:**
@@ -220,13 +220,13 @@ Back:
 **Složky kalkulačního modelu:**
 
 1. **Vlastní náklady výroby (provozu)**
-	- Náklady na hardware
-	- Přímé mzdy zaměstnanců
-	- Náklady na vývoj mobilní aplikace (programy, energie,...)
-	- Náklady na instalaci a konfiguraci
+   - Náklady na hardware
+   - Přímé mzdy zaměstnanců
+   - Náklady na vývoj mobilní aplikace (programy, energie,...)
+   - Náklady na instalaci a konfiguraci
 2. **Vlastní náklady výkonu**
-	- Skladování hardware, náklady na dopravu a logistiku
-	- Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+   - Skladování hardware, náklady na dopravu a logistiku
+   - Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
 3. **Úplné vlastní náklady** = součet předchozích dvou
 4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
@@ -254,28 +254,38 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
+**Obchodní model (Business Model Canvas):**
+
+1. **Segmenty zákazníků** - koncoví zákazníci (B2C) majitelé domů a bytů, možnost B2B (developerské firmy, realitní kanceláře)
+2. **Nabízená hodnota** - komplexní řešení chytré domácnosti na míru (hardware + software), mobilní aplikace s přizpůsobením, instalační a servisní služby
+3. **Marketingové kanály** - vlastní kanály (přímý prodej, online objednávky), partnerské kanály (obchody s chytrými spotřebiči)
+4. **Vztahy se zákazníky** - osobní asistence (konzultace, instalace), individualizovaná osobní asistence (přizpůsobení na míru), servisní podpora
+5. **Zdroje příjmů** - prodej aktiv (hardware, licence), poplatek za užití (servisní podpora), předplatné (aktualizace, servis)
+6. **Klíčové zdroje** - lidské zdroje (5 zakladatelů, zaměstnanci), fyzické zdroje (hardware z Číny, kancelář, sklad), finanční zdroje (kapitál zakladatelů)
+7. **Klíčové aktivity** - vývoj mobilní aplikace, instalace a konfigurace hardwaru, servisní podpora, marketing a prodej
+8. **Klíčoví partneři** - dodavatel hardwaru z Číny, obchody s chytrými spotřebiči, developerské firmy
+9. **Náklady** - hardware (nákup, doprava, clo, DPH), mzdy zaměstnanců, vývoj softwaru, provoz firmy (kancelář, energie, marketing)
+
+**Marketingový mix (4P):**
+
 Pozn. v přednášce jsme si o tom nic neříkali, takže tohle jsem si vycucal z prstu (resp. z fitwiki) - 4P marketingového mixu.
 
 1. **Produkt (Product)**
-	- Komplexní řešení chytré domácnosti (hardware + software)
-	- Mobilní aplikace s uživatelským přizpůsobením
-	- Instalační a servisní služby
-	- Přizpůsobení dle požadavků zákazníka
+   - Komplexní řešení chytré domácnosti (hardware + software)
+   - Mobilní aplikace s uživatelským přizpůsobením
+   - Instalační a servisní služby
+   - Přizpůsobení dle požadavků zákazníka
 2. **Cena (Price)**
-	- Cena založená na kalkulačním modelu z předchozí otázky
-	- Možnost různých cenových balíčků podle rozsahu instalace a počtu hardwarových položek
+   - Cena založená na kalkulačním modelu z předchozí otázky
+   - Možnost různých cenových balíčků podle rozsahu instalace a počtu hardwarových položek
 3. **Místo (Place)**
-	- Přímý prodej a instalace u zákazníka
-	- Online kanály pro komunikaci a objednávky - možnost objednání přes internet
+   - Přímý prodej a instalace u zákazníka
+   - Online kanály pro komunikaci a objednávky - možnost objednání přes internet
 4. **Propagace (Promotion)**
-	- Online marketing (web, reklamy, sociální sítě, SEO)
-	- Content marketing (blog, case studies)
-	- Prezentace na veletrzích
-	- Reklamy/partnerství v obchodech s chytrými spotřebiči
-
-**Obchodní model:**
-- B2C (Business to Consumer) - přímý prodej koncovým zákazníkům
-- Možnost B2B (Business to Business) - pro větší projekty nebo developerské firmy
+   - Online marketing (web, reklamy, sociální sítě, SEO)
+   - Content marketing (blog, case studies)
+   - Prezentace na veletrzích
+   - Reklamy/partnerství v obchodech s chytrými spotřebiči
 
 <!-- DetailInfoStart -->
 
@@ -311,7 +321,7 @@ Back:
 1. **Sepsání společenské smlouvy** - protože zakládá 4 společníci (pokud by zakládal pouze 1 zakladatel, tak zakladatelská listina)
 2. **Živnostenské oprávnění** - umožní firmě podnikat v daném oboru
 3. **Zápis do veřejného rejstříku** - kombinace obchodního a spolkového rejstříku, obsahuje všechny právnické osoby (obchodní společnosti se do něj zapisují povinně)
-	- Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
+   - Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
 4. **Registrace k dani z příjmu** - povinná pro právnické osoby, musí být provedena do 15 dnů od zápisu do obchodního rejstříku u příslušného finančního úřadu
 
 **Další kroky, které není nutné dělat přímo při založení:**
@@ -485,13 +495,13 @@ Back:
 **Složky kalkulačního modelu:**
 
 1. **Vlastní náklady výroby (provozu)**
-	- Přímé mzdy zaměstnanců
-	- Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
-	- Náklady na hosting a infrastrukturu
-	- Náklady na údržbu a aktualizace systému
+   - Přímé mzdy zaměstnanců
+   - Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
+   - Náklady na hosting a infrastrukturu
+   - Náklady na údržbu a aktualizace systému
 2. **Vlastní náklady výkonu**
-	- Skladování hardware, náklady na dopravu a logistiku
-	- Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+   - Skladování hardware, náklady na dopravu a logistiku
+   - Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
 3. **Úplné vlastní náklady** = součet předchozích dvou
 4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
@@ -519,30 +529,40 @@ Odpovězte na následující dílčí otázky a svá rozhodnutí zdůvodněte:
 
 Back:
 
+**Obchodní model (Business Model Canvas):**
+
+1. **Segmenty zákazníků** - firmy potřebující BI systém (B2B), menší a začínající podnikatelé (B2C), tuzemské i zahraniční klienty (EU i mimo EU)
+2. **Nabízená hodnota** - webový systém BIS vyvinutý na FIT ČVUT, poskytování licence na software, servisní podpora, možnost přizpůsobení
+3. **Marketingové kanály** - vlastní kanály (přímý prodej přes web, online distribuce), partnerské kanály (IT firmy pro distribuci)
+4. **Vztahy se zákazníky** - individualizovaná osobní asistence (konzultace, přizpůsobení), automatizované služby (online podpora), servisní podpora
+5. **Zdroje příjmů** - poskytování licencí (jednorázová/opakovaná platba), poplatek za užití (servisní podpora), předplatné (aktualizace, podpora)
+6. **Klíčové zdroje** - lidské zdroje (4 zakladatelé, zaměstnanci), duševní zdroje (know-how z diplomových prací, prototyp BIS), fyzické zdroje (hosting, infrastruktura, kancelář), finanční zdroje (kapitál zakladatelů)
+7. **Klíčové aktivity** - vývoj a údržba softwaru BIS, poskytování licencí a servisní podpory, marketing a prodej, mezinárodní obchod
+8. **Klíčoví partneři** - IT firmy pro distribuci, hostingové společnosti, dodavatelé technologií a služeb
+9. **Náklady** - mzdy zaměstnanců, vývoj a údržba softwaru, hosting a infrastruktura, provoz firmy (kancelář, marketing)
+
+**Marketingový mix (4P):**
+
 Pozn. v přednášce jsme si o tom nic neříkali, takže tohle jsem si vycucal z prstu (resp. z fitwiki) - 4P marketingového mixu.
 
 1. **Produkt (Product)**
-	- Webový systém BIS (Business Intelligence System)
-	- Poskytování licence na software
-	- Servisní podpora a údržba
-	- Možnost přizpůsobení podle potřeb zákazníka
+   - Webový systém BIS (Business Intelligence System)
+   - Poskytování licence na software
+   - Servisní podpora a údržba
+   - Možnost přizpůsobení podle potřeb zákazníka
 2. **Cena (Price)**
-	- Cena založená na kalkulačním modelu z předchozí otázky
-	- Licenční model - jednorázová nebo opakovaná platba za licenci
-	- Různé balíčky podle typu licence a úrovně podpory
+   - Cena založená na kalkulačním modelu z předchozí otázky
+   - Licenční model - jednorázová nebo opakovaná platba za licenci
+   - Různé balíčky podle typu licence a úrovně podpory
 3. **Místo (Place)**
-	- Online distribuce (digitální produkt - licence)
-	- Přímý prodej přes webové stránky
-	- Mezinárodní trh (tuzemsko i zahraničí - EU i mimo EU)
+   - Online distribuce (digitální produkt - licence)
+   - Přímý prodej přes webové stránky
+   - Mezinárodní trh (tuzemsko i zahraničí - EU i mimo EU)
 4. **Propagace (Promotion)**
-	- Online marketing (web, reklamy, sociální sítě, SEO)
-	- Content marketing (blog, case studies)
-	- Prezentace na IT konferencích a veletrzích
-	- Referenční od zákazníků
-
-**Obchodní model:**
-- B2B (Business to Business) - primárně pro firmy potřebující BI systém
-- Možnost B2C (Business to Consumer) - pro menší a začínající podnikatele
+   - Online marketing (web, reklamy, sociální sítě, SEO)
+   - Content marketing (blog, case studies)
+   - Prezentace na IT konferencích a veletrzích
+   - Referenční od zákazníků
 
 <!-- DetailInfoStart -->
 
