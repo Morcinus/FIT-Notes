@@ -29,7 +29,7 @@ Back:
 1. **Sepsání společenské smlouvy** - protože zakládá 5 společníků (pokud by zakládal pouze 1 zakladatel, tak zakladatelská listina)
 2. **Živnostenské oprávnění** - umožní firmě podnikat v daném oboru
 3. **Zápis do veřejného rejstříku** - kombinace obchodního a spolkového rejstříku, obsahuje všechny právnické osoby (obchodní společnosti se do něj zapisují povinně)
-   - Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
+	- Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
 4. **Registrace k dani z příjmu** - povinná pro právnické osoby, musí být provedena do 15 dnů od zápisu do obchodního rejstříku u příslušného finančního úřadu
 
 **Další kroky, které není nutné dělat přímo při založení:**
@@ -77,8 +77,8 @@ Back:
 **Mezi firmou a zaměstnanci:**
 
 - ⭐ **Pracovní smlouva** - pro stálé zaměstnance na plný úvazek
-- **DPČ (Dohoda o provedení práce)** - pro příležitostnou práci
-- **DPP (Dohoda o pracovní činnosti)** - pro práci na částečný úvazek
+- **DPP (Dohoda o provedení práce)** - pro příležitostnou práci
+- **DPČ (Dohoda o pracovní činnosti)** - pro práci na částečný úvazek
 - **IČO (OSVČ)** - dobré, pokud by pracovali i jinde, ale jinak riziko švarcsystému
 
 **Mezi firmou a obchodními partnery:**
@@ -220,13 +220,13 @@ Back:
 **Složky kalkulačního modelu:**
 
 1. **Vlastní náklady výroby (provozu)**
-   - Náklady na hardware
-   - Přímé mzdy zaměstnanců
-   - Náklady na vývoj mobilní aplikace (programy, energie,...)
-   - Náklady na instalaci a konfiguraci
+	- Náklady na hardware
+	- Přímé mzdy zaměstnanců
+	- Náklady na vývoj mobilní aplikace (programy, energie,...)
+	- Náklady na instalaci a konfiguraci
 2. **Vlastní náklady výkonu**
-   1. Skladování hardware, náklady na dopravu a logistiku
-   2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+	- Skladování hardware, náklady na dopravu a logistiku
+	- Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
 3. **Úplné vlastní náklady** = součet předchozích dvou
 4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
@@ -311,7 +311,7 @@ Back:
 1. **Sepsání společenské smlouvy** - protože zakládá 4 společníci (pokud by zakládal pouze 1 zakladatel, tak zakladatelská listina)
 2. **Živnostenské oprávnění** - umožní firmě podnikat v daném oboru
 3. **Zápis do veřejného rejstříku** - kombinace obchodního a spolkového rejstříku, obsahuje všechny právnické osoby (obchodní společnosti se do něj zapisují povinně)
-   - Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
+	- Firma se automaticky propíše i do Registru ekonomických subjektů - tam se nemusíme zapisovat manuálně
 4. **Registrace k dani z příjmu** - povinná pro právnické osoby, musí být provedena do 15 dnů od zápisu do obchodního rejstříku u příslušného finančního úřadu
 
 **Další kroky, které není nutné dělat přímo při založení:**
@@ -360,8 +360,8 @@ Back:
 **Mezi firmou a zaměstnanci:**
 
 - ⭐ **Pracovní smlouva** - pro stálé zaměstnance na plný úvazek
-- **DPČ (Dohoda o provedení práce)** - pro příležitostnou práci
-- **DPP (Dohoda o pracovní činnosti)** - pro práci na částečný úvazek
+- **DPP (Dohoda o provedení práce)** - pro příležitostnou práci
+- **DPČ (Dohoda o pracovní činnosti)** - pro práci na částečný úvazek
 - **IČO (OSVČ)** - dobré, pokud by pracovali i jinde, ale jinak riziko švarcsystému
 
 **Mezi firmou a obchodními partnery:**
@@ -485,13 +485,13 @@ Back:
 **Složky kalkulačního modelu:**
 
 1. **Vlastní náklady výroby (provozu)**
-   - Přímé mzdy zaměstnanců
-   - Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
-   - Náklady na hosting a infrastrukturu
-   - Náklady na údržbu a aktualizace systému
+	- Přímé mzdy zaměstnanců
+	- Náklady na vývoj softwaru BIS (mzdy vývojářů, nástroje, licence)
+	- Náklady na hosting a infrastrukturu
+	- Náklady na údržbu a aktualizace systému
 2. **Vlastní náklady výkonu**
-   1. Skladování hardware, náklady na dopravu a logistiku
-   2. Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
+	- Skladování hardware, náklady na dopravu a logistiku
+	- Administrativa firmy, vedení účetnictví, náklady na kanceláře atd.
 3. **Úplné vlastní náklady** = součet předchozích dvou
 4. **Zisková přirážka** - dle konkurence, situace na trhu a strategie
 
