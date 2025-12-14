@@ -7,7 +7,6 @@ up: "[[📖NI-PAS]]"
 TARGET DECK: NI-PAS
 FILE TAGS: NI-PAS prednaska01 status-toReview
 
-
 START
 FIT-Card
 
@@ -18,6 +17,8 @@ Definice: Podnik
 Back:
 
 ![](../../Assets/Pasted%20image%2020250923125511.png)
+
+Tags: should-know
 <!--ID: 1758792249140-->
 
 END
@@ -34,6 +35,8 @@ Jaké jsou druhy podniků?
 Back:
 
 ![](../../Assets/Pasted%20image%2020250923125533.png)
+
+Tags: could-know
 <!--ID: 1758792249151-->
 
 END
@@ -57,6 +60,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923125623.png)
 
 Tyto definice jsou konzistentní napříč EU. V ČR je většina firem mikro.
+
+Tags: should-know
 <!--ID: 1758792249157-->
 
 END
@@ -88,6 +93,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923130004.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249162-->
 
 END
@@ -112,6 +119,8 @@ Jsou tam všechny právnické osoby a fyzické osoby, co se nechaly registrovat.
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249169-->
 
 END
@@ -134,6 +143,8 @@ Jsou tam hlavně statistické informace o podnicích.
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249175-->
 
 END
@@ -158,6 +169,8 @@ Je tam uvedeno, jaké činnosti (živnosti) může firma/člověk dělat.
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249181-->
 
 END
@@ -180,6 +193,8 @@ Jsou tam firmy co platí DPH nebo osoby identifikované k DPH
 ![](../../Assets/Pasted%20image%2020250923130105.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249185-->
 
 END
@@ -202,6 +217,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923130727.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249191-->
 
 END
@@ -223,6 +240,8 @@ Back:
 - **Všechny zahraniční osoby** - fyzické i právnické
 - **Fyzické osoby** - pokud výše výnosů je víc než 12mil za dvě účetní období
 - **Fyzické osoby** - pokud provozují živnost průmyslovým způsobem
+
+Tags: should-know
 <!--ID: 1758792249196-->
 
 END
@@ -240,6 +259,8 @@ Back:
 
 - **Fyzické osoby** - co bydlí v ČR
 - **Zahraniční fyzické osoby s bydlištěm ve státech EU**
+
+Tags: should-know
 <!--ID: 1758792249202-->
 
 END
@@ -268,6 +289,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923131428.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1758792249208-->
 
 END
@@ -286,6 +309,8 @@ Back:
 - **živnostenská oprávnění**
 - **provozovny**
 - **zůčastněné osoby** (odpovědní zástupci)
+
+Tags: could-know
 <!--ID: 1758792249214-->
 
 END
@@ -304,6 +329,8 @@ Back:
 - **volná živnost** - může dělat kdokoliv nad 18 let
 - **vázané živnosti a živnosti řemeslné** - potřeba doložení způsobilosti (vzdělání, praxe) nebo stanovení odpovědné osoby
 - **koncesované živnosti** - navíc vyžaduje další doklady (bezúhonnost, jiné požadavky na odpovědnou osobu)
+
+Tags: should-know
 <!--ID: 1758792249219-->
 
 END
@@ -330,6 +357,8 @@ Fun fact:
 - Přestupkový rejstřík nic nemaže - **takže je lepší někoho zabít, než jet rychle**
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1758792249225-->
 
 END
@@ -346,6 +375,8 @@ Kdo se **povinně stane plátcem DPH**?
 Back:
 
 **Obrat** za předchozích nejvýše 12 kalendářních měsíců dosáhne **2 miliony Kč**
+
+Tags: should-know
 <!--ID: 1758792249230-->
 
 END
@@ -362,6 +393,8 @@ Dá se k **DPH přihlásit dobrovolně**?
 Back:
 
 **Ano**, ale je to prý příšerný formulářový proces :D
+
+Tags: could-know
 <!--ID: 1758792249236-->
 
 END
@@ -388,6 +421,8 @@ Back:
 ![](../../Assets/Pasted%20image%2020250923133620.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1758792249242-->
 
 END
@@ -399,12 +434,14 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaká jsou dvě identifikační čísla?
+Jaká jsou dvě základní identifikační čísla?
 
 Back:
 
 - **IČ** - identifikační číslo organizace
 - **DIČ** - daňové identifikační číslo
+
+Tags: should-know
 <!--ID: 1758792249247-->
 
 END
@@ -426,6 +463,8 @@ Back:
 
 - **zápisem do veřejného rejstříku** (typicky právnické osoby)
 - **zápisem v registru živnostenského podnikání** (typicky fyzické osoby)
+
+Tags: should-know
 <!--ID: 1758792249253-->
 
 END
@@ -447,6 +486,8 @@ Back:
 - **podstatné** především pro osoby registrované v **registru plátců DPH**
 
 mají ho všichni, ale používají ho hlavně ty registrovaní k dani
+
+Tags: should-know
 <!--ID: 1758792249260-->
 
 END
@@ -466,6 +507,8 @@ Vypadá jako `CZxxxxxxxxxx`
 
 - u právnických osob IČ
 - u fyzických osob rodné číslo
+
+Tags: could-know
 <!--ID: 1758792249352-->
 
 END
@@ -482,6 +525,8 @@ Jak moc se musí lišit název společnosti od existujících názvů? (rule of 
 Back:
 
 O 3 písmena a nesmí to znít foneticky stejně
+
+Tags: could-know
 <!--ID: 1758792249362-->
 
 END
@@ -502,8 +547,10 @@ Back:
 - **Registrace k dani z příjmu** (povinná pro fyzické i právnické) a ostatním daním
 - **Registrace k DPH**
 - **Forma a vedení účetnictví**
-- **Zdravotní a sociální pojištění**
+- **Zdravotní a sociální pojištění** - např. u zaměstnanců
 - **Další povinnosti** ve vztahu k zaměstnancům
+
+Tags: should-know
 <!--ID: 1758792249370-->
 
 END
@@ -520,6 +567,8 @@ Proč by člověk měl odvádět daň z příjmů a socko a zdrávko atd.?
 Back:
 
 Pokud to člověk nedělá, tak bude mít pak nižší důchod
+
+Tags: could-know
 <!--ID: 1758792249380-->
 
 END

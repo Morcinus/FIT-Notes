@@ -240,9 +240,9 @@ Back:
 - **Heuristická evaluace** - řekneme přesně co má expert udělat za kroky, zkoumáme jestli UI splňuje principy
 	- **Výhoda**: dopodrobna rozpitváme danou funkcionalitu
 	- **Nevýhoda**: navádíme uživatele, takže neodhalíme obecnější chyby v použitelnosti systému
-- **Kognitivní průchod** - dáme cíl a expert se snaží ho dosáhnout bez návodu, při krocích se odpovídá na stejné 4 otázky
-	- **Výhoda**: zjistíme, jak se uživatel dostává k cíli
-	- **Nevýhoda**: neodhalíme podrobnější chyby, spíše obecnou cestu uživatele při řešení problému
+- **Kognitivní průchod** - stanovíme cíl úkolu a scénář, expert podle toho prochází aplikaci a při krocích odpovídá na stejné 4 otázky
+	- **Výhoda**: zjistíme, jak se expert dostává k cíli
+	- **Nevýhoda**: neodhalíme podrobnější chyby, spíše obecnou cestu při řešení problému
 
 (zdroj: 09 Jaké jsou metody **kvalitativního** usability testování?)
 <!--ID: 1765204625594-->
@@ -277,7 +277,7 @@ Co je to "cognitive walkthrough"?
 Back:
 
 1. **Máme cíl v aplikaci** (např. kup letenku z Prahy do Brna)
-2. Expert/tým expertů se chová jako uživatel a zkouší toho docílit krok po kroku
+2. Expert/tým expertů se chová jako uživatel a zkouší toho docílit krok po kroku (dle scénáře)
 3. Při každém kroku se odpoví na tyto otázky (ano/ne a proč):
 	1. Will users try to achieve the right result?
 	2. Will users notice that the correct action is available?
@@ -418,9 +418,7 @@ Co je to "Usability testing"?
 
 Back:
 
-Usability testing je proces testování uživatelského rozhraní se skutečnými uživateli za účelem zjištění, jak snadno a efektivně mohou uživatelé systém používat.
-
-Testuje se na hi-fi prototypu nebo finální aplikaci.
+Usability testing je proces testování uživatelského rozhraní (s uživateli nebo bez nich) za účelem zjištění, jak snadno a efektivně se systém používá.
 
 (zdroj: AI + Honzův mozek)
 <!--ID: 1765204625613-->
@@ -480,7 +478,7 @@ Back:
 
 - **User survey** - dotazníky (např. doporučili byste tento produkt)
 - **Ethnographic observations** - pozorování uživatelů v jejich prostředí, jak pracují na daných úkolech. Neptáme se jich, ale pozorujeme co jak dělají.
-- **Usability engineering** (usability testing) - strukturované testování v aplikaci nebo na mockupu (to co jsme dělali)
+- **Usability engineering** - strukturované testování v aplikaci nebo na mockupu (to co jsme dělali)
 
 (zdroj: 09 Jaké jsou metody **kvalitativního** usability testování?)
 <!--ID: 1765204625622-->
@@ -514,7 +512,9 @@ Back:
 
 Usability engineering je strukturovaný proces testování uživatelského rozhraní v kontrolovaném prostředí (např. usability lab), kde uživatelé plní konkrétní úkoly a jejich chování je sledováno a zaznamenáváno.
 
-Tohle jsme prováděli v rámci cvičení
+Tohle jsme prováděli v rámci cvičení.
+
+Používá se hi-fi prototyp nebo hotová appka.
 
 (zdroj: AI + Honzův mozek)
 <!--ID: 1765204625628-->
@@ -1296,10 +1296,15 @@ Když se stránka v prohlížeči do určité doby nenačte, 99% uživatelů ji 
 
 Back:
 
-AI GENERATED ODPOVĚĎ: 
-Přibližně 3-5 sekund. Pokud se stránka nenačte do této doby, většina uživatelů ji opustí. Proto je důležité zobrazit loading indikátor nebo progress bar, pokud načítání trvá déle než půl sekundy.
+**20 sekund** (podle Pavlíčka)
 
-(zdroj: AI)
+Proto je důležité zobrazit loading indikátor nebo progress bar, pokud načítání trvá déle než půl sekundy.
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251214144754.png)
+<!-- DetailInfoEnd -->
+
+(zdroj: slidy)
 <!--ID: 1765204625731-->
 END
 
@@ -1435,6 +1440,8 @@ Jaká je přibližně kapacita lidské krátkodobé paměti a v čem se počít�
 
 Back:
 
+Pozn. tahle otázka tu už taky jednou byla (┛ಠ_ಠ)┛彡┻━┻
+
 - **4 chunky** (+-1)
 - Chunk je jednoduchý znak nebo číslo nebo i komplexní abstrakce a obrázky
 
@@ -1521,6 +1528,76 @@ Je to "yellow spot", protože to má žluté zbarvení (kvůli pigmentů, co och
 
 (zdroj: 06 Co je "yellow spot"?)
 <!--ID: 1765204625760-->
+END
+
+---
+
+
+START
+FIT-Card
+
+(-1 - přidal Pavlíček pár dnů před zkouškou `-___-`)
+
+Mental Model, Computer History (ages) - UI genesis
+
+Back:
+
+**User Mental Model**
+- **Vnitřní představa** uživatele o tom, **jak daný systém funguje**
+- **Vyvíjí se** na základě **předchozích zkušeností** i mimo daný systém (geografické podmínky, národnost atd.)
+
+**Computer History**
+1. **Zero (mechanické počítače)** - zkušený uživatel musí být geek a vědět jak to funguje (první kalkulačky atd.)
+2. **První éra (počítače založeny na vakuových tubách)** - velké počítače v halách, dají se používat na více věcí než jen mechanické počítače. Administrátor udržuje a programuje, zkušený uživatel musí být geek a musí adaptovat svůj mentální model.
+3. **Druhá éra (transistorové počítače)** - počítače se o dost zmenšily, programování se přesunulo z úrovně hardwaru na úroveň softwaru, vznikl assembler. Administrátor - udržuje, zkušený uživatel - může i programovat, používat programy, používaly se děrné štítky
+4. **Třetí éra (integrované obvody)** - první osobní počítače, administrátor - udržuje, programátor programuje, zkušený uživatel - používá programy
+5. **Čtvrtá éra (mikroprocesory)** - velký boom osobních počítačů, **nezkušení uživatelé** používají tyto počítače a programy
+6. **Pátá éra (miniaturizace)** - počítače se dostávají do mobilů, aut, televizí, hodinek.. uživatelé jsou **technicky nezkušení**
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251214141301.png)
+![](../../Assets/Pasted%20image%2020251214141314.png)
+
+**Historie počítačů:**
+![](../../Assets/Pasted%20image%2020251214141716.png)
+![](../../Assets/Pasted%20image%2020251214143254.png)
+![](../../Assets/Pasted%20image%2020251214143303.png)
+![](../../Assets/Pasted%20image%2020251214143312.png)
+![](../../Assets/Pasted%20image%2020251214143320.png)
+![](../../Assets/Pasted%20image%2020251214143327.png)
+<!-- DetailInfoEnd -->
+<!--ID: 1765719865875-->
+END
+
+---
+
+
+START
+FIT-Card
+
+(0 - přidal Pavlíček pár dnů před zkouškou `-___-`)
+
+Theory of Information, Information systems theory
+
+Back:
+
+**Theory of Information:**
+- **Informace** - zpráva, která může změnit znalosti uživatele (dá se získat z dat)
+- **Data** - zaznamenaná zpráva, množina nějakých hodnot
+- **Databáze** - organizovaná kolekce dat
+
+**Information systems theory** - Informační systém se skládá z:
+- **Hardware**
+- **Software**
+- **Data** - komunikační most mezi lidmi a počítačem
+- **Procedury**
+- **Lidi**
+
+<!-- DetailInfoStart -->
+![](../../Assets/Pasted%20image%2020251214144411.png)
+![](../../Assets/Pasted%20image%2020251214144418.png)
+<!-- DetailInfoEnd -->
+<!--ID: 1765719865890-->
 END
 
 ---

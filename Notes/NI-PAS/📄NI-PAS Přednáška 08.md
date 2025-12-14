@@ -7,7 +7,6 @@ up: "[[📖NI-PAS]]"
 TARGET DECK: NI-PAS
 FILE TAGS: NI-PAS prednaska08 status-toReview
 
-
 START
 FIT-Card
 
@@ -15,15 +14,17 @@ Jaké podmínky musí být splněny, aby vznikla smlouva?
 
 Back:
 
-Alespoň 2 strany
-Projev vůle být smlouvou vázán
-Obsah smlouvy
-(Forma)
+- **Alespoň 2 strany**
+- **Projev vůle být smlouvou vázán**
+- **Obsah smlouvy**
+- (Forma)
+
+Tags: should-know
 <!--ID: 1765364313139-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -32,13 +33,15 @@ V jakých fázích vzniká smlouva?
 
 Back:
 
-- Nabídka
-- Akceptace
+- **Nabídka**
+- **Akceptace**
+
+Tags: should-know
 <!--ID: 1765364313143-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -47,17 +50,18 @@ Jak má vypadat nabídka (u smluv)?
 
 Back:
 
-• Zpravidla adresná
-— výjimka — podnikatel rovněž vystavením zboží
-za určitou cenu
-• Obsahuje podstatné náležitosti smlouvy
-• Úmysl uzavřít smlouvu
-• Lze přijmout jednoduchým souhlasem
+- Zpravidla adresná
+	- výjimka — podnikatel rovněž vystavením zboží za určitou cenu
+- Obsahuje podstatné náležitosti smlouvy
+- Úmysl uzavřít smlouvu
+- ze přijmout jednoduchým souhlasem
+
+Tags: should-know
 <!--ID: 1765364313148-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -66,14 +70,16 @@ Jak má vypadat akceptace smlouvy?
 
 Back:
 
-- Včasná
-- Bezpodmínečná — přijetí s odchylkou nebo dodatkem je novou nabídkou, ledaže podstatně nemění podmínky nabídky a nedošlo-li k odmítnutí druhou stranou
-- Varianty — souhlasem, jednáním (tzv. konkludentně) x ne mlčením
+- **Včasná**
+- **Bezpodmínečná** — přijetí s odchylkou nebo dodatkem je novou nabídkou, ledaže podstatně nemění podmínky nabídky a nedošlo-li k odmítnutí druhou stranou
+- **Varianty** — souhlasem, jednáním (tzv. konkludentně) x ne mlčením
+
+Tags: should-know
 <!--ID: 1765364313152-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -82,15 +88,17 @@ V jakou chvíli je smlouva uzavřena?
 
 Back:
 
-- Právní jednání působí vůči nepřítomné osobě od okamžiku, kdy jí projev vůle dojde; zmaří-li vědomě druhá strana dojití, platí, že řádně došlo
+- Právní jednání působí vůči nepřítomné osobě od okamžiku, kdy jí **projev vůle dojde**; zmaří-li vědomě druhá strana dojití, platí, že řádně došlo
 - Nejvyšší soud
-	-  Projev vůle dojde adresátovi, jakmile se dostane do sféry jeho dispozice, tzn. v okamžiku, kdy adresát nabude objektivní možnost seznámit se s obsahem projevu vůle.
-	-  Strany mají možnost ujednat si zvláštní pravidla uzavírání smlouvy.
+	- Projev vůle dojde adresátovi, jakmile se dostane do sféry jeho dispozice, tzn. v okamžiku, kdy adresát nabude objektivní možnost seznámit se s obsahem projevu vůle.
+	- Strany mají možnost ujednat si zvláštní pravidla uzavírání smlouvy.
+
+Tags: could-know
 <!--ID: 1765364313157-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -99,26 +107,35 @@ Co jsou podstatné náležitosti smlouvy?
 
 Back:
 
+Je to jasně definováno dle typu smlouvy
+- Darovací
+- Kupní
+- ...
+
 ![](../../Assets/Pasted%20image%2020251125131257.png)
+
+Tags: should-know
 <!--ID: 1765364313161-->
+
 END
 
 ---
-
 
 START
 FIT-Card
 
-Kde jsou informace o uzavírání smluv?
+Kde jsou **informace o uzavírání smluv**?
 
 Back:
 
 Občanský zákoník
+
+Tags: should-know
 <!--ID: 1765364313166-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -127,16 +144,20 @@ Co lze ve smlouvě ujednat?
 
 Back:
 
-Cokoliv co neporušuje dobré mravy, veřejný pořádek nebo právo týkající se postavení osob (např. právo na ochranu osobnosti).
+**Cokoliv co neporušuje dobré mravy**, veřejný pořádek nebo právo týkající se postavení osob (např. právo na ochranu osobnosti).
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251125131451.png)
+
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1765364313170-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -148,11 +169,13 @@ Back:
 Když jsou **přiložené k nabídce** nebo **jsou stranám známé**
 
 Tzn. např. musí být u registrace nebo když se sepisuje smlouva fyzicky, tak jsou k tomu přiloženy obchodní podmínky
+
+Tags: should-know
 <!--ID: 1765364313175-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -162,11 +185,13 @@ Co když obě strany odkážou na obchodní podmínky, které si odporují?
 Back:
 
 Pak smluvní podmínky platí v rozsahu, v jakém si neodporují
+
+Tags: could-know
 <!--ID: 1765364313179-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -183,11 +208,13 @@ Nemusí.
 	- písemná
 	- textová (trvalý nosič dat)
 	- veřejná listina
+
+Tags: should-know
 <!--ID: 1765364313183-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -201,13 +228,17 @@ Back:
 - v ČR NE Browse-wrap - smlouva, co se objeví v zápatí stránky "prohlížením této webové stránky souhlasíte s podmínkami"
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251125132121.png)
+
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1765364313187-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -220,11 +251,13 @@ Back:
 - **Kdy** - logování souhlasu
 - **Co** - text smlouvy poskytnutý jednajícímu
 - **Jak** - průběh kontraktačního procesu
+
+Tags: should-know
 <!--ID: 1765364313192-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -233,13 +266,15 @@ Jaký je rozdíl mezi výpovědí a odstoupením od smlouvy?
 
 Back:
 
-- Výpověď - smlouva platí až do okamžiku výpovědi a pak končí
-- Odstoupení - účinky smlouvy se zpětně kompletně zruší. Např. vrátím zboží, tak to pak je jako kdybych si ho nikdy nekoupil
+- **Výpověď** - smlouva platí až do okamžiku výpovědi a pak končí
+- **Odstoupení** - účinky smlouvy se zpětně kompletně zruší. Např. vrátím zboží, tak to pak je jako kdybych si ho nikdy nekoupil
+
+Tags: should-know
 <!--ID: 1765364313196-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -249,23 +284,28 @@ Co je smlouva o dílo?
 Back:
 
 Je to smlouva o nějaké **činnosti** vytvoření něčeho
+
 - Je třeba přesné vymezení díla a určení ceny
 - Zhotovitel postupuje při provádění díla samostatně
 - Objednatel kontroluje provádění díla a udílí pokyny
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251125133404.png)
+
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1765364313200-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co je rámcová smlouva o dílo?
+Co je **rámcová smlouva o dílo**?
 
 Back:
 
@@ -277,46 +317,52 @@ Používá se například, když jedna firma chce od druhé pravidelně objedná
 	- Vzájemná součinnost
 	- Licence
 	- Odpovědnost a smluvní pokuty
+
+Tags: should-know
 <!--ID: 1765364313205-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co je Licenční smlouva?
+Co je **Licenční smlouva**?
 
 Back:
 
 - Jedna smluvní strana nastaví oprávnění k výkonu práva duševního vlastnictví
 - Volná forma, pokud není výhradní (tzn. vykonávat to může pouze ten co splňuje ty podmínky)
 - Rozsah
-	- Způsob užití
-	- Doba
-	- Účel
-	- Teritorium
-	- Množství
+  - Způsob užití
+  - Doba
+  - Účel
+  - Teritorium
+  - Množství
+
+Tags: should-know
 <!--ID: 1765364313209-->
+
 END
 
 ---
-
 
 START
 FIT-Card
 
-Co je úplatná / bezúplatná licenční smlouva?
+Co je **úplatná / bezúplatná licenční smlouva**?
 
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134255.png)
+
+Tags: should-know
 <!--ID: 1765364313214-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -326,30 +372,36 @@ Co je smlouva o poskytování digitálního obsahu služeb?
 Back:
 
 <!-- DetailInfoStart -->
+
 ![](../../Assets/Pasted%20image%2020251125134327.png)
 ![](../../Assets/Pasted%20image%2020251125134336.png)
+
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1765364313218-->
+
 END
 
 ---
 
-
 START
 FIT-Card
 
-Co je dohoda mlčenlivosti?
+Co je **dohoda mlčenlivosti** (NDA)?
 
 Back:
 
 Typicky se uzavírá, když chtějí strany spolupracovat, ale odkrývají si nějaký citlivější data o té straně
 
 ![](../../Assets/Pasted%20image%2020251125134447.png)
+
+Tags: should-know
 <!--ID: 1765364313223-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -358,12 +410,18 @@ Jaké smlouvy se používají u vývoje softwaru?
 
 Back:
 
+- **smlouva o dílo** - při zakázkách
+	- **SLA** - údržba a servis
+- **licenční smlouva** - pokud prodáváme více kopií
+
 ![](../../Assets/Pasted%20image%2020251125134515.png)
+
+Tags: should-know
 <!--ID: 1765364313229-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -373,11 +431,13 @@ Co typicky obsahují smlouvy na vývoj softwaru?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134538.png)
+
+Tags: should-know
 <!--ID: 1765364313234-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -387,11 +447,13 @@ Co je specifikace díla?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125134604.png)
+
+Tags: should-know
 <!--ID: 1765364313239-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -402,11 +464,13 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125141313.png)
 ![](../../Assets/Pasted%20image%2020251125141322.png)
+
+Tags: could-know
 <!--ID: 1765364313245-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -416,11 +480,13 @@ Co je aplikační přednost u rámcové smlouvy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141347.png)
+
+Tags: could-know
 <!--ID: 1765364313251-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -430,11 +496,13 @@ Co jsou pokyny objednatele?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141457.png)
+
+Tags: could-know
 <!--ID: 1765364313256-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -444,11 +512,13 @@ Co když objednatel stanovil nevhodné pokyny?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141517.png)
+
+Tags: could-know
 <!--ID: 1765364313265-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -458,11 +528,13 @@ Jaké věci se řeší při změnovém řízení?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141539.png)
+
+Tags: should-know
 <!--ID: 1765364313271-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -472,11 +544,13 @@ Jak funguje změnové řízení u veřejných zakázek?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141640.png)
+
+Tags: could-know
 <!--ID: 1765364313276-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -486,11 +560,13 @@ Jak se určuje odměna u zakázek?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141715.png)
+
+Tags: could-know
 <!--ID: 1765364313281-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -500,11 +576,13 @@ Jak se určuje odměna u agilního vávoje?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141741.png)
+
+Tags: could-know
 <!--ID: 1765364313287-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -514,11 +592,13 @@ Jak probíhá **předání u akceptačního řízení**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125141809.png)
+
+Tags: should-know
 <!--ID: 1765364313292-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -529,11 +609,13 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125142332.png)
 ![](../../Assets/Pasted%20image%2020251125142353.png)
+
+Tags: should-know
 <!--ID: 1765364313296-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -544,11 +626,13 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125142417.png)
 ![](../../Assets/Pasted%20image%2020251125142433.png)
+
+Tags: should-know
 <!--ID: 1765364313301-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -558,11 +642,13 @@ Jak souvisí licence a duševní vlastnictví?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142758.png)
+
+Tags: should-know
 <!--ID: 1765364313305-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -572,11 +658,13 @@ Jak funguje součinnost u provedení díla?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142847.png)
+
+Tags: could-know
 <!--ID: 1765364313311-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -586,11 +674,13 @@ Jak fungují smluvní pokuty?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142911.png)
+
+Tags: should-know
 <!--ID: 1765364313315-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -600,11 +690,13 @@ Jak funguje náhrada škody?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142926.png)
+
+Tags: should-know
 <!--ID: 1765364313319-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -614,11 +706,13 @@ Jak funguje ukončení smlouvy?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251125142941.png)
+
+Tags: should-know
 <!--ID: 1765364313325-->
+
 END
 
 ---
-
 
 START
 FIT-Card
@@ -629,10 +723,14 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251125142957.png)
 ![](../../Assets/Pasted%20image%2020251125143035.png)
+
+Tags: should-know
 <!--ID: 1765364313330-->
+
 END
 
 ---
 
 ### Praktické cvičení
+
 ![](../../Assets/Pasted%20image%2020251125143058.png)

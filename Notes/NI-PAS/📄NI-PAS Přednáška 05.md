@@ -9,7 +9,6 @@ up: "[[📖NI-PAS]]"
 TARGET DECK: NI-PAS
 FILE TAGS: NI-PAS prednaska05 status-toReview
 
-
 START
 FIT-Card
 
@@ -21,15 +20,18 @@ Jaké jsou typy **přepravních dokumentů**?
 
 Back:
 
-- **Mezinárodní železniční nákladní list** (CIM)
-- **Mezinárodní železniční nákladní list** (SMGS)
-- **Mezinárodní dopravní nákladní list** (CMR)
-- **Letecký nákladní list** (AWB)
-- **Poštovní podací lístek**
+- **Mezinárodní železniční nákladní list** (CIM) - přeprava po železnici
+- **Mezinárodní železniční nákladní list** (SMGS) - přeprava po větší železnici
+- **Mezinárodní dopravní nákladní list** (CMR) - přeprava kamiony
+- **Letecký nákladní list** (AWB) - přeprava letadel
+- **Poštovní podací lístek** - malé balíkové zásilky
 - **Konosament** – lodní doprava
-- **Námořní konosament** (B/L Bill of Lading)
-- **FIATA BILL OF LADING**
+- **Námořní konosament** (B/L Bill of Lading) – lodní doprava
+- **FIATA BILL OF LADING** - pro kombinaci více druhů doprav
+
+Tags: should-know
 <!--ID: 1762184315413-->
+
 END
 
 ---
@@ -46,7 +48,10 @@ Back:
 Používá se při **přepravě zboží po železnici**
 
 ![](../../Assets/Pasted%20image%2020251021125925.png)
+
+Tags: could-know
 <!--ID: 1762184315416-->
+
 END
 
 ---
@@ -63,7 +68,10 @@ Back:
 Tohle se používá pro **širokorozchodné tratě** (širší kolejnice než normální)
 
 ![](../../Assets/Pasted%20image%2020251021125945.png)
+
+Tags: could-know
 <!--ID: 1762184315419-->
+
 END
 
 ---
@@ -80,7 +88,10 @@ Back:
 pro **silniční kamionovou dopravu**
 
 ![](../../Assets/Pasted%20image%2020251021130134.png)
+
+Tags: could-know
 <!--ID: 1762184315422-->
+
 END
 
 ---
@@ -95,7 +106,10 @@ Co je **Letecký nákladní list** (AWB)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021130206.png)
+
+Tags: could-know
 <!--ID: 1762184315425-->
+
 END
 
 ---
@@ -110,7 +124,10 @@ Co je **poštovní podací lístek**?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021130242.png)
+
+Tags: could-know
 <!--ID: 1762184315428-->
+
 END
 
 ---
@@ -127,7 +144,10 @@ Back:
 dokument vystavění **při předání zboží lodní společnosti k přepravě**
 
 ![](../../Assets/Pasted%20image%2020251021130320.png)
+
+Tags: could-know
 <!--ID: 1762184315431-->
+
 END
 
 ---
@@ -148,7 +168,10 @@ Vystavuje se, pokud se kombinují alespoň **2 druhy dopravy**
 ![](../../Assets/Pasted%20image%2020251021130403.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1762184315434-->
+
 END
 
 ---
@@ -172,7 +195,10 @@ Tady je vidět, kdo je za co odpovědný:
 ![](../../Assets/Pasted%20image%2020251021130644.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1762184315438-->
+
 END
 
 ---
@@ -195,7 +221,10 @@ Je to jakoby **jeden kus**.
 ![](../../Assets/Pasted%20image%2020251021130838.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315441-->
+
 END
 
 ---
@@ -218,7 +247,10 @@ Např. obal, kontejner,...
 ![](../../Assets/Pasted%20image%2020251021130853.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315445-->
+
 END
 
 ---
@@ -233,7 +265,10 @@ Co je **přepravní prostředek**?
 Back:
 
 Něco co spoluvytváří manipulační nebo přepravní jednotku (paleta, kontejner,..)
+
+Tags: could-know
 <!--ID: 1762184315448-->
+
 END
 
 ---
@@ -254,7 +289,10 @@ Reprezentuje minimální zboží. Stačí ruční manipulace. Max 15kg
 ![](../../Assets/Pasted%20image%2020251021131028.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315451-->
+
 END
 
 ---
@@ -277,7 +315,10 @@ pro manipulaci je potřeba nízko-vysokozdvižný vozík
 ![](../../Assets/Pasted%20image%2020251021131125.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315455-->
+
 END
 
 ---
@@ -298,7 +339,10 @@ Hmotnost do 30 500 kg. To se vejde typicky do jednoho kamionu nebo kontejneru
 ![](../../Assets/Pasted%20image%2020251021131223.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315459-->
+
 END
 
 ---
@@ -319,7 +363,10 @@ Typicky pro lodě (jinam se to nevejde). hmotnost 400-2000 tun. manipulace jeř�
 ![](../../Assets/Pasted%20image%2020251021131311.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315463-->
+
 END
 
 ---
@@ -348,7 +395,10 @@ Hlavní funkce:
 ![](../../Assets/Pasted%20image%2020251021131524.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315466-->
+
 END
 
 ---
@@ -375,7 +425,10 @@ Hlavní funkce:
 ![](../../Assets/Pasted%20image%2020251021131515.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315469-->
+
 END
 
 ---
@@ -396,7 +449,10 @@ Vnější pro přepravu (např. paleta, upevnění, prykrytí fólií atd.)
 ![](../../Assets/Pasted%20image%2020251021131554.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315473-->
+
 END
 
 ---
@@ -422,7 +478,10 @@ Back:
 ![](../../Assets/Pasted%20image%2020251021132155.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315476-->
+
 END
 
 ---
@@ -439,7 +498,10 @@ Back:
 - **Čárový kód** - je to dost přesný a jednoduchý
 - **Systém UPC** (universal product code) - univerzální kód pro označení produktů - je jen pro Ameriku a Kanadu
 - **Systém EAN** - jako UPC, ale je skutečně mezinárodní (obsahuje 3 místný kód který rozlišuje zemi)
+
+Tags: could-know
 <!--ID: 1762184315479-->
+
 END
 
 ---
@@ -454,7 +516,10 @@ Co je kód ISBN?
 Back:
 
 **Mezinárodní standardní číslo knihy** - pro odkódování se používá EAN
+
+Tags: could-know
 <!--ID: 1762184315483-->
+
 END
 
 ---
@@ -469,7 +534,10 @@ Co je kód ISSN?
 Back:
 
 Mezinárodní číslo seriálové publikace
+
+Tags: could-know
 <!--ID: 1762184315486-->
+
 END
 
 ---
@@ -490,7 +558,10 @@ Může nést výrazně více informací.
 ![](../../Assets/Pasted%20image%2020251021133009.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: could-know
 <!--ID: 1762184315489-->
+
 END
 
 ---
@@ -520,7 +591,10 @@ hlavní úkol logistiky je zajistit, že zboží je dopraveno:
 ![](../../Assets/Pasted%20image%2020251021133532.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1762184315492-->
+
 END
 
 ---
@@ -537,7 +611,10 @@ Back:
 - **zásobovací** (pořizovací) - zajistit zásobování výroby (i třeba služby apod.)
 - **výrobní** - manipulace při výrobě
 - **distribuční** - distribuce produktu
+
+Tags: should-know
 <!--ID: 1762184315496-->
+
 END
 
 ---
@@ -552,7 +629,10 @@ Co je logistický řetězec?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021133630.png)
+
+Tags: should-know
 <!--ID: 1762184315499-->
+
 END
 
 ---
@@ -570,7 +650,10 @@ Back:
 - **nepřímé** - výrobce má zprostředkovatele
 
 ![](../../Assets/Pasted%20image%2020251021133722.png)
+
+Tags: should-know
 <!--ID: 1762184315502-->
+
 END
 
 ---
@@ -593,7 +676,10 @@ Tohle používá např. škodovka
 ![](../../Assets/Pasted%20image%2020251021133806.png)
 
 <!-- DetailInfoEnd -->
+
+Tags: should-know
 <!--ID: 1762184315505-->
+
 END
 
 ---
@@ -616,7 +702,10 @@ skladové zásoby se rozdělí do:
 cílem je to udržovat tak, aby **člověk udržel Ačko** na skladě - to zbývající není tolik důležité
 
 ![](../../Assets/Pasted%20image%2020251021134137.png)
+
+Tags: should-know
 <!--ID: 1762184315508-->
+
 END
 
 ---
@@ -626,7 +715,7 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsuo typy obchodu?
+Jaké jsou typy obchodu?
 
 Back:
 
@@ -634,7 +723,10 @@ Back:
 - **maloobchod**
 - pohostinství (služby stravovací atd.)
 - cestovní ruch
+
+Tags: could-know
 <!--ID: 1762184315511-->
+
 END
 
 ---
@@ -651,7 +743,10 @@ Back:
 Maloobchodní firmy typicky kupují od velkoobchodních.
 
 Např. restaurace nakupují od Makra.
+
+Tags: should-know
 <!--ID: 1762184315514-->
+
 END
 
 ---
@@ -669,7 +764,10 @@ Back:
 
 - fixní
 - dynamická
+
+Tags: should-know
 <!--ID: 1762184315517-->
+
 END
 
 ---
@@ -684,7 +782,10 @@ Jaké jsou typy fixní cenotvorby? (4)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021134840.png)
+
+Tags: could-know
 <!--ID: 1762184315520-->
+
 END
 
 ---
@@ -699,7 +800,10 @@ Jaké jsou typy dynamické cenotvorby? (4)
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021134902.png)
+
+Tags: could-know
 <!--ID: 1762184315524-->
+
 END
 
 ---
@@ -714,7 +818,10 @@ Jak se tvoří cena?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021135126.png)
+
+Tags: should-know
 <!--ID: 1762184315527-->
+
 END
 
 ---
@@ -729,7 +836,10 @@ Na čem závisí finální cena stejného produktu?
 Back:
 
 ![](../../Assets/Pasted%20image%2020251021135213.png)
+
+Tags: could-know
 <!--ID: 1762184315530-->
+
 END
 
 ---
@@ -751,7 +861,10 @@ Prostě všechno sečtu:
 - **Zisk** - tohle se dost liší produkt od produktu
 
 ![](../../Assets/Pasted%20image%2020251021135350.png)
+
+Tags: should-know
 <!--ID: 1762184315533-->
+
 END
 
 ---
@@ -766,7 +879,10 @@ Co znamená množstevní sleva a doprava zdarma?
 Back:
 
 Jde o to, že člověk prostě přičte k ceně toho výrobku.
+
+Tags: could-know
 <!--ID: 1762184315536-->
+
 END
 
 ---
@@ -781,7 +897,10 @@ Co je doporučená cena od výrobce?
 Back:
 
 Výrobce může na výrobek nalepit doporučenou cenu, čímž trošku nutí ty obchodníky mezi tím nepřestřelit to, za kolik oni to prodávají.
+
+Tags: could-know
 <!--ID: 1762184315539-->
+
 END
 
 ---
@@ -817,7 +936,10 @@ Např. tady: poměr 1:3:5 (přibližně), sudá cena u premium produktu, zárove
 
 **Nesmyslná střední cena:**
 ![](../../Assets/Pasted%20image%2020251021142349.png)
+
+Tags: could-know
 <!--ID: 1762184315542-->
+
 END
 
 ---
@@ -838,7 +960,10 @@ Back:
   - Tzn. výrazně více se může vyplatit to dát levněji, protože o dost víc lidí si to koupí.
 
 ![](../../Assets/Pasted%20image%2020251021141117.png)
+
+Tags: could-know
 <!--ID: 1762184315546-->
+
 END
 
 ---
@@ -853,18 +978,10 @@ Proč by měla cena vždy končit devítkou?
 Back:
 
 Nejdůležitější v ceně
+
+Tags: could-know
 <!--ID: 1762184315549-->
-END
 
----
-
-START
-FIT-Card
-
-(FIT-Notes flashcard)
-
-Back:
-<!--ID: 1762184315552-->
 END
 
 ---
