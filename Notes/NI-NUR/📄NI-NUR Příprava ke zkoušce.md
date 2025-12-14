@@ -815,12 +815,11 @@ Jaké chování uživatelů nejvíce snižuje výpovědní hodnotu tzv. „Heat 
 
 Back:
 
-AI GENERATED ODPOVĚĎ:
-Výpovědní hodnotu heat maps snižuje zejména scrollování bez skutečného čtení obsahu, rychlé procházení stránky bez zaměření pozornosti, nebo automatické pohyby myši, které neodrážejí skutečný zájem uživatele o obsah.
+**Uživatelé často scrollují, klikají na náhodná místa, hýbají myší čistě protože nejsou schopný sedět v klidu**
 
-Idk, na přednášce jsme si o tom asi nic moc neříkali.  -Honza
+Navíc Heat maps vychází téměř vždy všude (většina lidí čte zleva doprava a skenují stránky ve tvaru písmene Z nebo F), takže to moc nemá cenu dělat
 
-(zdroj: AI)
+(zdroj: AI + Honzův mozek)
 <!--ID: 1765204625664-->
 END
 
@@ -1500,11 +1499,20 @@ Jak by na stránce měly být organizovány buttony OK a Cancel a jak by mely vy
 
 Back:
 
-- Buttony vedle sebe
-- **OK** (primární akce) - výraznější, vpravo
-- **Cancel** (sekundární akce) - méně výrazné, vlevo
+**Oba buttony vedle sebe**
+
+**Na desktopu**:
+- **OK** (primární akce) - výraznější, **vlevo**
+- **Cancel** (sekundární akce) - méně výrazné, **vpravo**
+
+**Na mobilu**:
+- **OK** (primární akce) - výraznější, **vpravo**
+- **Cancel** (sekundární akce) - méně výrazné, **vlevo**
 
 Toto uspořádání odpovídá principu "diagonal balance" - uživatel jde zleva nahoře a končí práci vpravo dole.
+
+Z přednášky:
+![](../../Assets/Pasted%20image%2020251214150415.png)
 
 (zdroj: AI + Honzův mozek)
 <!--ID: 1765204625758-->
