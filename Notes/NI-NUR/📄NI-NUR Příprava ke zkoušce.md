@@ -1478,6 +1478,7 @@ Back:
 
 Typicky:
 - **scrollování** - taby se posouvají do strany
+- **zužování** - např v prohlížeči se každý tab zuží při zužení obrazovky
 
 Teoreticky jde taky:
 - **dropdown menu** - taby se rozbalí jako menu
@@ -1485,7 +1486,7 @@ Teoreticky jde taky:
 
 ale nejlepší je typicky scrollování
 
-(zdroj: AI)
+(zdroj: AI + Honzy mozek)
 <!--ID: 1765204625755-->
 END
 
