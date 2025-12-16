@@ -5,8 +5,6 @@ up: "[[📖NI-NEM]]"
 
 TARGET DECK: NI-NEM
 FILE TAGS: NI-NEM cviceni08 status-toReview
-
-
 ### S.137/Ü8
 - eine Kirche besichtigen
 - nach dem Weg fragen
