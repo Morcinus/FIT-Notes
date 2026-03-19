@@ -262,7 +262,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -302,7 +302,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -332,7 +332,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -360,7 +360,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -382,7 +382,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -409,7 +409,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -445,7 +445,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Blocking a non-blocking I/O
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

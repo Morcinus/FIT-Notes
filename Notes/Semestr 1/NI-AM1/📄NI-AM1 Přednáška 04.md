@@ -12,7 +12,7 @@ FILE TAGS: NI-AM1 prednaska04 status-toReview
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -44,7 +44,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -96,7 +96,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -132,7 +132,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -160,7 +160,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -194,7 +194,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -216,7 +216,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -246,7 +246,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -272,7 +272,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -294,7 +294,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -328,7 +328,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -399,7 +399,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -433,7 +433,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -458,7 +458,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -499,7 +499,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Synchronní a asynchronní komunikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -525,7 +525,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -550,7 +550,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Pojem služba a její charakteristiky
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

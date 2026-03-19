@@ -9,7 +9,7 @@ FILE TAGS: NI-AM1 prednaska02 status-toReview
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -122,7 +122,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -142,7 +142,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -168,7 +168,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -197,7 +197,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -226,7 +226,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -255,7 +255,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -284,7 +284,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -313,7 +313,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -387,7 +387,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -462,7 +462,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -505,7 +505,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -568,7 +568,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -613,7 +613,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -640,7 +640,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -684,7 +684,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -715,7 +715,7 @@ END
 <!--
 Exam Note ID: NI-SI-9
 Exam Note Section Name: Architektura softwarového systému
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -737,7 +737,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -766,7 +766,7 @@ END
 <!--
 Exam Note ID: NI-SI-10
 Exam Note Section Name: Integrační návrhové vzory
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
