@@ -4,9 +4,8 @@ title: "Software Element Structures"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska06 status-toReview
-
 
 START
 FIT-Card

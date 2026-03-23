@@ -4,9 +4,8 @@ title: "Vocabulary - C"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM-Vocabulary
+TARGET DECK: archive
 FILE TAGS: NI-NEM-Vocabulary
-
 
 ## Vocabulary
 

@@ -4,9 +4,8 @@ title: "Vocabulary - A"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM-Vocabulary
+TARGET DECK: archive
 FILE TAGS: NI-NEM-Vocabulary
-
 
 ## Vocabulary
 
@@ -674,6 +673,7 @@ der Anruf,-e
 
 Tags: lesson5
 <!--ID: 1762184315736-->
+
 END
 
 ---
@@ -1141,6 +1141,7 @@ die Auskunft
 
 Tags: lesson1
 <!--ID: 1762184315739-->
+
 END
 
 ---

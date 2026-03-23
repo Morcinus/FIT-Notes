@@ -4,9 +4,8 @@ title: "Hromadná obsluha v síti"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska22 status-toReview green
-
 
 START
 FIT-Card

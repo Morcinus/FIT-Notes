@@ -5,9 +5,8 @@ up:
   - "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska02 status-toReview
-
 
 START
 FIT-Card

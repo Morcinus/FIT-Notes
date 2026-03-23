@@ -4,9 +4,8 @@ title: "Nehomogenní Poissonův proces"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska21 status-toReview green
-
 
 START
 FIT-Card

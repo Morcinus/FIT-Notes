@@ -4,9 +4,8 @@ title: "Browser Networking"
 up: "[[📖NI-AM2]]"
 ---
 
-TARGET DECK: NI-AM2
+TARGET DECK: archive
 FILE TAGS: NI-AM2 prednaska03 status-toReview
-
 
 START
 FIT-Card

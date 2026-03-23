@@ -4,9 +4,8 @@ title: "Brainstorming"
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska04 status-toReview
-
 
 START
 FIT-Card
@@ -71,6 +70,7 @@ Měli bychom psát, co ten uživatel **očekává** od toho systému z hlediska 
 
 **Neměli bychom tam psát konkrétní komponenty**. Ty by měly být ve scénářích.
 <!--ID: 1762184131430-->
+
 END
 
 ---
@@ -421,6 +421,7 @@ Back:
 
 Zadavatel nikdy neví, co chce :D
 <!--ID: 1762184131433-->
+
 END
 
 ---
@@ -447,6 +448,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131436-->
+
 END
 
 ---
@@ -472,6 +474,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131439-->
+
 END
 
 ---
@@ -494,6 +497,7 @@ Dělí se na **funkční** a **nefunkční požadavky** (jako z SIček).
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131443-->
+
 END
 
 ---
@@ -519,6 +523,7 @@ Tohle lidi dělají odjakživa (bohové, příběhy atd.).
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131446-->
+
 END
 
 ---
@@ -536,6 +541,7 @@ Většinou by člověk měl dělat persony na zákadě typického uživatele, kt
 
 ALE teoreticky lze i vyloženě na trhu vytvořit novou pesonu (jako Elon Musk vytvořil novou personu - člověka co chce elektro auto)
 <!--ID: 1762184131449-->
+
 END
 
 ---
@@ -553,8 +559,8 @@ Měl by je na trhu skutečně najít ty lidi.
 
 - **Dotazníky** - ptáme se lidí, jaké jsou jejich hlavní problémy, potřeby, přání
 - **Observace** - pokud jsou existující solutions, můžu je zkoumat - jak to funguje, jaké jsou issues, gaps, co by mohlo být lepší, jaké to má barvy
-<!--ID: 1762184131452-->
-END
+  <!--ID: 1762184131452-->
+  END
 
 ---
 
@@ -580,6 +586,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020250929140914.png)
 ![](../../Assets/Pasted%20image%2020250929140932.png)<!-- DetailInfoEnd -->
 <!--ID: 1762184131455-->
+
 END
 
 ---
@@ -595,8 +602,8 @@ Back:
 
 - **Goals**: co jsou jeho cíle
 - **Pain points**: jaké jsou jeho problémy
-<!--ID: 1762184131458-->
-END
+  <!--ID: 1762184131458-->
+  END
 
 ---
 
@@ -611,6 +618,7 @@ Back:
 
 Čím je člověk starší, tím méně je adaptivní.
 <!--ID: 1762184131461-->
+
 END
 
 ---
@@ -626,6 +634,7 @@ Back:
 
 Definují **chování** toho člověka, jak žije, **jak funguje** (např. ráno venčí psa -> v té době může používat appku apod.)
 <!--ID: 1762184131464-->
+
 END
 
 ---
@@ -643,8 +652,8 @@ Např. web fitu
 
 - je primárně pro studenty - pro ty to hlavně vytváříme
 - je sekundárně pro učitele
-<!--ID: 1762184131467-->
-END
+  <!--ID: 1762184131467-->
+  END
 
 ---
 
@@ -659,6 +668,7 @@ Back:
 
 Není pro ně primárně určené, ale s určitým painem jsou schopný tu aplikaci používat pro svoje účely.
 <!--ID: 1762184131470-->
+
 END
 
 ---
@@ -674,6 +684,7 @@ Back:
 
 **Mentální model uživatele**
 <!--ID: 1762184131474-->
+
 END
 
 ---
@@ -691,6 +702,7 @@ je to jakýsi program, který máme v mozku, podle kterého se chováme
 
 Každý má v mozku jiné "algoritmy", jinak se dívají na svět apod.
 <!--ID: 1762184131477-->
+
 END
 
 ---
@@ -712,6 +724,7 @@ Např. je mi jedno, kolik ten člověk má dětí, když dělám nějakej eshop 
 
 <!-- ExampleEnd -->
 <!--ID: 1762184131480-->
+
 END
 
 ---
@@ -739,6 +752,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131483-->
+
 END
 
 ---
@@ -754,6 +768,7 @@ Back:
 
 UML use casy správně obsahují milion detailů (preconditions atd.) - kvůli tomu se to přestalo tolik používat
 <!--ID: 1762184131486-->
+
 END
 
 ---
@@ -773,6 +788,7 @@ V Use Casu bych **neměl psát fyzický vzhled toho systému**
 
 Měli bychom to psát z pohledu uživatele, aby to bralo v potaz ten jejich **mentální model** (personu). Neměl bych to psát z pohledu, co dělá systém
 <!--ID: 1762184131489-->
+
 END
 
 ---
@@ -788,6 +804,7 @@ Back:
 
 Scénář je psán z pohledu systému. Tam už řeším konkrétní atributy, co uživatel zadává, píšeme výsledek té akce.
 <!--ID: 1762184131493-->
+
 END
 
 ---
@@ -808,7 +825,7 @@ Správný workflow by měl být:
 1. Sepsat všechny use casy
 2. Sepsat scénáře
 3. Udělat wireframy / návrh
-<!--ID: 1762184131496-->
-END
+   <!--ID: 1762184131496-->
+   END
 
 ---

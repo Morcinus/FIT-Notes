@@ -4,9 +4,8 @@ title: "Jazyk, komunikace a lingvistika"
 up: "[[📖NI-LNG]]"
 ---
 
-TARGET DECK: NI-LNG
+TARGET DECK: archive
 FILE TAGS: NI-LNG prednaska01 status-toReview
-
 
 START
 FIT-Card

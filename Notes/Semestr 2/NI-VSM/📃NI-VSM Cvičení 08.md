@@ -3,9 +3,8 @@ created: 2025-04-11T16:00:22
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM cviceni08 status-toReview blue
-
 
 START
 FIT-Card

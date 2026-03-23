@@ -4,9 +4,8 @@ title: "Limitní věty"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska08 status-toReview blue
-
 
 START
 FIT-Card

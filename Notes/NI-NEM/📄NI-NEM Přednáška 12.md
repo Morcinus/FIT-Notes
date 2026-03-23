@@ -4,11 +4,11 @@ title: "Wegbeschreibung"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM prednaska12 status-toReview
 
-
 ### 136/3
+
 1. **F** Gehen Sie hier rechts
 2. **C** Gehen Sie hier links
 3. **A** Gehen Sie geradeaus
@@ -20,26 +20,28 @@ FILE TAGS: NI-NEM prednaska12 status-toReview
 9. **H** Gehen Sie über den Platz
 
 ### 4
+
 - Museum
 - Schloss
 - Bank
 
 bahnhof
 
-
 ## Slovíčka
+
 - r **Gang** - chodba
 - e **Treppe** - schody, schodiště
 - **hoch** gehen - jít nahoru (po schodech)
 - **runter** gehen - jít dolu (po schodech)
 
 ## Gramatika
+
 - **wollen** - chtít
-	- když chci něco (buď v budoucnu) nebo od sebe
-	- pojí se k tomu i nějaké 
+  - když chci něco (buď v budoucnu) nebo od sebe
+  - pojí se k tomu i nějaké
 - **mögen** (ich möchte) - chtít
-	- když chci něco od někoho
-	- např. při objednávání v restauraci použijeme tohle (wollen je neslušný)
+  - když chci něco od někoho
+  - např. při objednávání v restauraci použijeme tohle (wollen je neslušný)
 
 | ich | will   |
 | --- | ------ |

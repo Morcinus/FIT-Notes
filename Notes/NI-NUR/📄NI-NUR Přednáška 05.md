@@ -4,9 +4,8 @@ title: "UI design steps"
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska05 status-toReview
-
 
 START
 FIT-Card
@@ -27,6 +26,7 @@ Skládá se z:
 
 Task může mít různé větve.
 <!--ID: 1762184131348-->
+
 END
 
 ---
@@ -52,6 +52,7 @@ Tady se task nechápe jako ten task, co se skládá z use casů
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131351-->
+
 END
 
 ---
@@ -75,6 +76,7 @@ Reálně se nedělá graf, ale dává se to do tabulky.
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131354-->
+
 END
 
 ---
@@ -94,6 +96,7 @@ Typicky jsou **bez stylů, barev, grafik atd.** - hlavní focus je funkcionalita
 
 Typicky se dělají jen tužkou na papír, nebo digitálně.
 <!--ID: 1762184131357-->
+
 END
 
 ---
@@ -109,6 +112,7 @@ Back:
 
 Abychom navrhli **rozložení** elementů na obrazovce
 <!--ID: 1762184131360-->
+
 END
 
 ---
@@ -134,6 +138,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131363-->
+
 END
 
 ---
@@ -157,8 +162,8 @@ Back:
 6. Prototyping
 7. Evaluation
 8. Re-design
-<!--ID: 1762184131367-->
-END
+   <!--ID: 1762184131367-->
+   END
 
 ---
 
@@ -174,8 +179,8 @@ Back:
 - **Cognitive walktrough** - projde se to UI
 - **Collaborative critiquing** - kritizuje se brainstormingem
 - **Heuristic evaluation** - herustiky
-<!--ID: 1762184131371-->
-END
+  <!--ID: 1762184131371-->
+  END
 
 ---
 
@@ -190,6 +195,7 @@ Back:
 
 Synonymum pro wireframe
 <!--ID: 1762184131375-->
+
 END
 
 ---
@@ -211,6 +217,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131378-->
+
 END
 
 ---
@@ -227,8 +234,8 @@ Back:
 1. **Uděat prototyp** (nedokonalý produkt)
 2. **Otestovat ho** - tohle je v inženýrství naprosto kritické
 3. **Pak zanalyzovat**, co vylepšit
-<!--ID: 1762184131381-->
-END
+   <!--ID: 1762184131381-->
+   END
 
 ---
 
@@ -250,6 +257,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131384-->
+
 END
 
 ---
@@ -265,8 +273,8 @@ Back:
 
 - **Lo-fi** - ideální na ukazování zákazníkovi, levný, jednoduché změny
 - **Hi-fi** - drahý, ale dají se tam dělat uživatelské testy
-<!--ID: 1762184131388-->
-END
+  <!--ID: 1762184131388-->
+  END
 
 ---
 
@@ -283,6 +291,7 @@ Back:
 
 Pokud se dělá správně (dodržují se pravidla a techniky), tak ta skupina je schopná vymýšlet věci **mnohem efektivněji** než jednotlivec.
 <!--ID: 1762184131391-->
+
 END
 
 ---
@@ -298,6 +307,7 @@ Back:
 
 Aktivita, kde se snažíme **najít řešení na konkrétní problém** **sbíráním nápadů** od jednotlivých členů brainstormingu
 <!--ID: 1762184131398-->
+
 END
 
 ---
@@ -313,6 +323,7 @@ Back:
 
 Třeba 15m, pak dát chvíli pauzu a pak se podívat, které nápady jsou cca nejlepší.
 <!--ID: 1762184131402-->
+
 END
 
 ---
@@ -328,6 +339,7 @@ Back:
 
 **Maximálně 7**
 <!--ID: 1762184131405-->
+
 END
 
 ---
@@ -343,6 +355,7 @@ Back:
 
 Na **jeden konkrétní problém** (více otázek je méně efektivní)
 <!--ID: 1762184131408-->
+
 END
 
 ---
@@ -360,8 +373,8 @@ Back:
 - ⭐**Withhold criticism** - kritizování nápadů by mělo být necháno nakonec. Nejdříve by se měly vygenerovat všechny možné nápady a pak to osekávat
 - **Welcome unusual ideas** - to rozšíří perspektivu a další nápady
 - **Combine and improve ideas** - řešení typicky vzniká kombinací několika nápadů
-<!--ID: 1762184131411-->
-END
+  <!--ID: 1762184131411-->
+  END
 
 ---
 
@@ -389,6 +402,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131414-->
+
 END
 
 ---
@@ -404,6 +418,7 @@ Back:
 
 **Každý člověk má equal say**, generuje se ranked list nápadů
 <!--ID: 1762184131418-->
+
 END
 
 ---
@@ -419,6 +434,7 @@ Back:
 
 Nastaví se **čas a téma** (pro individuální nebo skupinovou práci)
 <!--ID: 1762184131421-->
+
 END
 
 ---
@@ -436,6 +452,7 @@ Každý dělá brainstorming sám
 
 E.g. free writing, free speaking, word association, drawing a mind map, note taking, diagrams, creative writing,..
 <!--ID: 1762184131424-->
+
 END
 
 ---
@@ -451,6 +468,7 @@ Back:
 
 Brainstormu je se, na **jaké otázky se vůbec potřebujeme odpovědi**.
 <!--ID: 1762184131427-->
+
 END
 
 ---

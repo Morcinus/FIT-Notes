@@ -4,9 +4,8 @@ title: "Náhodné procesy"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska23 status-toReview outro
-
 
 START
 FIT-Card

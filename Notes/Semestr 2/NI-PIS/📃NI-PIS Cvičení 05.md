@@ -3,9 +3,8 @@ created: 2025-04-17T18:02:52
 up: "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS cviceni04 status-toReview
-
 
 START
 FIT-Card

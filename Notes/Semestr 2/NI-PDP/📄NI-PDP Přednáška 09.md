@@ -4,9 +4,8 @@ title: "Kolektivní komunikační operace"
 up: "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska09 status-toReview
-
 
 START
 FIT-Card

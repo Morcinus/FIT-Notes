@@ -4,9 +4,8 @@ title: "Vocabulary - H"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM-Vocabulary
+TARGET DECK: archive
 FILE TAGS: NI-NEM-Vocabulary
-
 
 ## Vocabulary
 
@@ -511,6 +510,7 @@ Hi!
 
 Tags: lesson1
 <!--ID: 1762184315732-->
+
 END
 
 ---

@@ -4,9 +4,8 @@ title: "Expansion, Harvesting and Rejuvenation"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska07 status-toReview
-
 
 START
 FIT-Card

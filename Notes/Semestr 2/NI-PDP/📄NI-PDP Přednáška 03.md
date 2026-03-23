@@ -4,9 +4,8 @@ title: "Paralelní prohledávání stavového prostoru"
 up: "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska03 status-toReview
-
 
 START
 FIT-Card

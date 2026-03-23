@@ -4,9 +4,8 @@ title: "Pravděpodobnosti pohlcení"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska16 status-toReview red
-
 
 START
 FIT-Card

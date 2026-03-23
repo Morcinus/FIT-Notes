@@ -4,9 +4,8 @@ title: "Dimensions of Variability and Evolvability"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska08 status-toReview
-
 
 START
 FIT-Card

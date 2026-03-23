@@ -4,9 +4,8 @@ title: "AI v programování"
 up: "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska12 status-toReview
-
 
 START
 FIT-Card

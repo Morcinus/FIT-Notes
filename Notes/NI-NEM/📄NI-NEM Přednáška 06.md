@@ -4,7 +4,7 @@ title: "Místa"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM prednaska06 status-toReview
 
 ### Slovíčka
@@ -63,6 +63,7 @@ Back:
 
 Wie lange?
 <!--ID: 1765204625970-->
+
 END
 
 ---
@@ -78,6 +79,7 @@ Back:
 
 Wie lang?
 <!--ID: 1765204625973-->
+
 END
 
 ---
@@ -93,6 +95,7 @@ Back:
 
 bei
 <!--ID: 1765204625976-->
+
 END
 
 ---
@@ -108,6 +111,7 @@ Back:
 
 die Stadt
 <!--ID: 1765204625979-->
+
 END
 
 ---
@@ -123,6 +127,7 @@ Back:
 
 auf dem Parkplatz
 <!--ID: 1765204625981-->
+
 END
 
 ---
@@ -138,6 +143,7 @@ Back:
 
 am Kiosk
 <!--ID: 1765204625984-->
+
 END
 
 ---
@@ -153,6 +159,7 @@ Back:
 
 auf dem Bahnhof
 <!--ID: 1765204625987-->
+
 END
 
 ---
@@ -168,6 +175,7 @@ Back:
 
 beim Arzt
 <!--ID: 1765204625990-->
+
 END
 
 ---
@@ -183,6 +191,7 @@ Back:
 
 die Buchhandlung
 <!--ID: 1765204625994-->
+
 END
 
 ---
@@ -198,6 +207,7 @@ Back:
 
 auf der Post
 <!--ID: 1765204625998-->
+
 END
 
 ---
@@ -213,6 +223,7 @@ Back:
 
 an der Bushaltestelle
 <!--ID: 1765204626000-->
+
 END
 
 ---
@@ -228,6 +239,7 @@ Back:
 
 die Etage (der Stock)
 <!--ID: 1765204626003-->
+
 END
 
 ---
@@ -243,6 +255,7 @@ Back:
 
 das Erdgeschoss
 <!--ID: 1765204626006-->
+
 END
 
 ---
@@ -258,6 +271,7 @@ Back:
 
 der Empfang
 <!--ID: 1765204626008-->
+
 END
 
 ---
@@ -273,6 +287,7 @@ Back:
 
 die Kantine
 <!--ID: 1765204626011-->
+
 END
 
 ---
@@ -288,6 +303,7 @@ Back:
 
 die Konferenzräume
 <!--ID: 1765204626014-->
+
 END
 
 ---
@@ -303,6 +319,7 @@ Back:
 
 das Büro
 <!--ID: 1765204626017-->
+
 END
 
 ---
@@ -318,6 +335,7 @@ Back:
 
 ich suche ...
 <!--ID: 1765204626019-->
+
 END
 
 ---
@@ -333,6 +351,7 @@ Back:
 
 an
 <!--ID: 1765204626022-->
+
 END
 
 ---
@@ -348,6 +367,7 @@ Back:
 
 neben
 <!--ID: 1765204626025-->
+
 END
 
 ---
@@ -363,6 +383,7 @@ Back:
 
 vor dem Haus
 <!--ID: 1765204626028-->
+
 END
 
 ---
@@ -378,6 +399,7 @@ Back:
 
 Was ist auf dem Bild?
 <!--ID: 1765204626030-->
+
 END
 
 ---
@@ -393,6 +415,7 @@ Back:
 
 vezme se der/die/das a −te
 <!--ID: 1765204626033-->
+
 END
 
 ---
@@ -408,6 +431,7 @@ Back:
 
 der/die/das erste
 <!--ID: 1765204626036-->
+
 END
 
 ---
@@ -423,6 +447,7 @@ Back:
 
 zweite
 <!--ID: 1765204626039-->
+
 END
 
 ---
@@ -438,6 +463,7 @@ Back:
 
 dritte
 <!--ID: 1765204626041-->
+
 END
 
 ---
@@ -453,6 +479,7 @@ Back:
 
 vierte
 <!--ID: 1765204626044-->
+
 END
 
 ---
@@ -468,6 +495,7 @@ Back:
 
 siebte
 <!--ID: 1765204626047-->
+
 END
 
 ---
@@ -483,6 +511,7 @@ Back:
 
 achte
 <!--ID: 1765204626049-->
+
 END
 
 ---
@@ -498,6 +527,7 @@ Back:
 
 zwanzigste
 <!--ID: 1765204626052-->
+
 END
 
 ---

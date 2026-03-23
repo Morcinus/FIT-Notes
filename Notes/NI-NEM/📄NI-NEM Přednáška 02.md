@@ -4,9 +4,8 @@ title: "Terminen 2"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM lesson02 status-toReview
-
 
 ### Wann?
 
@@ -93,7 +92,6 @@ FILE TAGS: NI-NEM lesson02 status-toReview
 - **neodlučitelné** (nepřízvučné) - slovo nemůže stát samostatně
   - be-, ge-, emp-, ent-, er-, ver-, zer, (miss-,)
 - je potřeba se naučit které jsou které
-
   - tip: odlučitelné jsou typicky jako předložky (zu, auf,...)
 
 - ins Fitnesstudio - do posilovny
@@ -1043,7 +1041,7 @@ vstávat
 Back:
 
 aufstehen
-
+<!--ID: 1774254477936-->
 END
 
 ---

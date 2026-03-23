@@ -4,9 +4,8 @@ title: "Usability testing"
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska09 status-toReview
-
 
 START
 FIT-Card
@@ -19,6 +18,7 @@ Back:
 
 Je dost drahý (časově náročný) na vytvoření.
 <!--ID: 1762184131031-->
+
 END
 
 ---
@@ -34,6 +34,7 @@ Back:
 
 Na hi-fi prototypu
 <!--ID: 1762184131034-->
+
 END
 
 ---
@@ -48,8 +49,8 @@ Jak je nejlepší postupovat u lo-fi a hi-fi prototypů podle Pavlíčka?
 Back:
 
 - Nejlepší je si lo-fi prototyp udělat při definování use casů (wireframe), navzájem to dolaďovat.
-<!--ID: 1762184131037-->
-END
+  <!--ID: 1762184131037-->
+  END
 
 ---
 
@@ -66,6 +67,7 @@ Už tam bývají interakce, animace.. už to bývá typicky naprogramované
 
 ![](../../Assets/Pasted%20image%2020251029150811.png)
 <!--ID: 1762184131041-->
+
 END
 
 ---
@@ -83,6 +85,7 @@ Typicky use casy
 
 ![](../../Assets/Pasted%20image%2020251029150840.png)
 <!--ID: 1762184131044-->
+
 END
 
 ---
@@ -110,8 +113,8 @@ Back:
   - Jak dlouho trvá provedení určité akce
 - Výsledkem jsou čísla, sbírá se hodně dat
 - Používají se statistické metody
-<!--ID: 1762184131048-->
-END
+  <!--ID: 1762184131048-->
+  END
 
 ---
 
@@ -126,6 +129,7 @@ Back:
 
 Max 7.. víc už nemá smysl, protože ty chyby se budou furt opakovat
 <!--ID: 1762184131051-->
+
 END
 
 ---
@@ -141,6 +145,7 @@ Back:
 
 Vytváří se heatmapy na obrazovce, díky tomu pak člověk pozná např. kam se lidi na obrazovce nejvíce dívají a kde by cca mohl být problém (nepoužívá se to tolik často)
 <!--ID: 1762184131055-->
+
 END
 
 ---
@@ -164,8 +169,8 @@ Back:
 - User survey
 - Ethnographic observations
 - Usability engineering
-<!--ID: 1762184131059-->
-END
+  <!--ID: 1762184131059-->
+  END
 
 ---
 
@@ -195,6 +200,7 @@ Je to od Nielson Group
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131062-->
+
 END
 
 ---
@@ -217,6 +223,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131065-->
+
 END
 
 ---
@@ -232,6 +239,7 @@ Back:
 
 Na mockupu (prototypu) nebo reálné aplikaci
 <!--ID: 1762184131068-->
+
 END
 
 ---
@@ -247,8 +255,8 @@ Back:
 
 - Na prototypu
 - Dobré dělat v průběhu design procesu neformálně (jen si řeknu "splňuju tuhle heuristiku"?)
-<!--ID: 1762184131071-->
-END
+  <!--ID: 1762184131071-->
+  END
 
 ---
 
@@ -273,8 +281,8 @@ Back:
 - Řekneme nějaký cíl, co má uživatel udělat
 - Zkoumáme, jakým způsobem se dostane k cíli
 - **Výhoda:** odhalíme větší chyby v použitelnosti systému
-<!--ID: 1762184131074-->
-END
+  <!--ID: 1762184131074-->
+  END
 
 ---
 
@@ -288,8 +296,8 @@ Jaké jsou nevýhody testování bez uživatelů?
 Back:
 
 - Nepozoruju reálné uživatele, **testeři často mají už nějakou znalost** systému, není tak přesné
-<!--ID: 1762184131078-->
-END
+  <!--ID: 1762184131078-->
+  END
 
 ---
 
@@ -307,8 +315,8 @@ Je třeba se zeptat:
 1. **Co se mi líbí?** - to si lidi pamatují méně, proto je třeba se na to zeptat první
 2. **Co se mi nelíbí?** - tohle si lidi pamatují dobře, takže na to se zeptat později
 3. **Doporučení** - co by se mělo zlepšit
-<!--ID: 1762184131081-->
-END
+   <!--ID: 1762184131081-->
+   END
 
 ---
 
@@ -323,6 +331,7 @@ Back:
 
 Přátelské prostředí, aby se ten uživatel "cítil jako doma", neměl by se cítit, že mu koukám přes rameno.
 <!--ID: 1762184131084-->
+
 END
 
 ---
@@ -338,6 +347,7 @@ Back:
 
 Maximálně tak 40 minut procházení scénářů. Celkem tak stojí max 1,5h.
 <!--ID: 1762184131087-->
+
 END
 
 ---
@@ -355,6 +365,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251029155353.png)
 <!--ID: 1762184131090-->
+
 END
 
 ---
@@ -371,8 +382,8 @@ Back:
 1. Když trvá méně než půl vteřiny, nemusím dávat nic
 2. Když trvá méně než 5 vteřin, dát třeba loading
 3. Když trvá více než 5 vteřin dát třeba progress bar
-<!--ID: 1762184131093-->
-END
+   <!--ID: 1762184131093-->
+   END
 
 ---
 
@@ -387,8 +398,8 @@ Back:
 
 - Dát tam "nekonečný progress bar", který jen jezdí ze strany na stranu.
 - Pokud to trvá delší dobu, vyhodit třeba upozornění, které se uživatele zeptá, jestli chce ještě čekat
-<!--ID: 1762184131096-->
-END
+  <!--ID: 1762184131096-->
+  END
 
 ---
 
@@ -403,7 +414,7 @@ Back:
 
 - Jaká chyba (identifikátor nebo název)
 - Říct, co má uživatel dělat - jestli má akci opakovat nebo co má zkusit jiného
-<!--ID: 1762184131100-->
-END
+  <!--ID: 1762184131100-->
+  END
 
 ---

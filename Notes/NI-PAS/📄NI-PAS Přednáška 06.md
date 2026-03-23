@@ -4,7 +4,7 @@ title: "Lidské zdroje"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska06 status-toReview
 
 START

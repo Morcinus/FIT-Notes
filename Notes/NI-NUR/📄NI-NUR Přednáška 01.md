@@ -4,9 +4,8 @@ title: Introduction to Interaction Design
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska01 status-toReview
-
 
 ## Notes
 

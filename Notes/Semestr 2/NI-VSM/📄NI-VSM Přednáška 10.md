@@ -4,9 +4,8 @@ title: "Testování hypotéz 2"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska10 status-toReview blue
-
 
 START
 FIT-Card

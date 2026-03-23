@@ -4,7 +4,7 @@ title: "Strategie i guess"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska02 status-toReview
 
 > Pozor, začátek téhle přednášky tam není - byli jsme na obědě

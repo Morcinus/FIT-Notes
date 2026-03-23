@@ -4,9 +4,8 @@ title: "Propojovací sítě paralelních počítačů"
 up: "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska07 status-toReview
-
 
 START
 FIT-Card

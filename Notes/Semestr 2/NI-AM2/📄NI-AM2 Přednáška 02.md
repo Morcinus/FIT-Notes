@@ -4,9 +4,8 @@ title: "Asynchronní IO"
 up: "[[📖NI-AM2]]"
 ---
 
-TARGET DECK: NI-AM2
+TARGET DECK: archive
 FILE TAGS: NI-AM2 prednaska02 status-toReview
-
 
 START
 FIT-Card

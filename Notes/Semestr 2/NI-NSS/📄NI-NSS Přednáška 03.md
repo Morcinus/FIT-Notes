@@ -4,9 +4,8 @@ title: "Systems Development Methodologies"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska02 status-toReview
-
 
 START
 FIT-Card

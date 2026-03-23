@@ -4,9 +4,8 @@ title: "Charakteristiky náhodných vektorů"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska04 status-toReview white
-
 
 START
 FIT-Card

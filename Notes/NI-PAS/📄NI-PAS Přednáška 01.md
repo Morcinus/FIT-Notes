@@ -4,7 +4,7 @@ title: "Úvod"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska01 status-toReview
 
 START

@@ -4,9 +4,8 @@ title: "Úvod"
 up: "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska01 status-toReview
-
 
 START
 FIT-Card
@@ -46,8 +45,8 @@ Business pohled:
 Fun fact:
 
 - Velké firmy mají řádově stovky informačních systémů - Např. ČSOB má přes 200
-  <!-- DetailInfoEnd -->
-<!--ID: 1746599652209-->
+    <!-- DetailInfoEnd -->
+  <!--ID: 1746599652209-->
 
 END
 

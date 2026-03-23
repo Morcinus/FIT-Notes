@@ -4,9 +4,8 @@ title: "Termíny"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM lesson01 status-toReview
-
 
 ## Notes
 

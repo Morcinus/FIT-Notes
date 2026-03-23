@@ -4,9 +4,8 @@ title: "Základní pojmy pravděpodobnosti"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska01 status-toReview intro
-
 
 START
 FIT-Card

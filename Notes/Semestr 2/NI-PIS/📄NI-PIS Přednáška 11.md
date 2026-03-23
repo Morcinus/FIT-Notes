@@ -5,9 +5,8 @@ up:
   - "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska11 status-toReview
-
 
 START
 FIT-Card

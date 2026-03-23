@@ -5,9 +5,8 @@ up:
   - "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska05 status-toReview yellow
-
 
 START
 FIT-Card

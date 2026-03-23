@@ -4,7 +4,7 @@ title: "Duševní vlastnictví"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska09 status-toReview
 
 START

@@ -4,10 +4,11 @@ title: "Berlin"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM prednaska10 status-toReview
 
 ## Wortschatz
+
 - **der Weg, -e** – cesta
 - **die Oper, -n** – opera
 - **die Kreuzung, -en** – křižovatka
@@ -22,10 +23,10 @@ FILE TAGS: NI-NEM prednaska10 status-toReview
 - **Woher** - odkud
 - **Wohin** - kam
 - **von ... zu...** - odkud kam (3. pád)
-	- von dem
-	- zu dem
-	- vor dem
-	- zu der
+  - von dem
+  - zu dem
+  - vor dem
+  - zu der
 - **Wie fährt die Linie ... ?** - jak jede linka ...
 
 - e Wende
@@ -34,12 +35,13 @@ FILE TAGS: NI-NEM prednaska10 status-toReview
 - Bundeskanzleramt
 - Schlossbellevue
 - Reichstag (tam je parlament Bundestag)
-	- (Tag - sněm)
+  - (Tag - sněm)
 
 - e Wand - stěna (zeď uvnitř)
 - e Mauer - zeď venku - např. berlínská zeď
 
 ### 126/2
+
 _Was wollen die Studenten machen?_ -> Sie wollen das parlament besichtingen, über einen Flohmarkt bummeln, und am Abend wollen sie ins Theater gehen.
 
 _Zu welchen Fotos gibt es eine Haltestelle?_

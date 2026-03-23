@@ -4,9 +4,8 @@ title: Accessibility
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska11 status-toReview
-
 
 START
 FIT-Card
@@ -21,6 +20,7 @@ Schopnost UI být přístupný i pro lidi s určitým hendikepem
 
 ![](../../Assets/Pasted%20image%2020251031111345.png)
 <!--ID: 1762184130984-->
+
 END
 
 ---
@@ -39,6 +39,7 @@ Universal Design - design tak, aby byl použitelný všemi lidmi
 
 ![](../../Assets/Pasted%20image%2020251031111405.png)
 <!--ID: 1762184130987-->
+
 END
 
 ---
@@ -56,6 +57,7 @@ Umožňuje psát a číst pomocí braillova písma (pro slepé)
 
 ![](../../Assets/Pasted%20image%2020251031112320.png)
 <!--ID: 1762184130991-->
+
 END
 
 ---
@@ -71,6 +73,7 @@ Back:
 
 Aplikace/systém/produkt by měl splňovat tyto principy tak aby byl accessible
 <!--ID: 1762184130994-->
+
 END
 
 ---
@@ -86,6 +89,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251031112352.png)
 <!--ID: 1762184130997-->
+
 END
 
 ---
@@ -101,6 +105,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251031112453.png)
 <!--ID: 1762184131000-->
+
 END
 
 ---
@@ -118,6 +123,7 @@ Obsah webu je vnímatelný všemi smysly – zrakem, sluchem a/nebo hmatem.
 
 ![](../../Assets/Pasted%20image%2020251031112909.png)
 <!--ID: 1762184131003-->
+
 END
 
 ---
@@ -135,6 +141,7 @@ Formulářová rozhraní, ovládací prvky a navigace jsou ovladatelné.
 
 ![](../../Assets/Pasted%20image%2020251031112915.png)
 <!--ID: 1762184218576-->
+
 END
 
 ---
@@ -152,6 +159,7 @@ Informace a ovládání uživatelského rozhraní musí být srozumitelné.
 
 ![](../../Assets/Pasted%20image%2020251031112924.png)
 <!--ID: 1762184218580-->
+
 END
 
 ---
@@ -169,6 +177,7 @@ Obsah musí být dostatečně robustní, aby mohl být spolehlivě interpretová
 
 ![](../../Assets/Pasted%20image%2020251031112930.png)
 <!--ID: 1762184218584-->
+
 END
 
 ---
@@ -186,6 +195,7 @@ Tool, který kontroluje, jestli web má dobrý design z hlediska barev
 
 ![](../../Assets/Pasted%20image%2020251031113106.png)
 <!--ID: 1762184131009-->
+
 END
 
 ---
@@ -203,6 +213,7 @@ Headers mají jasná pravidla pro to, jak se mají používat
 
 ![](../../Assets/Pasted%20image%2020251031113151.png)
 <!--ID: 1762184131012-->
+
 END
 
 ---
@@ -218,6 +229,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251031113223.png)
 <!--ID: 1762184131015-->
+
 END
 
 ---
@@ -235,6 +247,7 @@ Barvy by měly být rozlišitelný i po převedení do barev šedi. (Tohle je ze
 
 ![](../../Assets/Pasted%20image%2020251031113302.png)
 <!--ID: 1762184131019-->
+
 END
 
 ---
@@ -252,6 +265,7 @@ Měly by se používat správné HTML tags
 
 ![](../../Assets/Pasted%20image%2020251031113331.png)
 <!--ID: 1762184131022-->
+
 END
 
 ---
@@ -267,6 +281,7 @@ Back:
 
 Umožňuje na stránce testovat accessibility (prý to je docela dobrý)
 <!--ID: 1762184131025-->
+
 END
 
 ---
@@ -282,6 +297,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251031114337.png)
 <!--ID: 1762184131028-->
+
 END
 
 ---

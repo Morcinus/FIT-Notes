@@ -4,9 +4,8 @@ title: "Terminen"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM lesson04 status-toReview
-
 
 ### Slovíčka
 

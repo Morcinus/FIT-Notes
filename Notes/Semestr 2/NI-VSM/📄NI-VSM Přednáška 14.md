@@ -4,9 +4,8 @@ title: "Klasifikace stavů markovského řetězce"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska14 status-toReview red
-
 
 START
 FIT-Card

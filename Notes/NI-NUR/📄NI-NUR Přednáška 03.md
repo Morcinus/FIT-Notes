@@ -4,9 +4,8 @@ title: "User Interface Design"
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska03 status-toReview
-
 
 START
 FIT-Card

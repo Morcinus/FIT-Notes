@@ -4,9 +4,8 @@ title: "Náhodné vektory"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska03 status-toReview white
-
 
 ## Náhodné vektory
 

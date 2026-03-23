@@ -4,9 +4,8 @@ title: "Idk"
 up: "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska05 status-toReview
-
 
 ![](../../../Assets/Pasted%20image%2020250320163829.png)
 

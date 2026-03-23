@@ -4,9 +4,8 @@ title: "Teorie informace"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska06 status-toReview yellow
-
 
 ## Entropie
 

@@ -4,7 +4,7 @@ title: "Startupy"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska10 status-toReview
 
 START

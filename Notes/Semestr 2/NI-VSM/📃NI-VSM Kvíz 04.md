@@ -3,9 +3,8 @@ created: 2025-03-31T11:56:34
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM cvicenixx status-toReview
-
 
 ![](../../../Assets/Pasted%20image%2020250331115640.png)
 

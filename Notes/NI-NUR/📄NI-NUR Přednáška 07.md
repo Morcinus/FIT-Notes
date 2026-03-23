@@ -4,9 +4,8 @@ title: Responsivní design
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska07 status-toReview
-
 
 START
 FIT-Card
@@ -19,6 +18,7 @@ Back:
 
 Primárně byl návrh pro desktop a cílem bylo to zdrcnout na mobil
 <!--ID: 1762184131219-->
+
 END
 
 ---
@@ -34,6 +34,7 @@ Back:
 
 Designování pro různě velká zařízení - od hodinek až po obrovské televize.
 <!--ID: 1762184131223-->
+
 END
 
 ---
@@ -49,8 +50,8 @@ Back:
 
 1. Rozdělíme design na desktopu do "bloků"
 2. Ty pak házíme pod sebe na mobilu v dlouhou scrollovací nudli
-<!--ID: 1762184131227-->
-END
+   <!--ID: 1762184131227-->
+   END
 
 ---
 
@@ -75,8 +76,8 @@ Pak se dělá to, že buď:
 
 - se vytvoří dva designy (drahý, ale dobrý UX)
 - nebo se vybere, na jaké zařízení chceme cílit podle primární persony
-<!--ID: 1762184131230-->
-END
+  <!--ID: 1762184131230-->
+  END
 
 ---
 
@@ -93,6 +94,7 @@ Měl bych designovat podle toho, jaké zařízení bude primární persona použ
 
 Pokud primárně používá mobil, měl bych to dělat mobile-first. Pokud desktop, tak desktop first.
 <!--ID: 1762184131233-->
+
 END
 
 ---
@@ -110,6 +112,7 @@ Nahoře je důležitější než dole, vlevo je důležitější než vpravo.
 
 Podle tohohle se to z desktopu nahází na mobil.
 <!--ID: 1762184131237-->
+
 END
 
 ---
@@ -139,6 +142,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131240-->
+
 END
 
 ---
@@ -169,6 +173,7 @@ Různé způsoby přeorganizování menu na jiných zařízeních:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131243-->
+
 END
 
 ---
@@ -184,6 +189,7 @@ Back:
 
 Když těch možností je třeba 4-5 max. Když jich je víc, tak to je na nic, protože ten uživatel si už nebude pamatovat, co je co.
 <!--ID: 1762184131246-->
+
 END
 
 ---
@@ -203,6 +209,7 @@ Back:
 
 **Nevýhoda**: je to hůř přístupný, blbě se na to kliká. Lepší je udělat normální dropdown.
 <!--ID: 1762184131249-->
+
 END
 
 ---
@@ -220,6 +227,7 @@ Protože to uživateli "vygumuje mozek", když přechází mezi sekcemi.
 
 ![](../../Assets/Pasted%20image%2020251026164002.png)
 <!--ID: 1762184131252-->
+
 END
 
 ---
@@ -235,6 +243,7 @@ Back:
 
 Typicky ne, protože to zbytečně mate mozek uživatele a není to příjemný, co se týče UX.
 <!--ID: 1762184131255-->
+
 END
 
 ---
@@ -255,6 +264,7 @@ Back:
 ![](../../Assets/Pasted%20image%2020251026170023.png)
 ![](../../Assets/Pasted%20image%2020251026170035.png)
 <!--ID: 1762184131259-->
+
 END
 
 ---

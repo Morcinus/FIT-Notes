@@ -4,7 +4,7 @@ title: "Mezinárodní obchod"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska03 status-toReview
 
 START

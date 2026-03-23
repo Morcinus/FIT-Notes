@@ -375,7 +375,9 @@
           "sames",
           "nexts",
           "prevs"
-        ]
+        ],
+        "lock_view": false,
+        "lock_path": ""
       },
       "tree": {
         "collapse": false,
@@ -392,7 +394,9 @@
           "ext": false,
           "folder": false,
           "alias": false
-        }
+        },
+        "lock_view": false,
+        "lock_path": ""
       }
     },
     "codeblocks": {
@@ -431,7 +435,9 @@
     },
     "freeze_implied_edges": {
       "default_options": {
-        "destination": "frontmatter"
+        "destination": "frontmatter",
+        "included_fields": [],
+        "use_alias": true
       }
     },
     "thread": {

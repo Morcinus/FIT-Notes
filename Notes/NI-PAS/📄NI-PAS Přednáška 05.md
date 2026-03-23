@@ -6,7 +6,7 @@ up: "[[📖NI-PAS]]"
 
 ## Přeprava a přepravní dokumenty
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska05 status-toReview
 
 START

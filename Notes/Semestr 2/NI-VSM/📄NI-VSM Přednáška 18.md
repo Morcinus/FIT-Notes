@@ -4,9 +4,8 @@ title: "Konstrukce řetězců se spojitým časem"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska18 status-toReview green
-
 
 START
 FIT-Card

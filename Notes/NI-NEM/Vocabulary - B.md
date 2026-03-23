@@ -4,9 +4,8 @@ title: "Vocabulary - B"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM-Vocabulary
+TARGET DECK: archive
 FILE TAGS: NI-NEM-Vocabulary
-
 
 ## Vocabulary
 
@@ -346,6 +345,7 @@ beginnen
 
 Tags: lesson1
 <!--ID: 1762184315742-->
+
 END
 
 ---

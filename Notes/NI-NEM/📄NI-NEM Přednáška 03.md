@@ -4,9 +4,8 @@ title: "Terminen"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM lesson03 status-toReview
-
 
 ## Vocabulary
 
@@ -102,6 +101,7 @@ Back:
 
 anrufen
 <!--ID: 1762184315700-->
+
 END
 
 ---
@@ -117,6 +117,7 @@ Back:
 
 aufstehen
 <!--ID: 1762184315703-->
+
 END
 
 ---
@@ -132,6 +133,7 @@ Back:
 
 zuordnen
 <!--ID: 1762184315706-->
+
 END
 
 ---
@@ -147,6 +149,7 @@ Back:
 
 einkaufen
 <!--ID: 1762184315709-->
+
 END
 
 ---

@@ -4,9 +4,8 @@ title: "Opakování AM1"
 up: "[[📖NI-AM2]]"
 ---
 
-TARGET DECK: NI-AM2
+TARGET DECK: archive
 FILE TAGS: NI-AM2 exam status-toReview
-
 
 START
 FIT-Card

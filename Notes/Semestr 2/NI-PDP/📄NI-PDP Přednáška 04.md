@@ -4,9 +4,8 @@ title: "High performance OpenMP"
 up: "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska04 status-toReview
-
 
 START
 FIT-Card

@@ -4,9 +4,8 @@ title: "Úvod do MPI"
 up: "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska06 status-toReview
-
 
 START
 FIT-Card

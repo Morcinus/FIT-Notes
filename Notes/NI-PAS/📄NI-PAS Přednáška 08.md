@@ -4,7 +4,7 @@ title: "Softwarové smlouvy"
 up: "[[📖NI-PAS]]"
 ---
 
-TARGET DECK: NI-PAS
+TARGET DECK: archive
 FILE TAGS: NI-PAS prednaska08 status-toReview
 
 START

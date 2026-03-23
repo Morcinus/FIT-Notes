@@ -4,9 +4,8 @@ title: "Project Walkthrough"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska10 status-toReview
-
 
 START
 FIT-Card

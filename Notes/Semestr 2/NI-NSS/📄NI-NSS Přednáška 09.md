@@ -4,9 +4,8 @@ title: "On the Realization of Meta-Circular Expansion"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska09 status-toReview
-
 
 START
 FIT-Card

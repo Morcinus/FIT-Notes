@@ -4,7 +4,7 @@ title: "Příprava ke zkoušce"
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR-Exam
+TARGET DECK: archive
 FILE TAGS: NI-NUR-Exam
 
 START

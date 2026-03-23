@@ -5,9 +5,8 @@ up:
   - "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska10 status-toReview
-
 
 START
 FIT-Card
@@ -22,6 +21,7 @@ Typicky nám z testu vyjde nějaká **míra** použitelnosti
 
 ![](../../Assets/Pasted%20image%2020251029164241.png)
 <!--ID: 1762184130953-->
+
 END
 
 ---
@@ -37,6 +37,7 @@ Back:
 
 Až na konci. Je to hlavně z časových důvodů.
 <!--ID: 1762184130957-->
+
 END
 
 ---
@@ -51,8 +52,8 @@ Jak vypadá testování jednotlivců?
 Back:
 
 - Lidi nahlas popisují, co dělají a co se jim honí hlavou
-<!--ID: 1762184130961-->
-END
+  <!--ID: 1762184130961-->
+  END
 
 ---
 
@@ -75,6 +76,7 @@ Back:
 
 <!-- ImageEnd -->
 <!--ID: 1762184130965-->
+
 END
 
 ---
@@ -100,6 +102,7 @@ Tzn. ty lidi třeba začnou diskutovat, že se jim něco nelíbí a že by to po
 
 <!-- ImageEnd -->
 <!--ID: 1762184130968-->
+
 END
 
 ---
@@ -123,6 +126,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184130971-->
+
 END
 
 ---
@@ -138,6 +142,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251029175511.png)
 <!--ID: 1762184130975-->
+
 END
 
 ---
@@ -153,6 +158,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251029175525.png)
 <!--ID: 1762184130978-->
+
 END
 
 ---
@@ -168,6 +174,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251029175542.png)
 <!--ID: 1762184130981-->
+
 END
 
 ---

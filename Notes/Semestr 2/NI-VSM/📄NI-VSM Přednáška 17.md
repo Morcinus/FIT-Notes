@@ -4,9 +4,8 @@ title: "Markovské řetězce se spojitým časem"
 up: "[[📖NI-VSM]]"
 ---
 
-TARGET DECK: NI-VSM
+TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska17 status-toReview green
-
 
 START
 FIT-Card

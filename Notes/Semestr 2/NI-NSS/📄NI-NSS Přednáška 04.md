@@ -4,9 +4,8 @@ title: "Design Cycle"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska04 status-toReview
-
 
 START
 FIT-Card

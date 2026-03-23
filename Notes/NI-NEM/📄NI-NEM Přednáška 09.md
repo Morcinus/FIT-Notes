@@ -4,7 +4,7 @@ title: "Berufe"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM prednaska09 status-toReview
 
 ### Modalverben
@@ -23,8 +23,8 @@ FILE TAGS: NI-NEM prednaska09 status-toReview
 | Du        | kannst | Ihr | könnt  |
 | Er/sie/es | kann   | sie | können |
 
-
 Další slova:
+
 - **kennen** - znát
 - **studieren** - studovat obecně školu
 - **lernen** - učit se (na zkoušku atd.)
@@ -32,6 +32,7 @@ Další slova:
 ### Přivlastňovací zájmena
 
 **První pád:** (nominativ)
+
 - **ich** -> mein, meine
 - **du** -> dein, deine
 - **er** -> sein, seine
@@ -43,6 +44,7 @@ Další slova:
 - **Sie** -> Ihr, Ihre
 
 **Čtvrtý pád:** (akkusativ)
+
 - **ich** -> mein, meine, meinen
 - **du** -> dein, deine, deinen
 - **er** -> sein, seine, seinen
@@ -54,6 +56,7 @@ Další slova:
 - **Sie** -> Ihr, Ihre, Ihren
 
 ### Vokablen
+
 - e Tasche
 - e Uhr
 - s Geld
@@ -91,6 +94,7 @@ Back:
 
 können
 <!--ID: 1765204625764-->
+
 END
 
 ---
@@ -106,6 +110,7 @@ Back:
 
 müssen
 <!--ID: 1765204625767-->
+
 END
 
 ---
@@ -121,6 +126,7 @@ Back:
 
 Was kannst du machen?
 <!--ID: 1765204625769-->
+
 END
 
 ---
@@ -136,6 +142,7 @@ Back:
 
 ich muss
 <!--ID: 1765204625772-->
+
 END
 
 ---
@@ -151,6 +158,7 @@ Back:
 
 du musst
 <!--ID: 1765204625775-->
+
 END
 
 ---
@@ -166,6 +174,7 @@ Back:
 
 er/sie/es muss
 <!--ID: 1765204625778-->
+
 END
 
 ---
@@ -181,6 +190,7 @@ Back:
 
 wir müssen
 <!--ID: 1765204625781-->
+
 END
 
 ---
@@ -196,6 +206,7 @@ Back:
 
 ihr müsst
 <!--ID: 1765204625784-->
+
 END
 
 ---
@@ -211,6 +222,7 @@ Back:
 
 sie/Sie müssen
 <!--ID: 1765204625787-->
+
 END
 
 ---
@@ -226,6 +238,7 @@ Back:
 
 ich kann
 <!--ID: 1765204625789-->
+
 END
 
 ---
@@ -241,6 +254,7 @@ Back:
 
 du kannst
 <!--ID: 1765204625792-->
+
 END
 
 ---
@@ -256,6 +270,7 @@ Back:
 
 er/sie/es kann
 <!--ID: 1765204625795-->
+
 END
 
 ---
@@ -271,6 +286,7 @@ Back:
 
 wir können
 <!--ID: 1765204625797-->
+
 END
 
 ---
@@ -286,6 +302,7 @@ Back:
 
 ihr könnt
 <!--ID: 1765204625800-->
+
 END
 
 ---
@@ -301,6 +318,7 @@ Back:
 
 sie/Sie können
 <!--ID: 1765204625806-->
+
 END
 
 ---
@@ -316,6 +334,7 @@ Back:
 
 kennen
 <!--ID: 1765204625811-->
+
 END
 
 ---
@@ -331,6 +350,7 @@ Back:
 
 studieren
 <!--ID: 1765204625814-->
+
 END
 
 ---
@@ -346,6 +366,7 @@ Back:
 
 lernen
 <!--ID: 1765204625817-->
+
 END
 
 ---
@@ -360,8 +381,8 @@ mein / meine – která osoba a pád?
 Back:
 
 1. pád, ich
-<!--ID: 1765204625820-->
-END
+   <!--ID: 1765204625820-->
+   END
 
 ---
 
@@ -375,8 +396,8 @@ dein / deine – která osoba?
 Back:
 
 1. pád, du
-<!--ID: 1765204625823-->
-END
+   <!--ID: 1765204625823-->
+   END
 
 ---
 
@@ -390,8 +411,8 @@ sein / seine – která osoba?
 Back:
 
 1. pád, er nebo es
-<!--ID: 1765204625826-->
-END
+   <!--ID: 1765204625826-->
+   END
 
 ---
 
@@ -405,8 +426,8 @@ ihr / ihre – která osoba?
 Back:
 
 1. pád, sie (ona) nebo sie (oni)
-<!--ID: 1765204625829-->
-END
+   <!--ID: 1765204625829-->
+   END
 
 ---
 
@@ -420,8 +441,8 @@ unser / unsere – která osoba?
 Back:
 
 1. pád, wir
-<!--ID: 1765204625831-->
-END
+   <!--ID: 1765204625831-->
+   END
 
 ---
 
@@ -435,8 +456,8 @@ euer / eure – která osoba?
 Back:
 
 1. pád, ihr
-<!--ID: 1765204625834-->
-END
+   <!--ID: 1765204625834-->
+   END
 
 ---
 
@@ -450,11 +471,10 @@ Ihr / Ihre – která osoba?
 Back:
 
 1. pád, Sie (vykání)
-<!--ID: 1765204625837-->
-END
+   <!--ID: 1765204625837-->
+   END
 
 ---
-
 
 START
 FIT-Card
@@ -467,6 +487,7 @@ Back:
 
 mein Auto
 <!--ID: 1765204625839-->
+
 END
 
 ---
@@ -482,6 +503,7 @@ Back:
 
 meine Lampe
 <!--ID: 1765204625842-->
+
 END
 
 ---
@@ -497,6 +519,7 @@ Back:
 
 meinen Tisch
 <!--ID: 1765204625844-->
+
 END
 
 ---
@@ -512,6 +535,7 @@ Back:
 
 dein Auto
 <!--ID: 1765204625847-->
+
 END
 
 ---
@@ -527,6 +551,7 @@ Back:
 
 deine Lampe
 <!--ID: 1765204625850-->
+
 END
 
 ---
@@ -542,6 +567,7 @@ Back:
 
 deinen Tisch
 <!--ID: 1765204625853-->
+
 END
 
 ---
@@ -557,6 +583,7 @@ Back:
 
 sein Auto
 <!--ID: 1765204625856-->
+
 END
 
 ---
@@ -572,6 +599,7 @@ Back:
 
 seine Lampe
 <!--ID: 1765204625859-->
+
 END
 
 ---
@@ -587,6 +615,7 @@ Back:
 
 seinen Tisch
 <!--ID: 1765204625862-->
+
 END
 
 ---
@@ -602,6 +631,7 @@ Back:
 
 ihr Auto
 <!--ID: 1765204625865-->
+
 END
 
 ---
@@ -617,6 +647,7 @@ Back:
 
 ihre Lampe
 <!--ID: 1765204625868-->
+
 END
 
 ---
@@ -632,6 +663,7 @@ Back:
 
 ihren Tisch
 <!--ID: 1765204625871-->
+
 END
 
 ---
@@ -647,6 +679,7 @@ Back:
 
 unser Auto
 <!--ID: 1765204625874-->
+
 END
 
 ---
@@ -662,6 +695,7 @@ Back:
 
 unsere Lampe
 <!--ID: 1765204625877-->
+
 END
 
 ---
@@ -677,6 +711,7 @@ Back:
 
 unseren Tisch
 <!--ID: 1765204625880-->
+
 END
 
 ---
@@ -692,6 +727,7 @@ Back:
 
 euer Auto
 <!--ID: 1765204625883-->
+
 END
 
 ---
@@ -707,6 +743,7 @@ Back:
 
 eure Lampe
 <!--ID: 1765204625886-->
+
 END
 
 ---
@@ -722,6 +759,7 @@ Back:
 
 euren Tisch
 <!--ID: 1765204625889-->
+
 END
 
 ---
@@ -737,6 +775,7 @@ Back:
 
 Ihr Auto
 <!--ID: 1765204625892-->
+
 END
 
 ---
@@ -752,6 +791,7 @@ Back:
 
 Ihre Lampe
 <!--ID: 1765204625895-->
+
 END
 
 ---
@@ -767,6 +807,7 @@ Back:
 
 Ihren Tisch
 <!--ID: 1765204625898-->
+
 END
 
 ---
@@ -782,6 +823,7 @@ Back:
 
 die Tasche
 <!--ID: 1765204625902-->
+
 END
 
 ---
@@ -797,6 +839,7 @@ Back:
 
 die Uhr
 <!--ID: 1765204625904-->
+
 END
 
 ---
@@ -812,6 +855,7 @@ Back:
 
 das Geld
 <!--ID: 1765204625907-->
+
 END
 
 ---
@@ -827,6 +871,7 @@ Back:
 
 die Zeitung
 <!--ID: 1765204625911-->
+
 END
 
 ---
@@ -842,6 +887,7 @@ Back:
 
 der Schlüssel
 <!--ID: 1765204625913-->
+
 END
 
 ---
@@ -857,6 +903,7 @@ Back:
 
 die Gitarre
 <!--ID: 1765204625916-->
+
 END
 
 ---
@@ -872,6 +919,7 @@ Back:
 
 der Kuli
 <!--ID: 1765204625919-->
+
 END
 
 ---
@@ -887,6 +935,7 @@ Back:
 
 die Lampe
 <!--ID: 1765204625922-->
+
 END
 
 ---
@@ -902,6 +951,7 @@ Back:
 
 das Sofa
 <!--ID: 1765204625925-->
+
 END
 
 ---
@@ -917,6 +967,7 @@ Back:
 
 das Wörterbuch
 <!--ID: 1765204625928-->
+
 END
 
 ---
@@ -932,6 +983,7 @@ Back:
 
 der Tisch
 <!--ID: 1765204625931-->
+
 END
 
 ---
@@ -947,6 +999,7 @@ Back:
 
 das Handy
 <!--ID: 1765204625934-->
+
 END
 
 ---
@@ -962,6 +1015,7 @@ Back:
 
 der CD-Player
 <!--ID: 1765204625937-->
+
 END
 
 ---
@@ -977,6 +1031,7 @@ Back:
 
 die Vase
 <!--ID: 1765204625940-->
+
 END
 
 ---
@@ -992,6 +1047,7 @@ Back:
 
 die Tasse
 <!--ID: 1765204625943-->
+
 END
 
 ---
@@ -1007,6 +1063,7 @@ Back:
 
 das Fenster
 <!--ID: 1765204625946-->
+
 END
 
 ---
@@ -1022,6 +1079,7 @@ Back:
 
 die Tür
 <!--ID: 1765204625949-->
+
 END
 
 ---
@@ -1037,6 +1095,7 @@ Back:
 
 das Bücherregal
 <!--ID: 1765204625952-->
+
 END
 
 ---
@@ -1052,6 +1111,7 @@ Back:
 
 der Fernseher
 <!--ID: 1765204625954-->
+
 END
 
 ---
@@ -1067,6 +1127,7 @@ Back:
 
 der Radiergummi
 <!--ID: 1765204625957-->
+
 END
 
 ---
@@ -1082,6 +1143,7 @@ Back:
 
 der Ball
 <!--ID: 1765204625960-->
+
 END
 
 ---
@@ -1097,6 +1159,7 @@ Back:
 
 der Stuhl
 <!--ID: 1765204625962-->
+
 END
 
 ---
@@ -1112,6 +1175,7 @@ Back:
 
 das Fahrrad
 <!--ID: 1765204625965-->
+
 END
 
 ---

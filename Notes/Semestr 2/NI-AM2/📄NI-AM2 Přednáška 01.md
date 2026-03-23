@@ -4,9 +4,8 @@ title: "Motivace"
 up: "[[📖NI-AM2]]"
 ---
 
-TARGET DECK: NI-AM2
+TARGET DECK: archive
 FILE TAGS: NI-AM2 prednaska01 status-toReview
-
 
 fit-workspaces.ksi.fit.cvut.cz
 
@@ -48,8 +47,8 @@ Např.
 - Systémové služby - použiju Golang
 - Machine learning - použiju Python
 - GUI - použiju javascript
-  <!-- DetailInfoEnd -->
-<!--ID: 1746519416395-->
+    <!-- DetailInfoEnd -->
+  <!--ID: 1746519416395-->
 
 END
 

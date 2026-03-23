@@ -4,9 +4,8 @@ title: Human Factors and Colors
 up: "[[📖NI-NUR]]"
 ---
 
-TARGET DECK: NI-NUR
+TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska06 status-toReview
-
 
 START
 FIT-Card
@@ -21,8 +20,8 @@ Back:
 2. **Working memory** - krátkodobá pracovní paměť
    - Např. když řídíme auto, tak se to všechno řeší v pracovní paměti
 3. **Long term memory** - tam si uchováváme data
-<!--ID: 1762184131262-->
-END
+   <!--ID: 1762184131262-->
+   END
 
 ---
 
@@ -37,8 +36,8 @@ Back:
 
 - **4 chunky** (+-1)
 - Chunk je jednoduchý znak nebo číslo nebo i komplexní abstrakce a obrázky
-<!--ID: 1762184131265-->
-END
+  <!--ID: 1762184131265-->
+  END
 
 ---
 
@@ -53,6 +52,7 @@ Back:
 
 **Ne**! (Resp. žejo fyzicky musí být, ale pojme extrémní množství informací a zatím se nepodařilo ten limit najít.)
 <!--ID: 1762184131268-->
+
 END
 
 ---
@@ -81,6 +81,7 @@ Vysvětlení:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131272-->
+
 END
 
 ---
@@ -96,8 +97,8 @@ Back:
 
 - Měli bychom komponenty dávat na místa, aby člověk nemusel moc "přejíždět myší"
 - Měli bychom dělat komponenty dostatečně výrazné
-<!--ID: 1762184131275-->
-END
+  <!--ID: 1762184131275-->
+  END
 
 ---
 
@@ -120,6 +121,7 @@ Proto se:
 
 Např. představ si Word nebo Photoshop (komplikovaný UI) - tam to je nejlépe vidět tyto principy
 <!--ID: 1762184131279-->
+
 END
 
 ---
@@ -139,6 +141,7 @@ Reaction Time = Movement Time + log2(n) / Processing Speed
 
 n je nejspíš ten počet variant
 <!--ID: 1762184131282-->
+
 END
 
 ---
@@ -158,6 +161,7 @@ Na jedné stránce nebo na jednom místě bychom měli mít co nejméně variant
 
 Např. když dělám dlouhý formulář, je lepší to splitnout do mnoha stránek, než to mít vše na jedné stránce
 <!--ID: 1762184131285-->
+
 END
 
 ---
@@ -176,6 +180,7 @@ Back:
 
 Muži a ženy ale vidí barvy stejně, jen to ten mozek víc u mužů ignoruje.
 <!--ID: 1762184131288-->
+
 END
 
 ---
@@ -200,6 +205,7 @@ Back:
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131292-->
+
 END
 
 ---
@@ -217,6 +223,7 @@ Místo na sítnici, kde je největší hustota světlocitlivých buňek, je tam 
 
 ![](../../Assets/Pasted%20image%2020251026140902.png)
 <!--ID: 1762184131295-->
+
 END
 
 ---
@@ -237,6 +244,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251026141109.png)
 <!--ID: 1762184131298-->
+
 END
 
 ---
@@ -254,6 +262,7 @@ Zelené - protože to má nejvyšší intenzitu, tak jsme schopni ji nejlépe ro
 
 ![](../../Assets/Pasted%20image%2020251026141109.png)
 <!--ID: 1762184131301-->
+
 END
 
 ---
@@ -269,6 +278,7 @@ Back:
 
 Protože při vnímání té barvy je to oko méně "napnuté", takže to vyloženě fyziologicky namáhá to oko jinak.
 <!--ID: 1762184131304-->
+
 END
 
 ---
@@ -284,6 +294,7 @@ Back:
 
 Když se spojí modrá a červená (např. červená na modrým pozadí), tak stroj to přečte perfektně, protože jsou ty vlnové délky daleko od sebe, ale lidské oko to nedává, protože na to neumí zaostřit (protože ty vlnové délky jsou moc daleko od sebe a neví na jakou se přizpůsobit)
 <!--ID: 1762184131307-->
+
 END
 
 ---
@@ -313,6 +324,7 @@ Fun fact: je to u hvězd - červené mají málo energie, modré mají hodně en
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131310-->
+
 END
 
 ---
@@ -331,6 +343,7 @@ Back:
 
 ![](../../Assets/Pasted%20image%2020251026145337.png)
 <!--ID: 1762184131313-->
+
 END
 
 ---
@@ -350,6 +363,7 @@ Např. k modrý je komplementární žlutá
 
 ![](../../Assets/Pasted%20image%2020251026150708.png)
 <!--ID: 1762184131316-->
+
 END
 
 ---
@@ -365,6 +379,7 @@ Back:
 
 Splácáme všechny dohromady
 <!--ID: 1762184131319-->
+
 END
 
 ---
@@ -392,6 +407,7 @@ Jakoby to ředíme bílou
 
 <!-- DetailInfoEnd -->
 <!--ID: 1762184131322-->
+
 END
 
 ---
@@ -413,6 +429,7 @@ Kombinuje **Hue, Saturation a Value**:
 
 ![](../../Assets/Pasted%20image%2020251026150418.png)
 <!--ID: 1762184131325-->
+
 END
 
 ---
@@ -428,6 +445,7 @@ Back:
 
 Jsou prostě ve společnosti nějak používány a lidé si s tím přirozeně asociují určité vlastnosti, takže to je dost důležitý.
 <!--ID: 1762184131328-->
+
 END
 
 ---
@@ -443,8 +461,8 @@ Back:
 
 - autorita, síla, elegance, formalita, smrt, strach
 - může mít často negativní význam
-<!--ID: 1762184131331-->
-END
+  <!--ID: 1762184131331-->
+  END
 
 ---
 
@@ -461,6 +479,7 @@ Back:
 
 Pozor, v Indii to je ale třeba barva smutku
 <!--ID: 1762184131335-->
+
 END
 
 ---
@@ -484,6 +503,7 @@ Tip: s červenou je dobré hodně šetřit, stačí jí málo v designu
 
 Fun fact: ženy oblečené do červeného jsou podle Pavlíčka atraktivnější :D čistě z toho psychologického hlediska
 <!--ID: 1762184131338-->
+
 END
 
 ---
@@ -502,6 +522,7 @@ Back:
 
 Je dobrá jako **doplňková barva** v designech.
 <!--ID: 1762184131341-->
+
 END
 
 ---
@@ -517,7 +538,7 @@ Back:
 
 - **důvěra, diskrétnost, inteligence, přesnost**
 - **uklidňující, vypadá cool** (proto to používají hodně technologické společnosti)
-<!--ID: 1762184131345-->
-END
+  <!--ID: 1762184131345-->
+  END
 
 ---

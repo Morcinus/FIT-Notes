@@ -4,11 +4,11 @@ title: "Vocabulary - L"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM-Vocabulary
+TARGET DECK: archive
 FILE TAGS: NI-NEM-Vocabulary
 
-
 ## Vocabulary
+
 - die Lage,-n 3
 - die Lampe,-n 2
 - das Land,-"er 1
@@ -56,6 +56,7 @@ die Lage,-n
 
 Tags: lesson3
 <!--ID: 1762187694604-->
+
 END
 
 ---
@@ -71,6 +72,7 @@ die Lampe,-n
 
 Tags: lesson2
 <!--ID: 1758825179510-->
+
 END
 
 ---
@@ -86,6 +88,7 @@ das Land,-"er
 
 Tags: lesson1
 <!--ID: 1758825179513-->
+
 END
 
 ---
@@ -101,6 +104,7 @@ der Ländername,-n
 
 Tags: lesson3
 <!--ID: 1758825179515-->
+
 END
 
 ---
@@ -116,6 +120,7 @@ die Landeskunde,-
 
 Tags: lesson1
 <!--ID: 1758825179518-->
+
 END
 
 ---
@@ -131,6 +136,7 @@ die Landkarte,-n
 
 Tags: lesson3
 <!--ID: 1758825179521-->
+
 END
 
 ---
@@ -146,6 +152,7 @@ lang, länger, am längsten
 
 Tags: lesson4
 <!--ID: 1758825179524-->
+
 END
 
 ---
@@ -161,6 +168,7 @@ langsam
 
 Tags: lesson2
 <!--ID: 1758825179527-->
+
 END
 
 ---
@@ -176,6 +184,7 @@ das Lärmen
 
 Tags: lesson4
 <!--ID: 1758825179529-->
+
 END
 
 ---
@@ -191,6 +200,7 @@ laut
 
 Tags: lesson1
 <!--ID: 1758825179532-->
+
 END
 
 ---
@@ -206,6 +216,7 @@ leben
 
 Tags: lesson4
 <!--ID: 1758825179535-->
+
 END
 
 ---
@@ -221,6 +232,7 @@ das Lehrbuch,-"er
 
 Tags: lesson1
 <!--ID: 1758825179538-->
+
 END
 
 ---
@@ -236,6 +248,7 @@ der Lehrer,-
 
 Tags: lesson2
 <!--ID: 1758825179540-->
+
 END
 
 ---
@@ -251,6 +264,7 @@ die Lehrerin,-nen
 
 Tags: lesson2
 <!--ID: 1758825179543-->
+
 END
 
 ---
@@ -266,6 +280,7 @@ Leid tun (etw. jdm)
 
 Tags: lesson5
 <!--ID: 1758825179546-->
+
 END
 
 ---
@@ -281,6 +296,7 @@ leise
 
 Tags: lesson4
 <!--ID: 1758825179549-->
+
 END
 
 ---
@@ -296,6 +312,7 @@ lernen
 
 Tags: lesson1
 <!--ID: 1758825179552-->
+
 END
 
 ---
@@ -311,6 +328,7 @@ die Lernkartei,-en
 
 Tags: lesson4
 <!--ID: 1758825179555-->
+
 END
 
 ---
@@ -326,6 +344,7 @@ das Lernplakat,-e
 
 Tags: lesson2
 <!--ID: 1758825179557-->
+
 END
 
 ---
@@ -341,6 +360,7 @@ lesen
 
 Tags: lesson2
 <!--ID: 1758825179560-->
+
 END
 
 ---
@@ -356,6 +376,7 @@ das Letzeburgisch
 
 Tags: lesson3
 <!--ID: 1758825179563-->
+
 END
 
 ---
@@ -371,6 +392,7 @@ Leute
 
 Tags: lesson1
 <!--ID: 1758825179567-->
+
 END
 
 ---
@@ -386,6 +408,7 @@ Lieber (Andrede im Brief)
 
 Tags: lesson4
 <!--ID: 1758825179573-->
+
 END
 
 ---
@@ -401,6 +424,7 @@ Liebe (Andrede im Brief)
 
 Tags: lesson4
 <!--ID: 1758825179577-->
+
 END
 
 ---
@@ -416,6 +440,7 @@ lieben
 
 Tags: lesson2
 <!--ID: 1758825179580-->
+
 END
 
 ---
@@ -431,6 +456,7 @@ liegen (das liegt in Südosten von)
 
 Tags: lesson3
 <!--ID: 1758825179583-->
+
 END
 
 ---
@@ -446,6 +472,7 @@ liegen
 
 Tags: lesson6
 <!--ID: 1758825179585-->
+
 END
 
 ---
@@ -461,6 +488,7 @@ die Liste,-n
 
 Tags: lesson2
 <!--ID: 1758825179588-->
+
 END
 
 ---
@@ -476,6 +504,7 @@ die Losnummer,-n
 
 Tags: lesson1
 <!--ID: 1758825179591-->
+
 END
 
 ---
@@ -491,6 +520,7 @@ Lottozahlen
 
 Tags: lesson0
 <!--ID: 1762187694608-->
+
 END
 
 ---
@@ -506,6 +536,7 @@ das Lösuingswort,-er
 
 Tags: lesson4
 <!--ID: 1758825179594-->
+
 END
 
 ---
@@ -521,6 +552,7 @@ der Löwe,-n
 
 Tags: lesson2
 <!--ID: 1758825179597-->
+
 END
 
 ---
@@ -536,6 +568,7 @@ lyrisch
 
 Tags: lesson5
 <!--ID: 1758825179600-->
+
 END
 
 ---

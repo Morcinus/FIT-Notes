@@ -4,9 +4,8 @@ title: "Exam"
 up: "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS exam status-toReview
-
 
 START
 FIT-Card

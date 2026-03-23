@@ -4,9 +4,8 @@ title: "Kubernetes"
 up: "[[📖NI-AM2]]"
 ---
 
-TARGET DECK: NI-AM2
+TARGET DECK: archive
 FILE TAGS: NI-AM2 prednaska12 status-toReview
-
 
 START
 FIT-Card
@@ -23,8 +22,8 @@ Back:
 - Storage orchestration
 - Self-healing
 - Service discovery and load balancing
-<!--ID: 1762185919409-->
-END
+  <!--ID: 1762185919409-->
+  END
 
 ---
 

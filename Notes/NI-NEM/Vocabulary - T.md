@@ -4,9 +4,8 @@ title: "Vocabulary - T"
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM-Vocabulary
+TARGET DECK: archive
 FILE TAGS: NI-NEM-Vocabulary
-
 
 ## Vocabulary
 
@@ -762,6 +761,7 @@ der Transport,-e
 
 Tags: lesson3
 <!--ID: 1762184315719-->
+
 END
 
 ---

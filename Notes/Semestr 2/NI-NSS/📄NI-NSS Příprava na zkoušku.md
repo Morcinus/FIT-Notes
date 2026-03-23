@@ -4,15 +4,13 @@ title: "Příprava na zkoušku"
 up: "[[📖NI-NSS]]"
 ---
 
-TARGET DECK: NI-NSS
+TARGET DECK: archive
 FILE TAGS: NI-NSS exam status-toReview
-
 
 - [20. 5. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-nss/nss_test_ls2021 "škola:předměty:mi-nss:nss_test_ls2021")
   - (3) co je **power of circularity**?
 - [27. 5. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-nss/nss_test_ls2021_27_5 "škola:předměty:mi-nss:nss_test_ls2021_27_5")
 - [3. 6. 2021](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-nss/nss_test_ls2021_3_6 "škola:předměty:mi-nss:nss_test_ls2021_3_6")
-
   - (3) **meta-level interface** ???
 
 - [23. 5. 2018](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-nss/nss_test_ls1718 "škola:předměty:mi-nss:nss_test_ls1718")
@@ -39,6 +37,7 @@ FIT-Card
 
 Back:
 <!--ID: 1762185990665-->
+
 END
 
 ---

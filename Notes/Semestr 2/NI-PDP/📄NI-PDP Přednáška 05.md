@@ -4,9 +4,8 @@ title: "Paralelní řazení v OpenMP"
 up: "[[📖NI-PDP]]"
 ---
 
-TARGET DECK: NI-PDP
+TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska05 status-toReview
-
 
 START
 FIT-Card

@@ -4,9 +4,8 @@ title: Orientierung
 up: "[[📖NI-NEM]]"
 ---
 
-TARGET DECK: NI-NEM
+TARGET DECK: archive
 FILE TAGS: NI-NEM prednaska05 status-toReview
-
 
 ## Slovíčka
 
@@ -57,9 +56,9 @@ FILE TAGS: NI-NEM prednaska05 status-toReview
 - **Wo** wohnst du? - Kde bydlíš
   - Používá se 3. pád (im/in der)
   - Ich wohne **in** ...
-	  - .. im Zentrum
-	  - .. in der Hauptstadt
-	  - .. in Prag
+    - .. im Zentrum
+    - .. in der Hauptstadt
+    - .. in Prag
 - **Wo** arbeitest du? - Kde pracuješ?
   - Používá se 3. pád (im/in der)
   - Ich arbeite **bei der** Zeitung
@@ -69,7 +68,7 @@ FILE TAGS: NI-NEM prednaska05 status-toReview
     - **im Krankenhaus**
     - **im Hotel**
     - **in der Bibliothek**
-- Ich studiere **an der Universität**, **an ČVUT**. 
+- Ich studiere **an der Universität**, **an ČVUT**.
 - **Wie** fahrst du ...? - Jak jedeš (např. do práce)
   - Ich fahre + **mit** (a 3. pád):
     - **mit dem** Fahrrad
@@ -136,6 +135,7 @@ Back:
 
 von ... bis ...
 <!--ID: 1762184315713-->
+
 END
 
 ---

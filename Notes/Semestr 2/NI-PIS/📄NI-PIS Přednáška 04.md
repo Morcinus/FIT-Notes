@@ -4,9 +4,8 @@ title: "Data science"
 up: "[[📖NI-PIS]]"
 ---
 
-TARGET DECK: NI-PIS
+TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska04 status-toReview
-
 
 START
 FIT-Card

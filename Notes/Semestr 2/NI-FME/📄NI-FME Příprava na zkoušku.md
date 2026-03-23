@@ -4,9 +4,8 @@ title: "Příprava ke zkoušce"
 up: "[[📖NI-FME]]"
 ---
 
-TARGET DECK: NI-FME-Exam
+TARGET DECK: archive
 FILE TAGS: NI-FME-Exam prednaskaxx status-toReview
-
 
 START
 FIT-Card
