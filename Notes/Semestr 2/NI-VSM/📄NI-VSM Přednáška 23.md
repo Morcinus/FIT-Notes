@@ -1,6 +1,6 @@
 ---
 created: 2025-05-01T16:08:05
-title: "Náhodné procesy"
+title: Náhodné procesy
 up: "[[📖NI-VSM]]"
 ---
 
@@ -161,8 +161,8 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SPOL-09
-Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Exam Note ID: none
+Exam Note Section Name: none
 Migration Status: done
 -->
 

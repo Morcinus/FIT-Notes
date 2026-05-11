@@ -10,7 +10,7 @@ FILE TAGS: NI-VSM prednaska13 status-toReview red
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -40,7 +40,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -68,7 +68,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -101,7 +101,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -123,7 +123,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -145,7 +145,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -169,7 +169,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -191,7 +191,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -213,7 +213,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -237,7 +237,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -267,7 +267,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -303,7 +303,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -325,7 +325,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -347,7 +347,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -375,7 +375,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Markovské řetězce s diskrétním časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

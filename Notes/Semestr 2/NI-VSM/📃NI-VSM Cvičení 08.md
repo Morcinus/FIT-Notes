@@ -9,7 +9,7 @@ FILE TAGS: NI-VSM cviceni08 status-toReview blue
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -31,7 +31,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -53,7 +53,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

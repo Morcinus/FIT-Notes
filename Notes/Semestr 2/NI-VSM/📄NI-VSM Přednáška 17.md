@@ -10,7 +10,7 @@ FILE TAGS: NI-VSM prednaska17 status-toReview green
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -42,7 +42,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -72,7 +72,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -100,7 +100,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -123,7 +123,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -156,7 +156,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -198,7 +198,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -223,7 +223,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -246,7 +246,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -269,7 +269,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -292,7 +292,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -315,7 +315,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -338,7 +338,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -361,7 +361,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -385,7 +385,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -408,7 +408,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -431,7 +431,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -461,7 +461,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -506,7 +506,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -531,7 +531,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

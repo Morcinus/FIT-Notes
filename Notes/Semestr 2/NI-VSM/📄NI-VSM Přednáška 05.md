@@ -11,7 +11,7 @@ FILE TAGS: NI-VSM prednaska05 status-toReview yellow
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -47,7 +47,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -71,7 +71,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -103,7 +103,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -125,7 +125,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -153,7 +153,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -181,7 +181,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -211,7 +211,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -242,7 +242,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -272,7 +272,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -295,7 +295,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -318,7 +318,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -341,7 +341,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -364,7 +364,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

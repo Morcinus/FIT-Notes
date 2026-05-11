@@ -10,7 +10,7 @@ FILE TAGS: NI-VSM prednaska18 status-toReview green
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -32,7 +32,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -54,7 +54,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

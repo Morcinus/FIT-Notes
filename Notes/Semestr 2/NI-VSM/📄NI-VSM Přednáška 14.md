@@ -10,7 +10,7 @@ FILE TAGS: NI-VSM prednaska14 status-toReview red
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -44,7 +44,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -78,7 +78,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -106,7 +106,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -128,7 +128,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -150,7 +150,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -172,7 +172,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -204,7 +204,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -226,7 +226,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -248,7 +248,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-08
 Exam Note Section Name: Jejich limitní vlastnosti
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

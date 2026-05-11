@@ -9,7 +9,7 @@ FILE TAGS: NI-VSM cviceni06 status-toReview blue
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -41,7 +41,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -67,7 +67,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -89,7 +89,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
-Migration Status: done
+Migration Status: migrate
 -->
 
 START

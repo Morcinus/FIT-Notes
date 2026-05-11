@@ -10,7 +10,7 @@ FILE TAGS: NI-VSM prednaska09 status-toReview blue
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -36,7 +36,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -60,7 +60,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -86,7 +86,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -111,7 +111,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -133,7 +133,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -167,7 +167,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -201,7 +201,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -224,7 +224,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -246,7 +246,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -269,7 +269,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
@@ -292,7 +292,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-06
 Exam Note Section Name: Testování statistických hypotéz
-Migration Status: done
+Migration Status: migrate
 -->
 
 START
