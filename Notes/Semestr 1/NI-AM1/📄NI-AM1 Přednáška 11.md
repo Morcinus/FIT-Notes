@@ -270,6 +270,8 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
+
+
 Co je model **synchronní IO**? Jaké **2 typy connnections** existují?
 
 Back:
@@ -282,7 +284,7 @@ Komunikace probíhá synchronně:
 V dnešní době se to dělá následovně:
 
 - Systém dostane request, pošle query do databáze.
-- Na úrovni mezi aplikační vrstvou a databází je synchronní připojení. Jedna funkce requestu 1 přistupuje do databáze, ostatní funkce do přistupují do databáze čekají.
+- Na úrovni mezi aplikační vrstvou a databází je synchronní připojení. Jedna funkce requestu 1 přistupuje do databáze, ostatní funkce co přistupují do databáze čekají.
 
 Problém:
 
@@ -310,9 +312,13 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
+
+
 Jak se řeší pomalé synchronní IO?
 
 Back:
+
+Vytvoříme **thread pool**
 
 Když např. nemůžu ovlivnit synchronní přístup do databáze (protože ji spravuje někdo jiný), spočítám si, kolik requestů za sekundu průměrně přijímá můj server.
 
@@ -368,7 +374,9 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak se dá vyřešit to, když mám synchronní přístup do databáze ale ta databáze je pomalá (a my nemáme kontrolu nad tou databází)?
+
+
+Jak se dá vyřešit to, když mám synchronní přístup do databáze ale ta databáze je pomalá (a my nemáme kontrolu nad tou databází) a až moc nám to zahlcuje servery? (Takový worst case scenario)
 
 Back:
 

@@ -57,7 +57,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
 Migration Status: done
 -->
@@ -103,7 +103,7 @@ END
 #### TLS handshake
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
 Migration Status: done
 -->
@@ -328,7 +328,7 @@ END
 ## HTTP v2
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Optimalizace protokolu HTTP (latence, keep-alive, pipelining)
 Migration Status: done
 -->

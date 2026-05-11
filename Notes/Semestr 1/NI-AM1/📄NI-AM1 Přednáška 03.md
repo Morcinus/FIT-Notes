@@ -12,7 +12,7 @@ FILE TAGS: NI-AM1 prednaska03 status-toReview
 ### Softwarové architektury
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -38,7 +38,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -74,7 +74,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -110,7 +110,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -133,7 +133,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -167,7 +167,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -195,7 +195,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -230,7 +230,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -264,7 +264,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -286,7 +286,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -350,7 +350,7 @@ END
 ## Přednáška 03
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -376,7 +376,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -404,7 +404,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -428,7 +428,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -455,7 +455,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -486,7 +486,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -510,7 +510,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -567,7 +567,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -589,7 +589,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -623,7 +623,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -659,7 +659,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -681,7 +681,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -711,7 +711,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -733,7 +733,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -755,7 +755,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -785,7 +785,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -819,7 +819,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -853,7 +853,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -883,7 +883,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->
@@ -919,7 +919,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->

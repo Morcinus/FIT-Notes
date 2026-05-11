@@ -34,7 +34,7 @@ END
 ### REST
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -59,7 +59,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -81,7 +81,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -103,7 +103,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -127,7 +127,7 @@ END
 #### URI
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -154,7 +154,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -190,7 +190,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -221,7 +221,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -249,7 +249,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -277,7 +277,7 @@ END
 ### Reprezentace zdrojů
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -335,7 +335,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -373,7 +373,7 @@ END
 ### Uniform interface
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -396,7 +396,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -443,7 +443,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -480,7 +480,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -511,7 +511,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -547,7 +547,7 @@ END
 #### CRUD operace v RESTu
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -576,7 +576,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -607,7 +607,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -636,7 +636,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -665,7 +665,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -694,7 +694,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -725,7 +725,7 @@ END
 ### Status kódy
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->

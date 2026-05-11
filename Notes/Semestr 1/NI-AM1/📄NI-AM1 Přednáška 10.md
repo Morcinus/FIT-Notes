@@ -33,7 +33,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -768,7 +768,7 @@ END
 ### Richardson Maturity Model
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->
@@ -790,7 +790,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura REST (vlastnosti, zdroj, srovnání se SOAP)
 Migration Status: done
 -->

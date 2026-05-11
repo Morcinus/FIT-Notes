@@ -523,7 +523,7 @@ END
 ### Microservices
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -548,7 +548,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Pojem služba a její charakteristiky
 Migration Status: done
 -->

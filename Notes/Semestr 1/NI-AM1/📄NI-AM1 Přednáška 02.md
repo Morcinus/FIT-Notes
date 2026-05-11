@@ -7,7 +7,7 @@ TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska02 status-toReview
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -120,7 +120,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -140,7 +140,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -166,7 +166,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -195,7 +195,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -224,7 +224,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -253,7 +253,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -282,7 +282,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -385,7 +385,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -682,7 +682,7 @@ END
 #### Softwarová architektura
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
@@ -713,7 +713,7 @@ END
 ---
 
 <!--
-Exam Note ID: NI-SI-9
+Exam Note ID: NI-SI-09
 Exam Note Section Name: Architektura softwarového systému
 Migration Status: done
 -->
