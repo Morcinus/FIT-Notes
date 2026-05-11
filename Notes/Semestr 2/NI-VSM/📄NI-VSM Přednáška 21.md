@@ -10,7 +10,7 @@ FILE TAGS: NI-VSM prednaska21 status-toReview green
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -34,7 +34,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -64,7 +64,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -94,7 +94,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -122,7 +122,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -144,7 +144,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -172,7 +172,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -194,7 +194,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -226,7 +226,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -254,7 +254,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -282,7 +282,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -304,7 +304,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -332,7 +332,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -356,7 +356,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -378,7 +378,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -403,7 +403,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -427,7 +427,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -464,7 +464,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

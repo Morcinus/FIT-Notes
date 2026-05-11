@@ -11,7 +11,7 @@ FILE TAGS: NI-VSM prednaska20 status-toReview green
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -37,7 +37,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -59,7 +59,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -97,7 +97,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -125,7 +125,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -160,7 +160,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -182,7 +182,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -204,7 +204,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -232,7 +232,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -257,7 +257,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -285,7 +285,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -321,7 +321,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -349,7 +349,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -371,7 +371,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -396,7 +396,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -426,7 +426,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -450,7 +450,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -472,7 +472,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -509,7 +509,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -533,7 +533,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-10
 Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

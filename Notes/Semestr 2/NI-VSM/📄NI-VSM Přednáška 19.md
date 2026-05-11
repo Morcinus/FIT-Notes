@@ -11,7 +11,7 @@ FILE TAGS: NI-VSM prednaska19 status-toReview green
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -33,7 +33,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -61,7 +61,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -91,7 +91,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -113,7 +113,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -135,7 +135,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -157,7 +157,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -179,7 +179,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -214,7 +214,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -244,7 +244,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -271,7 +271,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -293,7 +293,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -317,7 +317,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -341,7 +341,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -372,7 +372,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -466,7 +466,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-09
 Exam Note Section Name: Markovské řetězce se spojitým časem
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

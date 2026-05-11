@@ -12,7 +12,7 @@ FILE TAGS: NI-VSM prednaska06 status-toReview yellow
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -36,7 +36,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -60,7 +60,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -84,7 +84,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Entropie
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -116,7 +116,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -150,7 +150,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -178,7 +178,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -203,7 +203,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -227,7 +227,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -249,7 +249,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -271,7 +271,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -304,7 +304,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -326,7 +326,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -350,7 +350,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -374,7 +374,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -396,7 +396,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -425,7 +425,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-07
 Exam Note Section Name: Základy teorie informace a kódování
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
