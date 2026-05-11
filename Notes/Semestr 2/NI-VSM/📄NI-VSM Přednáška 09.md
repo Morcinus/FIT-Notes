@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska09 status-toReview blue
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -27,12 +33,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaký význam má $p$-hodnota?
+Jaký **význam** má $p$-hodnota?
 
 Back:
 
@@ -45,12 +57,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Lemma: rozdělení p-hodnoty
+Lemma: **rozdělení p-hodnoty**
 
 Back:
 
@@ -64,6 +82,12 @@ Když je všechno hezký = pravděpodobnost 1. druhu je vždy $\alpha$, pak vím
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -84,12 +108,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou 2 typy hypotéz podle množství rozdělení?
+Jaké jsou **2 typy hypotéz** podle **množství rozdělení**?
 
 Back:
 
@@ -99,6 +129,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -128,6 +164,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -156,6 +198,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -173,12 +221,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Proč není nutné hlídat, jestli má výběr normální rozdělení při testování pro střední hodnotu?
+Proč není nutné hlídat, jestli má výběr **normální rozdělení** při testování pro střední hodnotu?
 
 Back:
 
@@ -188,6 +242,12 @@ Protože podle centrální limitní věty to rozdělení se stejně bude v limit
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -206,6 +266,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -222,6 +288,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: Testování statistických hypotéz
+Migration Status: done
+-->
 
 START
 FIT-Card

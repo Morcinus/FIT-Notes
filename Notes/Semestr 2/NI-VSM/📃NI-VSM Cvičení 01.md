@@ -6,6 +6,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM cviceni01 status-toReview yellow
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -21,6 +27,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
 
 START
 FIT-Card

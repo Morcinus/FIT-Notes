@@ -8,12 +8,18 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska20 status-toReview green
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Model hromadné obsluhy
+Definice: **Model hromadné obsluhy**
 
 Back:
 
@@ -27,6 +33,12 @@ Pozn. takhle to chtějí popsat u zkoušky a u státnic.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -43,6 +55,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -76,6 +94,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -97,6 +121,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -127,6 +157,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -143,6 +179,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -158,6 +200,12 @@ $$varX=\lambda$$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -181,6 +229,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -199,6 +253,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -221,6 +281,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -252,6 +318,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -274,6 +346,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -289,6 +367,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -308,6 +392,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -333,6 +423,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -351,6 +447,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -366,6 +468,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -398,6 +506,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -415,6 +529,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card

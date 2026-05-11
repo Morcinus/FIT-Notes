@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska15 status-toReview red
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -14,11 +20,11 @@ FIT-Card
 
 Vysvětli vlastními slovy, jak se liší následující typy stavů:
 
-- přechodný stav
-- trvalý nulový
-- trvalý nenulový
-- trvalý nenulový aperiodický
-- trvalý nenulový periodický
+- **přechodný stav**
+- **trvalý nulový**
+- **trvalý nenulový**
+- **trvalý nenulový aperiodický**
+- **trvalý nenulový periodický**
 
 Back:
 
@@ -32,6 +38,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -49,6 +61,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -64,6 +82,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -81,6 +105,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -96,6 +126,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -113,6 +149,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -128,6 +170,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -151,6 +199,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -166,6 +220,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -183,12 +243,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: o jednoznačném rozkladu
+Věta: **o jednoznačném rozkladu**
 
 Back:
 
@@ -208,6 +274,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -224,12 +296,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: v řetězci s konečně mnoha stavy, $\dots$ (2)
+Věta: **v řetězci s konečně mnoha stavy**, $\dots$ (2)
 
 Back:
 
@@ -239,6 +317,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -263,6 +347,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -285,6 +375,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -303,12 +399,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Kolik je obecně stacionárních rozdělení?
+**Kolik je obecně stacionárních rozdělení**?
 
 Back:
 
@@ -329,6 +431,12 @@ END
 
 ### Markovské řetězce - statistické metody
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -344,6 +452,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -362,6 +476,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -377,6 +497,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -394,6 +520,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -409,6 +541,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -433,6 +571,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card

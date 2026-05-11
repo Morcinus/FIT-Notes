@@ -7,12 +7,18 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska13 status-toReview red
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: reálný náhodný proces
+Definice: **reálný náhodný proces**
 
 Back:
 
@@ -31,12 +37,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: trajektorie/realizace náhodného procesu
+Definice: **trajektorie/realizace náhodného procesu**
 
 Back:
 
@@ -52,6 +64,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -80,12 +98,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Markovský řetězec s diskrétním časem
+Definice: **Markovský řetězec s diskrétním časem**
 
 Back:
 
@@ -96,12 +120,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Podmínky ekvivalentní markovské podmínce
+**Podmínky ekvivalentní markovské podmínce**
 
 Back:
 
@@ -112,12 +142,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: Náhodný proces je markovský $\Leftrightarrow \dots$
+Věta: **Náhodný proces je markovský** $\Leftrightarrow \dots$
 
 (ekvivalentní definice markovského řetězce)
 
@@ -130,12 +166,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: Chapman-Kolmogorova rovnice
+Věta: **Chapman-Kolmogorova rovnice**
 
 Back:
 
@@ -145,6 +187,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -162,12 +210,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Důsledek: Co platí pro homogenní markovský řetězec?
+Důsledek: **Co platí pro homogenní markovský řetězec**?
 
 $P(m,m+n)= \ ???= \ ???$
 
@@ -179,6 +233,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -204,12 +264,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co platí pro $p(n)$ homogenního markovského řetězce?
+Co platí pro $p(n)$ **homogenního markovského řetězce**?
 
 $p(n) = \ ??? = \ ???$
 
@@ -234,6 +300,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -250,12 +322,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Lemma: součin stochastických matic
+Lemma: **součin stochastických matic**
 
 Back:
 
@@ -265,6 +343,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -287,6 +371,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Markovské řetězce s diskrétním časem
+Migration Status: done
+-->
 
 START
 FIT-Card

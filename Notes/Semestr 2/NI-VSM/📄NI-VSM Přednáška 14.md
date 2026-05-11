@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska14 status-toReview red
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -34,6 +40,12 @@ Rekurentní stav = stav, do kterého se řetězec dřív nebo později určitě 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -63,6 +75,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -85,6 +103,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -100,6 +124,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -117,6 +147,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -132,6 +168,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -159,6 +201,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -175,6 +223,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -190,6 +244,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card

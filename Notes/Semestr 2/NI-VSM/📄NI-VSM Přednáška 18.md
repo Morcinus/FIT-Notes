@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska18 status-toReview green
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -23,6 +29,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -38,6 +50,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
 
 START
 FIT-Card

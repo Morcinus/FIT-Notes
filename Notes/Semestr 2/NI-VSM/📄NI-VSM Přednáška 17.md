@@ -7,12 +7,18 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska17 status-toReview green
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak funguje binomický proces jako markovský řetězec?
+Jak funguje **binomický proces** jako **markovský řetězec**?
 
 Back:
 
@@ -32,6 +38,12 @@ V každém čase hodíme mincí, pokud padne hlava, přičteme 1 (tzn. přesunem
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -57,6 +69,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -79,6 +97,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -89,18 +113,25 @@ Definice: **Poissonův proces 2**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140015.png)
+
 <!--ID: 1746599649625-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak se liší Binomický a Poissonův proces?
+Jak se liší **Binomický** a **Poissonův** proces?
 
 Back:
 
@@ -121,6 +152,12 @@ Tzn. poisson je jakoby spojitá varianta binomického.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -158,6 +195,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -170,27 +213,41 @@ Jaká je distribuční funkce exponenciálního rozdělení?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250525180005.png)
+
 <!--ID: 1748188849403-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: Bezpaměťovost exponenciálního rozdělení
+Věta: **Bezpaměťovost exponenciálního rozdělení**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140119.png)
+
 <!--ID: 1746599649646-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -202,27 +259,41 @@ Věta: Silná bezpaměťovost exponenciálního rozdělení
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140137.png)
+
 <!--ID: 1746599649654-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: Součet exponenciálních je gamma
+Věta: **Součet exponenciálních je gamma**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140156.png)
+
 <!--ID: 1746599649660-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -234,76 +305,111 @@ Věta: **Ekvivalence definic Poissonova procesu**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140214.png)
+
 <!--ID: 1746599649667-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Lemma: Jaké rozdělení má náhodná veličina
+Lemma: **Jaké rozdělení má náhodná veličina**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140250.png)
+
 <!--ID: 1746599649674-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Souvislost s Markovskými řetezci s diskrétním časem a s Poissonovým procesem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Lemma: Bezpaměťovost Poissonova procesu
+Lemma: **Bezpaměťovost Poissonova procesu**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140308.png)
+
 <!--ID: 1746599649680-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Markovský řetězec se spojitým časem
+Definice: **Markovský řetězec se spojitým časem**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140332.png)
 ![](../../../Assets/Pasted%20image%2020250419140338.png)
+
 <!--ID: 1746599649688-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: náhodný (_spojitý_) proces je markovský právě tehdy když
+Věta: **náhodný (_spojitý_) proces je markovský právě tehdy když**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140359.png)
+
 <!--ID: 1746599649695-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -315,11 +421,18 @@ Věta: **Chapman-Kolmogorov** (pro spojité markovské řetězce)
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140410.png)
+
 <!--ID: 1746599649701-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -344,6 +457,12 @@ Tzn. je jakoby jedno kde v tom řetězci začnu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -384,6 +503,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -396,11 +521,18 @@ Back:
 $$\textbf{Q}=\textbf{P}'(0)$$
 
 Tzn. prostě zderivuju každý prvek té matice $\textbf{P}$
+
 <!--ID: 1748180445895-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -420,6 +552,7 @@ Back:
 2. $\frac{\textbf{Q}_{ij}}{-\textbf{Q}_{ii}}$
 
 ![](../../../Assets/Pasted%20image%2020250419140652.png)
+
 <!--ID: 1746599649722-->
 
 END

@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska12 status-toReview blue
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -39,6 +45,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -56,6 +68,12 @@ V každém chlívečku by mělo být 5 prvků, aby se to blížilo nekonečnu.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -107,6 +125,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -137,6 +161,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -163,6 +193,12 @@ Jsou v tom např. testy:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -192,6 +228,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -220,6 +262,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -243,6 +291,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -271,6 +325,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -295,6 +355,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -307,29 +373,29 @@ Back:
 Testy bez použití testové statistiky:
 
 - **Pro střední hodnotu**
-  - $\mu$ při známém rozptylu
-  - $\mu$ při neznámém rozptylu
+	- $\mu$ při známém rozptylu
+	- $\mu$ při neznámém rozptylu
 
 Základní test:
 
 - **Jednoduchý test** - testujeme jestli $\mu$ nebo $\sigma^2$ odpovídá odhadům
-  - $\mu$ při známém rozptylu
-  - $\mu$ při neznámém rozptylu
-  - $\sigma^2$
+	- $\mu$ při známém rozptylu
+	- $\mu$ při neznámém rozptylu
+	- $\sigma^2$
 
 Více rozdělení:
 
 - **Párový t-test** - testujeme $\mu_1 = \mu_2$, páry
-  - při neznámém rozptylu (ten odhadnem z $Z$)
+	- při neznámém rozptylu (ten odhadnem z $Z$)
 - **Dvouvýběrový t-test** - testujeme $\mu_1 = \mu_2$, může být různé množství
-  - $\mu$ při stejných rozptylech $\sigma_1^2 = \sigma_2^2$
-  - $\mu$ při různých rozptylech $\sigma_1^2 \neq \sigma_2^2$
+	- $\mu$ při stejných rozptylech $\sigma_1^2 = \sigma_2^2$
+	- $\mu$ při různých rozptylech $\sigma_1^2 \neq \sigma_2^2$
 
 Multinomické rozdělení:
 
 - $\chi^2$ **test Multinomického rozdělení**
-  - $p'=p$ při známých parametrech
-  - $p'=p$ při neznámých parametrech
+	- $p'=p$ při známých parametrech
+	- $p'=p$ při neznámých parametrech
 - **Kontingenční tabulka** - porovnáváme pravděpodobnosti
 <!--ID: 1747739265159-->
 

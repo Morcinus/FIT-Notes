@@ -9,6 +9,12 @@ FILE TAGS: NI-VSM prednaska06 status-toReview yellow
 
 ## Entropie
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -26,6 +32,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -45,6 +57,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -62,6 +80,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -88,6 +112,12 @@ END
 ---
 
 ## Teorie informace
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -117,6 +147,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -139,12 +175,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: nesingulární kód
+Definice: **nesingulární kód**
 
 Back:
 
@@ -157,6 +199,12 @@ Prosté zobrazení - každý prvek se zobrazí na něco jiného:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -176,6 +224,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -191,6 +245,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -208,6 +268,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -215,10 +281,10 @@ FIT-Card
 
 Jak jsou hierarchicky uspořádány kódy:
 
-- Jednnoznačně dekódovatelné
-- Instantní
-- Nesingulární
-- Všechny
+- **Jednnoznačně dekódovatelné**
+- **Instantní**
+- **Nesingulární**
+- **Všechny**
 
 Back:
 
@@ -235,6 +301,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -250,6 +322,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -269,6 +347,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -287,6 +371,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -302,6 +392,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -325,6 +421,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Základy teorie informace a kódování
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska07 status-toReview yellow
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -35,6 +41,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -53,12 +65,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: vztah diferenciální a diskrétní entropie
+Věta: **vztah diferenciální a diskrétní entropie**
 
 Back:
 
@@ -69,12 +87,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Sdružená diferenciální entropie
+Definice: **Sdružená diferenciální entropie**
 
 Back:
 
@@ -85,12 +109,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Podmíněná diferenciální entropie
+Definice: **Podmíněná diferenciální entropie**
 
 Back:
 
@@ -101,12 +131,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Relativní entropie (Kullback-Leiblerova vzdálenost) pro spojité náhodné veličiny
+Definice: **Relativní entropie** (Kullback-Leiblerova vzdálenost) pro **spojité náhodné veličiny**
 
 Back:
 
@@ -117,12 +153,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Vzájemná informace $I(X;Y)$ spojitých náhodných veličin
+Definice: **Vzájemná informace** $I(X;Y)$ **spojitých náhodných veličin**
 
 Back:
 
@@ -132,6 +174,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -151,6 +199,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -168,6 +222,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-07
+Exam Note Section Name: Entropie
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska22 status-toReview green
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -24,6 +30,12 @@ Hlavní myšlenka: dáme dva servery do série za sebe, každý má nějakou fro
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -49,6 +61,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -69,6 +87,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -84,6 +108,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -103,12 +133,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: stacionární rozdělení pro dva servery $M|M|1$
+Věta: **stacionární rozdělení pro dva servery** $M|M|1$
 
 (čemu se rovná)
 
@@ -120,6 +156,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -147,6 +189,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -165,6 +213,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -190,6 +244,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-10
+Exam Note Section Name: Systémy hromadné obsluhy a jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card

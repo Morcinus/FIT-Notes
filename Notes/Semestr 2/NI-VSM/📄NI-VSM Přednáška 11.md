@@ -8,6 +8,12 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska11 status-toReview blue
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -38,6 +44,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -54,6 +66,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -69,6 +87,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -87,12 +111,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: Pearsonova statistika
+Věta: **Pearsonova statistika**
 
 Back:
 
@@ -108,6 +138,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -143,6 +179,12 @@ $np_i$ je počet naměřených hodnot v daném binu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
 
 START
 FIT-Card

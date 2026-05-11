@@ -8,6 +8,12 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska19 status-toReview green
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -23,6 +29,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -46,12 +58,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: čemu je rovna matice přechodu $P(t)$
+Věta: **čemu je rovna matice přechodu** $P(t)$
 
 (řešení kolmogorových rovnic)
 
@@ -70,6 +88,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -86,12 +110,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: Vektor $\pi$ je stacionárním rozdělením právě tehdy když (spojitý čas)
+Věta: Vektor $\pi$ **je stacionárním rozdělením právě tehdy když** (spojitý čas)
 
 Back:
 
@@ -102,12 +132,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Markovský řetězec je nerozložitelný
+Definice: **Markovský řetězec je nerozložitelný**
 
 Back:
 
@@ -117,6 +153,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -133,6 +175,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -163,6 +211,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -187,6 +241,12 @@ END
 
 ### Přednáška 21
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -208,6 +268,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -223,6 +289,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -242,6 +314,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -259,6 +337,12 @@ Neboli že $T_i$ vyhraje závod ze všech závodníků
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -284,6 +368,12 @@ Lemma pak říká, že pro $u \geq 0$ jsou nezávislé následující dvě věci
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -311,6 +401,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -332,6 +428,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -360,6 +462,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-09
+Exam Note Section Name: Markovské řetězce se spojitým časem
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -7,6 +7,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM prednaska16 status-toReview red
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -45,6 +51,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -63,6 +75,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -78,6 +96,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -105,6 +129,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -122,6 +152,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -145,6 +181,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -160,6 +202,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -187,6 +235,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -208,6 +262,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -226,6 +286,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -243,6 +309,12 @@ $W_k$ je počet návštěv stavu $k$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -268,6 +340,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -285,6 +363,12 @@ Pozn. $I$ je identita, tedy to, co jsme v jiných předmětech značili jako $E$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -312,6 +396,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -327,6 +417,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-08
+Exam Note Section Name: Jejich limitní vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card

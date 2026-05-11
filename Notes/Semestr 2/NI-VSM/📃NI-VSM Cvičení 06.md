@@ -6,6 +6,12 @@ up: "[[📖NI-VSM]]"
 TARGET DECK: archive
 FILE TAGS: NI-VSM cviceni06 status-toReview blue
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -32,6 +38,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -52,6 +64,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -67,6 +85,12 @@ Můžu je spojit.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-06
+Exam Note Section Name: T-testy, testy nezávislosti, testy dobré shody
+Migration Status: done
+-->
 
 START
 FIT-Card
