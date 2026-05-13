@@ -46,7 +46,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -70,7 +70,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -164,7 +164,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -195,7 +195,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -224,7 +224,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -255,7 +255,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -284,7 +284,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -313,7 +313,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -342,7 +342,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -373,7 +373,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -402,7 +402,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -431,7 +431,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -460,7 +460,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -491,7 +491,7 @@ END
 <!--
 Exam Note ID: NI-SI-15
 Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -639,7 +639,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -669,7 +669,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -693,7 +693,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -717,7 +717,7 @@ Měl by je na trhu skutečně najít ty lidi.
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -750,7 +750,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -773,7 +773,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -795,7 +795,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -864,7 +864,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -886,7 +886,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -910,7 +910,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -940,7 +940,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -994,7 +994,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1020,7 +1020,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1042,7 +1042,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

@@ -32,7 +32,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -54,7 +54,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -135,7 +135,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -159,7 +159,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -195,7 +195,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -232,7 +232,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -280,7 +280,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -304,7 +304,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

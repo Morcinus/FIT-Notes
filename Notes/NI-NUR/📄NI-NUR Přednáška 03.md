@@ -10,7 +10,7 @@ FILE TAGS: NI-NUR prednaska03 status-toReview
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -38,7 +38,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -69,7 +69,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -132,7 +132,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -154,7 +154,7 @@ END
 <!--
 Exam Note ID: NI-SI-14
 Exam Note Section Name: Použitelnost (Usability)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -185,7 +185,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -208,7 +208,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -234,7 +234,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -256,7 +256,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -287,7 +287,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

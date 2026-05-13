@@ -176,7 +176,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -198,7 +198,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -223,7 +223,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -247,7 +247,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -273,7 +273,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

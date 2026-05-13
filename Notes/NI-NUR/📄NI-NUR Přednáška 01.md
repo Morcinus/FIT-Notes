@@ -275,7 +275,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -297,7 +297,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -323,7 +323,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -345,7 +345,7 @@ END
 <!--
 Exam Note ID: NI-SI-13
 Exam Note Section Name: Proces návrhu uživatelských rozhraní
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
