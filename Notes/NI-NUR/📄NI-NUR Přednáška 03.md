@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska03 status-toReview
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -29,12 +35,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaký musí být interface design? (4)
+Jaký musí být **interface design**? (4)
 
 Back:
 
@@ -54,22 +66,27 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou **hlavní principy dobrého UI**?
+Jaké jsou **hlavní principy dobrého UI**? (6)
 
 Back:
 
-- **User first** - oriented on the user
-- **Only useful information is shown**
+- **User first** - zaměřovat se na uživatele
+- **Minimalismus** - ukazovat jen podstatné informace
 - **Feedback** - uživatel by měl vidět, že se daná akce stala (že se uložil soubor atd)
-- **Predictable user behavior** -
-- **User mistakes tolerance**
-- **Foolproof** - vyvarovat se chybám
-- **If it is complicated to use the system, UI is porbably designed wrong**
+- **Forgiving** - když uživatel udělá chybu, umožnit mu to vrátit
+- **Foolproof** - udělat to blbůmvzdorný, pochopitelný a jednoduchý
+- **Consistency** - používat pojmy, symboly, patterny na který je uživatel zvyklý
 
 <!-- DetailInfoStart -->
 
@@ -82,12 +99,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou principy dobrého UI?
+Jaké jsou další principy dobrého UI?
 
 Back:
 
@@ -106,6 +129,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -121,6 +150,12 @@ Jednoduchost naučení se daného systému.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -147,6 +182,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -164,12 +205,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak vypadá UI design cycle? (3)
+Jak vypadá **UI design cycle**? (3)
 
 Back:
 
@@ -183,6 +230,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -199,6 +252,12 @@ Vytvářet **interfaces** a **interactions**, které naplní uživatelské **pot
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -225,12 +284,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co by člověk neměl dělat v user centered designu? (3)
+Co by člověk neměl dělat v **user centered designu**? (3)
 
 Back:
 

@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska02 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -33,6 +39,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -57,6 +69,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -79,6 +97,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -98,6 +122,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -121,6 +151,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -137,6 +173,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -152,6 +194,12 @@ Mentální model se dá v určitých cyklech měnit (cca do 22 let - pak už je 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -172,6 +220,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -189,6 +243,12 @@ Např. **barevný schémata**, **layout komponentů** atd.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -209,6 +269,12 @@ Pozn. tohle platí pro negativní emoce. Naopak poitivní emoce je super vytvá�
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card

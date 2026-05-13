@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska08 status-toReview
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -30,6 +36,12 @@ Např. vlevo ikonka, vpravo ten content (nebo plný název)
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -56,6 +68,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -80,6 +98,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -101,6 +125,12 @@ Máme nějaké menu, co nám umožňuje se pohybovat na stránce/v aplikaci
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -125,6 +155,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -147,6 +183,12 @@ Máme taby (zeshora nebo na straně) a klikáním se přepínají panely.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -171,6 +213,13 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
+
 START
 FIT-Card
 
@@ -187,12 +236,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je UI design pattern "Diagonal balance"?
+Co je UI design pattern "**Diagonal balance**"?
 
 Back:
 
@@ -211,6 +266,12 @@ Tzn. počátek práce by měl být vlevo nahoře, konec práce vpravo dole
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -236,6 +297,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -251,10 +318,17 @@ Back:
 - **Input Prompt**
 - **Dropdown Chooser**
 - **Illustrated Choices**
-  <!--ID: 1762184131142-->
-  END
+
+<!--ID: 1762184131142-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -279,6 +353,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -302,6 +382,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -324,6 +410,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -338,10 +430,17 @@ Back:
 1. **Nejlepší je dávat dolu pod textfield**.
 2. Potom, kdyby bylo fakt málo místa (např. na mobilu), tak se to dá dát jako placeholder, ale vždy je lepší to dát pod.
 3. Nahoru je to antipattern
-   <!--ID: 1762184131156-->
-   END
+
+<!--ID: 1762184131156-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -365,6 +464,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -380,6 +485,12 @@ Vlevo!
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -404,6 +515,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -413,7 +530,7 @@ Co je UI design pattern "Tables - Tree Table"?
 
 Back:
 
-Rozklikávatelný strom v tabulcy
+Rozklikávatelný strom v tabulce
 
 Někdy to může být dobrý, ale obecně to je hrůza, protože to je komplexní a blbě se v tom orientuje.
 
@@ -429,6 +546,12 @@ Ten strom musí být vždy v nejlevějším sloupci (jinak to je naprosto nepoch
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -451,6 +574,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -477,6 +606,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -499,6 +634,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -525,6 +666,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -548,6 +695,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -565,6 +718,12 @@ END
 ---
 
 ### 👉 Tady jsme skončili
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -587,6 +746,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -607,6 +772,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -621,10 +792,17 @@ Back:
 - Progress Indicator
 - Constrained Resize
 - Background images
-  <!--ID: 1762184131197-->
-  END
+
+<!--ID: 1762184131197-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -649,6 +827,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -657,6 +841,10 @@ FIT-Card
 Co je UI design pattern "Smart Menu Items"?
 
 Back:
+
+Menu itemy by měly být pojmenovány hierarchicky tak, aby bylo jasné, kterého objektu se to týká. 
+
+Např. `Filter > Colors`, tak vím, že ty colors se už týkají filtru. 
 
 <!-- DetailInfoStart -->
 
@@ -669,6 +857,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -693,6 +887,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -712,6 +912,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -735,6 +941,12 @@ END
 ---
 
 ### Android Design Patterns
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

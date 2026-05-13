@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska07 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -23,6 +29,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -32,28 +44,41 @@ O čem je teď responsibilita?
 
 Back:
 
-Designování pro různě velká zařízení - od hodinek až po obrovské televize.
+Designování pro **různě velká zařízení** - od **hodinek** až po **obrovské televize**.
 <!--ID: 1762184131223-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak se základně dělá responsivní design?
+Jak se základně dělá **responsivní design**?
 
 Back:
 
 1. Rozdělíme design na desktopu do "bloků"
 2. Ty pak házíme pod sebe na mobilu v dlouhou scrollovací nudli
-   <!--ID: 1762184131227-->
-   END
+
+<!--ID: 1762184131227-->
+END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -76,10 +101,17 @@ Pak se dělá to, že buď:
 
 - se vytvoří dva designy (drahý, ale dobrý UX)
 - nebo se vybere, na jaké zařízení chceme cílit podle primární persony
-  <!--ID: 1762184131230-->
-  END
+
+<!--ID: 1762184131230-->
+END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -93,11 +125,18 @@ Back:
 Měl bych designovat podle toho, jaké zařízení bude primární persona používat.
 
 Pokud primárně používá mobil, měl bych to dělat mobile-first. Pokud desktop, tak desktop first.
+
 <!--ID: 1762184131233-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -116,6 +155,12 @@ Podle tohohle se to z desktopu nahází na mobil.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -147,12 +192,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak dělat responsivní menu?
+Jak dělat **responsivní menu**?
 
 Back:
 
@@ -178,12 +229,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Kdy bych měl v menu používat ikony?
+Kdy bych měl v **menu používat ikony**?
 
 Back:
 
@@ -193,6 +250,12 @@ Když těch možností je třeba 4-5 max. Když jich je víc, tak to je na nic, 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -214,6 +277,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -232,6 +301,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -247,6 +322,12 @@ Typicky ne, protože to zbytečně mate mozek uživatele a není to příjemný,
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR-Exam
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -19,7 +25,7 @@ Hint:
 Back:
 
 1. **Basic product statement** - o čem projekt bude
-2. **Business requirements**
+2. **Business requirements** - funkční a nefunkční požadavky
 3. **Persony, cíle uživatelů, tasks co uživatelé dělají**
 	- Zjistí se dotazníky, pohovory atd.
 4. **User research** - use cases (přesně popsaný, co se děje)
@@ -42,6 +48,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -87,6 +99,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -111,6 +129,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -129,6 +153,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Prototypy a prototypování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -145,6 +175,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Prototypy a prototypování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -167,6 +203,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Prototypy a prototypování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -187,6 +229,12 @@ prototyp, který odpovídá vzhledu a základnímu fungování reálné aplikace
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Prototypy a prototypování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -211,6 +259,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Prototypy a prototypování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -228,6 +282,12 @@ Wireframe/mockup je obecně návrh který reprezentuje **kostru** dané stránky
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -250,6 +310,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -267,6 +333,12 @@ Nepoužívají se na testování skuteční uživatelé.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -294,11 +366,17 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (13)
-Co je to heuristická evaluace?
+Co je to **heuristická evaluace**?
 
 Hint: zkus taky vyjmenovat heuristiky (aspoň nějaké)
 
@@ -325,6 +403,12 @@ Nielsen Norman Group zadefinovali 10 heuristik (principů, co by mělo UI splňo
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -361,6 +445,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -379,6 +469,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -389,7 +485,7 @@ Hint: co to je a z čeho se skládá (4)
 
 Back:
 
-Jednoduchost naučení se daného systému.
+**Jednoduchost naučení se daného systému**.
 
 Z čeho se skládá usability:
 
@@ -410,6 +506,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -425,6 +527,12 @@ Usability testing je proces testování uživatelského rozhraní (s uživateli 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -445,6 +553,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -468,6 +582,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -486,6 +606,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -501,6 +627,12 @@ Ethnographic observation je metoda testování, při které pozorujeme uživatel
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -522,6 +654,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -542,11 +680,17 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (24)
-Jakými způsoby můžeme vybrat účastníky uživatelského průzkumu?
+Jakými způsoby můžeme vybrat účastníky uživatelského průzkumu? (5)
 
 Back:
 
@@ -561,6 +705,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -594,6 +744,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -617,6 +773,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -635,6 +797,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -652,6 +820,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -675,6 +849,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -688,7 +868,6 @@ Back:
 3. **Zjistit jak se daný úkol provádí teď**
 4. **Zjistit jak se může provádět úkol v budoucnu** - co je třeba změnit, co může být nového
 5. **Jakékoliv další komentáře**
-
 
 <!-- DetailInfoStart -->
 ![](../../Assets/Pasted%20image%2020251211103616.png)
@@ -715,6 +894,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -734,6 +919,12 @@ Ne více než 20-30 minut
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -758,6 +949,12 @@ To všechno bývá typicky nahráváno
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -791,6 +988,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -806,6 +1009,12 @@ Pomocí eye trackingový metody nebo pomocí sledování kurzoru myši se vytvá
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -824,6 +1033,12 @@ Navíc Heat maps vychází téměř vždy všude (většina lidí čte zleva dop
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -846,6 +1061,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -867,6 +1088,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -886,6 +1113,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -903,6 +1136,12 @@ Je tam ale pomalejší access (třeba 0.1 sekundy), používanější informace 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -927,6 +1166,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -936,9 +1181,9 @@ Kolik druhů čípků obsahuje lidské oko?
 Back:
 
 Tři druhy pro různé vlnové délky světla:
-- červenou (R)
-- zelenou (G)
-- modrou (B)
+- **červenou** (R)
+- **zelenou** (G)
+- **modrou** (B)
 
 Tyto čípy umožňují vnímat barvy
 
@@ -948,6 +1193,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -956,13 +1207,19 @@ Na jaké barvy jsou citlivé čípky v lidském oku?
 
 Back:
 
-RGB - červená, zelená, modrá
+**RGB - červená, zelená, modrá**
 
 (zdroj: AI)
 <!--ID: 1765204625683-->
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -984,6 +1241,12 @@ Když se spojí modrá a červená (např. červená na modrým pozadí), tak st
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1010,6 +1273,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1025,6 +1294,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1042,6 +1317,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1057,6 +1338,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1074,6 +1361,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1090,6 +1383,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1105,6 +1404,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1128,6 +1433,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1150,6 +1461,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1169,6 +1486,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1186,6 +1509,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1211,6 +1540,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1230,6 +1565,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1245,6 +1586,12 @@ Pokud je většina polí povinná, je lepší označit nepovinná pole. Pokud je
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1268,6 +1615,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1286,6 +1639,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1309,6 +1668,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Prototypy a prototypování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1324,6 +1689,12 @@ Rozhraní, které automaticky přizpůsobuje rozložení nebo vzhled prvků dle 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1362,6 +1733,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1380,6 +1757,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1397,6 +1780,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1412,6 +1801,12 @@ Tohle je duplicitní otázka, podobnou tam už Pavlíček jednou napsal `-___-`
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1430,6 +1825,12 @@ Lepší je použít skutečný obsah nebo realistický text, který lépe reprez
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1450,6 +1851,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1467,6 +1874,12 @@ Zelené - protože to má nejvyšší intenzitu, tak jsme schopni ji nejlépe ro
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1491,6 +1904,12 @@ ale nejlepší je typicky scrollování
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1521,6 +1940,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1541,6 +1966,12 @@ END
 
 ---
 
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1581,12 +2012,18 @@ END
 ---
 
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (0 - přidal Pavlíček pár dnů před zkouškou `-___-`)
 
-Theory of Information, Information systems theory
+**Theory of Information, Information systems theory**
 
 Back:
 

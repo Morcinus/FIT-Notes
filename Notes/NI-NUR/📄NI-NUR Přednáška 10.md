@@ -8,16 +8,22 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska10 status-toReview
 
+<!--
+Exam Note ID: NI-SI-14
+Exam Note Section Name: Použitelnost (Usability)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak je definovaná **použitelnost** (usability)?
+Co nám vyjde typicky jako výsledek testu použitelnosti?
 
 Back:
 
-Typicky nám z testu vyjde nějaká **míra** použitelnosti
+**Míra použitelnosti**. Např. dobře použitelná, špatně použitelná atd.
 
 ![](../../Assets/Pasted%20image%2020251029164241.png)
 <!--ID: 1762184130953-->
@@ -25,6 +31,12 @@ Typicky nám z testu vyjde nějaká **míra** použitelnosti
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -42,6 +54,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -52,17 +70,24 @@ Jak vypadá testování jednotlivců?
 Back:
 
 - Lidi nahlas popisují, co dělají a co se jim honí hlavou
-  <!--ID: 1762184130961-->
-  END
+
+<!--ID: 1762184130961-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak vypadá kolaborativní testování?
+Jak vypadá **kolaborativní testování**?
 
 Back:
 
@@ -81,12 +106,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou výhody kolaborativního testování?
+Jaké jsou **výhody kolaborativního testování**?
 
 Back:
 
@@ -107,12 +138,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Kde lze dělat uživatelské testování?
+Kde lze dělat uživatelské testování? (3)
 
 Back:
 
@@ -131,6 +168,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -140,12 +183,20 @@ Jak vypadá testování "Ethnographic observation"?
 
 Back:
 
+Pozorujeme uživatele v jejich (pracovním) prostředí a jen si děláme poznámky
+
 ![](../../Assets/Pasted%20image%2020251029175511.png)
 <!--ID: 1762184130975-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -162,6 +213,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska06 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -19,11 +25,18 @@ Back:
 1. **Sensory buffers** - do nich vstupují informace
 2. **Working memory** - krátkodobá pracovní paměť
    - Např. když řídíme auto, tak se to všechno řeší v pracovní paměti
-3. **Long term memory** - tam si uchováváme data
-   <!--ID: 1762184131262-->
-   END
+1. **Long term memory** - tam si uchováváme data
+
+<!--ID: 1762184131262-->
+END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -36,10 +49,17 @@ Back:
 
 - **4 chunky** (+-1)
 - Chunk je jednoduchý znak nebo číslo nebo i komplexní abstrakce a obrázky
-  <!--ID: 1762184131265-->
-  END
+
+<!--ID: 1762184131265-->
+END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -56,6 +76,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -86,21 +112,34 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co pro UI plyne z Fitts law?
+Co pro UI plyne z **Fitts law**?
 
 Back:
 
 - Měli bychom komponenty dávat na místa, aby člověk nemusel moc "přejíždět myší"
 - Měli bychom dělat komponenty dostatečně výrazné
-  <!--ID: 1762184131275-->
-  END
+
+<!--ID: 1762184131275-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -126,6 +165,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -145,6 +190,12 @@ n je nejspíš ten počet variant
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -166,6 +217,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -184,6 +241,12 @@ Muži a ženy ale vidí barvy stejně, jen to ten mozek víc u mužů ignoruje.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -210,6 +273,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -230,6 +299,12 @@ END
 
 # Barvy
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -249,6 +324,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -267,6 +348,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -283,6 +370,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -298,6 +391,12 @@ Když se spojí modrá a červená (např. červená na modrým pozadí), tak st
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -329,6 +428,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -347,6 +452,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -368,6 +479,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -383,6 +500,12 @@ Splácáme všechny dohromady
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -412,6 +535,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -434,6 +563,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -450,6 +585,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -461,10 +602,17 @@ Back:
 
 - autorita, síla, elegance, formalita, smrt, strach
 - může mít často negativní význam
-  <!--ID: 1762184131331-->
-  END
+
+<!--ID: 1762184131331-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -484,6 +632,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -502,11 +656,18 @@ Back:
 Tip: s červenou je dobré hodně šetřit, stačí jí málo v designu
 
 Fun fact: ženy oblečené do červeného jsou podle Pavlíčka atraktivnější :D čistě z toho psychologického hlediska
+
 <!--ID: 1762184131338-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -527,6 +688,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Parametry lidského vnímání a jejich vliv na tento návrh
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -538,7 +705,8 @@ Back:
 
 - **důvěra, diskrétnost, inteligence, přesnost**
 - **uklidňující, vypadá cool** (proto to používají hodně technologické společnosti)
-  <!--ID: 1762184131345-->
-  END
+
+<!--ID: 1762184131345-->
+END
 
 ---

@@ -7,6 +7,12 @@ up: "[[📖NI-NUR]]"
 TARGET DECK: archive
 FILE TAGS: NI-NUR prednaska04 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -37,6 +43,12 @@ END
 
 ### Use Cases
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -54,6 +66,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -75,6 +93,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -93,6 +117,12 @@ END
 
 ### Heuristická analýza
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -109,6 +139,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -124,6 +160,12 @@ Není to 100% nutný. Dává smysl si vybrat třeba nějaký, který vím, že j
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -150,6 +192,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -172,6 +220,12 @@ progress bary, loading, ...
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -198,6 +252,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -220,6 +280,12 @@ Např. že uživatel může prozkoumávat software, aniž by si něco totálně 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -244,6 +310,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -266,6 +338,12 @@ Např. neumožňím uživateli zadávat nevalidní věci do formuláře, aby nen
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -292,6 +370,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -314,6 +398,12 @@ Jestli je možný to provozovat na daném zařízení uživatele a že mu to nev
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -338,6 +428,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -360,6 +456,12 @@ Uživatel by měl chápat, proč něco nefunguje - říct mu, proč to nefunguje
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -386,6 +488,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-15
+Exam Note Section Name: Metody vyhodnocování a testování uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -410,6 +518,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -425,6 +539,12 @@ Zadavatel nikdy neví, co chce :D
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -453,6 +573,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -479,6 +605,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -504,6 +636,12 @@ END
 
 ### Persony
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -528,6 +666,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -546,6 +690,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -563,6 +713,12 @@ Měl by je na trhu skutečně najít ty lidi.
   END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -591,6 +747,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -602,10 +764,17 @@ Back:
 
 - **Goals**: co jsou jeho cíle
 - **Pain points**: jaké jsou jeho problémy
-  <!--ID: 1762184131458-->
-  END
+
+<!--ID: 1762184131458-->
+END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -623,6 +792,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -639,6 +814,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -652,10 +833,17 @@ Např. web fitu
 
 - je primárně pro studenty - pro ty to hlavně vytváříme
 - je sekundárně pro učitele
-  <!--ID: 1762184131467-->
-  END
+
+<!--ID: 1762184131467-->
+END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -673,6 +861,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -688,6 +882,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -706,6 +906,12 @@ Každý má v mozku jiné "algoritmy", jinak se dívají na svět apod.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -730,6 +936,12 @@ END
 ---
 
 ### Use Cases
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -757,6 +969,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -772,6 +990,12 @@ UML use casy správně obsahují milion detailů (preconditions atd.) - kvůli t
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -793,6 +1017,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -808,6 +1038,12 @@ Scénář je psán z pohledu systému. Tam už řeším konkrétní atributy, co
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -825,7 +1061,8 @@ Správný workflow by měl být:
 1. Sepsat všechny use casy
 2. Sepsat scénáře
 3. Udělat wireframy / návrh
-   <!--ID: 1762184131496-->
-   END
+
+<!--ID: 1762184131496-->
+END
 
 ---

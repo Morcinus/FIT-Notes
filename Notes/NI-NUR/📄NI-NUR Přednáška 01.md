@@ -36,6 +36,12 @@ Dobrá teorie na kterou mrknout: **teorie dataismu**
 
 ## Flashcards
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -60,6 +66,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -82,6 +94,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -103,6 +121,12 @@ Zkoumá:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -129,6 +153,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -148,6 +178,12 @@ END
 
 ### Persony
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -163,6 +199,12 @@ Fiktivní uživatelé pro které vytváříme uživatelský návrh
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -184,6 +226,12 @@ END
 
 ### Cognitive dimensions
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -199,6 +247,12 @@ Terminologie a principy, co se používají v rámci interaction designu
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -218,6 +272,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -233,6 +293,12 @@ Jde o to udělat UI co nejpříjemnější na používání. Je cílem **sníži
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -254,6 +320,12 @@ END
 
 ### Five dimensions of interaction design
 
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -269,6 +341,12 @@ Jsou to jakoby složky ze kterých se skládá interakční design
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-13
+Exam Note Section Name: Proces návrhu uživatelských rozhraní
+Migration Status: migrate
+-->
 
 START
 FIT-Card
