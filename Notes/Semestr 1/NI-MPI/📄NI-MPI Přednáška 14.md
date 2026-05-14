@@ -9,6 +9,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska14 status-toReview
 
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -35,6 +41,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -59,6 +71,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -76,6 +94,12 @@ Tags: algebra3
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -101,6 +125,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -120,6 +150,12 @@ Tags: algebra3
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -147,6 +183,12 @@ END
 
 #### Okruh
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -164,6 +206,12 @@ Tags: algebra4 core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -185,6 +233,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -204,6 +258,12 @@ Tags: algebra4
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -225,6 +285,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -243,6 +309,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -260,6 +332,12 @@ Tags: algebra4
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Základní definice a vlastnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -289,6 +367,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Tělesa a okruhy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -306,6 +390,12 @@ Tags: algebra4 core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Tělesa a okruhy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -331,6 +421,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -349,6 +445,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -366,6 +468,12 @@ Tags: algebra4 core
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -391,6 +499,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -408,6 +522,12 @@ Tags: algebra4
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -433,6 +553,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -451,6 +577,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -468,6 +600,12 @@ Tags: algebra4 core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
 
 START
 FIT-Card

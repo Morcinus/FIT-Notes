@@ -10,6 +10,12 @@ FILE TAGS: NI-MPI prednaska11 status-toReview algebra1
 
 ### Úvod
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -31,6 +37,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -60,6 +72,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -84,6 +102,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -101,6 +125,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -120,6 +150,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -137,6 +173,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -156,6 +198,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -171,6 +219,12 @@ $$a^0 = e$$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -188,6 +242,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -203,6 +263,12 @@ $$a^n \circ a^{-n}=e$$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -229,6 +295,12 @@ END
 ---
 
 ### Vlastnosti
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska15 status-toReview algebra4
 
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -25,6 +31,12 @@ Pozor, největší společný dělitel $h(x)$ není jednoznačný, těch polynom
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -48,6 +60,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -65,6 +83,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -90,6 +114,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -125,6 +155,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -145,6 +181,12 @@ END
 ---
 
 ### Konečná tělesa
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -175,6 +217,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -199,6 +247,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -220,6 +274,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -257,6 +317,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -283,6 +349,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -302,6 +374,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Okruhy polynomů, ireducibilní polynom
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -340,6 +418,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -358,6 +442,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -373,6 +463,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -391,6 +487,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -412,6 +514,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -436,6 +544,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -457,6 +571,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card

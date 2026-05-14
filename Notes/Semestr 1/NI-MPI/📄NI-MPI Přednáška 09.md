@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska09 status-toReview numerika1
 
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -28,6 +34,12 @@ END
 ---
 
 ### Zaokrouhlovací chyby
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -55,6 +67,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -80,6 +98,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -98,6 +122,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -118,6 +148,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -137,6 +173,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -153,6 +195,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -168,6 +216,12 @@ $$x = (-1)^s \cdot \text{Inf}$$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -187,6 +241,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -205,6 +265,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -220,6 +286,12 @@ $$x = (-1)^s \cdot 0$$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -242,6 +314,12 @@ Neukládáme první jedničku v mantise, protože je jasné, že tam musí být.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Reprezentace čísel v počítači
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -267,6 +345,12 @@ Tzn. jsou to reálná čísla, co mají **konečný** binární rozvoj.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -294,6 +378,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -320,6 +410,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -335,6 +431,12 @@ Pokud chci reprezentovat číslo mimo rozsah, dochází k **přetečení** nebo 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -358,6 +460,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -376,6 +484,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -391,6 +505,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -421,6 +541,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -448,6 +574,12 @@ Tím že při výpočtu nemám dostatek cifer pro výpočet, tak je mantisa výs
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska16 status-toReview algebra4
 
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -25,6 +31,12 @@ Nechť $p(x)$ je ireducibilní polynom nad $\mathbb{Z}_p$ stupně $n$.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -45,6 +57,12 @@ Pomocí EEA získám Bezoutovu rovnost.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -76,6 +94,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -102,6 +126,12 @@ Možnost 2: Budem upravovat rovnici:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
 
 START
 FIT-Card

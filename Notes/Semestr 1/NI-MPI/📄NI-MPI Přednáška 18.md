@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska18 status-toReview numerika2
 
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Chyby vznikající při výpočtech s pohyblivou řádovou čárkou
+Migration Status: done
+-->
+
 START
 FIT-Card
 

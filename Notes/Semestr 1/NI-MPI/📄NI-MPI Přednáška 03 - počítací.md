@@ -9,6 +9,12 @@ FILE TAGS: NI-MPI prednaska03 status-toReview analyza2
 
 ![](../../../Assets/Pasted%20image%2020241007144131.png)
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -37,6 +43,12 @@ END
 
 ![](../../../Assets/Pasted%20image%2020241007144956.png)![](../../../Assets/Pasted%20image%2020241007145228.png)
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -54,6 +66,12 @@ Pak není **pozitivně definitní** ani **negativně definitní**
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
 
 START
 FIT-Card

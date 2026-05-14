@@ -6,6 +6,12 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI cviceni01 status-toReview
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Funkce více proměnných
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -23,6 +29,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Funkce více proměnných
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -37,6 +49,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -50,6 +68,12 @@ Když udělám řez v tom 3D grafu, tak zjistím, jeslti je v tom řezu konkávn
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -9,6 +9,12 @@ FILE TAGS: NI-MPI prednaska04 status-toReview analyza3
 
 ### Věta o implicitní funkci
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -60,6 +66,12 @@ END
 
 #### Cesta a implicitní funkce
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -86,6 +98,12 @@ Další příklady:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -119,6 +137,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -146,6 +170,12 @@ END
 ---
 
 #### Přípustná řešení a jiná formulace
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -202,6 +232,12 @@ END
 
 #### Lagrangeova funkce
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -229,6 +265,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -251,6 +293,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -270,6 +318,12 @@ END
 ---
 
 ### Postačující podmínka existence ostrého lokálního minima pro rovnostní vazby
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -303,12 +357,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak se obecně používá Lagrangeova funkce? (při hledání lokálního extrému)
+Jak se obecně **používá Lagrangeova funkce**? (při hledání lokálního extrému)
 
 Back:
 
@@ -324,6 +384,12 @@ END
 ---
 
 ### Metoda řešení při rovnostních vazbách i nerovnostních vazbách
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -343,6 +409,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -360,6 +432,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -390,6 +468,12 @@ END
 ---
 
 ### Postačující podmínka existence ostrého lokálního minima
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -432,6 +516,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card

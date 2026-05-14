@@ -6,6 +6,12 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska02 status-toReview analyza2
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -26,6 +32,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -45,10 +57,16 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
+
 START
 FIT-Card
 
-Věta: pořadí parciálního derivování
+Věta: **pořadí parciálního derivování**
 
 Back:
 
@@ -63,6 +81,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -76,6 +100,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Hessián
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -101,6 +131,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -124,6 +160,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -141,6 +183,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -160,6 +208,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -177,6 +231,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -196,6 +256,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -214,6 +280,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -230,6 +302,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -245,6 +323,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -263,6 +347,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -278,6 +368,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -305,6 +401,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -318,6 +420,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

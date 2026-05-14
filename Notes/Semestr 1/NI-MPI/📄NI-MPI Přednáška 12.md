@@ -9,6 +9,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska12 status-toReview algebra2
 
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -31,6 +37,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -48,6 +60,12 @@ END
 ---
 
 ### Znázornění grup
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -77,6 +95,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -99,6 +123,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -120,6 +150,12 @@ Z tabulky nepoznáme, musíme si vypsat všechny trojice prvků a ověřit to ma
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -149,6 +185,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -172,6 +214,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -187,6 +235,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -210,6 +264,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Grupoidy, pologrupy, monoidy a grupy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -231,6 +291,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -260,6 +326,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -278,12 +350,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: triviální a vlastní podgrupy
+Definice: **triviální a vlastní podgrupy**
 
 Back:
 
@@ -293,6 +371,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -316,6 +400,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -338,6 +428,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -353,6 +449,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -377,6 +479,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -404,6 +512,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -439,6 +553,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -458,6 +578,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -480,6 +606,12 @@ Vezmu všechny prvky z množiny N a nakombinuju je tak, abych si byl jistý, že
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -105,6 +105,12 @@ $$
 \end{align*}
 $$
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -216,6 +222,12 @@ $$
 & \text{\small{ tak automaticky víme, že to není minimum nebo maximum!}}
 \end{align*}
 $$
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Definitnost matic
+Migration Status: done
+-->
 
 START
 FIT-Card

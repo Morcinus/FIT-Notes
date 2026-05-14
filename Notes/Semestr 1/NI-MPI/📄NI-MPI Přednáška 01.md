@@ -6,6 +6,12 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska01 status-toReview analyza1
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -21,6 +27,12 @@ Norma každému bodu přiřadí vzdálenost od počátku souřadnic.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -43,6 +55,12 @@ Důkaz:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -70,6 +88,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -84,6 +108,12 @@ $$||\textbf{x}||_2=\sqrt[2]{\sum_{i=1}^n |x_i|^2}$$
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -101,6 +131,12 @@ Prostě "koule" kolem bodu
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -127,6 +163,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -140,6 +182,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Funkce více proměnných
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -161,6 +209,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -176,6 +230,12 @@ Např. mám 2D plochu a každému bodu, chci každému přiřadit hodnotu -> vzn
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -193,6 +253,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -209,6 +275,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -224,6 +296,12 @@ Jako když mám plachtu a jeden bod by byl o 5 metrů nad ní a nebyl by na plac
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -243,6 +321,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -258,13 +342,21 @@ Je to podobné jako u intervalů v $\mathbb{R}$.
 
 - omezená - jakoby "není nekonečná"
 - otevřená - není tam "hranice" té množiny
-- uzavřená - jsou tam i hraniční body té množiny
-    <!-- ExplanationEnd -->
-  <!--ID: 1728921214874-->
+- uzavřená - jsou tam i hraniční body té množiny 
+
+<!-- ExplanationEnd -->
+
+<!--ID: 1728921214874-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -281,6 +373,12 @@ END
 ---
 
 ### Parciální derivace
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -306,6 +404,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -326,6 +430,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -348,6 +458,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -365,6 +481,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -386,6 +508,12 @@ Postup výpočtu:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -415,6 +543,12 @@ END
 
 ### Lokální extrémy
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -435,6 +569,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -458,6 +598,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -479,6 +625,12 @@ Jsou to body, ve kterých je **gradient nulový** nebo tam **neexistuje**.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Gradient
+Migration Status: done
+-->
 
 START
 FIT-Card

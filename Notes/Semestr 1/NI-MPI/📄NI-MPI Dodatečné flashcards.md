@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI
 
 
+<!--
+Exam Note ID: NI-SPOL-02
+Exam Note Section Name: Konečná tělesa
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -34,6 +40,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -51,6 +63,12 @@ Tags: algebra4 core
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -77,6 +95,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -119,6 +143,12 @@ Tags: analyza3 core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-03
+Exam Note Section Name: Extrémy funkcí více proměnných bez omezení a s rovnostními omezeními
+Migration Status: done
+-->
 
 START
 FIT-Card

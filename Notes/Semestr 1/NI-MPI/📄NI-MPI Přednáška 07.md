@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska07 status-toReview analyza4
 
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -28,6 +34,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -52,6 +64,12 @@ Máme nějaký tvar na 2D ploše a chceme spočíst objem toho tělesa od té ro
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -91,6 +109,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -108,6 +132,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -130,6 +160,12 @@ Analogicky jako dvojný integrál.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -157,6 +193,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -10,6 +10,12 @@ FILE TAGS: NI-MPI prednaska06 status-toReview analyza4
 
 ### Připomenutí analýzy
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -31,6 +37,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -54,6 +66,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -76,6 +94,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -91,6 +115,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -108,6 +138,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -123,6 +159,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -140,6 +182,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -155,6 +203,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -177,6 +231,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -202,6 +262,12 @@ END
 
 ### Funkce 2 proměnných
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -223,6 +289,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -248,6 +320,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -265,6 +343,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -281,6 +365,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -296,6 +386,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -319,6 +415,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -334,6 +436,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -366,6 +474,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -389,6 +503,12 @@ Máme nějakou oblast (smajlík). Když jsme schopný ji uzavřít do obdélník
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -416,6 +536,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -437,6 +563,12 @@ Protože ty $\varepsilon$ jsem schopný zvolit tak malý, že to je vlastně zan
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -460,6 +592,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -482,6 +620,12 @@ Funkce $f$ a $g$ jsou rovny skoro všude, pokud množina $\set {x \in \mathbb{R}
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -508,6 +652,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -524,6 +674,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -539,6 +695,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-04
+Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
+Migration Status: done
+-->
 
 START
 FIT-Card

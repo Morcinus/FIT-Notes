@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska17 status-toReview numerika2
 
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -38,6 +44,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -66,6 +78,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -81,6 +99,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -115,6 +139,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -131,6 +161,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -146,6 +182,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -168,6 +210,12 @@ Je "samoopravující se", v každém kroku se řešení zlepší víc, než se z
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -197,6 +245,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Podmíněnost úlohy a stabilita numerických algoritmů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -222,6 +276,12 @@ END
 ---
 
 ### Iterační metoda
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -252,6 +312,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -267,6 +333,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -284,6 +356,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -300,6 +378,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -315,6 +399,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -337,6 +427,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -362,6 +458,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -377,6 +479,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -400,6 +508,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -421,6 +535,12 @@ Za $Q$ se dosadí diagonála
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -444,6 +564,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -465,6 +591,12 @@ $Q = \frac{1}{\omega}D+L$ kde $\omega \in \mathbb{R} \setminus \set 0$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -7,6 +7,12 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska13 status-toReview algebra3
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -22,6 +28,12 @@ je také generátor
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -47,6 +59,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -68,6 +86,12 @@ Jinými slovy, pokud má grupa generátor, je cyklická.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -92,6 +116,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -118,6 +148,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -142,6 +178,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -159,6 +201,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -184,6 +232,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -208,12 +262,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Důsledek: Malá Fermatova věta
+Důsledek: **Malá Fermatova věta**
 
 Back:
 
@@ -233,6 +293,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
+
 START
 FIT-Card
 Jak vyřešit $x^\text{obri cislo} \pmod{m}$?
@@ -241,10 +307,17 @@ Back:
 1. Ověřím, jestli $gcd(x,m) = 1$, pokud ano, mohu použít Fermatovu/Eulerovu větu
 2. Použiju Fermatovu/Eulerovu větu -> získám $x^s \equiv 1 \pmod{m}$
 3. Spočtu původní číslo tak, že využiju $x^s \equiv 1$ a zároveň to modulo. Tím se dostanu k výsledku
-   <!--ID: 1762184495621-->
-   END
+
+<!--ID: 1762184495621-->
+END
 
 ### Homomorfismy a isomorfismy
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -270,6 +343,12 @@ Tags: core
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -298,6 +377,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -322,6 +407,12 @@ Surjektivní znamená, že zobrazení "pokryje" celou množinu $B$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-01
+Exam Note Section Name: Podgrupy, cyklické grupy a jejich generátory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -350,6 +441,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -365,6 +462,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

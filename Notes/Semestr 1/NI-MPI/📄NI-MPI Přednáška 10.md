@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska10 status-toReview numerika1
 
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -29,6 +35,12 @@ Metoda, co v **konečném počtu kroků** vrátí řešení.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -56,6 +68,12 @@ END
 
 #### Připomenutí lineární algebry
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -71,6 +89,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -88,6 +112,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -104,6 +134,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -119,6 +155,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -137,6 +179,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -161,6 +209,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -179,6 +233,12 @@ END
 
 ### Mocninná metoda
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -194,6 +254,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -215,6 +281,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -240,12 +312,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak funguje mocninná metoda?
+Jak funguje **mocninná metoda**?
 
 Back:
 
@@ -258,6 +336,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-05
+Exam Note Section Name: Numerická matematika
+Migration Status: done
+-->
 
 START
 FIT-Card
