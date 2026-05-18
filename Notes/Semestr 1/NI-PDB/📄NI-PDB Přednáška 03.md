@@ -9,6 +9,12 @@ FILE TAGS: NI-PDB prednaska03 status-toReview
 
 ### Big Data
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -45,6 +51,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -63,6 +75,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -98,6 +116,12 @@ END
 
 ### NoSQL databases
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: OLTP vs. OLAP databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -114,6 +138,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: OLTP vs. OLAP databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -129,6 +159,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -162,6 +198,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -180,6 +222,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -205,6 +253,12 @@ Vedlejší typy
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -232,6 +286,12 @@ END
 
 #### Key-value storage
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -255,6 +315,12 @@ Je to hrozně jednoduchý a díky tomu dobře škálovatelný.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -287,6 +353,12 @@ END
 
 #### Document stores
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -304,6 +376,12 @@ Mám **hierarchickou strukturu dokumentů** (typicky JSON a XML).
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -336,6 +414,12 @@ END
 
 #### Wide Column stores
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -363,6 +447,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -387,6 +477,12 @@ END
 
 #### Graph databases
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -407,6 +503,12 @@ Uzly i hrany mohou mít **properties**.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -441,6 +543,12 @@ END
 
 #### XML databáze
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XML
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -464,6 +572,12 @@ END
 ---
 
 #### RDF Stores
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -491,6 +605,12 @@ END
 
 #### Fičury NoSQL
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -512,6 +632,12 @@ V dokumentových databázích to je například daný dokument. U relačních da
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -536,6 +662,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -552,6 +684,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -584,6 +722,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -606,6 +750,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -627,6 +777,12 @@ Není nutné, aby byla data furt konzistentní (ACID), ale jsou eventually konzi
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -658,6 +814,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -678,6 +840,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -697,6 +865,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
 
 START
 FIT-Card

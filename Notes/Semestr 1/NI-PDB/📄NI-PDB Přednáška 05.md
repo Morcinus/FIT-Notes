@@ -10,12 +10,18 @@ FILE TAGS: NI-PDB prednaska05 status-toReview
 
 ### Škálování
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je škálovatelnnost?
+Co je **škálovatelnnost**?
 
 Back:
 
@@ -26,12 +32,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je vertikální škálování?
+Co je **vertikální škálování**?
 
 Back:
 
@@ -48,12 +60,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké problémy jsou s vertikálním škálováním?
+Jaké **problémy** jsou s **vertikálním škálováním**?
 
 Back:
 
@@ -65,6 +83,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -88,12 +112,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je horizontální škálování?
+Co je **horizontální škálování**?
 
 Back:
 
@@ -103,6 +133,12 @@ Zasadíme do systému více uzlů (nodes).
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -119,6 +155,12 @@ NoSQL
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -148,12 +190,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je cluster?
+Co je **cluster**?
 
 Back:
 
@@ -171,6 +219,12 @@ END
 ---
 
 ### Distribuční modely
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -195,6 +249,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -210,6 +270,12 @@ Typicky související data, ke kterým se přistupuje najednou, by měly být uc
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -229,12 +295,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou shardovací strategie?
+Jaké jsou **shardovací strategie**?
 
 Back:
 
@@ -252,12 +324,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Proč je obtížné shardování?
+Proč je **obtížné shardování**?
 
 Back:
 
@@ -271,12 +349,18 @@ END
 
 #### Replikace
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou dva přístupy replikace?
+Jaké jsou **dva přístupy replikace**?
 
 Back:
 
@@ -287,6 +371,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -304,12 +394,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je master slave architektura?
+Co je **master slave architektura**?
 
 Back:
 
@@ -329,6 +425,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -346,12 +448,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je peer-to-peer architektura?
+Co je **peer-to-peer architektura**?
 
 Back:
 
@@ -361,6 +469,12 @@ Máme několik uzlů, u všech lze zapisovat i číst.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -378,16 +492,22 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Dá se kombinovat replikace a sharding?
+Dá se **kombinovat replikace a sharding**?
 
 Back:
 
-Ano!
+**Ano!**
 
 <!-- ImageStart -->
 
@@ -408,12 +528,18 @@ END
 
 ### CAP theorem
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké jsou základní předpoklady pro CAP theorém?
+Jaké jsou **základní předpoklady pro CAP theorém**?
 
 Back:
 
@@ -425,12 +551,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co říká CAP theorem?
+Co říká **CAP theorem**?
 
 Back:
 
@@ -443,12 +575,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je consistency v CAP theorému?
+Co je **consistency** v CAP theorému?
 
 Back:
 
@@ -465,12 +603,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je availability v CAP theorému?
+Co je **availability** v CAP theorému?
 
 Back:
 
@@ -487,12 +631,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je partition tolerance v CAP theoremu?
+Co je **partition tolerance** v CAP theoremu?
 
 Back:
 
@@ -502,6 +652,12 @@ Je možný, že nějaká node na chvíli vypadne. Distribuovaný systém by měl
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -530,12 +686,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je ACID?
+Co je **ACID**?
 
 Back:
 
@@ -545,6 +707,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -568,6 +736,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -583,6 +757,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -600,6 +780,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -616,12 +802,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je strong consistency?
+Co je **strong consistency**?
 
 Back:
 

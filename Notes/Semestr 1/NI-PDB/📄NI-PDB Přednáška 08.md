@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska08 status-toReview
 
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -23,6 +29,12 @@ Mám klíč (id) a pomocí něho přistupuju k value.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -41,6 +53,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -57,6 +75,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -72,6 +96,12 @@ RiakKV (tím se zde zabýváme)
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -95,6 +125,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -110,6 +146,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -127,6 +169,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -142,6 +190,12 @@ Key-value pár.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -159,6 +213,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Klíč-hodnota
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -168,8 +228,8 @@ Jaké jsou 2 možnosti designu key-value databází?
 
 Back:
 
-Multiple buckets - každý typ entity v jiném bucketu
-Single bucket - vše v jednom. Zde se potom typicky před klíč dává typ toho objektu. Např. `actor_trojan`, `movie_medvidek`
+**Multiple buckets** - každý typ entity v jiném bucketu
+**Single bucket** - vše v jednom. Zde se potom typicky před klíč dává typ toho objektu. Např. `actor_trojan`, `movie_medvidek`
 
 <!-- DetailInfoStart -->
 
@@ -183,6 +243,12 @@ END
 ---
 
 ### CRUD operace
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -199,6 +265,12 @@ Hlavně pomocí **HTTP API**
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -222,6 +294,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -243,6 +321,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -266,6 +350,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -287,6 +377,12 @@ DELETE
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -310,6 +406,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -332,6 +434,12 @@ Pozn. tenhle JSON může být dost obrovskej.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -361,6 +469,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -387,6 +501,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -402,6 +522,12 @@ AP systém -> mohou vznikat konflikty
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -421,6 +547,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -438,6 +570,12 @@ END
 ---
 
 #### Data Types
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -465,6 +603,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -490,6 +634,12 @@ Konvergenční pravidlo:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -517,6 +667,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -543,6 +699,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -568,6 +730,12 @@ Konvergenční pravidlo:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -599,6 +767,12 @@ END
 
 ### Search 2.0
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -614,6 +788,12 @@ Možnost vyrobit si full-text indexy.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -639,6 +819,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -662,6 +848,12 @@ Např. JSON extractor je parser pro JSON
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -690,6 +882,12 @@ END
 
 #### Indexing schema
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -714,6 +912,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -746,6 +950,12 @@ END
 
 ### Internal details
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -767,6 +977,12 @@ je to AP systém (tedy availability + partition tolerance)
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -801,6 +1017,12 @@ END
 
 ## Wide column databases
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -817,6 +1039,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -832,6 +1060,12 @@ Je to databáze určená pro velké množství dat a pro velký množství uživ
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -856,17 +1090,23 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je row ve wide column databázi?
+Co je **row ve wide column databázi**?
 
 Back:
 
 Kolekce **columns**
-Každý má row key
+Každý má **row key**
 
 <!-- ExampleStart -->
 
@@ -880,16 +1120,22 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je column ve wide column databázi?
+Co je **column** ve wide column databázi?
 
 Back:
 
-Je to sloupeček.
+Je to **sloupeček**.
 
 Pozn. hodnoty zde mohou být i např. sets, lists, maps. Nemusí to být atomické.
 
@@ -904,6 +1150,12 @@ Pozn. hodnoty zde mohou být i např. sets, lists, maps. Nemusí to být atomick
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Sloupcový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -932,6 +1184,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -953,6 +1211,12 @@ Všechno možný - text, integers, lists, tuples, maps, sets atd.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -978,6 +1242,12 @@ END
 
 ### CQL
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -995,6 +1265,12 @@ END
 ---
 
 #### DDL Statements
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1018,6 +1294,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1044,6 +1326,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1060,6 +1348,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich typické konstrukce a vyjadřovací možnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1075,6 +1369,12 @@ Ne. V Cassandře se můžu dotazovat jen nad jednou tabulkou.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich typické konstrukce a vyjadřovací možnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1099,6 +1399,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1121,6 +1427,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1140,6 +1452,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1163,6 +1481,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1184,6 +1508,12 @@ Pomocí `{}`
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1218,6 +1548,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1233,6 +1569,12 @@ Můžu to nastavit u daného řádku, říká mi, po jaké době se má záznam 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -11,6 +11,12 @@ FILE TAGS: NI-PDB prednaska09 status-toReview
 
 ### Benchmarks, ACID, Tuning
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -27,6 +33,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -51,6 +63,12 @@ Transaction Processing Council (něco jako W3C ale pro databáze)
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -85,6 +103,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -101,6 +125,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -121,6 +151,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -148,6 +184,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -163,6 +205,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: OLTP vs. OLAP databáze
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -182,6 +230,12 @@ END
 
 ### TPC-E
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -197,6 +251,12 @@ Jako příklad je obchodování společnosti, která se zabývá obchodováním 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -214,6 +274,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -240,6 +306,12 @@ END
 
 > "V podstatě, když se o tom budeme bavit, ať už u zkoušky nebo nebo u státnic, tak mi jde o to, abyste věděli, proč máme komplexní benchmarky, že ty komplexní benchmarky mají nějakej příběh, abyste dokázali popsat vlastně jak to zhruba vypadá? Jo, to znamená zhruba tu. Datovou sadu, jak se to škáluje zhruba ty transakce a že tam je někde nějakej treshold, kterej je vyjádřený tím, že fajn, když ta odezva toho databázového systému na nějakej typ transakce už je větší než tahleta než těhle těch třeba 5 vteřin, tak to znamená, že už jsme dosáhli saturace jo v týhle chvíli se odečítají ty výsledky. Tohle mě bohatě stačí, když budete k těm benchmarkům vědět." - Valenta, poslední přednáška, 17. minuta
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -255,6 +327,12 @@ END
 ---
 
 ### TPC-H
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -272,6 +350,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -287,6 +371,12 @@ Máme databázi fixní velikosti
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
 
 START
 FIT-Card

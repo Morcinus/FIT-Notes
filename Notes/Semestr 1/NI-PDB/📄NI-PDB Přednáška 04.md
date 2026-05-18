@@ -13,6 +13,12 @@ FILE TAGS: NI-PDB prednaska04 status-toReview
 
 ### JSON
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -28,6 +34,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -51,6 +63,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -67,6 +85,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -82,6 +106,12 @@ Atributy jsou **setřízené**.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -104,6 +134,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -119,6 +155,12 @@ Ne, hodnoty, které jsou `undefined` jsou při vytváření JSONu ignorovány.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -145,6 +187,12 @@ END
 ---
 
 #### BSON
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -175,6 +223,12 @@ END
 
 ### MongoDB
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -197,6 +251,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -212,6 +272,12 @@ S kolekcemi **JSON dokumentů**
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Dokumentový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -231,6 +297,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -253,6 +325,12 @@ Klíče (id) jsou **immutable**
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -278,6 +356,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -293,6 +377,12 @@ Protože ta databáze může být naškálovaná (na více místech), potom při
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -318,6 +408,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -341,6 +437,12 @@ END
 ---
 
 #### Modelování dat
+
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -374,6 +476,12 @@ END
 
 #### Operace v MongoDB
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich typické konstrukce a vyjadřovací možnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -395,6 +503,12 @@ Dotazuje se nad **jednou kolekcí**, **jedním příkazem** (případně celým 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich typické konstrukce a vyjadřovací možnosti
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -418,6 +532,12 @@ END
 
 ##### Insert
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -433,6 +553,12 @@ Můžu si kolekci vytvořit sám příkazem, ale dělá se to typicky tak, že n
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -454,6 +580,12 @@ END
 
 ##### Replace
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -471,6 +603,12 @@ Proto pokud chci přepsat celý dokument, měl bych použít replace.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -499,6 +637,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -524,6 +668,12 @@ END
 ---
 
 ##### Update
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -566,6 +716,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -593,6 +749,12 @@ END
 Je easy, nedával jsem na to kartičky.
 
 #### Find
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -637,6 +799,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -665,6 +833,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -690,6 +864,12 @@ END
 ---
 
 ###### Dotazování na polích
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -725,6 +905,12 @@ END
 
 ##### Projekce
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -758,6 +944,12 @@ END
 
 ##### Modifikátory
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -786,6 +978,12 @@ END
 ---
 
 #### Pokročilé dotazování
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

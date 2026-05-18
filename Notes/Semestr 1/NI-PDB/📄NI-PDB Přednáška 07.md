@@ -8,6 +8,12 @@ TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska07 status-toReview
 
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XML
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -42,6 +48,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XML
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -71,6 +83,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -86,6 +104,12 @@ Typicky např. na `<`, `>`, `"`,...
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -107,6 +131,12 @@ END
 ---
 
 ### XPath a XQuery
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -130,33 +160,45 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je XDM?
+Co je **XDM**?
 
 Back:
 
-Sjednocení data modelu XQuery a XPath
+Sjednocení data modelu **XQuery** a **XPath**
 <!--ID: 1735205748962-->
 
 END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak je strukturovaný XDM data model?
+Jak je strukturovaný **XDM data model**?
 
 Back:
 
-- XML tree - dokument je strukturovaný jako strom
-- Document order - elementy a data jsou vždy **ordered**.
+- **XML tree** - dokument je strukturovaný jako strom
+- **Document order** - elementy a data jsou vždy **ordered**.
 
 <!-- ImageStart -->
 
@@ -168,6 +210,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -199,6 +247,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -214,6 +268,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -246,6 +306,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -265,12 +331,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaké části má XPath krok? (na tohle se ptá u státnic!)
+Jaké části má **XPath krok**? (na tohle se ptá u státnic!)
 
 Back:
 
@@ -288,6 +360,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -324,6 +402,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -352,6 +436,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -377,6 +467,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -407,6 +503,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -433,6 +535,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -468,6 +576,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -502,6 +616,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -529,6 +649,12 @@ Vyhodnocují se pouze singleton sequence. U ostatních to hodí error
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -563,6 +689,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -581,6 +713,12 @@ END
 ---
 
 ### XQuery
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -607,6 +745,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -626,6 +770,12 @@ Můžeme vytvářet **nové nodes** a obalovat tak například výstupy z XPath.
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -661,6 +811,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -683,6 +839,12 @@ Existuje i JSONiq, což je něco jako XQuery pro JSON, ale je to hodně specific
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -720,6 +882,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -735,6 +903,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -761,6 +935,12 @@ END
 ![](../../../Assets/Pasted%20image%2020241114112012.png)
 
 ### Detaily
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -10,6 +10,12 @@ FILE TAGS: NI-PDB prednaska06 status-toReview
 
 ### Grafové databáze
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -21,8 +27,8 @@ Back:
 
 Orientovaný nebo neorientovaný graf:
 
-- nodes - entity z reálného světa
-- relationships - vztahy těch entit
+- **nodes** - entity z reálného světa
+- **relationships** - vztahy těch entit
 
 <!-- DetailInfoStart -->
 
@@ -34,6 +40,12 @@ Uzly i hrany mohou mít properties (proto se to jmenuje property graph).
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -55,6 +67,12 @@ END
 ---
 
 ### Neo4j
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -80,6 +98,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -95,6 +119,12 @@ Instance -> databáze -> graf
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Grafový
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -118,6 +148,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -131,6 +167,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -151,6 +193,12 @@ Má
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -188,6 +236,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -206,6 +260,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -227,6 +287,12 @@ END
 
 #### Cypher
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -242,6 +308,12 @@ Deklarativní **jazyk** pro dotazování nad **grafovými databázemi** (např. 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -259,6 +331,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -290,6 +368,12 @@ END
 
 #### Path pattern
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -314,6 +398,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -336,6 +426,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -366,6 +462,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -391,6 +493,12 @@ Díky tomu jsem schopný snadně dělat hodně komplikovaný dotazy.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -418,6 +526,12 @@ END
 ---
 
 #### Syntax
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -463,6 +577,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -492,6 +612,12 @@ END
 ---
 
 #### General Clauses
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -527,6 +653,12 @@ END
 
 #### Agregační funkce
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -550,6 +682,12 @@ V returnu použiju agregační funkci podobně jako se to používá v SQLku (vi
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -579,6 +717,12 @@ END
 
 ### Query structure
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -599,6 +743,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -621,6 +771,12 @@ Umožňuje mi kombinovat multi-part queries.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
 
 START
 FIT-Card

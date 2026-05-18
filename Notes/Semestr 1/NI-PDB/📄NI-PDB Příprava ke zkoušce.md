@@ -10,12 +10,20 @@ FILE TAGS: NI-PDB
 
 ### Optmalizace SQL
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Optimalizace řízená odhadem ceny (cost-based optimization)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Co je to **cost-based optimalizace** a jak se využijí **statistiky o databázových objektech** při cost-based optimalizaci?
+
+(větší otázka)
 
 Back:
 
@@ -49,12 +57,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Optimalizace řízená odhadem ceny (cost-based optimization)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jak vypadá **zpracování SQL dotazu** (fáze zpracování dotazu, kde a jak se při nich dá optimalizovat)?
+
+(větší otázka)
 
 Back:
 
@@ -84,12 +100,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi **heap table** a **index-organized table**.
+
+(větší otázka)
 
 Back:
 
@@ -123,12 +147,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi **heap table** a **cluster**.
+
+(větší otázka)
 
 Back:
 
@@ -169,12 +201,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi **B-tree** a **bitmap** indexem, příklady vhodného použití obou typů indexů.
+
+(větší otázka)
 
 Back:
 
@@ -215,12 +255,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jaké jsou **typické statistiky pro tabulky** v relační databázi a jak se udržují když se pomocí DML mění data?
+
+(větší otázka)
 
 Back:
 
@@ -260,12 +308,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jaké jsou **typické statistiky pro B-tree indexy** a jak se udržují když se pomocí DML mění data?
+
+(větší otázka)
 
 Back:
 
@@ -293,12 +349,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Metody přístupu k datům a jejich cena
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Co jsou to přístupové cesty (**access paths**) při vyhodnocování SQL dotazů? Uveďte příklady.
+
+(větší otázka)
 
 Back:
 
@@ -348,12 +412,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Metody vyhodnocení spojení a jejich cena
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jaké znáte **metody vyhodnocení spojení (join)** v relačních databázích? Naznačte jak probíhají.
+
+(větší otázka)
 
 Back:
 
@@ -395,12 +467,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Prováděcí plány (execution plans)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Co to je **prováděcí plán (execution plan)**, jak vypadá a kdy vzniká? Vyplatí se ho cachovat? Pokud ano, za jakých okolností?
+
+(větší otázka)
 
 Back:
 
@@ -425,6 +505,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Prováděcí plány (execution plans)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -433,6 +519,8 @@ FIT-Card
 Jaká je základní **strategie pro tvorbu prováděcího plánu**? Jsou situace, kdy se vyplatí spíše full-table scan přístup namísto index-based? Případně uveďte.
 
 Pozn. tuhle kartičku jsem si trochu vycucal z prstu (a fitwiki a chatgpt), protože v přednáškách se o tom nic nepíše.
+
+(větší otázka)
 
 Back:
 
@@ -459,12 +547,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Prováděcí plány (execution plans)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 **Operace řazení**, v jakých situacích se používá, jaké jsou parametry pro odhad ceny řazení.
+
+(větší otázka)
 
 Back:
 
@@ -497,12 +593,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Prováděcí plány (execution plans)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 **Postup při ladění výkonu DB serveru** (jak zjistíme co vázne, jak zvolíme SQL dotazy pro ladění?
+
+(větší otázka)
 
 Back:
 
@@ -529,12 +633,20 @@ END
 
 ### OLTP vs OLAP, ORDBMS
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: OLTP vs. OLAP databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete rozdíly mezi **OLTP a OLAP** databází.
+
+(větší otázka)
 
 Back:
 
@@ -558,12 +670,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Objektově-relační
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete, případně uveďte na příkladech hlavní **přínos objektově relačních databázových systémů** oproti čistě relačním.
+
+(větší otázka)
 
 Back:
 
@@ -582,12 +702,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Objektově-relační
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete co je **reference na objekt (typ REF)** v objektově-relačních databázích. Jaký je rozdíl mezi referencí na objekt a cizím klíčem?
+
+(větší otázka)
 
 Back:
 
@@ -606,12 +734,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Objektově-relační
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete rozdíl mezi relační tabulkou obsahující **uživatelem definovaný datový typ** a **objektovou tabulkou**.
+
+(větší otázka)
 
 Back:
 
@@ -634,12 +770,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Objektově-relační
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 V jakém jsou vztahu **objektově-relační databázový stroj** a **ORM (object-relational mapping) technologie**? (co to řeší, kdy je co vhodné)
+
+(větší otázka)
 
 Back:
 
@@ -671,12 +815,20 @@ END
 
 ### CAP, BASE, ACID, BigData
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte a vysvětlete **CAP theorém**.
+
+(větší otázka)
 
 Back:
 
@@ -710,12 +862,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete rozdíly mezi koncepcí **ACID a BASE**.
+
+(větší otázka)
 
 Back:
 
@@ -751,12 +911,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Horizontální vs. vertikální škálování
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Co je to **horizontální a co vertikální škálování** databáze a jak souvisí s CAP?
+
+(větší otázka)
 
 Back:
 
@@ -783,12 +951,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Klasifikace NoSQL databází z pohledu CAP teorému
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jak lze použít **CAP theorém ke klasifikaci databázových strojů**? Uveďte příklady databázových strojů, které znáte a pokuste se je klasifikovat na základě CAP theorému.
+
+(větší otázka)
 
 Back:
 
@@ -820,12 +996,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Replikace a sharding
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jaký je **rozdíl mezi replikací a technikou sharding**? Jsou to techniky, které se vzájemně vylučují nebo se mohou doplňovat?
+
+(větší otázka)
 
 Back:
 
@@ -849,12 +1033,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Co je to **silná a slabá konsistence** v NoSQL databázích? Jak souvisí s CAP?
+
+(větší otázka)
 
 Back:
 
@@ -874,12 +1066,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete co je **"quorum"** a jak se používá k zajištění silné či slabé konzistence?
+
+(větší otázka)
 
 Back:
 
@@ -913,12 +1113,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: CAP teorém a NoSQL databáze
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jak jsou charakterizována **BigData** (3V+)?
+
+(větší otázka)
 
 Back:
 
@@ -947,12 +1155,20 @@ END
 
 ### Porovnávání DB modelů
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a dokumentové databáze**.
+
+(větší otázka)
 
 Back:
 
@@ -985,12 +1201,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a XML-nativní databáze**.
+
+(větší otázka)
 
 Back:
 
@@ -1021,12 +1245,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a key-value databáze**.
+
+(větší otázka)
 
 Back:
 
@@ -1060,12 +1292,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a grafové databáze**.
+
+(větší otázka)
 
 Back:
 
@@ -1096,12 +1336,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte podstatné rozdíly (výhody a nevýhody) **relační a sloupcové (wide-column) databáze**.
+
+(větší otázka)
 
 Back:
 
@@ -1133,12 +1381,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich rozdíly a vhodné aplikace (aplikační domény)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte výhody a nevýhody přístupů **schema-free a schema aware databází**.
+
+(větší otázka)
 
 Back:
 
@@ -1165,12 +1421,20 @@ END
 
 ### Probírané DB stroje
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete koncepci databázového stroje **MongoDB**. Uveďte jeho silné stránky a uveďte příklady, kdy je jeho použití vhodné a kdy je naopak nevhodné.
+
+(větší otázka)
 
 Back:
 
@@ -1194,12 +1458,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete koncepci databázového stroje **Cassandra**. Uveďte jeho silné stránky a uveďte příklady, kde je jeho použití vhodné a kdy je naopak nevhodné.
+
+(větší otázka)
 
 Back:
 
@@ -1220,12 +1492,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete koncepci databázového stroje **Neo4j**. Uveďte jeho silné stránky a uveďte příklady, kdy je jeho použití vhodné a kdy je naopak nevhodné.
+
+(větší otázka)
 
 Back:
 
@@ -1244,12 +1524,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Příklady konkrétních NoSQL databází a jejich architektury
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Uveďte koncepci databázového stroje **RiakKV**. Uveďte jeho silné stránky a uveďte příklady, kdy je jeho použití vhodné a kdy je naopak nevhodné.
+
+(větší otázka)
 
 Back:
 
@@ -1272,12 +1560,20 @@ END
 
 ### Probírané jazyky
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Cypher
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Krátce popište, případně vysvětlete na vhodných příkladech dotazovací jazyk **Cypher**.
+
+(větší otázka)
 
 Back:
 
@@ -1304,12 +1600,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: XQuery
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Krátce popište, případně vysvětlete na vhodných příkladech dotazovací jazyk **XQuery**.
+
+(větší otázka)
 
 Back:
 
@@ -1332,12 +1636,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-17
+Exam Note Section Name: Jejich typické konstrukce a vyjadřovací možnosti
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Krátce popište, případně vysvětlete na vhodných příkladech dotazovací jazyk **MongoDB**.
+
+(větší otázka)
 
 Back:
 
@@ -1369,12 +1681,20 @@ END
 
 ### Databázové benchmarky
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Charakterizujte rozdíly mezi tzv. **micro a complex benchmarkem** v databázích.
+
+(větší otázka)
 
 Back:
 
@@ -1407,12 +1727,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Co je **TPC** a jak souvisí s databázovými benchmarky?
+
+(větší otázka)
 
 Back:
 
@@ -1423,12 +1751,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete princip benchmarku **TPC-C**. Co je výstupem benchmarku?
+
+(větší otázka)
 
 Back:
 
@@ -1454,12 +1790,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete princip benchmarku **TPC-E**. Co je výstupem benchmarku?
+
+(větší otázka)
 
 Back:
 
@@ -1479,12 +1823,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-19
+Exam Note Section Name: Komplexní benchmarky (TPC-C, TPC-E, TPC-H) - princip a metriky
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Vysvětlete princip benchmarku **TPC-H**. Co je výstupem benchmarku?
+
+(větší otázka)
 
 Back:
 

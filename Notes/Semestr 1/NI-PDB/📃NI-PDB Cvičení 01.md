@@ -6,6 +6,12 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB cviceni01 status-toReview
 
+<!--
+Exam Note ID: NI-SI-18
+Exam Note Section Name: Koncepce BASE vs. ACID
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -21,6 +27,12 @@ END
 ---
 
 ### SQL object-relational extension
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -38,6 +50,12 @@ Vjedu autem do objektový a relační garáže
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -58,6 +76,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -71,6 +95,12 @@ Protože to moc společností neposkytuje a člověk se tím trošku dostane do 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

@@ -6,6 +6,12 @@ up: "[[📖NI-PDB]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDB prednaska02 status-toReview
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Prováděcí plány (execution plans)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -24,6 +30,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Optimalizace řízená odhadem ceny (cost-based optimization)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -37,6 +49,12 @@ Nacházení nejlepšího vyhodnocovacího plánu
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Optimalizace řízená odhadem ceny (cost-based optimization)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -59,6 +77,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Metody přístupu k datům a jejich cena
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -80,6 +104,12 @@ END
 
 > "Potom to začalo chytat Microsoftí vibe. Ty vole kámo na to nešahej, to si budeme dělat sami" - Valenta
 
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -96,6 +126,12 @@ Oracle si u tabulek/stromů drží různé statistiky - např. počet hodnot atd
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-16
+Exam Note Section Name: Statistiky databázových objektů
+Migration Status: done
+-->
 
 START
 FIT-Card
