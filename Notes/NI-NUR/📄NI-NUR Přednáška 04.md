@@ -764,7 +764,6 @@ Back:
 
 - **Goals**: co jsou jeho cíle
 - **Pain points**: jaké jsou jeho problémy
-
 <!--ID: 1762184131458-->
 END
 
@@ -833,7 +832,6 @@ Např. web fitu
 
 - je primárně pro studenty - pro ty to hlavně vytváříme
 - je sekundárně pro učitele
-
 <!--ID: 1762184131467-->
 END
 
@@ -1061,7 +1059,6 @@ Správný workflow by měl být:
 1. Sepsat všechny use casy
 2. Sepsat scénáře
 3. Udělat wireframy / návrh
-
 <!--ID: 1762184131496-->
 END
 

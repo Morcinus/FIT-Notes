@@ -204,7 +204,6 @@ Back:
 6. Prototyping
 7. Evaluation
 8. Re-design
-
 <!--ID: 1762184131367-->
 END
 
@@ -228,7 +227,6 @@ Back:
 - **Cognitive walktrough** - projde se to UI
 - **Collaborative critiquing** - kritizuje se brainstormingem
 - **Heuristic evaluation** - herustiky
-
 <!--ID: 1762184131371-->
 END
 
@@ -302,7 +300,6 @@ Back:
 1. **Uděat prototyp** (nedokonalý produkt)
 2. **Otestovat ho** - tohle je v inženýrství naprosto kritické
 3. **Pak zanalyzovat**, co vylepšit
-
 <!--ID: 1762184131381-->
 END
 
@@ -354,7 +351,6 @@ Back:
 
 - **Lo-fi** - ideální na ukazování zákazníkovi, levný, jednoduché změny
 - **Hi-fi** - drahý, ale dají se tam dělat uživatelské testy
-
 <!--ID: 1762184131388-->
 END
 

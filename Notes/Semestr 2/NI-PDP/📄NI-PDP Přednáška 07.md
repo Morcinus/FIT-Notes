@@ -7,6 +7,12 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska07 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -26,6 +32,12 @@ Tags: otazka24
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -47,6 +59,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -66,6 +84,12 @@ Tags: otazka24
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -87,6 +111,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -106,6 +136,12 @@ Tags: otazka24
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -127,6 +163,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -147,6 +189,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -165,6 +213,11 @@ Tags: otazka24
 
 END
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -197,6 +250,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -216,6 +275,12 @@ Tags: otazka24
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -243,6 +308,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -260,6 +331,12 @@ Tags: otazka24
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -282,6 +359,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -300,6 +383,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -317,6 +406,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -338,6 +433,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -356,6 +457,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -373,6 +480,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -394,6 +507,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -414,6 +533,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -431,6 +556,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -452,12 +583,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Definice: **Průměr grafu $G$**
+
+(tady asi stačí jen tušit ten význam)
 
 Back:
 
@@ -471,6 +610,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -492,6 +637,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -512,6 +663,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -529,6 +686,12 @@ Tags: otazka25
 <!--ID: 1749326556227-->
 
 END
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -548,6 +711,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -565,6 +734,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -584,6 +759,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -601,6 +782,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -620,12 +807,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: bisekční šířka
+Definice: **bisekční šířka**
 
 Back:
 
@@ -637,6 +830,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -655,6 +854,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -679,6 +884,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -711,6 +922,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -726,6 +943,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -749,6 +972,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -770,6 +999,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -795,6 +1030,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -823,6 +1064,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -843,6 +1090,12 @@ Tags: otazka25
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -872,6 +1125,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -889,6 +1148,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -912,6 +1177,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -929,6 +1200,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -954,6 +1231,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -978,6 +1261,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1001,6 +1290,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1027,6 +1322,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1060,6 +1361,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1077,6 +1384,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1103,6 +1416,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1120,6 +1439,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1141,6 +1466,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1159,6 +1490,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1176,6 +1513,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1197,6 +1540,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1214,6 +1563,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1233,6 +1588,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1250,6 +1611,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1271,6 +1638,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1290,6 +1663,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1314,6 +1693,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1331,6 +1716,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1351,6 +1742,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1368,6 +1765,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1387,6 +1790,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1404,6 +1813,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1423,6 +1838,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1440,6 +1861,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1466,6 +1893,12 @@ Tags: otazka26
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1494,6 +1927,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1511,6 +1950,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1532,6 +1977,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1548,6 +1999,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1567,6 +2024,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1584,6 +2047,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1603,6 +2072,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1620,6 +2095,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1639,6 +2120,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1656,6 +2143,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1675,6 +2168,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1692,6 +2191,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1713,6 +2218,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1730,6 +2241,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1752,6 +2269,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1778,6 +2301,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1797,6 +2326,12 @@ Tags: otazka27
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1821,6 +2356,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1841,6 +2382,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1858,6 +2405,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1877,6 +2430,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1894,6 +2453,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1915,6 +2480,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1935,6 +2506,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1952,6 +2529,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1971,6 +2554,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1988,6 +2577,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2007,6 +2602,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2024,6 +2625,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2043,6 +2650,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2060,6 +2673,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -2079,6 +2698,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2096,6 +2721,12 @@ Tags: otazka28
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -2115,6 +2746,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2133,6 +2770,13 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
+
 START
 FIT-Card
 
@@ -2148,6 +2792,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2168,6 +2818,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2185,6 +2841,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2206,6 +2868,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2221,6 +2889,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2244,6 +2918,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2261,6 +2941,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2280,6 +2966,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2297,6 +2989,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2320,6 +3018,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2337,6 +3041,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2356,6 +3066,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2373,6 +3089,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2392,6 +3114,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2409,6 +3137,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2428,6 +3162,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2445,6 +3185,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2464,6 +3210,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2481,6 +3233,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2500,6 +3258,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2516,6 +3280,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2531,6 +3301,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2557,6 +3333,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2581,6 +3363,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2597,6 +3385,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2616,6 +3410,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2634,12 +3434,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Je uzlově symetrická obyčejný motýlek $oBF_n$?
+Je uzlově symetrický obyčejný motýlek $oBF_n$?
 
 Back:
 
@@ -2651,6 +3457,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2670,6 +3482,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2687,6 +3505,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2706,6 +3530,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2724,6 +3554,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2741,6 +3577,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2766,6 +3608,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2789,6 +3637,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2804,6 +3658,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -2821,6 +3681,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2837,6 +3703,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -2852,6 +3724,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -2874,6 +3752,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2893,6 +3777,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -2916,6 +3806,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2933,6 +3829,12 @@ Tags: otazka29
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -2958,6 +3860,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2976,6 +3884,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -2993,6 +3907,12 @@ Tags: otazka30
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -3019,6 +3939,12 @@ Tags: otazka30
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -3050,6 +3976,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -3065,6 +3997,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -3082,6 +4020,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -3097,6 +4041,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -3114,6 +4064,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -3129,6 +4085,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -3146,6 +4108,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -3161,6 +4129,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

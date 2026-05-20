@@ -67,7 +67,6 @@ Jak je nejlepší postupovat u lo-fi a hi-fi prototypů podle Pavlíčka?
 Back:
 
 - Nejlepší je si lo-fi prototyp udělat při definování use casů (wireframe), navzájem to dolaďovat.
-
 <!--ID: 1762184131037-->
 END
 
@@ -150,7 +149,6 @@ Back:
 	- Jak dlouho trvá provedení určité akce
 - Výsledkem jsou čísla, sbírá se hodně dat
 - Používají se statistické metody
-
 <!--ID: 1762184131048-->
 END
 
@@ -174,7 +172,6 @@ Back:
 Max 7.. víc už nemá smysl, protože ty chyby se budou furt opakovat.
 
 Typicky 5 podle Nielsona, 7 podle Pavlíčka
-
 <!--ID: 1762184131051-->
 
 END
@@ -228,7 +225,6 @@ Back:
 - User survey
 - Ethnographic observations
 - Usability engineering
-
 <!--ID: 1762184131059-->
 END
 
@@ -339,7 +335,6 @@ Back:
 
 - Na prototypu
 - Dobré dělat v průběhu design procesu neformálně (jen si řeknu "splňuju tuhle heuristiku"?)
-
 <!--ID: 1762184131071-->
 END
 
@@ -372,7 +367,6 @@ Back:
 - Řekneme nějaký cíl, co má uživatel udělat
 - Zkoumáme, jakým způsobem se dostane k cíli
 - **Výhoda:** odhalíme větší chyby v použitelnosti systému
-
 <!--ID: 1762184131074-->
 END
 
@@ -394,7 +388,6 @@ Jaké jsou nevýhody testování bez uživatelů?
 Back:
 
 - Nepozoruju reálné uživatele, **testeři často mají už nějakou znalost** systému, není tak přesné
-
 <!--ID: 1762184131078-->
 END
 
@@ -420,7 +413,6 @@ Je třeba se zeptat:
 1. **Co se mi líbí?** - to si lidi pamatují méně, proto je třeba se na to zeptat první
 2. **Co se mi nelíbí?** - tohle si lidi pamatují dobře, takže na to se zeptat později
 3. **Doporučení** - co by se mělo zlepšit
-
 <!--ID: 1762184131081-->
 END
 
@@ -512,7 +504,6 @@ Back:
 1. Když trvá méně než půl vteřiny, nemusím dávat nic
 2. Když trvá méně než 5 vteřin, dát třeba loading
 3. Když trvá více než 5 vteřin dát třeba progress bar
-
 <!--ID: 1762184131093-->
 END
 
@@ -535,7 +526,6 @@ Back:
 
 - Dát tam "nekonečný progress bar", který jen jezdí ze strany na stranu.
 - Pokud to trvá delší dobu, vyhodit třeba upozornění, které se uživatele zeptá, jestli chce ještě čekat
-
 <!--ID: 1762184131096-->
 END
 
@@ -558,7 +548,6 @@ Back:
 
 - **Jaká chyba** (identifikátor nebo název)
 - **Říct, co má uživatel dělat** - jestli má akci opakovat nebo co má zkusit jiného
-
 <!--ID: 1762184131100-->
 END
 

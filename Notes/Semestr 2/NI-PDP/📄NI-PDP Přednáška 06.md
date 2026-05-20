@@ -7,6 +7,12 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska06 status-toReview
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -28,6 +34,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -40,9 +52,9 @@ Back:
 V MPI jsou **knihovní funkce** a ne direktivy.
 
 - **OpenMP** = API pro programování **vícevláknových** aplikací na **jednom uzlu**
-  - direktivy a funkce, přepínač překladače, přímé spuštění, komunikace pomocí sdílené paměti, proměnné mohou být sdílené
+	- direktivy a funkce, přepínač překladače, přímé spuštění, komunikace pomocí sdílené paměti, proměnné mohou být sdílené
 - **MPI** (_Message Passing Interface_) = systém pro zasílání zpráv mezi **procesy** aplikace
-  - jen funkce, wrapper nad překladačem, speciální nástroje pro spuštění, komunikace zasíláním zpráv, všechny proměnné jsou privátní
+	- jen funkce, wrapper nad překladačem, speciální nástroje pro spuštění, komunikace zasíláním zpráv, všechny proměnné jsou privátní
 
 <!-- DetailInfoStart -->
 
@@ -56,6 +68,12 @@ Tags: otazka17
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -82,6 +100,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -100,6 +124,12 @@ Počet vláken MPI lze nastavit pomocí přepínačů
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -126,6 +156,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -143,6 +179,12 @@ Tags: otazka17
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -168,6 +210,12 @@ Tags: otazka17
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -197,6 +245,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -219,6 +273,12 @@ Tags: otazka17
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -250,6 +310,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -268,6 +334,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -284,6 +356,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -299,6 +377,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -327,6 +411,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -354,6 +444,12 @@ Tags: otazka18
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -384,6 +480,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -413,6 +515,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -431,6 +539,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -448,6 +562,12 @@ Tags: otazka18
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -473,6 +593,12 @@ Tags: otazka18
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -506,6 +632,12 @@ Tags: otazka18
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -544,6 +676,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -571,6 +709,12 @@ Tags: otazka18
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -601,6 +745,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -616,6 +766,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -642,6 +798,12 @@ Tags: otazka18
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -675,6 +837,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -701,6 +869,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -718,6 +892,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -750,6 +930,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -765,6 +951,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -782,6 +974,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -797,6 +995,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -814,6 +1018,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -830,14 +1040,22 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Motivace pro standardní mód
+Proč je dobré použít standardní mód MPI komunikace?
 
 Back:
+
+MPI to samo rozhodne, jestli je lepší buffered nebo synchronous
 
 ![](../../../Assets/Pasted%20image%2020250330105001.png)
 <!--ID: 1746518365364-->
@@ -845,6 +1063,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -861,6 +1085,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -880,6 +1110,12 @@ Tags: otazka19
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -905,6 +1141,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -924,6 +1166,12 @@ Tags: otazka19
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -967,6 +1215,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -990,6 +1244,12 @@ Tags: otazka19
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1017,6 +1277,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1038,6 +1304,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1063,6 +1335,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1079,6 +1357,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1094,6 +1378,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1114,6 +1404,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1129,6 +1425,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1154,6 +1456,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1178,6 +1486,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1198,6 +1512,12 @@ Tags: otazka22
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1227,6 +1547,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1253,6 +1579,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1276,6 +1608,12 @@ Tags: otazka22
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1303,6 +1641,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1329,6 +1673,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1347,6 +1697,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1364,6 +1720,12 @@ Tags: otazka20
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1391,6 +1753,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1416,6 +1784,12 @@ Tags: otazka20
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1444,6 +1818,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1471,6 +1851,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-18
+Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1495,6 +1881,12 @@ Tags: otazka20
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1530,6 +1922,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1558,6 +1956,12 @@ Tags: otazka21
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1588,6 +1992,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1610,6 +2020,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1628,6 +2044,12 @@ END
 ---
 
 ### MPI paralelní systémy souborů
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1652,6 +2074,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1669,6 +2097,12 @@ Tags: otazka23
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1697,6 +2131,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1716,6 +2156,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1734,6 +2180,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1751,6 +2203,12 @@ Tags: otazka23
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1776,6 +2234,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1799,6 +2263,12 @@ Tags: otazka23
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1826,6 +2296,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1849,6 +2325,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1871,6 +2353,12 @@ Tags: otazka23
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1898,6 +2386,12 @@ Tags: otazka23
 
 END
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1921,6 +2415,12 @@ Tags: otazka23
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

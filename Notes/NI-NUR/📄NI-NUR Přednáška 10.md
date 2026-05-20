@@ -70,7 +70,6 @@ Jak vypadá testování jednotlivců?
 Back:
 
 - Lidi nahlas popisují, co dělají a co se jim honí hlavou
-
 <!--ID: 1762184130961-->
 END
 

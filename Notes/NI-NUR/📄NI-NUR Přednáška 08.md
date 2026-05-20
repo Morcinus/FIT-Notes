@@ -318,7 +318,6 @@ Back:
 - **Input Prompt**
 - **Dropdown Chooser**
 - **Illustrated Choices**
-
 <!--ID: 1762184131142-->
 END
 
@@ -430,7 +429,6 @@ Back:
 1. **Nejlepší je dávat dolu pod textfield**.
 2. Potom, kdyby bylo fakt málo místa (např. na mobilu), tak se to dá dát jako placeholder, ale vždy je lepší to dát pod.
 3. Nahoru je to antipattern
-
 <!--ID: 1762184131156-->
 END
 
@@ -792,7 +790,6 @@ Back:
 - Progress Indicator
 - Constrained Resize
 - Background images
-
 <!--ID: 1762184131197-->
 END
 

@@ -7,6 +7,12 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska04 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -32,6 +38,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -50,6 +62,12 @@ Tags: otazka09
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -70,6 +88,12 @@ Tags: otazka09
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -92,6 +116,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -109,6 +139,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -122,8 +158,8 @@ Back:
 - **Maximalizovat keš paměť**
 - **Zohlednit, že se načítají celé bloky keše** (např. 64B)
 - **Zamezit výpadkům cache**:
-  - výpadkům keše kvůli **střídání přístupu k rozměrným datovým strukturám**
-  - **nepřímá adresace** - způsobuje výpadky keše
+	- výpadkům keše kvůli **střídání přístupu k rozměrným datovým strukturám**
+	- **nepřímá adresace** - způsobuje výpadky keše
 
 <!-- DetailInfoStart -->
 
@@ -137,6 +173,12 @@ Tags: otazka09
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programování nad sdílenou pamětí
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -167,6 +209,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programování nad sdílenou pamětí
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -196,6 +244,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programování nad sdílenou pamětí
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -215,6 +269,12 @@ Tags: otazka09
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programování nad sdílenou pamětí
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -242,6 +302,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programování nad sdílenou pamětí
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -262,12 +328,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programování nad sdílenou pamětí
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak přesně funguje **podmínka zarovnání**?
+Jak přesně funguje **podmínka zarovnání**? Jak bychom ji aplikovali pro malá a velká pole?
 
 Back:
 
@@ -275,6 +347,9 @@ Falešné sdílení pro pole $A$ **nenastane**, pokud:
 
 1. `chunk_size X = cache_line_size/sizeof(int)`
 2. `alignas(cache_line_size) int A[n]` - pole začne na adrese dělitelné `cache_line_size`
+
+**Pro velká pole**: normálně zarovnáme
+**Pro malá pole**: "nafoukneme" to tak (uděláme z toho 2D array), abychom vyplnili ten blok
 
 <!-- DetailInfoStart -->
 
@@ -291,6 +366,12 @@ Tags: otazka09
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -324,6 +405,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -356,6 +443,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -373,6 +466,12 @@ Tags: otazka10
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -403,6 +502,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -419,6 +524,12 @@ Tags: otazka10
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -451,6 +562,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -479,6 +596,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -495,6 +618,12 @@ Tags: otazka10
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -521,6 +650,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -540,6 +675,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -558,6 +699,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -575,6 +722,12 @@ Tags: otazka10
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -603,6 +756,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -620,6 +779,12 @@ Tags: otazka11
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -647,6 +812,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -668,6 +839,12 @@ Tags: otazka11
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -693,6 +870,12 @@ Tags: otazka11
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -721,6 +904,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -744,6 +933,12 @@ Tags: otazka11
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -770,6 +965,12 @@ Tags: otazka11
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -799,6 +1000,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -821,6 +1028,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -840,6 +1053,12 @@ Tags: otazka12
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -863,6 +1082,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -884,6 +1109,12 @@ Tags: otazka12
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -917,6 +1148,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -936,6 +1173,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -961,6 +1204,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -985,6 +1234,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1007,6 +1262,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1028,6 +1289,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1047,6 +1314,12 @@ Tags: otazka12
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1083,6 +1356,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1107,6 +1386,12 @@ Tags: otazka13
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1138,6 +1423,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1168,6 +1459,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1188,6 +1485,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1205,6 +1508,12 @@ Tags: otazka13
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1229,6 +1538,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1246,6 +1561,12 @@ Tags: otazka13
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1274,12 +1595,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak funguje sekvenční násobení matic v CSR? Je rychlejší nebo pomalejší než COO?
+Jak funguje **sekvenční násobení** matic v CSR? Je rychlejší nebo pomalejší než COO?
 
 Back:
 
@@ -1294,6 +1621,12 @@ Tags: otazka13
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1325,6 +1658,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1352,6 +1691,12 @@ Tags: otazka13
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1381,6 +1726,12 @@ Tags: otazka13
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1414,6 +1765,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1430,6 +1787,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1448,6 +1811,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1461,6 +1830,12 @@ Back:
 ![](../../../Assets/Pasted%20image%2020250313111507.png)END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1478,6 +1853,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -1497,6 +1878,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

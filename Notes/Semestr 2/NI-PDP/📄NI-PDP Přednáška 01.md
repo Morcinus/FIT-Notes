@@ -7,6 +7,12 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska01 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -24,6 +30,12 @@ Tags: otazka01
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -64,6 +76,12 @@ END
 
 ### Modely paralelních systémů
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -91,6 +109,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -115,6 +139,12 @@ Tags: otazka01
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -154,6 +184,12 @@ END
 
 ##### Z hlediska paměti
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -186,6 +222,12 @@ END
 
 ##### Z hlediska propojovacích sítí
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -212,6 +254,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -231,6 +279,12 @@ END
 ---
 
 ### PRAM
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: PRAM model
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -278,6 +332,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: PRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -300,6 +360,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: PRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -321,6 +387,12 @@ Tags: otazka01
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: PRAM model
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -351,6 +423,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: PRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -376,6 +454,12 @@ Tags: otazka01
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -414,6 +498,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -449,6 +539,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -481,6 +577,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -508,6 +610,12 @@ END
 
 #### Programovací model
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -525,6 +633,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -550,6 +664,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: APRAM model
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -574,6 +694,12 @@ Tags: otazka03
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -607,6 +733,12 @@ END
 ### Měřítka složitosti sekvenčních algoritmů
 
 = něco jako teorie složitosti paralelních výpočtů
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -643,6 +775,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -676,6 +814,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -693,6 +837,12 @@ Tags: otazka03
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -734,6 +884,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -760,6 +916,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -784,12 +946,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Definice: Paralelní zrychlení
+Definice: **Paralelní zrychlení**
 
 Back:
 
@@ -804,12 +972,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Lemma: velikost/omezení $S(n,p)$
+Lemma: **velikost/omezení** $S(n,p)$
 
 Back:
 
@@ -829,6 +1003,12 @@ Tags: otazka03
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -860,6 +1040,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -886,6 +1072,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -910,6 +1102,12 @@ Tags: otazka03
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -938,6 +1136,12 @@ Tags: otazka03
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -970,6 +1174,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -994,6 +1204,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1011,6 +1227,12 @@ Tags: otazka03
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1039,6 +1261,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Škálovatelnost
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1063,6 +1291,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Škálovatelnost
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1085,6 +1319,12 @@ Tags: otazka04
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Škálovatelnost
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1118,6 +1358,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Škálovatelnost
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1150,6 +1396,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Škálovatelnost
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1173,6 +1425,12 @@ Tags: otazka04
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-16
+Exam Note Section Name: Škálovatelnost
+Migration Status: migrate
+-->
 
 START
 FIT-Card

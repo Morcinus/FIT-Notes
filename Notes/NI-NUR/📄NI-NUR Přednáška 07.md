@@ -68,7 +68,6 @@ Back:
 
 1. Rozdělíme design na desktopu do "bloků"
 2. Ty pak házíme pod sebe na mobilu v dlouhou scrollovací nudli
-
 <!--ID: 1762184131227-->
 END
 
@@ -101,7 +100,6 @@ Pak se dělá to, že buď:
 
 - se vytvoří dva designy (drahý, ale dobrý UX)
 - nebo se vybere, na jaké zařízení chceme cílit podle primární persony
-
 <!--ID: 1762184131230-->
 END
 
@@ -125,7 +123,6 @@ Back:
 Měl bych designovat podle toho, jaké zařízení bude primární persona používat.
 
 Pokud primárně používá mobil, měl bych to dělat mobile-first. Pokud desktop, tak desktop first.
-
 <!--ID: 1762184131233-->
 
 END

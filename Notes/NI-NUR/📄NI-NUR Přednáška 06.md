@@ -26,7 +26,6 @@ Back:
 2. **Working memory** - krátkodobá pracovní paměť
    - Např. když řídíme auto, tak se to všechno řeší v pracovní paměti
 1. **Long term memory** - tam si uchováváme data
-
 <!--ID: 1762184131262-->
 END
 
@@ -49,7 +48,6 @@ Back:
 
 - **4 chunky** (+-1)
 - Chunk je jednoduchý znak nebo číslo nebo i komplexní abstrakce a obrázky
-
 <!--ID: 1762184131265-->
 END
 
@@ -129,7 +127,6 @@ Back:
 
 - Měli bychom komponenty dávat na místa, aby člověk nemusel moc "přejíždět myší"
 - Měli bychom dělat komponenty dostatečně výrazné
-
 <!--ID: 1762184131275-->
 END
 
@@ -602,7 +599,6 @@ Back:
 
 - autorita, síla, elegance, formalita, smrt, strach
 - může mít často negativní význam
-
 <!--ID: 1762184131331-->
 END
 
@@ -656,7 +652,6 @@ Back:
 Tip: s červenou je dobré hodně šetřit, stačí jí málo v designu
 
 Fun fact: ženy oblečené do červeného jsou podle Pavlíčka atraktivnější :D čistě z toho psychologického hlediska
-
 <!--ID: 1762184131338-->
 
 END
@@ -705,7 +700,6 @@ Back:
 
 - **důvěra, diskrétnost, inteligence, přesnost**
 - **uklidňující, vypadá cool** (proto to používají hodně technologické společnosti)
-
 <!--ID: 1762184131345-->
 END
 

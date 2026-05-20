@@ -7,6 +7,12 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska08 status-toReview
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -27,6 +33,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -49,6 +61,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -68,6 +86,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -92,6 +116,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -120,6 +150,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -140,6 +176,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -157,6 +199,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -176,6 +224,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -193,6 +247,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -212,6 +272,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -229,6 +295,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -248,6 +320,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -263,6 +341,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -282,6 +366,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -305,6 +395,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -335,6 +431,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -359,6 +461,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -378,6 +486,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -396,6 +510,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -412,6 +532,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -427,6 +553,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -445,6 +577,12 @@ Je to stejný jako graf, jen u grafu všichni musí ukládat celou reprezentaci,
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -469,6 +607,12 @@ Neboli mřížky a toroidy jsou kvaziizometrické
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -495,12 +639,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak funguje Mortonova křivka?
+Jak funguje **Mortonova křivka**?
 
 Back:
 
@@ -517,6 +667,12 @@ Tags: otazka32
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -536,6 +692,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -554,6 +716,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -565,6 +733,8 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250419114211.png)
 
+(stejnou dilataci jako Mortonovy křivky)
+
 Tzn.
 $$2^{k-1}$$
 
@@ -574,6 +744,12 @@ Tags: otazka32
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -599,6 +775,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -616,6 +798,12 @@ Tags: otazka32
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -636,16 +824,24 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-19
+Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Věta: kvaziizometričnost motýlků
+Věta: **kvaziizometričnost motýlků**
 
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419114304.png)
+
+Tzn. lze je do sebe vnořit
 
 <!-- DetailInfoStart -->
 
@@ -658,6 +854,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -686,6 +888,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -706,6 +914,12 @@ Tags: otazka31
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

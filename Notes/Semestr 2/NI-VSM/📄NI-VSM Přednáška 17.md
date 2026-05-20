@@ -113,7 +113,6 @@ Definice: **Poissonův proces 2**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140015.png)
-
 <!--ID: 1746599649625-->
 
 END
@@ -213,7 +212,6 @@ Jaká je distribuční funkce exponenciálního rozdělení?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250525180005.png)
-
 <!--ID: 1748188849403-->
 
 END
@@ -236,7 +234,6 @@ Věta: **Bezpaměťovost exponenciálního rozdělení**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140119.png)
-
 <!--ID: 1746599649646-->
 
 END
@@ -259,7 +256,6 @@ Věta: Silná bezpaměťovost exponenciálního rozdělení
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140137.png)
-
 <!--ID: 1746599649654-->
 
 END
@@ -282,7 +278,6 @@ Věta: **Součet exponenciálních je gamma**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140156.png)
-
 <!--ID: 1746599649660-->
 
 END
@@ -305,7 +300,6 @@ Věta: **Ekvivalence definic Poissonova procesu**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140214.png)
-
 <!--ID: 1746599649667-->
 
 END
@@ -328,7 +322,6 @@ Lemma: **Jaké rozdělení má náhodná veličina**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140250.png)
-
 <!--ID: 1746599649674-->
 
 END
@@ -351,7 +344,6 @@ Lemma: **Bezpaměťovost Poissonova procesu**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140308.png)
-
 <!--ID: 1746599649680-->
 
 END
@@ -375,7 +367,6 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140332.png)
 ![](../../../Assets/Pasted%20image%2020250419140338.png)
-
 <!--ID: 1746599649688-->
 
 END
@@ -398,7 +389,6 @@ Věta: **náhodný (_spojitý_) proces je markovský právě tehdy když**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140359.png)
-
 <!--ID: 1746599649695-->
 
 END
@@ -421,7 +411,6 @@ Věta: **Chapman-Kolmogorov** (pro spojité markovské řetězce)
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250419140410.png)
-
 <!--ID: 1746599649701-->
 
 END
@@ -521,7 +510,6 @@ Back:
 $$\textbf{Q}=\textbf{P}'(0)$$
 
 Tzn. prostě zderivuju každý prvek té matice $\textbf{P}$
-
 <!--ID: 1748180445895-->
 
 END
@@ -552,7 +540,6 @@ Back:
 2. $\frac{\textbf{Q}_{ij}}{-\textbf{Q}_{ii}}$
 
 ![](../../../Assets/Pasted%20image%2020250419140652.png)
-
 <!--ID: 1746599649722-->
 
 END

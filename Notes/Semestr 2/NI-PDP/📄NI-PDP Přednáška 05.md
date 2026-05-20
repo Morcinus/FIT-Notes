@@ -7,6 +7,12 @@ up: "[[📖NI-PDP]]"
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska05 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -34,12 +40,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jak vypadá sekvenční verze QuickSortu?
+
+(Pozn. tady podle mě nemá cenu se to učit přesně, ale jen cca tušit, co tam je za funkce)
 
 Back:
 
@@ -71,6 +85,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -90,6 +110,12 @@ Tags: otazka14
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -113,6 +139,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -132,6 +164,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -148,6 +186,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -163,6 +207,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -182,6 +232,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -204,6 +260,12 @@ Tags: otazka14
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -228,6 +290,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -248,6 +316,12 @@ Tags: otazka14
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -280,6 +354,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -303,6 +383,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -321,12 +407,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak lze paralelizovat quicksort algoritmus (Hoareova)?
+Jak lze **paralelizovat quicksort algoritmus** (Hoareova)?
 
 Back:
 
@@ -352,6 +444,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -373,6 +471,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -392,6 +496,12 @@ Když už si nějaké vlákno "vysoutěží" přístup k té sdílené paměti, 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -416,6 +526,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -432,6 +548,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -447,6 +569,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -470,6 +598,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -487,6 +621,12 @@ END
 ---
 
 ### Merge Sort
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -514,12 +654,20 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
 Jak vypadá učebnicová verze Merge Sortu? (SUV)
+
+(Pozn. tady podle mě nemá cenu se to učit přesně, ale jen cca tušit, co tam je za funkce)
 
 Back:
 
@@ -556,6 +704,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -585,6 +739,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -613,6 +773,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -628,6 +794,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -645,6 +817,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -661,6 +839,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -676,6 +860,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -703,6 +893,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -715,8 +911,8 @@ Back:
 Prahování - Místo původní koncové podmínky dáme:
 
 - `if((hi-lo) < threshold)`
-  - `seq_mergesort_Rec(B, lo, hi,A)`
-  - `return`
+	- `seq_mergesort_Rec(B, lo, hi,A)`
+	- `return`
 
 Rozděl a půlku si nech:
 
@@ -729,6 +925,12 @@ Tags: otazka15
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -746,6 +948,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -761,6 +969,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -797,6 +1011,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -814,6 +1034,12 @@ Tags: otazka15
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -841,11 +1067,11 @@ Funguje podobně jako 2-cestné, ale obecněji:
 
 <!-- DetailInfoStart -->
 
-4. Každé vlákno si stejně jako u 2-cestného najde **rozdělovač** (tam to byly ty průsečíky s lomennou čárou), který mi v každém poli $S_1 \dots S_p$ označí část $\tau_i$, kterou bude $i$-té vlákno zpracovávat. Zde bude rozdělovač **vektor** bodů v poli(to jsou jakoby průměty toho rozdělovače do těch částí pole). To najde funkce `Splitters_by_Rank(S,my_id*n/p)`.
-   - Tyto části $\tau_i$ jsou pro každé vlákno **stejně velké**.
-   - Pro všechny prvky $\tau_i$ platí, že jsou menší než $\tau_{i-1}$ (díky tomu až slijeme pole tak bude opět seřazené)
-5. Každé vlákno pak sekvenčně sloučí všechny svoje části v $\tau_i$
-6. Tyto části pak dáme za sebe a získáme seřazené pole
+1. Každé vlákno si stejně jako u 2-cestného najde **rozdělovač** (tam to byly ty průsečíky s lomennou čárou), který mi v každém poli $S_1 \dots S_p$ označí část $\tau_i$, kterou bude $i$-té vlákno zpracovávat. Zde bude rozdělovač **vektor** bodů v poli(to jsou jakoby průměty toho rozdělovače do těch částí pole). To najde funkce `Splitters_by_Rank(S,my_id*n/p)`.
+	- Tyto části $\tau_i$ jsou pro každé vlákno **stejně velké**.
+	- Pro všechny prvky $\tau_i$ platí, že jsou menší než $\tau_{i-1}$ (díky tomu až slijeme pole tak bude opět seřazené)
+2. Každé vlákno pak sekvenčně sloučí všechny svoje části v $\tau_i$
+3. Tyto části pak dáme za sebe a získáme seřazené pole
 
 Podrobnější vysvětlení:
 
@@ -871,6 +1097,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -894,6 +1126,12 @@ Tags: otazka16
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -928,6 +1166,12 @@ Tags: otazka16
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -975,6 +1219,12 @@ Tags: otazka16
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card

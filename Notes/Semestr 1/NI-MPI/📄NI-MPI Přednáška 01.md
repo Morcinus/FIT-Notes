@@ -345,7 +345,6 @@ Je to podobné jako u intervalů v $\mathbb{R}$.
 - uzavřená - jsou tam i hraniční body té množiny 
 
 <!-- ExplanationEnd -->
-
 <!--ID: 1728921214874-->
 
 END

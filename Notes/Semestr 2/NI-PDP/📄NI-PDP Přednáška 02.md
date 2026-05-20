@@ -8,6 +8,12 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-PDP prednaska02 status-toReview
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -25,6 +31,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -50,6 +62,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -74,6 +92,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -91,6 +115,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -113,6 +143,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -131,6 +167,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -152,6 +194,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -171,6 +219,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -201,6 +255,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -229,6 +289,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -256,6 +322,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -280,6 +352,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -299,6 +377,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -316,6 +400,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -350,6 +440,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -376,6 +472,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Programový model OpenMP
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -409,6 +511,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -426,6 +534,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -445,6 +559,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -462,6 +582,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -481,6 +607,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -498,6 +630,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -517,6 +655,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -534,6 +678,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -559,6 +709,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -582,6 +738,12 @@ Tags: otazka05
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -610,6 +772,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Datový a funkční paralelismus
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -632,6 +800,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Datový a funkční paralelismus
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -644,7 +818,7 @@ Back:
 - `schedule()` - upřesňuje způsob přiřazení iterací cyklu vláknům
 - `collapse(i)` - u víceúrovňového cyklu kolik vrstev cyklů má zkolabovat do jednovrstvého iterátoru
 - `private(seznam) | firstprivate(seznam) | lastprivate(seznam) | shared(seznam) | reduction(operator:seznam)`
-  - `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
+	- `lastprivate()` - hodnota bude rovna hodnotě proměnné v poslední iteraci cyklu
 - `ordered` - iterace musí být vykonávány v sekvenčním pořadí
 - `nowait` - pokud to tam nedám, tak všechna vlákna, co počítali for loop, budou čekat až do konce iteračního výpočtu. Nowait umožní vyskočit z těla toho cyklu a nečekat na ostatní
 
@@ -654,6 +828,12 @@ Tags: otazka06
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Datový a funkční paralelismus
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -698,6 +878,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Datový a funkční paralelismus
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -723,6 +909,12 @@ Tags: otazka06
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -759,6 +951,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -779,6 +977,12 @@ Tags: otazka06
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -805,6 +1009,12 @@ Tags: otazka06
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Datový a funkční paralelismus
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -839,6 +1049,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -870,6 +1086,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Datový a funkční paralelismus
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -887,6 +1109,12 @@ Tags: otazka07
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -914,6 +1142,12 @@ Tags: otazka07
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -945,6 +1179,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -971,6 +1211,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -995,6 +1241,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1018,6 +1270,12 @@ Tags: otazka08
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1047,6 +1305,12 @@ Tags: otazka08
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -1089,6 +1353,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -1124,6 +1394,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1144,6 +1420,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -1163,6 +1445,12 @@ Tags: otazka08
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-17
+Exam Note Section Name: Synchronizace vláken
+Migration Status: migrate
+-->
 
 START
 FIT-Card

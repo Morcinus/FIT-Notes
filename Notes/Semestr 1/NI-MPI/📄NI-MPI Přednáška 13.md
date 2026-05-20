@@ -307,7 +307,6 @@ Back:
 1. Ověřím, jestli $gcd(x,m) = 1$, pokud ano, mohu použít Fermatovu/Eulerovu větu
 2. Použiju Fermatovu/Eulerovu větu -> získám $x^s \equiv 1 \pmod{m}$
 3. Spočtu původní číslo tak, že využiju $x^s \equiv 1$ a zároveň to modulo. Tím se dostanu k výsledku
-
 <!--ID: 1762184495621-->
 END
 

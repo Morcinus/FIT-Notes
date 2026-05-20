@@ -155,7 +155,6 @@ Back:
 2. Když budu třeba náhodnou veličinu v stupních celsia transformovat na střední hodnotu ve Fahrenheitech, tak mi jednoduše stačí pronásobit tu $E$.. Tzn. můžu si jednoduše posouvat hodnoty náhodné veličiny a tu střední hodnotu o nějaké konstanty.
 3. Prostě když mám konstantu, tak její střední hodnota je prostě ta konstanta
 <!-- ExplanationEnd -->
-
 <!--ID: 1746599650515-->
 
 END
