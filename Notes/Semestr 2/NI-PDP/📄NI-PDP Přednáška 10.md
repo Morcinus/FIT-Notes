@@ -10,7 +10,7 @@ FILE TAGS: NI-PDP prednaska10 status-toReview
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Paralelní algoritmy pro redukci
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -32,7 +32,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Paralelní algoritmy pro redukci
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -56,7 +56,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Paralelní algoritmy pro redukci
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -83,7 +83,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Paralelní algoritmy pro redukci
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -155,7 +155,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Paralelní algoritmy pro redukci
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -185,7 +185,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Paralelní algoritmy pro redukci
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -210,7 +210,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -230,7 +230,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -252,7 +252,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -274,7 +274,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -296,7 +296,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -318,7 +318,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -346,7 +346,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -368,7 +368,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -390,7 +390,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -412,7 +412,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -432,7 +432,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -460,7 +460,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -486,7 +486,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -508,7 +508,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -531,7 +531,7 @@ Back:
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -551,7 +551,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -571,7 +571,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -591,7 +591,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -611,7 +611,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -632,7 +632,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -652,7 +652,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

@@ -192,7 +192,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -279,7 +279,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -362,7 +362,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -386,7 +386,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -460,7 +460,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -510,7 +510,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -586,7 +586,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -810,7 +810,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -834,7 +834,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -858,7 +858,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -888,7 +888,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -947,7 +947,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1128,7 +1128,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1152,7 +1152,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1180,7 +1180,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1204,7 +1204,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1234,7 +1234,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1264,7 +1264,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1294,7 +1294,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1326,7 +1326,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1469,7 +1469,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1493,7 +1493,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1517,7 +1517,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1543,7 +1543,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1567,7 +1567,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1591,7 +1591,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1615,7 +1615,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1641,7 +1641,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1667,7 +1667,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1696,7 +1696,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1720,7 +1720,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1865,7 +1865,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1897,7 +1897,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1930,7 +1930,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1954,7 +1954,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1980,7 +1980,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2003,7 +2003,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2027,7 +2027,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2051,7 +2051,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2075,7 +2075,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2099,7 +2099,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2123,7 +2123,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2147,7 +2147,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2171,7 +2171,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2195,7 +2195,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2221,7 +2221,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2245,7 +2245,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2273,7 +2273,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2304,7 +2304,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2330,7 +2330,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2359,7 +2359,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2385,7 +2385,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2409,7 +2409,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2433,7 +2433,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2457,7 +2457,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2483,7 +2483,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2509,7 +2509,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2533,7 +2533,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2557,7 +2557,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2581,7 +2581,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2605,7 +2605,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2629,7 +2629,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2653,7 +2653,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2796,7 +2796,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2821,7 +2821,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2845,7 +2845,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2871,7 +2871,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2893,7 +2893,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2921,7 +2921,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2945,7 +2945,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2969,7 +2969,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2993,7 +2993,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3021,7 +3021,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3045,7 +3045,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3069,7 +3069,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3093,7 +3093,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3117,7 +3117,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3141,7 +3141,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3165,7 +3165,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3189,7 +3189,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3213,7 +3213,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3237,7 +3237,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3261,7 +3261,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3283,7 +3283,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3305,7 +3305,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3336,7 +3336,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3366,7 +3366,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3389,7 +3389,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3413,7 +3413,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3437,7 +3437,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3461,7 +3461,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3485,7 +3485,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3509,7 +3509,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3533,7 +3533,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3557,7 +3557,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3581,7 +3581,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3611,7 +3611,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3706,7 +3706,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -3728,7 +3728,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-19
 Exam Note Section Name: Přímé ortogonální a hyperkubické propojovací sítě paralelních počítačů (definice, vlastnosti, vnořování)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

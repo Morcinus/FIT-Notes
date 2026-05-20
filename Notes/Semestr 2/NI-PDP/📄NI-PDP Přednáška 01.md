@@ -283,7 +283,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: PRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -335,7 +335,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: PRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -363,7 +363,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: PRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -391,7 +391,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: PRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -426,7 +426,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: PRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -458,7 +458,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -501,7 +501,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -542,7 +542,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -580,7 +580,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -613,7 +613,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -637,7 +637,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -667,7 +667,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: APRAM model
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -737,7 +737,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -778,7 +778,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -817,7 +817,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -841,7 +841,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -887,7 +887,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -919,7 +919,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -949,7 +949,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -975,7 +975,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1007,7 +1007,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1043,7 +1043,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1075,7 +1075,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1106,7 +1106,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1140,7 +1140,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1177,7 +1177,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1207,7 +1207,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1231,7 +1231,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Výkonnostní měřítka paralelních algoritmů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1264,7 +1264,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Škálovatelnost
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1294,7 +1294,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Škálovatelnost
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1323,7 +1323,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Škálovatelnost
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1361,7 +1361,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Škálovatelnost
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1399,7 +1399,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Škálovatelnost
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1429,7 +1429,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-16
 Exam Note Section Name: Škálovatelnost
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

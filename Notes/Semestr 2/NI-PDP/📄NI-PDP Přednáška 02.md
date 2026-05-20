@@ -11,7 +11,7 @@ FILE TAGS: NI-PDP prednaska02 status-toReview
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -35,7 +35,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -95,7 +95,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -119,7 +119,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -197,7 +197,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -223,7 +223,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -258,7 +258,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -292,7 +292,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -325,7 +325,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -404,7 +404,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -476,7 +476,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Programový model OpenMP
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -775,7 +775,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Datový a funkční paralelismus
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -803,7 +803,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Datový a funkční paralelismus
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -832,7 +832,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Datový a funkční paralelismus
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -881,7 +881,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Datový a funkční paralelismus
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1013,7 +1013,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Datový a funkční paralelismus
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1089,7 +1089,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Datový a funkční paralelismus
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1146,7 +1146,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1182,7 +1182,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1214,7 +1214,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1244,7 +1244,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1274,7 +1274,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1309,7 +1309,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1356,7 +1356,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1449,7 +1449,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Synchronizace vláken
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

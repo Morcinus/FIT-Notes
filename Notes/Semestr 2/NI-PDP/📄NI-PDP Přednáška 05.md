@@ -43,7 +43,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -114,7 +114,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -236,7 +236,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -264,7 +264,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -293,7 +293,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -320,7 +320,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -657,7 +657,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -707,7 +707,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -742,7 +742,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -864,7 +864,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -896,7 +896,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -973,7 +973,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1038,7 +1038,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -1100,7 +1100,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-17
 Exam Note Section Name: Vícevláknové algoritmy (násobení polynomů, násobení matic a vektorů, řazení)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

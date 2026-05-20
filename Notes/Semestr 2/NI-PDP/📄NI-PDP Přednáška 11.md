@@ -11,7 +11,7 @@ FILE TAGS: NI-PDP prednaska11 status-toReview
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní násobení hustých matic
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -35,7 +35,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní násobení hustých matic
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -55,7 +55,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní násobení hustých matic
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -73,7 +73,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní násobení hustých matic
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -94,7 +94,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní mocninná metoda
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -113,7 +113,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní mocninná metoda
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -135,7 +135,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní mocninná metoda
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -157,7 +157,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní mocninná metoda
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ
@@ -175,7 +175,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Paralelní mocninná metoda
-Migration Status: migrate
+Migration Status: done
 -->
 START
 NI-SZZ

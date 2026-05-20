@@ -10,7 +10,7 @@ FILE TAGS: NI-PDP prednaska09 status-toReview
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -45,7 +45,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2724,7 +2724,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2746,7 +2746,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2768,7 +2768,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2790,7 +2790,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2812,7 +2812,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2834,7 +2834,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -2856,7 +2856,7 @@ END
 <!--
 Exam Note ID: NI-SPOL-18
 Exam Note Section Name: Programový model MPI (vícevláknové procesy, komunikátory, 2-bodové blokující a neblokující komunikační operace, kolektivní operace)
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
