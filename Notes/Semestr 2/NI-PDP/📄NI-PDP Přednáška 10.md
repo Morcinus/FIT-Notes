@@ -40,7 +40,7 @@ FIT-Card
 
 (FIT-Notes flashcard)
 
-Jaký je **paralelní čas** paralelní redukce? 
+Jaký je **paralelní čas** paralelní redukce?
 
 Back:
 
@@ -214,6 +214,26 @@ Migration Status: migrate
 -->
 
 START
+NI-SZZ
+
+Jaké MPI funkce implementují prefixový součet (scan)?
+
+Back:
+
+- `MPI_Scan(*sendbuf, *recvbuf, count, datatype, op, comm)` počítá inkluzivní prefixový součet
+- `MPI_Exscan` počítá exkluzivní prefixový součet, tedy do výsledku nezahrnuje vlastní hodnotu, jen hodnoty ostře vlevo
+<!--ID: 1779299850227-->
+END
+
+---
+
+<!--
+Exam Note ID: NI-SPOL-20
+Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
+Migration Status: migrate
+-->
+
+START
 FIT-Card
 
 (FIT-Notes flashcard)
@@ -350,6 +370,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -361,6 +382,7 @@ Todo napsat nějaký basic vysvětlení
 
 ![](../../../Assets/Pasted%20image%2020260520192728.png)
 <!--ID: 1779299206165-->
+
 END
 
 ---
@@ -370,6 +392,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -381,6 +404,7 @@ Back:
 
 Pokud se použije **postorder linearizace**, tak je pak podobný jako ten nepřímý
 <!--ID: 1779299206168-->
+
 END
 
 ---
@@ -390,6 +414,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -399,6 +424,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020260520193109.png)
 <!--ID: 1779299206170-->
+
 END
 
 ---
@@ -408,6 +434,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -420,10 +447,12 @@ lexikografická indexace, každý proces si do žlutého registru přičítá sv
 ![](../../../Assets/Pasted%20image%2020260520193145.png)
 
 <!-- DetailInfoStart -->
-![](../../../Assets/Pasted%20image%2020260520193152.png)
-<!-- DetailInfoEnd -->
 
+![](../../../Assets/Pasted%20image%2020260520193152.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1779299206173-->
+
 END
 
 ---
@@ -433,6 +462,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -443,10 +473,12 @@ Back:
 linearizace lexikograficky po řádcích, 3 fáze (doprava po řádcích, dolů v posledním sloupci, doleva po řádcích kromě prvního) $O(nm)$
 
 <!-- DetailInfoStart -->
-![](../../../Assets/Pasted%20image%2020260520193233.png)
-<!-- DetailInfoEnd -->
 
+![](../../../Assets/Pasted%20image%2020260520193233.png)
+
+<!-- DetailInfoEnd -->
 <!--ID: 1779299206176-->
+
 END
 
 ---
@@ -456,6 +488,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -467,6 +500,7 @@ simulace nepřímého binárního stromu $O(\log n)$
 
 ![](../../../Assets/Pasted%20image%2020260520193312.png)
 <!--ID: 1779299206178-->
+
 END
 
 ---
@@ -476,6 +510,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -488,8 +523,8 @@ Back:
 - **RadixSort**
 - **binární sčítačka s predikcí přenosu**
 - **tridiagonální systém rovnic** (modelace šíření tepla drátem, kmitání struny na kytaře)
-<!--ID: 1779299206181-->
-END
+  <!--ID: 1779299206181-->
+  END
 
 ---
 
@@ -498,6 +533,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -507,6 +543,7 @@ Back:
 
 řazení $N = 2^n$ čísel zhušťováním od nejméně významného bitu, $O(\log^2 N)$ na $oBF_n$
 <!--ID: 1779299206184-->
+
 END
 
 ---
@@ -516,6 +553,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -525,6 +563,7 @@ Back:
 
 součet dvou $n$-bitových čísel za $O(\log n)$
 <!--ID: 1779299206186-->
+
 END
 
 ---
@@ -534,6 +573,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -543,6 +583,7 @@ Back:
 
 tridiagonální systém rovnic (modelace šíření tepla drátem, kmitání struny na kytaře): dá se zapsat rekurentně, pomocí PPS s operací maticového násobení předpočítat matice $\mathcal H_i$ a celé to vyřešit za $O(n/p + \log p)$
 <!--ID: 1779299206189-->
+
 END
 
 ---
@@ -552,6 +593,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -561,6 +603,7 @@ Back:
 
 jako prefixový součet, ale výsledky se nešíří přes hranice segmentů
 <!--ID: 1779299206192-->
+
 END
 
 ---
@@ -570,6 +613,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -580,6 +624,7 @@ Back:
 algoritmus je stejný, ale do sémantiky operace \oplus se zapracují oddělovače segmentů
 ![](../../../Assets/Pasted%20image%2020260520193753.png)
 <!--ID: 1779299206195-->
+
 END
 
 ---
@@ -589,6 +634,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -598,6 +644,7 @@ Back:
 
 v MPI se implementuje pomocí uživatelské operace (`MPI_Op_create(segScan, 0, &myOp);`)
 <!--ID: 1779299206198-->
+
 END
 
 ---
@@ -607,6 +654,7 @@ Exam Note ID: NI-SPOL-20
 Exam Note Section Name: Prefixový součet a segmentový prefixový součet na PRAM, v ortogonálních, hyperkubických a obecných topologiích, aplikace
 Migration Status: migrate
 -->
+
 START
 NI-SZZ
 
@@ -616,6 +664,7 @@ Back:
 
 **QuickSort**: out-of-place, nejdřív jeden segment, pro distribuci pivotů se použije SPPS, v každé iteraci je každý segment rozdělen na tři podle pivota ($S_<, S_=, S_>$) třemi zhuštěními pomocí SPPS → každá z $O(\log n)$ iterací vyžaduje konstantní počet SPPS → celková složitost $O(\log n \cdot (n/p + \log p))$
 <!--ID: 1779299206201-->
+
 END
 
 ---
