@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska02 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -32,6 +38,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Problematika modularity
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -59,6 +71,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Problematika modularity
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -81,6 +99,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -96,6 +120,12 @@ Myšlenka, že softwary a objekty by měly být modelovány podle toho, jak lidi
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Historie přístupu k evolvabilitě softwarových systémů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -116,6 +146,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Návrhové vzory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -132,6 +168,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Historie přístupu k evolvabilitě softwarových systémů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -142,7 +184,7 @@ Jaké jsou hlavní **nedostatky momentálních metodologií**? (4)
 Back:
 
 1. **Adoption of Methodologies** - různí vývojáři znají a používají různé design patterny atd.
-   - I když je dobře sestavená teorie jak dobře budovat systémy, vývojáři to nedodržují konzistentně a proto není software tak kvalitní
+	- I když je dobře sestavená teorie jak dobře budovat systémy, vývojáři to nedodržují konzistentně a proto není software tak kvalitní
 2. **Vagueness** - metodologie a design patterny jsou furt hodně vágní a pořád lidi nejsou shodlý na tom, co přesně to znamená (např. loose coupling)
 3. **Systematic Approach** - ne všichni aplikují good design systematicky
 4. **Traceability** - metodologie nevynucují ani nepopisují přesně to, že by všechno mělo být traceable

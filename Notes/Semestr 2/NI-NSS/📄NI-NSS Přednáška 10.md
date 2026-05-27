@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska10 status-toReview
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -22,6 +28,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -41,6 +53,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -57,6 +75,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -82,6 +106,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -97,6 +127,12 @@ Počet custom craftings - pokud to roste, znamená to, že si dělám moc custom
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
 
 START
 FIT-Card

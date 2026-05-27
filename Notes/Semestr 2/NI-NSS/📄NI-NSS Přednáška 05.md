@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska05 status-toReview
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -30,12 +36,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak docílit separation of concerns prakticky?
+Jak docílit **separation of concerns** prakticky?
 
 Back:
 
@@ -47,6 +59,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -78,6 +96,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -108,6 +132,12 @@ Jak to aplikovat v praxi:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -143,6 +173,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Problematika modularity
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -153,12 +189,12 @@ Co přesně znamená low coupling a high cohesion v NST?
 Back:
 
 - **Low coupling** = low inter-modular coupling
-  - Data Version Transparency
-  - Action Version Transparency
-  - Separation of States
+	- Data Version Transparency
+	- Action Version Transparency
+	- Separation of States
 - **High cohesion** = low intra-modular coupling
-  - Separation of Concerns
-  - Separation of States
+	- Separation of Concerns
+	- Separation of States
 
 <!-- DetailInfoStart -->
 

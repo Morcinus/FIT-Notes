@@ -7,12 +7,18 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska08 status-toReview
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Co je Prime Radiant?
+Co je **Prime Radiant**?
 
 Back:
 
@@ -29,27 +35,33 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Způsoby zajištění evolvability software pomocí NSS (Normalizované softwarové systémy)
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak se řeší změny v Mirrors?
+Jak se řeší změny v **Mirrors**?
 
 Back:
 
-Mirrors - Data
+**Mirrors - Data**
 
 - Přidávat atributy Data entitám
 - Je umožňeno přidávat nové Data entity
 
-Mirrors - Task
+**Mirrors - Task**
 
 - Je možné přidávat additional task implementations
 - Je možné přidávat mandatory task implementations
 - Je možné přidávat additional processing
 
-Mirrors - Flow
+**Mirrors - Flow**
 
 - Je možné přidávat nebo modifikovat state transitions
 - Je možné implementovat nové sequencing flow
@@ -58,6 +70,12 @@ Mirrors - Flow
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Způsoby zajištění evolvability software pomocí NSS (Normalizované softwarové systémy)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -88,12 +106,18 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
 (FIT-Notes flashcard)
 
-Jak se řeší změny v skeletons?
+Jak se řeší změny v **skeletons**?
 
 Back:
 

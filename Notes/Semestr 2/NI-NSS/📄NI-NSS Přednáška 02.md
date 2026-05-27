@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska01 status-toReview
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Teoretické základy evolvabiltních softwarových systémů
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -22,6 +28,12 @@ Studují, jak se velké **modulární struktury** chovají při **změnách**
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -39,6 +51,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Způsoby zajištění evolvability software pomocí NSS (Normalizované softwarové systémy)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -68,6 +86,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Kombinatorický efekt
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -90,6 +114,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Principy a zákony
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -111,6 +141,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Normalizované systémy
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -126,6 +162,12 @@ Modulární systém s žádným combinatorial effectem
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -148,6 +190,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -163,6 +211,12 @@ Ne, typicky NS generátory jsou schopný vytvořit skeleton, což je 90% výsled
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Návrhové vzory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -187,6 +241,12 @@ Důležitá vlastnost: Můžeme u nich **dokázat** že nemají combinatorial ef
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
 
 START
 FIT-Card

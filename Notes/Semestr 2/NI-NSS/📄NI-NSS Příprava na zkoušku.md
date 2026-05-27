@@ -30,6 +30,12 @@ FILE TAGS: NI-NSS exam status-toReview
 - [22. 6. 2017](https://fit-wiki.cz/%C5%A1kola/p%C5%99edm%C4%9Bty/mi-nss/nss_test_ls1617_22062017 "škola:předměty:mi-nss:nss_test_ls1617_22062017")
   - (2) - to jsme neměli
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
+
 START
 FIT-Card
 

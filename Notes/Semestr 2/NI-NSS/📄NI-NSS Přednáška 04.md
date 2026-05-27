@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska04 status-toReview
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Stabilita systému
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -39,6 +45,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Kombinatorický efekt
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -50,8 +62,8 @@ Back:
 
 Máme:
 
-- Koncepty - data, akce atd.
-- Implementace - konkrétní třídy, metody
+- **Koncepty** - data, akce atd.
+- **Implementace** - konkrétní třídy, metody
 
 Koncepty jsou jakoby požadavky na ten systém. Když se mi změní nějaký ten koncept (poždavek), tak se může stát, že je třeba změnit hromadu dalších věcí
 

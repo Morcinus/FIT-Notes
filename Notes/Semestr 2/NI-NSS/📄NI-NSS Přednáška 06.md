@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska06 status-toReview
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Architektura
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -22,6 +28,12 @@ Věci, které jsou napříč celým projektem (například autorizace, databáze
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Návrhové vzory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -46,6 +58,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-11
+Exam Note Section Name: Kombinatorický efekt
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -67,6 +85,12 @@ Takhle to vypadá, pokud zorganizuju systém do elementů:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Návrhové vzory
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -90,6 +114,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Návrhové vzory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -105,6 +135,12 @@ Vyžaduje to hoodně boilerplatu a repetetivních tříd
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
 
 START
 FIT-Card

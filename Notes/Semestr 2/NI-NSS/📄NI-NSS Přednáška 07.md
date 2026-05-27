@@ -7,6 +7,12 @@ up: "[[📖NI-NSS]]"
 TARGET DECK: archive
 FILE TAGS: NI-NSS prednaska07 status-toReview
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Návrhové vzory
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -26,6 +32,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -41,6 +53,12 @@ Pro každý element máme **template**. Z toho se pak udělá jeho **instance** 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Způsoby zajištění evolvability software pomocí NSS (Normalizované softwarové systémy)
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -69,6 +87,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Generování kódu
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -87,6 +111,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Architektura
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -102,6 +132,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Architektura
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -135,6 +171,12 @@ Tbh mi to zní jako docela too good to be true a docela by mě zajímal ten shit
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-12
+Exam Note Section Name: Architektura
+Migration Status: done
+-->
 
 START
 FIT-Card
