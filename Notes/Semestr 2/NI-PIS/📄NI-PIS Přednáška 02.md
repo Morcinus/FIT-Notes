@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska02 status-toReview
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -17,11 +23,18 @@ Co je **infrastruktura**?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020250227163719.png)
+
 <!--ID: 1746599652017-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -51,6 +64,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -73,6 +92,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -94,6 +119,12 @@ SAP, Oracle, Microsoft, Amazon (AWS), Salesforce, IBM,...
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -119,6 +150,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -143,6 +180,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -155,11 +198,18 @@ Back:
 - hardware, software, webhosting,..
 
 ![](../../../Assets/Pasted%20image%2020250227164823.png)
+
 <!--ID: 1746599652073-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -173,11 +223,18 @@ Back:
 Jde o to, že celá infrastruktura je dost složitá a je to "moc velké sousto" pro tu firmu. Proto dává smysl mít konzultanty a outsourcovat to.
 
 ![](../../../Assets/Pasted%20image%2020250227164933.png)
+
 <!--ID: 1746599652082-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -204,6 +261,12 @@ Fun fact - tranzistory jsou v dnešní době menší než biologické viry
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -233,6 +296,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -247,11 +316,18 @@ Back:
 
 Např. takto to bylo u big data
 ![](../../../Assets/Pasted%20image%2020250227171923.png)
+
 <!--ID: 1746599652102-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -277,6 +353,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -289,11 +371,18 @@ Back:
 Přináší to **komplexitu**, protože s každou novou funkcionalitou musím řešit distribuovaný systém těch mikroservis.
 
 Obecně je většinou nejlepší mít nějaký hybrid, dělat microservices tam, kde to dává smysl.
+
 <!--ID: 1746599652119-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -307,11 +396,18 @@ Back:
 Na jednom fyzickém hardwaru se spustí víc operačních systémů (virtual machines), v nich pár různé programy.
 
 Díky tomu nemusím mít hromadu serverů, ale využiju přesně to, co potřebuju.
+
 <!--ID: 1746599652128-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -337,6 +433,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -360,6 +462,12 @@ Je to trend, není to moc běžné ve velkých korporacích. Chtěli by, ale je 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -389,6 +497,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -407,6 +521,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -422,11 +542,18 @@ Infrastruktura je definována kódem.
 - Např. Terraform
 
 ![](../../../Assets/Pasted%20image%2020250227174012.png)
+
 <!--ID: 1746599652166-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -450,6 +577,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -486,6 +619,12 @@ Náklady:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card

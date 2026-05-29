@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska01 status-toReview
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -24,6 +30,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -52,6 +64,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -75,6 +93,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -102,6 +126,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Manažerské informační systémy
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -125,6 +155,12 @@ Je to na střední úrovni v organizaci
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Manažerské informační systémy
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -150,6 +186,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Manažerské informační systémy
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -174,6 +216,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Manažerské informační systémy
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -185,11 +233,18 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250528140406.png)
 ![](../../../Assets/Pasted%20image%2020250220170857.png)
+
 <!--ID: 1746599652257-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -213,6 +268,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -235,6 +296,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -251,6 +318,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -275,6 +348,12 @@ Např. CRM, ERP, KMS
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card

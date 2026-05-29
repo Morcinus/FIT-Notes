@@ -8,6 +8,12 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska11 status-toReview
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -18,11 +24,18 @@ Co je **decommissioning dat**?
 Back:
 
 **Decommissioning = “uklizení starých dat”** – odstraním je, přesunu, anonymizuji nebo archivuju, aby nezatěžovala systém, nebyla rizikem nebo neporušovala předpisy (např. GDPR).
+
 <!--ID: 1748446966911-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -47,6 +60,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -65,6 +84,12 @@ END
 ---
 
 ### Průběh decommissioningu
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -85,6 +110,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -103,6 +134,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -127,6 +164,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -137,11 +180,18 @@ Co je **Migration Stage Area**?
 Back:
 
 Je to místo, kam se nahrají data a kde se provádějí transformace při migraci dat z nějakého systému do jiného.
+
 <!--ID: 1748446966938-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -160,6 +210,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -180,6 +236,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -190,11 +252,18 @@ Co je **Cutover** u datové migrace?
 Back:
 
 **Cutover** = období, kdy se organizace přepne z původního systému na nový.
+
 <!--ID: 1748446966947-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -213,6 +282,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -223,6 +298,7 @@ Co je **point of no return** u datové migrace?
 Back:
 
 Některé systémy nejde rollbacknout, je potřeba zůstat na nové verzi po migraci.
+
 <!--ID: 1748446966953-->
 
 END

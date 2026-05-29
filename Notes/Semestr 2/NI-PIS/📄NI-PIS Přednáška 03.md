@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska03 status-toReview
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -28,11 +34,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Pozn. enterprise architektura obsahuje i organizaci podniku, i třeba uspořádání poboček apod.
+
 <!--ID: 1746599651911-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -52,11 +65,18 @@ Architektura je "**znalost o systému**", kterou si lidé mezi sebou sdílí. Js
 <!-- DetailInfoEnd -->
 
 ![](../../../Assets/Pasted%20image%2020250306162927.png)
+
 <!--ID: 1746599651918-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -76,6 +96,12 @@ Software Engineering Body of Knowledge
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -100,6 +126,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -114,11 +146,18 @@ Back:
 Vytváří to jakýsi blueprint/framework pro organizaci - struktury, procesy a technologie
 
 ![](../../../Assets/Pasted%20image%2020250306164735.png)
+
 <!--ID: 1746599651940-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -144,6 +183,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -168,6 +213,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -190,6 +241,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -215,11 +272,18 @@ Vhodné pro: tradiční datové sklady, kde je třeba mít plně připravená da
 - Transform (transformace) – transformace probíhá až v cílovém systému (např. pomocí SQL nebo nástrojů jako dbt).
 
 Vhodné pro: moderní cloudové datové sklady (např. BigQuery, Snowflake), které zvládají velké objemy dat a výkonné transformace přímo ve skladu.
+
 <!--ID: 1748435998160-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -247,6 +311,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -261,11 +331,18 @@ Když lidé používají IT systémy jinak, než je jak centrálně určeno, že
 Např. místo toho aby se začal používat nějaký nový informační systém, tak to někdo nabuší do Excelu a rozpošle to mailem osatním. Ten excel pak je v tom podniku x let a lidi to furt používají.
 
 ![](../../../Assets/Pasted%20image%2020250306170635.png)
+
 <!--ID: 1746599651975-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -279,11 +356,18 @@ Back:
 
 Vlevo jsou operační systémy
 Vpravo je "svět analytiky/business intelligence"
+
 <!--ID: 1746599651984-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -303,6 +387,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -324,11 +414,18 @@ To může znamenat:
 - apod.
 
 Toho lze docílit pomocí Kubernetes
+
 <!--ID: 1746599651999-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -341,6 +438,7 @@ Kam se obecně pohybuje trend uchovávání dat?
 Back:
 
 Ten "datový svět" vpravo a "aplikační svět" vlevo se přibližují k sobě. Víc se míří k tomu, že bude jedno centrální místo na všechna data.
+
 <!--ID: 1746599652006-->
 
 END

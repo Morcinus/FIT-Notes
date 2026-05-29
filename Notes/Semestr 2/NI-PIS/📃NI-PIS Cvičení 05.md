@@ -6,6 +6,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS cviceni04 status-toReview
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -24,6 +30,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -46,11 +58,18 @@ Back:
 
 Data se typicky 1x denně přenáší z Data Warehouse do Data Martu.
 Typicky se 1x denně (v noci) přelévají data z DB primárního systému do Stage
+
 <!--ID: 1746599652311-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -62,6 +81,7 @@ Jaký je vztah data lake a data staging area?
 Back:
 
 Data lake je historizovaná stage (jsou tam snímky napříč historií).
+
 <!--ID: 1746599652319-->
 
 END

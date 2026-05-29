@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska04 status-toReview
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -33,6 +39,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -43,11 +55,18 @@ Co je metodika CRISP-DM?
 Back:
 
 Iterativní metodika pro data science.
+
 <!--ID: 1748437050702-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -66,6 +85,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -94,6 +119,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -112,6 +143,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -133,6 +170,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -157,6 +200,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -179,6 +228,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card

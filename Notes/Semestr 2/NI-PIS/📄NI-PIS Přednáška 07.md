@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska07 status-toReview
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -19,11 +25,18 @@ Back:
 **Agenda firmy** = souhrn činností, co je třeba udělat - aka to co prostě firma dělá.
 
 **Agendový systém** = to co pomáhá při vykonávání agendy
+
 <!--ID: 1748442454386-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -45,6 +58,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -63,6 +82,12 @@ Nevýhody:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -88,6 +113,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -98,11 +129,18 @@ Co je **KN Proxy** v bance?
 Back:
 
 Proxy v bance, která integruje **logiku katastru nemovitostí** a **bankovní systémy**.
+
 <!--ID: 1748442454406-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -114,11 +152,18 @@ Co je **Pricing** v bance?
 Back:
 
 Metoda, díky které banka nastavuje ceny svých produktů a služeb.
+
 <!--ID: 1748442454409-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -148,6 +193,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -160,11 +211,18 @@ Back:
 Obsahuje různé produkty a jejich konfigurace, balíčky, slevy, poplatky atd.
 
 Je to součástí **PricingDB**.
+
 <!--ID: 1748442454415-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -183,6 +241,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card

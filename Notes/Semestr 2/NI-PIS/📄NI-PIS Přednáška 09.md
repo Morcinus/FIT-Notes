@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska09 status-toReview
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Manažerské informační systémy
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -17,11 +23,18 @@ Co jsou BI systémy?
 Back:
 
 **Business intelligence** = umožňují dělat rozhodnutí ve firmě
+
 <!--ID: 1748444828752-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Manažerské informační systémy
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -41,6 +54,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -59,6 +78,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -83,6 +108,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -109,6 +140,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -132,6 +169,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -152,6 +195,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -168,11 +217,18 @@ Např. data o zákazníkovi jsou rozházená v různých systémech a může bý
 Proto se dělá to, že se udělá "golden record" - vytváří se jeden ucelený záznam např. v separátní databázi nebo v datových skladech
 
 Tohle je obecně téma toho master data managementu
+
 <!--ID: 1746599651750-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -193,6 +249,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -205,6 +267,7 @@ Back:
 Definuju struktury tabulek a datových uložišť v **metadatech**. Podle nich se pak automaticky vygenerují jednotlivé kroky pro provedení transformací atd.
 
 Podobně jak třeba člověk používá Terraform pro infrastructure as code, tak tady člověk definuje ty data v nějakém meta jazyce a podle toho se pak generují ty konkrétní kroky.
+
 <!--ID: 1748444828774-->
 
 END

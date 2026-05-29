@@ -9,6 +9,12 @@ FILE TAGS: NI-PIS prednaska05 status-toReview
 
 ![](../../../Assets/Pasted%20image%2020250320163829.png)
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -19,11 +25,18 @@ Co jsou **big data**?
 Back:
 
 **Velké množství** (**rychle měnících** se) **potenciálně hodnotných** dat, která se nedají dobře managovat tradičními způsoby.
+
 <!--ID: 1748438655130-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -44,6 +57,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -63,6 +82,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -80,6 +105,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -103,6 +134,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -130,6 +167,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -140,11 +183,18 @@ Co je **Hadoop**?
 Back:
 
 Open source platforma pro distribuované zpracovávání velkého množství dat.
+
 <!--ID: 1746599651256-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -164,6 +214,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -190,6 +246,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -208,6 +270,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -235,6 +303,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -257,6 +331,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -277,6 +357,12 @@ Je to **in-memory** výpočetní rámec pro distribuované zpracovávání dat.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -300,6 +386,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -310,11 +402,18 @@ Jaký engine se pro big data používá nejvíce?
 Back:
 
 Apache **Spark**
+
 <!--ID: 1746599651366-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -332,11 +431,18 @@ Back:
 Topic je jakoby fronta zpráv. Kafka zprávy nemaže po přečtení, ale třeba po 7 dnech.
 
 ![](../../../Assets/Pasted%20image%2020250320170453.png)
+
 <!--ID: 1746599651409-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -356,6 +462,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -380,6 +492,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
+Migration Status: migrate
+-->
 
 START
 FIT-Card

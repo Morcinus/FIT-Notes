@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska06 status-toReview
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -26,6 +32,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Praktické využití distribuovaných systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -36,11 +48,18 @@ Co je **Bank ID**?
 Back:
 
 Univerzální bezpečné ID pro identitu občanů (přihlašování), využívají to banky
+
 <!--ID: 1746599651824-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -66,6 +85,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -79,11 +104,18 @@ Back:
 - **Na podpůrné činnosti** (účetnictví, vytváření dokumentů, uložení a sdílení informací)
 
 Na **konkrétní byznys** dané firmy se pak může hodit **custom řešení**
+
 <!--ID: 1746599651849-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -101,6 +133,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Taxonomie informačních systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -126,6 +164,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -144,6 +188,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -160,6 +210,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-20
+Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
+Migration Status: migrate
+-->
 
 START
 FIT-Card

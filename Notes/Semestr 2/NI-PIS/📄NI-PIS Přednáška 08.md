@@ -7,6 +7,12 @@ up: "[[📖NI-PIS]]"
 TARGET DECK: archive
 FILE TAGS: NI-PIS prednaska08 status-toReview
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -27,6 +33,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -53,11 +65,18 @@ Back:
 Key takeaway: Business se čím dál tím víc bude zapojovat do data managementu
 
 ![](../../../Assets/Pasted%20image%2020250528163000.png)
+
 <!--ID: 1746599651769-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -82,6 +101,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
+
 START
 FIT-Card
 
@@ -98,11 +123,18 @@ Analogie s dopravou:
 - **Provozní zpracování dat** - klasický provozní účely, typicky propojování aplikací (integrace), dále taky např. statistické modely, co dělají predikce
 
 (vůbec nechápu jak ten borec získal řidičák, jestli mu ta analogie s dopravou dává smysl)
+
 <!--ID: 1746599651784-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -116,11 +148,18 @@ Back:
 Když si nikdo nestěžuje :D
 
 Aka když to lidi jsou schopný využít na to co potřebují.
+
 <!--ID: 1746599651800-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SI-21
+Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
+Migration Status: migrate
+-->
 
 START
 FIT-Card
@@ -132,6 +171,7 @@ Co je **historizace dat**?
 Back:
 
 Dělají se "snímky" dat. Díky tomu můžu přistupovat k tomu, jak data vypadala v minulosti.
+
 <!--ID: 1746599651807-->
 
 END
