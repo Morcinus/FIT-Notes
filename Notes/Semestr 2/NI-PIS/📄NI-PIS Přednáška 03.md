@@ -10,7 +10,7 @@ FILE TAGS: NI-PIS prednaska03 status-toReview
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -44,7 +44,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -100,7 +100,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -129,7 +129,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -156,7 +156,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -186,7 +186,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -216,7 +216,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -245,7 +245,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -282,7 +282,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -314,7 +314,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -341,7 +341,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -391,7 +391,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Praktické využití distribuovaných systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -424,7 +424,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

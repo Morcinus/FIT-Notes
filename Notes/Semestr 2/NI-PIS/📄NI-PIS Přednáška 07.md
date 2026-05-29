@@ -10,7 +10,7 @@ FILE TAGS: NI-PIS prednaska07 status-toReview
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -35,7 +35,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -61,7 +61,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -86,7 +86,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Architektury informačních systémů – vliv kontextu a velikosti organizace na architekturu systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -116,7 +116,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -139,7 +139,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -162,7 +162,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -196,7 +196,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -221,7 +221,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -245,7 +245,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Taxonomie informačních systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

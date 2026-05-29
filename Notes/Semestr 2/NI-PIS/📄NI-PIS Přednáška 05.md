@@ -12,7 +12,7 @@ FILE TAGS: NI-PIS prednaska05 status-toReview
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -35,7 +35,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -60,7 +60,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Práce se vstupními a výstupními daty v informačních systémech – konsolidace, normalizace, agregace
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -85,7 +85,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -109,7 +109,7 @@ END
 <!--
 Exam Note ID: NI-SI-20
 Exam Note Section Name: Praktické využití distribuovaných systémů
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -138,7 +138,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -170,7 +170,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -193,7 +193,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -218,7 +218,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -249,7 +249,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -274,7 +274,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -306,7 +306,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -334,7 +334,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -361,7 +361,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -389,7 +389,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -412,7 +412,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -441,7 +441,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -466,7 +466,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -496,7 +496,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START

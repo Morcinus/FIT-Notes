@@ -10,7 +10,7 @@ FILE TAGS: NI-PIS prednaska04 status-toReview
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -42,7 +42,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -65,7 +65,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -89,7 +89,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -122,7 +122,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -147,7 +147,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -174,7 +174,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -203,7 +203,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
@@ -232,7 +232,7 @@ END
 <!--
 Exam Note ID: NI-SI-21
 Exam Note Section Name: Využití pokročilé analýzy dat v podnikové praxi, zpracování velkých dat
-Migration Status: migrate
+Migration Status: done
 -->
 
 START
