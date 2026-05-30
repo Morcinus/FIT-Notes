@@ -6,6 +6,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP cviceni02 status-toReview
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -24,6 +29,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -38,6 +48,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -57,6 +72,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -71,6 +91,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -84,6 +109,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -103,6 +133,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -119,6 +154,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -141,6 +181,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -155,6 +200,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -177,6 +227,11 @@ Konfigurace - kam ty věci naházim.
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -193,6 +248,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -242,6 +302,11 @@ END
 
 > "Samozřejmě slušnej student se toho problému lekne a odevzdá prázdný papír. Teď se budu snažit, abyste se nebáli."
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -268,6 +333,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -289,6 +359,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -308,6 +383,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -322,6 +402,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -338,6 +423,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 

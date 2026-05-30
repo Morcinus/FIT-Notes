@@ -7,7 +7,6 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska07 status-toReview
 
-
 ### Security
 
 <!--
@@ -26,6 +25,7 @@ Co je TLS?
 Back:
 
 Transport Level Security
+
 <!--ID: 1735205750026-->
 
 END
@@ -72,6 +72,7 @@ Co se využívá v rámci šifrování (encryption) v TLS na začátku spojení?
 Back:
 
 **TLS handshake**
+
 <!--ID: 1735205750031-->
 
 END
@@ -94,6 +95,7 @@ Co se využívá v rámci integrity v TLS?
 Back:
 
 MAC - Message Authentication Code
+
 <!--ID: 1735205750033-->
 
 END
@@ -162,7 +164,8 @@ Back:
 Toho se dá prakticky využít:
 
 - Např. mám webový server na portu 443. - Díky ALPN můžu za ten port schovat server, který je schopný komunikovat s různými protokoly - např. HTTP 1, HTTP 2 - Díky tomu můžu na jednom portu provozovat dvě různé služby - Pomocí té ALPN hlavičky pak poznám, na kterou službu přesměrovat tu komunikaci
-  <!-- ExampleEnd -->
+
+<!-- ExampleEnd -->
 <!--ID: 1735205750039-->
 
 END
@@ -245,6 +248,7 @@ Komunikace mezi klientem a middlewarem je zabezpečená pomocí TLS.
 Komunikace mezi middleware a serverem zabezpečená není.
 
 Pozn. toto se často používá, protože middleware je často brána do vnitřní zabezpečené infrastruktury, kde to nemusím mít tolik zabezpečený. Tohle ale není best practice, protože útok může přijít i zevnitř. Proto existuje např. TLS Bridging
+
 <!--ID: 1735205750044-->
 
 END
@@ -270,6 +274,7 @@ Mezi klientem a middlewarem je jedno TLS spojení.
 Mezi middlewarem a serverem je druhé TLS spojení.
 
 Mám celkem tedy dvě.
+
 <!--ID: 1735205750047-->
 
 END
@@ -294,6 +299,7 @@ Back:
 Mám spojení klient-server-middleware a ta TLS session je mezi klientem a serverem. Middleware přeposílá tu komunikaci.
 
 Middleware si při TLS handshake může přečíst pouze nezašifrované části packetů.
+
 <!--ID: 1735205750049-->
 
 END
@@ -665,7 +671,8 @@ Proto rovnou můžu udělat to, že tomu klientovi rovnou pushnu ten obrázek.
 Funguje to na základě mechanismu push-promise.
 
 - Pokud klient výslovně neřekne, že to nechce (např. protože to má v cachi), tak mu to automaticky posílám.
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1735205750081-->
 
 END

@@ -21,6 +21,7 @@ Back:
 Aplikace, kterou už od začátku budujeme tak, aby byla dobře použitelná v cloudu (škálovatelná atd.).
 
 Vpodstatě to znamená, že člověk používá Kubernetes. (Hodně lidí to tak chápe)
+
 <!--ID: 1746519383375-->
 
 END
@@ -47,7 +48,8 @@ Např.
 - Systémové služby - použiju Golang
 - Machine learning - použiju Python
 - GUI - použiju javascript
-    <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
   <!--ID: 1746519416395-->
 
 END
@@ -64,6 +66,7 @@ Jak se vyslovuje správně JWT?
 Back:
 
 jot (džot) :D
+
 <!--ID: 1746519416399-->
 
 END

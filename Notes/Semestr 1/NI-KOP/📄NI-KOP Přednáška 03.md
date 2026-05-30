@@ -6,10 +6,15 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska03 status-toReview
 
-
 # Výpočetní modely
 
 ### Složitosti a metriky
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -28,6 +33,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -45,6 +56,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -61,6 +78,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -81,6 +104,12 @@ END
 ---
 
 ### Turingův stroj
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -110,6 +139,12 @@ END
 
 #### Řešení problémů
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -120,11 +155,18 @@ Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011154142.png)
+
 <!--ID: 1728921215060-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -136,11 +178,18 @@ Definice: Kdy deterministický **Turingův stroj** řeší rozhodovací problém
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011154225.png)
+
 <!--ID: 1728921215064-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -152,6 +201,7 @@ Definice: Kdy **Turingův stroj** řeší rozhodovací problém $\Pi$ **s pamět
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011154230.png)
+
 <!--ID: 1728921215066-->
 
 END
@@ -159,6 +209,12 @@ END
 ---
 
 #### Kódování instance
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -190,6 +246,12 @@ END
 
 ### Třídy P, PSPACE a EXPTIME
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -211,6 +273,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -234,6 +302,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -255,6 +329,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -280,6 +360,12 @@ END
 
 ### Třída NP
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -290,11 +376,18 @@ FIT-Card
 Back:
 
 **Nedeterministicky polynomiální**
+
 <!--ID: 1728921215084-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -326,6 +419,12 @@ END
 
 #### Řešení problému
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -336,11 +435,18 @@ Definice: **nedeterministický Turingův stroj řeší rozhodovací problém $\P
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011155644.png)
+
 <!--ID: 1728921215090-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -352,6 +458,7 @@ Věta: Pokud **nedeterministický Turingův stroj** řeší problém $\Pi$ v ča
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011155932.png)
+
 <!--ID: 1728921215093-->
 
 END
@@ -359,6 +466,12 @@ END
 ---
 
 #### Třída NP pomocí NDT a certifikátu
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -382,6 +495,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -393,11 +512,18 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241011160112.png)
 ![](../../../Assets/Pasted%20image%2020241011160131.png)
+
 <!--ID: 1728921215099-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -412,6 +538,7 @@ Back:
 2. Dokážeme, že pro každou instanci $I \in \Pi_{ANO}$ problému existuje konfigurace $Y$ taková, že kontrola, zda je $Y$ řešením patří do $P$
 
 Obě dvě varianty jsou z definice (každá z jiné)
+
 <!--ID: 1731258463498-->
 
 END
@@ -419,6 +546,12 @@ END
 ---
 
 #### Hamiltonova kružnice
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -447,6 +580,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -457,6 +596,7 @@ Do jaké třídy problémů spadá problém nalezení Hamiltonovy kružnice?
 Back:
 
 Do **třídy NP**
+
 <!--ID: 1728921215105-->
 
 END
@@ -464,6 +604,12 @@ END
 ---
 
 #### Polynomiální kontrola certifikátu
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -493,6 +639,12 @@ END
 ---
 
 ### Vztah tříd P a NP
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -527,6 +679,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -550,6 +708,12 @@ $P \subset NP$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -576,6 +740,12 @@ END
 
 #### Komplementární problémy
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -600,6 +770,12 @@ Např.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -630,6 +806,12 @@ END
 
 ### Svědkové
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -648,12 +830,19 @@ Na otázku "Existuje konfigurace, která ..."
 
 - Odpověď **ANO** - stačí mi najít tu konfiguraci (řeší se krátce)
 - Odpověď **NE** - musím projít všechny konfigurace (řeší se dlouze)
-  <!-- ExplanationEnd -->
+
+<!-- ExplanationEnd -->
 <!--ID: 1728921215129-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -673,7 +862,8 @@ Na otázku "Pro všechny konfigurace platí, že ..."
 
 - Odpověď **ANO** - musím projít všechny konfigurace (řeší se dlouze)
 - Odpověď **NE** - stačí mi najít tu konfiguraci, co je protipříkladem (řeší se krátce)
-  <!-- ExplanationEnd -->
+
+<!-- ExplanationEnd -->
 <!--ID: 1728921215132-->
 
 END
@@ -681,6 +871,12 @@ END
 ---
 
 #### Vztah třídy co-NP a P a NP
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -704,6 +900,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -717,11 +919,18 @@ Back:
 Dáno celé číslo $N$, existuje jeho prvočinitel, jehož poslední číslice je $7$?
 
 ![](../../../Assets/Pasted%20image%2020241011162546.png)
+
 <!--ID: 1728921215144-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -745,6 +954,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -767,6 +982,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -777,11 +998,18 @@ Co platí, pokud $P = NP$ ?
 Back:
 
 $$P = NP \implies NP = \text{co-NP}$$
+
 <!--ID: 1728921215153-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -806,6 +1034,12 @@ END
 
 ### Horší než NP
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -828,6 +1062,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -838,6 +1078,7 @@ Co je $\text{QSAT}_k$?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241011163703.png)
+
 <!--ID: 1728921215161-->
 
 END
@@ -845,6 +1086,12 @@ END
 ---
 
 #### Polynomiální hyerarchie
+
+<!--
+Exam Note ID: NI-SPOL-11
+Exam Note Section Name: Význam tříd NP a NPH pro praktické výpočty
+Migration Status: done
+-->
 
 START
 FIT-Card

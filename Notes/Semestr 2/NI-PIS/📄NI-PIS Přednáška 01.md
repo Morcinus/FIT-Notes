@@ -57,7 +57,8 @@ Business pohled:
 Fun fact:
 
 - Velké firmy mají řádově stovky informačních systémů - Např. ČSOB má přes 200
-    <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
   <!--ID: 1746599652209-->
 
 END

@@ -9,7 +9,6 @@ wšdqW
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska06 status-toReview
 
-
 ## Úvod HTTP
 
 <!--
@@ -184,7 +183,8 @@ Pro úvodní načtení průměrně 90 requestů.
 - Javascript - 15 requestů
 - CSS - 5 requestů
 - Other - 5 requestů
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1731175818752-->
 
 END
@@ -244,6 +244,7 @@ Jaká hlavička porušuje stateless protokol?
 Back:
 
 `Authorization` hlavička, ve které klient posílá tokeny pro autorizaci.
+
 <!--ID: 1731175818757-->
 
 END
@@ -332,6 +333,7 @@ Back:
 Ukládá se do RAM paměti.
 
 Když vypadne server, zruší se tím všechny session.
+
 <!--ID: 1731175818765-->
 
 END
@@ -354,6 +356,7 @@ Jak se dá předejít tomu, aby se nesmazala session tabulka, když vypadne serv
 Back:
 
 Můžu si sessions ukládat do databáze (perzistentního uložiště).
+
 <!--ID: 1731175818767-->
 
 END
@@ -376,6 +379,7 @@ Co je **stateful server**?
 Back:
 
 Server, který si uchovává stav například pomocí cookies a session tabulky (uložené v RAM nebo v databázi).
+
 <!--ID: 1731175818770-->
 
 END
@@ -398,6 +402,7 @@ Používá se v praxi HATEOAS?
 Back:
 
 Je to fajn koncept, ale reálně se to moc nepoužívá, protože je prostě jednodušší si držet stav na serveru (pomocí sessions).
+
 <!--ID: 1731175818772-->
 
 END
@@ -445,6 +450,7 @@ Co je "Authz"?
 Back:
 
 To že řešíme **autorizaci** (že mám právo něco dělat)
+
 <!--ID: 1731175818777-->
 
 END
@@ -490,6 +496,7 @@ Jakými způsoby se řeší **autorizace**?
 Back:
 
 Např. role
+
 <!--ID: 1731175818782-->
 
 END

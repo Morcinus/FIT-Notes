@@ -7,7 +7,6 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP
 
-
 ## NI-SI-1 - Design Principles
 
 ### DRY
@@ -454,7 +453,8 @@ An object can call methods that are apart of:
 - an object created within its method
 - an object it owns
 - a global variable
-  <!-- ExplanationEnd -->
+
+<!-- ExplanationEnd -->
 <!--ID: 1738239851920-->
 
 END
@@ -485,7 +485,8 @@ Místo toho bychom měli nejdříve vyvinout funkční kód, pak až zjistit, kt
 <!-- ExampleStart -->
 
 - Vývojáři mají tendenci být perfekcionisti a snažit se udělat "perfektní/bezchybný kód"
-  <!-- ExampleEnd -->
+
+<!-- ExampleEnd -->
 <!--ID: 1738239851922-->
 
 END
@@ -584,6 +585,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239851930-->
 
 END
@@ -605,6 +607,7 @@ Back:
 ✅ *Open/Closed Principle*. You can introduce new variants of products without breaking existing client code.
 
 ❌ The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.
+
 <!--ID: 1738239851933-->
 
 END
@@ -699,6 +702,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239851938-->
 
 END
@@ -721,6 +725,7 @@ Back:
 ✅ *Single Responsibility Principle*. You can isolate complex construction code from the business logic of the product.
 
 ❌ The overall complexity of the code increases since the pattern requires creating multiple new classes.
+
 <!--ID: 1738239851940-->
 
 END
@@ -814,6 +819,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239851945-->
 
 END
@@ -836,6 +842,7 @@ Back:
 ✅ *Open/Closed Principle*. You can introduce new types of products into the program without breaking existing client code.
 
 ❌ The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern. The best case scenario is when you’re introducing the pattern into an existing hierarchy of creator classes.
+
 <!--ID: 1738239851947-->
 
 END
@@ -908,6 +915,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239851952-->
 
 END
@@ -928,6 +936,7 @@ Back:
 1. The **Prototype Registry** provides an easy way to access frequently-used prototypes. It stores a set of pre-built objects that are ready to be copied. The simplest prototype registry is a `name → prototype` hash map. However, if you need better search criteria than a simple name, you can build a much more robust version of the registry.
 
 Tags: diagram
+
 <!--ID: 1738239851955-->
 
 END
@@ -952,6 +961,7 @@ Back:
 ✅ You get an alternative to inheritance when dealing with configuration presets for complex objects.
 
 ❌ Cloning complex objects that have circular references might be very tricky.
+
 <!--ID: 1738239851958-->
 
 END
@@ -1024,6 +1034,7 @@ Back:
 The Singleton’s constructor should be hidden from the client code. Calling the `getInstance` method should be the only way of getting the Singleton object.
 
 Tags: diagram
+
 <!--ID: 1738239851963-->
 
 END
@@ -1052,6 +1063,7 @@ Back:
 ❌ The pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times.
 
 ❌ It may be difficult to unit test the client code of the Singleton because many test frameworks rely on inheritance when producing mock objects. Since the constructor of the singleton class is private and overriding static methods is impossible in most languages, you will need to think of a creative way to mock the singleton. Or just don’t write the tests. Or don’t use the Singleton pattern.
+
 <!--ID: 1738239851966-->
 
 END
@@ -1107,6 +1119,7 @@ if(ins == null) {
 	mutex_unlock()
 }
 ```
+
 <!--ID: 1738239851971-->
 
 END
@@ -1126,6 +1139,7 @@ Back:
 - (Kdyby člověk nelockoval vůbec, tak by si to vlákna přepisovala)
 
 Proto je fajn to nejdřív checknout, potom locknout a potom checknout znovu.
+
 <!--ID: 1738239851973-->
 
 END
@@ -1177,6 +1191,7 @@ Back:
 Objekt, který je náhradou za nějaký reálný objekt, simuluje jeho chování. Typicky se používá pro testování.
 
 ![](../../../Assets/Pasted%20image%2020250130113938.png)
+
 <!--ID: 1738239851978-->
 
 END
@@ -1338,6 +1353,7 @@ Adapter implementuje nějaké rozhraní.
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239851991-->
 
 END
@@ -1360,6 +1376,7 @@ Adapter dědí z dané classy a servicy. Toto lze využít pouze u jazyků, co u
 1. The **Class Adapter** doesn’t need to wrap any objects because it inherits behaviors from both the client and the service. The adaptation happens within the overridden methods. The resulting adapter can be used in place of an existing client class.
 
 Tags: diagram
+
 <!--ID: 1738239851994-->
 
 END
@@ -1380,6 +1397,7 @@ Back:
 ✅ *Open/Closed Principle*. You can introduce new types of adapters into the program without breaking the existing client code, as long as they work with the adapters through the client interface.
 
 ❌ The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes it’s simpler just to change the service class so that it matches the rest of your code.
+
 <!--ID: 1738239851996-->
 
 END
@@ -1468,6 +1486,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852001-->
 
 END
@@ -1492,6 +1511,7 @@ Back:
 ✅ *Single Responsibility Principle*. You can focus on high-level logic in the abstraction and on platform details in the implementation.
 
 ❌ You might make the code more complicated by applying the pattern to a highly cohesive class.
+
 <!--ID: 1738239852004-->
 
 END
@@ -1577,6 +1597,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852009-->
 
 END
@@ -1597,6 +1618,7 @@ Back:
 ✅ *Open/Closed Principle*. You can introduce new element types into the app without breaking the existing code, which now works with the object tree.
 
 ❌ It might be difficult to provide a common interface for classes whose functionality differs too much. In certain scenarios, you’d need to overgeneralize the component interface, making it harder to comprehend.
+
 <!--ID: 1738239852011-->
 
 END
@@ -1701,6 +1723,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852017-->
 
 END
@@ -1729,6 +1752,7 @@ Back:
 ❌ It’s hard to implement a decorator in such a way that its behavior doesn’t depend on the order in the decorators stack.
 
 ❌ The initial configuration code of layers might look pretty ugly.
+
 <!--ID: 1738239852020-->
 
 END
@@ -1797,6 +1821,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852026-->
 
 END
@@ -1815,6 +1840,7 @@ Back:
 ✅ You can isolate your code from the complexity of a subsystem.
 
 ❌ A facade can become a god object coupled to all classes of an app.
+
 <!--ID: 1738239852029-->
 
 END
@@ -1900,6 +1926,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852034-->
 
 END
@@ -1920,6 +1947,7 @@ Back:
 ❌ You might be trading RAM over CPU cycles when some of the context data needs to be recalculated each time somebody calls a flyweight method.
 
 ❌ The code becomes much more complicated. New team members will always be wondering why the state of an entity was separated in such a way.
+
 <!--ID: 1738239852036-->
 
 END
@@ -1991,6 +2019,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852041-->
 
 END
@@ -2017,6 +2046,7 @@ Back:
 ❌ The code may become more complicated since you need to introduce a lot of new classes.
 
 ❌ The response from the service might get delayed.
+
 <!--ID: 1738239852044-->
 
 END
@@ -2212,7 +2242,8 @@ There are libraries that solve this problem by automating the process of creatin
 
 - Reflection-based solutions that connect dependencies at runtime.
 - Static solutions that generate the code to connect dependencies at compile time.
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1738239852055-->
 
 END
@@ -2340,6 +2371,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852063-->
 
 END
@@ -2366,6 +2398,7 @@ Back:
 ✅ You can assemble a set of simple commands into a complex one.
 
 ❌ The code may become more complicated since you’re introducing a whole new layer between senders and receivers.
+
 <!--ID: 1738239852065-->
 
 END
@@ -2459,6 +2492,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852071-->
 
 END
@@ -2481,6 +2515,7 @@ Back:
 ✅ *Open/Closed Principle*. You can introduce new handlers into the app without breaking the existing client code.
 
 ❌ Some requests may end up unhandled.
+
 <!--ID: 1738239852073-->
 
 END
@@ -2536,6 +2571,7 @@ Back:
 Interpreter suggests modeling the domain with a recursive grammar. Each rule in the grammar is either a ‘composite’ (a rule that references other rules) or a terminal (a leaf node in a tree structure). Interpreter relies on the recursive traversal of the Composite pattern to interpret the ‘sentences’ it is asked to process.
 
 Tags: diagram
+
 <!--ID: 1738239852078-->
 
 END
@@ -2554,6 +2590,7 @@ Back:
 ✅ The interpreter design pattern is great for relatively simple grammar interpretation, which doesn’t need to evolve and extend much.
 
 ❌ When the grammar is getting more complex, it becomes harder to maintain.
+
 <!--ID: 1738239852081-->
 
 END
@@ -2637,6 +2674,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852086-->
 
 END
@@ -2663,6 +2701,7 @@ Back:
 ❌ Applying the pattern can be an overkill if your app only works with simple collections.
 
 ❌ Using an iterator may be less efficient than going through elements of some specialized collections directly.
+
 <!--ID: 1738239852089-->
 
 END
@@ -2741,6 +2780,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852094-->
 
 END
@@ -2765,6 +2805,7 @@ Back:
 ✅ You can reuse individual components more easily.
 
 ❌ Over time a mediator can evolve into a [God Object](https://courses.fit.cvut.cz/antipatterns/god-object).
+
 <!--ID: 1738239852097-->
 
 END
@@ -2854,6 +2895,7 @@ The classic implementation of the pattern relies on support for nested classes, 
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852102-->
 
 END
@@ -2877,6 +2919,7 @@ There’s an alternative implementation, suitable for programming languages that
 2. On the other hand, originators can work with a memento object directly, accessing fields and methods declared in the memento class. The downside of this approach is that you need to declare all members of the memento public.
 
 Tags: diagram
+
 <!--ID: 1738239852105-->
 
 END
@@ -2901,6 +2944,7 @@ There’s another implementation which is useful when you don’t want to leave 
 3. Each memento becomes linked to the originator that produced it. The originator passes itself to the memento’s constructor, along with the values of its state. Thanks to the close relationship between these classes, a memento can restore the state of its originator, given that the latter has defined the appropriate setters.
 
 Tags: diagram
+
 <!--ID: 1738239852107-->
 
 END
@@ -2925,6 +2969,7 @@ Back:
 ❌ Caretakers should track the originator’s lifecycle to be able to destroy obsolete mementos.
 
 ❌ Most dynamic programming languages, such as PHP, Python and JavaScript, can’t guarantee that the state within the memento stays untouched.
+
 <!--ID: 1738239852110-->
 
 END
@@ -3008,6 +3053,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852116-->
 
 END
@@ -3028,6 +3074,7 @@ Back:
 ✅ You can establish relations between objects at runtime.
 
 ❌ Subscribers are notified in random order.
+
 <!--ID: 1738239852123-->
 
 END
@@ -3133,6 +3180,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852130-->
 
 END
@@ -3155,6 +3203,7 @@ Back:
 ✅ Simplify the code of the context by eliminating bulky state machine conditionals.
 
 ❌ Applying the pattern can be overkill if a state machine has only a few states or rarely changes.
+
 <!--ID: 1738239852132-->
 
 END
@@ -3235,6 +3284,7 @@ Back:
 5. The **Client** creates a specific strategy object and passes it to the context. The context exposes a setter which lets clients replace the strategy associated with the context at runtime.
 
 Tags: diagram
+
 <!--ID: 1738239852137-->
 
 END
@@ -3263,6 +3313,7 @@ Back:
 ❌ Clients must be aware of the differences between strategies to be able to select a proper one.
 
 ❌ A lot of modern programming languages have functional type support that lets you implement different versions of an algorithm inside a set of anonymous functions. Then you could use these functions exactly as you’d have used the strategy objects, but without bloating your code with extra classes and interfaces.
+
 <!--ID: 1738239852140-->
 
 END
@@ -3345,6 +3396,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852145-->
 
 END
@@ -3369,6 +3421,7 @@ Back:
 ❌ You might violate the *Liskov Substitution Principle* by suppressing a default step implementation via a subclass.
 
 ❌ Template methods tend to be harder to maintain the more steps they have.
+
 <!--ID: 1738239852147-->
 
 END
@@ -3489,6 +3542,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: diagram
+
 <!--ID: 1738239852152-->
 
 END
@@ -3513,6 +3567,7 @@ Back:
 ❌ You need to update all visitors each time a class gets added to or removed from the element hierarchy.
 
 ❌ Visitors might lack the necessary access to the private fields and methods of the elements that they’re supposed to work with.
+
 <!--ID: 1738239852155-->
 
 END
@@ -3583,6 +3638,7 @@ Back:
 **Možnost 2:**
 **Model** zavolá update na **View**, když se změní. Toto používá typicky Observer pattern, kdy View observuje změny v Modelu.
 ![](../../../Assets/Pasted%20image%2020250130115146.png)
+
 <!--ID: 1738239852159-->
 
 END
@@ -3605,6 +3661,7 @@ Back:
 ✅ We can have multiple **Views** for one **Model** and **Controller**.
 
 ❌ Tight coupling of **View** and **Controller**. That makes testing harder.
+
 <!--ID: 1738239852162-->
 
 END
@@ -3664,6 +3721,7 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020250130115309.png)
 ![](../../../Assets/Pasted%20image%2020250130115313.png)
+
 <!--ID: 1738239852167-->
 
 END
@@ -3690,6 +3748,7 @@ Back:
 Oproti MVP je View "chytřejší" protože se samo updatuje a observuje změny v ViewModelu.
 
 ![](../../../Assets/Pasted%20image%2020250130115455.png)
+
 <!--ID: 1738239852169-->
 
 END
@@ -3738,6 +3797,7 @@ Back:
 In client-server architecture, the client and the server are typically connected over a network, such as the internet. The client initiates a request to the server, which can be a request for data or a request to perform an action. The server receives the request, processes it, and sends back a response.
 
 ![](../../../Assets/Pasted%20image%2020250130115951.png)
+
 <!--ID: 1738239852174-->
 
 END
@@ -3760,6 +3820,7 @@ Another benefit is that it allows for scalability. If the server is designed to 
 
 **Nevýhody:**
 There are also some challenges to using client-server architecture. One challenge is that it requires a network connection between the client and the server, which can introduce latency and other issues. Another challenge is that the server may be a single point of failure, meaning that if the server goes down, the entire application may become unavailable.
+
 <!--ID: 1738239852177-->
 
 END
@@ -3923,7 +3984,8 @@ Ne, už se to nepoužívá, protože to bylo špatně škálovatelné na tehdej�
 - offers non-functional properties such as: reusability, changeability, robustness.
 - allows multiple agents to work closer together on separate threads, polling and reacting when necessary
 - The pattern was abandoned in past because: - Did not scale well to real problems on the available computers of the time - Most problems using blackboards are inherently NP-hard, so resist tractable solution by any algorithm in the large size limit - Blackboard was outperformed by statistical pattern recognition techniques, most notably by simple Hidden Markov Models
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1738239852189-->
 
 END
@@ -4005,6 +4067,7 @@ Back:
 - **Subscriber** - může se u middlewaru zaregistrovat tak, aby přijímal určité typy zpráv
 
 ![](../../../Assets/Pasted%20image%2020250130124958.png)
+
 <!--ID: 1738239852197-->
 
 END
@@ -4117,6 +4180,7 @@ public interface Serializable {
 ```
 
 Another example in Java is **Cloneable**.
+
 <!--ID: 1738239852207-->
 
 END
@@ -4140,6 +4204,7 @@ Multiton pattern ensures there are a predefined amount of instances available gl
 
 **Kdy se používá:**
 There must be a specific number of instances of a class, and they must be accessible to clients from a well-known access point.
+
 <!--ID: 1738239852209-->
 
 END
@@ -4273,7 +4338,8 @@ Nepotřebuje to centrální server, každý účastník se chová jako klient a 
 1. **BitTorrent**: A popular file-sharing protocol that uses P2P for distributing large amounts of data.
 2. **Bitcoin**: A well-known cryptocurrency that operates on a P2P network for transaction verification and ledger maintenance.
 3. **Skype**: Utilizes P2P technology for voice and video calls.
-   <!-- ExampleEnd -->
+
+<!-- ExampleEnd -->
 <!--ID: 1738239852214-->
 
 END
@@ -4355,7 +4421,8 @@ Konkrétní examples:
 - **Apache Hadoop**: Uses this architecture for distributed data processing.
 - **MySQL Replication**: Implements master-slave replication for database redundancy.
 - **Distributed Computing Frameworks**: Like Apache Spark, where the master node manages task distribution to worker nodes.
-  <!-- ExampleEnd -->
+
+<!-- ExampleEnd -->
 <!--ID: 1738239852222-->
 
 END
@@ -4416,7 +4483,8 @@ Konkrétní příklady:
 2. **Image Processing Pipeline:** A series of filters for tasks like noise reduction, color correction, and edge detection in a photo editing application.
 3. **Data Analytics Pipeline:** In data analytics, filters can be used for cleansing, transforming, and aggregating data before analysis.
 4. **Audio Processing:** In audio engineering, a series of filters are used for equalization, compression, and effects like reverb.
-   <!-- ExampleEnd -->
+
+<!-- ExampleEnd -->
 <!--ID: 1738239852227-->
 
 END
@@ -4471,6 +4539,7 @@ An event can be defined as “a significant change in state”. For example, whe
 This architectural pattern may be applied by the design and implementation of applications and systems that transmit events among loosely coupled software components and services. An event-driven system typically consists of event emitters (or agents), event consumers (or sinks), and event channels. Emitters have the responsibility to detect, gather, and transfer events. An Event Emitter does not know the consumers of the event, it does not even know if a consumer exists, and in case it exists, it does not know how the event is used or further processed. Sinks have the responsibility of applying a reaction as soon as an event is presented. The reaction might or might not be completely provided by the sink itself. For instance, the sink might just have the responsibility to filter, transform and forward the event to another component or it might provide a self-contained reaction to such event. Event channels are conduits in which events are transmitted from event emitters to event consumers. The knowledge of the correct distribution of events is exclusively present within the event channel. The physical implementation of event channels can be based on traditional components such as message-oriented middleware or point-to-point communication which might require a more appropriate transactional executive framework.
 
 Building systems around an event-driven architecture simplifies horizontal scalability in distributed computing models and makes them more resilient to failure. This is because application state can be copied across multiple parallel snapshots for high-availability. New events can be initiated anywhere, but more importantly propagate across the network of data stores updating each as they arrive. Adding extra nodes becomes trivial as well: you can simply take a copy of the application state, feed it a stream of events and run with it.
+
 <!--ID: 1738239852233-->
 
 END
@@ -4497,6 +4566,7 @@ This topology is useful for events that have multiple steps and require some lev
 Broker topology is useful when you have a relatively simple event processing flow and you do not want (or need) central event orchestration. The message flow is distributed across the event processor components in a chain-like fashion through a lightweight message broker.
 
 ![](../../../Assets/Pasted%20image%2020250130130718.png)
+
 <!--ID: 1738239852235-->
 
 END
@@ -4563,6 +4633,7 @@ A microservices architecture provides this flexibility, as different engineering
 **Continuous Improvement**
 
 DevOps thrives on incremental improvements derived from real-time user feedback, technology changes, use cases, and other sources. As you’ll see in the section below on DevOps components, this is a continuous process based on CI/CD principles.
+
 <!--ID: 1738239852240-->
 
 END
@@ -4609,6 +4680,7 @@ Continuous deployment is the ultimate goal of DevOps, since automating most proc
 Monitoring isn’t just the last step in the DevOps process flow. Teams should be monitoring their workflows all of the time in order to catch bugs before releasing the code to production.
 
 DevOps engineers use various tools that increase observability of the way architecture components work over time to tackle issues that elude manual and automated testing processes. These tools detect and report anomalies automatically, so that teams can correct the code before users encounter issues.
+
 <!--ID: 1738239852243-->
 
 END

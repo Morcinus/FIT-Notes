@@ -7,8 +7,13 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska06 status-toReview
 
-
 ### Základní pojmy
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -32,6 +37,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -53,6 +64,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -79,6 +96,12 @@ END
 ---
 
 ### Stavový prostor
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -108,6 +131,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -120,11 +149,18 @@ Back:
 Stav je **ohodnocení konfiguračních proměnných**
 
 ![](../../../Assets/Pasted%20image%2020241107104804.png)
+
 <!--ID: 1730978213055-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -136,11 +172,18 @@ Definice: **operátory a stavový prostor**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104840.png)
+
 <!--ID: 1730978213059-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -152,11 +195,18 @@ Definice: **Akce** ve stavovém prostoru
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104918.png)
+
 <!--ID: 1730978213063-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -168,11 +218,18 @@ Definice: **graf stavového prostoru algoritmu**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104935.png)
+
 <!--ID: 1730978213066-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -184,11 +241,18 @@ Definice: **okolí stavu**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107104951.png)
+
 <!--ID: 1730978213070-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -200,11 +264,18 @@ Definice: **$k$-okolí stavu**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107105010.png)
+
 <!--ID: 1730978213074-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -216,11 +287,18 @@ Definice: **sousední stavy (sousedé)**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107105038.png)
+
 <!--ID: 1730978213077-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -243,6 +321,12 @@ Operátory, který jde opačným směrem než původní operátor
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -267,6 +351,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -277,11 +367,18 @@ Definice: **Vzdálenost uzlu $s_2$ od $s_1$**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107110030.png)
+
 <!--ID: 1730978213088-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -305,6 +402,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -317,11 +420,18 @@ Back:
 Z **každého stavu** se do **každého stavu** dostanu po **stejně dlouhé cestě**.
 
 ![](../../../Assets/Pasted%20image%2020241107110149.png)
+
 <!--ID: 1730978213096-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -367,6 +477,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -390,6 +506,12 @@ END
 ---
 
 ### Prostor prohledávání
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -422,6 +544,12 @@ END
 
 ### Strategie pohybu ve stavovém a prohledávacím prostoru
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -439,6 +567,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -462,6 +596,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -472,11 +612,18 @@ Definice: **Systematické strategie**
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241107112603.png)
+
 <!--ID: 1730978213117-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -499,6 +646,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -526,6 +679,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -545,6 +704,12 @@ END
 
 #### Lokální heuristiky
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -558,11 +723,18 @@ Lokální heuristika je funkce `try(state)`, která pomáhá najít nejlepšího
 
 Takto vypadá algoritmus využívající lokální heuristiku:
 ![](../../../Assets/Pasted%20image%2020241109155157.png)
+
 <!--ID: 1730978213130-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -582,11 +754,18 @@ Jak funguje:
 ![](../../../Assets/Pasted%20image%2020241107113923.png)
 
 Je to "nejmíň odfláknutá lokální heuristika".
+
 <!--ID: 1730978213133-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -605,6 +784,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -617,11 +802,18 @@ Back:
 Jakmile se najde soused, který je lepším řešením, řekne, že to je ten kandidát na nejlepší řešení.
 
 ![](../../../Assets/Pasted%20image%2020241107114138.png)
+
 <!--ID: 1730978213137-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -635,11 +827,18 @@ Back:
 Při procházení preferuje ty stavy, které jsou nejblíže počátečnímu (resp. ty operátory).
 
 To v některých algoritmech dělá neplechu, protože by výsledek algoritmu neměl záviset na uspořádání jednotlivých stavů/operátorů.
+
 <!--ID: 1730978213141-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -663,6 +862,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -688,6 +893,12 @@ END
 
 #### Pohyb v prohledávacím prostoru
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -698,11 +909,18 @@ Co je **backtracking v prohledávacím prostoru**?
 Back:
 
 Možnost alogritmu se **vrátit v prohledávacím prostoru** (= odvolat nastavení proměnné), **aniž bych musel mít zadefinované inverzní operátory**, abych mohl skákat potřeboval "skákat zpět".
+
 <!--ID: 1730978213543-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -721,6 +939,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -731,11 +955,18 @@ Na co se vztahuje **prořezávání** v prohledávacím prostoru?
 Back:
 
 Prořezávání se vztahuje na **oblast stavového prostoru**
+
 <!--ID: 1730978213610-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -762,6 +993,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -785,6 +1022,12 @@ Tzn. nejsem v celých číslech, ale v racionálních.
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -815,6 +1058,12 @@ END
 ---
 
 #### Prořezávání stavového prostoru
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card

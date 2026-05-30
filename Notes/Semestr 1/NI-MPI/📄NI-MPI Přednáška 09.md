@@ -7,7 +7,6 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska09 status-toReview numerika1
 
-
 <!--
 Exam Note ID: NI-SPOL-05
 Exam Note Section Name: Reprezentace čísel v počítači
@@ -117,6 +116,7 @@ Back:
 - $e = 5$
 
 Tags: core
+
 <!--ID: 1735812207565-->
 
 END
@@ -142,6 +142,7 @@ Back:
 - $e = 8$
 
 Tags: core
+
 <!--ID: 1735812207571-->
 
 END
@@ -167,6 +168,7 @@ Back:
 - $e = 11$
 
 Tags: core
+
 <!--ID: 1735812207573-->
 
 END
@@ -189,6 +191,7 @@ Pokud $e = 2^d-1$ a $m \neq 0$, tak $x = \ ?$
 Back:
 
 $$x = \text{NaN}$$
+
 <!--ID: 1735205749514-->
 
 END
@@ -211,6 +214,7 @@ Pokud $e = 2^d-1$ a $m = 0$, tak $x = \ ?$
 Back:
 
 $$x = (-1)^s \cdot \text{Inf}$$
+
 <!--ID: 1735205749517-->
 
 END
@@ -235,6 +239,7 @@ Back:
 $$x = (-1)^s \cdot (1.m_2)_2 \cdot 2^{e-b}$$
 
 (tzv. **normalizovaná čísla**)
+
 <!--ID: 1735205749519-->
 
 END
@@ -259,6 +264,7 @@ Back:
 $$x = (-1)^s \cdot (0.m_2)_2 \cdot 2^{1-b}$$
 
 (tzv. **subnormální čísla**)
+
 <!--ID: 1735205749522-->
 
 END
@@ -281,6 +287,7 @@ Pokud $e = 0$ a $m = 0$, tak $x = \ ?$
 Back:
 
 $$x = (-1)^s \cdot 0$$
+
 <!--ID: 1735205749524-->
 
 END
@@ -403,7 +410,8 @@ Nejbližší je určeno podle vybrané strategie:
 - k $\pm$ nekonečnu
 - náhodně
 - usekávání (zaokrouhlování směrem k nule)
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1735205749534-->
 
 END
@@ -426,6 +434,7 @@ Co je **přetečení a podtečení**?
 Back:
 
 Pokud chci reprezentovat číslo mimo rozsah, dochází k **přetečení** nebo **podtečení**.
+
 <!--ID: 1735205749537-->
 
 END
@@ -478,6 +487,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241113113706.png)
 ![](../../../Assets/Pasted%20image%2020241113113721.png)
 ![](../../../Assets/Pasted%20image%2020241113113731.png)
+
 <!--ID: 1735205749542-->
 
 END
@@ -500,6 +510,7 @@ Tvrzení: $\text{fl}(x) = \ ?$
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241113113814.png)
+
 <!--ID: 1735205749544-->
 
 END

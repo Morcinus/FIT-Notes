@@ -7,7 +7,6 @@ up: "[[📖NI-AM1]]"
 TARGET DECK: archive
 FILE TAGS: NI-AM1 prednaska05 status-toReview
 
-
 ### Microservices
 
 <!--
@@ -32,7 +31,8 @@ Back:
 
 - **scaling up** = to co se typicky chápe pod pojmem škálování
 - **scaling down** = když se mi např. snižují počty uživatelů, tak nemá cenu mít obrovský systém, protože tím vyhazuju peníze.
-  <!-- ExplanationEnd -->
+
+<!-- ExplanationEnd -->
 <!--ID: 1736496141940-->
 
 END
@@ -157,6 +157,7 @@ Back:
 - Každou mikroslužbu musím managovat jako zvláštní proces, což je zase **nákladnější a komplikovanější**
 
 V architektuře mikroslužeb proto **musím dělat mikroslužby pouze tam, kde to dává smysl**.
+
 <!--ID: 1736496141953-->
 
 END
@@ -190,7 +191,8 @@ Když by mi dvě mikroslužby pak potřebovaly využívat stejnou funkcionalitu,
 
 - Nevýhoda: mám duplicitní kód v systému (několik mikroslužeb má nainstalováno stejnou knihovnu -> snižuje to výkon)
 - Výhoda: je to všechno přehledný a funguje to dobře.
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1736496141956-->
 
 END
@@ -257,6 +259,7 @@ Back:
 "All people seem to need data processing"
 
 ![](../../../Assets/Pasted%20image%2020241021125455.png)
+
 <!--ID: 1736496141963-->
 
 END
@@ -304,6 +307,7 @@ Např. když vyvíjím appku pro Česko, proč bych neměl mít server v USA?
 Back:
 
 Protože např. mezi Evropou a USA to zabere 84ms, než se udělá three way handshake a než dostanu data. Pokud budu mít hodně requestů, aplikace bude o dost pomalejší.
+
 <!--ID: 1736496141968-->
 
 END
@@ -326,6 +330,7 @@ Co je latence?
 Back:
 
 Jak dlouho na síti trvá přenos elementárních dat (malých dat).
+
 <!--ID: 1736496141971-->
 
 END
@@ -350,6 +355,7 @@ Back:
 Round trip time. Čas než po síti přejde požadavek a odpověď.
 
 Je to $2 \times \text{latence}$
+
 <!--ID: 1736496141974-->
 
 END
@@ -372,6 +378,7 @@ Co je RPT?
 Back:
 
 Request processing time - jak dlouho trvá zpracování požadvku na serveru.
+
 <!--ID: 1736496141976-->
 
 END
@@ -394,6 +401,7 @@ Co je výsledkem three way handshaku?
 Back:
 
 Vytvoří se TCP socket
+
 <!--ID: 1736496141979-->
 
 END
@@ -421,6 +429,7 @@ Back:
 - **cílová port** (serveru)
 
 Tím je jednoznačně identifikovaný každý TCP socket na internetu
+
 <!--ID: 1736496141982-->
 
 END

@@ -50,6 +50,11 @@ FILE TAGS: NI-KOP
 
 #### Relaxace
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -74,6 +79,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -98,6 +108,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -122,6 +137,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -146,6 +166,11 @@ END
 
 #### Randomizovaný algoritmus
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -170,6 +195,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -194,6 +224,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -218,6 +253,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -242,6 +282,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -266,6 +311,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -290,6 +340,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -314,6 +369,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -340,6 +400,11 @@ END
 
 #### Globální metoda
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -372,6 +437,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -396,6 +466,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -420,6 +495,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -446,6 +526,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -472,6 +557,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -500,6 +590,11 @@ END
 
 #### Las Vegas, Monte carlo
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -525,6 +620,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -551,6 +651,11 @@ END
 
 #### Simulované ochlazování
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -575,6 +680,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -608,6 +718,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -635,6 +750,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -655,6 +775,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -679,6 +804,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -699,6 +829,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -721,6 +856,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -741,6 +881,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -761,6 +906,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -785,6 +935,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -807,6 +962,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -831,6 +991,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -853,6 +1018,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -877,6 +1047,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -903,6 +1078,11 @@ END
 
 #### Genetický algoritmus
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -925,6 +1105,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -947,6 +1132,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -969,6 +1159,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -991,6 +1186,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1013,6 +1213,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1035,6 +1240,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1057,6 +1267,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1079,6 +1294,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1103,6 +1323,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1125,6 +1350,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1147,6 +1377,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1170,6 +1405,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1194,6 +1434,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1216,6 +1461,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1240,6 +1490,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1262,6 +1517,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1284,6 +1544,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1306,6 +1571,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1330,6 +1600,11 @@ END
 
 #### Genetické programování
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1356,6 +1631,11 @@ END
 
 #### Simulovaná evoluce
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1380,6 +1660,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1404,6 +1689,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1427,6 +1717,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1453,6 +1748,11 @@ END
 
 #### Bayesovská optimalizace
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1476,6 +1776,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1500,6 +1805,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1524,6 +1834,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1550,6 +1865,11 @@ END
 
 #### fmGA
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1575,6 +1895,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1599,6 +1924,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1622,6 +1952,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1646,6 +1981,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1669,6 +2009,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1693,6 +2038,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1717,6 +2067,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1743,6 +2098,11 @@ END
 
 #### Dynamické programování
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1767,6 +2127,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1793,6 +2158,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1817,6 +2187,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1841,6 +2216,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1865,6 +2245,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1893,6 +2278,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1923,6 +2313,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1948,6 +2343,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -1974,6 +2374,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2000,6 +2405,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2024,6 +2434,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2048,6 +2463,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2074,6 +2494,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2098,6 +2523,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2122,6 +2552,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2146,6 +2581,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2170,6 +2610,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2194,6 +2639,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2218,6 +2668,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2242,6 +2697,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2266,6 +2726,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2292,6 +2757,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2316,6 +2786,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2340,6 +2815,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2374,6 +2854,11 @@ END
 
 #### Konkrétní problémy
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2400,6 +2885,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2426,6 +2916,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2450,6 +2945,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2480,6 +2980,11 @@ END
 
 #### Stavový prostor
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2505,6 +3010,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2529,6 +3039,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2559,6 +3074,11 @@ END
 
 #### Obecné
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2581,6 +3101,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2603,6 +3128,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2627,6 +3157,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2651,6 +3186,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2675,6 +3215,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2697,6 +3242,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2719,6 +3269,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2741,6 +3296,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2763,6 +3323,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2785,6 +3350,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2807,6 +3377,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2829,6 +3404,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2851,6 +3431,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2873,6 +3458,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2897,6 +3487,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2919,6 +3514,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2940,6 +3540,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2961,6 +3566,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -2983,6 +3593,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3005,6 +3620,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3027,6 +3647,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3051,6 +3676,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3073,6 +3703,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3095,6 +3730,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3119,6 +3759,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3143,6 +3788,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3167,6 +3817,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3191,6 +3846,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3213,6 +3873,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3237,6 +3902,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3259,6 +3929,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3281,6 +3956,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3305,6 +3985,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3327,6 +4012,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3343,6 +4033,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3365,6 +4060,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3389,6 +4089,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3409,6 +4114,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3433,6 +4143,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3455,6 +4170,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3479,6 +4199,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3501,6 +4226,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3523,6 +4253,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3547,6 +4282,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3569,6 +4309,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3595,6 +4340,11 @@ END
 
 #### Otevřené otázky
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3647,6 +4397,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3699,6 +4454,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3756,6 +4516,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3802,6 +4567,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3848,6 +4618,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3869,6 +4644,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3914,6 +4694,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3934,6 +4719,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3958,6 +4748,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3978,6 +4773,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -3999,6 +4799,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -4021,6 +4826,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -4041,6 +4851,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 
@@ -4061,6 +4876,11 @@ END
 
 ---
 
+<!--
+Exam Note ID: none
+Exam Note Section Name: none
+Migration Status: done
+-->
 START
 FIT-Card
 

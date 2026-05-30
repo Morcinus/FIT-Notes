@@ -7,7 +7,6 @@ up: "[[📖NI-TSW]]"
 TARGET DECK: archive
 FILE TAGS: NI-TSW prednaska05 status-toReview
 
-
 ### Scrum
 
 START
@@ -20,6 +19,7 @@ Jaká je max délka sprintu ve Scrumu?
 Back:
 
 Max měsíc. pak už to není agilní
+
 <!--ID: 1735205748801-->
 
 END
@@ -48,6 +48,7 @@ Back:
    - Např. málo kafe, stories byly přepálený, blbě naplánovaný story pointy atd.
 
 Tímto procesem se dělají postupné inkrementy.
+
 <!--ID: 1735205748805-->
 
 END
@@ -105,6 +106,7 @@ Co má každý říct při scrum standupu?
 Back:
 
 Co jsem dělal včera, co budu dělat dneska, jaký mám problém
+
 <!--ID: 1735205748813-->
 
 END
@@ -123,6 +125,7 @@ Back:
 Nemělo by se to řešit na tom meetingu!
 
 Měl by to pak manager sám vyřešit
+
 <!--ID: 1735205748815-->
 
 END
@@ -170,6 +173,7 @@ Je agilita rychlejší než waterfall?
 Back:
 
 Ne, je to cca stejně rychlý, jen to je jinak poskládaný.
+
 <!--ID: 1735205748821-->
 
 END
@@ -188,6 +192,7 @@ Back:
 Protože můžu pak člověku dát hodinovku a odhad ceny té změny a zákazník si to může měnit jak chce.
 
 Když mám fixed time fixed price, je tam dost stres, aby se to stihlo atd., takže jakákoliv změna je pain.
+
 <!--ID: 1735205748823-->
 
 END
@@ -252,7 +257,8 @@ Tím pokryju ty věci jako:
 
 - spálený čas tím že se dohaduju o změnách, které pak nejsou implementované
 - spálený čas tím, že dělám nabídky, které nejsou přijmuty
-  <!-- ExplanationEnd -->
+
+<!-- ExplanationEnd -->
 <!--ID: 1735205748832-->
 
 END
@@ -372,6 +378,7 @@ Podle čeho je specifikována kvalita?
 Back:
 
 Hodně podle ISO norem. Např. ISO 10 004 atd. Můžu si najít další.
+
 <!--ID: 1735205748847-->
 
 END
@@ -413,6 +420,7 @@ Je TQM v rámci projektu nebo firmy?
 Back:
 
 V rámci celé firmy, není to jen testování softwaru.
+
 <!--ID: 1735205748852-->
 
 END
@@ -476,6 +484,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241218101738.png)
 
 ![](../../../Assets/Pasted%20image%2020241218101906.png)
+
 <!--ID: 1735205748860-->
 
 END
@@ -496,6 +505,7 @@ Podle ISO norem, jsou placné..
 U softwarových projektů se to používá jak kdy.. Např. u medicíny nebo projektování baráků to je víc
 
 ![](../../../Assets/Pasted%20image%2020241218101916.png)
+
 <!--ID: 1735205748863-->
 
 END
@@ -545,6 +555,7 @@ Back:
 - **C chyby** - drobné chyby - UI
 
 Mělo by to být přesně ve smlouvě, co je co.
+
 <!--ID: 1735205748868-->
 
 END
@@ -563,6 +574,7 @@ Back:
 **Monkey testing** = člověk si spustí aplikaci na náhodně si tam kliká
 
 Chyba: nemělo by se to používat jako akceptační testy, protože pak si tam zákazník navymýšlí hromadu chyb a změn atd.
+
 <!--ID: 1735205748871-->
 
 END
@@ -579,6 +591,7 @@ Jaké jsou nejčastější chyby při testování?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241218102711.png)
+
 <!--ID: 1735205748873-->
 
 END
@@ -595,6 +608,7 @@ Kdy testovat automatizovaně?
 Back:
 
 Např. signup page se bude testovat při každém releasu, je dobrý to testovat automatizovaně.
+
 <!--ID: 1735205748876-->
 
 END

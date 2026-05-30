@@ -7,7 +7,6 @@ up: "[[📖NI-MPI]]"
 TARGET DECK: archive
 FILE TAGS: NI-MPI prednaska07 status-toReview analyza4
 
-
 <!--
 Exam Note ID: NI-SPOL-04
 Exam Note Section Name: Integrál funkcí více proměnných (Darbouxova konstrukce)
@@ -28,7 +27,8 @@ Back:
 <!-- DetailInfoStart -->
 
 - **Typ 1** - $D = \set {(x,y) \in \mathbb{R}^2: x \in <a,b> \land \varphi_1(\lambda) \leq y \leq \varphi_2(\lambda)}$
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1735205889362-->
 
 END
@@ -103,6 +103,7 @@ Back:
 <!-- ExampleEnd -->
 
 Tags: core
+
 <!--ID: 1735205889369-->
 
 END
@@ -127,6 +128,7 @@ Jak lze spočíst povrch grafu $f(x,y)$ nad $D$?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241023150357.png)
+
 <!--ID: 1735205889372-->
 
 END
@@ -188,6 +190,7 @@ Každému vektoru se přiřadá nějaká matice.
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205889377-->
 
 END
@@ -218,6 +221,7 @@ Může se stát, že ta část napravo se počítá jednoduššeji, než ta čá
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205889380-->
 
 END

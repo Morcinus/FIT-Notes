@@ -7,6 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska09 status-toReview
 
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -21,11 +26,18 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127151350.png)
 
 Tags: core
+
 <!--ID: 1735205749650-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -49,11 +61,18 @@ Back:
 <!-- ImageEnd -->
 
 Tags: core
+
 <!--ID: 1735205749653-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -68,6 +87,7 @@ Back:
 - Prostředky **intenzifikace**: **selekce**
 
 Tags: core
+
 <!--ID: 1735205749655-->
 
 END
@@ -75,6 +95,12 @@ END
 ---
 
 ### Evoluční algoritmy
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -94,6 +120,12 @@ Back:
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -115,11 +147,18 @@ Nad **binárním řetěžcem**
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749658-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -135,11 +174,18 @@ Back:
 Nad **stromama**, programem, DFG (data flow graph)
 
 Tags: core
+
 <!--ID: 1735205749660-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -155,11 +201,18 @@ Back:
 Nad **vektorem reálných čísel a odchylek**
 
 Tags: core
+
 <!--ID: 1735205749663-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -175,6 +228,7 @@ Back:
 Nad reprezentací **automatu**.
 
 Tags: core
+
 <!--ID: 1735205749665-->
 
 END
@@ -182,6 +236,12 @@ END
 ---
 
 ### Generace
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -197,11 +257,18 @@ Back:
   - soutěž $\mu$ rodičů a $\lambda$ potomků, vyberu $\mu$ nových jedinců
 
 Tags: core
+
 <!--ID: 1735205749668-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -229,6 +296,7 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749670-->
 
 END
@@ -238,6 +306,12 @@ END
 ### Genetické algoritmy
 
 #### Kódování
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -249,6 +323,7 @@ Jak se reprezentují jedinci v genetických algoritmech?
 Back:
 
 Kódujou se pomocí binárního řetězce.
+
 <!--ID: 1737735239334-->
 
 END
@@ -256,6 +331,12 @@ END
 ---
 
 #### Křížení
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -275,11 +356,18 @@ Vezmu si bod v binární reprezentaci a vezmu jednu část z jednoho jedince a d
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205749675-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -299,11 +387,18 @@ Náhodně zvolím dva body a mezi nimi tam vložím gen druhého jedince
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205749678-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -323,11 +418,18 @@ Udělám si mapu, co budu brát ze kterého jedince.
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205749680-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -355,11 +457,18 @@ Zde:
 <!-- ExampleEnd -->
 
 Tags: core
+
 <!--ID: 1735205749683-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -373,6 +482,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241127154327.png)
 
 Tags: core
+
 <!--ID: 1735205749685-->
 
 END
@@ -380,6 +490,12 @@ END
 ---
 
 #### Mutace
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -402,11 +518,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749688-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -429,11 +552,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749690-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -453,11 +583,18 @@ Selekční tlak mi určuje pravděpodobnost výběru nejlepšího jedince.
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205749693-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -478,11 +615,18 @@ Pomocí selekce ztrácím určité informace. Mutace mi to trochu kompenzuje, ab
 <!-- ImageEnd -->
 
 Tags: core
+
 <!--ID: 1735205749695-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -508,11 +652,18 @@ Je nebezpečná degenerace populace (zasekne se v lokálním optimu).
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749698-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -534,11 +685,18 @@ Hrozí i **divergence populace** - tzn. když budu mutovat tak moc, že mi to p�
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749700-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -558,11 +716,18 @@ Každému prvku dám pravděpodobnost výběru a roztočím ruletu a zvolím tí
 <!-- ImageEnd -->
 
 Tags: core
+
 <!--ID: 1735205749703-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -582,11 +747,18 @@ Mírná úprava ruletového výběru, aby to dávalo lepší výsledky
 <!-- ImageEnd -->
 
 Tags: core
+
 <!--ID: 1735205749708-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -608,11 +780,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749713-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -637,11 +816,18 @@ Lineární škálování je funkce, která mi přepočítá zdatnosti jedinců t
 <!-- ExampleEnd -->
 
 Tags: core
+
 <!--ID: 1735205749716-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -664,6 +850,12 @@ $$c = \frac{Z_2}{nZ_{avg}}$$
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -694,6 +886,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -714,11 +912,18 @@ Funguje to tak, že si nastavím nějakou čáru a zdatnosti přeškáluju tak, 
 <!-- ImageEnd -->
 
 Tags: core
+
 <!--ID: 1735205749723-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Význam selekčního tlaku pro jejich funkci
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -746,6 +951,7 @@ Je to méně přesné než ostatní možnosti.
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749725-->
 
 END
@@ -753,6 +959,12 @@ END
 ---
 
 #### Turnajový výběr
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -773,11 +985,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749728-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -792,6 +1011,7 @@ Back:
 - Příznaky konvergence
 
 Tags: core
+
 <!--ID: 1735205749730-->
 
 END
@@ -799,6 +1019,12 @@ END
 ---
 
 ### Omezující podmínky
+
+<!--
+Exam Note ID: NI-SPOL-14
+Exam Note Section Name: Princip genetických algoritmů
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -821,6 +1047,7 @@ Specifické
 - **doménové reprezentace** a dekódery
 
 Tags: core
+
 <!--ID: 1735205749733-->
 
 END

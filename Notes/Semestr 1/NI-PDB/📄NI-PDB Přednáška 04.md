@@ -10,7 +10,6 @@ FILE TAGS: NI-PDB prednaska04 status-toReview
 > [!info] Další užitečné materiály
 > Podrobnější informace o advanced dotazování atd. zde: https://courses.fit.cvut.cz/NI-PDB/lectures/04-mongodb/index.html
 
-
 ### JSON
 
 <!--
@@ -29,6 +28,7 @@ Co je **JSON**?
 Back:
 
 **Otevřený standard pro strukturu dat.**
+
 <!--ID: 1729236692764-->
 
 END
@@ -79,6 +79,7 @@ Má **objekt** v JSONu **setřízený** atributy nebo ne?
 Back:
 
 Atributy jsou **nesetřízené**.
+
 <!--ID: 1729236692786-->
 
 END
@@ -101,6 +102,7 @@ Má **array** v JSONu **setřízené atributy** nebo ne?
 Back:
 
 Atributy jsou **setřízené**.
+
 <!--ID: 1729236692794-->
 
 END
@@ -150,6 +152,7 @@ Může mít **JSON** hodnotu atributu `undefined`?
 Back:
 
 Ne, hodnoty, které jsou `undefined` jsou při vytváření JSONu ignorovány.
+
 <!--ID: 1729236692814-->
 
 END
@@ -244,7 +247,8 @@ Back:
 
 - Podle Michala Valenty je dost profláklý a používaný
 - Bylo to založeno v roce 2009 a podle Michala Valenty to už je mature projekt
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1729236692841-->
 
 END
@@ -267,6 +271,7 @@ S jakými dokumenty pracuje **MongoDB**?
 Back:
 
 S kolekcemi **JSON dokumentů**
+
 <!--ID: 1729236692851-->
 
 END
@@ -372,6 +377,7 @@ Proč se v MongoDB **nedoporučuje** přidělovat IDčka **autoinkrementem**, al
 Back:
 
 Protože ta databáze může být naškálovaná (na více místech), potom přidělování IDček bude složité.
+
 <!--ID: 1729236692887-->
 
 END
@@ -401,7 +407,8 @@ Back:
 - Má 12 bytů
 - Je velice rychlý na vygenerování
 - "Likely unique" - tzn. když vytvořím dva dokumenty v jeden čas, je velice malá pravděpodobnost, že by měly stejné id
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1729236692896-->
 
 END
@@ -548,6 +555,7 @@ Jak funguje vytváření kolekcí v MongoDB?
 Back:
 
 Můžu si kolekci vytvořit sám příkazem, ale dělá se to typicky tak, že normálně použiju **insert** a pokud ta kolekce neexistuje, tak ji MongoDB samo vytvoří.
+
 <!--ID: 1729236692945-->
 
 END
@@ -572,6 +580,7 @@ Back:
 Normálně se to nedělá, MongoDB si vygeneruje idčko samo.
 
 _(ale samozřejmě můžu)_
+
 <!--ID: 1729236692953-->
 
 END
@@ -598,6 +607,7 @@ Back:
 Protože je **rychlejší**, než update.
 
 Proto pokud chci přepsat celý dokument, měl bych použít replace.
+
 <!--ID: 1729236692961-->
 
 END
@@ -997,6 +1007,7 @@ Back:
 `$aggregate` můžu použít místo find a udělat tak komplexnější query
 
 V rámci toho pak můžu použít `$lookup` a `$unwind`, které mi umožňí např. vyhledat podle reference daný dokument v jiné kolekci.
+
 <!--ID: 1729236693058-->
 
 END

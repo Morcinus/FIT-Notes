@@ -6,7 +6,6 @@ up: "[[📖NI-ADP]]"
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska03 status-toReview
 
-
 START
 FIT-Card
 
@@ -43,6 +42,7 @@ Back:
 Zaobývá se rozdělením zodpovědností z hlediska modulů a systémů.
 
 Není o konkrétních třídách, ale modulech a systémech.
+
 <!--ID: 1729237386357-->
 
 END
@@ -103,6 +103,7 @@ Back:
 Typicky **ne**.
 
 **Modifikace** je breaking change, **rozšíření** aplikace ne.
+
 <!--ID: 1729237386363-->
 
 END
@@ -145,6 +146,7 @@ Co je **the boy scout rule**?
 Back:
 
 Vždy nechat kód lepší, než jak jsem ho našel.
+
 <!--ID: 1729237386368-->
 
 END
@@ -178,7 +180,8 @@ Měl bych:
 
 - Být konzistentní s očekáváním člověka - metody by měly dělat to, co by člověk očekával
 - Předvídatelnost atd.
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1729237386371-->
 
 END
@@ -198,6 +201,7 @@ Back:
 
 **Design pattern** - řeší konkrétní problém
 **Design princip** - obecný princip co dodržovat při kódění
+
 <!--ID: 1729237386374-->
 
 END
@@ -261,6 +265,7 @@ if(ins == null) {
 }
 
 ```
+
 <!--ID: 1729237386380-->
 
 END
@@ -289,6 +294,7 @@ Výhoda:
 - Mám vytváření objektů na jednom místě.
 
 ![](../../../Assets/Pasted%20image%2020241015182258.png)
+
 <!--ID: 1729237386383-->
 
 END
@@ -362,7 +368,8 @@ Kde se to prakticky používá:
 Nevýhoda:
 
 - Když rozšířím objekt o další atribut, musím rozšířit i ten builder
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1729237386389-->
 
 END

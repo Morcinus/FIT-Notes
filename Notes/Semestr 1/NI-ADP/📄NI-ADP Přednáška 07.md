@@ -8,7 +8,6 @@ up:
 TARGET DECK: archive
 FILE TAGS: NI-ADP prednaska07 status-toReview
 
-
 ### Iterátor
 
 START
@@ -87,7 +86,8 @@ Tohle se obecně moc nepoužívá
 Zero-one-infinity princip:
 
 - Buď bych měl možnost mít nula instancí
-  <!-- DetailInfoEnd -->
+
+<!-- DetailInfoEnd -->
 <!--ID: 1736497489525-->
 
 END
@@ -192,6 +192,7 @@ Back:
 Službu nevytvářím při startu programu, ale až když ji potřebuju.
 
 Nebo např. infinite scroll na frontendu. Uživateli načítám data až když se obrazovkou přiblíží k tomu contentu. Např. stránkování.
+
 <!--ID: 1736497489544-->
 
 END
@@ -267,6 +268,7 @@ Snaha je vyvtářet závislosti směrem do centra toho programu.
 - **frameworks and drivers** -
 
 ![](../../../Assets/Pasted%20image%2020241105190549.png)
+
 <!--ID: 1736497489558-->
 
 END

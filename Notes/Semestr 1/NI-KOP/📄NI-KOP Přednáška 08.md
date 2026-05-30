@@ -7,6 +7,11 @@ up: "[[📖NI-KOP]]"
 TARGET DECK: archive
 FILE TAGS: NI-KOP prednaska08 status-toReview
 
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Obrana před uváznutím v lokálním minimu
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -31,11 +36,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749600-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Obrana před uváznutím v lokálním minimu
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -58,6 +70,12 @@ END
 ---
 
 ### Pokročilé heuristiky
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Obrana před uváznutím v lokálním minimu
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -84,6 +102,7 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749605-->
 
 END
@@ -91,6 +110,12 @@ END
 ---
 
 ### Simulované ochlazování
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Princip simulovaného ochlazování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -113,11 +138,18 @@ Máme nějaký systém:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749607-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Princip simulovaného ochlazování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -144,11 +176,18 @@ Dovysvětlení:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749609-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Princip simulovaného ochlazování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -170,11 +209,18 @@ Více o jednotlivých funkcích v dalších kartičkách.
 <!-- ExplanationEnd -->
 
 Tags: core
+
 <!--ID: 1735205749612-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Princip simulovaného ochlazování
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -188,6 +234,7 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120163930.png)
 
 Problém ale je, jak máme vědět hloubku lokálních optim?
+
 <!--ID: 1735205749614-->
 
 END
@@ -195,6 +242,12 @@ END
 ---
 
 ### Nasazení simulovaného ochlazování
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -217,6 +270,12 @@ END
 
 ---
 
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
+
 START
 FIT-Card
 
@@ -231,11 +290,18 @@ Je třeba tu hodnotu **normalizovat** tak, aby hodnoty `cost()` měly **stejný 
 ![](../../../Assets/Pasted%20image%2020241120164427.png)
 
 Tags: core
+
 <!--ID: 1735205749619-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -249,11 +315,18 @@ Back:
 Typicky teplotu přenásobím nějakou konstantou $\alpha$, kde $0.8 < \alpha < 0.999$
 
 Tags: core
+
 <!--ID: 1735205749622-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -267,11 +340,18 @@ Back:
 ![](../../../Assets/Pasted%20image%2020241120164552.png)
 
 Tags: core
+
 <!--ID: 1735205749625-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -295,11 +375,18 @@ Ve vzorečku mi vypadlo N -> nezávisí na tom, v jakém kroku se momentálně n
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749628-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -320,11 +407,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749631-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -337,11 +431,18 @@ Back:
 
 ![](../../../Assets/Pasted%20image%2020241120165122.png)
 ![](../../../Assets/Pasted%20image%2020241120165131.png)
+
 <!--ID: 1735205749633-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -364,11 +465,18 @@ Back:
 <!-- DetailInfoEnd -->
 
 Tags: core
+
 <!--ID: 1735205749636-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -380,11 +488,18 @@ Jaké vlastnosti má mít stavový prostor při simulovaném ochlazování?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241120165630.png)
+
 <!--ID: 1735205749639-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -396,11 +511,18 @@ Jak se nastavují omezující podmínky při simulovaném ochlazování?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241120165712.png)
+
 <!--ID: 1735205749642-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-15
+Exam Note Section Name: Význam parametrů a způsoby jejich řízení
+Migration Status: done
+-->
 
 START
 FIT-Card
@@ -412,11 +534,18 @@ Jaké jsou 2 možnosti počátečního řešení v simulovaném ochlazování?
 Back:
 
 ![](../../../Assets/Pasted%20image%2020241120165738.png)
+
 <!--ID: 1735205749645-->
 
 END
 
 ---
+
+<!--
+Exam Note ID: NI-SPOL-13
+Exam Note Section Name: Princip lokálních heuristik
+Migration Status: done
+-->
 
 START
 FIT-Card
